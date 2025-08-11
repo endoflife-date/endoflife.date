@@ -3,23 +3,23 @@ info:
   title: endoflife.date
   version: 0.0.1
   summary: endoflife.date API
-  description: 'Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki).'
+  description: "Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki)."
   license:
     name: MIT
-    url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
+    url: "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
   contact:
-    url: 'https://github.com/endoflife-date/endoflife.date/issues/new/choose'
+    url: "https://github.com/endoflife-date/endoflife.date/issues/new/choose"
     name: Team endoflife.date
 servers:
-  - url: 'https://endoflife.date'
+  - url: "https://endoflife.date"
     description: Production API
 paths:
-  '/api/{product}.json':
+  "/api/{product}.json":
     get:
       summary: Get All Details
       tags: []
       responses:
-        '200':
+        "200":
           description: OK
           headers: {}
           content:
@@ -27,37 +27,37 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/cycle'
+                  $ref: "#/components/schemas/cycle"
               examples:
                 /api/ubuntu.json:
                   value:
-                    - cycle: '21.04'
+                    - cycle: "21.04"
                       lts: false
-                      releaseDate: '2021-04-22'
-                      support: '2022-01-01'
-                      eol: '2022-01-01'
-                      latest: '21.04'
-                      link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
-                    - cycle: '20.10'
+                      releaseDate: "2021-04-22"
+                      support: "2022-01-01"
+                      eol: "2022-01-01"
+                      latest: "21.04"
+                      link: "https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/"
+                    - cycle: "20.10"
                       lts: false
-                      releaseDate: '2020-10-22'
-                      support: '2021-07-07'
-                      eol: '2021-07-07'
-                      latest: '20.10'
-                      link: 'https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/'
+                      releaseDate: "2020-10-22"
+                      support: "2021-07-07"
+                      eol: "2021-07-07"
+                      latest: "20.10"
+                      link: "https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/"
                 /api/python.json:
                   value:
                     - cycle: 3.9
-                      releaseDate: '2020-10-05'
-                      eol: '2025-10-05'
+                      releaseDate: "2020-10-05"
+                      eol: "2025-10-05"
                       latest: 3.9.5
-                      link: 'https://www.python.org/downloads/release/python-395/'
+                      link: "https://www.python.org/downloads/release/python-395/"
                     - cycle: 3.8
-                      releaseDate: '2019-10-14'
-                      eol: '2024-10-14'
+                      releaseDate: "2019-10-14"
+                      eol: "2024-10-14"
                       latest: 3.8.10
-                      link: 'https://www.python.org/downloads/release/python-3810/'
-      operationId: 'get-api-:product.json'
+                      link: "https://www.python.org/downloads/release/python-3810/"
+      operationId: "get-api-:product.json"
       description: Get EoL dates of all cycles of a given product.
       parameters:
         - schema:
@@ -66,33 +66,33 @@ paths:
           in: path
           required: true
           description: Product URL as per the canonical URL on the endofife.date website.
-  '/api/{product}/{cycle}.json':
+  "/api/{product}/{cycle}.json":
     get:
       summary: Single cycle details
       tags: []
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/cycle'
+                $ref: "#/components/schemas/cycle"
               examples:
                 /api/python/3.9.json:
                   value:
-                    releaseDate: '2020-10-05'
-                    eol: '2025-10-05'
+                    releaseDate: "2020-10-05"
+                    eol: "2025-10-05"
                     latest: 3.9.5
-                    link: 'https://www.python.org/downloads/release/python-395/'
+                    link: "https://www.python.org/downloads/release/python-395/"
                 /api/ubuntu/21.04.json:
                   value:
                     lts: false
-                    releaseDate: '2021-04-22'
-                    support: '2022-01-01'
-                    eol: '2022-01-01'
-                    latest: '21.04'
-                    link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
-      operationId: 'get-api-:product-:cycle.json'
+                    releaseDate: "2021-04-22"
+                    support: "2022-01-01"
+                    eol: "2022-01-01"
+                    latest: "21.04"
+                    link: "https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/"
+      operationId: "get-api-:product-:cycle.json"
       description: Gets details of a single cycle.
       parameters:
         - schema:
@@ -112,7 +112,7 @@ paths:
       summary: All Products
       tags: []
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -187,88 +187,88 @@ components:
       x-examples:
         python:
           - cycle: 3.9
-            releaseDate: '2020-10-05'
-            eol: '2025-10-05'
+            releaseDate: "2020-10-05"
+            eol: "2025-10-05"
             latest: 3.9.5
-            link: 'https://www.python.org/downloads/release/python-395/'
+            link: "https://www.python.org/downloads/release/python-395/"
           - cycle: 3.8
-            releaseDate: '2019-10-14'
-            eol: '2024-10-14'
+            releaseDate: "2019-10-14"
+            eol: "2024-10-14"
             latest: 3.8.10
-            link: 'https://www.python.org/downloads/release/python-3810/'
+            link: "https://www.python.org/downloads/release/python-3810/"
           - cycle: 3.7
-            releaseDate: '2018-06-27'
-            eol: '2023-06-27'
+            releaseDate: "2018-06-27"
+            eol: "2023-06-27"
             latest: 3.7.10
-            link: 'https://www.python.org/downloads/release/python-3710/'
+            link: "https://www.python.org/downloads/release/python-3710/"
           - cycle: 3.6
-            releaseDate: '2016-12-23'
-            eol: '2021-12-23'
+            releaseDate: "2016-12-23"
+            eol: "2021-12-23"
             latest: 3.6.13
-            link: 'https://www.python.org/downloads/release/python-3613/'
+            link: "https://www.python.org/downloads/release/python-3613/"
           - cycle: 3.5
-            releaseDate: '2015-09-30'
-            eol: '2020-09-13'
+            releaseDate: "2015-09-30"
+            eol: "2020-09-13"
             latest: 3.5.10
-            link: 'https://www.python.org/downloads/release/python-3510/'
+            link: "https://www.python.org/downloads/release/python-3510/"
           - cycle: 3.4
-            releaseDate: '2014-03-16'
-            eol: '2019-03-18'
+            releaseDate: "2014-03-16"
+            eol: "2019-03-18"
             latest: 3.4.10
-            link: 'https://www.python.org/downloads/release/python-3410/'
+            link: "https://www.python.org/downloads/release/python-3410/"
           - cycle: 3.3
-            releaseDate: '2012-09-29'
-            eol: '2017-09-29'
+            releaseDate: "2012-09-29"
+            eol: "2017-09-29"
             latest: 3.3.7
-            link: 'https://www.python.org/downloads/release/python-337/'
+            link: "https://www.python.org/downloads/release/python-337/"
           - cycle: 2.7
-            releaseDate: '2010-07-03'
-            eol: '2020-01-01'
+            releaseDate: "2010-07-03"
+            eol: "2020-01-01"
             latest: 2.7.18
-            link: 'https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst'
+            link: "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst"
         ubuntu:
-          - cycle: '21.04'
+          - cycle: "21.04"
             lts: false
-            releaseDate: '2021-04-22'
-            support: '2022-01-01'
-            eol: '2022-01-01'
-            latest: '21.04'
-            link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
-          - cycle: '20.10'
+            releaseDate: "2021-04-22"
+            support: "2022-01-01"
+            eol: "2022-01-01"
+            latest: "21.04"
+            link: "https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/"
+          - cycle: "20.10"
             lts: false
-            releaseDate: '2020-10-22'
-            support: '2021-07-07'
-            eol: '2021-07-07'
-            latest: '20.10'
-            link: 'https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/'
-          - cycle: '20.04'
+            releaseDate: "2020-10-22"
+            support: "2021-07-07"
+            eol: "2021-07-07"
+            latest: "20.10"
+            link: "https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/"
+          - cycle: "20.04"
             lts: true
-            releaseDate: '2020-04-23'
-            support: '2022-10-01'
-            eol: '2025-04-02'
+            releaseDate: "2020-04-23"
+            support: "2022-10-01"
+            eol: "2025-04-02"
             latest: 20.04.2
-          - cycle: '19.10'
-            releaseDate: '2019-10-17'
-            support: '2020-07-06'
-            eol: '2020-07-06'
-            latest: '19.10'
-          - cycle: '18.04'
+          - cycle: "19.10"
+            releaseDate: "2019-10-17"
+            support: "2020-07-06"
+            eol: "2020-07-06"
+            latest: "19.10"
+          - cycle: "18.04"
             lts: true
-            releaseDate: '2018-04-26'
-            support: '2020-09-30'
-            eol: '2023-04-02'
+            releaseDate: "2018-04-26"
+            support: "2020-09-30"
+            eol: "2023-04-02"
             latest: 18.04.5
-          - cycle: '16.04'
+          - cycle: "16.04"
             lts: true
-            releaseDate: '2016-04-21'
-            support: '2018-10-01'
-            eol: '2021-04-02'
+            releaseDate: "2016-04-21"
+            support: "2018-10-01"
+            eol: "2021-04-02"
             latest: 16.04.7
-          - cycle: '14.04'
+          - cycle: "14.04"
             lts: true
-            releaseDate: '2014-04-17'
-            support: '2016-09-30'
-            eol: '2019-04-02'
+            releaseDate: "2014-04-17"
+            support: "2016-09-30"
+            eol: "2019-04-02"
             latest: 14.04.6
       type: object
       description: Details of a single release cycle of a given product. There might be some slight variations to this depending on the product.
@@ -298,7 +298,7 @@ components:
         link:
           type:
             - string
-            - 'null'
+            - "null"
           minLength: 1
           description: Link to changelog for the latest release in this cycle, or null if unavailable.
         lts:

@@ -10,21 +10,21 @@ changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if
 eoasColumn: true
 
 customFields:
--   name: supportedPhpVersions
+  - name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
     link: https://moodledev.io/general/development/policies/php
 
 identifiers:
--   repology: moodle
--   cpe: cpe:/a:moodle:moodle
--   cpe: cpe:2.3:a:moodle:moodle
+  - repology: moodle
+  - cpe: cpe:/a:moodle:moodle
+  - cpe: cpe:2.3:a:moodle:moodle
 
 auto:
   methods:
-  -   git: https://github.com/moodle/moodle.git
-  -   release_table: https://moodledev.io/general/releases
+    - git: https://github.com/moodle/moodle.git
+    - release_table: https://moodledev.io/general/releases
       selector: "table"
       fields:
         releaseCycle:
@@ -37,7 +37,7 @@ auto:
 # dates see https://moodledev.io/general/releases
 # supportedPhpVersions can be found in the release notes and https://moodledev.io/general/development/policies/php
 releases:
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2025-04-14
     eoas: 2026-04-20
     eol: 2026-10-05
@@ -45,7 +45,7 @@ releases:
     latest: "5.0.2"
     latestReleaseDate: 2025-08-08
 
--   releaseCycle: "4.5"
+  - releaseCycle: "4.5"
     lts: true
     releaseDate: 2024-10-07
     eoas: 2025-10-06
@@ -54,7 +54,7 @@ releases:
     latest: "4.5.6"
     latestReleaseDate: 2025-08-08
 
--   releaseCycle: "4.4"
+  - releaseCycle: "4.4"
     releaseDate: 2024-04-22
     eoas: 2025-04-21
     eol: 2025-12-08
@@ -62,7 +62,7 @@ releases:
     latest: "4.4.10"
     latestReleaseDate: 2025-08-08
 
--   releaseCycle: "4.3"
+  - releaseCycle: "4.3"
     releaseDate: 2023-10-07
     eoas: 2024-10-07
     eol: 2025-04-21
@@ -70,7 +70,7 @@ releases:
     latest: "4.3.12"
     latestReleaseDate: 2025-04-13
 
--   releaseCycle: "4.2"
+  - releaseCycle: "4.2"
     releaseDate: 2023-04-22
     eoas: 2024-04-22
     eol: 2024-10-07
@@ -78,7 +78,7 @@ releases:
     latest: "4.2.11"
     latestReleaseDate: 2024-10-05
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     lts: true
     releaseDate: 2022-11-28
     eoas: 2023-12-11
@@ -87,7 +87,7 @@ releases:
     latest: "4.1.20"
     latestReleaseDate: 2025-08-08
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2022-04-17
     eoas: 2023-05-08
     eol: 2023-11-13
@@ -95,7 +95,7 @@ releases:
     latest: "4.0.12"
     latestReleaseDate: 2023-12-08
 
--   releaseCycle: "3.11"
+  - releaseCycle: "3.11"
     releaseDate: 2021-05-15
     eoas: 2022-11-14
     eol: 2023-11-13
@@ -103,7 +103,7 @@ releases:
     latest: "3.11.18"
     latestReleaseDate: 2023-12-08
 
--   releaseCycle: "3.10"
+  - releaseCycle: "3.10"
     releaseDate: 2020-11-07
     eoas: 2021-11-08
     eol: 2022-05-09
@@ -111,7 +111,7 @@ releases:
     latest: "3.10.11"
     latestReleaseDate: 2022-05-07
 
--   releaseCycle: "3.9"
+  - releaseCycle: "3.9"
     lts: true
     releaseDate: 2020-06-13
     eoas: 2021-05-10
@@ -120,7 +120,7 @@ releases:
     latest: "3.9.25"
     latestReleaseDate: 2023-12-08
 
--   releaseCycle: "3.8"
+  - releaseCycle: "3.8"
     releaseDate: 2019-11-16
     eoas: 2020-11-09
     eol: 2021-05-10

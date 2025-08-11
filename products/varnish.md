@@ -9,17 +9,17 @@ releasePolicyLink: https://varnish-cache.org/releases/
 changelogTemplate: https://varnish-cache.org/releases/rel__LATEST__.html
 
 identifiers:
--   repology: varnish
--   purl: pkg:brew/varnish
--   purl: pkg:docker/library/varnish
--   cpe: cpe:2.3:a:varnish_cache_project:varnish_cache
--   cpe: cpe:/a:varnish_cache_project:varnish_cache
+  - repology: varnish
+  - purl: pkg:brew/varnish
+  - purl: pkg:docker/library/varnish
+  - cpe: cpe:2.3:a:varnish_cache_project:varnish_cache
+  - cpe: cpe:/a:varnish_cache_project:varnish_cache
 
 auto:
   methods:
-  -   git: https://github.com/varnishcache/varnish-cache.git
+    - git: https://github.com/varnishcache/varnish-cache.git
       regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
-  -   release_table: https://varnish-cache.org/releases/
+    - release_table: https://varnish-cache.org/releases/
       selector: "table"
       fields:
         releaseCycle:
@@ -28,61 +28,60 @@ auto:
         eol: "EOL Date"
 
 releases:
--   releaseCycle: "7.7"
+  - releaseCycle: "7.7"
     releaseDate: 2025-03-17
     eol: 2026-03-15
-    latest: '7.7.1'
+    latest: "7.7.1"
     latestReleaseDate: 2025-05-12
 
--   releaseCycle: "7.6"
+  - releaseCycle: "7.6"
     releaseDate: 2024-09-13
     eol: 2025-09-15
-    latest: '7.6.3'
+    latest: "7.6.3"
     latestReleaseDate: 2025-05-12
 
--   releaseCycle: "7.5"
+  - releaseCycle: "7.5"
     releaseDate: 2024-03-18
     eol: 2025-03-15
-    latest: '7.5.0'
+    latest: "7.5.0"
     latestReleaseDate: 2024-03-18
 
--   releaseCycle: "7.4"
+  - releaseCycle: "7.4"
     releaseDate: 2023-09-15
     eol: 2024-09-15
-    latest: '7.4.3'
+    latest: "7.4.3"
     latestReleaseDate: 2024-03-18
 
--   releaseCycle: "7.3"
+  - releaseCycle: "7.3"
     releaseDate: 2023-03-15
     eol: 2024-03-15
-    latest: '7.3.2'
+    latest: "7.3.2"
     latestReleaseDate: 2024-03-18
 
--   releaseCycle: "7.2"
+  - releaseCycle: "7.2"
     releaseDate: 2022-09-15
     eol: 2023-09-15
-    latest: '7.2.1'
+    latest: "7.2.1"
     latestReleaseDate: 2022-10-11
 
--   releaseCycle: "7.1"
+  - releaseCycle: "7.1"
     releaseDate: 2022-03-15
     eol: 2023-03-15
-    latest: '7.1.2'
+    latest: "7.1.2"
     latestReleaseDate: 2022-10-10
 
--   releaseCycle: "7.0"
+  - releaseCycle: "7.0"
     releaseDate: 2021-09-15
     eol: 2022-09-15
-    latest: '7.0.3'
+    latest: "7.0.3"
     latestReleaseDate: 2022-08-05
 
--   releaseCycle: "6.0"
+  - releaseCycle: "6.0"
     lts: true
     releaseDate: 2018-03-15
     eol: false
-    latest: '6.0.14'
+    latest: "6.0.14"
     latestReleaseDate: 2025-05-12
-
 ---
 
 > [Varnish](https://varnish-cache.org/) is a caching HTTP reverse proxy.

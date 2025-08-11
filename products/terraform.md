@@ -10,94 +10,93 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 
 identifiers:
--   repology: terraform
--   purl: pkg:github/hashicorp/terraform
--   purl: pkg:generic/terraform
+  - repology: terraform
+  - purl: pkg:github/hashicorp/terraform
+  - purl: pkg:generic/terraform
 
 auto:
   methods:
-  -   git: https://github.com/hashicorp/terraform.git
+    - git: https://github.com/hashicorp/terraform.git
 
 # eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "1.12"
+  - releaseCycle: "1.12"
     releaseDate: 2025-05-14
     eol: false # releaseDate(1.14)
     latest: "1.12.2"
     latestReleaseDate: 2025-06-11
 
--   releaseCycle: "1.11"
+  - releaseCycle: "1.11"
     releaseDate: 2025-02-27
     eol: false # releaseDate(1.13)
     latest: "1.11.4"
     latestReleaseDate: 2025-04-09
 
--   releaseCycle: "1.10"
+  - releaseCycle: "1.10"
     releaseDate: 2024-11-26
     eol: 2025-05-14 # releaseDate(1.12)
     latest: "1.10.5"
     latestReleaseDate: 2025-01-22
 
--   releaseCycle: "1.9"
+  - releaseCycle: "1.9"
     releaseDate: 2024-06-26
     eol: 2025-02-27 # releaseDate(1.11)
     latest: "1.9.8"
     latestReleaseDate: 2024-10-16
 
--   releaseCycle: "1.8"
+  - releaseCycle: "1.8"
     releaseDate: 2024-04-10
     eol: 2024-11-26 # releaseDate(1.10)
     latest: "1.8.5"
     latestReleaseDate: 2024-06-05
 
--   releaseCycle: "1.7"
+  - releaseCycle: "1.7"
     releaseDate: 2024-01-17
     eol: 2024-06-26 # releaseDate(1.9)
     latest: "1.7.5"
     latestReleaseDate: 2024-03-13
 
--   releaseCycle: "1.6"
+  - releaseCycle: "1.6"
     releaseDate: 2023-10-04
     eol: 2024-04-10
     latest: "1.6.6"
     latestReleaseDate: 2023-12-13
 
--   releaseCycle: "1.5"
+  - releaseCycle: "1.5"
     releaseDate: 2023-06-12
     eol: 2024-01-17
     latest: "1.5.7"
     latestReleaseDate: 2023-09-07
 
--   releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     releaseDate: 2023-03-08
     eol: 2023-10-04
     latest: "1.4.7"
     latestReleaseDate: 2023-09-13
 
--   releaseCycle: "1.3"
+  - releaseCycle: "1.3"
     releaseDate: 2022-09-21
     eol: 2023-06-12
     latest: "1.3.10"
     latestReleaseDate: 2023-09-13
 
--   releaseCycle: "1.2"
+  - releaseCycle: "1.2"
     releaseDate: 2022-05-18
     eol: 2023-03-08
     latest: "1.2.9"
     latestReleaseDate: 2022-09-07
 
--   releaseCycle: "1.1"
+  - releaseCycle: "1.1"
     releaseDate: 2021-12-08
     eol: 2022-09-21
     latest: "1.1.9"
     latestReleaseDate: 2022-04-20
 
--   releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     releaseDate: 2021-06-08
     eol: 2022-05-18
     latest: "1.0.11"
     latestReleaseDate: 2021-11-10
-
 ---
 
 > [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)

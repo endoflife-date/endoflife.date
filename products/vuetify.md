@@ -12,14 +12,14 @@ eoasColumn: true
 eoesColumn: Commercial Support
 
 identifiers:
--   purl: pkg:npm/vuetify
--   cpe: cpe:2.3:a:vuetifyjs:vuetify
--   cpe: cpe:/a:vuetifyjs:vuetify
+  - purl: pkg:npm/vuetify
+  - cpe: cpe:2.3:a:vuetifyjs:vuetify
+  - cpe: cpe:/a:vuetifyjs:vuetify
 
 auto:
   methods:
-  -   npm: vuetify
-  -   release_table: https://vuetifyjs.com/introduction/long-term-support/
+    - npm: vuetify
+    - release_table: https://vuetifyjs.com/introduction/long-term-support/
       render_javascript: true
       render_javascript_wait_until: networkidle
       selector: "table"
@@ -41,14 +41,14 @@ auto:
           template: "{{month}} {{day}} {{year}}"
 
 releases:
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2022-11-01
     eoas: false
     eol: false
     latest: "3.9.4"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2019-07-23
     eoas: 2023-07-05
     eol: 2025-01-23
@@ -56,7 +56,7 @@ releases:
     eoes: false
     latestReleaseDate: 2024-02-14
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2019-02-05
     eoas: 2019-07-31
     lts: 2019-07-31

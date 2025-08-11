@@ -6,19 +6,19 @@ tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
--   /spring
+  - /spring
 releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 changelogTemplate: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__
 eolColumn: OSS support
 eoesColumn: Commercial Support
 
 customFields:
--   name: supportedJavaVersions
+  - name: supportedJavaVersions
     display: api-only
     label: JDK
     description: Supported JDK versions
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
--   name: supportedJakartaEEVersions
+  - name: supportedJakartaEEVersions
     display: api-only
     label: Jakarta EE
     description: Supported Jakarta EE versions
@@ -26,9 +26,9 @@ customFields:
 
 auto:
   methods:
-  -   git: https://github.com/spring-projects/spring-framework.git
+    - git: https://github.com/spring-projects/spring-framework.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
-  -   release_table: https://spring.io/projects/spring-framework#support
+    - release_table: https://spring.io/projects/spring-framework#support
       render_javascript: true
       render_javascript_wait_until: networkidle
       selector: "table"
@@ -42,7 +42,7 @@ auto:
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
--   releaseCycle: "6.2"
+  - releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2024-11-30
@@ -51,7 +51,7 @@ releases:
     latest: "6.2.9"
     latestReleaseDate: 2025-07-17
 
--   releaseCycle: "6.1"
+  - releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-30
@@ -60,7 +60,7 @@ releases:
     latest: "6.1.21"
     latestReleaseDate: 2025-06-12
 
--   releaseCycle: "6.0"
+  - releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2022-11-30
@@ -69,7 +69,7 @@ releases:
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
--   releaseCycle: "5.3"
+  - releaseCycle: "5.3"
     supportedJavaVersions: "8 - 21"
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-31
@@ -79,7 +79,7 @@ releases:
     latest: "5.3.39"
     latestReleaseDate: 2024-08-14
 
--   releaseCycle: "5.2"
+  - releaseCycle: "5.2"
     supportedJavaVersions: "8 - 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2019-09-30
@@ -89,7 +89,7 @@ releases:
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
 
--   releaseCycle: "5.1"
+  - releaseCycle: "5.1"
     supportedJavaVersions: "8 - 11" # https://docs.spring.io/spring-framework/docs/5.1.20.RELEASE/spring-framework-reference/overview.html#overview
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2018-09-21
@@ -99,7 +99,7 @@ releases:
     latest: "5.1.20"
     latestReleaseDate: 2020-12-09
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     supportedJavaVersions: "8" # https://docs.spring.io/spring-framework/docs/5.0.20.RELEASE/spring-framework-reference/overview.html#overview
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2017-09-28
@@ -108,7 +108,7 @@ releases:
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
 
--   releaseCycle: "4.3"
+  - releaseCycle: "4.3"
     supportedJavaVersions: "6 - 8" # https://docs.spring.io/spring-framework/docs/4.3.30.RELEASE/spring-framework-reference/html/new-in-4.0.html#_java_8_as_well_as_6_and_7
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2016-06-10
@@ -117,7 +117,7 @@ releases:
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
 
--   releaseCycle: "3.2"
+  - releaseCycle: "3.2"
     supportedJavaVersions: "5 - 6" # https://docs.spring.io/spring-framework/docs/3.2.18.RELEASE/spring-framework-reference/html/new-in-3.0.html#new-in-3.0
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2012-12-13

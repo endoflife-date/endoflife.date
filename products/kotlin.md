@@ -6,80 +6,79 @@ tags: jetbrains
 iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
--   /kotlinlang
+  - /kotlinlang
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 identifiers:
--   repology: kotlin
+  - repology: kotlin
 
 auto:
   methods:
-  -   github_releases: JetBrains/kotlin
+    - github_releases: JetBrains/kotlin
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     releaseDate: 2025-06-23
     eol: false
     latest: "2.2.0"
     latestReleaseDate: 2025-06-23
 
--   releaseCycle: "2.1"
+  - releaseCycle: "2.1"
     releaseDate: 2024-11-27
     eol: 2025-06-23
     latest: "2.1.21"
     latestReleaseDate: 2025-05-13
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseDate: 2024-05-21
     eol: 2024-11-27
     latest: "2.0.21"
     latestReleaseDate: 2024-10-10
 
--   releaseCycle: "1.9"
+  - releaseCycle: "1.9"
     releaseDate: 2023-07-06
     eol: 2024-05-21
     latest: "1.9.25"
     latestReleaseDate: 2024-07-19
 
--   releaseCycle: "1.8"
+  - releaseCycle: "1.8"
     eol: 2023-07-06
     latest: "1.8.22"
     latestReleaseDate: 2023-06-08
     releaseDate: 2022-12-28
 
--   releaseCycle: "1.7"
+  - releaseCycle: "1.7"
     eol: 2022-12-28
     latest: "1.7.22"
     latestReleaseDate: 2022-11-28
     releaseDate: 2022-06-09
 
--   releaseCycle: "1.6"
+  - releaseCycle: "1.6"
     eol: 2022-06-09
     latest: "1.6.21"
     latestReleaseDate: 2022-04-20
     releaseDate: 2021-11-15
 
--   releaseCycle: "1.5"
+  - releaseCycle: "1.5"
     eol: 2021-11-29
     latest: "1.5.32"
     latestReleaseDate: 2021-11-29
     releaseDate: 2021-04-26
 
--   releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     eol: 2021-04-26
     latest: "1.4.32"
     latestReleaseDate: 2021-03-30
     releaseDate: 2020-08-14
 
--   releaseCycle: "1.3"
+  - releaseCycle: "1.3"
     eol: 2020-08-14
     latest: "1.3.72"
     latestReleaseDate: 2020-04-15
     releaseDate: 2018-10-29
-
 ---
 
 > [Kotlin](https://kotlinlang.org/) is a cross-platform, statically typed, general-purpose

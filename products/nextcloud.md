@@ -11,9 +11,9 @@ changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
 auto:
   methods:
-  -   git: https://github.com/nextcloud/server.git
+    - git: https://github.com/nextcloud/server.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
-  -   release_table: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
+    - release_table: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
       selector: "table"
       fields:
         releaseCycle: "Version code"
@@ -21,154 +21,154 @@ auto:
         eol: "End of life"
 
 releases:
--   releaseCycle: "31"
+  - releaseCycle: "31"
     releaseDate: 2025-02-25
     eol: 2026-02-28
     latest: "31.0.7"
     latestReleaseDate: 2025-07-10
 
--   releaseCycle: "30"
+  - releaseCycle: "30"
     releaseDate: 2024-09-14
     eol: 2025-09-30
     latest: "30.0.13"
     latestReleaseDate: 2025-07-10
 
--   releaseCycle: "29"
+  - releaseCycle: "29"
     releaseDate: 2024-04-24
     eol: 2025-04-30
     latest: "29.0.16"
     latestReleaseDate: 2025-04-17
 
--   releaseCycle: "28"
+  - releaseCycle: "28"
     releaseDate: 2023-12-12
     eol: 2024-12-31
     latest: "28.0.14"
     latestReleaseDate: 2024-12-12
 
--   releaseCycle: "27"
+  - releaseCycle: "27"
     releaseDate: 2023-06-13
     eol: 2024-06-30
     latest: "27.1.11"
     latestReleaseDate: 2024-06-25
 
--   releaseCycle: "26"
+  - releaseCycle: "26"
     releaseDate: 2023-03-21
     eol: 2024-03-31
     latest: "26.0.13"
     latestReleaseDate: 2024-03-28
 
--   releaseCycle: "25"
+  - releaseCycle: "25"
     releaseDate: 2022-10-19
     eol: 2023-10-31
     latest: "25.0.13"
     latestReleaseDate: 2023-10-26
 
--   releaseCycle: "24"
+  - releaseCycle: "24"
     releaseDate: 2022-05-03
     eol: 2023-04-30
     latest: "24.0.12"
     latestReleaseDate: 2023-04-19
 
--   releaseCycle: "23"
+  - releaseCycle: "23"
     releaseDate: 2021-11-30
     eol: 2022-12-31
     latest: "23.0.12"
     latestReleaseDate: 2022-12-08
 
--   releaseCycle: "22"
+  - releaseCycle: "22"
     releaseDate: 2021-07-06
     eol: 2022-07-31
     latest: "22.2.10"
     latestReleaseDate: 2022-07-18
 
--   releaseCycle: "21"
+  - releaseCycle: "21"
     releaseDate: 2021-02-22
     eol: 2022-02-28
     latest: "21.0.9"
     latestReleaseDate: 2022-02-15
 
--   releaseCycle: "20"
+  - releaseCycle: "20"
     releaseDate: 2020-10-03
     eol: 2021-11-30
     latest: "20.0.14"
     latestReleaseDate: 2021-11-11
 
--   releaseCycle: "19"
+  - releaseCycle: "19"
     releaseDate: 2020-06-03
     eol: 2021-06-30
     latest: "19.0.13"
     latestReleaseDate: 2021-07-01
 
--   releaseCycle: "18"
+  - releaseCycle: "18"
     releaseDate: 2020-01-16
     eol: 2021-01-31
     latest: "18.0.14"
     latestReleaseDate: 2021-01-25
 
--   releaseCycle: "17"
+  - releaseCycle: "17"
     releaseDate: 2019-09-30
     eol: 2020-10-31
     latest: "17.0.10"
     latestReleaseDate: 2020-10-08
 
--   releaseCycle: "16"
+  - releaseCycle: "16"
     releaseDate: 2019-04-25
     eol: 2020-06-30
     latest: "16.0.11"
     latestReleaseDate: 2020-06-04
 
--   releaseCycle: '15'
+  - releaseCycle: "15"
     releaseDate: 2018-12-10
     eol: 2019-12-31
-    latest: '15.0.14'
+    latest: "15.0.14"
     latestReleaseDate: 2019-12-19
 
--   releaseCycle: '14'
+  - releaseCycle: "14"
     releaseDate: 2018-09-10
     eol: 2019-09-30
-    latest: '14.0.14'
+    latest: "14.0.14"
     latestReleaseDate: 2019-08-14
 
--   releaseCycle: '13'
+  - releaseCycle: "13"
     releaseDate: 2018-02-06
     eol: 2019-02-28
-    latest: '13.0.12'
+    latest: "13.0.12"
     latestReleaseDate: 2019-02-27
 
--   releaseCycle: '12'
+  - releaseCycle: "12"
     releaseDate: 2017-05-22
     eol: 2018-11-30
-    latest: '12.0.13'
+    latest: "12.0.13"
     latestReleaseDate: 2018-11-22
 
--   releaseCycle: '11'
+  - releaseCycle: "11"
     releaseDate: 2016-12-13
     eol: 2018-03-31
-    latest: '11.0.8'
+    latest: "11.0.8"
     latestReleaseDate: 2018-03-13
 
--   releaseCycle: '10'
+  - releaseCycle: "10"
     releaseDate: 2016-08-25
     eol: 2017-08-31
-    latest: '10.0.6'
+    latest: "10.0.6"
     latestReleaseDate: 2017-08-06
 
--   releaseCycle: '9'
+  - releaseCycle: "9"
     releaseDate: 2016-08-03
     eol: 2017-08-31
-    latest: '9.1.3'
+    latest: "9.1.3"
     latestReleaseDate: 2016-12-12
 
 ---
 
-> [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using
-> file hosting services. It is enterprise-ready with comprehensive support options. It is licensed
-> with Affero General Public License v3.0 (AGPL-v3.0).
+> [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using file hosting services.
+> It is enterprise-ready with comprehensive support options.
+> It is licensed with Affero General Public License v3.0 (AGPL-v3.0).
 
 ## [Release Channels][channels]
 
 | Channel          | Use case                                                                                                                                          |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Production       | Only available to [Nextcloud Enterprise][enterprise] customers                                                                                    |
 | [Stable][stable] | Latest feature releases ready for most users at minimal risk. Rollouts are staged, making releases incrementally available to all users over time |
 | [Beta][beta]     | A short-term-stable point to report bugs against. Around big releases the Beta channel delivers the new major version.                            |
@@ -177,23 +177,22 @@ releases:
 ## Upgrades
 
 Skipping major versions when upgrading and downgrading to older versions is not supported.
-If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later
-is in stable until a new update will become available.
+If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5,
+you have to wait until 14.0.0 or later is in stable until a new update will become available.
 
-The safest way to upgrade is to always update to the latest minor release before upgrading to a new
-version. The Nextcloud updater does this automatically whenever possible.
+The safest way to upgrade is to always update to the latest minor release before upgrading to a new version.
+The Nextcloud updater does this automatically whenever possible.
 
 ## Cadence
 
 Nextcloud makes new versions incrementally available to user installations in the Stable channel.
-When a major new version comes out, the project waits for one week, and only when no problems are
-found the roll-out is started in steps of about 20% of the user base per week. If you maintain
-several servers, this means some get it sooner than others.
+When a major new version comes out, the project waits for one week,
+and only when no problems are found the roll-out is started in steps of about 20% of the user base per week.
+If you maintain several servers, this means some get it sooner than others.
 
 If an issue is found that was not caught during pre-release testing, the roll-out might be delayed.
-As a result, new releases are typically only available in the stable channel after the first minor
-release. Users can always upgrade sooner by choosing the beta channel, which typically tracks
-stable releases immediately after publishing.
+As a result, new releases are typically only available in the stable channel after the first minor release.
+Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.
 
 [stable]: https://nextcloud.com/install/
 [enterprise]: https://nextcloud.com/enterprise/ "Nextcloud Enterprise"

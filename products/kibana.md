@@ -10,42 +10,40 @@ changelogTemplate: "https://www.elastic.co/guide/en/kibana/{{'__LATEST__'|split:
 eolColumn: Support
 
 identifiers:
--   repology: kibana
--   cpe: cpe:/a:elastic:kibana
--   cpe: cpe:2.3:a:elastic:kibana
+  - repology: kibana
+  - cpe: cpe:/a:elastic:kibana
+  - cpe: cpe:2.3:a:elastic:kibana
 
 auto:
   methods:
-  -   git: https://github.com/elastic/kibana.git
+    - git: https://github.com/elastic/kibana.git
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2025-04-08
-    eol: false  # later of 2027-10-15 or 18 months after the release date of 10.0
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.1"
     latestReleaseDate: 2025-08-04
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
-
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
     latest: "8.19.1"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2019-04-10
     eol: 2026-01-15
     latest: "7.17.29"
     latestReleaseDate: 2025-06-17
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2017-11-14
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > [Kibana](https://www.elastic.co/kibana/) is a free and open user interface that lets you visualize

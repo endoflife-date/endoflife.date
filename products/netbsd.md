@@ -11,86 +11,85 @@ changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetB
 eoasColumn: true
 
 identifiers:
--   cpe: cpe:/o:netbsd:netbsd
--   cpe: cpe:2.3:o:netbsd:netbsd
+  - cpe: cpe:/o:netbsd:netbsd
+  - cpe: cpe:2.3:o:netbsd:netbsd
 
 auto:
   methods:
-  -   netbsd: https://www.netbsd.org/releases/formal.html
+    - netbsd: https://www.netbsd.org/releases/formal.html
 
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
 releases:
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2024-03-28
     eoas: false
     eol: false
     latest: "10.1"
     latestReleaseDate: 2024-12-16
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
     eol: false
     latest: "9.4"
     latestReleaseDate: 2024-04-20
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2018-07-17
     eoas: 2022-02-14
     eol: 2024-05-04
     latest: "8.3"
     latestReleaseDate: 2024-05-04
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2015-09-25
     eoas: 2018-07-17
     eol: 2020-06-30
     latest: "7.2"
     latestReleaseDate: 2018-08-29
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2012-10-17
     eoas: 2015-09-25
     eol: 2018-08-23
     latest: "6.1.5"
     latestReleaseDate: 2014-09-22
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2009-04-29
     eoas: 2012-10-17
     eol: 2015-11-11
     latest: "5.2.3"
     latestReleaseDate: 2014-11-15
 
--   releaseCycle: '4'
+  - releaseCycle: "4"
     releaseDate: 2007-12-19
     eoas: 2009-04-29
     eol: true # not documented on https://www.netbsd.org/releases/formal.html
-    latest: '4.0.1'
+    latest: "4.0.1"
     latestReleaseDate: 2008-10-14
 
--   releaseCycle: '3'
+  - releaseCycle: "3"
     releaseDate: 2005-12-23
     eoas: 2007-12-19
     eol: 2009-05-30
-    latest: '3.1'
+    latest: "3.1"
     latestReleaseDate: 2006-11-04
 
--   releaseCycle: '2'
+  - releaseCycle: "2"
     releaseDate: 2004-12-09
     eoas: 2005-12-23
     eol: 2008-08-21
-    latest: '2.1'
+    latest: "2.1"
     latestReleaseDate: 2005-11-02
 
--   releaseCycle: '1'
+  - releaseCycle: "1"
     releaseDate: 1994-10-26
     eoas: 2004-12-09
     eol: 2006-05-17
-    latest: '1.6.2'
+    latest: "1.6.2"
     latestReleaseDate: 2004-03-01
-
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like
@@ -108,10 +107,10 @@ At any given time, typically [3 branches](https://www.netbsd.org/releases/releas
 of NetBSD are [supported with security patches](https://www.netbsd.org/support/security/ "Security and NetBSD")
 and bug fixes:
 
-* [NetBSD-current][current]: Snapshots of the development branch.
-* [The Latest Major Release](https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"):
+- [NetBSD-current][current]: Snapshots of the development branch.
+- [The Latest Major Release](https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"):
   The latest major [formal release][formal] of NetBSD.
-* [The Prior Major Release](https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"):
+- [The Prior Major Release](https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"):
   The previous major [formal release][formal] of NetBSD (the release before the previous release is
   typically supported for one month after a new major release, leading to 4 releases being currently
   supported).

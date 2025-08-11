@@ -5,7 +5,6 @@
 url: https://endoflife.date
 title: endoflife.date
 
-
 # Build settings
 encoding: utf-8
 markdown: kramdown
@@ -20,7 +19,7 @@ plugins:
 # Silence Saas deprecation warnings, to be removed after this is fixed in just-the-docs
 sass:
   quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
-  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
+  silence_deprecations: ["import"] # https://github.com/just-the-docs/just-the-docs/issues/1607
 
 # just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs
@@ -30,7 +29,7 @@ nav_sort: case_insensitive
 search_enabled: true
 search:
   button: true
-  focus_shortcut_key: 'k'
+  focus_shortcut_key: "k"
   placeholder_text: "Search for a product"
 
 # https://just-the-docs.com/docs/configuration/#aux-links
@@ -60,7 +59,6 @@ callouts:
     title: To learn the current version on your system
     color: grey-dk
 
-
 # jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago
 jekyll_timeago:
   # Use 2 terms in relative timestamps:
@@ -73,7 +71,6 @@ jekyll_timeago:
   # See https://github.com/markets/jekyll-timeago/pull/24
   # for what this does
   threshold: 0.1
-
 
 # Default pages / products values
 defaults:
@@ -89,24 +86,23 @@ defaults:
       identifiers: []
       auto: []
       releaseColumn: true
-      releaseColumnLabel: 'Latest'
+      releaseColumnLabel: "Latest"
       releaseDateColumn: true
-      releaseDateColumnLabel: 'Released'
+      releaseDateColumnLabel: "Released"
       discontinuedColumn: false
-      discontinuedColumnLabel: 'Discontinued'
+      discontinuedColumnLabel: "Discontinued"
       discontinuedWarnThreshold: 121
       eoasColumn: false
-      eoasColumnLabel: 'Active Support'
+      eoasColumnLabel: "Active Support"
       eoasWarnThreshold: 121
       eolColumn: true
-      eolColumnLabel: 'Security Support'
+      eolColumnLabel: "Security Support"
       eolWarnThreshold: 121
       eoesColumn: false
-      eoesColumnLabel: 'Extended Support'
+      eoesColumnLabel: "Extended Support"
       eoesWarnThreshold: 121
       customFields: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
-
 
 # Include & excludes
 include:

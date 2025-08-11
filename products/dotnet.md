@@ -6,7 +6,7 @@ tags: microsoft
 iconSlug: dotnet
 permalink: /dotnet
 alternate_urls:
--   /dotnetcore
+  - /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 releaseImage: https://dotnet.microsoft.com/blob-assets/images/illustrations/release-schedule.svg
@@ -14,42 +14,42 @@ changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__L
 eolColumn: Support Status
 
 identifiers:
--   repology: dotnet
--   repology: dotnet-runtime
--   repology: dotnet-sdk
--   purl: pkg:nuget/Microsoft.NETCore.App
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-x64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-arm64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-x64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-x64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
--   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
--   purl: pkg:rpm/redhat/dotnet-sdk-8.0
--   purl: pkg:rpm/redhat/dotnet-sdk-7.0
--   purl: pkg:rpm/redhat/dotnet-sdk-6.0
--   purl: pkg:rpm/redhat/dotnet-sdk-5.0
--   purl: pkg:rpm/redhat/dotnet-sdk-3.1
--   purl: pkg:rpm/redhat/dotnet-sdk-3.0
--   purl: pkg:rpm/redhat/dotnet-sdk-2.1
--   cpe: cpe:2.3:a:microsoft:.net
--   cpe: cpe:/a:microsoft:.net
+  - repology: dotnet
+  - repology: dotnet-runtime
+  - repology: dotnet-sdk
+  - purl: pkg:nuget/Microsoft.NETCore.App
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-x64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-arm64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-x64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-x64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
+  - purl: pkg:rpm/redhat/dotnet-sdk-8.0
+  - purl: pkg:rpm/redhat/dotnet-sdk-7.0
+  - purl: pkg:rpm/redhat/dotnet-sdk-6.0
+  - purl: pkg:rpm/redhat/dotnet-sdk-5.0
+  - purl: pkg:rpm/redhat/dotnet-sdk-3.1
+  - purl: pkg:rpm/redhat/dotnet-sdk-3.0
+  - purl: pkg:rpm/redhat/dotnet-sdk-2.1
+  - cpe: cpe:2.3:a:microsoft:.net
+  - cpe: cpe:/a:microsoft:.net
 
 auto:
   methods:
-  -   git: https://github.com/dotnet/core.git
+    - git: https://github.com/dotnet/core.git
       # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
       # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
       regex_exclude: '^v?\d+\.\d+\.\d{3,}'
-  -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
+    - release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
       selector: "table"
       fields:
         releaseCycle:
@@ -59,39 +59,39 @@ auto:
         eol: "End of support"
 
 releases:
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-05-12
     latest: "9.0.8"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
     latest: "8.0.19"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2022-11-08
     eol: 2024-05-14
     latest: "7.0.20"
     latestReleaseDate: 2024-05-29
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
     latest: "6.0.36"
     latestReleaseDate: 2024-11-12
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2020-11-10
     eol: 2022-05-10
     latest: "5.0.17"
     latestReleaseDate: 2022-05-10
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2019-12-03
     lts: true
@@ -99,21 +99,21 @@ releases:
     latest: "3.1.32"
     latestReleaseDate: 2022-12-13
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2019-09-23
     eol: 2020-03-03
     latest: "3.0.3"
     latestReleaseDate: 2020-02-19
 
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2018-12-04
     eol: 2019-12-23
     latest: "2.2.8"
     latestReleaseDate: 2019-11-19
 
--   releaseCycle: "2.1"
+  - releaseCycle: "2.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2018-05-30
     lts: true
@@ -121,7 +121,7 @@ releases:
     latest: "2.1.30"
     latestReleaseDate: 2021-08-19
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2017-08-14
     eol: 2018-10-01
@@ -129,20 +129,19 @@ releases:
     latestReleaseDate: 2018-07-10
     link: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
 
--   releaseCycle: '1.1'
+  - releaseCycle: "1.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2016-11-16
     eol: 2019-06-27
-    latest: '1.1.13'
+    latest: "1.1.13"
     latestReleaseDate: 2019-05-15
 
--   releaseCycle: '1.0'
+  - releaseCycle: "1.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2016-06-27
     eol: 2019-06-27
-    latest: '1.0.16'
+    latest: "1.0.16"
     latestReleaseDate: 2019-05-15
-
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform

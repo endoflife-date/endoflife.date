@@ -9,25 +9,24 @@ eolColumn: Support
 releaseColumn: false
 
 identifiers:
--   cpe: cpe:/o:valvesoftware:steamos
--   cpe: cpe:2.3:o:valvesoftware:steamos
+  - cpe: cpe:/o:valvesoftware:steamos
+  - cpe: cpe:2.3:o:valvesoftware:steamos
 
 releases:
--   releaseCycle: "3"
+  - releaseCycle: "3"
     codename: holo
     releaseDate: 2022-03-01
     eol: false
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     codename: brewmaster
     releaseDate: 2015-11-01
     eol: 2019-06-30
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     codename: alchemist
     releaseDate: 2013-12-01
     eol: 2015-11-02
-
 ---
 
 > [SteamOS](https://store.steampowered.com/steamos) is a Linux distribution developed by Valve.

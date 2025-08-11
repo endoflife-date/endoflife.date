@@ -10,13 +10,13 @@ eoasColumn: true
 
 auto:
   methods:
-  -   apple: visionos
+    - apple: visionos
       regex:
-      -   'visionOS\s+(?P<version>\d+)'
-      -   'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
+        - 'visionOS\s+(?P<version>\d+)'
+        - 'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
@@ -24,14 +24,13 @@ releases:
     latestReleaseDate: 2025-07-29
     link: https://support.apple.com/en-us/121164
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2024-01-31
     eoas: 2024-09-16
     eol: 2024-09-16
     latest: "1.3"
     latestReleaseDate: 2024-07-29
     link: https://support.apple.com/en-us/118202
-
 ---
 
 > Apple [visionOS](https://www.apple.com/visionos) is an operating system specifically designed for Apple's spatial
