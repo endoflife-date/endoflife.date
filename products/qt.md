@@ -39,8 +39,9 @@ releases:
     releaseDate: 2024-10-07
     eol: 2025-04-02
     eoes: 2029-10-08
-    latest: "6.8.3"
-    latestReleaseDate: 2025-03-26
+    latest: "6.8.4"
+    latestReleaseDate: 2025-07-11
+    link: https://www.qt.io/blog/commercial-lts-qt-6.8.4-released
 
   - releaseCycle: "6.7"
     releaseDate: 2024-03-28
