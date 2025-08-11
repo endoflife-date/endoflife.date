@@ -9,7 +9,7 @@ alternate_urls:
   - /linux-kernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/mj5ro70le7a76juxkv22cpjwzsmx19j.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sh7fji2060nbk740fifm4n9g7sawkot.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
