@@ -63,6 +63,7 @@ releases:
     eol: 2020-07-31
     latest: "1.5.24"
     latestReleaseDate: 2020-03-03
+
 ---
 
 > [Vuetify](https://vuetifyjs.com/) is an open-source Vue Component Framework. It is a collection

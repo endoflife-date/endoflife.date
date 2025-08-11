@@ -100,6 +100,7 @@ releases:
     eol: 2018-12-05
     latest: "1.0.3"
     latestReleaseDate: 2018-04-02
+
 ---
 
 > [containerd](https://containerd.io/) is an industry-standard container runtime with an emphasis on

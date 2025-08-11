@@ -272,6 +272,7 @@ releases:
     eol: 2016-03-31
     latest: "0.8.10"
     latestReleaseDate: 2015-09-16
+
 ---
 
 > [Wagtail](https://wagtail.org/) is an open source content management system built on Django, with

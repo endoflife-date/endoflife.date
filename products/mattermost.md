@@ -295,6 +295,7 @@ releases:
     eol: 2022-01-15
     latest: "6.0.4"
     latestReleaseDate: 2021-12-17
+
 ---
 
 > [Mattermost](https://mattermost.com/) is an open-source, self-hostable online chat service with

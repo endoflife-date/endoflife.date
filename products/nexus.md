@@ -457,6 +457,7 @@ releases:
     latest: "2.15.2-03"
     latestReleaseDate: 2024-11-14
     link: https://help.sonatype.com/repomanager2/release-notes
+
 ---
 
 > [Nexus Repository](https://help.sonatype.com/repomanager3) is a repository manager developed by Sonatype

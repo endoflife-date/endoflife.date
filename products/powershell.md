@@ -123,6 +123,7 @@ releases:
     eol: 2020-01-14
     latest: "1.0"
     link: null
+
 ---
 
 > [PowerShell](https://aka.ms/powershell) is a cross-platform automation and configuration

@@ -182,6 +182,7 @@ releases:
     link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "1.5.22"
     latestReleaseDate: 2019-08-06
+
 ---
 
 > [Spring Boot](https://github.com/spring-projects/spring-boot) helps you to create Spring-powered,

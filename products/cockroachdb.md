@@ -192,6 +192,7 @@ releases:
     eol: 2018-11-10
     latest: "1.0.7"
     latestReleaseDate: 2018-02-11
+
 ---
 
 > [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and

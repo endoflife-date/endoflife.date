@@ -149,6 +149,7 @@ releases:
     eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
+
 ---
 
 > [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration

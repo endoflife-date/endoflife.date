@@ -405,6 +405,7 @@ releases:
     eol: 2021-06-22
     latest: "13.10.5"
     latestReleaseDate: 2021-06-01
+
 ---
 
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git

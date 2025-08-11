@@ -51,6 +51,7 @@ releases:
     eol: 2025-05-06 # upcoming support(2) at least 1 year
     latest: "1.3.20"
     latestReleaseDate: 2024-12-10
+
 ---
 
 > [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source

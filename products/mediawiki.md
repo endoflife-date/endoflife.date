@@ -116,6 +116,7 @@ releases:
     latest: "1.31.16"
     latestReleaseDate: 2021-09-30
     releaseDate: 2018-06-13
+
 ---
 
 > [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers

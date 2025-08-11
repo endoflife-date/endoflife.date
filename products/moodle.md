@@ -127,6 +127,7 @@ releases:
     supportedPhpVersions: 7.1 - 7.4
     latest: "3.8.9"
     latestReleaseDate: 2021-05-08
+
 ---
 
 > [Moodle](https://moodle.org/) is a Learning Platform or course management system (CMS) — a free

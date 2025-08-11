@@ -262,6 +262,7 @@ releases:
     latest: "5.1.67"
     latestReleaseDate: 2013-01-25
     link: https://mariadb.com/kb/en/mariadb-5167-release-notes/
+
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational

@@ -198,6 +198,7 @@ releases:
     eol: 2003-03-01
     latest: "6.3.2"
     latestReleaseDate: 1998-04-18
+
 ---
 
 > [PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source

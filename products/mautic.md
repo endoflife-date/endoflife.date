@@ -160,6 +160,7 @@ releases:
     eoes: false
     latest: "2.15.3"
     latestReleaseDate: 2019-10-08
+
 ---
 
 > [Mautic](https://www.mautic.org/), is an open-source marketing automation software.
