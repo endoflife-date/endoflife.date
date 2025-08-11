@@ -32,6 +32,9 @@ auto:
           column: "Oracle GraalVM"
           regex: '^(?P<value>\d+)$' # only target Feature releases
         releaseDate: "Date"
+    - declare: azure-kubernetes-service
+      releases:
+        - { name: "6", releaseDate: 2025-09-01 } # Not released as of 2025-08-11, Q3 2025 on https://statamic.dev/release-schedule-support-policy
 
 # Release dates can be found on both https://www.graalvm.org/release-calendar/ and https://docs.oracle.com/en/graalvm/release-calendar.html.
 # For non-LTS, eol(x) = releaseDate(x+1).
