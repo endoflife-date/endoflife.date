@@ -35,7 +35,7 @@ auto:
         eoes: "LTSS Ends"
 
 releases:
--   releaseCycle: "15.7"
+  - releaseCycle: "15.7"
     releaseDate: 2025-06-17
     eol: 2031-07-31
     eoes: 2034-07-31
@@ -80,7 +80,7 @@ releases:
     eol: 2020-06-30
     eoes: 2023-06-30
 
--   releaseCycle: "15.0"
+  - releaseCycle: "15.0"
     releaseDate: 2018-07-16
     eol: 2019-12-31
     eoes: 2022-12-31
@@ -105,7 +105,7 @@ releases:
     eol: 2019-03-31
     eoes: 2022-03-31
 
--   releaseCycle: "12.0"
+  - releaseCycle: "12.0"
     releaseDate: 2014-10-27
     eol: 2016-06-30
     eoes: 2019-07-01
@@ -135,7 +135,7 @@ releases:
     eol: 2011-10-11
     eoes: 2014-10-31
 
--   releaseCycle: "11.0"
+  - releaseCycle: "11.0"
     releaseDate: 2009-03-24
     eol: 2010-12-31
     eoes: 2010-12-31
@@ -150,7 +150,7 @@ releases:
     eol: 2008-11-30
     eoes: 2010-12-31
 
--   releaseCycle: "10.0"
+  - releaseCycle: "10.0"
     releaseDate: 2006-07-17
     eol: 2007-12-31
     eoes: 2007-12-31
