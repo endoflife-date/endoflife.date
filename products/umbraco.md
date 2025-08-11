@@ -121,6 +121,7 @@ releases:
     latest: "6.2.6"
     latestReleaseDate: 2016-03-03
     link: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-6-end-of-life-eol/
+
 ---
 
 > [Umbraco](https://umbraco.com/) is an open-source content management system (CMS) platform for

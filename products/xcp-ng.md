@@ -67,6 +67,7 @@ releases:
     eol: 2018-10-31
     latest: "7.4.0"
     latestReleaseDate: 2018-03-31
+
 ---
 
 > [XCP-ng](https://xcp-ng.org) is a free and open-source hypervisor based on

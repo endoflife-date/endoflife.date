@@ -158,6 +158,7 @@ releases:
     eol: 2017-08-31
     latest: "9.1.3"
     latestReleaseDate: 2016-12-12
+
 ---
 
 > [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using file hosting services.

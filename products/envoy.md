@@ -258,6 +258,7 @@ releases:
     eol: 2016-11-30
     latest: "1.0.0"
     latestReleaseDate: 2016-09-12
+
 ---
 
 > [Envoy](https://www.envoyproxy.io/) is an open-source high-performance C++

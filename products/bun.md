@@ -24,8 +24,9 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2023-09-07
     eol: false
-    latest: "1.2.19"
-    latestReleaseDate: 2025-07-19
+    latest: "1.2.20"
+    latestReleaseDate: 2025-08-10
+
 ---
 
 > [Bun](https://bun.sh/) is an open-source JavaScript runtime that focuses on speed

@@ -240,6 +240,7 @@ releases:
     eol: 2013-10-29
     latest: "2.6.9"
     latestReleaseDate: 2013-10-29
+
 ---
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming

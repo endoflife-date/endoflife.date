@@ -63,6 +63,7 @@ releases:
     eol: 2025-07-16
     latest: "7.0.16"
     latestReleaseDate: 2025-07-10
+
 ---
 
 > [Forgejo](https://forgejo.org/) is a self-hosted lightweight software forge.

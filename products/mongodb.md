@@ -248,6 +248,7 @@ releases:
     latest: "1.0.1"
     latestReleaseDate: 2009-10-22
     link: null
+
 ---
 
 > [MongoDB Server](https://www.mongodb.com/) is a general purpose, document-based, distributed

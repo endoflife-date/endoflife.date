@@ -125,6 +125,7 @@ releases:
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "3.2.18"
     latestReleaseDate: 2016-12-21
+
 ---
 
 > The [Spring Framework](https://spring.io/projects/spring-framework) provides a comprehensive
