@@ -40,6 +40,26 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r580-linux"
+    releaseLabel: "R580-Linux"
+    lts: true
+    releaseDate: 2025-08-04
+    eoas: 2026-08-04
+    eol: 2028-08-04
+    latest: "580.65.06"
+    latestReleaseDate: 2025-08-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-65-06/index.html
+
+  - releaseCycle: "r580-windows"
+    releaseLabel: "R580-Windows"
+    lts: true
+    releaseDate: 2025-06-03
+    eoas: 2026-08-04
+    eol: 2028-08-04
+    latest: "580.86"
+    latestReleaseDate: 2025-08-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-65-06/index.html
+
   - releaseCycle: "r575-linux"
     releaseLabel: "R575-Linux (NFB)"
     releaseDate: 2025-06-03
