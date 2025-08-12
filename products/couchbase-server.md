@@ -32,6 +32,7 @@ auto:
         releaseDate: "General Availability"
         eol: "End of Full Maintenance"
     - declare: couchbase-server
+      # Release dates are approximate on https://www.couchbase.com/support-policy/EOL/.
       releases:
         - { name: "7.6", releaseDate: 2024-03-25 } # https://www.couchbase.com/blog/announcing-couchbase-6-0/
         - { name: "7.2", releaseDate: 2023-06-01 } # https://www.couchbase.com/blog/couchbase-capella-spring-release-72/

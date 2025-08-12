@@ -26,14 +26,15 @@ auto:
       render_javascript: true
       render_javascript_wait_for: "table"
       selector: "table"
+      remove_if_undefined: "releaseDate"
       fields:
         releaseCycle: "CMS Version"
         releaseDate: "Release date"
         eoas: "Partial support starts"
         eol: "Support ends"
     - declare: silverstripe
+      # Release dates are approximate on https://www.silverstripe.org/software/roadmap/.
       releases:
-        - {name: "7.0", releaseDate: 2027-04-01}   # Future release, according to https://www.silverstripe.org/software/roadmap/
         - {name: "6.0", releaseDate: 2025-06-10}   # https://www.silverstripe.org/blog/silverstripe-cms-6-0/
         - {name: "5.4", releaseDate: 2025-04-10}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-4/
         - {name: "5.3", releaseDate: 2024-11-04}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-3/

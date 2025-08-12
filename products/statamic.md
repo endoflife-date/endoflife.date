@@ -31,14 +31,23 @@ auto:
     - git: https://github.com/statamic/cms.git
     - release_table: https://statamic.dev/release-schedule-support-policy
       selector: "table"
+      remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:
           column: "Statamic"
           regex: '(?P<value>\d+(\.\d+)?).*'
+        releaseDate: "Release"
         eoas: "Bug Fixes Until"
         eol: "Security Fixes Until"
         supportedLaravelVersions: "Laravel"
         supportedPhpVersions: "PHP"
+    - declare: statamic
+      # Release dates are approximate on https://statamic.dev/release-schedule-support-policy.
+      releases:
+        - {name: "5", releaseDate: 2024-05-09} # https://statamic.com/blog/statamic-5-is-here
+        - {name: "4", releaseDate: 2023-05-09} # https://statamic.com/blog/statamic-4-unleashed
+        - {name: "3.4", releaseDate: 2023-01-27} # https://statamic.com/blog/statamic-3-4-released
+        - {name: "3.3", releaseDate: 2022-03-14} # https://statamic.com/blog/statamic-3-3
 
 releases:
   - releaseCycle: "5"

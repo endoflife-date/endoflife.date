@@ -21,8 +21,7 @@ auto:
     - release_table: https://www.debian.org/releases/index.en.html
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
-      # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
-      # are entirely absent, rather than being added as empty.
+      remove_if_undefined: "releaseDate"
       fields:
         releaseCycle: "Version"
         codename: "Code Name"
