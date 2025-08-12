@@ -2,7 +2,7 @@
 title: Statamic
 addedAt: 2025-08-03
 category: server-app
-tags: cms php-runtime statamic
+tags: php-runtime
 iconSlug: statamic
 permalink: /statamic
 versionCommand: php please --version
