@@ -1,5 +1,5 @@
 ---
-title: Apache ActiveMQ
+title: Apache ActiveMQ Classic
 addedAt: 2023-07-25
 category: server-app
 tags: apache java-runtime
@@ -184,7 +184,9 @@ releases:
 
 There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
 generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
-point). This page only tracks ActiveMQ "Classic" releases.
+point).  
+This page tracks ActiveMQ "Classic" releases; information about the Artemis version can be found in
+its own [product page](/apache-activemq-artemis).
 
 Apache ActiveMQ does not have a clearly defined release and support policy. But it seems that the
 last two minor releases are currently community-supported.
