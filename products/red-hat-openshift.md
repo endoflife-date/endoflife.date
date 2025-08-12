@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-06-17
     eoas: false # 4.19 GA + 3 months
     eol: 2026-12-17
-    latest: "4.19.6"
-    latestReleaseDate: 2025-07-29
+    latest: "4.19.7"
+    latestReleaseDate: 2025-08-05
 
   - releaseCycle: "4.18"
     releaseDate: 2025-02-25
@@ -46,8 +46,8 @@ releases:
     releaseDate: 2024-10-01
     eoas: 2025-05-25
     eol: 2026-04-01
-    latest: "4.17.36"
-    latestReleaseDate: 2025-07-23
+    latest: "4.17.37"
+    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "4.16"
     releaseDate: 2024-06-27
@@ -61,16 +61,16 @@ releases:
     releaseDate: 2024-02-27
     eoas: 2024-09-27
     eol: 2025-08-27
-    latest: "4.15.55"
-    latestReleaseDate: 2025-07-23
+    latest: "4.15.56"
+    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "4.14"
     releaseDate: 2023-10-31
     eoas: 2024-05-27
     eol: 2025-05-01
     eoes: 2025-10-31
-    latest: "4.14.53"
-    latestReleaseDate: 2025-07-02
+    latest: "4.14.54"
+    latestReleaseDate: 2025-07-31
 
   - releaseCycle: "4.13"
     releaseDate: 2023-05-17
@@ -84,8 +84,8 @@ releases:
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.78"
-    latestReleaseDate: 2025-07-10
+    latest: "4.12.79"
+    latestReleaseDate: 2025-08-07
 
   - releaseCycle: "4.11"
     releaseDate: 2022-08-10
@@ -164,6 +164,7 @@ releases:
     eol: 2020-05-05
     latest: "4.1.41"
     latestReleaseDate: 2020-04-22
+
 ---
 
 > [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) is a family of

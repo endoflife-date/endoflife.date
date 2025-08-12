@@ -33,7 +33,7 @@ auto:
 
 releases:
   - releaseCycle: "4"
-    releaseDate: 2025-07-15
+    releaseDate: 2025-07-16
     eoas: false
     eol: false
     latest: "4.0.3"
@@ -42,7 +42,7 @@ releases:
   - releaseCycle: "3"
     releaseDate: 2022-11-16
     eoas: false
-    eol: 2025-12-31
+    eol: 2026-01-31
     latest: "3.18.1"
     latestReleaseDate: 2025-08-05
 
@@ -60,6 +60,7 @@ releases:
     eol: 2019-09-21
     latest: "1.4.5"
     latestReleaseDate: 2018-11-27
+
 ---
 
 > [Nuxt](https://nuxt.com/) is a free and open-source framework with an intuitive and extendable way
