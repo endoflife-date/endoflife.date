@@ -23,8 +23,8 @@ releases:
     releaseDate: 2024-10-19
     eoas: false
     eol: false
-    latest: "5.38.0"
-    latestReleaseDate: 2025-08-06
+    latest: "5.38.1"
+    latestReleaseDate: 2025-08-11
 
   - releaseCycle: "4"
     releaseDate: 2023-06-22
@@ -56,6 +56,7 @@ releases:
     latest: "1.64.1"
     latestReleaseDate: 2018-04-18
     link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
+
 ---
 
 > [Svelte](https://svelte.dev/) a UI framework that uses a compiler to let you write

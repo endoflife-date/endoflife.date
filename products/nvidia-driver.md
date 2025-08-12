@@ -56,7 +56,7 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "580.86"
+    latest: "580.88"
     latestReleaseDate: 2025-08-04
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-65-06/index.html
 
@@ -411,6 +411,7 @@ releases:
     latest: "390.157"
     latestReleaseDate: 2022-11-22
     link: https://www.nvidia.com/Download/driverResults.aspx/196214/
+
 ---
 
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well

@@ -29,8 +29,8 @@ releases:
     releaseDate: 2025-07-29
     eoas: 2025-07-29
     eol: 2026-01-31
-    latest: "7.9.1"
-    latestReleaseDate: 2025-08-05
+    latest: "7.9.3"
+    latestReleaseDate: 2025-08-11
 
   - releaseCycle: "7.8"
     releaseDate: 2025-07-08
@@ -491,6 +491,7 @@ releases:
     eol: 2019-10-31
     latest: "1.0.5"
     latestReleaseDate: 2019-08-08
+
 ---
 
 > [Rocket.Chat](https://www.rocket.chat/) is an open-source real-time communication platform for

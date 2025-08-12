@@ -33,8 +33,8 @@ releases:
     lts: 2027-10-31
     eoas: 2025-10-31
     eol: 2027-10-31
-    latest: "24.10.9"
-    latestReleaseDate: 2025-08-04
+    latest: "24.10.10"
+    latestReleaseDate: 2025-08-11
     link: https://docs.centreon.com/docs/releases/centreon-os/
 
   - releaseCycle: "24.04"
@@ -129,6 +129,7 @@ releases:
     latest: "18.10.12"
     latestReleaseDate: 2020-02-24
     link: https://docs-older.centreon.com/docs/centreon/en/latest/release_notes/centreon-18.10.html
+
 ---
 
 > [Centreon](https://www.centreon.com/) is a software platform used to monitor IT infrastructure.
