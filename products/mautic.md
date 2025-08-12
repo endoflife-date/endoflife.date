@@ -19,6 +19,7 @@ auto:
     - git: https://github.com/mautic/mautic.git
     - release_table: https://www.mautic.org/mautic-releases
       selector: "table"
+      remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:
           column: "Branch"
@@ -39,12 +40,6 @@ auto:
           column: "Extended Long Term Support Until **"
           regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4}).*$'
           template: "{{day}} {{month}} {{year}}"
-    - declare: mautic
-      releases:
-        - {name: "7.0", releaseDate: 2025-10-01}   # Listed as Q4 2025 on https://mautic.org/releases/
-        - {name: "7.1", releaseDate: 2026-01-01}   # Listed as Q1 2026 on https://mautic.org/releases/
-        - {name: "7.2", releaseDate: 2026-04-01}   # Listed as Q2 2026 on https://mautic.org/releases/
-        - {name: "7.3", releaseDate: 2026-07-01}   # Listed as Q3 2026 on https://mautic.org/releases/
 
 releases:
   - releaseCycle: "6.0"
