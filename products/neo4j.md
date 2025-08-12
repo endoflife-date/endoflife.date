@@ -22,16 +22,17 @@ auto:
     - release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#1
       selector: "table"
       render_javascript: true
-      render_javascript_wait_until: networkidle
+      render_javascript_wait_for: "table"
       fields:
         releaseCycle:
           column: "Release"
           regex: '^(?P<value>\d+\.\d+).*$'
+          regex_exclude: '^5\.0 LA$' # Limited Availability release only, see https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions.
         releaseDate: "Release Date"
     - release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#2
       selector: "table"
       render_javascript: true
-      render_javascript_wait_until: networkidle
+      render_javascript_wait_for: "table"
       fields:
         releaseCycle:
           column: "Release"
