@@ -10,7 +10,7 @@ changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/ann
 
 customFields:
   - name: supportedKubernetesVersions
-    display: api-only
+    display: after-release-column
     label: Kubernetes
     description: Supported Kubernetes versions
     link: https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases
@@ -197,12 +197,3 @@ Istio follows [Semantic Versioning](https://istio.io/latest/docs/releases/suppor
 A new minor version is released approximately once a quarter. Minor releases are supported for 6
 weeks after the N+2 minor release (for example, 1.14 is supported until 6 weeks after 1.16.0 is
 released).
-
-## [Supported Kubernetes Versions](https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases)
-
-{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedKubernetesVersions"," - " %}
-{% include table.html
-labels="Version,Kubernetes Versions"
-fields="releaseCycle,supportedKubernetesVersions"
-types="string,string"
-rows=collapsedCycles %}
