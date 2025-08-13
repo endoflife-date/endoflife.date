@@ -114,7 +114,10 @@ identifiers:
   - purl: pkg:docker/library/python
   - purl: pkg:docker/circleci/python
   - purl: pkg:docker/bitnami/python
+  - purl: pkg:github/python/cpython
   - repology: python
+  - cpe: cpe:/a:python:python
+  - cpe: cpe:2.3:a:python:python
 
 auto:
   methods:
