@@ -18,6 +18,10 @@ eoesColumn: Extended Support
 identifiers:
   - cpe: cpe:/a:oracle:jdk
   - cpe: cpe:2.3:a:oracle:jdk
+  - cpe: cpe:/a:oracle:jre
+  - cpe: cpe:2.3:a:oracle:jre
+  - cpe: cpe:/a:oracle:java_se
+  - cpe: cpe:2.3:a:oracle:java_se
 
 auto:
   methods:
