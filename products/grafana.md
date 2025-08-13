@@ -64,8 +64,8 @@ releases:
     releaseDate: 2024-12-05
     eoas: 2025-01-28
     eol: 2025-09-05
-    latest: "11.4.7"
-    latestReleaseDate: 2025-07-23
+    latest: "11.4.8"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "11.3"
     releaseDate: 2024-10-22
@@ -192,6 +192,7 @@ releases:
     eol: 2021-06-08
     latest: "6.7.6"
     latestReleaseDate: 2021-03-18
+
 ---
 
 > [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on, and understand

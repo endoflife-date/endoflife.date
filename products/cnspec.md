@@ -26,8 +26,8 @@ releases:
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "11.66.1"
-    latestReleaseDate: 2025-08-06
+    latest: "11.67.1"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "10"
     releaseDate: 2024-01-23
@@ -63,6 +63,7 @@ releases:
     eol: 2023-03-09
     latest: "6.19.0"
     latestReleaseDate: 2022-10-11
+
 ---
 
 > [cnspec](https://mondoo.com/cnspec/) is an open source, cloud-native security and policy tool.

@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-02-18
     eoas: 2025-08-14
     eol: 2025-08-14
-    latest: "5.5.12"
-    latestReleaseDate: 2025-06-23
+    latest: "5.5.13"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "5.4"
     releaseDate: 2024-08-15
@@ -38,8 +38,8 @@ releases:
     releaseDate: 2024-02-16
     eoas: 2027-02-14
     eol: 2028-02-14
-    latest: "5.3.34"
-    latestReleaseDate: 2025-06-30
+    latest: "5.3.35"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "5.2"
     releaseDate: 2023-08-15
@@ -115,6 +115,7 @@ releases:
     link: null
     latest: "3.5.40"
     latestReleaseDate: 2019-04-11
+
 ---
 
 > [Contao Open Source CMS](https://contao.org) is a content management system written in PHP.

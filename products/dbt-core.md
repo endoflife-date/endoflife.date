@@ -27,8 +27,8 @@ releases:
     releaseDate: 2025-06-16
     eoas: false
     eol: 2026-06-16
-    latest: "1.10.7"
-    latestReleaseDate: 2025-08-07
+    latest: "1.10.8"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "1.9"
     releaseDate: 2024-12-09
@@ -99,6 +99,7 @@ releases:
     eol: 2022-12-03
     latest: "1.0.9"
     latestReleaseDate: 2023-01-05
+
 ---
 
 > [dbt Core](https://getdbt.com/) is an open-source data transformation tool that enables data

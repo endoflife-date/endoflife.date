@@ -49,8 +49,8 @@ releases:
     eoas: 2026-08-16
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "12.22.1"
-    latestReleaseDate: 2025-08-08
+    latest: "12.23.1"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
@@ -119,6 +119,7 @@ releases:
     link: https://laravel.com/docs/5.5/releases
     latest: "5.5.50"
     latestReleaseDate: 2020-08-18
+
 ---
 
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell

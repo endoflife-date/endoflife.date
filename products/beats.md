@@ -32,15 +32,15 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-04-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.1.1"
-    latestReleaseDate: 2025-08-04
+    latest: "9.1.2"
+    latestReleaseDate: 2025-08-11
     link: https://www.elastic.co/docs/release-notes/beats#beats-9.0.1-release-notes
 
   - releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
-    latest: "8.19.1"
-    latestReleaseDate: 2025-08-04
+    latest: "8.19.2"
+    latestReleaseDate: 2025-08-08
 
   - releaseCycle: "7"
     releaseDate: 2019-04-05
@@ -53,6 +53,7 @@ releases:
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
+
 ---
 
 > [Beats](https://www.elastic.co/beats/) are a suite of lightweight shippers for Elasticsearch and

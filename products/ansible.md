@@ -54,8 +54,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-19
     eol: false
-    latest: "11.8.0"
-    latestReleaseDate: 2025-07-16
+    latest: "11.9.0"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "10"
     ansibleCoreVersion: "2.17"
@@ -157,6 +157,7 @@ releases:
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
     link: https://github.com/ansible/ansible/blob/stable-2.9/changelogs/CHANGELOG-v2.9.rst
+
 ---
 
 > [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration
