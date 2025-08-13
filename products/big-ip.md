@@ -7,8 +7,35 @@ permalink: /big-ip
 versionCommand: show /sys version
 releasePolicyLink: https://my.f5.com/manage/s/article/K5903
 changelogTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
-eolColumn: End of Technical Support
 eoasColumn: End of Software Development
+eolColumn: End of Technical Support
+
+auto:
+  methods:
+    - release_table: https://my.f5.com/manage/s/article/K5903#1
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      render_javascript: true
+      render_javascript_wait_for: "table"
+      fields:
+        releaseCycle:
+          column: "Major Release, Minor Release, and Long-Term Stability Release versions"
+          regex: '^(?P<value>\d+\.\d+).x.*$'
+        releaseDate: "First customer ship"
+        eoas: "End of Software Development"
+        eol: "End of Technical Support"
+    - release_table: https://my.f5.com/manage/s/article/K5903#2
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      render_javascript: true
+      render_javascript_wait_for: "table"
+      fields:
+        releaseCycle:
+          column: "Major Release and Long-Term Stability Release versions"
+          regex: '^(?P<value>\d+\.\d+).x.*$'
+        releaseDate: "First customer ship"
+        eoas: "End of Software Development"
+        eol: "End of Technical Support"
 
 # EOAS / EOL dates can be found on https://my.f5.com/manage/s/article/K5903
 # Latest release dates can be found on https://my.f5.com/manage/s/article/K9412
@@ -39,8 +66,8 @@ releases:
   - releaseCycle: "16.1"
     lts: true
     releaseDate: 2021-07-07
-    eoas: 2025-07-31
-    eol: 2025-07-31
+    eoas: 2026-07-01
+    eol: 2026-07-01
     latest: "16.1.5"
     latestReleaseDate: 2024-07-23
 
@@ -63,11 +90,12 @@ releases:
 
   - releaseCycle: "15.0"
     releaseDate: 2019-05-23 # https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-0.html
-    eoas: 2024-08-23
-    eol: 2024-08-23
+    eoas: 2020-08-23
+    eol: 2020-08-23
     latest: "15.0.1"
     latestReleaseDate: 2019-08-08
     link: null
+
 ---
 
 > [BIG-IP](https://www.f5.com/products/big-ip) is a family of hardware and software products from F5 Networks, designed
