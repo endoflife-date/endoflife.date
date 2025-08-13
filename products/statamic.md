@@ -78,13 +78,14 @@ releases:
     latestReleaseDate: 2024-01-25
 
   - releaseCycle: "3.3"
-    releaseDate: 2022-03-15
+    releaseDate: 2022-03-14
     eoas: 2023-03-31
     eol: 2023-09-30
     supportedLaravelVersions: "8-9"
     supportedPhpVersions: "7.4-8.1"
     latest: "3.3.68"
     latestReleaseDate: 2023-02-02
+
 ---
 
 > [Statamic](https://statamic.com/) is a modern and flexible content management system built on the [Laravel PHP framework](/laravel).

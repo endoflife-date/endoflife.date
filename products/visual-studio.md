@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2024-11-12
     eol: 2026-07-14
-    latest: "17.12.10"
-    latestReleaseDate: 2025-07-08
+    latest: "17.12.11"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "17.11"
     codename: "2022"
@@ -59,8 +59,8 @@ releases:
     lts: true
     releaseDate: 2024-05-21
     eol: 2026-01-13
-    latest: "17.10.17"
-    latestReleaseDate: 2025-07-08
+    latest: "17.10.18"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "17.9"
     codename: "2022"
@@ -141,8 +141,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.49"
-    latestReleaseDate: 2025-07-08
+    latest: "16.11.50"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "16.10"
     codename: "2019"
@@ -225,8 +225,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.75"
-    latestReleaseDate: 2025-07-08
+    latest: "15.9.76"
+    latestReleaseDate: 2025-08-12
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
   - releaseCycle: "15.8"
@@ -332,6 +332,7 @@ releases:
     latest: "Service Pack 1"
     latestReleaseDate: 2011-08-18
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2010-sp1-vs
+
 ---
 
 > [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test,

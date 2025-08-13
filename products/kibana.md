@@ -23,15 +23,15 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-04-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.1.1"
-    latestReleaseDate: 2025-08-04
+    latest: "9.1.2"
+    latestReleaseDate: 2025-08-11
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
-    latest: "8.19.1"
-    latestReleaseDate: 2025-08-05
+    latest: "8.19.2"
+    latestReleaseDate: 2025-08-11
 
   - releaseCycle: "7"
     releaseDate: 2019-04-10
@@ -44,6 +44,7 @@ releases:
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
+
 ---
 
 > [Kibana](https://www.elastic.co/kibana/) is a free and open user interface that lets you visualize
