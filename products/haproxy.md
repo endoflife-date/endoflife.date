@@ -29,8 +29,8 @@ releases:
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.3"
-    latestReleaseDate: 2025-07-09
+    latest: "3.2.4"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
@@ -126,6 +126,7 @@ releases:
     eol: 2021-10-01
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
+
 ---
 
 > [HAProxy](https://www.haproxy.org/) is a free, fast, and reliable reverse-proxy offering high

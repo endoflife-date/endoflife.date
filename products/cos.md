@@ -28,29 +28,29 @@ releases:
     lts: true
     releaseDate: 2025-04-14
     eol: 2027-03-01
-    latest: "cos-121-18867-199-19"
-    latestReleaseDate: 2025-08-06
+    latest: "cos-121-18867-199-28"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "cos-117"
     lts: true
     releaseDate: 2024-10-02
     eol: 2026-09-01
-    latest: "cos-117-18613-339-26"
-    latestReleaseDate: 2025-08-06
+    latest: "cos-117-18613-339-32"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-448-20"
-    latestReleaseDate: 2025-08-06
+    latest: "cos-113-18244-448-22"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-570-23"
-    latestReleaseDate: 2025-08-06
+    latest: "cos-109-17800-570-26"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "cos-105"
     lts: true
@@ -121,6 +121,7 @@ releases:
     eol: 2019-12-01
     latest: "cos-69-10895-385-0"
     latestReleaseDate: 2019-10-08
+
 ---
 
 > [Google Container-Optimized OS (COS)](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
