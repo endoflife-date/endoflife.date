@@ -13,6 +13,8 @@ auto:
   methods:
     - git: https://github.com/sipwise/rtpengine.git
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
+    - rtpengine-releases: https://www.sipwise.com/releases/releases.json
+      regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)$'
 
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
