@@ -23,14 +23,14 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2025-04-15
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
-    latest: "3.4.0"
-    latestReleaseDate: 2025-04-15
+    latest: "3.4.1"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "3.3"
     releaseDate: 2024-11-29
     eol: 2026-11-29
-    latest: "3.3.2"
-    latestReleaseDate: 2025-04-10
+    latest: "3.3.3"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "3.2"
     releaseDate: 2024-08-26
@@ -111,6 +111,7 @@ releases:
     eol: 2023-05-24
     latest: "1.10.15"
     latestReleaseDate: 2023-02-20
+
 ---
 
 > [Tarantool](https://www.tarantool.io/) is an open source (BSD-2 clause licensed), in-memory

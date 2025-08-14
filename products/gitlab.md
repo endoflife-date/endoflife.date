@@ -39,22 +39,22 @@ releases:
     releaseDate: 2025-07-17
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
-    latest: "18.2.1"
-    latestReleaseDate: 2025-07-22
+    latest: "18.2.2"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-17 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
-    latest: "18.1.3"
-    latestReleaseDate: 2025-07-22
+    latest: "18.1.4"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14
     eoas: 2025-06-19 # releaseDate(18.1)
     eol: 2025-08-21 # releaseDate(18.3)
-    latest: "18.0.5"
-    latestReleaseDate: 2025-07-22
+    latest: "18.0.6"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "17.11"
     releaseDate: 2025-04-16

@@ -33,8 +33,8 @@ releases:
     releaseDate: 2025-06-24
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.29.0"
-    latestReleaseDate: 2025-06-24
+    latest: "1.29.1"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "1.28"
     releaseDate: 2025-04-23
@@ -160,6 +160,7 @@ releases:
     eol: 2012-04-23
     latest: "1.0.15"
     latestReleaseDate: 2012-04-12
+
 ---
 
 > [NGINX](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a

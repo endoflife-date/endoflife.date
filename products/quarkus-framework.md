@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "3.25"
     releaseDate: 2025-07-30
     eol: false
-    latest: "3.25.2"
-    latestReleaseDate: 2025-08-08
+    latest: "3.25.3"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "3.24"
     releaseDate: 2025-06-25
@@ -336,6 +336,7 @@ releases:
     latest: "0.28.1"
     latestReleaseDate: 2019-11-04
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
+
 ---
 
 > [Quarkus: Supersonic Subatomic Java](https://quarkus.io/) is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM,

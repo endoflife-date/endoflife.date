@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "1.21"
     releaseDate: 2025-05-06
     eol: false # releaseDate(1.24)
-    latest: "1.21.3"
-    latestReleaseDate: 2025-07-19
+    latest: "1.21.4"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "1.20"
     releaseDate: 2024-10-14
@@ -119,6 +119,7 @@ releases:
     latest: "1.6.10"
     latestReleaseDate: 2020-11-19
     releaseDate: 2019-08-23
+
 ---
 
 > [Hashicorp Consul](https://www.consul.io/) automates networking for simple and secure application

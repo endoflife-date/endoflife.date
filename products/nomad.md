@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "1.10"
     releaseDate: 2025-04-09
     eol: false
-    latest: "1.10.3"
-    latestReleaseDate: 2025-07-08
+    latest: "1.10.4"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "1.9"
     releaseDate: 2024-10-10
@@ -91,6 +91,7 @@ releases:
     eol: 2021-11-15
     latest: "0.12.12"
     latestReleaseDate: 2021-05-11
+
 ---
 
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to
