@@ -17,6 +17,12 @@ identifiers:
   - purl: pkg:rpm/amzn/elasticsearch
   - purl: pkg:rpm/redhat/elasticsearch
   - purl: pkg:rpm/centos/elasticsearch
+  - purl: pkg:github/elastic/elasticsearch
+  - purl: pkg:maven/org.elasticsearch/elasticsearch
+  - cpe: cpe:2.3:a:elastic:elasticsearch
+  - cpe: cpe:/a:elastic:elasticsearch
+  - cpe: cpe:2.3:a:elasticsearch:elasticsearch
+  - cpe: cpe:/a:elasticsearch:elasticsearch
 
 auto:
   methods:
