@@ -41,8 +41,8 @@ releases:
     releaseDate: 2025-04-08
     eoas: 2025-08-12
     eol: false
-    latest: "0.79.5"
-    latestReleaseDate: 2025-07-01
+    latest: "0.79.6"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "0.78"
     releaseDate: 2025-02-19
@@ -176,6 +176,7 @@ releases:
     eol: 2020-07-09
     latest: "0.60.6"
     latestReleaseDate: 2019-09-24
+
 ---
 
 > [React Native](https://reactnative.dev/) brings React's declarative UI framework to iOS and Android.

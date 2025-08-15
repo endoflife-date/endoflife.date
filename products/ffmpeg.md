@@ -43,8 +43,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.2"
-    latestReleaseDate: 2024-08-02
+    latest: "6.1.3"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -58,8 +58,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.6"
-    latestReleaseDate: 2024-08-05
+    latest: "5.1.7"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -270,6 +270,7 @@ releases:
     eol: 2014-11-29
     latest: "0.5.15"
     latestReleaseDate: 2014-11-29
+
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of

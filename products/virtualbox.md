@@ -32,7 +32,7 @@ releases:
     releaseDate: 2024-09-09
     eol: false
     latest: "7.1.12"
-    latestReleaseDate: 2025-07-18
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "7.0"
     releaseDate: 2022-10-10
@@ -93,6 +93,7 @@ releases:
     eol: 2015-12-31
     latest: "4.0.36"
     latestReleaseDate: 2015-11-11
+
 ---
 
 > [VirtualBox](https://www.virtualbox.org/) is a general-purpose full virtualization software.

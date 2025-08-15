@@ -22,20 +22,20 @@ releases:
   - releaseCycle: "3.12"
     releaseDate: 2025-05-19
     eol: false
-    latest: "3.12.1"
-    latestReleaseDate: 2025-07-17
+    latest: "3.12.2"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "3.11"
     releaseDate: 2024-12-02
     eol: false
-    latest: "3.11.4"
-    latestReleaseDate: 2025-07-17
+    latest: "3.11.5"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "3.10"
     releaseDate: 2024-05-17
     eol: false
-    latest: "3.10.7"
-    latestReleaseDate: 2025-07-17
+    latest: "3.10.8"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "3.9"
     releaseDate: 2023-11-25
@@ -120,6 +120,7 @@ releases:
     eol: true
     latest: "2.13.14"
     latestReleaseDate: 2019-04-19
+
 ---
 
 > [Gerrit](https://www.gerritcodereview.com/) is a web-based code

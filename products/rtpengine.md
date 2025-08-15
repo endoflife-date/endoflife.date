@@ -22,48 +22,48 @@ releases:
     releaseDate: 2025-06-20
     eol: 2025-09-26
     link: https://www.sipwise.com/releases/2025/mr13.4
-    latest: "13.4.1.4"
-    latestReleaseDate: 2025-08-04
+    latest: "13.4.1.5"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "13.3"
-    releaseDate: 2025-04-18
-    eol: 2025-06-13
+    releaseDate: 2025-04-25
+    eol: 2025-06-20
     link: https://www.sipwise.com/releases/2025/mr13.3
-    latest: "13.3.1.11"
-    latestReleaseDate: 2025-08-04
+    latest: "13.3.1.12"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "13.2"
-    releaseDate: 2025-02-12
-    eol: 2025-04-18
+    releaseDate: 2025-02-21
+    eol: 2025-04-25
     link: https://www.sipwise.com/releases/2025/mr13.2
     latest: "13.2.1.16"
     latestReleaseDate: 2025-06-30
 
   - releaseCycle: "13.1"
-    releaseDate: 2024-12-06
-    eol: 2025-02-14
+    releaseDate: 2024-12-20
+    eol: 2025-02-21
     link: https://www.sipwise.com/releases/2024/mr13.1
     latest: "13.1.1.16"
     latestReleaseDate: 2025-05-09
 
   - releaseCycle: "13.0"
-    releaseDate: 2024-10-01
-    eol: 2025-01-20 # latestReleaseDate is eol date for 13.0
+    releaseDate: 2024-11-08
+    eol: 2024-12-20 # latestReleaseDate is eol date for 13.0
     link: https://www.sipwise.com/releases/2024/mr13.0
     latest: "13.0.1.10"
     latestReleaseDate: 2025-01-20
 
   - releaseCycle: "12.5"
     lts: true
-    releaseDate: 2024-08-14
-    eol: 2027-07-23
+    releaseDate: 2024-09-20
+    eol: 2027-09-24
     link: https://www.sipwise.com/releases/2024/mr12.5
-    latest: "12.5.1.41"
-    latestReleaseDate: 2025-08-04
+    latest: "12.5.1.42"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "11.5"
     lts: true
-    releaseDate: 2023-09-18
+    releaseDate: 2023-09-22
     eol: 2026-09-11
     link: https://www.sipwise.com/releases/2024/mr11.5
     latest: "11.5.1.46"
@@ -71,11 +71,12 @@ releases:
 
   - releaseCycle: "10.5"
     lts: true
-    releaseDate: 2022-06-29
+    releaseDate: 2022-07-08
     eol: 2025-09-05
     link: https://www.sipwise.com/releases/2024/mr10.5
     latest: "10.5.9.1"
     latestReleaseDate: 2025-07-29
+
 ---
 
 > The [Sipwise NGCP rtpengine](https://www.sipwise.com/products/rtpengine/) is a proxy for RTP traffic and other UDP-based media traffic.

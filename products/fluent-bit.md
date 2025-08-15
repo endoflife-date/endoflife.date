@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-03-29
     eol: false # releaseDate(4.1)
-    latest: "4.0.7"
-    latestReleaseDate: 2025-08-07
+    latest: "4.0.8"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "3.2"
     releaseDate: 2024-11-12
@@ -155,6 +155,7 @@ releases:
     eol: true
     latest: "0.10.1"
     latestReleaseDate: 2017-01-06
+
 ---
 
 > Fluent Bit is a cross-platform fast and lightweight logs and metrics processor. It is an

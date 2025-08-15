@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "10.7"
     releaseDate: 2025-06-13
     eol: 2027-06-13
-    latest: "10.7.3"
-    latestReleaseDate: 2025-07-23
+    latest: "10.7.4"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "10.6"
     releaseDate: 2025-04-23
@@ -681,6 +681,7 @@ releases:
     latest: "1.0.0"
     latestReleaseDate: 2002-04-10
     link: https://www.atlassian.com/blog/archives/jira_10_release$
+
 ---
 
 > [Jira Software](https://www.atlassian.com/software/jira) is a proprietary issue tracking product
