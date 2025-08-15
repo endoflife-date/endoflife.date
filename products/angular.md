@@ -38,8 +38,8 @@ releases:
     eoas: 2025-11-21
     eol: 2026-11-21
     eoes: false
-    latest: "20.1.6"
-    latestReleaseDate: 2025-08-06
+    latest: "20.1.7"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
@@ -128,6 +128,7 @@ releases:
     eoes: false
     latest: "9.1.13"
     latestReleaseDate: 2020-12-16
+
 ---
 
 > [Angular](https://angular.dev/) is a TypeScript-based free and open-source web application

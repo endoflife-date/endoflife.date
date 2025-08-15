@@ -30,22 +30,22 @@ releases:
     releaseDate: 2024-11-07
     eoas: 2025-11-07
     eol: 2026-11-07
-    latest: "8.0.2"
-    latestReleaseDate: 2025-03-12
+    latest: "8.0.2.1"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "7.2"
     releaseDate: 2024-08-09
     eoas: 2025-08-09
     eol: 2026-08-09
-    latest: "7.2.2.1"
-    latestReleaseDate: 2024-12-10
+    latest: "7.2.2.2"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eoas: 2024-10-01
     eol: 2025-10-01 # see https://rubyonrails.org/maintenance
-    latest: "7.1.5.1"
-    latestReleaseDate: 2024-12-10
+    latest: "7.1.5.2"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "7.0"
     releaseDate: 2021-12-15
@@ -95,6 +95,7 @@ releases:
     eol: 2017-04-27
     latest: "4.2.11.3"
     latestReleaseDate: 2020-05-15
+
 ---
 
 > [Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework written in Ruby.

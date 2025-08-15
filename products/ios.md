@@ -23,8 +23,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.6"
-    latestReleaseDate: 2025-07-29
+    latest: "18.6.1"
+    latestReleaseDate: 2025-08-14
     link: https://support.apple.com/en-us/121161
 
   - releaseCycle: "17"
@@ -130,6 +130,7 @@ releases:
     latest: "5.1.1"
     latestReleaseDate: 2012-05-07
     link: https://support.apple.com/HT212597
+
 ---
 
 > [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the

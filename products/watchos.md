@@ -29,8 +29,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "11.6"
-    latestReleaseDate: 2025-07-29
+    latest: "11.6.1"
+    latestReleaseDate: 2025-08-14
     link: https://support.apple.com/en-us/121163
 
   - releaseCycle: "10"
@@ -90,6 +90,7 @@ releases:
     latestReleaseDate: 2017-07-19
     latest: "3.2.3"
     link: https://support.apple.com/kb/DL1894
+
 ---
 
 > [watchOS](https://www.apple.com/watchos/) is Apple's mobile operating system for its Apple

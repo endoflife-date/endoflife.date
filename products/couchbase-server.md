@@ -34,28 +34,28 @@ auto:
     - declare: couchbase-server
       # Release dates are approximate on https://www.couchbase.com/support-policy/EOL/.
       releases:
-        - { name: "7.6", releaseDate: 2024-03-25 } # https://www.couchbase.com/blog/announcing-couchbase-6-0/
-        - { name: "7.2", releaseDate: 2023-06-01 } # https://www.couchbase.com/blog/couchbase-capella-spring-release-72/
-        - { name: "7.1", releaseDate: 2022-05-10 } # https://www.couchbase.com/blog/whats-new-in-couchbase-server-7-1/
-        - { name: "7.0", releaseDate: 2021-07-29 } # https://www.couchbase.com/blog/couchbase-server-7-0-release/
-        - { name: "6.6", releaseDate: 2020-08-12 } # https://www.couchbase.com/blog/whats-new-and-improved-in-couchbase-server-6-6/
-        - { name: "6.5", releaseDate: 2020-01-21 } # https://www.couchbase.com/blog/announcing-couchbase-server-6-5-0-whats-new-and-improved/
-        - { name: "6.0", releaseDate: 2018-10-31 } # https://www.couchbase.com/blog/announcing-couchbase-6-0/
-        - { name: "5.5", releaseDate: 2018-07-23 } # https://www.couchbase.com/blog/couchbase-server-5-5-beta-2/
-        - { name: "5.0", releaseDate: 2017-10-26 } # https://www.couchbase.com/blog/announcing-couchbase-server-5-0/
-        - { name: "4.6", releaseDate: 2017-02-16 } # https://www.couchbase.com/blog/announcing-couchbase-server-4-6-whats-new-improved/
-        - { name: "4.5", releaseDate: 2016-06-27 } # https://www.couchbase.com/blog/announcing-couchbase-server-4.5/
-        - { name: "4.1", releaseDate: 2015-12-10 } # https://www.couchbase.com/blog/introducing-couchbase-server-4.1/
-        - { name: "4.0", releaseDate: 2015-10-06 } # https://www.couchbase.com/blog/announcing-couchbase-server-4-0/
-        - { name: "3.0", releaseDate: 2014-12-17 } # https://www.couchbase.com/blog/announcing-release-couchbase-server-30-0/
-        - { name: "2.1", releaseDate: 2013-06-26 } # https://www.couchbase.com/press-releases/couchbase-announces-availability-of-couchbase-server-2-1-nosql-document-database/
+        - {name: "7.6", releaseDate: 2024-03-25}   # https://www.couchbase.com/blog/announcing-couchbase-6-0/
+        - {name: "7.2", releaseDate: 2023-06-01}   # https://www.couchbase.com/blog/couchbase-capella-spring-release-72/
+        - {name: "7.1", releaseDate: 2022-05-10}   # https://www.couchbase.com/blog/whats-new-in-couchbase-server-7-1/
+        - {name: "7.0", releaseDate: 2021-07-29}   # https://www.couchbase.com/blog/couchbase-server-7-0-release/
+        - {name: "6.6", releaseDate: 2020-08-12}   # https://www.couchbase.com/blog/whats-new-and-improved-in-couchbase-server-6-6/
+        - {name: "6.5", releaseDate: 2020-01-21}   # https://www.couchbase.com/blog/announcing-couchbase-server-6-5-0-whats-new-and-improved/
+        - {name: "6.0", releaseDate: 2018-10-31}   # https://www.couchbase.com/blog/announcing-couchbase-6-0/
+        - {name: "5.5", releaseDate: 2018-07-23}   # https://www.couchbase.com/blog/couchbase-server-5-5-beta-2/
+        - {name: "5.0", releaseDate: 2017-10-26}   # https://www.couchbase.com/blog/announcing-couchbase-server-5-0/
+        - {name: "4.6", releaseDate: 2017-02-16}   # https://www.couchbase.com/blog/announcing-couchbase-server-4-6-whats-new-improved/
+        - {name: "4.5", releaseDate: 2016-06-27}   # https://www.couchbase.com/blog/announcing-couchbase-server-4.5/
+        - {name: "4.1", releaseDate: 2015-12-10}   # https://www.couchbase.com/blog/introducing-couchbase-server-4.1/
+        - {name: "4.0", releaseDate: 2015-10-06}   # https://www.couchbase.com/blog/announcing-couchbase-server-4-0/
+        - {name: "3.0", releaseDate: 2014-12-17}   # https://www.couchbase.com/blog/announcing-release-couchbase-server-30-0/
+        - {name: "2.1", releaseDate: 2013-06-26}   # https://www.couchbase.com/press-releases/couchbase-announces-availability-of-couchbase-server-2-1-nosql-document-database/
 
 releases:
   - releaseCycle: "7.6"
     releaseDate: 2024-03-25
     eol: 2027-03-31
-    latest: "7.6.6"
-    latestReleaseDate: 2025-05-31
+    latest: "7.6.7"
+    latestReleaseDate: 2025-08-31
 
   - releaseCycle: "7.2"
     releaseDate: 2023-06-01
@@ -192,6 +192,7 @@ releases:
     latest: "1.8.0" # could not find any information
     latestReleaseDate: 2012-07-31
     link: null
+
 ---
 
 > [Couchbase Server](https://www.couchbase.com/products/server) is a modern cloud-native,

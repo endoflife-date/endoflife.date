@@ -41,7 +41,7 @@ auto:
 releases:
   - releaseCycle: "8.9"
     releaseDate: 2025-07-21
-    eol: 2026-03-21
+    eol: 2026-04-21
     latest: "8.9"
     latestReleaseDate: 2025-07-21
 
@@ -263,6 +263,7 @@ releases:
     latest: "3.1"
     latestReleaseDate: 2014-09-03
     link: null
+
 ---
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs-cortex.paloaltonetworks.com/p/XDR)
