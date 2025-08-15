@@ -1,6 +1,7 @@
 # This script create product pages for the website.
 
 require 'jekyll'
+require_relative 'end-of-life'
 
 module EndOfLife
 
@@ -70,12 +71,14 @@ module EndOfLife
         @dir = "tags"
         @name = "#{tag}.html"
 
+        is_category = is_category?(tag)
         @data = {
-          "title" => "Products tagged with '#{tag}'",
+          "title" => is_category ? category_title(tag) : "Products tagged with '#{tag}'",
           "layout" => "product-list",
           "permalink" => "/tags/#{tag}",
           "products" => products.sort_by { |product| product.data['title'] },
-          "nav_exclude"=> true
+          "is_category" => is_category,
+          "nav_exclude"=> !is_category
         }
 
         self.process(@name)
