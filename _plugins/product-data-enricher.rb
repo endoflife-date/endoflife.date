@@ -77,7 +77,7 @@ module Jekyll
 
       # Set the parent page for navigation.
       def set_parent(page)
-        page.data['parent'] = category_title(page.data['category'])
+        page.data['parent'] = tag_title(page.data['category'])
       end
 
       # Explode tags space-separated string to a list if necessary.
