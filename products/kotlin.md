@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "2.2"
     releaseDate: 2025-06-23
     eol: false
-    latest: "2.2.0"
-    latestReleaseDate: 2025-06-23
+    latest: "2.2.10"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "2.1"
     releaseDate: 2024-11-27
@@ -79,6 +79,7 @@ releases:
     latest: "1.3.72"
     latestReleaseDate: 2020-04-15
     releaseDate: 2018-10-29
+
 ---
 
 > [Kotlin](https://kotlinlang.org/) is a cross-platform, statically typed, general-purpose

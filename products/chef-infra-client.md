@@ -26,32 +26,32 @@ auto:
 # eoas(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "18"
-    releaseDate: 2022-10-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
+    releaseDate: 2022-09-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
     eoas: false
     eol: false
-    latest: "18.6.2"
-    latestReleaseDate: 2024-12-13
+    latest: "18.8.9"
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "17"
-    releaseDate: 2021-04-28 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
+    releaseDate: 2021-04-27 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
     eoas: 2022-01-10
     eol: 2024-11-30
     latest: "17.10.163"
-    latestReleaseDate: 2024-08-27
+    latestReleaseDate: 2024-08-14
 
   - releaseCycle: "16"
-    releaseDate: 2020-05-05 # https://discourse.chef.io/t/chef-infra-client-16-0-275-released/17047
+    releaseDate: 2020-04-27 # https://discourse.chef.io/t/chef-infra-client-16-0-275-released/17047
     eoas: 2020-12-19
     eol: 2022-11-30 # https://www.chef.io/blog/announcement-chef-client-16-eol-date-change
     latest: "16.18.30"
-    latestReleaseDate: 2023-02-15
+    latestReleaseDate: 2023-02-14
 
   - releaseCycle: "15"
     releaseDate: 2018-10-26
     eoas: 2020-01-21
     eol: 2020-12-19
     latest: "15.17.4"
-    latestReleaseDate: 2021-04-17
+    latestReleaseDate: 2021-04-16
 
   - releaseCycle: "14"
     releaseDate: 2018-01-22
@@ -72,7 +72,7 @@ releases:
     eoas: 2017-03-01
     eol: 2018-01-22
     latest: "12.22.5"
-    latestReleaseDate: 2018-05-30
+    latestReleaseDate: 2018-05-17
 
   - releaseCycle: "11"
     releaseDate: 2013-02-01
@@ -87,6 +87,7 @@ releases:
     eol: 2014-12-03
     latest: "10.34.6"
     latestReleaseDate: 2014-11-10
+
 ---
 
 > [Chef Infra Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration

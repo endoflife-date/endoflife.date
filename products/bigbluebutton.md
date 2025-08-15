@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "3.0"
     releaseDate: 2025-02-28
     eol: false
-    latest: "3.0.12"
-    latestReleaseDate: 2025-07-22
+    latest: "3.0.13"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "2.7"
     releaseDate: 2023-09-06
@@ -38,6 +38,7 @@ releases:
     eol: 2023-09-06
     latest: "2.5.20" # not a GitHub release
     latestReleaseDate: 2024-05-11
+
 ---
 
 > [BigBlueButton](https://bigbluebutton.org/) is an open-source web conferencing system.

@@ -20,8 +20,8 @@ releases:
   - releaseCycle: "4.1"
     releaseDate: 2025-04-01
     eol: false
-    latest: "4.1.11"
-    latestReleaseDate: 2025-06-26
+    latest: "4.1.12"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "4.0"
     releaseDate: 2025-01-21
@@ -136,6 +136,7 @@ releases:
     eol: 2019-08-06
     latest: "1.0.6"
     latestReleaseDate: 2019-07-31
+
 ---
 
 > [Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.

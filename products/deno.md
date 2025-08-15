@@ -26,8 +26,8 @@ releases:
     releaseDate: 2025-07-01
     lts: 2025-11-01
     eol: 2026-04-30
-    latest: "2.4.3"
-    latestReleaseDate: 2025-07-30
+    latest: "2.4.4"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "2.3"
     releaseDate: 2025-04-30
@@ -60,6 +60,7 @@ releases:
     eol: 2024-10-09
     latest: "1.46.3"
     latestReleaseDate: 2024-09-04
+
 ---
 
 > [Deno](https://deno.com) is a JavaScript, TypeScript, and WebAssembly runtime with
