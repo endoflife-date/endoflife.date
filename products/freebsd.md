@@ -51,16 +51,16 @@ releases:
     releaseDate: 2024-03-05
     eol: 2024-12-31
 
-  - releaseCycle: "14.0"
-    releaseLabel: "releng/14.0"
-    releaseDate: 2023-11-21
-    eol: 2024-09-30
-
   - releaseCycle: "14"
     releaseLabel: "stable/14"
     releaseDate: 2023-11-21
     eol: 2028-11-30
     link: null
+
+  - releaseCycle: "14.0"
+    releaseLabel: "releng/14.0"
+    releaseDate: 2023-11-20
+    eol: 2024-09-30
 
   - releaseCycle: "13.2"
     releaseLabel: "releng/13.2"
