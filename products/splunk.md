@@ -2,7 +2,7 @@
 title: Splunk
 addedAt: 2021-10-18
 category: server-app
-tag: cisco
+tags: cisco
 iconSlug: splunk
 permalink: /splunk
 versionCommand: splunk --version
