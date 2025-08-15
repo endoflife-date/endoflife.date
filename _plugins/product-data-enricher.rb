@@ -23,6 +23,9 @@
 # - days_toward_eol (in cycles) : number of days toward the EOL of the cycle (optional, only if eol is set)
 # - days_toward_discontinued (in cycles) : number of days toward the discontinuation of the cycle (optional, only if discontinued is set)
 # - days_toward_eoes (in cycles) : number of days toward the end of extended support for the cycle (optional, only if eoes is set)
+
+require_relative 'end-of-life'
+
 module Jekyll
   class ProductDataEnricher
     class << self
@@ -35,6 +38,7 @@ module Jekyll
         set_id(page)
         set_description(page)
         set_icon_url(page)
+        set_parent(page)
         set_tags(page)
         set_identifiers(page)
         set_aliases(page)
@@ -69,6 +73,11 @@ module Jekyll
         if page['iconSlug']
           page.data['iconUrl'] = "https://cdn.jsdelivr.net/npm/simple-icons/icons/#{page['iconSlug']}.svg"
         end
+      end
+
+      # Set the parent page for navigation.
+      def set_parent(page)
+        page.data['parent'] = category_title(page.data['category'])
       end
 
       # Explode tags space-separated string to a list if necessary.

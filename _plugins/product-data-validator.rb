@@ -10,12 +10,12 @@
 
 require 'jekyll'
 require 'open-uri'
+require_relative 'end-of-life'
 require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
-  VALID_CATEGORIES = %w[app database device framework lang library os server-app service standard]
   VALID_CUSTOM_FIELD_DISPLAY = %w[none api-only after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
@@ -142,7 +142,7 @@ module EndOfLifeHooks
 
     error_if = Validator.new('product', product, product.data)
     error_if.is_not_a_string('title')
-    error_if.is_not_in('category', EndOfLifeHooks::VALID_CATEGORIES)
+    error_if.is_not_in('category', CATEGORIES)
     error_if.does_not_match('tags', /^[a-z0-9\-]+( [a-z0-9\-]+)*$/) if product.data.has_key?('tags')
     error_if.does_not_match('permalink', /^\/[a-z0-9-]+$/)
     error_if.does_not_match('alternate_urls', /^\/[a-z0-9\-_]+$/)
