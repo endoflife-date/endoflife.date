@@ -16,6 +16,8 @@ identifiers:
   - purl: pkg:deb/debian/perl
   - purl: pkg:generic/perl
   - repology: perl
+  - cpe: cpe:2.3:a:perl:perl
+  - cpe: cpe:/a:perl:perl
 
 auto:
   methods:
