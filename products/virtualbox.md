@@ -28,6 +28,12 @@ auto:
 # eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.
 releases:
+  - releaseCycle: "7.2"
+    releaseDate: 2025-08-14
+    eol: false
+    latest: "7.2.0"
+    latestReleaseDate: 2025-08-14
+
   - releaseCycle: "7.1"
     releaseDate: 2024-09-09
     eol: false
