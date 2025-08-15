@@ -2,7 +2,7 @@
 title: Clear Linux
 addedAt: 2025-07-22
 category: os
-tags: linux-distribution intel
+tags: discontinued linux-distribution intel
 iconSlug: intel
 permalink: /clear-linux
 alternate_urls:
