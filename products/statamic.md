@@ -1,6 +1,6 @@
 ---
 title: Statamic
-addedAt: 2025-08-03
+addedAt: 2025-08-08
 category: server-app
 tags: php-runtime
 iconSlug: statamic
