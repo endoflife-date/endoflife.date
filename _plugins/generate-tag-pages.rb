@@ -53,11 +53,12 @@ module EndOfLife
 
       tags = products_by_tag.map { |tag, value| "#{tag}|#{value.size()}" }.sort
       @data = {
-        "title" => "Product tags",
+        "title" => "All tags",
         "layout" => "product-tags",
         "permalink" => "/tags/",
-        "tags" => tags,
-        "nav_exclude"=> true
+        "has_toc" => false,
+        "nav_order"=> 9999, # Ensure this page appears last in the navigation
+        "tags" => tags
       }
 
       self.process(@name)
@@ -73,12 +74,14 @@ module EndOfLife
 
         is_category = is_category?(tag)
         @data = {
-          "title" => is_category ? category_title(tag) : "Products tagged with '#{tag}'",
+          "title" => tag_title(tag),
           "layout" => "product-list",
           "permalink" => "/tags/#{tag}",
-          "products" => products.sort_by { |product| product.data['title'] },
+          "has_toc" => false,
+          "parent" => is_category ? nil: "All tags",
+          "nav_order"=> is_category ? category_index(tag) : nil, # Ensure category pages appears first in the navigation, order by their name
           "is_category" => is_category,
-          "nav_exclude"=> !is_category
+          "products" => products.sort_by { |product| product.data['title'] }
         }
 
         self.process(@name)
