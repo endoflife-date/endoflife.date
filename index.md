@@ -66,4 +66,3 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 ## Sponsors
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
-[![Sponsored under Datadog OSS Plan](assets/datadog-logo.png)](https://datadog.com)
