@@ -11,6 +11,12 @@ identifiers:
   - repology: clamav
   - cpe: cpe:2.3:a:clamav:clamav
   - cpe: cpe:/a:clamav:clamav
+  - cpe: cpe:2.3:a:cisco:clam_antivirus
+  - cpe: cpe:/a:cisco:clam_antivirus
+  - cpe: cpe:2.3:a:cisco:clamav
+  - cpe: cpe:/a:cisco:clamav
+  - cpe: cpe:2.3:a:clam_anti-virus:clamav
+  - cpe: cpe:/a:clam_anti-virus:clamav
 
 auto:
   methods:
