@@ -1,6 +1,6 @@
 # All categories on endoflife.date.
 # This also defines the order in which they appear in the navigation, so keep ordered alphabetically.
-CATEGORIES = %w[app database device framework lang library os server-app service standard]
+CATEGORIES = %w[app database device framework lang os server-app service standard]
 
 def is_category?(name)
   CATEGORIES.include?(name)
@@ -16,7 +16,6 @@ def tag_title(tag_name)
   when 'device' then 'Devices'
   when 'framework' then 'Frameworks'
   when 'lang' then 'Languages'
-  when 'library' then 'Libraries'
   when 'os' then 'Operating Systems'
   when 'server-app' then 'Server Applications'
   when 'service' then 'Services'

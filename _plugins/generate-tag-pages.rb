@@ -1,4 +1,4 @@
-# This script create product pages for the website.
+# This script create the tag (and categories, because they are also tags) pages for the website.
 
 require 'jekyll'
 require_relative 'end-of-life'
@@ -74,6 +74,7 @@ module EndOfLife
 
         is_category = is_category?(tag)
         @data = {
+          "id" => tag,
           "title" => tag_title(tag),
           "layout" => "product-list",
           "permalink" => "/tags/#{tag}",

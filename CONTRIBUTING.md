@@ -48,16 +48,17 @@ title: Timeturner
 addedAt: 2019-05-27
 
 # Category of the product (mandatory).
-# Possible values are: os, database, app, lang, framework, device, service, server-app.
+# Possible values are: app, database, device, framework, lang, os, server-app, service, standard.
 # If you add a new value, please mention it in the PR description. Some rough guidelines:
-# - os: operating systems (and similar projects)
-# - database: all kinds of database
 # - app: end-user applications
-# - lang: programming languages
-# - framework: application libraries, SDKs, frameworks...
+# - database: all kinds of database
 # - device: physical, hardware devices
-# - service: managed service offerings (SaaS/PaaS...)
+# - framework: application libraries, SDKs, frameworks...
+# - lang: programming languages
+# - os: operating systems (and similar projects)
 # - server-app: applications usually installed on the server-side
+# - service: managed service offerings (SaaS/PaaS...)
+# - standard: standards and protocols.
 category: os
 
 # Tags of the product (optional).
