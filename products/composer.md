@@ -13,6 +13,8 @@ identifiers:
   - purl: pkg:composer/composer/composer
   - purl: pkg:docker/library/composer
   - purl: pkg:github/composer/composer
+  - cpe: cpe:2.3:a:getcomposer:composer
+  - cpe: cpe:/a:getcomposer:composer
 
 auto:
   methods:
