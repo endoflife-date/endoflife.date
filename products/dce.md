@@ -14,8 +14,8 @@ releases:
     releaseDate: 2023-06-01
     eol: 2026-06-01
     eoes: 2028-10-30
-    latest: "5.0-20240730"
-    latestReleaseDate: 2024-07-30
+    latest: "5.0-20250731"
+    latestReleaseDate: 2025-07-31
     link: https://docs.daocloud.io/en/dce/dce-rn/20240730.html
 
   - releaseCycle: "4.0"
