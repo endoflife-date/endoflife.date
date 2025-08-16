@@ -354,6 +354,7 @@ module Jekyll
       def render_eol_template(template, cycle)
         link = template.strip().gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
         link.gsub!('__CODENAME__', cycle['codename'] || '')
+        link.gsub!('__RELEASE_DATE__', cycle['releaseDate'].iso8601)
         link.gsub!('__LATEST__', cycle['latest'] || '')
         link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
         return Liquid::Template.parse(link).render(@context)
