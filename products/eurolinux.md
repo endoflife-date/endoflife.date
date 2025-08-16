@@ -2,7 +2,7 @@
 title: EuroLinux
 addedAt: 2022-09-06
 category: os
-tags: linux-distribution
+tags: discontinued linux-distribution
 permalink: /eurolinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://web.archive.org/web/20240916162852/https://euro-linux.com/en/software/eurolinux/specification/
