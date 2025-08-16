@@ -24,20 +24,20 @@ releases:
   - releaseCycle: "11.4"
     releaseDate: 2024-10-15
     eol: 2029-05-31
-    latest: "11.4.7"
-    latestReleaseDate: 2025-06-04
+    latest: "11.4.8"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "10.11"
     releaseDate: 2023-08-21
     eol: 2028-02-29
-    latest: "10.11.13"
-    latestReleaseDate: 2025-06-04
+    latest: "10.11.14"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "10.6"
     releaseDate: 2022-02-03
     eol: 2026-07-31
-    latest: "10.6.22"
-    latestReleaseDate: 2025-05-20
+    latest: "10.6.23"
+    latestReleaseDate: 2025-08-13
 
   - releaseCycle: "10.5"
     releaseDate: 2021-01-21
@@ -56,6 +56,7 @@ releases:
     eol: 2023-10-23
     latest: "10.3.39"
     latestReleaseDate: 2023-06-15
+
 ---
 
 > [Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb) is a PaaS offering from Amazon for
