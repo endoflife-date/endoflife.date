@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "1.15"
     releaseDate: 2025-07-31
     eol: false
-    latest: "1.15.0"
-    latestReleaseDate: 2025-07-31
+    latest: "1.15.1"
+    latestReleaseDate: 2025-08-15
     supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
 
   - releaseCycle: "1.14"
@@ -84,6 +84,7 @@ releases:
     latest: "1.8.5"
     latestReleaseDate: 2022-12-20
     supportedK8sVersions: 1.23.3 - 1.25
+
 ---
 
 > Kyverno is a policy engine designed for Kubernetes. Kyverno allows cluster administrators to manage environment

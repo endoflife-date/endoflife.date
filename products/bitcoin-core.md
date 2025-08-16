@@ -177,6 +177,7 @@ releases:
     eol: 2015-12-31
     latest: "0.8.6"
     latestReleaseDate: 2013-12-09
+
 ---
 
 > [Bitcoin Core](https://bitcoincore.org/) is free and open-source software that serves as a bitcoin node (the set of which form the Bitcoin network)

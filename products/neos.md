@@ -24,16 +24,16 @@ releases:
     releaseDate: 2025-04-03
     eoas: 2027-04-01
     eol: 2028-04-01
-    latest: "9.0.4"
-    latestReleaseDate: 2025-06-13
+    latest: "9.0.5"
+    latestReleaseDate: 2025-08-15
 
   - releaseCycle: "8.3"
     releaseDate: 2023-04-24
     lts: true
     eoas: 2026-09-01
     eol: 2027-09-01
-    latest: "8.3.25"
-    latestReleaseDate: 2025-06-13
+    latest: "8.3.26"
+    latestReleaseDate: 2025-08-15
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-01
@@ -66,6 +66,7 @@ releases:
     eol: 2025-03-31
     latest: "7.3.21"
     latestReleaseDate: 2024-04-19
+
 ---
 
 > [Neos](https://www.neos.io) is a highly extensible web-based content management system (CMS) written in PHP.
