@@ -153,10 +153,10 @@ releases:
     latestReleaseDate: 2022-03-22
 
   - releaseCycle: "2.20"
-    releaseDate: 2021-12-15
+    releaseDate: 2021-12-14
     eol: 2022-03-22
     latest: "2.20.0"
-    latestReleaseDate: 2021-12-15
+    latestReleaseDate: 2021-12-14
 
   - releaseCycle: "2.19"
     releaseDate: 2021-10-11
@@ -219,10 +219,10 @@ releases:
     latestReleaseDate: 2019-09-23
 
   - releaseCycle: "2.9"
-    releaseDate: 2019-05-30
+    releaseDate: 2019-05-29
     eol: 2019-08-26
     latest: "2.9.0"
-    latestReleaseDate: 2019-05-30
+    latestReleaseDate: 2019-05-29
 
   - releaseCycle: "2.8"
     releaseDate: 2019-05-02
@@ -240,7 +240,7 @@ releases:
     releaseDate: 2018-05-16
     eol: 2019-03-14
     latest: "2.6.4"
-    latestReleaseDate: 2019-01-18
+    latestReleaseDate: 2019-01-17
 
   - releaseCycle: "2.5"
     releaseDate: 2018-03-12
@@ -261,10 +261,10 @@ releases:
     latestReleaseDate: 2017-09-05
 
   - releaseCycle: "2.2"
-    releaseDate: 2017-07-25
+    releaseDate: 2017-07-24
     eol: 2017-09-05
     latest: "2.2.0"
-    latestReleaseDate: 2017-07-25
+    latestReleaseDate: 2017-07-24
 
   - releaseCycle: "2.1"
     releaseDate: 2017-05-08
@@ -313,6 +313,7 @@ releases:
     eol: 2015-09-15
     latest: "1.0.0"
     latestReleaseDate: 2015-05-21
+
 ---
 
 > [Apache ActiveMQ Artemis](https://activemq.apache.org/) is an open source Java-based message

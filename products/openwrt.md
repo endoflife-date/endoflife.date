@@ -30,8 +30,8 @@ releases:
     releaseDate: 2023-10-11
     eoas: 2025-02-04
     eol: 2025-08-04
-    latest: "23.05.5"
-    latestReleaseDate: 2024-09-24
+    latest: "23.05.6"
+    latestReleaseDate: 2025-08-16
 
   - releaseCycle: "22.03"
     releaseDate: 2022-09-03
@@ -67,6 +67,7 @@ releases:
     releaseDate: 2017-02-20
     latestReleaseDate: 2019-06-21
     latest: "17.01.7"
+
 ---
 
 > [OpenWrt](https://openwrt.org/) is a highly extensible GNU/Linux distribution for embedded devices
