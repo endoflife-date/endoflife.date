@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
-    eoas: false
+    eoas: 2024-05-17
     eol: 2026-05-15 # projected
     latest: "26.2.5.14"
     latestReleaseDate: 2025-07-16
