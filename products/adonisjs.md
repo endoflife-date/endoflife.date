@@ -30,3 +30,8 @@ releases:
 
 > [AdonisJS](https://adonisjs.com/) is a TypeScript-first web framework for Node.js.
 > You can use it to create a full-stack web application or a JSON API server.
+
+AdonisJS follows [semantic versioning](https://semver.org).
+Release, support, and EOL policies are not documented.
+
+Looking at the recent release history, it seems that only the latest release is supported bug and security fixes.
