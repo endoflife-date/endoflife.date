@@ -1,300 +1,99 @@
 ---
 title: NetBackup Appliance OS
+addedAt: 2025-08-18
 category: os
+tags: veritas
 iconSlug: veritas
 permalink: /netbackup-appliance-os
 releasePolicyLink: https://sort.veritas.com/eosl
-eolColumn: Extended Support
-eoasColumn: Active Support
-eoesColumn: Sustaining Support
-eoasWarnThreshold: 121
-eoesWarnThreshold: 121
-eolWarnThreshold: 121
-releaseColumn: false
+eolColumn: Primary Support
 
+# - eol(x) = "Extended Support Starts" for "Appliance - Netbackup" on https://sort.veritas.com/eosl
 releases:
-  - releaseCycle: "5.5.0.1"
-    releaseDate: 2025-02-12
-    eoas: true
-    eol: true
-    eoes: false
-
-  - releaseCycle: "5.3.0.1-mr4"
-    releaseLabel: "5.3.0.1 MR4"
-    releaseDate: 2025-01-27
-    eoas: true
-    eol: true
-    eoes: 2026-10-23
-
-  - releaseCycle: "5.3.0.1-mr3"
-    releaseLabel: "5.3.0.1 MR3"
-    releaseDate: 2024-10-18
-    eoas: true
-    eol: true
-    eoes: 2026-10-23
-
-  - releaseCycle: "5.1.1-mr5"
-    releaseLabel: "5.1.1 MR5"
-    releaseDate: 2024-08-28
-    eoas: 2025-09-08
-    eol: 2027-09-08
-    eoes: 2028-09-08
-
-  - releaseCycle: "5.3.0.1-mr2"
-    releaseLabel: "5.3.0.1 MR2"
-    releaseDate: 2024-07-12
-    eoas: true
-    eol: true
-    eoes: 2026-10-23
-
-  - releaseCycle: "5.1.1-mr4"
-    releaseLabel: "5.1.1 MR4"
-    releaseDate: 2024-05-17
-    eoas: true
-    eol: true
-    eoes: 2025-09-08
-
-  - releaseCycle: "5.3.0.1-mr1"
-    releaseLabel: "5.3.0.1 MR1"
-    releaseDate: 2024-03-22
-    eoas: true
-    eol: true
-    eoes: 2026-10-23
-
-  - releaseCycle: "5.1.1-mr3"
-    releaseLabel: "5.1.1 MR3"
-    releaseDate: 2024-02-14
-    eoas: true
-    eol: true
-    eoes: 2025-09-08
+  - releaseCycle: "5.5"
+    releaseDate: 2025-07-31
+    eol: false
+    latest: "5.5.0.1 MR1"
+    latestReleaseDate: 2025-07-31
 
   - releaseCycle: "5.3"
     releaseDate: 2023-11-27
-    eoas: true
-    eol: true
-    eoes: 2026-10-23
+    eol: false
+    latest: "5.3.0.1 MR4"
+    latestReleaseDate: 2025-01-27
 
-  - releaseCycle: "5.0.0.1-mr5"
-    releaseLabel: "5.0.0.1 MR5"
-    releaseDate: 2023-11-08
-    eoas: 2025-03-28
-    eol: 2027-03-28
-    eoes: 2028-03-28
-
-  - releaseCycle: "5.1.1-mr2"
-    releaseLabel: "5.1.1 MR2"
-    releaseDate: 2023-10-20
-    eoas: true
-    eol: true
-    eoes: 2025-09-08
-
-  - releaseCycle: "5.0.0.1-mr4"
-    releaseLabel: "5.0.0.1 MR4"
-    releaseDate: 2023-06-28
-    eoas: true
-    eol: true
-    eoes: 2025-03-28
-
-  - releaseCycle: "5.1.1-mr1"
-    releaseLabel: "5.1.1 MR1"
-    releaseDate: 2023-05-31
-    eoas: true
-    eol: true
-    eoes: 2025-09-08
-
-  - releaseCycle: "5.0.0.1-mr3"
-    releaseLabel: "5.0.0.1 MR3"
-    releaseDate: 2023-03-07
-    eoas: true
-    eol: true
-    eoes: 2025-03-28
-
-  - releaseCycle: "4.1.0.1-mr5"
-    releaseLabel: "4.1.0.1 MR5"
-    releaseDate: 2023-02-14
-    eoas: 2024-06-07
-    eol: 2026-06-07
-    eoes: 2027-06-07
-
-  - releaseCycle: "5.1.1"
+  - releaseCycle: "5.1"
     releaseDate: 2023-02-08
-    eoas: true
-    eol: true
-    eoes: 2025-09-08
-
-  - releaseCycle: "5.0.0.1-mr2"
-    releaseLabel: "5.0.0.1 MR2"
-    releaseDate: 2022-11-24
-    eoas: true
-    eol: true
-    eoes: 2025-03-28
-
-  - releaseCycle: "4.1.0.1-mr4"
-    releaseLabel: "4.1.0.1 MR4"
-    releaseDate: 2022-10-28
-    eoas: true
-    eol: true
-    eoes: 2024-06-07
-
-  - releaseCycle: "5.0.0.1-mr1"
-    releaseLabel: "5.0.0.1 MR1"
-    releaseDate: 2022-08-17
-    eoas: true
-    eol: true
-    eoes: 2025-03-28
-
-  - releaseCycle: "4.1.0.1-mr3"
-    releaseLabel: "4.1.0.1 MR3"
-    releaseDate: 2022-08-08
-    eoas: true
-    eol: true
-    eoes: 2024-06-07
-
-  - releaseCycle: "4.0.0.1-mr4"
-    releaseLabel: "4.0.0.1 MR4"
-    releaseDate: 2022-06-13
-    eoas: 2024-01-01
-    eol: 2026-01-01
-    eoes: 2027-01-01
+    eol: 2025-09-08
+    latest: "5.1.1 MR5"
+    latestReleaseDate: 2024-08-28
 
   - releaseCycle: "5.0"
     releaseDate: 2022-04-25
-    eoas: true
-    eol: true
-    eoes: 2025-03-28
-
-  - releaseCycle: "4.1.0.1-mr2"
-    releaseLabel: "4.1.0.1 MR2"
-    releaseDate: 2022-02-28
-    eoas: true
-    eol: true
-    eoes: 2024-06-07
-
-  - releaseCycle: "4.0.0.1-mr3"
-    releaseLabel: "4.0.0.1 MR3"
-    releaseDate: 2022-01-19
-    eoas: true
-    eol: true
-    eoes: 2024-01-01
-
-  - releaseCycle: "3.3.0.2-mr2"
-    releaseLabel: "3.3.0.2 MR2"
-    releaseDate: 2021-11-12
-    eoas: 2024-07-29
-    eol: 2026-07-29
-    eoes: 2026-07-29
-
-  - releaseCycle: "4.1.0.1-mr1"
-    releaseLabel: "4.1.0.1 MR1"
-    releaseDate: 2021-10-18
-    eoas: true
-    eol: true
-    eoes: 2024-06-07
-
-  - releaseCycle: "4.0.0.1-mr2"
-    releaseLabel: "4.0.0.1 MR2"
-    releaseDate: 2021-09-17
-    eoas: true
-    eol: true
-    eoes: 2024-01-01
-
-  - releaseCycle: "3.3.0.2-mr1"
-    releaseLabel: "3.3.0.2 MR1"
-    releaseDate: 2021-09-03
-    eoas: true
-    eol: true
-    eoes: 2024-07-29
+    eol: 2025-03-28
+    latest: "5.0.0.1 MR5"
+    latestReleaseDate: 2023-11-08
 
   - releaseCycle: "4.1"
     releaseDate: 2021-07-19
-    eoas: true
-    eol: true
-    eoes: 2024-06-07
-
-  - releaseCycle: "3.3.0.1-mr3"
-    releaseLabel: "3.3.0.1 MR3"
-    releaseDate: 2021-07-02
-    eoas: true
-    eol: true
-    eoes: 2024-07-29
-
-  - releaseCycle: "4.0.0.1-mr1"
-    releaseLabel: "4.0.0.1 MR1"
-    releaseDate: 2021-06-15
-    eoas: true
-    eol: true
-    eoes: 2024-01-01
-
-  - releaseCycle: "3.3.0.1-mr2"
-    releaseLabel: "3.3.0.1 MR2"
-    releaseDate: 2021-04-02
-    eoas: true
-    eol: true
-    eoes: 2024-07-29
+    eol: 	2024-06-07
+    latest: "4.1.0.1 MR5"
+    latestReleaseDate: 2023-02-14
 
   - releaseCycle: "4.0"
     releaseDate: 2021-03-01
-    eoas: true
-    eol: true
-    eoes: 2024-01-01
+    eol: 2024-01-01
+    latest: "4.0.0.1 MR4"
+    latestReleaseDate: 2022-06-13
 
-  - releaseCycle: "3.3.0.1"
+  - releaseCycle: "3.3"
     releaseDate: 2020-10-05
-    eoas: true
-    eol: true
-    eoes: 2024-07-29
+    eol: 2024-07-29
+    latest: "3.3.0.2 MR2"
+    latestReleaseDate: 2021-11-12
 
   - releaseCycle: "3.2"
     releaseDate: 2019-11-04
-    eoas: 2023-06-28
-    eol: 2025-06-28
-    eoes: 2026-06-28
-
-  - releaseCycle: "3.1.2"
-    releaseDate: 2018-09-21
-    eoas: 2022-06-28
-    eol: 2024-06-28
-    eoes: 2025-06-28
-
-  - releaseCycle: "3.1.1"
-    releaseDate: 2018-02-22
-    eoas: 2022-06-28
-    eol: true
-    eoes: 2023-06-28
+    eol: 2023-06-28
+    latest: "3.2"
+    latestReleaseDate: 2019-11-04
 
   - releaseCycle: "3.1"
     releaseDate: 2017-09-26
-    eoas: 2022-06-28
-    eol: true
-    eoes: 2023-06-28
+    eol: 2022-06-28
+    latest: "3.1.2"
+    latestReleaseDate: 2018-09-21
 
   - releaseCycle: "3.0"
     releaseDate: 2016-12-04
-    eoas: 2020-10-01
-    eol: 2022-03-26
-    eoes: 2024-03-26
+    eol: 2020-10-01
+    latest: "3.0"
+    latestReleaseDate: 2016-12-04
 
-  - releaseCycle: "2.7.3"
-    releaseDate: 2016-06-05
-    eoas: 2020-10-01
-    eol: 2021-05-06
-    eoes: 2022-01-31
 
-  - releaseCycle: "2.7.2"
-    releaseDate: 2016-02-01
-    eoas: 2020-10-01
-    eol: 2021-05-06
-    eoes: 2022-01-31
-
-  - releaseCycle: "2.7.1"
+  - releaseCycle: "2.7"
     releaseDate: 2015-12-06
-    eoas: 2020-10-01
-    eol: 2021-05-06
-    eoes: 2022-01-31
+    eol: 2020-10-01
+    latest: "2.7.3"
+    latestReleaseDate: 2016-06-05
 ---
 
-> [Veritas NetBackup](https://www.veritas.com/protection/netbackup) is an enterprise-level data protection and backup solution
+> [Veritas NetBackup Appliance OS](https://www.veritas.com/protection/netbackup) is an operating system designed by Veritas Technologies
+> specifically for their NetBackup Appliance hardware.
 
-Veritas offers full support from general availability for 3 to 4 years.
-At the end of full/active support, extended support is available for 1-2 years with no new bug fixes, but access to existing patches and technical help.
-The final sustaining phase before EOSL lasts for 1 to 6 years with focus on severe service restoration or data retrieval issues.
+{: .note }
+
+The table above only documents the Primary phase because there is no new bug fixes in the Extended and Sustaining phases.
+
+Veritas NetBackup Appliance OS support is split into three phases, each with different support levels and durations:
+Primary, Extended, and Sustaining.
+
+The Primary Phase begins with the general availability of a release and typically lasts for a period of 2 to 3 years.
+During this phase releases are supported with bug fixes,
+as well as patches for the software to establish or restore substantial conformity with the software’s documentation
+
+The Extended Phase starts after the Primary Phase and lasts for 1 to 2 years.
+During this phase no new bug fixes are provided, but customers can still access existing patches and receive technical support.
+
+The Sustaining Phase follows the Extended Phase and can last from 1 to 6 years.
+It is similar to the Extended Phase, but with a focus on on addressing severe service restoration or data retrieval issues.
