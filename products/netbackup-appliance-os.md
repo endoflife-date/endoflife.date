@@ -1,5 +1,5 @@
 ---
-title: Veritas NetBackup Appliance OS
+title: NetBackup Appliance OS
 category: os
 iconSlug: veritas
 permalink: /netbackup-appliance-os
