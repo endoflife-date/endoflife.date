@@ -1,6 +1,6 @@
 ---
 title: AdonisJS
-addedAt: 2025-08-17
+addedAt: 2025-08-18
 category: framework
 tags: javascript-runtime
 iconSlug: adonisjs
