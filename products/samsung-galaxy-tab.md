@@ -33,6 +33,13 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-tab-a9+2025"
+    releaseLabel: "Galaxy Tab A9+(2025)"
+    releaseDate: 2025-08-01 # approximate, first detected in https://github.com/endoflife-date/endoflife.date/pull/8028
+    eoas: 2031-08-01 # 6 android update - https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
+    eol: 2032-06-01 # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
+    link: null # unknown model number
+
   - releaseCycle: "galaxy-tab-active5-pro"
     releaseLabel: "Galaxy Tab Active5 Pro"
     releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_tab_active5_pro-13790.php
