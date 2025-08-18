@@ -15,6 +15,12 @@ auto:
     - unity: https://unity.com/releases/editor/qa/lts-releases
 
 releases:
+  - releaseCycle: "6.2"
+    releaseDate: 2025-08-12
+    eol: false
+    latest: "6000.2.0f1"
+    latestReleaseDate: 2025-08-12
+
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
     eol: false
