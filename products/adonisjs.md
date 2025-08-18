@@ -35,4 +35,4 @@ releases:
 AdonisJS follows [semantic versioning](https://semver.org).
 Release, support, and EOL policies are not documented.
 
-Looking at the recent release history, it seems that only the latest release is supported bug and security fixes.
+Looking at the recent release history, it seems that only the latest release is supported with bug and security fixes.
