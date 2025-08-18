@@ -18,27 +18,27 @@ releases:
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.02.2562.017"
-    latestReleaseDate: 2025-07-01
-    link: https://support.microsoft.com/help/5047155
+    latest: "15.2.2562.20"
+    latestReleaseDate: 2025-08-12
+    link: https://support.microsoft.com/help/5063224
 
   - releaseCycle: "2019"
-    releaseLabel: "2019 CU15 HU2"
+    releaseLabel: "2019 CU15 SU3"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1748.26"
-    latestReleaseDate: 2025-05-29
-    link: https://support.microsoft.com/help/5057651
+    latest: "15.2.1748.36"
+    latestReleaseDate: 2025-08-12
+    link: https://support.microsoft.com/help/5063221
 
   - releaseCycle: "2016"
-    releaseLabel: "2016 CU23 HU16"
+    releaseLabel: "2016 CU23 SU17"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.57"
-    latestReleaseDate: 2025-05-29
-    link: https://support.microsoft.com/help/5057653
+    latest: "15.1.2507.58"
+    latestReleaseDate: 2025-08-12
+    link: https://support.microsoft.com/help/5063223
 
   - releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
