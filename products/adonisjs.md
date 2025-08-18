@@ -9,7 +9,6 @@ alternate_urls:
 -   /adonis
 versionCommand: npm list --depth=0  @adonisjs/core
 releasePolicyLink: https://docs.adonisjs.com/guides/preface/releases
-eolColumn: true
 
 auto:
   methods:
