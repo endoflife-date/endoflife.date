@@ -161,12 +161,17 @@ releases:
 > [Keycloak](https://www.keycloak.org/) is an open source identity and access management solution
 > for modern applications and services.
 
+There are 4 minor releases planned every year, and a major release every 2-3 years.
+[Starting Keycloak 26.0](https://www.keycloak.org/2024/10/release-updates), backwards compatibility is guaranteed in minor releases
+for Features and APIs that are fully supported.
+When a minor release comes with breaking changes, such changes will be opt-in.
+Moreover, deprecations can happen in a minor release, but features won't be removed until the next major version.
+
 Only the latest major version gets active development and security fixes.
 Depending on the severity of a vulnerability, the issue may be fixed in the current release or, for
 lower severity vulnerabilities or hardening, in the following release.
 
-The Keycloak JS adapter
-[split from Keycloak with the 26.2.0 release](https://www.keycloak.org/2025/02/keycloak-js-2620-released.html)
+The Keycloak JS adapter [split from Keycloak with the 26.2.0 release](https://www.keycloak.org/2025/02/keycloak-js-2620-released.html)
 and now follows its own release policy. It will continue to be backwards compatible with all actively
 supported releases of the Keycloak server, and deviation from this will be considered a breaking change.
 
