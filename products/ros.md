@@ -2,6 +2,7 @@
 title: ROS
 addedAt: 2019-05-29
 category: framework
+tags: discontinued
 iconSlug: ros
 permalink: /ros
 versionCommand: rosversion -d
