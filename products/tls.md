@@ -1,6 +1,6 @@
 ---
 title: TLS
-addedAt: 2025-08-10
+addedAt: 2025-08-15
 category: standard
 tags: ietf
 permalink: /tls

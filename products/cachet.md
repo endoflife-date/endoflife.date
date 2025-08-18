@@ -1,5 +1,6 @@
 ---
 title: Cachet 
+addedAt: 2025-08-18
 category: server-app
 tags: php-runtime
 iconSlug: cachet
