@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "4.7"
     releaseDate: 2025-07-19
     eol: false
-    latest: "4.7.0"
-    latestReleaseDate: 2025-07-19
+    latest: "4.7.1"
+    latestReleaseDate: 2025-08-16
 
   - releaseCycle: "4.6"
     releaseDate: 2025-03-23
@@ -125,6 +125,7 @@ releases:
     eol: 2020-11-11
     latest: "2.9"
     latestReleaseDate: 2020-07-18
+
 ---
 
 > [WeeChat](https://weechat.org) (Wee Enhanced Environment for Chat) is a free and open-source
