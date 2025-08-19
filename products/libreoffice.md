@@ -20,6 +20,12 @@ auto:
       template: "{{version}}"
 
 releases:
+  - releaseCycle: "25.8"
+    releaseDate: 2025-08-20 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
+    eol: 2026-06-12
+    latest: "25.8.0"
+    latestReleaseDate: 2025-08-20
+
   - releaseCycle: "25.2"
     releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2025-11-30
