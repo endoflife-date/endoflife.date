@@ -36,7 +36,7 @@ releases:
 
   - releaseCycle: "4.1"
     releaseDate: 2021-07-19
-    eol: 	2024-06-07
+    eol: 2024-06-07
     latest: "4.1.0.1 MR5"
     latestReleaseDate: 2023-02-14
 
