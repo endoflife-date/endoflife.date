@@ -24,14 +24,14 @@ releases:
   - releaseCycle: "15"
     releaseDate: 2024-10-21
     eol: false
-    latest: "15.4.6"
-    latestReleaseDate: 2025-08-06
+    latest: "15.4.7"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.2.31"
-    latestReleaseDate: 2025-07-30
+    latest: "14.2.32"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "13"
     releaseDate: 2022-10-25
@@ -62,6 +62,7 @@ releases:
     eol: 2020-10-27
     latest: "9.5.5"
     latestReleaseDate: 2020-10-10
+
 ---
 
 > [Next.js](https://nextjs.org/) is an open-source React framework developed by Vercel. It offers
