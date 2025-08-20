@@ -27,9 +27,15 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "142"
+    releaseDate: 2025-08-19
+    eol: false
+    latest: "142.0"
+    latestReleaseDate: 2025-08-19
+
   - releaseCycle: "141"
     releaseDate: 2025-07-22
-    eol: false
+    eol: 2025-08-19
     latest: "141.0.3"
     latestReleaseDate: 2025-08-07
 
