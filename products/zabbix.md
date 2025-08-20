@@ -34,8 +34,8 @@ releases:
     releaseDate: 2024-12-10
     eoas: 2025-06-30
     eol: 2025-12-31
-    latest: "7.2.11"
-    latestReleaseDate: 2025-07-22
+    latest: "7.2.12"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "7.0"
     lts: true
@@ -64,8 +64,8 @@ releases:
     releaseDate: 2022-02-08
     eoas: 2025-02-28
     eol: 2027-02-28
-    latest: "6.0.40"
-    latestReleaseDate: 2025-04-22
+    latest: "6.0.41"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "5.4"
     releaseDate: 2021-05-17
@@ -89,6 +89,7 @@ releases:
     eol: 2023-10-31
     latest: "4.0.50"
     latestReleaseDate: 2023-10-30
+
 ---
 
 > [Zabbix](https://www.zabbix.com/) is an open-source software tool to monitor IT infrastructure

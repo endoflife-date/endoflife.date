@@ -37,8 +37,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.1.0"
-    latestReleaseDate: 2025-07-22
+    latest: "140.2.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -110,8 +110,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://whattrainisitnow.com/calendar/
-    latest: "128.13.0"
-    latestReleaseDate: 2025-07-22
+    latest: "128.14.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "127"
     releaseDate: 2024-06-11
@@ -284,6 +284,7 @@ releases:
     eol: 2021-11-02
     latest: "78.15.0"
     latestReleaseDate: 2021-10-05
+
 ---
 
 > [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser

@@ -56,7 +56,7 @@ releases:
   - releaseCycle: "7.3"
     releaseDate: 2016-04-15
     eol: 2023-09-30
-    eoes: 2026-09-30
+    eoes: 2028-09-30
     latest: "7.3.0"
     latestReleaseDate: 2016-04-15
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-73
@@ -191,6 +191,7 @@ releases:
     eol: 1994-06-30
     latest: "2.1.1"
     latestReleaseDate: 1992-03-06
+
 ---
 
 > [IBM i](https://www.ibm.com/products/ibm-i) is a fully integrated operating system, meaning the
