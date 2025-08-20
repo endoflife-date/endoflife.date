@@ -28,8 +28,8 @@ releases:
 
   - releaseCycle: "5.5"
     releaseDate: 2025-02-18
-    eoas: 2025-08-18
-    eol: 2025-08-18
+    eoas: 2025-08-14
+    eol: 2025-08-14
     latest: "5.5.16"
     latestReleaseDate: 2025-08-18
 
