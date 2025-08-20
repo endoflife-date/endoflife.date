@@ -35,7 +35,7 @@ releases:
   - releaseCycle: "4.14"
   - lts: true
     releaseDate: 2025-08-20
-    eol: false # releaseDate(4.15)
+    eol: 2026-08-20
     supportedJavaVersions: "17, 21"
     latest: "4.14.0"
     latestReleaseDate: 2025-08-20
