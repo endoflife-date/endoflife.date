@@ -33,7 +33,7 @@ auto:
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
   - releaseCycle: "4.14"
-  - lts: true
+    lts: true
     releaseDate: 2025-08-20
     eol: 2026-08-20
     supportedJavaVersions: "17, 21"
