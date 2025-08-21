@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-07-14
     eoas: 2025-11-11 # planned 5.0 date, see https://projects.blender.org/blender/blender/milestone/20
     eol: 2027-07-14 # see https://projects.blender.org/blender/blender/milestone/25
-    latest: "4.5.1"
-    latestReleaseDate: 2025-07-29
+    latest: "4.5.2"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "4.4"
     releaseDate: 2025-03-17
@@ -53,8 +53,8 @@ releases:
     releaseDate: 2024-07-16
     eoas: 2024-11-19
     eol: 2026-07-16
-    latest: "4.2.12"
-    latestReleaseDate: 2025-07-14
+    latest: "4.2.13"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "4.1"
     releaseDate: 2024-03-25
@@ -136,6 +136,7 @@ releases:
     eol: 2022-06-01
     latest: "2.83.20"
     latestReleaseDate: 2022-04-20
+
 ---
 
 > [Blender](https://www.blender.org/) is the free and open source 3D creation suite. It supports the

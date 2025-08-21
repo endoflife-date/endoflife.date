@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "26.3"
     releaseDate: 2025-07-02
     eol: false
-    latest: "26.3.2"
-    latestReleaseDate: 2025-07-24
+    latest: "26.3.3"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "26.2"
     releaseDate: 2025-04-11
@@ -156,6 +156,7 @@ releases:
     eol: 2020-07-22
     latest: "10.0.2"
     latestReleaseDate: 2020-06-02
+
 ---
 
 > [Keycloak](https://www.keycloak.org/) is an open source identity and access management solution
