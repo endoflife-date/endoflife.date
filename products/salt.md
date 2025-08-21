@@ -44,8 +44,8 @@ identifiers:
 releases:
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
-    eoas: 2025-09-30
-    eol: 2025-09-30
+    eoas: 2025-11-30
+    eol: 2025-11-30
     latest: "3007.6"
     latestReleaseDate: 2025-07-10
     link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
@@ -53,8 +53,8 @@ releases:
   - releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
-    eoas: 2025-09-30
-    eol: 2026-09-30
+    eoas: 2025-11-30
+    eol: 2026-11-30
     latest: "3006.14"
     latestReleaseDate: 2025-07-10
 
@@ -161,6 +161,7 @@ releases:
     latest: "2014.7.9"
     latestReleaseDate: 2016-03-11
     link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+
 ---
 
 > [Salt](https://saltproject.io/index.html) is software to automate the management and configuration

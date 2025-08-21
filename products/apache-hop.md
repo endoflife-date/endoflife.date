@@ -17,10 +17,10 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2.15"
-    releaseDate: 2025-08-20
+    releaseDate: 2025-08-12
     eol: false
     latest: "2.15.0"
-    latestReleaseDate: 2025-08-20
+    latestReleaseDate: 2025-08-12
     link: https://hop.apache.org/blog/2025/08/hop-2.15.0/
 
   - releaseCycle: "2.14"
@@ -148,6 +148,7 @@ releases:
     latest: "1.0.0"
     latestReleaseDate: 2021-10-05
     link: https://hop.apache.org/blog/2021/10/hop-1.0.0/
+
 ---
 
 > [Apache Hop](https://hop.apache.org/), short for Hop Orchestration Platform, is an open source

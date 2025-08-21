@@ -21,8 +21,8 @@ releases:
     releaseDate: 2023-07-11
     eol: false
     eoas: false
-    latest: "4.9.9"
-    latestReleaseDate: 2025-07-31
+    latest: "4.9.10"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "3"
     releaseDate: 2021-08-18
@@ -44,6 +44,7 @@ releases:
     eoas: true
     latest: "1.3.7"
     latestReleaseDate: 2020-07-10
+
 ---
 
 > [Micronaut](https://micronaut.io/) is a modern, JVM-based, full-stack framework for building
