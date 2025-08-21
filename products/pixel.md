@@ -24,7 +24,7 @@ customFields:
 # Discontinued dates come from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:  
-- releaseCycle: "10pro"
+  - releaseCycle: "10pro"
     releaseLabel: "Pixel 10 Pro"
     releaseDate: 2025-08-28
     eoas: 2032-08-01
