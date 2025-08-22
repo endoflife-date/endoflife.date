@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "6"
     releaseDate: 2025-01-29
     eol: false
-    latest: "6.6.868"
-    latestReleaseDate: 2025-07-28
+    latest: "6.7.0"
+    latestReleaseDate: 2025-08-20
     link: null
 
   - releaseCycle: "5"
@@ -39,6 +39,7 @@ releases:
     eol: 2023-05-22
     latest: "4.5.1"
     latestReleaseDate: 2023-02-24
+
 ---
 
 > [Sourcegraph](https://sourcegraph.com/) is a code search and intelligence tool for developers that helps

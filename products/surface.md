@@ -74,7 +74,7 @@ releases:
 
   - releaseCycle: "laptop-7th-edition-intel-processor"
     releaseLabel: "Surface Laptop 7th Edition, Intel processor"
-    releaseDate: 2024-06-18
+    releaseDate: 2025-02-18
     eol: 2031-02-18
     link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
 
@@ -371,6 +371,7 @@ releases:
     releaseDate: 2012-10-26
     eol: 2017-04-11
     link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
+
 ---
 
 > Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards

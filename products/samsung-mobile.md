@@ -1114,28 +1114,28 @@ releases:
     releaseLabel: "Galaxy Note20 Ultra 5G"
     releaseDate: 2020-08-21
     eoas: true
-    eol: 2025-08-21
+    eol: false
     link: https://doc.samsungmobile.com/SM-N986U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-5g"
     releaseLabel: "Galaxy Note20 5G"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: false
     link: https://doc.samsungmobile.com/SM-N981U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-ultra"
     releaseLabel: "Galaxy Note20 Ultra"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: false
     link: https://doc.samsungmobile.com/SM-N985F/XNZ/doc.html
 
   - releaseCycle: "galaxy-note20"
     releaseLabel: "Galaxy Note20"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: false
     link: https://doc.samsungmobile.com/SM-N980F/XEO/doc.html
 
   - releaseCycle: "galaxy-a51-5g-uw"
@@ -2950,6 +2950,7 @@ releases:
     eoas: true
     eol: true
     link: null
+
 ---
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed,
