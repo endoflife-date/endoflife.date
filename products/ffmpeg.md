@@ -24,6 +24,13 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "8.0"
+    codename: Huffman
+    releaseDate: 2025-08-23
+    eol: false
+    latest: "8.0.0"
+    latestReleaseDate: 2025-08-23
+
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
