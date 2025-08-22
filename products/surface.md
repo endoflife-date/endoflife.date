@@ -66,15 +66,9 @@ releases:
     eol: 2030-09-10
     link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
 
-  - releaseCycle: "laptop-7"
-    releaseLabel: "Surface Laptop (7th generation)"
-    releaseDate: 2024-06-18
-    eol: 2030-06-18
-    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
-
   - releaseCycle: "laptop-7th-edition-intel-processor"
     releaseLabel: "Surface Laptop 7th Edition, Intel processor"
-    releaseDate: 2024-06-18
+    releaseDate: 2025-02-18
     eol: 2031-02-18
     link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
 
@@ -82,6 +76,12 @@ releases:
     releaseLabel: "Surface Laptop 7th Edition, Snapdragon processor"
     releaseDate: 2024-06-18
     eol: 2030-09-10
+    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+
+  - releaseCycle: "laptop-7"
+    releaseLabel: "Surface Laptop (7th generation)"
+    releaseDate: 2024-06-18
+    eol: 2030-06-18
     link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
 
   - releaseCycle: "laptop-6"
