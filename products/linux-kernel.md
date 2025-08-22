@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "6.15"
     releaseDate: 2025-05-25
-    eol: false # not yet announced
+    eol: 2025-08-20 # announced https://lore.kernel.org/lkml/2025082012-jingling-alarm-7380@gregkh/
     latest: "6.15.11"
     latestReleaseDate: 2025-08-20
 
