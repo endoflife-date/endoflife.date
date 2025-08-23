@@ -46,7 +46,7 @@ releases:
     eoas: 2013-04-11
     eol: 2017-12-22
     latest: "2.1.16"
-    latestReleaseDate: 2013-04-04
+    latestReleaseDate: 2013-04-05
 
   - releaseCycle: "2.0"
     releaseDate: 2010-08-16

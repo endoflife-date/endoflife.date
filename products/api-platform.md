@@ -20,8 +20,8 @@ releases:
     releaseDate: 2025-02-28
     eoas: false
     eol: false
-    latest: "4.1.20"
-    latestReleaseDate: 2025-07-25
+    latest: "4.1.21"
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
@@ -120,6 +120,7 @@ releases:
     eol: 2018-02-16
     latest: "2.0.11"
     latestReleaseDate: 2017-09-08
+
 ---
 
 > [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven

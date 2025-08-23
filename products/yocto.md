@@ -72,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.28"
-    latestReleaseDate: 2025-07-08
+    latest: "4.0.29"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "3.4"
     codename: "Honister"
@@ -117,6 +117,7 @@ releases:
     eol: 2020-06-01
     latest: "2.7.4"
     latestReleaseDate: 2020-06-02
+
 ---
 
 > The [Yocto Project](https://www.yoctoproject.org/) is a Linux Foundation project that helps
