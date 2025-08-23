@@ -292,7 +292,9 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 - The latest LTS release.
 
 ## [Compatible Django / Python versions](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions)
+
 <!-- List supported releases, including minor ones -->
+
 | Wagtail release | Compatible Django versions | Compatible Python versions |
 | --------------- | -------------------------- | -------------------------- |
 | 7.1             | 4.2, 5.1, 5.2              | 3.9-3.13                   |
