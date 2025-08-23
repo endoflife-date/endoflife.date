@@ -295,6 +295,7 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 
 | Wagtail release | Compatible Django versions | Compatible Python versions |
 | --------------- | -------------------------- | -------------------------- |
+| 7               | 4.2, 5.1, 5.2              | 3.9-3.13                   |
 | 6               | 4.2, 5.0                   | 3.8-3.12                   |
 | 5               | 3.2, 4.1, 4.2, 5.0         | 3.8-3.12                   |
 | 4               | 3.2, 4.0, 4.1              | 3.7-3.11                   |
