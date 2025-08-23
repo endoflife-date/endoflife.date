@@ -26,7 +26,7 @@ auto:
 releases:
   - releaseCycle: "8.0"
     codename: Huffman
-    releaseDate: 2025-08-23
+    releaseDate: 2025-08-22
     eol: false
     latest: "8.0.0"
     latestReleaseDate: 2025-08-23
