@@ -1,6 +1,6 @@
 ---
 title: Dovecot
-addedAt: 2025-08-18
+addedAt: 2025-08-22
 category: server-app
 iconSlug: dovecot
 permalink: /dovecot
