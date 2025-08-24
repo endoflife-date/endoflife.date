@@ -25,6 +25,7 @@
 # - days_toward_eoes (in cycles) : number of days toward the end of extended support for the cycle (optional, only if eoes is set)
 
 require_relative 'end-of-life'
+require_relative 'identifier-to-url'
 
 module Jekyll
   class ProductDataEnricher
@@ -40,7 +41,7 @@ module Jekyll
         set_icon_url(page)
         set_parent(page)
         set_tags(page)
-        set_identifiers(page)
+        set_identifiers_url(page)
         set_aliases(page)
         set_overridden_columns_label(page)
 
@@ -105,10 +106,12 @@ module Jekyll
         end
       end
 
-      # Set identifiers to empty if it's not present.
-      def set_identifiers(page)
-        if !page.data['identifiers']
-          page.data['identifiers'] = []
+      # Set each identifiers URL.
+      def set_identifiers_url(page)
+        for identifier in page.data['identifiers']
+          unless identifier['url']
+            identifier['url'] = IdentifierToUrl.new.render(identifier)
+          end
         end
       end
 
