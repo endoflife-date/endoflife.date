@@ -181,6 +181,7 @@ releases:
     supportedPythonVersions: "2.7, 3.4 - 3.5"
     latest: "1.9.13"
     latestReleaseDate: 2017-04-04
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.8"
     releaseDate: 2015-04-01
@@ -189,6 +190,7 @@ releases:
     supportedPythonVersions: "2.7, 3.2 - 3.5"
     latest: "1.8.19"
     latestReleaseDate: 2018-03-06
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.7"
     releaseDate: 2014-09-03
@@ -197,6 +199,7 @@ releases:
     supportedPythonVersions: "2.7, 3.2 - 3.4"
     latest: "1.7.11"
     latestReleaseDate: 2015-11-24
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.6"
     releaseDate: 2013-11-06
@@ -205,6 +208,7 @@ releases:
     supportedPythonVersions: "2.6 - 2.7, 3.2 - 3.3"
     latest: "1.6.11"
     latestReleaseDate: 2015-03-18
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.5"
     releaseDate: 2013-02-26
@@ -213,6 +217,7 @@ releases:
     supportedPythonVersions: "2.6 - 2.7, 3.2"
     latest: "1.5.12"
     latestReleaseDate: 2015-01-02
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.4"
     releaseDate: 2012-03-23
@@ -221,6 +226,7 @@ releases:
     supportedPythonVersions: "2.5 - 2.7"
     latest: "1.4.22"
     latestReleaseDate: 2015-08-18
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.3"
     releaseDate: 2011-03-23
@@ -229,6 +235,7 @@ releases:
     supportedPythonVersions: "2.4 - 2.5"
     latest: "1.3.7"
     latestReleaseDate: 2013-02-21
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages
