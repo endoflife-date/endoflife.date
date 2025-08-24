@@ -19,7 +19,7 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-05-04
     eol: false
-    latest: "2.10.1"
+    latest: "2.10.2"
     latestReleaseDate: 2025-08-22
 
   - releaseCycle: "1"

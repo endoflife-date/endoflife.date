@@ -38,29 +38,29 @@ auto:
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in patch versions.
 releases:
   - releaseCycle: "2.3"
-    releaseDate: 2025-01-13
+    releaseDate: 2024-10-17
     eoas: false
     eol: false
-    latest: "2.3.3"
-    latestReleaseDate: 2025-06-19
+    latest: "2.3.99"
+    latestReleaseDate: 2024-10-17
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
   - releaseCycle: "2.2"
-    releaseDate: 2023-10-12
+    releaseDate: 2023-07-27
     eoas: 2025-01-13
     eol: false
-    latest: "2.2.8"
-    latestReleaseDate: 2025-06-12
+    latest: "2.2.99"
+    latestReleaseDate: 2023-07-27
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
   - releaseCycle: "2.1"
-    releaseDate: 2021-07-02
+    releaseDate: 2021-04-19
     eoas: 2023-10-12
     eol: 2025-01-13
-    latest: "2.1.16"
-    latestReleaseDate: 2024-12-04
+    latest: "2.1.99"
+    latestReleaseDate: 2021-04-19
     supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2+"
 
@@ -81,6 +81,7 @@ releases:
     latestReleaseDate: 2020-12-14
     supportedLinux: "2.6.32 - 5.9"
     supportedFreeBSD: "N/A"
+
 ---
 
 > [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that
