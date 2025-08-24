@@ -32,7 +32,6 @@ identifiers:
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
-  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
   - purl: pkg:rpm/redhat/dotnet-sdk-8.0
   - purl: pkg:rpm/redhat/dotnet-sdk-7.0
   - purl: pkg:rpm/redhat/dotnet-sdk-6.0
