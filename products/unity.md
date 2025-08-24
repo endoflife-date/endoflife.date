@@ -14,16 +14,18 @@ auto:
   methods:
     - unity: https://unity.com/releases/editor/qa/lts-releases
 
+# For Tech stream : eol(x) = releaseDate(x+1)
+# For LTS : eol(x) = releaseDate + 3 years
 releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-08-12
     eol: false
-    latest: "6000.2.0f1"
-    latestReleaseDate: 2025-08-12
+    latest: "6000.2.1f1"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
-    eol: false
+    eol: 2025-08-12
     latest: "6000.1.16f1"
     latestReleaseDate: 2025-08-13
 
