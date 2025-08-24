@@ -407,6 +407,7 @@ releases:
     releaseLabel: releng/3.5
     releaseDate: 2000-06-30
     eol: 2001-06-30 # unknown, assumed to be 1 year after release
+    link: null
 
   - releaseCycle: "4.0"
     releaseLabel: "releng/4.0"

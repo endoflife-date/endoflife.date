@@ -23,7 +23,6 @@ module EndOfLifeHooks
   SUPPRESSED_BECAUSE_402 = 'may trigger a 402 Payment Required'
   SUPPRESSED_BECAUSE_403 = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_404 = 'may trigger a 404 Not Found'
-  SUPPRESSED_BECAUSE_429 = 'may trigger a 429 Too Many Requests'
   SUPPRESSED_BECAUSE_502 = 'may return a 502 Bad Gateway'
   SUPPRESSED_BECAUSE_503 = 'may return a 503 Service Unavailable'
   SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
@@ -63,7 +62,6 @@ module EndOfLifeHooks
     'https://github.com/hashicorp/consul/blob/v1.19.2/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/hashicorp/consul/blob/v1.20.5/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
-    'https://github.com': SUPPRESSED_BECAUSE_429,
     'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://investors.broadcom.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -128,9 +126,12 @@ module EndOfLifeHooks
     'https://www.virtualbox.org': SUPPRESSED_BECAUSE_402,
     'https://www.zentyal.com': SUPPRESSED_BECAUSE_403,
   }
-  USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
-  URL_CHECK_OPEN_TIMEOUT = 3
+  USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0'
+  URL_CHECK_OPEN_TIMEOUT = 6
   URL_CHECK_TIMEOUT = 10
+  URL_CHECK_MAX_RETRY = 3
+
+
 
   # Global error count
   @@error_count = 0
@@ -240,7 +241,6 @@ module EndOfLifeHooks
       product.data['identifiers'].each { |identifier|
         error_if = Validator.new('identifiers', product, identifier)
         error_if.is_url_invalid('url') if identifier['url']
-        Jekyll.logger.info TOPIC, "Verifying identifier URL #{identifier['url']} for #{product.name}"
       }
 
       product.data['releases'].each { |release|
@@ -437,10 +437,21 @@ module EndOfLifeHooks
         return
       end
 
-      Jekyll.logger.debug TOPIC, "Checking URL #{url}."
-      URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
-        if response.status[0].to_i >= 400
-          raise "response code is #{response.status}"
+      retries = 0
+      begin
+        Jekyll.logger.debug TOPIC, "Checking URL #{url}..."
+        URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
+          Jekyll.logger.debug TOPIC, "URL #{url} successfully checked, response code is #{response.status[0]}"
+        end
+      rescue OpenURI::HTTPError => e
+        if e.io.status[0] == '429' && retries < URL_CHECK_MAX_RETRY
+          retries += 1
+          sleep_time = 2 ** retries
+          Jekyll.logger.warn TOPIC, "Got a 429 (Too Many Requests) for URL #{url}, retrying in #{sleep_time} seconds..."
+          sleep(sleep_time)
+          retry
+        else
+          raise e
         end
       end
     end
@@ -485,6 +496,14 @@ module EndOfLifeHooks
         @product.name
       end
     end
+  end
+end
+
+class TooManyRequestsError < StandardError
+  attr_reader :response
+  def initialize(response)
+    @response = response
+    super("response code is 429 (Too Many Requests)")
   end
 end
 
