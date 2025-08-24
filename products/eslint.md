@@ -39,8 +39,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.33.0"
-    latestReleaseDate: 2025-08-08
+    latest: "9.34.0"
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "8"
     releaseDate: 2021-10-09
@@ -99,6 +99,7 @@ releases:
     eol: 2016-08-12
     latest: "1.10.3"
     latestReleaseDate: 2015-12-01
+
 ---
 
 > [ESLint](https://eslint.org/) is a popular static code analysis tool used to identify problematic patterns found in

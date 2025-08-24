@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "6.16"
     releaseDate: 2025-07-27
     eol: false # not yet announced
-    latest: "6.16.2"
-    latestReleaseDate: 2025-08-20
+    latest: "6.16.3"
+    latestReleaseDate: 2025-08-23
 
   - releaseCycle: "6.15"
     releaseDate: 2025-05-25

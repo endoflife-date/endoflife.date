@@ -35,21 +35,21 @@ auto:
     - declare: silverstripe
       # Release dates are approximate on https://www.silverstripe.org/software/roadmap/.
       releases:
-        - { name: "6.0", releaseDate: 2025-06-10 } # https://www.silverstripe.org/blog/silverstripe-cms-6-0/
-        - { name: "5.4", releaseDate: 2025-04-10 } # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-4/
-        - { name: "5.3", releaseDate: 2024-11-04 } # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-3/
-        - { name: "5.2", releaseDate: 2024-04-15 } # https://www.silverstripe.org/blog/cms-5-2/
-        - { name: "5.1", releaseDate: 2023-10-17 } # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-1/
-        - { name: "5.0", releaseDate: 2023-05-08 } # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5/
-        - { name: "4.13", releaseDate: 2023-04-26 } # https://www.silverstripe.org/blog/cms-4-13/
-        - { name: "4.12", releaseDate: 2022-12-19 } # https://www.silverstripe.org/blog/announcing-silverstripe-cms-4-12-with-improved-gridfield-ux/
-        - { name: "4.11", releaseDate: 2022-06-28 } # https://www.silverstripe.org/blog/cms-4-11/
-        - { name: "4.10", releaseDate: 2022-01-27 } # https://www.silverstripe.org/blog/cms-4-10-is-here-with-official-support-for-php-8-0/
-        - { name: "3.7", releaseDate: 2018-06-08 } # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.7.0
-        - { name: "3.1", releaseDate: 2013-10-01 } # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.1.0
-        - { name: "3.0", releaseDate: 2012-06-28 } # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.0.0
-        - { name: "2.4", releaseDate: 2011-02-02 } # https://github.com/silverstripe/silverstripe-framework/releases/tag/2.4.0
-        - { name: "2.3", releaseDate: 2009-02-23 } # https://www.silverstripe.org/blog/silverstripe-2-3-0-released-1000s-of-improvements/
+        - {name: "6.0", releaseDate: 2025-06-10}   # https://www.silverstripe.org/blog/silverstripe-cms-6-0/
+        - {name: "5.4", releaseDate: 2025-04-10}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-4/
+        - {name: "5.3", releaseDate: 2024-11-04}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-3/
+        - {name: "5.2", releaseDate: 2024-04-15}   # https://www.silverstripe.org/blog/cms-5-2/
+        - {name: "5.1", releaseDate: 2023-10-17}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-1/
+        - {name: "5.0", releaseDate: 2023-05-08}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5/
+        - {name: "4.13", releaseDate: 2023-04-26}   # https://www.silverstripe.org/blog/cms-4-13/
+        - {name: "4.12", releaseDate: 2022-12-19}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-4-12-with-improved-gridfield-ux/
+        - {name: "4.11", releaseDate: 2022-06-28}   # https://www.silverstripe.org/blog/cms-4-11/
+        - {name: "4.10", releaseDate: 2022-01-27}   # https://www.silverstripe.org/blog/cms-4-10-is-here-with-official-support-for-php-8-0/
+        - {name: "3.7", releaseDate: 2018-06-08}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.7.0
+        - {name: "3.1", releaseDate: 2013-10-01}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.1.0
+        - {name: "3.0", releaseDate: 2012-06-28}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.0.0
+        - {name: "2.4", releaseDate: 2011-02-02}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/2.4.0
+        - {name: "2.3", releaseDate: 2009-02-23}   # https://www.silverstripe.org/blog/silverstripe-2-3-0-released-1000s-of-improvements/
 
 # releaseDate, eoas and eol on https://www.silverstripe.org/software/roadmap/
 # eoas, eol rounded to the end of month
@@ -161,6 +161,7 @@ releases:
     latest: "2.3.13"
     latestReleaseDate: 2011-10-18
     link: null
+
 ---
 
 > [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS

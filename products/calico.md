@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "3.30"
     releaseDate: 2025-05-05
     eol: false
-    latest: "3.30.2"
-    latestReleaseDate: 2025-06-19
+    latest: "3.30.3"
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "3.29"
     releaseDate: 2024-10-29
@@ -53,6 +53,7 @@ releases:
     eol: 2023-12-15
     latest: "3.25.2"
     latestReleaseDate: 2023-09-05
+
 ---
 
 > Calico is a networking and network security solution for containers, virtual
