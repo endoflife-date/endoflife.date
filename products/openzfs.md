@@ -29,9 +29,8 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/openzfs/zfs.git
-      regex: ^zfs-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
-      regex_exclude: '^2\.1\.99$' # the 2.1.99 release is a pre-release (see talk page)
+    - github_releases: openzfs/zfs
+      regex: ^zfs-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
@@ -41,8 +40,8 @@ releases:
     releaseDate: 2024-10-17
     eoas: false
     eol: false
-    latest: "2.3.99"
-    latestReleaseDate: 2024-10-17
+    latest: "2.3.3"
+    latestReleaseDate: 2025-06-19
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -50,8 +49,8 @@ releases:
     releaseDate: 2023-07-27
     eoas: 2025-01-13
     eol: false
-    latest: "2.2.99"
-    latestReleaseDate: 2023-07-27
+    latest: "2.2.8"
+    latestReleaseDate: 2025-06-12
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -59,8 +58,8 @@ releases:
     releaseDate: 2021-04-19
     eoas: 2023-10-12
     eol: 2025-01-13
-    latest: "2.1.99"
-    latestReleaseDate: 2021-04-19
+    latest: "2.1.16"
+    latestReleaseDate: 2024-12-06
     supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2+"
 
