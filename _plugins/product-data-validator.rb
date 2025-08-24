@@ -11,7 +11,6 @@
 require 'jekyll'
 require 'open-uri'
 require_relative 'end-of-life'
-require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
@@ -168,10 +167,6 @@ module EndOfLifeHooks
     error_if.undeclared_custom_field('releases')
     error_if.custom_field_type_is_not_string('releases')
 
-    product.data['identifiers'].each { |identifier|
-      error_if.is_not_an_identifier('identifiers', identifier)
-    }
-
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
       error_if.is_not_an_array('methods')
@@ -232,6 +227,12 @@ module EndOfLifeHooks
       product.data['customFields'].each { |field|
         error_if = Validator.new('customFields', product, field)
         error_if.is_url_invalid('link') if field['link']
+      }
+
+      product.data['identifiers'].each { |identifier|
+        error_if = Validator.new('identifiers', product, identifier)
+        error_if.is_url_invalid('url') if identifier['url']
+        Jekyll.logger.info TOPIC, "Verifying identifier URL #{identifier['url']} for #{product.name}"
       }
 
       product.data['releases'].each { |release|
@@ -343,13 +344,6 @@ module EndOfLifeHooks
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
       end
-    end
-
-    # Real validation is delegated to IdentifierToUrl to avoid duplication
-    def is_not_an_identifier(property, hash)
-      IdentifierToUrl.new.render(hash)
-    rescue => e
-      declare_error(property, hash, e)
     end
 
     def not_ordered_by_release_cycles(property)

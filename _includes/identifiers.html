@@ -6,7 +6,7 @@
     {% assign type_and_identifier = identifier_hash|first %}
     {% assign identifier_type = type_and_identifier[0] %}
     {% assign identifier = type_and_identifier[1] %}
-    {% assign identifier_url = (identifier_hash|identifier_to_url) %}
+    {% assign identifier_url = identifier_hash.url %}
 
     <li>
       {{ identifier_type }}:
