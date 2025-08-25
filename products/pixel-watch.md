@@ -15,10 +15,10 @@ eolColumn: Security Updates
 customFields:
   - name: supportedAndroidVersions
     display: after-release-column
-    label: Supported Android # https://en.wikipedia.org/wiki/Google_Pixel#Phones
-    description: Supported Android versions range
+    label: Supported Wear OS # https://en.wikipedia.org/wiki/Wear_OS
+    description: Supported Wear OS versions range
 
-# Supported Android versions range is based on https://www.gsmarena.com/.
+# Supported WearOS versions range is based on https://www.gsmarena.com/.
 releases:
   - releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
