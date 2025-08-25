@@ -51,6 +51,32 @@ or [ask a question in the Q&A category](https://github.com/endoflife-date/endofl
 Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the Jekyll website,
 along with the command options for the [build](https://jekyllrb.com/docs/configuration/options/#build-command-options) and [serve](https://jekyllrb.com/docs/configuration/options/#serve-command-options) commands.
 
+## Development in Docker
+
+A Dockerfile is provided in the root of the repository which handles the above.
+To build the container with repo's current content run:
+
+```sh
+docker build -t eol.date .
+```
+
+which will produce an image that will, by default, run `jekyll serve` listening
+on port 4000.  You can then run it, connecting port 4000 on your host to port
+4000 in the container, with:
+
+```sh
+docker run -it --rm -p 4000:4000 eol.date:latest
+```
+
+and browse to http://localhost:4000/.
+
+If you want to iterate on your changes and have them automatically picked up by
+`jekyll`, you can mount your repo into the container:
+
+```sh
+docker run -it --rm -v $PWD:/app -p 4000:4000 eol.date:latest
+```
+
 ## File and Directory structure
 
 - The layout for the products page is in `_layouts/product.html`
