@@ -14,7 +14,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/dovecot/pigeonhole.git
-      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
+      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.?(?P<tiny>\d+)?$'
 
 # eol(x) = releaseDate(x+2)
 releases:
