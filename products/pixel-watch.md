@@ -27,7 +27,7 @@ releases:
     eol: 2028-10-01
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Watch_4
-    supportedAndroidVersions: "6" # https://www.gsmarena.com/google_pixel_watch_3-13253.php
+    supportedAndroidVersions: "6" # https://www.gsmarena.com/google_pixel_watch_4-14088.php
     
   - releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
