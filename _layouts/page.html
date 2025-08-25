@@ -3,3 +3,19 @@ layout: default
 ---
 
 {{content}}
+
+<script>
+// Automatically focus the #search-input element once it appears in the DOM.
+// Fixes #367 can be removed whenever upstream/just-the-docs brings a better solution
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new MutationObserver((mutations, obs) => {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+      searchInput.focus();
+      obs.disconnect();
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+});
+</script>
