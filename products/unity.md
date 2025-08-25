@@ -53,7 +53,7 @@ releases:
     releaseDate: 2023-05-30
     eol: false
     latest: "2022.3.65f1"
-    latestReleaseDate: 2025-06-30
+    latestReleaseDate: 2025-07-30
 
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
