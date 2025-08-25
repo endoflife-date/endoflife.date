@@ -133,6 +133,8 @@ supported only until the next tech stream release is out.
 _Unity LTS releases_ are released once a year and are based off the previous tech stream branch.
 LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
 
+_2022.3_ updates since 2022.3.63f are just available for Enterprise and and Industry only.
+
 Officially supported platforms as of Unity 2020 LTS are:
 
 - Mobile: iOS, Android (Android TV), tvOS
