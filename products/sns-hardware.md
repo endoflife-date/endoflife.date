@@ -141,7 +141,7 @@ releases:
   lowestSNSVersion: "3.1.0"
   highestSNSVersion: "4.8"
 
-- releaseCycle: "sn210W"
+- releaseCycle: "sn210w"
   releaseDate: 2017-03-01
   eoas: 2022-03-31
   eol: 2027-03-31
@@ -156,7 +156,7 @@ releases:
   lowestSNSVersion: "3.1.0"
   highestSNSVersion: "4.8"
 
-- releaseCycle: "sn160W"
+- releaseCycle: "sn160w"
   releaseDate: 2017-03-01
   eoas: 2022-03-31
   eol: 2027-03-31
