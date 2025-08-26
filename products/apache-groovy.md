@@ -25,6 +25,13 @@ auto:
     - maven: org.codehaus.groovy/groovy
 
 releases:
+  - releaseCycle: "5.0"
+    releaseDate: 2025-08-21
+    eol: false
+    eoas: false
+    latest: "5.0.0"
+    latestReleaseDate: 2025-08-21
+    
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eol: false
