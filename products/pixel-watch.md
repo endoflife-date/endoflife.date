@@ -34,7 +34,7 @@ releases:
     releaseDate: 2023-10-12
     eoas: 2026-10-01
     eol: 2026-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Watch_2
     supportedAndroidVersions: "4 - 5" # https://www.gsmarena.com/google_pixel_watch_2-12547.php
 
@@ -43,7 +43,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2025-10-01
     eol: 2025-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Watch
     supportedAndroidVersions: "3.5 - 5" # https://www.gsmarena.com/google_pixel_watch-11546.php
 ---
