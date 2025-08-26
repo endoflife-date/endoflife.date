@@ -22,7 +22,7 @@ customFields:
 releases:
   - releaseCycle: "4"
     releaseLabel: "Pixel Watch 4"
-    releaseDate: 2025-09-10
+    releaseDate: 2025-10-09
     eoas: 2028-10-01
     eol: 2028-10-01
     discontinued: false
