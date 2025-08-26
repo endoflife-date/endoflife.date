@@ -14,8 +14,9 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2018-08-28
     eol: false
-    latest: "1.22.0"
-    latestReleaseDate: 2025-07-03
+    latest: "1.23.0"
+    latestReleaseDate: 2025-08-25
+
 ---
 
 > [tarteaucitron](https://tarteaucitron.io/en/) is a JavaScript cookie banner library.

@@ -29,14 +29,14 @@ releases:
   - releaseCycle: "3.1"
     releaseDate: 2025-08-13
     eol: false
-    latest: "3.1.0"
-    latestReleaseDate: 2025-08-13
+    latest: "3.1.1"
+    latestReleaseDate: 2025-08-25
 
   - releaseCycle: "3.0"
     releaseDate: 2025-05-06
     eol: false
-    latest: "3.0.12"
-    latestReleaseDate: 2025-07-25
+    latest: "3.0.13"
+    latestReleaseDate: 2025-08-25
 
   - releaseCycle: "2.14"
     releaseDate: 2025-02-03
@@ -181,6 +181,7 @@ releases:
     eol: 2019-11-13
     latest: "1.0.2"
     latestReleaseDate: 2019-06-14
+
 ---
 
 > [Argo CD](https://argo-cd.readthedocs.io) is a declarative, GitOps continuous delivery tool for Kubernetes.
