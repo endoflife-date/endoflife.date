@@ -27,17 +27,17 @@ releases:
     latestReleaseDate: 2025-08-11
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
-  - releaseCycle: "9.0"
-    releaseDate: 2025-04-10
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.0.5"
-    latestReleaseDate: 2025-08-06
-
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
     latest: "8.19.2"
     latestReleaseDate: 2025-08-11
+
+  - releaseCycle: "9.0"
+    releaseDate: 2025-04-10
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.0.5"
+    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
