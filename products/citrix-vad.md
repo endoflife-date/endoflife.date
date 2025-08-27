@@ -12,7 +12,7 @@ alternate_urls:
   - /citrix
   - /citrix-apps-desktops
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
-changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
+changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 eoasColumn: true
 eoesColumn: true
@@ -35,13 +35,24 @@ auto:
 # eoas(x) = releaseDate(x) + 6 months
 # eol(x) = releaseDate(x) + 18 months
 releases:
+  - releaseCycle: "2507"
+    releaseDate: 2025-08-19
+    lts: true
+    eoas: 2028-08-18
+    eol: 2028-08-18
+    eoes: 2033-08-18
+    latest: "2507"
+    latestReleaseDate: 2025-08-19
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new
+
   - releaseCycle: "2503"
     releaseDate: 2025-04-29
     eoas: 2025-10-29
     eol: 2026-10-29
     latest: "2503"
     latestReleaseDate: 2025-04-29
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to the next new releaseCycle
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+    # 404 with link using template: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2503/whats-new
 
   - releaseCycle: "2411"
     releaseDate: 2024-12-03
@@ -49,7 +60,6 @@ releases:
     eol: 2026-06-03
     latest: "2411"
     latestReleaseDate: 2024-12-03
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2411/whats-new
 
   - releaseCycle: "2407"
     releaseDate: 2024-07-30
@@ -57,7 +67,6 @@ releases:
     eol: 2025-12-31
     latest: "2407"
     latestReleaseDate: 2024-07-30
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2407/whats-new
 
   - releaseCycle: "2402"
     releaseDate: 2024-04-14
