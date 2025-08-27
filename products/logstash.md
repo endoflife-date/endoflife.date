@@ -21,17 +21,11 @@ auto:
 # For EOL, see https://www.elastic.co/support/eol
 releases:
   - releaseCycle: "9.1"
-    releaseDate: 2025-03-17
+    releaseDate: 2025-07-29
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.2"
     latestReleaseDate: 2025-08-07
     link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
-
-  - releaseCycle: "9.0"
-    releaseDate: 2025-03-17
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.0.5"
-    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-14
@@ -44,6 +38,12 @@ releases:
     eol: false # Until 9.2 is released
     latest: "8.18.5"
     latestReleaseDate: 2025-08-06
+
+  - releaseCycle: "9.0"
+    releaseDate: 2025-03-17
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.0.5"
+    latestReleaseDate: 2025-08-0
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-05
