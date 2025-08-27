@@ -43,7 +43,7 @@ releases:
     releaseDate: 2025-03-17
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.0.5"
-    latestReleaseDate: 2025-08-0
+    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-05
