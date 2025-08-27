@@ -24,6 +24,8 @@ auto:
     - maven: org.apache.groovy/groovy
     - maven: org.codehaus.groovy/groovy
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
   - releaseCycle: "5.0"
     releaseDate: 2025-08-21
@@ -34,14 +36,14 @@ releases:
     
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
+    eoas: 2025-08-21
     eol: false
-    eoas: false
     latest: "4.0.28"
     latestReleaseDate: 2025-07-20
 
   - releaseCycle: "3.0"
     releaseDate: 2020-02-10
-    eoas: true
+    eoas: 2022-01-25
     eol: false
     latest: "3.0.25"
     latestReleaseDate: 2025-05-27
