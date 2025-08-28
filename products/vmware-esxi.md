@@ -24,6 +24,13 @@ identifiers:
   - cpe: cpe:/o:vmware:esxi
 
 releases:
+  - releaseCycle: "9.0"
+    releaseDate: 2025-06-17
+    eol: false
+    latest: "9.0.0.0100"
+    latestReleaseDate: 2025-07-15
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/maintenance-releases/esx-update-and-patch-release-notes/esx-9-0-0-0100.html
+
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
