@@ -27,6 +27,7 @@ releases:
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
     eol: false
+    technicalGuidance: 2032-06-17 # no source, calculated releaseDate(x)+7y
     latest: "9.0.0.0100"
     latestReleaseDate: 2025-07-15
     link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/maintenance-releases/esx-update-and-patch-release-notes/esx-9-0-0-0100.html
