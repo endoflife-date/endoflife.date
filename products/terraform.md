@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "1.13"
     releaseDate: 2025-08-20
     eol: false # releaseDate(1.15)
-    latest: "1.13.0"
-    latestReleaseDate: 2025-08-20
+    latest: "1.13.1"
+    latestReleaseDate: 2025-08-27
 
   - releaseCycle: "1.12"
     releaseDate: 2025-05-14
@@ -103,6 +103,7 @@ releases:
     eol: 2022-05-18
     latest: "1.0.11"
     latestReleaseDate: 2021-11-10
+
 ---
 
 > [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)

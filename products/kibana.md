@@ -21,7 +21,7 @@ auto:
 # For EOL, see https://www.elastic.co/support/eol
 releases:
   - releaseCycle: "9.1"
-    releaseDate: 2025-07-24
+    releaseDate: 2025-07-23
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.2"
     latestReleaseDate: 2025-08-11
@@ -48,8 +48,8 @@ releases:
   - releaseCycle: "8.17"
     releaseDate: 2024-12-11
     eol: false # Supposedly until 8.19 released, but they've released twice since
-    latest: "8.17.9"
-    latestReleaseDate: 2025-07-16
+    latest: "8.17.10"
+    latestReleaseDate: 2025-08-07
 
   - releaseCycle: "8.16"
     releaseDate: 2024-11-07
@@ -58,10 +58,10 @@ releases:
     latestReleaseDate: 2025-03-19
 
   - releaseCycle: "8.15"
-    releaseDate: 2024-08-04
+    releaseDate: 2024-08-03
     eol: true
-    latest: "8.15.4"
-    latestReleaseDate: 2024-11-06
+    latest: "8.15.5"
+    latestReleaseDate: 2024-11-21
 
   - releaseCycle: "8.14"
     releaseDate: 2024-06-05
