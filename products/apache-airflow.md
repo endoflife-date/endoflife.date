@@ -37,7 +37,7 @@ releases:
     eoas: false
     eol: false
     latest: "3.0.4"
-    latestReleaseDate: 2025-08-06
+    latestReleaseDate: 2025-08-08
 
   - releaseCycle: "2"
     releaseDate: 2020-12-17
