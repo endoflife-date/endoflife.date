@@ -135,7 +135,7 @@ _Unity LTS releases_ are released once a year and are based off the previous tec
 LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
 
 _Unity Extended LTS releases_ are available for
-[Enterprise customers](https://unity.com/products/source-code) which offer support for 3 years - one extra year beyond
+[Enterprise customers](https://unity.com/products/unity-enterprise) which offer support for 3 years - one extra year beyond
 the regular LTS release.
 
 Officially supported platforms as of Unity 2020 LTS are:
