@@ -23,6 +23,13 @@ auto:
 
 # Support and EOL dates can be found on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-08-27
+    eoas: false # not yet documented on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
+    eol: false # not yet documented on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
+    latest: "1.34.0"
+    latestReleaseDate: 2025-08-27
+
   - releaseCycle: "1.33"
     releaseDate: 2025-04-23
     eoas: 2026-04-28
