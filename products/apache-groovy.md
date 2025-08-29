@@ -83,6 +83,7 @@ Groovy releases have [the following JVM requirements](https://groovy.apache.org/
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
 | ------ | :---------------------- | ------------------- |
+| 5.0    | N/A                     | 11+                 |
 | 4.0    | N/A                     | 8+                  |
 | 3.0    | 8+                      | 8+                  |
 | 2.5    | 7+                      | 7+                  |
