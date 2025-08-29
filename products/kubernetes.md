@@ -25,8 +25,8 @@ auto:
 releases:
   - releaseCycle: "1.34"
     releaseDate: 2025-08-27
-    eoas: false
-    eol: false
+    eoas: false # not yet documented on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
+    eol: false # not yet documented on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
     latest: "1.34.0"
     latestReleaseDate: 2025-08-27
 
