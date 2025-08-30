@@ -24,8 +24,8 @@ releases:
     releaseDate: 2025-08-05
     eoas: false # releaseDate(1.9)
     eol: false # releaseDate(1.12)
-    latest: "1.8.0"
-    latestReleaseDate: 2025-08-05
+    latest: "1.8.1"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "1.7"
     releaseDate: 2023-02-24
@@ -82,6 +82,7 @@ releases:
     eol: 2017-03-14
     latest: "1.0.6"
     latestReleaseDate: 2017-03-14
+
 ---
 
 > [Phoenix](https://www.phoenixframework.org/) is a real‑time web framework written in Elixir.
