@@ -91,24 +91,28 @@ releases:
 
 ---
 
-> [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) automates code quality and security reviews and
-> provides actionable code intelligence so developers can focus on building better, faster.
+> [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) (formerly Sonar) is a commercial tool that automates code quality and security reviews
+> and provides actionable code intelligence so developers can focus on building better and faster.
 
-## Support
-A new version of SonarQube Server is released every two months, with a new Long-Term Active (LTA) version (previously known as LTS) released every year.
-LTA is a functionally complete version of the product that will receive longer-term support. This means that there are six releases of SonarQube Server per year, including the LTA version at the beginning of each year. This support policy is the same for the Developer, Enterprise and Data Center editions.
+{: .note }
+
+> [Up to version 10.8](https://community.sonarsource.com/t/updates-to-sonarqube-server-release-cadence-and-versioning-scheme/133881),
+> SonarQube Server followed the `MAJOR.MINOR.PATCH` version scheme and shared the same versioning scheme as the free and open-source
+> [SonarQube Community Edition](/sonarqube-community).
+
+SonarQube Server releases follow the following calendar version scheme: `YYYY.ReleaseNumber.PatchReleaseNumber`,
+with `YYYY` being the year of the release, `ReleaseNumber` being the sequential number of the release within
+the year (starting at 1), and `PatchReleaseNumber` being the patch version for that release.
+
+A new version of SonarQube Server is released every two months,
+with a new Long-Term Active (LTA) version (previously known as LTS) released at the beginning of each year.
 
 The support policy is as follows:
-  - The latest version receives new features, enhancements, patches, and technical support.
-  - The latest-1 version receives technical support.
-  - The latest LTA receives:
-     - Patches to fix vulnerabilities or blocker bugs until the next LTA is released.
-     - Technical support up to 6 months after the next LTA is released.
 
-## Versioning
-SonarQube Server releases follow the following version scheme:
-YYYY.ReleaseNumber.PatchReleaseNumber
+- The latest release receives new features, enhancements, patches, and technical support.
+- The latest-1 release receives technical support.
+- The latest LTA release:
+  - Patches to fix vulnerabilities or blocker bugs until the next LTA is released.
+  - Technical support up to 6 months after the next LTA is released.
 
-NOTE: Up to version 10.8 SonarQube Server followed the MAJOR.MINOR.PATCH version scheme.
-
-Release notes for all version can be found on [What's New in SonarQube](https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/release-notes/).
+The support policy is the same for the Developer, Enterprise and Data Center editions.
