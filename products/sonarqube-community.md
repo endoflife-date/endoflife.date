@@ -17,6 +17,7 @@ auto:
   methods:
     - github_releases: SonarSource/sonarqube
 
+# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "25"
     releaseDate: 2025-01-07

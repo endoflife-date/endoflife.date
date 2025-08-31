@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/"
 eoasColumn: true
-eolColumn: Bug and Security Fixes
 
 identifiers:
   - repology: sonarqube
@@ -19,6 +18,10 @@ auto:
     - docker_hub: library/sonarqube
       regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?-(?P<edition>developer+)$
 
+# For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
+# For LTA releases:
+# - eoas(x) = releaseDate(x+1)
+# - eol(x) = releaseDate(LTA+1)
 releases:
   - releaseCycle: "2025.4"
     releaseDate: 2025-07-29
@@ -45,7 +48,7 @@ releases:
     lts: true
     releaseDate: 2025-01-20
     eoas: 2025-03-26
-    eol: false
+    eol: false # releaseDate(2026.1)
     latest: "2025.1.3"
     latestReleaseDate: 2025-08-13
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-2025-1-lta-whats-new/
@@ -61,8 +64,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2021-07-05
     eoas: 2023-03-30
-    eol: 2025-01-20
     lts: 2023-02-07
+    eol: 2025-01-20
     latest: "9.9.8"
     latestReleaseDate: 2024-11-25
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
@@ -70,8 +73,8 @@ releases:
   - releaseCycle: "8"
     releaseDate: 2019-10-15
     eoas: 2021-07-05
-    eol: 2023-02-07
     lts: 2021-05-04
+    eol: 2023-02-07
     latest: "8.9.10"
     latestReleaseDate: 2022-10-14
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
@@ -80,8 +83,8 @@ releases:
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
     releaseDate: 2018-02-02
     eoas: 2019-10-16
-    eol: 2021-05-04
     lts: 2019-07-01
+    eol: 2021-05-04
     latest: "7.9.6"
     latestReleaseDate: 2021-03-01
     link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
@@ -102,15 +105,12 @@ with `YYYY` being the year of the release, `ReleaseNumber` being the sequential 
 the year (starting at 1), and `PatchReleaseNumber` being the patch version for that release.
 
 A new version of SonarQube Server is released every two months,
-with a new Long-Term Active (LTA) version (previously known as LTS) released at the beginning of each year.
+which is supported with new features, enhancements, patches until the next release.
 
-The support policy is as follows:
+The first release of a year is always a Long-Term Active (LTA) version (previously known as LTS).
+After its standard support phase, it is supported with blocker bug and security fixes until the next LTA release.
 
-- The latest release receives new features, enhancements, patches, and technical support.
-- The latest-1 release receives technical support.
-- The latest LTA release:
-  - Patches to fix vulnerabilities or blocker bugs until the next LTA is released.
-  - Technical support up to 6 months after the next LTA is released.
+Technical support is provided for two months (for non-LTA releases) or 6 months (for LTA releases) after EOL.
 
 The support policy is the same for the Developer, Enterprise and Data Center editions.
 
