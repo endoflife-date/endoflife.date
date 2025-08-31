@@ -51,7 +51,7 @@ releases:
   - releaseCycle: "2022.3"
     lts: true
     releaseDate: 2023-05-30
-    eol: false
+    eol: 2025-05-07
     latest: "2022.3.62f1"
     latestReleaseDate: 2025-05-07
 
@@ -125,13 +125,18 @@ releases:
 > first announced and released in June 2005. The engine can be used to create three-dimensional (3D)
 > and two-dimensional (2D) games, as well as interactive simulations and other experiences.
 
-Unity has two releases: Tech stream and LTS.
+Unity has three releases: Tech stream, LTS, and a Extended LTS for
+[Enterprise Customers](https://unity.com/products/unity-enterprise).
 
 _Tech stream_ releases are released twice a year (each one receiving weekly updates) and are
 supported only until the next tech stream release is out.
 
 _Unity LTS releases_ are released once a year and are based off the previous tech stream branch.
 LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
+
+_Unity Extended LTS releases_ are available for
+[Enterprise customers](https://unity.com/products/unity-enterprise) which offer support for 3 years - one extra year beyond
+the regular LTS release.
 
 Officially supported platforms as of Unity 2020 LTS are:
 
