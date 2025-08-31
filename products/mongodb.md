@@ -15,13 +15,11 @@ releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 # are the same for both, but the package names are different, hence the two different
 # purl identifiers.
 identifiers:
-  - purl: pkg:deb/debian/mongodb-org-server
-  - purl: pkg:deb/ubuntu/mongodb-org-server
+  - purl: pkg:deb/debian/mongodb
+  - purl: pkg:deb/ubuntu/mongodb
   - purl: pkg:rpm/amzn/mongodb-org-server
   - purl: pkg:rpm/redhat/mongodb-org-server
   - purl: pkg:rpm/centos/mongodb-org-server
-  - purl: pkg:deb/debian/mongodb-enterprise-server
-  - purl: pkg:deb/ubuntu/mongodb-enterprise-server
   - purl: pkg:rpm/amzn/mongodb-enterprise-server
   - purl: pkg:rpm/redhat/mongodb-enterprise-server
   - purl: pkg:rpm/centos/mongodb-enterprise-server
