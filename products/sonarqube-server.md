@@ -7,7 +7,7 @@ permalink: /sonar-server
 alternate_urls:
   - /sonarqube-server
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
-changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
+changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/"
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
@@ -26,7 +26,6 @@ releases:
     eol: false
     latest: "2025.4.2"
     latestReleaseDate: 2025-08-13
-    link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-4/
 
   - releaseCycle: "2025.3"
     releaseDate: 2025-05-26
@@ -34,7 +33,6 @@ releases:
     eol: 2025-07-29
     latest: "2025.3.1"
     latestReleaseDate: 2025-06-16
-    link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-3/
 
   - releaseCycle: "2025.2"
     releaseDate: 2025-03-26
@@ -42,13 +40,12 @@ releases:
     eol: 2025-05-26
     latest: "2025.2.0"
     latestReleaseDate: 2025-03-26
-    link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-2/
 
   - releaseCycle: "2025.1"
+    lts: true
     releaseDate: 2025-01-20
     eoas: 2025-03-26
     eol: false
-    lts: 2025-03-26
     latest: "2025.1.3"
     latestReleaseDate: 2025-08-13
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-2025-1-lta-whats-new/
