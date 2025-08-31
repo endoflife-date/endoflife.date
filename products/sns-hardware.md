@@ -1,5 +1,6 @@
 ---
 title: Stormshield hardware
+addedAt: 2025-08-27
 category: device
 tags: stormshield
 permalink: /sns-hardware

@@ -1,5 +1,6 @@
 ---
 title: Stormshield firmware
+addedAt: 2025-08-27
 category: os
 tags: stormshield
 permalink: /sns-firmware
