@@ -99,13 +99,13 @@ releases:
 > [SonarQube Community Edition](/sonarqube-community).
 
 SonarQube Server releases follow the following calendar version scheme: `YYYY.ReleaseNumber.PatchReleaseNumber`,
-with `YYYY` being the year of the release, `ReleaseNumber` being the sequential number of the release within
-the year (starting at 1), and `PatchReleaseNumber` being the patch version for that release.
+with `YYYY` being the year of the release, `ReleaseNumber` being the sequential number of the release within the year,
+and `PatchReleaseNumber` being the patch version for that release.
 
-A new version of SonarQube Server is released every two months,
-which is supported with new features, enhancements, patches until the next release.
+A new version of SonarQube Server is released every two months.
+It is supported with new features, enhancements, patches until the next release.
 
-The first release of a year is always a Long-Term Active (LTA) version (previously known as LTS).
+The first release of a year is always a Long-Term Active (LTA) release (previously known as LTS).
 After its standard support phase, it is supported with blocker bug and security fixes until the next LTA release.
 
 Technical support is provided for two months (for non-LTA releases) or 6 months (for LTA releases) after EOL.
