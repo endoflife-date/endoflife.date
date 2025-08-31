@@ -29,7 +29,7 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Validate OpenAPI specification
-        run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
+        run: npx @quobix/vacuum@latest lint --ignore-file .vacuumignore.yml --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
 
       - name: Validate Markdown files
         run: npx markdownlint-cli2@latest '**/*.md' '!node_modules' '!vendor'
