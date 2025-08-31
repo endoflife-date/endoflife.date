@@ -14,8 +14,8 @@ eoesColumn: Enterprise support
 identifiers:
   - repology: mariadb
   - purl: pkg:apk/alpine/mariadb
-  - purl: pkg:deb/debian/mariadb-server
-  - purl: pkg:deb/ubuntu/mariadb-server
+  - purl: pkg:deb/debian/mariadb
+  - purl: pkg:deb/ubuntu/mariadb
   - purl: pkg:docker/library/mariadb
   - purl: pkg:docker/bitnami/mariadb
   - purl: pkg:docker/bitnami/mariadb-galera
