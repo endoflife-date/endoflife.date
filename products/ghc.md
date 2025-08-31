@@ -18,12 +18,12 @@ identifiers:
   - repology: haskell:ghc
 
 auto:
+  disabled: true # Disabled because of anti-scraping measures (using https://github.com/TecharoHQ/anubis)
   methods:
     - git: https://gitlab.haskell.org/ghc/ghc.git
       regex: ^ghc-(?P<major>\d+)[.](?P<minor>\d+)[.](?P<patch>\d+)-release$
       template: "{{major}}.{{minor}}.{{patch}}"
-  # Disabled because of anti-scraping measures (using https://github.com/TecharoHQ/anubis).
-  #-   ghc-wiki: https://gitlab.haskell.org/api/v4/projects/1/wikis/GHC-Status
+    - ghc-wiki: https://gitlab.haskell.org/api/v4/projects/1/wikis/GHC-Status
 
 releases:
   - releaseCycle: "9.12"
