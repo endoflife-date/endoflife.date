@@ -1,27 +1,26 @@
 ---
-# $schema: https://endoflife.date/product-schema.json
 title: SonarQube Server
 category: server-app
 tags: sonar java-runtime
 iconSlug: sonarqube
 permalink: /sonar-server
 alternate_urls:
--   /sonarqube-server
+  - /sonarqube-server
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
 identifiers:
--   repology: sonarqube
+  - repology: sonarqube
 
 auto:
   methods:
-    -   docker_hub: library/sonarqube
-        regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?-(?P<edition>developer+)$
+    - docker_hub: library/sonarqube
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?-(?P<edition>developer+)$
 
 releases:
--   releaseCycle: "2025.4"
+  - releaseCycle: "2025.4"
     releaseDate: 2025-07-29
     eoas: false
     eol: false
@@ -29,7 +28,7 @@ releases:
     latestReleaseDate: 2025-08-13
     link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-4/
 
--   releaseCycle: "2025.3"
+  - releaseCycle: "2025.3"
     releaseDate: 2025-05-26
     eoas: 2025-07-29
     eol: 2025-07-29
@@ -37,7 +36,7 @@ releases:
     latestReleaseDate: 2025-06-16
     link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-3/
 
--   releaseCycle: "2025.2"
+  - releaseCycle: "2025.2"
     releaseDate: 2025-03-26
     eoas: 2025-05-26
     eol: 2025-05-26
@@ -45,7 +44,7 @@ releases:
     latestReleaseDate: 2025-03-26
     link: https://www.sonarsource.com/products/sonarqube/whats-new/2025-2/
 
--   releaseCycle: "2025.1"
+  - releaseCycle: "2025.1"
     releaseDate: 2025-01-20
     eoas: 2025-03-26
     eol: false
@@ -54,7 +53,7 @@ releases:
     latestReleaseDate: 2025-08-13
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-2025-1-lta-whats-new/
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2023-03-30
     eoas: 2025-01-20
     eol: 2025-03-26
@@ -62,7 +61,7 @@ releases:
     latestReleaseDate: 2024-12-04
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-10-8/
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2021-07-05
     eoas: 2023-03-30
     eol: 2025-01-20
@@ -71,7 +70,7 @@ releases:
     latestReleaseDate: 2024-11-25
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2019-10-15
     eoas: 2021-07-05
     eol: 2023-02-07
@@ -80,7 +79,7 @@ releases:
     latestReleaseDate: 2022-10-14
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
     releaseDate: 2018-02-02
     eoas: 2019-10-16
