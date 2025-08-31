@@ -13,7 +13,6 @@ customFields:
   - name: lowestSNSVersion
     display: after-release-column
     label: Lowest SNS supported versions
-
   - name: highestSNSVersion
     display: after-release-column
     label: Highest SNS supported versions
@@ -24,12 +23,16 @@ auto:
       ignore_empty_releases: true
       selector: "table"
       fields:
-        releaseCycle: "Product"
+        releaseCycle:
+          column: "Product"
+          regex:
+            - '^(?P<value>\w+\d+)$'
+            - '^(?P<value>\w+-\w+-\w+-\d+).*$' # drop the hidden text for releases such as SN-M-Series-520
+        releaseDate: "Available as of"
+        eoas: "End of Sales"
         eol:
           column: "End of Life"
           regex: '^.*(?P<value>\w+ \d+).*$'
-        releaseDate: "Available as of"
-        eoas: "End of Sales"
 
 releases:
 - releaseCycle: "sni10"
@@ -149,7 +152,7 @@ releases:
   highestSNSVersion: "4.8"
 
 - releaseCycle: "sn210"
-  outOfOrder: true # because SN210W has been released after 
+  outOfOrder: true # because SN210W has been released after
   releaseDate: 2017-04-01
   eoas: 2023-12-31
   eol: 2028-12-31
@@ -164,7 +167,7 @@ releases:
   highestSNSVersion: "4.8"
 
 - releaseCycle: "sn160"
-  outOfOrder: true # because SN160W has been released after 
+  outOfOrder: true # because SN160W has been released after
   releaseDate: 2017-04-01
   eoas: 2024-06-30
   eol: 2028-12-31
@@ -178,21 +181,21 @@ releases:
   lowestSNSVersion: "1.5.0"
 
 - releaseCycle: "sn710"
-  outOfOrder: true # because SN910 has been released after 
+  outOfOrder: true # because SN910 has been released after
   releaseDate: 2016-10-01
   eoas: 2023-12-31
   eol: 2028-12-31
   lowestSNSVersion: "1.5.0"
 
 - releaseCycle: "sn510"
-  outOfOrder: true # because SN910 has been released after 
+  outOfOrder: true # because SN910 has been released after
   releaseDate: 2016-10-01
   eoas: 2023-12-31
   eol: 2028-12-31
   lowestSNSVersion: "1.5.0"
 
 - releaseCycle: "sni40"
-  outOfOrder: true # because SN910 has been released after 
+  outOfOrder: true # because SN910 has been released after
   releaseDate: 2016-06-01
   eoas: false
   eol: false
