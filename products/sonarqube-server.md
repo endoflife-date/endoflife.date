@@ -1,7 +1,7 @@
 ---
 title: SonarQube Server
 category: server-app
-tags: sonar java-runtime
+tags: sonarsource java-runtime
 iconSlug: sonarqube
 permalink: /sonar-server
 alternate_urls:

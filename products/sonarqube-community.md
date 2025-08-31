@@ -1,7 +1,7 @@
 ---
 title: SonarQube Community Build
 category: server-app
-tags: sonar java-runtime
+tags: sonarsource java-runtime
 iconSlug: sonarqube
 permalink: /sonar # To keep retro-compatibility after the sonarqube-community / sonarqube-server split.
 alternate_urls:
