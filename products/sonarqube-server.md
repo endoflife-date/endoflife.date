@@ -16,7 +16,7 @@ identifiers:
 auto:
   methods:
     - docker_hub: library/sonarqube
-      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?-(?P<edition>developer+)$
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-developer$
 
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
 # For LTA releases:
@@ -111,7 +111,6 @@ The first release of a year is always a Long-Term Active (LTA) version (previous
 After its standard support phase, it is supported with blocker bug and security fixes until the next LTA release.
 
 Technical support is provided for two months (for non-LTA releases) or 6 months (for LTA releases) after EOL.
-
 The support policy is the same for the Developer, Enterprise and Data Center editions.
 
 New releases and EOL are announced on the [community.sonarsource.com](https://community.sonarsource.com/c/sq/releases/24).

@@ -77,6 +77,6 @@ with `YY` being the year of the release, `M` being the month of the release, and
 
 A new version of SonarQube Community Build is released every month.
 There is no active version or Long-Term Active (LTA) version concepts for SonarQube Community Build,
-meaning bug and security issues won't be fixed until the next release.
+meaning bug and security issues won't be fixed until the next Community Build version.
 
 New releases are announced on the [community.sonarsource.com](https://community.sonarsource.com/c/sq/releases/24).
