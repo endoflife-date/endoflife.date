@@ -116,3 +116,5 @@ The support policy is as follows:
   - Technical support up to 6 months after the next LTA is released.
 
 The support policy is the same for the Developer, Enterprise and Data Center editions.
+
+New releases and EOL are announced on the [community.sonarsource.com](https://community.sonarsource.com/c/sq/releases/24).
