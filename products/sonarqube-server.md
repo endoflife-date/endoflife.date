@@ -3,9 +3,7 @@ title: SonarQube Server
 category: server-app
 tags: sonarsource java-runtime
 iconSlug: sonarqube
-permalink: /sonar-server
-alternate_urls:
-  - /sonarqube-server
+permalink: /sonarqube-server
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/"
 eoasColumn: true

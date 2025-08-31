@@ -3,9 +3,10 @@ title: SonarQube Community Build
 category: server-app
 tags: sonarsource java-runtime
 iconSlug: sonarqube
-permalink: /sonar # To keep retro-compatibility after the sonarqube-community / sonarqube-server split.
+permalink: /sonarqube-community
 alternate_urls:
-  - /sonarqube-community
+  - /sonar # To keep retro-compatibility after the sonarqube-community / sonarqube-server split.
+  - /sonarqube
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-community-build/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 changelogTemplate: https://github.com/SonarSource/sonarqube/releases/tag/__LATEST__
 eolColumn: Support
