@@ -1,7 +1,7 @@
 ---
 title: MinIO
 addedAt: 2025-09-01
-category: storage
+category: server-app
 iconSlug: minio
 permalink: /minio
 alternate_urls:
@@ -18,6 +18,7 @@ eolColumn: Support Status
 releases:
   - releaseCycle: "2025-07"
     releaseDate: 2025-07-18
+    eol: false
     latest: "2025-07-23"
     latestReleaseDate: 2025-07-23
     link: https://github.com/minio/minio/releases/tag/RELEASE.2025-07-23T15-54-02Z
