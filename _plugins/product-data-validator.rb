@@ -79,6 +79,7 @@ module EndOfLifeHooks
     'https://privatebin.info/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://review.lineageos.org/': SUPPRESSED_BECAUSE_502,
+    'https://search.maven.org': SUPPRESSED_BECAUSE_403,
     'https://stackoverflow.com': SUPPRESSED_BECAUSE_403,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.citrix.com': SUPPRESSED_BECAUSE_403,
