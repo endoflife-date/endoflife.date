@@ -27,7 +27,7 @@ releases:
     eol: 2025-07-18
     latest: "2025-06-13"
     latestReleaseDate: 2025-06-13
-    link:https://github.com/minio/minio/releases/tag/RELEASE.2025-06-13T11-33-47Z
+    link: https://github.com/minio/minio/releases/tag/RELEASE.2025-06-13T11-33-47Z
 
   - releaseCycle: "2025-05"
     releaseDate: 2025-05-24
