@@ -21,8 +21,8 @@ identifiers:
 auto:
   methods:
     - docker_hub: library/amazonlinux
-      # TODO: Fix this regex to exclude RC releases
-      regex: ^(?:\d+(\.\d+){2,4})$
+      regex: '^(?P<version>\d+(\.\d+){2,4})$'
+      template: "{{version}}"
 
 releases:
   - releaseCycle: "2023"
