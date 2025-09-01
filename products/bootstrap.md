@@ -77,3 +77,5 @@ Unless a change is urgent, _Maintenance_ releases are likely to be made with min
 
 Commercial support for some EOL versions of Bootstrap is available through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
+
+OpenLogic also provides [Bootstrap long-term support (LTS)](https://www.openlogic.com/solutions/bootstrap-support-and-services) for Bootstrap 3 and Bootstrap 4.
