@@ -27,6 +27,7 @@ releases:
     eol: false # releaseDate(2.32)
     latest: "2.31.0"
     latestReleaseDate: 2025-08-25
+    link: https://discourse.nixos.org/t/nix-2-31-0-released/68465 #Keep this one until they create related nix.dev/manual page
 
   - releaseCycle: "2.30"
     releaseDate: 2025-07-07
