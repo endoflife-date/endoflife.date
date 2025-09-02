@@ -38,14 +38,14 @@ releases:
   - releaseCycle: "2.29"
     releaseDate: 2025-05-14
     eol: 2025-07-07
-    latest: "2.29.1"
-    latestReleaseDate: 2025-06-24
+    latest: "2.29.2"
+    latestReleaseDate: 2025-09-01
 
   - releaseCycle: "2.28"
     releaseDate: 2025-04-04
     eol: 2025-05-14
-    latest: "2.28.4"
-    latestReleaseDate: 2025-06-24
+    latest: "2.28.5"
+    latestReleaseDate: 2025-09-01
 
   - releaseCycle: "2.27"
     releaseDate: 2025-03-21
@@ -221,6 +221,7 @@ releases:
     link: https://nixos.org/manual/nix/stable/release-notes/rl-1.11
     latest: "1.11.16"
     latestReleaseDate: 2017-12-20
+
 ---
 
 > [nix](https://nixos.org/) is a cross-platform package manager that uses a purely functional deployment model

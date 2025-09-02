@@ -806,7 +806,7 @@ releases:
     releaseLabel: "Galaxy A52s 5G"
     releaseDate: 2021-09-01
     eoas: 2024-09-01
-    eol: 2025-09-01
+    eol: false
     link: https://doc.samsungmobile.com/SM-A528B/BTU/doc.html
 
   - releaseCycle: "galaxy-z-fold3-5g"
@@ -848,7 +848,7 @@ releases:
     releaseLabel: "Galaxy M21 2021"
     releaseDate: 2021-07-26
     eoas: false
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/sm-m215f/ins/doc.html
 
   - releaseCycle: "galaxy-f22"
@@ -1114,28 +1114,28 @@ releases:
     releaseLabel: "Galaxy Note20 Ultra 5G"
     releaseDate: 2020-08-21
     eoas: true
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N986U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-5g"
     releaseLabel: "Galaxy Note20 5G"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N981U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-ultra"
     releaseLabel: "Galaxy Note20 Ultra"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N985F/XNZ/doc.html
 
   - releaseCycle: "galaxy-note20"
     releaseLabel: "Galaxy Note20"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N980F/XEO/doc.html
 
   - releaseCycle: "galaxy-a51-5g-uw"
