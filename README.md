@@ -43,8 +43,6 @@ endoflife.date is relying on various amazing software and components :
 - [Ruby](https://www.ruby-lang.org/), a dynamic and open source programming language with a focus on
   simplicity and productivity.
 - [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
-- [Stoplight Elements](https://stoplight.io/open-source/elements), a collection of UI components for
-  displaying beautiful developer documentation from any OpenAPI document.
 - [Swagger UI](https://swagger.io/tools/swagger-ui/), a documentation generator for OpenAPI
   Specification.
 - [Simple Icons](https://simpleicons.org/), free SVG icons for popular brands.
