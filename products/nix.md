@@ -25,15 +25,15 @@ releases:
   - releaseCycle: "2.31"
     releaseDate: 2025-08-25
     eol: false # releaseDate(2.32)
-    latest: "2.31.0"
-    latestReleaseDate: 2025-08-25
+    latest: "2.31.1"
+    latestReleaseDate: 2025-09-02
     link: https://discourse.nixos.org/t/nix-2-31-0-released/68465 #Keep this one until they create related nix.dev/manual page
 
   - releaseCycle: "2.30"
     releaseDate: 2025-07-07
     eol: 2025-08-25
-    latest: "2.30.2"
-    latestReleaseDate: 2025-07-25
+    latest: "2.30.3"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "2.29"
     releaseDate: 2025-05-14
