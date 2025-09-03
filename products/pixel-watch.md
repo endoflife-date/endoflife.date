@@ -20,6 +20,15 @@ customFields:
 
 # Supported WearOS versions range is based on https://www.gsmarena.com/.
 releases:
+  - releaseCycle: "4"
+    releaseLabel: "Pixel Watch 4"
+    releaseDate: 2025-10-09
+    eoas: 2028-10-01
+    eol: 2028-10-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_Watch_4
+    supportedAndroidVersions: "6" # https://www.gsmarena.com/google_pixel_watch_4-14088.php
+    
   - releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
     releaseDate: 2024-09-10
