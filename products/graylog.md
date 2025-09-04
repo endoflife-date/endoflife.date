@@ -30,20 +30,20 @@ releases:
   - releaseCycle: "6.3"
     releaseDate: 2025-06-30
     eol: false
-    latest: "6.3.2"
-    latestReleaseDate: 2025-08-06
+    latest: "6.3.3"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "6.2"
     releaseDate: 2025-04-28
     eol: false
-    latest: "6.2.6"
-    latestReleaseDate: 2025-08-06
+    latest: "6.2.7"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "6.1"
     releaseDate: 2024-10-18
     eol: 2025-06-30
-    latest: "6.1.14"
-    latestReleaseDate: 2025-08-06
+    latest: "6.1.15"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "6.0"
     releaseDate: 2024-05-06
@@ -189,6 +189,7 @@ releases:
     latest: "1.0.2"
     latestReleaseDate: 2015-04-28
     link: null
+
 ---
 
 > [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through

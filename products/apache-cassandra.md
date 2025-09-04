@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: false # releaseDate(5.2.0)
-    latest: "4.1.9"
-    latestReleaseDate: 2025-05-19
+    latest: "4.1.10"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "4.0"
     releaseDate: 2021-07-26
@@ -51,6 +51,7 @@ releases:
     eol: 2024-09-05
     latest: "3.0.32"
     latestReleaseDate: 2025-02-07
+
 ---
 
 > [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed, wide-column store, NoSQL database management system.

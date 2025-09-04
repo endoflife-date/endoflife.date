@@ -38,8 +38,8 @@ releases:
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
-    latest: "6.16.5.2"
-    latestReleaseDate: 2025-06-17
+    latest: "6.16.5.3"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
@@ -154,6 +154,7 @@ releases:
     latest: "6.0.8"
     latestReleaseDate: 2015-02-20
     link: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
+
 ---
 
 > [Red Hat Satellite](https://www.redhat.com/technologies/management/satellite) is an infrastructure

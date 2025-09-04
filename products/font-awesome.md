@@ -17,8 +17,8 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-22
     eol: false
-    latest: "7.0.0"
-    latestReleaseDate: 2025-07-22
+    latest: "7.0.1"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "6"
     lts: true
@@ -60,6 +60,7 @@ releases:
     latest: "1.0.0"
     latestReleaseDate: 2012-03-10
     link: https://github.com/FortAwesome/Font-Awesome/releases/tag/v__LATEST__
+
 ---
 
 > [Font Awesome](https://fontawesome.com/) is an icon library and toolkit.
