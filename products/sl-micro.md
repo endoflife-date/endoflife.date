@@ -39,7 +39,7 @@ auto:
 releases:
   - releaseCycle: "6.1"
     releaseDate: 2024-11-26
-    eol: 2028-1-30
+    eol: 2028-11-30
 
   - releaseCycle: "6.0"
     releaseDate: 2024-06-06
