@@ -7,7 +7,7 @@ iconSlug: splunk
 permalink: /splunk
 versionCommand: splunk --version
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
-changelogTemplate: https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/____RELEASE_CYCLE____/
+changelogTemplate: https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/__RELEASE_CYCLE__/
 
 identifiers:
   - repology: splunk
