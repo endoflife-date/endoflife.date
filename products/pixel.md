@@ -119,7 +119,7 @@ releases:
     releaseDate: 2023-10-04
     eoas: 2030-10-01
     eol: 2030-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_8
     supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8-12546.php
 
