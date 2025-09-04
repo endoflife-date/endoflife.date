@@ -4,7 +4,10 @@ addedAt: 2024-08-02
 category: server-app
 tags: suse
 iconSlug: suse
-permalink: /suse-manager
+permalink: /suse-multi-linux-manager
+alternate_urls:
+  - /suse-manager
+  - /suse-mlm
 versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
