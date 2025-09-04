@@ -81,7 +81,7 @@ releases:
     eol: 2021-10-22
     latest: "7.3.9"
     latestReleaseDate: 2021-02-24
-    link: https://docs.splunk.com/Documentation/Splunk/7.3/ReleaseNotes/MeetSplunk
+    link: https://docs.splunk.com/Documentation/Splunk/7.3.9/ReleaseNotes/MeetSplunk
 
   - releaseCycle: "7.2"
     releaseDate: 2018-10-02
@@ -95,6 +95,7 @@ releases:
     eol: 2020-10-31
     latest: "7.1.10"
     latestReleaseDate: 2019-12-12
+    link: https://docs.splunk.com/Documentation/Splunk/7.1.10/ReleaseNotes/MeetSplunk
 
   - releaseCycle: "7.0"
     releaseDate: 2017-09-26
