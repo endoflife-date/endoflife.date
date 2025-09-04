@@ -37,7 +37,7 @@ auto:
 releases:
   - releaseCycle: "1.4.5.1"
     releaseDate: 2025-06-30
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.4.6.0"
     eol: 2027-03-06
     latest: "1.4.5.1"
     latestReleaseDate: 2025-06-30
@@ -244,6 +244,7 @@ releases:
     eol: 2020-05-19
     latest: "1.0.2.0.R3"
     latestReleaseDate: 2020-05-05
+
 ---
 
 > [Amazon Neptune](https://docs.aws.amazon.com/neptune/index.html) is a fast, reliable, fully

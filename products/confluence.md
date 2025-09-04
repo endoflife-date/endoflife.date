@@ -29,14 +29,14 @@ releases:
   - releaseCycle: "10.0"
     releaseDate: 2025-08-05
     eol: 2027-08-05
-    latest: "10.0.2"
-    latestReleaseDate: 2025-08-07
+    latest: "10.0.3"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.5"
     releaseDate: 2025-06-04
     eol: 2027-06-04
-    latest: "9.5.3"
-    latestReleaseDate: 2025-08-05
+    latest: "9.5.4"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.4"
     releaseDate: 2025-03-31
@@ -54,8 +54,8 @@ releases:
     lts: true
     releaseDate: 2024-12-09
     eol: 2026-12-10
-    latest: "9.2.7"
-    latestReleaseDate: 2025-08-05
+    latest: "9.2.8"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.1"
     releaseDate: 2024-10-03
@@ -97,8 +97,8 @@ releases:
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-12-15
-    latest: "8.5.25"
-    latestReleaseDate: 2025-08-05
+    latest: "8.5.26"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "8.4"
     releaseDate: 2023-07-05
@@ -200,6 +200,7 @@ releases:
     eol: 2019-12-12
     latest: "6.6.17"
     latestReleaseDate: 2019-11-07
+
 ---
 
 > [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki developed by Atlassian.

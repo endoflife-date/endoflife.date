@@ -63,16 +63,16 @@ releases:
     eoas: 2025-12-31
     eol: 2028-04-30
     supportedPythonVersions: "3.10 - 3.13"
-    latest: "5.2.5"
-    latestReleaseDate: 2025-08-06
+    latest: "5.2.6"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "5.1"
     releaseDate: 2024-08-07
     eoas: 2025-04-02
     eol: 2025-12-31
     supportedPythonVersions: "3.10 - 3.13 (added in 5.1.3)"
-    latest: "5.1.11"
-    latestReleaseDate: 2025-06-10
+    latest: "5.1.12"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "5.0"
     releaseDate: 2023-12-04
@@ -88,8 +88,8 @@ releases:
     eoas: 2023-12-04
     eol: 2026-04-30
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
-    latest: "4.2.23"
-    latestReleaseDate: 2025-06-10
+    latest: "4.2.24"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "4.1"
     releaseDate: 2022-08-03
@@ -236,6 +236,7 @@ releases:
     latest: "1.3.7"
     latestReleaseDate: 2013-02-21
     link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages

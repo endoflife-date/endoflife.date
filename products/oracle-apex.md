@@ -28,17 +28,17 @@ releases:
   - releaseCycle: "24.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-242
     releaseDate: 2025-01-15
-    eol: 2027-01-31
+    eol: 2027-04-30
 
   - releaseCycle: "24.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-241
     releaseDate: 2024-06-17
-    eol: 2026-06-30
+    eol: 2026-09-30
 
   - releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2025-11-30
+    eol: 2026-02-28
 
   - releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
@@ -99,6 +99,7 @@ releases:
     releaseDate: 2016-12-21
     eol: 2021-12-01
     link: https://blogs.oracle.com/apex/post/oracle-announces-oracle-application-express-51
+
 ---
 
 > Oracle Application Express (also known as APEX) is an enterprise low-code application

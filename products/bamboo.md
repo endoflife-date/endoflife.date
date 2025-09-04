@@ -54,8 +54,8 @@ releases:
     lts: true
     releaseDate: 2024-03-13
     eol: 2026-03-14
-    latest: "9.6.16"
-    latestReleaseDate: 2025-08-06
+    latest: "9.6.17"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.5"
     releaseDate: 2024-01-22
@@ -111,6 +111,7 @@ releases:
     eol: 2023-03-28
     latest: "8.0.13"
     latestReleaseDate: 2023-03-28
+
 ---
 
 > [Bamboo](https://www.atlassian.com/software/bamboo) is a continuous delivery pipeline developed by Atlassian. It is
