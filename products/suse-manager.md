@@ -13,17 +13,24 @@ eolColumn: General Support
 # Release dates are documented in each release note in the "Version revision history" paragraph.
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
+  - releaseCycle: "5.1"
+    releaseDate: 2024-07-31
+    eol: false
+    latest: "5.1"
+    latestReleaseDate: 2025-07-31
+
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
     eol: 2026-06-30
-    latest: "5.0.4"
-    latestReleaseDate: 2025-04-16
+    latest: "5.0.5"
+    latestReleaseDate: 2025-07-01
 
   - releaseCycle: "4.3"
     releaseDate: 2022-06-20
-    eol: 2025-06-30
-    latest: "4.3.15.1"
-    latestReleaseDate: 2024-04-16
+    eol: 2025-07-23
+    lts: 2026-07-31
+    latest: "4.3.16"
+    latestReleaseDate: 2025-07-01
 
   - releaseCycle: "4.2"
     releaseDate: 2021-06-21
