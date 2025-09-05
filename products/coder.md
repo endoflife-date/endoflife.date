@@ -27,15 +27,15 @@ releases:
     releaseDate: 2025-08-05
     eoas: false # releaseDate(2.27)
     eol: false # releaseDate(2.28)
-    latest: "2.25.1"
-    latestReleaseDate: 2025-08-07
+    latest: "2.25.2"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "2.24"
     releaseDate: 2025-07-01
     eoas: false # releaseDate(2.26)
     eol: false # releaseDate(2.27)
-    latest: "2.24.3"
-    latestReleaseDate: 2025-08-07
+    latest: "2.24.4"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "2.23"
     releaseDate: 2025-06-03
@@ -155,6 +155,7 @@ releases:
     eol: 2024-04-03 # releaseDate(2.10)
     latest: "2.7.3"
     latestReleaseDate: 2024-03-04
+
 ---
 
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred

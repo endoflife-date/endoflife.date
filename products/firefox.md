@@ -195,8 +195,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2026-03-15 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to March 2026
-    latest: "115.23.0"
-    latestReleaseDate: 2025-04-29
+    latest: "115.27.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06
