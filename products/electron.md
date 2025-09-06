@@ -50,7 +50,7 @@ releases:
     releaseDate: 2025-09-02
     eol: 2026-03-10
     latest: "38.0.0"
-    latestReleaseDate: 2025-09-03
+    latestReleaseDate: 2025-09-02
     chromeVersion: "M140"
     nodeVersion: "22"
 
@@ -341,6 +341,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using

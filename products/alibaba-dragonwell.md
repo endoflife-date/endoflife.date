@@ -67,30 +67,31 @@ releases:
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.
     eol: 2029-11-30
-    latest: "21.0.7.0.7+6"
-    latestReleaseDate: 2025-05-30
+    latest: "21.0.8.0.8+9"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # The first official release is 17.0.1.
     eol: 2027-09-30
-    latest: "17.0.15.0.16+6"
-    latestReleaseDate: 2025-05-30
+    latest: "17.0.16.0.17+8"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2020-07-20 # The first official release is 11.0.7.2.
     eol: 2027-09-30
-    latest: "11.0.27.23"
-    latestReleaseDate: 2025-05-30
+    latest: "11.0.28.24"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
-    latest: "8.25.24"
-    latestReleaseDate: 2025-05-30
+    latest: "8.26.25"
+    latestReleaseDate: 2025-09-05
     link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
+
 ---
 
 > [Alibaba Dragonwell](https://dragonwell-jdk.io/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
