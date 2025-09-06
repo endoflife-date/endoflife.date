@@ -19,8 +19,8 @@ releases:
   - releaseCycle: "5.6"
     releaseDate: 2025-08-15
     eol: false
-    latest: "5.6.0"
-    latestReleaseDate: 2025-08-15
+    latest: "5.6.1"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "5.5"
     releaseDate: 2025-05-13
@@ -147,6 +147,7 @@ releases:
     eol: true
     latest: "3.0.2"
     latestReleaseDate: 2022-05-16
+
 ---
 
 > [Podman](https://podman.io/) is a daemon-less, open-source, Linux-native
