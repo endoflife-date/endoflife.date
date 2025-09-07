@@ -85,7 +85,7 @@ releases:
     latestReleaseDate: 2013-08-26
 ---
 
-> [SUSE Multi-Linux Manager](https://www.suse.com/products/multi-linux-manager/) is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment.
+> [SUSE Multi-Linux Manager](https://www.suse.com/products/multi-linux-manager/), formerly known as SUSE Manager, is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment.
 > It uses the Salt configuration management system to manage clients, deploy patches and packages, and report changes at scale.
 
 {: .warning }
