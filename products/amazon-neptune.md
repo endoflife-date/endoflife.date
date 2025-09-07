@@ -17,7 +17,7 @@ changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-r
 
 customFields:
   - name: upgradeVersion
-    display: api-only
+    display: after-latest-column
     label: Upgrade to
 
 auto:
@@ -276,9 +276,3 @@ window.
 
 Legacy Engines are not considered Generally Available, and AWS guarantees no support for the same.
 Databases running on a Legacy Engine are subject to Service Level Agreement (SLA) Exceptions.
-
-{% include table.html
-labels="Engine Version,Upgrade To"
-fields="releaseCycle,upgradeVersion"
-types="string,string"
-rows=page.releases %}
