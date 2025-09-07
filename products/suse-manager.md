@@ -11,7 +11,6 @@ alternate_urls:
 versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
-# beginning with 5.1: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 eolColumn: General Support
 
 # Release dates are documented in each release note in the "Version revision history" paragraph.
@@ -22,6 +21,7 @@ releases:
     eol: false
     latest: "5.1"
     latestReleaseDate: 2025-07-31
+    link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
