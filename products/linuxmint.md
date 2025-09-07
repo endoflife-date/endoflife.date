@@ -23,6 +23,13 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "22.2"
+    codename: Zara
+    lts: true
+    releaseDate: 2025-09-04
+    eol: 2029-04-30
+    link: https://blog.linuxmint.com/?p=4881
+
   - releaseCycle: "22.1"
     codename: Xia
     lts: true
