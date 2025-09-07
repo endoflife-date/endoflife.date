@@ -15,7 +15,7 @@ identifiers:
 auto:
   disabled: true # there are anti-bot protection measures on https://docs.splunk.com
   methods:
-    - splunk: https://help.splunk.com/en/splunk-enterprise
+    - splunk: https://docs.splunk.com/Documentation/Splunk
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
