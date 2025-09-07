@@ -24,6 +24,7 @@ identifiers:
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
+# eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
