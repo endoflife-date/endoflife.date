@@ -23,9 +23,15 @@ auto:
 # Inside a given major release, eol(x) = releaseDate(x+1)
 # For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
+  - releaseCycle: "28.4"
+    releaseDate: 2025-09-03
+    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    latest: "28.4.0"
+    latestReleaseDate: 2025-09-03
+
   - releaseCycle: "28.3"
     releaseDate: 2025-06-24
-    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    eol: 2025-09-03
     latest: "28.3.3"
     latestReleaseDate: 2025-07-25
 
