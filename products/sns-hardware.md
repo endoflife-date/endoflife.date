@@ -26,9 +26,7 @@ auto:
       fields:
         releaseCycle:
           column: "Product"
-          regex:
-            - '^(?P<value>\w+\d+)$'
-            - '^(?P<value>\w+-\w+-\w+-\d+).*$' # drop the hidden text for releases such as SN-M-Series-520
+          regex: '^.*(?P<value>SN\w*\d+)$' # Capture the hidden name for sn-(xs|s|m|l|xl)-series
         releaseDate: "Available as of"
         eoas: "End of Sales"
         eol:
