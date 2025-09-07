@@ -123,7 +123,7 @@ releases:
 
   - releaseCycle: "1.7"
     releaseDate: 2016-11-25
-    eol: 2021-03-31
+    eol: 2021-10-01
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
 
