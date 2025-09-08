@@ -43,14 +43,14 @@ releases:
     releaseLabel: "Galaxy A07"
     releaseDate: 2025-09-01 # https://news.samsung.com/za/samsung-launches-the-all-new-galaxy-a07-built-for-every-challenge
     eoas: 2031-09-01 # 6 android upgrade - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
-    eol: 2031-09-01 # 6 years of security support - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
+    eol: false      # 6 years of security support - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
     link: null # not found on doc.samsungmobile.com as of 2025-09-07
 
   - releaseCycle: "galaxy-z-fold7"
     releaseLabel: "Galaxy Z Fold7"
     releaseDate: 2025-07-25 # https://news.samsung.com/global/samsung-launches-galaxy-z-fold7-galaxy-z-flip7-and-galaxy-watch8-series-globally-starting-today
     eoas: 2032-07-25 # 7 android upgrade - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
-    eol: 2032-07-25 # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    eol: false      # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
     link: https://doc.samsungmobile.com/SM-F9660/TGY/doc.html
 
   - releaseCycle: "galaxy-z-flip7-fe"
