@@ -1,6 +1,6 @@
 ---
-permalink: /xperia
-title: Sony Xperia phones
+permalink: /sony-xperia
+title: Sony Xperia
 iconSlug: sony
 category: device
 versionCommand: "Settings -> About Phone -> Regulatory labels"
