@@ -27,7 +27,7 @@ releases:
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
-    eoas: false # releaseDate(13)
+    eoas: 2025-09-03
     eol: 2027-02-01
     link: https://www.veeam.com/kb4705
     latest: "12.3.0.4670"
