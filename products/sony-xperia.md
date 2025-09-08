@@ -7,12 +7,11 @@ iconSlug: sony
 permalink: /sony-xperia
 alternate_urls:
   - /xperia
-releasePolicyLink: https://www.sony.co.uk/electronics/support/articles/SX243901
 releaseColumn: false
 
 customFields:
   - name: androidVersions
-    display: before-latest-column
+    display: after-release-column
     label: Android versions
     description: Supported Android versions
 
@@ -20,6 +19,7 @@ auto:
   methods:
     - release_table: https://www.sony.co.uk/electronics/support/articles/SX243901
       render_javascript: true
+      render_javascript_wait_for: "table"
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
@@ -173,5 +173,4 @@ releases:
 
 > Xperia is a series of and the sole brand name of smartphones marketed by Sony.
 
-It looks like Sony will update its newest wave of phones for 3 years (3 major Android upgrades) and publish security updates for 4 years.
-This is the case for the Xperia 1 VI and 10 VI.
+Support information is available on [Sony's support page](https://www.sony.co.uk/electronics/support/articles/SX243901).
