@@ -52,7 +52,7 @@ releases:
     releaseDate: 2025-08-27
     eol: false
     latest: "2025.08.0"
-    latestReleaseDate: 2025-08-27
+    latestReleaseDate: 2025-08-15
 
   - releaseCycle: "2025.07"
     releaseDate: 2025-07-31
