@@ -67,7 +67,7 @@ releases:
 
 ---
 
-> [SUSE Linux Micro](https://www.suse.com/products/micro/) is a lightweight OS for edge computing and containerized and virtual workloads.
+> [SUSE Linux Micro](https://www.suse.com/products/micro/) is a commercial lightweight OS for edge computing and containerized and virtual workloads.
 
-SL Micro (formerly known as SLE Micro) has a four-year product lifecycle for every version. SL Micro receives more intense testing than the
-upstream openSUSE community product.
+SUSE Linux Micro, formerly known as SUSE Linux Enterprise Micro, is included as part of the SUSE Rancher Prime, SUSE Rancher Suite and SUSE Virtualization products.
+Each minor version is supported for four years.
