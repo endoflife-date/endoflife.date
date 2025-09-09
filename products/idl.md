@@ -15,10 +15,6 @@ identifiers:
   - cpe: cpe:2.3:a:idl:idl
   - cpe: cpe:/a:idl:idl
 
-auto:
-  methods:
-    - idl: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
-
 releases:
   - releaseCycle: "9.2"
     releaseDate: 2025-07-01
