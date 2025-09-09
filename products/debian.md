@@ -36,8 +36,8 @@ releases:
     eol: 2028-08-09
     eoes: 2030-06-30
     link: https://www.debian.org/News/2025/20250809
-    latest: "13.0"
-    latestReleaseDate: 2025-08-09
+    latest: "13.1"
+    latestReleaseDate: 2025-09-06
 
   - releaseCycle: "12"
     codename: "Bookworm"
@@ -45,8 +45,8 @@ releases:
     eol: 2026-06-10
     eoes: 2028-06-30
     link: https://www.debian.org/News/2025/20250517
-    latest: "12.11"
-    latestReleaseDate: 2025-05-17
+    latest: "12.12"
+    latestReleaseDate: 2025-09-06
 
   - releaseCycle: "11"
     codename: "Bullseye"
@@ -191,6 +191,7 @@ releases:
     link: https://lists.debian.org/debian-announce/1996/msg00021.html
     latest: "1.1"
     latestReleaseDate: 1996-06-17
+
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable
