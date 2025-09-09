@@ -13,7 +13,6 @@ customFields:
   - name: lowestSNSVersion
     display: after-release-column
     label: Lowest SNS supported versions
-
   - name: highestSNSVersion
     display: after-release-column
     label: Highest SNS supported versions
@@ -24,12 +23,14 @@ auto:
       ignore_empty_releases: true
       selector: "table"
       fields:
-        releaseCycle: "SMC version"
-        eol:
-          column: "End of Life"
-          regex: '^.*(?P<value>\w+ \d+).*$'
+        releaseCycle:
+          column: "SMC version"
+          regex: '^(?P<value>\d+(\.\d+)?).*$'
         releaseDate: "Available as of"
         eoas: "End of Maintenance"
+        eol: "End of Life"
+        lowestSNSVersion: "Lowest SNS version (*)"
+        highestSNSVersion: "Highest SNS version"
 
 releases:
   - releaseCycle: "3.7"
