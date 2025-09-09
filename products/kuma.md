@@ -10,7 +10,7 @@ eolColumn: Support
 
 auto:
   methods:
-    - git: https://github.com/kumahq/kuma.git
+    - github_releases: kumahq/kuma
     - kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml
 
 # EOL dates can be found on https://github.com/kumahq/kuma/blob/master/versions.yml
@@ -19,92 +19,92 @@ releases:
     releaseDate: 2025-06-10
     eol: 2026-06-10
     latest: "2.11.5"
-    latestReleaseDate: 2025-08-20
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "2.10"
     releaseDate: 2025-03-20
     eol: 2026-03-20
     latest: "2.10.6"
-    latestReleaseDate: 2025-08-25
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "2.9"
     releaseDate: 2024-10-22
     eol: 2025-10-22
     latest: "2.9.9"
-    latestReleaseDate: 2025-08-25
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "2.8"
     releaseDate: 2024-06-24
     eol: 2025-06-24
     latest: "2.8.8"
-    latestReleaseDate: 2025-03-27
+    latestReleaseDate: 2025-03-31
 
   - releaseCycle: "2.7"
     releaseDate: 2024-04-19
     eol: 2026-04-19
     latest: "2.7.17"
-    latestReleaseDate: 2025-08-25
+    latestReleaseDate: 2025-08-26
     lts: true
 
   - releaseCycle: "2.6"
     releaseDate: 2024-02-01
     eol: 2025-02-01
     latest: "2.6.15"
-    latestReleaseDate: 2025-01-17
+    latestReleaseDate: 2025-01-21
 
   - releaseCycle: "2.5"
     releaseDate: 2023-11-15
     eol: 2024-11-15
     latest: "2.5.11"
-    latestReleaseDate: 2024-10-06
+    latestReleaseDate: 2024-10-08
 
   - releaseCycle: "2.4"
     releaseDate: 2023-08-29
     eol: 2024-08-29
     latest: "2.4.10"
-    latestReleaseDate: 2024-07-23
+    latestReleaseDate: 2024-07-24
 
   - releaseCycle: "2.3"
     releaseDate: 2023-06-23
     eol: 2024-06-23
     latest: "2.3.7"
-    latestReleaseDate: 2024-04-05
+    latestReleaseDate: 2024-04-09
 
   - releaseCycle: "2.2"
     releaseDate: 2023-04-14
     eol: 2024-04-14
     latest: "2.2.9"
-    latestReleaseDate: 2024-04-05
+    latestReleaseDate: 2024-04-09
 
   - releaseCycle: "2.1"
     releaseDate: 2023-01-30
     eol: 2024-02-01
     latest: "2.1.7"
-    latestReleaseDate: 2023-10-11
+    latestReleaseDate: 2023-10-12
 
   - releaseCycle: "2.0"
     releaseDate: 2022-11-04
     eol: 2023-11-04
     latest: "2.0.8"
-    latestReleaseDate: 2023-10-11
+    latestReleaseDate: 2023-10-12
 
   - releaseCycle: "1.8"
     releaseDate: 2022-08-22
     eol: 2023-08-24
     latest: "1.8.8"
-    latestReleaseDate: 2023-07-27
+    latestReleaseDate: 2023-07-28
 
   - releaseCycle: "1.7"
     releaseDate: 2022-06-13
     eol: 2023-06-16
     latest: "1.7.6"
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-04-07
 
   - releaseCycle: "1.6"
     releaseDate: 2022-04-11
     eol: 2023-04-12
     latest: "1.6.5"
-    latestReleaseDate: 2023-02-14
+    latestReleaseDate: 2023-02-16
 
   - releaseCycle: "1.5"
     releaseDate: 2022-02-24
@@ -116,7 +116,7 @@ releases:
     releaseDate: 2021-11-19
     eol: 2022-11-22
     latest: "1.4.1"
-    latestReleaseDate: 2021-12-15
+    latestReleaseDate: 2022-01-20
 
   - releaseCycle: "1.3"
     releaseDate: 2021-08-24
@@ -128,7 +128,7 @@ releases:
     releaseDate: 2021-06-17
     eol: 2022-06-17
     latest: "1.2.3"
-    latestReleaseDate: 2021-07-29
+    latestReleaseDate: 2021-08-26
 
 ---
 
