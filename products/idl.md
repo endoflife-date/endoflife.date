@@ -116,8 +116,6 @@ IDL is currently developed and maintained by NV5 Geospatial Solutions. According
 - The three preceding releases receive limited support.
 - Versions older than that are unsupported.
 
-More information is available on the [NV5 Geospatial website](https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/nv5-geospatial-technical-support-supported-versions-1).
-
 [1]: https://www.nas.nasa.gov/hecc/support/kb/interactive-data-language-%28idl%29_119.html "Interactive Data Language (IDL) - HECC Knowledge Base"
 [2]: https://en.wikipedia.org/wiki/IDL_%28programming_language%29 "IDL (programming language)"
 [3]: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html "What's New (Previous IDL Releases) - NV5 Geospatial Software"
