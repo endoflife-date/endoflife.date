@@ -15,10 +15,8 @@ releaseColumn: false
 eolColumn: General Support
 
 identifiers:
-  - cpe: cpe:/o:suse:sl-micro
-  - cpe: cpe:2.3:o:suse:sl-micro
-  - cpe: cpe:/o:suse:sle-micro
-  - cpe: cpe:2.3:o:suse:sle-micro
+  - cpe: cpe:/o:suse:linux_enterprise_micro
+  - cpe: cpe:2.3:o:suse:linux_enterprise_micro
 
 auto:
   methods:
