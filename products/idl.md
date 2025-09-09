@@ -6,7 +6,7 @@ iconSlug: idl
 permalink: /idl
 versionCommand: idl -version
 releasePolicyLink: https://www.nv5geospatialsoftware.com/Products/IDL
-changelogTemplate: "https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html"
+changelogTemplate: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
 eoasColumn: true
 
 identifiers:
@@ -110,15 +110,18 @@ releases:
     eol: true
     latest: "8.0.0"
     latestReleaseDate: 2013-07-01
-```
+---
 
-**Overview:**
+> IDL (Interactive Data Language) is a programming language primarily used for data analysis, visualization, and cross-platform application development.
+> It is widely utilized in scientific computing, particularly in fields like astronomy, atmospheric physics, and medical imaging.
+> ([NASA Advanced Supercomputing][1], [Wikipedia][2])
 
-IDL (Interactive Data Language) is a programming language primarily used for data analysis, visualization, and cross-platform application development. It is widely utilized in scientific computing, particularly in fields like astronomy, atmospheric physics, and medical imaging. ([NASA Advanced Supercomputing][1], [Wikipedia][2])
+The latest stable release is IDL 9.2, which was released in July 2025.
+Previous versions include IDL 9.1 (July 2024), IDL 9.0 (July 2023), and so on, with IDL 8.5 being the last version to reach End of Life (EOL) in July 2018.
+([Wikipedia][2], [NV5 Geospatial Software][3])
 
-The latest stable release is IDL 9.2, which was released in July 2025. Previous versions include IDL 9.1 (July 2024), IDL 9.0 (July 2023), and so on, with IDL 8.5 being the last version to reach End of Life (EOL) in July 2018. ([Wikipedia][2], [NV5 Geospatial Software][3])
-
-As of now, IDL 9.2 is actively supported, with no announced end-of-active-support (EOAS) or end-of-life (EOL) dates. Older versions, such as IDL 8.5 and earlier, have reached EOL and are no longer supported. ([NV5 Geospatial Software][4])
+As of now, IDL 9.2 is actively supported, with no announced end-of-active-support (EOAS) or end-of-life (EOL) dates.
+Older versions, such as IDL 8.5 and earlier, have reached EOL and are no longer supported. ([NV5 Geospatial Software][4])
 
 If you need further information or assistance with the submission process, feel free to ask!
 
