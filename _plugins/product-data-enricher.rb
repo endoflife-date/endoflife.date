@@ -12,17 +12,17 @@
 # - is_lts (in cycles) : whether the release cycle is currently in its LTS phase (mandatory)
 # - lts_from (in cycles) : the LTS phase start date for the release cycle (optional, only if lts is a Date)
 # - is_eoas (in cycles) : whether the release cycle has reach the end of active support (optional, only if eoas is set)
+# - is_almost_eoas (in cycles) : whether the release cycle will soon reach the end of active support (optional, only if eoas is set to a Date)
 # - eoas_from (in cycles) : end of the release cycle active support phase date (optional, only if eoas is set to a Date)
 # - is_eol (in cycles) : whether the release cycle is currently eol (optional, only if eol is set)
+# - is_almost_eol (in cycles) : whether the release cycle will soon reach eol (optional, only if eol is set to a Date)
 # - eol_from (in cycles) : EOL date of the release cycle (optional, only if eol is set to a Date)
 # - is_discontinued (in cycles) : whether the release cycle is currently discontinued (optional, only if discontinued is set)
+# - is_almost_discontinued (in cycles) : whether the release cycle will soon be discontinued (optional, only if discontinued is set to a Date)
 # - discontinued_from (in cycles) : discontinuation date of the release cycle (optional, only if discontinued is set to a Date)
 # - is_eoes (in cycles) : whether the release cycle has reach the end of extended support (optional, only if eoes is set)
+# - is_almost_eoes (in cycles) : whether the release cycle will soon reach the end of extended support (optional, only if eoes is set to a Date)
 # - eoes_from (in cycles) : end of the release cycle extended support phase date (optional, only if eoes is set to a Date)
-# - days_toward_eoas (in cycles) : number of days toward the end of active support for the cycle (optional, only if eoas is set)
-# - days_toward_eol (in cycles) : number of days toward the EOL of the cycle (optional, only if eol is set)
-# - days_toward_discontinued (in cycles) : number of days toward the discontinuation of the cycle (optional, only if discontinued is set)
-# - days_toward_eoes (in cycles) : number of days toward the end of extended support for the cycle (optional, only if eoes is set)
 
 require_relative 'end-of-life'
 require_relative 'identifier-to-url'
@@ -202,8 +202,7 @@ module Jekyll
         set_cycle_link(page, cycle)
         set_cycle_label(page, cycle)
         add_lts_label_to_cycle_label(page, cycle) # must be called after set_cycle_lts
-        compute_days_toward_now_for_all_dates(cycle)
-        set_is_maintained(cycle) # must be called after compute_days_toward_now_for_all_dates
+        set_is_maintained(cycle) # must be called after set_cycle_*_fields
       end
 
       # Build the cycle id from the permalink.
@@ -225,24 +224,28 @@ module Jekyll
       # See explode_date_or_boolean_field(...) for more information.
       def set_cycle_eoas_fields(cycle)
         explode_date_or_boolean_field(cycle, 'eoas', 'is_eoas', 'eoas_from')
+        compute_almost_field(cycle, 'eoas', 'is_almost_eoas')
       end
 
       # Explode eoes to is_eoes (boolean) and eoes_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
       def set_cycle_eoes_fields(cycle)
         explode_date_or_boolean_field(cycle, 'eoes', 'is_eoes', 'eoes_from')
+        compute_almost_field(cycle, 'eoes', 'is_almost_eoes')
       end
 
       # Explode eol to is_eol (boolean) and eol_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
       def set_cycle_eol_fields(cycle)
         explode_date_or_boolean_field(cycle, 'eol', 'is_eol', 'eol_from')
+        compute_almost_field(cycle, 'eol', 'is_almost_eol')
       end
 
       # Explode discontinued to is_discontinued (boolean) and discontinued_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
       def set_cycle_discontinued_fields(cycle)
         explode_date_or_boolean_field(cycle, 'discontinued', 'is_discontinued', 'discontinued_from')
+        compute_almost_field(cycle, 'discontinued', 'is_almost_discontinued')
       end
 
       # Some release cycle fields (field_name) can be either a date or a boolean.
@@ -265,6 +268,25 @@ module Jekyll
           cycle[boolean_field_name] = value
           cycle[date_field_name] = nil
         end
+      end
+
+      # Compute the almost_field_name field.
+      def compute_almost_field(cycle, field_name, almost_field_name)
+        field_value = cycle[field_name]
+        unless field_value.is_a?(Date)
+          return
+        end
+
+        period_start = cycle['releaseDate'].to_time.to_i # release at midnight
+        period_end = field_value.to_time.to_i # eoas/eol/eoes at midnight
+        now = Date.today.to_time.to_i # today at midnight
+        time_until_end = period_end - now
+
+        max_threshold = 4 * 30 * 24 * 60 * 60 # 4 months in seconds
+        threshold = [(period_end - period_start) / 4, max_threshold].min
+        is_almost_at_end = (0..threshold).include?(time_until_end)
+
+        cycle[almost_field_name] = is_almost_at_end
       end
 
       def set_cycle_link(page, cycle)
@@ -303,53 +325,23 @@ module Jekyll
         end
       end
 
-      # Compute the number of days toward now for all cycle's dates (eoas, eol...), and add those
-      # values to the cycle's data in new fields (days_toward_eoas, days_toward_eol...).
-      def compute_days_toward_now_for_all_dates(cycle)
-        %w[eoas eol discontinued eoes].each { |field|
-          next unless cycle.has_key?(field)
-
-          field_value = cycle[field] # either a date or a boolean
-          new_field_name = 'days_toward_' + field
-
-          if field_value.is_a?(Date)
-            cycle[new_field_name] = days_toward_now(field_value)
-          else
-            cycle[new_field_name] = field_value ? -4096 : 4096
-          end
-        }
-      end
-
       # Compute whether the cycle is still maintained and add the result to the cycle's data.
       #
       # A cycle is maintained if at least one of the eoas / eol / discontinued / eoes dates
       # is in the future or is true.
       #
-      # This function must be executed after compute_days_toward_now_for_all_dates because it makes
-      # use of the fields injected by this function.
+      # This function must be executed after all other field have been computed.
       def set_is_maintained(cycle)
         is_maintained = false
 
-        %w[days_toward_eoas days_toward_eol days_toward_discontinued days_toward_eoes].each { |days_toward_field|
-          if cycle.has_key?(days_toward_field) and cycle[days_toward_field] >= 0
+        %w[is_eoas is_eol is_discontinued is_eoes].each { |field|
+          if cycle.has_key?(field) and not cycle[field]
             is_maintained = true
             break
           end
         }
 
         cycle['is_maintained'] = is_maintained
-      end
-
-      # Compute the number of days from now to the given date.
-      #
-      # Usage (assuming now is '2023-01-01'):
-      # {{ '2023-01-10' | days_from_now }} => 9
-      # {{ '2023-01-01' | days_from_now }} => 0
-      # {{ '2022-12-31' | days_from_now }} => -1
-      def days_toward_now(date)
-        date_timestamp = date.to_time.to_i # date at midnight
-        now_timestamp = Date.today.to_time.to_i # today at midnight
-        return (date_timestamp - now_timestamp) / (60 * 60 * 24)
       end
 
       # Template rendering function that replaces placeholders.

@@ -10,8 +10,6 @@ releasePolicyLink: https://angular.dev/reference/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
-eoasWarnThreshold: 30
-eolWarnThreshold: 90
 
 identifiers:
   - purl: pkg:npm/%40angular/core # purl are url-encoded
