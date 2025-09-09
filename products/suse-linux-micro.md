@@ -28,8 +28,7 @@ auto:
       fields:
         releaseCycle:
           column: "Service Pack Release"
-          regex: 'SUSE Linux Micro (?P<major>\d+)(\s+SP(?P<minor>\d+))?'
-          template: "{{major}}.{% if minor %}{{minor}}{% else %}0{% endif %}"
+          regex: 'SUSE Linux Micro (?P<value>\d+\.\d+)'
         releaseDate: "FCS Date"
         eol: "General Ends"
 
