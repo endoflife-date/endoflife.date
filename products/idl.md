@@ -4,7 +4,7 @@ addedAt: 2025-08-28
 category: lang
 iconSlug: idl
 permalink: /idl
-versionCommand: idl -version
+versionCommand: idl -e 'print, !version.release'
 releasePolicyLink: https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/nv5-geospatial-technical-support-supported-versions-1
 changelogTemplate: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
 eoasColumn: true
