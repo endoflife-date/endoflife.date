@@ -108,7 +108,7 @@ releases:
     latestReleaseDate: 2013-07-01
 ---
 
-> IDL (Interactive Data Language) is a programming language primarily used for data analysis, visualization, and cross-platform application development.
+> [IDL (Interactive Data Language)](https://www.nv5geospatialsoftware.com/Products/IDL) is a programming language primarily used for data analysis, visualization, and cross-platform application development.
 > It is widely utilized in scientific computing, particularly in fields like astronomy, atmospheric physics, and medical imaging.
 > ([NASA Advanced Supercomputing][1], [Wikipedia][2])
 
