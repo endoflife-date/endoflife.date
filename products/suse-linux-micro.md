@@ -4,12 +4,9 @@ addedAt: 2025-09-04
 category: os
 tags: linux-distribution suse
 iconSlug: suse
-permalink: /sl-micro
+permalink: /suse-linux-micro
 alternate_urls:
-  - /suse-linux-micro
-  - /sle-micro
-  - /slem
-  - /suselinuxenterprisemicro
+  - /sl-micro
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SL-Micro/{{'__RELEASE_CYCLE__'|replace:'.','-SP'|replace:'-SP0',''}}/"
