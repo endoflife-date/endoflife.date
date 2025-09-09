@@ -2,7 +2,7 @@
 title: Stormshield Management Center
 category: os
 tags: stormshield
-permalink: /smc
+permalink: /sns-smc
 releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
 releaseColumn: false
 releaseDateColumn: Available as of
@@ -19,7 +19,7 @@ customFields:
 
 auto:
   methods:
-  -   release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
+    - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
       ignore_empty_releases: true
       selector: "table"
       fields:
@@ -31,13 +31,25 @@ auto:
         eol: "End of Life"
         lowestSNSVersion: "Lowest SNS version (*)"
         highestSNSVersion: "Highest SNS version"
+    - declare: sns-smc
+      releases:
+        # There is an error on https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm.
+        - { name: "3.0", eoas: 2021-12-03, eol: 2021-12-03 }
 
 releases:
-  - releaseCycle: "3.7"
-    releaseDate: 2024-12-17
+  - releaseCycle: "3.8"
+    releaseDate: 2025-06-10
     eoas: false
     eol: false
+    lowestSNSVersion: '4.3'
+    highestSNSVersion: ND
+
+  - releaseCycle: "3.7"
+    releaseDate: 2024-12-17
+    eoas: 2025-09-10
+    eol: 2025-12-10
     lowestSNSVersion: "4.3"
+    highestSNSVersion: "4.8"
 
   - releaseCycle: "3.6"
     releaseDate: 2024-07-30
@@ -83,8 +95,8 @@ releases:
 
   - releaseCycle: "3.0"
     releaseDate: 2021-06-17
-    eoas: 2021-12-03 # error on https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm table
-    eol: 2021-12-03 # error on https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm table
+    eoas: 2021-12-03
+    eol: 2021-12-03
     lowestSNSVersion: "2.5.0"
     highestSNSVersion: "4.7"
 
