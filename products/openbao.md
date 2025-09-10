@@ -2,7 +2,7 @@
 title: OpenBao
 addedAt: 2025-09-10
 category: server-app
-tags: 
+#tags: 
 iconSlug: 
 permalink: /openbao
 alternate_urls:
