@@ -15,6 +15,13 @@ versionCommand: bao version
 
 identifiers:
   - repology: openbao
+  - purl: pkg:github/openbao/openbao
+  - purl: pkg:oci/openbao?repository_url=ghcr.io/openbao
+  - purl: pkg:oci/openbao-ubi?repository_url=ghcr.io/openbao
+  - purl: pkg:oci/openbao?repository_url=quay.io/openbao
+  - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
+  - purl: pkg:oci/openbao?repository_url=docker.io/openbao
+  - purl: pkg:oci/openbao-ubi?repository_url=docker.io/openbao
 
 auto:
   methods:
