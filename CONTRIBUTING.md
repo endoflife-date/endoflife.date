@@ -136,17 +136,9 @@ LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
-# Threshold at which the background color of the cycle's "eol" cell changes
-# to indicate that the EOL date is approaching (optional, default = 121 days).
-eolWarnThreshold: 121
-
 # Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoasColumn: Active Support
-
-# Threshold at which the background color of the cycle's "eoas" cell changes
-# to indicate that the end of active support date is approaching (optional, default = 121 days).
-eoasWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -161,17 +153,9 @@ releaseDateColumn: Released
 # The value of this property can be set to any string to override the default column label.
 discontinuedColumn: Discontinued
 
-# Threshold at which the background color of the cycle's "discontinued" cell changes
-# to indicate that the discontinued date is approaching (optional, default = 121 days).
-discontinuedWarnThreshold: 121
-
 # Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoesColumn: Extended Support
-
-# Threshold at which the background color of the cycle's "eoes" cell changes
-# to indicate that the extended support date is approaching (optional, default = 121 days).
-eoesWarnThreshold: 121
 
 # Custom fields configuration (optional).
 # Custom fields are non-standard fields used for documenting things such as related runtime versions, custom dates that

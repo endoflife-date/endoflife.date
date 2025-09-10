@@ -9,9 +9,7 @@ versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 eoasColumn: true
-eoasWarnThreshold: 20
 eolColumn: Maintenance Support
-eolWarnThreshold: 60
 
 identifiers:
   - repology: gitlab

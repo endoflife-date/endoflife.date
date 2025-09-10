@@ -12,7 +12,6 @@ changelogTemplate: https://github.com/rancher/rancher/releases/tag/v__LATEST__
 releaseDateColumn: General Availability
 eoasColumn: Full Support
 eolColumn: Limited Support
-eolWarnThreshold: 121
 
 identifiers:
   - purl: pkg:docker/rancher/rancher
