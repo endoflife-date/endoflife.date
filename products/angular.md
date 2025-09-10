@@ -21,7 +21,6 @@ auto:
   methods:
     - git: https://github.com/angular/angular.git
     - release_table: https://angular.dev/reference/releases#actively-supported-versions
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

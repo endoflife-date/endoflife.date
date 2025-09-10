@@ -19,7 +19,6 @@ auto:
     # See https://github.com/endoflife-date/release-data/issues/448
     # Source is public https://www.val.town/x/captn3m0/zerto-lifecycle-matrix
     - release_table: https://captn3m0--6498b7f0494c11f0ad8a76b3cceeab13.web.val.run
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

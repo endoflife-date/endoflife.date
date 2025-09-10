@@ -21,7 +21,6 @@ auto:
   methods:
     - git: https://github.com/PowerShell/PowerShell.git
     - release_table: https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

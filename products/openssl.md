@@ -20,7 +20,6 @@ auto:
     - git: https://github.com/openssl/openssl.git
       regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?P<major>\d+)[\.|_](?P<minor>\d+)[\.|_](?P<patch>\d+\w{0,2})?$'
     - release_table: https://openssl-library.org/source/index.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Series"

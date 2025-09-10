@@ -53,7 +53,6 @@ auto:
         - '^jdk-(?P<version>21[\d\.\+]+)-ga$'
       template: "{{version}}"
     - release_table: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
-      selector: "table"
       fields:
         releaseCycle: "Dragonwell Version"
         eol:

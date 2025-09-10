@@ -20,7 +20,6 @@ auto:
     - release_table: https://www.sony.co.uk/electronics/support/articles/SX243901
       render_javascript: true
       render_javascript_wait_for: "table"
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

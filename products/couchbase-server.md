@@ -24,7 +24,6 @@ auto:
       regex: '^Release (?P<version>\d+\.\d+(\.\d+)?) \((?P<date>.+)\)$'
     - release_table: https://www.couchbase.com/support-policy/EOL/
       user_agent: "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"

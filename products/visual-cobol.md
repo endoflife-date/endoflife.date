@@ -15,7 +15,6 @@ auto:
       render_javascript: true
       render_javascript_wait_for: "text=Visual COBOL for Visual Studio"
       render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

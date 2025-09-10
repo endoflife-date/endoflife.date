@@ -15,7 +15,6 @@ auto:
   methods:
   -   release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
       ignore_empty_releases: true
-      selector: "table"
       fields:
         releaseCycle: "SNS version"
         eol:
@@ -119,6 +118,6 @@ Refer to the official lists of qualified products on the ANSSI website for accur
 
 ### CCN Certifications and Qualifications (Spain)
 
-- SNS 4.3 : [Cualificado + Aprobado Secreto](https://cpstic.ccn.cni.es/en/catalogue/495-stormshield-network-security-utm-ng-firewall-appliances-desde-sn210-a-sn6100-en-4-compilaciones-distintas-s-m-l-y-xl-4-3) 
+- SNS 4.3 : [Cualificado + Aprobado Secreto](https://cpstic.ccn.cni.es/en/catalogue/495-stormshield-network-security-utm-ng-firewall-appliances-desde-sn210-a-sn6100-en-4-compilaciones-distintas-s-m-l-y-xl-4-3)
 
 Refer to the official lists of certified and qualified products on the CCN website for accurate information and the latest updates.

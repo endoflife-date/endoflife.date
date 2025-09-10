@@ -30,7 +30,6 @@ auto:
   methods:
     - git: https://github.com/statamic/cms.git
     - release_table: https://statamic.dev/release-schedule-support-policy
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:

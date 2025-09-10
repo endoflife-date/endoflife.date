@@ -21,7 +21,6 @@ auto:
     - git: https://gitlab.com/gitlab-org/gitlab.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
     - release_table: https://about.gitlab.com/releases/
-      selector: "table"
       fields:
         releaseCycle: "Version"
         releaseDate:

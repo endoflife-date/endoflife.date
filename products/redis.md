@@ -28,7 +28,6 @@ auto:
   methods:
     - git: https://github.com/redis/redis.git
     - release_table: https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version - Release date"

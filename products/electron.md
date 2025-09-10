@@ -31,7 +31,6 @@ auto:
   methods:
     - npm: electron
     - release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
-      selector: "table"
       fields:
         releaseCycle:
           column: "Electron"

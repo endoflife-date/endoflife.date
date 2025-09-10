@@ -27,7 +27,6 @@ auto:
   methods:
     - git: https://github.com/laravel/framework.git
     - release_table: https://laravel.com/docs/master/releases
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
