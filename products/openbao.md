@@ -24,14 +24,14 @@ auto:
 
 releases:
   - releaseCycle: "2.4"
-    releaseDate: 2025-09-29
+    releaseDate: 2025-08-29
     eol: false
     latest: "2.4.0"
-    latestReleaseDate: 2025-09-29
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "2.3"
     releaseDate: 2025-09-26
-    eol: 2025-09-29
+    eol: 2025-08-29
     latest: "2.3.2"
     latestReleaseDate: 2025-08-08
 
