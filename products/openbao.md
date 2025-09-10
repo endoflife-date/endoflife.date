@@ -70,4 +70,5 @@ Only the latest release cycle is maintained at any given time.
 ## Versioning and Release Cadence
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
-versioning nomenclature: `Version X.Y.Z.`.
+versioning nomenclature: `Version X.Y.Z.`. A new major release is
+usually made once every few months, but there's no strict cadence.
