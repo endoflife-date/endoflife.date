@@ -20,7 +20,6 @@ auto:
     - git: https://github.com/varnishcache/varnish-cache.git
       regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://varnish-cache.org/releases/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"

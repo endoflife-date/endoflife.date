@@ -24,7 +24,6 @@ auto:
     - release_table: https://www.silverstripe.org/software/roadmap/
       render_javascript: true
       render_javascript_wait_for: "table"
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle: "CMS Version"

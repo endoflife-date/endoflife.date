@@ -48,7 +48,6 @@ auto:
     - release_table: https://spring.io/projects/spring-boot#support
       render_javascript: true
       render_javascript_wait_until: networkidle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"

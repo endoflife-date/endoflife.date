@@ -32,7 +32,6 @@ auto:
     - git: https://github.com/drush-ops/drush.git
     - release_table: https://www.drush.org/latest/install/
       render_javascript: true
-      selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:

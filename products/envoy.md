@@ -32,7 +32,6 @@ auto:
     - git: https://github.com/envoyproxy/envoy.git
     - release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

@@ -43,7 +43,6 @@ auto:
   methods:
     - git: https://github.com/ionic-team/ionic-framework.git
     - release_table: https://ionicframework.com/docs/reference/support#1
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         minAngularVersion: "Minimum Angular Version"
@@ -53,12 +52,10 @@ auto:
             - '^(?P<value>v\d+\.x).*$'
             - '^(?P<value>v\d+\.\d+.\d+).*$'
     - release_table: https://ionicframework.com/docs/reference/support#2
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         supportedReactVersions: "Required React Version"
     - release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         supportedVueVersions: "Required Vue Version"

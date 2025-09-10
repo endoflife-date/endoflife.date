@@ -49,7 +49,6 @@ auto:
       # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
       regex_exclude: '^v?\d+\.\d+\.\d{3,}'
     - release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

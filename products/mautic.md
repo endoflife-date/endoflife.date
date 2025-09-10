@@ -18,7 +18,6 @@ auto:
   methods:
     - git: https://github.com/mautic/mautic.git
     - release_table: https://www.mautic.org/mautic-releases
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:
