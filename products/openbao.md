@@ -63,7 +63,7 @@ releases:
   
 ---
 
-> [OpenBao](https://openbao.org/) is an open source, community-driven fork of [Hashicorp Vault](https://endoflife.date/hashicorp-vault) managed by the Linux Foundation.
+> [OpenBao](https://openbao.org/) is an open source, community-driven fork of [Hashicorp Vault](/hashicorp-vault) managed by the Linux Foundation.
 
 Each new major release deprecated the previous one, there's no `LTS`.
 
