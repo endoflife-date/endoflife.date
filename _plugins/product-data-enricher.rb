@@ -283,7 +283,7 @@ module Jekyll
         time_until_end = period_end - now
 
         max_threshold = 4 * 30 * 24 * 60 * 60 # 4 months in seconds
-        threshold = [(period_end - period_start) / 4, max_threshold].min
+        threshold = [(period_end - period_start) / 3, max_threshold].min
         is_almost_at_end = (0..threshold).include?(time_until_end)
 
         cycle[almost_field_name] = is_almost_at_end
