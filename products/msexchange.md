@@ -32,7 +32,7 @@ releases:
     link: https://support.microsoft.com/help/5066372
 
   - releaseCycle: "2016"
-    releaseLabel: "2016 CU23 HU17"
+    releaseLabel: "2016 CU23 HU18"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
