@@ -60,7 +60,7 @@ releases:
   - releaseCycle: "7.0"
     lts: true
     releaseDate: 2024-04-23
-    eol: 2025-07-16
+    eol: 2025-07-17
     latest: "7.0.16"
     latestReleaseDate: 2025-07-10
 
