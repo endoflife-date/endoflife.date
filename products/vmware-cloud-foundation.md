@@ -14,7 +14,6 @@ alternate_urls:
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 eolColumn: General Support
-eolWarnThreshold: 180
 
 releases:
   - releaseCycle: "5.1"
