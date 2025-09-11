@@ -13,7 +13,6 @@ eolColumn: Support
 
 auto:
   methods:
-    - git: https://github.com/tailwindlabs/tailwindcss
     - npm: tailwindcss
 
 identifiers:
