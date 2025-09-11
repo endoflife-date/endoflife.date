@@ -18,7 +18,6 @@ identifiers:
   - repology: haskell:ghc
 
 auto:
-  disabled: true # Disabled because of anti-scraping measures (using https://github.com/TecharoHQ/anubis)
   methods:
     - git: https://gitlab.haskell.org/ghc/ghc.git
       regex: ^ghc-(?P<major>\d+)[.](?P<minor>\d+)[.](?P<patch>\d+)-release$
@@ -45,7 +44,7 @@ releases:
     eoas: true
     eol: false
     latest: "9.8.4"
-    latestReleaseDate: 2024-11-29
+    latestReleaseDate: 2024-12-02
 
   - releaseCycle: "9.6"
     releaseDate: 2023-03-10
@@ -74,7 +73,7 @@ releases:
     eoas: true
     eol: true
     latest: "9.0.2"
-    latestReleaseDate: 2021-12-26
+    latestReleaseDate: 2021-12-25
     link: https://downloads.haskell.org/~ghc/9.0.2/docs/html/users_guide/9.0.2-notes.html
 
   - releaseCycle: "8.10"
@@ -98,7 +97,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.6.5"
-    latestReleaseDate: 2019-04-22
+    latestReleaseDate: 2019-04-23
     link: https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/8.6.5-notes.html
 
   - releaseCycle: "8.4"
@@ -106,7 +105,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.4.4"
-    latestReleaseDate: 2018-10-13
+    latestReleaseDate: 2018-05-29
     link: https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/8.4.4-notes.html
 
   - releaseCycle: "8.2"
@@ -114,7 +113,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.2.2"
-    latestReleaseDate: 2017-11-21
+    latestReleaseDate: 2017-07-22
     link: https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/8.2.2-notes.html
 
   - releaseCycle: "8.0"
@@ -122,8 +121,9 @@ releases:
     eoas: true
     eol: true
     latest: "8.0.2"
-    latestReleaseDate: 2017-01-04
+    latestReleaseDate: 2017-01-11
     link: https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/8.0.2-notes.html
+
 ---
 
 > [Haskell](https://www.haskell.org/) is a general-purpose, statically typed, purely functional
