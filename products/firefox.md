@@ -27,9 +27,15 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "142"
+    releaseDate: 2025-08-19
+    eol: false
+    latest: "142.0.1"
+    latestReleaseDate: 2025-08-27
+
   - releaseCycle: "141"
     releaseDate: 2025-07-22
-    eol: false
+    eol: 2025-08-19
     latest: "141.0.3"
     latestReleaseDate: 2025-08-07
 
@@ -37,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.1.0"
-    latestReleaseDate: 2025-07-22
+    latest: "140.2.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -110,8 +116,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://whattrainisitnow.com/calendar/
-    latest: "128.13.0"
-    latestReleaseDate: 2025-07-22
+    latest: "128.14.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "127"
     releaseDate: 2024-06-11
@@ -188,9 +194,9 @@ releases:
   - releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2025-09-16 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to September 2025
-    latest: "115.23.0"
-    latestReleaseDate: 2025-04-29
+    eol: 2026-03-15 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to March 2026
+    latest: "115.27.0"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06
@@ -284,6 +290,7 @@ releases:
     eol: 2021-11-02
     latest: "78.15.0"
     latestReleaseDate: 2021-10-05
+
 ---
 
 > [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser
@@ -326,4 +333,4 @@ releases:
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports the last 3 macOS releases, [matching the Apple support cycle](https://support.mozilla.org/kb/firefox-mac-osx-users-esr).
-- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to September 2025.
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to March 2026, and this extension will be reconsidered in February 2026.

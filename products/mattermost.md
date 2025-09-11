@@ -8,13 +8,11 @@ versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-eolWarnThreshold: 30
 
 auto:
   methods:
     - github_releases: mattermost/mattermost-server
     - release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: table
       fields:
@@ -34,8 +32,8 @@ releases:
   - releaseCycle: "10.11"
     releaseDate: 2025-08-15
     eol: 2026-08-15
-    latest: "10.11.1"
-    latestReleaseDate: 2025-08-08
+    latest: "10.11.2"
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "10.10"
     releaseDate: 2025-07-16
@@ -71,8 +69,8 @@ releases:
     releaseDate: 2025-02-16
     lts: true
     eol: 2025-11-15
-    latest: "10.5.10"
-    latestReleaseDate: 2025-08-15
+    latest: "10.5.11"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "10.4"
     releaseDate: 2025-01-16

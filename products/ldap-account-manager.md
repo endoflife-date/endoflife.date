@@ -7,7 +7,6 @@ alternate_urls:
   - /lam
   - /ldapaccountmanager
 changelogTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
-eolWarnThreshold: 80
 
 identifiers:
   - repology: ldap-account-manager

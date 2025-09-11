@@ -20,6 +20,12 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.13"
+    releaseDate: 2025-08-20
+    eol: false # releaseDate(1.15)
+    latest: "1.13.2"
+    latestReleaseDate: 2025-09-10
+
   - releaseCycle: "1.12"
     releaseDate: 2025-05-14
     eol: false # releaseDate(1.14)
@@ -28,31 +34,31 @@ releases:
 
   - releaseCycle: "1.11"
     releaseDate: 2025-02-27
-    eol: false # releaseDate(1.13)
+    eol: 2025-08-20
     latest: "1.11.4"
     latestReleaseDate: 2025-04-09
 
   - releaseCycle: "1.10"
     releaseDate: 2024-11-26
-    eol: 2025-05-14 # releaseDate(1.12)
+    eol: 2025-05-14
     latest: "1.10.5"
     latestReleaseDate: 2025-01-22
 
   - releaseCycle: "1.9"
     releaseDate: 2024-06-26
-    eol: 2025-02-27 # releaseDate(1.11)
+    eol: 2025-02-27
     latest: "1.9.8"
     latestReleaseDate: 2024-10-16
 
   - releaseCycle: "1.8"
     releaseDate: 2024-04-10
-    eol: 2024-11-26 # releaseDate(1.10)
+    eol: 2024-11-26
     latest: "1.8.5"
     latestReleaseDate: 2024-06-05
 
   - releaseCycle: "1.7"
     releaseDate: 2024-01-17
-    eol: 2024-06-26 # releaseDate(1.9)
+    eol: 2024-06-26
     latest: "1.7.5"
     latestReleaseDate: 2024-03-13
 
@@ -97,6 +103,7 @@ releases:
     eol: 2022-05-18
     latest: "1.0.11"
     latestReleaseDate: 2021-11-10
+
 ---
 
 > [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)

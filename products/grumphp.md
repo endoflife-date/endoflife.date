@@ -16,8 +16,8 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2023-06-18
     eol: false
-    latest: "2.14.0"
-    latestReleaseDate: 2025-07-25
+    latest: "2.15.0"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "1"
     releaseDate: 2020-09-25
@@ -30,6 +30,7 @@ releases:
     eol: true
     latest: "0.22.0"
     latestReleaseDate: 2020-09-03
+
 ---
 
 > [GrumPHP](https://github.com/phpro/grumphp) is a composer plugin that enables source code quality checks.

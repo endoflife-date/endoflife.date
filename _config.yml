@@ -89,16 +89,12 @@ defaults:
       releaseDateColumnLabel: "Released"
       discontinuedColumn: false
       discontinuedColumnLabel: "Discontinued"
-      discontinuedWarnThreshold: 121
       eoasColumn: false
       eoasColumnLabel: "Active Support"
-      eoasWarnThreshold: 121
       eolColumn: true
       eolColumnLabel: "Security Support"
-      eolWarnThreshold: 121
       eoesColumn: false
       eoesColumnLabel: "Extended Support"
-      eoesWarnThreshold: 121
       customFields: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 

@@ -12,7 +12,6 @@ auto:
     - git: https://github.com/bitcoin/bitcoin.git
       regex: '^v?(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
     - release_table: https://bitcoincore.org/en/lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -28,8 +27,8 @@ releases:
     releaseDate: 2025-04-14
     eoas: false
     eol: false
-    latest: "29.0"
-    latestReleaseDate: 2025-04-11
+    latest: "29.1"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
@@ -100,6 +99,7 @@ releases:
     eol: 2021-08-01
     latest: "0.19.2"
     latestReleaseDate: 2021-01-07
+    link: null
 
   - releaseCycle: "0.18"
     releaseDate: 2019-05-02
@@ -114,6 +114,7 @@ releases:
     eol: 2020-08-01
     latest: "0.17.2"
     latestReleaseDate: 2019-10-02
+    link: null
 
   - releaseCycle: "0.16"
     releaseDate: 2018-02-26
@@ -156,6 +157,7 @@ releases:
     eol: 2017-08-01
     latest: "0.11.3"
     latestReleaseDate: 2017-03-09
+    link: null
 
   - releaseCycle: "0.10"
     releaseDate: 2015-02-16
@@ -163,6 +165,7 @@ releases:
     eol: 2017-02-28
     latest: "0.10.5"
     latestReleaseDate: 2017-03-09
+    link: null
 
   - releaseCycle: "0.9"
     releaseDate: 2014-03-19
@@ -170,6 +173,7 @@ releases:
     eol: 2016-02-28
     latest: "0.9.5"
     latestReleaseDate: 2015-05-21
+    link: null
 
   - releaseCycle: "0.8"
     releaseDate: 2013-02-19
@@ -177,6 +181,7 @@ releases:
     eol: 2015-12-31
     latest: "0.8.6"
     latestReleaseDate: 2013-12-09
+    link: null
 
 ---
 

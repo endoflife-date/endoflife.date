@@ -30,8 +30,8 @@ releases:
     releaseDate: 2025-04-15
     eol: false # releaseDate(4.2)
     eoes: false
-    latest: "4.1.3"
-    latestReleaseDate: 2025-08-04
+    latest: "4.1.4"
+    latestReleaseDate: 2025-08-30
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
@@ -144,6 +144,7 @@ releases:
     link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.0.4"
     latestReleaseDate: 2013-03-06
+
 ---
 
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that

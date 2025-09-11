@@ -31,15 +31,15 @@ releases:
     releaseDate: 2024-08-28
     eoas: true
     eol: false
-    latest: "4.4.8"
-    latestReleaseDate: 2025-07-16
+    latest: "4.4.9"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "4.2"
     releaseDate: 2023-11-15
     eoas: 2024-08-28
     eol: false
-    latest: "4.2.12"
-    latestReleaseDate: 2025-06-04
+    latest: "4.2.13"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "4.0"
     releaseDate: 2022-10-04
@@ -154,6 +154,7 @@ releases:
     eol: 2011-06-30
     latest: "1.0.16"
     latestReleaseDate: 2010-08-29
+
 ---
 
 > [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is an open-source network packet analyzer.

@@ -42,8 +42,8 @@ releases:
     supportedPhpVersions: 8.1+
     eoas: false
     eol: false
-    latest: "5.2.6"
-    latestReleaseDate: 2025-08-01
+    latest: "5.2.7"
+    latestReleaseDate: 2025-08-30
 
   - releaseCycle: "4.6"
     codename: "Strawberry"
@@ -321,6 +321,7 @@ releases:
     eol: 2015-11-01
     latest: "1.3.21"
     latestReleaseDate: 2015-10-31
+
 ---
 
 > [CakePHP](https://cakephp.org/) is a free and open-source PHP web development framework. It

@@ -14,7 +14,6 @@ auto:
   methods:
     - git: https://github.com/opensearch-project/OpenSearch.git
     - release_table: https://opensearch.org/releases.html
-      selector: "table"
       fields:
         releaseCycle: "Major Version"
         releaseDate:
@@ -35,8 +34,8 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.1.0"
-    latestReleaseDate: 2025-06-18
+    latest: "3.2.0"
+    latestReleaseDate: 2025-08-08
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26

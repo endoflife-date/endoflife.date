@@ -26,22 +26,22 @@ releases:
     releaseDate: 2025-05-20
     eoas: false
     eol: 2028-05-20 # projected
-    latest: "28.0.2"
-    latestReleaseDate: 2025-07-17
+    latest: "28.0.3"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "27"
     releaseDate: 2024-05-17
     eoas: 2025-05-20
     eol: 2027-05-20 # projected
-    latest: "27.3.4.2"
-    latestReleaseDate: 2025-07-17
+    latest: "27.3.4.3"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: 2024-05-17
     eol: 2026-05-15 # projected
-    latest: "26.2.5.14"
-    latestReleaseDate: 2025-07-16
+    latest: "26.2.5.15"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "25"
     releaseDate: 2022-05-17
@@ -105,6 +105,7 @@ releases:
     eol: 2018-10-11
     latest: "17.5.6.10"
     latestReleaseDate: 2018-10-11
+
 ---
 
 > [Erlang](https://www.erlang.org/) is a general-purpose, concurrent, functional high-level

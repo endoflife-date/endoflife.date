@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "3.20"
     releaseDate: 2025-07-24
     eol: false
-    latest: "3.20.0"
-    latestReleaseDate: 2025-07-24
+    latest: "3.20.1"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "3.19"
     releaseDate: 2025-04-09
@@ -79,6 +79,7 @@ releases:
     eol: 2023-08-08
     latest: "3.11.1"
     latestReleaseDate: 2023-04-25
+
 ---
 
 > [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/) is a policy controller for Kubernetes that

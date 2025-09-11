@@ -22,7 +22,6 @@ auto:
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
     - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

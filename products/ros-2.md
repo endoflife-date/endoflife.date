@@ -16,7 +16,6 @@ eolColumn: End Of Life
 auto:
   methods:
     - release_table: https://docs.ros.org/en/rolling/Releases.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Distro"

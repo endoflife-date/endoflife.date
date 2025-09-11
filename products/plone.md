@@ -23,7 +23,6 @@ auto:
   methods:
     - git: https://github.com/plone/Products.CMFPlone.git
     - release_table: https://plone.org/download/release-schedule
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "Series"

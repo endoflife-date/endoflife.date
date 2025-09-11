@@ -32,7 +32,6 @@ identifiers:
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
   - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
-  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
   - purl: pkg:rpm/redhat/dotnet-sdk-8.0
   - purl: pkg:rpm/redhat/dotnet-sdk-7.0
   - purl: pkg:rpm/redhat/dotnet-sdk-6.0
@@ -50,7 +49,6 @@ auto:
       # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
       regex_exclude: '^v?\d+\.\d+\.\d{3,}'
     - release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -62,15 +60,15 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-05-12
-    latest: "9.0.8"
-    latestReleaseDate: 2025-08-05
+    latest: "9.0.9"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.19"
-    latestReleaseDate: 2025-08-05
+    latest: "8.0.20"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "7"
     releaseDate: 2022-11-08
@@ -142,6 +140,7 @@ releases:
     eol: 2019-06-27
     latest: "1.0.16"
     latestReleaseDate: 2019-05-15
+
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform

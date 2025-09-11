@@ -19,7 +19,6 @@ auto:
   methods:
     - git: https://github.com/containerd/containerd.git
     - release_table: https://containerd.io/releases/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"
