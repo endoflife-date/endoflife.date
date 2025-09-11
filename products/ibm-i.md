@@ -21,7 +21,6 @@ eoesColumn: Extended Life Cycle Support
 auto:
   methods:
     - release_table: https://www.ibm.com/support/pages/release-life-cycle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"

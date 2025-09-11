@@ -24,7 +24,6 @@ auto:
   methods:
     - npm: eslint
     - release_table: https://eslint.org/version-support/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release Line"

@@ -19,7 +19,6 @@ auto:
   methods:
     - git: https://github.com/wikimedia/mediawiki.git
     - release_table: https://www.mediawiki.org/wiki/Version_lifecycle
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

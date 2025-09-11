@@ -12,7 +12,6 @@ auto:
     - git: https://github.com/bitcoin/bitcoin.git
       regex: '^v?(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
     - release_table: https://bitcoincore.org/en/lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

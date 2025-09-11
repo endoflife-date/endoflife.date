@@ -16,7 +16,6 @@ auto:
   methods:
     - release_table: https://www.oracle.com/database/technologies/appdev/apex/collateral/
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle: "Release"
         eol: "Support Ends"

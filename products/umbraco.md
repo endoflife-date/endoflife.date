@@ -21,7 +21,6 @@ auto:
     - git: https://github.com/umbraco/Umbraco-CMS.git
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

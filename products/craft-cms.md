@@ -21,7 +21,6 @@ auto:
   methods:
     - git: https://github.com/craftcms/cms.git
     - release_table: https://craftcms.com/knowledge-base/supported-versions#1
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
@@ -29,7 +28,6 @@ auto:
         eoas: "Active Support Until"
         eol: "Security Support Until"
     - release_table: https://craftcms.com/knowledge-base/supported-versions#2
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
