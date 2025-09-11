@@ -83,8 +83,8 @@ category: os
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 tags: amazon linux-distribution
 
-# Simple Icons (https://simpleicons.org/) icon slug (optional).
-# Remove this property if the icon is not available on Simple Icons.
+# Simple Icons icon slug (https://simpleicons.org/) for the product or its vendor (optional).
+# Remove this property if no relevant icon is available on Simple Icons.
 # As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg ,
 # so the slug is `codemagic` (the SVG filename without extension).
 # A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md .
