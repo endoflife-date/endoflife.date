@@ -19,7 +19,7 @@ releases:
     releaseDate: 2025-09-09
     eol: 2026-09-09
     latest: "2.12.0"
-    latestReleaseDate: 2025-08-26
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "2.11"
     releaseDate: 2025-06-10
