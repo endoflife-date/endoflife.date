@@ -22,7 +22,6 @@ auto:
   methods:
     - git: https://github.com/bazelbuild/bazel.git
     - release_table: https://bazel.build/release
-      selector: "table"
       fields:
         releaseCycle:
           column: "LTS release"

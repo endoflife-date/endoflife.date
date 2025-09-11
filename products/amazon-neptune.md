@@ -26,7 +26,6 @@ auto:
       regex: "^Engine version (?P<version>[0-9R.]+)$"
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

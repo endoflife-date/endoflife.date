@@ -19,7 +19,6 @@ auto:
   methods:
     - debian: https://salsa.debian.org/webmaster-team/webwml.git
     - release_table: https://www.debian.org/releases/index.en.html
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       remove_if_undefined: "releaseDate"
       fields:

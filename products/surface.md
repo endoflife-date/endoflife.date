@@ -12,7 +12,6 @@ eolColumn: End of Servicing Date
 auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/surface/surface-driver-firmware-lifecycle-support
-      selector: "table"
       fields:
         releaseCycle:
           column: "Surface device"

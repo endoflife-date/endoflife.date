@@ -49,7 +49,6 @@ auto:
         eoas: "End of mainstream support1"
         eol: "End of extended support2"
     - release_table: https://docs.djangoproject.com/en/stable/faq/install/
-      selector: "table"
       fields:
         releaseCycle: "Django version"
         supportedPythonVersions:

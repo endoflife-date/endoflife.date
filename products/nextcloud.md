@@ -14,7 +14,6 @@ auto:
     - git: https://github.com/nextcloud/server.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
-      selector: "table"
       fields:
         releaseCycle: "Version code"
         releaseDate: "Release date"

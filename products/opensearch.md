@@ -14,7 +14,6 @@ auto:
   methods:
     - git: https://github.com/opensearch-project/OpenSearch.git
     - release_table: https://opensearch.org/releases.html
-      selector: "table"
       fields:
         releaseCycle: "Major Version"
         releaseDate:

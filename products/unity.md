@@ -6,22 +6,23 @@ iconSlug: unity
 permalink: /unity
 alternate_urls:
   - /unity3d
-releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
+releasePolicyLink: https://unity.com/releases/unity-6/support
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
+eoesColumn: Extended Long Term Support
 
 auto:
   disabled: true # there are anti-bot protection measures on https://unity.com/
   methods:
     - unity: https://unity.com/releases/editor/qa/lts-releases
 
-# For Tech stream : eol(x) = releaseDate(x+1)
-# For LTS : eol(x) = releaseDate + 3 years
+# For update release : eol(x) = releaseDate(x+1)
+# For LTS : eol(x) = releaseDate + 2 years
 releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-08-12
     eol: false
-    latest: "6000.2.2f1"
-    latestReleaseDate: 2025-08-26
+    latest: "6000.2.3f1"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
@@ -32,7 +33,8 @@ releases:
   - releaseCycle: "6.0"
     lts: 2024-10-16
     releaseDate: 2024-04-29
-    eol: false
+    eol: 2026-04-29
+    eoes: 2027-04-29
     latest: "6000.0.57f1"
     latestReleaseDate: 2025-09-03
 
@@ -125,24 +127,12 @@ releases:
 > first announced and released in June 2005. The engine can be used to create three-dimensional (3D)
 > and two-dimensional (2D) games, as well as interactive simulations and other experiences.
 
-Unity has three releases: Tech stream, LTS, and a Extended LTS for
-[Enterprise Customers](https://unity.com/products/unity-enterprise).
+Starting with Unity 6, there are two kinds of releases: _update releases_ and _long-term support_ (LTS) releases.
+Both kinds of releases undergo the same rigorous quality assurance and stability testing.
 
-_Tech stream_ releases are released twice a year (each one receiving weekly updates) and are
-supported only until the next tech stream release is out.
+There are multiple _update releases_ per year.
+They are supported with bug fixes and critical platform updates until the next release (update or LTS) is published.
 
-_Unity LTS releases_ are released once a year and are based off the previous tech stream branch.
-LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
-
-_Unity Extended LTS releases_ are available for
-[Enterprise customers](https://unity.com/products/unity-enterprise) which offer support for 3 years - one extra year beyond
-the regular LTS release.
-
-Officially supported platforms as of Unity 2020 LTS are:
-
-- Mobile: iOS, Android (Android TV), tvOS
-- Desktop: Windows (Universal Windows Platform), Mac, Linux
-- Web: WebGL
-- Consoles: PlayStation (PS4, PS5), Xbox (Xbox One, Xbox Series X/S), Nintendo Switch, Stadia
-- Virtual/Extended reality: Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed
-  Reality (HoloLens), Magic Leap, and via Unity XR SDK Steam VR, Google Cardboard.
+LTS releases are published once a year.
+They are supported for two years with bug fixes and critical platform updates.
+Unity Enterprise and Unity Industry users benefit from an additional year of support for LTS releases.

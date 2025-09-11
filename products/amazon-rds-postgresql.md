@@ -14,7 +14,6 @@ auto:
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "PostgreSQL major version"

@@ -38,7 +38,6 @@ auto:
   methods:
     - git: https://github.com/ansible/ansible.git
     - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-      selector: "table"
       fields:
         releaseCycle: "Version"
         releaseDate:

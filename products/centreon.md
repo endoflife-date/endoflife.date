@@ -16,7 +16,6 @@ auto:
       regex: '^centreon-web-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)\.(?P<patch>[0-9]+)$'
     - git: https://github.com/centreon/centreon-archived.git
     - release_table: https://docs.centreon.com/docs/releases/lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Product"

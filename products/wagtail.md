@@ -18,7 +18,6 @@ auto:
   methods:
     - pypi: wagtail
     - release_table: https://github.com/wagtail/wagtail/wiki/Release-schedule
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

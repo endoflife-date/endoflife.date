@@ -52,7 +52,7 @@ releases:
 
   - releaseCycle: "5.18"
     releaseDate: 2023-03-18
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    eol: 2025-03-11 # https://github.com/apache/activemq-website/commit/30fa57bb8b06f321f5d38dc98f937cb7d94299ac
     latest: "5.18.7"
     latestReleaseDate: 2025-03-13
 

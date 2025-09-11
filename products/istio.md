@@ -34,7 +34,6 @@ auto:
   methods:
     - git: https://github.com/istio/istio.git
     - release_table: https://istio.io/latest/docs/releases/supported-releases/
-      selector: "table"
       fields:
         releaseCycle: "Version"
         eol:

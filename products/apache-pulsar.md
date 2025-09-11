@@ -15,7 +15,6 @@ auto:
   methods:
     - github_releases: apache/pulsar
     - release_table: https://pulsar.apache.org/contribute/release-policy/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

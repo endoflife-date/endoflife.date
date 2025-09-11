@@ -6,7 +6,6 @@ iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
-eolWarnThreshold: 121
 
 identifiers:
   - repology: arangodb
@@ -23,7 +22,7 @@ releases:
     releaseDate: 2024-03-21
     eol: false
     latest: "3.12.5.3"
-    latestReleaseDate: 2025-09-04
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "3.11"
     releaseDate: 2023-05-23

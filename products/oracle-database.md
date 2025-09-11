@@ -15,7 +15,6 @@ eoesColumn: Extended Support
 auto:
   methods:
     - release_table: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

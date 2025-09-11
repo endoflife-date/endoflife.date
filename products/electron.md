@@ -31,7 +31,6 @@ auto:
   methods:
     - npm: electron
     - release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
-      selector: "table"
       fields:
         releaseCycle:
           column: "Electron"
@@ -341,6 +340,8 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
+
 
 
 
