@@ -16,7 +16,6 @@ eoesColumn: LTS Support
 auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
-      selector: "table"
       fields:
         releaseCycle: "K8s version"
         releaseDate: "AKS GA"

@@ -31,8 +31,8 @@ releases:
     releaseDate: 2024-09-15
     eoas: 2027-09-15
     eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.0.4"
-    latestReleaseDate: 2025-07-07
+    latest: "8.0.5"
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15 # inherit from redis
@@ -40,6 +40,7 @@ releases:
     eol: 2029-04-16
     latest: "7.2.10"
     latestReleaseDate: 2025-07-07
+
 ---
 
 > [Valkey](https://valkey.io/) is an open source (BSD) high-performance key/value datastore

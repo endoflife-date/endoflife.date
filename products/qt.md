@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-04-02
     eol: 2025-10-02 # estimated, 2025-04-02 + 6 months
     eoes: 2026-04-02 # estimated
-    latest: "6.9.1"
-    latestReleaseDate: 2025-06-03
+    latest: "6.9.2"
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "6.8"
     lts: true
@@ -151,6 +151,7 @@ releases:
     latest: "4.8.7"
     latestReleaseDate: 2015-05-26
     link: https://web.archive.org/web/20240814204109/https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
+
 ---
 
 > [Qt](https://www.qt.io/) is a widget toolkit for creating graphical user interfaces as well as

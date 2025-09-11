@@ -29,24 +29,24 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.6"
-    latestReleaseDate: 2025-07-29
+    latest: "15.6.1"
+    latestReleaseDate: 2025-08-20
     link: https://support.apple.com/en-us/120283
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: "14.7.7"
-    latestReleaseDate: 2025-07-29
+    latest: "14.7.8"
+    latestReleaseDate: 2025-08-20
     link: https://support.apple.com/109035
 
   - releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: "13.7.7"
-    latestReleaseDate: 2025-07-29
+    latest: "13.7.8"
+    latestReleaseDate: 2025-08-20
     link: https://support.apple.com/HT213268
 
   - releaseCycle: "12"
@@ -189,6 +189,7 @@ releases:
     eol: 2001-06-22
     latest: "10.0.4"
     latestReleaseDate: 2001-06-22
+
 ---
 
 > [macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system

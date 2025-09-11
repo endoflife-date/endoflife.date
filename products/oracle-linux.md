@@ -22,7 +22,7 @@ auto:
 identifiers:
   - cpe: cpe:/o:oracle:linux
   - cpe: cpe:2.3:o:oracle:linux
-  - purl: pkg:oci/oraclelinux?repository_url=container-registry.oracle.com/os
+  - purl: pkg:oci/oraclelinux?repository_url=container-registry.oracle.com/ords/ocr/ba/os
   - purl: pkg:oci/oraclelinux?repository_url=ghcr.io/oracle
   - purl: pkg:docker/library/oraclelinux
 

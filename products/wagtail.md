@@ -18,7 +18,6 @@ auto:
   methods:
     - pypi: wagtail
     - release_table: https://github.com/wagtail/wagtail/wiki/Release-schedule
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -33,16 +32,16 @@ releases:
     releaseDate: 2025-08-04
     eoas: 2025-11-03
     eol: 2026-02-02
-    latest: "7.1.0"
-    latestReleaseDate: 2025-08-04
+    latest: "7.1.1"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "7.0"
     lts: true
     releaseDate: 2025-05-06
     eoas: 2026-11-02
     eol: 2026-11-02
-    latest: "7.0.2"
-    latestReleaseDate: 2025-07-24
+    latest: "7.0.3"
+    latestReleaseDate: 2025-08-28
 
   - releaseCycle: "6.4"
     releaseDate: 2025-02-03
@@ -293,12 +292,12 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 
 ## [Compatible Django / Python versions](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions)
 
+<!-- List supported releases, including minor ones -->
+
 | Wagtail release | Compatible Django versions | Compatible Python versions |
 | --------------- | -------------------------- | -------------------------- |
-| 6               | 4.2, 5.0                   | 3.8-3.12                   |
-| 5               | 3.2, 4.1, 4.2, 5.0         | 3.8-3.12                   |
-| 4               | 3.2, 4.0, 4.1              | 3.7-3.11                   |
-| 3               | 3.2, 4.0                   | 3.7-3.10                   |
-| 2.15 LTS        | 3.0, 3.1, 3.2              | 3.6-3.10                   |
+| 7.1             | 4.2, 5.1, 5.2              | 3.9-3.13                   |
+| 7.0 LTS         | 4.2, 5.1, 5.2              | 3.9-3.13                   |
+| 6.3 LTS         | 4.2, 5.0, 5.1, 5.2         | 3.9-3.12                   |
 
 *[LTS]: Long-Term Support

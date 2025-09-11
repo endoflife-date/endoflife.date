@@ -24,17 +24,26 @@ auto:
     - maven: org.apache.groovy/groovy
     - maven: org.codehaus.groovy/groovy
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
-  - releaseCycle: "4.0"
-    releaseDate: 2022-01-25
+  - releaseCycle: "5.0"
+    releaseDate: 2025-08-21
     eol: false
     eoas: false
+    latest: "5.0.0"
+    latestReleaseDate: 2025-08-21
+    
+  - releaseCycle: "4.0"
+    releaseDate: 2022-01-25
+    eoas: 2025-08-21
+    eol: false
     latest: "4.0.28"
     latestReleaseDate: 2025-07-20
 
   - releaseCycle: "3.0"
     releaseDate: 2020-02-10
-    eoas: true
+    eoas: 2022-01-25
     eol: false
     latest: "3.0.25"
     latestReleaseDate: 2025-05-27
@@ -74,6 +83,7 @@ Groovy releases have [the following JVM requirements](https://groovy.apache.org/
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
 | ------ | :---------------------- | ------------------- |
+| 5.0    | N/A                     | 11+                 |
 | 4.0    | N/A                     | 8+                  |
 | 3.0    | 8+                      | 8+                  |
 | 2.5    | 7+                      | 7+                  |

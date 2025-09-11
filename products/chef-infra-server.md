@@ -28,8 +28,8 @@ releases:
     releaseDate: 2022-06-13
     eoas: false
     eol: false
-    latest: "15.10.33"
-    latestReleaseDate: 2025-02-20
+    latest: "15.10.63"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "14"
     releaseDate: 2020-06-08
@@ -58,6 +58,7 @@ releases:
     eol: 2018-12-31 # https://www.chef.io/blog/end-of-life-announcement-for-chef-reporting-enterprise-chef-server-11-and-chef-analytics
     latest: "11.1.7"
     latestReleaseDate: 2014-06-19
+
 ---
 
 > [Chef Infra Server](https://docs.chef.io/server/) is an open-source platform that complements

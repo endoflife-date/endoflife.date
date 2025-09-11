@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "4"
     releaseDate: 2023-10-22
     eol: false
-    latest: "4.9.2"
-    latestReleaseDate: 2025-06-03
+    latest: "4.9.4"
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "3"
     releaseDate: 2021-07-26
@@ -46,6 +46,7 @@ releases:
     latest: "1.22.22"
     latestReleaseDate: 2024-03-09
     link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
+
 ---
 
 > [Yarn](https://yarnpkg.com/) is a modern package manager for the JavaScript ecosystem. It offers

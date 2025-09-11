@@ -43,7 +43,6 @@ auto:
   methods:
     - git: https://github.com/ionic-team/ionic-framework.git
     - release_table: https://ionicframework.com/docs/reference/support#1
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         minAngularVersion: "Minimum Angular Version"
@@ -53,12 +52,10 @@ auto:
             - '^(?P<value>v\d+\.x).*$'
             - '^(?P<value>v\d+\.\d+.\d+).*$'
     - release_table: https://ionicframework.com/docs/reference/support#2
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         supportedReactVersions: "Required React Version"
     - release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
-      selector: "table"
       fields:
         releaseCycle: "Framework"
         supportedVueVersions: "Required Vue Version"
@@ -75,8 +72,8 @@ releases:
     maxAngularVersion: v20.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
-    latest: "8.7.2"
-    latestReleaseDate: 2025-08-06
+    latest: "8.7.3"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "7"
     releaseDate: 2023-03-29
@@ -161,6 +158,7 @@ releases:
     supportedVueVersions: N/A
     latest: "1.3.2"
     latestReleaseDate: 2016-10-24
+
 ---
 
 > [The Ionic Framework](https://ionicframework.com) is an open source mobile UI toolkit for building

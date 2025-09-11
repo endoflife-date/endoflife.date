@@ -14,31 +14,31 @@ identifiers:
 
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU1"
+    releaseLabel: "Subscription Edition HU2"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.20"
-    latestReleaseDate: 2025-08-12
-    link: https://support.microsoft.com/help/5063224
+    latest: "15.2.2562.27"
+    latestReleaseDate: 2025-09-08
+    link: https://support.microsoft.com/help/5066373
 
   - releaseCycle: "2019"
-    releaseLabel: "2019 CU15 SU3"
+    releaseLabel: "2019 CU15 HU4"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1748.36"
-    latestReleaseDate: 2025-08-12
-    link: https://support.microsoft.com/help/5063221
+    latest: "15.2.1748.37"
+    latestReleaseDate: 2025-09-08
+    link: https://support.microsoft.com/help/5066372
 
   - releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU17"
+    releaseLabel: "2016 CU23 HU18"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.58"
-    latestReleaseDate: 2025-08-12
-    link: https://support.microsoft.com/help/5063223
+    latest: "15.1.2507.59"
+    latestReleaseDate: 2025-09-08
+    link: https://support.microsoft.com/help/5066370
 
   - releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"

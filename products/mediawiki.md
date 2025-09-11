@@ -19,7 +19,6 @@ auto:
   methods:
     - git: https://github.com/wikimedia/mediawiki.git
     - release_table: https://www.mediawiki.org/wiki/Version_lifecycle
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -61,7 +60,7 @@ releases:
     latestReleaseDate: 2024-06-27
 
   - releaseCycle: "1.39"
-    eol: 2025-11-30
+    eol: 2025-12-31
     latest: "1.39.13"
     latestReleaseDate: 2025-06-30
     releaseDate: 2022-11-30

@@ -21,7 +21,6 @@ auto:
     # upstream does not support filtering https://git.alpinelinux.org/aports
     - git: https://github.com/alpinelinux/aports.git
     - release_table: https://alpinelinux.org/releases/
-      selector: "table"
       fields:
         releaseCycle: "Branch"
         eol:

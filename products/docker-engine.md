@@ -23,9 +23,15 @@ auto:
 # Inside a given major release, eol(x) = releaseDate(x+1)
 # For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
+  - releaseCycle: "28.4"
+    releaseDate: 2025-09-03
+    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    latest: "28.4.0"
+    latestReleaseDate: 2025-09-03
+
   - releaseCycle: "28.3"
     releaseDate: 2025-06-24
-    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    eol: 2025-09-03
     latest: "28.3.3"
     latestReleaseDate: 2025-07-25
 
@@ -98,8 +104,8 @@ releases:
   - releaseCycle: "25.0"
     releaseDate: 2024-01-19
     eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
-    latest: "25.0.12"
-    latestReleaseDate: 2025-07-15
+    latest: "25.0.13"
+    latestReleaseDate: 2025-08-11
 
   - releaseCycle: "24.0"
     releaseDate: 2023-05-16
@@ -221,6 +227,7 @@ releases:
     eol: 2017-05-05
     latest: "17.03.2"
     latestReleaseDate: 2017-06-27
+
 ---
 
 > [Docker Engine](https://www.docker.com/) is a containerization technology that allows applications to be packaged independently,

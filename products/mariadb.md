@@ -14,8 +14,8 @@ eoesColumn: Enterprise support
 identifiers:
   - repology: mariadb
   - purl: pkg:apk/alpine/mariadb
-  - purl: pkg:deb/debian/mariadb-server
-  - purl: pkg:deb/ubuntu/mariadb-server
+  - purl: pkg:deb/debian/mariadb
+  - purl: pkg:deb/ubuntu/mariadb
   - purl: pkg:docker/library/mariadb
   - purl: pkg:docker/bitnami/mariadb
   - purl: pkg:docker/bitnami/mariadb-galera
@@ -53,7 +53,6 @@ auto:
         - ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
         - ^mariadb-(?P<major>12)\.(?P<minor>[0])\.(?P<patch>([1-9]|\d{2}))$
     - release_table: https://mariadb.org/about/#maintenance-policy
-      selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle: "Release"

@@ -18,7 +18,6 @@ auto:
   methods:
     - git: https://github.com/mautic/mautic.git
     - release_table: https://www.mautic.org/mautic-releases
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:
@@ -47,16 +46,16 @@ releases:
     eoas: 2025-09-30
     eol: 2026-09-30
     eoes: 2027-09-30
-    latest: "6.0.4"
-    latestReleaseDate: 2025-08-06
+    latest: "6.0.5"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "5.2"
     releaseDate: 2024-12-02
     eoas: 2025-06-30
     eol: 2026-06-30
     eoes: 2028-06-30
-    latest: "5.2.7"
-    latestReleaseDate: 2025-06-30
+    latest: "5.2.8"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "5.1"
     releaseDate: 2024-06-13

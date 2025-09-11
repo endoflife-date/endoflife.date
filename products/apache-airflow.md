@@ -25,7 +25,6 @@ auto:
     - pypi: apache-airflow
     - release_table: https://github.com/apache/airflow#version-life-cycle
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle: "Version"
         eoas: "Limited Maintenance"
@@ -36,8 +35,8 @@ releases:
     releaseDate: 2025-04-22
     eoas: false
     eol: false
-    latest: "3.0.4"
-    latestReleaseDate: 2025-08-08
+    latest: "3.0.6"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "2"
     releaseDate: 2020-12-17
@@ -73,6 +72,7 @@ releases:
     eol: 2017-03-19
     latest: "1.7.1.2"
     latestReleaseDate: 2017-05-20
+
 ---
 
 > [Apache Airflow](https://airflow.apache.org/) is a platform to programmatically author, schedule

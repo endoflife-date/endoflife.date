@@ -32,8 +32,8 @@ releases:
     releaseDate: 2025-06-24
     eol: false
     supportedPhpVersions: 8.2 - 8.4
-    latest: "5.0.3"
-    latestReleaseDate: 2025-07-29
+    latest: "5.0.4"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
@@ -185,6 +185,7 @@ releases:
     latest: "1.0.9"
     latestReleaseDate: 2012-04-20
     link: null
+
 ---
 
 > [Kirby CMS](https://getkirby.com) is a flat-file content management system written in PHP.

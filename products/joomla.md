@@ -22,8 +22,8 @@ releases:
     releaseDate: 2023-10-14
     eoas: false
     eol: 2027-10-19
-    latest: "5.3.2"
-    latestReleaseDate: 2025-06-29
+    latest: "5.3.3"
+    latestReleaseDate: 2025-08-13
     # check later for removal: the link with changelogTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
@@ -40,6 +40,7 @@ releases:
     eol: 2023-08-17
     latest: "3.10.12"
     latestReleaseDate: 2023-07-08
+
 ---
 
 > [Joomla!](https://www.joomla.org/) is an award-winning content management system (CMS), which

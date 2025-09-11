@@ -17,9 +17,17 @@ auto:
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
 # Latest versions can be found on https://www.veeam.com/kb4357.
 releases:
+  - releaseCycle: "13"
+    releaseDate: 2025-09-03
+    eoas: false # releaseDate(14)
+    eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
+    link: https://www.veeam.com/kb4762
+    latest: "13.0.0.5630"
+    latestReleaseDate: 2025-09-03
+
   - releaseCycle: "12"
     releaseDate: 2023-01-30
-    eoas: false # releaseDate(13)
+    eoas: 2025-09-03
     eol: 2027-02-01
     link: https://www.veeam.com/kb4705
     latest: "12.3.0.4670"

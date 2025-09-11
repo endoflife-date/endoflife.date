@@ -18,7 +18,6 @@ auto:
   methods:
     - unrealircd: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
     - release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

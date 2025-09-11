@@ -20,7 +20,6 @@ auto:
     - amazon-eks: https://web.archive.org/web/20230521061347/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.20
     - amazon-eks: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
     - release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
-      selector: "table"
       fields:
         releaseCycle: "Kubernetes version"
         eol: "End of standard support"

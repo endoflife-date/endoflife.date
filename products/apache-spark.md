@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
-    latest: "4.0.0"
-    latestReleaseDate: 2025-05-19
+    latest: "4.0.1"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "3.5"
     lts: true
@@ -140,6 +140,7 @@ releases:
     eol: 2014-09-03 # releaseDate(1.1)
     latest: "1.0.2"
     latestReleaseDate: 2014-07-25
+
 ---
 
 > [Apache Spark](https://spark.apache.org/) is a multi-language engine for executing data
