@@ -25,6 +25,14 @@ auto:
         - '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    codename: "Tahoe"
+    releaseDate: 2025-09-15
+    eol: false
+    latest: "26.0.0"
+    latestReleaseDate: 2025-09-15
+    link: https://www.apple.com/os/macos/
+
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
