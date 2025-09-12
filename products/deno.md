@@ -20,7 +20,7 @@ auto:
 
 # non-LTS : eol(x) = releaseDate(x+1)
 # LTS : eol(x) = releaseDate(x+1) + 5 months
-# LTS releases are listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/ .
+# LTS releases are listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10
