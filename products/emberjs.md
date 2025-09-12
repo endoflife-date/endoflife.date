@@ -30,7 +30,7 @@ auto:
         eoas: "Bugfixes until"
         eol: "Security patches until"
 
-# For LTS (every 4 minor versions excluding the x.0 minor version, see https://emberjs.com/releases/lts/ ):
+# For LTS (every 4 minor versions excluding the x.0 minor version, see https://emberjs.com/releases/lts/):
 # - lts(x) = releaseDate(x) + 6 weeks
 # - eoas(x) = lts(x) + 36 weeks
 # - eol(x) = lts(x) + 54 weeks
