@@ -1,11 +1,10 @@
 ---
 title: Stormshield Management Center
+addedAt: 2025-09-09
 category: os
 tags: stormshield
 permalink: /sns-smc
-releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
 releaseColumn: false
-releaseDateColumn: Available as of
 eoasColumn: End of Maintenance
 eolColumn: End of Life
 
@@ -115,24 +114,10 @@ releases:
 
 ---
 
-> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/stormshield-management-center/) is a centralised security management solution for multi-site infrastructures.
+> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/stormshield-management-center/)
+> provides centralized and secure administration of Stormshield Network Security firewalls.
+> It is compatible with hypervisors such as VMware ESXi, Microsoft Hyper-V or KVM,
+> as well as with cloud environments like Amazon Web Services (AWS) or 3DS OUTSCALE or Microsoft Azure.
 
-## Compatibility
-
-### Hypervisors :
-
-- Microsoft Hyper-V : Windows Server 2016, 2019, 2022
-- VMware ESXi : ESXi 7.0, ESXi 8.0
-- KVM : RHEL 8, RHEL 9
-
-### Public cloud :
-
-- Amazon Web Services
-- 3DS OUTSCALE
-- Microsoft Azure
-
-### External authentication servers :
-
-- Active Directory : Windows Server 2016, 2019, 2022
-- OpenLDAP : 2.5
-- RADIUS : Windows Server 2016, 2019, 2022 and FreeRADIUS
+Supported releases of Stormshield Management Center (SMC) are documented
+in [Stormshield technical documentation](https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm).

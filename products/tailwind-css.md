@@ -92,7 +92,7 @@ releases:
     releaseDate: 2020-09-04
     eol: 2020-10-12
     latest: "1.8.13"
-    latestReleaseDate: 2020-10-09
+    latestReleaseDate: 2020-10-10
 
   - releaseCycle: "1.7"
     releaseDate: 2020-08-18
@@ -140,7 +140,7 @@ releases:
     releaseDate: 2019-05-13
     eol: 2019-08-06
     latest: "1.0.6"
-    latestReleaseDate: 2019-07-31
+    latestReleaseDate: 2019-08-01
 
 ---
 

@@ -1,0 +1,12 @@
+{%- capture newline %}
+{% endcapture -%}
+{%- assign identifiers = "" %}
+{% for identifier_hash in include.page.identifiers %}
+{% assign type_and_identifier = identifier_hash | first %}
+{% assign identifiers = identifiers | append: " " | append: type_and_identifier[1] %}
+{% endfor -%}
+"category": {{ include.page.category | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"tags": {{ include.page.tags | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"iconSlug": {{ include.page.search_terms | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"alternate_urls": {{ include.page.alternate_urls | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"identifiers": {{  identifiers | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},

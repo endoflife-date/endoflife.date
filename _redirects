@@ -16,6 +16,8 @@ layout: null
 # A few permanent redirects for removed pages / alternate URLs
 /advise                            /recommendations
 /advice                            /recommendations
+/java                              /tags/java-distribution
+/jdk                               /tags/java-distribution
 /tags/api-gateway                  /tags/web-server
 /tags/configuration-management     /
 /tags/db                           /tags/database
