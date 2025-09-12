@@ -19,7 +19,6 @@ auto:
   methods:
     - npm: nuxt
     - release_table: https://nuxt.com/docs/community/roadmap
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: table
       fields:

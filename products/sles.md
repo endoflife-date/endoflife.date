@@ -23,7 +23,6 @@ identifiers:
 auto:
   methods:
     - release_table: https://www.suse.com/lifecycle/
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

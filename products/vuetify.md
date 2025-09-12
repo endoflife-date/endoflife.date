@@ -22,7 +22,6 @@ auto:
     - release_table: https://vuetifyjs.com/introduction/long-term-support/
       render_javascript: true
       render_javascript_wait_until: networkidle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -45,8 +44,8 @@ releases:
     releaseDate: 2022-11-01
     eoas: false
     eol: false
-    latest: "3.9.7"
-    latestReleaseDate: 2025-09-03
+    latest: "3.10.0"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "2"
     releaseDate: 2019-07-23

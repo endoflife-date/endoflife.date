@@ -10,8 +10,6 @@ releasePolicyLink: https://angular.dev/reference/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
-eoasWarnThreshold: 30
-eolWarnThreshold: 90
 
 identifiers:
   - purl: pkg:npm/%40angular/core # purl are url-encoded
@@ -23,7 +21,6 @@ auto:
   methods:
     - git: https://github.com/angular/angular.git
     - release_table: https://angular.dev/reference/releases#actively-supported-versions
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -38,24 +35,24 @@ releases:
     eoas: 2025-11-21
     eol: 2026-11-21
     eoes: false
-    latest: "20.2.4"
-    latestReleaseDate: 2025-09-03
+    latest: "20.3.0"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.14"
-    latestReleaseDate: 2025-05-28
+    latest: "19.2.15"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "18"
     releaseDate: 2024-05-22
     eoas: 2024-11-19
     eol: 2025-11-21
     eoes: false
-    latest: "18.2.13"
-    latestReleaseDate: 2024-11-26
+    latest: "18.2.14"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "17"
     releaseDate: 2023-11-08

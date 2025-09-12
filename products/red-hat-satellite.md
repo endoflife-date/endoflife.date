@@ -18,7 +18,6 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
 eoasColumn: Full support
-eoasWarnThreshold: 30
 eolColumn: Maintenance support
 
 auto:

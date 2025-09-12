@@ -22,6 +22,12 @@ auto:
 # LTS : eol(x) = releaseDate(x+1) + 5 months
 # LTS releases are listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
+  - releaseCycle: "2.5"
+    releaseDate: 2025-09-10
+    eol: false # releaseDate( 2.6 )
+    latest: "2.5.0"
+    latestReleaseDate: 2025-09-10
+
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01
     lts: 2025-11-01

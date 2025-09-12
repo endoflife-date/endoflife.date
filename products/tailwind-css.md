@@ -2,8 +2,8 @@
 title: Tailwind CSS
 addedAt: 2025-08-03
 category: framework
-tags: css-runtime framework
-iconslug: tailwind
+tags: css-runtime
+iconSlug: tailwindcss
 permalink: /tailwind-css
 alternate_urls:
   - /tailwind
@@ -13,7 +13,12 @@ eolColumn: Support
 
 auto:
   methods:
-    - git: https://github.com/tailwindlabs/tailwindcss
+    - npm: tailwindcss
+
+identifiers:
+  - repology: tailwindcss
+  - purl: pkg:github/tailwindlabs/tailwindcss
+  - purl: pkg:npm/tailwindcss
 
 # eol(x) = releaseDate(x+1)
 releases:
@@ -87,7 +92,7 @@ releases:
     releaseDate: 2020-09-04
     eol: 2020-10-12
     latest: "1.8.13"
-    latestReleaseDate: 2020-10-09
+    latestReleaseDate: 2020-10-10
 
   - releaseCycle: "1.7"
     releaseDate: 2020-08-18
@@ -135,7 +140,7 @@ releases:
     releaseDate: 2019-05-13
     eol: 2019-08-06
     latest: "1.0.6"
-    latestReleaseDate: 2019-07-31
+    latestReleaseDate: 2019-08-01
 
 ---
 

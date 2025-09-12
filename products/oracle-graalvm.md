@@ -17,7 +17,6 @@ auto:
     - graalvm: https://www.graalvm.org/release-calendar/
       versions_column: Oracle GraalVM
     - release_table: https://docs.oracle.com/en/graalvm/support-roadmap.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"
@@ -26,7 +25,6 @@ auto:
         eol: "Premier Support Until"
         eoes: "Extended Support Until"
     - release_table: https://www.graalvm.org/release-calendar/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Oracle GraalVM"

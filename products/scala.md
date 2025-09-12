@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-05-07
     eoas: false
     eol: false
-    latest: "3.7.2"
-    latestReleaseDate: 2025-08-01
+    latest: "3.7.3"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "3.6"
     releaseDate: 2024-12-10
@@ -115,6 +115,7 @@ releases:
     latest: "2.10.7"
     latestReleaseDate: 2017-11-09
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
+
 ---
 
 > [Scala](https://www.scala-lang.org/) is a strong statically typed general-purpose programming

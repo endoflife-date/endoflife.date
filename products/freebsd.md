@@ -18,7 +18,6 @@ auto:
   methods:
     - freebsd-releases: https://www.freebsd.org/releases/
     - release_table: https://www.freebsd.org/security/unsupported/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"

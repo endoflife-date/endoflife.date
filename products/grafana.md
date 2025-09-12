@@ -21,7 +21,6 @@ auto:
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
       template: "{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}"
     - release_table: https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

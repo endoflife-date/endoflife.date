@@ -11,6 +11,11 @@ eoasColumn: true
 identifiers:
   - repology: sonarqube
 
+auto:
+  methods:
+    - discourse: https://community.sonarsource.com/c/sq/releases/24
+      regex: '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)$'
+
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
 # For LTA releases:

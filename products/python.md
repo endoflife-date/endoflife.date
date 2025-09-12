@@ -125,7 +125,6 @@ auto:
       # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
     - release_table: https://devguide.python.org/versions/
-      selector: "table"
       fields:
         releaseCycle: "Branch"
         releaseDate: "First release"

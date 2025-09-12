@@ -24,8 +24,8 @@ releases:
   - releaseCycle: "1.14"
     releaseDate: 2025-07-30
     eol: false
-    latest: "1.14.1"
-    latestReleaseDate: 2025-08-05
+    latest: "1.14.2"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "1.13"
     releaseDate: 2025-05-30
@@ -62,6 +62,7 @@ releases:
     eol: 2024-05-31
     latest: "1.8.7"
     latestReleaseDate: 2023-05-04
+
 ---
 
 > [Hashicorp Packer](https://www.packer.io/) is a community tool for creating identical machine images for multiple platforms from a single source configuration.

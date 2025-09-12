@@ -13,7 +13,6 @@ auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
       ignore_empty_releases: true
-      selector: "table"
       fields:
         releaseCycle: "SNS version"
         eol:

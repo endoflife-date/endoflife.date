@@ -17,7 +17,6 @@ eolColumn: Support Status
 auto:
   methods:
     - release_table: https://dotnet.microsoft.com/en-us/download/dotnet-framework
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
