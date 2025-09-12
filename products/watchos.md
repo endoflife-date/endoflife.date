@@ -25,9 +25,17 @@ auto:
         - 'watchOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: false
+    eol: false
+    latest: "26.0.0"
+    latestReleaseDate: 2025-09-15
+    link: https://www.apple.com/mx/os/watchos/
+
   - releaseCycle: "11"
     releaseDate: 2024-09-16
-    eoas: false
+    eoas: 2025-09-15
     eol: false
     latest: "11.6.1"
     latestReleaseDate: 2025-08-14
