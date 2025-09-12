@@ -19,6 +19,14 @@ auto:
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: false
+    eol: false
+    latest: "26"
+    latestReleaseDate: 2025-09-15
+    link: https://www.apple.com/os/ios/
+
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
