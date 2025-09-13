@@ -50,11 +50,14 @@ If you maintain release information for a product (end-of-life dates or support 
 also have a [set of recommendations](/recommendations) along with a checklist on some best practices
 for publishing this information.
 
-And do not hesitate to [play with our API](/docs/api/v1/). Here are a few awesome
-tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianblue),
-[end_of_life](https://github.com/MatheusRich/end_of_life), and
-[cicada](https://github.com/mcandre/cicada). Find more on
-[our Known Users page](https://github.com/endoflife-date/endoflife.date/wiki/Known-Users).
+And do not hesitate to [play with our API](/docs/api/v1/).
+Here are a few awesome tools that already did it:
+
+- [norwegianblue](https://github.com/hugovk/norwegianblue) (also known as `eol`),
+- [end_of_life](https://github.com/MatheusRich/end_of_life),
+- [cicada](https://github.com/mcandre/cicada).
+
+Find more on [our Known Users page](https://github.com/endoflife-date/endoflife.date/wiki/Known-Users).
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://opensource.guide/how-to-contribute/#opening-a-pull-request)
 [![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg)](https://jekyllrb.com/)
