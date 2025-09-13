@@ -230,6 +230,3 @@ If an even-numbered release above is _not marked as LTS_, then it has not entere
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
 Commercial support is available for some deprecated LTS versions of Node.js through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
-
-The End-of-Life date for Node.js 16 was [moved seven months earlier](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
-to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
