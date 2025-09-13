@@ -40,11 +40,11 @@ auto:
 # - eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "6.7"
-    releaseDate: 2025-09-03
+    releaseDate: 2025-09-01
     eoas: false
     eol: false
     latest: "6.7.0"
-    latestReleaseDate: 2025-09-03
+    latestReleaseDate: 2025-09-01
     link: https://blog.emberjs.com/ember-released-6-7/
 
   - releaseCycle: "6.6"
