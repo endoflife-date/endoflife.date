@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-08-12
     eol: false
-    latest: "6000.2.3f1"
-    latestReleaseDate: 2025-09-04
+    latest: "6000.2.4f1"
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
