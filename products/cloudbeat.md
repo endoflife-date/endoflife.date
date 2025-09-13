@@ -2,7 +2,7 @@
 title: Elastic Cloudbeat
 addedAt: 2025-09-13
 category: server-app
-tags: elastic security-tools
+tags: elastic
 iconSlug: elastic
 permalink: /cloudbeat
 alternate_urls:
