@@ -3,7 +3,7 @@ title: OpenBao
 addedAt: 2025-09-10
 category: server-app
 #tags: 
-iconSlug: 
+iconSlug: null
 permalink: /openbao
 alternate_urls:
   - /open-bao
@@ -31,36 +31,35 @@ auto:
 
 releases:
   - releaseCycle: "2.4"
-    releaseDate: 2025-08-29
+    releaseDate: 2025-08-28
     eol: false
     latest: "2.4.1"
-    latestReleaseDate: 2025-09-12
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "2.3"
-    releaseDate: 2025-06-26
+    releaseDate: 2025-06-25
     eol: 2025-08-29
     latest: "2.3.2"
-    latestReleaseDate: 2025-08-08
+    latestReleaseDate: 2025-08-07
 
   - releaseCycle: "2.2"
-    releaseDate: 2025-03-06
+    releaseDate: 2025-03-05
     eol: 2025-06-26
     latest: "2.2.2"
-    latestReleaseDate: 2025-05-30
+    latestReleaseDate: 2025-05-29
 
   - releaseCycle: "2.1"
-    releaseDate: 2024-11-30
+    releaseDate: 2024-11-29
     eol: 2025-03-06
     latest: "2.1.1"
-    latestReleaseDate: 2025-01-22
+    latestReleaseDate: 2025-01-21
 
   - releaseCycle: "2.0"
-    releaseDate: 2024-07-18
+    releaseDate: 2024-07-17
     eol: 2024-11-30
     latest: "2.0.3"
-    latestReleaseDate: 2024-11-16
+    latestReleaseDate: 2024-11-15
 
-  
 ---
 
 > [OpenBao](https://openbao.org/) is an open source, community-driven fork of [Hashicorp Vault](/hashicorp-vault) managed by the Linux Foundation.
