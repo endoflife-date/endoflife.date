@@ -2,7 +2,7 @@
 title: Envoy
 addedAt: 2023-07-14
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: envoyproxy
 permalink: /envoy
 alternate_urls:
