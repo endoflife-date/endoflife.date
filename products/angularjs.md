@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:github/angular/angular.js
 
 auto:
+  disabled: true # the product is discontinued
   methods:
     - npm: angular
 
