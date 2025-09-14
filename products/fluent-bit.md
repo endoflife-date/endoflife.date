@@ -3,6 +3,7 @@ title: Fluent Bit
 addedAt: 2024-04-27
 category: server-app
 tags: cncf
+iconSlug: fluentbit
 permalink: /fluent-bit
 alternate_urls:
   - /fluentbit
