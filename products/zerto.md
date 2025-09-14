@@ -3,6 +3,7 @@ title: HPE Zerto
 addedAt: 2024-01-20
 category: app
 tags: hpe zerto
+iconSlug: hp
 permalink: /zerto
 alternate_urls:
   - /hpe-zerto
