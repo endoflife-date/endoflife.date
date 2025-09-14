@@ -2,7 +2,7 @@
 title: Keycloak
 addedAt: 2022-12-15
 category: server-app
-tags: java-runtime red-hat
+tags: java-runtime red-hat linux-foundation
 iconSlug: keycloak
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
