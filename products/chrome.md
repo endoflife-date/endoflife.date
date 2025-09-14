@@ -10,7 +10,7 @@ alternate_urls:
 versionCommand: google-chrome --version
 releasePolicyLink: https://developer.chrome.com/docs/web-platform/chrome-release-channels
 # no changelogTemplate : changelog is only available for the latest 10-20 releases, it's simpler to manage the links manually
-releaseColumn: false
+latestColumn: false
 
 identifiers:
   - repology: google-chrome

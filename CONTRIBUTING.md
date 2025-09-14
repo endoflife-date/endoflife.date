@@ -142,7 +142,7 @@ eoasColumn: Active Support
 
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
-releaseColumn: Latest
+latestColumn: Latest
 
 # Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -359,9 +359,9 @@ releases:
     #   and false otherwise.
     discontinued: true
 
-    # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
+    # Latest release for the release cycle (optional if latestColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
-    # It should be removed if releaseColumn is false.
+    # It should be removed if latestColumn is false.
     # Always add quotes around this value.
     latest: "1.2.3"
 

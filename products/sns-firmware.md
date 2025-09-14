@@ -5,7 +5,7 @@ category: os
 tags: stormshield
 permalink: /sns-firmware
 versionCommand: getversion
-releaseColumn: false
+latestColumn: false
 eoasColumn: End of Maintenance
 eolColumn: End of Life
 

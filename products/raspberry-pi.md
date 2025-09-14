@@ -10,7 +10,7 @@ alternate_urls:
   - /rpi
 releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 eolColumn: Discontinued
-releaseColumn: false
+latestColumn: false
 
 releases:
   - releaseCycle: "5-500"

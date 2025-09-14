@@ -4,7 +4,7 @@ addedAt: 2025-09-09
 category: os
 tags: stormshield
 permalink: /sns-smc
-releaseColumn: false
+latestColumn: false
 eoasColumn: End of Maintenance
 eolColumn: End of Life
 

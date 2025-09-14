@@ -10,7 +10,7 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SL-Micro/__RELEASE_CYCLE__/
-releaseColumn: false
+latestColumn: false
 eolColumn: General Support
 
 identifiers:

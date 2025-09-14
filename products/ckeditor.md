@@ -7,7 +7,7 @@ permalink: /ckeditor
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
 eolColumn: Support
 eoesColumn: true
-releaseColumn: false
+latestColumn: false
 
 identifiers:
   - repology: ckeditor

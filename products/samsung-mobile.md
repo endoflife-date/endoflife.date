@@ -8,7 +8,7 @@ permalink: /samsung-mobile
 alternate_urls:
   - /samsungmobile
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
-releaseColumn: false
+latestColumn: false
 eoasColumn: Android Upgrades
 eolColumn: Security Updates
 
