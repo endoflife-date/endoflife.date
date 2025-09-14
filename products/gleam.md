@@ -1,6 +1,6 @@
 ---
 title: Gleam
-addedAt: 2025-09-09
+addedAt: 2025-09-10
 category: lang
 iconSlug: gleam
 permalink: /gleam

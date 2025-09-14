@@ -1,6 +1,6 @@
 ---
 title: OpenBao
-addedAt: 2025-09-10
+addedAt: 2025-09-12
 category: server-app
 #tags: 
 iconSlug: null
