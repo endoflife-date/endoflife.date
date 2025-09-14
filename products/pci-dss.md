@@ -7,7 +7,7 @@ alternate_urls:
   - /pci
 releasePolicyLink: https://blog.pcisecuritystandards.org/updated-pci-dss-v4.0-timeline
 releasePolicyImage: https://blog.pcisecuritystandards.org/hs-fs/hubfs/Development.png?width=750&name=Development.png
-releaseColumn: false
+latestColumn: false
 eolColumn: Acceptance
 
 releases:

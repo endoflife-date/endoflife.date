@@ -8,7 +8,7 @@ permalink: /iphone
 releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates
 discontinuedColumn: true
 eolColumn: Supported
-releaseColumn: false
+latestColumn: false
 
 customFields:
   - name: supportedIosVersions

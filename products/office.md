@@ -7,7 +7,7 @@ permalink: /office
 alternate_urls:
   - /msoffice
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Office
-releaseColumn: false
+latestColumn: false
 eoasColumn: true
 
 identifiers:

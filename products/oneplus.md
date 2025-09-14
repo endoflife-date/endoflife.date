@@ -9,7 +9,7 @@ versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
 changelogTemplate: "https://www.oneplus.com/us/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
-releaseColumn: false
+latestColumn: false
 activeSupportColumn: Active Major Updates
 discontinuedColumn: true
 eoasColumn: Android Updates

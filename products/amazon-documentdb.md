@@ -5,7 +5,7 @@ category: service
 tags: amazon database
 iconSlug: amazondocumentdb
 permalink: /amazon-documentdb
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Standard Support
 eoesColumn: End of Extended Support
 

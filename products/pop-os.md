@@ -9,7 +9,7 @@ alternate_urls:
   - /popos
   - /pop_os
 versionCommand: cat /etc/os-release
-releaseColumn: false
+latestColumn: false
 eolColumn: General Support
 
 releases:

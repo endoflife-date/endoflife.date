@@ -12,7 +12,7 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'|replace:'-SP0',''}}/"
-releaseColumn: false
+latestColumn: false
 eolColumn: General Support
 eoesColumn: Long Term Service Pack Support
 

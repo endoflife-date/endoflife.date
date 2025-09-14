@@ -7,7 +7,7 @@ permalink: /zerto
 alternate_urls:
   - /hpe-zerto
 releasePolicyLink: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
-releaseColumn: false
+latestColumn: false
 eoasColumn: General Support
 eolColumn: Critical Support
 

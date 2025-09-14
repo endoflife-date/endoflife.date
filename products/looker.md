@@ -8,7 +8,7 @@ permalink: /looker
 releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
-releaseColumn: false
+latestColumn: false
 
 # Used only for detecting new minor releases.
 auto:

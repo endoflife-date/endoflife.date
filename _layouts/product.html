@@ -45,7 +45,7 @@ layout: default
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eoesColumn %}<th>{{ page.eoesColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsBeforeLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
-      {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
+      {% if page.latestColumn %}<th>{{ page.latestColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsAfterLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
     </tr>
   </thead>
@@ -58,7 +58,7 @@ layout: default
     {%- if r.is_eol %}{% assign cycleColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ cycleColumnClass }}">
       {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-      {% if page.releaseColumn == false and r.link  %}
+      {% if page.latestColumn == false and r.link  %}
         <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
       {% else %}
         {{ r.label }}
@@ -133,10 +133,10 @@ layout: default
     {% include custom-column-td.html release=r column=column %}
     {%- endfor %}
 
-    {% if page.releaseColumn != false %}
-    {%- assign releaseColumnClass = '' %}
-    {%- if r.is_eol %}{% assign releaseColumnClass = 'txt-linethrough' %}{% endif %}
-    <td class="{{ releaseColumnClass }}">
+    {% if page.latestColumn != false %}
+    {%- assign latestColumnClass = '' %}
+    {%- if r.is_eol %}{% assign latestColumnClass = 'txt-linethrough' %}{% endif %}
+    <td class="{{ latestColumnClass }}">
       {% if r.link %}
         <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
       {% else %}
@@ -147,7 +147,7 @@ layout: default
     {% endif %}
 
     {%- for column in customColumnsAfterLatest %}
-    {% include custom-column-td.html release=r column=column cssClasses=releaseColumnClass %}
+    {% include custom-column-td.html release=r column=column cssClasses=latestColumnClass %}
     {%- endfor %}
   </tr>
 {% endfor %}
@@ -172,7 +172,7 @@ layout: default
 <p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>.</p>
 {% endif %}
 
-{% if page.releaseColumn %}
+{% if page.latestColumn %}
 {% unless page.tags contains "discontinued" %}
 <p>You should be running one of the supported release numbers listed above in the rightmost column.</p>
 {% endunless %}
