@@ -5,8 +5,7 @@ category: device
 tags: microsoft
 permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
-releaseColumn: false
-latestColumn: true
+latestColumn: false
 eolColumn: End of Servicing Date
 
 auto:

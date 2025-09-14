@@ -117,7 +117,7 @@ module Jekyll
 
       # Set properly the column presence/label if it was overridden.
       def set_overridden_columns_label(page)
-        date_column_names = %w[releaseDateColumn releaseColumn discontinuedColumn eoasColumn eolColumn eoesColumn]
+        date_column_names = %w[releaseDateColumn latestColumn discontinuedColumn eoasColumn eolColumn eoesColumn]
         date_column_names.each { |date_column|
           if page.data[date_column].is_a? String
             page.data[date_column + 'Label'] = page.data[date_column]

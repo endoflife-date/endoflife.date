@@ -163,7 +163,7 @@ module EndOfLifeHooks
     error_if.is_not_a_string('LTSLabel')
     error_if.is_not_a_boolean_nor_a_string('eolColumn')
     error_if.is_not_a_boolean_nor_a_string('eoasColumn')
-    error_if.is_not_a_boolean_nor_a_string('releaseColumn')
+    error_if.is_not_a_boolean_nor_a_string('latestColumn')
     error_if.is_not_a_boolean_nor_a_string('releaseDateColumn')
     error_if.is_not_a_boolean_nor_a_string('discontinuedColumn')
     error_if.is_not_a_boolean_nor_a_string('eoesColumn')
@@ -203,9 +203,9 @@ module EndOfLifeHooks
       error_if.is_not_a_boolean_nor_a_date('discontinued') if product.data['discontinuedColumn']
       error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
-      error_if.is_not_a_string('latest') if product.data['releaseColumn']
-      error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
-      error_if.too_far_in_future('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
+      error_if.is_not_a_string('latest') if product.data['latestColumn']
+      error_if.is_not_a_date('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
+      error_if.too_far_in_future('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
       error_if.is_not_before('releaseDate', 'eoas') if product.data['eoasColumn']

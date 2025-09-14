@@ -5,7 +5,7 @@ category: device
 iconSlug: intel
 permalink: /intel-processors
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
 
@@ -242,7 +242,7 @@ your CPU belongs on:
 - macOS: `sysctl -n machdep.cpu.brand_string`
 - FreeBSD/OpenBSD: `sysctl -n hw.model`
 
-Then check product classification on <https://ark.intel.com/>. 
+Then check product classification on <https://ark.intel.com/>.
 
 Intel announces notifications via [Product Change Notifications](https://www.intel.com/content/www/us/en/collections/content-type/pcns.html).
 An third-party [PSN RSS/API Feed](https://intel.pcn.captnemo.in/) is available to subscribe to the same.

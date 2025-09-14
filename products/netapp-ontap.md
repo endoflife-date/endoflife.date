@@ -12,7 +12,7 @@ versionCommand: system-get-version
 releasePolicyLink: https://mysupport.netapp.com/site/info/version-support
 changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 eolColumn: Full Support
-releaseColumn: false # no public access to the latest patches
+latestColumn: false # no public access to the latest patches
 
 # Releases are documented on https://mysupport.netapp.com/site/info/version-support.
 releases:

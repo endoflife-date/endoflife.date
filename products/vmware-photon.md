@@ -10,7 +10,7 @@ alternate_urls:
   - /vmwarephoton
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Security Support
 
 customFields:

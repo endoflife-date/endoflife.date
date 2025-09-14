@@ -12,7 +12,7 @@ releasePolicyLink: https://en.opensuse.org/Lifetime
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/slucio84mdla0deffiv2vrszinbrlek.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Life
 
 identifiers:

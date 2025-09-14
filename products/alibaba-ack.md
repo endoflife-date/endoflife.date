@@ -9,7 +9,7 @@ alternate_urls:
   - /ack
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Support
 
 auto:

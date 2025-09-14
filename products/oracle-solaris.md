@@ -9,7 +9,7 @@ alternate_urls:
   - /solaris
 versionCommand: cat /etc/release
 releasePolicyLink: https://www.oracle.com/support/lifetime-support/
-releaseColumn: false
+latestColumn: false
 eolColumn: Premier Support
 eoesColumn: Extended Support
 

@@ -5,7 +5,7 @@ category: lang
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
 changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
-releaseColumn: false
+latestColumn: false
 eolColumn: Support Status
 
 auto:

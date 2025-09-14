@@ -8,7 +8,7 @@ permalink: /linuxmint
 alternate_urls:
   - /linux-mint
 versionCommand: cat /etc/linuxmint/info
-releaseColumn: false
+latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 

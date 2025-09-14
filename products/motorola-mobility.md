@@ -9,7 +9,7 @@ alternate_urls:
   - /motorola
   - /motorolamobility
 releasePolicyLink: https://en-us.support.motorola.com/app/software-security-update
-releaseColumn: false
+latestColumn: false
 eolColumn: Security Updates
 
 auto:

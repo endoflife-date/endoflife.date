@@ -7,7 +7,7 @@ iconSlug: sony
 permalink: /sony-xperia
 alternate_urls:
   - /xperia
-releaseColumn: false
+latestColumn: false
 
 customFields:
   - name: androidVersions
