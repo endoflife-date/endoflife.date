@@ -16,6 +16,8 @@ identifiers:
 auto:
   methods:
     - libreoffice: https://downloadarchive.documentfoundation.org/libreoffice/old/
+      prereleases_url: https://www.libreoffice.org/download/download-libreoffice/
+      prereleases_text: "LibreOffice is available in the following prerelease versions:"
       regex: '^(?P<version>\d+(\.\d+)*)/$'
       template: "{{version}}"
 

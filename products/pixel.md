@@ -7,7 +7,7 @@ iconSlug: google
 permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
-releaseColumn: false
+latestColumn: false
 discontinuedColumn: true
 eoasColumn: Android Updates
 eolColumn: Security Updates
@@ -50,7 +50,7 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_10
     supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10_5g-13979.php
-    
+
   - releaseCycle: "9a"
     releaseLabel: "Pixel 9a"
     releaseDate: 2025-04-10

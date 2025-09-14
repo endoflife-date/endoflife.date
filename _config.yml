@@ -83,8 +83,8 @@ defaults:
       alternate_urls: []
       identifiers: []
       auto: []
-      releaseColumn: true
-      releaseColumnLabel: "Latest"
+      latestColumn: true
+      latestColumnLabel: "Latest"
       releaseDateColumn: true
       releaseDateColumnLabel: "Released"
       discontinuedColumn: false

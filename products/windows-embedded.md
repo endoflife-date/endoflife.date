@@ -9,7 +9,7 @@ alternate_urls:
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
 releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
-releaseColumn: false
+latestColumn: false
 eoasColumn: true
 
 releases:

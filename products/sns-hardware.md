@@ -4,7 +4,7 @@ addedAt: 2025-08-27
 category: device
 tags: stormshield
 permalink: /sns-hardware
-releaseColumn: false
+latestColumn: false
 eoasColumn: End of Sales
 eolColumn: End of Life
 
