@@ -8,6 +8,7 @@ permalink: /apache-pulsar
 alternate_urls:
   - /pulsar
 releasePolicyLink: https://pulsar.apache.org/contribute/release-policy/
+changelogTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LATEST__/
 eolColumn: Active Support
 eoesColumn: Security Support
 
