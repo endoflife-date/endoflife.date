@@ -3,7 +3,7 @@ title: SonarQube Server
 addedAt: 2025-08-31
 category: server-app
 tags: sonarsource java-runtime
-iconSlug: sonarqube
+iconSlug: sonarqubeserver
 permalink: /sonarqube-server
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 eoasColumn: true
