@@ -22,9 +22,7 @@ customFields:
 
 auto:
   methods:
-    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/rssupdates.rss
-      regex: "^Engine version (?P<version>[0-9R.]+)$"
-      template: "{{version}}"
+    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
     - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       fields:
         releaseCycle:
@@ -185,8 +183,8 @@ releases:
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
     eol: 2025-03-15
-    latest: "1.1.0.0.R2"
-    latestReleaseDate: 2022-05-16
+    latest: "1.1.0.0.R3"
+    latestReleaseDate: 2022-12-23
 
   - releaseCycle: "1.0.5.1"
     releaseDate: 2021-10-01
@@ -199,8 +197,8 @@ releases:
     releaseDate: 2021-07-27
     upgradeVersion: "1.1.0.0"
     eol: 2023-01-30
-    latest: "1.0.5.0.R3"
-    latestReleaseDate: 2021-09-15
+    latest: "1.0.5.0.R5"
+    latestReleaseDate: 2022-05-16
 
   - releaseCycle: "1.0.4.2"
     releaseDate: 2021-06-01
