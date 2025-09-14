@@ -3,7 +3,7 @@ title: Apple iOS
 addedAt: 2022-10-08
 category: os
 tags: apple
-iconSlug: apple
+iconSlug: ios
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 eoasColumn: true
