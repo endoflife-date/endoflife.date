@@ -2,7 +2,7 @@
 title: Contour
 addedAt: 2024-06-18
 category: server-app
-tags: cncf kubernetes
+tags: cncf kubernetes linux-foundation
 permalink: /contour
 releasePolicyLink: https://projectcontour.io/resources/support/
 changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__

@@ -2,7 +2,7 @@
 title: KEDA
 addedAt: 2023-10-12
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 permalink: /keda
 releasePolicyLink: https://github.com/kedacore/governance/blob/main/RELEASES.md
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"

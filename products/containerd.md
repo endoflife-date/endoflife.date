@@ -2,7 +2,7 @@
 title: containerd
 addedAt: 2024-03-10
 category: app
-iconSlug: containerd
+iconSlug: containerd linux-foundation
 permalink: /containerd
 versionCommand: containerd --version
 releasePolicyLink: https://containerd.io/releases/

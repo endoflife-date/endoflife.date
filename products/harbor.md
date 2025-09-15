@@ -2,7 +2,7 @@
 title: Harbor
 addedAt: 2024-07-05
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: harbor
 permalink: /harbor
 releasePolicyLink: https://github.com/goharbor/harbor/blob/main/RELEASES.md

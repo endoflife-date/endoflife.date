@@ -2,7 +2,7 @@
 title: etcd
 addedAt: 2023-07-18
 category: database
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: etcd
 permalink: /etcd
 versionCommand: etcdctl version

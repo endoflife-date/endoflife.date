@@ -2,7 +2,7 @@
 title: Electron
 addedAt: 2021-12-31
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime linux-foundation
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version

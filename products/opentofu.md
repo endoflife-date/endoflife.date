@@ -2,6 +2,7 @@
 title: OpenTofu
 addedAt: 2024-03-31
 category: app
+tags: linux-foundation
 tags: cncf
 iconSlug: opentofu
 permalink: /opentofu

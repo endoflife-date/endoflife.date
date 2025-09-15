@@ -2,6 +2,7 @@
 title: Linux Kernel
 addedAt: 2021-08-29
 category: os
+tags: linux-foundation
 iconSlug: linux
 permalink: /linux
 alternate_urls:

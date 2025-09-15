@@ -2,7 +2,7 @@
 title: Grunt
 addedAt: 2025-03-01
 category: app
-tags: herodevs javascript-runtime
+tags: herodevs javascript-runtime linux-foundation
 iconSlug: grunt
 permalink: /grunt
 releasePolicyLink: https://github.com/gruntjs/grunt
