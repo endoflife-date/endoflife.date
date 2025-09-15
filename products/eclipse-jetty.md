@@ -38,10 +38,23 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.eclipse.jetty/jetty-server
+    - github_releases: jetty/jetty.project
+      regex: ^jetty-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+      template: "{major}.{minor}.{patch}"
 
-# Support, EOL and minJavaVersion can be found on https://eclipse.dev/jetty/download.php.
+# Support, EOL and minJavaVersion can be found on https://jetty.org/download.html.
 releases:
+  - releaseCycle: "12.1"
+    releaseDate: 2023-08-07
+    minJvmVersion: "17"
+    servletVersion: "3.1 - 6.1"
+    jspVersion: "2.3 - 3.1"
+    eoas: false
+    eol: false
+    eoes: false
+    latest: "12.1.1"
+    latestReleaseDate: 2025-09-08
+
   - releaseCycle: "12"
     releaseDate: 2023-08-07
     minJvmVersion: "17"
@@ -50,8 +63,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.21"
-    latestReleaseDate: 2025-05-09
+    latest: "12.0.27"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "11"
     minJvmVersion: "11"
@@ -111,8 +124,8 @@ releases:
     servletVersion: "3.1"
     jspVersion: "2.3"
     releaseDate: 2013-11-15
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
 
@@ -121,8 +134,8 @@ releases:
     servletVersion: "3.1-beta"
     jspVersion: "2.3"
     releaseDate: 2013-03-08
-    eoas: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
 
@@ -131,8 +144,8 @@ releases:
     servletVersion: "3.0"
     jspVersion: "2.2"
     releaseDate: 2011-09-01
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
@@ -141,8 +154,8 @@ releases:
     servletVersion: "2.5"
     jspVersion: "2.1"
     releaseDate: 2009-10-05
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
 ---
