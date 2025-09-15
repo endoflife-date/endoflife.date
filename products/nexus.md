@@ -46,8 +46,8 @@ auto:
 releases:
   - releaseCycle: "3.84"
     releaseDate: 2025-09-09
-    eoas: 2026-08-12
-    eol: 2027-02-12
+    eoas: 2026-09-09
+    eol: 2027-03-09
     latest: "3.84.0-03"
     latestReleaseDate: 2025-09-09
 
