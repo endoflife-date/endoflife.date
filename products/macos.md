@@ -31,7 +31,7 @@ releases:
     eol: false
     latest: "26.0.0"
     latestReleaseDate: 2025-09-15
-    link: https://www.apple.com/os/macos/
+    link: https://support.apple.com/122868
 
   - releaseCycle: "15"
     codename: "Sequoia"
