@@ -52,7 +52,7 @@ releases:
   - releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
-    eol: false
+    eol: 2025-09-15
     latest: "13.7.8"
     latestReleaseDate: 2025-08-20
     link: https://support.apple.com/HT213268
