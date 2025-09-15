@@ -10,6 +10,7 @@ eolColumn: Support
 
 auto:
   methods:
+    - git: https://github.com/kumahq/kuma.git # a few versions are missing from releases
     - github_releases: kumahq/kuma
     - kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml
 
