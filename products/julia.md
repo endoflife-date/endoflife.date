@@ -21,8 +21,8 @@ releases:
     releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
     lts: false
     eol: false
-    latest: "1.11.7"
-    latestReleaseDate: 2025-09-08
+    latest: "1.11.6"
+    latestReleaseDate: 2025-07-09
 
   - releaseCycle: "1.10"
     releaseDate: 2023-12-25
