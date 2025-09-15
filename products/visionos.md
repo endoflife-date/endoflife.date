@@ -27,7 +27,7 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2024-09-16
     eoas: 2025-09-15
-    eol: false
+    eol: 2025-09-15
     latest: "2.6"
     latestReleaseDate: 2025-07-29
     link: https://support.apple.com/en-us/121164
