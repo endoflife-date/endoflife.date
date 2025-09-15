@@ -49,7 +49,7 @@ releases:
     releaseDate: 2024-08-15
     eoas: false
     eol: false
-    latest: "4.3.0"
+    latest: "4.3"
     latestReleaseDate: 2024-08-15
 
   - releaseCycle: "4.2"
