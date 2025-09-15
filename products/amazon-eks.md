@@ -18,9 +18,13 @@ auto:
   methods:
     - amazon-eks: https://web.archive.org/web/20221007150452/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.19
     - amazon-eks: https://web.archive.org/web/20230521061347/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.20
+    - amazon-eks: https://web.archive.org/web/20241010234951/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.23
+    - amazon-eks: https://web.archive.org/web/20250329184240/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.24
+    - amazon-eks: https://web.archive.org/web/20250505173928/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.25
+    - amazon-eks: https://web.archive.org/web/20250718054134/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.26
+    - amazon-eks: https://web.archive.org/web/20250802193454/https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html # 1.27
     - amazon-eks: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
     - release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
-      selector: "table"
       fields:
         releaseCycle: "Kubernetes version"
         eol: "End of standard support"

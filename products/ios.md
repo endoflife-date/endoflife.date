@@ -3,7 +3,7 @@ title: Apple iOS
 addedAt: 2022-10-08
 category: os
 tags: apple
-iconSlug: apple
+iconSlug: ios
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 eoasColumn: true
@@ -23,8 +23,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.6.1"
-    latestReleaseDate: 2025-08-14
+    latest: "18.6.2"
+    latestReleaseDate: 2025-08-20
     link: https://support.apple.com/en-us/121161
 
   - releaseCycle: "17"

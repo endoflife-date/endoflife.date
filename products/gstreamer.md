@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "1.26"
     releaseDate: 2025-03-11
     eol: false
-    latest: "1.26.5"
-    latestReleaseDate: 2025-08-07
+    latest: "1.26.6"
+    latestReleaseDate: 2025-09-14
 
   - releaseCycle: "1.24"
     releaseDate: 2024-03-04
@@ -111,6 +111,7 @@ releases:
     link: null
     latest: "1.0.10"
     latestReleaseDate: 2013-08-28
+
 ---
 
 > [GStreamer](https://gstreamer.freedesktop.org/) is a pipeline-based

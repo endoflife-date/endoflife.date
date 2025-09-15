@@ -25,7 +25,6 @@ auto:
   methods:
     - git: https://github.com/moodle/moodle.git
     - release_table: https://moodledev.io/general/releases
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

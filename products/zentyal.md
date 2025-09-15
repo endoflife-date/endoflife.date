@@ -5,7 +5,7 @@ category: os
 tags: linux-distribution
 permalink: /zentyal
 releasePolicyLink: https://zentyal.com/release-policy/
-releaseColumn: false
+latestColumn: false
 eolColumn: Development Edition Support
 eoesColumn: Commercial Support
 

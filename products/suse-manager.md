@@ -1,11 +1,14 @@
 ---
-title: SUSE Manager
+title: SUSE Multi-Linux Manager
 addedAt: 2024-08-02
 category: server-app
 tags: suse
 iconSlug: suse
 permalink: /suse-manager
-versionCommand: zypper info SUSE-Manager-Server-release
+alternate_urls:
+  - /suse-multi-linux-manager
+  - /suse-mlm
+versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
@@ -13,17 +16,24 @@ eolColumn: General Support
 # Release dates are documented in each release note in the "Version revision history" paragraph.
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
+  - releaseCycle: "5.1"
+    releaseDate: 2024-07-31
+    eol: false
+    latest: "5.1"
+    latestReleaseDate: 2025-07-31
+    link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
+
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
     eol: 2026-06-30
-    latest: "5.0.4"
-    latestReleaseDate: 2025-04-16
+    latest: "5.0.5"
+    latestReleaseDate: 2025-07-01
 
   - releaseCycle: "4.3"
     releaseDate: 2022-06-20
-    eol: 2025-06-30
-    latest: "4.3.15.1"
-    latestReleaseDate: 2024-04-16
+    eol: 2025-07-23
+    latest: "4.3.16"
+    latestReleaseDate: 2025-07-01
 
   - releaseCycle: "4.2"
     releaseDate: 2021-06-21
@@ -74,14 +84,14 @@ releases:
     latestReleaseDate: 2013-08-26
 ---
 
-> [SUSE Manager](https://www.suse.com/products/suse-manager/) is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment.
+> [SUSE Multi-Linux Manager](https://www.suse.com/products/multi-linux-manager/), formerly known as SUSE Manager, is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment.
 > It uses the Salt configuration management system to manage clients, deploy patches and packages, and report changes at scale.
 
 {: .warning }
 
-> This page tracks SUSE Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
+> This page tracks SUSE Multi-Linux Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE Manager is usually released every 12 months.
+SUSE Multi-Linux Manager is usually released every 12 months.
 The current release is usually supported for an additional 12 months once after the next release, resulting in a 24-month support cycle.
-SUSE Manager Proxy follows the same lifecycle as SUSE Manager Server.
+SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.

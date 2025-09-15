@@ -25,9 +25,9 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 U3e"
-    latestReleaseDate: 2025-04-10
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/vcenter-server-update-and-patch-release-notes/vsphere-vcenter-server-80u3e-release-notes.html
+    latest: "8.0 U3g"
+    latestReleaseDate: 2025-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/vcenter-server-update-and-patch-release-notes/vsphere-vcenter-server-80u3g-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02

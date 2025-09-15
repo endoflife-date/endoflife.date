@@ -16,15 +16,23 @@ identifiers:
 auto:
   methods:
     - libreoffice: https://downloadarchive.documentfoundation.org/libreoffice/old/
+      prereleases_url: https://www.libreoffice.org/download/download-libreoffice/
+      prereleases_text: "LibreOffice is available in the following prerelease versions:"
       regex: '^(?P<version>\d+(\.\d+)*)/$'
       template: "{{version}}"
 
 releases:
+  - releaseCycle: "25.8"
+    releaseDate: 2025-07-09 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
+    eol: 2026-06-12
+    latest: "25.8.1.1"
+    latestReleaseDate: 2025-08-28
+
   - releaseCycle: "25.2"
     releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2025-11-30
-    latest: "25.2.5.2"
-    latestReleaseDate: 2025-07-13
+    latest: "25.2.6.2"
+    latestReleaseDate: 2025-09-01
 
   - releaseCycle: "24.8"
     releaseDate: 2024-07-09 # https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/
@@ -61,6 +69,7 @@ releases:
     eol: 2022-11-30
     latest: "7.3.7.2"
     latestReleaseDate: 2022-12-08
+
 ---
 
 > LibreOffice is a free and open-source office productivity software suite, a project of The

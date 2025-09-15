@@ -8,7 +8,7 @@ permalink: /apple-watch
 releasePolicyLink: https://support.apple.com/watch
 discontinuedColumn: true
 eolColumn: Supported
-releaseColumn: false
+latestColumn: false
 
 customFields:
   - name: supportedWatchOsVersions

@@ -25,14 +25,14 @@ releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
     eol: false
-    latest: "3.5.3"
-    latestReleaseDate: 2025-07-16
+    latest: "3.5.5"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "3.4"
     releaseDate: 2025-02-12
     eol: 2025-04-17
-    latest: "3.4.5"
-    latestReleaseDate: 2025-07-11
+    latest: "3.4.6"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "3.3"
     releaseDate: 2024-11-19
@@ -159,6 +159,7 @@ releases:
     eol: 2019-12-04
     latest: "1.0.2"
     latestReleaseDate: 2019-07-26
+
 ---
 
 > [Grafana Loki](https://grafana.com/docs/loki/latest/) is a log aggregation system optimized for cost-effective,

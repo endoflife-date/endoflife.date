@@ -8,7 +8,6 @@ releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-s
 changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
-eolWarnThreshold: 200 # March to September
 
 identifiers:
   - cpe: cpe:/:a:akeneo:product_information_management
@@ -30,8 +29,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2026-09-30
-    latest: "7.0.81"
-    latestReleaseDate: 2025-08-08
+    latest: "7.0.83"
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
@@ -145,6 +144,7 @@ releases:
     link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
     latest: "1.0.3"
     latestReleaseDate: 2014-03-27
+
 ---
 
 > [Akeneo PIM](https://www.akeneo.com/akeneo-pim-community-edition/) is a Product Information

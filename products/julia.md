@@ -45,6 +45,7 @@ releases:
     latest: "1.0.5"
     latestReleaseDate: 2019-09-09
 # Please leave a new line both above and below the triple-dashes.
+
 ---
 
 > [Julia](https://julialang.org) is an open-source programming language designed for technical computing,

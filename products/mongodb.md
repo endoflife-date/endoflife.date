@@ -15,13 +15,11 @@ releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 # are the same for both, but the package names are different, hence the two different
 # purl identifiers.
 identifiers:
-  - purl: pkg:deb/debian/mongodb-org-server
-  - purl: pkg:deb/ubuntu/mongodb-org-server
+  - purl: pkg:deb/debian/mongodb
+  - purl: pkg:deb/ubuntu/mongodb
   - purl: pkg:rpm/amzn/mongodb-org-server
   - purl: pkg:rpm/redhat/mongodb-org-server
   - purl: pkg:rpm/centos/mongodb-org-server
-  - purl: pkg:deb/debian/mongodb-enterprise-server
-  - purl: pkg:deb/ubuntu/mongodb-enterprise-server
   - purl: pkg:rpm/amzn/mongodb-enterprise-server
   - purl: pkg:rpm/redhat/mongodb-enterprise-server
   - purl: pkg:rpm/centos/mongodb-enterprise-server
@@ -32,7 +30,6 @@ auto:
     - git: https://github.com/mongodb/mongo.git
       regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://www.mongodb.com/legal/support-policy/lifecycles
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -81,8 +78,8 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-15
     eol: 2026-08-31
-    latest: "7.0.23"
-    latestReleaseDate: 2025-08-07
+    latest: "7.0.24"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"

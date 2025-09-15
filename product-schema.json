@@ -444,7 +444,7 @@
           "type": "string",
           "format": "date"
         },
-        "releaseColumn": {
+        "latestColumn": {
           "title": "Release column",
           "description": "Whether to show the release column, or a custom name for it.",
           "$ref": "#/$defs/boolOrString"
@@ -529,9 +529,9 @@
         },
         {
           "if": {
-            "required": ["releaseColumn"],
+            "required": ["latestColumn"],
             "properties": {
-              "releaseColumn": {
+              "latestColumn": {
                 "type": "string"
               }
             }

@@ -9,8 +9,8 @@ alternate_urls:
   - /google-chrome
 versionCommand: google-chrome --version
 releasePolicyLink: https://developer.chrome.com/docs/web-platform/chrome-release-channels
-changelogTemplate: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
-releaseColumn: false
+# no changelogTemplate : changelog is only available for the latest 10-20 releases, it's simpler to manage the links manually
+latestColumn: false
 
 identifiers:
   - repology: google-chrome
@@ -22,69 +22,90 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "140"
+    releaseDate: 2025-09-02
+    eol: false
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
+
   - releaseCycle: "139"
     releaseDate: 2025-08-05
-    eol: false
+    eol: 2025-09-02
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "138"
     releaseDate: 2025-06-24
     eol: 2025-08-05
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "137"
     releaseDate: 2025-05-27
     eol: 2025-06-24
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "136"
     releaseDate: 2025-04-29
     eol: 2025-05-27
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "135"
     releaseDate: 2025-04-01
     eol: 2025-04-29
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "134"
     releaseDate: 2025-03-04
     eol: 2025-04-01
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "133"
     releaseDate: 2025-02-04
     eol: 2025-03-04
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "132"
     releaseDate: 2025-01-14
     eol: 2025-02-04
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "131"
     releaseDate: 2024-11-12
     eol: 2025-01-14
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "130"
     releaseDate: 2024-10-15
     eol: 2024-11-12
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "129"
     releaseDate: 2024-09-17
     eol: 2024-10-15
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "128"
     releaseDate: 2024-08-20
     eol: 2024-09-17
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "127"
     releaseDate: 2024-07-23
     eol: 2024-08-20
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "126"
     releaseDate: 2024-06-11
     eol: 2024-07-23
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "125"
     releaseDate: 2024-05-14
     eol: 2024-06-11
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "124"
     releaseDate: 2024-04-16
     eol: 2024-05-14
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "123"
     releaseDate: 2024-03-19

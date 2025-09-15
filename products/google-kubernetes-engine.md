@@ -29,43 +29,43 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-06-30
     eol: 2026-08-03
-    latest: "1.33.3-gke.1266000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.33.4-gke.1245000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.32"
     releaseDate: 2025-02-11
     eoas: 2026-02-28
     eol: 2026-04-11
-    latest: "1.32.7-gke.1079000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.32.8-gke.1170000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eoas: 2025-11-30
     eol: 2026-01-16
-    latest: "1.31.11-gke.1101000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.31.12-gke.1110000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eoas: 2025-07-31
     eol: 2025-09-30
-    latest: "1.30.14-gke.1036000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.30.14-gke.1150000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-02-28
     eol: 2025-04-12
-    latest: "1.29.15-gke.1756000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.29.15-gke.1851000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.28"
     releaseDate: 2023-12-04
     eoas: 2024-12-31
     eol: 2025-02-04
-    latest: "1.28.15-gke.2547000"
-    latestReleaseDate: 2025-08-14
+    latest: "1.28.15-gke.2630000"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "1.27"
     releaseDate: 2023-06-15

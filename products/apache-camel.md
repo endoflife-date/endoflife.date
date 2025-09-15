@@ -32,9 +32,17 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
+  - releaseCycle: "4.14"
+    lts: true
+    releaseDate: 2025-08-15
+    eol: 2026-08-20
+    supportedJavaVersions: "17, 21"
+    latest: "4.14.0"
+    latestReleaseDate: 2025-08-15
+
   - releaseCycle: "4.13"
     releaseDate: 2025-07-04
-    eol: false # releaseDate(4.14)
+    eol: 2025-08-20
     supportedJavaVersions: "17, 21"
     latest: "4.13.0"
     latestReleaseDate: 2025-07-04
@@ -310,6 +318,7 @@ releases:
     supportedJavaVersions: "8, 11"
     latest: "3.0.1"
     latestReleaseDate: 2020-01-11
+
 ---
 
 > [Apache Camel](https://camel.apache.org/) is an open source framework for message-oriented

@@ -19,7 +19,6 @@ auto:
     - git: https://github.com/consolidation/robo.git
     - release_table: https://github.com/consolidation/robo/blob/5.x/README.md
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"

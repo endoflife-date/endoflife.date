@@ -22,7 +22,6 @@ auto:
   methods:
     - git: https://github.com/bazelbuild/bazel.git
     - release_table: https://bazel.build/release
-      selector: "table"
       fields:
         releaseCycle:
           column: "LTS release"
@@ -38,8 +37,8 @@ releases:
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
     eol: 2027-12-31
-    latest: "8.3.1"
-    latestReleaseDate: 2025-06-30
+    latest: "8.4.1"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "7"
     lts: true
@@ -72,6 +71,7 @@ releases:
     eol: 2024-01-31
     latest: "4.2.4"
     latestReleaseDate: 2023-04-20
+
 ---
 
 > [Bazel](https://bazel.build/) is a fast, scalable, multi-language and extensible build system.

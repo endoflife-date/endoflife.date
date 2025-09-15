@@ -34,7 +34,6 @@ auto:
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
     - release_table: https://www.ibm.com/support/pages/node/6451203
-      selector: "table"
       fields:
         releaseCycle: "IBM Semeru Runtimes version"
         eol: "EoA3"

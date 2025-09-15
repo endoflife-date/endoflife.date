@@ -19,7 +19,6 @@ auto:
   methods:
     - npm: nuxt
     - release_table: https://nuxt.com/docs/community/roadmap
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: table
       fields:
@@ -36,15 +35,15 @@ releases:
     releaseDate: 2025-07-16
     eoas: false
     eol: false
-    latest: "4.0.3"
-    latestReleaseDate: 2025-08-05
+    latest: "4.1.2"
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "3"
     releaseDate: 2022-11-16
     eoas: false
     eol: 2026-01-31
-    latest: "3.18.1"
-    latestReleaseDate: 2025-08-05
+    latest: "3.19.2"
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "2"
     releaseDate: 2018-09-21

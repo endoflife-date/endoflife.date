@@ -17,15 +17,21 @@ identifiers:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2025-09-08
+    eol: false # releaseDate(1.38)
+    latest: "1.36.1"
+    latestReleaseDate: 2025-09-08
+
   - releaseCycle: "1.35"
     releaseDate: 2025-06-16
     eol: false # releaseDate(1.37)
-    latest: "1.35.3"
-    latestReleaseDate: 2025-07-28
+    latest: "1.35.4"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "1.34"
     releaseDate: 2025-03-10
-    eol: false # releaseDate(1.36)
+    eol: 2025-09-08
     latest: "1.34.4"
     latestReleaseDate: 2025-05-19
 
@@ -246,6 +252,7 @@ releases:
     latest: "1.0.1"
     latestReleaseDate: 2016-09-28
     link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
+
 ---
 
 > [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.

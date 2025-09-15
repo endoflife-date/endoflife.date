@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "23.05"
     releaseDate: 2023-10-11
     eoas: 2025-02-04
-    eol: 2025-08-04
+    eol: 2025-08-16
     latest: "23.05.6"
     latestReleaseDate: 2025-08-16
 

@@ -5,7 +5,7 @@ category: device
 iconSlug: intel
 permalink: /intel-processors
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
 
@@ -230,7 +230,7 @@ releases:
   with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases).
 - While a CPU may be under security support, it may not be supported on a specific Windows release.
   More information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
-- A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported.
+- A CPU's iGPU may not be supported by the latest GPU driver branch even if the CPU is still supported.
 
 ## Determining product classification
 
@@ -243,3 +243,6 @@ your CPU belongs on:
 - FreeBSD/OpenBSD: `sysctl -n hw.model`
 
 Then check product classification on <https://ark.intel.com/>.
+
+Intel announces notifications via [Product Change Notifications](https://www.intel.com/content/www/us/en/collections/content-type/pcns.html).
+An third-party [PSN RSS/API Feed](https://intel.pcn.captnemo.in/) is available to subscribe to the same.

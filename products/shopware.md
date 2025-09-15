@@ -35,8 +35,8 @@ releases:
     releaseDate: 2025-06-17
     eoas: false
     eol: false # still listed on https://developer.shopware.com/release-notes/
-    latest: "6.7.1.2"
-    latestReleaseDate: 2025-07-31
+    latest: "6.7.2.1"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
@@ -158,6 +158,7 @@ releases:
     latest: "5.0.4"
     latestReleaseDate: 2015-09-16
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
+
 ---
 
 > [Shopware](https://shopware.com) is an MIT licensed e-commerce platform written in PHP and

@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2025-01-07
     eol: false
-    latest: "10.14.0"
-    latestReleaseDate: 2025-07-31
+    latest: "10.16.1"
+    latestReleaseDate: 2025-09-13
 
   - releaseCycle: "9"
     releaseDate: 2024-04-16
@@ -60,6 +60,7 @@ releases:
     eol: 2021-04-24
     latest: "4.14.4"
     latestReleaseDate: 2020-05-23
+
 ---
 
 > [pnpm](https://pnpm.io/) is a fast and disk-space-efficient package manager for JavaScript.

@@ -17,11 +17,10 @@ identifiers:
 # https://regex101.com/r/2GkIJ5/1
 auto:
   methods:
-    - github_releases: grafana/grafana
+    - git: https://github.com/grafana/grafana.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
       template: "{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}"
     - release_table: https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

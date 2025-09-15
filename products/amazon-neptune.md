@@ -17,16 +17,13 @@ changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-r
 
 customFields:
   - name: upgradeVersion
-    display: api-only
+    display: after-latest-column
     label: Upgrade to
 
 auto:
   methods:
-    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/rssupdates.rss
-      regex: "^Engine version (?P<version>[0-9R.]+)$"
-      template: "{{version}}"
+    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
     - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -35,9 +32,16 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+  - releaseCycle: "1.4.6.0"
+    releaseDate: 2025-09-02
+    upgradeVersion: "N/A"
+    eol: 2027-03-06
+    latest: "1.4.6.0"
+    latestReleaseDate: 2025-09-02
+
   - releaseCycle: "1.4.5.1"
     releaseDate: 2025-06-30
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.4.6.0"
     eol: 2027-03-06
     latest: "1.4.5.1"
     latestReleaseDate: 2025-06-30
@@ -179,8 +183,8 @@ releases:
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
     eol: 2025-03-15
-    latest: "1.1.0.0.R2"
-    latestReleaseDate: 2022-05-16
+    latest: "1.1.0.0.R3"
+    latestReleaseDate: 2022-12-23
 
   - releaseCycle: "1.0.5.1"
     releaseDate: 2021-10-01
@@ -193,8 +197,8 @@ releases:
     releaseDate: 2021-07-27
     upgradeVersion: "1.1.0.0"
     eol: 2023-01-30
-    latest: "1.0.5.0.R3"
-    latestReleaseDate: 2021-09-15
+    latest: "1.0.5.0.R5"
+    latestReleaseDate: 2022-05-16
 
   - releaseCycle: "1.0.4.2"
     releaseDate: 2021-06-01
@@ -244,6 +248,7 @@ releases:
     eol: 2020-05-19
     latest: "1.0.2.0.R3"
     latestReleaseDate: 2020-05-05
+
 ---
 
 > [Amazon Neptune](https://docs.aws.amazon.com/neptune/index.html) is a fast, reliable, fully
@@ -275,9 +280,3 @@ window.
 
 Legacy Engines are not considered Generally Available, and AWS guarantees no support for the same.
 Databases running on a Legacy Engine are subject to Service Level Agreement (SLA) Exceptions.
-
-{% include table.html
-labels="Engine Version,Upgrade To"
-fields="releaseCycle,upgradeVersion"
-types="string,string"
-rows=page.releases %}

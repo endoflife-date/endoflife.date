@@ -57,8 +57,8 @@ releases:
     releaseDate: 2018-01-22
     eoas: 2018-10-26
     eol: 2020-01-21
-    latest: "14.16.19"
-    latestReleaseDate: 2022-06-07
+    latest: "14.15.6"
+    latestReleaseDate: 2020-04-07
 
   - releaseCycle: "13"
     releaseDate: 2017-03-01

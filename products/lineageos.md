@@ -6,7 +6,7 @@ iconSlug: lineageos
 permalink: /lineageos
 alternate_urls:
   - /lineage
-releaseColumn: false
+latestColumn: false
 
 customFields:
   - name: androidVersion

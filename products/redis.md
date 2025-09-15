@@ -28,7 +28,6 @@ auto:
   methods:
     - git: https://github.com/redis/redis.git
     - release_table: https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version - Release date"
@@ -42,8 +41,8 @@ releases:
     releaseDate: 2025-08-04
     eoas: false
     eol: false
-    latest: "8.2.0"
-    latestReleaseDate: 2025-08-04
+    latest: "8.2.1"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
@@ -93,6 +92,7 @@ releases:
     eol: 2022-04-27
     latest: "5.0.14"
     latestReleaseDate: 2021-10-04
+
 ---
 
 > [Redis](https://redis.io/) is an in-memory data structure store, used
@@ -100,8 +100,8 @@ releases:
 > lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius
 > queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and
 > different levels of on-disk persistence, and provides high availability via
-> [Redis Sentinel](https://redis.io/docs/management/sentinel/) and automatic partitioning with
-> [Redis Cluster](https://docs.redis.com/latest/rc/concepts/clustering/).
+> [Redis Sentinel](https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/) and automatic partitioning with
+> [Redis Cluster](https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/).
 
 A new major version is planned for release once a year. Generally, every major release is followed
 by a minor version after six months. The latest stable release is always fully supported and

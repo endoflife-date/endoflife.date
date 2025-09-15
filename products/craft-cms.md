@@ -21,7 +21,6 @@ auto:
   methods:
     - git: https://github.com/craftcms/cms.git
     - release_table: https://craftcms.com/knowledge-base/supported-versions#1
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
@@ -29,7 +28,6 @@ auto:
         eoas: "Active Support Until"
         eol: "Security Support Until"
     - release_table: https://craftcms.com/knowledge-base/supported-versions#2
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
@@ -42,15 +40,15 @@ releases:
     releaseDate: 2024-03-26
     eoas: 2027-04-30
     eol: 2028-04-30
-    latest: "5.8.15"
-    latestReleaseDate: 2025-08-13
+    latest: "5.8.17"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "4"
     releaseDate: 2022-05-04
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: "4.16.11"
-    latestReleaseDate: 2025-08-13
+    latest: "4.16.13"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "3"
     releaseDate: 2018-04-04

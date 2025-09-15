@@ -7,8 +7,6 @@ iconSlug: oracle
 permalink: /oracle-jdk
 alternate_urls:
   - /oracle-java
-  - /java
-  - /jdk
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
@@ -27,7 +25,6 @@ auto:
   methods:
     - oracle-jdk: https://www.java.com/releases/
     - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-      selector: "table"
       render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
       fields:

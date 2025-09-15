@@ -38,7 +38,6 @@ auto:
   methods:
     - git: https://github.com/ansible/ansible.git
     - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-      selector: "table"
       fields:
         releaseCycle: "Version"
         releaseDate:
@@ -56,9 +55,9 @@ releases:
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
-    eol: 2027-11-30
-    latest: "2.19.0"
-    latestReleaseDate: 2025-07-21
+    eol: 2026-11-30
+    latest: "2.19.2"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -66,8 +65,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-04
     eol: 2026-05-31
-    latest: "2.18.8"
-    latestReleaseDate: 2025-08-11
+    latest: "2.18.9"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -75,8 +74,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-05-20
     eol: 2025-11-30
-    latest: "2.17.13"
-    latestReleaseDate: 2025-07-15
+    latest: "2.17.14"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "2.16"
     pythonVersionsControlNode: "3.10 - 3.12"

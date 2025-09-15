@@ -8,6 +8,7 @@ alternate_urls:
   - /postgres
   - /pg
   - /psql
+  - /pgsql
 versionCommand: psql -c "SELECT version();"
 releasePolicyLink: https://www.postgresql.org/support/versioning/
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
@@ -18,7 +19,6 @@ auto:
     - git: https://github.com/postgres/postgres.git
       regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
     - release_table: https://www.postgresql.org/support/versioning/
-      selector: "table"
       fields:
         releaseCycle: "Version"
         releaseDate: "First Release"

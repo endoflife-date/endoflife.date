@@ -14,7 +14,6 @@ auto:
     - git: https://github.com/nextcloud/server.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
-      selector: "table"
       fields:
         releaseCycle: "Version code"
         releaseDate: "Release date"
@@ -24,14 +23,14 @@ releases:
   - releaseCycle: "31"
     releaseDate: 2025-02-25
     eol: 2026-02-28
-    latest: "31.0.8"
-    latestReleaseDate: 2025-08-14
+    latest: "31.0.9"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "30"
     releaseDate: 2024-09-14
     eol: 2025-09-30
-    latest: "30.0.14"
-    latestReleaseDate: 2025-08-14
+    latest: "30.0.15"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "29"
     releaseDate: 2024-04-24

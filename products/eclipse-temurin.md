@@ -57,7 +57,6 @@ auto:
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: "{{version}}"
     - release_table: https://adoptium.net/support/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Java Version"

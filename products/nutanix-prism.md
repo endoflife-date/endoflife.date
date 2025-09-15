@@ -24,22 +24,22 @@ releases:
     releaseDate: 2025-06-24
     eoas: 2026-09-30
     eol: 2027-06-30
-    latest: "pc.7.3.0.5"
-    latestReleaseDate: 2025-08-05
+    latest: "pc.7.3.0.6"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "pc.2024.3"
     releaseDate: 2024-12-05
     eoas: 2026-03-31
     eol: 2026-12-31
-    latest: "pc.2024.3.1.6"
-    latestReleaseDate: 2025-07-24
+    latest: "pc.2024.3.1.7"
+    latestReleaseDate: 2025-08-25
 
   - releaseCycle: "pc.2024.2"
     releaseDate: 2024-09-17
     eoas: 2026-01-31
     eol: 2026-10-31
-    latest: "pc.2024.2.0.9"
-    latestReleaseDate: 2025-07-21
+    latest: "pc.2024.2.0.10"
+    latestReleaseDate: 2025-08-25
 
   - releaseCycle: "pc.2024.1"
     releaseDate: 2024-05-15
@@ -194,6 +194,7 @@ releases:
     eol: 2019-11-30
     latest: "5.10.6"
     latestReleaseDate: 2018-11-30
+
 ---
 
 > [Nutanix Prism](https://www.nutanix.com/uk/products/prism) is the control plane

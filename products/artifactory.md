@@ -19,15 +19,15 @@ auto:
     - declare: artifactory
       versions:
         # release date is wrong on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
-        - { name: "7.71.23", date: 2024-08-05 }
+        - {name: "7.71.23", date: 2024-08-05}
 
 # EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
   - releaseCycle: "7.117"
     releaseDate: 2025-07-14
     eol: 2027-01-14
-    latest: "7.117.12"
-    latestReleaseDate: 2025-08-05
+    latest: "7.117.15"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "7.111"
     releaseDate: 2025-04-23
@@ -178,6 +178,7 @@ releases:
     eol: 2023-02-11
     latest: "7.24.7"
     latestReleaseDate: 2021-12-16
+
 ---
 
 > [JFrog Artifactory](https://jfrog.com/artifactory/) is a binary repository manager software

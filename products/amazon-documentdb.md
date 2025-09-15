@@ -5,14 +5,13 @@ category: service
 tags: amazon database
 iconSlug: amazondocumentdb
 permalink: /amazon-documentdb
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Standard Support
 eoesColumn: End of Extended Support
 
 auto:
   methods:
     - release_table: https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-version-support-dates.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Engine version"

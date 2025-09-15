@@ -48,7 +48,6 @@ auto:
     - release_table: https://spring.io/projects/spring-boot#support
       render_javascript: true
       render_javascript_wait_until: networkidle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"
@@ -63,16 +62,16 @@ releases:
     releaseDate: 2025-05-31
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "3.5.4"
-    latestReleaseDate: 2025-07-24
+    latest: "3.5.5"
+    latestReleaseDate: 2025-08-21
 
   - releaseCycle: "3.4"
     supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/3.4/system-requirements.html
     releaseDate: 2024-11-30
     eol: 2025-12-31
     eoes: 2026-12-31
-    latest: "3.4.8"
-    latestReleaseDate: 2025-07-24
+    latest: "3.4.9"
+    latestReleaseDate: 2025-08-21
 
   - releaseCycle: "3.3"
     supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements

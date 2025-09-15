@@ -30,7 +30,6 @@ auto:
   methods:
     - git: https://github.com/statamic/cms.git
     - release_table: https://statamic.dev/release-schedule-support-policy
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle:
@@ -56,8 +55,8 @@ releases:
     eol: 2025-11-30
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.63.0"
-    latestReleaseDate: 2025-08-06
+    latest: "5.65.1"
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09

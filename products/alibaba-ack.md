@@ -9,13 +9,12 @@ alternate_urls:
   - /ack
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Support
 
 auto:
   methods:
     - release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "Version"
