@@ -24,6 +24,7 @@ auto:
         - 'tvOS\s+(?P<version>\d+)'
         - 'tvOS\s+(?P<version>\d+(?:\.\d+)+)'
 
+# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
