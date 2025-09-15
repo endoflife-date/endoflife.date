@@ -28,7 +28,7 @@ releases:
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0.0"
+    latest: "8.0"
     latestReleaseDate: 2025-08-23
 
   - releaseCycle: "7.1"
