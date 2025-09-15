@@ -31,9 +31,9 @@ releases:
     releaseDate: 2025-08-21
     eol: false
     eoas: false
-    latest: "5.0.0"
-    latestReleaseDate: 2025-08-21
-    
+    latest: "5.0.1"
+    latestReleaseDate: 2025-09-07
+
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eoas: 2025-08-21
@@ -61,6 +61,7 @@ releases:
     eol: true
     latest: "2.4.21"
     latestReleaseDate: 2020-12-03
+
 ---
 
 > [Apache Groovy](https://www.groovy-lang.org/) is a powerful, optionally typed and dynamic
