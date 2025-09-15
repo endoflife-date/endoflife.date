@@ -37,7 +37,7 @@ releases:
     latestGdr: "16.0.1150.1"
     latestGdrLink: https://support.microsoft.com/help/5065221
     latest: "16.0.4215.2 CU21"
-    latestReleaseDate: 2025-09-09
+    latestReleaseDate: 2025-09-11
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate21
 
   - releaseCycle: "13.0-sp3"
