@@ -24,10 +24,17 @@ auto:
         - 'tvOS\s+(?P<version>\d+)'
         - 'tvOS\s+(?P<version>\d+(?:\.\d+)+)'
 
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eol: false
+    latest: "26.0"
+    latestReleaseDate: 2025-09-15
+
   - releaseCycle: "18"
     releaseDate: 2024-09-16
-    eol: false
+    eol: 2025-09-15
     latest: "18.6"
     latestReleaseDate: 2025-07-29
 
