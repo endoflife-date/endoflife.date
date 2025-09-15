@@ -25,6 +25,14 @@ auto:
         - '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    codename: "Tahoe"
+    releaseDate: 2025-09-15
+    eol: false
+    latest: "26.0.0"
+    latestReleaseDate: 2025-09-15
+    link: https://support.apple.com/122868
+
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
@@ -44,7 +52,7 @@ releases:
   - releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
-    eol: false
+    eol: 2025-09-15
     latest: "13.7.8"
     latestReleaseDate: 2025-08-20
     link: https://support.apple.com/HT213268
