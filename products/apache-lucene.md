@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.2.2"
-    latestReleaseDate: 2025-06-20
+    latest: "10.3.0"
+    latestReleaseDate: 2025-09-13
 
   - releaseCycle: "9"
     releaseDate: 2021-12-07
@@ -38,6 +38,7 @@ releases:
     eol: true
     latest: "7.7.3"
     latestReleaseDate: 2020-04-24
+
 ---
 
 > [Apache Lucene](https://lucene.apache.org/) is an open-source search engine library written in Java.
