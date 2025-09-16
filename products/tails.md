@@ -21,13 +21,13 @@ releases:
     releaseDate: 2024-02-27
     eol: false
     latest: "6.19"
-    latestReleaseDate: 2025-08-21
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "5"
     releaseDate: 2022-05-03
     eol: 2024-02-27
-    latest: "5.20"
-    latestReleaseDate: 2023-11-28
+    latest: "5.22"
+    latestReleaseDate: 2024-01-29
 
   - releaseCycle: "4"
     releaseDate: 2019-10-22

@@ -37,16 +37,16 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.6.1"
-    latestReleaseDate: 2025-08-20
+    latest: "15.7"
+    latestReleaseDate: 2025-09-15
     link: https://support.apple.com/en-us/120283
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: "14.7.8"
-    latestReleaseDate: 2025-08-20
+    latest: "14.8"
+    latestReleaseDate: 2025-09-15
     link: https://support.apple.com/109035
 
   - releaseCycle: "13"

@@ -29,15 +29,15 @@ releases:
     releaseDate: 2025-08-22
     eol: false
     latest: "8.0"
-    latestReleaseDate: 2025-08-23
+    latestReleaseDate: 2025-08-22
 
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.1"
-    latestReleaseDate: 2025-03-03
+    latest: "7.1.2"
+    latestReleaseDate: 2025-09-14
 
   - releaseCycle: "7.0"
     codename: Dijkstra

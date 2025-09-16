@@ -51,6 +51,7 @@ releases:
     supportedPHPVersions: ">=5.3.3, <7.0"
     latest: "3.8.1"
     releaseDate: 2014-01-28
+    latestReleaseDate: 2014-01-28
 
 ---
 
