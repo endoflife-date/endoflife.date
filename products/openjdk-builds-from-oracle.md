@@ -21,7 +21,7 @@ identifiers:
 # Usually only two patch versions are released during the support period.
 releases:
   - releaseCycle: "25"
-    releaseDate: 2025-03-18
+    releaseDate: 2025-09-16
     eol: false # needs reviseted
     latest: "25"
     latestReleaseDate: 2025-09-16
