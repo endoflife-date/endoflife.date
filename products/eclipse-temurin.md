@@ -137,10 +137,11 @@ releases:
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-07-29
-    eol: 2026-11-30
+    eol: 2030-12-31
     latest: "8u462-b08"
     latestReleaseDate: 2025-07-21
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
+
 ---
 
 > [Eclipse Temurin](https://adoptium.net/temurin/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
