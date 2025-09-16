@@ -8,9 +8,7 @@ permalink: /tvos
 alternate_urls:
   - /apple-tvos
 releasePolicyLink: https://en.wikipedia.org/wiki/TvOS#Version_history
-# Release notes are not published for all minor or patch versions, so using only the major version.
-# Other release notes are easily accessible from that page, if available.
-changelogTemplate: "https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes"
+changelogTemplate: https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes
 eolColumn: Service Status
 
 identifiers:
@@ -96,12 +94,10 @@ releases:
     link: null
 ---
 
-> [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system
-> developed by Apple Inc. for the Apple TV, a digital media player. In the first-generation Apple
-> TV, Apple TV Software was based on Mac OS X. Starting with the second generation, the software is
-> based on the iOS operating system and has many similar frameworks, technologies, and concepts.
+> [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system developed by Apple Inc. for the Apple TV, a digital media player.
+> In the first-generation Apple TV, Apple TV Software was based on Mac OS X.
+> Starting with the second generation, the software is based on the iOS operating system and has many similar frameworks, technologies, and concepts.
 
 Major versions of tvOS are released annually, with the previous major version losing support.
 
-A [Compatibility Table](https://en.wikipedia.org/wiki/TvOS#Supported_OS_releases) for supported
-combinations of tvOS and Apple TV generations is available.
+A [Compatibility Table](https://en.wikipedia.org/wiki/TvOS#Supported_OS_releases) for supported combinations of tvOS and Apple TV generations is available.
