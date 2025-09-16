@@ -40,7 +40,6 @@ auto:
   methods:
     - github_releases: jetty/jetty.project
       regex: ^jetty-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
-      template: "{major}.{minor}.{patch}"
 
 # Support, EOL and minJavaVersion can be found on https://jetty.org/download.html.
 releases:
