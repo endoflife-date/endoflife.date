@@ -16,10 +16,18 @@ auto:
         - 'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
-  - releaseCycle: "2"
-    releaseDate: 2024-09-16
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
     eoas: false
     eol: false
+    latest: "26.0"
+    latestReleaseDate: 2025-09-15
+    link: https://www.apple.com/os/visionos/
+
+  - releaseCycle: "2"
+    releaseDate: 2024-09-16
+    eoas: 2025-09-15
+    eol: 2025-09-15
     latest: "2.6"
     latestReleaseDate: 2025-07-29
     link: https://support.apple.com/en-us/121164
