@@ -44,7 +44,7 @@ auto:
 # Support, EOL and minJavaVersion can be found on https://jetty.org/download.html.
 releases:
   - releaseCycle: "12.1"
-    releaseDate: 2023-08-18
+    releaseDate: 2025-08-18
     minJvmVersion: "17"
     servletVersion: "3.1 - 6.1"
     jspVersion: "2.3 - 3.1"
