@@ -2,6 +2,7 @@
 title: Kubernetes
 addedAt: 2020-07-28
 category: server-app
+tags: linux-foundation
 iconSlug: kubernetes
 permalink: /kubernetes
 alternate_urls:

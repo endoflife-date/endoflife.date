@@ -2,7 +2,7 @@
 title: nvm
 addedAt: 2024-12-06
 category: app
-tags: herodevs javascript-runtime
+tags: herodevs javascript-runtime linux-foundation
 iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm

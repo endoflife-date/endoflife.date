@@ -2,6 +2,7 @@
 title: Prometheus
 addedAt: 2023-07-17
 category: server-app
+tags: linux-foundation
 iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/

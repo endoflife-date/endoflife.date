@@ -2,6 +2,7 @@
 title: XCP-ng
 addedAt: 2023-02-08
 category: os
+tags: linux-foundation
 permalink: /xcp-ng
 alternate_urls:
   - /xcpng

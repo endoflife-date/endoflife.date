@@ -2,7 +2,7 @@
 title: Jenkins
 addedAt: 2022-11-21
 category: server-app
-tags: java-runtime
+tags: java-runtime linux-foundation
 iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
