@@ -21,6 +21,9 @@ auto:
     - git: "https://github.com/microsoft/openjdk-jdk21u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
+    - git: "https://github.com/microsoft/openjdk-jdk25u.git"
+      regex: '^jdk-(?P<version>[\d\.]+)-ga$'
+      template: "{{version}}"
     - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
       fields:
         releaseCycle:
@@ -30,6 +33,13 @@ auto:
 
 # Remember to update the "auto" configuration on each new major release.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-16
+    eol: false
+    latest: "25"
+    latestReleaseDate: 2025-09-16
+
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
