@@ -22,7 +22,7 @@ identifiers:
 releases:
   - releaseCycle: "25"
     releaseDate: 2025-09-16
-    eol: false # needs reviseted
+    eol:  2026-03-17 # attempted EOL date as per https://www.java.com/releases/, update when 26 is released
     latest: "25"
     latestReleaseDate: 2025-09-16
 
