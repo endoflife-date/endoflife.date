@@ -59,7 +59,7 @@ auto:
 releases:
   - releaseCycle: "9"
     releaseDate: 2024-11-12
-    eol: 2026-05-12
+    eol: 2026-11-10
     latest: "9.0.9"
     latestReleaseDate: 2025-09-09
 

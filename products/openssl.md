@@ -33,8 +33,8 @@ releases:
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
-    latest: "3.5.2"
-    latestReleaseDate: 2025-08-05
+    latest: "3.5.3"
+    latestReleaseDate: 2025-09-16
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
   - releaseCycle: "3.4"
@@ -114,6 +114,7 @@ releases:
     latest: "0.9.8zh"
     latestReleaseDate: 2015-12-03
     link: https://openssl-library.org/news/vulnerabilities-0.9.8/
+
 ---
 
 > [OpenSSL](https://openssl-library.org/) is a software library for applications that secure
