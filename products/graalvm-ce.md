@@ -24,6 +24,7 @@ releases:
   - releaseCycle: "25"
     releaseDate: 2025-09-16
     eol: false
+    lts: true
     latest: "25"
     latestReleaseDate: 2025-09-16
     
