@@ -62,8 +62,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.27"
-    latestReleaseDate: 2025-09-11
+    latest: "12.1.1"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "11"
     minJvmVersion: "11"
@@ -73,8 +73,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "11.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "11.0.26"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "10"
     minJvmVersion: "11"
@@ -84,8 +84,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "10.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "10.0.26"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "9.4"
     minJvmVersion: "1.8"
@@ -157,6 +157,7 @@ releases:
     eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
+
 ---
 
 > [Eclipse Jetty](https://jetty.org/) is an open-source (Apache-2.0 licensed) pure-Java

@@ -33,8 +33,8 @@ releases:
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.18.2"
-    latestReleaseDate: 2025-07-20
+    latest: "2.18.3"
+    latestReleaseDate: 2025-09-16
 
   - releaseCycle: "1"
     releaseDate: 2019-03-07
@@ -42,6 +42,7 @@ releases:
     eol: 2023-06-30
     latest: "1.22.10"
     latestReleaseDate: 2023-05-05
+
 ---
 
 > [Quasar](https://quasar.dev/) is an MIT licensed open-source Vue.js based framework, which allows
