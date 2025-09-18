@@ -31,7 +31,7 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2021-10-12
     eoas: 2023-07-24
-    eol: false
+    eol: 2025-01-09 # more than 1 year without update, and not listed on https://grails.apache.org/download.html anymore
     latest: "5.3.6"
     latestReleaseDate: 2024-01-09
 
