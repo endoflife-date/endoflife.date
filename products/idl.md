@@ -5,7 +5,7 @@ category: lang
 permalink: /idl
 versionCommand: idl -e 'print, !version.release'
 releasePolicyLink: https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/nv5-geospatial-technical-support-supported-versions-1
-changelogTemplate: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
+changelogTemplate: "https://www.nv5geospatialsoftware.com/docs/whatsnew_{{'__LATEST__'|drop_zero_patch|replace:'.','_'}}.html"
 eoasColumn: true
 
 releases:
