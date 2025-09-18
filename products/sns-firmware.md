@@ -8,6 +8,7 @@ versionCommand: getversion
 latestColumn: false
 eoasColumn: End of Maintenance
 eolColumn: End of Life
+staleReleaseThresholdYears: 5
 
 auto:
   methods:

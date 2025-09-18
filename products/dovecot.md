@@ -9,6 +9,7 @@ releasePolicyLink: https://dovecot.org/mailman3/archives/list/dovecot-news@dovec
 changelogTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
+staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: dovecot

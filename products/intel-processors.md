@@ -8,6 +8,7 @@ releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/0000
 latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
+staleReleaseThresholdYears: 7
 
 releases:
   - releaseCycle: "raptor-lake"

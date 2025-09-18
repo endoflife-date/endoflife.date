@@ -8,6 +8,7 @@ permalink: /apache-apisix
 alternate_urls:
   - /apisix
 changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
+staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -88,7 +89,7 @@ releases:
   - releaseCycle: "3.2"
     lts: true
     releaseDate: 2023-03-06
-    eol: false
+    eol: false # https://github.com/apache/apisix/issues/11759
     latest: "3.2.2"
     latestReleaseDate: 2023-07-22
 

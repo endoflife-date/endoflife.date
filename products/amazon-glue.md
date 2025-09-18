@@ -7,6 +7,7 @@ iconSlug: amazonaws
 permalink: /amazon-glue
 releasePolicyLink: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 latestColumn: false
+staleReleaseThresholdYears: 5
 
 customFields:
   - name: pythonVersion
