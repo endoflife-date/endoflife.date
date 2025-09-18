@@ -87,9 +87,9 @@ releases:
 
 ---
 
-> [IDL (Interactive Data Language)](https://www.nv5geospatialsoftware.com/Products/IDL) is a commercial programming language used for data analysis, visualization, and cross-platform application development.
+> [IDL](https://www.nv5geospatialsoftware.com/Products/IDL) (Interactive Data Language) is a commercial programming language developed and maintained by NV5 Geospatial Solutions.
+> It is used for data analysis, visualization, and cross-platform application development.
 > It is widely utilized in scientific and engineering fields, including astronomy, atmospheric physics, and medical imaging.
-> ([NASA Advanced Supercomputing][1], [Wikipedia][2])
 
 IDL is currently developed and maintained by NV5 Geospatial Solutions. According to the support policy:
 - The latest release is under active support.
