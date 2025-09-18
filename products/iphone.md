@@ -79,7 +79,7 @@ releases:
   - releaseCycle: "16-pro"
     releaseLabel: "16 Pro"
     releaseDate: 2024-09-20
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121031
     supportedIosVersions: "18"
@@ -87,7 +87,7 @@ releases:
   - releaseCycle: "16-pro-max"
     releaseLabel: "16 Pro Max"
     releaseDate: 2024-09-20
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121032
     supportedIosVersions: "18"
@@ -95,7 +95,7 @@ releases:
   - releaseCycle: "15"
     releaseLabel: "15"
     releaseDate: 2023-09-22
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/kb/SP901
     supportedIosVersions: "17 - 26"
@@ -103,7 +103,7 @@ releases:
   - releaseCycle: "15-plus"
     releaseLabel: "15 Plus"
     releaseDate: 2023-09-22
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/kb/SP902
     supportedIosVersions: "17 - 26"
