@@ -1,6 +1,6 @@
 ---
 title: IDL
-addedAt: 2025-08-28
+addedAt: 2025-09-18
 category: lang
 permalink: /idl
 versionCommand: idl -e 'print, !version.release'
