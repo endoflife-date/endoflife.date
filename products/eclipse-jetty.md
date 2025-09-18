@@ -54,7 +54,7 @@ releases:
     latest: "12.1.1"
     latestReleaseDate: 2025-09-08
 
-  - releaseCycle: "12"
+  - releaseCycle: "12.0"
     releaseDate: 2023-08-07
     minJvmVersion: "17"
     servletVersion: "3.1 - 6.0"
@@ -62,8 +62,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.1.1"
-    latestReleaseDate: 2025-09-08
+    latest: "12.0.27"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "11"
     minJvmVersion: "11"
