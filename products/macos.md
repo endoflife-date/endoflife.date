@@ -8,7 +8,7 @@ permalink: /macos
 alternate_urls:
   - /mac
 versionCommand: sw_vers
-releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
+changelogTemplate: "https://developer.apple.com/documentation/macos-release-notes/macos-__RELEASE_CYCLE__-release-notes"
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Service Status
 
@@ -25,29 +25,33 @@ auto:
         - '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    codename: "Tahoe"
+    releaseDate: 2025-09-15
+    eol: false
+    latest: "26.0.0"
+    latestReleaseDate: 2025-09-15
+
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.6.1"
-    latestReleaseDate: 2025-08-20
-    link: https://support.apple.com/en-us/120283
+    latest: "15.7"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: "14.7.8"
-    latestReleaseDate: 2025-08-20
-    link: https://support.apple.com/109035
+    latest: "14.8"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
-    eol: false
+    eol: 2025-09-15
     latest: "13.7.8"
     latestReleaseDate: 2025-08-20
-    link: https://support.apple.com/HT213268
 
   - releaseCycle: "12"
     codename: "Monterey"
@@ -55,7 +59,7 @@ releases:
     eol: 2024-09-16
     latest: "12.7.6"
     latestReleaseDate: 2024-07-29
-    link: https://support.apple.com/HT212585
+    link: https://developer.apple.com/documentation/macos-release-notes/macos-12_0_1-release-notes
 
   - releaseCycle: "11"
     codename: "Big Sur"
@@ -63,7 +67,7 @@ releases:
     eol: 2023-09-26
     latest: "11.7.10"
     latestReleaseDate: 2023-09-11
-    link: https://support.apple.com/HT211896
+    link: https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_0_1-release-notes
 
   - releaseCycle: "10.15"
     codename: "Catalina"
@@ -71,7 +75,7 @@ releases:
     eol: 2022-09-12
     latest: "10.15.7"
     latestReleaseDate: 2020-09-24
-    link: https://support.apple.com/HT210642
+    link: https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes
 
   - releaseCycle: "10.14"
     codename: "Mojave"
@@ -79,6 +83,7 @@ releases:
     eol: 2021-10-25
     latest: "10.14.6"
     latestReleaseDate: 2019-07-22
+    link: https://developer.apple.com/documentation/macos-release-notes/macos-mojave-10_14-release-notes
 
   - releaseCycle: "10.13"
     codename: "High Sierra"
@@ -86,6 +91,7 @@ releases:
     eol: 2020-12-01
     latest: "10.13.6"
     latestReleaseDate: 2018-07-09
+    link: https://en.wikipedia.org/wiki/MacOS_High_Sierra#Release_history
 
   - releaseCycle: "10.12"
     codename: "Sierra"
@@ -93,6 +99,7 @@ releases:
     eol: 2019-10-01
     latest: "10.12.6"
     latestReleaseDate: 2017-07-19
+    link: https://en.wikipedia.org/wiki/MacOS_Sierra#Release_history
 
   - releaseCycle: "10.11"
     codename: "El Capitan"
@@ -101,6 +108,7 @@ releases:
     eol: 2018-12-01
     latest: "10.11.6"
     latestReleaseDate: 2016-07-18
+    link: https://en.wikipedia.org/wiki/OS_X_El_Capitan#Release_history
 
   - releaseCycle: "10.10"
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -109,6 +117,7 @@ releases:
     eol: 2017-08-01
     latest: "10.10.5"
     latestReleaseDate: 2015-08-13
+    link: https://en.wikipedia.org/wiki/OS_X_Yosemite#Release_history
 
   - releaseCycle: "10.9"
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -117,6 +126,7 @@ releases:
     eol: 2016-12-01
     latest: "10.9.5"
     latestReleaseDate: 2014-09-17
+    link: https://en.wikipedia.org/wiki/OS_X_Mavericks#Release_history
 
   - releaseCycle: "10.8"
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -125,6 +135,7 @@ releases:
     eol: 2015-08-13
     latest: "10.8.5"
     latestReleaseDate: 2013-09-12
+    link: https://en.wikipedia.org/wiki/OS_X_Mountain_Lion#Release_history
 
   - releaseCycle: "10.7"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -133,6 +144,7 @@ releases:
     eol: 2012-10-04
     latest: "10.7.5"
     latestReleaseDate: 2012-09-19
+    link: https://en.wikipedia.org/wiki/OS_X_Lion#Release_history
 
   - releaseCycle: "10.6"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -141,6 +153,7 @@ releases:
     eol: 2011-07-25
     latest: "10.6.8"
     latestReleaseDate: 2011-07-25
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard#Release_history
 
   - releaseCycle: "10.5"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -149,6 +162,7 @@ releases:
     eol: 2009-08-13
     latest: "10.5.8"
     latestReleaseDate: 2009-08-13
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Leopard#Release_history
 
   - releaseCycle: "10.4"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -157,6 +171,7 @@ releases:
     eol: 2007-11-14
     latest: "10.4.11"
     latestReleaseDate: 2007-11-14
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Tiger#Release_history
 
   - releaseCycle: "10.3"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -165,6 +180,7 @@ releases:
     eol: 2005-04-15
     latest: "10.3.9"
     latestReleaseDate: 2005-04-15
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Panther#Release_history
 
   - releaseCycle: "10.2"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -173,6 +189,7 @@ releases:
     eol: 2003-10-03
     latest: "10.2.8"
     latestReleaseDate: 2003-10-03
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Jaguar#Release_history
 
   - releaseCycle: "10.1"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -181,6 +198,7 @@ releases:
     eol: 2002-06-06
     latest: "10.1.5"
     latestReleaseDate: 2002-06-06
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Puma#Release_history
 
   - releaseCycle: "10.0"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -189,12 +207,12 @@ releases:
     eol: 2001-06-22
     latest: "10.0.4"
     latestReleaseDate: 2001-06-22
+    link: https://en.wikipedia.org/wiki/Mac_OS_X_Cheetah#Release_history
 
 ---
 
-> [macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system
-> for Apple's Mac computers.
+> [macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
 Major versions of macOS are released once a year now and usually maintained for three years.
-Apple usually provides security updates for the latest 3 releases, but this isn't consistently
-applied and security fixes aren't guaranteed for the non-latest releases.
+Apple usually provides security updates for the latest 3 releases,
+but this isn't consistently applied and security fixes aren't guaranteed for the non-latest releases.

@@ -2,7 +2,7 @@
 title: Kyverno
 addedAt: 2024-07-04
 category: server-app
-tags: cncf kubernetes
+tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix

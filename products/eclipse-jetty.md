@@ -38,11 +38,23 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.eclipse.jetty/jetty-server
+    - github_releases: jetty/jetty.project
+      regex: ^jetty-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
-# Support, EOL and minJavaVersion can be found on https://eclipse.dev/jetty/download.php.
+# Support, EOL and minJavaVersion can be found on https://jetty.org/download.html.
 releases:
-  - releaseCycle: "12"
+  - releaseCycle: "12.1"
+    releaseDate: 2025-08-18
+    minJvmVersion: "17"
+    servletVersion: "3.1 - 6.1"
+    jspVersion: "2.3 - 3.1"
+    eoas: false
+    eol: false
+    eoes: false
+    latest: "12.1.1"
+    latestReleaseDate: 2025-09-08
+
+  - releaseCycle: "12.0"
     releaseDate: 2023-08-07
     minJvmVersion: "17"
     servletVersion: "3.1 - 6.0"
@@ -50,8 +62,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.21"
-    latestReleaseDate: 2025-05-09
+    latest: "12.0.27"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "11"
     minJvmVersion: "11"
@@ -61,8 +73,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "11.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "11.0.26"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "10"
     minJvmVersion: "11"
@@ -72,8 +84,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "10.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "10.0.26"
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "9.4"
     minJvmVersion: "1.8"
@@ -111,8 +123,8 @@ releases:
     servletVersion: "3.1"
     jspVersion: "2.3"
     releaseDate: 2013-11-15
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
 
@@ -121,8 +133,8 @@ releases:
     servletVersion: "3.1-beta"
     jspVersion: "2.3"
     releaseDate: 2013-03-08
-    eoas: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
 
@@ -131,8 +143,8 @@ releases:
     servletVersion: "3.0"
     jspVersion: "2.2"
     releaseDate: 2011-09-01
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
@@ -141,10 +153,11 @@ releases:
     servletVersion: "2.5"
     jspVersion: "2.1"
     releaseDate: 2009-10-05
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
+
 ---
 
 > [Eclipse Jetty](https://jetty.org/) is an open-source (Apache-2.0 licensed) pure-Java

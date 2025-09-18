@@ -2,7 +2,7 @@
 title: jQuery
 addedAt: 2022-02-09
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime linux-foundation
 iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__

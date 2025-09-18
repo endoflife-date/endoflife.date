@@ -2,7 +2,7 @@
 title: Kuma
 addedAt: 2024-08-02
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: kuma
 permalink: /kuma
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__

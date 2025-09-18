@@ -2,6 +2,7 @@
 title: Podman
 addedAt: 2024-09-23
 category: app
+tags: linux-foundation
 iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'

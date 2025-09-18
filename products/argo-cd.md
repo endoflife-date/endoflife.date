@@ -2,7 +2,7 @@
 title: Argo CD
 addedAt: 2023-08-06
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: argo
 permalink: /argo-cd
 alternate_urls:

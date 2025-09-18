@@ -2,7 +2,7 @@
 title: Node.js
 addedAt: 2019-05-27
 category: framework
-tags: javascript-runtime herodevs
+tags: javascript-runtime herodevs linux-foundation
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:

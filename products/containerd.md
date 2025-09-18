@@ -2,6 +2,7 @@
 title: containerd
 addedAt: 2024-03-10
 category: app
+tags: linux-foundation
 iconSlug: containerd
 permalink: /containerd
 versionCommand: containerd --version

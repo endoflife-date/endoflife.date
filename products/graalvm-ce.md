@@ -21,9 +21,15 @@ auto:
 # Release dates can be found on https://www.graalvm.org/release-calendar/.
 # eol(x) = releaseDate(x+1).
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-09-16
+    eol: false
+    latest: "25"
+    latestReleaseDate: 2025-09-16
+    
   - releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-16 # releaseDate(25)
+    eol: 2025-09-16
     latest: "24.0.2"
     latestReleaseDate: 2025-07-15
 

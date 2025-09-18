@@ -2,7 +2,7 @@
 title: cert-manager
 addedAt: 2023-12-15
 category: app
-tags: cncf
+tags: cncf linux-foundation
 permalink: /cert-manager
 versionCommand: |-
   # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.

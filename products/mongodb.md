@@ -49,10 +49,10 @@ releases:
     latestReleaseDate: 2025-08-08
 
   - releaseCycle: "8.0"
-    releaseDate: 2024-10-02
-    eol: false
-    latest: "8.0.13"
-    latestReleaseDate: 2025-08-14
+    releaseDate: 2024-10-31
+    eol: 2029-10-31
+    latest: "8.0.14"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
@@ -76,8 +76,8 @@ releases:
     latestReleaseDate: 2023-11-16
 
   - releaseCycle: "7.0"
-    releaseDate: 2023-08-15
-    eol: 2026-08-31
+    releaseDate: 2023-08-31
+    eol: 2027-08-31
     latest: "7.0.24"
     latestReleaseDate: 2025-09-04
 
@@ -103,8 +103,8 @@ releases:
     latestReleaseDate: 2023-01-03
 
   - releaseCycle: "6.0"
-    releaseDate: 2022-07-19
-    eol: 2025-07-31
+    releaseDate: 2022-07-31
+    eol: 2025-07-01
     latest: "6.0.26"
     latestReleaseDate: 2025-08-14
 
@@ -130,54 +130,54 @@ releases:
     latestReleaseDate: 2021-12-01
 
   - releaseCycle: "5.0"
-    releaseDate: 2021-07-13
-    eol: 2024-10-31
+    releaseDate: 2021-07-31
+    eol: 2024-10-01
     latest: "5.0.31"
     latestReleaseDate: 2025-01-22
 
   - releaseCycle: "4.4"
-    releaseDate: 2020-07-25
-    eol: 2024-02-29
+    releaseDate: 2020-07-31
+    eol: 2024-02-01
     latest: "4.4.29"
     latestReleaseDate: 2024-02-21
 
   - releaseCycle: "4.2"
-    releaseDate: 2019-08-13
+    releaseDate: 2019-08-31
     eol: 2023-04-30
     latest: "4.2.25"
     latestReleaseDate: 2023-12-04
     link: https://web.archive.org/web/20240411094103/https://www.mongodb.com/docs/v4.2/release-notes/4.2/
 
   - releaseCycle: "4.0"
-    releaseDate: 2018-06-26
-    eol: 2022-04-30
+    releaseDate: 2018-06-30
+    eol: 2022-04-01
     latest: "4.0.28"
     latestReleaseDate: 2022-01-24
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/4.0/
 
   - releaseCycle: "3.6"
-    releaseDate: 2017-11-29
-    eol: 2021-04-30
+    releaseDate: 2017-11-30
+    eol: 2021-04-01
     latest: "3.6.23"
     latestReleaseDate: 2021-03-16
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/3.6/
 
   - releaseCycle: "3.4"
-    releaseDate: 2016-11-29
+    releaseDate: 2016-11-30
     eol: 2020-01-31
     latest: "3.4.24"
     latestReleaseDate: 2020-01-24
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/3.4/
 
   - releaseCycle: "3.2"
-    releaseDate: 2015-12-08
+    releaseDate: 2015-12-31
     eol: 2018-09-30
     latest: "3.2.22"
     latestReleaseDate: 2018-12-26
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/3.2/
 
   - releaseCycle: "3.0"
-    releaseDate: 2015-03-03
+    releaseDate: 2015-03-31
     eol: 2018-02-28
     latest: "3.0.15"
     latestReleaseDate: 2017-05-10

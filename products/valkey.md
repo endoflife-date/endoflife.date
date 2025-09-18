@@ -2,6 +2,7 @@
 title: Valkey
 addedAt: 2025-01-14
 category: database
+tags: linux-foundation
 permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/

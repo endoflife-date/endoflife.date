@@ -32,14 +32,14 @@ releases:
   - releaseCycle: "10.11"
     releaseDate: 2025-08-15
     eol: 2026-08-15
-    latest: "10.11.2"
-    latestReleaseDate: 2025-08-22
+    latest: "10.11.3"
+    latestReleaseDate: 2025-09-16
 
   - releaseCycle: "10.10"
     releaseDate: 2025-07-16
     eol: 2025-10-15
-    latest: "10.10.2"
-    latestReleaseDate: 2025-08-14
+    latest: "10.10.3"
+    latestReleaseDate: 2025-09-16
 
   - releaseCycle: "10.9"
     releaseDate: 2025-06-16

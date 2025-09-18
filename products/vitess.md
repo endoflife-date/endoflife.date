@@ -2,6 +2,7 @@
 title: Vitess
 addedAt: 2025-02-24
 category: database
+tags: linux-foundation
 iconSlug: vitess
 permalink: /vitess
 versionCommand: vtctl --version
