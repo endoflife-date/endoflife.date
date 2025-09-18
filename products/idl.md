@@ -8,12 +8,6 @@ releasePolicyLink: https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools
 changelogTemplate: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
 eoasColumn: true
 
-identifiers:
-  - purl: pkg:generic/idl
-  - repology: idl
-  - cpe: cpe:2.3:a:idl:idl
-  - cpe: cpe:/a:idl:idl
-
 releases:
   - releaseCycle: "9.2"
     releaseDate: 2025-08-05
