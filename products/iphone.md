@@ -28,7 +28,7 @@ releases:
     link: https://www.apple.com/iphone-17/specs/
     supportedIosVersions: "26"
 
-  - releaseCycle: "Air"
+  - releaseCycle: "air"
     releaseLabel: "17 Air"
     releaseDate: 2025-09-19
     discontinued: false
