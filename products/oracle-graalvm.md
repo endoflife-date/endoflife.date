@@ -35,6 +35,13 @@ auto:
 # For non-LTS, eol(x) = releaseDate(x+1).
 # For LTS, EOL can be found on https://docs.oracle.com/en/graalvm/support-roadmap.html.
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-09-16
+    eol: 2030-09-30
+    eoes: 2033-09-30
+    latest: "24.0.2"
+    latestReleaseDate: 2025-09-16
+
   - releaseCycle: "24"
     releaseDate: 2025-03-18
     eol: 2025-09-30
