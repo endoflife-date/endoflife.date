@@ -5,7 +5,19 @@ category: lang
 permalink: /idl
 versionCommand: idl -e 'print, !version.release'
 releasePolicyLink: https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/nv5-geospatial-technical-support-supported-versions-1
-changelogTemplate: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html
+changelogTemplate: |
+  {% assign v = __LATEST__ | replace: '.', '_' %}
+  {% assign parts = __LATEST__ | split: '.' %}
+  {% assign major = parts[0] %}
+  {% assign minor = parts[1] %}
+
+  {% if major == "9" %}
+    https://www.nv5geospatialsoftware.com/docs/whatsnew_{{ v }}.html
+  {% elsif major == "8" and minor == "9" %}
+    https://www.nv5geospatialsoftware.com/docs/whatsnew_in_{{ v }}.html
+  {% else %}
+    https://www.nv5geospatialsoftware.com/docs/whats_new_{{ v }}.html
+  {% endif %}
 eoasColumn: true
 
 releases:
