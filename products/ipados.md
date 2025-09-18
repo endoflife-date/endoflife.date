@@ -5,7 +5,8 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /ipados
-releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
+releasePolicyLink: https://en.wikipedia.org/wiki/IPadOS_version_history
+changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
 auto:
@@ -24,7 +25,6 @@ releases:
     eol: false
     latest: "26"
     latestReleaseDate: 2025-09-15
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-26-release-notes
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
@@ -32,7 +32,6 @@ releases:
     eol: false
     latest: "18.7"
     latestReleaseDate: 2025-09-15
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-18-release-notes
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -40,7 +39,6 @@ releases:
     eol: false
     latest: "17.7.10"
     latestReleaseDate: 2025-08-20
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
   - releaseCycle: "16"
     releaseDate: 2022-10-24
@@ -48,7 +46,6 @@ releases:
     eol: 2025-03-31
     latest: "16.7.12"
     latestReleaseDate: 2025-09-15
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
@@ -56,7 +53,6 @@ releases:
     eol: 2025-03-31
     latest: "15.8.5"
     latestReleaseDate: 2025-09-15
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-15-release-notes
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
@@ -64,7 +60,6 @@ releases:
     eol: 2021-10-01
     latest: "14.8.1"
     latestReleaseDate: 2021-10-26
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-14-release-notes
 
   - releaseCycle: "13"
     releaseDate: 2019-09-24
@@ -76,9 +71,9 @@ releases:
 
 ---
 
-> [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad
-> line of devices. It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
+> [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
+> It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
 
-Major versions of iPadOS are released annually and might lag behind corresponding iOS releases.
+Major versions of iPadOS are released annually.
 
 Support information for iPad devices is available at [/ipad](/ipad).
