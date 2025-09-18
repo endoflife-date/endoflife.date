@@ -10,11 +10,11 @@ eoasColumn: true
 
 releases:
   - releaseCycle: "9.2"
-    releaseDate: 2025-08-05
+    releaseDate: 2025-08-15
     eoas: false
     eol: false
     latest: "9.2.0"
-    latestReleaseDate: 2025-07-01
+    latestReleaseDate: 2025-08-15
 
   - releaseCycle: "9.1"
     releaseDate: 2024-09-25
@@ -42,14 +42,15 @@ releases:
     eoas: true
     eol: true
     latest: "8.8.1"
-    latestReleaseDate: 2021-09-10
+    latest: "8.8.3"
+    latestReleaseDate: 2022-10-31
 
   - releaseCycle: "8.7"
     releaseDate: 2018-02-19
     eoas: true
     eol: true
-    latest: "8.7.0"
-    latestReleaseDate: 2020-07-01
+    latest: "8.7.3"
+    latestReleaseDate: 2020-02-20
 
   - releaseCycle: "8.6"
     releaseDate: 2016-12-06
@@ -85,12 +86,5 @@ releases:
 > It is used for data analysis, visualization, and cross-platform application development.
 > It is widely utilized in scientific and engineering fields, including astronomy, atmospheric physics, and medical imaging.
 
-IDL is currently developed and maintained by NV5 Geospatial Solutions. According to the support policy:
-- The latest release is under active support.
-- The three preceding releases receive limited support.
-- Versions older than that are unsupported.
-
-[1]: https://www.nas.nasa.gov/hecc/support/kb/interactive-data-language-%28idl%29_119.html "Interactive Data Language (IDL) - HECC Knowledge Base"
-[2]: https://en.wikipedia.org/wiki/IDL_%28programming_language%29 "IDL (programming language)"
-[3]: https://www.nv5geospatialsoftware.com/docs/whatsnewpreviouslist.html "What's New (Previous IDL Releases) - NV5 Geospatial Software"
-[4]: https://www.nv5geospatialsoftware.com/Support/Maintenance-Detail/end-of-life-policy-enforcement-for-envi-53-idl-85-and-earlier-versions "End-of-Life Policy Enforcement for ENVI 5.3 / IDL 8.5 and Earlier ..."
+Only the latest release is supported with service packs, patches, and hot fixes.
+The previous three releases receive limited support, which does not include bug fixes.
