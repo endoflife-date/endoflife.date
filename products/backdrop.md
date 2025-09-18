@@ -8,6 +8,10 @@ releasePolicyLink: https://backdropcms.org/releases
 releaseImage: https://backdropcms.org/files/images/release-cycles.png
 changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
+auto:
+  methods:
+    - github_releases: backdrop/backdrop
+
 # eol(x) = releaseDate(x+2)
 releases:
   - releaseCycle: "1.29"
