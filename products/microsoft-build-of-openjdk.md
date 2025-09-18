@@ -80,7 +80,4 @@ Microsoft also provides [commercial support](https://learn.microsoft.com/java/op
 for Microsoft Build of OpenJDK. The support policy follows [Microsoft's Modern Lifecycle
 Policy](https://learn.microsoft.com/lifecycle/policies/modern).
 
-Microsoft Build of OpenJDK is one of the many builds of OpenJDK. For recommendations on which JDK
-build to use, check out [whichjdk.com](https://whichjdk.com/#microsoft-build-of-openjdk).
-
 *[LTS]: Long-Term Support

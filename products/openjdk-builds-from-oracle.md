@@ -135,6 +135,3 @@ OpenJDK builds from Oracle follows the same cadence as OpenJDK, with a 6-month r
 
 All releases, including LTS release of OpenJDK, are supported for 6 months, meaning the release
 of a new major version of OpenJDK will end support for the previous major version.
-
-OpenJDK builds from Oracle is one of the many builds of OpenJDK. For recommendations on which JDK
-build to use, check out [whichjdk.com](https://whichjdk.com/#openjdk-builds-by-oracle-jdkjavanet).

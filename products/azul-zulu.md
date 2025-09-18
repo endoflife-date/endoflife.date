@@ -258,9 +258,6 @@ general availability of the next LTS release.
 
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
 
-Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
-out [whichjdk.com](https://whichjdk.com/#azul-zulu).
-
 *[CA]: Community Availability
 *[LTS]: Long-Term Support
 *[MTS]: Medium-Term Support

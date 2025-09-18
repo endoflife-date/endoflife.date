@@ -103,7 +103,4 @@ Dragonwell builds are only released for LTS OpenJDK releases (8, 11, 17, 21...),
 OpenJDK release cadence — a new major version every two years (since 2021) supported for at least
 four years with quarterly maintenance/security updates (typically January, April, July, and October).
 
-Dragonwell is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
-check out [whichjdk.com](https://whichjdk.com/#alibaba-dragonwell).
-
 *[LTS]: Long-Term Support

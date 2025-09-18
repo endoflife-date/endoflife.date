@@ -159,7 +159,4 @@ Following OpenJDK, Temurin provides a new feature release every six months. Thos
 supported for six months. Every two years (since 2021), one feature release is designated as a
 LTS release and is supported for at least four years.
 
-Temurin is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
-out [whichjdk.com](https://whichjdk.com/#adoptium-eclipse-temurin).
-
 *[LTS]: Long-Term Support

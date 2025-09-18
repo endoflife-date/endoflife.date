@@ -174,7 +174,4 @@ project and from Amazon. The list of Amazon patches can be seen in [each version
 Updates are planned to be released quarterly, but urgent fixes (including security) outside the
 regular quarterly cycle may occur.
 
-Corretto is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
-out [whichjdk.com](https://whichjdk.com/#amazon-corretto).
-
 *[LTS]: Long-Term Support

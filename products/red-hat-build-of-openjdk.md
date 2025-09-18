@@ -130,6 +130,3 @@ OpenJDK 11 will receive a review later in its lifecycle, and the lifetime may be
 
 OpenJDK 8 is [not supported on RHEL6](https://access.redhat.com/articles/4997301), even with
 Extended Life Cycle Support (ELS) Add-on for RHEL 6.
-
-Red Hat build of OpenJDK is one of the many builds of OpenJDK. For
-recommendations on which JDK build to use, check out [whichjdk.com](https://whichjdk.com/#red-hat-openjdk).

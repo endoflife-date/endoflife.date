@@ -418,7 +418,4 @@ For LTS releases, [commercial support can be purchased](https://bell-sw.com/supp
 8 years (from the initial release) of access to bug fixes, security updates, and other fixes as
 needed.
 
-Liberica JDK is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
-check out [whichjdk.com](https://whichjdk.com/#bellsoft-liberica-jdk).
-
 *[LTS]: Long-Term Support

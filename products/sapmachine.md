@@ -124,7 +124,4 @@ the LTS frequency was increased to every 2 years (every fourth OpenJDK release).
 Updates are planned to be released quarterly, with performance enhancements and security updates.
 Urgent fixes (including security) outside the regular quarterly cycle may occur.
 
-SapMachine is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
-check out [whichjdk.com](https://whichjdk.com/#sapmachine).
-
 *[LTS]: Long-Term Support

@@ -94,7 +94,4 @@ The LTS release cadence is currently one release every 2 years, supported until 
 maintenance ends (at least 2 years, but usually much more). Security updates and bug fixes are
 released quarterly.
 
-IBM Semeru Runtimes is one of the many builds of OpenJDK. For recommendations on which JDK build to
-use, check out [whichjdk.com](https://whichjdk.com/#ibm-semeru-runtime).
-
 *[LTS]: Long-Term Support
