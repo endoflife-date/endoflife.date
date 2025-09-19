@@ -1,5 +1,6 @@
+---
 title: Commvault
-addedAt: "2025-09-20"
+addedAt: 2025-09-20
 permalink: /commvault
 alternate_urls:
   - /commvault-backup
@@ -9,31 +10,35 @@ category: app
 tags: backup
 releases:
   - releaseCycle: "11.40"
-    releaseDate: "2025-06-15"
-    eol: "2027-12-15"
+    releaseDate: 2025-06-15
+    eol: 2027-12-15
     lts: true
     latest: "11.40.16"
-    latestReleaseDate: "2025-09-02"
+    latestReleaseDate: 2025-09-02
     link: https://docs.commvault.com/11.40/essential/releases.html
+  
   - releaseCycle: "11.38"
-    releaseDate: "2025-02-15"
-    eol: "2025-07-18"
+    releaseDate: 2025-02-15
+    eol: 2025-07-18
     latest: "11.38.37"
     link: https://docs.commvault.com/11.38/essential/platform_release_schedule_and_lifereleaseCycles.html
+  
   - releaseCycle: "11.36"
     releaseLabel: "2024E"
-    releaseDate: "2024-08-15"
+    releaseDate: 2024-08-15
     lts: true
-    eol: "2027-06-15"
+    eol: 2027-06-15
     latest: "11.36.72"
-    latestReleaseDate: "2025-09-02"
+    latestReleaseDate: 2025-09-02
     link: https://docs.commvault.com/11.36/essential/platform_release_schedule_and_lifereleaseCycles.html
+  
   - releaseCycle: "11.32"
     releaseLabel: "2023E"
-    releaseDate: "2023-08-15"
+    releaseDate: 2023-08-15
     lts: true
-    eol: "2026-06-15"
+    eol: 2026-06-15
     latest: "11.32.115"
-    latestReleaseDate: "2025-09-02"
+    latestReleaseDate: 2025-09-02
     link: https://docs.commvault.com/11.32/essential/platform_release_schedule_and_lifereleaseCycles.html
     
+---
