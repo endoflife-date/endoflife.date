@@ -268,7 +268,7 @@ releases:
     eol: 2031-09-30
     eoes: 2034-03-31
     latest: "25+37"
-    latestReleaseDate: 2025-09-16
+    latestReleaseDate: 2025-09-17
 
   - releaseCycle: "24"
     releaseDate: 2025-03-19
@@ -398,6 +398,7 @@ releases:
     eoes: 2026-03-31
     latest: "unknown"
     link: null
+
 ---
 
 > [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

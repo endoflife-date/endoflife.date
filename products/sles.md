@@ -41,8 +41,8 @@ releases:
 
   - releaseCycle: "15.6"
     releaseDate: 2024-06-26
-    eol: 2025-12-17
-    eoes: 2028-12-17
+    eol: 2025-12-31
+    eoes: 2028-12-31
 
   - releaseCycle: "15.5"
     releaseDate: 2023-06-20
