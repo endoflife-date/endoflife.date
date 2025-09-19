@@ -32,6 +32,13 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/
 releases:
+  - releaseCycle: "18.4"
+    releaseDate: 2025-09-18
+    eoas: 2025-10-16 # releaseDate(18.5)
+    eol: 2025-12-18 # releaseDate(18.7)
+    latest: "18.4.0"
+    latestReleaseDate: 2025-09-18
+
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
