@@ -62,8 +62,8 @@ releases:
     testedAndroidVersions: "8.4 - 8.11"
     eoas: false
     eol: false
-    latest: "9.0.0"
-    latestReleaseDate: 2025-07-31
+    latest: "9.1.0"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "8"
     releaseDate: 2023-02-10
@@ -163,6 +163,7 @@ releases:
     eol: 2014-07-01
     latest: "1.12.0"
     latestReleaseDate: 2014-04-29
+
 ---
 
 > [Gradle](https://gradle.org/) is a build tool with a focus on build automation and support for

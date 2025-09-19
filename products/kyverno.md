@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "1.15"
     releaseDate: 2025-07-31
     eol: false
-    latest: "1.15.1"
-    latestReleaseDate: 2025-08-15
+    latest: "1.15.2"
+    latestReleaseDate: 2025-09-18
     supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
 
   - releaseCycle: "1.14"
