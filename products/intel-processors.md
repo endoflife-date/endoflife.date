@@ -56,7 +56,7 @@ releases:
     releaseLabel: "Lakefield"
     releaseDate: 2020-06-19
     discontinued: true
-    eol: false
+    eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/81657/products-formerly-lakefield.html
 
   - releaseCycle: "ice-lake"
