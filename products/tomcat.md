@@ -23,7 +23,7 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.tomcat/tomcat
+    - git: https://github.com/apache/tomcat.git
 
 # EOL can be seen on https://tomcat.apache.org/whichversion.html
 releases:
