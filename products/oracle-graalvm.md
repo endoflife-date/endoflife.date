@@ -16,14 +16,6 @@ auto:
   methods:
     - graalvm: https://www.graalvm.org/release-calendar/
       versions_column: Oracle GraalVM
-    - release_table: https://docs.oracle.com/en/graalvm/support-roadmap.html
-      fields:
-        releaseCycle:
-          column: "Release"
-          regex: '^Oracle GraalVM for JDK (?P<value>\d+).*$'
-        #releaseDate: "GA Date" # release dates are approximate, using versions instead.
-        eol: "Premier Support Until"
-        eoes: "Extended Support Until"
     - release_table: https://www.graalvm.org/release-calendar/
       fields:
         releaseCycle:
