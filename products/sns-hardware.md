@@ -7,7 +7,7 @@ permalink: /sns-hardware
 latestColumn: false
 eoasColumn: End of Sales
 eolColumn: End of Life
-staleReleaseThresholdYears: 5
+staleReleaseThresholdYears: 10
 
 customFields:
   - name: lowestSNSVersion

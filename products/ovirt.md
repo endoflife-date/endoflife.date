@@ -2,9 +2,11 @@
 title: oVirt
 addedAt: 2024-01-08
 category: server-app
+tags: java-runtime
 permalink: /ovirt
 releasePolicyLink: https://blogs.ovirt.org/2022/04/ovirt-4-4-end-of-life/
 changelogTemplate: https://github.com/oVirt/ovirt-engine/releases/tag/ovirt-engine-__LATEST__
+staleReleaseThresholdYears: 2
 
 auto:
   methods:

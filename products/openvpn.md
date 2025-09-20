@@ -7,6 +7,7 @@ permalink: /openvpn
 releasePolicyLink: https://community.openvpn.net/openvpn/wiki/SupportedVersions
 changelogTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
 eoasColumn: Full Stable Support
+staleReleaseThresholdYears: 2
 
 auto:
   methods:

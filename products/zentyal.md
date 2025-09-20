@@ -8,6 +8,7 @@ releasePolicyLink: https://zentyal.com/release-policy/
 latestColumn: false
 eolColumn: Development Edition Support
 eoesColumn: Commercial Support
+staleReleaseThresholdYears: 4
 
 customFields:
   - name: ubuntuVersion
