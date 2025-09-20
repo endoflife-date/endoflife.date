@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "2.4"
     releaseDate: 2020-12-15
-    eol: false
+    eol: 2025-05-25 # more than 1 year without update, and not listed on https://hbase.apache.org/downloads.html anymore
     latest: "2.4.18"
     latestReleaseDate: 2024-05-25
 
