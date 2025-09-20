@@ -24,7 +24,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.camel/camel
+    - git: https://github.com/apache/camel.git
+      regex: '^camel-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # For LTS: eol = releaseDate + 1 year
 # For non-LTS : eol(x) = releaseDate(x+1)
