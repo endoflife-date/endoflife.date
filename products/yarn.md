@@ -7,6 +7,7 @@ iconSlug: yarn
 permalink: /yarn
 versionCommand: yarn --version
 changelogTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
+staleReleaseThresholdYears: 4
 
 identifiers:
   - purl: pkg:github/yarnpkg/berry
