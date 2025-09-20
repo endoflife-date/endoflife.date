@@ -30,14 +30,14 @@ releases:
     latestReleaseDate: 2025-07-07
 
   - releaseCycle: "1.2"
-    releaseDate: 2000-02-05
+    releaseDate: 2025-02-05
     eol: 2025-05-21
     latest: "1.2.2"
     latestReleaseDate: 2001-04-07
 
   - releaseCycle: "1.1"
     releaseDate: 2024-09-09
-    eol: 2000-02-05
+    eol: 2025-02-05
     latest: "1.1.3"
     latestReleaseDate: 2024-11-02 
     
