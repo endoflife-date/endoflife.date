@@ -27,7 +27,7 @@ releases:
   - releaseCycle: "rocket-lake"
     releaseLabel: "Rocket Lake"
     releaseDate: 2021-03-30
-    discontinued: false
+    discontinued: 2024-02-23 # https://www.tomshardware.com/news/intel-says-goodbye-to-rocket-lake-cpus
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/192985/products-formerly-rocket-lake.html
 
