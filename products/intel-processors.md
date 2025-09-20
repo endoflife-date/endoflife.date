@@ -70,7 +70,7 @@ releases:
   - releaseCycle: "comet-lake"
     releaseLabel: "Comet Lake"
     releaseDate: 2019-08-21
-    discontinued: false
+    discontinued: 2022-09-30 # https://en.wikipedia.org/wiki/Comet_Lake
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/90354/products-formerly-comet-lake.html
 
