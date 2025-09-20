@@ -55,7 +55,7 @@ releases:
   - releaseCycle: "lakefield"
     releaseLabel: "Lakefield"
     releaseDate: 2020-06-19
-    discontinued: true
+    discontinued: 2021-07-07 # https://www.tomshardware.com/news/intel-retires-lakefield
     eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/81657/products-formerly-lakefield.html
 
