@@ -9,6 +9,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
+staleReleaseThresholdYears: 5
 
 customFields:
   - name: supportedIpadOsVersions

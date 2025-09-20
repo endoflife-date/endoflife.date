@@ -8,6 +8,7 @@ releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versionin
 eolColumn: Support
 eoesColumn: true
 latestColumn: false
+staleReleaseThresholdYears: 8
 
 identifiers:
   - repology: ckeditor

@@ -9,6 +9,7 @@ releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Active Maintenance
+staleReleaseThresholdYears: 2
 
 customFields:
   - name: minRubyVersion

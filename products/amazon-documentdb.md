@@ -8,6 +8,7 @@ permalink: /amazon-documentdb
 latestColumn: false
 eolColumn: End of Standard Support
 eoesColumn: End of Extended Support
+staleReleaseThresholdYears: 5
 
 auto:
   methods:
