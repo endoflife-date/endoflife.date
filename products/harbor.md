@@ -45,10 +45,16 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/goharbor/harbor.git
+    - github_releases: goharbor/harbor
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "2.14"
+    releaseDate: 2025-09-17
+    eol: false
+    latest: "2.14.0"
+    latestReleaseDate: 2025-09-17
+
   - releaseCycle: "2.13"
     releaseDate: 2025-04-09
     eol: false
@@ -63,7 +69,7 @@ releases:
 
   - releaseCycle: "2.11"
     releaseDate: 2024-06-04
-    eol: false
+    eol: 2025-09-17
     latest: "2.11.2"
     latestReleaseDate: 2024-11-19
 
