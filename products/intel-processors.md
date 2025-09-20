@@ -11,6 +11,26 @@ discontinuedColumn: true
 staleReleaseThresholdYears: 7
 
 releases:
+  - releaseCycle: "arrow-lake"
+    releaseLabel: "Arrow Lake"
+    releaseDate: 2024-10-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/225837/products-formerly-arrow-lake.html
+
+  - releaseCycle: "lunar-lake"
+    releaseLabel: "Lunar Lake"
+    releaseDate: 2024-09-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html
+  
+  - releaseCycle: "meteor-lake"
+    releaseLabel: "Meteor Lake"
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html
+
   - releaseCycle: "raptor-lake"
     releaseLabel: "Raptor Lake"
     releaseDate: 2022-10-20
