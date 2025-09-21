@@ -98,7 +98,7 @@ releases:
   - releaseCycle: "apollo-lake"
     releaseLabel: "Apollo Lake"
     releaseDate: 2016-08-30
-    discontinued: false # TODO: This is likely incorrect, but I am assuming it is under production due to this CPU being launched semi recently and having its status say not discontinued: https://ark.intel.com/content/www/us/en/ark/products/195253/intel-pentium-processor-n4200e-2m-cache-up-to-2-50-ghz.html
+    discontinued: true
     eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/80644/products-formerly-apollo-lake.html
 
