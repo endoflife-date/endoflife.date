@@ -49,7 +49,7 @@ releases:
   - releaseCycle: "tiger-lake"
     releaseLabel: "Tiger Lake"
     releaseDate: 2020-09-02
-    discontinued: false
+    discontinued: 2024-01-26 # https://www.tomshardware.com/news/intel-terminates-11th-gen-tiger-lake-cpus-500-series-mobile-chipsets
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/88759/products-formerly-tiger-lake.html
 
