@@ -27,6 +27,7 @@ releases:
   
   - releaseCycle: "meteor-lake"
     releaseLabel: "Meteor Lake"
+    releaseDate: 2023-12-14
     discontinued: false
     eol: false
     link: https://www.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html
