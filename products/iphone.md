@@ -9,7 +9,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 5
+staleReleaseThresholdYears: 8
 
 customFields:
   - name: supportedIosVersions
