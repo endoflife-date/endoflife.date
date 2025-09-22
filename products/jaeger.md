@@ -138,3 +138,5 @@ releases:
     eol: false
     latest: "1.60.0"
     latestReleaseDate: 2025-09-03
+
+---
