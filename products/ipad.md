@@ -146,7 +146,7 @@ releases:
     releaseLabel: "iPad (7th generation)"
     releaseDate: 2019-09-25
     discontinued: 2020-09-15
-    eol: 2025-09-15
+    eol: false
     link: https://support.apple.com/kb/SP807
     supportedIpadOsVersions: "13 - 18"
 
