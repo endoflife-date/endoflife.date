@@ -19,6 +19,12 @@ auto:
 
 # eol releases announced in new versions blog posts
 releases:
+  - releaseCycle: "6.1"
+    releaseDate: 2025-09-21
+    eol: false
+    latest: "6.1.0"
+    latestReleaseDate: 2025-09-21
+
   - releaseCycle: "6.0"
     releaseDate: 2024-11-10
     eol: false
@@ -33,7 +39,7 @@ releases:
 
   - releaseCycle: "5.0"
     releaseDate: 2022-03-28
-    eol: false
+    eol: 2025-09-21 # https://www.redmine.org/news/156
     latest: "5.0.14"
     latestReleaseDate: 2025-09-21
 
