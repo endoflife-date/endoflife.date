@@ -79,7 +79,7 @@ releases:
     latest: "1.72.0"
     latestReleaseDate: 2025-08-06
   - releaseCycle: "1.71"
-    releaseDate: 2024-11-10
+    releaseDate: 2025-07-05
     eol: false
     latest: "1.71.0"
     latestReleaseDate: 2025-07-05
@@ -140,3 +140,4 @@ releases:
     latestReleaseDate: 2025-09-03
 
 ---
+
