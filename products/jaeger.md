@@ -4,25 +4,15 @@ addedAt: 2025-09-22
 category: app
 iconSlug: jaeger
 permalink: /jaeger
-
 changelogTemplate: https://github.com/jaegertracing/jaeger/releases/tag/v__LATEST__
 eolColumn: Security Support
 
-# Auto-update release configuration (optional).
-# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
-# Multiple configurations are allowed.
-# Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration modifies the product page so that users are informed that existing
-# releases are automatically updated with latest versions.
 auto:
   methods:
     - git: https://github.com/jaegertracing/jaeger.git
 identifiers:
   - repology: jaeger
 releases:
-  # Release cycle name (mandatory, unique, always put in quotes).
-  # Only lowercase letters, numbers, dots, dashes, plus and underscores are allowed (/^[a-z0-9.\-_+]+$/).
-  # This is usually major.minor. Do not prefix with "v" or suffix with ".x".
   - releaseCycle: "2.10"
     releaseDate: 2025-09-03
     eol: false
