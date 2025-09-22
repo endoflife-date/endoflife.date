@@ -9,7 +9,7 @@ releasePolicyLink: https://support.apple.com/watch
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 5
+staleReleaseThresholdYears: 6
 
 customFields:
   - name: supportedWatchOsVersions
