@@ -138,7 +138,7 @@ releases:
     releaseLabel: "iPad Pro 11-inch (2nd generation)"
     releaseDate: 2020-03-01
     discontinued: 2021-04-01
-    eol: 2027-09-15 # 3-year support expected for iPadOS 18
+    eol: false
     link: https://support.apple.com/en-us/118452
     supportedIpadOsVersions: "10 - 26"
 
@@ -178,7 +178,7 @@ releases:
     releaseLabel: "iPad Pro 11-inch (1st generation)"
     releaseDate: 2018-11-01
     discontinued: 2020-03-01
-    eol: 2027-09-15 # 3-year support expected for iPadOS 18
+    eol: false
     link: https://support.apple.com/en-us/111974
     supportedIpadOsVersions: "9 - 26"
 
