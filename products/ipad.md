@@ -140,7 +140,7 @@ releases:
     discontinued: 2021-04-01
     eol: 2027-09-15 # 3-year support expected for iPadOS 18
     link: https://support.apple.com/en-us/118452
-    supportedIpadOsVersions: "10 - 18"
+    supportedIpadOsVersions: "10 - 26"
 
   - releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
@@ -180,7 +180,7 @@ releases:
     discontinued: 2020-03-01
     eol: 2027-09-15 # 3-year support expected for iPadOS 18
     link: https://support.apple.com/en-us/111974
-    supportedIpadOsVersions: "9 - 18"
+    supportedIpadOsVersions: "9 - 26"
 
   - releaseCycle: "6"
     releaseLabel: "iPad (6th generation)"
