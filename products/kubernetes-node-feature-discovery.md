@@ -29,14 +29,14 @@ releases:
   - releaseCycle: "0.17"
     releaseDate: 2024-12-22
     eol: false
-    latest: "0.17.3"
-    latestReleaseDate: 2025-04-24
+    latest: "0.17.4"
+    latestReleaseDate: 2025-09-22
 
   - releaseCycle: "0.16"
     releaseDate: 2024-05-27
     eol: false
-    latest: "0.16.8"
-    latestReleaseDate: 2025-04-24
+    latest: "0.16.9"
+    latestReleaseDate: 2025-09-22
 
   - releaseCycle: "0.15"
     releaseDate: 2023-08-08
@@ -61,6 +61,7 @@ releases:
     eol: 2023-09-12
     latest: "0.12.5"
     latestReleaseDate: 2023-07-21
+
 ---
 
 > [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a Kubernetes add-on for
