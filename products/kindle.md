@@ -65,7 +65,7 @@ releases:
   - releaseCycle: "oasis-9"
     releaseLabel: "Kindle Oasis (9th Generation)"
     releaseDate: 2017-10-31
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis9Notes
@@ -73,7 +73,7 @@ releases:
   - releaseCycle: "kindle-8"
     releaseLabel: "Kindle (8th Generation)"
     releaseDate: 2016-06-22
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Kindle8Notes
@@ -81,7 +81,7 @@ releases:
   - releaseCycle: "oasis-8"
     releaseLabel: "Kindle Oasis (8th Generation)"
     releaseDate: 2016-04-27
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis8Notes
@@ -89,7 +89,7 @@ releases:
   - releaseCycle: "paperwhite-7"
     releaseLabel: "Kindle Paperwhite (7th Generation)"
     releaseDate: 2015-06-30
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Paperwhite7Notes
