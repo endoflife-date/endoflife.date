@@ -13,17 +13,48 @@ eolColumn: Service Status
 # Release dates can be found on https://en.wikipedia.org/wiki/Amazon_Kindle.
 # Latest releases can be found on https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW.
 releases:
-  - releaseCycle: "kindle-scribe"
-    releaseLabel: "Kindle Scribe"
-    # https://ebookfriendly.com/amazon-kindle-scribe-2022-full-specs/
+  - releaseCycle: "kindle-scribe-2024"
+    releaseLabel: "Kindle Scribe - 2024 Release"
+    releaseDate: 2024-12-04
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindleScribe2024Notes
+
+  - releaseCycle: "kindle-colorsoft-1"
+    releaseLabel: "Kindle Colorsoft (1st Generation)"
+    releaseDate: 2024-10-30
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindleColorsoft-2024-Notes
+
+  - releaseCycle: "paperwhite-12"
+    releaseLabel: "Kindle Paperwhite (12th Generation) - 2024 Release"
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindlePaperwhite12-2024-Notes
+
+  - releaseCycle: "kindle-11-2024"
+    releaseLabel: "Kindle (11th Generation) - 2024 Release"
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/Kindle11Notes
+
+  - releaseCycle: "kindle-scribe-2022"
+    releaseLabel: "Kindle Scribe - 2022 Release"
     releaseDate: 2022-11-30
     eol: false
     latest: "5.18.5"
     latestReleaseDate: 2025-08-01
     link: https://www.amazon.com/KindleScribeNotes
 
-  - releaseCycle: "kindle-11"
-    releaseLabel: "Kindle (11th Generation)"
+  - releaseCycle: "kindle-11-2022"
+    releaseLabel: "Kindle (11th Generation) - 2022 Release"
     releaseDate: 2022-09-13
     eol: false
     latest: "5.18.5"
