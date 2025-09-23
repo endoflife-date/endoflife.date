@@ -8,6 +8,7 @@ permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 eoasColumn: true
+staleReleaseThresholdYears: 3
 
 auto:
   methods:

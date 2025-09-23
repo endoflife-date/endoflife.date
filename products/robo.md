@@ -6,6 +6,7 @@ tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
+staleReleaseThresholdYears: 8
 
 customFields:
   - name: supportedPHPVersions

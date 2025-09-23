@@ -10,12 +10,15 @@ alternate_urls:
 changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
 eoasColumn: Bug Fixes
-auto:
-  methods:
-    - git: https://github.com/phoenixframework/phoenix.git
+staleReleaseThresholdYears: 4
+
 identifiers:
   - purl: pkg:hex/phoenix
   - purl: pkg:github/phoenixframework/phoenix
+
+auto:
+  methods:
+    - git: https://github.com/phoenixframework/phoenix.git
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+4)

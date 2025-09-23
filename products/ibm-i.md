@@ -17,6 +17,7 @@ versionCommand: DSPJOB OUTPUT(*PRINT)
 releasePolicyLink: https://www.ibm.com/support/pages/release-life-cycle # https://www.ibm.com/support/pages/ibm-i-release-support
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 eoesColumn: Extended Life Cycle Support
+staleReleaseThresholdYears: 7
 
 auto:
   methods:

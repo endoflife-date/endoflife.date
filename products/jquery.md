@@ -7,6 +7,7 @@ iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
+staleReleaseThresholdYears: 4
 
 identifiers:
   - purl: pkg:github/jquery/jquery
@@ -48,7 +49,7 @@ releases:
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.
 
-Only the latest version in the current release cycle is supported.
+[Only the latest version in the current release cycle is supported](https://github.com/jquery/jquery?tab=security-ov-file#supported-versions).
 The 1.x and 2.x branches no longer receive patches,
 although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
 serious security patches have been backported and that they would consider it again in the future.

@@ -9,6 +9,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
+staleReleaseThresholdYears: 8
 
 customFields:
   - name: supportedIosVersions
@@ -58,7 +59,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/docs/iphone/301076
-    supportedIosVersions: "18"
+    supportedIosVersions: "18 - 26"
 
   - releaseCycle: "16"
     releaseLabel: "16"
@@ -66,7 +67,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/121029
-    supportedIosVersions: "18"
+    supportedIosVersions: "18 - 26"
 
   - releaseCycle: "16-plus"
     releaseLabel: "16 Plus"
@@ -74,7 +75,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/121030
-    supportedIosVersions: "18"
+    supportedIosVersions: "18 - 26"
 
   - releaseCycle: "16-pro"
     releaseLabel: "16 Pro"
@@ -82,7 +83,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121031
-    supportedIosVersions: "18"
+    supportedIosVersions: "18 - 26"
 
   - releaseCycle: "16-pro-max"
     releaseLabel: "16 Pro Max"
@@ -90,7 +91,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121032
-    supportedIosVersions: "18"
+    supportedIosVersions: "18 - 26"
 
   - releaseCycle: "15"
     releaseLabel: "15"

@@ -6,6 +6,7 @@ tags: php-runtime
 iconSlug: cachet
 permalink: /cachet
 changelogTemplate: https://github.com/cachethq/cachet/releases/tag/v__LATEST__
+staleReleaseThresholdYears: 3
 
 auto:
   methods:

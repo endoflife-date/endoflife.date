@@ -95,6 +95,7 @@ defaults:
       eolColumnLabel: "Security Support"
       eoesColumn: false
       eoesColumnLabel: "Extended Support"
+      staleReleaseThresholdYears: 1
       customFields: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 
