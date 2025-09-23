@@ -47,6 +47,7 @@ releases:
     eol: 2025-03-31
     latest: "16.7.12"
     latestReleaseDate: 2025-09-15
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
