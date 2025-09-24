@@ -4,8 +4,6 @@ addedAt: 2025-09-20
 category: database
 iconSlug: duckdb
 permalink: /duckdb
-alternate_urls:
-  - /duck-db
 versionCommand: duckdb version
 releasePolicyLink: https://duckdb.org/2025/09/16/announcing-duckdb-140
 changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/__LATEST__
