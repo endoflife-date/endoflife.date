@@ -38,7 +38,7 @@ releases:
     releaseDate: 2025-09-17
     eol: 2025-11-02
     latest: "3.6.0"
-    latestReleaseDate: 2025-09-17
+    latestReleaseDate: 2025-09-21
 
   - releaseCycle: "3.5"
     lts: true
@@ -199,6 +199,7 @@ releases:
     eol: 2022-07-11
     latest: "2.36.2"
     latestReleaseDate: 2022-06-20
+
 ---
 
 > [Prometheus](https://prometheus.io/) is an open-source system monitoring and alerting toolkit.
