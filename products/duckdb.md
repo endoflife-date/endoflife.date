@@ -1,4 +1,4 @@
----
+  ---
 title: DuckDB
 addedAt: 2025-09-20
 category: database
@@ -58,5 +58,3 @@ releases:
 Starting with `v1.4.0`, every other DuckDB version is going to be a Long Term Support (LTS) edition.
 For LTS DuckDB versions, community support will last a year after the release (for now). DuckDB Labs is also starting
 to offer support for older LTS versions after their community support has expired.
-This doesn't mean they are supporting [all SQLite releases](https://www.sqlite.org/chronology.html);
-it means they plan as if they will be supporting SQLite until 2050.
