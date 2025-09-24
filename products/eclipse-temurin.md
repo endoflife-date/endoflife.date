@@ -73,7 +73,7 @@ auto:
 releases:
   - releaseCycle: "25"
     lts: true
-    releaseDate: 2025-09-17
+    releaseDate: 2025-09-22
     eol: 2031-09-16 # expected 28 release date (see https://www.java.com/releases/)
     latest: "25+36"
     latestReleaseDate: 2025-09-17
