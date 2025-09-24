@@ -18,9 +18,9 @@ auto:
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "Version"
-        releaseDate: "Release date (ACK)"
+        releaseDate: "Release date"
         eol:
-          column: "Discontinue date (ACK)"
+          column: "Discontinue date"
           regex: '^(?P<value>.+\s+\d+).*$'
 
 releases:

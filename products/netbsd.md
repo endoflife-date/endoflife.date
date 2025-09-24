@@ -9,6 +9,7 @@ versionCommand: uname -r
 releasePolicyLink: https://www.netbsd.org/releases/
 changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
 eoasColumn: true
+staleReleaseThresholdYears: 2
 
 identifiers:
   - cpe: cpe:/o:netbsd:netbsd

@@ -9,6 +9,7 @@ releasePolicyLink: https://github.com/gruntjs/grunt
 changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/v__LATEST__
 eolColumn: Community Support
 eoesColumn: Commercial Support
+staleReleaseThresholdYears: 3
 
 auto:
   methods:

@@ -11,6 +11,7 @@ changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
+staleReleaseThresholdYears: 5
 
 identifiers:
   - repology: hadoop

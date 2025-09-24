@@ -7,6 +7,7 @@ permalink: /lineageos
 alternate_urls:
   - /lineage
 latestColumn: false
+staleReleaseThresholdYears: 2
 
 customFields:
   - name: androidVersion

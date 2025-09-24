@@ -7,6 +7,7 @@ iconSlug: steam
 permalink: /steamos
 eolColumn: Support
 latestColumn: false
+staleReleaseThresholdYears: 4
 
 identifiers:
   - cpe: cpe:/o:valvesoftware:steamos

@@ -7,6 +7,7 @@ permalink: /pigeonhole
 alternate_urls:
   - /dovecot-pigeonhole
 changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
+staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: dovecot-pigeonhole
@@ -61,6 +62,6 @@ releases:
 
 Pigeonhole does not follow a documented release policy for its own. It follows the same cycle as
 [Dovecot](/dovecot) does, even if that means to do a release without changes to keep version numbers
-synced.  
+synced.
 Since v2.4.0 (released in 2025) the version numbering scheme is also aligned to match Dovecot's
 scheme.

@@ -9,6 +9,7 @@ releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 latestColumn: false
 eoasColumn: Wear OS Upgrades
 eolColumn: Security Updates
+staleReleaseThresholdYears: 5
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support

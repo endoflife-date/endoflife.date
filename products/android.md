@@ -13,6 +13,7 @@ changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE_
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 eolColumn: Security Support
+staleReleaseThresholdYears: 4
 
 customFields:
   - name: apiVersion

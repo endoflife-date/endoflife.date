@@ -9,6 +9,7 @@ releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 latestColumn: false
 eoasColumn: Android Upgrades
 eolColumn: Security Updates
+staleReleaseThresholdYears: 5
 
 auto:
   cumulative: true

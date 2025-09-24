@@ -8,6 +8,7 @@ permalink: /consul
 versionCommand: consul --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
+staleReleaseThresholdYears: 1.5
 
 identifiers:
   - repology: consul
@@ -27,8 +28,8 @@ releases:
   - releaseCycle: "1.21"
     releaseDate: 2025-05-06
     eol: false # releaseDate(1.24)
-    latest: "1.21.4"
-    latestReleaseDate: 2025-08-13
+    latest: "1.21.5"
+    latestReleaseDate: 2025-09-21
 
   - releaseCycle: "1.20"
     releaseDate: 2024-10-14
