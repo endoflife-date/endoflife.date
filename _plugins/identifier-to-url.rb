@@ -207,4 +207,40 @@ class IdentifierToUrl
   def _build_generic_url(purl)
     return nil # valid, but don't know how to generate this kind of URL
   end
+
+  def _build_arch_url(purl)
+    return "https://archlinux.org/packages/?q=#{purl.name}"
+  end
+
+  def _build_gentoo_url(purl)
+    return "https://packages.gentoo.org/packages/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_freebsd_url(purl)
+    return "https://www.freshports.org/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_copr_url(purl)
+    return "https://copr.fedorainfracloud.org/coprs/#{purl.namespace}/#{purl.name}/"
+  end
+
+  def _build_nix_url(purl)
+    return "https://nixos.org/nixos/packages.html?query=#{purl.channel}&show=#{purl.name}&query=#{purl.name}"
+  end
+
+  def _build_termux_url(purl)
+    return "https://github.com/termux/termux-packages/tree/master/packages/#{purl.name}"
+  end
+
+  def _build_ansible_url(purl)
+    return "https://galaxy.ansible.com/ui/repo/published/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_unikraft_url(purl)
+    return "https://github.com/unikraft/catalog/tree/main/library#{purl.name}"
+  end
+
+  def _build_opnsense_url(purl)
+    return "https://github.com/opnsense/ports/tree/master/#{purl.namespace}/#{purl.name}"
+  end
 end
