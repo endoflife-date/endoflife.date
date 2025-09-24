@@ -5,7 +5,7 @@ category: database
 iconSlug: duckdb
 permalink: /duckdb
 versionCommand: duckdb version
-releasePolicyLink: https://duckdb.org/2025/09/16/announcing-duckdb-140
+releasePolicyLink: https://duckdb.org/2025/09/16/announcing-duckdb-140.html#long-term-support-lts-edition
 changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/__LATEST__
 eolColumn: Support Status
 
