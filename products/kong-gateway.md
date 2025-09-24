@@ -104,7 +104,7 @@ releases:
   - releaseCycle: "2.8"
     lts: true
     releaseDate: 2022-03-01
-    eol: false
+    eol: 2024-06-24
     eoes: 2025-03-01
     latest: "2.8.5"
     latestReleaseDate: 2024-06-24
