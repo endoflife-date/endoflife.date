@@ -4,7 +4,6 @@ addedAt: 2025-09-20
 permalink: /commvault
 alternate_urls:
   - /commvault-backup
-description: Commvault's data protection and management platform with long-term and innovation release lifereleaseCycles.
 releasePolicyLink: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
 category: app
 tags: backup
