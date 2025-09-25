@@ -3,6 +3,10 @@ Favicons were generated from the SVG icons with https://realfavicongenerator.net
 
 The SVG favicon supports dark mode (https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/).
 {% endcomment %}
+{% if page.layout == "product" %}
+<link rel="alternate" type="text/calendar" title="{{ page.title }} events calendar" href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics" />
+<link rel="alternate" type="application/atom+xml" title="{{ page.title }} events feed" href="{{ page.permalink | relative_url }}.atom" />
+{% endif %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
 <link rel="icon alternate" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
