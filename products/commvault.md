@@ -40,3 +40,18 @@ releases:
     link: https://documentation.commvault.com/2023e/software/list_of_maintenance_releases_for_commvault_platform_release_2023e.html
     
 ---
+
+> Commvault is a comprehensive data protection and management platform.
+> It helps organizations back up, restore, archive, migrate, and secure data, including with built-in
+> disaster recovery and ransomware protection across on-premises, hybrid, and cloud environments.
+
+There are two types of Commvault releases: Innovation releases and Long-Term Support (LTS) releases.
+Innovation releases are published monthly and are supported for two months. Innovation releases are designed to
+include the most recent product updates. To receive support, you must adopt the most recent innovation release.
+Access to innovation releases is granted through a Release Request Form, which ensures that you are equipped
+to make the most of the innovation release experience.
+
+Long-Term Support (LTS) releases are published annually and have a support lifespan of two and a half years.
+LTS releases are designed to be stable releases with minimal changes. If you have standardized on an LTS release,
+you should wait to upgrade until the next LTS release to access new features. New features are not added to
+previous LTS releases. LTS maintenance releases are cumulative and can be installed at any time.
