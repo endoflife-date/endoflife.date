@@ -225,7 +225,7 @@ class IdentifierToUrl
   end
 
   def _build_nix_url(purl)
-    return "https://nixos.org/nixos/packages.html?query=#{purl.channel}&show=#{purl.name}&query=#{purl.name}"
+    return "https://search.nixos.org/packages?&show=#{purl.name}"
   end
 
   def _build_termux_url(purl)
@@ -237,7 +237,7 @@ class IdentifierToUrl
   end
 
   def _build_unikraft_url(purl)
-    return "https://github.com/unikraft/catalog/tree/main/library#{purl.name}"
+    return "https://github.com/unikraft/catalog/tree/main/library/#{purl.name}"
   end
 
   def _build_opnsense_url(purl)
