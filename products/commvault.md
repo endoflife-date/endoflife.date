@@ -6,7 +6,6 @@ alternate_urls:
   - /commvault-backup
 releasePolicyLink: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
 category: app
-tags: backup
 releases:
   - releaseCycle: "11.40"
     releaseDate: 2025-06-15
