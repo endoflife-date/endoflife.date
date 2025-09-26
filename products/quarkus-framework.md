@@ -40,9 +40,9 @@ releases:
     latestReleaseDate: 2025-09-24
 
   - releaseCycle: "3.27"
-    releaseDate: 2025-09-24
-    eol: false
     lts: true
+    releaseDate: 2025-09-24
+    eol: 2026-09-24
     latest: "3.27.0"
     latestReleaseDate: 2025-09-24
 
