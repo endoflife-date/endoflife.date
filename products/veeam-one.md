@@ -22,8 +22,8 @@ releases:
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
     link: https://www.veeam.com/kb4762
-    latest: "13.0.0.5630"
-    latestReleaseDate: 2025-09-03
+    latest: "13.0.0.5729"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
@@ -88,6 +88,7 @@ releases:
     eol: true
     latest: "6.0.0.520"
     latestReleaseDate: 2012-04-23
+
 ---
 
 > [Veeam ONE](https://www.veeam.com/products/veeam-data-platform/monitoring-analytics.html) is a commercial monitoring,

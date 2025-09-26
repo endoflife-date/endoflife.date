@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:docker/library/node
   - purl: pkg:docker/cimg/node
   - purl: pkg:docker/bitnami/node
+  - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
 
 auto:
@@ -48,8 +49,8 @@ releases:
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.19.0"
-    latestReleaseDate: 2025-08-28
+    latest: "22.20.0"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17

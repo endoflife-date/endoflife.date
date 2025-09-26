@@ -32,8 +32,8 @@ releases:
     releaseDate: 2022-03-17
     eoas: 2023-11-14
     eol: false
-    latest: "5.22.95"
-    latestReleaseDate: 2025-08-05
+    latest: "5.23.6"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "4"
     releaseDate: 2019-04-30
@@ -62,6 +62,7 @@ releases:
     eol: 2019-12-31
     latest: "1.51.25"
     latestReleaseDate: 2018-05-10
+
 ---
 
 > [Chef InSpec](https://docs.chef.io/inspec/) is an open-source framework for

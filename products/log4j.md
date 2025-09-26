@@ -28,8 +28,8 @@ releases:
     outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.25.1"
-    latestReleaseDate: 2025-07-05
+    latest: "2.25.2"
+    latestReleaseDate: 2025-09-18
 
   - releaseCycle: "2.12"
     releaseDate: 2019-06-26
@@ -51,6 +51,7 @@ releases:
     latest: "1.2.17"
     latestReleaseDate: 2012-05-06
     link: https://logging.apache.org/log4j/1.2/changes-report.html#a1.2.17
+
 ---
 
 > [Apache Log4j](https://logging.apache.org/log4j/2.x/) is a Java-based logging utility. It is part
