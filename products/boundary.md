@@ -23,12 +23,6 @@ releases:
     releaseDate: 2025-09-18
     eol: false
     latest: "0.19.3"
-    latestReleaseDate: 2025-09-18
-
-  - releaseCycle: "0.19"
-    releaseDate: 2025-02-10
-    eol: false
-    latest: "0.19.3"
     latestReleaseDate: 2025-07-10
 
   - releaseCycle: "0.18"
