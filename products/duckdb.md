@@ -17,7 +17,6 @@ releases:
   - releaseCycle: "1.4"
     releaseDate: 2025-09-16
     codename: "Andium"
-    codename: "Andium"
     eol: 2026-09-16
     lts: true
     latest: "1.4.0"
@@ -25,24 +24,29 @@ releases:
 
   - releaseCycle: "1.3"
     releaseDate: 2025-05-21
+    codename: "Ossivalis"
+    codename: ""
     eol: 2025-09-16
     latest: "1.3.2"
     latestReleaseDate: 2025-07-07
 
   - releaseCycle: "1.2"
     releaseDate: 2025-02-05
+    codename: "Histrionicus"
     eol: 2025-05-21
     latest: "1.2.2"
     latestReleaseDate: 2001-04-07
 
   - releaseCycle: "1.1"
     releaseDate: 2024-09-09
+    codename: "Eatoni"
     eol: 2025-02-05
     latest: "1.1.3"
     latestReleaseDate: 2024-11-02 
     
   - releaseCycle: "1.0"
     releaseDate: 2024-05-29
+    codename: "Nivis"
     eol: 2024-09-09
     latest: "1.0.0"
     latestReleaseDate: 2024-05-29 
