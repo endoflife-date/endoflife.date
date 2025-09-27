@@ -1,7 +1,7 @@
 ---
 title: Hashicorp Consul
 addedAt: 2021-10-20
-category: server-app
+category: server-app database
 tags: hashicorp
 iconSlug: consul
 permalink: /consul
