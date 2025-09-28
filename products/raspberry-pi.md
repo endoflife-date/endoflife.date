@@ -13,6 +13,13 @@ eolColumn: Discontinued
 latestColumn: false
 
 releases:
+  - releaseCycle: "5-500+"
+    releaseLabel: "500+"
+    # https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/
+    releaseDate: 2025-09-25
+    eol: 2035-01-01
+    link: https://www.raspberrypi.com/products/raspberry-pi-500-plus/
+
   - releaseCycle: "5-500"
     releaseLabel: "500"
     # https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/
