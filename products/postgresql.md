@@ -216,11 +216,6 @@ releases:
 **Postgres recommends that all users run the latest available minor release for whatever major
 version is in use.**
 
-To check which features are available in each PostgreSQL release, take a look at the
-[Feature Matrix](https://www.postgresql.org/about/featurematrix/), which shows when each feature
-was introduced and in which version.
-
-
 The PostgreSQL Global Development Group supports a major version for 5 years after its initial
 release. After its five-year anniversary, a major version will have one last minor release
 containing any fixes and will be considered end-of-life (EOL) and no longer supported.
@@ -229,3 +224,6 @@ The [Release roadmap](https://www.postgresql.org/developer/roadmap/) lists upcom
 releases. If the release team determines that a critical bug or security fix is too important to
 wait until the regularly scheduled minor release, it may make a release available outside the
 minor release roadmap.
+
+A [Feature Matrix](https://www.postgresql.org/about/featurematrix/) documents feature availability
+against major releases.
