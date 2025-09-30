@@ -1,5 +1,4 @@
 ---
-# Name of the product (mandatory).
 title: Cloud SQL Auth Proxy
 category: service
 tags: database google server-app service
