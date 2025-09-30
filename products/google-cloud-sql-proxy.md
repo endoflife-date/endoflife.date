@@ -1,7 +1,7 @@
 ---
 title: Cloud SQL Auth Proxy
-category: service
-tags: database google server-app service
+category: app
+tags: google
 iconSlug: googlecloud
 permalink: /cloud-sql-auth-proxy
 alternate_urls:
@@ -11,16 +11,9 @@ releasePolicyLink: https://github.com/GoogleCloudPlatform/cloud-sql-proxy?tab=re
 changelogTemplate: "https://github.com/GoogleCloudPlatform/cloud-sql-proxy/releases/tag/__LATEST__"
 eolColumn: Support
 
-# Auto-update release configuration (optional).
-# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
-# Multiple configurations are allowed.
-# Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration modifies the product page so that users are informed that existing
-# releases are automatically updated with latest versions.
 auto:
   methods:
     - git: https://github.com/GoogleCloudPlatform/cloud-sql-proxy.git
-      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
 
 releases:
 -   releaseCycle: "2"
@@ -31,6 +24,6 @@ releases:
 
 ---
 
-> [Cloud SQL Auth Proxy](https://cloud.google.com/sql/docs/mysql/sql-proxy) is a service that enables secure, short-lived connections to Cloud SQL databases without exposing them to the public internet.
+> [Cloud SQL Auth Proxy](https://cloud.google.com/sql/docs/mysql/sql-proxy) is a utility for ensuring secure connections to Google Cloud SQL instances.
 
 Cloud SQL Auth Proxy supports releases for 1 year after the release date, mentioned in their [support policy](https://github.com/GoogleCloudPlatform/cloud-sql-proxy?tab=readme-ov-file#support-policy).
