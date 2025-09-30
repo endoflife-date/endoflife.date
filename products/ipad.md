@@ -31,13 +31,13 @@ releases:
     supportedIpadOsVersions: "18 - 26"
 
   - releaseCycle: "air-7"
-    releaseLabel: "iPad Air (M3)"
+    releaseLabel: "iPad Air 11-inch (M3)"
     releaseDate: 2025-03-12
     discontinued: false
     eol: false
     link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
-
+  
   - releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (A17 Pro)"
     releaseDate: 2024-10-23
@@ -47,7 +47,15 @@ releases:
     supportedIpadOsVersions: "18 - 26"
 
   - releaseCycle: "pro-7"
-    releaseLabel: "iPad Pro (M4)"
+    releaseLabel: "iPad Pro 11-inch (M4)"
+    releaseDate: 2024-05-15
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/119891
+    supportedIpadOsVersions: "17 - 26"
+
+  - releaseCycle: "pro-7"
+    releaseLabel: "iPad Pro 13-inch (M4)"
     releaseDate: 2024-05-15
     discontinued: false
     eol: false
@@ -55,7 +63,7 @@ releases:
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "air-6"
-    releaseLabel: "iPad Air (M2)"
+    releaseLabel: "iPad Air 11-inch (M2)"
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
@@ -103,7 +111,7 @@ releases:
     supportedIpadOsVersions: "15 - 26"
 
   - releaseCycle: "pro-5"
-    releaseLabel: "iPad Pro (5th generation)"
+    releaseLabel: "iPad Pro 12.9-inch (5th generation)"
     releaseDate: 2021-05-21
     discontinued: 2022-10-18
     eol: false
@@ -127,7 +135,15 @@ releases:
     supportedIpadOsVersions: "14 - 26"
 
   - releaseCycle: "pro-4"
-    releaseLabel: "iPad Pro (4th generation)"
+    releaseLabel: "iPad Pro 12.9-inch (4th generation)"
+    releaseDate: 2020-03-25
+    discontinued: 2021-04-20
+    eol: false
+    link: https://support.apple.com/kb/SP815
+    supportedIpadOsVersions: "13 - 26"
+
+  - releaseCycle: "pro-4"
+    releaseLabel: "iPad Pro 11-inch (4th generation)"
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
@@ -167,7 +183,15 @@ releases:
     supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "pro-3"
-    releaseLabel: "iPad Pro (3rd generation)"
+    releaseLabel: "iPad Pro 11-inch (3rd generation)"
+    releaseDate: 2018-11-07
+    discontinued: 2020-03-18
+    eol: false
+    link: https://support.apple.com/kb/SP785
+    supportedIpadOsVersions: "12 - 26"
+
+  - releaseCycle: "pro-3"
+    releaseLabel: "iPad Pro 12.9-inch (3rd generation)"
     releaseDate: 2018-11-07
     discontinued: 2020-03-18
     eol: false
