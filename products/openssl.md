@@ -28,7 +28,17 @@ auto:
         eol: "End-of-Life"
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
+# Starting with 3.5, we plan to designate an LTS every two years.
+# In essence that means an LTS will be released every April in odd-numbered years
+# Non-LTS releases after 3.5 will be full supported for 13 months
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-10-01
+    eol: 2026-11-01
+    latest: "3.6.0"
+    latestReleaseDate: 2025-10-01
+    link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-36
+
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-04-08
