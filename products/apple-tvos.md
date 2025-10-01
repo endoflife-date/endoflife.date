@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.0"
-    latestReleaseDate: 2025-09-15
+    latest: "26.0.1"
+    latestReleaseDate: 2025-09-29
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
@@ -92,6 +92,7 @@ releases:
     latest: "9.2.2"
     latestReleaseDate: 2016-07-18
     link: null
+
 ---
 
 > [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system developed by Apple Inc. for the Apple TV, a digital media player.
