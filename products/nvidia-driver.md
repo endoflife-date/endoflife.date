@@ -83,18 +83,18 @@ releases:
     releaseDate: 2025-01-27
     eoas: 2026-01-27
     eol: 2026-01-27
-    latest: "570.172.08"
-    latestReleaseDate: 2025-07-17
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-172-08/index.html
+    latest: "570.195.03"
+    latestReleaseDate: 2025-09-30
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-195-03/index.html
 
   - releaseCycle: "r570-windows"
     releaseLabel: "R570-Windows (PB)"
     releaseDate: 2025-01-27
     eoas: 2026-01-27
     eol: 2026-01-27
-    latest: "573.48"
-    latestReleaseDate: 2025-07-17
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-172-08/index.html
+    latest: "573.76"
+    latestReleaseDate: 2025-09-30
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-195-03/index.html
 
   - releaseCycle: "r565-linux"
     releaseLabel: "R565-Linux (PB)"
@@ -192,9 +192,9 @@ releases:
     releaseDate: 2023-06-14
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "535.261.03"
-    latestReleaseDate: 2025-07-17
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-261-03/index.html
+    latest: "535.274.02"
+    latestReleaseDate: 2025-09-30
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-274-02/index.html
 
   - releaseCycle: "r535-windows"
     releaseLabel: "R535-Windows"
@@ -202,9 +202,9 @@ releases:
     releaseDate: 2023-05-30
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "539.41"
-    latestReleaseDate: 2025-07-17
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-261-03/index.html
+    latest: "539.56"
+    latestReleaseDate: 2025-09-30
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-274-02/index.html
 
   - releaseCycle: "r530-linux"
     releaseLabel: "R530-Linux (NFB)"
