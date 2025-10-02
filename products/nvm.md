@@ -18,7 +18,6 @@ auto:
       template: "{{version}}"
 
 identifiers:
-  - repology: nvm
   - purl: pkg:github/nvm-sh/nvm
 
 # eol(x) = releaseDate(x+1)
