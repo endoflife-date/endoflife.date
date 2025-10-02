@@ -1,5 +1,5 @@
 ---
-title: Nvm
+title: nvm
 addedAt: 2024-12-06
 category: app
 tags: [herodevs, javascript-runtime, nodejs, linux-foundation]
@@ -20,8 +20,6 @@ auto:
 identifiers:
   - repology: nvm
   - purl: pkg:github/nvm-sh/nvm
-  - purl: pkg:brew/nvm
-  - purl: pkg:arch/arch/nvm
 
 # eol(x) = releaseDate(x+1)
 releases:
