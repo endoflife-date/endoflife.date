@@ -28,7 +28,7 @@ auto:
         eol: "End-of-Life"
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
-# Starting with 3.5, we plan to designate an LTS every two years.
+# Starting with 3.5, product plans to designate an LTS every two years.
 # In essence that means an LTS will be released every April in odd-numbered years
 # Non-LTS releases after 3.5 will be full supported for 13 months
 releases:
