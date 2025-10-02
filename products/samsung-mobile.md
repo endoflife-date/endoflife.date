@@ -1101,7 +1101,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support for S20
+    eol: false      # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
   - releaseCycle: "galaxy-s20-fe-2020"
