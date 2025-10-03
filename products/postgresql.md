@@ -33,6 +33,12 @@ identifiers:
   - cpe: cpe:/a:postgresql:postgresql
 
 releases:
+  - releaseCycle: "18"
+    releaseDate: 2025-09-25
+    eol: 2030-11-14
+    latest: "18.0"
+    latestReleaseDate: 2025-09-22
+
   - releaseCycle: "17"
     releaseDate: 2024-09-26
     eol: 2029-11-08
@@ -218,3 +224,6 @@ The [Release roadmap](https://www.postgresql.org/developer/roadmap/) lists upcom
 releases. If the release team determines that a critical bug or security fix is too important to
 wait until the regularly scheduled minor release, it may make a release available outside the
 minor release roadmap.
+
+A [Feature Matrix](https://www.postgresql.org/about/featurematrix/) documents feature availability
+against major releases.

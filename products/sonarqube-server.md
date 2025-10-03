@@ -26,8 +26,8 @@ releases:
     releaseDate: 2025-07-30 # https://community.sonarsource.com/t/sonarqube-server-2025-4-error/145463
     eoas: false
     eol: false
-    latest: "2025.4.2"
-    latestReleaseDate: 2025-08-07
+    latest: "2025.4.3"
+    latestReleaseDate: 2025-09-23
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-2/146252
 
   - releaseCycle: "2025.3"

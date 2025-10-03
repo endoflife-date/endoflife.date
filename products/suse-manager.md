@@ -17,7 +17,7 @@ eolColumn: General Support
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
   - releaseCycle: "5.1"
-    releaseDate: 2024-07-31
+    releaseDate: 2025-07-31
     eol: false
     latest: "5.1"
     latestReleaseDate: 2025-07-31

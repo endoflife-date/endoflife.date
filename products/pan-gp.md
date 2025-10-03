@@ -31,10 +31,10 @@ auto:
 releases:
   - releaseCycle: "6.3"
     releaseDate: 2024-06-13
-    eol: 2026-06-13
-    eoas: 2026-06-13
-    latest: "6.3.3-c676"
-    latestReleaseDate: 2025-07-28
+    eol: 2027-06-30
+    eoas: 2027-06-30
+    latest: "6.3.3-c711"
+    latestReleaseDate: 2025-09-22
     link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
 
   - releaseCycle: "6.2"
@@ -119,6 +119,7 @@ releases:
     eoas: 2017-05-18
     latest: "3.0"
     latestReleaseDate: 2016-02-16
+
 ---
 
 > [Palo Alto Networks GlobalProtect App](https://docs.paloaltonetworks.com/globalprotect) is the

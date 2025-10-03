@@ -33,27 +33,27 @@ releases:
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
-    latest: "3.5.3"
-    latestReleaseDate: 2025-09-16
+    latest: "3.5.4"
+    latestReleaseDate: 2025-09-30
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
   - releaseCycle: "3.4"
     releaseDate: 2024-10-22
     eol: 2026-10-22
-    latest: "3.4.2"
-    latestReleaseDate: 2025-07-01
+    latest: "3.4.3"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-09
-    latest: "3.3.4"
-    latestReleaseDate: 2025-07-01
+    latest: "3.3.5"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    latest: "3.2.5"
-    latestReleaseDate: 2025-07-01
+    latest: "3.2.6"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "3.1"
     releaseDate: 2023-03-14
@@ -66,8 +66,8 @@ releases:
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.17"
-    latestReleaseDate: 2025-07-01
+    latest: "3.0.18"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "1.1.1"
     lts: true

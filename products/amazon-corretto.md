@@ -60,8 +60,11 @@ auto:
 # For EOL dates, see https://aws.amazon.com/corretto/faqs/ (Expired versions paragraph)
 releases:
   - releaseCycle: "25"
+    lts: true
+    # First non-pre-release release was https://github.com/corretto/corretto-25/releases/tag/25.0.0.36.2
+    # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-corretto-25-generally-available/
     releaseDate: 2025-09-16
-    eol: false # not yet listed on https://aws.amazon.com/fr/corretto/faqs/
+    eol: 2032-10-31 # listed on https://aws.amazon.com/corretto/faqs/#topic-0
     latest: "25.0.0.36.2"
     latestReleaseDate: 2025-09-16
 

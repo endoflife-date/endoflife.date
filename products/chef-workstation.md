@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-02-03
     eoas: false
     eol: false
-    latest: "25.5.1084"
-    latestReleaseDate: 2025-05-22
+    latest: "25.9.1094"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "24"
     releaseLabel: "2024"
@@ -65,6 +65,7 @@ releases:
     eol: 2024-12-31
     latest: "20.12.205"
     latestReleaseDate: 2020-12-14
+
 ---
 
 > [Chef Workstation](https://docs.chef.io/workstation/) provides a single installation that includes tools for

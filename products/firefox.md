@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "143"
     releaseDate: 2025-09-16
     eol: false
-    latest: "143.0.1"
-    latestReleaseDate: 2025-09-19
+    latest: "143.0.3"
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "142"
     releaseDate: 2025-08-19
@@ -49,8 +49,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.3.0"
-    latestReleaseDate: 2025-09-16
+    latest: "140.3.1"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27

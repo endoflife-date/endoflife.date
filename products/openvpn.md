@@ -22,8 +22,8 @@ releases:
     releaseDate: 2023-01-25
     eoas: false
     eol: false
-    latest: "2.6.14"
-    latestReleaseDate: 2025-04-02
+    latest: "2.6.15"
+    latestReleaseDate: 2025-09-22
 
   - releaseCycle: "2.5"
     releaseDate: 2020-10-27
@@ -59,6 +59,7 @@ releases:
     eol: 2011-11-30
     latest: "2.1.4"
     latestReleaseDate: 2010-11-06
+
 ---
 
 > [OpenVPN](https://openvpn.net/) is a widely used virtual private networking system.

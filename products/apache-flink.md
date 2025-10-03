@@ -50,8 +50,8 @@ releases:
     lts: true # See https://nightlies.apache.org/flink/flink-docs-lts/
     releaseDate: 2024-08-01
     eol: false
-    latest: "1.20.2"
-    latestReleaseDate: 2025-07-07
+    latest: "1.20.3"
+    latestReleaseDate: 2025-09-25
 
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/
@@ -73,6 +73,7 @@ releases:
     eol: 2024-08-01
     latest: "1.17.2"
     latestReleaseDate: 2023-11-27
+
 ---
 
 > [Apache Flink](https://flink.apache.org/) is a stream processing
