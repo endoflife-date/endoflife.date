@@ -160,7 +160,7 @@ releases:
     releaseDate: 2024-11-10
     eol: false
     latest: "1.61.0"
-    latestReleaseDate: 2025-09-03\
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "1.60"
     releaseDate: 2024-11-10
@@ -174,6 +174,6 @@ releases:
 
 Jaeger provides distributed transaction monitoring, performance optimization insights, and root cause analysis capabilities for complex distributed systems. It is inspired by Google's Dapper and OpenZipkin, and is a Cloud Native Computing Foundation (CNCF) graduated project.
 
-Jaeger follows semantic versioning and releases are scheduled for the first Wednesday of each month, though releases may be skipped if insufficient changes have occurred. The project currently maintains two major version lines: v1.x.x (the stable line) and v2.x.x (the next-generation architecture introduced in November 2024). Patch releases can be created from maintenance branches when needed for critical fixes.
+Jaeger follows semantic versioning and releases are scheduled for the first Wednesday of each month, though releases may be skipped if insufficient changes have occurred. The project currently maintains two major version lines; v1.x.x (the stable line) and v2.x.x (the next-generation architecture introduced in November 2024). Patch releases can be created from maintenance branches when needed for critical fixes.
 
 The project provides community support only for the last minor version in each major version line. Security fixes are given priority and may trigger immediate releases. Bug fixes are typically included in the next minor version or released as on-demand patch versions.
