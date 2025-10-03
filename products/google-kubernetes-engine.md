@@ -25,6 +25,13 @@ auto:
 #
 # eoas:last-date-in-month(eol - 2months)
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-09-30
+    eoas: 2026-08-30
+    eol: 2026-10-01
+    latest: "1.34.0-gke.1662000"
+    latestReleaseDate: 2025-10-01
+
   - releaseCycle: "1.33"
     releaseDate: 2025-06-03
     eoas: 2026-06-30
