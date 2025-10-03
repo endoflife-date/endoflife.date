@@ -2,7 +2,7 @@
 title: Mandrel
 addedAt: 2024-09-25
 category: lang
-tags: java-distribution red-hat
+tags: java-distribution red-hat native graalvm openjdk temurin ibm
 permalink: /mandrel
 changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
