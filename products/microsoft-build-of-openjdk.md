@@ -36,7 +36,7 @@ releases:
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
-    eol: false
+    eol: 2030-09-30
     latest: "25"
     latestReleaseDate: 2025-09-16
 
@@ -61,6 +61,7 @@ releases:
     eol: 2027-09-30
     latest: "11.0.28"
     latestReleaseDate: 2025-07-16
+
 ---
 
 > The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

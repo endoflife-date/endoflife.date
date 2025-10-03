@@ -55,8 +55,8 @@ releases:
     releaseDate: 2023-11-14
     eol: 2029-12-31
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
-    latest: "21.0.6.0.7-3"
-    latestReleaseDate: 2025-02-18
+    latest: "21.0.8.0.9-1"
+    latestReleaseDate: 2025-07-15
 
   - releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4

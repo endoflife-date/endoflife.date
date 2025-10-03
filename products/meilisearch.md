@@ -18,9 +18,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.22"
+    releaseDate: 2025-09-24
+    eol: false
+    latest: "1.22.2"
+    latestReleaseDate: 2025-09-30
+
   - releaseCycle: "1.21"
     releaseDate: 2025-09-15
-    eol: false
+    eol: 2025-09-24
     latest: "1.21.0"
     latestReleaseDate: 2025-09-15
 
@@ -149,6 +155,7 @@ releases:
     eol: 2023-03-30
     latest: "1.0.2"
     latestReleaseDate: 2023-02-23
+
 ---
 
 > [Meilisearch](https://www.meilisearch.com/) is a scalable search engine that enables developers
