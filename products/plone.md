@@ -37,8 +37,8 @@ releases:
     releaseDate: 2025-02-07
     eoas: false
     eol: 2027-12-31
-    latest: "6.1.2"
-    latestReleaseDate: 2025-06-20
+    latest: "6.1.3"
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "6.0"
     pythonVersions: "3.9-3.13"
@@ -79,6 +79,7 @@ releases:
     eol: 2022-12-12
     latest: "4.3.20"
     latestReleaseDate: 2020-08-28
+
 ---
 
 > [Plone](https://plone.org) is an open-source content management system used to create,
