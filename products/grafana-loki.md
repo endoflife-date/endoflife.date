@@ -6,11 +6,13 @@ iconSlug: grafana
 permalink: /grafana-loki
 alternate_urls:
   - /loki
+releasePolicyLink: https://github.com/grafana/loki/issues/18484#issuecomment-3098532391
 changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
 
 auto:
   methods:
     - git: https://github.com/grafana/loki.git
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 identifiers:
   - repology: grafana-loki
@@ -20,7 +22,6 @@ identifiers:
   - purl: pkg:docker/bitnami/grafana-loki
   - purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
 
-# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
@@ -30,7 +31,7 @@ releases:
 
   - releaseCycle: "3.4"
     releaseDate: 2025-02-12
-    eol: 2025-04-17
+    eol: false
     latest: "3.4.6"
     latestReleaseDate: 2025-09-09
 
@@ -60,9 +61,9 @@ releases:
 
   - releaseCycle: "2.9"
     releaseDate: 2023-09-06
-    eol: 2024-04-08
+    eol: false
     latest: "2.9.15"
-    latestReleaseDate: 2025-06-09
+    latestReleaseDate: 2025-06-10
 
   - releaseCycle: "2.8"
     releaseDate: 2023-04-03
@@ -169,7 +170,8 @@ releases:
 
 > Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
 
-According to [https://grafana.com](https://grafana.com/docs/loki/latest/release-notes/cadence/), there is a new major
-release of Grafana Loki every year, a new minor release every quarter and approximately two patch releases per month.
+According to [this information](https://github.com/grafana/loki/issues/18484#issuecomment-3098532391),
+Grafana provides security patches for the last two minor releases of the
+current major version, plus the last minor release of the previous major
+version.
 
-The support policy is not documented, so it is assumed that only the latest minor release is supported.
