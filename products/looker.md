@@ -73,7 +73,7 @@ releases:
     link: https://discuss.google.dev/t/looker-25-2-release-notes/182687
 
   - releaseCycle: "25.0"
-    releaseDate: 2025-01-08
+    releaseDate: 2025-01-31
     lts: 2025-02-28
     eol: 2025-05-31
     link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290
