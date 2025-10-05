@@ -12,6 +12,9 @@ eolColumn: Support Status
 identifiers:
   - repology: duckdb
 
+auto:
+  methods:
+    - git: https://github.com/duckdb/duckdb.git
 
 releases:
   - releaseCycle: "1.4"
