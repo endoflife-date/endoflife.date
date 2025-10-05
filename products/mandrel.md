@@ -2,7 +2,7 @@
 title: Mandrel
 addedAt: 2024-09-25
 category: lang
-tags: java-distribution red-hat
+tags: java-distribution openjdk
 permalink: /mandrel
 changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
@@ -17,6 +17,14 @@ identifiers:
   - repology: mandrel
 
 releases:
+
+  - releaseCycle: "25.0"
+    releaseLabel: "25.0 (JDK 25)"
+    releaseDate: 2025-10-02
+    eol: false
+    latest: "25.0.0.1"
+    latestReleaseDate: 2025-10-02
+  
   - releaseCycle: "24.2"
     releaseLabel: "24.2 (JDK 24)"
     releaseDate: 2025-03-25
