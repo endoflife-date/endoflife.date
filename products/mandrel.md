@@ -22,6 +22,7 @@ releases:
     releaseLabel: "25.0 (JDK 25)"
     releaseDate: 2025-10-02
     eol: false
+    lts: true
     latest: "25.0.0.1"
     latestReleaseDate: 2025-09-29
 
