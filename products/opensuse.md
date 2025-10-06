@@ -22,9 +22,15 @@ identifiers:
   - cpe: cpe:2.3:o:opensuse:leap
 
 releases:
+  - releaseCycle: "16.0"
+    releaseDate: 2025-10-01
+    eol: 2027-10-31
+    link: https://en.opensuse.org/openSUSE:Roadmap#Leap_16.0
+
   - releaseCycle: "15.6"
     releaseDate: 2024-06-12
-    eol: 2025-12-31
+    eol: 2026-01-30
+    link: https://en.opensuse.org/openSUSE:Roadmap#Leap_15.6
 
   - releaseCycle: "15.5"
     releaseDate: 2023-06-07
@@ -135,15 +141,14 @@ releases:
 
 openSUSE Leap is the name for openSUSE's regular releases, which were previously known as just
 'openSUSE' for versions 13.2 and earlier. A Leap Minor Release (42.1, 42.2, 15.1, 15.2, etc.) is
-expected to be released annually. Users are expected to upgrade to the latest minor release within 6
-months of its availability, leading to a _maintenance life cycle of 18 months_. Support is defined
+expected to be released annually. Users are expected to upgrade to the latest minor release within 12
+months of its availability, leading to a _maintenance life cycle of 24 months_. Support is defined
 as:
 
 - security updates for all included packages
 - critical bugfix updates
 
-A Leap major release (15.x) is supported until the next major release. Leap 15's lifecycle fully
-aligns with SUSE Linux Enterprise. There is a projection as of March 2021 that Leap 15 will extend
-to Leap 15.5. The previous major version of Leap, 42, was supported more than 36 months, while the
-current major version of Leap, 15, now stands well beyond 36 months of security and maintenance
-support as stated above.
+A Leap major release (15.x) is supported until the next major release. The lifecycle of the previous
+major release (Leap 15) lifecycle fully aligns with SUSE Linux Enterprise 15, except that SLES 15.7 did
+not have a corresponding Leap 15.7, and instead the lifetime of Leap 15.6 was slightly extended. The
+total lifetime of the Leap 15 series will be slightly under 8 years, from May 2018 to April 2026.
