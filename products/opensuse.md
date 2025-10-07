@@ -29,7 +29,7 @@ releases:
 
   - releaseCycle: "15.6"
     releaseDate: 2024-06-12
-    eol: 2026-01-30
+    eol: 2026-04-30
     link: https://en.opensuse.org/openSUSE:Roadmap#Leap_15.6
 
   - releaseCycle: "15.5"
