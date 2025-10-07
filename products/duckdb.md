@@ -22,8 +22,8 @@ releases:
     codename: "Andium"
     eol: 2026-09-16
     lts: true
-    latest: "1.4.0"
-    latestReleaseDate: 2025-09-16
+    latest: "1.4.1"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "1.3"
     releaseDate: 2025-05-21
