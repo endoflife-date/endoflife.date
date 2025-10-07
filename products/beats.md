@@ -32,27 +32,27 @@ releases:
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.1.4"
-    latestReleaseDate: 2025-09-16
+    latest: "9.1.5"
+    latestReleaseDate: 2025-10-02
     link: https://www.elastic.co/docs/release-notes/beats#beats-9.1.2-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.4"
-    latestReleaseDate: 2025-09-15
+    latest: "8.19.5"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09
     eol: false # Until 9.2 is released
-    latest: "8.18.7"
-    latestReleaseDate: 2025-09-10
+    latest: "8.18.8"
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "9.0"
     releaseDate: 2025-04-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.0.7"
-    latestReleaseDate: 2025-09-10
+    latest: "9.0.8"
+    latestReleaseDate: 2025-10-02
     link: https://www.elastic.co/docs/release-notes/beats#beats-9.0.5-release-notes
 
   - releaseCycle: "8.17"
