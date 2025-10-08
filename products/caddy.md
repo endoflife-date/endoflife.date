@@ -12,8 +12,6 @@ changelogTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
 auto:
   methods:
     - git: https://github.com/caddyserver/caddy.git
-    - docker_hub: library/caddy
-      regex: ^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})$
 
 identifiers:
   - repology: caddy
