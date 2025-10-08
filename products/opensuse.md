@@ -150,5 +150,4 @@ as:
 
 A Leap major release (e.g. 16.x) is supported until the next major release. The lifecycle of the previous
 major release (Leap 15) fully aligns with that of SUSE Linux Enterprise 15, except that SLES 15.7 did
-not have a corresponding Leap 15.7, and instead the lifetime of Leap 15.6 was slightly extended. The
-total lifetime of the Leap 15 series will be slightly under 8 years, from May 2018 to April 2026.
+not have a corresponding Leap 15.7, and instead the lifetime of Leap 15.6 was slightly extended.
