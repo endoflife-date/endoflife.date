@@ -16,6 +16,7 @@ eoasColumn: true
 identifiers:
   - purl: pkg:generic/python
   - purl: pkg:deb/ubuntu/python
+  - purl: pkg:deb/ubuntu/python3.14
   - purl: pkg:deb/ubuntu/python3.13
   - purl: pkg:deb/ubuntu/python3.12
   - purl: pkg:deb/ubuntu/python3.11
@@ -38,6 +39,7 @@ identifiers:
   - purl: pkg:deb/ubuntu/python2.2
   - purl: pkg:deb/ubuntu/python2.1
   - purl: pkg:deb/debian/python
+  - purl: pkg:deb/debian/python3.14
   - purl: pkg:deb/debian/python3.13
   - purl: pkg:deb/debian/python3.11
   - purl: pkg:deb/debian/python3.9
@@ -54,6 +56,8 @@ identifiers:
   - purl: pkg:deb/debian/python2.2
   - purl: pkg:deb/debian/python2.1
   - purl: pkg:deb/debian/python1.5
+  - purl: pkg:rpm/fedora/python3.14
+  - purl: pkg:rpm/fedora/python3.13
   - purl: pkg:rpm/fedora/python3.12
   - purl: pkg:rpm/fedora/python3.11
   - purl: pkg:rpm/fedora/python3.10
