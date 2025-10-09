@@ -33,6 +33,12 @@ auto:
     - github_releases: ibmruntimes/semeru23-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
+    - github_releases: ibmruntimes/semeru24-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
+    - github_releases: ibmruntimes/semeru25-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
     - release_table: https://www.ibm.com/support/pages/node/6451203
       fields:
         releaseCycle: "IBM Semeru Runtimes version"
@@ -41,6 +47,19 @@ auto:
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-25
+    eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
+    latest: "25+36"
+    latestReleaseDate: 2025-09-25
+
+  - releaseCycle: "24"
+    releaseDate: 2025-03-31
+    eol: 2025-09-31 # expected for 25, https://www.java.com/releases/
+    latest: "24.0.2+12"
+    latestReleaseDate: 2025-08-12
+
   - releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-31 # expected for 24, https://www.java.com/releases/
