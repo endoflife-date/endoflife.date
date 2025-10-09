@@ -56,19 +56,19 @@ releases:
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31
-    eol: 2025-09-30 # expected for 25, https://www.java.com/releases/
+    eol: 2025-09-25
     latest: "24.0.2+12"
     latestReleaseDate: 2025-08-12
 
   - releaseCycle: "23"
     releaseDate: 2024-09-18
-    eol: 2025-03-31 # expected for 24, https://www.java.com/releases/
+    eol: 2025-03-31
     latest: "23.0.2+7"
     latestReleaseDate: 2025-02-10
 
   - releaseCycle: "22"
     releaseDate: 2024-05-21
-    eol: 2024-09-18 # releaseDate(23)
+    eol: 2024-09-18
     latest: "22.0.2+9"
     latestReleaseDate: 2024-09-10
 
