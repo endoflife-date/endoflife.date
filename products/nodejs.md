@@ -12,7 +12,6 @@ releasePolicyLink: https://nodejs.org/en/about/previous-releases
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
-eoesColumn: "Commercial Support"
 
 identifiers:
   - purl: pkg:generic/node
@@ -79,7 +78,6 @@ releases:
     lts: 2022-10-25
     eoas: 2023-10-18
     eol: 2025-04-30
-    eoes: false
     latest: "18.20.8"
     latestReleaseDate: 2025-03-27
 
@@ -95,7 +93,6 @@ releases:
     lts: 2021-10-26
     eoas: 2022-10-18
     eol: 2023-09-11
-    eoes: false
     latest: "16.20.2"
     latestReleaseDate: 2023-08-09
 
@@ -111,7 +108,6 @@ releases:
     lts: 2020-10-27
     eoas: 2021-10-19
     eol: 2023-04-30
-    eoes: false
     latest: "14.21.3"
     latestReleaseDate: 2023-02-16
 
@@ -127,7 +123,6 @@ releases:
     lts: 2019-10-21
     eoas: 2020-10-20
     eol: 2022-04-30
-    eoes: false
     latest: "12.22.12"
     latestReleaseDate: 2022-04-05
 
@@ -228,6 +223,7 @@ Production applications should only use Active LTS or Maintenance LTS releases.
 
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
 
+{: .note }
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
 Commercial support is available for some deprecated LTS versions of Node.js through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
