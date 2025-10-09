@@ -18,7 +18,7 @@ identifiers:
 
 releases:
   - releaseCycle: "1.12"
-    releaseDate: 2025-10-07 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
+    releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
     eol: false
     latest: "1.12.0"
     latestReleaseDate: 2025-10-07
