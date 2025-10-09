@@ -33,8 +33,8 @@ auto:
 releases:
   - releaseCycle: "1.34"
     releaseDate: 2025-10-06
-    eol: 2026-12-07
-    eoes: 2027-12-07
+    eol: 2026-12-02
+    eoes: 2027-12-02
     latest: "1.34-eks-1"
     latestReleaseDate: 2025-10-06
     link: https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-distro-kubernetes-version-1-34/
@@ -155,6 +155,7 @@ releases:
     # https://github.com/awsdocs/amazon-eks-user-guide/blob/306ec81574cb60ae47b8dbc8834d6c9d0dd3fe66/doc_source/platform-versions.md
     latest: "1.18-eks-13"
     latestReleaseDate: 2022-08-15
+
 ---
 
 > [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/) is a managed service
