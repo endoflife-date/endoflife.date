@@ -17,10 +17,15 @@ identifiers:
   - repology: julia
 
 releases:
+  - releaseCycle: "1.12"
+    releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
+    eol: false
+    latest: "1.12.0"
+    latestReleaseDate: 2025-10-07
+
   - releaseCycle: "1.11"
     releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
-    lts: false
-    eol: false
+    eol: 2025-10-08 # https://discourse.julialang.org/t/julia-v1-12-0-has-been-released/132990
     latest: "1.11.7"
     latestReleaseDate: 2025-09-08
 
