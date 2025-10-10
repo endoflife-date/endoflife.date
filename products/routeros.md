@@ -20,9 +20,9 @@ releaseDateColumn: Released
 # Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
 # The presence of such configuration modifies the product page so that users are informed that existing
 # releases are automatically updated with latest versions.
-auto:
-  cumulative: true # RSS feeds show just the current 'stable' and 'long-term' releases.
-  methods:
+#auto:
+  #cumulative: true # RSS feeds show just the current 'stable' and 'long-term' releases.
+  #methods:
     # Configuration for auto-update based on a custom script in the release-data repository.
     # The value must be the script name in the release-data repository, without it's '.py' extension.
     #- custom: script-name
@@ -52,16 +52,16 @@ releases:
     eol: false
     latest: "7.18.2"
     latestReleaseDate: 2025-03-12
+-   releaseCycle: "7.17"
+    releaseDate: 2025-01-16
+    eol: false
+    latest: "7.17.2"
+    latestReleaseDate: 2025-02-06
 -   releaseCycle: "6.49"
     releaseDate: 2024-07-19
     eol: false
     lts: true
     latest: "6.49.18"
-    latestReleaseDate: 2025-02-06
--   releaseCycle: "7.17"
-    releaseDate: 2025-01-16
-    eol: false
-    latest: "7.17.2"
     latestReleaseDate: 2025-02-06
 
 ---
