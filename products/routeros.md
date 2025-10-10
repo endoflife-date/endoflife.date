@@ -74,3 +74,7 @@ It can also be installed on a PC and will turn it into a router with all the nec
 See the [homepage](https://mikrotik.com/software), [forum](https://forum.mikrotik.com/c/routeros/6), [help docs](https://help.mikrotik.com/docs/), or [old wiki](https://wiki.mikrotik.com/) for further information.
 
 Note: When performing updates each minor version must be upgraded in sequence.
+
+## Support Policy
+Offered on MikroTik product pages:
+> The device has an operating system preinstalled and licensed. No separate purchase is necessary and the product is ready to use. The device includes free software updates for the life of the product or a minimum of 5 years starting from date of purchase..
