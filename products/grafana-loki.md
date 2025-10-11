@@ -12,7 +12,6 @@ changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
 auto:
   methods:
     - git: https://github.com/grafana/loki.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 identifiers:
   - repology: grafana-loki
