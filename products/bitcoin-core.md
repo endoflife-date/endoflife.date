@@ -9,7 +9,7 @@ changelogTemplate: https://bitcoincore.org/en/releases/__LATEST__/
 
 auto:
   methods:
-    - git: https://github.com/bitcoin/bitcoin.git
+    - github_releases: bitcoin/bitcoin
       regex: '^v?(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
     - release_table: https://bitcoincore.org/en/lifecycle/
       fields:

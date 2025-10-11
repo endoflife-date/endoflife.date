@@ -14,7 +14,9 @@ identifiers:
 auto:
   methods:
     - discourse: https://community.sonarsource.com/c/sq/releases/24
-      regex: '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)$'
+      regex:
+        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+)$'
+        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)( LTA)?$'
 
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
@@ -51,9 +53,9 @@ releases:
     releaseDate: 2025-01-23 # https://community.sonarsource.com/t/sonarqube-server-2025-release-1-lta-released/133961
     eoas: 2025-03-26
     eol: false # releaseDate(2026.1)
-    latest: "2025.1.3"
-    latestReleaseDate: 2025-07-08
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-3-lta/144010
+    latest: "2025.1.4"
+    latestReleaseDate: 2025-09-23
+    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-4-lta/149156
 
   - releaseCycle: "10"
     releaseDate: 2023-03-30
