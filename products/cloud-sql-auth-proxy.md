@@ -1,5 +1,6 @@
 ---
 title: Cloud SQL Auth Proxy
+addedAt: 2025-10-11
 category: app
 tags: google
 iconSlug: googlecloud
