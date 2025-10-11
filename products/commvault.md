@@ -13,7 +13,7 @@ auto:
       fields:
         releaseCycle:
           column: "Release"
-          regex: '^.+(?P<value>\d+\.\d+)\)?'
+          regex: '^.+ (?P<value>\d+\.\d+)\)?$'
         releaseDate: "Initial release date"
         eol: "End-of-life date"
         latest: "Latest maintenance release"
@@ -22,7 +22,7 @@ auto:
 releases:
   - releaseCycle: "11.42"
     releaseDate: 2025-07-14
-    eol: 2025-07-18
+    eol: 2026-07-15
     latest: "11.42.25"
     latestReleaseDate: 2025-09-15
     link: https://documentation.commvault.com/11.42/software/list_of_innovation_update_releases_in_11_42.html
@@ -31,8 +31,8 @@ releases:
     lts: true
     releaseDate: 2025-06-15
     eol: 2027-12-15
-    latest: "11.40.16"
-    latestReleaseDate: 2025-09-02
+    latest: "11.40.22"
+    latestReleaseDate: 2025-10-08
     link: https://documentation.commvault.com/11.40/essential/list_of_maintenance_releases_in_11_40.html
 
   - releaseCycle: "11.38"
