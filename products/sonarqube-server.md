@@ -14,7 +14,9 @@ identifiers:
 auto:
   methods:
     - discourse: https://community.sonarsource.com/c/sq/releases/24
-      regex: '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)$'
+      regex:
+        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+)$'
+        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)( LTA)?$'
 
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
