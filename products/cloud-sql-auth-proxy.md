@@ -9,7 +9,7 @@ alternate_urls:
 -   /cloud-sql-proxy
 versionCommand: cloud-sql-proxy --version
 releasePolicyLink: https://github.com/GoogleCloudPlatform/cloud-sql-proxy?tab=readme-ov-file#support-policy
-changelogTemplate: "https://github.com/GoogleCloudPlatform/cloud-sql-proxy/releases/tag/__LATEST__"
+changelogTemplate: https://github.com/GoogleCloudPlatform/cloud-sql-proxy/releases/tag/__LATEST__
 eolColumn: Maintenance
 eoasColumn: Active Support
 
