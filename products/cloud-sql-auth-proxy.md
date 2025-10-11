@@ -41,4 +41,3 @@ Cloud SQL Auth Proxy follows [semantic versioning](https://semver.org/). Each ma
 - **Active**: New major versions receive both new features and bug fixes for a minimum of 1 year.
 - **Maintenance**: After the active phase, releases receive only critical security and bug fixes.
 
-More details can be found in their [support policy](https://github.com/GoogleCloudPlatform/cloud-sql-proxy?tab=readme-ov-file#support-policy).
