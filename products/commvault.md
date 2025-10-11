@@ -62,7 +62,7 @@ releases:
 
 ---
 
-> Commvault is a comprehensive data protection and management platform.
+> [Commvault](https://www.commvault.com) is a comprehensive data protection and management platform.
 > It helps organizations back up, restore, archive, migrate, and secure data, including with built-in
 > disaster recovery and ransomware protection across on-premises, hybrid, and cloud environments.
 
