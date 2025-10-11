@@ -32,8 +32,8 @@ releaseDateColumn: Released
 identifiers:
   #- xxx_purl: os:mikrotik/routeros
   #- purl: swid:mikrotik/routeros
-  - cpe:2.3:h:mikrotik
-  - cpe:2.3:o:mikrotik:routeros
+  - cpe: cpe:2.3:h:mikrotik
+  - cpe: cpe:2.3:o:mikrotik:routeros
 
 # A list of releases, supported or not (mandatory).
 releases:
