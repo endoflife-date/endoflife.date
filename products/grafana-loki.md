@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:docker/bitnami/grafana-loki
   - purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
 
+# eol(x) = releaseDate(x+2), except for the last minor of a major.
 releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
