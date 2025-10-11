@@ -168,7 +168,7 @@ releases:
 
 > Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
 
-According to [this information](https://github.com/grafana/loki/issues/18484#issuecomment-3098532391),
+According to [this comment](https://github.com/grafana/loki/issues/18484#issuecomment-3098532391),
 Grafana provides security patches for the last two minor releases of the
 current major version, plus the last minor release of the previous major
 version.
