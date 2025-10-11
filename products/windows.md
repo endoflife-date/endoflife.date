@@ -180,14 +180,6 @@ releases:
     latest: 10.0.22000
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
-  - releaseCycle: "11-21h2-e"
-    releaseLabel: "11 21H2 (E)"
-    releaseDate: 2021-10-04
-    eoas: 2024-10-08
-    eol: 2024-10-08
-    latest: 10.0.22000
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
-
   - releaseCycle: "11-21h2-w"
     releaseLabel: "11 21H2 (W)"
     releaseDate: 2021-10-04
