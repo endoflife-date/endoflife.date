@@ -6,7 +6,6 @@ iconSlug: grafana
 permalink: /grafana-loki
 alternate_urls:
   - /loki
-releasePolicyLink: https://github.com/grafana/loki/issues/18484#issuecomment-3098532391
 changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
 
 auto:
