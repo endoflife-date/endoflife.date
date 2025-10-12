@@ -62,7 +62,7 @@ releases:
     releaseDate: 2023-09-06
     eol: false
     latest: "2.9.15"
-    latestReleaseDate: 2025-06-10
+    latestReleaseDate: 2025-06-09
 
   - releaseCycle: "2.8"
     releaseDate: 2023-04-03
@@ -173,4 +173,3 @@ According to [this comment](https://github.com/grafana/loki/issues/18484#issueco
 Grafana provides security patches for the last two minor releases of the
 current major version, plus the last minor release of the previous major
 version.
-
