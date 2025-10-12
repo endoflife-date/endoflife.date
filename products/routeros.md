@@ -26,8 +26,9 @@ releaseDateColumn: Released
     # Configuration for auto-update based on a custom script in the release-data repository.
     # The value must be the script name in the release-data repository, without it's '.py' extension.
     #- custom: script-name
-    # rss: https://download.mikrotik.com/routeros/latest-stable.rss
-    # rss: https://download.mikrotik.com/routeros/latest-long-term.rss
+    # routeros-stable: https://download.mikrotik.com/routeros/latest-stable.rss
+    # routeros-lt: https://download.mikrotik.com/routeros/latest-long-term.rss
+    # routeros-both: https://download.mikrotik.com/routeros/latest-stable-and-long-term.rss
 # Please see https://endoflife.date/help/identifiers-needed/ for more information
 identifiers:
   #- xxx_purl: os:mikrotik/routeros
@@ -77,4 +78,7 @@ Note: When performing updates each minor version must be upgraded in sequence.
 
 ## Support Policy
 Offered on MikroTik product pages:
-> The device has an operating system preinstalled and licensed. No separate purchase is necessary and the product is ready to use. The device includes free software updates for the life of the product or a minimum of 5 years starting from date of purchase..
+> The device has an operating system preinstalled and licensed. No separate purchase is necessary and the product is ready to use. The device includes free software updates for the life of the product or a minimum of 5 years starting from date of purchase.
+
+From the forum:
+> Long-term release channel (presently v6) only receives security updates. At present, there is no long-term for V7. MikroTik support policy is limited to bugs and interoperability/incompatibility, not configuration help.
