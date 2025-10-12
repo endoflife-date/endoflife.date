@@ -11,7 +11,7 @@ versionCommand: cat /etc/linuxmint/info
 latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-staleReleaseThresholdYears: 2
+staleReleaseThresholdYears: 3
 
 auto:
   methods:
