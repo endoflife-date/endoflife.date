@@ -16,6 +16,9 @@ eoasColumn: true
 identifiers:
   - purl: pkg:generic/python
   - purl: pkg:deb/ubuntu/python
+  - purl: pkg:deb/ubuntu/python3.14
+  - purl: pkg:deb/ubuntu/python3.13
+  - purl: pkg:deb/ubuntu/python3.12
   - purl: pkg:deb/ubuntu/python3.11
   - purl: pkg:deb/ubuntu/python3.10
   - purl: pkg:deb/ubuntu/python3.9
@@ -36,6 +39,8 @@ identifiers:
   - purl: pkg:deb/ubuntu/python2.2
   - purl: pkg:deb/ubuntu/python2.1
   - purl: pkg:deb/debian/python
+  - purl: pkg:deb/debian/python3.14
+  - purl: pkg:deb/debian/python3.13
   - purl: pkg:deb/debian/python3.11
   - purl: pkg:deb/debian/python3.9
   - purl: pkg:deb/debian/python3.7
@@ -51,6 +56,9 @@ identifiers:
   - purl: pkg:deb/debian/python2.2
   - purl: pkg:deb/debian/python2.1
   - purl: pkg:deb/debian/python1.5
+  - purl: pkg:rpm/fedora/python3.14
+  - purl: pkg:rpm/fedora/python3.13
+  - purl: pkg:rpm/fedora/python3.12
   - purl: pkg:rpm/fedora/python3.11
   - purl: pkg:rpm/fedora/python3.10
   - purl: pkg:rpm/fedora/python3.9
@@ -86,40 +94,47 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "3.14"
+    releaseDate: 2025-10-07
+    eoas: 2027-10-01
+    eol: 2030-10-31
+    latest: "3.14.0"
+    latestReleaseDate: 2025-10-07
+
   - releaseCycle: "3.13"
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.7"
-    latestReleaseDate: 2025-08-14
+    latest: "3.13.8"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.11"
-    latestReleaseDate: 2025-06-03
+    latest: "3.12.12"
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "3.11"
     releaseDate: 2022-10-24
     eoas: 2024-04-01
     eol: 2027-10-31
-    latest: "3.11.13"
-    latestReleaseDate: 2025-06-03
+    latest: "3.11.14"
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "3.10"
     releaseDate: 2021-10-04
     eoas: 2023-04-05
     eol: 2026-10-31
-    latest: "3.10.18"
-    latestReleaseDate: 2025-06-03
+    latest: "3.10.19"
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "3.9"
     releaseDate: 2020-10-05
     eoas: 2022-05-17
     eol: 2025-10-31
-    latest: "3.9.23"
-    latestReleaseDate: 2025-06-03
+    latest: "3.9.24"
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "3.8"
     releaseDate: 2019-10-14

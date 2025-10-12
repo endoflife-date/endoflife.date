@@ -11,6 +11,7 @@ alternate_urls:
 changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
 eolColumn: Support
 eoesColumn: Enterprise Support
+staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -117,7 +118,7 @@ releases:
 > serves as the central layer for orchestrating microservices or conventional API traffic.
 
 {: .warning }
-This page is about the Community Edition of Kong Gateway, which serves as the foundation
+This page is mainly about the Community Edition of Kong Gateway, which serves as the foundation
 of the Enterprise Edition.
 
 Kong Gateway follows [Semantic Versioning](https://semver.org/).

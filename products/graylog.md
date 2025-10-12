@@ -23,55 +23,60 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/Graylog2/graylog2-server.git
+    - release_table: https://go2docs.graylog.org/current/setting_up_graylog/supported_versions.htm
+      fields:
+        releaseCycle: "Release"
+        releaseDate: "Release Date"
+        eol: "EOL Release Support"
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
   - releaseCycle: "6.3"
     releaseDate: 2025-06-30
-    eol: false
+    eol: 2026-06-30
     latest: "6.3.4"
     latestReleaseDate: 2025-10-01
 
   - releaseCycle: "6.2"
     releaseDate: 2025-04-28
-    eol: false
+    eol: 2026-04-28
     latest: "6.2.8"
     latestReleaseDate: 2025-10-01
 
   - releaseCycle: "6.1"
-    releaseDate: 2024-10-18
-    eol: 2025-06-30
+    releaseDate: 2024-10-20
+    eol: 2025-10-20
     latest: "6.1.16"
     latestReleaseDate: 2025-10-01
 
   - releaseCycle: "6.0"
-    releaseDate: 2024-05-06
-    eol: 2025-04-28
+    releaseDate: 2024-05-07
+    eol: 2025-05-08
     latest: "6.0.14"
     latestReleaseDate: 2025-04-03
 
   - releaseCycle: "5.2"
-    releaseDate: 2023-10-30
-    eol: 2024-10-18
+    releaseDate: 2023-11-01
+    eol: 2024-11-01
     latest: "5.2.12"
     latestReleaseDate: 2024-10-02
 
   - releaseCycle: "5.1"
-    releaseDate: 2023-05-11
-    eol: 2024-05-06
+    releaseDate: 2023-05-17
+    eol: 2024-05-17
     latest: "5.1.13"
     latestReleaseDate: 2024-04-03
 
   - releaseCycle: "5.0"
-    releaseDate: 2022-11-30
-    eol: 2023-10-30
+    releaseDate: 2022-12-06
+    eol: 2023-12-06
     latest: "5.0.13"
     latestReleaseDate: 2023-10-12
 
   - releaseCycle: "4.3"
-    releaseDate: 2022-05-17
-    eol: 2023-05-11
+    releaseDate: 2022-05-25
+    eol: 2023-05-25
     latest: "4.3.15"
     latestReleaseDate: 2023-05-03
 
@@ -203,6 +208,4 @@ releases:
 > This page mainly tracks releases for the free, self-hosted and open-source offering currently named
 > _Graylog Open_.
 
-Graylog's release, support and EOL policy are not clearly defined. But looking at the recent release
-history, it seems that the last two minor releases are usually supported with minor changes, bug
-fixes, and security patches.
+Graylog's supported releases are documented [in their documentation](https://go2docs.graylog.org/current/setting_up_graylog/supported_versions.htm).
