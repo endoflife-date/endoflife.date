@@ -44,17 +44,17 @@ releases:
     latestReleaseDate: 2025-09-30
 -   releaseCycle: "7.19"
     releaseDate: 2025-05-22
-    eol: false
+    eol: true
     latest: "7.19.6"
     latestReleaseDate: 2025-09-15
 -   releaseCycle: "7.18"
     releaseDate: 2025-02-24
-    eol: false
+    eol: true
     latest: "7.18.2"
     latestReleaseDate: 2025-03-12
 -   releaseCycle: "7.17"
     releaseDate: 2025-01-16
-    eol: false
+    eol: true
     latest: "7.17.2"
     latestReleaseDate: 2025-02-06
 -   releaseCycle: "6.49"
