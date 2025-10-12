@@ -10,8 +10,9 @@ changelogTemplate: |
   https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
 
 identifiers:
-  - repology: docker
   - repology: docker-ce
+  - repology: docker-containers
+  - repology: moby
   - cpe: cpe:2.3:a:docker:engine
   - cpe: cpe:/a:docker:engine
 
