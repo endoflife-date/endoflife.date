@@ -42,7 +42,7 @@ releases:
     eol: 2027-04-05
     supportedPhpVersions: 8.2 - 8.4
     latest: "5.1.0"
-    latestReleaseDate: 2025-10-06
+    latestReleaseDate: 2025-10-04
 
   - releaseCycle: "5.0"
     releaseDate: 2025-04-14
