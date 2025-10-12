@@ -66,3 +66,5 @@ releases:
 Starting with `v1.4.0`, every other DuckDB version is going to be a Long Term Support (LTS) edition.
 For LTS DuckDB versions, community support will last a year after the release (for now). DuckDB Labs is also starting
 to offer support for older LTS versions after their community support has expired.
+
+Each non-LTS release becomes end-of-life once a newer release (LTS or otherwise) is available.
