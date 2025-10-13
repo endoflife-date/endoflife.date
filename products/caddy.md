@@ -29,10 +29,10 @@ identifiers:
   - purl: pkg:arch/arch/caddy
   - purl: pkg:gentoo/www-servers/caddy
   - purl: pkg:freebsd/www/caddy
-  - purl: pkg:copr/caddy:caddy
+  - purl: pkg:copr/caddy/caddy?owner_type=g
   - purl: pkg:nix/caddy
   - purl: pkg:termux/caddy
-  - purl: pkg:ansible/nvjacobo.caddy
+  - purl: pkg:ansible/nvjacobo/caddy?collection_type=roles
   - purl: pkg:unikraft/caddy
   - purl: pkg:opnsense/os-caddy
   - cpe: cpe:/a:caddyserver:caddy
