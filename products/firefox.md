@@ -27,11 +27,17 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "143"
+    releaseDate: 2025-09-16
+    eol: false
+    latest: "143.0.4"
+    latestReleaseDate: 2025-10-03
+
   - releaseCycle: "142"
     releaseDate: 2025-08-19
-    eol: false
-    latest: "142.0"
-    latestReleaseDate: 2025-08-19
+    eol: 2025-09-16
+    latest: "142.0.1"
+    latestReleaseDate: 2025-08-27
 
   - releaseCycle: "141"
     releaseDate: 2025-07-22
@@ -43,8 +49,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.2.0"
-    latestReleaseDate: 2025-08-19
+    latest: "140.3.1"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -194,9 +200,9 @@ releases:
   - releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2025-09-16 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to September 2025
-    latest: "115.23.0"
-    latestReleaseDate: 2025-04-29
+    eol: 2026-03-15 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to March 2026
+    latest: "115.28.0"
+    latestReleaseDate: 2025-09-16
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06
@@ -333,4 +339,4 @@ releases:
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports the last 3 macOS releases, [matching the Apple support cycle](https://support.mozilla.org/kb/firefox-mac-osx-users-esr).
-- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to September 2025.
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to March 2026, and this extension will be reconsidered in February 2026.

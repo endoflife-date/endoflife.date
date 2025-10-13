@@ -2,6 +2,7 @@
 title: Valkey
 addedAt: 2025-01-14
 category: database
+tags: linux-foundation
 permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/
@@ -24,22 +25,23 @@ releases:
     releaseDate: 2025-03-31
     eoas: false # not yet documented on https://valkey.io/topics/releases/
     eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.1.3"
-    latestReleaseDate: 2025-07-07
+    latest: "8.1.4"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "8.0"
     releaseDate: 2024-09-15
     eoas: 2027-09-15
     eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.0.4"
-    latestReleaseDate: 2025-07-07
+    latest: "8.0.6"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15 # inherit from redis
     eoas: 2027-04-16
     eol: 2029-04-16
-    latest: "7.2.10"
-    latestReleaseDate: 2025-07-07
+    latest: "7.2.11"
+    latestReleaseDate: 2025-10-03
+
 ---
 
 > [Valkey](https://valkey.io/) is an open source (BSD) high-performance key/value datastore

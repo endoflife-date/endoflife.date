@@ -19,7 +19,6 @@ auto:
       regex: ^v(?P<version>([1-9]\d*)(\.\d+){0,3})$
       template: "{{version}}"
     - release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html#1
-      selector: "table"
       fields:
         releaseCycle:
           column: "Salt version"
@@ -27,7 +26,6 @@ auto:
         eoas: "Active support ends"
         eol: "CVE and critical support ends"
     - release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html#2
-      selector: "table"
       fields:
         releaseCycle: "Salt version"
         eoas: "Phase 2 support ends"
@@ -46,8 +44,8 @@ releases:
     releaseDate: 2024-03-06
     eoas: 2025-11-30
     eol: 2025-11-30
-    latest: "3007.6"
-    latestReleaseDate: 2025-07-10
+    latest: "3007.8"
+    latestReleaseDate: 2025-09-18
     link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
 
   - releaseCycle: "3006"
@@ -55,8 +53,8 @@ releases:
     releaseDate: 2023-04-18
     eoas: 2025-11-30
     eol: 2026-11-30
-    latest: "3006.14"
-    latestReleaseDate: 2025-07-10
+    latest: "3006.16"
+    latestReleaseDate: 2025-09-18
 
   - releaseCycle: "3005"
     releaseDate: 2022-08-22

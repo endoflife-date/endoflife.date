@@ -18,7 +18,6 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
 eoasColumn: Full support
-eoasWarnThreshold: 30
 eolColumn: Maintenance support
 
 auto:
@@ -31,22 +30,22 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "6.17.3"
-    latestReleaseDate: 2025-08-07
+    latest: "6.17.5"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
-    latest: "6.16.5.2"
-    latestReleaseDate: 2025-06-17
+    latest: "6.16.5.4"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
-    latest: "6.15.5.3"
-    latestReleaseDate: 2025-06-26
+    latest: "6.15.5.5"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "6.14"
     releaseDate: 2023-11-08
@@ -154,6 +153,7 @@ releases:
     latest: "6.0.8"
     latestReleaseDate: 2015-02-20
     link: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
+
 ---
 
 > [Red Hat Satellite](https://www.redhat.com/technologies/management/satellite) is an infrastructure

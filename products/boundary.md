@@ -14,34 +14,40 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/hashicorp/boundary.git
+    - github_releases: hashicorp/boundary
       regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "0.20"
+    releaseDate: 2025-09-25
+    eol: false
+    latest: "0.20.0"
+    latestReleaseDate: 2025-09-25
+
   - releaseCycle: "0.19"
-    releaseDate: 2025-02-06
+    releaseDate: 2025-02-10
     eol: false
     latest: "0.19.3"
-    latestReleaseDate: 2025-07-09
+    latestReleaseDate: 2025-07-10
 
   - releaseCycle: "0.18"
-    releaseDate: 2024-10-10
+    releaseDate: 2024-10-14
     eol: false
     latest: "0.18.2"
-    latestReleaseDate: 2024-12-11
+    latestReleaseDate: 2024-12-12
 
   - releaseCycle: "0.17"
-    releaseDate: 2024-07-30
-    eol: false
+    releaseDate: 2024-07-31
+    eol: 2025-09-25
     latest: "0.17.2"
-    latestReleaseDate: 2024-10-01
+    latestReleaseDate: 2024-10-14
 
   - releaseCycle: "0.16"
-    releaseDate: 2024-04-29
+    releaseDate: 2024-04-30
     eol: 2025-02-10
     latest: "0.16.3"
-    latestReleaseDate: 2024-08-19
+    latestReleaseDate: 2024-08-22
 ---
 
 > [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy

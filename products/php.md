@@ -28,15 +28,15 @@ releases:
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
-    latest: "8.4.11"
-    latestReleaseDate: 2025-07-31
+    latest: "8.4.13"
+    latestReleaseDate: 2025-09-25
 
   - releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.24"
-    latestReleaseDate: 2025-07-31
+    latest: "8.3.26"
+    latestReleaseDate: 2025-09-25
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-08
@@ -142,6 +142,7 @@ releases:
     eol: 2005-09-05
     latest: "5.0.5"
     latestReleaseDate: 2005-09-05
+
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose

@@ -2,6 +2,7 @@
 title: containerd
 addedAt: 2024-03-10
 category: app
+tags: linux-foundation
 iconSlug: containerd
 permalink: /containerd
 versionCommand: containerd --version
@@ -19,7 +20,6 @@ auto:
   methods:
     - git: https://github.com/containerd/containerd.git
     - release_table: https://containerd.io/releases/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"

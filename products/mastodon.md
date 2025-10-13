@@ -27,20 +27,20 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2025-07-08
     eol: false
-    latest: "4.4.3"
-    latestReleaseDate: 2025-08-05
+    latest: "4.4.5"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "4.3"
     releaseDate: 2024-10-08
     eol: false
-    latest: "4.3.11"
-    latestReleaseDate: 2025-08-05
+    latest: "4.3.13"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: 2026-01-08
-    latest: "4.2.24"
-    latestReleaseDate: 2025-08-05
+    latest: "4.2.26"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "4.1"
     releaseDate: 2023-02-10
@@ -103,6 +103,7 @@ releases:
     eol: true
     latest: "1.6.1"
     latestReleaseDate: 2017-09-17
+
 ---
 
 > [Mastodon](https://joinmastodon.org/) is a free and open-source software for running self-hosted

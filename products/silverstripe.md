@@ -13,7 +13,6 @@ releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
 eolColumn: Security Support
-eolWarnThreshold: 182
 
 identifiers:
   - purl: pkg:composer/silverstripe/cms
@@ -25,7 +24,6 @@ auto:
     - release_table: https://www.silverstripe.org/software/roadmap/
       render_javascript: true
       render_javascript_wait_for: "table"
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle: "CMS Version"

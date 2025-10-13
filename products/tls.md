@@ -5,7 +5,8 @@ category: standard
 tags: ietf
 permalink: /tls
 releaseLabel: "TLS __RELEASE_CYCLE__"
-releaseColumn: false
+latestColumn: false
+staleReleaseThresholdYears: 20
 
 releases:
   - releaseCycle: "1.3"

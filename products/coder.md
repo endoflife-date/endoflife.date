@@ -8,8 +8,6 @@ versionCommand: coder version
 releasePolicyLink: https://coder.com/docs/install/releases
 changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
 eoasColumn: true
-eoasWarnThreshold: 60
-eolWarnThreshold: 90
 
 identifiers:
   - repology: coder
@@ -23,24 +21,38 @@ auto:
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "2.27"
+    releaseDate: 2025-10-07
+    eoas: false # releaseDate(2.29)
+    eol: false # releaseDate(2.30)
+    latest: "2.27.0"
+    latestReleaseDate: 2025-10-07
+
+  - releaseCycle: "2.26"
+    releaseDate: 2025-09-03
+    eoas: false # releaseDate(2.28)
+    eol: false # releaseDate(2.29)
+    latest: "2.26.1"
+    latestReleaseDate: 2025-10-01
+
   - releaseCycle: "2.25"
     releaseDate: 2025-08-05
-    eoas: false # releaseDate(2.27)
+    eoas: 2025-10-07
     eol: false # releaseDate(2.28)
-    latest: "2.25.1"
-    latestReleaseDate: 2025-08-07
+    latest: "2.25.3"
+    latestReleaseDate: 2025-10-01
 
   - releaseCycle: "2.24"
     releaseDate: 2025-07-01
-    eoas: false # releaseDate(2.26)
-    eol: false # releaseDate(2.27)
-    latest: "2.24.3"
-    latestReleaseDate: 2025-08-07
+    eoas: 2025-09-03
+    eol: 2025-10-07
+    latest: "2.24.4"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "2.23"
     releaseDate: 2025-06-03
     eoas: 2025-08-05
-    eol: false # releaseDate(2.26)
+    eol: 2025-09-03
     latest: "2.23.5"
     latestReleaseDate: 2025-08-07
 
@@ -155,6 +167,7 @@ releases:
     eol: 2024-04-03 # releaseDate(2.10)
     latest: "2.7.3"
     latestReleaseDate: 2024-03-04
+
 ---
 
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred

@@ -20,20 +20,20 @@ auto:
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
   - releaseCycle: "13.4"
-    releaseDate: 2025-06-20
+    releaseDate: 2025-06-27
     eol: 2025-09-26
-    latest: "13.4.1.6"
-    latestReleaseDate: 2025-08-19
+    latest: "13.4.1.9"
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "13.3"
-    releaseDate: 2025-04-25
-    eol: 2025-06-20
-    latest: "13.3.1.12"
-    latestReleaseDate: 2025-08-14
+    releaseDate: 2025-05-14
+    eol: 2025-06-27
+    latest: "13.3.1.15"
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "13.2"
     releaseDate: 2025-02-21
-    eol: 2025-04-25
+    eol: 2025-05-14
     latest: "13.2.1.16"
     latestReleaseDate: 2025-06-30
 
@@ -53,74 +53,74 @@ releases:
     lts: true
     releaseDate: 2024-09-20
     eol: 2027-09-24
-    latest: "12.5.1.44"
-    latestReleaseDate: 2025-08-19
+    latest: "12.5.1.47"
+    latestReleaseDate: 2025-10-06
 
-  - releaseCycle: '12.4'
+  - releaseCycle: "12.4"
     releaseDate: 2024-05-31
     eol: 2024-09-20
-    latest: '12.4.1.11'
+    latest: "12.4.1.11"
     latestReleaseDate: 2024-10-22
 
-  - releaseCycle: '12.3'
+  - releaseCycle: "12.3"
     releaseDate: 2024-04-05
     eol: 2024-05-31
-    latest: '12.3.1.6'
+    latest: "12.3.1.6"
     latestReleaseDate: 2024-10-22
 
-  - releaseCycle: '12.2'
+  - releaseCycle: "12.2"
     releaseDate: 2024-02-09
     eol: 2024-04-05
-    latest: '12.2.1.5'
+    latest: "12.2.1.5"
     latestReleaseDate: 2024-03-20
 
-  - releaseCycle: '12.1'
+  - releaseCycle: "12.1"
     releaseDate: 2023-12-22
     eol: 2024-02-09
-    latest: '12.1.1.7'
+    latest: "12.1.1.7"
     latestReleaseDate: 2024-02-16
 
-  - releaseCycle: '12.0'
+  - releaseCycle: "12.0"
     releaseDate: 2023-11-03
     eol: 2023-12-22
-    latest: '12.0.1.5'
+    latest: "12.0.1.5"
     latestReleaseDate: 2023-12-21
 
   - releaseCycle: "11.5"
     lts: true
     releaseDate: 2023-09-22
     eol: 2026-09-11
-    latest: "11.5.1.46"
-    latestReleaseDate: 2025-08-04
+    latest: "11.5.1.49"
+    latestReleaseDate: 2025-08-29
 
-  - releaseCycle: '11.4'
+  - releaseCycle: "11.4"
     releaseDate: 2023-07-21
     eol: 2023-09-08
-    latest: '11.4.1.8'
+    latest: "11.4.1.8"
     latestReleaseDate: 2024-02-16
 
-  - releaseCycle: '11.3'
+  - releaseCycle: "11.3"
     releaseDate: 2023-04-14
     eol: 2023-07-21
-    latest: '11.3.1.15'
+    latest: "11.3.1.15"
     latestReleaseDate: 2024-02-16
 
-  - releaseCycle: '11.2'
+  - releaseCycle: "11.2"
     releaseDate: 2023-02-17
     eol: 2023-04-14
-    latest: '11.2.1.12'
+    latest: "11.2.1.12"
     latestReleaseDate: 2023-05-16
 
-  - releaseCycle: '11.1'
+  - releaseCycle: "11.1"
     releaseDate: 2022-10-28
     eol: 2023-02-17
-    latest: '11.1.1.12'
+    latest: "11.1.1.12"
     latestReleaseDate: 2023-05-12
 
-  - releaseCycle: '11.0'
+  - releaseCycle: "11.0"
     releaseDate: 2022-09-02
     eol: 2022-10-28
-    latest: '11.0.1.7'
+    latest: "11.0.1.7"
     latestReleaseDate: 2022-10-12
 
   - releaseCycle: "10.5"
@@ -130,16 +130,16 @@ releases:
     latest: "10.5.9.1"
     latestReleaseDate: 2025-07-29
 
-  - releaseCycle: '9.5'
+  - releaseCycle: "9.5"
     releaseDate: 2021-07-02
     eol: 2024-09-06
-    latest: '9.5.9.1'
+    latest: "9.5.9.1"
     latestReleaseDate: 2024-07-01
 
-  - releaseCycle: '8.5'
+  - releaseCycle: "8.5"
     releaseDate: 2020-07-31
     eol: 2023-12-08
-    latest: '8.5.12.2'
+    latest: "8.5.12.2"
     latestReleaseDate: 2023-12-15
 
 ---

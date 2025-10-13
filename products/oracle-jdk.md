@@ -7,8 +7,6 @@ iconSlug: oracle
 permalink: /oracle-jdk
 alternate_urls:
   - /oracle-java
-  - /java
-  - /jdk
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
@@ -27,7 +25,6 @@ auto:
   methods:
     - oracle-jdk: https://www.java.com/releases/
     - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-      selector: "table"
       render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
       fields:
@@ -57,9 +54,17 @@ auto:
 # LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
 # for non-LTS, eol(x) = releaseDate(x+1).
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-09-16
+    eol: 2030-09-30
+    eoes: 2033-09-30
+    latest: "25"
+    latestReleaseDate: 2025-09-16
+    link: https://www.oracle.com/java/technologies/javase/25all-relnotes.html
+
   - releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-16 # attempted date (3rd Tuesday of the month)
+    eol: 2025-09-16
     latest: "24.0.2"
     latestReleaseDate: 2025-07-15
     link: https://www.oracle.com/java/technologies/javase/24all-relnotes.html

@@ -9,7 +9,7 @@ alternate_urls:
   - /hmd
   - /nokiamobile
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
-releaseColumn: false
+latestColumn: false
 
 # EOL estimation if not explicitly announced by Nokia on the product page
 # - for C line: eol(x) = releaseDate(x) + 2 years

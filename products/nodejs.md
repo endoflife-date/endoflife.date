@@ -2,7 +2,7 @@
 title: Node.js
 addedAt: 2019-05-27
 category: framework
-tags: javascript-runtime herodevs
+tags: javascript-runtime herodevs linux-foundation
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:docker/library/node
   - purl: pkg:docker/cimg/node
   - purl: pkg:docker/bitnami/node
+  - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
 
 auto:
@@ -33,8 +34,8 @@ releases:
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.6.0"
-    latestReleaseDate: 2025-08-14
+    latest: "24.10.0"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
@@ -48,8 +49,8 @@ releases:
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.18.0"
-    latestReleaseDate: 2025-07-31
+    latest: "22.20.0"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -63,8 +64,8 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.19.4"
-    latestReleaseDate: 2025-07-15
+    latest: "20.19.5"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -230,6 +231,3 @@ If an even-numbered release above is _not marked as LTS_, then it has not entere
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
 Commercial support is available for some deprecated LTS versions of Node.js through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
-
-The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
-to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.

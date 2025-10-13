@@ -9,22 +9,25 @@ alternate_urls:
   - /ack
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
-releaseColumn: false
+latestColumn: false
 eolColumn: End of Support
 
 auto:
   methods:
     - release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "Version"
-        releaseDate: "Release date (ACK)"
+        releaseDate: "ACK Release date"
         eol:
-          column: "Discontinue date (ACK)"
+          column: "ACK end of life date"
           regex: '^(?P<value>.+\s+\d+).*$'
 
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-09-30
+    eol: 2026-09-30
+
   - releaseCycle: "1.33"
     releaseDate: 2025-05-31
     eol: 2026-05-31

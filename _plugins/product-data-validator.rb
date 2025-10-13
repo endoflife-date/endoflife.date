@@ -11,7 +11,6 @@
 require 'jekyll'
 require 'open-uri'
 require_relative 'end-of-life'
-require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
@@ -24,7 +23,6 @@ module EndOfLifeHooks
   SUPPRESSED_BECAUSE_402 = 'may trigger a 402 Payment Required'
   SUPPRESSED_BECAUSE_403 = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_404 = 'may trigger a 404 Not Found'
-  SUPPRESSED_BECAUSE_429 = 'may trigger a 429 Too Many Requests'
   SUPPRESSED_BECAUSE_502 = 'may return a 502 Bad Gateway'
   SUPPRESSED_BECAUSE_503 = 'may return a 503 Service Unavailable'
   SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
@@ -37,6 +35,7 @@ module EndOfLifeHooks
     'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://apex.oracle.com/sod': SUPPRESSED_BECAUSE_403,
     'https://arangodb.com': SUPPRESSED_BECAUSE_403,
+    'https://area51.phpbb.com': SUPPRESSED_BECAUSE_403,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
     'https://azure.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -45,15 +44,19 @@ module EndOfLifeHooks
     'https://codex.wordpress.org/Supported_Versions': SUPPRESSED_BECAUSE_EOF,
     'https://community.openvpn.net': SUPPRESSED_BECAUSE_403,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://developer.apple.com': SUPPRESSED_BECAUSE_502,
+    'https://developers.redhat.com': SUPPRESSED_BECAUSE_403,
     'https://docs.arangodb.com': SUPPRESSED_BECAUSE_404,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_403,
     'https://docs.couchdb.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://docs.gitlab.com': SUPPRESSED_BECAUSE_403,
+    'https://docs.joomla.org': SUPPRESSED_BECAUSE_403,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://docs.rocket.chat': SUPPRESSED_BECAUSE_403,
     'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
     'https://docs-cortex.paloaltonetworks.com/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_403,
+    'https://ffmpeg.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://forums.unrealircd.org': SUPPRESSED_BECAUSE_403,
     'https://github.com/angular/angular.js/blob': SUPPRESSED_BECAUSE_502,
@@ -62,9 +65,7 @@ module EndOfLifeHooks
     'https://github.com/hashicorp/consul/blob/v1.19.2/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/hashicorp/consul/blob/v1.20.5/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
-    'https://github.com': SUPPRESSED_BECAUSE_429,
     'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://investors.broadcom.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://kernelnewbies.org': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -73,11 +74,15 @@ module EndOfLifeHooks
     'https://mxlinux.org': SUPPRESSED_BECAUSE_403,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
     'https://moodle.org/': SUPPRESSED_BECAUSE_403,
+    'https://nextcloud.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://nuxt.com/docs/community/roadmap': SUPPRESSED_BECAUSE_404,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://oxygenupdater.com/news/all/': SUPPRESSED_BECAUSE_403,
+    'https://phabricator.wikimedia.org/T259771': SUPPRESSED_BECAUSE_403,
     'https://privatebin.info/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://review.lineageos.org/': SUPPRESSED_BECAUSE_502,
+    'https://search.maven.org': SUPPRESSED_BECAUSE_403,
     'https://stackoverflow.com': SUPPRESSED_BECAUSE_403,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.citrix.com': SUPPRESSED_BECAUSE_403,
@@ -98,11 +103,16 @@ module EndOfLifeHooks
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.betaarchive.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.blender.org': SUPPRESSED_BECAUSE_403,
+    'https://www.centreon.com/centreon-editions/': SUPPRESSED_BECAUSE_503,
     'https://www.citrix.com/products/citrix-virtual-apps-and-desktops/': SUPPRESSED_BECAUSE_403,
     'https://www.clamav.net': SUPPRESSED_BECAUSE_403,
+    'https://www.couchbase.com': SUPPRESSED_BECAUSE_403,
     'https://www.devuan.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.drupal.org/': SUPPRESSED_BECAUSE_403,
     'https://www.erlang.org/doc/system_principles/misc.html': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'https://www.hpe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mageia.org': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -112,7 +122,10 @@ module EndOfLifeHooks
     'https://www.mulesoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
     'https://www.netapp.com/data-storage/ontap': SUPPRESSED_BECAUSE_403,
+    'https://www.npmjs.com': SUPPRESSED_BECAUSE_403,
+    'https://www.phpbb.com': SUPPRESSED_BECAUSE_403,
     'https://www.raspberrypi.com': SUPPRESSED_BECAUSE_403,
+    'https://www.redmine.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.reddit.com': SUPPRESSED_BECAUSE_403,
     'http://www.slackware.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'http://www.squid-cache.org/Versions/v6/squid-6.13-RELEASENOTES.html': SUPPRESSED_BECAUSE_CONN_FAILED,
@@ -121,9 +134,12 @@ module EndOfLifeHooks
     'https://www.virtualbox.org': SUPPRESSED_BECAUSE_402,
     'https://www.zentyal.com': SUPPRESSED_BECAUSE_403,
   }
-  USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
-  URL_CHECK_OPEN_TIMEOUT = 3
+  USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0'
+  URL_CHECK_OPEN_TIMEOUT = 6
   URL_CHECK_TIMEOUT = 10
+  URL_CHECK_MAX_RETRY = 3
+
+
 
   # Global error count
   @@error_count = 0
@@ -153,24 +169,16 @@ module EndOfLifeHooks
     error_if.is_not_a_string('releaseLabel') if product.data.has_key?('releaseLabel')
     error_if.is_not_a_string('LTSLabel')
     error_if.is_not_a_boolean_nor_a_string('eolColumn')
-    error_if.is_not_a_number('eolWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('eoasColumn')
-    error_if.is_not_a_number('eoasWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('releaseColumn')
+    error_if.is_not_a_boolean_nor_a_string('latestColumn')
     error_if.is_not_a_boolean_nor_a_string('releaseDateColumn')
     error_if.is_not_a_boolean_nor_a_string('discontinuedColumn')
-    error_if.is_not_a_number('discontinuedWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('eoesColumn')
-    error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
     error_if.undeclared_custom_field('releases')
     error_if.custom_field_type_is_not_string('releases')
-
-    product.data['identifiers'].each { |identifier|
-      error_if.is_not_an_identifier('identifiers', identifier)
-    }
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -202,9 +210,9 @@ module EndOfLifeHooks
       error_if.is_not_a_boolean_nor_a_date('discontinued') if product.data['discontinuedColumn']
       error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
-      error_if.is_not_a_string('latest') if product.data['releaseColumn']
-      error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
-      error_if.too_far_in_future('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
+      error_if.is_not_a_string('latest') if product.data['latestColumn']
+      error_if.is_not_a_date('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
+      error_if.too_far_in_future('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
       error_if.is_not_before('releaseDate', 'eoas') if product.data['eoasColumn']
@@ -232,6 +240,11 @@ module EndOfLifeHooks
       product.data['customFields'].each { |field|
         error_if = Validator.new('customFields', product, field)
         error_if.is_url_invalid('link') if field['link']
+      }
+
+      product.data['identifiers'].each { |identifier|
+        error_if = Validator.new('identifiers', product, identifier)
+        error_if.is_url_invalid('url') if identifier['url']
       }
 
       product.data['releases'].each { |release|
@@ -345,13 +358,6 @@ module EndOfLifeHooks
       end
     end
 
-    # Real validation is delegated to IdentifierToUrl to avoid duplication
-    def is_not_an_identifier(property, hash)
-      IdentifierToUrl.new.render(hash)
-    rescue => e
-      declare_error(property, hash, e)
-    end
-
     def not_ordered_by_release_cycles(property)
       releases = @data[property]
 
@@ -435,10 +441,21 @@ module EndOfLifeHooks
         return
       end
 
-      Jekyll.logger.debug TOPIC, "Checking URL #{url}."
-      URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
-        if response.status[0].to_i >= 400
-          raise "response code is #{response.status}"
+      retries = 0
+      begin
+        Jekyll.logger.debug TOPIC, "Checking URL #{url}..."
+        URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
+          Jekyll.logger.debug TOPIC, "URL #{url} successfully checked, response code is #{response.status[0]}"
+        end
+      rescue OpenURI::HTTPError => e
+        if e.io.status[0] == '429' && retries < URL_CHECK_MAX_RETRY
+          retries += 1
+          sleep_time = 2 ** retries
+          Jekyll.logger.warn TOPIC, "Got a 429 (Too Many Requests) for URL #{url}, retrying in #{sleep_time} seconds..."
+          sleep(sleep_time)
+          retry
+        else
+          raise e
         end
       end
     end
@@ -483,6 +500,14 @@ module EndOfLifeHooks
         @product.name
       end
     end
+  end
+end
+
+class TooManyRequestsError < StandardError
+  attr_reader :response
+  def initialize(response)
+    @response = response
+    super("response code is 429 (Too Many Requests)")
   end
 end
 

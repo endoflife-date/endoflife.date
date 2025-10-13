@@ -7,7 +7,7 @@ permalink: /office
 alternate_urls:
   - /msoffice
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Office
-releaseColumn: false
+latestColumn: false
 eoasColumn: true
 
 identifiers:
@@ -16,13 +16,6 @@ identifiers:
 
 # Release dates can be found on subpages of https://en.wikipedia.org/wiki/Microsoft_Office.
 releases:
-  - releaseCycle: "365"
-    outOfOrder: true # to keep it at the top
-    releaseDate: 2015-09-22
-    eoas: false
-    eol: false
-    link: https://learn.microsoft.com/lifecycle/faq/office
-
   - releaseCycle: "2024"
     releaseDate: 2024-10-01
     eoas: 2029-10-09

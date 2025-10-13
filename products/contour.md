@@ -2,7 +2,7 @@
 title: Contour
 addedAt: 2024-06-18
 category: server-app
-tags: cncf kubernetes
+tags: cncf kubernetes linux-foundation
 permalink: /contour
 releasePolicyLink: https://projectcontour.io/resources/support/
 changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
@@ -22,6 +22,12 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "1.33"
+    releaseDate: 2025-09-08
+    eol: false # releaseDate(1.36)
+    latest: "1.33.0"
+    latestReleaseDate: 2025-09-08
+
   - releaseCycle: "1.32"
     releaseDate: 2025-05-15
     eol: false # releaseDate(1.35)
@@ -36,7 +42,7 @@ releases:
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
-    eol: false # releaseDate(1.33)
+    eol: 2025-09-08
     latest: "1.30.5"
     latestReleaseDate: 2025-08-15
 

@@ -2,7 +2,7 @@
 title: OpenSearch
 addedAt: 2022-08-26
 category: database
-tags: amazon java-runtime
+tags: amazon java-runtime linux-foundation
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
@@ -14,7 +14,6 @@ auto:
   methods:
     - git: https://github.com/opensearch-project/OpenSearch.git
     - release_table: https://opensearch.org/releases.html
-      selector: "table"
       fields:
         releaseCycle: "Major Version"
         releaseDate:

@@ -24,6 +24,22 @@ customFields:
     description: Supported Jakarta EE versions
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
 
+identifiers:
+  - purl: pkg:maven/org.springframework/spring-core
+  - purl: pkg:maven/org.springframework/spring-aop
+  - purl: pkg:maven/org.springframework/spring-beans
+  - purl: pkg:maven/org.springframework/spring-context
+  - purl: pkg:maven/org.springframework/spring-expression
+  - purl: pkg:maven/org.springframework/spring-jdbc
+  - purl: pkg:maven/org.springframework/spring-jms
+  - purl: pkg:maven/org.springframework/spring-messaging
+  - purl: pkg:maven/org.springframework/spring-orm
+  - purl: pkg:maven/org.springframework/spring-oxm
+  - purl: pkg:maven/org.springframework/spring-tx
+  - purl: pkg:maven/org.springframework/spring-web
+  - purl: pkg:maven/org.springframework/spring-webmvc
+  - purl: pkg:maven/org.springframework/spring-websocket
+ 
 auto:
   methods:
     - git: https://github.com/spring-projects/spring-framework.git
@@ -31,7 +47,6 @@ auto:
     - release_table: https://spring.io/projects/spring-framework#support
       render_javascript: true
       render_javascript_wait_until: networkidle
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"
@@ -48,8 +63,8 @@ releases:
     releaseDate: 2024-11-30
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "6.2.10"
-    latestReleaseDate: 2025-08-14
+    latest: "6.2.11"
+    latestReleaseDate: 2025-09-11
 
   - releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"

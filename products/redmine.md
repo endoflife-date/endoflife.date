@@ -19,23 +19,29 @@ auto:
 
 # eol releases announced in new versions blog posts
 releases:
+  - releaseCycle: "6.1"
+    releaseDate: 2025-09-21
+    eol: false
+    latest: "6.1.0"
+    latestReleaseDate: 2025-09-21
+
   - releaseCycle: "6.0"
     releaseDate: 2024-11-10
     eol: false
-    latest: "6.0.6"
-    latestReleaseDate: 2025-07-07
+    latest: "6.0.7"
+    latestReleaseDate: 2025-09-21
 
   - releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
-    latest: "5.1.9"
-    latestReleaseDate: 2025-07-07
+    latest: "5.1.10"
+    latestReleaseDate: 2025-09-21
 
   - releaseCycle: "5.0"
     releaseDate: 2022-03-28
-    eol: false
-    latest: "5.0.13"
-    latestReleaseDate: 2025-07-07
+    eol: 2025-09-21 # https://www.redmine.org/news/156
+    latest: "5.0.14"
+    latestReleaseDate: 2025-09-21
 
   - releaseCycle: "4.2"
     releaseDate: 2021-03-28
@@ -54,6 +60,7 @@ releases:
     eol: 2021-04-26
     latest: "4.0.9"
     latestReleaseDate: 2021-04-26
+
 ---
 
 > [Redmine](https://www.redmine.org/) is an open-source project management tool written using the Ruby

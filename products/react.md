@@ -8,6 +8,7 @@ permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 eoasColumn: true
+staleReleaseThresholdYears: 6
 
 identifiers:
   - purl: pkg:github/facebook/react
@@ -23,8 +24,8 @@ releases:
     releaseDate: 2024-12-05
     eoas: false
     eol: false
-    latest: "19.1.1"
-    latestReleaseDate: 2025-07-28
+    latest: "19.2.0"
+    latestReleaseDate: 2025-10-01
 
   - releaseCycle: "18"
     releaseDate: 2022-03-29
@@ -53,6 +54,7 @@ releases:
     eol: false
     latest: "15.7.0"
     latestReleaseDate: 2020-10-14
+
 ---
 
 > [React](https://react.dev/) is an open-source JavaScript library for building modern web

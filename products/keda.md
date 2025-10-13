@@ -2,7 +2,7 @@
 title: KEDA
 addedAt: 2023-10-12
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 permalink: /keda
 releasePolicyLink: https://github.com/kedacore/governance/blob/main/RELEASES.md
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
@@ -25,19 +25,26 @@ identifiers:
   - purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
   - purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
-# Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md
+# eol(x) = releaseDate(x+2)
 # For supportedKubernetesVersions: https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility
 releases:
+  - releaseCycle: "2.18"
+    releaseDate: 2025-10-08
+    eol: false
+    supportedKubernetesVersions: 1.31 - 1.33
+    latest: "2.18.0"
+    latestReleaseDate: 2025-10-08
+
   - releaseCycle: "2.17"
     releaseDate: 2025-04-07
-    eol: 2025-12-24 # estimated releaseDate(2.19)
+    eol: false
     supportedKubernetesVersions: 1.30 - 1.32
     latest: "2.17.2"
     latestReleaseDate: 2025-06-18
 
   - releaseCycle: "2.16"
     releaseDate: 2024-11-07
-    eol: 2025-08-24 # estimated releaseDate(2.18)
+    eol: 2025-10-08
     supportedKubernetesVersions: 1.29 - 1.31
     latest: "2.16.1"
     latestReleaseDate: 2024-12-24

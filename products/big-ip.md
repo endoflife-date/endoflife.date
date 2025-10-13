@@ -13,7 +13,6 @@ eolColumn: End of Technical Support
 auto:
   methods:
     - release_table: https://my.f5.com/manage/s/article/K5903#1
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       render_javascript: true
       render_javascript_wait_for: "table"
@@ -25,7 +24,6 @@ auto:
         eoas: "End of Software Development"
         eol: "End of Technical Support"
     - release_table: https://my.f5.com/manage/s/article/K5903#2
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       render_javascript: true
       render_javascript_wait_for: "table"

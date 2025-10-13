@@ -5,7 +5,7 @@ category: lang
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
 changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
-releaseColumn: false
+latestColumn: false
 eolColumn: Support Status
 
 auto:
@@ -15,7 +15,6 @@ auto:
       render_javascript: true
       render_javascript_wait_for: "text=Visual COBOL for Visual Studio"
       render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

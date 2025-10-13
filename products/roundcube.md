@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 iconSlug: roundcube
 permalink: /roundcube
-releasePolicyLink: https://roundcube.net/news/2021/10/18/roundcube-1.5.0-released
+releasePolicyLink: https://roundcube.net/download/
 changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 eoasColumn: true
 eolColumn: Security Support
@@ -27,6 +27,7 @@ releases:
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
+    lts: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
     eoas: false
     eol: false
     latest: "1.5.11"
@@ -35,7 +36,7 @@ releases:
   - releaseCycle: "1.4"
     releaseDate: 2019-11-09
     eoas: true
-    eol: false
+    eol: 2023-12-10
     latest: "1.4.16"
     latestReleaseDate: 2023-12-10
 

@@ -14,22 +14,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: "npm"
 
       - name: Setup ruby
-        uses: ruby/setup-ruby@829114fc20da43a41d27359103ec7a63020954d4 # v1
+        uses: ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a # v1
         with:
-          ruby-version: 3.3
           bundler-cache: true
 
       - name: Build site
         run: bundle exec jekyll build
 
       - name: Validate OpenAPI specification
-        run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
+        run: npx @quobix/vacuum@latest lint --ignore-file .vacuumignore.yml --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
 
       - name: Validate Markdown files
         run: npx markdownlint-cli2@latest '**/*.md' '!node_modules' '!vendor'

@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "1.20"
     releaseDate: 2025-06-23
     eol: false
-    latest: "1.20.2"
-    latestReleaseDate: 2025-08-05
+    latest: "1.20.4"
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "1.19"
     lts: true
@@ -100,6 +100,7 @@ releases:
     eol: 2022-10-10
     latest: "1.9.10"
     latestReleaseDate: 2022-09-15
+
 ---
 
 > [Hashicorp Vault](https://www.vaultproject.io/) is a tool for securely accessing secrets. It

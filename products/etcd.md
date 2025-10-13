@@ -2,7 +2,7 @@
 title: etcd
 addedAt: 2023-07-18
 category: database
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: etcd
 permalink: /etcd
 versionCommand: etcdctl version
@@ -27,14 +27,14 @@ releases:
   - releaseCycle: "3.6"
     releaseDate: 2025-05-15
     eol: false
-    latest: "3.6.4"
-    latestReleaseDate: 2025-07-25
+    latest: "3.6.5"
+    latestReleaseDate: 2025-09-19
 
   - releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: "3.5.22"
-    latestReleaseDate: 2025-07-23
+    latest: "3.5.23"
+    latestReleaseDate: 2025-09-19
 
   - releaseCycle: "3.4"
     releaseDate: 2019-08-30
@@ -65,6 +65,7 @@ releases:
     eol: 2017-01-20 # latestReleaseDate(3.0)
     latest: "3.0.17"
     latestReleaseDate: 2017-01-20
+
 ---
 
 > [etcd](https://etcd.io) is an open-source, strongly consistent and distributed

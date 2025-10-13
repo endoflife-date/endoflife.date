@@ -21,7 +21,6 @@ auto:
     - git: https://github.com/umbraco/Umbraco-CMS.git
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -41,8 +40,8 @@ releases:
     releaseDate: 2025-06-12
     eoas: 2026-03-12
     eol: 2026-06-12
-    latest: "16.1.1"
-    latestReleaseDate: 2025-07-29
+    latest: "16.2.0"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "15"
     releaseDate: 2024-11-14
@@ -63,8 +62,8 @@ releases:
     releaseDate: 2023-12-14
     eoas: 2025-12-14
     eol: 2026-12-14
-    latest: "13.10.0"
-    latestReleaseDate: 2025-08-14
+    latest: "13.11.0"
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "12"
     releaseDate: 2023-06-29

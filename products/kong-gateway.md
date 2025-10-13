@@ -11,6 +11,7 @@ alternate_urls:
 changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
 eolColumn: Support
 eoesColumn: Enterprise Support
+staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -104,7 +105,7 @@ releases:
   - releaseCycle: "2.8"
     lts: true
     releaseDate: 2022-03-01
-    eol: false
+    eol: 2024-06-24
     eoes: 2025-03-01
     latest: "2.8.5"
     latestReleaseDate: 2024-06-24
@@ -117,7 +118,7 @@ releases:
 > serves as the central layer for orchestrating microservices or conventional API traffic.
 
 {: .warning }
-This page is about the Community Edition of Kong Gateway, which serves as the foundation
+This page is mainly about the Community Edition of Kong Gateway, which serves as the foundation
 of the Enterprise Edition.
 
 Kong Gateway follows [Semantic Versioning](https://semver.org/).

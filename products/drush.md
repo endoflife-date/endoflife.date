@@ -9,6 +9,7 @@ versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 eolColumn: Support
+staleReleaseThresholdYears: 2
 
 customFields:
   - name: supportedPhpVersions
@@ -32,7 +33,6 @@ auto:
     - git: https://github.com/drush-ops/drush.git
     - release_table: https://www.drush.org/latest/install/
       render_javascript: true
-      selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:

@@ -39,10 +39,26 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "6.5"
-    releaseDate: 2025-06-09
+  - releaseCycle: "6.7"
+    releaseDate: 2025-09-01
     eoas: false
     eol: false
+    latest: "6.7.0"
+    latestReleaseDate: 2025-09-01
+    link: https://blog.emberjs.com/ember-released-6-7/
+
+  - releaseCycle: "6.6"
+    releaseDate: 2025-07-21
+    eoas: 2025-09-03
+    eol: 2025-09-03
+    latest: "6.6.0"
+    latestReleaseDate: 2025-07-21
+    link: https://blog.emberjs.com/ember-released-6-6/
+
+  - releaseCycle: "6.5"
+    releaseDate: 2025-06-09
+    eoas: 2025-09-01
+    eol: 2025-09-01
     latest: "6.5.0"
     latestReleaseDate: 2025-06-09
     link: https://blog.emberjs.com/ember-released-6-5/
@@ -301,6 +317,7 @@ releases:
     eol: 2017-04-24
     latest: "2.4.6"
     latestReleaseDate: 2016-06-05
+
 ---
 
 > [Ember](https://emberjs.com) is an open-source JavaScript web framework for building modern web

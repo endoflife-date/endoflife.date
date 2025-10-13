@@ -3,9 +3,10 @@ title: Apple iOS
 addedAt: 2022-10-08
 category: os
 tags: apple
-iconSlug: apple
+iconSlug: ios
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
+changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
 auto:
@@ -19,13 +20,19 @@ auto:
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: false
+    eol: false
+    latest: "26.0.1"
+    latestReleaseDate: 2025-09-29
+
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.6.2"
-    latestReleaseDate: 2025-08-20
-    link: https://support.apple.com/en-us/121161
+    latest: "18.7.1"
+    latestReleaseDate: 2025-09-29
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -33,23 +40,21 @@ releases:
     eol: 2024-11-19
     latest: "17.7.2"
     latestReleaseDate: 2024-11-19
-    link: https://support.apple.com/en-us/118723
 
   - releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: 2025-03-31
-    latest: "16.7.11"
-    latestReleaseDate: 2025-03-31
-    link: https://support.apple.com/HT213407
+    latest: "16.7.12"
+    latestReleaseDate: 2025-09-15
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: 2025-03-31
-    latest: "15.8.4"
-    latestReleaseDate: 2025-03-31
-    link: https://support.apple.com/HT212788
+    latest: "15.8.5"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
@@ -57,7 +62,6 @@ releases:
     eol: 2021-10-01
     latest: "14.8.1"
     latestReleaseDate: 2021-10-26
-    link: https://support.apple.com/HT211808
 
   - releaseCycle: "13"
     releaseDate: 2019-09-19
@@ -65,7 +69,7 @@ releases:
     eol: 2020-09-16
     latest: "13.7"
     latestReleaseDate: 2020-09-01
-    link: https://support.apple.com/HT210393
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-13-release-notes
 
   - releaseCycle: "12"
     releaseDate: 2018-09-17
@@ -73,7 +77,7 @@ releases:
     eol: 2023-01-23
     latest: "12.5.7"
     latestReleaseDate: 2023-01-23
-    link: https://support.apple.com/HT209084
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
   - releaseCycle: "11"
     releaseDate: 2017-09-19
@@ -133,16 +137,15 @@ releases:
 
 ---
 
-> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the
-> company's mobile devices, including the iPhone. It is the world's second-most widely installed
-> operating system, after Android.
+> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
+> It is the world's second-most widely installed operating system, after Android.
 
-Major versions of iOS are released annually. Apple significantly extended the cycle of updates for
-iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple.
-Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/),
-for a short period of time.
+Major versions of iOS are released annually.
+Apple significantly extended the cycle of updates for iOS-supported devices over the years.
+Usually, only the latest iOS release is supported by Apple.
+Around iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/) **for a short period of time**.
 
-Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/)
-but such fixes are not guaranteed. As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
+Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/) but such fixes are not guaranteed.
+As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices is available at [/iphone](/iphone).

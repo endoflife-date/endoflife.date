@@ -13,6 +13,7 @@ identifiers:
   - cpe: cpe:2.3:o:eurolinux:eurolinux
 
 auto:
+  disabled: true # the product is discontinued
   methods:
     - distrowatch: eurolinux
       regex: '^Distribution Release: EuroLinux (?P<major>\d).(?P<minor>\d)$'

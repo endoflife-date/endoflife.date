@@ -2,7 +2,7 @@
 title: Envoy
 addedAt: 2023-07-14
 category: server-app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: envoyproxy
 permalink: /envoy
 alternate_urls:
@@ -32,7 +32,6 @@ auto:
     - git: https://github.com/envoyproxy/envoy.git
     - release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -46,26 +45,26 @@ releases:
   - releaseCycle: "1.35"
     releaseDate: 2025-07-23
     eol: 2026-07-23
-    latest: "1.35.1"
-    latestReleaseDate: 2025-08-19
+    latest: "1.35.3"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "1.34"
     releaseDate: 2025-04-15
     eol: 2026-04-15
-    latest: "1.34.5"
-    latestReleaseDate: 2025-08-19
+    latest: "1.34.7"
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "1.33"
     releaseDate: 2025-01-14
     eol: 2026-01-14
-    latest: "1.33.7"
-    latestReleaseDate: 2025-08-19
+    latest: "1.33.9"
+    latestReleaseDate: 2025-09-05
 
   - releaseCycle: "1.32"
     releaseDate: 2024-10-15
     eol: 2025-10-15
-    latest: "1.32.10"
-    latestReleaseDate: 2025-08-19
+    latest: "1.32.12"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "1.31"
     releaseDate: 2024-07-19

@@ -28,8 +28,8 @@ releases:
     codename: "Walnascar"
     releaseDate: 2025-05-07
     eol: 2025-12-07
-    latest: "5.2.2"
-    latestReleaseDate: 2025-07-16
+    latest: "5.2.3"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "5.1"
     codename: "Styhead"
@@ -43,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.11"
-    latestReleaseDate: 2025-07-23
+    latest: "5.0.12"
+    latestReleaseDate: 2025-09-10
 
   - releaseCycle: "4.3"
     codename: "Nanbield"
@@ -72,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.28"
-    latestReleaseDate: 2025-07-08
+    latest: "4.0.30"
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "3.4"
     codename: "Honister"
@@ -117,6 +117,7 @@ releases:
     eol: 2020-06-01
     latest: "2.7.4"
     latestReleaseDate: 2020-06-02
+
 ---
 
 > The [Yocto Project](https://www.yoctoproject.org/) is a Linux Foundation project that helps

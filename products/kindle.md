@@ -13,59 +13,90 @@ eolColumn: Service Status
 # Release dates can be found on https://en.wikipedia.org/wiki/Amazon_Kindle.
 # Latest releases can be found on https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW.
 releases:
-  - releaseCycle: "kindle-scribe"
-    releaseLabel: "Kindle Scribe"
-    # https://ebookfriendly.com/amazon-kindle-scribe-2022-full-specs/
+  - releaseCycle: "kindle-scribe-2024"
+    releaseLabel: "Kindle Scribe - 2024 Release"
+    releaseDate: 2024-12-04
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindleScribe2024Notes
+
+  - releaseCycle: "kindle-colorsoft-1"
+    releaseLabel: "Kindle Colorsoft (1st Generation)"
+    releaseDate: 2024-10-30
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindleColorsoft-2024-Notes
+
+  - releaseCycle: "paperwhite-12"
+    releaseLabel: "Kindle Paperwhite (12th Generation) - 2024 Release"
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/KindlePaperwhite12-2024-Notes
+
+  - releaseCycle: "kindle-11-2024"
+    releaseLabel: "Kindle (11th Generation) - 2024 Release"
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
+    link: https://www.amazon.com/Kindle11Notes
+
+  - releaseCycle: "kindle-scribe-2022"
+    releaseLabel: "Kindle Scribe - 2022 Release"
     releaseDate: 2022-11-30
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
     link: https://www.amazon.com/KindleScribeNotes
 
-  - releaseCycle: "kindle-11"
-    releaseLabel: "Kindle (11th Generation)"
+  - releaseCycle: "kindle-11-2022"
+    releaseLabel: "Kindle (11th Generation) - 2022 Release"
     releaseDate: 2022-09-13
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
     link: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "paperwhite-11"
     releaseLabel: "Kindle Paperwhite (11th Generation)"
     releaseDate: 2021-10-27
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.5"
+    latestReleaseDate: 2025-08-01
     link: https://www.amazon.com/Paperwhite11Notes
 
   - releaseCycle: "oasis-10"
     releaseLabel: "Kindle Oasis (10th Generation)"
     releaseDate: 2019-07-24
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.2"
+    latestReleaseDate: 2025-04-01
     link: https://www.amazon.com/Oasis10Notes
 
   - releaseCycle: "kindle-10"
     releaseLabel: "Kindle (10th Generation)"
     releaseDate: 2019-04-10
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.1"
+    latestReleaseDate: 2025-03-01
     link: https://www.amazon.com/Kindle10Notes
 
   - releaseCycle: "paperwhite-10"
     releaseLabel: "Kindle Paperwhite (10th Generation)"
     releaseDate: 2018-11-07
     eol: false
-    latest: "5.16.10.0.1"
-    latestReleaseDate: 2024-07-01
+    latest: "5.18.1"
+    latestReleaseDate: 2025-03-01
     link: https://www.amazon.com/Paperwhite10Notes
 
   - releaseCycle: "oasis-9"
     releaseLabel: "Kindle Oasis (9th Generation)"
     releaseDate: 2017-10-31
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis9Notes
@@ -73,7 +104,7 @@ releases:
   - releaseCycle: "kindle-8"
     releaseLabel: "Kindle (8th Generation)"
     releaseDate: 2016-06-22
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Kindle8Notes
@@ -81,7 +112,7 @@ releases:
   - releaseCycle: "oasis-8"
     releaseLabel: "Kindle Oasis (8th Generation)"
     releaseDate: 2016-04-27
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis8Notes
@@ -89,7 +120,7 @@ releases:
   - releaseCycle: "paperwhite-7"
     releaseLabel: "Kindle Paperwhite (7th Generation)"
     releaseDate: 2015-06-30
-    eol: false
+    eol: 2024-06-01 # more than 1 year without update
     latest: "5.16.2.1.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Paperwhite7Notes

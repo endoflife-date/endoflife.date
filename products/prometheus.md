@@ -2,11 +2,11 @@
 title: Prometheus
 addedAt: 2023-07-17
 category: server-app
+tags: linux-foundation
 iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
-eolWarnThreshold: 14
 
 identifiers:
   - repology: prometheus
@@ -34,6 +34,12 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-09-17
+    eol: 2025-11-02
+    latest: "3.6.0"
+    latestReleaseDate: 2025-09-21
+
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-07-14
@@ -193,6 +199,7 @@ releases:
     eol: 2022-07-11
     latest: "2.36.2"
     latestReleaseDate: 2022-06-20
+
 ---
 
 > [Prometheus](https://prometheus.io/) is an open-source system monitoring and alerting toolkit.

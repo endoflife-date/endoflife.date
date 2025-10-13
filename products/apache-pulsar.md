@@ -8,6 +8,7 @@ permalink: /apache-pulsar
 alternate_urls:
   - /pulsar
 releasePolicyLink: https://pulsar.apache.org/contribute/release-policy/
+changelogTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LATEST__/
 eolColumn: Active Support
 eoesColumn: Security Support
 
@@ -15,7 +16,6 @@ auto:
   methods:
     - github_releases: apache/pulsar
     - release_table: https://pulsar.apache.org/contribute/release-policy/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -31,20 +31,27 @@ auto:
           regex: '.*\((?P<value>.+)\)'
 
 releases:
+  - releaseCycle: "4.1"
+    releaseDate: 2025-09-08
+    eol: 2026-03-08
+    eoes: 2026-03-08
+    latest: "4.1.1"
+    latestReleaseDate: 2025-09-27
+
   - releaseCycle: "4.0"
+    lts: true
     releaseDate: 2024-10-21
     eol: 2026-10-21
     eoes: 2027-10-21
-    latest: "4.0.6"
-    latestReleaseDate: 2025-07-31
-    lts: true
+    latest: "4.0.7"
+    latestReleaseDate: 2025-09-27
 
   - releaseCycle: "3.3"
     releaseDate: 2024-06-05
     eol: 2024-12-05
     eoes: 2024-12-05
-    latest: "3.3.8"
-    latestReleaseDate: 2025-07-31
+    latest: "3.3.9"
+    latestReleaseDate: 2025-09-27
 
   - releaseCycle: "3.2"
     releaseDate: 2024-02-05
@@ -61,12 +68,12 @@ releases:
     latestReleaseDate: 2024-03-08
 
   - releaseCycle: "3.0"
+    lts: true
     releaseDate: 2023-05-02
     eol: 2025-05-02
     eoes: 2026-05-02
-    latest: "3.0.13"
-    latestReleaseDate: 2025-07-31
-    lts: true
+    latest: "3.0.14"
+    latestReleaseDate: 2025-09-27
 
   - releaseCycle: "2.11"
     releaseDate: 2023-01-11
@@ -116,6 +123,7 @@ releases:
     eoes: 2021-01-15
     latest: "2.5.2"
     latestReleaseDate: 2020-05-19
+
 ---
 
 > [Apache Pulsar](https://pulsar.apache.org) is an open-source, distributed messaging and streaming

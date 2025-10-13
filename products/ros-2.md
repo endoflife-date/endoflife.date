@@ -10,13 +10,12 @@ versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
 changelogTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
 releaseLabel: "__CODENAME__"
-releaseColumn: false
+latestColumn: false
 eolColumn: End Of Life
 
 auto:
   methods:
     - release_table: https://docs.ros.org/en/rolling/Releases.html
-      selector: "table"
       fields:
         releaseCycle:
           column: "Distro"

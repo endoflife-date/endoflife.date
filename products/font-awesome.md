@@ -8,6 +8,7 @@ alternate_urls:
   - /fontawesome
 changelogTemplate: https://github.com/FortAwesome/Font-Awesome/releases/tag/__LATEST__
 releasePolicyLink: https://fontawesome.com/versions
+staleReleaseThresholdYears: 5
 
 auto:
   methods:
@@ -17,8 +18,8 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-22
     eol: false
-    latest: "7.0.0"
-    latestReleaseDate: 2025-07-22
+    latest: "7.1.0"
+    latestReleaseDate: 2025-10-01
 
   - releaseCycle: "6"
     lts: true
@@ -30,7 +31,7 @@ releases:
   - releaseCycle: "5"
     lts: true
     releaseDate: 2018-02-05
-    eol: false
+    eol: false # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
     latest: "5.15.4"
     latestReleaseDate: 2021-08-04
 
@@ -60,6 +61,7 @@ releases:
     latest: "1.0.0"
     latestReleaseDate: 2012-03-10
     link: https://github.com/FortAwesome/Font-Awesome/releases/tag/v__LATEST__
+
 ---
 
 > [Font Awesome](https://fontawesome.com/) is an icon library and toolkit.
@@ -72,7 +74,7 @@ With the release of Font Awesome 6:
 - Font Awesome 3 and 4 are now end-of-life.
 
 Note that Font Awesome 6 dropped support for Internet Explorer,
-and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/web/setup/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
+and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/v6/web/setup/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
 
 Font Awesome comes in two flavors: the free version and the pro version.
 Font Awesome Free version is free, open source, GPL friendly,

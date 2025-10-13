@@ -7,7 +7,7 @@ iconSlug: google
 permalink: /pixel-watch
 versionCommand: "Settings -> System -> About"
 releasePolicyLink: https://support.google.com/product-documentation/answer/12799779
-releaseColumn: false
+latestColumn: false
 discontinuedColumn: true
 eoasColumn: WearOS Updates
 eolColumn: Security Updates
@@ -15,10 +15,10 @@ eolColumn: Security Updates
 customFields:
   - name: supportedAndroidVersions
     display: after-release-column
-    label: Supported Android # https://en.wikipedia.org/wiki/Google_Pixel#Phones
-    description: Supported Android versions range
+    label: Supported Wear OS # https://en.wikipedia.org/wiki/Wear_OS
+    description: Supported Wear OS versions range
 
-# Supported Android versions range is based on https://www.gsmarena.com/.
+# Supported WearOS versions range is based on https://www.gsmarena.com/.
 releases:
   - releaseCycle: "4"
     releaseLabel: "Pixel Watch 4"
@@ -43,7 +43,7 @@ releases:
     releaseDate: 2023-10-12
     eoas: 2026-10-01
     eol: 2026-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Watch_2
     supportedAndroidVersions: "4 - 5" # https://www.gsmarena.com/google_pixel_watch_2-12547.php
 
@@ -52,7 +52,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2025-10-01
     eol: 2025-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Watch
     supportedAndroidVersions: "3.5 - 5" # https://www.gsmarena.com/google_pixel_watch-11546.php
 ---

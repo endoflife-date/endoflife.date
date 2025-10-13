@@ -21,8 +21,10 @@ auto:
     - git: "https://github.com/microsoft/openjdk-jdk21u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
+    - git: "https://github.com/microsoft/openjdk-jdk25u.git"
+      regex: '^jdk-(?P<version>[\d\.]+)-ga$'
+      template: "{{version}}"
     - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -31,6 +33,13 @@ auto:
 
 # Remember to update the "auto" configuration on each new major release.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-16
+    eol: 2030-09-30
+    latest: "25"
+    latestReleaseDate: 2025-09-16
+
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
@@ -52,6 +61,7 @@ releases:
     eol: 2027-09-30
     latest: "11.0.28"
     latestReleaseDate: 2025-07-16
+
 ---
 
 > The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

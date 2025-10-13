@@ -8,14 +8,13 @@ permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;
 releasePolicyLink: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
 LTSLabel: <abbr title="Long Term Release">LTR</abbr>
-releaseColumn: false
+latestColumn: false
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
 auto:
   methods:
     - release_table: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
-      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

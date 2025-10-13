@@ -8,9 +8,10 @@ permalink: /samsung-mobile
 alternate_urls:
   - /samsungmobile
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
-releaseColumn: false
+latestColumn: false
 eoasColumn: Android Upgrades
 eolColumn: Security Updates
+staleReleaseThresholdYears: 5
 
 auto:
   cumulative: true
@@ -39,11 +40,18 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-a07"
+    releaseLabel: "Galaxy A07"
+    releaseDate: 2025-09-01 # https://news.samsung.com/za/samsung-launches-the-all-new-galaxy-a07-built-for-every-challenge
+    eoas: 2031-09-01 # 6 android upgrade - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
+    eol: false      # 6 years of security support - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
+    link: null # not found on doc.samsungmobile.com as of 2025-09-07
+
   - releaseCycle: "galaxy-z-fold7"
     releaseLabel: "Galaxy Z Fold7"
     releaseDate: 2025-07-25 # https://news.samsung.com/global/samsung-launches-galaxy-z-fold7-galaxy-z-flip7-and-galaxy-watch8-series-globally-starting-today
     eoas: 2032-07-25 # 7 android upgrade - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
-    eol: false # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    eol: false      # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
     link: https://doc.samsungmobile.com/SM-F9660/TGY/doc.html
 
   - releaseCycle: "galaxy-z-flip7-fe"
@@ -785,7 +793,7 @@ releases:
     releaseLabel: "Galaxy F42 5G"
     releaseDate: 2021-10-03
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/sm-e426b/ins/doc.html
 
   - releaseCycle: "galaxy-m52-5g"
@@ -799,14 +807,14 @@ releases:
     releaseLabel: "Galaxy M32 5G"
     releaseDate: 2021-09-02
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-M326B/INS/doc.html
 
   - releaseCycle: "galaxy-a52s-5g"
     releaseLabel: "Galaxy A52s 5G"
     releaseDate: 2021-09-01
     eoas: 2024-09-01
-    eol: 2025-09-01
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-A528B/BTU/doc.html
 
   - releaseCycle: "galaxy-z-fold3-5g"
@@ -827,7 +835,7 @@ releases:
     releaseLabel: "Galaxy A03s"
     releaseDate: 2021-08-18
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-A037F/INS/doc.html
 
   - releaseCycle: "galaxy-a12-india"
@@ -848,7 +856,7 @@ releases:
     releaseLabel: "Galaxy M21 2021"
     releaseDate: 2021-07-26
     eoas: false
-    eol: false
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/sm-m215f/ins/doc.html
 
   - releaseCycle: "galaxy-f22"
@@ -1093,7 +1101,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support for S20
+    eol: false      # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
   - releaseCycle: "galaxy-s20-fe-2020"
@@ -1114,28 +1122,28 @@ releases:
     releaseLabel: "Galaxy Note20 Ultra 5G"
     releaseDate: 2020-08-21
     eoas: true
-    eol: 2025-08-21
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N986U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-5g"
     releaseLabel: "Galaxy Note20 5G"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N981U1/VZW/doc.html
 
   - releaseCycle: "galaxy-note20-ultra"
     releaseLabel: "Galaxy Note20 Ultra"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N985F/XNZ/doc.html
 
   - releaseCycle: "galaxy-note20"
     releaseLabel: "Galaxy Note20"
     releaseDate: 2020-08-21
     eoas: 2023-08-21
-    eol: 2025-08-21
+    eol: 2025-09-02
     link: https://doc.samsungmobile.com/SM-N980F/XEO/doc.html
 
   - releaseCycle: "galaxy-a51-5g-uw"
@@ -2950,6 +2958,7 @@ releases:
     eoas: true
     eol: true
     link: null
+
 ---
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed,

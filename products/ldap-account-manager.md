@@ -7,7 +7,6 @@ alternate_urls:
   - /lam
   - /ldapaccountmanager
 changelogTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
-eolWarnThreshold: 80
 
 identifiers:
   - repology: ldap-account-manager
@@ -21,9 +20,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2025-09-15
+    eol: false
+    latest: "9.3"
+    latestReleaseDate: 2025-09-15
+
   - releaseCycle: "9.2"
     releaseDate: 2025-06-06
-    eol: false
+    eol: 2025-09-15
     latest: "9.2"
     latestReleaseDate: 2025-06-06
 

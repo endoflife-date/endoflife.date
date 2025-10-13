@@ -6,9 +6,10 @@ tags: tablet
 iconSlug: samsung
 permalink: /samsung-galaxy-tab
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
-releaseColumn: false
+latestColumn: false
 eoasColumn: Android Upgrades
 eolColumn: Security Updates
+staleReleaseThresholdYears: 5
 
 auto:
   cumulative: true

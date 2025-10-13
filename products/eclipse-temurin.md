@@ -56,8 +56,10 @@ auto:
     - github_releases: adoptium/temurin24-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: "{{version}}"
+    - github_releases: adoptium/temurin25-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: "{{version}}"
     - release_table: https://adoptium.net/support/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Java Version"
@@ -69,6 +71,13 @@ auto:
 # Remember to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-22
+    eol: 2031-09-30 # expected 28 release date (see https://www.java.com/releases/)
+    latest: "25+36"
+    latestReleaseDate: 2025-09-17
+
   - releaseCycle: "24"
     releaseDate: 2025-03-20
     eol: 2025-09-16 # expected 25 release date (see https://www.java.com/releases/)
@@ -138,10 +147,11 @@ releases:
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-07-29
-    eol: 2026-11-30
+    eol: 2030-12-31
     latest: "8u462-b08"
     latestReleaseDate: 2025-07-21
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
+
 ---
 
 > [Eclipse Temurin](https://adoptium.net/temurin/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

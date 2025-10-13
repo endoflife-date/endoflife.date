@@ -12,6 +12,7 @@ releasePolicyLink: https://www.ibm.com/support/pages/aix-support-lifecycle-infor
 releaseLabel: "{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}} TL{{'__RELEASE_CYCLE__'|split:'.'|last}}"
 changelogTemplate: "https://www.ibm.com/docs/aix/{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}}?topic=notes-aix-{{'__RELEASE_CYCLE__'|replace:'.',''}}-release"
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
+staleReleaseThresholdYears: 6
 
 identifiers:
   - cpe: cpe:/o:ibm:aix
@@ -21,7 +22,6 @@ auto:
   methods:
     - ibm-aix: https://www.ibm.com/support/pages/aix-support-lifecycle-information
     - release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
-      selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:

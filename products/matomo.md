@@ -31,8 +31,8 @@ releases:
     releaseDate: 2023-12-18
     eoas: false
     eol: false
-    latest: "5.3.2"
-    latestReleaseDate: 2025-05-02
+    latest: "5.5.0"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "4"
     releaseDate: 2020-11-24
@@ -61,6 +61,7 @@ releases:
     eol: 2013-12-17
     latest: "1.12"
     latestReleaseDate: 2013-05-30
+
 ---
 
 > [Matomo](https://matomo.org/), [formerly known as Piwik](https://matomo.org/blog/2018/01/piwik-is-now-matomo/),

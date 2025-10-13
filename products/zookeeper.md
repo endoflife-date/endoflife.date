@@ -31,15 +31,15 @@ releases:
     releaseDate: 2023-07-19
     eol: false
     eoas: false
-    latest: "3.9.3"
-    latestReleaseDate: 2024-10-17
+    latest: "3.9.4"
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "3.8"
     releaseDate: 2022-02-25
     eol: false
     eoas: false
-    latest: "3.8.4"
-    latestReleaseDate: 2024-02-12
+    latest: "3.8.5"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "3.7"
     releaseDate: 2021-03-17
@@ -68,6 +68,7 @@ releases:
     eoas: 2020-03-27
     latest: "3.4.14"
     latestReleaseDate: 2019-03-06
+
 ---
 
 > [Apache ZooKeeper](https://zookeeper.apache.org/) is an open-source server for highly reliable

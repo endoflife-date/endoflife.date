@@ -24,30 +24,31 @@ identifiers:
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
+# eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.4"
-    latestReleaseDate: 2025-08-13
+    latest: "3.2.6"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.8"
-    latestReleaseDate: 2025-06-02
+    latest: "3.1.9"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.11"
-    latestReleaseDate: 2025-06-02
+    latest: "3.0.12"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2.9"
     releaseDate: 2023-12-05
-    eol: 2025-01-01
+    eol: 2025-03-21
     latest: "2.9.15"
     latestReleaseDate: 2025-03-21
 
@@ -55,12 +56,12 @@ releases:
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.15"
-    latestReleaseDate: 2025-04-22
+    latest: "2.8.16"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2.7"
     releaseDate: 2022-12-01
-    eol: 2024-01-01
+    eol: 2024-04-05
     latest: "2.7.12"
     latestReleaseDate: 2024-04-05
 
@@ -68,12 +69,12 @@ releases:
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
-    latest: "2.6.22"
-    latestReleaseDate: 2025-04-22
+    latest: "2.6.23"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2.5"
     releaseDate: 2021-11-23
-    eol: 2023-02-14
+    eol: 2023-05-02
     latest: "2.5.14"
     latestReleaseDate: 2023-05-02
 
@@ -81,19 +82,19 @@ releases:
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
-    latest: "2.4.29"
-    latestReleaseDate: 2025-04-22
+    latest: "2.4.30"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2.3"
     releaseDate: 2020-11-05
-    eol: 2022-01-01
+    eol: 2022-07-27
     latest: "2.3.21"
     latestReleaseDate: 2022-07-27
 
   - releaseCycle: "2.2"
     releaseDate: 2020-07-07
     lts: true
-    eol: 2025-04-01
+    eol: 2025-04-23
     latest: "2.2.34"
     latestReleaseDate: 2025-04-23
 
@@ -105,7 +106,7 @@ releases:
 
   - releaseCycle: "2.0"
     releaseDate: 2019-06-16
-    eol: 2024-04-01
+    eol: 2024-04-05
     latest: "2.0.35"
     latestReleaseDate: 2024-04-05
 
@@ -117,7 +118,7 @@ releases:
 
   - releaseCycle: "1.8"
     releaseDate: 2017-11-26
-    eol: 2022-10-01
+    eol: 2022-12-09
     latest: "1.8.31"
     latestReleaseDate: 2022-12-09
 

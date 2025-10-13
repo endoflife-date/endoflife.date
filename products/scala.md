@@ -12,6 +12,7 @@ releasePolicyLink: https://www.scala-lang.org/download/all.html
 changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
+staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: scala
@@ -31,8 +32,8 @@ releases:
     releaseDate: 2025-05-07
     eoas: false
     eol: false
-    latest: "3.7.2"
-    latestReleaseDate: 2025-08-01
+    latest: "3.7.3"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "3.6"
     releaseDate: 2024-12-10
@@ -88,8 +89,8 @@ releases:
     releaseDate: 2019-06-07
     eoas: false
     eol: false
-    latest: "2.13.16"
-    latestReleaseDate: 2025-01-15
+    latest: "2.13.17"
+    latestReleaseDate: 2025-09-30
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.12"
@@ -115,6 +116,7 @@ releases:
     latest: "2.10.7"
     latestReleaseDate: 2017-11-09
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
+
 ---
 
 > [Scala](https://www.scala-lang.org/) is a strong statically typed general-purpose programming

@@ -8,14 +8,14 @@ permalink: /linuxmint
 alternate_urls:
   - /linux-mint
 versionCommand: cat /etc/linuxmint/info
-releaseColumn: false
+latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+staleReleaseThresholdYears: 3
 
 auto:
   methods:
     - release_table: https://linuxmint.com/download_all.php
-      selector: "table"
       fields:
         releaseCycle: "Version"
         eol:
@@ -23,6 +23,13 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "22.2"
+    codename: Zara
+    lts: true
+    releaseDate: 2025-09-04
+    eol: 2029-04-30
+    link: https://blog.linuxmint.com/?p=4881
+
   - releaseCycle: "22.1"
     codename: Xia
     lts: true
