@@ -32,7 +32,7 @@ releases:
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
-    eoas: false
+    eoas: 2025-10-10
     eol: false
     latest: "28.2"
     latestReleaseDate: 2025-06-26
@@ -40,7 +40,7 @@ releases:
   - releaseCycle: "27"
     releaseDate: 2024-04-16
     eoas: 2025-04-14
-    eol: false
+    eol: 2025-10-10
     latest: "27.2"
     latestReleaseDate: 2024-11-04
 
