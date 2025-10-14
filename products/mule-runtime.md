@@ -121,7 +121,7 @@ releases:
     eoas: 2020-11-02
     eol: 2022-11-02
     latest: "4.1.6-20240112"
-    latestReleaseDate: 2024-06-07
+    latestReleaseDate: 2024-08-10
     link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
 
   - releaseCycle: "3.9"
