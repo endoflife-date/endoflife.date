@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "6.16"
     releaseDate: 2025-07-27
-    eol: false # not yet announced
+    eol: 2025-10-12 # announced https://lore.kernel.org/lkml/2025101235-eliminate-dexterity-d7f9@gregkh/
     latest: "6.16.12"
     latestReleaseDate: 2025-10-12
 
