@@ -28,8 +28,8 @@ releases:
     codename: "Walnascar"
     releaseDate: 2025-05-07
     eol: 2025-12-07
-    latest: "5.2.3"
-    latestReleaseDate: 2025-09-10
+    latest: "5.2.4"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "5.1"
     codename: "Styhead"

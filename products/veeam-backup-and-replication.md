@@ -32,8 +32,8 @@ releases:
     eoas: 2025-09-03
     eol: 2027-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.2.3617"
-    latestReleaseDate: 2025-06-17
+    latest: "12.3.2.4165"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "11"
     releaseDate: 2021-02-11
@@ -141,6 +141,7 @@ releases:
     eol: true
     latest: "1.0" # no information available
     latestReleaseDate: 2008-02-26
+
 ---
 
 > [Veeam Backup & Replication](https://www.veeam.com/products/veeam-data-platform/backup-recovery.html)
