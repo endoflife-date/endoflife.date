@@ -23,6 +23,13 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "lmde7"
+    releaseLabel: "LMDE 7"
+    codename: Gigi
+    releaseDate: 2025-10-14
+    eol: false
+    link: https://blog.linuxmint.com/?p=4924
+
   - releaseCycle: "22.2"
     codename: Zara
     lts: true
