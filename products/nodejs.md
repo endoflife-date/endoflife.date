@@ -29,6 +29,13 @@ auto:
 
 # See https://github.com/nodejs/release#release-schedule.
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-10-15
+    eoas: 2026-04-01
+    eol: 2026-06-01
+    latest: "25.0.0"
+    latestReleaseDate: 2025-10-15
+
   - releaseCycle: "24"
     releaseDate: 2025-05-06
     lts: 2025-10-28
