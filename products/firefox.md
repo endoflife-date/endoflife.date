@@ -28,7 +28,7 @@ auto:
 # The next ESR / LTS is not yet planned.
 releases:
   - releaseCycle: "144"
-    releaseDate: 2025-09-14
+    releaseDate: 2025-10-14
     eol: false
     latest: "143.0"
     latestReleaseDate: 2025-10-14
