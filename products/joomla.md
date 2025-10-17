@@ -20,8 +20,8 @@ auto:
 releases:
   - releaseCycle: "6"
     releaseDate: 2025-10-14
-    eoas: false
-    eol: 2029-10-14
+    eoas: 2028-10-17
+    eol: 2029-10-16
     latest: "6.0.0"
     latestReleaseDate: 2025-10-14
     # check later for removal: the link with changelogTemplate does not work (yet)
@@ -29,8 +29,8 @@ releases:
 
   - releaseCycle: "5"
     releaseDate: 2023-10-14
-    eoas: false
-    eol: 2027-10-19
+    eoas: 2026-10-13
+    eol: 2027-10-12
     latest: "5.4.0"
     latestReleaseDate: 2025-09-30
     # check later for removal: the link with changelogTemplate does not work (yet)
