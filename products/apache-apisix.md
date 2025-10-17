@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "3.14"
     releaseDate: 2025-10-10
     eol: false
-    latest: "3.14.0"
-    latestReleaseDate: 2025-10-10
+    latest: "3.14.1"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "3.13"
     releaseDate: 2025-06-27
@@ -149,6 +149,7 @@ releases:
     eol: 2022-04-01
     latest: "2.10.5"
     latestReleaseDate: 2022-04-05
+
 ---
 
 > [Apache APISIX](https://apisix.apache.org/) is an open source, dynamic, scalable, and high-performance cloud native
