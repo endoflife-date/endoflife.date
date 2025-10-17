@@ -20,9 +20,14 @@ auto:
         eoas: "Maintenance End"
         eol: "End of Life"
 
-# eaos(x) = releaseDate(x+2)
-# eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "30"
+    releaseDate: 2025-10-10
+    eoas: false
+    eol: false
+    latest: "30.0"
+    latestReleaseDate: 2025-10-10
+
   - releaseCycle: "29"
     releaseDate: 2025-04-14
     eoas: false
