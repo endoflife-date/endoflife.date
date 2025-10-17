@@ -44,6 +44,11 @@ auto:
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 # Do not forget to update the release dates in the auto section above when adding a new release.
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-11-01
+    eol: 2026-11-01
+    eoes: 2027-11-01
+
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
     eol: 2026-06-30
