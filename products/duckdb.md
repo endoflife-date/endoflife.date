@@ -14,51 +14,44 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/duckdb/duckdb.git
+    - github_releases: duckdb/duckdb
 
 releases:
   - releaseCycle: "1.4"
-    releaseDate: 2025-09-16
     codename: "Andium"
-    eol: 2026-09-16
     lts: true
+    releaseDate: 2025-09-16
+    eol: 2026-09-16
     latest: "1.4.1"
     latestReleaseDate: 2025-10-07
 
   - releaseCycle: "1.3"
-    releaseDate: 2025-05-21
     codename: "Ossivalis"
-    codename: ""
+    releaseDate: 2025-05-21
     eol: 2025-09-16
     latest: "1.3.2"
     latestReleaseDate: 2025-07-07
 
   - releaseCycle: "1.2"
-    releaseDate: 2025-02-05
     codename: "Histrionicus"
+    releaseDate: 2025-02-05
     eol: 2025-05-21
     latest: "1.2.2"
     latestReleaseDate: 2001-04-07
 
   - releaseCycle: "1.1"
-    releaseDate: 2024-09-09
     codename: "Eatoni"
+    releaseDate: 2024-09-09
     eol: 2025-02-05
     latest: "1.1.3"
     latestReleaseDate: 2024-11-02 
     
   - releaseCycle: "1.0"
-    releaseDate: 2024-05-29
     codename: "Nivis"
+    releaseDate: 2024-06-03
     eol: 2024-09-09
     latest: "1.0.0"
     latestReleaseDate: 2024-05-29 
-
-  - releaseCycle: "0"
-    releaseDate: 2019-06-27
-    eol: 2024-05-29
-    latest: "0.10.3"
-    latestReleaseDate: 2024-05-22
 ---
 
 > [DuckDB](https://duckdb.org/) is an analytical in-process, serverless SQL database management system.
