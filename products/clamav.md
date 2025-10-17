@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "1.5"
     releaseDate: 2025-10-07
     eol: false # releaseCycle(1.7) + 4 months
-    latest: "1.5.0"
-    latestReleaseDate: 2025-10-07
+    latest: "1.5.1"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "1.4"
     releaseDate: 2024-08-15
@@ -105,6 +105,7 @@ releases:
     eol: 2021-03-01
     latest: "0.99.4"
     latestReleaseDate: 2018-03-01
+
 ---
 
 > [ClamAV](https://www.clamav.net/) is an open source antivirus engine for detecting trojans,

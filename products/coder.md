@@ -25,15 +25,15 @@ releases:
     releaseDate: 2025-10-07
     eoas: false # releaseDate(2.29)
     eol: false # releaseDate(2.30)
-    latest: "2.27.0"
-    latestReleaseDate: 2025-10-07
+    latest: "2.27.1"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "2.26"
     releaseDate: 2025-09-03
     eoas: false # releaseDate(2.28)
     eol: false # releaseDate(2.29)
-    latest: "2.26.1"
-    latestReleaseDate: 2025-10-01
+    latest: "2.26.2"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "2.25"
     releaseDate: 2025-08-05
