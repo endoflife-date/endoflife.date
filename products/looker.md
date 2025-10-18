@@ -31,7 +31,7 @@ auto:
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
   - releaseCycle: "25.18"
-    releaseDate: 2025-10-16
+    releaseDate: 2025-10-06
     lts: 2025-11-30
     eol: 2026-02-28
     link: https://cloud.google.com/looker/docs/release-notes#October_06_2025
