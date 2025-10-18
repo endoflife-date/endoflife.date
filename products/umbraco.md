@@ -40,7 +40,7 @@ releases:
     releaseDate: 2025-06-12
     eoas: 2026-03-12
     eol: 2026-06-12
-    latest: "16.3.0"
+    latest: "16.3.1"
     latestReleaseDate: 2025-10-16
 
   - releaseCycle: "15"
