@@ -52,8 +52,7 @@ for publishing this information.
 
 And do not hesitate to [play with our API](/docs/api/v1/). Here are a few awesome
 tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianblue),
-[end_of_life](https://github.com/MatheusRich/end_of_life), and
-[cicada](https://github.com/mcandre/cicada). Find more on
+[end_of_life](https://github.com/MatheusRich/end_of_life), [cicada](https://github.com/mcandre/cicada) and [`geol`](https://github.com/opt-nc/geol). Find more on
 [our Known Users page](https://github.com/endoflife-date/endoflife.date/wiki/Known-Users).
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://opensource.guide/how-to-contribute/#opening-a-pull-request)
