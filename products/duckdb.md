@@ -30,28 +30,29 @@ releases:
     releaseDate: 2025-05-21
     eol: 2025-09-16
     latest: "1.3.2"
-    latestReleaseDate: 2025-07-07
+    latestReleaseDate: 2025-07-08
 
   - releaseCycle: "1.2"
     codename: "Histrionicus"
     releaseDate: 2025-02-05
     eol: 2025-05-21
     latest: "1.2.2"
-    latestReleaseDate: 2001-04-07
+    latestReleaseDate: 2025-04-08
 
   - releaseCycle: "1.1"
     codename: "Eatoni"
     releaseDate: 2024-09-09
     eol: 2025-02-05
     latest: "1.1.3"
-    latestReleaseDate: 2024-11-02 
-    
+    latestReleaseDate: 2024-11-04
+
   - releaseCycle: "1.0"
     codename: "Nivis"
     releaseDate: 2024-06-03
     eol: 2024-09-09
     latest: "1.0.0"
-    latestReleaseDate: 2024-05-29 
+    latestReleaseDate: 2024-06-03
+
 ---
 
 > [DuckDB](https://duckdb.org/) is an analytical in-process, serverless SQL database management system.
