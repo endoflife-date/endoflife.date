@@ -56,6 +56,7 @@ releases:
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
+    eoes: false
     latest: "22.20.0"
     latestReleaseDate: 2025-09-24
 
@@ -71,6 +72,7 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
+    eoes: false
     latest: "20.19.5"
     latestReleaseDate: 2025-09-03
 
