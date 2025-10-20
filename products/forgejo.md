@@ -26,6 +26,12 @@ identifiers:
   - repology: forgejo
 
 releases:
+  - releaseCycle: "13.0"
+    releaseDate: 2025-10-16
+    eol: 2026-01-15
+    latest: "13.0.1"
+    latestReleaseDate: 2025-10-17
+
   - releaseCycle: "12.0"
     releaseDate: 2025-07-17
     eol: 2025-10-16

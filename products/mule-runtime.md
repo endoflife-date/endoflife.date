@@ -98,8 +98,8 @@ releases:
     releaseDate: 2021-09-07
     eoas: 2024-10-08
     eol: 2025-10-08
-    latest: "4.4.0-20250829"
-    latestReleaseDate: 2025-09-03
+    latest: "4.4.0-20250919"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "4.3"
     releaseDate: 2020-04-30

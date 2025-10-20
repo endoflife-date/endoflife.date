@@ -20,6 +20,14 @@ auto:
 
 # Dates available at https://www.neos.io/features/release-process.html.
 releases:
+  - releaseCycle: "8.4"
+    releaseDate: 2025-10-10
+    lts: true
+    eoas: 2026-09-01
+    eol: 2027-09-01
+    latest: "8.4.0"
+    latestReleaseDate: 2025-10-10
+
   - releaseCycle: "9.0"
     releaseDate: 2025-04-03
     eoas: 2027-04-01

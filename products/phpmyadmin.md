@@ -31,8 +31,8 @@ releases:
     releaseDate: 2022-05-11
     eoas: false
     eol: false
-    latest: "5.2.2"
-    latestReleaseDate: 2025-01-20
+    latest: "5.2.3"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "5.1"
     releaseDate: 2021-02-24
@@ -125,6 +125,7 @@ releases:
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.0.10.20"
     latestReleaseDate: 2017-03-28
+
 ---
 
 > [PHPMyAdmin](https://www.phpmyadmin.net/) is a free software tool written in PHP, intended to

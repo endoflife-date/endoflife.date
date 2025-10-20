@@ -13,6 +13,7 @@ changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/
 eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support
+staleReleaseThresholdYears: 3
 
 customFields:
   - name: supportedPhpVersions

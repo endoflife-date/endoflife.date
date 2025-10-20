@@ -31,22 +31,22 @@ releases:
     releaseDate: 2025-06-17
     eoas: false
     eol: false
-    latest: "2.15.0"
-    latestReleaseDate: 2025-06-17
+    latest: "2.15.1"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "2.14"
     releaseDate: 2023-07-12
     eoas: 2025-06-17
     eol: false
-    latest: "2.14.6"
-    latestReleaseDate: 2025-05-21
+    latest: "2.14.7"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "2.13"
     releaseDate: 2021-08-02
     eoas: 2023-07-12
     eol: 2025-06-17
-    latest: "2.13.12"
-    latestReleaseDate: 2025-05-22
+    latest: "2.13.13"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "2.12"
     releaseDate: 2020-08-03
@@ -146,6 +146,7 @@ releases:
     latest: "1.14.2"
     latestReleaseDate: 2017-12-20
     link: null
+
 ---
 
 > [Icinga](https://icinga.com) is an open-source monitoring server. It is designed to monitor various aspects of IT

@@ -56,7 +56,7 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "581.40"
+    latest: "581.42"
     latestReleaseDate: 2025-09-02
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-95-05/index.html
 

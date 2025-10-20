@@ -11,7 +11,7 @@ versionCommand: gleam --version
 identifiers:
   - repology: gleam
   - purl: pkg:github/gleam-lang/gleam
-  - purl: pkg:oci/gleam?repository_url=ghcr.io/gleam-lang/gleam
+  - purl: pkg:oci/gleam?repository_url=ghcr.io/gleam-lang
 
 auto:
   methods:

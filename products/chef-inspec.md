@@ -21,9 +21,16 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2025-10-16 # first version was 7.0.95
+    eoas: false
+    eol: false
+    latest: "7.0.95"
+    latestReleaseDate: 2025-10-16
+
   - releaseCycle: "6"
     releaseDate: 2023-11-14
-    eoas: false
+    eoas: 2025-10-16
     eol: false
     latest: "6.8.24"
     latestReleaseDate: 2025-01-29
@@ -31,7 +38,7 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2022-03-17
     eoas: 2023-11-14
-    eol: false
+    eol: 2025-10-16 # releaseDate(7)
     latest: "5.23.6"
     latestReleaseDate: 2025-09-23
 

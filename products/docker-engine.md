@@ -10,8 +10,9 @@ changelogTemplate: |
   https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
 
 identifiers:
-  - repology: docker
   - repology: docker-ce
+  - repology: docker-containers
+  - repology: moby
   - cpe: cpe:2.3:a:docker:engine
   - cpe: cpe:/a:docker:engine
 
@@ -23,9 +24,15 @@ auto:
 # Inside a given major release, eol(x) = releaseDate(x+1)
 # For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
+  - releaseCycle: "28.5"
+    releaseDate: 2025-10-02
+    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    latest: "28.5.1"
+    latestReleaseDate: 2025-10-08
+
   - releaseCycle: "28.4"
     releaseDate: 2025-09-03
-    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    eol: 2025-10-02
     latest: "28.4.0"
     latestReleaseDate: 2025-09-03
 
