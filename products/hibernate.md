@@ -133,13 +133,13 @@ releases:
   supportedJavaVersions: "8, 11 or 17"
   supportedJakartaEEVersions: "8"
   releaseDate: 2018-12-12
-  eol: false
+  eol: true
   latest: "5.4.33"
   latestReleaseDate: 2022-01-10
 
 ---
 
-> The [Hibernate ORM](https://hibernatet-relational mapping (ORM) framework for Java 
+> The [Hibernate ORM](https://hibernate.org) object relational mapping (ORM) framework for Java 
 > simplifies database interactions using the Java Persistence API (JPA).
 
 See [Hibernate ORM releases page](https://hibernate.org/orm/releases/) for release 
