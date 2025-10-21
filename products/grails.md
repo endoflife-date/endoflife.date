@@ -6,13 +6,16 @@ tags: java-runtime
 permalink: /grails
 alternate_urls:
   - /grails-framework
+  - /apache-grails
 releasePolicyLink: https://grails.apache.org/support.html
 changelogTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
 identifiers:
-  - repology: grails
+  - cpe: cpe:/a:apache:grails
+  - cpe: cpe:2.3:a:apache:grails
+  - purl: pkg:maven/org.apache.grails/grails
   - cpe: cpe:/a:grails:grails
   - cpe: cpe:2.3:a:grails:grails
 
@@ -71,7 +74,7 @@ releases:
     latestReleaseDate: 2015-01-16
 ---
 
-> [Grails](https://grails.apache.org/) is a powerful Groovy-based web application framework for the JVM
+> [Apache Grails](https://grails.apache.org/) is a powerful [Apache Groovy](https://groovy-lang.org/)-based web application framework for the JVM
 > built on top of Spring Boot.
 
 ## Support
@@ -82,5 +85,4 @@ releases:
   around the resolution of critical security advisories. New features, performance improvements,
   and minor bug fixes are unlikely.
 
-The Grails Foundation offers [commercial support](https://grails.org/support.html#standard). This typically
-lasts a few years after active maintenance ends.
+There are a few companies that offer [commercial support](https://grails.apache.org/support.html). 
