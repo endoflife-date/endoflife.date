@@ -5,6 +5,8 @@ category: database
 tags: elastic java-runtime
 iconSlug: elasticsearch
 permalink: /elasticsearch
+alternate_urls:
+  - /elastic
 versionCommand: $ES_HOME/bin/elasticsearch -v
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
