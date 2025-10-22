@@ -45,7 +45,8 @@ releases:
 > [Windows PowerShell](https://learn.microsoft.com/powershell/scripting/what-is-windows-powershell) 
 > is a shell program developed by Microsoft for task automation and configuration management for 
 > Windows based operating systems. It uses the full .NET Framework, which only runs on Windows. 
-> Microsoft is no longer updating Windows PowerShell with new features. 
+> Microsoft is no longer updating Windows PowerShell with new features. Go to
+> [PowerShell](/powershell) for the cross-platform successor.
 
 {: .note }
 
