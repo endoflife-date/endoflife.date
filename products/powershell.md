@@ -33,15 +33,15 @@ releases:
     lts: false
     releaseDate: 2025-01-23
     eol: 2026-05-12
-    latest: "7.5.3"
-    latestReleaseDate: 2025-09-10
+    latest: "7.5.4"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "7.4"
     lts: true
     releaseDate: 2023-11-16
     eol: 2026-11-10
-    latest: "7.4.12"
-    latestReleaseDate: 2025-09-10
+    latest: "7.4.13"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "7.3"
     releaseDate: 2022-11-09
