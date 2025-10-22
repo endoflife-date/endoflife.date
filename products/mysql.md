@@ -76,8 +76,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: "8.4.6"
-    latestReleaseDate: 2025-07-09
+    latest: "8.4.7"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "8.3"
     releaseDate: 2023-12-14
@@ -130,6 +130,7 @@ releases:
     latest: "5.5.63"
     latestReleaseDate: 2018-12-21
     link: null
+
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its
