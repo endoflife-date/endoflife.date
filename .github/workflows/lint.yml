@@ -14,15 +14,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
           cache: "npm"
 
       - name: Setup ruby
-        uses: ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a # v1
+        uses: ruby/setup-ruby@ab177d40ee5483edb974554986f56b33477e21d0 # v1
         with:
-          ruby-version: 3.3
           bundler-cache: true
 
       - name: Build site

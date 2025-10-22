@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "3.28"
     releaseDate: 2025-09-24
     eol: false
-    latest: "3.28.1"
-    latestReleaseDate: 2025-09-24
+    latest: "3.28.4"
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "3.27"
     lts: true
@@ -363,6 +363,7 @@ releases:
 
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting the latest version every week in between.
 [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/), a new LTS version is also published every 6 months.
+For up-to-date release planning informations, see [dedicated page](https://github.com/quarkusio/quarkus/wiki/Release-Planning).
 
 Quarkus releases an LTS (Long-Term Support) version every six months.
 LTS is designed for users who prioritize stability over new features.

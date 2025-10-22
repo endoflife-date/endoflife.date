@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "2.0"
     releaseDate: 2025-07-28
     eol: false
-    latest: "2.0.0"
-    latestReleaseDate: 2025-07-28
+    latest: "2.0.1"
+    latestReleaseDate: 2025-10-12
 
   - releaseCycle: "1.7"
     releaseDate: 2024-02-11
@@ -68,6 +68,7 @@ releases:
     eol: 2016-12-26
     latest: "1.0"
     latestReleaseDate: 2016-08-25
+
 ---
 
 > [PrivateBin](https://privatebin.info/) is a minimalist, open source [Pastebin](https://pastebin.com/) where the server
