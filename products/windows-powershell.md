@@ -47,8 +47,10 @@ releases:
 > Windows based operating systems. It uses the full .NET Framework, which only runs on Windows. 
 > Microsoft is no longer updating Windows PowerShell with new features. 
 
-Windows PowerShell is a component of the Windows operating system. Components receive 
-the same support as their parent product or platform:
+{: .note }
+
+> Windows PowerShell is a component of the Windows operating system. Components receive 
+> the same support as their parent product or platform:
 
 | Version | Note                                                                       |
 | ------- | -------------------------------------------------------------------------- |
