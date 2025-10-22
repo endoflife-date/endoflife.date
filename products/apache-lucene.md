@@ -18,14 +18,14 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.3.0"
-    latestReleaseDate: 2025-09-13
+    latest: "10.3.1"
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
-    latest: "9.12.2"
-    latestReleaseDate: 2025-06-20
+    latest: "9.12.3"
+    latestReleaseDate: 2025-09-27
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13

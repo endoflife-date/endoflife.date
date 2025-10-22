@@ -26,6 +26,12 @@ auto:
 # Release dates from https://www.atlassian.com/software/confluence/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
+  - releaseCycle: "10.1"
+    releaseDate: 2025-10-07
+    eol: 2027-10-07
+    latest: "10.1.0"
+    latestReleaseDate: 2025-10-07
+
   - releaseCycle: "10.0"
     releaseDate: 2025-08-05
     eol: 2027-08-05
@@ -54,8 +60,8 @@ releases:
     lts: true
     releaseDate: 2024-12-09
     eol: 2026-12-10
-    latest: "9.2.8"
-    latestReleaseDate: 2025-09-03
+    latest: "9.2.9"
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "9.1"
     releaseDate: 2024-10-03
@@ -97,8 +103,8 @@ releases:
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-12-15
-    latest: "8.5.26"
-    latestReleaseDate: 2025-09-03
+    latest: "8.5.27"
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "8.4"
     releaseDate: 2023-07-05

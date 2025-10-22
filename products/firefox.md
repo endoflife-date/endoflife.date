@@ -27,11 +27,17 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "144"
+    releaseDate: 2025-10-14
+    eol: false
+    latest: "144.0"
+    latestReleaseDate: 2025-10-14
+
   - releaseCycle: "143"
     releaseDate: 2025-09-16
-    eol: false
-    latest: "143.0.1"
-    latestReleaseDate: 2025-09-19
+    eol: 2025-10-14
+    latest: "143.0.4"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "142"
     releaseDate: 2025-08-19
@@ -49,8 +55,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.3.1"
-    latestReleaseDate: 2025-09-23
+    latest: "140.4.0"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -201,8 +207,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2026-03-15 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to March 2026
-    latest: "115.28.0"
-    latestReleaseDate: 2025-09-16
+    latest: "115.29.0"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06

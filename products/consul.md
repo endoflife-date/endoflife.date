@@ -12,7 +12,6 @@ staleReleaseThresholdYears: 1.5
 
 identifiers:
   - repology: consul
-  - purl: pkg:brew/consul
   - purl: pkg:docker/library/consul
   - purl: pkg:github/hashicorp/consul
   - purl: pkg:golang/github.com/hashicorp/consul

@@ -14,6 +14,22 @@ identifiers:
   - cpe: cpe:/o:microsoft:windows
 
 releases:
+  - releaseCycle: "11-25h2-e"
+    releaseLabel: "11 25H2 (E)"
+    releaseDate: 2025-09-30
+    eoas: 2028-10-10
+    eol: 2028-10-10
+    latest: 10.0.26200
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+  - releaseCycle: "11-25h2-w"
+    releaseLabel: "11 25H2 (W)"
+    releaseDate: 2025-09-30
+    eoas: 2027-10-12
+    eol: 2027-10-12
+    latest: 10.0.26200
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
   - releaseCycle: "11-24h2-iot-lts"
     releaseLabel: "11 24H2 IoT"
     releaseDate: 2024-10-01

@@ -793,7 +793,7 @@ releases:
     releaseLabel: "Galaxy F42 5G"
     releaseDate: 2021-10-03
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/sm-e426b/ins/doc.html
 
   - releaseCycle: "galaxy-m52-5g"
@@ -807,14 +807,14 @@ releases:
     releaseLabel: "Galaxy M32 5G"
     releaseDate: 2021-09-02
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-M326B/INS/doc.html
 
   - releaseCycle: "galaxy-a52s-5g"
     releaseLabel: "Galaxy A52s 5G"
     releaseDate: 2021-09-01
     eoas: 2024-09-01
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-A528B/BTU/doc.html
 
   - releaseCycle: "galaxy-z-fold3-5g"
@@ -835,7 +835,7 @@ releases:
     releaseLabel: "Galaxy A03s"
     releaseDate: 2021-08-18
     eoas: false
-    eol: false
+    eol: 2025-10-10
     link: https://doc.samsungmobile.com/SM-A037F/INS/doc.html
 
   - releaseCycle: "galaxy-a12-india"
@@ -1101,7 +1101,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support for S20
+    eol: false      # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
   - releaseCycle: "galaxy-s20-fe-2020"

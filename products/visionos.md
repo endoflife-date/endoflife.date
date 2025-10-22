@@ -19,8 +19,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.0"
-    latestReleaseDate: 2025-09-15
+    latest: "26.0.1"
+    latestReleaseDate: 2025-09-29
 
   - releaseCycle: "2"
     releaseDate: 2024-09-16
@@ -34,6 +34,7 @@ releases:
     latest: "1.3"
     latestReleaseDate: 2024-07-29
     link: https://developer.apple.com/documentation/visionos-release-notes/visionos-release-notes
+
 ---
 
 > Apple [visionOS](https://www.apple.com/visionos) is an operating system specifically designed for Apple's spatial computing device, the Apple Vision Pro.

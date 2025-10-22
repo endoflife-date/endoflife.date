@@ -41,6 +41,14 @@ auto:
 # EOL dates can be found at https://www.mongodb.com/legal/support-policy/lifecycles
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 releases:
+  - releaseCycle: "8.2"
+    releaseLabel: "8.2 (Rapid Release)"
+    releaseDate: 2025-09-17
+    eol: 2026-03-30
+    latest: "8.2.1"
+    latestReleaseDate: 2025-09-30
+    link: https://www.mongodb.com/docs/manual/release-notes/8.2/ # todo: check if this can be removed after 8.3 release
+
   - releaseCycle: "8.1"
     releaseLabel: "8.1 (Rapid Release)"
     releaseDate: 2025-06-20
@@ -104,7 +112,7 @@ releases:
 
   - releaseCycle: "6.0"
     releaseDate: 2022-07-31
-    eol: 2025-07-01
+    eol: 2025-07-31
     latest: "6.0.26"
     latestReleaseDate: 2025-08-14
 
@@ -131,13 +139,13 @@ releases:
 
   - releaseCycle: "5.0"
     releaseDate: 2021-07-31
-    eol: 2024-10-01
+    eol: 2024-10-31
     latest: "5.0.31"
     latestReleaseDate: 2025-01-22
 
   - releaseCycle: "4.4"
     releaseDate: 2020-07-31
-    eol: 2024-02-01
+    eol: 2024-02-29
     latest: "4.4.29"
     latestReleaseDate: 2024-02-21
 
@@ -150,14 +158,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2018-06-30
-    eol: 2022-04-01
+    eol: 2022-04-30
     latest: "4.0.28"
     latestReleaseDate: 2022-01-24
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/4.0/
 
   - releaseCycle: "3.6"
     releaseDate: 2017-11-30
-    eol: 2021-04-01
+    eol: 2021-04-30
     latest: "3.6.23"
     latestReleaseDate: 2021-03-16
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/3.6/

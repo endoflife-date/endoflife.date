@@ -9,7 +9,7 @@ changelogTemplate: https://bitcoincore.org/en/releases/__LATEST__/
 
 auto:
   methods:
-    - git: https://github.com/bitcoin/bitcoin.git
+    - github_releases: bitcoin/bitcoin
       regex: '^v?(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
     - release_table: https://bitcoincore.org/en/lifecycle/
       fields:
@@ -20,64 +20,69 @@ auto:
         eoas: "Maintenance End"
         eol: "End of Life"
 
-# eaos(x) = releaseDate(x+2)
-# eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "30"
+    releaseDate: 2025-10-10
+    eoas: false
+    eol: false
+    latest: "30.0"
+    latestReleaseDate: 2025-10-13
+
   - releaseCycle: "29"
     releaseDate: 2025-04-14
     eoas: false
     eol: false
-    latest: "29.1"
-    latestReleaseDate: 2025-09-03
+    latest: "29.2"
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
-    eoas: false
+    eoas: 2025-10-10
     eol: false
     latest: "28.2"
-    latestReleaseDate: 2025-06-19
+    latestReleaseDate: 2025-06-26
 
   - releaseCycle: "27"
     releaseDate: 2024-04-16
     eoas: 2025-04-14
-    eol: false
+    eol: 2025-10-10
     latest: "27.2"
-    latestReleaseDate: 2024-10-31
+    latestReleaseDate: 2024-11-04
 
   - releaseCycle: "26"
     releaseDate: 2023-12-06
     eoas: 2024-10-02
     eol: 2025-04-14
     latest: "26.2"
-    latestReleaseDate: 2024-07-03
+    latestReleaseDate: 2024-07-11
 
   - releaseCycle: "25"
     releaseDate: 2023-05-18
     eoas: 2024-04-16
     eol: 2024-10-02
     latest: "25.2"
-    latestReleaseDate: 2024-04-04
+    latestReleaseDate: 2024-04-16
 
   - releaseCycle: "24"
     releaseDate: 2022-11-24
     eoas: 2023-12-12
     eol: 2024-04-02
     latest: "24.2"
-    latestReleaseDate: 2023-10-23
+    latestReleaseDate: 2023-11-01
 
   - releaseCycle: "23"
     releaseDate: 2022-04-25
     eoas: 2023-05-18
     eol: 2023-12-01
     latest: "23.2"
-    latestReleaseDate: 2023-05-16
+    latestReleaseDate: 2023-05-18
 
   - releaseCycle: "22"
     releaseDate: 2021-09-13
     eoas: 2022-12-14
     eol: 2023-04-01
     latest: "22.1"
-    latestReleaseDate: 2022-12-05
+    latestReleaseDate: 2022-12-15
 
   - releaseCycle: "0.21"
     releaseDate: 2021-01-15
@@ -106,7 +111,7 @@ releases:
     eoas: 2020-06-03
     eol: 2021-02-01
     latest: "0.18.1"
-    latestReleaseDate: 2019-08-02
+    latestReleaseDate: 2019-08-09
 
   - releaseCycle: "0.17"
     releaseDate: 2018-10-03
@@ -128,28 +133,28 @@ releases:
     eoas: 2018-10-03
     eol: 2019-08-01
     latest: "0.15.2"
-    latestReleaseDate: 2018-09-19
+    latestReleaseDate: 2018-09-28
 
   - releaseCycle: "0.14"
     releaseDate: 2017-03-08
     eoas: 2018-02-26
     eol: 2019-02-01
     latest: "0.14.3"
-    latestReleaseDate: 2018-09-20
+    latestReleaseDate: 2018-09-28
 
   - releaseCycle: "0.13"
     releaseDate: 2016-08-23
     eoas: 2017-09-15
     eol: 2018-08-01
     latest: "0.13.2"
-    latestReleaseDate: 2017-01-02
+    latestReleaseDate: 2017-01-03
 
   - releaseCycle: "0.12"
     releaseDate: 2016-02-23
     eoas: 2017-03-31
     eol: 2018-02-28
     latest: "0.12.1"
-    latestReleaseDate: 2016-04-14
+    latestReleaseDate: 2016-11-01
 
   - releaseCycle: "0.11"
     releaseDate: 2015-07-12

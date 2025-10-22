@@ -34,8 +34,8 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "4.5"
-    latestReleaseDate: 2025-09-15
+    latest: "4.5.1"
+    latestReleaseDate: 2025-10-13
     link: https://godotengine.org/releases/4.5/
 
   - releaseCycle: "4.4"
@@ -148,6 +148,7 @@ releases:
     link: https://godotengine.org/article/godot-engine-reaches-1-0/
     latest: "1.0"
     latestReleaseDate: 2014-12-15
+
 ---
 
 > [Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create
