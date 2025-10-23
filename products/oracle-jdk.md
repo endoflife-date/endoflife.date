@@ -55,6 +55,7 @@ auto:
 # for non-LTS, eol(x) = releaseDate(x+1).
 releases:
   - releaseCycle: "25"
+    lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
     eoes: 2033-09-30
