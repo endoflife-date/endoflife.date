@@ -29,7 +29,7 @@ releases:
     eoas: false
     eol: false
     latest: "7.0.0"
-    latestReleaseDate: 2025-10-19
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "6"
     releaseDate: 2023-07-24
@@ -72,6 +72,7 @@ releases:
     eol: 2012-05-01
     latest: "1.3.9"
     latestReleaseDate: 2015-01-16
+
 ---
 
 > [Apache Grails](https://grails.apache.org/) is a powerful [Apache Groovy](https://groovy-lang.org/)-based web application framework for the JVM
@@ -85,4 +86,4 @@ releases:
   around the resolution of critical security advisories. New features, performance improvements,
   and minor bug fixes are unlikely.
 
-There are a few companies that offer [commercial support](https://grails.apache.org/support.html). 
+There are a few companies that offer [commercial support](https://grails.apache.org/support.html).

@@ -38,6 +38,9 @@ identifiers:
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-aop
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-logging
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-batch
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-log4j2
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-validation
   - purl: pkg:github/spring-projects/spring-boot
   - repology: springboot
 
