@@ -35,36 +35,36 @@ releases:
     releaseDate: 2025-09-23
     eoas: false
     eol: 2026-06-23
-    latest: "12.2.0"
-    latestReleaseDate: 2025-09-23
+    latest: "12.2.1"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "12.1"
     releaseDate: 2025-07-22
     eoas: 2025-09-23
     eol: 2026-04-22
-    latest: "12.1.2"
-    latestReleaseDate: 2025-09-23
+    latest: "12.1.3"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: 2025-07-22
     eol: 2026-02-05
-    latest: "12.0.5"
-    latestReleaseDate: 2025-09-23
+    latest: "12.0.6"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.6"
     releaseDate: 2025-03-25
     eoas: 2025-05-05
     eol: 2026-06-25
-    latest: "11.6.6"
-    latestReleaseDate: 2025-09-23
+    latest: "11.6.7"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.5"
     releaseDate: 2025-01-28
     eoas: 2025-03-25
     eol: 2025-10-28
-    latest: "11.5.9"
-    latestReleaseDate: 2025-09-23
+    latest: "11.5.10"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.4"
     releaseDate: 2024-12-05

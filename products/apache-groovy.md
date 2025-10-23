@@ -19,6 +19,9 @@ identifiers:
   - repology: groovy
   - cpe: cpe:/a:apache:groovy
   - cpe: cpe:2.3:a:apache:groovy
+  - purl: pkg:maven/org.apache.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy-all
 
 auto:
   methods:

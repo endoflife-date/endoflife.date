@@ -27,15 +27,15 @@ releases:
     releaseDate: 2025-10-08
     eoas: false
     eol: false
-    latest: "0.82.0"
-    latestReleaseDate: 2025-10-08
+    latest: "0.82.1"
+    latestReleaseDate: 2025-10-20
 
   - releaseCycle: "0.81"
     releaseDate: 2025-08-12
     eoas: false
     eol: false
-    latest: "0.81.4"
-    latestReleaseDate: 2025-09-10
+    latest: "0.81.5"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "0.80"
     releaseDate: 2025-06-12
@@ -48,8 +48,8 @@ releases:
     releaseDate: 2025-04-08
     eoas: 2025-08-12
     eol: 2025-10-08
-    latest: "0.79.6"
-    latestReleaseDate: 2025-08-14
+    latest: "0.79.7"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "0.78"
     releaseDate: 2025-02-19

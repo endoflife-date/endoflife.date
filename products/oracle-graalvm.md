@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-09-16
     eol: 2030-09-30
     eoes: 2033-09-30
-    latest: "24.0.2"
-    latestReleaseDate: 2025-09-16
+    latest: "25.0.1"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "24"
     releaseDate: 2025-03-18
@@ -57,8 +57,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     eoes: 2031-09-30
-    latest: "21.0.8"
-    latestReleaseDate: 2025-07-15
+    latest: "21.0.9"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "20"
     releaseDate: 2023-06-13
@@ -71,8 +71,9 @@ releases:
     releaseDate: 2023-06-13
     eol: 2026-09-30
     eoes: 2029-09-30
-    latest: "17.0.16"
-    latestReleaseDate: 2025-07-15
+    latest: "17.0.17"
+    latestReleaseDate: 2025-10-21
+
 ---
 
 > [Oracle GraalVM](https://www.graalvm.org/community/) is a commercial and closed-source Java VM and JDK based on [Oracle JDK](/oracle-jdk).

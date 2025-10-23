@@ -24,8 +24,8 @@ releases:
     releaseDate: 2025-10-16
     eoas: false # release date of 1.20
     eol: false # release date of 1.24
-    latest: "1.19.0"
-    latestReleaseDate: 2025-10-16
+    latest: "1.19.1"
+    latestReleaseDate: 2025-10-20
 
   - releaseCycle: "1.18"
     releaseDate: 2024-12-19
@@ -131,6 +131,7 @@ releases:
     eol: 2019-06-24 # release date of 1.9
     latest: "1.4.5"
     latestReleaseDate: 2017-06-22
+
 ---
 
 > [Elixir](https://elixir-lang.org/) is a dynamic, functional language designed for building scalable
