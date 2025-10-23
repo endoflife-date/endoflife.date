@@ -26,6 +26,13 @@ auto:
 
 # Some dates can be found on https://rubyonrails.org/maintenance.
 releases:
+  - releaseCycle: "8.1"
+    releaseDate: 2025-10-22
+    eoas: 2026-10-22
+    eol: 2027-10-22
+    latest: "8.1.0"
+    latestReleaseDate: 2025-10-22
+
   - releaseCycle: "8.0"
     releaseDate: 2024-11-07
     eoas: 2025-11-07
