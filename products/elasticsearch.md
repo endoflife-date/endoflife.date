@@ -35,14 +35,14 @@ releases:
     eol: false
     latest: "9.2.0"
     latestReleaseDate: 2025-10-21
-    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.2.0-release-notes
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false
     latest: "9.1.6"
     latestReleaseDate: 2025-10-21
-    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.1.2-release-notes
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
@@ -61,7 +61,7 @@ releases:
     eol: false
     latest: "9.0.8"
     latestReleaseDate: 2025-10-02
-    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.0.5-release-notes
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-11
