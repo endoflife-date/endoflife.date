@@ -50,6 +50,13 @@ auto:
         - {name: "2.1", releaseDate: 2013-06-26}   # https://www.couchbase.com/press-releases/couchbase-announces-availability-of-couchbase-server-2-1-nosql-document-database/
 
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2025-10-21
+    eol: 2028-10-31
+    latest: "8.0.0"
+    latestReleaseDate: 2025-10-21
+    link: https://www.couchbase.com/blog/couchbase-8-hyperscale-ai/
+
   - releaseCycle: "7.6"
     releaseDate: 2024-03-25
     eol: 2027-03-31
