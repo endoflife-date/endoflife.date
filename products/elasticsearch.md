@@ -30,6 +30,13 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.2"
+    releaseDate: 2025-10-21
+    eol: false
+    latest: "9.2.0"
+    latestReleaseDate: 2025-10-21
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.2.0-release-notes
+
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false
