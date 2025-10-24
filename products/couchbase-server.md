@@ -33,7 +33,8 @@ auto:
     - declare: couchbase-server
       # Release dates are approximate on https://www.couchbase.com/support-policy/EOL/.
       releases:
-        - {name: "7.6", releaseDate: 2024-03-25}   # https://www.couchbase.com/blog/announcing-couchbase-6-0/
+        - {name: "8.0", releaseDate: 2025-10-21}   # https://www.couchbase.com/blog/couchbase-8-hyperscale-ai/
+        - {name: "7.6", releaseDate: 2024-03-25}   # https://www.couchbase.com/blog/couchbase-server-7-6-top-developer-features/
         - {name: "7.2", releaseDate: 2023-06-01}   # https://www.couchbase.com/blog/couchbase-capella-spring-release-72/
         - {name: "7.1", releaseDate: 2022-05-10}   # https://www.couchbase.com/blog/whats-new-in-couchbase-server-7-1/
         - {name: "7.0", releaseDate: 2021-07-29}   # https://www.couchbase.com/blog/couchbase-server-7-0-release/
