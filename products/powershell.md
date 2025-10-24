@@ -42,7 +42,7 @@ releases:
     releaseDate: 2025-01-23
     eol: 2026-05-12
     latest: "7.5.4"
-    latestReleaseDate: 2025-10-20
+    latestReleaseDate: 2025-10-16
     dotnetVersion: ".NET 9.0"
 
   - releaseCycle: "7.4"
@@ -50,7 +50,7 @@ releases:
     releaseDate: 2023-11-16
     eol: 2026-11-10
     latest: "7.4.13"
-    latestReleaseDate: 2025-10-20
+    latestReleaseDate: 2025-10-16
     dotnetVersion: ".NET 8.0"
 
   - releaseCycle: "7.3"
@@ -103,6 +103,7 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
     dotnetVersion: ".NET Core 2.0"
+
 
 ---
 

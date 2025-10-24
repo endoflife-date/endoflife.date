@@ -33,15 +33,15 @@ releases:
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false
-    latest: "9.1.5"
-    latestReleaseDate: 2025-10-02
+    latest: "9.1.6"
+    latestReleaseDate: 2025-10-21
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.1.2-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.5"
-    latestReleaseDate: 2025-10-03
+    latest: "8.19.6"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
