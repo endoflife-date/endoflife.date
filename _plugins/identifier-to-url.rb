@@ -221,7 +221,14 @@ class IdentifierToUrl
   end
 
   def _build_copr_url(purl)
-    return "https://copr.fedorainfracloud.org/coprs/#{purl.namespace}/#{purl.name}/"
+    owner_type = purl.qualifiers&.[]("owner_type")
+
+    unless owner_type.nil? || owner_type == "g" || owner_type == "group"
+      raise ArgumentError, "Invalid owner_type '#{owner_type}'. Must be nil (individual user) or 'g' (group)"
+    end
+
+    owner_type == "g" or "group" ? "g/" : ""
+    return "https://copr.fedorainfracloud.org/coprs/#{owner_type}/#{purl.namespace}/#{purl.name}/"
   end
 
   def _build_nix_url(purl)
@@ -233,7 +240,11 @@ class IdentifierToUrl
   end
 
   def _build_ansible_url(purl)
-    return "https://galaxy.ansible.com/ui/repo/published/#{purl.namespace}/#{purl.name}"
+    if purl.qualifiers["collection_type"] == "roles"
+      return "https://galaxy.ansible.com/ui/standalone/roles#{purl.namespace}/#{purl.name}/"
+    else
+      return "https://galaxy.ansible.com/ui/repo/published/#{purl.namespace}/#{purl.name}/"
+    end
   end
 
   def _build_unikraft_url(purl)
