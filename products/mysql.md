@@ -41,7 +41,7 @@ releases:
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
     latest: "9.5.0"
-    latestReleaseDate: 2025-10-21
+    latestReleaseDate: 2025-09-23
 
   - releaseCycle: "9.4"
     releaseDate: 2025-07-09
@@ -112,8 +112,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: "8.0.43"
-    latestReleaseDate: 2025-07-09
+    latest: "8.0.44"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "5.7"
     releaseDate: 2015-10-09

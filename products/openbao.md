@@ -33,7 +33,7 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2025-08-28
     eol: false
-    latest: "2.4.2"
+    latest: "2.4.3"
     latestReleaseDate: 2025-10-22
 
   - releaseCycle: "2.3"

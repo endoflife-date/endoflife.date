@@ -99,7 +99,7 @@ releases:
     eoas: 2024-10-08
     eol: 2025-10-08
     latest: "4.4.0-20250919"
-    latestReleaseDate: 2025-10-03
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "4.3"
     releaseDate: 2020-04-30
@@ -121,7 +121,7 @@ releases:
     eoas: 2020-11-02
     eol: 2022-11-02
     latest: "4.1.6-20240112"
-    latestReleaseDate: 2024-06-07
+    latestReleaseDate: 2024-08-10
     link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
 
   - releaseCycle: "3.9"
