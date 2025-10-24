@@ -23,18 +23,21 @@ auto:
 releases:
   - releaseCycle: "16"
     releaseDate: 2025-10-22
+    lts: true
     eol: false
     latest: "16.0.0"
     latestReleaseDate: 2025-10-22
 
   - releaseCycle: "15"
     releaseDate: 2024-10-21
+    lts: true
     eol: 2026-10-21
     latest: "15.5.6"
     latestReleaseDate: 2025-10-17
 
   - releaseCycle: "14"
     releaseDate: 2023-10-26
+    lts: true
     eol: 2025-10-26
     latest: "14.2.33"
     latestReleaseDate: 2025-09-23
