@@ -150,7 +150,7 @@ releases:
     latestReleaseDate: 2021-05-11
 
   - releaseCycle: "19.2"
-    releaseDate: 2019-11-07
+    releaseDate: 2019-11-12
     eoas: 2020-11-12
     eol: 2021-05-12
     latest: "19.2.12"
