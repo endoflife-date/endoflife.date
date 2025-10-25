@@ -8,6 +8,7 @@ permalink: /windows-powershell
 versionCommand: powershell -Command "$PSVersionTable.PSVersion"
 releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle?view=powershell-5.1#windows-powershell-release-history
 eolColumn: Support Status
+staleReleaseThresholdYears: 10
 
 releases:
   - releaseCycle: "5.1"
