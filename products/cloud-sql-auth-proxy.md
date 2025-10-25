@@ -22,15 +22,15 @@ releases:
     releaseDate: 2023-01-17
     eoas: 2026-04-28
     eol: false
-    latest: "2.18.2"
-    latestReleaseDate: 2025-08-27
+    latest: "2.18.3"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "1"
     releaseDate: 2020-01-01
     eoas: 2023-08-22 # no specified date in any documentation, however commits slow down greatly on this date https://github.com/GoogleCloudPlatform/cloud-sql-proxy/commits/v1.37.9/?after=cbba97d111c5c42f65b8b5037dcdfa4e795b2194+34
     eol: false
-    latest: "1.37.9"
-    latestReleaseDate: 2025-08-25
+    latest: "1.37.10"
+    latestReleaseDate: 2025-10-24
 
 ---
 

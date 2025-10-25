@@ -55,7 +55,7 @@ releases:
     releaseDate: 2025-10-21
     eol: 2028-10-31
     latest: "8.0.0"
-    latestReleaseDate: 2025-10-21
+    latestReleaseDate: 2025-10-01
     link: https://www.couchbase.com/blog/couchbase-8-hyperscale-ai/
 
   - releaseCycle: "7.6"
