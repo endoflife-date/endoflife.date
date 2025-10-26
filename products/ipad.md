@@ -37,7 +37,7 @@ releases:
     eol: false
     link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
-  
+
   - releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (A17 Pro)"
     releaseDate: 2024-10-23
@@ -51,7 +51,7 @@ releases:
     releaseDate: 2024-05-15
     discontinued: false
     eol: false
-    link: https://support.apple.com/119891
+    link: https://support.apple.com/119892
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "pro-7-13"
@@ -147,7 +147,7 @@ releases:
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
-    link: https://support.apple.com/kb/SP815
+    link: https://support.apple.com/111842
     supportedIpadOsVersions: "13 - 26"
 
   - releaseCycle: "pro-2-11"
@@ -187,7 +187,7 @@ releases:
     releaseDate: 2018-11-07
     discontinued: 2020-03-18
     eol: false
-    link: https://support.apple.com/kb/SP785
+    link: https://support.apple.com/111897
     supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "pro-3-12"
