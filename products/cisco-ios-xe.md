@@ -2,12 +2,12 @@
 title: Cisco IOS XE
 category: os
 tags: cisco
+iconSlug: cisco
 permalink: /cisco-ios-xe
 releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/bulletin-c25-2378701.html
 eolColumn: Last Date of Support
 eoasColumn: End of Vulnerability/Security Support
 latestColumn: false
-iconSlug: cisco
 releaseLabel: "__RELEASE_CYCLE__"
 
 releases:
@@ -121,13 +121,17 @@ releases:
 
 ---
 
-> Cisco IOS XE is a network operating system that is based on the Linux kernel. It is used on a variety of Cisco products, including routers, switches, and wireless controllers.
+> Cisco IOS XE is a network operating system that is based on the Linux kernel.
+> It is used on a variety of Cisco products, including routers, switches, and wireless controllers.
 
 Cisco has various dates which mark different phases of the EOL cycle. The dates are as follows:
 
-* Last Date of Support: This is also referenced as EOL. The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions.
-* End of SW Maintenance Releases Date: The last date that Cisco Engineering may release any final software maintenance releases or bug fixes for. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. The only exception is Vulnerability/Security issues that will be addressed as shown in the End of Vulnerability/Security Support milestone below.
-* End of Vulnerability/Security Support: The last date that Cisco Engineering may release bug fixes for Vulnerability or Security issues for. After this date, bug fixes for Vulnerability or Security issues identified in may be provided through later supported software releases.
+* Last Date of Support: This is also referenced as EOL.
+  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions.
+* End of SW Maintenance Releases Date: The last date that Cisco Engineering may release any final software maintenance releases or bug fixes for.
+  After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. The only exception is Vulnerability/Security issues that will be addressed as shown in the End of Vulnerability/Security Support milestone below.
+* End of Vulnerability/Security Support: The last date that Cisco Engineering may release bug fixes for Vulnerability or Security issues for.
+  After this date, bug fixes for Vulnerability or Security issues identified in may be provided through later supported software releases.
 
 Cisco has two support types:
 
