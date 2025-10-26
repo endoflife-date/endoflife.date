@@ -1,5 +1,6 @@
 ---
 title: Cisco IOS XE
+addedAt: 2025-10-26
 category: os
 tags: cisco
 iconSlug: cisco
