@@ -9,7 +9,6 @@ releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-s
 eolColumn: Last Date of Support
 eoasColumn: End of Vulnerability/Security Support
 latestColumn: false
-releaseLabel: "__RELEASE_CYCLE__"
 
 releases:
   - releaseCycle: "17.18"
