@@ -8,49 +8,45 @@ permalink: /windows-powershell
 versionCommand: powershell -Command "$PSVersionTable.PSVersion"
 releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle?view=powershell-5.1#windows-powershell-release-history
 eolColumn: Support Status
+latestColumn: false
+staleReleaseThresholdYears: 10
 
 releases:
   - releaseCycle: "5.1"
     releaseDate: 2016-08-02
     eol: false
-    latest: "5.1"
 
   - releaseCycle: "5.0"
     releaseDate: 2016-02-24
     eol: 2016-08-02
-    latest: "5.0"
 
   - releaseCycle: "4.0"
     releaseDate: 2013-10-01
     eol: 2023-10-10
-    latest: "4.0"
 
   - releaseCycle: "3.0"
     releaseDate: 2012-10-01
     eol: 2023-10-10
-    latest: "3.0"
 
   - releaseCycle: "2.0"
     releaseDate: 2009-07-01
     eol: 2020-01-14
-    latest: "2.0"
 
   - releaseCycle: "1.0"
     releaseDate: 2006-11-14
     eol: 2020-01-14
-    latest: "1.0"
 
 ---
 
-> [Windows PowerShell](https://learn.microsoft.com/powershell/scripting/what-is-windows-powershell) 
-> is a shell program developed by Microsoft for task automation and configuration management for 
-> Windows based operating systems. It uses the full .NET Framework, which only runs on Windows. 
+> [Windows PowerShell](https://learn.microsoft.com/powershell/scripting/what-is-windows-powershell)
+> is a shell program developed by Microsoft for task automation and configuration management for
+> Windows based operating systems. It uses the full .NET Framework, which only runs on Windows.
 > Microsoft is no longer updating Windows PowerShell with new features. Go to
 > [PowerShell](/powershell) for the cross-platform successor.
 
 {: .note }
 
-> Windows PowerShell is a component of the Windows operating system. Components receive 
+> Windows PowerShell is a component of the Windows operating system. Components receive
 > the same support as their parent product or platform:
 
 | Version | Note                                                                       |
