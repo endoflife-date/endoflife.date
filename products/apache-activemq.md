@@ -18,9 +18,6 @@ identifiers:
   - cpe: cpe:/a:apache:activemq
   - cpe: cpe:2.3:a:apache:activemq
   - purl: pkg:maven/org.apache.activemq/activemq-broker
-  - purl: pkg:maven/org.apache.activemq/activemq-pool
-  - purl: pkg:maven/org.apache.activemq/activemq-spring
-  - purl: pkg:maven/org.apache.activemq/activemq-jdbc-store
 
 auto:
   methods:
