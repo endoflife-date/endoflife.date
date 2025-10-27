@@ -41,14 +41,14 @@ releases:
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
     eol: 2024-04-29
-    latest: "2023.2.20f1"
-    latestReleaseDate: 2024-04-25
+    latest: "2023.2.22f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2023.1"
     releaseDate: 2023-06-12
     eol: 2023-11-13
-    latest: "2023.1.20f1"
-    latestReleaseDate: 2023-11-09
+    latest: "2023.1.22f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.3"
     lts: true
