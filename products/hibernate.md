@@ -146,5 +146,5 @@ See [Hibernate ORM releases page](https://hibernate.org/orm/releases/) for relea
 information and [Hibernate ORM maintenance policy](https://hibernate.org/community/maintenance-policy/)
 for more details about supported releases.
 
-Commercial support is available [from RedHat](https://hibernate.org/orm/support/)
+Commercial support is available [from Red Hat](https://hibernate.org/orm/support/)
 
