@@ -34,7 +34,7 @@ releases:
 
   - releaseCycle: "30"
     releaseDate: 2024-09-11
-    eol: 2025-09-30
+    eol: 2025-10-31
     latest: "30.0.17"
     latestReleaseDate: 2025-10-23
 
