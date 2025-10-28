@@ -1,6 +1,6 @@
 ---
 title: Jaeger
-addedAt: 2025-09-22
+addedAt: 2025-10-28
 category: app
 tags: cncf linux-foundation
 iconSlug: jaeger
