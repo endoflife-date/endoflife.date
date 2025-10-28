@@ -32,4 +32,5 @@ releases:
 > [Jaeger](https://www.jaegertracing.io/) is an open-source distributed tracing platform used for monitoring and troubleshooting microservices-based architectures.
 
 Jaeger provides distributed transaction monitoring, performance optimization insights, and root cause analysis capabilities for complex distributed systems. It is inspired by Google's Dapper and OpenZipkin, and is a Cloud Native Computing Foundation (CNCF) graduated project.
-Jaeger v1 is expected to be end-of-life [2025/12/31](https://github.com/jaegertracing/jaeger/issues/6321)
+According to [Jaeger's Security Policy](https://github.com/jaegertracing/jaeger?tab=security-ov-file#supported-versions), only the latest major release officially receives new features, bug fixes, and security updates.
+However, as discussed in [this issue](https://github.com/jaegertracing/jaeger/issues/6321), the Jaeger team may provide extended support for previous major versions too.
