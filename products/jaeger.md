@@ -24,7 +24,7 @@ releases:
 
   - releaseCycle: "1"
     releaseDate: 2017-12-06
-    eol: false
+    eol: 2025-12-31 # https://github.com/jaegertracing/jaeger/issues/6321
     latest: "1.74.0"
     latestReleaseDate: 2025-10-01
 ---
