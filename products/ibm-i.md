@@ -28,7 +28,7 @@ auto:
           regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
           template: "{{major}}.{{minor}}"
         releaseDate: "GA date*"
-        eol: "End of Program Support*"
+        eol: "Change in Service Level*"
         eoes: "Program Support Extension Available*"
 
 releases:
