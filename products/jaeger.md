@@ -14,7 +14,6 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/jaegertracing/jaeger.git
-      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "2"
