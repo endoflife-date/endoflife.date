@@ -19,6 +19,7 @@ customFields:
     display: after-release-column
     label: PEP
     description: Python Enhancement Proposal (PEP) document for this release
+    link: https://peps.python.org/topic/release/
 
 identifiers:
   - purl: pkg:generic/python
