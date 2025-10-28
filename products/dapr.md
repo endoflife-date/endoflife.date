@@ -5,54 +5,49 @@ category: server-app
 iconSlug: dapr
 permalink: /dapr
 releasePolicyLink: https://github.com/dapr/community/blob/master/release-process.md
-changelogTemplate: "https://github.com/dapr/dapr/releases/tag/__LATEST__"
-releaseLabel: "Dapr Runtime  __RELEASE_CYCLE__"
+changelogTemplate: "https://github.com/dapr/dapr/releases/tag/v__LATEST__"
+releaseLabel: "Dapr Runtime __RELEASE_CYCLE__"
 eolColumn: Security Support
 latestColumn: Latest
 releaseDateColumn: Released
+
+# eol = releaseDate( x + 3 )
 releases:
 -   releaseCycle: "1.16"
     releaseDate: 2025-09-16
-    lts: false
-    eol: false
+    eol: false # releaseDate(1.19)
     latest: "1.16.1"
     latestReleaseDate: 2025-10-06
-    link: https://github.com/dapr/dapr/releases/tag/v1.16.1
+
 -   releaseCycle: "1.15"
     releaseDate: 2025-02-27
-    lts: false
-    eol: false
+    eol: false # releaseDate(1.18)
     latest: "1.15.12"
     latestReleaseDate: 2025-09-17
-    link: https://github.com/dapr/dapr/releases/tag/v1.15.12
+
 -   releaseCycle: "1.14"
     releaseDate: 2024-08-24
-    lts: false
-    eol: false
+    eol: false # releaseDate(1.17)
     latest: "1.14.4"
     latestReleaseDate: 2024-09-16
-    link: https://github.com/dapr/dapr/releases/tag/v1.14.4
+
 -   releaseCycle: "1.13"
     releaseDate: 2024-03-06
-    lts: false
-    eol: true
+    eol: 2025-09-16
     latest: "1.13.4"
     latestReleaseDate: 2024-05-29
-    link: https://github.com/dapr/dapr/releases/tag/v1.13.4
+
 -   releaseCycle: "1.12"
     releaseDate: 2023-10-11
-    lts: false
-    eol: true
+    eol: 2025-02-27
     latest: "1.12.4"
     latestReleaseDate: 2024-01-17
-    link: https://github.com/dapr/dapr/releases/tag/v1.12.4
+
 -   releaseCycle: "1.11"
     releaseDate: 2023-06-12
-    lts: false
-    eol: true
+    eol: 2024-08-24
     latest: "1.11.6"
     latestReleaseDate: 2023-11-18
-    link: https://github.com/dapr/dapr/releases/tag/v1.11.6
 
 ---
 
