@@ -6,8 +6,8 @@ tags: cisco
 iconSlug: cisco
 permalink: /cisco-ios-xe
 releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/bulletin-c25-2378701.html
-eolColumn: Last Date of Support
-eoasColumn: End of Vulnerability/Security Support
+eolColumn: End of Vulnerability/Security Support
+eoasColumn: End of SW Maintenance Releases Date
 latestColumn: false
 
 releases:
@@ -26,14 +26,14 @@ releases:
 
   - releaseCycle: "17.16"
     releaseDate: 2024-12-11
-    eol: 2028-06-30
+    eol: 2026-01-13
     eoas: 2026-01-13
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-16-x-eol.html
 
   - releaseCycle: "17.15"
     releaseDate: 2024-08-09
-    eol: 2029-03-30
-    eoas: 2028-09-30
+    eol: 2028-09-30
+    eoas: 2027-03-30
     lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-15-x-eol.html
 
@@ -45,90 +45,90 @@ releases:
 
   - releaseCycle: "17.13"
     releaseDate: 2023-11-30
-    eol: 2027-07-31
+    eol: 2024-12-31
     eoas: 2024-12-31
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-13-x-eol.html
 
   - releaseCycle: "17.12"
     releaseDate: 2023-07-28
-    eol: 2029-03-31
-    eoas: 2027-09-30
+    eol: 2027-09-30
+    eoas: 2026-03-30
     lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-12-x-eol.html
 
   - releaseCycle: "17.11"
     releaseDate: 2023-03-28
-    eol: 2026-11-30
+    eol: 2024-05-14
     eoas: 2024-05-14
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-11-x-eol.html
 
   - releaseCycle: "17.10"
     releaseDate: 2022-11-30
-    eol: 2026-07-31
+    eol: 2024-01-03
     eoas: 2024-01-03
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-10-x-eol.html
 
   - releaseCycle: "17.9"
     releaseDate: 2022-07-29
-    eol: 2027-03-31
-    eoas: 2026-09-30
+    eol: 2026-09-30
+    eoas: 2025-03-30
     lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-9-x-eol.html
 
   - releaseCycle: "17.8"
     releaseDate: 2022-04-11
-    eol: 2027-11-30
+    eol: 2023-05-30
     eoas: 2023-05-30
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-8-x-eol.html
 
   - releaseCycle: "17.7"
     releaseDate: 2021-11-30
-    eol: 2027-07-31
+    eol: 2023-01-30
     eoas: 2023-01-30
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-7-x-eol.html
 
   - releaseCycle: "17.6"
     releaseDate: 2021-07-30
-    eol: 2026-03-31
-    eoas: 2024-09-30
+    eol: 2024-09-30
+    eoas: 2024-03-31
     lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-6-x-eol.html
 
   - releaseCycle: "17.5"
     releaseDate: 2021-03-31
-    eol: 2026-11-30
+    eol: 2022-05-30
     eoas: 2022-05-30
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-5-x-eol.html
 
   - releaseCycle: "17.4"
     releaseDate: 2020-11-30
     eoas: 2022-01-28
-    eol: 2026-07-31
+    eol: 2022-01-28
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/eos-eol-notice-c51-2442351.html
 
   - releaseCycle: "17.3"
     releaseDate: 2020-07-31
-    eol: 2027-03-31
-    eoas: 2023-09-30
+    eol: 2023-09-30
+    eoas: 2023-03-31
     lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-3-x-eol.html
 
   - releaseCycle: "17.2"
     releaseDate: 2020-03-30
-    eol: 2026-01-31
+    eol: 2021-07-15
     eoas: 2021-07-15
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/eos-eol-notice-c51-744388.html
 
   - releaseCycle: "17.1"
     releaseDate: 2019-11-21
-    eol: 2025-06-30
-    eoas: 2021-03-31
-    link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-1-1/model.html
+    eol: 2020-12-30
+    eoas: 2020-12-30
+    link: https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/eos-eol-notice-c51-743638.html
 
   - releaseCycle: "16.12"
     releaseDate: 2019-07-31
-    eol: 2026-02-28
-    eoas: 2022-08-18
+    eol: 2022-08-18
+    eoas: 2022-02-17
     lts: true
     changeLogReference: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html
 
