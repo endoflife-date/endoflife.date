@@ -119,6 +119,12 @@ releases:
     eoas: 2021-03-31
     link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-1-1/model.html
 
+  - releaseCycle: "16.12"
+    releaseDate: 2019-07-31
+    eol: 2026-02-28
+    eoas: 2022-08-18
+    changeLogReference: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html
+
 ---
 
 > Cisco IOS XE is a network operating system that is based on the Linux kernel.
