@@ -130,7 +130,7 @@ releases:
     eol: 2022-08-18
     eoas: 2022-02-17
     lts: true
-    changeLogReference: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html
+    link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html
 
 ---
 
