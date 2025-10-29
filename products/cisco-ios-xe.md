@@ -31,9 +31,9 @@ releases:
 
   - releaseCycle: "17.15"
     releaseDate: 2024-08-09
-    eol: false
-    eoas: false
-    link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-15-1/model.html
+    eol: 2029-03-30
+    eoas: 2028-09-30
+    link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-15-x-eol.html
 
   - releaseCycle: "17.14"
     releaseDate: 2024-04-13
