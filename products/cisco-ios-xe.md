@@ -137,22 +137,9 @@ releases:
 > Cisco IOS XE is a network operating system that is based on the Linux kernel.
 > It is used on a variety of Cisco products, including routers, switches, and wireless controllers.
 
-Releases are time-based, each with a fixed release date. The schedule specifies 3 individual software releases per year at 4 month intervals.
+Releases are time-based, each with a fixed release date. The schedule specifies 3 minor releases per year at 4 month intervals.
+Every subsequent first and second release (e.g. 17.1, 17.2, 17.4, 17.5...) receive standard support.
+Every subsequent third release (e.g. 17.3, 17.6...) receive extended support.
 
-Cisco has various dates which mark different phases of the EOL cycle. The dates are as follows:
-
-* Last Date of Support: This is also referenced as EOL.
-  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions.
-* End of SW Maintenance Releases Date: The last date that Cisco Engineering may release any final software maintenance releases or bug fixes for.
-  After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. The only exception is Vulnerability/Security issues that will be addressed as shown in the End of Vulnerability/Security Support milestone below.
-* End of Vulnerability/Security Support: The last date that Cisco Engineering may release bug fixes for Vulnerability or Security issues for.
-  After this date, bug fixes for Vulnerability or Security issues identified in may be provided through later supported software releases.
-
-Cisco has two support types:
-
-* Standard-Support Release Details: A sustaining support lifetime of 12 months from First Customer Shipment (FCS) with scheduled rebuilds.
-* Extended-Support release Details: A sustaining support lifetime of 48 months from First Customer Shipment (FCS) with scheduled rebuilds.
-
-Standard Support release versions: 17.1, 17.2, 17.4, 17.5, 17.7, 17.8, 17.10, 17.11 etc.
-
-Extended Support release versions: 17.3, 17.6, 17.9, 17.12, 17.13, 17.14, 17.15, etc.
+Standard-Support means, that the release has a sustaining support lifetime of 12 months from First Customer Shipment (FCS) with scheduled rebuilds.
+Extended-Support means, that the release has a sustaining support lifetime of 48 months from First Customer Shipment (FCS) with scheduled rebuilds.
