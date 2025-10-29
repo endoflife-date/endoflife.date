@@ -15,6 +15,7 @@ releases:
     releaseDate: 2025-08-08
     eol: false
     eoas: false
+    lts: true
     link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-18-1/model.html
 
   - releaseCycle: "17.17"
@@ -33,6 +34,7 @@ releases:
     releaseDate: 2024-08-09
     eol: 2029-03-30
     eoas: 2028-09-30
+    lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-15-x-eol.html
 
   - releaseCycle: "17.14"
@@ -51,6 +53,7 @@ releases:
     releaseDate: 2023-07-28
     eol: 2029-03-31
     eoas: 2027-09-30
+    lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-12-x-eol.html
 
   - releaseCycle: "17.11"
@@ -69,6 +72,7 @@ releases:
     releaseDate: 2022-07-29
     eol: 2027-03-31
     eoas: 2026-09-30
+    lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-9-x-eol.html
 
   - releaseCycle: "17.8"
@@ -87,6 +91,7 @@ releases:
     releaseDate: 2021-07-30
     eol: 2026-03-31
     eoas: 2024-09-30
+    lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-6-x-eol.html
 
   - releaseCycle: "17.5"
@@ -105,6 +110,7 @@ releases:
     releaseDate: 2020-07-31
     eol: 2027-03-31
     eoas: 2023-09-30
+    lts: true
     link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-3-x-eol.html
 
   - releaseCycle: "17.2"
@@ -123,12 +129,15 @@ releases:
     releaseDate: 2019-07-31
     eol: 2026-02-28
     eoas: 2022-08-18
+    lts: true
     changeLogReference: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html
 
 ---
 
 > Cisco IOS XE is a network operating system that is based on the Linux kernel.
 > It is used on a variety of Cisco products, including routers, switches, and wireless controllers.
+
+Releases are time-based, each with a fixed release date. The schedule specifies 3 individual software releases per year at 4 month intervals.
 
 Cisco has various dates which mark different phases of the EOL cycle. The dates are as follows:
 
