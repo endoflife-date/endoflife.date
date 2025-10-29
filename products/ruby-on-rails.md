@@ -30,36 +30,36 @@ releases:
     releaseDate: 2025-10-22
     eoas: 2026-10-22
     eol: 2027-10-22
-    latest: "8.1.0"
-    latestReleaseDate: 2025-10-22
+    latest: "8.1.1"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "8.0"
     releaseDate: 2024-11-07
-    eoas: 2025-11-07
+    eoas: 2026-05-07
     eol: 2026-11-07
-    latest: "8.0.3"
-    latestReleaseDate: 2025-09-22
+    latest: "8.0.4"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "7.2"
     releaseDate: 2024-08-09
     eoas: 2025-08-09
     eol: 2026-08-09
-    latest: "7.2.2.2"
-    latestReleaseDate: 2025-08-13
+    latest: "7.2.3"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eoas: 2024-10-01
     eol: 2025-10-01 # see https://rubyonrails.org/maintenance
-    latest: "7.1.5.2"
-    latestReleaseDate: 2025-08-13
+    latest: "7.1.6"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "7.0"
     releaseDate: 2021-12-15
     eoas: 2023-10-15
     eol: 2025-04-01 # see https://rubyonrails.org/maintenance
-    latest: "7.0.8.7"
-    latestReleaseDate: 2024-12-10
+    latest: "7.1.10"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "6.1"
     releaseDate: 2020-12-09
