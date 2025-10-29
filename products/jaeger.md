@@ -20,13 +20,14 @@ releases:
     releaseDate: 2024-11-04
     eol: false
     latest: "2.11.0"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "1"
     releaseDate: 2017-12-06
     eol: 2025-12-31 # https://github.com/jaegertracing/jaeger/issues/6321
     latest: "1.74.0"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-02
+
 ---
 
 > [Jaeger](https://www.jaegertracing.io/) is an open-source distributed tracing platform used for monitoring and troubleshooting microservices-based architectures.
