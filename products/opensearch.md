@@ -12,7 +12,7 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-    - git: https://github.com/opensearch-project/OpenSearch.git
+    - github_releases: opensearch-project/OpenSearch
     - release_table: https://opensearch.org/releases.html
       fields:
         releaseCycle: "Major Version"
