@@ -11,7 +11,7 @@ latestColumn: false
 auto:
   methods:
     # Cross check with the channels.cfg
-    # https://gitlab.com/postmarketOS/pmaports/-/blob/master/channels.cfg?ref_type=heads
+    # https://gitlab.postmarketos.org/postmarketOS/pmaports/-/blob/master/channels.cfg?ref_type=heads
     - distrowatch: postmarketos
       regex: 'Distribution Release: postmarketOS (?P<version>\d{2}[.]\d{2})'
       template: "{{version}}"
