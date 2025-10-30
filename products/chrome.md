@@ -22,9 +22,14 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "142"
+    releaseDate: 2025-10-28
+    eol: false
+    link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
+ 
   - releaseCycle: "141"
     releaseDate: 2025-09-30
-    eol: false
+    eol: 2025-10-28
     link: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 
   - releaseCycle: "140"
