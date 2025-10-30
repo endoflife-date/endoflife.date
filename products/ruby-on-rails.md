@@ -28,8 +28,8 @@ auto:
 releases:
   - releaseCycle: "8.1"
     releaseDate: 2025-10-22
-    eoas: 2026-10-22
-    eol: 2027-10-22
+    eoas: 2026-10-10
+    eol: 2027-10-10
     latest: "8.1.1"
     latestReleaseDate: 2025-10-28
 
