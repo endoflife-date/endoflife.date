@@ -9,26 +9,21 @@ auto:
     - git: https://github.com/ergebnis/composer-normalize.git
 
 releases:
-  - releaseCycle: "2.48"
-    releaseDate: 2025-08-30
+  - releaseCycle: "2.48.2"
+    releaseDate: 2025-09-06
     eol: false
     latest: "2.48.2"
     latestReleaseDate: 2025-09-06
-  - releaseCycle: "2.47"
-    releaseDate: 2025-04-15
+  - releaseCycle: "2.48.1"
+    releaseDate: 2025-09-01
     eol: true
-    latest: "2.47.0"
-    latestReleaseDate: 2025-04-15
-  - releaseCycle: "2.46"
-    releaseDate: 2025-04-10
+    latest: "2.48.1"
+    latestReleaseDate: 2025-09-01
+  - releaseCycle: "2.48.0"
+    releaseDate: 2025-08-30
     eol: true
-    latest: "2.46.0"
-    latestReleaseDate: 2025-04-10
-  - releaseCycle: "2.45"
-    releaseDate: 2024-12-04
-    eol: true
-    latest: "2.45.0"
-    latestReleaseDate: 2024-12-04
+    latest: "2.48.0"
+    latestReleaseDate: 2025-08-30
 
 ---
 
