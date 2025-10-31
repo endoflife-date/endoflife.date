@@ -16,12 +16,12 @@ releases:
     latestReleaseDate: 2025-09-06
   - releaseCycle: "2.47"
     releaseDate: 2025-04-15
-    eol: false
+    eol: true
     latest: "2.47.0"
     latestReleaseDate: 2025-04-15
   - releaseCycle: "2.46"
     releaseDate: 2025-04-10
-    eol: false
+    eol: true
     latest: "2.46.0"
     latestReleaseDate: 2025-04-10
   - releaseCycle: "2.45"
