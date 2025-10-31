@@ -32,7 +32,7 @@ releases:
     latestReleaseDate: 2025-10-12
     link: https://wiki.oreonproject.org/docs/Support-Timelines/oreon-10-support-timeline
 
-  - releaseCycle: "Lime R2"
+  - releaseCycle: "lime-r2"
     releaseLabel: "Oreon Lime (R2)"
     releaseDate: 2024-02-18
     eoas: 2027-06-01
