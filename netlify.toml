@@ -1,12 +1,12 @@
 [build]
   command = """
-  ./_auto/deploy.sh
+  ./bin/deploy.sh
   """
   publish = "_site/"
 
 [context.deploy-preview]
   command = """
-  ./_auto/deploy.sh $DEPLOY_PRIME_URL
+  ./bin/deploy.sh $DEPLOY_PRIME_URL
   """
 
 [[plugins]]

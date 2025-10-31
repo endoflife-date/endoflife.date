@@ -1,5 +1,6 @@
 ---
 title: Contao
+addedAt: 2022-12-08
 category: server-app
 iconSlug: contao
 permalink: /contao
@@ -8,89 +9,96 @@ changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
 eoasColumn: true
 
 identifiers:
--   repology: contao
--   cpe: cpe:/a:contao:contao
--   cpe: cpe:2.3:a:contao:contao
+  - repology: contao
+  - cpe: cpe:/a:contao:contao
+  - cpe: cpe:2.3:a:contao:contao
 
 auto:
   methods:
-  -   git: https://github.com/contao/contao.git
+    - git: https://github.com/contao/contao.git
 
 # eoas and eol available on https://contao.org/release-plan.
 releases:
--   releaseCycle: "5.5"
+  - releaseCycle: "5.6"
+    releaseDate: 2025-08-18
+    eoas: 2026-02-14
+    eol: 2026-02-14
+    latest: "5.6.3"
+    latestReleaseDate: 2025-09-30
+
+  - releaseCycle: "5.5"
     releaseDate: 2025-02-18
     eoas: 2025-08-14
     eol: 2025-08-14
-    latest: "5.5.9"
-    latestReleaseDate: 2025-03-31
+    latest: "5.5.16"
+    latestReleaseDate: 2025-08-18
 
--   releaseCycle: "5.4"
+  - releaseCycle: "5.4"
     releaseDate: 2024-08-15
     eoas: 2025-02-14
     eol: 2025-02-14
     latest: "5.4.14"
     latestReleaseDate: 2025-02-17
 
--   releaseCycle: "5.3"
+  - releaseCycle: "5.3"
     lts: true
     releaseDate: 2024-02-16
     eoas: 2027-02-14
     eol: 2028-02-14
-    latest: "5.3.31"
-    latestReleaseDate: 2025-03-25
+    latest: "5.3.40"
+    latestReleaseDate: 2025-09-30
 
--   releaseCycle: "5.2"
+  - releaseCycle: "5.2"
     releaseDate: 2023-08-15
     eoas: 2024-02-14
     eol: 2024-02-14
     latest: "5.2.10"
     latestReleaseDate: 2024-02-16
 
--   releaseCycle: "5.1"
+  - releaseCycle: "5.1"
     releaseDate: 2023-02-16
     eoas: 2023-08-14
     eol: 2023-08-14
     latest: "5.1.11"
     latestReleaseDate: 2023-08-01
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2022-08-18
     eoas: 2023-02-14
     eol: 2023-02-14
     latest: "5.0.10"
     latestReleaseDate: 2023-02-16
 
--   releaseCycle: "4.13"
+  - releaseCycle: "4.13"
     lts: true
     releaseDate: 2022-02-17
     eoas: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.54"
-    latestReleaseDate: 2025-03-18
+    latest: "4.13.56"
+    latestReleaseDate: 2025-08-28
 
--   releaseCycle: "4.12"
+  - releaseCycle: "4.12"
     releaseDate: 2021-08-19
     eoas: 2022-01-14
     eol: 2022-01-14
     latest: "4.12.7"
     latestReleaseDate: 2022-02-18
 
--   releaseCycle: "4.11"
+  - releaseCycle: "4.11"
     releaseDate: 2021-02-17
     eoas: 2021-08-14
     eol: 2021-08-14
     latest: "4.11.9"
     latestReleaseDate: 2021-08-24
 
--   releaseCycle: "4.10"
+  - releaseCycle: "4.10"
     releaseDate: 2020-08-18
     eoas: 2021-02-14
     eol: 2021-02-14
     latest: "4.10.7"
     latestReleaseDate: 2021-02-16
 
--   releaseCycle: "4.9"
+  - releaseCycle: "4.9"
     lts: true
     releaseDate: 2020-02-18
     eoas: 2023-02-14
@@ -98,7 +106,7 @@ releases:
     latest: "4.9.42"
     latestReleaseDate: 2023-07-25
 
--   releaseCycle: "4.4"
+  - releaseCycle: "4.4"
     lts: true
     releaseDate: 2017-06-15
     eoas: 2020-12-14
@@ -106,7 +114,7 @@ releases:
     latest: "4.4.57"
     latestReleaseDate: 2021-08-23
 
--   releaseCycle: "3.5"
+  - releaseCycle: "3.5"
     lts: true
     releaseDate: 2015-06-05
     eoas: 2018-06-30
@@ -119,5 +127,6 @@ releases:
 
 > [Contao Open Source CMS](https://contao.org) is a content management system written in PHP.
 
-LTS releases are actively supported for three years + one year with security fixes. Non-LTS versions are supported for half a year.
-Contao follows semantic versioning.
+Contao follows [Semantic Versioning](https://semver.org/).
+LTS releases are actively supported for three years, plus one year with security fixes.
+Non-LTS versions are supported for half a year.

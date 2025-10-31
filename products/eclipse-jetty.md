@@ -1,66 +1,96 @@
 ---
 title: Eclipse Jetty
+addedAt: 2023-12-26
 category: server-app
 tags: eclipse java-runtime web-server
 iconSlug: eclipsejetty
 permalink: /eclipse-jetty
 alternate_urls:
--   /jetty
+  - /jetty
 releasePolicyLink: https://jetty.org/download.html
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
 
+customFields:
+  - name: minJvmVersion
+    display: api-only
+    label: JVM
+    description: Minimum required JVM version
+    link: https://jetty.org/download.html
+  - name: servletVersion
+    display: api-only
+    label: Servlet
+    description: Supported Servlet versions
+    link: https://jetty.org/download.html
+  - name: jspVersion
+    display: api-only
+    label: JSP
+    description: Supported JSP versions
+    link: https://jetty.org/download.html
+
 identifiers:
--   repology: jetty
--   purl: pkg:maven/org.eclipse.jetty/jetty-server
--   cpe: cpe:2.3:a:eclipse:jetty
--   cpe: cpe:/a:eclipse:jetty
+  - repology: jetty
+  - purl: pkg:maven/org.eclipse.jetty/jetty-server
+  - cpe: cpe:2.3:a:eclipse:jetty
+  - cpe: cpe:/a:eclipse:jetty
 
 auto:
   methods:
-  -   maven: org.eclipse.jetty/jetty-server
+    - github_releases: jetty/jetty.project
+      regex: ^jetty-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
-# Support, EOL and minJavaVersion can be found on https://eclipse.dev/jetty/download.php.
+# Support, EOL and minJavaVersion can be found on https://jetty.org/download.html.
 releases:
--   releaseCycle: "12"
-    releaseDate: 2023-08-07
-    minJvmVersion: 17
-    servletVersion: 3.1 - 6.0
-    jspVersion: 2.3 - 3.1
+  - releaseCycle: "12.1"
+    releaseDate: 2025-08-18
+    minJvmVersion: "17"
+    servletVersion: "3.1 - 6.1"
+    jspVersion: "2.3 - 3.1"
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.19"
-    latestReleaseDate: 2025-04-01
+    latest: "12.1.3"
+    latestReleaseDate: 2025-10-20
 
--   releaseCycle: "11"
-    minJvmVersion: 11
-    servletVersion: 5.0
-    jspVersion: 3.0
+  - releaseCycle: "12.0"
+    releaseDate: 2023-08-07
+    minJvmVersion: "17"
+    servletVersion: "3.1 - 6.0"
+    jspVersion: "2.3 - 3.1"
+    eoas: false
+    eol: false
+    eoes: false
+    latest: "12.0.29"
+    latestReleaseDate: 2025-10-20
+
+  - releaseCycle: "11"
+    minJvmVersion: "11"
+    servletVersion: "5.0"
+    jspVersion: "3.0"
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "11.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "11.0.26"
+    latestReleaseDate: 2025-08-18
 
--   releaseCycle: "10"
-    minJvmVersion: 11
-    servletVersion: 4.0
-    jspVersion: 2.3
+  - releaseCycle: "10"
+    minJvmVersion: "11"
+    servletVersion: "4.0"
+    jspVersion: "2.3"
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "10.0.25"
-    latestReleaseDate: 2025-03-13
+    latest: "10.0.26"
+    latestReleaseDate: 2025-08-18
 
--   releaseCycle: "9.4"
-    minJvmVersion: 1.8
-    servletVersion: 3.1
-    jspVersion: 2.3
+  - releaseCycle: "9.4"
+    minJvmVersion: "1.8"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
     eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
@@ -68,63 +98,63 @@ releases:
     latest: "9.4.57.v20241219"
     latestReleaseDate: 2024-12-19
 
--   releaseCycle: "9.3"
-    minJvmVersion: 1.8
-    servletVersion: 3.1
-    jspVersion: 2.3
+  - releaseCycle: "9.3"
+    minJvmVersion: "1.8"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2015-06-01
     eoas: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     eol: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     latest: "9.3.30.v20211001"
     latestReleaseDate: 2021-10-01
 
--   releaseCycle: "9.2"
-    minJvmVersion: 1.7
-    servletVersion: 3.1
-    jspVersion: 2.3
+  - releaseCycle: "9.2"
+    minJvmVersion: "1.7"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2014-05-23
     eoas: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     eol: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     latest: "9.2.30.v20200428"
     latestReleaseDate: 2020-04-28
 
--   releaseCycle: "9.1"
-    minJvmVersion: 1.7
-    servletVersion: 3.1
-    jspVersion: 2.3
+  - releaseCycle: "9.1"
+    minJvmVersion: "1.7"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2013-11-15
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
 
--   releaseCycle: "9.0"
-    minJvmVersion: 1.7
-    servletVersion: 3.1-beta
-    jspVersion: 2.3
+  - releaseCycle: "9.0"
+    minJvmVersion: "1.7"
+    servletVersion: "3.1-beta"
+    jspVersion: "2.3"
     releaseDate: 2013-03-08
-    eoas: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
 
--   releaseCycle: "8"
-    minJvmVersion: 1.6
-    servletVersion: 3.0
-    jspVersion: 2.2
+  - releaseCycle: "8"
+    minJvmVersion: "1.6"
+    servletVersion: "3.0"
+    jspVersion: "2.2"
     releaseDate: 2011-09-01
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
--   releaseCycle: "7"
-    minJvmVersion: 1.5
-    servletVersion: 2.5
-    jspVersion: 2.1
+  - releaseCycle: "7"
+    minJvmVersion: "1.5"
+    servletVersion: "2.5"
+    jspVersion: "2.1"
     releaseDate: 2009-10-05
-    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
+    eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
 
@@ -140,7 +170,7 @@ Jetty does not have a fixed release and support policy. But a list of all versio
 their support status, is available [on Jetty website](https://jetty.org/download.html).
 
 Support for Jetty is divided into two phases. The first phase, called _Community Support_,
-comes with bug and security fixes. Once a release reach its End of Community Support (EoCS), Jetty
+comes with bug and security fixes. Once a release reaches its End of Community Support (EoCS), Jetty
 enters the second phase of support with only security and critical issues fixes until the full End
 of Life (EOL).
 

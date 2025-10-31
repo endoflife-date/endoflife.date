@@ -1,13 +1,12 @@
 ---
 title: Oracle JDK
+addedAt: 2019-05-28
 category: lang
 tags: java-distribution oracle
 iconSlug: oracle
 permalink: /oracle-jdk
 alternate_urls:
--   /oracle-java
--   /java
--   /jdk
+  - /oracle-java
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
@@ -15,14 +14,18 @@ eolColumn: Premier Support
 eoesColumn: Extended Support
 
 identifiers:
--   cpe: cpe:/a:oracle:jdk
--   cpe: cpe:2.3:a:oracle:jdk
+  - cpe: cpe:/a:oracle:jdk
+  - cpe: cpe:2.3:a:oracle:jdk
+  - cpe: cpe:/a:oracle:jre
+  - cpe: cpe:2.3:a:oracle:jre
+  - cpe: cpe:/a:oracle:java_se
+  - cpe: cpe:2.3:a:oracle:java_se
 
 auto:
   methods:
-  -   custom: oracle-jdk
-  -   release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-      selector: "table"
+    - oracle-jdk: https://www.java.com/releases/
+    - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+      render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
       fields:
         releaseCycle:
@@ -35,10 +38,9 @@ auto:
         eoes:
           column: "Extended Support Until"
           regex: '^(?P<value>\w+ \d+).*'
-  # Fix the release date, as only month-year dates are provided in the previous table.
-  -   release_table: https://www.java.com/releases/
+    # Fix the release date, as only month-year dates are provided in the previous table.
+    - release_table: https://www.java.com/releases/
       render_javascript: true
-      render_javascript_wait_until: networkidle
       selector: "table.releaselist"
       header_selector: "tbody#released tr:nth-of-type(3)"
       rows_selector: "tbody#released tr"
@@ -52,119 +54,128 @@ auto:
 # LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
 # for non-LTS, eol(x) = releaseDate(x+1).
 releases:
--   releaseCycle: "24"
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-16
+    eol: 2030-09-30
+    eoes: 2033-09-30
+    latest: "25.0.1"
+    latestReleaseDate: 2025-10-21
+    link: https://www.oracle.com/java/technologies/javase/25all-relnotes.html
+
+  - releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-16 # attempted date (3rd Tuesday of the month)
-    latest: "24.0.0"
-    latestReleaseDate: 2025-03-18
+    eol: 2025-09-16
+    latest: "24.0.2"
+    latestReleaseDate: 2025-07-15
     link: https://www.oracle.com/java/technologies/javase/24all-relnotes.html
 
--   releaseCycle: "23"
+  - releaseCycle: "23"
     releaseDate: 2024-09-17
     eol: 2025-03-18
     latest: "23.0.2"
     latestReleaseDate: 2025-01-21
     link: https://www.oracle.com/java/technologies/javase/23all-relnotes.html
 
--   releaseCycle: "22"
+  - releaseCycle: "22"
     releaseDate: 2024-03-19
     eol: 2024-09-17
     latest: "22.0.2"
     latestReleaseDate: 2024-07-16
 
--   releaseCycle: "21"
+  - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
     eoes: 2031-09-30
-    latest: "21.0.6"
-    latestReleaseDate: 2025-01-21
+    latest: "21.0.9"
+    latestReleaseDate: 2025-10-21
 
--   releaseCycle: "20"
+  - releaseCycle: "20"
     releaseDate: 2023-03-21
     eol: 2023-09-19
     latest: "20.0.2"
     latestReleaseDate: 2023-07-18
 
--   releaseCycle: "19"
+  - releaseCycle: "19"
     releaseDate: 2022-09-20
     eol: 2023-03-21
     latest: "19.0.2"
     latestReleaseDate: 2023-01-17
 
--   releaseCycle: "18"
+  - releaseCycle: "18"
     releaseDate: 2022-03-22
     eol: 2022-09-20
     latest: "18.0.2.1"
     latestReleaseDate: 2022-08-18
 
--   releaseCycle: "17"
+  - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2026-09-30
     eoes: 2029-09-30
-    latest: "17.0.14"
-    latestReleaseDate: 2025-01-21
+    latest: "17.0.17"
+    latestReleaseDate: 2025-10-21
 
--   releaseCycle: "16"
+  - releaseCycle: "16"
     releaseDate: 2021-03-16
     eol: 2021-09-14
     latest: "16.0.2"
     latestReleaseDate: 2021-07-20
 
--   releaseCycle: "15"
+  - releaseCycle: "15"
     releaseDate: 2020-09-15
     eol: 2021-03-16
     latest: "15.0.2"
     latestReleaseDate: 2021-01-19
 
--   releaseCycle: "14"
+  - releaseCycle: "14"
     releaseDate: 2020-03-17
     eol: 2020-09-16
     latest: "14.0.2"
     latestReleaseDate: 2020-07-14
 
--   releaseCycle: "13"
+  - releaseCycle: "13"
     releaseDate: 2019-09-17
     eol: 2020-03-17
     latest: "13.0.2"
     latestReleaseDate: 2020-01-14
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2019-03-19
     eol: 2019-09-17
     latest: "12.0.2"
     latestReleaseDate: 2019-07-16
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     lts: true
     releaseDate: 2018-09-25
     eol: 2023-09-30
     eoes: 2032-01-31
-    latest: "11.0.26"
-    latestReleaseDate: 2025-01-21
+    latest: "11.0.29"
+    latestReleaseDate: 2025-10-21
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2018-03-20
     eol: 2018-09-25
     latest: "10.0.2"
     latestReleaseDate: 2018-07-17
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2017-09-21
     eol: 2018-03-20
     latest: "9.0.4"
     latestReleaseDate: 2018-01-16
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     lts: true
     releaseDate: 2014-03-18
     eol: 2022-03-31
     eoes: 2030-12-31
-    latest: "8u441"
-    latestReleaseDate: 2025-01-21
+    latest: "8u471"
+    latestReleaseDate: 2025-10-21
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     lts: true
     releaseDate: 2011-07-11
     eol: 2019-07-31
@@ -173,14 +184,14 @@ releases:
     latest: "7u351"
     latestReleaseDate: 2022-07-19
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2006-12-12
     eol: 2018-12-31
     link: https://www.oracle.com/java/technologies/javase/6u211-relnotes.html
     latest: "6u211"
     latestReleaseDate: 2018-10-16
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2004-09-30
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     eol: 2009-10-30
@@ -188,7 +199,7 @@ releases:
     latest: "5.0u85"
     latestReleaseDate: 2015-04-14
 
--   releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     releaseDate: 2002-02-13
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     eol: 2008-10-30
@@ -196,7 +207,7 @@ releases:
     latest: "1.4.2_42"
     latestReleaseDate: 2013-02-19
 
--   releaseCycle: "1.3"
+  - releaseCycle: "1.3"
     releaseDate: 2000-05-08
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     eol: 2006-03-31
@@ -204,7 +215,7 @@ releases:
     latest: "1.3.1_32"
     latestReleaseDate: 2011-10-18
 
--   releaseCycle: "1.2"
+  - releaseCycle: "1.2"
     releaseDate: 1998-12-04
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     eol: 2003-11-30
@@ -212,14 +223,14 @@ releases:
     latest: "1.2.2_18"
     latestReleaseDate: 2007-01-12
 
--   releaseCycle: "1.1"
+  - releaseCycle: "1.1"
     releaseDate: 1997-02-18
     eol: 2002-10-09
     link: null
     latest: "1.1.8_010"
     latestReleaseDate: 2002-10-09
 
--   releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     releaseDate: 1996-01-23
     eol: 1996-05-07
     link: null
@@ -249,12 +260,13 @@ Oracle JDK is free of charge for development and testing, but [may not be for pr
 on the release](https://www.oracle.com/java/technologies/javase/jdk-faqs.html). In 2021, Oracle
 announced that [Oracle JDK 17 and later will be free for production](https://blogs.oracle.com/java/post/free-java-license),
 but you should be cautious [as the situation is not that simple](https://bell-sw.com/announcements/2022/02/24/java-licensing-changes-in-2021/).
-For example support for LTS releases [is limited to a year after the next LTS release](https://www.oracle.com/java/technologies/downloads/).
+For example, support for LTS releases [is limited to a year after the next LTS release](https://www.oracle.com/java/technologies/downloads/).
 
 Oracle JDK is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#oracle-java-se-development-kit-jdk).
 
 {: .warning }
+
 > This page also lists deprecated releases 1.0 to 6 of the JDK for information purposes.
 > Those versions were released under the Sun Microsystems umbrella, before
 > [its acquisition by Oracle in 2010](https://wikipedia.org/wiki/Sun_Microsystems).

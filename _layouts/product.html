@@ -30,9 +30,9 @@ layout: default
 {% endif %}
 
 {%- capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
-{%- assign customColumnsAfterRelease = page.customColumns | where: 'position', 'after-release-column' %}
-{%- assign customColumnsBeforeLatest = page.customColumns | where: 'position', 'before-latest-column' %}
-{%- assign customColumnsAfterLatest = page.customColumns | where: 'position', 'after-latest-column' %}
+{%- assign customColumnsAfterRelease = page.customFields | where: 'display', 'after-release-column' %}
+{%- assign customColumnsBeforeLatest = page.customFields | where: 'display', 'before-latest-column' %}
+{%- assign customColumnsAfterLatest = page.customFields | where: 'display', 'after-latest-column' %}
 
 <table class="lifecycle">
   <thead>
@@ -45,7 +45,7 @@ layout: default
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eoesColumn %}<th>{{ page.eoesColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsBeforeLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
-      {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
+      {% if page.latestColumn %}<th>{{ page.latestColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsAfterLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
     </tr>
   </thead>
@@ -55,10 +55,10 @@ layout: default
 {%- if r.can_be_hidden %}{% assign releaseClasses = 'release can-be-hidden' %}{% endif %}
   <tr class="{{ releaseClasses }}">
     {%- assign cycleColumnClass = '' %}
-    {%- if r.days_toward_eol < 0 %}{% assign cycleColumnClass = 'txt-linethrough' %}{% endif %}
+    {%- if r.is_eol %}{% assign cycleColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ cycleColumnClass }}">
       {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-      {% if page.releaseColumn == false and r.link  %}
+      {% if page.latestColumn == false and r.link  %}
         <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
       {% else %}
         {{ r.label }}
@@ -75,8 +75,8 @@ layout: default
 
     {% if page.discontinuedColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.days_toward_discontinued < page.discontinuedWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.days_toward_discontinued < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.is_almost_discontinued %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.is_discontinued %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
     {% if r.discontinued_from %}
       {{ r.discontinued_from | timeago }} <div>({{ r.discontinued_from | date_to_string }})</div>
@@ -88,8 +88,8 @@ layout: default
 
     {% if page.eoasColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.days_toward_eoas < page.eoasWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.days_toward_eoas < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.is_almost_eoas %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.is_eoas %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
     {% if r.eoas_from %}
       {% if r.is_eoas %}Ended{% else %}Ends{% endif %}
@@ -102,8 +102,8 @@ layout: default
 
     {% if page.eolColumn != false %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.days_toward_eol < page.eolWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.days_toward_eol < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.is_almost_eol %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.is_eol %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
       {% if r.eol_from %}
         {% if r.is_eol %}Ended{% else %}Ends{% endif %}
@@ -116,8 +116,8 @@ layout: default
 
     {% if page.eoesColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.days_toward_eoes < page.eoesWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.days_toward_eoes < 0 or r.eoes == true %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.is_almost_eoes != null and r.is_almost_eoes %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.is_eoes != null and r.is_eoes %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     {%- if r.eoes == null %}{% assign colorClass = 'bg-grey-lt-100' %}{% endif %}
     <td class="{{ colorClass }}">
       {% if r.eoes_from %}
@@ -133,10 +133,10 @@ layout: default
     {% include custom-column-td.html release=r column=column %}
     {%- endfor %}
 
-    {% if page.releaseColumn != false %}
-    {%- assign releaseColumnClass = '' %}
-    {%- if r.days_toward_eol < 0 %}{% assign releaseColumnClass = 'txt-linethrough' %}{% endif %}
-    <td class="{{ releaseColumnClass }}">
+    {% if page.latestColumn != false %}
+    {%- assign latestColumnClass = '' %}
+    {%- if r.is_eol %}{% assign latestColumnClass = 'txt-linethrough' %}{% endif %}
+    <td class="{{ latestColumnClass }}">
       {% if r.link %}
         <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
       {% else %}
@@ -147,7 +147,7 @@ layout: default
     {% endif %}
 
     {%- for column in customColumnsAfterLatest %}
-    {% include custom-column-td.html release=r column=column cssClasses=releaseColumnClass %}
+    {% include custom-column-td.html release=r column=column cssClasses=latestColumnClass %}
     {%- endfor %}
   </tr>
 {% endfor %}
@@ -172,7 +172,7 @@ layout: default
 <p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>.</p>
 {% endif %}
 
-{% if page.releaseColumn %}
+{% if page.latestColumn %}
 {% unless page.tags contains "discontinued" %}
 <p>You should be running one of the supported release numbers listed above in the rightmost column.</p>
 {% endunless %}
@@ -200,7 +200,7 @@ layout: default
 </p>
 
 <p>
-  A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>.
-  See the <a href="/docs/api/">API Documentation</a> for more information.
+  A JSON version of this page is available at <a href="/api/v1/products{{page.permalink}}/">/api/v1/products{{page.permalink}}/</a>.
+  See the <a href="/docs/api/v1/">API Documentation</a> for more information.
   You can subscribe to the iCalendar feed at <a href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics">/calendar{{page.permalink}}.ics</a>.
 </p>

@@ -1,24 +1,34 @@
 ---
 title: Fairphone
+addedAt: 2023-02-02
 category: device
 tags: mobile-phone
 iconSlug: fairphone
 permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
-releaseColumn: false
+latestColumn: false
 eoasColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates
-customColumns:
--   property: supportedAndroidVersions
-    position: after-release-column
+
+customFields:
+  - name: supportedAndroidVersions
+    display: after-release-column
     label: Supported Android
     description: Supported Android version range
     link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS
 
 # Supported android versions can be found on https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS.
 releases:
--   releaseCycle: "5"
+  - releaseCycle: "6"
+    releaseLabel: "Fairphone 6"
+    supportedAndroidVersions: "15" # https://support.fairphone.com/hc/en-us/articles/24463713641234-The-Fairphone-Gen-6-Release-Notes
+    releaseDate: 2025-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    discontinued: false
+    eoas: false
+    eol: 2033-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+  - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
     supportedAndroidVersions: "13 - 14" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
     releaseDate: 2023-09-14
@@ -27,7 +37,7 @@ releases:
     eol: 2031-09-14 # according to https://www.gsmarena.com/fairphone_5_goes_official_with_5_years_warranty_up_to_10_years_of_software_support-news-59724.php
     link: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
     supportedAndroidVersions: 11 - 13
     releaseDate: 2021-09-30
@@ -36,7 +46,7 @@ releases:
     eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/4405858220945
 
--   releaseCycle: "3+"
+  - releaseCycle: "3+"
     releaseLabel: "Fairphone 3+"
     supportedAndroidVersions: 10 - 13
     releaseDate: 2020-09-30
@@ -45,7 +55,7 @@ releases:
     eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseLabel: "Fairphone 3"
     supportedAndroidVersions: 10 - 13
     releaseDate: 2019-09-30
@@ -54,7 +64,7 @@ releases:
     eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseLabel: "Fairphone 2"
     supportedAndroidVersions: 5 - 10
     releaseDate: 2015-12-21
@@ -65,7 +75,7 @@ releases:
     eol: 2023-03-07
     link: https://support.fairphone.com/hc/articles/360019515018
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseLabel: "Fairphone 1"
     supportedAndroidVersions: "4.2" # https://support.fairphone.com/hc/articles/6217522827281-Fairphone-1-FAQ
     releaseDate: 2013-12-01
@@ -73,7 +83,6 @@ releases:
     eoas: true
     eol: 2017-07-13
     link: https://support.fairphone.com/hc/articles/6217522827281
-
 ---
 
 > Fairphone is a line of smartphones that are designed with the goal of having a lower environmental

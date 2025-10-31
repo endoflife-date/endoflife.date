@@ -1,5 +1,6 @@
 ---
 title: Logstash
+addedAt: 2022-12-20
 category: server-app
 tags: elastic
 iconSlug: logstash
@@ -9,32 +10,65 @@ changelogTemplate: "https://www.elastic.co/guide/en/logstash/{{'__LATEST__'|spli
 eolColumn: Support
 
 identifiers:
--   repology: logstash
--   cpe: cpe:/a:elastic:logstash
--   cpe: cpe:2.3:a:elastic:logstash
+  - repology: logstash
+  - cpe: cpe:/a:elastic:logstash
+  - cpe: cpe:2.3:a:elastic:logstash
 
 auto:
   methods:
-  -   git: https://github.com/elastic/logstash.git
+    - git: https://github.com/elastic/logstash.git
 
+# For EOL, see https://www.elastic.co/support/eol
 releases:
--   releaseCycle: "8"
-    eol: false # later of 2024-08-10 or 18 months after the release date of 9.0
-    latest: "8.17.4"
-    latestReleaseDate: 2025-03-19
-    releaseDate: 2022-02-10
+  - releaseCycle: "9.2"
+    releaseDate: 2025-10-21
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.2.0"
+    latestReleaseDate: 2025-10-14
+    link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
 
--   releaseCycle: "7"
-    eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.28"
-    latestReleaseDate: 2025-02-14
+  - releaseCycle: "9.1"
+    releaseDate: 2025-07-22
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.1.6"
+    latestReleaseDate: 2025-10-21
+    link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
+
+  - releaseCycle: "8.19"
+    releaseDate: 2025-07-14
+    eol: 2027-07-15
+    latest: "8.19.6"
+    latestReleaseDate: 2025-10-21
+
+  - releaseCycle: "8.18"
+    releaseDate: 2025-04-09
+    eol: false # Until 9.2 is released
+    latest: "8.18.8"
+    latestReleaseDate: 2025-09-30
+
+  - releaseCycle: "9.0"
+    releaseDate: 2025-03-17
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.0.8"
+    latestReleaseDate: 2025-09-30
+
+  - releaseCycle: "8.17"
+    releaseDate: 2024-12-04
+    eol: false # Supposedly until 8.19 released, but they've released twice since
+    latest: "8.17.10"
+    latestReleaseDate: 2025-08-06
+
+  - releaseCycle: "7"
     releaseDate: 2019-04-05
+    eol: 2026-01-15
+    latest: "7.17.29"
+    latestReleaseDate: 2025-04-10
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
+    releaseDate: 2017-11-08
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-    releaseDate: 2017-11-08
 
 ---
 
@@ -45,11 +79,16 @@ Logstash is part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), 
 [ELK Stack](https://www.elastic.co/what-is/elk-stack). It shares the same support policy as the
 other products in the Elastic Stack (Elasticsearch, Kibana, Beats...).
 
-Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
-maintenance for each major release series for the longest of 30 months after the GA date of the
-major release or 18 months after the GA date of the subsequent major release.
+Elastic Stack product releases follow [Semantic Versioning](https://semver.org/).
+Elastic provides maintenance for each major release series for the longest of 30 months after the GA date of the major release
+or 18 months after the GA date of the following major release.
+For example, if version 1.0 was released on 10-Apr-2019 and version 2.0 was released on 10-Feb-2022.
 
-End of life dates for Logstash can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
+- 30 months from 1.0 GA date is 10-Oct-2021
+- 18 months from 2.0 GA date is 10-Aug-2023
+- 1.x maintenance would end on 10-Aug-2023
+
+End-of-life dates for Logstash can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
 
 *[GA]: General Availability

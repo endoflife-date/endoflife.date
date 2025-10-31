@@ -3,7 +3,7 @@ layout: page
 nav_exclude: true
 search_exclude: true
 title: Home
-description: Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
+description: Check end-of-life, support schedule, and release timelines for more than 380+ products at one place.
 # This is the content for the website homepage (https://endoflife.date/)
 ---
 
@@ -11,21 +11,30 @@ End-of-life (EOL) and support information is [often hard to track, or very badly
 endoflife.date documents EOL dates and support lifecycles for various products.
 
 endoflife.date aggregates data from various sources and presents it in an understandable and
-succinct manner. It also makes the data available using an [easily accessible API](https://endoflife.date/docs/api)
+succinct manner. It also makes the data available using an [easily accessible API](/docs/api/v1/)
 and has iCalendar support.
 
 endoflife.date currently tracks {{ site.pages | where: "layout", "product" | size }} products.
 Here are some of our most popular pages:
 
-Programming           | [Python][python] | [Ruby][ruby] | [Java][java] | [PHP][php]
-Devices               | [iPhone][iphone] | [Android][android] | [Google Pixel][pixel] | [Nokia][nokia]
-Databases             | [MongoDB][mongodb] | [PostgreSQL][postgresql] | [Redis][redis] | [MySQL][mysql]
-Operating Systems     | [Windows][windows] | [Windows Server][windows-server] | [macOS][macos] | [FortiOS][fortios]
-Frameworks            | [Angular][angular] | [Django][django] | [Ruby on Rails][rails] | [.NET][net]
-Desktop Applications  | [Firefox][firefox] | [Internet Explorer][ie] | [Godot][godot] | [Unity][unity]
-Server Applications   | [Nginx][nginx] | [Kubernetes][k8s] | [Tomcat][tomcat] | [HAProxy][haproxy]
-Cloud Services        | [Amazon Elastic Kubernetes Service][eks] | [Google Kubernetes Engine][gke] | [Azure Kubernetes Service][aks]
-Standards             | [PCI-DSS][pci-dss]
+| Programming | [Python](/python) | [Java](/tags/java-distribution) | [Node.js](/nodejs) | [PHP](/php) |
+| Devices | [iPhone](/iphone) | [iPad](/ipad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
+| Databases | [MongoDB](/mongodb) | [PostgreSQL](/postgresql) | [Redis](/redis) | [MySQL](/mysql) |
+| Operating Systems | [Windows](/windows) | [Android](/android) | [macOS](/macos) | [Linux](/tags/linux-distribution) |
+| Frameworks | [Angular](/angular) | [Django](/django) | [Ruby on Rails](/rails) | [.NET](/dotnet) |
+| Desktop Applications | [Firefox](/firefox) | [Internet Explorer](/internet-explorer) | [Godot](/godot) | [Unity](/unity) |
+| Server Applications | [Nginx](/nginx) | [Kubernetes](/kubernetes) | [Tomcat](/tomcat) | [HAProxy](/haproxy) |
+| Cloud Services | [Amazon Elastic Kubernetes Service](/amazon-eks) | [Google Kubernetes Engine](/google-kubernetes-engine) | [Azure Kubernetes Service](/azure-kubernetes-service) | [Alibaba ACK](/alibaba-ack) |
+| Standards | [PCI-DSS](/pci-dss) | [TLS](/tls) |
+
+## Last added products
+
+<ul>
+{% assign products = site.pages | where: "layout", "product" | sort: "addedAt" | reverse %}
+{% for product in products limit:5 %}
+<li><a href="{{ product.url }}">{{ product.title }}</a> ({{ product.addedAt | date_to_long_string }})</li>
+{% endfor %}
+</ul>
 
 ## Contributing
 
@@ -41,7 +50,7 @@ If you maintain release information for a product (end-of-life dates or support 
 also have a [set of recommendations](/recommendations) along with a checklist on some best practices
 for publishing this information.
 
-And do not hesitate to [play with our API](https://endoflife.date/docs/api). Here are a few awesome
+And do not hesitate to [play with our API](/docs/api/v1/). Here are a few awesome
 tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianblue),
 [end_of_life](https://github.com/MatheusRich/end_of_life), and
 [cicada](https://github.com/mcandre/cicada). Find more on
@@ -57,39 +66,3 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 ## Sponsors
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
-[![Sponsored under Datadog OSS Plan](assets/datadog-logo.png)](https://datadog.com)
-
-
-[python]: /python
-[nodejs]: /nodejs
-[java]: /java
-[php]: /php
-[iphone]: /iphone
-[android]: /android
-[pixel]: /pixel
-[nokia]: /nokia
-[mongodb]: /mongodb
-[postgresql]: /postgresql
-[redis]: /redis
-[mysql]: /mysql
-[windows]: /windows
-[windows-server]: /windows-server
-[macos]: /macos
-[fortios]: /fortios
-[angular]: /angular
-[django]: /django
-[ruby]: /ruby
-[net]: /dotnet
-[firefox]: /firefox
-[ie]: /internet-explorer
-[godot]: /godot
-[unity]: /unity
-[nginx]: /nginx
-[k8s]: /k8s
-[tomcat]: /tomcat
-[haproxy]: /haproxy
-[rails]: /rails
-[eks]: /eks
-[gke]: /gke
-[aks]: /azure-kubernetes-service
-[pci-dss]: /pci-dss

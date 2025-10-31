@@ -10,17 +10,17 @@
 
 require 'jekyll'
 require 'open-uri'
-require_relative 'identifier-to-url'
+require_relative 'end-of-life'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
-  VALID_CATEGORIES = %w[app database device framework lang library os server-app service standard]
-  VALID_CUSTOM_COLUMN_POSITIONS = %w[after-release-column before-latest-column after-latest-column]
+  VALID_CUSTOM_FIELD_DISPLAY = %w[none api-only after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
+  SUPPRESSED_BECAUSE_402 = 'may trigger a 402 Payment Required'
   SUPPRESSED_BECAUSE_403 = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_404 = 'may trigger a 404 Not Found'
   SUPPRESSED_BECAUSE_502 = 'may return a 502 Bad Gateway'
@@ -34,6 +34,8 @@ module EndOfLifeHooks
     'https://access.redhat.com/': SUPPRESSED_BECAUSE_403,
     'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://apex.oracle.com/sod': SUPPRESSED_BECAUSE_403,
+    'https://arangodb.com': SUPPRESSED_BECAUSE_403,
+    'https://area51.phpbb.com': SUPPRESSED_BECAUSE_403,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
     'https://azure.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -42,22 +44,28 @@ module EndOfLifeHooks
     'https://codex.wordpress.org/Supported_Versions': SUPPRESSED_BECAUSE_EOF,
     'https://community.openvpn.net': SUPPRESSED_BECAUSE_403,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://developer.apple.com': SUPPRESSED_BECAUSE_502,
+    'https://developers.redhat.com': SUPPRESSED_BECAUSE_403,
     'https://docs.arangodb.com': SUPPRESSED_BECAUSE_404,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_403,
     'https://docs.couchdb.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://docs.gitlab.com': SUPPRESSED_BECAUSE_403,
+    'https://docs.joomla.org': SUPPRESSED_BECAUSE_403,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://docs.rocket.chat': SUPPRESSED_BECAUSE_403,
     'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
     'https://docs-cortex.paloaltonetworks.com/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_403,
+    'https://ffmpeg.org': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://forums.unrealircd.org': SUPPRESSED_BECAUSE_403,
     'https://github.com/angular/angular.js/blob': SUPPRESSED_BECAUSE_502,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_502,
+    'https://github.com/hashicorp/consul/blob/v1.18.2/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/hashicorp/consul/blob/v1.19.2/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
+    'https://github.com/hashicorp/consul/blob/v1.20.5/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
     'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://investors.broadcom.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://kernelnewbies.org': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -66,11 +74,15 @@ module EndOfLifeHooks
     'https://mxlinux.org': SUPPRESSED_BECAUSE_403,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
     'https://moodle.org/': SUPPRESSED_BECAUSE_403,
+    'https://nextcloud.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://nuxt.com/docs/community/roadmap': SUPPRESSED_BECAUSE_404,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://oxygenupdater.com/news/all/': SUPPRESSED_BECAUSE_403,
+    'https://phabricator.wikimedia.org/T259771': SUPPRESSED_BECAUSE_403,
     'https://privatebin.info/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://review.lineageos.org/': SUPPRESSED_BECAUSE_502,
+    'https://search.maven.org': SUPPRESSED_BECAUSE_403,
     'https://stackoverflow.com': SUPPRESSED_BECAUSE_403,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.citrix.com': SUPPRESSED_BECAUSE_403,
@@ -86,44 +98,48 @@ module EndOfLifeHooks
     'https://wiki.mozilla.org/Release_Management/Calendar': SUPPRESSED_BECAUSE_403,
     'https://wiki.ubuntu.com': SUPPRESSED_BECAUSE_503,
     'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
-    'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_403,
-    'https://www.amazon.com/Kindle8Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Kindle10Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/KindleScribeNotes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Oasis8Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Oasis9Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Oasis10Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Paperwhite7Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Paperwhite11Notes': SUPPRESSED_BECAUSE_503,
-    'https://www.amazon.com/Voyage7Notes': SUPPRESSED_BECAUSE_503,
+    'https://www.akeneo.com/akeneo-pim-community-edition/': SUPPRESSED_BECAUSE_403,
+    'https://www.amazon.com': SUPPRESSED_BECAUSE_403,
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.betaarchive.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.blender.org': SUPPRESSED_BECAUSE_403,
+    'https://www.centreon.com/centreon-editions/': SUPPRESSED_BECAUSE_503,
     'https://www.citrix.com/products/citrix-virtual-apps-and-desktops/': SUPPRESSED_BECAUSE_403,
     'https://www.clamav.net': SUPPRESSED_BECAUSE_403,
+    'https://www.couchbase.com': SUPPRESSED_BECAUSE_403,
     'https://www.devuan.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.drupal.org/': SUPPRESSED_BECAUSE_403,
     'https://www.erlang.org/doc/system_principles/misc.html': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'https://www.hpe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mageia.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mail-archive.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.microsoft.com/download/internet-explorer': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.microsoft.com/sql-server': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mulesoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://www.netapp.com/data-storage/ontap': SUPPRESSED_BECAUSE_403,
+    'https://www.npmjs.com': SUPPRESSED_BECAUSE_403,
+    'https://www.phpbb.com': SUPPRESSED_BECAUSE_403,
     'https://www.raspberrypi.com': SUPPRESSED_BECAUSE_403,
+    'https://www.redmine.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.reddit.com': SUPPRESSED_BECAUSE_403,
     'http://www.slackware.com': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'http://www.squid-cache.org/Versions/v6/squid-6.13-RELEASENOTES.html': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'https://www.techpowerup.com/gpuz/': SUPPRESSED_BECAUSE_403,
     'https://www.unrealircd.org/docs/UnrealIRCd_releases': SUPPRESSED_BECAUSE_403,
+    'https://www.virtualbox.org': SUPPRESSED_BECAUSE_402,
+    'https://www.zentyal.com': SUPPRESSED_BECAUSE_403,
   }
-  USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
-  URL_CHECK_OPEN_TIMEOUT = 3
+  USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0'
+  URL_CHECK_OPEN_TIMEOUT = 6
   URL_CHECK_TIMEOUT = 10
+  URL_CHECK_MAX_RETRY = 3
+
+
 
   # Global error count
   @@error_count = 0
@@ -142,7 +158,7 @@ module EndOfLifeHooks
 
     error_if = Validator.new('product', product, product.data)
     error_if.is_not_a_string('title')
-    error_if.is_not_in('category', EndOfLifeHooks::VALID_CATEGORIES)
+    error_if.is_not_in('category', CATEGORIES)
     error_if.does_not_match('tags', /^[a-z0-9\-]+( [a-z0-9\-]+)*$/) if product.data.has_key?('tags')
     error_if.does_not_match('permalink', /^\/[a-z0-9-]+$/)
     error_if.does_not_match('alternate_urls', /^\/[a-z0-9\-_]+$/)
@@ -153,59 +169,58 @@ module EndOfLifeHooks
     error_if.is_not_a_string('releaseLabel') if product.data.has_key?('releaseLabel')
     error_if.is_not_a_string('LTSLabel')
     error_if.is_not_a_boolean_nor_a_string('eolColumn')
-    error_if.is_not_a_number('eolWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('eoasColumn')
-    error_if.is_not_a_number('eoasWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('releaseColumn')
+    error_if.is_not_a_boolean_nor_a_string('latestColumn')
     error_if.is_not_a_boolean_nor_a_string('releaseDateColumn')
     error_if.is_not_a_boolean_nor_a_string('discontinuedColumn')
-    error_if.is_not_a_number('discontinuedWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('eoesColumn')
-    error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
-
-    product.data['identifiers'].each { |identifier|
-      error_if.is_not_an_identifier('identifiers', identifier)
-    }
+    error_if.undeclared_custom_field('releases')
+    error_if.custom_field_type_is_not_string('releases')
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
       error_if.is_not_an_array('methods')
     end
 
-    product.data['customColumns'].each { |column|
-      error_if = Validator.new('customColumns', product, column)
-      error_if.is_not_a_string('property')
-      error_if.is_not_in('position', EndOfLifeHooks::VALID_CUSTOM_COLUMN_POSITIONS)
+    product.data['customFields'].each { |column|
+      error_if = Validator.new('customFields', product, column)
+      error_if.is_not_a_string('name')
+      error_if.is_not_in('display', EndOfLifeHooks::VALID_CUSTOM_FIELD_DISPLAY)
       error_if.is_not_a_string('label')
       error_if.is_not_a_string('description') if column.has_key?('description')
       error_if.is_not_an_url('link') if column.has_key?('link')
     }
 
+    release_names = product.data['releases'].map { |release| release['releaseCycle'] }
+    release_name_duplicates = release_names.group_by { |name| name }.select { |_, count| count.size > 1 }.keys
+    error_if.not_true(release_name_duplicates.length == 0, 'releases', release_name_duplicates, 'Duplicate releases')
+
     product.data['releases'].each { |release|
       error_if = Validator.new('releases', product, release)
-      error_if.is_not_a_string('releaseCycle')
+      error_if.does_not_match('releaseCycle', /^[a-z0-9.\-+_]+$/)
       error_if.is_not_a_string('releaseLabel') if release.has_key?('releaseLabel')
       error_if.is_not_a_string('codename') if release.has_key?('codename')
-      error_if.is_not_a_date('releaseDate') if product.data['releaseDateColumn']
-      error_if.too_far_in_future('releaseDate') if product.data['releaseDateColumn']
+      error_if.is_not_a_date('releaseDate')
+      error_if.too_far_in_future('releaseDate')
       error_if.is_not_a_boolean_nor_a_date('eoas') if product.data['eoasColumn']
-      error_if.is_not_a_boolean_nor_a_date('eol') if product.data['eolColumn']
+      error_if.is_not_a_boolean_nor_a_date('eol')
       error_if.is_not_a_boolean_nor_a_date('discontinued') if product.data['discontinuedColumn']
       error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
-      error_if.is_not_a_string('latest') if product.data['releaseColumn']
-      error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
+      error_if.is_not_a_string('latest') if product.data['latestColumn']
+      error_if.is_not_a_date('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
+      error_if.too_far_in_future('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
-      error_if.is_not_before('releaseDate', 'eoas') if product.data['releaseDateColumn'] and product.data['eoasColumn']
-      error_if.is_not_before('releaseDate', 'eol') if product.data['releaseDateColumn'] and product.data['eolColumn']
-      error_if.is_not_before('releaseDate', 'eoes') if product.data['releaseDateColumn'] and product.data['eoesColumn']
-      error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn'] and product.data['eolColumn']
+      error_if.is_not_before('releaseDate', 'eoas') if product.data['eoasColumn']
+      error_if.is_not_before('releaseDate', 'eol')
+      error_if.is_not_before('releaseDate', 'eoes') if product.data['eoesColumn']
+      error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn']
       error_if.is_not_before('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
-      error_if.is_not_before('eol', 'eoes') if product.data['eolColumn'] and product.data['eoesColumn']
+      error_if.is_not_before('eol', 'eoes') if product.data['eoesColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
@@ -222,9 +237,14 @@ module EndOfLifeHooks
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
 
-      product.data['customColumns'].each { |column|
-        error_if = Validator.new('customColumns', product, column)
-        error_if.is_url_invalid('link') if column['link']
+      product.data['customFields'].each { |field|
+        error_if = Validator.new('customFields', product, field)
+        error_if.is_url_invalid('link') if field['link']
+      }
+
+      product.data['identifiers'].each { |identifier|
+        error_if = Validator.new('identifiers', product, identifier)
+        error_if.is_url_invalid('url') if identifier['url']
       }
 
       product.data['releases'].each { |release|
@@ -252,6 +272,12 @@ module EndOfLifeHooks
 
     def error_count
       @error_count
+    end
+
+    def not_true(condition, property, value, details)
+      unless condition
+        declare_error(property, value, details)
+      end
     end
 
     def is_not_an_array(property)
@@ -291,14 +317,14 @@ module EndOfLifeHooks
     def is_not_a_date(property)
       value = @data[property]
       unless value.respond_to?(:strftime)
-        declare_error(property, value, "expecting a value of type boolean or date, got #{value.class}")
+        declare_error(property, value, "expecting a value of type date, got #{value.class}")
       end
     end
 
     def too_far_in_future(property)
       value = @data[property]
-      if value.respond_to?(:strftime) and value > Date.today + 30
-        declare_error(property, value, "expecting a value in the next 30 days, got #{value}")
+      if value.respond_to?(:strftime) and value > Date.today + 7
+        declare_error(property, value, "expecting a value in the next 7 days, got #{value}")
       end
     end
 
@@ -332,13 +358,6 @@ module EndOfLifeHooks
       end
     end
 
-    # Real validation is delegated to IdentifierToUrl to avoid duplication
-    def is_not_an_identifier(property, hash)
-      IdentifierToUrl.new.render(hash)
-    rescue => e
-      declare_error(property, hash, e)
-    end
-
     def not_ordered_by_release_cycles(property)
       releases = @data[property]
 
@@ -360,7 +379,7 @@ module EndOfLifeHooks
     end
 
     def is_url_invalid(property)
-      # strip is necessary because changelogTemplate is sometime reformatted on two lines by latest.py
+      # strip is necessary because changelogTemplate is sometime reformatted on two lines by update-product-data.py
       url = @data[property].strip
       check_url(url)
     rescue => e
@@ -381,6 +400,40 @@ module EndOfLifeHooks
       end
     end
 
+    def undeclared_custom_field(property)
+      releases = @data[property]
+
+      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestReleaseDate link lts outOfOrder]
+      custom_fields = @product["customFields"].map { |column| column["name"] }
+
+      releases.each do |release|
+        release_cycle = release['releaseCycle']
+        release_fields = release.keys
+
+        undeclared_fields = release_fields - standard_fields - custom_fields
+        for field in undeclared_fields
+          declare_error(field, release_cycle, "undeclared field")
+        end
+      end
+    end
+
+    def custom_field_type_is_not_string(property)
+      releases = @data[property]
+
+      custom_fields = @product["customFields"].map { |column| column["name"] }
+      releases.each do |release|
+        release_cycle = release['releaseCycle']
+
+        for field in custom_fields
+          value = release[field]
+          # string values may be parsed as Date, but ultimately they are String
+          if value != nil and !value.kind_of?(String) and !value.kind_of?(Date)
+            declare_error(field, release_cycle, "expecting a value of type String or Date, got #{value.class}")
+          end
+        end
+      end
+    end
+
     def check_url(url)
       ignored_reason = is_ignored(url)
       if ignored_reason
@@ -388,10 +441,21 @@ module EndOfLifeHooks
         return
       end
 
-      Jekyll.logger.debug TOPIC, "Checking URL #{url}."
-      URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
-        if response.status[0].to_i >= 400
-          raise "response code is #{response.status}"
+      retries = 0
+      begin
+        Jekyll.logger.debug TOPIC, "Checking URL #{url}..."
+        URI.open(url, 'User-Agent' => USER_AGENT, :open_timeout => URL_CHECK_OPEN_TIMEOUT, :read_timeout => URL_CHECK_TIMEOUT) do |response|
+          Jekyll.logger.debug TOPIC, "URL #{url} successfully checked, response code is #{response.status[0]}"
+        end
+      rescue OpenURI::HTTPError => e
+        if e.io.status[0] == '429' && retries < URL_CHECK_MAX_RETRY
+          retries += 1
+          sleep_time = 2 ** retries
+          Jekyll.logger.warn TOPIC, "Got a 429 (Too Many Requests) for URL #{url}, retrying in #{sleep_time} seconds..."
+          sleep(sleep_time)
+          retry
+        else
+          raise e
         end
       end
     end
@@ -430,12 +494,20 @@ module EndOfLifeHooks
     def location
       if @data.kind_of?(Hash) and @data.has_key?('releaseCycle')
         "#{@product.name}#releases##{@data['releaseCycle']}"
-      elsif @data.kind_of?(Hash) and @data.has_key?('property')
-        "#{@product.name}#customColumn##{@data['property']}"
+      elsif @data.kind_of?(Hash) and @data.has_key?('name')
+        "#{@product.name}#customField##{@data['name']}"
       else
         @product.name
       end
     end
+  end
+end
+
+class TooManyRequestsError < StandardError
+  attr_reader :response
+  def initialize(response)
+    @response = response
+    super("response code is 429 (Too Many Requests)")
   end
 end
 

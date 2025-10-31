@@ -1,70 +1,86 @@
 ---
 title: OpenZFS
+addedAt: 2021-09-22
 category: app
 iconSlug: openzfs
 permalink: /openzfs
 alternate_urls:
--   /zfs
+  - /zfs
 versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
-eolColumn: Critical bug fixes
+eoasColumn: Active support
+eolColumn: LTS support
+
+customFields:
+  - name: supportedLinux
+    display: api-only
+    label: Linux
+    description: Supported Linux kernel versions
+  - name: supportedFreeBSD
+    display: api-only
+    label: FreeBSD
+    description: Supported FreeBSD versions
 
 identifiers:
--   repology: openzfs
--   cpe: cpe:/a:openzfs:openzfs
--   cpe: cpe:2.3:a:openzfs:openzfs
+  - repology: openzfs
+  - cpe: cpe:/a:openzfs:openzfs
+  - cpe: cpe:2.3:a:openzfs:openzfs
 
-# Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
   methods:
-  -   git: https://github.com/openzfs/zfs.git
-      regex: ^zfs-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+    - github_releases: openzfs/zfs
+      regex: ^zfs-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
-# non-LTS: eol(x) = releaseDate(x+1)
-# LTS: eol(x) = estimation: releaseDate(x) plus 2 years
-# supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions.
+# eoas(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
+# supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in patch versions.
 releases:
--   releaseCycle: "2.3"
-    supportedLinux: "4.18 - 6.12"
-    supportedFreeBSD: "13.3-RELEASE+"
-    releaseDate: 2025-01-13
-    eol: false # releaseDate(2.4)
-    latest: "2.3.1"
-    latestReleaseDate: 2025-03-10
+  - releaseCycle: "2.3"
+    releaseDate: 2024-10-17
+    eoas: false
+    eol: false
+    latest: "2.3.4"
+    latestReleaseDate: 2025-08-25
+    supportedLinux: "4.18 - 6.15"
+    supportedFreeBSD: "13.3+, 14.0+"
 
--   releaseCycle: "2.2"
-    supportedLinux: "4.18 - 6.12"
-    supportedFreeBSD: "13.0-RELEASE+"
-    releaseDate: 2023-10-12
-    eol: 2025-01-13 # releaseDate(2.3)
-    latest: "2.2.7"
-    latestReleaseDate: 2024-12-11
+  - releaseCycle: "2.2"
+    releaseDate: 2023-07-27
+    eoas: 2025-01-13
+    eol: false
+    latest: "2.2.8"
+    latestReleaseDate: 2025-06-12
+    supportedLinux: "4.18 - 6.15"
+    supportedFreeBSD: "13.3+, 14.0+"
 
--   releaseCycle: "2.1"
-    lts: true
-    supportedLinux: "3.10 - 6.7"
-    supportedFreeBSD: "12.2-RELEASE+"
-    releaseDate: 2021-07-02
-    eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
+  - releaseCycle: "2.1"
+    releaseDate: 2021-04-19
+    eoas: 2023-10-12
+    eol: 2025-01-13
     latest: "2.1.16"
-    latestReleaseDate: 2024-12-04
+    latestReleaseDate: 2024-12-06
+    supportedLinux: "3.10 - 6.7"
+    supportedFreeBSD: "12.2+"
 
--   releaseCycle: "2.0"
-    supportedLinux: "3.10 - 5.15"
-    supportedFreeBSD: "12.2-RELEASE+"
+  - releaseCycle: "2.0"
     releaseDate: 2020-11-30
+    eoas: 2021-07-02
     eol: 2021-12-23
     latest: "2.0.7"
     latestReleaseDate: 2021-12-23
+    supportedLinux: "3.10 - 5.15"
+    supportedFreeBSD: "12.2+"
 
--   releaseCycle: "0.8"
-    supportedLinux: "2.6.32 - 5.9"
-    supportedFreeBSD: "N/A"
+  - releaseCycle: "0.8"
     releaseDate: 2019-05-21
+    eoas: 2020-12-14
     eol: 2020-12-14
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
+    supportedLinux: "2.6.32 - 5.9"
+    supportedFreeBSD: "N/A"
+
 
 ---
 
@@ -77,28 +93,22 @@ releases:
 
 ## Release branches
 
-- **OpenZFS LTS** - A designated `MAJOR.MINOR` release with periodic `PATCH` releases that
-  incorporate important changes backported from newer OpenZFS releases. This branch is intended for
-  use by distributions which use an LTS, enterprise, or similarly managed kernel (RHEL, Ubuntu LTS,
-  Debian). Minor changes to support these distribution kernels will be applied as needed. New
-  kernel versions released after the OpenZFS LTS release are not supported unless there is not a
-  newer current release. LTS releases will receive patches for at least 2 years.
-- **OpenZFS current** - Tracks the newest `MAJOR.MINOR` release. This branch includes support for
-  the latest OpenZFS features and recently releases kernels. When a new `MINOR` release is tagged
-  the previous `MINOR` release will no longer be maintained (unless it is an LTS release). New
-  `MINOR` releases are planned to occur roughly annually.
+OpenZFS maintains two release branches corresponding to the latest two `MAJOR.MINOR` releases: _OpenZFS current_ and _OpenZFS LTS_.
 
-## Officially supported distributions:
+_OpenZFS current_ tracks the latest `MAJOR.MINOR` release.
+This branch receive active support for the latest OpenZFS features and recently releases kernels.
+
+_OpenZFS LTS_ tracks [the second latest](https://github.com/openzfs/zfs/issues/16945) `MAJOR.MINOR` release.
+This branch may get minor updates, but won't receive support for newer kernels or features.
+
+## Officially supported distributions
 
 - [Fedora](https://openzfs.github.io/openzfs-docs/Getting%20Started/Fedora/index.html)
 - [RHEL-based distributions](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
 - [FreeBSD](https://openzfs.github.io/openzfs-docs/Getting%20Started/FreeBSD.html)
 
-These distributions have repositories provided directly by the OpenZFS community, while other
-distributions likely will work, they are not frequently tested and may exhibit issues, especially
-Ubuntu due to their HWE kernel pulling in patches from newer kernels and still claiming the kernel
-is from an older branch. [Ubuntu is not supported by OpenZFS](https://github.com/openzfs/zfs/issues/10333),
-issues on Ubuntu should first be reported [to Ubuntu's bug tracker for ZFS](https://bugs.launchpad.net/ubuntu/+source/zfs-linux).
+These distributions have repositories provided directly by the OpenZFS community.
+While other distributions likely will work, [they are not frequently tested and may exhibit issues](https://github.com/openzfs/zfs/issues/10333).
 
 ## Supported kernels
 
@@ -112,6 +122,3 @@ kernels. Point releases are tagged as needed in order to support the stable kern
   fields="releaseCycle,supportedLinux,supportedFreeBSD"
   types="string,string,string"
   rows=collapsedCycles %}
-
-{: .note}
-> - For FreeBSD 12.2, the last supported version is 2.2.6

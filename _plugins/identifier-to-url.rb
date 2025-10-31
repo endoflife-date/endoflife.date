@@ -108,6 +108,10 @@ class IdentifierToUrl
     return "https://hackage.haskell.org/package/#{purl.name}"
   end
 
+  def _build_hex_url(purl)
+    return "https://hex.pm/packages/#{purl.name}"
+  end
+
   def _build_golang_url(purl)
     raise "Unsupported golang PURL #{purl}: no namespace specified" unless purl.namespace
     return "https://pkg.go.dev/#{purl.namespace}/#{purl.name}"
@@ -202,5 +206,41 @@ class IdentifierToUrl
 
   def _build_generic_url(purl)
     return nil # valid, but don't know how to generate this kind of URL
+  end
+
+  def _build_arch_url(purl)
+    return "https://archlinux.org/packages/?q=#{purl.name}"
+  end
+
+  def _build_gentoo_url(purl)
+    return "https://packages.gentoo.org/packages/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_freebsd_url(purl)
+    return "https://www.freshports.org/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_copr_url(purl)
+    return "https://copr.fedorainfracloud.org/coprs/#{purl.namespace}/#{purl.name}/"
+  end
+
+  def _build_nix_url(purl)
+    return "https://search.nixos.org/packages?&show=#{purl.name}"
+  end
+
+  def _build_termux_url(purl)
+    return "https://github.com/termux/termux-packages/tree/master/packages/#{purl.name}"
+  end
+
+  def _build_ansible_url(purl)
+    return "https://galaxy.ansible.com/ui/repo/published/#{purl.namespace}/#{purl.name}"
+  end
+
+  def _build_unikraft_url(purl)
+    return "https://github.com/unikraft/catalog/tree/main/library/#{purl.name}"
+  end
+
+  def _build_opnsense_url(purl)
+    return "https://github.com/opnsense/ports/tree/master/#{purl.namespace}/#{purl.name}"
   end
 end

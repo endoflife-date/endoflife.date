@@ -1,199 +1,246 @@
 ---
 title: Intel Processors
+addedAt: 2022-08-25
 category: device
 iconSlug: intel
 permalink: /intel-processors
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
+staleReleaseThresholdYears: 7
 
 releases:
--   releaseCycle: "Raptor Lake"
+  - releaseCycle: "arrow-lake"
+    releaseLabel: "Arrow Lake"
+    releaseDate: 2024-10-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/225837/products-formerly-arrow-lake.html
+
+  - releaseCycle: "lunar-lake"
+    releaseLabel: "Lunar Lake"
+    releaseDate: 2024-09-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html
+  
+  - releaseCycle: "meteor-lake"
+    releaseLabel: "Meteor Lake"
+    releaseDate: 2023-12-14
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html
+
+  - releaseCycle: "raptor-lake"
+    releaseLabel: "Raptor Lake"
     releaseDate: 2022-10-20
     discontinued: false
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/215599/products-formerly-raptor-lake.html
 
--   releaseCycle: "Alder Lake"
+  - releaseCycle: "alder-lake"
+    releaseLabel: "Alder Lake"
     releaseDate: 2021-11-04
     discontinued: false
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/147470/products-formerly-alder-lake.html
 
--   releaseCycle: "Rocket Lake"
+  - releaseCycle: "rocket-lake"
+    releaseLabel: "Rocket Lake"
     releaseDate: 2021-03-30
-    discontinued: false
+    discontinued: 2024-02-23 # https://www.tomshardware.com/news/intel-says-goodbye-to-rocket-lake-cpus
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/192985/products-formerly-rocket-lake.html
 
--   releaseCycle: "Jasper Lake"
+  - releaseCycle: "jasper-lake"
+    releaseLabel: "Jasper Lake"
     releaseDate: 2021-01-11
     discontinued: false
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/128823/products-formerly-jasper-lake.html
 
--   releaseCycle: "Elkhart Lake"
+  - releaseCycle: "elkhart-lake"
+    releaseLabel: "Elkhart Lake"
     releaseDate: 2020-09-23
     discontinued: false
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/128825/products-formerly-elkhart-lake.html
 
--   releaseCycle: "Tiger Lake"
+  - releaseCycle: "tiger-lake"
+    releaseLabel: "Tiger Lake"
     releaseDate: 2020-09-02
-    discontinued: false
+    discontinued: 2024-01-26 # https://www.tomshardware.com/news/intel-terminates-11th-gen-tiger-lake-cpus-500-series-mobile-chipsets
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/88759/products-formerly-tiger-lake.html
 
--   releaseCycle: "Lakefield"
+  - releaseCycle: "lakefield"
+    releaseLabel: "Lakefield"
     releaseDate: 2020-06-19
-    discontinued: true
-    eol: false
+    discontinued: 2021-07-07 # https://www.tomshardware.com/news/intel-retires-lakefield
+    eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/81657/products-formerly-lakefield.html
 
--   releaseCycle: "Ice Lake"
+  - releaseCycle: "ice-lake"
+    releaseLabel: "Ice Lake"
     releaseDate: 2019-09-01
     discontinued: false
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/74979/products-formerly-ice-lake.html
 
--   releaseCycle: "Comet Lake"
+  - releaseCycle: "comet-lake"
+    releaseLabel: "Comet Lake"
     releaseDate: 2019-08-21
-    discontinued: false
+    discontinued: 2022-09-30 # https://en.wikipedia.org/wiki/Comet_Lake
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/90354/products-formerly-comet-lake.html
 
--   releaseCycle: "Cannon Lake"
+  - releaseCycle: "cannon-lake"
+    releaseLabel: "Cannon Lake"
     releaseDate: 2018-05-01
     discontinued: 2020-02-28
     eol: 2021-09-30
     link: null
 
--   releaseCycle: "Gemini Lake"
+  - releaseCycle: "gemini-lake"
+    releaseLabel: "Gemini Lake"
     releaseDate: 2017-12-11
     discontinued: true
-    eol: false
+    eol: 2024-12-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/83915/products-formerly-gemini-lake.html
 
--   releaseCycle: "Coffee Lake"
+  - releaseCycle: "coffee-lake"
+    releaseLabel: "Coffee Lake"
     releaseDate: 2017-10-05
     discontinued: 2021-12-24
-    eol: false
+    eol: 2025-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/97787/products-formerly-coffee-lake.html
 
--   releaseCycle: "Apollo Lake"
+  - releaseCycle: "apollo-lake"
+    releaseLabel: "Apollo Lake"
     releaseDate: 2016-08-30
-    discontinued: false # TODO: This is likely incorrect, but I am assuming it is under production due to this CPU being launched semi recently and having its status say not discontinued: https://ark.intel.com/content/www/us/en/ark/products/195253/intel-pentium-processor-n4200e-2m-cache-up-to-2-50-ghz.html
+    discontinued: true
     eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/80644/products-formerly-apollo-lake.html
 
--   releaseCycle: "Kaby Lake"
+  - releaseCycle: "kaby-lake"
+    releaseLabel: "Kaby Lake"
     releaseDate: 2015-08-30
     discontinued: 2020-10-09
-    eol: false
+    eol: 2024-03-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/82879/products-formerly-kaby-lake.html
 
--   releaseCycle: "Skylake"
+  - releaseCycle: "skylake"
+    releaseLabel: "Skylake"
     releaseDate: 2015-08-05
     discontinued: 2019-03-04
     eol: 2022-09-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/37572/products-formerly-skylake.html
 
--   releaseCycle: "Braswell"
+  - releaseCycle: "braswell"
+    releaseLabel: "Braswell"
     releaseDate: 2015-03-01
     discontinued: true
     eol: 2022-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/66094/products-formerly-braswell.html
 
--   releaseCycle: "broadwell"
-    releaseLabel: Broadwell
+  - releaseCycle: "broadwell"
+    releaseLabel: "Broadwell"
     releaseDate: 2014-10-27
     discontinued: 2018-11-01
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/38530/products-formerly-broadwell.html
 
--   releaseCycle: "broadwell_xeon"
-    releaseLabel: Broadwell (Xeon E7v4/E7v4)
+  - releaseCycle: "broadwell-xeon"
+    releaseLabel: "Broadwell (Xeon E7v4/E7v4)"
     releaseDate: 2014-10-27
     discontinued: 2018-11-01
     eol: 2022-06-30
     link: null
 
--   releaseCycle: "Broadwell DE"
+  - releaseCycle: "broadwell-de"
+    releaseLabel: "Broadwell DE"
     releaseDate: 2014-10-27
     discontinued: 2018-11-01
     eol: 2022-12-31
     link: null
 
--   releaseCycle: "Devil's Canyon"
+  - releaseCycle: "devils-canyon"
+    releaseLabel: "Devil's Canyon"
     releaseDate: 2014-06-02
     discontinued: 2017-07-14
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/81246/products-formerly-devils-canyon.html
 
--   releaseCycle: "Bay Trail"
+  - releaseCycle: "bay-trail"
+    releaseLabel: "Bay Trail"
     releaseDate: 2013-09-11
     discontinued: true
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/55844/products-formerly-bay-trail.html
 
--   releaseCycle: "Avoton"
+  - releaseCycle: "avoton"
+    releaseLabel: "Avoton"
     releaseDate: 2013-07-01 # Not accurate, date of start of quarter 3 of 2013
     discontinued: true
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/54859/products-formerly-avoton.html
 
--   releaseCycle: haswell
+  - releaseCycle: "haswell"
     releaseLabel: "Haswell"
     releaseDate: 2013-06-04
     discontinued: true
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/42174/products-formerly-haswell.html
 
--   releaseCycle: haswell_xeon
-    releaseLabel: Haswell (Xeon E5v3/E7v3)
+  - releaseCycle: "haswell-xeon"
+    releaseLabel: "Haswell (Xeon E5v3/E7v3)"
     releaseDate: 2013-06-04
     discontinued: true
     eol: 2021-12-31
     link: null
 
--   releaseCycle: "Crystal Well"
+  - releaseCycle: "crystal-well"
+    releaseLabel: "Crystal Well"
     releaseDate: 2013-06-02
     discontinued: true
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/51802/products-formerly-crystal-well.html
 
--   releaseCycle: "Briarwood"
+  - releaseCycle: "briarwood"
+    releaseLabel: "Briarwood"
     releaseDate: 2013-04-01 # Not accurate, date of start of quarter 3 of 2013
     discontinued: true
     eol: 2021-06-30
     link: null
 
--   releaseCycle: "Cherry Trail"
+  - releaseCycle: "cherry-trail"
+    releaseLabel: "Cherry Trail"
     releaseDate: 2013-03-02
     discontinued: true
     eol: 2022-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/46629/products-formerly-cherry-trail.html
 
--   releaseCycle: "Centerton"
+  - releaseCycle: "centerton"
+    releaseLabel: "Centerton"
     releaseDate: 2012-12-11
     discontinued: true
     eol: 2021-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/60105/products-formerly-centerton.html
 
--   releaseCycle: "Ivy Bridge"
+  - releaseCycle: "ivy-bridge"
+    releaseLabel: "Ivy Bridge"
     releaseDate: 2012-04-29
     discontinued: 2015-06-05
     eol: 2019-12-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/29902/products-formerly-ivy-bridge.html
 
--   releaseCycle: ivy_bridge_xeon
-    releaseLabel: Ivy Bridge (Xeon E5v2/E7v2)
+  - releaseCycle: "ivy-bridge-xeon"
+    releaseLabel: "Ivy Bridge (Xeon E5v2/E7v2)"
     releaseDate: 2012-04-29
     discontinued: 2015-06-05
     eol: 2020-06-30
     link: null
-
 ---
 
 > Intel designs CPUs for the consumer and commercial space that are named after lakes, which are
@@ -203,18 +250,21 @@ releases:
 
 - Intel Compute Support can be found [here](https://github.com/intel/compute-runtime#supported-platforms),
   with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases).
-- While a CPU may be under security support it may not be supported on a specific Windows release,
-  more information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
-- A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported.
+- While a CPU may be under security support, it may not be supported on a specific Windows release.
+  More information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
+- A CPU's iGPU may not be supported by the latest GPU driver branch even if the CPU is still supported.
 
 ## Determining product classification
 
 One can run the following command depending on your operating system to see which product series
 your CPU belongs on:
 
-- Windows: `Get-CimInstance Win32_Processor` on Powershell
+- Windows: `Get-CimInstance Win32_Processor` on PowerShell
 - Linux: `cat /proc/cpuinfo`
 - macOS: `sysctl -n machdep.cpu.brand_string`
 - FreeBSD/OpenBSD: `sysctl -n hw.model`
 
-Then check product classification on https://ark.intel.com/.
+Then check product classification on <https://ark.intel.com/>.
+
+Intel announces notifications via [Product Change Notifications](https://www.intel.com/content/www/us/en/collections/content-type/pcns.html).
+An third-party [PSN RSS/API Feed](https://intel.pcn.captnemo.in/) is available to subscribe to the same.

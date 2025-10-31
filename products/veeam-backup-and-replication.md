@@ -1,33 +1,41 @@
 ---
 title: Veeam Backup & Replication
+addedAt: 2023-10-04
 category: app
 tags: veeam
 iconSlug: veeam
 permalink: /veeam-backup-and-replication
 alternate_urls:
--   /veeam-backup
+  - /veeam-backup
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
-releaseColumn: true
 eolColumn: End of support
 
 auto:
   methods:
-  -   veeam: https://www.veeam.com/kb2680
+    - veeam: https://www.veeam.com/kb2680
 
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
 # Latest versions can be found on https://www.veeam.com/kb2680.
 releases:
--   releaseCycle: "12"
-    releaseDate: 2023-01-30
-    eoas: false # will be 13.0 GA date
-    eol: 2026-02-01
-    link: "https://www.veeam.com/kb4420"
-    latest: "12.3.1.1139"
-    latestReleaseDate: 2025-03-19
+  - releaseCycle: "13"
+    releaseDate: 2025-09-03
+    eoas: false # releaseDate(14)
+    eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
+    link: https://www.veeam.com/kb4738
+    latest: "13.0.0.4967"
+    latestReleaseDate: 2025-09-03
 
--   releaseCycle: "11"
+  - releaseCycle: "12"
+    releaseDate: 2023-01-30
+    eoas: 2025-09-03
+    eol: 2027-02-01
+    link: "https://www.veeam.com/kb4420"
+    latest: "12.3.2.4165"
+    latestReleaseDate: 2025-10-14
+
+  - releaseCycle: "11"
     releaseDate: 2021-02-11
     eoas: 2023-02-01
     eol: 2024-02-01
@@ -35,7 +43,7 @@ releases:
     latest: "11.0.1.1261-P20240304"
     latestReleaseDate: 2024-03-07
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2020-02-04
     eoas: 2021-02-01
     eol: 2023-02-01
@@ -43,7 +51,7 @@ releases:
     latest: "10.0.1.4854-P20220304"
     latestReleaseDate: 2022-03-12
 
--   releaseCycle: "9.5"
+  - releaseCycle: "9.5"
     releaseDate: 2016-11-16
     eoas: 2020-02-01
     eol: 2022-01-01 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
@@ -51,7 +59,7 @@ releases:
     latest: "9.5.4.2866"
     latestReleaseDate: 2019-07-15
 
--   releaseCycle: "9.0"
+  - releaseCycle: "9.0"
     releaseDate: 2016-01-12
     eoas: true
     eol: true
@@ -59,7 +67,7 @@ releases:
     latest: "9.0.0.1715"
     latestReleaseDate: 2016-08-05
 
--   releaseCycle: "8.0"
+  - releaseCycle: "8.0"
     releaseDate: 2014-11-06
     eoas: true
     eol: true
@@ -67,7 +75,7 @@ releases:
     latest: "8.0.0.2084"
     latestReleaseDate: 2015-10-08
 
--   releaseCycle: "7.0"
+  - releaseCycle: "7.0"
     releaseDate: 2013-08-20
     eoas: true
     eol: true
@@ -75,7 +83,7 @@ releases:
     latest: "7.0.0.871"
     latestReleaseDate: 2014-06-05
 
--   releaseCycle: "6.5"
+  - releaseCycle: "6.5"
     releaseDate: 2012-10-09
     eoas: true
     eol: true
@@ -83,7 +91,7 @@ releases:
     latest: "6.5.0.144"
     latestReleaseDate: 2013-04-29
 
--   releaseCycle: "6.1"
+  - releaseCycle: "6.1"
     releaseDate: 2012-06-04
     eoas: true
     eol: true
@@ -91,53 +99,48 @@ releases:
     latest: "6.1.0.205"
     latestReleaseDate: 2012-08-15
 
--   releaseCycle: "6.0"
+  - releaseCycle: "6.0"
     releaseDate: 2011-08-22
     eoas: true
     eol: true
     link: "https://www.veeam.com/kb1442"
     latest: "6.0.0.181"
-    latestReleaseDate: 2011-12-14
+    latestReleaseDate: 2012-02-09
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2010-08-30
     eoas: true
     eol: true
-    link: null
-    latest: "5.0.0.179"
-    latestReleaseDate: 2010-08-30
+    latest: "5.0.2.230"
+    latestReleaseDate: 2011-04-11
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2009-10-29
     eoas: true
     eol: true
-    link: null
     latest: "4.1.2.125"
     latestReleaseDate: 2010-08-04
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2009-10-21
     eoas: true
     eol: true
-    link: null
-    latest: "3.0" # no information available
-    latestReleaseDate: 2009-10-21
+    latest: "3.0.1.251" # no information available
+    latestReleaseDate: 2009-03-16
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseDate: 2008-07-30
     eoas: true
     eol: true
-    link: null
-    latest: "2.0" # no information available
-    latestReleaseDate: 2008-07-30
+    latest: "2.0.0.152" # no information available
+    latestReleaseDate: 2008-07-26
 
--   releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     releaseDate: 2008-02-26
     eoas: true
     eol: true
-    link: null
-    latest: "1.0" # no information available
-    latestReleaseDate: 2008-02-26
+    latest: "1.0.1.76" # no information available
+    latestReleaseDate: 2008-03-21
 
 ---
 
@@ -150,10 +153,10 @@ releases:
 Veeam Backup & Replication is available in two editions: Community (free) and Enterprise (paid).
 This page only covers the Enterprise edition.
 
-Support for Veeam Backup & Replication always require an active maintenance contract and is divided
+Support for Veeam Backup & Replication always requires an active maintenance contract and is divided
 into two phases.
 
-The first phase is ending with the end of fix date. During this phase updates, patches and hotfixes
+The first phase is ending with the end of fix date. During this phase, updates, patches and hotfixes
 are provided for the product.
 
 The second phase is ending with the end of support date. Updates, patches and hotfixes may also be

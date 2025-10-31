@@ -1,51 +1,65 @@
 ---
 title: Apache Groovy
+addedAt: 2022-11-26
 category: lang
 tags: apache java-runtime
 iconSlug: apachegroovy
 permalink: /apache-groovy
 alternate_urls:
--   /groovy
--   /groovy-lang
+  - /groovy
+  - /groovy-lang
 versionCommand: groovy --version
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
 eoasColumn: true
 eolColumn: Bug and Security Fixes
+staleReleaseThresholdYears: 3
 
 identifiers:
--   repology: groovy
--   cpe: cpe:/a:apache:groovy
--   cpe: cpe:2.3:a:apache:groovy
+  - repology: groovy
+  - cpe: cpe:/a:apache:groovy
+  - cpe: cpe:2.3:a:apache:groovy
+  - purl: pkg:maven/org.apache.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy-all
 
 auto:
   methods:
-  -   maven: org.apache.groovy/groovy
-  -   maven: org.codehaus.groovy/groovy
+    - maven: org.apache.groovy/groovy
+    - maven: org.codehaus.groovy/groovy
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
--   releaseCycle: "4.0"
-    releaseDate: 2022-01-25
+  - releaseCycle: "5.0"
+    releaseDate: 2025-08-21
     eol: false
     eoas: false
-    latest: "4.0.26"
-    latestReleaseDate: 2025-02-24
+    latest: "5.0.2"
+    latestReleaseDate: 2025-10-15
 
--   releaseCycle: "3.0"
-    releaseDate: 2020-02-10
-    eoas: true
+  - releaseCycle: "4.0"
+    releaseDate: 2022-01-25
+    eoas: 2025-08-21
     eol: false
-    latest: "3.0.24"
-    latestReleaseDate: 2025-02-27
+    latest: "4.0.29"
+    latestReleaseDate: 2025-10-15
 
--   releaseCycle: "2.5"
+  - releaseCycle: "3.0"
+    releaseDate: 2020-02-10
+    eoas: 2022-01-25
+    eol: false
+    latest: "3.0.25"
+    latestReleaseDate: 2025-05-27
+
+  - releaseCycle: "2.5"
     releaseDate: 2018-05-30
     eoas: true
-    eol: false
+    eol: false # still listed on https://groovy.apache.org/download.html
     latest: "2.5.23"
     latestReleaseDate: 2023-08-22
 
--   releaseCycle: "2.4"
+  - releaseCycle: "2.4"
     releaseDate: 2015-01-21
     eoas: true
     eol: true
@@ -70,10 +84,11 @@ Groovy 3.0 are still supported because they are still in widespread use.
 In Groovy 4.0, the groupId of the maven coordinates for Groovy have changed from
 `org.codehaus.groovy` to `org.apache.groovy`.
 
-Groovy have [the following JVM requirements](https://groovy.apache.org/download.html):
+Groovy releases have [the following JVM requirements](https://groovy.apache.org/download.html):
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
-|--------|:------------------------|---------------------|
+| ------ | :---------------------- | ------------------- |
+| 5.0    | N/A                     | 11+                 |
 | 4.0    | N/A                     | 8+                  |
 | 3.0    | 8+                      | 8+                  |
 | 2.5    | 7+                      | 7+                  |
