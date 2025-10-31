@@ -25,13 +25,13 @@ auto:
           regex: '^(?P<value>\w+( \d+,)? \d+).*'
 
 releases:
-  - releaseCycle: "23"
-    releaseLabel: "23ai"
-    releaseDate: 2023-09-19
+  - releaseCycle: "26"
+    releaseLabel: "26ai"
+    releaseDate: 2026-10-14
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/
 
   - releaseCycle: "21"
     releaseLabel: "21c"
