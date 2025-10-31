@@ -3,7 +3,6 @@ title: composer-normalize
 category: framework
 permalink: /composer-normalize
 changelogTemplate: "https://github.com/ergebnis/composer-normalize/releases/tag/__LATEST__"
-releasePolicyLink: https://github.com/ergebnis/composer-normalize/security
 
 auto:
   methods:
@@ -34,3 +33,5 @@ releases:
 ---
 
 > [composer-normalize](https://github.com/ergebnis/composer-normalize) is a [Composer](https://getcomposer.org/) plugin for normalizing composer.json files.
+
+composer-normalize supported versions are documented on their [GitHub security page](https://github.com/ergebnis/composer-normalize/security).
