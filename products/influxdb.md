@@ -21,17 +21,26 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-10-30
+    eol: false
+    latest: "3.6.0"
+    latestReleaseDate: 2025-10-30
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v360
+
   - releaseCycle: "3.5"
     releaseDate: 2025-09-29
     eol: false
     latest: "3.5.0"
     latestReleaseDate: 2025-09-29
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v350
 
   - releaseCycle: "3.4"
     releaseDate: 2025-08-26
-    eol: false
+    eol: 2025-10-30
     latest: "3.4.2"
     latestReleaseDate: 2025-09-11
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v340
 
   - releaseCycle: "3.3"
     releaseDate: 2025-07-29
