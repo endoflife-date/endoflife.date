@@ -21,7 +21,7 @@ releases:
     releaseDate: 2025-10-28
     eol: false
     latest: "4.99"
-    latestReleaseDate: 2025-10-28
+    latestReleaseDate: 2025-10-27
     link: https://lists.exim.org/lurker/message/20251028.114149.3bf19800.en.html
 
   - releaseCycle: "4.98"
@@ -296,6 +296,7 @@ releases:
     latest: "4.50"
     latestReleaseDate: 2005-02-17
     link: https://github.com/Exim/exim/releases/tag/exim-4_50
+
 ---
 
 > [Exim](https://www.exim.org/) is a message transfer agent (MTA) licensed

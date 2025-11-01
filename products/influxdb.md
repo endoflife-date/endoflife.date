@@ -25,7 +25,7 @@ releases:
     releaseDate: 2025-10-30
     eol: false
     latest: "3.6.0"
-    latestReleaseDate: 2025-10-30
+    latestReleaseDate: 2025-10-29
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v360
 
   - releaseCycle: "3.5"
