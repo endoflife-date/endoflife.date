@@ -1,6 +1,8 @@
 ---
+# vim: set ft=yaml :
+# yaml-language-server: $schema=../product-schema.json
 title: Red Hat Ansible Automation Platform
-addedAt: 2025-10-26
+addedAt: 2025-11-01
 category: server-app
 
 tags: red-hat
@@ -8,129 +10,37 @@ iconSlug: redhat
 
 permalink: /red-hat-ansible-automation-platform
 alternate_urls:
--   /ansible-automation-platform
--   /aap
+  - /ansible-automation-platform
+  - /aap
 
 releasePolicyLink: https://access.redhat.com/support/policy/updates/ansible-automation-platform
-
 releaseImage: https://access.redhat.com/sites/hub/files/2025-10/AAP%20Lifecycle%20Doodle.jpg
-
 eolColumn: Maintenance Support 1
-
 eoasColumn: Full Support
-
 latestColumn: false
-
 releaseDateColumn: false
 discontinuedColumn: false
-
 eoesColumn: Maintenance Support 2
 
-# Custom fields configuration (optional).
-# Custom fields are non-standard fields used for documenting things such as related runtime versions, custom dates that
-# cannot be expressed using the standard fields, etc.
-# They can be:
-# - displayed in the release table,
-# - made available in API responses,
-# - used in table includes, such as in https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md
-#   (preferred this over release table when there are more than 2 or 3 custom fields),
-# - or even just used for internal documentation.
-# Search in the existing products source file to see how they are used.
 customFields:
   - name: ansibleCoreVersion
     display: api-only
     label: Ansible-Core version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
   - name: aapPLatformUIVersion
     display: api-only
     label: Ansible Automation Platform UI version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
   - name: automationControllerVersion
     display: api-only
     label: Automation Controller version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
   - name: automationHubVersion
     display: api-only
     label: Automation Hub version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
   - name: eventDrivenAnsibleVersion
     display: api-only
     label: Event-Driven Ansible version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
   - name: platformGatewayVersion
     display: api-only
     label: Platform Gateway version
-    # link: https://en.wikipedia.org/wiki/IPhone#Models
-
-# Auto-update release configuration (optional).
-# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
-# Multiple configurations are allowed.
-# Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration modifies the product page so that users are informed that existing
-# releases are automatically updated with latest versions.
-auto:
-  # Mark auto-update as being cumulative (optional, default = false).
-  # This means that the data won't be deleted before fetching new data.
-  # Activating cumulative updates is not recommended for most products, but could be useful for products that:
-  # - have a long history of releases that is long to fetch,
-  # - have a history of releases that is not available anymore.
-  cumulative: true
-  methods:
-    # Configuration for auto-update based on git.
-    # Any valid git clone URL will work, but support for partialClone is necessary
-    # (GitHub and GitLab support it).
-    # For example, for Apache Maven:
-    - git: https://github.com/apache/maven.git
-
-      # Python-compatible regex that defines how the tags above should translate to versions (optional).
-      # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
-      # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
-      # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c.
-      # It should also skip over any special releases (such as nightly, beta, pre, rc...).
-      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
-
-      # Python-compatible regex that defines which tags should be excluded (optional).
-      regex_exclude: ^v99.99.99$
-
-      # A liquid template using the captured variables from the regex above that renders the final version
-      # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
-      # You can use liquid templating here.
-      template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
-
-    # Configuration for auto-update based on Docker Hub.
-    # The value must be the "owner/repo" combination for a docker hub public image.
-    # Use "library" as the owner name for an official docker/community image.
-    # For example, for PostgreSQL:
-    - docker_hub: library/postgres
-
-    # Configuration for auto-update based on the npm registry.
-    # The value must be the package identifier on https://www.npmjs.com .
-    # For example, for Vue:
-    - npm: vue
-
-    # Configuration for auto-update based on DistroWatch.
-    # The value must be the distribution ID. It can be found in the distribution URL.
-    # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
-    - distrowatch: debian
-
-      # The Python-compatible regex used to parse headlines (mandatory).
-      # Use named capturing groups to capture the version or version's parts.
-      # You can also pass a list of regexes here and matches for any of those will be considered.
-      regex: 'Distribution Release: (?P<version>\d+.\d+)'
-
-      # A liquid template using the captured variables from the regex above that renders the final version
-      # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
-      # You can use liquid templating here.
-      template: '{{version}}'
-
-    # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
-    # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
-    # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
-    - maven: org.apache.tomcat/tomcat
-
-    # Configuration for auto-update based on a custom script in the release-data repository.
-    # The value must be the script name in the release-data repository, without it's '.py' extension.
-    - custom: script-name
 
 identifiers:
     - cpe: cpe:/a:redhat:ansible_automation_platform
