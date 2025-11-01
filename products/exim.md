@@ -17,7 +17,6 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
-
   - releaseCycle: "4.99"
     releaseDate: 2025-10-28
     eol: false
