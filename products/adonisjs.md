@@ -18,14 +18,15 @@ releases:
   - releaseCycle: "6"
     releaseDate: 2023-02-20
     eol: false
-    latest: "6.19.0"
-    latestReleaseDate: 2025-06-17
+    latest: "6.19.1"
+    latestReleaseDate: 2025-10-31
 
   - releaseCycle: "5"
     releaseDate: 2020-10-11
     eol: 2023-02-20
     latest: "5.9.0"
     latestReleaseDate: 2022-11-22
+
 ---
 
 > [AdonisJS](https://adonisjs.com/) AdonisJS is a TypeScript-first web framework for building web apps and API servers.
