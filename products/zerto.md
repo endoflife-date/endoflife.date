@@ -34,7 +34,7 @@ auto:
 releases:
   - releaseCycle: "10.8"
     releaseLabel: "10.8"
-    releaseDate: 2025-08-28
+    releaseDate: 2025-10-28
     eoas: false # Next GA date
     eol: 2026-10-28
     link: "https://help.zerto.com/bundle/RN.HTML.10.8/page/release_notes_for_zerto_10_8.html"
@@ -155,6 +155,7 @@ releases:
     releaseDate: 2016-11-08
     eoas: 2018-08-31
     eol: 2018-08-31
+
 ---
 
 > [HPE Zerto](https://www.hpe.com/us/en/zerto-software.html) is a commercial product that provides
