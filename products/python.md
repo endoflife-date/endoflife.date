@@ -133,8 +133,8 @@ releases:
     releaseDate: 2020-10-05
     eoas: 2022-05-17
     eol: 2025-10-31
-    latest: "3.9.24"
-    latestReleaseDate: 2025-10-09
+    latest: "3.9.25"
+    latestReleaseDate: 2025-10-31
 
   - releaseCycle: "3.8"
     releaseDate: 2019-10-14
