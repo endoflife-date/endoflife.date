@@ -54,7 +54,7 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: 2025-05-07
-    latest: "2022.3.62f1"
+    latest: "2022.3.62f3"
     latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2022.2"
@@ -98,15 +98,15 @@ releases:
     lts: true
     releaseDate: 2020-07-20
     eol: 2023-05-05
-    latest: "2020.3.48f1"
-    latestReleaseDate: 2023-05-17
+    latest: "2020.3.49f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2019"
     lts: true
     releaseDate: 2019-04-08
     eol: 2022-06-16
-    latest: "2019.4.40f1"
-    latestReleaseDate: 2022-06-16
+    latest: "2019.4.41f2"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2018"
     lts: true
