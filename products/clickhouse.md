@@ -6,7 +6,7 @@ iconSlug: clickhouse
 permalink: /clickhouse
 versionCommand: clickhouse-client --version
 releasePolicyLink: https://clickhouse.com/docs/faq/operations/production#how-to-choose-between-clickhouse-releases
-changelogTemplate: https://github.com/ClickHouse/ClickHouse/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/ClickHouse/ClickHouse/blob/master/CHANGELOG.md
 eolColumn: Support Status
 
 identifiers:
