@@ -19,6 +19,8 @@ auto:
     - git: https://github.com/ClickHouse/ClickHouse.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.(?P<tiny>\d+)-(stable|lts)$
 
+# Non-LTS : eol(x) = releaseDate(x+3)
+# LTS : eol(x) = releaseDate(x) + 1 year
 releases:
   - releaseCycle: "25.9"
     releaseDate: 2025-09-27
