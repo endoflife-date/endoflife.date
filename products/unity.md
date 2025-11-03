@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-08-12
     eol: false
-    latest: "6000.2.9f1"
-    latestReleaseDate: 2025-10-22
+    latest: "6000.2.10f1"
+    latestReleaseDate: 2025-10-29
 
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
@@ -35,8 +35,8 @@ releases:
     releaseDate: 2024-04-29
     eol: 2026-04-29
     eoes: 2027-04-29
-    latest: "6000.0.60f1"
-    latestReleaseDate: 2025-10-16
+    latest: "6000.0.61f1"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
@@ -54,8 +54,8 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: 2025-05-07
-    latest: "2022.3.62f1"
-    latestReleaseDate: 2025-05-07
+    latest: "2022.3.62f3"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
@@ -98,15 +98,15 @@ releases:
     lts: true
     releaseDate: 2020-07-20
     eol: 2023-05-05
-    latest: "2020.3.48f1"
-    latestReleaseDate: 2023-05-17
+    latest: "2020.3.49f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2019"
     lts: true
     releaseDate: 2019-04-08
     eol: 2022-06-16
-    latest: "2019.4.40f1"
-    latestReleaseDate: 2022-06-16
+    latest: "2019.4.41f2"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2018"
     lts: true
