@@ -17,7 +17,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ClickHouse/ClickHouse.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.(?P<build>\d+)-(stable|lts)$
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.(?P<tiny>\d+)-(stable|lts)$
 
 releases:
   - releaseCycle: "25.9"
