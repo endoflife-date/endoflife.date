@@ -54,7 +54,7 @@ releases:
 
 ---
 
-> [ClickHouse](https://clickhouse.com/) is a high-performance, column-oriented SQL database management system (DBMS) for online analytical processing (OLAP).
+> [ClickHouse](https://clickhouse.com/) is an open-source, high-performance, column-oriented SQL database management system (DBMS) for online analytical processing (OLAP).
 > It enables real-time analytics on large datasets using standard SQL queries.
 
 ClickHouse offers two types of releases:
