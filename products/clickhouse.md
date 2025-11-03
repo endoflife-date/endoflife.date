@@ -59,20 +59,10 @@ releases:
 > [ClickHouse](https://clickhouse.com/) is an open-source, high-performance, column-oriented SQL database management system (DBMS) for online analytical processing (OLAP).
 > It enables real-time analytics on large datasets using standard SQL queries.
 
-ClickHouse offers two types of releases:
+ClickHouse uses [Calendar Versioning](https://calver.org/) with the format `Year.Month.Patch.Build` (e.g., `25.8.4.13`).
 
-## Stable Releases
+A new minor release is published approximately every month.
+The last three minor releases are supported with bug and security fixes.
 
-- Released approximately monthly
-- The **3 most recent stable releases** are supported
-- Recommended for most users who want access to new features
-- Receive security and bug fixes
-
-## Long-Term Support (LTS) Releases
-
-- Released **twice per year** (March and August)
-- Supported for **1 year** from the release date
-- Recommended for enterprises with policies restricting frequent upgrades
-- Only receive critical security and stability fixes
-
-ClickHouse uses a versioning scheme of `Year.Month.Patch.Build` format (e.g., `25.8.4.13`).
+Twice a year, typically in March and August, minor releases are designated Long-Term Support (LTS).
+Such releases are supported for 1 year with critical security and stability updates.
