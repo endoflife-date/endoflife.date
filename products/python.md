@@ -16,7 +16,7 @@ eoasColumn: true
 
 customFields:
   - name: pep
-    display: after-release-column
+    display: api-only
     label: PEP
     description: Python Enhancement Proposal (PEP) document for this release
     link: https://peps.python.org/topic/release/
