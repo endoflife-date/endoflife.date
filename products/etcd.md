@@ -33,14 +33,14 @@ releases:
   - releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: "3.5.23"
-    latestReleaseDate: 2025-09-19
+    latest: "3.5.24"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: 2025-05-15 # releaseDate(3.6)
-    latest: "3.4.37"
-    latestReleaseDate: 2025-04-16
+    latest: "3.4.38"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "3.3"
     releaseDate: 2018-02-01

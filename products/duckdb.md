@@ -4,7 +4,7 @@ addedAt: 2025-10-17
 category: database
 iconSlug: duckdb
 permalink: /duckdb
-versionCommand: duckdb version
+versionCommand: duckdb -version
 releasePolicyLink: https://duckdblabs.com/community_support_policy/
 changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/v__LATEST__
 eolColumn: Support Status
@@ -57,7 +57,7 @@ releases:
 
 > [DuckDB](https://duckdb.org/) is an analytical in-process, serverless SQL database management system.
 
-Starting with 1.4, every other DuckDB version is a Long Term Support (LTS) release.
+Starting with 1.4, every other DuckDB version is a Long-Term Support (LTS) release.
 LTS releases are supported for one year.
 Non-LTS releases become end-of-life once a newer release (LTS or not) is available.
 

@@ -317,7 +317,7 @@ module EndOfLifeHooks
     def is_not_a_date(property)
       value = @data[property]
       unless value.respond_to?(:strftime)
-        declare_error(property, value, "expecting a value of type boolean or date, got #{value.class}")
+        declare_error(property, value, "expecting a value of type date, got #{value.class}")
       end
     end
 

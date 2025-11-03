@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-10
     eol: false
-    latest: "7.2"
-    latestReleaseDate: 2025-10-16
+    latest: "7.3"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "6"
     releaseDate: 2023-07-06
@@ -120,6 +120,7 @@ releases:
     latest: "2.4.7"
     latestReleaseDate: 2002-07-02
     link: http://www.squid-cache.org/Versions/v2/2.4/
+
 ---
 
 > [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP,

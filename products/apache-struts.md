@@ -29,8 +29,8 @@ releases:
     releaseDate: 2024-12-11
     eol: false
     eoes: true
-    latest: "7.0.3"
-    latestReleaseDate: 2025-02-17
+    latest: "7.1.1"
+    latestReleaseDate: 2025-10-01
 
   - releaseCycle: "6"
     releaseDate: 2022-06-02
@@ -91,6 +91,7 @@ releases:
     latestReleaseDate: 2006-03-23
     link: null
 # 1.0 and 1.1 are not listed on Maven Central.
+
 
 ---
 

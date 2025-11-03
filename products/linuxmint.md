@@ -24,7 +24,7 @@ auto:
 
 releases:
   - releaseCycle: "lmde7"
-    releaseLabel: "LMDE 7"
+    releaseLabel: "LMDE 7 '__CODENAME__'"
     codename: Gigi
     releaseDate: 2025-10-14
     eol: false
@@ -59,7 +59,7 @@ releases:
     link: https://blog.linuxmint.com/?p=4624
 
   - releaseCycle: "lmde6"
-    releaseLabel: "LMDE 6"
+    releaseLabel: "LMDE 6 '__CODENAME__'"
     codename: Faye
     releaseDate: 2023-09-27
     eol: false
@@ -87,7 +87,7 @@ releases:
     link: https://blog.linuxmint.com/?p=4359
 
   - releaseCycle: "lmde5"
-    releaseLabel: "LMDE 5"
+    releaseLabel: "LMDE 5 '__CODENAME__'"
     codename: Elsie
     releaseDate: 2022-03-20
     eol: 2024-07-01
@@ -122,7 +122,8 @@ releases:
     link: https://blog.linuxmint.com/?p=3928
 
   - releaseCycle: "lmde4"
-    releaseLabel: "LMDE 4"
+    releaseLabel: "LMDE 4 '__CODENAME__'"
+    codename: Debbie
     releaseDate: 2020-03-20
     eol: 2022-08-01
     link: https://blog.linuxmint.com/?p=3867

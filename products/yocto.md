@@ -43,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.12"
-    latestReleaseDate: 2025-09-10
+    latest: "5.0.13"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "4.3"
     codename: "Nanbield"

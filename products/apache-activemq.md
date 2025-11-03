@@ -17,6 +17,7 @@ identifiers:
   - repology: activemq
   - cpe: cpe:/a:apache:activemq
   - cpe: cpe:2.3:a:apache:activemq
+  - purl: pkg:maven/org.apache.activemq/activemq-broker
 
 auto:
   methods:

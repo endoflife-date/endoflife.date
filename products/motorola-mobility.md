@@ -17,6 +17,18 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-edge-70
+    releaseLabel: "Motorola edge 70"
+    releaseDate: 2025-10-01
+    eol: 2031-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12433
+
+  - releaseCycle: moto-g67-power-5g
+    releaseLabel: "moto g67 power 5G"
+    releaseDate: 2025-09-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12403
+
   - releaseCycle: motorola-edge-60-neo
     releaseLabel: "Motorola edge 60 neo"
     releaseDate: 2025-09-01

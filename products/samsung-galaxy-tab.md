@@ -34,6 +34,34 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-tab-a11"
+    releaseLabel: "Galaxy Tab A11"
+    releaseDate: 2025-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
+    eoas: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
+    eol: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
+    link: null # unknown
+
+  - releaseCycle: "galaxy-tab-s11-ultra"
+    releaseLabel: "Galaxy Tab S11 Ultra"
+    releaseDate: 2025-09-04 # https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet
+    eoas: 2032-09-04 # https://www.sammobile.com/news/samsung-galaxy-tab-s11-ultra-software-update-policy/
+    eol: 2032-09-04 # https://www.sammobile.com/news/samsung-galaxy-tab-s11-ultra-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-X930/EUX/doc.html
+
+  - releaseCycle: "galaxy-tab-s11"
+    releaseLabel: "Galaxy Tab S11"
+    releaseDate: 2025-09-04 # https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet
+    eoas: 2032-09-04 # https://www.sammobile.com/news/samsung-galaxy-tab-s11-ultra-software-update-policy/
+    eol: 2032-09-04 # https://www.sammobile.com/news/samsung-galaxy-tab-s11-ultra-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-X730/EUX/doc.html
+
+  - releaseCycle: "galaxy-tab-s10-lite"
+    releaseLabel: "Galaxy Tab S10 Lite"
+    releaseDate: 2025-09-04 # https://news.samsung.com/us/samsung-galaxy-tab-s10-lite-value-packed-tablet-for-everyday-needs/
+    eoas: 2032-09-04 # https://samlover.com/2025/08/26/heres-how-many-software-updates-do-the-galaxy-tab-s10-lite-support/
+    eol: 2032-09-04 # https://samlover.com/2025/08/26/heres-how-many-software-updates-do-the-galaxy-tab-s10-lite-support/
+    link: https://doc.samsungmobile.com/SM-X406B/TCE/doc.html
+
   - releaseCycle: "galaxy-tab-a9+2025"
     releaseLabel: "Galaxy Tab A9+(2025)"
     releaseDate: 2025-08-01 # approximate, first detected in https://github.com/endoflife-date/endoflife.date/pull/8028
