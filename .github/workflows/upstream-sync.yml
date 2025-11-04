@@ -3,12 +3,19 @@ name: Sync from Upstream
 on:
   workflow_dispatch: # Manually run workflow
   schedule:
-    - cron: "0 * * * *" # Run every hour
+    - cron: "0 0 * * 3" # Run weekly on Wednesday at 00:00 UTC
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate Github token
+        id: generate_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
+
       - name: Sync fork with upstream
         uses: tgymnich/fork-sync@v2.0.10
         with:
@@ -16,5 +23,5 @@ jobs:
           repo: endoflife.date
           base: master
           head: master
-          merge_method: merge
-          token: ${{ secrets.VULS_GITHUB_TOKEN }}
+          auto_merge: false
+          token: ${{ steps.generate_token.outputs.token }}
