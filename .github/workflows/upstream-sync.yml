@@ -1,0 +1,20 @@
+name: Sync from Upstream
+
+on:
+  workflow_dispatch: # Manually run workflow
+  schedule:
+    - cron: "0 * * * *" # Run every hour
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync fork with upstream
+        uses: tgymnich/fork-sync@v2.0.10
+        with:
+          owner: vuls-saas
+          repo: endoflife.date
+          base: master
+          head: master
+          merge_method: merge
+          token: ${{ secrets.VULS_GITHUB_TOKEN }}
