@@ -9,6 +9,7 @@ releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Supported
+staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: ffmpeg
@@ -24,13 +25,20 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "8.0"
+    codename: Huffman
+    releaseDate: 2025-08-22
+    eol: false
+    latest: "8.0"
+    latestReleaseDate: 2025-08-22
+
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.1"
-    latestReleaseDate: 2025-03-03
+    latest: "7.1.2"
+    latestReleaseDate: 2025-09-14
 
   - releaseCycle: "7.0"
     codename: Dijkstra
@@ -141,7 +149,7 @@ releases:
   - releaseCycle: "2.8"
     codename: "Feynman"
     releaseDate: 2015-09-09
-    eol: false
+    eol: false # still listed on https://ffmpeg.org/download.html
     latest: "2.8.22"
     latestReleaseDate: 2023-10-29
 

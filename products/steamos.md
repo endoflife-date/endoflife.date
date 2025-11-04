@@ -6,7 +6,8 @@ tags: linux-distribution
 iconSlug: steam
 permalink: /steamos
 eolColumn: Support
-releaseColumn: false
+latestColumn: false
+staleReleaseThresholdYears: 4
 
 identifiers:
   - cpe: cpe:/o:valvesoftware:steamos

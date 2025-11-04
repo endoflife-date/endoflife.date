@@ -26,12 +26,19 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "6.4"
-    releaseDate: 2025-06-17
+  - releaseCycle: "6.5"
+    releaseDate: 2025-10-21
     eoas: false
     eol: false
-    latest: "6.4.4"
-    latestReleaseDate: 2025-08-05
+    latest: "6.5.1"
+    latestReleaseDate: 2025-10-28
+
+  - releaseCycle: "6.4"
+    releaseDate: 2025-06-17
+    eoas: 2025-10-21
+    eol: 2025-10-21
+    latest: "6.4.5"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "6.3"
     releaseDate: 2025-02-11
@@ -111,6 +118,7 @@ releases:
     latest: "5.18.8"
     latestReleaseDate: 2021-10-19
     link: https://kde.org/announcements/plasma/5/__LATEST__/
+
 ---
 
 > [KDE Plasma](https://kde.org/plasma-desktop/) is a graphical desktop environment with customizable

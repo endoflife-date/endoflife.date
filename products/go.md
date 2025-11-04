@@ -30,14 +30,14 @@ releases:
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
     eol: false
-    latest: "1.25.0"
-    latestReleaseDate: 2025-08-12
+    latest: "1.25.3"
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "1.24"
     releaseDate: 2025-02-11
     eol: false
-    latest: "1.24.6"
-    latestReleaseDate: 2025-08-06
+    latest: "1.24.9"
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "1.23"
     releaseDate: 2024-08-13
@@ -122,6 +122,7 @@ releases:
     eol: 2019-02-25
     latest: "1.10.8"
     latestReleaseDate: 2019-01-23
+
 ---
 
 > [Go](https://go.dev/) is an open source programming language that makes it easy to build simple,

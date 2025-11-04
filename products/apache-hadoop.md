@@ -11,6 +11,7 @@ changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
+staleReleaseThresholdYears: 5
 
 identifiers:
   - repology: hadoop
@@ -30,8 +31,8 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
-    latest: "3.4.1"
-    latestReleaseDate: 2024-10-18
+    latest: "3.4.2"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "3.3"
     releaseDate: 2020-07-15
@@ -128,6 +129,7 @@ releases:
     eol: 2012-10-12
     latest: "1.0.4"
     latestReleaseDate: 2012-10-12
+
 ---
 
 > [The Apache Hadoop](https://hadoop.apache.org/) software library is a framework that allows for

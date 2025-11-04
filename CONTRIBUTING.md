@@ -6,14 +6,14 @@ description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
 ---
 
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
-- [✏️ About the codebase](#pencil-about-the-codebase)
-- [➕ Adding a new product](#new-adding-a-new-product)
+- [✏️ About the codebase](#️-about-the-codebase)
+- [➕ Adding a new product](#-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
 - [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
-- [⚖️ Code of Conduct](#bookmark-code-of-conduct)
+- [⚖️ Code of Conduct](#️-code-of-conduct)
 
 ## 🎲 Hacktoberfest
 
@@ -83,8 +83,8 @@ category: os
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 tags: amazon linux-distribution
 
-# Simple Icons (https://simpleicons.org/) icon slug (optional).
-# Remove this property if the icon is not available on Simple Icons.
+# Simple Icons icon slug (https://simpleicons.org/) for the product or its vendor (optional).
+# Remove this property if no relevant icon is available on Simple Icons.
 # As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg ,
 # so the slug is `codemagic` (the SVG filename without extension).
 # A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md .
@@ -136,21 +136,13 @@ LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
-# Threshold at which the background color of the cycle's "eol" cell changes
-# to indicate that the EOL date is approaching (optional, default = 121 days).
-eolWarnThreshold: 121
-
 # Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoasColumn: Active Support
 
-# Threshold at which the background color of the cycle's "eoas" cell changes
-# to indicate that the end of active support date is approaching (optional, default = 121 days).
-eoasWarnThreshold: 121
-
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
-releaseColumn: Latest
+latestColumn: Latest
 
 # Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -161,17 +153,9 @@ releaseDateColumn: Released
 # The value of this property can be set to any string to override the default column label.
 discontinuedColumn: Discontinued
 
-# Threshold at which the background color of the cycle's "discontinued" cell changes
-# to indicate that the discontinued date is approaching (optional, default = 121 days).
-discontinuedWarnThreshold: 121
-
 # Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoesColumn: Extended Support
-
-# Threshold at which the background color of the cycle's "eoes" cell changes
-# to indicate that the extended support date is approaching (optional, default = 121 days).
-eoesWarnThreshold: 121
 
 # Custom fields configuration (optional).
 # Custom fields are non-standard fields used for documenting things such as related runtime versions, custom dates that
@@ -375,9 +359,9 @@ releases:
     #   and false otherwise.
     discontinued: true
 
-    # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
+    # Latest release for the release cycle (optional if latestColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
-    # It should be removed if releaseColumn is false.
+    # It should be removed if latestColumn is false.
     # Always add quotes around this value.
     latest: "1.2.3"
 

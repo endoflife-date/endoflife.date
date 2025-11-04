@@ -28,7 +28,6 @@ auto:
   methods:
     - git: https://github.com/redis/redis.git
     - release_table: https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version - Release date"
@@ -42,29 +41,29 @@ releases:
     releaseDate: 2025-08-04
     eoas: false
     eol: false
-    latest: "8.2.1"
-    latestReleaseDate: 2025-08-18
+    latest: "8.2.3"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
     eoas: false
     eol: false
-    latest: "8.0.3"
-    latestReleaseDate: 2025-07-06
+    latest: "8.0.5"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: false
     eol: 2026-11-30
-    latest: "7.4.5"
-    latestReleaseDate: 2025-07-06
+    latest: "7.4.7"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
     eol: 2026-02-28
-    latest: "7.2.10"
-    latestReleaseDate: 2025-07-06
+    latest: "7.2.12"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.0"
     releaseDate: 2022-04-27
@@ -77,8 +76,8 @@ releases:
     releaseDate: 2021-02-22
     eoas: 2022-04-27
     eol: 2025-12-31
-    latest: "6.2.19"
-    latestReleaseDate: 2025-07-06
+    latest: "6.2.21"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "6.0"
     releaseDate: 2020-04-30
@@ -101,8 +100,8 @@ releases:
 > lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius
 > queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and
 > different levels of on-disk persistence, and provides high availability via
-> [Redis Sentinel](https://redis.io/docs/management/sentinel/) and automatic partitioning with
-> [Redis Cluster](https://docs.redis.com/latest/rc/concepts/clustering/).
+> [Redis Sentinel](https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/) and automatic partitioning with
+> [Redis Cluster](https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/).
 
 A new major version is planned for release once a year. Generally, every major release is followed
 by a minor version after six months. The latest stable release is always fully supported and

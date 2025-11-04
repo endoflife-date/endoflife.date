@@ -5,14 +5,12 @@ category: device
 tags: microsoft
 permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
-releaseColumn: false
-latestColumn: true
+latestColumn: false
 eolColumn: End of Servicing Date
 
 auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/surface/surface-driver-firmware-lifecycle-support
-      selector: "table"
       fields:
         releaseCycle:
           column: "Surface device"
@@ -24,6 +22,12 @@ auto:
 
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
+  - releaseCycle: "laptop-5g-for-business"
+    releaseLabel: "Surface Laptop 5G for Business"
+    releaseDate: 2025-08-26
+    eol: 2031-08-26
+    link: https://www.microsoft.com/en-us/surface/business/surface-laptop-intel-7th-edition
+
   - releaseCycle: "pro-12-inch"
     releaseLabel: "Surface Pro 12-inch"
     releaseDate: 2025-05-20

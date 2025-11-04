@@ -20,7 +20,6 @@ auto:
     - git: https://github.com/varnishcache/varnish-cache.git
       regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://varnish-cache.org/releases/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release"
@@ -28,17 +27,23 @@ auto:
         eol: "EOL Date"
 
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2025-09-15
+    eol: 2026-09-15
+    latest: "8.0.0"
+    latestReleaseDate: 2025-09-15
+
   - releaseCycle: "7.7"
     releaseDate: 2025-03-17
     eol: 2026-03-15
-    latest: "7.7.2"
-    latestReleaseDate: 2025-08-13
+    latest: "7.7.3"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "7.6"
     releaseDate: 2024-09-13
     eol: 2025-09-15
-    latest: "7.6.4"
-    latestReleaseDate: 2025-08-13
+    latest: "7.6.5"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "7.5"
     releaseDate: 2024-03-18
@@ -80,8 +85,8 @@ releases:
     lts: true
     releaseDate: 2018-03-15
     eol: false
-    latest: "6.0.15"
-    latestReleaseDate: 2025-08-13
+    latest: "6.0.16"
+    latestReleaseDate: 2025-08-20
 
 ---
 

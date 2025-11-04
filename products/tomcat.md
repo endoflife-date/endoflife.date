@@ -23,7 +23,7 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.tomcat/tomcat
+    - git: https://github.com/apache/tomcat.git
 
 # EOL can be seen on https://tomcat.apache.org/whichversion.html
 releases:
@@ -31,15 +31,15 @@ releases:
     releaseDate: 2024-10-03
     eol: false
     minJavaVersion: "17"
-    latest: "11.0.10"
-    latestReleaseDate: 2025-07-31
+    latest: "11.0.13"
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: "11"
-    latest: "10.1.44"
-    latestReleaseDate: 2025-08-04
+    latest: "10.1.48"
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "10.0"
     releaseDate: 2020-12-03
@@ -52,8 +52,8 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: "8"
-    latest: "9.0.108"
-    latestReleaseDate: 2025-07-31
+    latest: "9.0.111"
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "8.5"
     releaseDate: 2016-03-17
@@ -89,6 +89,7 @@ releases:
     minJavaVersion: "1.4"
     latest: "5.5.36"
     latestReleaseDate: 2012-10-10
+
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It

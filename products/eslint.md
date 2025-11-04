@@ -2,7 +2,7 @@
 title: ESLint
 addedAt: 2025-01-02
 category: app
-tags: build-tool javascript-runtime herodevs
+tags: build-tool javascript-runtime herodevs linux-foundation
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
@@ -24,7 +24,6 @@ auto:
   methods:
     - npm: eslint
     - release_table: https://eslint.org/version-support/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Release Line"
@@ -39,8 +38,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.33.0"
-    latestReleaseDate: 2025-08-08
+    latest: "9.39.0"
+    latestReleaseDate: 2025-10-31
 
   - releaseCycle: "8"
     releaseDate: 2021-10-09
@@ -99,6 +98,7 @@ releases:
     eol: 2016-08-12
     latest: "1.10.3"
     latestReleaseDate: 2015-12-01
+
 ---
 
 > [ESLint](https://eslint.org/) is a popular static code analysis tool used to identify problematic patterns found in

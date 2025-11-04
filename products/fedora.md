@@ -8,7 +8,7 @@ permalink: /fedora
 versionCommand: cat /etc/fedora-release
 releasePolicyLink: https://docs.fedoraproject.org/en-US/releases/lifecycle/
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
-releaseColumn: false
+latestColumn: false
 
 identifiers:
   - cpe: cpe:/o:fedoraproject:fedora
@@ -23,6 +23,12 @@ auto:
 # Dates as per https://fedorapeople.org/groups/schedule/
 # Latest release dates are not displayed but added automatically by auto-update.
 releases:
+  - releaseCycle: "43"
+    releaseDate: 2025-10-28
+    eol: 2026-12-09
+    latest: "43"
+    latestReleaseDate: 2025-10-28
+
   - releaseCycle: "42"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Adams"

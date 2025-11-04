@@ -2,7 +2,7 @@
 title: Jenkins
 addedAt: 2022-11-21
 category: server-app
-tags: java-runtime
+tags: java-runtime linux-foundation
 iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
@@ -34,15 +34,22 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.524"
-    latestReleaseDate: 2025-08-19
+    latest: "2.534"
+    latestReleaseDate: 2025-10-28
+
+  - releaseCycle: "2.528"
+    releaseDate: 2025-09-17
+    lts: 2025-10-15
+    eol: false
+    latest: "2.528.1"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2.516"
     releaseDate: 2025-06-24
     lts: 2025-07-23
-    eol: false
-    latest: "2.516.2"
-    latestReleaseDate: 2025-08-20
+    eol: 2025-10-15
+    latest: "2.516.3"
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "2.504"
     releaseDate: 2025-03-31

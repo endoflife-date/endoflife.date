@@ -2,7 +2,7 @@
 title: Electron
 addedAt: 2021-12-31
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime linux-foundation
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version
@@ -31,7 +31,6 @@ auto:
   methods:
     - npm: electron
     - release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
-      selector: "table"
       fields:
         releaseCycle:
           column: "Electron"
@@ -46,19 +45,35 @@ auto:
           regex: '^v(?P<value>\d+).+$'
 
 releases:
+  - releaseCycle: "39"
+    releaseDate: 2025-10-28
+    eol: 2026-05-05
+    latest: "39.0.0"
+    latestReleaseDate: 2025-10-27
+    chromeVersion: "M142"
+    nodeVersion: "22"
+
+  - releaseCycle: "38"
+    releaseDate: 2025-09-02
+    eol: 2026-03-10
+    latest: "38.5.0"
+    latestReleaseDate: 2025-10-29
+    chromeVersion: "M140"
+    nodeVersion: "22"
+
   - releaseCycle: "37"
     releaseDate: 2025-06-24
     eol: 2026-01-13
-    latest: "37.3.1"
-    latestReleaseDate: 2025-08-19
+    latest: "37.8.0"
+    latestReleaseDate: 2025-10-29
     chromeVersion: "M138"
     nodeVersion: "22"
 
   - releaseCycle: "36"
     releaseDate: 2025-04-29
     eol: 2025-10-28
-    latest: "36.8.1"
-    latestReleaseDate: 2025-08-19
+    latest: "36.9.5"
+    latestReleaseDate: 2025-10-15
     chromeVersion: "M136"
     nodeVersion: "22"
 
@@ -333,6 +348,13 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
+
+
+
+
+
+
 
 
 

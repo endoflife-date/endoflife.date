@@ -28,14 +28,14 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.5"
-    latestReleaseDate: 2025-07-15
+    latest: "3.4.7"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.9"
-    latestReleaseDate: 2025-07-24
+    latest: "3.3.10"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
@@ -112,6 +112,7 @@ releases:
     latest: "1.9.3p551"
     latestReleaseDate: 2014-11-13
     link: null
+
 ---
 
 > [Ruby](https://www.ruby-lang.org/) is a dynamic, open-source programming language with a focus on

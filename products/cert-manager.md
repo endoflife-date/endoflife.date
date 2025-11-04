@@ -2,7 +2,7 @@
 title: cert-manager
 addedAt: 2023-12-15
 category: app
-tags: cncf
+tags: cncf linux-foundation
 permalink: /cert-manager
 versionCommand: |-
   # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
@@ -20,15 +20,21 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.19"
+    releaseDate: 2025-10-07
+    eol: false
+    latest: "1.19.1"
+    latestReleaseDate: 2025-10-15
+
   - releaseCycle: "1.18"
     releaseDate: 2025-06-10
     eol: false
-    latest: "1.18.2"
-    latestReleaseDate: 2025-07-02
+    latest: "1.18.3"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "1.17"
     releaseDate: 2025-02-03
-    eol: false
+    eol: 2025-10-07
     latest: "1.17.4"
     latestReleaseDate: 2025-07-02
 
@@ -68,6 +74,7 @@ releases:
     eol: 2023-09-12
     latest: "1.11.5"
     latestReleaseDate: 2023-09-01
+
 ---
 
 > [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller

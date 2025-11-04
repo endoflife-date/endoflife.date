@@ -2,7 +2,7 @@
 title: OpenTofu
 addedAt: 2024-03-31
 category: app
-tags: cncf
+tags: cncf linux-foundation
 iconSlug: opentofu
 permalink: /opentofu
 alternate_urls:
@@ -25,14 +25,14 @@ releases:
   - releaseCycle: "1.10"
     releaseDate: 2025-06-24
     eol: false # releaseDate(1.13)
-    latest: "1.10.5"
-    latestReleaseDate: 2025-08-01
+    latest: "1.10.6"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "1.9"
     releaseDate: 2025-01-09
     eol: false # releaseDate(1.12)
-    latest: "1.9.3"
-    latestReleaseDate: 2025-07-31
+    latest: "1.9.4"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "1.8"
     releaseDate: 2024-07-29
@@ -51,6 +51,7 @@ releases:
     eol: 2025-01-09 # releaseDate(1.9)
     latest: "1.6.3"
     latestReleaseDate: 2024-07-09
+
 ---
 
 > [OpenTofu](https://opentofu.org/) is a fork of Terraform that is open-source, community-driven, and managed by the Linux Foundation.

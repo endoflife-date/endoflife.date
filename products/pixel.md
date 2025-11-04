@@ -7,7 +7,7 @@ iconSlug: google
 permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
-releaseColumn: false
+latestColumn: false
 discontinuedColumn: true
 eoasColumn: Android Updates
 eolColumn: Security Updates
@@ -24,6 +24,33 @@ customFields:
 # Discontinued dates come from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
+  - releaseCycle: "10pro"
+    releaseLabel: "Pixel 10 Pro"
+    releaseDate: 2025-08-28
+    eoas: 2032-08-01
+    eol: 2032-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_10_Pro
+    supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10_pro_5g-13987.php
+
+  - releaseCycle: "10proxl"
+    releaseLabel: "Pixel 10 Pro XL"
+    releaseDate: 2025-08-28
+    eoas: 2032-08-01
+    eol: 2032-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_10_Pro_XL
+    supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10_pro_xl_5g-13988.php
+
+  - releaseCycle: "10"
+    releaseLabel: "Pixel 10"
+    releaseDate: 2025-08-28
+    eoas: 2032-08-01
+    eol: 2032-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_10
+    supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10_5g-13979.php
+
   - releaseCycle: "9a"
     releaseLabel: "Pixel 9a"
     releaseDate: 2025-04-10
@@ -83,7 +110,7 @@ releases:
     releaseDate: 2023-10-04
     eoas: 2030-10-01
     eol: 2030-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_8_Pro
     supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8-12546.php
 
@@ -92,7 +119,7 @@ releases:
     releaseDate: 2023-10-04
     eoas: 2030-10-01
     eol: 2030-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_8
     supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8-12546.php
 

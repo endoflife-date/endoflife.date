@@ -23,8 +23,8 @@ releases:
     codename: "Visionary Viper"
     releaseDate: 2025-07-22
     eol: false
-    latest: "25.7.1"
-    latestReleaseDate: 2025-07-30
+    latest: "25.7.6"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "25.1"
     codename: "Ultimate Unicorn"
@@ -172,6 +172,7 @@ releases:
     eol: 2015-07-02
     latest: "15.1.12"
     latestReleaseDate: 2015-06-17
+
 ---
 
 > [OPNsense](https://opnsense.org/) is an open-source firewall and routing platform with a

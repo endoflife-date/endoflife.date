@@ -16,17 +16,24 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
-  - releaseCycle: "4.1"
-    releaseDate: 2025-02-28
+  - releaseCycle: "4.2"
+    releaseDate: 2025-09-18
     eoas: false
     eol: false
-    latest: "4.1.20"
-    latestReleaseDate: 2025-07-25
+    latest: "4.2.3"
+    latestReleaseDate: 2025-10-31
+
+  - releaseCycle: "4.1"
+    releaseDate: 2025-02-28
+    eoas: 2025-09-18
+    eol: false
+    latest: "4.1.26"
+    latestReleaseDate: 2025-10-31
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
     eoas: 2025-02-28
-    eol: false
+    eol: 2025-09-18
     latest: "4.0.22"
     latestReleaseDate: 2025-04-03
 
@@ -120,6 +127,7 @@ releases:
     eol: 2018-02-16
     latest: "2.0.11"
     latestReleaseDate: 2017-09-08
+
 ---
 
 > [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven

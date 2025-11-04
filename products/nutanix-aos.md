@@ -20,23 +20,23 @@ releases:
     releaseDate: 2025-06-24
     eoas: 2026-09-30
     eol: 2027-06-30
-    latest: "7.3.0.5"
-    latestReleaseDate: 2025-08-04
+    latest: "7.3.1.1"
+    latestReleaseDate: 2025-10-29
 
   - releaseCycle: "7.0"
     releaseDate: 2024-12-04
     eoas: 2026-03-31
     eol: 2026-12-31
-    latest: "7.0.1.7"
-    latestReleaseDate: 2025-07-22
+    latest: "7.0.1.10"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "6.10"
     releaseDate: 2024-10-07
     eoas: 2026-01-31
     eol: 2026-10-31
     lts: true
-    latest: "6.10.1.8"
-    latestReleaseDate: 2025-07-21
+    latest: "6.10.1.11"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "6.8"
     releaseDate: 2024-05-15
@@ -169,6 +169,7 @@ releases:
     lts: true
     latest: "5.5.9.5"
     latestReleaseDate: 2019-08-08
+
 ---
 
 > [Nutanix AOS](https://www.nutanixbible.com/4a-book-of-aos-architecture.html) is an operating system

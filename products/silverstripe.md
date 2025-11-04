@@ -13,7 +13,6 @@ releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
 eolColumn: Security Support
-eolWarnThreshold: 182
 
 identifiers:
   - purl: pkg:composer/silverstripe/cms
@@ -25,7 +24,6 @@ auto:
     - release_table: https://www.silverstripe.org/software/roadmap/
       render_javascript: true
       render_javascript_wait_for: "table"
-      selector: "table"
       remove_if_undefined: "releaseDate"
       fields:
         releaseCycle: "CMS Version"
@@ -55,6 +53,13 @@ auto:
 # eoas, eol rounded to the end of month
 # When adding a new release, please also update the auto section above with the exact release date.
 releases:
+  - releaseCycle: "6.1"
+    releaseDate: 2025-10-31
+    eoas: 2026-04-30
+    eol: 2026-10-31
+    latest: "6.1.0"
+    latestReleaseDate: 2025-10-13
+
   - releaseCycle: "6.0"
     releaseDate: 2025-06-10
     eoas: 2025-10-31

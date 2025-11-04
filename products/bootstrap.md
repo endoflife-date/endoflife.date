@@ -30,8 +30,8 @@ releases:
     lts: 2022-07-19
     eoas: false
     eol: false
-    latest: "5.3.7"
-    latestReleaseDate: 2025-06-10
+    latest: "5.3.8"
+    latestReleaseDate: 2025-08-25
 
   - releaseCycle: "4"
     releaseDate: 2018-01-18
@@ -58,6 +58,7 @@ releases:
     eoes: false
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
+
 ---
 
 > [Bootstrap](https://getbootstrap.com/) is a popular HTML, CSS, and JavaScript framework

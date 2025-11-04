@@ -6,52 +6,56 @@ iconSlug: unity
 permalink: /unity
 alternate_urls:
   - /unity3d
-releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
+releasePolicyLink: https://unity.com/releases/unity-6/support
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
+eoesColumn: Extended Long Term Support
 
 auto:
   disabled: true # there are anti-bot protection measures on https://unity.com/
   methods:
     - unity: https://unity.com/releases/editor/qa/lts-releases
 
+# For update release : eol(x) = releaseDate(x+1)
+# For LTS : eol(x) = releaseDate + 2 years
 releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-08-12
     eol: false
-    latest: "6000.2.0f1"
-    latestReleaseDate: 2025-08-12
+    latest: "6000.2.10f1"
+    latestReleaseDate: 2025-10-29
 
   - releaseCycle: "6.1"
     releaseDate: 2025-04-23
-    eol: false
+    eol: 2025-08-12
     latest: "6000.1.16f1"
     latestReleaseDate: 2025-08-13
 
   - releaseCycle: "6.0"
     lts: 2024-10-16
     releaseDate: 2024-04-29
-    eol: false
-    latest: "6000.0.55f1"
-    latestReleaseDate: 2025-08-05
+    eol: 2026-04-29
+    eoes: 2027-04-29
+    latest: "6000.0.61f1"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
     eol: 2024-04-29
-    latest: "2023.2.20f1"
-    latestReleaseDate: 2024-04-25
+    latest: "2023.2.22f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2023.1"
     releaseDate: 2023-06-12
     eol: 2023-11-13
-    latest: "2023.1.20f1"
-    latestReleaseDate: 2023-11-09
+    latest: "2023.1.22f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.3"
     lts: true
     releaseDate: 2023-05-30
-    eol: false
-    latest: "2022.3.62f1"
-    latestReleaseDate: 2025-05-07
+    eol: 2025-05-07
+    latest: "2022.3.62f3"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
@@ -94,15 +98,15 @@ releases:
     lts: true
     releaseDate: 2020-07-20
     eol: 2023-05-05
-    latest: "2020.3.48f1"
-    latestReleaseDate: 2023-05-17
+    latest: "2020.3.49f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2019"
     lts: true
     releaseDate: 2019-04-08
     eol: 2022-06-16
-    latest: "2019.4.40f1"
-    latestReleaseDate: 2022-06-16
+    latest: "2019.4.41f2"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2018"
     lts: true
@@ -123,19 +127,12 @@ releases:
 > first announced and released in June 2005. The engine can be used to create three-dimensional (3D)
 > and two-dimensional (2D) games, as well as interactive simulations and other experiences.
 
-Unity has two releases: Tech stream and LTS.
+Starting with Unity 6, there are two kinds of releases: _update releases_ and _long-term support_ (LTS) releases.
+Both kinds of releases undergo the same rigorous quality assurance and stability testing.
 
-_Tech stream_ releases are released twice a year (each one receiving weekly updates) and are
-supported only until the next tech stream release is out.
+There are multiple _update releases_ per year.
+They are supported with bug fixes and critical platform updates until the next release (update or LTS) is published.
 
-_Unity LTS releases_ are released once a year and are based off the previous tech stream branch.
-LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
-
-Officially supported platforms as of Unity 2020 LTS are:
-
-- Mobile: iOS, Android (Android TV), tvOS
-- Desktop: Windows (Universal Windows Platform), Mac, Linux
-- Web: WebGL
-- Consoles: PlayStation (PS4, PS5), Xbox (Xbox One, Xbox Series X/S), Nintendo Switch, Stadia
-- Virtual/Extended reality: Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed
-  Reality (HoloLens), Magic Leap, and via Unity XR SDK Steam VR, Google Cardboard.
+LTS releases are published once a year.
+They are supported for two years with bug fixes and critical platform updates.
+Unity Enterprise and Unity Industry users benefit from an additional year of support for LTS releases.

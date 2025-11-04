@@ -12,7 +12,6 @@ changelogTemplate: https://github.com/rancher/rancher/releases/tag/v__LATEST__
 releaseDateColumn: General Availability
 eoasColumn: Full Support
 eolColumn: Limited Support
-eolWarnThreshold: 121
 
 identifiers:
   - purl: pkg:docker/rancher/rancher
@@ -24,26 +23,33 @@ auto:
 
 # Support and EOL dates can be found on https://www.suse.com/lifecycle#rancher
 releases:
+  - releaseCycle: "2.12"
+    releaseDate: 2025-07-30
+    eoas: false
+    eol: false
+    latest: "2.12.3"
+    latestReleaseDate: 2025-10-22
+
   - releaseCycle: "2.11"
     releaseDate: 2025-03-31
     eoas: 2026-10-24
     eol: 2026-10-24
-    latest: "2.11.4"
-    latestReleaseDate: 2025-07-30
+    latest: "2.11.7"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "2.10"
     releaseDate: 2024-11-18
     eoas: 2025-06-19
     eol: 2026-06-19
-    latest: "2.10.8"
-    latestReleaseDate: 2025-07-31
+    latest: "2.10.10"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "2.9"
     releaseDate: 2024-07-30
     eoas: 2025-02-26
     eol: 2026-02-26
-    latest: "2.9.10"
-    latestReleaseDate: 2025-05-22
+    latest: "2.9.12"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "2.8"
     releaseDate: 2023-12-05
@@ -114,6 +120,7 @@ releases:
     eol: 2020-06-30
     latest: "1.6.30"
     latestReleaseDate: 2020-05-04
+
 ---
 
 > [Rancher](https://www.rancher.com/) is a complete software stack for teams adopting containers.

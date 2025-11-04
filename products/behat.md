@@ -17,8 +17,8 @@ releases:
     releaseDate: 2014-04-20
     eoas: false
     eol: false
-    latest: "3.23.0"
-    latestReleaseDate: 2025-07-15
+    latest: "3.26.0"
+    latestReleaseDate: 2025-10-29
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01
@@ -26,6 +26,7 @@ releases:
     eol: 2015-06-01
     latest: "2.5.5"
     latestReleaseDate: 2015-06-01
+
 ---
 
 > [Behat](https://docs.behat.org/en/latest/) is an open-source test framework for PHP.

@@ -24,7 +24,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.camel/camel
+    - git: https://github.com/apache/camel.git
+      regex: '^camel-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # For LTS: eol = releaseDate + 1 year
 # For non-LTS : eol(x) = releaseDate(x+1)
@@ -32,13 +33,20 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
+  - releaseCycle: "4.15"
+    releaseDate: 2025-10-07
+    eol: false # releaseDate(4.16)
+    supportedJavaVersions: "17, 21"
+    latest: "4.15.0"
+    latestReleaseDate: 2025-10-03
+
   - releaseCycle: "4.14"
     lts: true
     releaseDate: 2025-08-15
     eol: 2026-08-20
     supportedJavaVersions: "17, 21"
-    latest: "4.14.0"
-    latestReleaseDate: 2025-08-15
+    latest: "4.14.2"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "4.13"
     releaseDate: 2025-07-04
@@ -66,8 +74,8 @@ releases:
     releaseDate: 2025-02-07
     eol: 2026-02-11
     supportedJavaVersions: "17, 21"
-    latest: "4.10.6"
-    latestReleaseDate: 2025-06-23
+    latest: "4.10.7"
+    latestReleaseDate: 2025-09-19
 
   - releaseCycle: "4.9"
     releaseDate: 2024-11-29
@@ -81,8 +89,8 @@ releases:
     releaseDate: 2024-09-10
     eol: 2025-09-10
     supportedJavaVersions: "17, 21"
-    latest: "4.8.8"
-    latestReleaseDate: 2025-06-21
+    latest: "4.8.9"
+    latestReleaseDate: 2025-09-13
 
   - releaseCycle: "4.7"
     releaseDate: 2024-07-09
@@ -119,7 +127,7 @@ releases:
     eol: 2024-12-26
     supportedJavaVersions: "11, 17"
     latest: "3.22.4"
-    latestReleaseDate: 2025-03-06
+    latestReleaseDate: 2025-03-05
 
   - releaseCycle: "4.3"
     releaseDate: 2023-12-11
@@ -266,7 +274,7 @@ releases:
     eol: 2020-12-11
     supportedJavaVersions: "8, 11"
     latest: "3.6.0"
-    latestReleaseDate: 2020-10-16
+    latestReleaseDate: 2020-10-15
 
   - releaseCycle: "3.5"
     releaseDate: 2020-08-31

@@ -24,33 +24,40 @@ auto:
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
+  - releaseCycle: "cos-125"
+    lts: true
+    releaseDate: 2025-10-09
+    eol: 2027-09-01
+    latest: "cos-125-19216-0-115"
+    latestReleaseDate: 2025-10-27
+
   - releaseCycle: "cos-121"
     lts: true
     releaseDate: 2025-04-14
     eol: 2027-03-01
-    latest: "cos-121-18867-199-28"
-    latestReleaseDate: 2025-08-12
+    latest: "cos-121-18867-294-2"
+    latestReleaseDate: 2025-10-27
 
   - releaseCycle: "cos-117"
     lts: true
     releaseDate: 2024-10-02
     eol: 2026-09-01
-    latest: "cos-117-18613-339-32"
-    latestReleaseDate: 2025-08-12
+    latest: "cos-117-18613-439-9"
+    latestReleaseDate: 2025-10-27
 
   - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-448-22"
-    latestReleaseDate: 2025-08-12
+    latest: "cos-113-18244-521-7"
+    latestReleaseDate: 2025-10-27
 
   - releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-570-26"
-    latestReleaseDate: 2025-08-12
+    latest: "cos-109-17800-570-50"
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "cos-105"
     lts: true

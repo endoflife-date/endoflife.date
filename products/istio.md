@@ -34,7 +34,6 @@ auto:
   methods:
     - git: https://github.com/istio/istio.git
     - release_table: https://istio.io/latest/docs/releases/supported-releases/
-      selector: "table"
       fields:
         releaseCycle: "Version"
         eol:
@@ -51,22 +50,22 @@ releases:
     releaseDate: 2025-08-11
     eol: 2026-04-30
     supportedKubernetesVersions: "1.29 - 1.33"
-    latest: "1.27.0"
-    latestReleaseDate: 2025-08-11
+    latest: "1.27.3"
+    latestReleaseDate: 2025-10-20
 
   - releaseCycle: "1.26"
     releaseDate: 2025-05-08
     eol: 2026-01-31
     supportedKubernetesVersions: "1.29 - 1.33"
-    latest: "1.26.3"
-    latestReleaseDate: 2025-07-29
+    latest: "1.26.6"
+    latestReleaseDate: 2025-10-20
 
   - releaseCycle: "1.25"
     releaseDate: 2025-03-03
-    eol: 2025-12-31
+    eol: 2025-09-30
     supportedKubernetesVersions: "1.29 - 1.32"
-    latest: "1.25.4"
-    latestReleaseDate: 2025-08-01
+    latest: "1.25.5"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "1.24"
     releaseDate: 2024-11-07
@@ -91,7 +90,7 @@ releases:
 
   - releaseCycle: "1.21"
     releaseDate: 2024-03-13
-    eol: 2024-12-31
+    eol: 2024-09-27
     supportedKubernetesVersions: "1.26 - 1.29"
     latest: "1.21.6"
     latestReleaseDate: 2024-09-23
@@ -193,6 +192,7 @@ releases:
     supportedKubernetesVersions: 1.16 - 1.18
     latest: "1.7.8"
     latestReleaseDate: 2021-02-25
+
 ---
 
 > [Istio](https://www.istio.io/) is a service mesh that extends Kubernetes to establish a

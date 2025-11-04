@@ -1,11 +1,14 @@
 ---
-title: Zerto
+title: HPE Zerto
 addedAt: 2024-01-20
 category: app
-tags: zerto
+tags: hpe zerto
+iconSlug: hp
 permalink: /zerto
+alternate_urls:
+  - /hpe-zerto
 releasePolicyLink: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
-releaseColumn: false
+latestColumn: false
 eoasColumn: General Support
 eolColumn: Critical Support
 
@@ -17,7 +20,6 @@ auto:
     # See https://github.com/endoflife-date/release-data/issues/448
     # Source is public https://www.val.town/x/captn3m0/zerto-lifecycle-matrix
     - release_table: https://captn3m0--6498b7f0494c11f0ad8a76b3cceeab13.web.val.run
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -30,10 +32,17 @@ auto:
         eol: "End of Bug Fixes"
 
 releases:
+  - releaseCycle: "10.8"
+    releaseLabel: "10.8"
+    releaseDate: 2025-10-28
+    eoas: false # Next GA date
+    eol: 2026-10-28
+    link: "https://help.zerto.com/bundle/RN.HTML.10.8/page/release_notes_for_zerto_10_8.html"
+
   - releaseCycle: "10.0_u7"
     releaseLabel: "10.0 Update 7"
     releaseDate: 2025-05-06
-    eoas: false # Next GA date
+    eoas: 2025-08-28
     eol: 2026-05-06
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U7/page/release_notes_for_zerto_10_0_update_7.html"
 
@@ -114,13 +123,13 @@ releases:
     releaseDate: 2020-03-22
     eoas: 2021-05-31
     eol: 2022-06-01
-    link: "https://www.zerto.com/wp-content/uploads/2020/03/whats-new-in-zerto-8-0_DS.pdf"
+    link: https://web.archive.org/web/20241012155214/https://www.zerto.com/wp-content/uploads/2020/03/whats-new-in-zerto-8-0_DS.pdf
 
   - releaseCycle: "7.5"
     releaseDate: 2019-09-22
     eoas: 2020-12-05
     eol: 2021-12-06
-    link: "https://www.zerto.com/press-releases/zerto-announces-general-availability-of-zerto-7-5-raising-the-bar-for-continuous-data-protection/"
+    link: https://web.archive.org/web/20250428001025/https://www.zerto.com/press-releases/zerto-announces-general-availability-of-zerto-7-5-raising-the-bar-for-continuous-data-protection/
 
   - releaseCycle: "7.0"
     releaseDate: 2019-04-26
@@ -146,15 +155,16 @@ releases:
     releaseDate: 2016-11-08
     eoas: 2018-08-31
     eol: 2018-08-31
+
 ---
 
-> [Zerto](https://www.zerto.com/zerto-platform/overview/) is a commercial product that provides
+> [HPE Zerto](https://www.hpe.com/us/en/zerto-software.html) is a commercial product that provides
 > disaster recovery, ransomware resilience and workload mobility software for virtualized
 > infrastructures and cloud environments.
 
 {: .warning }
 
-> Support for Zerto always requires an active maintenance contract.
+> Support for HPE Zerto always requires an active maintenance contract.
 
 There are two phases of support: a _General Support_ phase, with bug and security fixes, and a
 _Critical Support_ phase, with only critical bug and security fixes. Once the _Critical Support_

@@ -5,11 +5,33 @@ category: device
 iconSlug: intel
 permalink: /intel-processors
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
+staleReleaseThresholdYears: 7
 
 releases:
+  - releaseCycle: "arrow-lake"
+    releaseLabel: "Arrow Lake"
+    releaseDate: 2024-10-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/225837/products-formerly-arrow-lake.html
+
+  - releaseCycle: "lunar-lake"
+    releaseLabel: "Lunar Lake"
+    releaseDate: 2024-09-24
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html
+  
+  - releaseCycle: "meteor-lake"
+    releaseLabel: "Meteor Lake"
+    releaseDate: 2023-12-14
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/90353/products-formerly-meteor-lake.html
+
   - releaseCycle: "raptor-lake"
     releaseLabel: "Raptor Lake"
     releaseDate: 2022-10-20
@@ -27,7 +49,7 @@ releases:
   - releaseCycle: "rocket-lake"
     releaseLabel: "Rocket Lake"
     releaseDate: 2021-03-30
-    discontinued: false
+    discontinued: 2024-02-23 # https://www.tomshardware.com/news/intel-says-goodbye-to-rocket-lake-cpus
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/192985/products-formerly-rocket-lake.html
 
@@ -48,15 +70,15 @@ releases:
   - releaseCycle: "tiger-lake"
     releaseLabel: "Tiger Lake"
     releaseDate: 2020-09-02
-    discontinued: false
+    discontinued: 2024-01-26 # https://www.tomshardware.com/news/intel-terminates-11th-gen-tiger-lake-cpus-500-series-mobile-chipsets
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/88759/products-formerly-tiger-lake.html
 
   - releaseCycle: "lakefield"
     releaseLabel: "Lakefield"
     releaseDate: 2020-06-19
-    discontinued: true
-    eol: false
+    discontinued: 2021-07-07 # https://www.tomshardware.com/news/intel-retires-lakefield
+    eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/81657/products-formerly-lakefield.html
 
   - releaseCycle: "ice-lake"
@@ -69,7 +91,7 @@ releases:
   - releaseCycle: "comet-lake"
     releaseLabel: "Comet Lake"
     releaseDate: 2019-08-21
-    discontinued: false
+    discontinued: 2022-09-30 # https://en.wikipedia.org/wiki/Comet_Lake
     eol: false
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/90354/products-formerly-comet-lake.html
 
@@ -97,7 +119,7 @@ releases:
   - releaseCycle: "apollo-lake"
     releaseLabel: "Apollo Lake"
     releaseDate: 2016-08-30
-    discontinued: false # TODO: This is likely incorrect, but I am assuming it is under production due to this CPU being launched semi recently and having its status say not discontinued: https://ark.intel.com/content/www/us/en/ark/products/195253/intel-pentium-processor-n4200e-2m-cache-up-to-2-50-ghz.html
+    discontinued: true
     eol: 2023-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/80644/products-formerly-apollo-lake.html
 
@@ -230,7 +252,7 @@ releases:
   with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases).
 - While a CPU may be under security support, it may not be supported on a specific Windows release.
   More information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
-- A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported.
+- A CPU's iGPU may not be supported by the latest GPU driver branch even if the CPU is still supported.
 
 ## Determining product classification
 
@@ -243,3 +265,6 @@ your CPU belongs on:
 - FreeBSD/OpenBSD: `sysctl -n hw.model`
 
 Then check product classification on <https://ark.intel.com/>.
+
+Intel announces notifications via [Product Change Notifications](https://www.intel.com/content/www/us/en/collections/content-type/pcns.html).
+An third-party [PSN RSS/API Feed](https://intel.pcn.captnemo.in/) is available to subscribe to the same.

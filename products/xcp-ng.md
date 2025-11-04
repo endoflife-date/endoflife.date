@@ -2,6 +2,7 @@
 title: XCP-ng
 addedAt: 2023-02-08
 category: os
+tags: linux-foundation
 permalink: /xcp-ng
 alternate_urls:
   - /xcpng
@@ -13,7 +14,6 @@ auto:
   methods:
     - git: https://github.com/xcp-ng/xcp-ng-release.git
     - release_table: https://xcp-ng.org/docs/releases.html#lts-releases
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"

@@ -10,8 +10,9 @@ alternate_urls:
   - /vmwarephoton
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
-releaseColumn: false
+latestColumn: false
 eolColumn: Security Support
+staleReleaseThresholdYears: 3
 
 customFields:
   - name: kernelVersion
@@ -34,13 +35,13 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2021-02-25
-    eol: 2026-03-01
+    eol: 2026-03-31
     link: https://blogs.vmware.com/vsphere/2021/02/photon-os-4-0-release-announcement.html
     kernelVersion: "5.10"
 
   - releaseCycle: "3.0"
     releaseDate: 2019-02-08
-    eol: 2024-03-01
+    eol: 2024-03-31
     link: https://vmware.github.io/photon/assets/files/html/3.0/What-is-New-in-Photon-OS-3.0.html
     kernelVersion: "4.19"
 

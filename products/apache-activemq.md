@@ -17,6 +17,7 @@ identifiers:
   - repology: activemq
   - cpe: cpe:/a:apache:activemq
   - cpe: cpe:2.3:a:apache:activemq
+  - purl: pkg:maven/org.apache.activemq/activemq-broker
 
 auto:
   methods:
@@ -33,14 +34,14 @@ releases:
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.0"
-    latestReleaseDate: 2025-03-07
+    latest: "5.19.1"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "6.1"
     releaseDate: 2024-03-11
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.1.7"
-    latestReleaseDate: 2025-06-17
+    latest: "6.1.8"
+    latestReleaseDate: 2025-10-19
     link: https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311210&version=12355554 # "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
   - releaseCycle: "6.0"
@@ -52,7 +53,7 @@ releases:
 
   - releaseCycle: "5.18"
     releaseDate: 2023-03-18
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    eol: 2025-03-11 # https://github.com/apache/activemq-website/commit/30fa57bb8b06f321f5d38dc98f937cb7d94299ac
     latest: "5.18.7"
     latestReleaseDate: 2025-03-13
 
@@ -177,6 +178,8 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
+
 ---
 
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that

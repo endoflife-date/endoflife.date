@@ -31,12 +31,19 @@ auto:
 
 # eol(x) = MAX(latestReleaseDate, releaseDate(X+1))
 releases:
+  - releaseCycle: "4.1"
+    releaseDate: 2025-09-02
+    eol: false
+    eoes: 2027-10-15
+    latest: "4.1.0"
+    latestReleaseDate: 2025-09-02
+
   - releaseCycle: "4.0"
     releaseDate: 2025-03-18
-    eol: false
+    eol: 2025-09-02
     eoes: 2027-06-11
-    latest: "4.0.0"
-    latestReleaseDate: 2025-03-18
+    latest: "4.0.1"
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
@@ -240,6 +247,7 @@ releases:
     link: https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
+
 ---
 
 > [Apache Kafka](https://kafka.apache.org/) is an open-source distributed event streaming platform

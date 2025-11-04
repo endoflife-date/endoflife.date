@@ -34,12 +34,11 @@ releases:
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latestGdr: "16.0.1145.1"
-    latestGdrLink: https://support.microsoft.com/help/5063756
-    latest: "16.0.4210.1 CU20+GDR"
-    latestReleaseDate: 2025-08-12
-    # CU20 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate20
-    link: https://support.microsoft.com/help/5063814 # GDR for CU20
+    latestGdr: "16.0.1150.1"
+    latestGdrLink: https://support.microsoft.com/help/5065221
+    latest: "16.0.4215.2 CU21"
+    latestReleaseDate: 2025-09-11
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate21
 
   - releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -61,12 +60,12 @@ releases:
     releaseDate: 2019-11-04
     eoas: 2025-02-28
     eol: 2030-01-08
-    latestGdr: "15.0.2140.1"
-    latestGdrLink: https://support.microsoft.com/help/5063758
-    latest: "15.0.4440.1 CU32+GDR"
-    latestReleaseDate: 2025-08-12
+    latestGdr: "15.0.2145.1"
+    latestGdrLink: https://support.microsoft.com/help/5065223
+    latest: "15.0.4445.1 CU32+GDR"
+    latestReleaseDate: 2025-09-09
     # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
-    link: https://support.microsoft.com/help/5063757 # GDR for CU32
+    link: https://support.microsoft.com/help/5065222 # GDR for CU32
 
   - releaseCycle: "12.0-sp3"
     codename: Hekaton
@@ -114,13 +113,13 @@ releases:
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latestGdr: "14.0.2080.1"
-    latestGdrLink: https://support.microsoft.com/help/5063760
-    latest: "14.0.3500.1 CU31+GDR"
-    latestReleaseDate: 2025-08-12
+    latestGdr: "14.0.2085.1"
+    latestGdrLink: https://support.microsoft.com/help/5065224
+    latest: "14.0.3505.1 CU31+GDR"
+    latestReleaseDate: 2025-09-09
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
     # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
-    link: https://support.microsoft.com/help/5063759 # GDR for CU31
+    link: https://support.microsoft.com/help/5065225 # GDR for CU31
 
   - releaseCycle: "13.0-sp1"
     codename: SQL16

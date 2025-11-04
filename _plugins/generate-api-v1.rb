@@ -321,7 +321,7 @@ module ApiV1
           json.delete(:eoesFrom)
         end
 
-        if !product.data['releaseColumn']
+        if !product.data['latestColumn']
           json[:latest] = nil
         end
 

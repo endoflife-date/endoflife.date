@@ -6,9 +6,10 @@ tags: smartwatch
 iconSlug: samsung
 permalink: /samsung-galaxy-watch
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
-releaseColumn: false
+latestColumn: false
 eoasColumn: Wear OS Upgrades
 eolColumn: Security Updates
+staleReleaseThresholdYears: 5
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support

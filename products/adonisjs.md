@@ -6,7 +6,7 @@ tags: javascript-runtime
 iconSlug: adonisjs
 permalink: /adonisjs
 alternate_urls:
--   /adonis
+  - /adonis
 versionCommand: npm list --depth=0  @adonisjs/core
 
 auto:
@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "6"
     releaseDate: 2023-02-20
     eol: false
-    latest: "6.19.0"
-    latestReleaseDate: 2025-06-17
+    latest: "6.19.1"
+    latestReleaseDate: 2025-10-31
 
   - releaseCycle: "5"
     releaseDate: 2020-10-11
@@ -30,7 +30,7 @@ releases:
 ---
 
 > [AdonisJS](https://adonisjs.com/) AdonisJS is a TypeScript-first web framework for building web apps and API servers.
-> It comes with support for testing, modern tooling, an ecosystem of official packages, and more. 
+> It comes with support for testing, modern tooling, an ecosystem of official packages, and more.
 
 AdonisJS follows [semantic versioning](https://semver.org).
 Release, support, and EOL policies are not documented.

@@ -2,7 +2,7 @@
 title: Keycloak
 addedAt: 2022-12-15
 category: server-app
-tags: java-runtime red-hat
+tags: java-runtime red-hat linux-foundation
 iconSlug: keycloak
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
@@ -19,11 +19,17 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+  - releaseCycle: "26.4"
+    releaseDate: 2025-09-30
+    eol: false
+    latest: "26.4.2"
+    latestReleaseDate: 2025-10-23
+
   - releaseCycle: "26.3"
     releaseDate: 2025-07-02
-    eol: false
-    latest: "26.3.3"
-    latestReleaseDate: 2025-08-20
+    eol: 2025-09-30
+    latest: "26.3.5"
+    latestReleaseDate: 2025-09-25
 
   - releaseCycle: "26.2"
     releaseDate: 2025-04-11

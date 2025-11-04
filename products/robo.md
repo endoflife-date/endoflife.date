@@ -6,6 +6,7 @@ tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
+staleReleaseThresholdYears: 8
 
 customFields:
   - name: supportedPHPVersions
@@ -19,7 +20,6 @@ auto:
     - git: https://github.com/consolidation/robo.git
     - release_table: https://github.com/consolidation/robo/blob/5.x/README.md
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"

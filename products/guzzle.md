@@ -21,10 +21,10 @@ releases:
   - releaseCycle: "7"
     eol: false
     supportedPHPVersions: ">=7.2.5, <8.5"
-    latest: "7.9.3"
+    latest: "7.10.0"
     releaseDate: 2020-06-27
 
-    latestReleaseDate: 2025-03-27
+    latestReleaseDate: 2025-08-23
   - releaseCycle: "6"
     eol: 2023-10-31
     supportedPHPVersions: ">=5.5, <8.0"
@@ -49,8 +49,10 @@ releases:
   - releaseCycle: "3"
     eol: 2016-10-31
     supportedPHPVersions: ">=5.3.3, <7.0"
-    latest: "3.9.3"
-    releaseDate: 2012-10-15
+    latest: "3.8.1"
+    releaseDate: 2014-01-28
+    latestReleaseDate: 2014-01-28
+
 ---
 
 > [Guzzle](https://docs.guzzlephp.org/en/stable/) is an HTTP client written in PHP.

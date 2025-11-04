@@ -9,10 +9,13 @@ alternate_urls:
   - /nvidia-products
   - /nvidia-gpus
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
-releaseColumn: false
+latestColumn: false
 discontinuedColumn: true
 eoasColumn: true
+staleReleaseThresholdYears: 8
 
+# Support can be found on Wikipedia.
+# Example of a documented deprecated architecture (support status): https://en.wikipedia.org/wiki/Pascal_(microarchitecture).
 releases:
   - releaseCycle: "mobile-professional-ada-lovelace"
     releaseLabel: "Mobile Professional Blackwell (GB20x)"

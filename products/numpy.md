@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "2.3"
     releaseDate: 2025-06-07
     eol: 2027-06-08
-    latest: "2.3.2"
-    latestReleaseDate: 2025-07-24
+    latest: "2.3.4"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2.2"
     releaseDate: 2024-12-08
@@ -121,6 +121,7 @@ releases:
     eol: 2020-01-07
     latest: "1.14.6"
     latestReleaseDate: 2018-09-23
+
 ---
 
 > [NumPy](https://numpy.org/) offers comprehensive mathematical functions, random number generators,

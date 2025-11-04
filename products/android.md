@@ -11,8 +11,9 @@ alternate_urls:
 releasePolicyLink: https://developer.android.com/about/versions
 changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseColumn: false
+latestColumn: false
 eolColumn: Security Support
+staleReleaseThresholdYears: 4
 
 customFields:
   - name: apiVersion

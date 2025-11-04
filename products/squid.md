@@ -7,7 +7,7 @@ alternate_urls:
   - /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate: http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
+changelogTemplate: https://github.com/squid-cache/squid/releases/tag/SQUID_{{'__LATEST__'|replace:'.':'_'}}
 
 identifiers:
   - repology: squid
@@ -31,27 +31,31 @@ auto:
         - ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
         - ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
 
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2025-07-10
+    eol: false
+    latest: "7.3"
+    latestReleaseDate: 2025-10-28
+
   - releaseCycle: "6"
     releaseDate: 2023-07-06
-    eol: false
+    eol: 2025-07-10
     latest: "6.14"
     latestReleaseDate: 2025-06-24
-    link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
   - releaseCycle: "5"
     releaseDate: 2021-07-31
     eol: 2023-07-06
     latest: "5.9"
     latestReleaseDate: 2023-05-01
-    link: http://www.squid-cache.org/Versions/v5/squid-__LATEST__-RELEASENOTES.html
 
   - releaseCycle: "4"
     releaseDate: 2018-07-03
     eol: 2021-10-04
     latest: "4.17"
     latestReleaseDate: 2021-10-04
-    link: http://www.squid-cache.org/Versions/v4/squid-__LATEST__-RELEASENOTES.html
 
   - releaseCycle: "3.5"
     releaseDate: 2015-01-13
@@ -94,24 +98,29 @@ releases:
     eol: 2011-08-27
     latest: "3.0.26"
     latestReleaseDate: 2011-08-27
+    link: http://www.squid-cache.org/Versions/v3/3.0/
 
   - releaseCycle: "2.6"
     releaseDate: 2006-07-01
     eol: 2010-03-26
     latest: "2.6.24"
     latestReleaseDate: 2010-03-26
+    link: http://www.squid-cache.org/Versions/v2/2.6/
 
   - releaseCycle: "2.5"
     releaseDate: 2002-09-24
     eol: 2006-05-20
     latest: "2.5.14"
     latestReleaseDate: 2006-05-20
+    link: http://www.squid-cache.org/Versions/v2/2.5/
 
   - releaseCycle: "2.4"
     releaseDate: 2001-03-20
     eol: 2002-07-02
     latest: "2.4.7"
     latestReleaseDate: 2002-07-02
+    link: http://www.squid-cache.org/Versions/v2/2.4/
+
 ---
 
 > [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP,

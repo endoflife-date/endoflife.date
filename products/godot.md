@@ -11,6 +11,7 @@ releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.h
 changelogTemplate: "https://github.com/godotengine/godot/releases/tag/{{'__LATEST__'|drop_zero_patch}}-stable"
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
+staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: godot
@@ -29,6 +30,14 @@ auto:
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
+  - releaseCycle: "4.5"
+    releaseDate: 2025-09-15
+    eoas: false
+    eol: false
+    latest: "4.5.1"
+    latestReleaseDate: 2025-10-13
+    link: https://godotengine.org/releases/4.5/
+
   - releaseCycle: "4.4"
     releaseDate: 2025-03-03
     eoas: false
@@ -42,14 +51,14 @@ releases:
     lts: true
     eoas: false
     eol: false
-    latest: "3.6.1"
-    latestReleaseDate: 2025-06-24
+    latest: "3.6.2"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "4.3"
     releaseDate: 2024-08-15
     eoas: false
     eol: false
-    latest: "4.3.0"
+    latest: "4.3"
     latestReleaseDate: 2024-08-15
 
   - releaseCycle: "4.2"
@@ -139,6 +148,7 @@ releases:
     link: https://godotengine.org/article/godot-engine-reaches-1-0/
     latest: "1.0"
     latestReleaseDate: 2014-12-15
+
 ---
 
 > [Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create

@@ -20,9 +20,21 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.44"
+    releaseDate: 2025-10-29
+    eol: false
+    latest: "2.44.0"
+    latestReleaseDate: 2025-10-29
+
+  - releaseCycle: "2.43"
+    releaseDate: 2025-10-13
+    eol: 2025-10-29
+    latest: "2.43.0"
+    latestReleaseDate: 2025-10-13
+
   - releaseCycle: "2.42"
     releaseDate: 2025-07-14
-    eol: false
+    eol: 2025-10-13
     latest: "2.42.0"
     latestReleaseDate: 2025-07-14
 
@@ -321,7 +333,7 @@ releases:
 
 There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
 generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
-point).  
+point).
 This page tracks ActiveMQ "Artemis" releases; information about the classic version can be found in
 its own [product page](/apache-activemq).
 

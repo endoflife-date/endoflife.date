@@ -20,7 +20,6 @@ auto:
       # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
       regex_exclude: '^5\.0\.\d+$'
     - release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#1
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: "table"
       fields:
@@ -30,7 +29,6 @@ auto:
           regex_exclude: '^5\.0 LA$' # Limited Availability release only, see https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions.
         releaseDate: "Release Date"
     - release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#2
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: "table"
       fields:
@@ -48,9 +46,27 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+  - releaseCycle: "2025.10"
+    releaseDate: 2025-10-30
+    eol: false
+    latest: "2025.10.1"
+    latestReleaseDate: 2025-10-23
+
+  - releaseCycle: "2025.09"
+    releaseDate: 2025-09-29
+    eol: 2025-10-30
+    latest: "2025.09.0"
+    latestReleaseDate: 2025-09-18
+
+  - releaseCycle: "2025.08"
+    releaseDate: 2025-08-27
+    eol: 2025-09-29
+    latest: "2025.08.0"
+    latestReleaseDate: 2025-08-15
+
   - releaseCycle: "2025.07"
     releaseDate: 2025-07-31
-    eol: false
+    eol: 2025-08-15
     latest: "2025.07.1"
     latestReleaseDate: 2025-08-01
 
@@ -94,8 +110,8 @@ releases:
     releaseDate: 2024-12-06
     eol: false # releaseDate(5.27)
     lts: true
-    latest: "5.26.10"
-    latestReleaseDate: 2025-08-01
+    latest: "5.26.15"
+    latestReleaseDate: 2025-10-30
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"
@@ -276,9 +292,9 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.44"
+    latest: "4.4.46"
     lts: true
-    latestReleaseDate: 2025-05-22
+    latestReleaseDate: 2025-09-30
     link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
   - releaseCycle: "4.3"

@@ -17,11 +17,10 @@ identifiers:
 # https://regex101.com/r/2GkIJ5/1
 auto:
   methods:
-    - github_releases: grafana/grafana
+    - git: https://github.com/grafana/grafana.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
       template: "{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}"
     - release_table: https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/
-      selector: "table"
       fields:
         releaseCycle:
           column: "Version"
@@ -32,33 +31,40 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
+  - releaseCycle: "12.2"
+    releaseDate: 2025-09-23
+    eoas: false
+    eol: 2026-06-23
+    latest: "12.2.1"
+    latestReleaseDate: 2025-10-21
+
   - releaseCycle: "12.1"
     releaseDate: 2025-07-22
-    eoas: false
+    eoas: 2025-09-23
     eol: 2026-04-22
-    latest: "12.1.1"
-    latestReleaseDate: 2025-08-13
+    latest: "12.1.3"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: 2025-07-22
     eol: 2026-02-05
-    latest: "12.0.4"
-    latestReleaseDate: 2025-08-13
+    latest: "12.0.6"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.6"
     releaseDate: 2025-03-25
     eoas: 2025-05-05
     eol: 2026-06-25
-    latest: "11.6.5"
-    latestReleaseDate: 2025-08-13
+    latest: "11.6.7"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.5"
     releaseDate: 2025-01-28
     eoas: 2025-03-25
     eol: 2025-10-28
-    latest: "11.5.8"
-    latestReleaseDate: 2025-08-12
+    latest: "11.5.10"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "11.4"
     releaseDate: 2024-12-05
@@ -72,28 +78,28 @@ releases:
     eoas: 2024-12-05
     eol: 2025-07-22
     latest: "11.3.9"
-    latestReleaseDate: 2025-07-23
+    latestReleaseDate: 2025-07-18
 
   - releaseCycle: "11.2"
     releaseDate: 2024-08-27
     eoas: 2024-10-22
     eol: 2025-05-27
     latest: "11.2.10+security-01"
-    latestReleaseDate: 2025-06-12
+    latestReleaseDate: 2025-05-28
 
   - releaseCycle: "11.1"
     releaseDate: 2024-06-25
     eoas: 2024-08-27
     eol: 2025-04-23
     latest: "11.1.13"
-    latestReleaseDate: 2025-03-25
+    latestReleaseDate: 2025-03-21
 
   - releaseCycle: "11.0"
     releaseDate: 2024-05-14
     eoas: 2024-06-21
     eol: 2025-02-14
-    latest: "11.0.10"
-    latestReleaseDate: 2025-01-28
+    latest: "11.0.11"
+    latestReleaseDate: 2025-02-14
 
   - releaseCycle: "10.4"
     releaseDate: 2024-03-05
@@ -107,7 +113,7 @@ releases:
     eoas: 2024-03-06
     eol: 2024-10-23
     latest: "10.3.12"
-    latestReleaseDate: 2024-10-22
+    latestReleaseDate: 2024-10-18
 
   - releaseCycle: "10.2"
     releaseDate: 2023-10-24
@@ -121,14 +127,14 @@ releases:
     eoas: 2023-10-24
     eol: 2024-01-23
     latest: "10.1.10"
-    latestReleaseDate: 2024-05-14
+    latestReleaseDate: 2024-05-13
 
   - releaseCycle: "10.0"
     releaseDate: 2023-06-09
     eoas: 2023-08-23
     eol: 2023-10-24
     latest: "10.0.13"
-    latestReleaseDate: 2024-03-26
+    latestReleaseDate: 2024-03-25
 
   - releaseCycle: "9.5"
     releaseDate: 2023-04-06
@@ -142,21 +148,21 @@ releases:
     eoas: 2023-04-06
     eol: 2023-06-09
     latest: "9.4.17"
-    latestReleaseDate: 2023-10-12
+    latestReleaseDate: 2023-10-11
 
   - releaseCycle: "9.3"
     releaseDate: 2022-11-29
     eoas: 2023-02-27
     eol: 2023-04-06
     latest: "9.3.16"
-    latestReleaseDate: 2023-06-22
+    latestReleaseDate: 2023-06-07
 
   - releaseCycle: "9.2"
     releaseDate: 2022-10-11
     eoas: 2022-11-29
     eol: 2023-02-27
     latest: "9.2.20"
-    latestReleaseDate: 2023-06-22
+    latestReleaseDate: 2023-06-07
 
   - releaseCycle: "9.1"
     releaseDate: 2022-08-16
@@ -177,7 +183,7 @@ releases:
     eoas: 2022-06-13
     eol: 2023-06-09
     latest: "8.5.27"
-    latestReleaseDate: 2023-06-22
+    latestReleaseDate: 2023-06-07
 
   - releaseCycle: "7"
     releaseDate: 2020-05-15

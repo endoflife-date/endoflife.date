@@ -18,17 +18,23 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.31"
+    releaseDate: 2025-10-21
+    eol: false
+    latest: "3.31.0"
+    latestReleaseDate: 2025-10-21
+
   - releaseCycle: "3.30"
     releaseDate: 2025-05-05
     eol: false
-    latest: "3.30.2"
-    latestReleaseDate: 2025-06-19
+    latest: "3.30.4"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "3.29"
     releaseDate: 2024-10-29
-    eol: false
-    latest: "3.29.5"
-    latestReleaseDate: 2025-07-17
+    eol: 2025-10-21
+    latest: "3.29.6"
+    latestReleaseDate: 2025-09-18
 
   - releaseCycle: "3.28"
     releaseDate: 2024-05-10
@@ -53,6 +59,7 @@ releases:
     eol: 2023-12-15
     latest: "3.25.2"
     latestReleaseDate: 2023-09-05
+
 ---
 
 > Calico is a networking and network security solution for containers, virtual

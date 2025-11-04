@@ -21,9 +21,15 @@ auto:
 # Release dates can be found on https://www.graalvm.org/release-calendar/.
 # eol(x) = releaseDate(x+1).
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-09-16
+    eol: false
+    latest: "25.0.1"
+    latestReleaseDate: 2025-10-21
+
   - releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-16 # releaseDate(25)
+    eol: 2025-09-16
     latest: "24.0.2"
     latestReleaseDate: 2025-07-15
 
@@ -56,6 +62,7 @@ releases:
     eol: 2023-10-24
     latest: "17.0.9"
     latestReleaseDate: 2023-10-24
+
 ---
 
 > [GraalVM Community Edition](https://www.graalvm.org/community/) is a [GPLv2 with CPE](https://github.com/oracle/graal/blob/master/LICENSE)

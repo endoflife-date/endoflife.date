@@ -13,28 +13,41 @@ releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
 eoasColumn: true
 eolColumn: Bug and Security Fixes
+staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: groovy
   - cpe: cpe:/a:apache:groovy
   - cpe: cpe:2.3:a:apache:groovy
+  - purl: pkg:maven/org.apache.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy
+  - purl: pkg:maven/org.codehaus.groovy/groovy-all
 
 auto:
   methods:
     - maven: org.apache.groovy/groovy
     - maven: org.codehaus.groovy/groovy
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
-  - releaseCycle: "4.0"
-    releaseDate: 2022-01-25
+  - releaseCycle: "5.0"
+    releaseDate: 2025-08-21
     eol: false
     eoas: false
-    latest: "4.0.28"
-    latestReleaseDate: 2025-07-20
+    latest: "5.0.2"
+    latestReleaseDate: 2025-10-15
+
+  - releaseCycle: "4.0"
+    releaseDate: 2022-01-25
+    eoas: 2025-08-21
+    eol: false
+    latest: "4.0.29"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "3.0"
     releaseDate: 2020-02-10
-    eoas: true
+    eoas: 2022-01-25
     eol: false
     latest: "3.0.25"
     latestReleaseDate: 2025-05-27
@@ -42,7 +55,7 @@ releases:
   - releaseCycle: "2.5"
     releaseDate: 2018-05-30
     eoas: true
-    eol: false
+    eol: false # still listed on https://groovy.apache.org/download.html
     latest: "2.5.23"
     latestReleaseDate: 2023-08-22
 
@@ -52,6 +65,7 @@ releases:
     eol: true
     latest: "2.4.21"
     latestReleaseDate: 2020-12-03
+
 ---
 
 > [Apache Groovy](https://www.groovy-lang.org/) is a powerful, optionally typed and dynamic
@@ -74,6 +88,7 @@ Groovy releases have [the following JVM requirements](https://groovy.apache.org/
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
 | ------ | :---------------------- | ------------------- |
+| 5.0    | N/A                     | 11+                 |
 | 4.0    | N/A                     | 8+                  |
 | 3.0    | 8+                      | 8+                  |
 | 2.5    | 7+                      | 7+                  |

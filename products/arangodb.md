@@ -6,7 +6,6 @@ iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
-eolWarnThreshold: 121
 
 identifiers:
   - repology: arangodb
@@ -22,8 +21,8 @@ releases:
   - releaseCycle: "3.12"
     releaseDate: 2024-03-21
     eol: false
-    latest: "3.12.5.2"
-    latestReleaseDate: 2025-08-01
+    latest: "3.12.6"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "3.11"
     releaseDate: 2023-05-23
@@ -103,6 +102,7 @@ releases:
     latest: "2.8.11"
     latestReleaseDate: 2016-07-13
     link: null
+
 ---
 
 > [ArangoDB](https://arangodb.com/) is a graph database system developed by ArangoDB Inc. ArangoDB

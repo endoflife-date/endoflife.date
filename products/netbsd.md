@@ -9,6 +9,7 @@ versionCommand: uname -r
 releasePolicyLink: https://www.netbsd.org/releases/
 changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
 eoasColumn: true
+staleReleaseThresholdYears: 2
 
 identifiers:
   - cpe: cpe:/o:netbsd:netbsd
@@ -83,6 +84,7 @@ releases:
     eol: 2008-08-21
     latest: "2.1"
     latestReleaseDate: 2005-11-02
+    link: null
 
   - releaseCycle: "1"
     releaseDate: 1994-10-26
@@ -90,6 +92,7 @@ releases:
     eol: 2006-05-17
     latest: "1.6.2"
     latestReleaseDate: 2004-03-01
+    link: null
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like

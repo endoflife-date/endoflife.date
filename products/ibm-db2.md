@@ -8,9 +8,10 @@ permalink: /ibm-db2
 versionCommand: db2level
 releasePolicyLink: https://www.ibm.com/support/pages/db2-distributed-end-support-eos-dates
 changelogTemplate: https://www.ibm.com/docs/en/db2/__RELEASE_CYCLE__.0
-releaseColumn: false
+latestColumn: false
 eol: Base Support
 eoes: Extended Support
+staleReleaseThresholdYears: 7
 
 identifiers:
   - cpe: cpe:/a:ibm:db2
@@ -30,8 +31,8 @@ releases:
 
   - releaseCycle: "11.5"
     releaseDate: 2019-06-25
-    eol: false
-    eoes: false
+    eol: 2027-04-30
+    eoes: 2031-04-30
     link: https://www.ibm.com/docs/en/db2/11.5.x
 
   - releaseCycle: "11.1"
@@ -65,6 +66,7 @@ releases:
     eol: 2012-04-30
     eoes: 2015-04-30
     link: https://www.ibm.com/support/pages/db2-version-91-linux-unix-and-windows-manuals
+
 ---
 
 > [IBM Db2](https://www.ibm.com/products/db2) is a commercial database management system developed by IBM.

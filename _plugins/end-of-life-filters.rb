@@ -1,5 +1,4 @@
 require 'nokogiri'
-require_relative 'identifier-to-url'
 
 # Various custom filters used by endoflife.date.
 #
@@ -127,10 +126,6 @@ module EndOfLifeFilter
       # Assuming it's a date
       return end_color(days_from_now(input))
     end
-  end
-
-  def identifier_to_url(input)
-    IdentifierToUrl.new.render(input)
   end
 end
 

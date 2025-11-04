@@ -8,9 +8,10 @@ permalink: /ibm-mq
 versionCommand: dspmqver
 releasePolicyLink: https://www.ibm.com/support/pages/ibm-mq-faq-long-term-support-and-continuous-delivery-releases
 changelogTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
-releaseColumn: false
+latestColumn: false
 eolColumn: Support
 eoesColumn: Extended Support
+staleReleaseThresholdYears: 4
 
 identifiers:
   - cpe: cpe:/a:ibm:mq
@@ -27,7 +28,7 @@ auto:
 # or https://www.ibm.com/support/pages/space/product-lifecycle/ibm_product_lifecycle_list.csv.
 releases:
   - releaseCycle: "9.4"
-    releaseLabel: "IBM MQ 9.3 LTS"
+    releaseLabel: "IBM MQ 9.4 LTS"
     releaseDate: 2024-06-18
     eol: false
     eoes: false

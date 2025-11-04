@@ -33,8 +33,13 @@ auto:
     - github_releases: ibmruntimes/semeru23-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
+    - github_releases: ibmruntimes/semeru24-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
+    - github_releases: ibmruntimes/semeru25-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
     - release_table: https://www.ibm.com/support/pages/node/6451203
-      selector: "table"
       fields:
         releaseCycle: "IBM Semeru Runtimes version"
         eol: "EoA3"
@@ -42,15 +47,28 @@ auto:
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-25
+    eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
+    latest: "25.0.1+8"
+    latestReleaseDate: 2025-10-30
+
+  - releaseCycle: "24"
+    releaseDate: 2025-03-31
+    eol: 2025-09-25
+    latest: "24.0.2+12"
+    latestReleaseDate: 2025-08-12
+
   - releaseCycle: "23"
     releaseDate: 2024-09-18
-    eol: 2025-03-31 # expected for 24, https://www.java.com/releases/
+    eol: 2025-03-31
     latest: "23.0.2+7"
     latestReleaseDate: 2025-02-10
 
   - releaseCycle: "22"
     releaseDate: 2024-05-21
-    eol: 2024-09-18 # releaseDate(23)
+    eol: 2024-09-18
     latest: "22.0.2+9"
     latestReleaseDate: 2024-09-10
 
@@ -58,29 +76,30 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
-    latest: "21.0.8+9"
-    latestReleaseDate: 2025-07-24
+    latest: "21.0.9+10"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.16+8"
-    latestReleaseDate: 2025-07-24
+    latest: "17.0.17+10"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: "11.0.28+6"
-    latestReleaseDate: 2025-07-24
+    latest: "11.0.29+7"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-30
-    latest: "8u462-b08"
-    latestReleaseDate: 2025-07-24
+    latest: "8u472-b08"
+    latestReleaseDate: 2025-10-28
+
 ---
 
 > The [IBM Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/) are free

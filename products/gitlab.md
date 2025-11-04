@@ -9,9 +9,7 @@ versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 eoasColumn: true
-eoasWarnThreshold: 20
 eolColumn: Maintenance Support
-eolWarnThreshold: 60
 
 identifiers:
   - repology: gitlab
@@ -22,39 +20,45 @@ auto:
   methods:
     - git: https://gitlab.com/gitlab-org/gitlab.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
-    - release_table: https://about.gitlab.com/releases/
-      selector: "table"
-      fields:
-        releaseCycle: "Version"
-        releaseDate:
-          column: "Release Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/
 releases:
+  - releaseCycle: "18.5"
+    releaseDate: 2025-10-16
+    eoas: 2025-11-20 # releaseDate(18.6)
+    eol: 2026-01-15 # releaseDate(18.8)
+    latest: "18.5.1"
+    latestReleaseDate: 2025-10-21
+
+  - releaseCycle: "18.4"
+    releaseDate: 2025-09-18
+    eoas: 2025-10-16 # releaseDate(18.5)
+    eol: 2025-12-18 # releaseDate(18.7)
+    latest: "18.4.3"
+    latestReleaseDate: 2025-10-21
+
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
     eol: 2025-11-20 # releaseDate(18.6)
-    latest: "18.3.0"
-    latestReleaseDate: 2025-08-21
+    latest: "18.3.5"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "18.2"
-    releaseDate: 2025-07-17
+    releaseDate: 2025-07-16
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
-    latest: "18.2.4"
-    latestReleaseDate: 2025-08-18
+    latest: "18.2.8"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-17 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
-    latest: "18.1.4"
-    latestReleaseDate: 2025-08-12
+    latest: "18.1.6"
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14

@@ -1,6 +1,6 @@
 ---
 title: Dovecot
-addedAt: 2025-08-18
+addedAt: 2025-08-22
 category: server-app
 iconSlug: dovecot
 permalink: /dovecot
@@ -9,6 +9,7 @@ releasePolicyLink: https://dovecot.org/mailman3/archives/list/dovecot-news@dovec
 changelogTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
+staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: dovecot
@@ -24,8 +25,8 @@ releases:
     releaseDate: 2025-01-24
     eoas: false
     eol: false
-    latest: "2.4.1"
-    latestReleaseDate: 2025-03-28
+    latest: "2.4.2"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2.3"
     releaseDate: 2017-12-22
@@ -46,7 +47,7 @@ releases:
     eoas: 2013-04-11
     eol: 2017-12-22
     latest: "2.1.16"
-    latestReleaseDate: 2013-04-04
+    latestReleaseDate: 2013-04-05
 
   - releaseCycle: "2.0"
     releaseDate: 2010-08-16

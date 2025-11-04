@@ -2,7 +2,7 @@
 title: Express
 addedAt: 2025-02-23
 category: framework
-tags: herodevs javascript-runtime
+tags: herodevs javascript-runtime linux-foundation
 iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/

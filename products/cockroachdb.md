@@ -20,7 +20,6 @@ auto:
   methods:
     - git: https://github.com/cockroachdb/cockroach.git
     - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#1
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
@@ -29,7 +28,6 @@ auto:
         eoas: "Maintenance Support ends"
         eol: "Assistance Support ends"
     - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#2
-      selector: "table"
       fields:
         releaseCycle:
           column: "Major Version"
@@ -54,15 +52,15 @@ releases:
     releaseDate: 2025-08-04
     eoas: 2026-02-04
     eol: false
-    latest: "25.3.0"
-    latestReleaseDate: 2025-08-14
+    latest: "25.3.4"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.4"
-    latestReleaseDate: 2025-07-31
+    latest: "25.2.8"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
@@ -75,8 +73,8 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.18"
-    latestReleaseDate: 2025-08-07
+    latest: "24.3.22"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12
@@ -90,16 +88,16 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.22"
-    latestReleaseDate: 2025-07-31
+    latest: "24.1.25"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05
     lts: 2026-07-08 # v23.2.7
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    latest: "23.2.27"
-    latestReleaseDate: 2025-06-05
+    latest: "23.2.28"
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "23.1"
     releaseDate: 2023-05-15

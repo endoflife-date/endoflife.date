@@ -8,13 +8,11 @@ versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-eolWarnThreshold: 30
 
 auto:
   methods:
     - github_releases: mattermost/mattermost-server
     - release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
-      selector: "table"
       render_javascript: true
       render_javascript_wait_for: table
       fields:
@@ -31,17 +29,29 @@ identifiers:
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+  - releaseCycle: "11.0"
+    releaseDate: 2025-10-16
+    eol: 2026-01-15
+    latest: "11.0.4"
+    latestReleaseDate: 2025-10-28
+
+  - releaseCycle: "10.12"
+    releaseDate: 2025-09-16
+    eol: 2025-12-15
+    latest: "10.12.2"
+    latestReleaseDate: 2025-10-28
+
   - releaseCycle: "10.11"
     releaseDate: 2025-08-15
     eol: 2026-08-15
-    latest: "10.11.1"
-    latestReleaseDate: 2025-08-08
+    latest: "10.11.5"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "10.10"
     releaseDate: 2025-07-16
     eol: 2025-10-15
-    latest: "10.10.2"
-    latestReleaseDate: 2025-08-14
+    latest: "10.10.3"
+    latestReleaseDate: 2025-09-16
 
   - releaseCycle: "10.9"
     releaseDate: 2025-06-16
@@ -71,8 +81,8 @@ releases:
     releaseDate: 2025-02-16
     lts: true
     eol: 2025-11-15
-    latest: "10.5.10"
-    latestReleaseDate: 2025-08-15
+    latest: "10.5.14"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "10.4"
     releaseDate: 2025-01-16
@@ -106,73 +116,73 @@ releases:
 
   - releaseCycle: "9.11"
     lts: true
-    releaseDate: 2024-08-16
+    releaseDate: 2024-08-02
     eol: 2025-05-15
     latest: "9.11.18"
     latestReleaseDate: 2025-07-22
 
   - releaseCycle: "9.10"
-    releaseDate: 2024-07-16
+    releaseDate: 2024-06-28
     eol: 2024-10-15
     latest: "9.10.3"
     latestReleaseDate: 2024-09-26
 
   - releaseCycle: "9.9"
-    releaseDate: 2024-06-14
+    releaseDate: 2024-05-31
     eol: 2024-09-15
     latest: "9.9.3"
     latestReleaseDate: 2024-08-27
 
   - releaseCycle: "9.8"
-    releaseDate: 2024-05-16
+    releaseDate: 2024-05-03
     eol: 2024-08-15
     latest: "9.8.3"
     latestReleaseDate: 2024-07-22
 
   - releaseCycle: "9.7"
-    releaseDate: 2024-04-16
+    releaseDate: 2024-04-03
     eol: 2024-07-15
     latest: "9.7.6"
     latestReleaseDate: 2024-07-02
 
   - releaseCycle: "9.6"
-    releaseDate: 2024-03-16
+    releaseDate: 2024-03-01
     eol: 2024-06-15
     latest: "9.6.3"
     latestReleaseDate: 2024-06-03
 
   - releaseCycle: "9.5"
-    releaseDate: 2024-02-16
+    releaseDate: 2024-02-02
     eol: 2024-11-15
     latest: "9.5.14"
     latestReleaseDate: 2025-05-09
 
   - releaseCycle: "9.4"
-    releaseDate: 2024-01-16
+    releaseDate: 2024-01-08
     eol: 2024-04-15
     latest: "9.4.5"
     latestReleaseDate: 2024-03-26
 
   - releaseCycle: "9.3"
-    releaseDate: 2023-12-16
+    releaseDate: 2023-12-05
     eol: 2024-03-15
     latest: "9.3.3"
     latestReleaseDate: 2024-03-06
 
   - releaseCycle: "9.2"
-    releaseDate: 2023-11-16
+    releaseDate: 2023-11-06
     eol: 2024-02-15
     latest: "9.2.6"
     latestReleaseDate: 2024-02-14
 
   - releaseCycle: "9.1"
-    releaseDate: 2023-10-16
+    releaseDate: 2023-10-13
     eol: 2024-01-15
     latest: "9.1.5"
     latestReleaseDate: 2024-01-09
 
   - releaseCycle: "9.0"
-    releaseDate: 2023-09-16
+    releaseDate: 2023-09-14
     eol: 2023-12-15
     latest: "9.0.5"
     latestReleaseDate: 2023-11-29

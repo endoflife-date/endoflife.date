@@ -16,7 +16,6 @@ identifiers:
   - repology: php:drupal
   - purl: pkg:composer/drupal/core
   - purl: pkg:docker/bitnami/drupal
-  - purl: pkg:docker/bitnami/drupal-nginx
   - purl: pkg:docker/library/drupal
   - purl: pkg:github/drupal/core
   - cpe: cpe:2.3:a:drupal:drupal
@@ -34,15 +33,15 @@ releases:
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "11.2.3"
-    latestReleaseDate: 2025-08-07
+    latest: "11.2.5"
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "10.5.2"
-    latestReleaseDate: 2025-08-07
+    latest: "10.5.4"
+    latestReleaseDate: 2025-10-02
 
   - releaseCycle: "10.4"
     releaseDate: 2024-12-17
@@ -157,6 +156,7 @@ releases:
     eoes: false
     latest: "7.103"
     latestReleaseDate: 2024-12-04
+
 ---
 
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written

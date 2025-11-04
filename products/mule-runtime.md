@@ -9,62 +9,105 @@ alternate_urls:
   - /mule-runtime
   - /mulesoft-runtimes
   - /mule-runtimes
-releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
-changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__LATEST__'|split:'-'|first}}-release-notes"
+releasePolicyLink: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence
+changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__RELEASE_CYCLE__'|split:'-'|first}}.0-release-notes"
 eoasColumn: Standard Support
 eolColumn: Extended Support
+
+auto:
+  methods:
+    - version_table: https://repository.mulesoft.org/nexus/content/repositories/releases/org/mule/runtime/mule-core/
+      header_selector: "tr:nth-of-type(1)"
+      name_column: "Name"
+      regex: '^(?P<value>\d+\.\d+\.\d+(-\d+))/$'
+      template: "{{value}}"
+      date_column: "Last Modified"
+    - release_table: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Mule Version"
+          regex: '^(?P<value>\d+\.\d+)(?P<lts> LTS)?.*$'
+          template: "{{value}}{%if lts %}-lts{%endif%}"
+        releaseLabel: "Mule Version"
+        releaseDate: "Release Date"
+        eoas: "End of Standard Support"
+        eol: "End of Extended Support"
 
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
 # Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
-  - releaseCycle: "4.9"
+  - releaseCycle: "4.10"
+    releaseLabel: '4.10 Edge'
+    releaseDate: 2025-10-31
+    eoas: 2026-03-31
+    eol: 2026-06-30
+    latest: "4.10.0"
+    latestReleaseDate: 2025-10-31
+
+  - releaseCycle: "4.9-lts"
+    releaseLabel: '4.9 LTS'
     lts: true
-    releaseDate: 2025-02-06
-    eoas: 2026-08-06
-    eol: 2027-02-06
-    latest: "4.9.2"
-    latestReleaseDate: 2025-03-15 # no exact date
-    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.9.0-release-notes
+    releaseDate: 2025-02-28
+    eoas: 2026-08-31
+    eol: 2027-02-28
+    latest: "4.9.9" # should be at least equal to latest of 4.9 Edge, but don't know how to automate that yet
+    latestReleaseDate: 2025-09-02
+
+  - releaseCycle: "4.9"
+    releaseLabel: '4.9 Edge'
+    releaseDate: 2025-02-28
+    eoas: 2025-11-30
+    eol: 2026-02-28
+    latest: "4.9.9"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "4.8"
-    releaseDate: 2024-10-08
-    eoas: 2025-03-08
-    eol: 2025-06-08
-    latest: "4.8.5"
-    latestReleaseDate: 2025-02-15 # no exact date
-    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.8.0-release-notes
+    releaseLabel: '4.8 Edge'
+    releaseDate: 2024-10-31
+    eoas: 2025-03-31
+    eol: 2025-06-30
+    latest: "4.8.6"
+    latestReleaseDate: 2025-06-03
 
   - releaseCycle: "4.7"
-    releaseDate: 2024-06-04
-    eoas: 2024-10-04
-    eol: 2025-02-04
+    releaseLabel: '4.7 Edge'
+    releaseDate: 2024-06-30
+    eoas: 2024-10-31
+    eol: 2025-02-28
     latest: "4.7.4"
-    latestReleaseDate: 2024-10-15 # no exact date
-    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.7.0-release-notes
+    latestReleaseDate: 2024-10-05
+
+  - releaseCycle: "4.6-lts"
+    releaseLabel: "4.6 LTS"
+    releaseDate: 2024-02-29
+    eoas: 2026-02-28
+    eol: 2026-10-31
+    latest: "4.6.22" # should be at least equal to latest of 4.6 Edge, but don't know how to automate that yet
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "4.6"
-    lts: true
-    releaseDate: 2024-02-06
-    eoas: 2025-08-06
-    eol: 2026-02-06
-    latest: "4.6.14"
-    latestReleaseDate: 2025-03-15 # no exact date
-    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.6.0-release-notes
+    releaseLabel: '4.6 Edge'
+    releaseDate: 2024-02-29
+    eoas: 2024-06-30
+    eol: 2024-10-31
+    latest: "4.6.22"
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "4.5"
-    releaseDate: 2023-10-03
-    eoas: 2024-02-06
-    eol: 2024-06-04
-    latest: "4.5.4"
-    latestReleaseDate: 2024-04-15 # no exact date
-    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.5.0-release-notes
+    releaseLabel: '4.5 Edge'
+    releaseDate: 2023-10-31
+    eoas: 2024-02-29
+    eol: 2024-06-30
+    latest: "4.5.3"
+    latestReleaseDate: 2024-02-22
 
   - releaseCycle: "4.4"
     releaseDate: 2021-09-07
     eoas: 2024-10-08
     eol: 2025-10-08
-    latest: "4.4.0-20240424"
-    latestReleaseDate: 2024-04-24
+    latest: "4.4.0-20250919"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "4.3"
     releaseDate: 2020-04-30
@@ -85,8 +128,8 @@ releases:
     releaseDate: 2018-03-20
     eoas: 2020-11-02
     eol: 2022-11-02
-    latest: "4.1.6-20210419"
-    latestReleaseDate: 2021-04-19
+    latest: "4.1.6-20240112"
+    latestReleaseDate: 2024-06-07
     link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
 
   - releaseCycle: "3.9"
@@ -106,29 +149,24 @@ releases:
     latest: "3.8.7"
     latestReleaseDate: 2018-05-28
     link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.8.7-release-notes
+
 ---
 
-> [MuleSoft Runtime](https://docs.mulesoft.com/mule-runtime/latest/) engine (Mule) is a lightweight
+> [Mule Runtime engine](https://docs.mulesoft.com/mule-runtime/latest/) (Mule) is a lightweight
 > integration engine that runs Mule applications and supports domains and policies. Mule
 > applications, domains, and policies share an XML DSL (domain-specific language).
 
-Each release gets:
+[Starting with Mule 4.5](https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence),
+MuleSoft introduces two new release channels: Edge and Long-term Support (LTS).
 
-- Standard Support for 12 months after a new Minor version is released. The latest minor release
-  from the previous major version will continue to get standard support for at least 3 years from
-  the release date of the new Major Version.
-- Extended Support for an additional 12 months (2–3 years for older releases) after Standard
-  Support ends.
-- Extended Support versions are only available on CloudHub for applications already deployed on it.
+There are up to three Edge releases per year.
+Edge releases are supported with Standard Support, which includes bug and security fixes, for 1 month after the next Edge version is released.
+This is followed by 3 months of Extended Support, which includes critical bug and security fixes.
 
-## Product Lifecycle
+There is one LTS release per year (around February).
+LTS releases are supported with a minimum of 18 months of Standard Support,
+followed by a minimum of 6 months of Extended Support.
 
-**Standard Support**: Technical support on the use of the software, assistance with application
-configuration, and guidelines on performance tuning. Compatibility Support and patches for
-Security Vulnerabilities are provided.
 
-**Extended Support**: Technical support on and around the software for production environments,
-including troubleshooting, diagnosis, and resolution of issues which do not require source code
-patches. Patches for Critical Security Vulnerabilities.
-
-**End-of-Life**: End-of-Life versions are not available or supported on CloudHub/Anypoint Studio.
+It is possible to switch from an Edge version to an LTS version and vice versa.
+However, when moving from Edge to LTS, a later LTS version must be chosen.

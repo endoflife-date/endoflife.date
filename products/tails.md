@@ -13,24 +13,27 @@ changelogTemplate: https://tails.net/news/version___LATEST__/
 # pre-1.3 releases were tagged later, so git data isn't accurate for those.
 auto:
   methods:
-    - distrowatch: tails
-      regex:
-        - '^Distribution Release: Tails (?P<major>\d).(?P<minor>\d)$'
-        - '^Distribution Release: Incognito Live System (?P<major>\d).(?P<minor>\d)$'
+    - git: https://gitlab.tails.boum.org/tails/tails.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2025-09-18
+    eol: false
+    latest: "7.1"
+    latestReleaseDate: 2025-10-13
+
   - releaseCycle: "6"
     releaseDate: 2024-02-27
-    eol: false
-    latest: "6.14.1"
-    latestReleaseDate: 2025-04-03
+    eol: 2025-09-18
+    latest: "6.19"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "5"
     releaseDate: 2022-05-03
     eol: 2024-02-27
-    latest: "5.20"
-    latestReleaseDate: 2023-11-28
+    latest: "5.22"
+    latestReleaseDate: 2024-01-29
 
   - releaseCycle: "4"
     releaseDate: 2019-10-22
@@ -55,6 +58,7 @@ releases:
     eol: 2016-01-25
     latest: "1.8.2"
     latestReleaseDate: 2016-01-09
+
 ---
 
 > [Tails](https://tails.net/about/), or _The Amnesic Incognito Live System_, is a
