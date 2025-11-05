@@ -21,6 +21,12 @@ identifiers:
 
 # eol(x) = releaseDate(x) + 1 year
 releases:
+  - releaseCycle: "23"
+    releaseDate: 2025-11-04
+    eol: 2026-11-04
+    latest: "23.0.0"
+    latestReleaseDate: 2025-11-04
+
   - releaseCycle: "22"
     releaseDate: 2025-04-29
     eol: 2026-04-29
