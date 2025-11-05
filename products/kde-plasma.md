@@ -71,7 +71,7 @@ releases:
   - releaseCycle: "5.27"
     lts: true
     releaseDate: 2023-02-14
-    eoas: false
+    eoas: 2025-01-06
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.12"
     latestReleaseDate: 2025-01-06
