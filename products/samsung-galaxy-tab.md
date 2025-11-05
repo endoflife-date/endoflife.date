@@ -234,7 +234,7 @@ releases:
     releaseLabel: "Galaxy Tab Active3"
     releaseDate: 2020-09-28 # https://news.samsung.com/global/samsung-announces-the-galaxy-tab-active3-a-smart-new-tablet-built-for-demanding-environments
     eoas: 2022-09-28 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
+    eol: 2025-11-04 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T575/XEF/doc.html
 
   - releaseCycle: "galaxy-tab-a7-10.4-2020"
@@ -600,6 +600,7 @@ releases:
     eoas: true
     eol: true
     link: null
+
 ---
 
 > The [Samsung Galaxy Tab](https://www.samsung.com/us/tablets/) series is a line of tablets designed and produced
