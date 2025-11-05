@@ -40,12 +40,47 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-f07"
+    releaseLabel: "Galaxy F07"
+    releaseDate: 2025-10-04 # https://www.gsmarena.com/samsung_galaxy_f07-14205.php
+    eoas: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
+    eol: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
+    link: null # not found
+
+  - releaseCycle: "galaxy-f17-5g"
+    releaseLabel: "Galaxy F17 5G"
+    releaseDate: 2025-09-11 # https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
+    eoas: 2031-09-11 # 6 years - https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
+    eol: 2031-09-11 # 6 years - https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
+    link: null # not found
+
+  - releaseCycle: "galaxy-s25-fe"
+    releaseLabel: "Galaxy S25 FE"
+    releaseDate: 2025-09-04 # https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    eoas: 2025-09-04 # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    eol: false      # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    link: https://doc.samsungmobile.com/SM-S731B/COL/doc.html
+
   - releaseCycle: "galaxy-a07"
     releaseLabel: "Galaxy A07"
     releaseDate: 2025-09-01 # https://news.samsung.com/za/samsung-launches-the-all-new-galaxy-a07-built-for-every-challenge
-    eoas: 2031-09-01 # 6 android upgrade - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
-    eol: false      # 6 years of security support - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
-    link: null # not found on doc.samsungmobile.com as of 2025-09-07
+    eoas: 2031-09-01 # 6 years - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
+    eol: 2031-09-01 # 6 years - https://news.samsung.com/sg/enjoy-essential-and-secure-ai-powered-features-with-samsung-galaxy-a17-and-galaxy-a07
+    link: https://doc.samsungmobile.com/SM-A075M/TCE/doc.html
+
+  - releaseCycle: "galaxy-a17-5g"
+    releaseLabel: "Galaxy A17 5G"
+    releaseDate: 2025-08-27 # https://news.samsung.com/uk/awesome-made-easy-samsung-introduces-the-galaxy-a17-5g
+    eoas: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
+    eol: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
+    link: https://doc.samsungmobile.com/SM-A176B/XXV/doc.html
+
+  - releaseCycle: "galaxy-a17"
+    releaseLabel: "Galaxy A17"
+    releaseDate: 2025-08-27 # https://news.samsung.com/uk/awesome-made-easy-samsung-introduces-the-galaxy-a17-5g
+    eoas: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
+    eol: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
+    link: https://doc.samsungmobile.com/SM-A175F/TCE/doc.html
 
   - releaseCycle: "galaxy-z-fold7"
     releaseLabel: "Galaxy Z Fold7"
@@ -688,7 +723,7 @@ releases:
     releaseLabel: "Galaxy S20 FE" # South Korea only
     releaseDate: 2022-04-01
     eoas: 2025-03-31
-    eol: 2026-03-31 # Samsung provides a 4th year security support for S20
+    eol: 2025-11-04 # Samsung provides a 4th year security support for S20
     link: https://doc.samsungmobile.com/sm-g781b/xeo/doc.html
 
   - releaseCycle: "galaxy-a53-5g"
@@ -779,14 +814,14 @@ releases:
     releaseLabel: "W22 5G"
     releaseDate: 2021-10-13 # https://en.eeworld.com.cn/news/xfdz/eic552331.html
     eoas: false
-    eol: false
+    eol: 2025-11-04
     link: https://doc.samsungmobile.com/SM-W2022/CHC/doc.html
 
   - releaseCycle: "galaxy-m22"
     releaseLabel: "Galaxy M22"
     releaseDate: 2021-10-13 # https://www.gsmarena.com/samsung_galaxy_m22-11011.php
     eoas: 2023-10-13 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2025-11-04
     link: https://doc.samsungmobile.com/sm-m225fv/zto/doc.html
 
   - releaseCycle: "galaxy-f42-5g"
@@ -800,7 +835,7 @@ releases:
     releaseLabel: "Galaxy M52 5G"
     releaseDate: 2021-10-03
     eoas: 2023-10-03 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2025-11-04 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M526BR/ITV/doc.html
 
   - releaseCycle: "galaxy-m32-5g"
@@ -1101,7 +1136,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: false      # Samsung provides a 5th year security support for S20
+    eol: 2025-11-04 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
   - releaseCycle: "galaxy-s20-fe-2020"

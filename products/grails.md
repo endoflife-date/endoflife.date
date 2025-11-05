@@ -1,30 +1,40 @@
 ---
-title: Grails Framework
+title: Apache Grails Framework
 addedAt: 2022-12-01
 category: framework
 tags: java-runtime
 permalink: /grails
 alternate_urls:
   - /grails-framework
-releasePolicyLink: https://grails.org/support.html
-changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
+  - /apache-grails
+releasePolicyLink: https://grails.apache.org/support.html
+changelogTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
 identifiers:
-  - repology: grails
+  - cpe: cpe:/a:apache:grails
+  - cpe: cpe:2.3:a:apache:grails
+  - purl: pkg:maven/org.apache.grails/grails
   - cpe: cpe:/a:grails:grails
   - cpe: cpe:2.3:a:grails:grails
 
 auto:
   methods:
-    - git: https://github.com/grails/grails-core.git
+    - git: https://github.com/apache/grails-core.git
 
 releases:
-  - releaseCycle: "6"
-    releaseDate: 2023-07-24
+  - releaseCycle: "7"
+    releaseDate: 2025-10-19
     eoas: false
     eol: false
+    latest: "7.0.1"
+    latestReleaseDate: 2025-10-29
+
+  - releaseCycle: "6"
+    releaseDate: 2023-07-24
+    eoas: 2025-01-03
+    eol: 2025-10-19
     latest: "6.2.3"
     latestReleaseDate: 2025-01-03
 
@@ -62,9 +72,10 @@ releases:
     eol: 2012-05-01
     latest: "1.3.9"
     latestReleaseDate: 2015-01-16
+
 ---
 
-> [Grails](https://grails.org/) is a powerful Groovy-based web application framework for the JVM
+> [Apache Grails](https://grails.apache.org/) is a powerful [Apache Groovy](https://groovy-lang.org/)-based web application framework for the JVM
 > built on top of Spring Boot.
 
 ## Support
@@ -75,5 +86,4 @@ releases:
   around the resolution of critical security advisories. New features, performance improvements,
   and minor bug fixes are unlikely.
 
-The Grails Foundation offers [commercial support](https://grails.org/support.html#standard). This typically
-lasts a few years after active maintenance ends.
+There are a few companies that offer [commercial support](https://grails.apache.org/support.html).

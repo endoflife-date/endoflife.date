@@ -21,8 +21,8 @@ releases:
     releaseDate: 2024-09-03
     eoas: false # 9.0 GA date
     eol: 2026-09-03 # https://www.veeam.com/product-lifecycle.html
-    latest: "8.1.2.180"
-    latestReleaseDate: 2025-07-01
+    latest: "8.2.0.2008"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "7"
     releaseDate: 2023-02-28
@@ -65,6 +65,7 @@ releases:
     eol: 2021-07-24 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
     latest: "2.0.0.814"
     latestReleaseDate: 2018-12-28
+
 ---
 
 > [Veeam Backup for Microsoft 365](https://www.veeam.com/products/saas/backup-microsoft-office-365.html)

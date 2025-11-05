@@ -38,6 +38,9 @@ identifiers:
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-aop
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-logging
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-batch
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-log4j2
+  - purl: pkg:maven/org.springframework.boot/spring-boot-starter-validation
   - purl: pkg:github/spring-projects/spring-boot
   - repology: springboot
 
@@ -62,16 +65,16 @@ releases:
     releaseDate: 2025-05-31
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "3.5.6"
-    latestReleaseDate: 2025-09-18
+    latest: "3.5.7"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "3.4"
     supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/3.4/system-requirements.html
     releaseDate: 2024-11-30
     eol: 2025-12-31
     eoes: 2026-12-31
-    latest: "3.4.10"
-    latestReleaseDate: 2025-09-18
+    latest: "3.4.11"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "3.3"
     supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements

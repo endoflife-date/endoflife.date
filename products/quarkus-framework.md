@@ -33,11 +33,17 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "3.29"
+    releaseDate: 2025-10-29
+    eol: false
+    latest: "3.29.0"
+    latestReleaseDate: 2025-10-29
+    
   - releaseCycle: "3.28"
     releaseDate: 2025-09-24
-    eol: false
-    latest: "3.28.3"
-    latestReleaseDate: 2025-10-09
+    eol: 2025-10-29
+    latest: "3.28.5"
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "3.27"
     lts: true

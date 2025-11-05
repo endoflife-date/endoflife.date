@@ -52,11 +52,11 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2024-05-09
     eoas: 2025-09-30
-    eol: 2025-11-30
+    eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.66.0"
-    latestReleaseDate: 2025-10-03
+    latest: "5.68.0"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09

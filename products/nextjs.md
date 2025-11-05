@@ -21,15 +21,24 @@ auto:
 
 # eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
-  - releaseCycle: "15"
-    releaseDate: 2024-10-21
+  - releaseCycle: "16"
+    lts: true
+    releaseDate: 2025-10-22
     eol: false
-    latest: "15.5.5"
-    latestReleaseDate: 2025-10-13
+    latest: "16.0.1"
+    latestReleaseDate: 2025-10-28
+
+  - releaseCycle: "15"
+    lts: true
+    releaseDate: 2024-10-21
+    eol: 2026-10-21
+    latest: "15.5.6"
+    latestReleaseDate: 2025-10-17
 
   - releaseCycle: "14"
+    lts: true
     releaseDate: 2023-10-26
-    eol: false
+    eol: 2025-10-26
     latest: "14.2.33"
     latestReleaseDate: 2025-09-23
 

@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "0.20"
     releaseDate: 2025-09-25
     eol: false
-    latest: "0.20.0"
-    latestReleaseDate: 2025-09-25
+    latest: "0.20.1"
+    latestReleaseDate: 2025-11-03
 
   - releaseCycle: "0.19"
     releaseDate: 2025-02-10
@@ -48,6 +48,7 @@ releases:
     eol: 2025-02-10
     latest: "0.16.3"
     latestReleaseDate: 2024-08-22
+
 ---
 
 > [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy

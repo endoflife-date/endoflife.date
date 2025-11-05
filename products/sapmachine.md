@@ -20,8 +20,8 @@ releases:
   - releaseCycle: "25"
     releaseDate: 2025-09-16
     eol: 2030-09-30
-    latest: "25"
-    latestReleaseDate: 2025-09-16
+    latest: "25.0.1"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "24"
     releaseDate: 2025-03-19
@@ -45,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2023-09-18
     eol: 2028-09-01
-    latest: "21.0.8"
-    latestReleaseDate: 2025-07-15
+    latest: "21.0.9"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "20"
     releaseDate: 2023-03-17
@@ -70,8 +70,8 @@ releases:
     lts: true
     releaseDate: 2021-09-14
     eol: 2026-09-01
-    latest: "17.0.16"
-    latestReleaseDate: 2025-07-15
+    latest: "17.0.17"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "16"
     releaseDate: 2021-03-15
@@ -107,8 +107,9 @@ releases:
     lts: true
     releaseDate: 2019-01-16
     eol: 2024-12-01
-    latest: "11.0.28"
-    latestReleaseDate: 2025-07-15
+    latest: "11.0.29"
+    latestReleaseDate: 2025-10-21
+
 ---
 
 > [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

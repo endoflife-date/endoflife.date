@@ -28,7 +28,7 @@ auto:
           regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
           template: "{{major}}.{{minor}}"
         releaseDate: "GA date*"
-        eol: "End of Program Support*"
+        eol: "Change in Service Level*"
         eoes: "Program Support Extension Available*"
 
 releases:
@@ -48,7 +48,7 @@ releases:
 
   - releaseCycle: "7.4"
     releaseDate: 2019-06-21
-    eol: false
+    eol: 2026-09-30
     latest: "7.4.0"
     latestReleaseDate: 2019-06-21
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-74
