@@ -65,8 +65,8 @@ releases:
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-corretto-25-generally-available/
     releaseDate: 2025-09-16
     eol: 2032-10-31 # listed on https://aws.amazon.com/corretto/faqs/#topic-0
-    latest: "25.0.1.8.1"
-    latestReleaseDate: 2025-10-21
+    latest: "25.0.1.9.1"
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "24"
     # The first non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
@@ -97,8 +97,8 @@ releases:
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
     eol: 2030-10-31
-    latest: "21.0.9.10.1"
-    latestReleaseDate: 2025-10-21
+    latest: "21.0.9.11.1"
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1

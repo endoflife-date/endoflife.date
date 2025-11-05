@@ -723,7 +723,7 @@ releases:
     releaseLabel: "Galaxy S20 FE" # South Korea only
     releaseDate: 2022-04-01
     eoas: 2025-03-31
-    eol: 2026-03-31 # Samsung provides a 4th year security support for S20
+    eol: 2025-11-04 # Samsung provides a 4th year security support for S20
     link: https://doc.samsungmobile.com/sm-g781b/xeo/doc.html
 
   - releaseCycle: "galaxy-a53-5g"
@@ -814,14 +814,14 @@ releases:
     releaseLabel: "W22 5G"
     releaseDate: 2021-10-13 # https://en.eeworld.com.cn/news/xfdz/eic552331.html
     eoas: false
-    eol: false
+    eol: 2025-11-04
     link: https://doc.samsungmobile.com/SM-W2022/CHC/doc.html
 
   - releaseCycle: "galaxy-m22"
     releaseLabel: "Galaxy M22"
     releaseDate: 2021-10-13 # https://www.gsmarena.com/samsung_galaxy_m22-11011.php
     eoas: 2023-10-13 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2025-11-04
     link: https://doc.samsungmobile.com/sm-m225fv/zto/doc.html
 
   - releaseCycle: "galaxy-f42-5g"
@@ -835,7 +835,7 @@ releases:
     releaseLabel: "Galaxy M52 5G"
     releaseDate: 2021-10-03
     eoas: 2023-10-03 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2025-11-04 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M526BR/ITV/doc.html
 
   - releaseCycle: "galaxy-m32-5g"
@@ -1136,7 +1136,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: false      # Samsung provides a 5th year security support for S20
+    eol: 2025-11-04 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
   - releaseCycle: "galaxy-s20-fe-2020"
