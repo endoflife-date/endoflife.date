@@ -34,7 +34,7 @@ auto:
 releases:
   - releaseCycle: "7.0"
     releaseDate: 2025-11-03
-    eol: false
+    eol: 2026-11-03
     latest: "7.0.0"
     latestReleaseDate: 2025-11-03
     link: https://graylog.org/post/announcing-graylog-7-0/
