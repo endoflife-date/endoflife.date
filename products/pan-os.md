@@ -69,7 +69,7 @@ releases:
     eol: 2024-12-01
     latest: "10.1.14-h19"
     latestReleaseDate: 2025-11-03
-    link: https://docs.paloaltonetworks.com/ngfw/release-notes/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h19-addressed-issues
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h19-addressed-issues
 
   - releaseCycle: "10.0"
     releaseDate: 2020-07-16
