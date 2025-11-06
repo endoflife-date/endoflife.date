@@ -30,14 +30,14 @@ releases:
   - releaseCycle: "22"
     releaseDate: 2025-04-29
     eol: 2026-04-29
-    latest: "22.0.1"
-    latestReleaseDate: 2025-06-18
+    latest: "22.0.2"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "21"
     releaseDate: 2024-10-29
     eol: 2025-10-29
-    latest: "21.0.5"
-    latestReleaseDate: 2025-06-18
+    latest: "21.0.6"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "20"
     releaseDate: 2024-06-27
@@ -86,6 +86,7 @@ releases:
     eol: 2023-02-22
     latest: "13.0.3"
     latestReleaseDate: 2022-09-01
+
 ---
 
 > [Vitess](https://vitess.io/) is a database clustering system for horizontal scaling of MySQL.
