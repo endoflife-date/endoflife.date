@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.50.4"
-    latestReleaseDate: 2025-07-30
+    latest: "3.51.0"
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "2"
     releaseDate: 2001-09-28
@@ -42,6 +42,7 @@ releases:
     eol: 2001-09-28
     latest: "1.0.32"
     latestReleaseDate: 2001-07-23
+
 ---
 
 > SQLite is an in-process library that implements a self-contained, serverless, zero-configuration,
