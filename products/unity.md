@@ -79,8 +79,8 @@ releases:
   - releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2025-02-18
-    latest: "2021.3.45f1"
-    latestReleaseDate: 2024-10-16
+    latest: "2021.3.45f2"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.2"
     releaseDate: 2021-10-25
