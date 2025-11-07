@@ -47,8 +47,8 @@ releases:
     releaseLabel: "2024E"
     releaseDate: 2024-08-15
     eol: 2027-06-15
-    latest: "11.36.76"
-    latestReleaseDate: 2025-10-08
+    latest: "11.36.80"
+    latestReleaseDate: 2025-11-04
     link: https://documentation.commvault.com/2024e/essential/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
 
   - releaseCycle: "11.32"
@@ -56,8 +56,8 @@ releases:
     releaseLabel: "2023E"
     releaseDate: 2023-08-15
     eol: 2026-06-15
-    latest: "11.32.119"
-    latestReleaseDate: 2025-10-08
+    latest: "11.32.122"
+    latestReleaseDate: 2025-11-04
     link: https://documentation.commvault.com/v11/software/list_of_maintenance_releases_for_commvault_platform_release_2023e.html
 
 ---
