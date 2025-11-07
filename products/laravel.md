@@ -17,7 +17,7 @@ customFields:
     description: Supported PHP versions
 
 identifiers:
-  - purl: pkg:composer/laravel/laravel
+  - purl: pkg:composer/laravel/framework
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
