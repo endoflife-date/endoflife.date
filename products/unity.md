@@ -60,14 +60,14 @@ releases:
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
     eol: 2023-06-12
-    latest: "2022.2.21f1"
-    latestReleaseDate: 2023-05-24
+    latest: "2022.2.23f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.1"
     releaseDate: 2022-05-09
     eol: 2022-12-06
-    latest: "2022.1.24f1"
-    latestReleaseDate: 2022-12-06
+    latest: "2022.1.25f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021"
     lts: true
