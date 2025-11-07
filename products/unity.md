@@ -73,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2022-04-11
     eol: 2025-02-18
-    latest: "2021.3.45f1"
-    latestReleaseDate: 2024-10-16
+    latest: "2021.3.45f2"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.3"
     releaseDate: 2022-04-11
@@ -85,8 +85,8 @@ releases:
   - releaseCycle: "2021.2"
     releaseDate: 2021-10-25
     eol: 2022-04-05
-    latest: "2021.2.19f1"
-    latestReleaseDate: 2022-04-05
+    latest: "2021.2.20f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.1"
     releaseDate: 2021-03-22
