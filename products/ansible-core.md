@@ -55,10 +55,10 @@ releases:
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
     powershellVersionsManagedNode: "5.1"
-    releaseDate: 2025-11-03
+    releaseDate: 2025-11-04
     eol: 2027-05-31
     latest: "2.20.0"
-    latestReleaseDate: 2025-11-03
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
