@@ -91,8 +91,8 @@ releases:
   - releaseCycle: "2021.1"
     releaseDate: 2021-03-22
     eol: 2022-11-04
-    latest: "2021.1.28f1"
-    latestReleaseDate: 2022-11-04
+    latest: "2021.1.29f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2020"
     lts: true
