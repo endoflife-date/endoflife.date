@@ -22,8 +22,11 @@ eolColumn: Maintenance support
 
 auto:
   methods:
-    - red-hat-satellite: https://access.redhat.com/articles/1365633
-      regex: '^Satellite (?P<version>\d+\.\d+\.\d+([.-]\d+)?) ([Uu]pdate|[Rr]elease)$'
+    - version_table: https://access.redhat.com/articles/1365633
+      name_column: "Release/Update"
+      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease| Update)$'
+      template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
+      date_column: "General Availability Date"
 
 # eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
