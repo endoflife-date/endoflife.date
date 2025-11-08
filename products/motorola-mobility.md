@@ -95,6 +95,18 @@ releases:
     eol: 2029-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12219
 
+  - releaseCycle: motorola-razr-60s
+    releaseLabel: "Motorola Razr 60s"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12402
+
+  - releaseCycle: motorola-razr-60d
+    releaseLabel: "Motorola Razr 60d"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12401
+
   - releaseCycle: motorola-razr+-2025
     releaseLabel: "Motorola Razr+ 2025"
     releaseDate: 2025-03-01
