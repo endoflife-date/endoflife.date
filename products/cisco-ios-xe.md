@@ -6,10 +6,16 @@ tags: cisco
 iconSlug: cisco
 permalink: /cisco-ios-xe
 releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/bulletin-c25-2378701.html
-eolColumn: End of Vulnerability/Security Support
-eoasColumn: End of SW Maintenance Releases Date
+eoasColumn: Maintenance Support
+eolColumn: Security Support
 latestColumn: false
 
+# For non-LTS:
+# - eoas(x) = releaseDate(x) (FCS) + 3 months (EoL announcement) + 3 months (EoS) + 6 months = releaseDate(x) + 12 months
+# - eol(x) = eoas(x) = releaseDate(x) + 12 months
+# For LTS:
+# - eoas(x) = releaseDate(x) (FCS) + 12 months (EoL announcement) + 6 months (EoS) + 12 months = releaseDate(x) + 30 months
+# - eol(x) = releaseDate(x) + 12 months (EoL announcement) + 6 months (EoS) + 30 months = releaseDate(x) + 48 months
 releases:
   - releaseCycle: "17.18"
     lts: true
@@ -138,9 +144,11 @@ releases:
 > It is used on a variety of Cisco products, including routers, switches, and wireless controllers.
 
 Releases are time-based, each with a fixed release date.
-The schedule specifies 3 minor releases per year at 4 month intervals.
-Every subsequent first and second release (e.g. 17.1, 17.2, 17.4, 17.5...) receive standard support.
-Every subsequent third release (e.g. 17.3, 17.6...) receive extended support.
+The schedule specifies 3 minor releases per year at 4-month intervals.
 
-Standard-Support means, that the release has a sustaining support lifetime of 12 months from First Customer Shipment (FCS) with scheduled rebuilds.
-Extended-Support means, that the release has a sustaining support lifetime of 48 months from First Customer Shipment (FCS) with scheduled rebuilds.
+Every subsequent first and second release (e.g. 17.1, 17.2, 17.4, 17.5...) receive standard support.
+With standard support, releases are supported 12 months with critical bug fixes and security updates.
+
+Every subsequent third release (e.g. 17.3, 17.6...) receive extended support.
+With extended support, releases are supported 30 months with critical bug fixes and security updates,
+followed by an additional 18 months of security updates only.
