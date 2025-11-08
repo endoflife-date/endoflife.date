@@ -26,10 +26,17 @@ auto:
       regex: '^Satellite (?P<version>\d+\.\d+\.\d+([.-]\d+)?) ([Uu]pdate|[Rr]elease)$'
 
 releases:
-  - releaseCycle: "6.17"
-    releaseDate: 2025-05-06
+  - releaseCycle: "6.18"
+    releaseDate: 2025-11-04
     eoas: false
     eol: false
+    latest: "6.18.0"
+    latestReleaseDate: 2025-11-04
+
+  - releaseCycle: "6.17"
+    releaseDate: 2025-05-06
+    eoas: 2025-11-30
+    eol: 2026-11-30 # estimated
     latest: "6.17.6"
     latestReleaseDate: 2025-11-06
 
