@@ -13,6 +13,14 @@ releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 eoasColumn: true
+
+customFields:
+  - name: pep
+    display: api-only
+    label: PEP
+    description: Python Enhancement Proposal (PEP) document for this release
+    link: https://peps.python.org/topic/release/
+
 identifiers:
   - purl: pkg:generic/python
   - purl: pkg:deb/ubuntu/python
@@ -100,6 +108,7 @@ releases:
     eol: 2030-10-31
     latest: "3.14.0"
     latestReleaseDate: 2025-10-07
+    pep: PEP-0745
 
   - releaseCycle: "3.13"
     releaseDate: 2024-10-07
@@ -107,6 +116,7 @@ releases:
     eol: 2029-10-31
     latest: "3.13.9"
     latestReleaseDate: 2025-10-14
+    pep: PEP-0719
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
@@ -114,6 +124,7 @@ releases:
     eol: 2028-10-31
     latest: "3.12.12"
     latestReleaseDate: 2025-10-09
+    pep: PEP-0693
 
   - releaseCycle: "3.11"
     releaseDate: 2022-10-24
@@ -121,6 +132,7 @@ releases:
     eol: 2027-10-31
     latest: "3.11.14"
     latestReleaseDate: 2025-10-09
+    pep: PEP-0664
 
   - releaseCycle: "3.10"
     releaseDate: 2021-10-04
@@ -128,13 +140,15 @@ releases:
     eol: 2026-10-31
     latest: "3.10.19"
     latestReleaseDate: 2025-10-09
+    pep: PEP-0619
 
   - releaseCycle: "3.9"
     releaseDate: 2020-10-05
     eoas: 2022-05-17
     eol: 2025-10-31
-    latest: "3.9.24"
-    latestReleaseDate: 2025-10-09
+    latest: "3.9.25"
+    latestReleaseDate: 2025-10-31
+    pep: PEP-0596
 
   - releaseCycle: "3.8"
     releaseDate: 2019-10-14
@@ -142,6 +156,7 @@ releases:
     eol: 2024-10-07
     latest: "3.8.20"
     latestReleaseDate: 2024-09-06
+    pep: PEP-0569
 
   - releaseCycle: "3.7"
     releaseDate: 2018-06-27
@@ -149,6 +164,7 @@ releases:
     eol: 2023-06-27
     latest: "3.7.17"
     latestReleaseDate: 2023-06-05
+    pep: PEP-0537
 
   - releaseCycle: "3.6"
     releaseDate: 2016-12-23
@@ -156,6 +172,7 @@ releases:
     eol: 2021-12-23
     latest: "3.6.15"
     latestReleaseDate: 2021-09-03
+    pep: PEP-0494
 
   - releaseCycle: "3.5"
     releaseDate: 2015-09-13
@@ -163,6 +180,7 @@ releases:
     eol: 2020-09-30
     latest: "3.5.10"
     latestReleaseDate: 2020-09-05
+    pep: PEP-0478
 
   - releaseCycle: "3.4"
     releaseDate: 2014-03-16
@@ -170,6 +188,7 @@ releases:
     eol: 2019-03-18
     latest: "3.4.10"
     latestReleaseDate: 2019-03-18
+    pep: PEP-0429
 
   - releaseCycle: "3.3"
     releaseDate: 2012-09-29
@@ -177,6 +196,7 @@ releases:
     eol: 2017-09-29
     latest: "3.3.7"
     latestReleaseDate: 2017-09-19
+    pep: PEP-0398
 
   - releaseCycle: "3.2"
     releaseDate: 2011-02-20
@@ -184,6 +204,7 @@ releases:
     eol: 2016-02-20
     latest: "3.2.6"
     latestReleaseDate: 2014-10-12
+    pep: PEP-0392
 
   - releaseCycle: "2.7"
     releaseDate: 2010-07-03
@@ -191,6 +212,7 @@ releases:
     eol: 2020-01-01
     latest: "2.7.18"
     latestReleaseDate: 2020-04-19
+    pep: PEP-0373
 
   - releaseCycle: "3.1"
     releaseDate: 2009-06-27
@@ -198,6 +220,7 @@ releases:
     eol: 2012-04-09
     latest: "3.1.5"
     latestReleaseDate: 2012-04-06
+    pep: PEP-0375
 
   - releaseCycle: "3.0"
     releaseDate: 2008-12-03
@@ -205,6 +228,7 @@ releases:
     eol: 2009-06-27
     latest: "3.0.1"
     latestReleaseDate: 2009-02-12
+    pep: PEP-0361
 
   - releaseCycle: "2.6"
     releaseDate: 2008-10-01
@@ -212,6 +236,7 @@ releases:
     eol: 2013-10-29
     latest: "2.6.9"
     latestReleaseDate: 2013-10-29
+    pep: PEP-0361
 
 ---
 

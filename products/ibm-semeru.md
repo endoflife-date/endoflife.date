@@ -51,8 +51,8 @@ releases:
     lts: true
     releaseDate: 2025-09-25
     eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
-    latest: "25+36"
-    latestReleaseDate: 2025-09-25
+    latest: "25.0.1+8"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31

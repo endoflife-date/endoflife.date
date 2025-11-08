@@ -12,7 +12,7 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-    - git: https://github.com/opensearch-project/OpenSearch.git
+    - github_releases: opensearch-project/OpenSearch
     - release_table: https://opensearch.org/releases.html
       fields:
         releaseCycle: "Major Version"
@@ -34,22 +34,22 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.3.1"
-    latestReleaseDate: 2025-10-17
+    latest: "3.3.2"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
     eoas: 2025-05-06
     eol: false
-    latest: "2.19.3"
-    latestReleaseDate: 2025-07-18
+    latest: "2.19.4"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "1"
     releaseDate: 2021-07-12
     eoas: 2022-05-26
     eol: 2025-05-06 # upcoming support(2) at least 1 year
     latest: "1.3.20"
-    latestReleaseDate: 2024-12-10
+    latestReleaseDate: 2024-12-11
 
 ---
 

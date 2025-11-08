@@ -17,7 +17,7 @@ customFields:
     description: Supported PHP versions
 
 identifiers:
-  - purl: pkg:composer/laravel/laravel
+  - purl: pkg:composer/laravel/framework
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
@@ -48,8 +48,8 @@ releases:
     eoas: 2026-08-16
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "12.36.1"
-    latestReleaseDate: 2025-10-29
+    latest: "12.37.0"
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12

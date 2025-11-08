@@ -62,7 +62,7 @@ releases:
     releaseLabel: "LMDE 6 '__CODENAME__'"
     codename: Faye
     releaseDate: 2023-09-27
-    eol: false
+    eol: 2026-01-01
     link: https://blog.linuxmint.com/?p=4570
 
   - releaseCycle: "21.2"
