@@ -33,15 +33,15 @@ releases:
     releaseDate: 2024-05-17
     eoas: 2025-05-20
     eol: 2027-05-20 # projected
-    latest: "27.3.4.4"
-    latestReleaseDate: 2025-10-24
+    latest: "27.3.4.5"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: 2024-05-17
     eol: 2026-05-15 # projected
-    latest: "26.2.5.15"
-    latestReleaseDate: 2025-09-10
+    latest: "26.2.5.16"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "25"
     releaseDate: 2022-05-17
