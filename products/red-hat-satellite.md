@@ -25,6 +25,7 @@ auto:
     - red-hat-satellite: https://access.redhat.com/articles/1365633
       regex: '^Satellite (?P<version>\d+\.\d+\.\d+([.-]\d+)?) ([Uu]pdate|[Rr]elease)$'
 
+# eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
