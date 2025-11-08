@@ -30,8 +30,8 @@ releases:
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.7"
-    latestReleaseDate: 2025-10-23
+    latest: "3.2.8"
+    latestReleaseDate: 2025-11-07
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26

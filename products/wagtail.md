@@ -30,7 +30,7 @@ auto:
 releases:
   - releaseCycle: "7.1"
     releaseDate: 2025-08-04
-    eoas: 2025-11-03
+    eoas: 2025-11-05
     eol: 2026-02-02
     latest: "7.1.2"
     latestReleaseDate: 2025-10-23
