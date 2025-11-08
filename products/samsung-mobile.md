@@ -40,6 +40,13 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "w26"
+    releaseLabel: "W26"
+    releaseDate: 2025-10-11 # https://www.absolutegeeks.com/article/tech-news/samsungs-galaxy-w26-brings-real-satellite-calling-but-only-for-china/
+    eoas: false # unknown
+    eol: false # unknown
+    link: null # not found
+
   - releaseCycle: "galaxy-f07"
     releaseLabel: "Galaxy F07"
     releaseDate: 2025-10-04 # https://www.gsmarena.com/samsung_galaxy_f07-14205.php
