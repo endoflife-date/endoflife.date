@@ -43,6 +43,13 @@ auto:
           regex: "^End(ed|s) (?P<value>.+)$"
 
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-11-07
+    eoas: false
+    eol: false
+    latest: "3.6.0"
+    latestReleaseDate: 2025-11-07
+
   - releaseCycle: "3.5"
     releaseDate: 2025-07-23
     eoas: false
