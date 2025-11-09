@@ -44,6 +44,13 @@ auto:
 # EOAS / EOL dates can be found on https://my.f5.com/manage/s/article/K5903
 # Latest release dates can be found on https://my.f5.com/manage/s/article/K9412
 releases:
+  - releaseCycle: "21.0"
+    releaseDate: 2025-11-06
+    eoas: 2026-08-06
+    eol: 2026-08-06
+    latest: "21.0.0"
+    latestReleaseDate: 2025-11-06
+
   - releaseCycle: "17.5"
     lts: true
     releaseDate: 2025-02-27
