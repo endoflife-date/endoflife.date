@@ -34,6 +34,12 @@ auto:
         releaseDate: "First customer ship"
         eoas: "End of Software Development"
         eol: "End of Technical Support"
+    - version_table: https://my.f5.com/manage/s/article/K9412
+      render_javascript: true
+      render_javascript_wait_for: "table"
+      header_selector: "tr:nth-of-type(1)"
+      name_column: "BIG-IP version"
+      date_column: "Release date"
 
 # EOAS / EOL dates can be found on https://my.f5.com/manage/s/article/K5903
 # Latest release dates can be found on https://my.f5.com/manage/s/article/K9412
@@ -51,8 +57,8 @@ releases:
     releaseDate: 2023-03-14
     eoas: 2027-03-31
     eol: 2027-03-31
-    latest: "17.1.2"
-    latestReleaseDate: 2023-12-03
+    latest: "17.1.3"
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "17.0"
     releaseDate: 2022-04-26
@@ -66,8 +72,8 @@ releases:
     releaseDate: 2021-07-07
     eoas: 2026-07-01
     eol: 2026-07-01
-    latest: "16.1.5"
-    latestReleaseDate: 2024-07-23
+    latest: "16.1.6"
+    latestReleaseDate: 2025-04-15
 
   - releaseCycle: "16.0"
     releaseDate: 2020-07-16
