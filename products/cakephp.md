@@ -12,7 +12,6 @@ versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
-staleReleaseThresholdYears: 2
 
 customFields:
   - name: supportedPhpVersions
@@ -75,6 +74,7 @@ releases:
 
   - releaseCycle: "5.0"
     codename: "Chiffon"
+    staleReleaseThresholdDays: 500 # not EOL on https://github.com/cakephp/cakephp/wiki
     releaseDate: 2023-09-09
     supportedPhpVersions: 8.1+
     eoas: 2024-09-14

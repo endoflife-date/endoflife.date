@@ -11,7 +11,6 @@ changelogTemplate: https://www.ibm.com/docs/en/db2/__RELEASE_CYCLE__.0
 latestColumn: false
 eol: Base Support
 eoes: Extended Support
-staleReleaseThresholdYears: 7
 
 identifiers:
   - cpe: cpe:/a:ibm:db2

@@ -9,7 +9,6 @@ versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 eolColumn: Support
-staleReleaseThresholdYears: 2
 
 customFields:
   - name: supportedPhpVersions
@@ -53,6 +52,7 @@ releases:
     latestReleaseDate: 2025-08-04
 
   - releaseCycle: "12"
+    staleReleaseThresholdDays: 500 # EOL is TBD on https://www.drush.org/13.x/install/#drupal-compatibility
     releaseDate: 2023-06-03
     eol: false
     supportedPhpVersions: "8.1+"

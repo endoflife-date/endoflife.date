@@ -12,7 +12,7 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
 latestColumn: false
 eolColumn: Security Support
-staleReleaseThresholdYears: 3
+staleReleaseThresholdDays: 1460 # oses have longer support periods
 
 customFields:
   - name: kernelVersion

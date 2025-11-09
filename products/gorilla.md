@@ -6,7 +6,6 @@ iconSlug: go
 permalink: /gorilla
 releasePolicyLink: https://github.com/gorilla/
 eolColumn: Support
-staleReleaseThresholdYears: 5
 
 identifiers:
   - repology: go:github-gorilla-context
