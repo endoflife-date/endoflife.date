@@ -9,7 +9,6 @@ alternate_urls:
   - /apache-ant
 changelogTemplate: https://ant.apache.org/antnews.html
 versionCommand: ant -version
-staleReleaseThresholdYears: 2
 
 identifiers:
   - cpe: cpe:/a:apache:ant
@@ -22,6 +21,7 @@ auto:
 
 releases:
   - releaseCycle: "1.10"
+    staleReleaseThresholdDays: 700 # confirmed on https://ant.apache.org/antnews.html
     releaseDate: 2016-12-27
     eol: false
     latest: "1.10.15"

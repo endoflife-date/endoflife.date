@@ -11,7 +11,7 @@ changelogTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
 latestColumn: false
 eolColumn: Support
 eoesColumn: Extended Support
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1500 # the product seems very stable
 
 identifiers:
   - cpe: cpe:/a:ibm:mq

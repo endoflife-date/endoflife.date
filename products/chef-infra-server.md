@@ -11,7 +11,6 @@ versionCommand: chef-server-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 eoasColumn: true
-staleReleaseThresholdYears: 4
 
 identifiers:
   - repology: chef-server
@@ -33,6 +32,7 @@ releases:
     latestReleaseDate: 2025-11-03
 
   - releaseCycle: "14"
+    staleReleaseThresholdDays: 1500 # deprecated, but no EOL on https://docs.chef.io/versions/
     releaseDate: 2020-06-08
     eoas: 2022-06-13
     eol: false

@@ -12,7 +12,6 @@ releasePolicyLink: https://www.scala-lang.org/download/all.html
 changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
-staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: scala

@@ -12,7 +12,6 @@ releasePolicyLink: https://www.ibm.com/support/pages/aix-support-lifecycle-infor
 releaseLabel: "{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}} TL{{'__RELEASE_CYCLE__'|split:'.'|last}}"
 changelogTemplate: "https://www.ibm.com/docs/aix/{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}}?topic=notes-aix-{{'__RELEASE_CYCLE__'|replace:'.',''}}-release"
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
-staleReleaseThresholdYears: 6
 
 identifiers:
   - cpe: cpe:/o:ibm:aix
@@ -59,6 +58,7 @@ releases:
     link: https://www.ibm.com/docs/aix/7.3?topic=notes-aix-73-release
 
   - releaseCycle: "7.2.5"
+    staleReleaseThresholdDays: 2000 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
     releaseDate: 2020-11-30
     eol: false
     latest: "7.2.5"
