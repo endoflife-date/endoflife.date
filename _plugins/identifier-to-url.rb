@@ -207,4 +207,8 @@ class IdentifierToUrl
   def _build_generic_url(purl)
     return nil # valid, but don't know how to generate this kind of URL
   end
+
+  def _build_alpm_url(purl)
+    return "https://archlinux.org/packages/?q=#{purl.name}"
+  end
 end
