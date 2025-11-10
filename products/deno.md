@@ -72,15 +72,14 @@ releases:
 > [Deno](https://deno.com) is a JavaScript, TypeScript, and WebAssembly runtime with
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
-Deno follows [SemVer](https://semver.org/). 
-Deno releases a new stable, minor version (eg. v2.1.0, v2.0.0) on a 12 week schedule.
+Deno follows [SemVer](https://semver.org/) and releases a new stable, minor version (eg. v2.1.0, v2.0.0) on a 12 week schedule.
 
 Patch releases including bug fixes for the latest minor version are released as needed - 
 you can expect several patch releases before a new minor version is released.
 
 Deno [offeres multiple release channels](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#release-channels) which can be used as version aliases.
 
-> [!WARNING]
-> [LTS support will be discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026; there will be no LTS releases or maintenance beyond that date.
+> {: .warning }
+> [LTS support will be discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5); there will be no LTS releases or maintenance beyond that date.
 
 As of Deno 1.0.0, the `Deno` namespace APIs are stable. The Deno maintainers we will strive to make code working under 1.0.0 continue to work in future versions.
