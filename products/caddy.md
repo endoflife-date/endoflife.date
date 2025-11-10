@@ -15,7 +15,7 @@ auto:
 
 identifiers:
   - repology: caddy
-  - purl: pkg:alpm/caddyw
+  - purl: pkg:alpm/caddy
   - purl: pkg:apk/alpine/caddy
   - purl: pkg:brew/caddy
   - purl: pkg:chocolatey/caddy
