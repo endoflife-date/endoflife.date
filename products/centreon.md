@@ -30,8 +30,8 @@ releases:
     releaseDate: 2025-11-04
     eol: 2027-04-30
     eoes: 2027-04-30
-    latest: "25.10.0"
-    latestReleaseDate: 2025-11-03
+    latest: "25.10.1"
+    latestReleaseDate: 2025-11-10
     link: https://docs.centreon.com/docs/releases/centreon-os/
 
   - releaseCycle: "24.10"
