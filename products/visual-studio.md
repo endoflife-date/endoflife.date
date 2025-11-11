@@ -19,11 +19,19 @@ auto:
     - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
     - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
     - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
+    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-history
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
-# When adding a new major version (codename changes), remember to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visual-studio.py
+# When adding a new major version (codename changes), remember to update URLS at auto:methods above also check https://github.com/endoflife-date/release-data/blob/main/src/visual-studio.py
 releases:
+  - releaseCycle: "18.0"
+    codename: "2026"
+    releaseDate: 2025-11-11
+    eol: false # releaseDate(18.1)
+    latest: "18.0.0"
+    latestReleaseDate: 2025-11-11
+
   - releaseCycle: "17.14"
     codename: "2022"
     lts: true
