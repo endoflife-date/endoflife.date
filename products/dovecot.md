@@ -9,7 +9,6 @@ releasePolicyLink: https://dovecot.org/mailman3/archives/list/dovecot-news@dovec
 changelogTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
-staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: dovecot
@@ -29,6 +28,7 @@ releases:
     latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2.3"
+    staleReleaseThresholdDays: 500 # mentioned recently on https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/
     releaseDate: 2017-12-22
     eoas: 2025-01-24
     eol: false

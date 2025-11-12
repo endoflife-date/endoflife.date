@@ -24,15 +24,22 @@ auto:
 
 # eol(x) = releaseDate(x) + 18 months (rounded to the end of the month).
 # eoes(x) = releaseDate(x) + 18 months if x is odd, else + 36 months (rounded to the end of the month).
-# See also https://docs.centreon.com/docs/releases/lifecycle/
+# See also https://docs.centreon.com/docs/releases/lifecycle/#maintenance-table-for-centreon-versions
 releases:
+  - releaseCycle: "25.10"
+    releaseDate: 2025-11-04
+    eol: 2027-04-30
+    eoes: 2027-04-30
+    latest: "25.10.1"
+    latestReleaseDate: 2025-11-10
+    link: https://docs.centreon.com/docs/releases/centreon-os/
+
   - releaseCycle: "24.10"
     releaseDate: 2024-10-31
     eol: 2027-10-31
     eoes: 2027-10-31
     latest: "24.10.14"
     latestReleaseDate: 2025-11-04
-    link: https://docs.centreon.com/docs/releases/centreon-os/
 
   - releaseCycle: "24.04"
     releaseDate: 2024-04-22

@@ -9,7 +9,6 @@ releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Supported
-staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: ffmpeg
@@ -148,8 +147,9 @@ releases:
 
   - releaseCycle: "2.8"
     codename: "Feynman"
+    staleReleaseThresholdDays: 1000 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2015-09-09
-    eol: false # still listed on https://ffmpeg.org/download.html
+    eol: false
     latest: "2.8.22"
     latestReleaseDate: 2023-10-29
 

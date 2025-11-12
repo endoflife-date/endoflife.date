@@ -7,7 +7,6 @@ iconSlug: yarn
 permalink: /yarn
 versionCommand: yarn --version
 changelogTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
-staleReleaseThresholdYears: 4
 
 identifiers:
   - purl: pkg:github/yarnpkg/berry
@@ -26,8 +25,8 @@ releases:
   - releaseCycle: "4"
     releaseDate: 2023-10-22
     eol: false
-    latest: "4.10.3"
-    latestReleaseDate: 2025-09-23
+    latest: "4.11.0"
+    latestReleaseDate: 2025-11-07
 
   - releaseCycle: "3"
     releaseDate: 2021-07-26
@@ -42,6 +41,7 @@ releases:
     latestReleaseDate: 2021-09-06
 
   - releaseCycle: "1"
+    staleReleaseThresholdDays: 1460 # https://github.com/yarnpkg/yarn/issues/8583
     releaseDate: 2017-09-05
     eol: false
     latest: "1.22.22"

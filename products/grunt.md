@@ -5,11 +5,9 @@ category: app
 tags: herodevs javascript-runtime linux-foundation
 iconSlug: grunt
 permalink: /grunt
-releasePolicyLink: https://github.com/gruntjs/grunt
 changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/v__LATEST__
 eolColumn: Community Support
 eoesColumn: Commercial Support
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -18,6 +16,7 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "1.6"
+    staleReleaseThresholdDays: 1460 # https://github.com/gruntjs/grunt/issues/1700
     releaseDate: 2023-01-28
     eol: false
     latest: "1.6.1"
@@ -70,8 +69,8 @@ releases:
 > JavaScript task runner, a tool used to automate repetitive
 > tasks in your web development workflow.
 
-Grunt follows [semver](https://semver.org/). Only the latest release is supported
-with bug and security fixes.
+Grunt follows [semver](https://semver.org/).
+Only the latest release [is supported with security fixes](https://github.com/gruntjs/grunt/issues/1700#issuecomment-571192656).
 
 The Grunt team has indicated that they will be participating in the
 [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)

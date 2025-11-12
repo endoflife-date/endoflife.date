@@ -8,7 +8,7 @@ releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/0000
 latestColumn: false
 eolColumn: Active Support
 discontinuedColumn: true
-staleReleaseThresholdYears: 7
+staleReleaseThresholdDays: 2555 # 7 years, processors has a very long support window
 
 releases:
   - releaseCycle: "arrow-lake"
@@ -24,7 +24,7 @@ releases:
     discontinued: false
     eol: false
     link: https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html
-  
+
   - releaseCycle: "meteor-lake"
     releaseLabel: "Meteor Lake"
     releaseDate: 2023-12-14

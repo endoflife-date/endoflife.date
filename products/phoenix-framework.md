@@ -7,10 +7,10 @@ permalink: /phoenix-framework
 alternate_urls:
   - /phoenix
   - /phoenixframework
-changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
+changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 eoasColumn: Bug Fixes
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1500 # https://github.com/phoenixframework/phoenix/security
 
 identifiers:
   - purl: pkg:hex/phoenix
