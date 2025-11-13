@@ -65,7 +65,7 @@ releases:
     releaseLabel: "Galaxy S25 FE"
     releaseDate: 2025-09-04 # https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
     eoas: 2032-09-04 # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
-    eol: false      # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    eol: 2032-09-04  # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
     link: https://doc.samsungmobile.com/SM-S731B/COL/doc.html
 
   - releaseCycle: "galaxy-a07"
