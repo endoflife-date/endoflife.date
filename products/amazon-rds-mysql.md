@@ -43,7 +43,7 @@ releases:
     eol: 2024-02-29
     eoes: 2027-02-28
     latest: "5.7.44"
-    latestReleaseDate: 2024-05-17
+    latestReleaseDate: 2025-02-13
 
   - releaseCycle: "5.6"
     releaseDate: 2013-07-01
@@ -51,6 +51,7 @@ releases:
     eoes: true
     latest: "5.6"
     latestReleaseDate: 2013-07-01
+
 ---
 
 > [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for
