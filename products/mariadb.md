@@ -75,8 +75,8 @@ releases:
     releaseDate: 2025-06-04
     eol: 2028-06-04
     eoes: 2033-10-15
-    latest: "11.8.4"
-    latestReleaseDate: 2025-11-06
+    latest: "11.8.5"
+    latestReleaseDate: 2025-11-14
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
