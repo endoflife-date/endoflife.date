@@ -82,7 +82,6 @@ releases:
 > [Composer](https://getcomposer.org/) is a package manager commonly used to manage
 > libraries and other dependencies for PHP projects.
 
-
 ## [PHP Support](https://blog.packagist.com/composer-2-2/)
 
 | Composer Version | PHP Version |
