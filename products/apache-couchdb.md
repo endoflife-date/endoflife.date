@@ -51,8 +51,10 @@ releases:
 
 ---
 
-> [Apache CouchDB](https://couchdb.apache.org/) is an open-source, document-oriented NoSQL database implemented
-> in Erlang. CouchDB uses various formats and protocols to store, transfer, and
+> [Apache CouchDB](https://couchdb.apache.org/) is an (Apache Licensed) open-source
+> (see [`apache/couchdb`](https://github.com/apache/couchdb)), document-oriented
+> NoSQL database implemented in Erlang.
+> CouchDB uses various formats and protocols to store, transfer, and
 > process data, with JSON as its primary data storage format.
 
 CouchDB maintains the two most recent releases for CVEs. Older versions are
