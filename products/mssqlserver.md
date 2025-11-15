@@ -49,7 +49,7 @@ releases:
     latestGdr: "13.0.6475.1"
     latestGdrLink: https://support.microsoft.com/help/5068401 # GDR for SP3
     latest: "13.0.7070.1 Azure Connect pack+GDR"
-    latestReleaseDate: 2025-08-12
+    latestReleaseDate: 2025-11-11
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
     # Azure Connect pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3-azureconnect
     link: https://support.microsoft.com/help/5068400 # GDR for Azure Connect pack
