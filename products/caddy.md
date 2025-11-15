@@ -30,8 +30,6 @@ identifiers:
   - cpe: cpe:/a:caddyserver:caddy
   - cpe: cpe:2.3:a:caddyserver:caddy
 
-# Supported versions : https://github.com/caddyserver/caddy
-# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2"
     releaseDate: 2020-05-04
@@ -47,7 +45,6 @@ releases:
     latestReleaseDate: 2020-02-28
 ---
 
-> [Caddy](https://caddyserver.com/) is a fast and extensible multi-platform web
-> server with automatic HTTPS support.
+> [Caddy](https://caddyserver.com/) is a fast and extensible multi-platform web server with automatic HTTPS support.
 
 Only the latest release is considered supported.
