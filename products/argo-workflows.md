@@ -1,5 +1,6 @@
 ---
 title: Argo Workflows
+addedAt: 2025-11-16
 category: server-app
 tags: cncf linux-foundation
 iconSlug: argo
@@ -34,10 +35,8 @@ releases:
 
 ---
 
-> [Argo Workflows](https://argoproj.github.io/workflows/) is an open-source
-> container-native workflow engine for orchestrating parallel jobs on
-> Kubernetes.
+> [Argo Workflows](https://argoproj.github.io/workflows/) is an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
-Argo Workflows maintains release branches for the two most recent minor
-versions. New minor releases occur approximately every 6 months. Patch releases
-are typically released every two weeks.
+Argo Workflows maintains release branches for the two most recent minor versions.
+New minor releases occur approximately every 6 months.
+Patch releases are typically released every two weeks.
