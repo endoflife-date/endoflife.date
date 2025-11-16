@@ -2,6 +2,7 @@
 title: ArangoDB
 addedAt: 2024-01-05
 category: database
+tags: nosql
 iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
