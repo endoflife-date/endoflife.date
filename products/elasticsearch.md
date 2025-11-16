@@ -2,7 +2,7 @@
 title: Elasticsearch
 addedAt: 2019-06-16
 category: database
-tags: elastic java-runtime
+tags: elastic java-runtime nosql
 iconSlug: elasticsearch
 permalink: /elasticsearch
 versionCommand: $ES_HOME/bin/elasticsearch -v
