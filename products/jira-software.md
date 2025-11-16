@@ -35,37 +35,37 @@ releases:
 
   - releaseCycle: "11.1"
     releaseDate: 2025-09-24
-    eol: 2027-09-24
+    eol: 2026-03-24
     latest: "11.1.1"
     latestReleaseDate: 2025-10-15
 
   - releaseCycle: "11.0"
     releaseDate: 2025-08-13
-    eol: 2027-08-13
+    eol: 2026-02-13
     latest: "11.0.1"
     latestReleaseDate: 2025-09-04
 
   - releaseCycle: "10.7"
     releaseDate: 2025-06-13
-    eol: 2027-06-13
+    eol: 2025-12-13
     latest: "10.7.4"
     latestReleaseDate: 2025-08-14
 
   - releaseCycle: "10.6"
     releaseDate: 2025-04-23
-    eol: 2027-04-23
+    eol: 2025-10-23
     latest: "10.6.1"
     latestReleaseDate: 2025-05-20
 
   - releaseCycle: "10.5"
     releaseDate: 2025-03-12
-    eol: 2027-03-12
+    eol: 2025-09-12
     latest: "10.5.1"
     latestReleaseDate: 2025-04-03
 
   - releaseCycle: "10.4"
     releaseDate: 2025-01-22
-    eol: 2027-01-22
+    eol: 2025-07-22
     latest: "10.4.1"
     latestReleaseDate: 2025-02-12
 
@@ -78,49 +78,49 @@ releases:
 
   - releaseCycle: "10.2"
     releaseDate: 2024-11-20
-    eol: 2026-11-20
+    eol: 2025-05-20
     latest: "10.2.1"
     latestReleaseDate: 2024-11-28
 
   - releaseCycle: "10.1"
     releaseDate: 2024-10-09
-    eol: 2026-10-09
+    eol: 2025-04-09
     latest: "10.1.2"
     latestReleaseDate: 2024-10-31
 
   - releaseCycle: "10.0"
     releaseDate: 2024-08-22
-    eol: 2026-08-22
+    eol: 2025-02-22
     latest: "10.0.1"
     latestReleaseDate: 2024-09-09
 
   - releaseCycle: "9.17"
     releaseDate: 2024-06-26
-    eol: 2026-06-26
+    eol: 2024-12-26
     latest: "9.17.5"
     latestReleaseDate: 2024-11-14
 
   - releaseCycle: "9.16"
     releaseDate: 2024-05-23
-    eol: 2026-05-23
+    eol: 2024-11-23
     latest: "9.16.1"
     latestReleaseDate: 2024-06-12
 
   - releaseCycle: "9.15"
     releaseDate: 2024-03-27
-    eol: 2026-03-27
+    eol: 2024-09-27
     latest: "9.15.2"
     latestReleaseDate: 2024-05-02
 
   - releaseCycle: "9.14"
     releaseDate: 2024-02-14
-    eol: 2026-02-15
+    eol: 2024-08-14
     latest: "9.14.1"
     latestReleaseDate: 2024-03-12
 
   - releaseCycle: "9.13"
     releaseDate: 2024-01-22
-    eol: 2026-01-22
+    eol: 2024-07-22
     latest: "9.13.1"
     latestReleaseDate: 2024-02-06
 
