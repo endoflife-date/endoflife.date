@@ -9,7 +9,7 @@ alternate_urls:
   - /couchdb
 releasePolicyLink: https://docs.couchdb.org/en/stable/cve/index.html
 changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
-versionCommand: curl -s http://localhost:5984/ | jq -r '.version'
+versionCommand: curl -s http://localhost:5984/ | grep -oP '"version"\s*:\s*"\K[^"]+'
 
 identifiers:
   - purl: pkg:github/apache/couchdb
