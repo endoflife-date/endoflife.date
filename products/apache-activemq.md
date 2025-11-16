@@ -31,6 +31,13 @@ auto:
 # - y <= 9 and z > 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
 # - y <= 9 and z <= 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
+  - releaseCycle: "6.2"
+    releaseDate: 2025-11-09
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "6.2.0"
+    latestReleaseDate: 2025-11-09
+    link: https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311210&version=12354379
+
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
