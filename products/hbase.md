@@ -2,7 +2,7 @@
 title: Apache HBase
 addedAt: 2022-07-27
 category: database
-tags: apache java-runtime
+tags: apache java-runtime nosql
 iconSlug: apachehbase
 permalink: /hbase
 alternate_urls:
