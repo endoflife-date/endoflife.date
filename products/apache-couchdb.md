@@ -2,7 +2,7 @@
 title: Apache CouchDB
 addedAt: 2024-08-10
 category: database
-tags: apache erlang-runtime nosql
+tags: apache erlang-runtime
 iconSlug: apachecouchdb
 permalink: /apache-couchdb
 alternate_urls:
