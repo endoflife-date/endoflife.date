@@ -16,24 +16,8 @@ eoasColumn: true
 
 auto:
   methods:
-    - version_table: https://mxlinux.org/previous-releases/
-      render_javascript: true
-      render_javascript_wait_for: table
-      header_selector: "tr:nth-of-type(1)"
-      name_column: "Version"
-      regex: '^MX-(?P<value>\d+(\.\d+(\.\d+)?)?)( \(all\))?$'
-      template: "{{value}}"
-      date_column: "Release"
-    - release_table: https://mxlinux.org/previous-releases/
-      render_javascript: true
-      render_javascript_wait_for: table
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle:
-          column: "Version"
-          regex: '^MX-(?P<value>\d+)$'
-        releaseDate: "Release"
-        eoas: "Debian (Main) Support"
+    - distrowatch: mx
+      regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
 
 # EOL dates documented on https://mxlinux.org/previous-releases/.
 # If not documented yet, use Debian eol for support, and eoes for eol.
