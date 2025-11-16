@@ -20,6 +20,7 @@ auto:
     - git: https://github.com/argoproj/argo-workflows.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
+# eol(x) = releaseDate(x+2)
 releases:
   - releaseCycle: "3.7"
     releaseDate: 2025-07-23
@@ -32,6 +33,24 @@ releases:
     eol: false
     latest: "3.6.13"
     latestReleaseDate: 2025-11-13
+
+  - releaseCycle: "3.5"
+    releaseDate: 2023-10-13
+    eol: 2025-07-23
+    latest: "3.5.15"
+    latestReleaseDate: 2025-06-13
+
+  - releaseCycle: "3.4"
+    releaseDate: 2022-09-18
+    eol: 2024-11-14
+    latest: "3.4.18"
+    latestReleaseDate: 2024-10-07
+
+  - releaseCycle: "3.3"
+    releaseDate: 2022-03-14
+    eol: 2023-10-13
+    latest: "3.3.10"
+    latestReleaseDate: 2022-11-29
 
 ---
 
