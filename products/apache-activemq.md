@@ -30,7 +30,7 @@ releases:
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "6.2.0"
     latestReleaseDate: 2025-11-09
-    link: https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311210&version=12354379
+    link: https://activemq.apache.org/components/classic/download/classic-06-02-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
