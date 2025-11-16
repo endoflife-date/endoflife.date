@@ -2,7 +2,7 @@
 title: Apache Hadoop
 addedAt: 2023-09-24
 category: database
-tags: apache java-runtime
+tags: apache java-runtime nosql
 iconSlug: apachehadoop
 permalink: /apache-hadoop
 alternate_urls:
