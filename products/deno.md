@@ -30,7 +30,6 @@ releases:
 
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01
-    lts: false
     eol: 2025-09-10 # releaseDate(2.5)
     latest: "2.4.5"
     latestReleaseDate: 2025-08-21
