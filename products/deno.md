@@ -19,19 +19,19 @@ auto:
     - git: https://github.com/denoland/deno.git
 
 # non-LTS : eol(x) = releaseDate(x+1)
-# LTS : eol(x) = releaseDate(x+1) + 5 months
-# LTS releases are listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
+# LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10
-    eol: false # releaseDate( 2.6 )
+    lts: 2025-11-01
+    eol: 2026-04-30
     latest: "2.5.6"
     latestReleaseDate: 2025-10-29
 
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01
-    lts: 2025-11-01
-    eol: 2026-04-30
+    lts: false
+    eol: 2025-09-10 # releaseDate(2.5)
     latest: "2.4.5"
     latestReleaseDate: 2025-08-21
 
