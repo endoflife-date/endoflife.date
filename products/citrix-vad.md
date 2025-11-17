@@ -165,7 +165,7 @@ releases:
     eol: 2022-12-16
     latest: "2106"
     latestReleaseDate: 2021-06-16
-    link:http://web.archive.org/web/20250418235814/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2106/whats-new
+    link: http://web.archive.org/web/20250418235814/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2106/whats-new
 
   - releaseCycle: "2103"
     releaseDate: 2021-03-17
