@@ -25,7 +25,8 @@ auto:
 
 releases:
   - releaseCycle: "3"
-    releaseDate: 2009-01-15
+    # 3.0.7 release date, because it is the first stable release in the 3.x line
+    releaseDate: 2004-09-18
     eol: false
     latest: "3.51.0"
     latestReleaseDate: 2025-11-04
