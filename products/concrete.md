@@ -62,3 +62,4 @@ Concrete CMS has a loose release schedule:
 - A new major version comes out every few years, when it's ready.
 - A new minor version is released every six months, likely in late fall and late spring.
 - A new patch version is released every month, likely on the first Tuesday of the month.
+
