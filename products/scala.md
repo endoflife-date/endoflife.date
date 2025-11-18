@@ -93,6 +93,7 @@ releases:
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.12"
+    staleReleaseThresholdDays: 730 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2016-10-28
     eoas: 2019-06-07
     eol: false
@@ -101,6 +102,7 @@ releases:
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.11"
+    staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2014-04-16
     eoas: 2016-11-03
     eol: false
@@ -109,6 +111,7 @@ releases:
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.10"
+    staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2012-12-19
     eoas: 2014-04-17
     eol: false
