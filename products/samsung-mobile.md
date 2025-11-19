@@ -44,7 +44,7 @@ releases:
     releaseLabel: "Galaxy M17 5G"
     releaseDate: 2025-10-13 # https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     eoas: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
-    eol: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
+    eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     link: null # not found
 
   - releaseCycle: "w26"
@@ -65,7 +65,7 @@ releases:
     releaseLabel: "Galaxy M07"
     releaseDate: 2025-10-01 # https://www.gsmarena.com/samsung_galaxy_m07-14100.php
     eoas: 2031-10-01 # unknown # 6 years - https://www.gsmarena.com/samsung_galaxy_m07-14100.php
-    eol: 2031-10-01 # unknown # vhttps://www.gsmarena.com/samsung_galaxy_m07-14100.php
+    eol: false      # unknown # vhttps://www.gsmarena.com/samsung_galaxy_m07-14100.php
     link: null # not found
 
   - releaseCycle: "galaxy-f17-5g"
