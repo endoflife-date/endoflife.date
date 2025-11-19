@@ -26,10 +26,17 @@ auto:
 # - for non-LTS: releaseDate(x+1)
 # Dates can be found on https://projects.blender.org/blender/blender/milestones.
 releases:
+  - releaseCycle: "5.0"
+    releaseDate: 2025-11-18
+    eoas: false # releaseDate(5.1)
+    eol: false # releaseDate(5.1)
+    latest: "5.0.0"
+    latestReleaseDate: 2025-11-18
+
   - releaseCycle: "4.5"
     lts: true
     releaseDate: 2025-07-14
-    eoas: 2025-11-11 # planned 5.0 date, see https://projects.blender.org/blender/blender/milestone/20
+    eoas: 2025-11-18
     eol: 2027-07-14 # see https://projects.blender.org/blender/blender/milestone/25
     latest: "4.5.5"
     latestReleaseDate: 2025-11-17
