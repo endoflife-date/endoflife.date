@@ -32,11 +32,11 @@ auto:
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
   - releaseCycle: "12.3"
-    releaseDate: 2025-11-19
+    releaseDate: 2025-11-18
     eoas: 2026-02-24
     eol: 2026-08-18
     latest: "12.3"
-    latestReleaseDate: 2025-11-19
+    latestReleaseDate: 2025-11-18
     
   - releaseCycle: "12.2"
     releaseDate: 2025-09-23
