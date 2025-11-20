@@ -34,7 +34,7 @@ releases:
   - releaseCycle: "12.3"
     releaseDate: 2025-11-19
     eoas: false
-    eol: 
+    eol: false
     latest: "12.3"
     latestReleaseDate: 2025-11-19
     
