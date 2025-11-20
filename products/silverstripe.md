@@ -21,40 +21,14 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/silverstripe/silverstripe-installer.git
-    - release_table: https://www.silverstripe.org/software/roadmap/
-      render_javascript: true
-      render_javascript_wait_for: "table"
-      remove_if_undefined: "releaseDate"
-      fields:
-        releaseCycle: "CMS Version"
-        releaseDate: "Release date"
-        eoas: "Partial support starts"
-        eol: "Support ends"
-    - declare: silverstripe
-      # Release dates are approximate on https://www.silverstripe.org/software/roadmap/.
-      releases:
-        - {name: "6.0", releaseDate: 2025-06-10}   # https://www.silverstripe.org/blog/silverstripe-cms-6-0/
-        - {name: "5.4", releaseDate: 2025-04-10}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-4/
-        - {name: "5.3", releaseDate: 2024-11-04}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-3/
-        - {name: "5.2", releaseDate: 2024-04-15}   # https://www.silverstripe.org/blog/cms-5-2/
-        - {name: "5.1", releaseDate: 2023-10-17}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5-1/
-        - {name: "5.0", releaseDate: 2023-05-08}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-5/
-        - {name: "4.13", releaseDate: 2023-04-26}   # https://www.silverstripe.org/blog/cms-4-13/
-        - {name: "4.12", releaseDate: 2022-12-19}   # https://www.silverstripe.org/blog/announcing-silverstripe-cms-4-12-with-improved-gridfield-ux/
-        - {name: "4.11", releaseDate: 2022-06-28}   # https://www.silverstripe.org/blog/cms-4-11/
-        - {name: "4.10", releaseDate: 2022-01-27}   # https://www.silverstripe.org/blog/cms-4-10-is-here-with-official-support-for-php-8-0/
-        - {name: "3.7", releaseDate: 2018-06-08}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.7.0
-        - {name: "3.1", releaseDate: 2013-10-01}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.1.0
-        - {name: "3.0", releaseDate: 2012-06-28}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/3.0.0
-        - {name: "2.4", releaseDate: 2011-02-02}   # https://github.com/silverstripe/silverstripe-framework/releases/tag/2.4.0
-        - {name: "2.3", releaseDate: 2009-02-23}   # https://www.silverstripe.org/blog/silverstripe-2-3-0-released-1000s-of-improvements/
+    - silverstripe: https://raw.githubusercontent.com/silverstripe/roadmap/refs/heads/main/data.json
 
 # releaseDate, eoas and eol on https://www.silverstripe.org/software/roadmap/
 # eoas, eol rounded to the end of month
 # When adding a new release, please also update the auto section above with the exact release date.
 releases:
   - releaseCycle: "6.1"
-    releaseDate: 2025-10-31
+    releaseDate: 2025-10-13
     eoas: 2026-04-30
     eol: 2026-10-31
     latest: "6.1.0"
@@ -62,29 +36,29 @@ releases:
 
   - releaseCycle: "6.0"
     releaseDate: 2025-06-10
-    eoas: 2025-10-31
-    eol: 2026-04-30
+    eoas: 2025-10-13
+    eol: 2026-04-14
     latest: "6.0.0"
     latestReleaseDate: 2025-06-10
 
   - releaseCycle: "5.4"
     releaseDate: 2025-04-10
-    eoas: 2026-04-30
+    eoas: 2026-04-11
     eol: 2027-04-30
     latest: "5.4.0"
     latestReleaseDate: 2025-04-10
 
   - releaseCycle: "5.3"
     releaseDate: 2024-11-04
-    eoas: 2025-04-30
-    eol: 2025-10-31
+    eoas: 2025-04-10
+    eol: 2025-10-11
     latest: "5.3.0"
     latestReleaseDate: 2024-11-04
 
   - releaseCycle: "5.2"
     releaseDate: 2024-04-15
-    eoas: 2024-11-30
-    eol: 2025-05-31
+    eoas: 2024-11-04
+    eol: 2025-05-05
     latest: "5.2.0"
     latestReleaseDate: 2024-04-15
 
@@ -104,8 +78,8 @@ releases:
 
   - releaseCycle: "4.13"
     releaseDate: 2023-04-26
-    eoas: 2024-04-30
-    eol: 2025-06-30
+    eoas: 2024-04-27
+    eol: 2025-06-10
     latest: "4.13.0"
     latestReleaseDate: 2023-04-26
 

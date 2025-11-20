@@ -47,7 +47,7 @@ releases:
 
   - releaseCycle: "10.5"
     releaseDate: 2021-01-21
-    eol: 2026-02-28
+    eol: 2026-05-31
     latest: "10.5.29"
     latestReleaseDate: 2025-05-20
 

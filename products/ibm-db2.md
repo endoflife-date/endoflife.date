@@ -24,6 +24,7 @@ auto:
 
 releases:
   - releaseCycle: "12.1"
+    staleReleaseThresholdDays: 730 # EOL not declared on https://www.ibm.com/support/pages/space/product-lifecycle/ibm_product_lifecycle_list.csv
     releaseDate: 2024-11-14
     eol: false
     eoes: false
