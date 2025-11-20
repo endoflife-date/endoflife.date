@@ -40,6 +40,13 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-m17-5g"
+    releaseLabel: "Galaxy M17 5G"
+    releaseDate: 2025-10-13 # https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
+    eoas: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
+    eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
+    link: null # not found
+
   - releaseCycle: "w26"
     releaseLabel: "W26"
     releaseDate: 2025-10-11 # https://www.absolutegeeks.com/article/tech-news/samsungs-galaxy-w26-brings-real-satellite-calling-but-only-for-china/
@@ -54,6 +61,13 @@ releases:
     eol: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
     link: null # not found
 
+  - releaseCycle: "galaxy-m07"
+    releaseLabel: "Galaxy M07"
+    releaseDate: 2025-10-01 # https://www.gsmarena.com/samsung_galaxy_m07-14100.php
+    eoas: 2031-10-01 # unknown # 6 years - https://www.gsmarena.com/samsung_galaxy_m07-14100.php
+    eol: false      # unknown # vhttps://www.gsmarena.com/samsung_galaxy_m07-14100.php
+    link: null # not found
+
   - releaseCycle: "galaxy-f17-5g"
     releaseLabel: "Galaxy F17 5G"
     releaseDate: 2025-09-11 # https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
@@ -64,8 +78,8 @@ releases:
   - releaseCycle: "galaxy-s25-fe"
     releaseLabel: "Galaxy S25 FE"
     releaseDate: 2025-09-04 # https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
-    eoas: 2025-09-04 # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
-    eol: false      # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    eoas: 2032-09-04 # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
+    eol: 2032-09-04  # 7 years - https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials
     link: https://doc.samsungmobile.com/SM-S731B/COL/doc.html
 
   - releaseCycle: "galaxy-a07"

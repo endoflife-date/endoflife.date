@@ -96,7 +96,7 @@ releases:
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-30
+    eol: 2030-12-31
     latest: "8u472-b08"
     latestReleaseDate: 2025-10-28
 

@@ -29,22 +29,22 @@ releases:
     releaseDate: 2025-10-16
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
-    latest: "18.5.1"
-    latestReleaseDate: 2025-10-21
+    latest: "18.5.2"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
     eoas: 2025-10-16 # releaseDate(18.5)
     eol: 2025-12-18 # releaseDate(18.7)
-    latest: "18.4.3"
-    latestReleaseDate: 2025-10-21
+    latest: "18.4.4"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
     eol: 2025-11-20 # releaseDate(18.6)
-    latest: "18.3.5"
-    latestReleaseDate: 2025-10-21
+    latest: "18.3.6"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "18.2"
     releaseDate: 2025-07-16
