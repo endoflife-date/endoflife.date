@@ -67,7 +67,7 @@ releases:
     releaseDate: 2025-11-18
     eol: 2026-02-18 #estimated 
     latest: "12.1.2"
-    latestReleaseDate: 2025-08-07
+    latestReleaseDate: 2025-11-18
     link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "12.0"
