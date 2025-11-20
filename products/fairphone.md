@@ -30,7 +30,7 @@ releases:
     link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
   - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
-    supportedAndroidVersions: "13 - 14" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
+    supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
     releaseDate: 2023-09-14
     discontinued: false
     eoas: false
@@ -39,9 +39,9 @@ releases:
 
   - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
-    supportedAndroidVersions: 11 - 13
+    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/en-us/articles/4405858220945-Fairphone-4-Release-Notes
     releaseDate: 2021-09-30
-    discontinued: false
+    discontinued: true
     eoas: true
     eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/4405858220945

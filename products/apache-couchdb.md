@@ -9,7 +9,7 @@ alternate_urls:
   - /couchdb
 releasePolicyLink: https://docs.couchdb.org/en/stable/cve/index.html
 changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
-versionCommand: curl http://localhost:5984/_config/vendor/version
+versionCommand: curl -s http://localhost:5984/ | jq -r '.version'
 
 identifiers:
   - purl: pkg:github/apache/couchdb
@@ -51,8 +51,10 @@ releases:
 
 ---
 
-> [Apache CouchDB](https://couchdb.apache.org/) is an open-source, document-oriented NoSQL database implemented
-> in Erlang. CouchDB uses various formats and protocols to store, transfer, and
+> [Apache CouchDB](https://couchdb.apache.org/) is an (Apache Licensed) open-source
+> (see [`apache/couchdb`](https://github.com/apache/couchdb)), document-oriented
+> NoSQL database implemented in Erlang.
+> CouchDB uses various formats and protocols to store, transfer, and
 > process data, with JSON as its primary data storage format.
 
 CouchDB maintains the two most recent releases for CVEs. Older versions are
