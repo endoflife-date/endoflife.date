@@ -32,8 +32,8 @@ releases:
     codename: SQL25
     releaseLabel: "2025"
     releaseDate: 2025-11-18
-    eoas: false # not yet announced https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2025
-    eol: false # not yet announced https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2025
+    eoas: 2031-01-06
+    eol: 2036-01-06
     latestGdr: "17.0.1000.7"
     latestGdrLink: https://learn.microsoft.com/en-us/sql/sql-server/sql-server-2025-release-notes
     latest: "17.0.1000.7"
