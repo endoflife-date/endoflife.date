@@ -37,7 +37,7 @@ releases:
     latestGdr: "17.0.1000.7"
     latestGdrLink: https://learn.microsoft.com/en-us/sql/sql-server/sql-server-2025-release-notes
     latest: "17.0.1000.7"
-    latestReleaseDate: 2022-11-18
+    latestReleaseDate: 2025-11-18
     link: https://learn.microsoft.com/en-us/sql/sql-server/sql-server-2025-release-notes
 
   - releaseCycle: "16.0"
