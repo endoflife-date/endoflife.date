@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "1.91"
     releaseDate: 2025-10-30
     eol: false
-    latest: "1.91.0"
-    latestReleaseDate: 2025-10-30
+    latest: "1.91.1"
+    latestReleaseDate: 2025-11-10
 
   - releaseCycle: "1.90"
     releaseDate: 2025-09-18
@@ -399,6 +399,7 @@ releases:
     eol: 2018-10-26
     latest: "1.29.2"
     latestReleaseDate: 2018-10-12
+
 ---
 
 > [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming language

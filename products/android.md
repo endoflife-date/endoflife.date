@@ -13,7 +13,7 @@ changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE_
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 eolColumn: Security Support
-staleReleaseThresholdDays: 1095 # 3 years seems a minimum
+staleReleaseThresholdDays: 1460 # OSes have a longer support period
 
 customFields:
   - name: apiVersion

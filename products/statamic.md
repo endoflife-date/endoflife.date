@@ -51,7 +51,7 @@ auto:
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-05-09
-    eoas: 2025-09-30
+    eoas: 2026-03-31
     eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
