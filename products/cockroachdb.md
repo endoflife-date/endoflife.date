@@ -53,14 +53,14 @@ releases:
     eoas: 2026-11-03
     eol: 2027-05-03
     latest: "25.4.0"
-    latestReleaseDate: 2025-11-03
+    latestReleaseDate: 2025-10-27
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
     eoas: 2026-02-04
     eol: 2026-02-04 # innovation release
-    latest: "25.3.4"
-    latestReleaseDate: 2025-10-28
+    latest: "25.3.5"
+    latestReleaseDate: 2025-11-01
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09

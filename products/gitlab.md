@@ -30,7 +30,7 @@ releases:
     eoas: 2025-12-18 # releaseDate(18.7)
     eol: 2026-02-19 # releaseDate(18.9)
     latest: "18.6.0"
-    latestReleaseDate: 2025-11-20
+    latestReleaseDate: 2025-11-19
 
   - releaseCycle: "18.5"
     releaseDate: 2025-10-16
