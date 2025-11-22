@@ -43,6 +43,18 @@ releases:
     eol: true
     latest: "5.12.2"
     latestReleaseDate: 2025-04-12
+    
+  - releaseCycle: "5.11"
+    releaseDate: 2024-08-14
+    eol: true
+    latest: "5.11.4"
+    latestReleaseDate: 2024-12-17
+
+  - releaseCycle: "5.10"
+    releaseDate: 2023-07-24
+    eol: true
+    latest: "5.10.5"
+    latestReleaseDate: 2024-10-05
 
 ---
 
