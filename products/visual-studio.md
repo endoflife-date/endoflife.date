@@ -29,8 +29,8 @@ releases:
     codename: "2026"
     releaseDate: 2025-11-11
     eol: false # releaseDate(18.1)
-    latest: "18.0.0"
-    latestReleaseDate: 2025-11-11
+    latest: "18.0.1"
+    latestReleaseDate: 2025-11-19
 
   - releaseCycle: "17.14"
     codename: "2022"

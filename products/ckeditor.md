@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2018-04-25 # https://github.com/ckeditor/ckeditor5/releases/tag/v10.0.0
     eol: false
-    latest: 47.1.0
-    latestReleaseDate: 2025-10-16
+    latest: 47.2.0
+    latestReleaseDate: 2025-11-05
     link: https://github.com/ckeditor/ckeditor5/releases/tag/v__LATEST__
 
   - releaseCycle: "4"
