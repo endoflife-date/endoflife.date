@@ -13,6 +13,10 @@ auto:
   methods:
     - git: https://github.com/adonisjs/core.git
 
+identifiers:
+  - purl: pkg:github/adonisjs/core
+  - purl: pkg:npm/%40adonisjs/core
+
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "6"
