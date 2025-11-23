@@ -38,19 +38,19 @@ releases:
     latest: "3.1.3"
     latestReleaseDate: 2025-11-14
 
-  - releaseCycle: "3.0"
-    releaseDate: 2025-04-23
-    eoas: false
-    eol: false
-    latest: "3.0.6"
-    latestReleaseDate: 2025-08-30
-
   - releaseCycle: "2.11"
     releaseDate: 2025-05-20
     eoas: 2025-10-22
     eol: 2026-04-22
     latest: "2.11.0"
     latestReleaseDate: 2025-05-20
+
+  - releaseCycle: "3.0"
+    releaseDate: 2025-04-23
+    eoas: false
+    eol: false
+    latest: "3.0.6"
+    latestReleaseDate: 2025-08-30
 
   - releaseCycle: "2.10"
     releaseDate: 2024-08-16
