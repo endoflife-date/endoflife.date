@@ -5,8 +5,8 @@ category: framework
 tags: java-runtime
 iconSlug: junit5
 permalink: /junit
-##versionCommand: bun --version
-releasePolicyLink: https://github.com/junit-team/junit-framework/?tab=security-ov-file
+
+releasePolicyLink: https://github.com/junit-team/junit-framework/?tab=security-ov-file#security-policy
 changelogTemplate: https://github.com/junit-team/junit-framework/releases/tag/v__LATEST__
 
 identifiers:
@@ -34,25 +34,25 @@ releases:
 
   - releaseCycle: "5.13"
     releaseDate: 2025-05-30
-    eol: true
+    eol: 2025-09-30
     latest: "5.13.4"
     latestReleaseDate: 2025-07-21
 
   - releaseCycle: "5.12"
     releaseDate: 2025-02-22
-    eol: true
+    eol: 2025-05-30
     latest: "5.12.2"
     latestReleaseDate: 2025-04-12
     
   - releaseCycle: "5.11"
     releaseDate: 2024-08-14
-    eol: true
+    eol: 2025-02-22
     latest: "5.11.4"
     latestReleaseDate: 2024-12-17
 
   - releaseCycle: "5.10"
     releaseDate: 2023-07-24
-    eol: true
+    eol: 2024-08-14
     latest: "5.10.5"
     latestReleaseDate: 2024-10-05
 
@@ -63,4 +63,3 @@ releases:
 > for developer-side testing on the JVM. It requires Java 17 and Kotlin 2.1 or above and enables many
 >  different styles of testing.
 
-Bun does not have a clearly defined support policy.
