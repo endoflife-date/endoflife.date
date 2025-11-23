@@ -16,8 +16,6 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/junit-team/junit-framework.git
-      #regex: ^bun-v(?P<version>\d+(\.\d+)+)$
-      #template: "{{version}}"
 
 releases:
   - releaseCycle: "6.0"
