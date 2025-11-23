@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "5.14"
     releaseDate: 2025-09-30
     eol: false
-    latest: "5.14.0"
-    latestReleaseDate: 2025-09-30
+    latest: "5.14.1"
+    latestReleaseDate: 2025-11-01
 
   - releaseCycle: "5.13"
     releaseDate: 2025-05-30
@@ -53,6 +53,18 @@ releases:
     eol: 2024-08-14
     latest: "5.10.5"
     latestReleaseDate: 2024-10-05
+
+  - releaseCycle: "5.9"
+    releaseDate: 2022-02-27
+    eol: 2024-08-14
+    latest: "5.9.3"
+    latestReleaseDate: 2023-04-26
+
+  - releaseCycle: "5.8"
+    releaseDate: 2021-09-13
+    eol: 2024-08-14
+    latest: "5.8.2"
+    latestReleaseDate: 2021-11-29
 
 ---
 
