@@ -12,6 +12,10 @@ auto:
   methods:
     - git: https://github.com/Behat/Behat.git
 
+identifiers:
+  - purl: pkg:composer/behat/behat
+  - purl: pkg:github/behat/behat
+
 releases:
   - releaseCycle: "3"
     releaseDate: 2014-04-20
