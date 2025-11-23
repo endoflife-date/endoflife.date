@@ -116,7 +116,7 @@ releases:
     latestReleaseDate: 2021-10-12
 
   - releaseCycle: "2.1"
-    releaseDate: 2021-04-20
+    releaseDate: 2021-05-18
     eoas: 2025-10-22
     eol: 2026-04-22
     latest: "2.1.4"
@@ -162,7 +162,7 @@ releases:
     eoas: 2017-03-19
     eol: 2017-03-19
     latest: "1.6.2"
-    latestReleaseDate: 2026-01-05
+    latestReleaseDate: 2016-01-05
 
   - releaseCycle: "1.5"
     releaseDate: 2015-09-04
