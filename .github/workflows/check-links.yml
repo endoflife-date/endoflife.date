@@ -12,7 +12,7 @@ jobs:
     if: ${{ github.repository == 'endoflife-date/endoflife.date' }}
     steps:
       - name: Checkout site
-        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v5
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
 
       - name: Setup ruby
         uses: ruby/setup-ruby@d5126b9b3579e429dd52e51e68624dda2e05be25 # v1
