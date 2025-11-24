@@ -50,8 +50,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.3"
-    latestReleaseDate: 2025-08-14
+    latest: "6.1.4"
+    latestReleaseDate: 2025-11-23
 
   - releaseCycle: "6.0"
     codename: Von Neumann
