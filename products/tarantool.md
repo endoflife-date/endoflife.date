@@ -23,26 +23,26 @@ releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-08-27
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
-    latest: "3.5.0"
-    latestReleaseDate: 2025-08-27
+    latest: "3.5.1"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.4"
     releaseDate: 2025-04-15
     eol: 2027-04-14
-    latest: "3.4.1"
-    latestReleaseDate: 2025-08-13
+    latest: "3.4.2"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.3"
     releaseDate: 2024-11-29
     eol: 2026-11-29
-    latest: "3.3.3"
-    latestReleaseDate: 2025-08-13
+    latest: "3.3.4"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.2"
     releaseDate: 2024-08-26
     eol: 2026-08-26
-    latest: "3.2.2"
-    latestReleaseDate: 2025-08-22
+    latest: "3.2.3"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.1"
     releaseDate: 2024-04-16

@@ -80,15 +80,15 @@ releases:
     lts: true
     releaseDate: 2020-07-20 # The first official release is 11.0.7.2.
     eol: 2027-09-30
-    latest: "11.0.28.24"
-    latestReleaseDate: 2025-09-05
+    latest: "11.0.29.25"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
-    latest: "8.26.25"
-    latestReleaseDate: 2025-09-05
+    latest: "8.27.26"
+    latestReleaseDate: 2025-11-21
     link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---

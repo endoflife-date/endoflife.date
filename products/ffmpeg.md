@@ -28,16 +28,16 @@ releases:
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0"
-    latestReleaseDate: 2025-08-22
+    latest: "8.0.1"
+    latestReleaseDate: 2025-11-20
 
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.2"
-    latestReleaseDate: 2025-09-14
+    latest: "7.1.3"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "7.0"
     codename: Dijkstra
@@ -50,8 +50,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.3"
-    latestReleaseDate: 2025-08-14
+    latest: "6.1.4"
+    latestReleaseDate: 2025-11-23
 
   - releaseCycle: "6.0"
     codename: Von Neumann
