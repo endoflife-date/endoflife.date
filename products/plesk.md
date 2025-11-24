@@ -14,6 +14,12 @@ auto:
   methods:
     - plesk: https://docs.plesk.com/release-notes/obsidian/change-log
 
+identifiers:
+  - purl: pkg:docker/plesk/plesk
+  - cpe: cpe:/a:plesk:plesk
+  - cpe: cpe:2.3:a:plesk:plesk
+
+
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
   - releaseCycle: "18.0.74"

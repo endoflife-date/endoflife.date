@@ -14,6 +14,13 @@ auto:
   methods:
     - git: https://github.com/expressjs/express.git
 
+identifiers:
+  - repology: js:express
+  - purl: pkg:github/expressjs/express
+  - purl: pkg:npm/express
+  - cpe: cpe:/a:openjsf:express
+  - cpe: cpe:2.3:a:openjsf:express
+
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-09-09
