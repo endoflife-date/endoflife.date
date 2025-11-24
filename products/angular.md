@@ -32,7 +32,7 @@ auto:
 releases:
   - releaseCycle: "21"
     releaseDate: 2025-11-19
-    eoas: 2025-05-19
+    eoas: 2026-05-19
     eol: 2027-05-19
     eoes: false
     latest: "20.3.13"
