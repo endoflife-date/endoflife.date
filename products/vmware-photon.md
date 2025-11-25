@@ -24,8 +24,6 @@ identifiers:
   - cpe: cpe:2.3:o:vmware:photon_os
   - cpe: cpe:/o:vmware:photon_os
 
-# EOL Dates for 3.0 and 4.0 are tentative, as they are documented as:
-# March 2024, and March 2026.
 releases:
   - releaseCycle: "5.0"
     releaseDate: 2023-05-02
@@ -35,13 +33,13 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2021-02-25
-    eol: 2026-03-31
+    eol: 2027-10-11
     link: https://blogs.vmware.com/vsphere/2021/02/photon-os-4-0-release-announcement.html
     kernelVersion: "5.10"
 
   - releaseCycle: "3.0"
     releaseDate: 2019-02-08
-    eol: 2024-03-31
+    eol: 2025-10-02
     link: https://vmware.github.io/photon/assets/files/html/3.0/What-is-New-in-Photon-OS-3.0.html
     kernelVersion: "4.19"
 
