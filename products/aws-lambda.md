@@ -35,7 +35,7 @@ releases:
     eoas: 2029-06-30
     eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-python-314/
-  
+
   - releaseCycle: "java25"
     releaseLabel: "Java 25"
     releaseDate: 2025-11-14
