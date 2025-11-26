@@ -15,7 +15,7 @@ auto:
     - maven: "org.apache.hop/hop-engine"
 
 # eol(x) = releaseDate(x+1)
-releases:  
+releases:
 - releaseCycle: "2.16"
     releaseDate: 2025-11-17
     eol: false
