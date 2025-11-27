@@ -13,6 +13,13 @@ auto:
   methods:
     - git: https://github.com/gruntjs/grunt.git
 
+identifiers:
+  - repology: node:grunt
+  - purl: pkg:github/gruntjs/grunt
+  - purl: pkg:npm/grunt
+  - cpe: cpe:/a:gruntjs:grunt
+  - cpe: cpe:2.3:a:gruntjs:grunt
+
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "1.6"
