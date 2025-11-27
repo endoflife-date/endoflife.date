@@ -20,9 +20,9 @@ releases:
     releaseDate: 2025-11-17
     eol: false
     latest: "2.16.0"
-    latestReleaseDate: 2025-11-17
+    latestReleaseDate: 2025-11-10
     link: https://hop.apache.org/blog/2025/11/hop-2.16.0/
- 
+
   - releaseCycle: "2.15"
     releaseDate: 2025-08-12
     eol: 2025-11-17
