@@ -35,8 +35,8 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2025-11-03
     eol: 2026-11-03
-    latest: "7.0.0"
-    latestReleaseDate: 2025-11-03
+    latest: "7.0.1"
+    latestReleaseDate: 2025-11-24
 
   - releaseCycle: "6.3"
     releaseDate: 2025-06-30
