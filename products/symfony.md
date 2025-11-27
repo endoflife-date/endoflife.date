@@ -36,11 +36,11 @@ releases:
   
   - releaseCycle: "7.4"
     lts: true
-    releaseDate: 2025-11-30
+    releaseDate: 2025-11-27
     eoas: 2028-11-30
     eol: 2029-11-30
     latest: "7.4.0"
-    latestReleaseDate: 2025-11-30
+    latestReleaseDate: 2025-11-27
 
   - releaseCycle: "7.3"
     releaseDate: 2025-05-29
