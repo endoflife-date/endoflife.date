@@ -13,6 +13,12 @@ auto:
   methods:
     - git: https://github.com/api-platform/core.git
 
+identifiers:
+  - purl: pkg:composer/api-platform/core
+  - purl: pkg:github/api-platform/core
+  - cpe: cpe:/a:api-platform:core
+  - cpe: cpe:2.3:a:api-platform:core
+
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:

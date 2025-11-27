@@ -13,6 +13,11 @@ auto:
   methods:
     - git: https://github.com/FortAwesome/Font-Awesome.git
 
+identifiers:
+  - repology: fonts:fontawesome
+  - purl: pkg:github/fortawesome/font-awesome
+  - purl: pkg:npm/%40fortawesome/fontawesome-svg-core
+
 releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-22
