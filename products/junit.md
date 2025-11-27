@@ -56,13 +56,13 @@ releases:
 
   - releaseCycle: "5.9"
     releaseDate: 2022-02-27
-    eol: 2024-08-14
+    eol: 2023-07-24
     latest: "5.9.3"
     latestReleaseDate: 2023-04-26
 
   - releaseCycle: "5.8"
     releaseDate: 2021-09-13
-    eol: 2024-08-14
+    eol: 2022-02-27
     latest: "5.8.2"
     latestReleaseDate: 2021-11-29
 
