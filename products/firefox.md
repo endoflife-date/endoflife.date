@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "145"
     releaseDate: 2025-11-11
     eol: false
-    latest: "145.0.1"
-    latestReleaseDate: 2025-11-18
+    latest: "145.0.2"
+    latestReleaseDate: 2025-11-25
 
   - releaseCycle: "144"
     releaseDate: 2025-10-14

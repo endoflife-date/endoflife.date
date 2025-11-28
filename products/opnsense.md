@@ -23,8 +23,8 @@ releases:
     codename: "Visionary Viper"
     releaseDate: 2025-07-22
     eol: false
-    latest: "25.7.7"
-    latestReleaseDate: 2025-11-06
+    latest: "25.7.8"
+    latestReleaseDate: 2025-11-25
 
   - releaseCycle: "25.1"
     codename: "Ultimate Unicorn"
