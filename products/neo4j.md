@@ -3,7 +3,7 @@ title: Neo4j
 addedAt: 2022-12-28
 category: database
 tags: java-runtime
-iconSlug: neo4j
+iconSlug: neo4j nosql
 permalink: /neo4j
 versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/

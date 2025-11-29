@@ -2,6 +2,7 @@
 title: MongoDB Server
 addedAt: 2021-04-17
 category: database
+tags: nosql
 iconSlug: mongodb
 permalink: /mongodb
 alternate_urls:

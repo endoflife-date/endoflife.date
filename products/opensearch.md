@@ -2,7 +2,7 @@
 title: OpenSearch
 addedAt: 2022-08-26
 category: database
-tags: amazon java-runtime linux-foundation
+tags: amazon java-runtime linux-foundation nosql
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
