@@ -36,7 +36,7 @@ releases:
 
   - releaseCycle: "3.4"
     releaseDate: 2023-12-18
-    eol: 2025-01-21
+    eol: 2027-02-28 # in February 2025 adamwathan commented (at least the next 18 — 24 months) https://github.com/tailwindlabs/tailwindcss/discussions/15284#discussioncomment-12340556
     latest: "3.4.18"
     latestReleaseDate: 2025-10-01
 
