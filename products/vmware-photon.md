@@ -59,4 +59,7 @@ releases:
 > VMWare [Photon OS](https://vmware.github.io/photon/) is an open source Linux container host
 > optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
-End-of-Life dates are tentative.
+The EOL dates for the 3.0 and 4.0 release cyles are aligned with vSphere 
+[7.x/8.x support timelines](https://endoflife.date/vcenter) on this page
+[as per VMWare employees](https://github.com/endoflife-date/endoflife.date/pull/9025), but is not yet documented
+on the Photon OS website.
