@@ -42,6 +42,7 @@ identifiers:
 # - custom for Java 6/7
 releases:
   - releaseCycle: "25"
+    lts: true
     releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes/release-notes
     eol: 2033-09-30
     eoes: 2033-09-30
