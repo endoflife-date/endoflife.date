@@ -18,6 +18,11 @@ identifiers:
   - cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+  - releaseCycle: "25.11"
+    codename: "Xantusia"
+    releaseDate: 2025-11-30
+    eol: false
+    
   - releaseCycle: "25.05"
     codename: "Warbler"
     releaseDate: 2025-05-23
