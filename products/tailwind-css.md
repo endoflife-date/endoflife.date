@@ -147,4 +147,7 @@ releases:
 > [Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
 
 Tailwind CSS does not have a clear release, support and EOL policy.
-Looking at the latest releases, it seems that only the latest release is supported.
+Looking at the latest releases, it seems that only the latest release is supported. This page marks Tailwind 3 as supported as per a 
+[note from the creator](https://github.com/tailwindlabs/tailwindcss/discussions/15284#discussioncomment-12340556) - this is [not yet
+documented](https://github.com/tailwindlabs/tailwindcss.com/issues/2102)
+
