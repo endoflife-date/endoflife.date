@@ -31,7 +31,6 @@ identifiers:
 # non-LTS: releaseDate(x)+4 months
 releases:
   - releaseCycle: "6.18"
-    lts: true
     releaseDate: 2025-11-30
     eol: false # not yet announced
     latest: "6.18"
