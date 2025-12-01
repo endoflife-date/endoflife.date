@@ -54,7 +54,7 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-19
     eol: false
-    latest: "13.2.0"
+    latest: "13.0.0"
     latestReleaseDate: 2025-11-19
 
   - releaseCycle: "12"
