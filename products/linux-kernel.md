@@ -34,7 +34,7 @@ releases:
     lts: true
     releaseDate: 2025-11-30
     eol: false # not yet announced
-    latest: "6.189"
+    latest: "6.18"
     latestReleaseDate: 2025-11-30
 
   - releaseCycle: "6.17"
