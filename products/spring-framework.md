@@ -60,7 +60,7 @@ releases:
   - releaseCycle: "7.0"
     supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "11 - 12"
-    releaseDate: 2025-11-13
+    releaseDate: 2025-11-30
     eol: 2027-06-30
     eoes: 2028-06-30
     latest: "7.0.1"
