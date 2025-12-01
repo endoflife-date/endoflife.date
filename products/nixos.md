@@ -21,7 +21,7 @@ releases:
   - releaseCycle: "25.11"
     codename: "Xantusia"
     releaseDate: 2025-11-30
-    eol: false
+    eol: 2026-06-30
     
   - releaseCycle: "25.05"
     codename: "Warbler"
