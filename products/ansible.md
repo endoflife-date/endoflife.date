@@ -63,7 +63,7 @@ releases:
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-09-09
-    eol: false
+    eol: 2025-12-31
     latest: "12.2.0"
     latestReleaseDate: 2025-11-05
 
@@ -73,7 +73,7 @@ releases:
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-19
-    eol: false
+    eol: 2025-12-31
     latest: "11.12.0"
     latestReleaseDate: 2025-11-05
 
