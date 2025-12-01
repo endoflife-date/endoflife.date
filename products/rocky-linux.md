@@ -36,8 +36,8 @@ releases:
     releaseDate: 2025-06-11
     eoas: 2030-05-31
     eol: 2035-05-31
-    latest: "10.0"
-    latestReleaseDate: 2025-06-11
+    latest: "10.1"
+    latestReleaseDate: 2025-11-25
 
   - releaseCycle: "9"
     releaseDate: 2022-07-14
@@ -52,6 +52,7 @@ releases:
     eol: 2029-05-31
     latest: "8.10"
     latestReleaseDate: 2024-05-31
+
 ---
 
 > [Rocky Linux](https://rockylinux.org/) is a Linux distribution intended to be a
