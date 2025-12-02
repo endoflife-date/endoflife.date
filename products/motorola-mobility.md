@@ -17,6 +17,12 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: moto-g-2026
+    releaseLabel: "Moto G (2026)"
+    releaseDate: 2025-12-01
+    eol: 2028-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12431
+
   - releaseCycle: moto-g-play-2026
     releaseLabel: "Moto G Play (2026)"
     releaseDate: 2025-11-01
