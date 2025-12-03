@@ -410,7 +410,6 @@ See [this link](https://ubuntu.com/about/release-cycle) for more details on the 
 ## Support Lifecycle
 
 LTS releases are in "General Support" for 5 years and "Expanded Security Maintenance" (see below) for an additional 5 years.
-Ubuntu breaks General Support into "Hardware and Maintenance updates" (2 years) followed by "Maintenance Updates" for another 3 years[^5].
 Interim releases (non-LTS) are supported for 9 months.
 Packages in `main` and `restricted` are supported for 5 years in long-term support (LTS) releases.
 Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
@@ -430,20 +429,20 @@ Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in
 Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in the `main` repository.
 
 Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
-to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Expanded Security Maintenance (ESM).
+to extend the support of Ubuntu LTS releases from 14.04 by another 5 years beyond Expanded Security Maintenance (ESM).
 This offer is only available for Ubuntu Pro paying customers.
 
 ## Support Comparison
 
-| Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    | Legacy Support |
-| --------------------------------------------------------------------------------------- | --------------- | ---------------------------- | ------------- | -------------- |
-| Main repository                                                                         | 5 years         | 10 years                     | 10 years      | 12 years       |
-| Restricted repository                                                                   | 5 years         | 10 years[^2]                 | 10 years [^2] | 12 years[^7]   |
-| Universe repository                                                                     | Best Effort[^6] | Best Effort                  | 10 years      | 12 years[^7]   |
-| Phone/Ticket Support                                                                    | No              | Yes                          | Yes           | Yes            |
-| Kernel Live Patching                                                                    | No              | Yes                          | Yes           | Yes            |
-| [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes                          | Yes           | Yes            |
-| [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes                          | Yes           | No[^8]         |
+| Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro    | Legacy Support |
+| --------------------------------------------------------------------------------------- | --------------- | ------------- | -------------- |
+| Main repository                                                                         | 5 years         | 10 years      | 15 years       |
+| Restricted repository                                                                   | 5 years         | 10 years [^2] | 15 years[^7]   |
+| Universe repository                                                                     | Best Effort[^6] | 10 years      | 15 years[^7]   |
+| Phone/Ticket Support                                                                    | No              | Yes           | Yes            |
+| Kernel Live Patching                                                                    | No              | Yes           | Yes            |
+| [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes           | Yes            |
+| [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes           | No[^8]         |
 
 For package-specific support details, the following commands are available:
 
