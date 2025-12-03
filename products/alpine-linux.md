@@ -30,6 +30,13 @@ auto:
 
 # For EOL see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
+  - releaseCycle: "3.23"
+    releaseDate: 2025-12-04
+    eol: 2027-12-04
+    latest: "3.23.0"
+    latestReleaseDate: 2025-12-04
+    link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
+
   - releaseCycle: "3.22"
     releaseDate: 2025-05-30
     eol: 2027-05-01
@@ -53,7 +60,7 @@ releases:
 
   - releaseCycle: "3.19"
     releaseDate: 2023-12-07
-    eol: 2025-11-01
+    eol: 2025-12-04
     latest: "3.19.9"
     latestReleaseDate: 2025-10-08
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
