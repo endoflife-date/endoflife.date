@@ -38,7 +38,6 @@ releases:
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
     eoas: 2026-07-01
-    eol: 2026-07-01
     latest: "25.10"
     latestReleaseDate: 2025-10-09
 
@@ -46,7 +45,6 @@ releases:
     codename: "Plucky Puffin"
     releaseDate: 2025-04-17
     eoas: 2026-01-17
-    eol: 2026-01-17
     latest: "25.04"
     latestReleaseDate: 2025-04-17
 
@@ -54,7 +52,6 @@ releases:
     codename: "Oracular Oriole"
     releaseDate: 2024-10-10
     eoas: 2025-07-10
-    eol: 2025-07-10
     latest: "24.10"
     latestReleaseDate: 2024-10-10
 
@@ -72,7 +69,6 @@ releases:
     codename: "Mantic Minotaur"
     releaseDate: 2023-10-12
     eoas: 2024-07-12
-    eol: 2024-07-12
     latest: "23.10"
     latestReleaseDate: 2023-10-12
 
@@ -80,7 +76,6 @@ releases:
     codename: "Lunar Lobster"
     releaseDate: 2023-04-20
     eoas: 2024-01-20
-    eol: 2024-01-20
     latest: "23.04"
     latestReleaseDate: 2023-04-20
 
@@ -88,7 +83,6 @@ releases:
     codename: "Kinetic Kudu"
     releaseDate: 2022-10-20
     eoas: 2023-07-20
-    eol: 2023-07-20
     latest: "22.10"
     latestReleaseDate: 2022-10-20
 
@@ -97,7 +91,6 @@ releases:
     lts: true
     releaseDate: 2022-04-21
     eoas: 2024-09-30
-    eol: 2032-04-30
     eoes: 2037-04-30
     latest: "22.04.5"
     latestReleaseDate: 2024-09-12
@@ -106,7 +99,6 @@ releases:
     codename: "Impish Indri"
     releaseDate: 2021-10-14
     eoas: 2022-07-14
-    eol: 2022-07-14
     latest: "21.10"
     latestReleaseDate: 2021-10-14
 
@@ -114,7 +106,6 @@ releases:
     codename: "Hirsute Hippo"
     releaseDate: 2021-04-22
     eoas: 2022-01-20
-    eol: 2022-01-20
     latest: "21.04"
     latestReleaseDate: 2021-04-22
 
@@ -122,7 +113,6 @@ releases:
     codename: "Groovy Gorilla"
     releaseDate: 2020-10-22
     eoas: 2021-07-22
-    eol: 2021-07-22
     latest: "20.10"
     latestReleaseDate: 2020-10-22
 
@@ -140,7 +130,6 @@ releases:
     codename: "Eoan Ermine"
     releaseDate: 2019-10-17
     eoas: 2020-07-06
-    eol: 2020-07-06
     latest: "19.10"
     latestReleaseDate: 2019-10-17
 
@@ -148,7 +137,6 @@ releases:
     codename: "Disco Dingo"
     releaseDate: 2019-04-18
     eoas: 2020-01-23
-    eol: 2020-01-23
     latest: "19.04"
     latestReleaseDate: 2019-04-18
 
@@ -156,7 +144,6 @@ releases:
     codename: "Cosmic Cuttlefish"
     releaseDate: 2018-10-18
     eoas: 2019-07-18
-    eol: 2019-07-18
     latest: "18.10"
     latestReleaseDate: 2018-10-18
 
@@ -174,7 +161,6 @@ releases:
     codename: "Artful Aardvark"
     releaseDate: 2017-10-19
     eoas: 2018-07-19
-    eol: 2018-07-19
     latest: "17.10"
     latestReleaseDate: 2017-10-19
 
@@ -182,7 +168,6 @@ releases:
     codename: "Zesty Zapus"
     releaseDate: 2017-04-13
     eoas: 2018-01-13
-    eol: 2018-01-13
     latest: "17.04"
     latestReleaseDate: 2017-04-13
 
@@ -190,7 +175,6 @@ releases:
     codename: "Yakkety Yak"
     releaseDate: 2016-10-13
     eoas: 2017-07-20
-    eol: 2017-07-20
     latest: "16.10"
     latestReleaseDate: 2016-10-13
 
@@ -208,7 +192,6 @@ releases:
     codename: "Wily Werewolf"
     releaseDate: 2015-10-22
     eoas: 2016-07-28
-    eol: 2016-07-28
     latest: "15.10"
     latestReleaseDate: 2015-10-22
 
@@ -216,7 +199,6 @@ releases:
     codename: "Vivid Vervet"
     releaseDate: 2015-04-23
     eoas: 2016-02-04
-    eol: 2016-02-04
     latest: "15.04"
     latestReleaseDate: 2015-04-23
 
@@ -224,7 +206,6 @@ releases:
     codename: "Utopic Unicorn"
     releaseDate: 2014-10-23
     eoas: 2015-07-23
-    eol: 2015-07-23
     latest: "14.10"
     latestReleaseDate: 2014-10-23
 
@@ -242,7 +223,6 @@ releases:
     codename: "Saucy Salamander"
     releaseDate: 2013-10-17
     eoas: 2014-07-17
-    eol: 2014-07-17
     latest: "13.10"
     latestReleaseDate: 2013-10-17
 
@@ -250,7 +230,6 @@ releases:
     codename: "Raring Ringtail"
     releaseDate: 2013-04-25
     eoas: 2014-01-27
-    eol: 2014-01-27
     latest: "13.04"
     latestReleaseDate: 2013-04-25
 
@@ -258,7 +237,6 @@ releases:
     codename: "Quantal Quetzal"
     releaseDate: 2012-10-18
     eoas: 2014-05-16
-    eol: 2014-05-16
     latest: "12.10"
     latestReleaseDate: 2012-10-18
 
@@ -276,7 +254,6 @@ releases:
     codename: "Oneiric Ocelot"
     releaseDate: 2011-10-13
     eoas: 2013-05-09
-    eol: 2013-05-09
     latest: "11.10"
     latestReleaseDate: 2011-10-13
 
@@ -284,7 +261,6 @@ releases:
     codename: "Natty Narwhal"
     releaseDate: 2011-04-28
     eoas: 2012-10-28
-    eol: 2012-10-28
     latest: "11.04"
     latestReleaseDate: 2011-04-28
 
@@ -292,7 +268,6 @@ releases:
     codename: "Maverick Meerkat"
     releaseDate: 2010-10-10
     eoas: 2012-04-10
-    eol: 2012-04-10
     latest: "10.10"
     latestReleaseDate: 2010-10-10
 
@@ -301,7 +276,6 @@ releases:
     lts: true
     releaseDate: 2010-04-29
     eoas: 2013-05-09
-    eol: 2013-05-09
     latest: "10.04.4"
     latestReleaseDate: 2012-02-16
 
@@ -309,7 +283,6 @@ releases:
     codename: "Karmic Koala"
     releaseDate: 2009-10-29
     eoas: 2011-04-30
-    eol: 2011-04-30
     latest: "9.10"
     latestReleaseDate: 2009-10-29
 
@@ -317,7 +290,6 @@ releases:
     codename: "Jaunty Jackalope"
     releaseDate: 2009-04-23
     eoas: 2010-10-23
-    eol: 2010-10-23
     latest: "9.04"
     latestReleaseDate: 2009-04-23
 
@@ -325,7 +297,6 @@ releases:
     codename: "Intrepid Ibex"
     releaseDate: 2008-10-30
     eoas: 2010-04-30
-    eol: 2010-04-30
     latest: "8.10"
     latestReleaseDate: 2008-10-30
 
@@ -334,7 +305,6 @@ releases:
     lts: true
     releaseDate: 2008-04-24
     eoas: 2013-05-09
-    eol: 2013-05-09
     latest: "8.04.4"
     latestReleaseDate: 2010-01-29
 
@@ -342,7 +312,6 @@ releases:
     codename: "Gutsy Gibbon"
     releaseDate: 2007-10-18
     eoas: 2009-04-18
-    eol: 2009-04-18
     latest: "7.10"
     latestReleaseDate: 2007-10-18
 
@@ -350,7 +319,6 @@ releases:
     codename: "Feisty Fawn"
     releaseDate: 2007-04-19
     eoas: 2008-10-19
-    eol: 2008-10-19
     latest: "7.04"
     latestReleaseDate: 2007-04-19
 
@@ -358,7 +326,6 @@ releases:
     codename: "Edgy Eft"
     releaseDate: 2006-10-26
     eoas: 2006-10-26
-    eol: 2008-04-26
     latest: "6.10"
     latestReleaseDate: 2006-10-26
 
@@ -367,7 +334,6 @@ releases:
     lts: true
     eoas: 2011-06-01
     releaseDate: 2006-08-10
-    eol: 2011-06-01
     latest: "6.06.2"
     latestReleaseDate: 2008-01-22
 
@@ -375,7 +341,6 @@ releases:
     codename: "Breezy Badger"
     releaseDate: 2005-10-13
     eoas: 2007-04-13
-    eol: 2007-04-13
     latest: "5.10"
     latestReleaseDate: 2005-10-13
 
@@ -383,7 +348,6 @@ releases:
     codename: "Hoary Hedgehog"
     releaseDate: 2005-04-08
     eoas: 2006-10-31
-    eol: 2006-10-31
     latest: "5.04"
     latestReleaseDate: 2005-04-08
 
@@ -391,7 +355,6 @@ releases:
     codename: "Warty Warthog"
     releaseDate: 2004-10-20
     eoas: 2004-10-26
-    eol: 2006-04-30
     latest: "4.10"
     latestReleaseDate: 2004-10-20
 ---
