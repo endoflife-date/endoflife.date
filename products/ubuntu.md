@@ -9,7 +9,8 @@ alternate_urls:
   - /ubuntu-linux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
+releaseImage: https://github.com/user-attachments/assets/fda05e78-c3ef-45b1-94f8-a2bc63d75728
+
 
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
