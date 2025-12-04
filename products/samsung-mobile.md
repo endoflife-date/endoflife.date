@@ -828,7 +828,7 @@ releases:
     releaseLabel: "Galaxy A13 5G"
     releaseDate: 2021-12-03
     eoas: 2024-12-03
-    eol: 2025-12-03
+    eol: false
     link: https://doc.samsungmobile.com/SM-A136U/USC/doc.html
 
   - releaseCycle: "w22-5g"
