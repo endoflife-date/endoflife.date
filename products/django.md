@@ -56,6 +56,14 @@ auto:
           type: "range"
 
 releases:
+  - releaseCycle: "6.0"
+    releaseDate: 2025-12-03
+    eoas: 2026-08-03
+    eol: 2027-08-03
+    supportedPythonVersions: "3.12 - 3.14"
+    latest: "6.0.0"
+    latestReleaseDate: 2025-12-03
+
   - releaseCycle: "5.2"
     lts: true
     releaseDate: 2025-04-02
