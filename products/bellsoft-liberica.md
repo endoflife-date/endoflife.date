@@ -264,6 +264,7 @@ auto:
 # Extended support dates can be found on https://bell-sw.com/support/.
 releases:
   - releaseCycle: "25"
+    lts: true
     releaseDate: 2025-09-16
     eol: 2031-09-30
     eoes: 2034-03-31

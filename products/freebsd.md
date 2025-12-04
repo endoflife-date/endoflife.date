@@ -32,6 +32,17 @@ auto:
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 # See also https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html
 releases:
+  - releaseCycle: "15"
+    releaseLabel: "stable/15"
+    releaseDate: 2025-12-02
+    eol: 2029-12-31
+    link: null
+
+  - releaseCycle: "15.0"
+    releaseLabel: "releng/15.0"
+    releaseDate: 2025-12-02
+    eol: 2026-09-30
+
   - releaseCycle: "14.3"
     releaseLabel: "releng/14.3"
     releaseDate: 2025-06-10

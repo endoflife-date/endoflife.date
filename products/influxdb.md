@@ -76,8 +76,8 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
-    latest: "2.7.12"
-    latestReleaseDate: 2025-05-15
+    latest: "2.8.0"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07

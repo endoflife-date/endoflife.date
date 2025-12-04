@@ -10,7 +10,7 @@ alternate_urls:
   - /linux-kernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ip63q0eabh7onfwkhspcmhpccgg6b5u.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/dqzx6dkhq3j9s9i1y84hvttb8x53qnk.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
@@ -30,11 +30,17 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+  - releaseCycle: "6.18"
+    releaseDate: 2025-11-30
+    eol: false # not yet announced
+    latest: "6.18"
+    latestReleaseDate: 2025-11-30
+
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
     eol: false # not yet announced
-    latest: "6.17.9"
-    latestReleaseDate: 2025-11-24
+    latest: "6.17.10"
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "6.16"
     releaseDate: 2025-07-27
@@ -64,8 +70,8 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.12.59"
-    latestReleaseDate: 2025-11-24
+    latest: "6.12.60"
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "6.11"
     releaseDate: 2024-09-15
@@ -101,8 +107,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.117"
-    latestReleaseDate: 2025-11-24
+    latest: "6.6.118"
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -207,8 +213,8 @@ releases:
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.301"
-    latestReleaseDate: 2025-10-29
+    latest: "5.4.302"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "4.19"
     lts: true
