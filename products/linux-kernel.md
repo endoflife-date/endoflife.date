@@ -213,8 +213,8 @@ releases:
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.301"
-    latestReleaseDate: 2025-10-29
+    latest: "5.4.302"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "4.19"
     lts: true

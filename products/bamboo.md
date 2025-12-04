@@ -28,12 +28,12 @@ releases:
   - releaseCycle: "12.0"
     releaseDate: 2025-11-20
     eol: 2027-11-20
-    latest: "12.0.0"
-    latestReleaseDate: 2025-11-20
+    latest: "12.0.1"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "11.0"
     releaseDate: 2025-04-29
-    eol: 2027-04-30 
+    eol: 2027-04-30
     latest: "11.0.8"
     latestReleaseDate: 2025-11-07
 
