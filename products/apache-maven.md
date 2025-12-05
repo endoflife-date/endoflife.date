@@ -27,12 +27,6 @@ auto:
 
 # See https://maven.apache.org/docs/history.html
 releases:
-  - releaseCycle: "4.0"
-    releaseDate: 2022-10-24
-    eol: false
-    latest: "4.0.0-rc-5"
-    latestReleaseDate: 2025-11-13
-    
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
