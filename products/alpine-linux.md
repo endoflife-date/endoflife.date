@@ -32,9 +32,9 @@ auto:
 releases:
   - releaseCycle: "3.23"
     releaseDate: 2025-12-04
-    eol: 2027-12-04
+    eol: 2027-11-01
     latest: "3.23.0"
-    latestReleaseDate: 2025-12-04
+    latestReleaseDate: 2025-12-03
     link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
 
   - releaseCycle: "3.22"
@@ -60,7 +60,7 @@ releases:
 
   - releaseCycle: "3.19"
     releaseDate: 2023-12-07
-    eol: 2025-12-04
+    eol: 2025-11-01
     latest: "3.19.9"
     latestReleaseDate: 2025-10-08
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
