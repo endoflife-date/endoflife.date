@@ -19,6 +19,7 @@ auto:
 # For LTS : eol(x) = releaseDate + 2 years
 releases:
   - releaseCycle: "6.3"
+    lts: true
     releaseDate: 2025-12-04
     eol: 2027-12-04
     eoes: 2028-12-04
