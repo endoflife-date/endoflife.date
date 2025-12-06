@@ -1,5 +1,5 @@
 ---
-title: QubesOS
+title: Qubes OS
 addedAt: 2025-12-07
 category: os
 tags: linux-distribution
@@ -10,13 +10,6 @@ alternate_urls:
   - /qubes
 versionCommand: cat /etc/qubes-release
 releasePolicyLink: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html
-# changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
-# releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-# latestColumn: false
-
-#identifiers:
-#  - cpe: cpe:/o:nixos:nixos
-#  - cpe: cpe:2.3:o:nixos:nixos
 
 releases:
 
