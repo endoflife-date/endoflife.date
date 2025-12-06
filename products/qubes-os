@@ -1,0 +1,64 @@
+---
+title: Qubes OS
+addedAt: 2025-12-07
+category: os
+tags: linux-distribution
+iconSlug: qubesos
+permalink: /nixos
+alternate_urls:
+  - /qubesos
+  - /qubes
+versionCommand: cat /etc/qubes-release
+releasePolicyLink: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html
+# changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
+# releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+# latestColumn: false
+
+#identifiers:
+#  - cpe: cpe:/o:nixos:nixos
+#  - cpe: cpe:2.3:o:nixos:nixos
+
+releases:
+
+  - releaseCycle: "4.2"
+    releaseDate: 2023-12-18
+    eol: false
+
+  - releaseCycle: "4.1"
+    releaseDate: 2022-02-04
+    eol: 2024-06-18
+
+  - releaseCycle: "4.0"
+    releaseDate: 2018-03-28
+    eol: 2022-08-04
+
+  - releaseCycle: "3.2"
+    releaseDate: 2016-09-29
+    eol: 2019-03-28
+
+  - releaseCycle: "3.1"
+    releaseDate: 2016-03-09
+    eol: 2017-03-29
+
+  - releaseCycle: "3.0"
+    releaseDate: 2015-10-01
+    eol: 2016-09-09
+
+  - releaseCycle: "2"
+    releaseDate: 2014-09-26
+    eol: 2016-04-01
+
+  - releaseCycle: "1"
+    releaseDate: 2012-09-03
+    eol: 2015-03-26
+    
+ --
+
+> [Qubes OS](https://doc.qubes-os.org/en/latest/introduction/intro.html) is a free and open-source, security-oriented
+> operating system for single-user desktop computing.
+>
+> Qubes OS leverages Xen-based virtualization to allow for the creation and management of isolated
+compartments called `qubes`.
+>
+> It comes with a predefined set of one or many isolated applications, for personal or professional projects,
+> to manage the network stack, the firewall, or to fulfill other user-defined purposes.
