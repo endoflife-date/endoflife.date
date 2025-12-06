@@ -10,6 +10,7 @@ alternate_urls:
   - /qubes
 versionCommand: cat /etc/qubes-release
 releasePolicyLink: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html
+latestColumn: false
 
 releases:
 
