@@ -35,6 +35,7 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Remember to document the codename in the product's description when adding a new major version (codename only changes per major version release).
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
+# Supported PHP Versions are listed here: https://github.com/cakephp/cakephp/wiki#version-map
 releases:
   - releaseCycle: "5.2"
     codename: "Chiffon"
