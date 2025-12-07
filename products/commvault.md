@@ -13,7 +13,7 @@ auto:
       fields:
         releaseCycle:
           column: "Release"
-          regex: '^.+ (?P<value>\d+\.\d+)\)?$'
+          regex: '^.+ \(?(?P<value>\d+\.\d+)\)?$'
         releaseDate: "Initial release date"
         eol: "End-of-life date"
         latest: "Latest maintenance release"
