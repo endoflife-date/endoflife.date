@@ -14,7 +14,6 @@ identifiers:
   - cpe: cpe:/a:unrealircd:unrealircd
 
 auto:
-  disabled: true # https://www.unrealircd.org is protected by anti-bot measures
   methods:
     - unrealircd: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
     - release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
