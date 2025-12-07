@@ -50,22 +50,22 @@ releases:
     releaseDate: 2025-11-05
     eol: 2026-07-31
     supportedKubernetesVersions: "1.30 - 1.34"
-    latest: "1.28.0"
-    latestReleaseDate: 2025-11-05
+    latest: "1.28.1"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "1.27"
     releaseDate: 2025-08-11
     eol: 2026-04-30
     supportedKubernetesVersions: "1.29 - 1.33"
-    latest: "1.27.3"
-    latestReleaseDate: 2025-10-20
+    latest: "1.27.4"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "1.26"
     releaseDate: 2025-05-08
     eol: 2025-12-19
     supportedKubernetesVersions: "1.29 - 1.33"
-    latest: "1.26.6"
-    latestReleaseDate: 2025-10-20
+    latest: "1.26.7"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "1.25"
     releaseDate: 2025-03-03

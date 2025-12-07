@@ -47,13 +47,23 @@ auto:
 # ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 # For Python / PowerShell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
 releases:
+  - releaseCycle: "13"
+    ansibleCoreVersion: "2.20"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1"
+    releaseDate: 2025-11-19
+    eol: false
+    latest: "13.0.0"
+    latestReleaseDate: 2025-11-19
+
   - releaseCycle: "12"
     ansibleCoreVersion: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-09-09
-    eol: false
+    eol: 2025-12-31
     latest: "12.2.0"
     latestReleaseDate: 2025-11-05
 
@@ -63,7 +73,7 @@ releases:
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-19
-    eol: false
+    eol: 2025-12-31
     latest: "11.12.0"
     latestReleaseDate: 2025-11-05
 

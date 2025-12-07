@@ -26,8 +26,8 @@ releases:
   - releaseCycle: "7.125"
     releaseDate: 2025-10-30
     eol: 2027-04-30
-    latest: "7.125.7"
-    latestReleaseDate: 2025-11-18
+    latest: "7.125.8"
+    latestReleaseDate: 2025-12-04
     link: https://jfrog.com/help/r/jfrog-release-information/artifactory-7.125.4-self-hosted-self-managed
 
   - releaseCycle: "7.117"
