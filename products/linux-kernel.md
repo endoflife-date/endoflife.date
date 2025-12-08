@@ -213,7 +213,7 @@ releases:
   - releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
-    eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eol: 2025-12-03 # https://lore.kernel.org/lkml/2025120319-blip-grime-93e8@gregkh/
     latest: "5.4.302"
     latestReleaseDate: 2025-12-03
 
