@@ -32,8 +32,8 @@ releases:
     eoas: false
     eol: false
     link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
-    latest: "6.1.10"
-    latestReleaseDate: 2025-03-07
+    latest: "6.2.1"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "5"
     releaseDate: 2019-12-13
@@ -58,6 +58,7 @@ releases:
     link: https://forums.unrealircd.org/viewtopic.php?f=1&t=8588
     latest: "3.2.10.7"
     latestReleaseDate: 2016-09-03
+
 ---
 
 > [UnrealIRCd](https://www.unrealircd.org) is an Open Source IRC Server since 1999. It implements
