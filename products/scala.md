@@ -97,8 +97,8 @@ releases:
     releaseDate: 2016-10-28
     eoas: 2019-06-07
     eol: false
-    latest: "2.12.20"
-    latestReleaseDate: 2024-09-04
+    latest: "2.12.21"
+    latestReleaseDate: 2025-12-08
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.11"
