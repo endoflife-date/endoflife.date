@@ -8,7 +8,7 @@ releasePolicyLink: https://zentyal.com/release-policy/
 latestColumn: false
 eolColumn: Development Edition Support
 eoesColumn: Commercial Support
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1825 # devices have longer support periods
 
 customFields:
   - name: ubuntuVersion

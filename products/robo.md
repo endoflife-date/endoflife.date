@@ -6,7 +6,7 @@ tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 1090 # https://github.com/consolidation/robo#branches
 
 customFields:
   - name: supportedPHPVersions
@@ -26,6 +26,11 @@ auto:
           regex: '^(?P<value>\d+)\.x$'
         supportedPHPVersions: "PHP Versions"
 
+identifiers:
+  - repology: robo
+  - purl: pkg:composer/consolidation/robo
+  - purl: pkg:github/consolidation/robo
+
 # Based on https://github.com/consolidation/robo#branches:
 # eoas(x) = true if "Stable", false otherwise
 # eol(x) = false if "Stable" or "Important fixes only", false otherwise
@@ -35,8 +40,8 @@ releases:
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "5.1.0"
-    latestReleaseDate: 2024-10-22
+    latest: "5.1.1"
+    latestReleaseDate: 2025-11-14
 
   - releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
@@ -69,6 +74,7 @@ releases:
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "1.5.0"
     latestReleaseDate: 2021-10-07
+
 ---
 
 > [Robo](https://robo.li/) is a task runner written in PHP.

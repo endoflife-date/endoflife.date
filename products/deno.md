@@ -19,19 +19,18 @@ auto:
     - git: https://github.com/denoland/deno.git
 
 # non-LTS : eol(x) = releaseDate(x+1)
-# LTS : eol(x) = releaseDate(x+1) + 5 months
-# LTS releases are listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
+# LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10
-    eol: false # releaseDate( 2.6 )
+    lts: 2025-11-01
+    eol: 2026-04-30
     latest: "2.5.6"
     latestReleaseDate: 2025-10-29
 
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01
-    lts: 2025-11-01
-    eol: 2026-04-30
+    eol: 2025-09-10 # releaseDate(2.5)
     latest: "2.4.5"
     latestReleaseDate: 2025-08-21
 
@@ -72,10 +71,13 @@ releases:
 > [Deno](https://deno.com) is a JavaScript, TypeScript, and WebAssembly runtime with
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
-Deno follows [SemVer](https://semver.org/). New minor releases are made monthly and
-are supported with bug and security fixes until the next minor release.
-Every six months a minor version is promoted to LTS and is supported with critical
-bug and security fixes for an additional 5 months.
+> {: .warning }
+> [LTS support will be discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
+> there will be no LTS releases or maintenance beyond that date.
 
-Deno maintainers are committed to maintaining a stable standard library API (`Deno`
-namespace) from version `1.0.0` onward.
+Deno follows [SemVer](https://semver.org/).
+New minor releases are made every 12 weeks and are supported with bug and security fixes until the next minor release.
+
+Deno [has release channels](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#release-channels), such as `stable`, which can be used as version aliases.
+
+As of Deno 1.0.0, the `Deno` namespace APIs are stable. The Deno maintainers we will strive to make code working under 1.0.0 continue to work in future versions.

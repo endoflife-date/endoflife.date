@@ -6,7 +6,7 @@ tags: ietf
 permalink: /tls
 releaseLabel: "TLS __RELEASE_CYCLE__"
 latestColumn: false
-staleReleaseThresholdYears: 20
+staleReleaseThresholdDays: 7300 # standards have longer support periods
 
 releases:
   - releaseCycle: "1.3"

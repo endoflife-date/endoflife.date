@@ -13,7 +13,6 @@ releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
 eoasColumn: true
 eolColumn: Bug and Security Fixes
-staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: groovy
@@ -35,8 +34,8 @@ releases:
     releaseDate: 2025-08-21
     eol: false
     eoas: false
-    latest: "5.0.2"
-    latestReleaseDate: 2025-10-15
+    latest: "5.0.3"
+    latestReleaseDate: 2025-11-30
 
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
@@ -53,9 +52,10 @@ releases:
     latestReleaseDate: 2025-05-27
 
   - releaseCycle: "2.5"
+    staleReleaseThresholdDays: 1000 # still listed on https://groovy.apache.org/download.html
     releaseDate: 2018-05-30
     eoas: true
-    eol: false # still listed on https://groovy.apache.org/download.html
+    eol: false
     latest: "2.5.23"
     latestReleaseDate: 2023-08-22
 

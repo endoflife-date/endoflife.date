@@ -22,8 +22,8 @@ releases:
     lts: true
     releaseDate: 2025-09-16
     eol: 2026-09-16
-    latest: "1.4.1"
-    latestReleaseDate: 2025-10-07
+    latest: "1.4.2"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "1.3"
     codename: "Ossivalis"

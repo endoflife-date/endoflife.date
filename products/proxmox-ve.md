@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-08-05
     eol: false # no date yet available on https://pve.proxmox.com/wiki/FAQ
-    latest: "9.0"
-    latestReleaseDate: 2025-08-05
+    latest: "9.1"
+    latestReleaseDate: 2025-11-19
 
   - releaseCycle: "8"
     releaseDate: 2023-06-22
@@ -82,6 +82,7 @@ releases:
     eol: 2013-01-31
     latest: "1.9"
     latestReleaseDate: 2011-09-13
+
 ---
 
 > [Proxmox Virtual Environment (PVE)](https://www.proxmox.com/en/proxmox-ve) is an open-source

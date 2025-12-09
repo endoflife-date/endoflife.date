@@ -16,6 +16,15 @@ auto:
 # lts(x) = eol(corresponding Debian version)
 # eol(x) = eoes(corresponding Debian version)
 releases:
+  - releaseCycle: "6"
+    codename: "Excalibur"
+    releaseDate: 2025-11-02
+    lts: 2028-08-09
+    eol: 2030-06-30
+    latest: "6.0.0"
+    latestReleaseDate: 2025-11-03
+    link: https://www.devuan.org/os/announce/excalibur-release-announce-2025-11-02
+
   - releaseCycle: "5"
     codename: "Daedalus"
     releaseDate: 2023-08-15
@@ -60,6 +69,7 @@ releases:
     latest: "1.0.0"
     latestReleaseDate: 2017-05-25
     link: https://www.devuan.org/os/announce/stable-jessie-announce-052517.html
+
 ---
 
 > [Devuan GNU+Linux](https://www.devuan.org/) is a [fork of Debian without systemd](https://www.devuan.org/os/announce/)

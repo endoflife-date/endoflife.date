@@ -7,7 +7,6 @@ permalink: /openvpn
 releasePolicyLink: https://community.openvpn.net/openvpn/wiki/SupportedVersions
 changelogTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
 eoasColumn: Full Stable Support
-staleReleaseThresholdYears: 2
 
 auto:
   methods:
@@ -22,13 +21,13 @@ releases:
     releaseDate: 2023-01-25
     eoas: false
     eol: false
-    latest: "2.6.15"
-    latestReleaseDate: 2025-09-22
+    latest: "2.6.17"
+    latestReleaseDate: 2025-11-28
 
   - releaseCycle: "2.5"
     releaseDate: 2020-10-27
     eoas: 2024-07-18
-    eol: false
+    eol: 2025-07-31
     latest: "2.5.11"
     latestReleaseDate: 2024-07-18
 

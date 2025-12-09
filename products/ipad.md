@@ -9,7 +9,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 2920 # 8 years, ipad 6 is still supported with ipados 17, see https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 
 customFields:
   - name: supportedIpadOsVersions

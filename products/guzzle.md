@@ -16,6 +16,13 @@ auto:
   methods:
     - git: https://github.com/guzzle/guzzle.git
 
+identifiers:
+  - repology: guzzle
+  - purl: pkg:composer/guzzlehttp/guzzle
+  - purl: pkg:github/guzzle/guzzle
+  - cpe: cpe:/a:guzzlephp:guzzle
+  - cpe: cpe:2.3:a:guzzlephp:guzzle
+
 # EOL dates are documented on https://github.com/guzzle/guzzle?tab=readme-ov-file#version-guidance.
 releases:
   - releaseCycle: "7"

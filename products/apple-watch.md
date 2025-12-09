@@ -9,7 +9,7 @@ releasePolicyLink: https://support.apple.com/watch
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 6
+staleReleaseThresholdDays: 2000
 
 customFields:
   - name: supportedWatchOsVersions
@@ -44,7 +44,7 @@ releases:
     eol: false
     link: https://support.apple.com/en-us/125095
     supportedWatchOsVersions: "26"
-    
+
   - releaseCycle: "series-10"
     releaseLabel: "Series 10"
     releaseDate: 2024-09-20

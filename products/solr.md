@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.9.0"
-    latestReleaseDate: 2025-07-24
+    latest: "9.10.0"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13
@@ -77,6 +77,7 @@ releases:
     latest: "1.4.1"
     latestReleaseDate: 2010-06-25
     link: https://svn.apache.org/repos/asf/lucene/solr/tags/release-1.4.1/CHANGES.txt
+
 ---
 
 > [Apache Solr](https://solr.apache.org/) is an open-source search engine written in Java.

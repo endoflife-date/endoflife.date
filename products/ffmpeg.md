@@ -9,7 +9,6 @@ releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Supported
-staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: ffmpeg
@@ -29,16 +28,16 @@ releases:
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0"
-    latestReleaseDate: 2025-08-22
+    latest: "8.0.1"
+    latestReleaseDate: 2025-11-20
 
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.2"
-    latestReleaseDate: 2025-09-14
+    latest: "7.1.3"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "7.0"
     codename: Dijkstra
@@ -51,8 +50,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.3"
-    latestReleaseDate: 2025-08-14
+    latest: "6.1.4"
+    latestReleaseDate: 2025-11-23
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -66,8 +65,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.7"
-    latestReleaseDate: 2025-08-14
+    latest: "5.1.8"
+    latestReleaseDate: 2025-11-26
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -148,8 +147,9 @@ releases:
 
   - releaseCycle: "2.8"
     codename: "Feynman"
+    staleReleaseThresholdDays: 1000 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2015-09-09
-    eol: false # still listed on https://ffmpeg.org/download.html
+    eol: false
     latest: "2.8.22"
     latestReleaseDate: 2023-10-29
 

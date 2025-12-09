@@ -13,6 +13,12 @@ auto:
   methods:
     - git: https://github.com/api-platform/core.git
 
+identifiers:
+  - purl: pkg:composer/api-platform/core
+  - purl: pkg:github/api-platform/core
+  - cpe: cpe:/a:api-platform:core
+  - cpe: cpe:2.3:a:api-platform:core
+
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
@@ -20,15 +26,15 @@ releases:
     releaseDate: 2025-09-18
     eoas: false
     eol: false
-    latest: "4.2.3"
-    latestReleaseDate: 2025-10-31
+    latest: "4.2.9"
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "4.1"
     releaseDate: 2025-02-28
     eoas: 2025-09-18
     eol: false
-    latest: "4.1.26"
-    latestReleaseDate: 2025-10-31
+    latest: "4.1.28"
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18

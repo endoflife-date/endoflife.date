@@ -6,7 +6,6 @@ tags: php-runtime
 iconSlug: cachet
 permalink: /cachet
 changelogTemplate: https://github.com/cachethq/cachet/releases/tag/v__LATEST__
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -15,6 +14,7 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2.4"
+    staleReleaseThresholdDays: 1000 # team is working on v3 - https://github.com/orgs/cachethq/discussions/4342#discussioncomment-11714831
     releaseDate: 2023-10-27
     eol: false
     latest: "2.4.1"

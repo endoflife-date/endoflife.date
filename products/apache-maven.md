@@ -25,8 +25,7 @@ auto:
   methods:
     - maven: org.apache.maven/maven-core
 
-# Before 3.8: eol(x) = releaseDate(x+1) (introduced in https://web.archive.org/web/20230615224740/https://maven.apache.org/docs/history.html)
-# Since 3.8: eol(x) = releaseDate(x+2)
+# See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
@@ -36,7 +35,7 @@ releases:
 
   - releaseCycle: "3.8"
     releaseDate: 2021-03-30
-    eol: false
+    eol: 2025-06-14
     latest: "3.8.9"
     latestReleaseDate: 2025-06-14
 
@@ -94,6 +93,5 @@ releases:
 > Based on the concept of a project object model (POM), Maven can manage a project's build,
 > reporting and documentation from a central piece of information.
 
-Apache Maven follows [semantic versioning](https://semver.org).
-[Since mid-2023](https://web.archive.org/web/20230615224740/https://maven.apache.org/docs/history.html),
-the Apache Maven team maintains the two last minor versions.
+Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains 
+the [two last minor versions](https://maven.apache.org/docs/history.html).

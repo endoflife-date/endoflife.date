@@ -13,7 +13,7 @@ changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/
 eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support
-staleReleaseThresholdYears: 3
+staleReleaseThresholdDays: 1095 # still not documented on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
 
 customFields:
   - name: supportedPhpVersions

@@ -26,18 +26,24 @@ identifiers:
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
 # eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
+  - releaseCycle: "3.3"
+    releaseDate: 2025-11-26
+    eol: 2027-01-01
+    latest: "3.3.0"
+    latestReleaseDate: 2025-11-26
+
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.7"
-    latestReleaseDate: 2025-10-23
+    latest: "3.2.9"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.9"
-    latestReleaseDate: 2025-10-03
+    latest: "3.1.10"
+    latestReleaseDate: 2025-11-07
 
   - releaseCycle: "3.0"
     releaseDate: 2024-05-29

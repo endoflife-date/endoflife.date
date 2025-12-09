@@ -12,7 +12,7 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
 changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 latestColumn: false
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1825 # oses have longer support periods
 
 identifiers:
   - cpe: cpe:/o:slackware:slackware_linux

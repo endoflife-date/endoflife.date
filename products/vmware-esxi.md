@@ -28,9 +28,9 @@ releases:
     releaseDate: 2025-06-17
     eol: false
     technicalGuidance: 2032-06-17 # no source, calculated releaseDate(x)+7y
-    latest: "9.0.0.0100"
-    latestReleaseDate: 2025-07-15
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/maintenance-releases/esx-update-and-patch-release-notes/esx-9-0-0-0100.html
+    latest: "9.0.1.0"
+    latestReleaseDate: 2025-09-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-1-release-notes/esx-9-0-1-0000.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11

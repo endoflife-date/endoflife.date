@@ -40,8 +40,8 @@ releases:
     releaseDate: 2024-10-17
     eoas: false
     eol: false
-    latest: "2.3.4"
-    latestReleaseDate: 2025-08-25
+    latest: "2.3.5"
+    latestReleaseDate: 2025-11-18
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -49,8 +49,8 @@ releases:
     releaseDate: 2023-07-27
     eoas: 2025-01-13
     eol: false
-    latest: "2.2.8"
-    latestReleaseDate: 2025-06-12
+    latest: "2.2.9"
+    latestReleaseDate: 2025-11-18
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -80,6 +80,7 @@ releases:
     latestReleaseDate: 2020-12-14
     supportedLinux: "2.6.32 - 5.9"
     supportedFreeBSD: "N/A"
+
 
 
 ---

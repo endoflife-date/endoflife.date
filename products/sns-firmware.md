@@ -8,7 +8,7 @@ versionCommand: getversion
 latestColumn: false
 eoasColumn: End of Maintenance
 eolColumn: End of Life
-staleReleaseThresholdYears: 5
+staleReleaseThresholdDays: 1825 # devices have longer support periods
 
 auto:
   methods:

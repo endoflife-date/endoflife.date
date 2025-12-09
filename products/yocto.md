@@ -43,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.13"
-    latestReleaseDate: 2025-10-30
+    latest: "5.0.14"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "4.3"
     codename: "Nanbield"
@@ -72,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.30"
-    latestReleaseDate: 2025-10-02
+    latest: "4.0.31"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "3.4"
     codename: "Honister"

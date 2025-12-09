@@ -35,8 +35,8 @@ releases:
     eol: 2028-08-09
     eoes: 2030-06-30
     link: https://www.debian.org/News/2025/20250809
-    latest: "13.1"
-    latestReleaseDate: 2025-09-06
+    latest: "13.2"
+    latestReleaseDate: 2025-11-15
 
   - releaseCycle: "12"
     codename: "Bookworm"

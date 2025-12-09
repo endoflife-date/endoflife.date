@@ -27,14 +27,14 @@ releases:
   - releaseCycle: "2.6"
     releaseDate: 2024-05-17
     eol: false
-    latestReleaseDate: 2025-07-15
-    latest: "2.6.3"
+    latestReleaseDate: 2025-11-13
+    latest: "2.6.4"
 
   - releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestReleaseDate: 2025-07-24
-    latest: "2.5.12"
+    latestReleaseDate: 2025-11-13
+    latest: "2.5.13"
 
   - releaseCycle: "2.4"
     releaseDate: 2020-12-15
@@ -61,6 +61,7 @@ releases:
     eol: 2021-04-19
     latest: "2.2.7"
     latestReleaseDate: 2021-04-19
+
 ---
 
 > [Apache HBase](https://hbase.apache.org/) is an open-source non-relational distributed database

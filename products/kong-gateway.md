@@ -11,7 +11,6 @@ alternate_urls:
 changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
 eolColumn: Support
 eoesColumn: Enterprise Support
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -67,6 +66,7 @@ releases:
     latestReleaseDate: 2023-11-08
 
   - releaseCycle: "3.4"
+    staleReleaseThresholdDays: 1095 # LTS, still supported for enterprise, see https://developer.konghq.com/gateway/version-support-policy/
     lts: true
     releaseDate: 2023-08-09
     eol: false

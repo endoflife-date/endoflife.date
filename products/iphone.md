@@ -9,7 +9,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 2920 # 8 years, iphone xs is still supported with ios 18, see https://en.wikipedia.org/wiki/List_of_iPhone_models#Not_supporting_latest_iOS_version
 
 customFields:
   - name: supportedIosVersions
