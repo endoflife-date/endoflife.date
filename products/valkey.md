@@ -25,8 +25,8 @@ releases:
     releaseDate: 2025-10-21
     eoas: 2028-10-21
     eol: 2028-10-21
-    latest: "9.0.0"
-    latestReleaseDate: 2025-10-21
+    latest: "9.0.1"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "8.1"
     releaseDate: 2025-03-31

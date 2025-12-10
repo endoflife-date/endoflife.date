@@ -23,14 +23,14 @@ releases:
   - releaseCycle: "1.19"
     releaseDate: 2025-10-07
     eol: false
-    latest: "1.19.1"
-    latestReleaseDate: 2025-10-15
+    latest: "1.19.2"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "1.18"
     releaseDate: 2025-06-10
     eol: false
-    latest: "1.18.3"
-    latestReleaseDate: 2025-10-15
+    latest: "1.18.4"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "1.17"
     releaseDate: 2025-02-03
