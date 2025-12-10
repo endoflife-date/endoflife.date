@@ -34,15 +34,15 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.540"
-    latestReleaseDate: 2025-12-02
+    latest: "2.541"
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "2.528"
     releaseDate: 2025-09-17
     lts: 2025-10-15
     eol: false
-    latest: "2.528.2"
-    latestReleaseDate: 2025-11-12
+    latest: "2.528.3"
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "2.516"
     releaseDate: 2025-06-24
