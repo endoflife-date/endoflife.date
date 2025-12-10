@@ -38,6 +38,15 @@ releases:
     link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
 
+  - releaseCycle: "air-7-13"
+    releaseLabel: "iPad Air 13-inch (M3)"
+    releaseDate: 2025-03-12
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/122242
+    supportedIpadOsVersions: "18 - 26"
+
+
   - releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (A17 Pro)"
     releaseDate: 2024-10-23
@@ -64,6 +73,14 @@ releases:
 
   - releaseCycle: "air-6-11"
     releaseLabel: "iPad Air 11-inch (M2)"
+    releaseDate: 2024-05-15
+    discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
+    eol: false
+    link: https://support.apple.com/119894
+    supportedIpadOsVersions: "17 - 26"
+
+  - releaseCycle: "air-6-13"
+    releaseLabel: "iPad Air 13-inch (M2)"
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
