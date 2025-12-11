@@ -35,8 +35,8 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.65"
-    latestReleaseDate: 2025-07-23
+    latest: "2.4.66"
+    latestReleaseDate: 2025-12-04
     link: https://downloads.apache.org/httpd/CHANGES_2.4
 
   - releaseCycle: "2.2"
@@ -59,6 +59,7 @@ releases:
     latest: "1.3.42"
     latestReleaseDate: 2010-02-02
     link: https://archive.apache.org/dist/httpd/CHANGES_1.3.42
+
 ---
 
 > [Apache HTTP Server](https://httpd.apache.org/) is a collaborative software development effort

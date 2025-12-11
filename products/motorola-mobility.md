@@ -23,6 +23,18 @@ releases:
     eol: 2028-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12431
 
+  - releaseCycle: moto-g57-power
+    releaseLabel: "Moto G57 Power"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12451
+
+  - releaseCycle: moto-g57
+    releaseLabel: "Moto G57"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12453
+
   - releaseCycle: moto-g-play-2026
     releaseLabel: "Moto G Play (2026)"
     releaseDate: 2025-11-01

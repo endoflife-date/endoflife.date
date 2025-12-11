@@ -60,9 +60,9 @@ releases:
   - releaseCycle: "10.2"
     releaseDate: 2022-02-27
     eol: 2025-08-27
-    latest: "10.2.18"
-    latestReleaseDate: 2025-11-10
-    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-18-known-and-addressed-issues/pan-os-10-2-18-addressed-issues
+    latest: "10.2.18-h1"
+    latestReleaseDate: 2025-12-02
+    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-18-known-and-addressed-issues/pan-os-10-2-18-h1-addressed-issues
 
   - releaseCycle: "10.1"
     releaseDate: 2021-05-31

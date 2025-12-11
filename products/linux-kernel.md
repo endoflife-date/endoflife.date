@@ -31,8 +31,9 @@ identifiers:
 # non-LTS: releaseDate(x)+4 months
 releases:
   - releaseCycle: "6.18"
+    lts: true
     releaseDate: 2025-11-30
-    eol: false # not yet announced
+    eol: 2027-12-01
     latest: "6.18"
     latestReleaseDate: 2025-11-30
 
@@ -212,7 +213,7 @@ releases:
   - releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
-    eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eol: 2025-12-03 # https://lore.kernel.org/lkml/2025120319-blip-grime-93e8@gregkh/
     latest: "5.4.302"
     latestReleaseDate: 2025-12-03
 
