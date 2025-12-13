@@ -35,53 +35,53 @@ releases:
     releaseDate: 2025-10-06
     eol: 2026-12-02
     eoes: 2027-12-02
-    latest: "1.34-eks-1"
-    latestReleaseDate: 2025-10-06
+    latest: "1.34-eks-9"
+    latestReleaseDate: 2025-11-18
     link: https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-distro-kubernetes-version-1-34/
 
   - releaseCycle: "1.33"
     releaseDate: 2025-05-28
     eol: 2026-07-29
     eoes: 2027-07-29
-    latest: "1.33-eks-9"
-    latestReleaseDate: 2025-07-30
+    latest: "1.33-eks-23"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.32"
     releaseDate: 2025-01-25
     eol: 2026-03-23
     eoes: 2027-03-23
-    latest: "1.32-eks-16"
-    latestReleaseDate: 2025-07-30
+    latest: "1.32-eks-30"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.31"
     releaseDate: 2024-09-26
     eol: 2025-11-26
     eoes: 2026-11-26
-    latest: "1.31-eks-32"
-    latestReleaseDate: 2025-07-30
+    latest: "1.31-eks-46"
+    latestReleaseDate: 2025-11-18
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-eks-distro-kubernetes-version-1-31/
 
   - releaseCycle: "1.30"
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: "1.30-eks-40"
-    latestReleaseDate: 2025-07-30
+    latest: "1.30-eks-54"
+    latestReleaseDate: 2025-11-18
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-23
     eol: 2025-03-23
     eoes: 2026-03-23
-    latest: "1.29-eks-43"
-    latestReleaseDate: 2025-07-30
+    latest: "1.29-eks-57"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.28"
     releaseDate: 2023-09-26
     eol: 2024-11-26
     eoes: 2025-11-26
-    latest: "1.28-eks-49"
-    latestReleaseDate: 2025-07-30
+    latest: "1.28-eks-63"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.27"
     releaseDate: 2023-05-24
