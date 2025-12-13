@@ -33,15 +33,15 @@ releases:
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "11.2.9"
-    latestReleaseDate: 2025-12-04
+    latest: "11.2.10"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "10.5.7"
-    latestReleaseDate: 2025-12-04
+    latest: "10.5.8"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "10.4"
     releaseDate: 2024-12-17

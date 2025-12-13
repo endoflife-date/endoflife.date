@@ -33,8 +33,8 @@ releases:
     releaseDate: 2025-06-24
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.29.3"
-    latestReleaseDate: 2025-10-28
+    latest: "1.29.4"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "1.28"
     releaseDate: 2025-04-23
