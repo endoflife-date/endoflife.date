@@ -20,9 +20,7 @@ auto:
     - git: https://github.com/cilium/cilium.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
-# Cilium follows approximately 6-month minor release cadence
-# The last 3 minor versions are actively supported
-# When a 4th newer version is released, the oldest drops support
+# eol(x) = releaseDate(x+3)
 releases:
   - releaseCycle: "1.18"
     releaseDate: 2025-07-29
@@ -49,8 +47,5 @@ releases:
 > It is based on eBPF technology and provides networking, security, and
 > observability for Kubernetes and other container orchestration platforms.
 
-Cilium currently releases new feature versions approximately every 6 months,
-incrementing the Y in version X.Y.Z. The project maintains support for the
-three most recent minor releases, with monthly patch releases to address bugs
-and security issues. When a fourth newer version is released, the oldest
-supported version reaches end-of-life.
+Cilium releases new releases approximately every 6 months.
+The three most recent minor releases are supported with bug and security fixes, based upon community demand and severity.
