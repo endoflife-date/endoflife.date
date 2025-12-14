@@ -60,10 +60,8 @@ releases:
 
 ---
 
-> [Cilium](https://cilium.io/) is an open source, cloud native solution for
-> providing, securing, and observing network connectivity between workloads.
-> It is based on eBPF technology and provides networking, security, and
-> observability for Kubernetes and other container orchestration platforms.
+> [Cilium](https://cilium.io/) is open source software for transparently securing the network connectivity between application services
+> deployed using Linux container management platforms like Docker and Kubernetes.
 
 Cilium releases new releases approximately every 6 months.
 The three most recent minor releases are supported with bug and security fixes, based upon community demand and severity.
