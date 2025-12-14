@@ -1,6 +1,6 @@
 ---
 title: Cilium
-addedAt: 2025-09-29
+addedAt: 2025-12-14
 category: server-app
 tags: cncf linux-foundation
 iconSlug: cilium
@@ -39,6 +39,24 @@ releases:
     eol: false
     latest: "1.16.17"
     latestReleaseDate: 2025-11-12
+
+  - releaseCycle: "1.15"
+    releaseDate: 2024-01-31
+    eol: 2025-07-29
+    latest: "1.15.19"
+    latestReleaseDate: 2025-07-16
+
+  - releaseCycle: "1.14"
+    releaseDate: 2023-07-27
+    eol: 2025-02-04
+    latest: "1.14.19"
+    latestReleaseDate: 2025-01-21
+
+  - releaseCycle: "1.13"
+    releaseDate: 2023-02-15
+    eol: 2024-07-24
+    latest: "1.13.18"
+    latestReleaseDate: 2024-07-11
 
 ---
 
