@@ -86,8 +86,8 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.26"
-    latestReleaseDate: 2025-10-30
+    latest: "7.0.27"
+    latestReleaseDate: 2025-12-12
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
