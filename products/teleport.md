@@ -1,12 +1,12 @@
 ---
 title: Teleport
-addedAt: 2025-09-29
+addedAt: 2025-12-14
 category: server-app
 permalink: /teleport
 versionCommand: teleport version
 releasePolicyLink: https://goteleport.com/docs/upcoming-releases/
 changelogTemplate: https://github.com/gravitational/teleport/releases/tag/v__LATEST__
-eolColumn: Support Status
+eoasColumn: true
 
 identifiers:
   - purl: pkg:github/gravitational/teleport
@@ -15,36 +15,36 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/gravitational/teleport.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
   - releaseCycle: "18"
     releaseDate: 2025-07-04
-    eol: 2026-08-31
-    latest: "18.2.0"
-    latestReleaseDate: 2025-09-05
+    eoas: false
+    eol: false
+    latest: "18.5.1"
+    latestReleaseDate: 2025-12-12
 
   - releaseCycle: "17"
     releaseDate: 2024-11-15
-    eol: 2026-02-28
-    latest: "17.7.6"
-    latestReleaseDate: 2025-09-24
+    eoas: 2025-07-04
+    eol: false
+    latest: "17.7.11"
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "16"
     releaseDate: 2024-06-13
-    eol: 2025-10-31
-    latest: "16.5.17"
-    latestReleaseDate: 2025-09-23
+    eoas: 2024-11-15
+    eol: 2025-10-31 # https://web.archive.org/web/20250709131044/https://goteleport.com/docs/upcoming-releases/
+    latest: "16.5.18"
+    latestReleaseDate: 2025-09-29
 
 ---
 
-> [Teleport](https://goteleport.com/) is an Infrastructure Identity Platform that provides secure access and identity management for servers, Kubernetes clusters, databases, web applications, and other infrastructure resources. It delivers zero trust access with certificate-based authentication and comprehensive audit logging.
+> [Teleport](https://goteleport.com/) is an identity-based access platform that secures servers, Kubernetes clusters, databases, internal applications, and desktops
+> using short-lived certificates, detailed audit logging, and fine-grained role-based access controls.
 
-Teleport officially supports the **current major version and the two previous major versions**, providing security-critical support for each major release.
-
-## Support Policy
-
-- **Active support**: Current and two previous major versions receive security updates and bug fixes
-- **Compatibility**: Servers support clients one major version behind
-- **Upgrade requirement**: Must upgrade sequentially between major versions (cannot skip versions)
-- **Support duration**: Each major version supported until explicitly marked end-of-life
+Teleport adheres to [semantic versioning](https://goteleport.com/docs/upcoming-releases/#version-compatibility).
+Major releases occur annually.
+Support for bug and security fixes covers the two most recent major versions, with new features exclusively added to the latest major release.
