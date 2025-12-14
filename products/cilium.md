@@ -25,20 +25,20 @@ releases:
   - releaseCycle: "1.18"
     releaseDate: 2025-07-29
     eol: false
-    latest: "1.18.2"
-    latestReleaseDate: 2025-09-17
+    latest: "1.18.4"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "1.17"
     releaseDate: 2025-02-04
     eol: false
-    latest: "1.17.8"
-    latestReleaseDate: 2025-09-22
+    latest: "1.17.10"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "1.16"
     releaseDate: 2024-07-24
     eol: false
-    latest: "1.16.15"
-    latestReleaseDate: 2025-09-23
+    latest: "1.16.17"
+    latestReleaseDate: 2025-11-12
 
 ---
 
