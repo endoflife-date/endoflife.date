@@ -10,6 +10,7 @@ alternate_urls:
 changelogTemplate: https://subversion.apache.org/docs/release-notes/__RELEASE_CYCLE__.html
 releasePolicyLink: https://subversion.apache.org/roadmap.html
 eolColumn: Support
+staleReleaseThresholdDays: 730 # project is not very active anymore
 
 identifiers:
   - repology: subversion
