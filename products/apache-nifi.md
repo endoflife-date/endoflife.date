@@ -20,9 +20,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.7"
+    releaseDate: 2025-12-09
+    eol: false
+    latest: "2.7.1"
+    latestReleaseDate: 2025-12-12
+
   - releaseCycle: "2.6"
     releaseDate: 2025-09-21
-    eol: false
+    eol: 2025-12-09
     latest: "2.6.0"
     latestReleaseDate: 2025-09-21
 
@@ -121,6 +127,7 @@ releases:
     eol: 2023-02-09
     latest: "1.19.1"
     latestReleaseDate: 2022-12-07
+
 ---
 
 > [Apache NiFi](https://nifi.apache.org/) is a software project designed to automate the flow of data between software
