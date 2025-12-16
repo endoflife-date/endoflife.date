@@ -41,8 +41,8 @@ releases:
     releaseDate: 2023-05-23
     eol: 2027-06-30
     eoas: 2027-06-30
-    latest: "6.2.8-c416"
-    latestReleaseDate: 2025-11-18
+    latest: "6.2.8-c431"
+    latestReleaseDate: 2025-12-11
     link: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes/globalprotect-addressed-issues
 
   - releaseCycle: "6.1"
