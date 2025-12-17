@@ -611,7 +611,7 @@ releases:
     releaseLabel: "Galaxy M04"
     releaseDate: 2022-12-16
     eoas: 2024-12-16
-    eol: 2025-12-16
+    eol: false
     link: https://doc.samsungmobile.com/SM-M045F/INS/doc.html
 
   - releaseCycle: "galaxy-a04e"
