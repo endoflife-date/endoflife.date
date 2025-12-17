@@ -1,5 +1,6 @@
 ---
 title: Svelte
+addedAt: 2024-11-21
 category: framework
 tags: javascript-runtime
 iconSlug: svelte
@@ -11,28 +12,28 @@ changelogTemplate: https://github.com/sveltejs/svelte/releases/tag/svelte%40__LA
 
 auto:
   methods:
-  -   npm: svelte
+    - npm: svelte
 
 identifiers:
--   purl: pkg:npm/svelte
--   purl: pkg:github/sveltejs/svelte
+  - purl: pkg:npm/svelte
+  - purl: pkg:github/sveltejs/svelte
 
 releases:
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2024-10-19
     eoas: false
     eol: false
-    latest: "5.33.10"
-    latestReleaseDate: 2025-05-29
+    latest: "5.46.0"
+    latestReleaseDate: 2025-12-12
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2023-06-22
     eoas: 2024-10-19
     eol: 2024-10-19
     latest: "4.2.20"
     latestReleaseDate: 2025-05-20
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2019-04-21
     eoas: 2023-06-22
     eol: 2023-06-22
@@ -40,7 +41,7 @@ releases:
     latestReleaseDate: 2023-06-20
     link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2018-04-19
     eoas: 2019-04-21
     eol: 2019-04-21
@@ -48,7 +49,7 @@ releases:
     latestReleaseDate: 2019-02-08
     link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2016-11-29
     eoas: 2018-04-19
     eol: 2018-04-19

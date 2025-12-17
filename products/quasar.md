@@ -1,5 +1,6 @@
 ---
 title: Quasar
+addedAt: 2023-09-24
 category: framework
 tags: javascript-runtime
 iconSlug: quasar
@@ -11,12 +12,12 @@ eoasColumn: true
 eolColumn: LTS support
 
 identifiers:
--   purl: pkg:npm/quasar
+  - purl: pkg:npm/quasar
 
 auto:
   methods:
-  -   npm: quasar
-  -   release_table: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md
+    - npm: quasar
+    - release_table: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md
       render_javascript: true
       selector: "table:nth-of-type(1)"
       fields:
@@ -28,14 +29,14 @@ auto:
         eol: "LTS support ends"
 
 releases:
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.18.1"
-    latestReleaseDate: 2025-03-06
+    latest: "2.18.6"
+    latestReleaseDate: 2025-11-13
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2019-03-07
     eoas: 2021-04-01
     eol: 2023-06-30
@@ -45,7 +46,7 @@ releases:
 ---
 
 > [Quasar](https://quasar.dev/) is an MIT licensed open-source Vue.js based framework, which allows
-> web developer to quickly create responsive websites/apps in many flavors: Single Page Apps, SSR
+> web developers to quickly create responsive websites/apps in many flavors: Single Page Apps, SSR
 > Apps, PWAs, Browser extensions, Hybrid Mobile Apps and Electron Apps.
 
 All major releases are typically supported for at least 12 months. LTS support ends 12 months after

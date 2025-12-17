@@ -1,61 +1,72 @@
 ---
-title: Grails Framework
+title: Apache Grails Framework
+addedAt: 2022-12-01
 category: framework
 tags: java-runtime
 permalink: /grails
 alternate_urls:
--   /grails-framework
-releasePolicyLink: https://grails.org/support.html
-changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
+  - /grails-framework
+  - /apache-grails
+releasePolicyLink: https://grails.apache.org/support.html
+changelogTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
 identifiers:
--   repology: grails
--   cpe: cpe:/a:grails:grails
--   cpe: cpe:2.3:a:grails:grails
+  - cpe: cpe:/a:apache:grails
+  - cpe: cpe:2.3:a:apache:grails
+  - purl: pkg:maven/org.apache.grails/grails
+  - cpe: cpe:/a:grails:grails
+  - cpe: cpe:2.3:a:grails:grails
 
 auto:
   methods:
-  -   git: https://github.com/grails/grails-core.git
+    - git: https://github.com/apache/grails-core.git
 
 releases:
--   releaseCycle: "6"
-    releaseDate: 2023-07-24
+  - releaseCycle: "7"
+    releaseDate: 2025-10-19
     eoas: false
     eol: false
+    latest: "7.0.4"
+    latestReleaseDate: 2025-11-27
+
+  - releaseCycle: "6"
+    releaseDate: 2023-07-24
+    eoas: 2025-01-03
+    eol: 2025-10-19
     latest: "6.2.3"
     latestReleaseDate: 2025-01-03
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2021-10-12
     eoas: 2023-07-24
-    eol: false
+    eol: 2025-01-09 # more than 1 year without update, and not listed on https://grails.apache.org/download.html anymore
     latest: "5.3.6"
     latestReleaseDate: 2024-01-09
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2019-07-11
     eoas: true
     eol: 2023-03-31
     latest: "4.1.4"
     latestReleaseDate: 2024-03-08
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2015-03-31
     eoas: true
     eol: 2021-09-30
     latest: "3.3.18"
     latestReleaseDate: 2024-01-09
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2011-12-15
     eoas: true
     eol: 2021-06-30
     latest: "2.6.1"
     latestReleaseDate: 2022-06-07
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2009-05-14
     eoas: true
     eol: 2012-05-01
@@ -64,7 +75,7 @@ releases:
 
 ---
 
-> [Grails](https://grails.org/) is a powerful Groovy-based web application framework for the JVM
+> [Apache Grails](https://grails.apache.org/) is a powerful [Apache Groovy](https://groovy-lang.org/)-based web application framework for the JVM
 > built on top of Spring Boot.
 
 ## Support
@@ -75,5 +86,4 @@ releases:
   around the resolution of critical security advisories. New features, performance improvements,
   and minor bug fixes are unlikely.
 
-The Grails Foundation offers [commercial support](https://grails.org/support.html#standard). This typically
-lasts a few years after active maintenance ends.
+There are a few companies that offer [commercial support](https://grails.apache.org/support.html).

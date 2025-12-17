@@ -1,53 +1,60 @@
 ---
 title: Calico
+addedAt: 2024-07-13
 category: server-app
 permalink: /calico
 changelogTemplate: https://github.com/projectcalico/calico/releases/tag/v__LATEST__
 
 identifiers:
--   repology: calico
--   purl: pkg:github/projectcalico/calico
--   purl: pkg:docker/calico/cni
--   cpe: cpe:/a:projectcalico:calico
--   cpe: cpe:2.3:a:projectcalico:calico
+  - repology: calico
+  - purl: pkg:github/projectcalico/calico
+  - purl: pkg:docker/calico/cni
+  - cpe: cpe:/a:projectcalico:calico
+  - cpe: cpe:2.3:a:projectcalico:calico
 
 auto:
   methods:
-  -   git: https://github.com/projectcalico/calico.git
+    - git: https://github.com/projectcalico/calico.git
 
 # eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "3.30"
+  - releaseCycle: "3.31"
+    releaseDate: 2025-10-21
+    eol: false
+    latest: "3.31.2"
+    latestReleaseDate: 2025-11-17
+
+  - releaseCycle: "3.30"
     releaseDate: 2025-05-05
     eol: false
-    latest: "3.30.1"
-    latestReleaseDate: 2025-05-29
+    latest: "3.30.5"
+    latestReleaseDate: 2025-11-26
 
--   releaseCycle: "3.29"
+  - releaseCycle: "3.29"
     releaseDate: 2024-10-29
-    eol: false
-    latest: "3.29.4"
-    latestReleaseDate: 2025-05-20
+    eol: 2025-10-21
+    latest: "3.29.7"
+    latestReleaseDate: 2025-11-19
 
--   releaseCycle: "3.28"
+  - releaseCycle: "3.28"
     releaseDate: 2024-05-10
     eol: 2025-05-05
-    latest: "3.28.4"
-    latestReleaseDate: 2025-04-15
+    latest: "3.28.5"
+    latestReleaseDate: 2025-06-11
 
--   releaseCycle: "3.27"
+  - releaseCycle: "3.27"
     releaseDate: 2023-12-15
     eol: 2024-10-29
     latest: "3.27.5"
     latestReleaseDate: 2024-11-28
 
--   releaseCycle: "3.26"
+  - releaseCycle: "3.26"
     releaseDate: 2023-05-27
     eol: 2024-05-11
     latest: "3.26.5"
     latestReleaseDate: 2024-08-29
 
--   releaseCycle: "3.25"
+  - releaseCycle: "3.25"
     releaseDate: 2023-01-11
     eol: 2023-12-15
     latest: "3.25.2"
@@ -60,7 +67,8 @@ releases:
 > scalable, and secure networking for Kubernetes clusters.
 
 {: .warning }
-> Calico Cloud and Calico Enterprise, are separate versions maintained by
+
+> Calico Cloud and Calico Enterprise are separate versions maintained by
 > [Tigera](https://www.tigera.io/tigera-products), and may have separate support
 > options.
 

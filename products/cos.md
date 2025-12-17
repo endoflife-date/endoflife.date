@@ -1,12 +1,13 @@
 ---
 title: Google Container-Optimized OS (COS)
+addedAt: 2022-11-14
 category: os
 tags: google
 iconSlug: googlecloud
 permalink: /cos
 alternate_urls:
--   /google-cos
--   /container-optimized-os
+  - /google-cos
+  - /container-optimized-os
 versionCommand: cat /etc/os-release /etc/lsb-release
 releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
@@ -14,107 +15,114 @@ releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 eolColumn: Support Status
 
 identifiers:
--   cpe: cpe:2.3:o:google:container-optimized_os
--   cpe: cpe:/o:google:container-optimized_os
+  - cpe: cpe:2.3:o:google:container-optimized_os
+  - cpe: cpe:/o:google:container-optimized_os
 
 auto:
   methods:
-  -   custom: cos
+    - cos: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
--   releaseCycle: "cos-121"
+  - releaseCycle: "cos-125"
+    lts: true
+    releaseDate: 2025-10-09
+    eol: 2027-09-01
+    latest: "cos-125-19216-104-61"
+    latestReleaseDate: 2025-12-10
+
+  - releaseCycle: "cos-121"
     lts: true
     releaseDate: 2025-04-14
     eol: 2027-03-01
-    latest: "cos-121-18867-90-32"
-    latestReleaseDate: 2025-05-27
+    latest: "cos-121-18867-294-60"
+    latestReleaseDate: 2025-12-10
 
--   releaseCycle: "cos-117"
+  - releaseCycle: "cos-117"
     lts: true
     releaseDate: 2024-10-02
     eol: 2026-09-01
-    latest: "cos-117-18613-263-19"
-    latestReleaseDate: 2025-05-27
+    latest: "cos-117-18613-439-65"
+    latestReleaseDate: 2025-12-11
 
--   releaseCycle: "cos-113"
+  - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-382-22"
-    latestReleaseDate: 2025-05-27
+    latest: "cos-113-18244-521-45"
+    latestReleaseDate: 2025-12-10
 
--   releaseCycle: "cos-109"
+  - releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-519-12"
-    latestReleaseDate: 2025-05-27
+    latest: "cos-109-17800-570-50"
+    latestReleaseDate: 2025-09-24
 
--   releaseCycle: "cos-105"
+  - releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
     latest: "cos-105-17412-535-98"
     latestReleaseDate: 2025-03-31
 
--   releaseCycle: "cos-101"
+  - releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
     latest: "cos-101-17162-528-64"
     latestReleaseDate: 2024-10-21
 
--   releaseCycle: "cos-97"
+  - releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
     eol: 2024-03-01
     latest: "cos-97-16919-450-41"
     latestReleaseDate: 2024-03-27
 
--   releaseCycle: "cos-93"
+  - releaseCycle: "cos-93"
     lts: true
     releaseDate: 2021-10-18
     eol: 2023-10-01
     latest: "cos-93-16623-461-42"
     latestReleaseDate: 2023-10-24
 
--   releaseCycle: "cos-89"
+  - releaseCycle: "cos-89"
     lts: true
     releaseDate: 2021-04-07
     eol: 2023-03-01
     latest: "cos-89-16108-798-22"
     latestReleaseDate: 2023-04-03
 
--   releaseCycle: "cos-85"
+  - releaseCycle: "cos-85"
     lts: true
     releaseDate: 2020-09-24
     eol: 2022-09-01
     latest: "cos-85-13310-1498-13"
     latestReleaseDate: 2022-08-22
 
--   releaseCycle: "cos-81"
+  - releaseCycle: "cos-81"
     lts: true
     releaseDate: 2020-03-27
     eol: 2021-09-01
     latest: "cos-81-12871-1317-8"
     latestReleaseDate: 2022-01-10
 
--   releaseCycle: "cos-77"
+  - releaseCycle: "cos-77"
     lts: true
     releaseDate: 2019-09-27
     eol: 2021-04-01
     latest: "cos-77-12371-1109-0"
     latestReleaseDate: 2021-01-11
 
--   releaseCycle: "cos-73"
+  - releaseCycle: "cos-73"
     lts: true
     releaseDate: 2019-03-25
     eol: 2020-06-01
     latest: "cos-73-11647-656-0"
     latestReleaseDate: 2020-09-05
 
--   releaseCycle: "cos-69"
+  - releaseCycle: "cos-69"
     lts: true
     releaseDate: 2018-09-18
     eol: 2019-12-01
@@ -135,24 +143,23 @@ Cloud. It is actively patched with security updates (CVEs) and bug-fixes to addr
 impact Google Cloud users. Users get access to these fixes via image releases in the `cos-cloud`
 project.
 
-Container-Optimized OS image support is available for Long Term Supported (LTS) family of images in
+Container-Optimized OS image support is available for Long-Term Supported (LTS) family of images in
 the `cos-cloud` project. A description of available image families is available at the
 [Versioning Scheme](https://cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
 doc. The following support commitment applies only to the LTS family of images.
 
 ## Support duration
 
-Approximately twice each year, the Container-Optimized OS team releases a Long Term Supported (LTS)
+Approximately twice each year, the Container-Optimized OS team releases a Long-Term Supported (LTS)
 milestone on its `cos-[MILESTONE]-lts` and `cos-arm64-[MILESTONE]-lts` image families. Once a
 milestone is introduced on the LTS families, it is supported for **2 years**.
 
 During this support window:
 
 - The milestone is actively patched for any critical bugs.
-- The milestone is actively scanned for security vulnerabilities, and security fixes are applied on
-  regular basis.
-- New releases containing high priority bug and security fixes are released on-demand.
-- New releases containing medium and low priority bug and security fixes are released every 3
+- The milestone is actively scanned for security vulnerabilities, and security fixes are applied regularly.
+- New releases containing high-priority bug and security fixes are released on-demand.
+- New releases containing medium and low-priority bug and security fixes are released every 3
   months.
 - To maintain stability, no new breaking features are introduced.
 - All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes)
@@ -166,9 +173,10 @@ is set on images in that milestone and those images stop appearing in the active
 the `cos-cloud` project.
 
 {: .warning}
+
 > Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
-references to the deprecated image family will return errors and break any workflows depending on
-it. You should not use this API to create production instances.
+> references to the deprecated image family will return errors and break any workflows depending on
+> it. You should not use this API to create production instances.
 
 Deprecated images are still accessible and usable when accessed directly by name using the
 [`images get API`](https://cloud.google.com/compute/docs/reference/rest/v1/images/get).

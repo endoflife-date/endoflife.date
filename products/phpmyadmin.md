@@ -1,5 +1,6 @@
 ---
 title: phpMyAdmin
+addedAt: 2022-12-28
 category: server-app
 tags: php-runtime
 iconSlug: phpmyadmin
@@ -10,43 +11,44 @@ eoasColumn: true
 
 auto:
   methods:
-  -   git: https://github.com/phpmyadmin/phpmyadmin.git
+    - git: https://github.com/phpmyadmin/phpmyadmin.git
       regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 identifiers:
--   repology: phpmyadmin
--   purl: pkg:apk/alpine/phpmyadmin
--   purl: pkg:composer/phpmyadmin/phpmyadmin
--   purl: pkg:deb/debian/phpmyadmin
--   purl: pkg:deb/ubuntu/phpmyadmin
--   purl: pkg:github/phpmyadmin/phpmyadmin
--   purl: pkg:rpm/redhat/phpmyadmin
--   purl: pkg:rpm/centos/phpmyadmin
--   purl: pkg:docker/library/phpmyadmin
+  - repology: phpmyadmin
+  - purl: pkg:apk/alpine/phpmyadmin
+  - purl: pkg:composer/phpmyadmin/phpmyadmin
+  - purl: pkg:deb/debian/phpmyadmin
+  - purl: pkg:deb/ubuntu/phpmyadmin
+  - purl: pkg:github/phpmyadmin/phpmyadmin
+  - purl: pkg:rpm/redhat/phpmyadmin
+  - purl: pkg:rpm/centos/phpmyadmin
+  - purl: pkg:docker/library/phpmyadmin
 
 releases:
--   releaseCycle: "5.2"
+  - releaseCycle: "5.2"
     releaseDate: 2022-05-11
     eoas: false
     eol: false
-    latest: "5.2.2"
-    latestReleaseDate: 2025-01-20
+    latest: "5.2.3"
+    latestReleaseDate: 2025-10-07
 
--   releaseCycle: "5.1"
+  - releaseCycle: "5.1"
     releaseDate: 2021-02-24
     eoas: 2022-05-11
     eol: 2022-05-11
     latest: "5.1.4"
     latestReleaseDate: 2022-05-11
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2019-12-26
     eoas: 2021-02-24
     eol: 2021-02-24
     latest: "5.0.4"
     latestReleaseDate: 2020-10-15
 
--   releaseCycle: "4.9"
+  - releaseCycle: "4.9"
+    staleReleaseThresholdDays: 1100 # https://www.phpmyadmin.net/downloads/#support
     lts: true
     releaseDate: 2019-06-04
     eoas: 2019-12-31
@@ -54,28 +56,28 @@ releases:
     latest: "4.9.11"
     latestReleaseDate: 2023-02-07
 
--   releaseCycle: "4.8"
+  - releaseCycle: "4.8"
     releaseDate: 2018-04-07
     eoas: 2019-06-04
     eol: 2019-06-04
     latest: "4.8.5"
     latestReleaseDate: 2019-01-25
 
--   releaseCycle: "4.7"
+  - releaseCycle: "4.7"
     releaseDate: 2017-03-29
     eoas: 2018-04-07
     eol: 2018-04-07
     latest: "4.7.9"
     latestReleaseDate: 2018-03-05
 
--   releaseCycle: "4.6"
+  - releaseCycle: "4.6"
     releaseDate: 2016-03-17
     eoas: 2017-04-01
     eol: 2017-04-01
     latest: "4.6.6"
     latestReleaseDate: 2017-01-23
 
--   releaseCycle: "4.5"
+  - releaseCycle: "4.5"
     releaseDate: 2015-09-23
     eoas: 2016-04-01
     eol: 2016-04-01
@@ -83,7 +85,7 @@ releases:
     latest: "4.5.5.1"
     latestReleaseDate: 2016-02-29
 
--   releaseCycle: "4.4"
+  - releaseCycle: "4.4"
     releaseDate: 2015-04-01
     eoas: 2016-10-01
     eol: 2016-10-01
@@ -91,7 +93,7 @@ releases:
     latest: "4.4.15.10"
     latestReleaseDate: 2017-01-23
 
--   releaseCycle: "4.3"
+  - releaseCycle: "4.3"
     releaseDate: 2014-12-05
     eoas: 2015-10-01
     eol: 2015-10-01
@@ -99,7 +101,7 @@ releases:
     latest: "4.3.13.3"
     latestReleaseDate: 2015-09-09
 
--   releaseCycle: "4.2"
+  - releaseCycle: "4.2"
     releaseDate: 2014-05-08
     eoas: 2015-07-01
     eol: 2015-07-01
@@ -107,7 +109,7 @@ releases:
     latest: "4.2.13.3"
     latestReleaseDate: 2015-05-13
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     releaseDate: 2013-12-11
     eoas: 2015-01-01
     eol: 2015-01-01
@@ -115,7 +117,7 @@ releases:
     latest: "4.1.14.8"
     latestReleaseDate: 2014-12-03
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     lts: true
     releaseDate: 2013-05-03
     eoas: 2013-12-31
@@ -136,7 +138,7 @@ to support older PHP versions.
 ## Compatibility Matrix
 
 | PHPMyAdmin | PHP          | MySQL/MariaDB |
-|------------|--------------|:--------------|
+| ---------- | ------------ | :------------ |
 | 5.2        | >=7.2        | >= 5.5        |
 | 5.0 - 5.1  | >=7.1        | >= 5.5        |
 | 4.9        | >=5.5, <=7.4 | >= 5.5        |

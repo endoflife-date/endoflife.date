@@ -1,6 +1,8 @@
 ---
 title: Valkey
+addedAt: 2025-01-14
 category: database
+tags: linux-foundation
 permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/
@@ -9,36 +11,43 @@ eoasColumn: Maintenance Support
 eolColumn: Extended Security Support
 
 identifiers:
--   repology: valkey
--   purl: pkg:github/valkey-io/valkey
--   purl: pkg:docker/valkey/valkey
+  - repology: valkey
+  - purl: pkg:github/valkey-io/valkey
+  - purl: pkg:docker/valkey/valkey
 
 auto:
   methods:
-  -   git: https://github.com/valkey-io/valkey.git
+    - git: https://github.com/valkey-io/valkey.git
 
 # Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
--   releaseCycle: "8.1"
-    releaseDate: 2025-03-31
-    eoas: false # not yet documented on https://valkey.io/topics/releases/
-    eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.1.1"
-    latestReleaseDate: 2025-04-23
+  - releaseCycle: "9.0"
+    releaseDate: 2025-10-21
+    eoas: 2028-10-21
+    eol: 2028-10-21
+    latest: "9.0.1"
+    latestReleaseDate: 2025-12-09
 
--   releaseCycle: "8.0"
+  - releaseCycle: "8.1"
+    releaseDate: 2025-03-31
+    eoas: 2028-03-31
+    eol: 2030-03-31
+    latest: "8.1.5"
+    latestReleaseDate: 2025-12-04
+
+  - releaseCycle: "8.0"
     releaseDate: 2024-09-15
     eoas: 2027-09-15
-    eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.0.3"
-    latestReleaseDate: 2025-04-23
+    eol: 2027-09-15
+    latest: "8.0.6"
+    latestReleaseDate: 2025-10-03
 
--   releaseCycle: "7.2"
+  - releaseCycle: "7.2"
     releaseDate: 2023-08-15 # inherit from redis
     eoas: 2027-04-16
     eol: 2029-04-16
-    latest: "7.2.9"
-    latestReleaseDate: 2025-04-23
+    latest: "7.2.11"
+    latestReleaseDate: 2025-10-03
 
 ---
 

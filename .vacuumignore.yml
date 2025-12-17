@@ -1,0 +1,9 @@
+# This file is used to ignore specific linting rules for the OpenAPI specification.
+
+# Ignore ambiguous path warnings for specific paths.
+# Those warning are relevants, but it cannot be fixed without breaking changes.
+no-ambiguous-paths:
+- $.paths['/products/{product}']
+- $.paths['/products/full']
+- $.paths['/products/{product}/releases/{release}']
+- $.paths['/products/{product}/releases/latest']

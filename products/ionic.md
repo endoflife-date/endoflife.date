@@ -1,11 +1,12 @@
 ---
 title: Ionic Framework
+addedAt: 2022-12-30
 category: framework
 tags: javascript-runtime
 iconSlug: ionic
 permalink: /ionic
 alternate_urls:
--   /ionic-framework
+  - /ionic-framework
 releasePolicyLink: https://ionicframework.com/docs/reference/support
 changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 eoasColumn: true
@@ -13,51 +14,48 @@ eolColumn: Maintenance
 eoesColumn: true
 
 customFields:
--   name: minAngularVersion
+  - name: minAngularVersion
     display: api-only
     label: Min. Angular
     description: Minimum required Angular version
     link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
--   name: maxAngularVersion
+  - name: maxAngularVersion
     display: api-only
     label: Max Angular
     description: Maximum required Angular version
     link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
--   name: supportedReactVersions
+  - name: supportedReactVersions
     display: api-only
     label: React
     description: Supported React versions
     link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
--   name: supportedVueVersions
+  - name: supportedVueVersions
     display: api-only
     label: Vue
     description: Supported Vue versions
     link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
 
 identifiers:
--   purl: pkg:github/ionic-team/ionic-framework
--   purl: pkg:npm/%40ionic/core
+  - purl: pkg:github/ionic-team/ionic-framework
+  - purl: pkg:npm/%40ionic/core
 
 auto:
   methods:
-  -   git: https://github.com/ionic-team/ionic-framework.git
-  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
-      selector: "table"
+    - git: https://github.com/ionic-team/ionic-framework.git
+    - release_table: https://ionicframework.com/docs/reference/support#1
       fields:
         releaseCycle: "Framework"
         minAngularVersion: "Minimum Angular Version"
         maxAngularVersion:
           column: "Maximum Angular Version"
           regex:
-          -   '^(?P<value>v\d+\.x).*$'
-          -   '^(?P<value>v\d+\.\d+.\d+).*$'
-  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
-      selector: "table"
+            - '^(?P<value>v\d+\.x).*$'
+            - '^(?P<value>v\d+\.\d+.\d+).*$'
+    - release_table: https://ionicframework.com/docs/reference/support#2
       fields:
         releaseCycle: "Framework"
         supportedReactVersions: "Required React Version"
-  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
-      selector: "table"
+    - release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
       fields:
         releaseCycle: "Framework"
         supportedVueVersions: "Required Vue Version"
@@ -65,19 +63,19 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # For eol / eoes see https://ionicframework.com/docs/reference/support#framework-maintenance-and-support-status.
 releases:
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2024-04-17
     eoas: false
     eol: false
     eoes: false
     minAngularVersion: v16
-    maxAngularVersion: v19.x
+    maxAngularVersion: v20.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
-    latest: "8.5.8"
-    latestReleaseDate: 2025-05-28
+    latest: "8.7.13"
+    latestReleaseDate: 2025-12-13
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2023-03-29
     eoas: 2024-04-17
     eol: 2024-10-17
@@ -89,7 +87,7 @@ releases:
     latest: "7.8.6"
     latestReleaseDate: 2024-04-24
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2021-12-08
     eoas: 2023-03-29
     eol: 2023-09-29
@@ -101,7 +99,7 @@ releases:
     latest: "6.7.5"
     latestReleaseDate: 2023-06-08
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2020-02-11
     eoas: 2021-12-08
     eol: 2022-06-08
@@ -113,7 +111,7 @@ releases:
     latest: "5.9.4"
     latestReleaseDate: 2022-04-27
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2019-01-23
     eoas: 2020-02-11
     eol: 2020-08-11
@@ -125,7 +123,7 @@ releases:
     latest: "4.11.13"
     latestReleaseDate: 2020-10-01
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2017-04-05
     eoas: 2019-01-23
     eol: 2019-10-30
@@ -137,7 +135,7 @@ releases:
     latest: "3.9.3"
     latestReleaseDate: 2019-01-14
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2017-01-24
     eoas: 2017-04-05
     eol: 2017-04-05
@@ -149,7 +147,7 @@ releases:
     latest: "2.3.0"
     latestReleaseDate: 2017-03-17
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2015-05-12
     eoas: 2017-01-25
     eol: 2017-01-25

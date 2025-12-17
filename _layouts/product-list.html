@@ -1,14 +1,34 @@
 ---
 layout: default
 ---
+{%- if page.is_category %}
 <h1>{{ page.title }}</h1>
+{%- else %}
+<h1>Products tagged with '{{ page.title }}'</h1>
+{%- endif %}
 
-{% for product in page.products %}
+{%- if page.is_category %}
+<p>
+{%- case page.id %}
+{%- when 'app' %}This category lists desktop and mobile end-user applications.
+{%- when 'database' %}This category lists database management systems, both relational and NoSQL.
+{%- when 'device' %}This category lists devices, including hardware and IoT devices.
+{%- when 'framework' %}This category lists software frameworks that provide a foundation for building applications.
+{%- when 'lang' %}This category lists programming languages and their software development kits (SDKs).
+{%- when 'os' %}This category lists operating systems, both desktop and server.
+{%- when 'server-app' %}This category lists applications that are typically installed on a server.
+{%- when 'service' %}This category lists managed service offerings (SaaS/PaaS...).
+{%- when 'standard' %}This category lists widely used standards and protocols.
+{%- endcase %}
+</p>
+{%- endif %}
+
+{%- for product in page.products %}
 <div class="product-list-item">
   <div class="d-flex flex-justify-between align-items-center">
     <div class="product-title">
       <h2>
-        {% include product-icon.html product=product size=30 %}
+        {%- include product-icon.html product=product size=30 %}
         <a href="{{ product.permalink }}">{{ product.title }}</a>
       </h2>
 
@@ -30,4 +50,4 @@ layout: default
     {{ product.content | extract_element:'blockquote' | first | extract_element:'p' }}
   </div>
 </div>
-{% endfor %}
+{%- endfor %}

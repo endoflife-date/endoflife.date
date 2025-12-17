@@ -26,7 +26,7 @@ While participating in the project, you must abide by its [Code of Conduct](CODE
 
 ## API
 
-An API is available for integration with CI platforms. API documentation is available at https://endoflife.date/docs/api/v1/.
+An API is available for integration with CI platforms. API documentation is available at <https://endoflife.date/docs/api/v1/>.
 The API is currently in Beta, and breaking changes can happen.
 
 ## License
@@ -37,21 +37,14 @@ Licensed under the [MIT License](LICENSE).
 
 endoflife.date is relying on various amazing software and components :
 
-- [GitHub](https://github.com/), an Internet hosting service for software development and version
-  control,
+- [GitHub](https://github.com/), an Internet hosting service for software development and version control.
 - [Jekyll](https://jekyllrb.com/), a static site generator.
-- [Ruby](https://www.ruby-lang.org/), a dynamic and open source programming language with a focus on
-  simplicity and productivity.
+- [Ruby](https://www.ruby-lang.org/), a dynamic and open source programming language with a focus on simplicity and productivity.
 - [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
-- [Stoplight Elements](https://stoplight.io/open-source/elements), a collection of UI components for
-  displaying beautiful developer documentation from any OpenAPI document.
-- [Swagger UI](https://swagger.io/tools/swagger-ui/), a documentation generator for OpenAPI
-  Specification.
+- [Swagger UI](https://swagger.io/tools/swagger-ui/), a documentation generator for OpenAPI Specification.
 - [Simple Icons](https://simpleicons.org/), free SVG icons for popular brands.
-- Our icon is derived from [Hourglass icon (orange)](https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg)
-  by David Abián and Serhio Magpie on the English Wikipedia. Remixed under the CC-BY-SA-4.0 license.
+- [Tabler Icons](https://github.com/tabler/tabler-icons), a complete icon set with perfect line weights and spacing - ready for Figma, apps, and design systems.
+- Our icon is derived from [Hourglass icon (orange)](https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg) by David Abián and Serhio Magpie on the English Wikipedia, remixed under the CC-BY-SA-4.0 license.
 - [RealFaviconGenerator](https://realfavicongenerator.net/), a favicon Generator, for real.
 - [Netlify](https://www.netlify.com/), an all-in-one platform for automating modern web projects.
-- Product descriptions are adapted from the [English Wikipedia](https://en.wikipedia.org/),
-  under [CC BY-SA 3.0](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
-  license.
+- Product descriptions are adapted from the [English Wikipedia](https://en.wikipedia.org/), under [CC BY-SA 3.0](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) license.

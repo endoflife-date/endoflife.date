@@ -1,13 +1,15 @@
 ---
 title: Robo
+addedAt: 2024-03-14
 category: framework
 tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
+staleReleaseThresholdDays: 1090 # https://github.com/consolidation/robo#branches
 
 customFields:
--   name: supportedPHPVersions
+  - name: supportedPHPVersions
     display: after-release-column
     label: PHP versions
     description: Supported PHP versions range
@@ -15,29 +17,33 @@ customFields:
 
 auto:
   methods:
-  -   git: https://github.com/consolidation/robo.git
-  -   release_table: https://github.com/consolidation/robo/blob/5.x/README.md
+    - git: https://github.com/consolidation/robo.git
+    - release_table: https://github.com/consolidation/robo/blob/5.x/README.md
       render_javascript: true
-      selector: "table"
       fields:
         releaseCycle:
           column: "Branch"
           regex: '^(?P<value>\d+)\.x$'
         supportedPHPVersions: "PHP Versions"
 
+identifiers:
+  - repology: robo
+  - purl: pkg:composer/consolidation/robo
+  - purl: pkg:github/consolidation/robo
+
 # Based on https://github.com/consolidation/robo#branches:
 # eoas(x) = true if "Stable", false otherwise
 # eol(x) = false if "Stable" or "Important fixes only", false otherwise
 releases:
--   releaseCycle: "5"
+  - releaseCycle: "5"
     supportedPHPVersions: "8.2 - 8.3"
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "5.1.0"
-    latestReleaseDate: 2024-10-22
+    latest: "5.1.1"
+    latestReleaseDate: 2025-11-14
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
     releaseDate: 2022-04-21
     eoas: false
@@ -45,7 +51,7 @@ releases:
     latest: "4.0.6"
     latestReleaseDate: 2023-04-30
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     supportedPHPVersions: "7.1 - 8.1"
     releaseDate: 2021-02-21 # starts with 3.0.1
     eoas: true
@@ -53,7 +59,7 @@ releases:
     latest: "3.0.12"
     latestReleaseDate: 2023-04-30
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     supportedPHPVersions: "7.1 - 7.4"
     releaseDate: 2019-10-29
     eoas: true
@@ -61,7 +67,7 @@ releases:
     latest: "2.2.2"
     latestReleaseDate: 2020-12-18
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     supportedPHPVersions: "5.5 - 7.4"
     releaseDate: 2016-10-13
     eoas: true

@@ -1,270 +1,273 @@
 ---
 title: NVIDIA GPUs
+addedAt: 2021-09-27
 category: device
 tags: nvidia
 iconSlug: nvidia
 permalink: /nvidia-gpu
 alternate_urls:
--   /nvidia-products
--   /nvidia-gpus
+  - /nvidia-products
+  - /nvidia-gpus
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
-releaseColumn: false
+latestColumn: false
 discontinuedColumn: true
 eoasColumn: true
+staleReleaseThresholdDays: 2920 # GPUs have a long support window, and https://en.wikipedia.org/wiki/Turing_(microarchitecture) not EOL yet
 
+# Support can be found on Wikipedia.
+# Example of a documented deprecated architecture (support status): https://en.wikipedia.org/wiki/Pascal_(microarchitecture).
 releases:
--   releaseCycle: "mobile-professional-ada-lovelace"
+  - releaseCycle: "mobile-professional-ada-lovelace"
     releaseLabel: "Mobile Professional Blackwell (GB20x)"
     releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "professional-blackwell"
+  - releaseCycle: "professional-blackwell"
     releaseLabel: "Professional Blackwell (GB20x)"
     releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-consumer-blackwell"
+  - releaseCycle: "mobile-consumer-blackwell"
     releaseLabel: "Mobile Consumer Blackwell (GB20x)"
     releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "consumer-blackwell"
+  - releaseCycle: "consumer-blackwell"
     releaseLabel: "Consumer Blackwell (GB20x)"
     releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-consumer-ada-lovelace"
+  - releaseCycle: "mobile-consumer-ada-lovelace"
     releaseLabel: "Mobile Consumer Ada Lovelace (AD10x)"
     releaseDate: 2023-02-08
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "professional-ada-lovelace"
+  - releaseCycle: "professional-ada-lovelace"
     releaseLabel: "Professional Ada Lovelace (AD1xx)"
     releaseDate: 2022-10-13
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "consumer-ada-lovelace"
+  - releaseCycle: "consumer-ada-lovelace"
     releaseLabel: "Consumer Ada Lovelace (AD1xx)"
     releaseDate: 2022-09-20
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-professional-ampere"
+  - releaseCycle: "mobile-professional-ampere"
     releaseLabel: "Mobile Professional Ampere (GA10x)"
     releaseDate: 2021-04-12
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-consumer-ampere"
+  - releaseCycle: "mobile-consumer-ampere"
     releaseLabel: "Mobile Consumer Ampere (GA10x)"
     releaseDate: 2021-01-12
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "professional-ampere"
+  - releaseCycle: "professional-ampere"
     releaseLabel: "Professional Ampere (GA10x)"
     releaseDate: 2020-10-05
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "consumer-ampere"
+  - releaseCycle: "consumer-ampere"
     releaseLabel: "Consumer Ampere (GA10x)"
     releaseDate: 2020-09-01
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-professional-turing"
+  - releaseCycle: "mobile-professional-turing"
     releaseLabel: "Mobile Professional Turing (TU1xX)"
     releaseDate: 2019-05-27
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "mobile-consumer-turing"
+  - releaseCycle: "mobile-consumer-turing"
     releaseLabel: "Mobile Consumer Turing (TU1xX)"
     releaseDate: 2019-01-29
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "consumer-turing"
+  - releaseCycle: "consumer-turing"
     releaseLabel: "Consumer Turing (TU1xX)"
     releaseDate: 2018-09-20
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "professional-turing"
+  - releaseCycle: "professional-turing"
     releaseLabel: "Professional Turing (TU1xX)"
     releaseDate: 2018-08-13
     eoas: false
     eol: false
     discontinued: false
 
--   releaseCycle: "professional-volta"
+  - releaseCycle: "professional-volta"
     releaseLabel: "Professional Volta (GV100)"
     releaseDate: 2017-12-07
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "mobile-professional-pascal"
+  - releaseCycle: "mobile-professional-pascal"
     releaseLabel: "Mobile Professional Pascal (GP10x)"
     releaseDate: 2017-02-06
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "mobile-consumer-pascal"
+  - releaseCycle: "mobile-consumer-pascal"
     releaseLabel: "Mobile Consumer Pascal (GP10x)"
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
     releaseDate: 2016-08-15
 
--   releaseCycle: "consumer-pascal"
+  - releaseCycle: "consumer-pascal"
     releaseLabel: "Consumer Pascal (GP10x)"
     releaseDate: 2016-05-27
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "professional-pascal"
+  - releaseCycle: "professional-pascal"
     releaseLabel: "Professional Pascal (GP10x)"
     releaseDate: 2016-04-05
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "mobile-professional-maxwell"
+  - releaseCycle: "mobile-professional-maxwell"
     releaseLabel: "Mobile Professional Maxwell (GMxxx)"
     releaseDate: 2015-08-18
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "professional-maxwell"
+  - releaseCycle: "professional-maxwell"
     releaseLabel: "Professional Maxwell (GMxxx)"
     releaseDate: 2015-06-29
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "mobile-consumer-maxwell"
+  - releaseCycle: "mobile-consumer-maxwell"
     releaseLabel: "Mobile Consumer Maxwell (GMxxx)"
     releaseDate: 2014-10-07
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "consumer-maxwell"
+  - releaseCycle: "consumer-maxwell"
     releaseLabel: "Consumer Maxwell (GMxxx)"
     releaseDate: 2014-09-19
-    eoas: false
-    eol: false
+    eoas: 2025-10-31
+    eol: 2028-10-31
     discontinued: true
 
--   releaseCycle: "professional-kepler"
+  - releaseCycle: "professional-kepler"
     releaseLabel: "Professional Kepler (GKxxx)"
     releaseDate: 2013-03-01
     eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
--   releaseCycle: "consumer-kepler"
+  - releaseCycle: "consumer-kepler"
     releaseLabel: "Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
--   releaseCycle: "mobile-professional-kepler"
+  - releaseCycle: "mobile-professional-kepler"
     releaseLabel: "Mobile Professional Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2019-04-23
     eol: 2022-03-01
     discontinued: true
 
--   releaseCycle: "mobile-consumer-kepler"
+  - releaseCycle: "mobile-consumer-kepler"
     releaseLabel: "Mobile Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2019-03-11
     eol: 2019-04-11
     discontinued: true
 
--   releaseCycle: "professional-fermi"
+  - releaseCycle: "professional-fermi"
     releaseLabel: "Professional Fermi (GF1xx)**"
     releaseDate: 2010-07-23
     eoas: 2018-07-31
     eol: 2022-12-31
     discontinued: true
 
--   releaseCycle: "consumer-fermi"
+  - releaseCycle: "consumer-fermi"
     releaseLabel: "Consumer Fermi (GF1xx)*"
     releaseDate: 2010-03-26
     eoas: 2018-03-10
     eol: 2018-03-10
     discontinued: true
 
--   releaseCycle: "consumer-tesla"
+  - releaseCycle: "consumer-tesla"
     releaseLabel: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
     releaseDate: 2006-11-08
     eoas: 2016-04-01
     eol: 2016-12-14
     discontinued: true
 
--   releaseCycle: "consumer-curie"
+  - releaseCycle: "consumer-curie"
     releaseLabel: "Consumer Curie (NV4x, G7x)"
     releaseDate: 2004-04-14
     eoas: 2013-02-25
     eol: 2015-02-24
     discontinued: true
 
--   releaseCycle: "consumer-rankine"
+  - releaseCycle: "consumer-rankine"
     releaseLabel: "Consumer Rankine (NV3x)"
     releaseDate: 2003-01-27
-    eoas: 2008-06-23 # Verify support date.
+    eoas: 2008-06-23 # Verify the support date.
     eol: 2008-06-23
     discontinued: true
 
--   releaseCycle: "consumer-kelvin"
+  - releaseCycle: "consumer-kelvin"
     releaseLabel: "Consumer Kelvin (NV1x, NV2x)"
     releaseDate: 2001-02-27
-    eoas: 2006-11-02 # Verify support date.
+    eoas: 2006-11-02 # Verify the support date.
     eol: 2006-11-02
     discontinued: true
 
--   releaseCycle: "consumer-celsius"
+  - releaseCycle: "consumer-celsius"
     releaseLabel: "Consumer Celsius (NV1x)"
     releaseDate: 1999-10-11
-    eoas: 2005-04-14 # Verify support date.
+    eoas: 2005-04-14 # Verify the support date.
     eol: 2005-04-14
     discontinued: true
 
--   releaseCycle: "consumer-fahrenheit"
+  - releaseCycle: "consumer-fahrenheit"
     releaseLabel: "Consumer Fahrenheit (NVx)"
     releaseDate: 1998-06-15
-    eoas: 2005-03-11 # Verify support date.
+    eoas: 2005-03-11 # Verify the support date.
     eol: 2005-03-11
     discontinued: true
-
 ---
 
 > Nvidia designs Graphics Processing Unit (GPUs) for the gaming and professional markets, as well
@@ -283,27 +286,26 @@ releases:
 There are multiple GPUs with the same name but part of a different architecture (therefore
 different support status length), and there are other cases to be careful of:
 
-### Desktop:
+### Desktop
 
 - `GT730`: Has a `GF108` (Fermi) and a `GK208` (Kepler) variant.
 - `GT625`: Has a `GF108` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
 - `GT640`: Has a `GF116` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
-- `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (with the
-  exception of the above)
+- `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (except the above)
 - `GT705` has a `GF119` (Fermi) and a `GK208` (Kepler) variant.
 - `GTX745`, `GTX750` and `GTX750 Ti` are Maxwell, even though all other `700` series are Kepler
-  variant (with the exception of the above)
+  variant (except the above)
 - `GT1030`: Has a `GK107` (Kepler) and a `GP108` (Pascal) variant.
 - All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a
   different (and often shorter) support cycle.
 
-### Laptop:
+### Laptop
 
 - `GT810M`/`GT820M` are Fermi cards.
 - `GT825M`/`GT870M`/`GT880M` are Kepler cards.
 - `GT920M` is a Kepler card.
 - Most cards in the `800M` series have multiple variant with varying architectures (A card in this
-  series can be Fermi, Kepler or Maxwell).
+  series can be Fermi, Kepler, or Maxwell).
 
 ## Identifying your GPU
 
@@ -313,16 +315,16 @@ support status, but instead their architecture.
 ### Windows
 
 1. [Download and run GPU-Z](https://www.techpowerup.com/gpuz/).
-2. First identify if you have a consumer or a professional card. See the "Naming scheme" section
+2. First, identify if you have a consumer or a professional card. See the "Naming scheme" section
    above.
-3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this
+3. Next, identify the card architecture. This will be the GPU textbox. You can cross-reference this
    with the support table at the top of this page.
 
 ### Linux
 
 1. Install the `lshw` package from your distribution's repositories.
 2. Run the command `sudo lshw -C display`, your GPU code is the `product` column.
-3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this
+3. Next, identify the card architecture. This will be the GPU textbox. You can cross-reference this
    with the support table at the top of this page.
 
 This GPU Code follows a similar pattern for most cards, for example we have `GA102`:

@@ -1,5 +1,6 @@
 ---
 title: Redmine
+addedAt: 2022-09-07
 category: server-app
 tags: ruby-runtime
 iconSlug: redmine
@@ -8,47 +9,53 @@ releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 
 identifiers:
--   repology: redmine
--   cpe: cpe:/a:redmine:redmine
--   cpe: cpe:2.3:a:redmine:redmine
+  - repology: redmine
+  - cpe: cpe:/a:redmine:redmine
+  - cpe: cpe:2.3:a:redmine:redmine
 
 auto:
   methods:
-  -   git: https://github.com/redmine/redmine.git
+    - git: https://github.com/redmine/redmine.git
 
 # eol releases announced in new versions blog posts
 releases:
--   releaseCycle: "6.0"
+  - releaseCycle: "6.1"
+    releaseDate: 2025-09-21
+    eol: false
+    latest: "6.1.0"
+    latestReleaseDate: 2025-09-21
+
+  - releaseCycle: "6.0"
     releaseDate: 2024-11-10
     eol: false
-    latest: "6.0.5"
-    latestReleaseDate: 2025-04-20
+    latest: "6.0.7"
+    latestReleaseDate: 2025-09-21
 
--   releaseCycle: "5.1"
+  - releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
-    latest: "5.1.8"
-    latestReleaseDate: 2025-04-20
+    latest: "5.1.10"
+    latestReleaseDate: 2025-09-21
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2022-03-28
-    eol: false
-    latest: "5.0.12"
-    latestReleaseDate: 2025-03-10
+    eol: 2025-09-21 # https://www.redmine.org/news/156
+    latest: "5.0.14"
+    latestReleaseDate: 2025-09-21
 
--   releaseCycle: "4.2"
+  - releaseCycle: "4.2"
     releaseDate: 2021-03-28
     eol: 2023-10-31
     latest: "4.2.11"
     latestReleaseDate: 2023-09-30
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     releaseDate: 2019-12-20
     eol: 2022-03-28
     latest: "4.1.7"
     latestReleaseDate: 2022-03-28
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2018-12-09
     eol: 2021-04-26
     latest: "4.0.9"
@@ -56,7 +63,7 @@ releases:
 
 ---
 
-> [Redmine](https://www.redmine.org/) is an open-source project management tool written using Ruby
+> [Redmine](https://www.redmine.org/) is an open-source project management tool written using the Ruby
 > on Rails framework.
 
 ## Links

@@ -3,7 +3,7 @@ name: Check URLs
 on:
   workflow_dispatch: # Manually run workflow.
   schedule:
-    - cron: '0 0 * * 0' # At 00:00 on Sunday.
+    - cron: "0 0 * * 0" # At 00:00 on Sunday.
 
 jobs:
   check_urls:
@@ -12,10 +12,10 @@ jobs:
     if: ${{ github.repository == 'endoflife-date/endoflife.date' }}
     steps:
       - name: Checkout site
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
 
       - name: Setup ruby
-        uses: ruby/setup-ruby@13e7a03dc3ac6c3798f4570bfead2aed4d96abfb # v1
+        uses: ruby/setup-ruby@ac793fdd38cc468a4dd57246fa9d0e868aba9085 # v1
         with:
           bundler-cache: true
 

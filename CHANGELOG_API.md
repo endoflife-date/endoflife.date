@@ -1,3 +1,11 @@
+# endoflife.date API Changelog
+
+## API v1.2.0
+
+- Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))
+  to list known Identifiers for given Products. For instance, `/identifiers/purl` will return all known Package URLs
+  and the Products they correspond to.
+
 ## API v1.1.0
 
 - Expose custom releases field values in the API (#7465). Such fields are grouped under the new `custom`
@@ -29,7 +37,7 @@ v1:
   WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md) (#905),
 - but reverts #2425 due to incompatibilities in redirect rules.
 
-The API v1 is now generated using a Jekyll Generator (see https://jekyllrb.com/docs/plugins/generators/)
+The API v1 is now generated using a Jekyll Generator (see <https://jekyllrb.com/docs/plugins/generators/>)
 instead of a custom script.
 
 Note that the API v0 is still generated to give time to users to migrate to API v1. It will be

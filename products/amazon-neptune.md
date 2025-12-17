@@ -1,12 +1,13 @@
 ---
 title: Amazon Neptune
+addedAt: 2023-07-01
 category: service
 tags: amazon
 iconSlug: amazonaws
 permalink: /amazon-neptune
 alternate_urls:
--   /aws-neptune
--   /neptune
+  - /aws-neptune
+  - /neptune
 versionCommand: >
   aws neptune describe-db-clusters
   --db-cluster-identifier your-neptune-db-identifier
@@ -15,15 +16,14 @@ releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-r
 changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases-__LATEST__.html
 
 customFields:
--   name: upgradeVersion
-    display: api-only
+  - name: upgradeVersion
+    display: after-latest-column
     label: Upgrade to
 
 auto:
   methods:
-  -   custom: amazon-neptune
-  -   release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
-      selector: "table"
+    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
+    - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       fields:
         releaseCycle:
           column: "Version"
@@ -32,153 +32,236 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
--   releaseCycle: "1.4.5.0"
+  - releaseCycle: "1.4.6.2"
+    releaseDate: 2025-11-18
+    upgradeVersion: 'N/A'
+    eol: 2027-06-03
+    latest: "1.4.6.2"
+    latestReleaseDate: 2025-11-18
+
+  - releaseCycle: "1.4.6.1"
+    releaseDate: 2025-09-18
+    upgradeVersion: '1.4.6.2'
+    eol: 2027-03-06
+    latest: "1.4.6.1"
+    latestReleaseDate: 2025-09-18
+
+  - releaseCycle: "1.4.6.0"
+    releaseDate: 2025-09-02
+    upgradeVersion: "1.4.6.1"
+    eol: 2027-03-06
+    latest: "1.4.6.0"
+    latestReleaseDate: 2025-09-02
+
+  - releaseCycle: "1.4.5.1"
+    releaseDate: 2025-06-30
+    upgradeVersion: "1.4.6.0"
+    eol: 2027-03-06
+    latest: "1.4.5.1"
+    latestReleaseDate: 2025-06-30
+
+  - releaseCycle: "1.4.5.0"
     releaseDate: 2025-04-09
-    upgradeVersion: N/A
+    upgradeVersion: "1.4.5.1"
     eol: 2027-03-06
     latest: "1.4.5.0"
     latestReleaseDate: 2025-04-09
 
--   releaseCycle: "1.4.4.0"
+  - releaseCycle: "1.4.4.0"
     releaseDate: 2025-02-24
-    upgradeVersion: '1.4.5.0'
+    upgradeVersion: "1.4.5.0"
     eol: 2027-03-06
     latest: "1.4.4.0"
     latestReleaseDate: 2025-02-24
 
--   releaseCycle: "1.4.3.0"
+  - releaseCycle: "1.4.3.0"
     releaseDate: 2025-01-21
-    upgradeVersion: '1.4.4.0'
+    upgradeVersion: "1.4.4.0"
     eol: 2027-03-06
     latest: "1.4.3.0"
     latestReleaseDate: 2025-01-21
 
--   releaseCycle: "1.4.2.0"
+  - releaseCycle: "1.4.2.0"
     releaseDate: 2024-12-19
-    upgradeVersion: '1.4.3.0'
+    upgradeVersion: "1.4.3.0"
     eol: 2027-03-06
     latest: "1.4.2.0"
     latestReleaseDate: 2024-12-19
 
--   releaseCycle: "1.4.1.0"
+  - releaseCycle: "1.4.1.0"
     releaseDate: 2024-11-21
-    upgradeVersion: '1.4.2.0'
+    upgradeVersion: "1.4.2.0"
     eol: 2027-03-06
     latest: "1.4.1.0"
     latestReleaseDate: 2024-11-21
 
--   releaseCycle: "1.4.0.0"
+  - releaseCycle: "1.4.0.0"
     releaseDate: 2024-11-06
-    upgradeVersion: '1.4.1.0'
+    upgradeVersion: "1.4.1.0"
     eol: 2027-03-06
     latest: "1.4.0.0"
     latestReleaseDate: 2024-11-06
 
--   releaseCycle: "1.3.4.0"
+  - releaseCycle: "1.3.4.0"
     releaseDate: 2024-10-01
-    upgradeVersion: '1.4.0.0'
+    upgradeVersion: "1.4.0.0"
     eol: 2027-03-06
     latest: "1.3.4.0"
     latestReleaseDate: 2024-10-01
 
--   releaseCycle: "1.3.3.0"
+  - releaseCycle: "1.3.3.0"
     releaseDate: 2024-08-05
-    upgradeVersion: '1.3.4.0'
+    upgradeVersion: "1.3.4.0"
     eol: 2027-03-06
     latest: "1.3.3.0"
     latestReleaseDate: 2024-08-05
 
--   releaseCycle: "1.2.1.2"
+  - releaseCycle: "1.2.1.2"
     releaseDate: 2024-08-05
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.1.2"
     latestReleaseDate: 2024-08-05
 
--   releaseCycle: "1.3.2.1"
+  - releaseCycle: "1.3.2.1"
     releaseDate: 2024-06-20
     upgradeVersion: "1.3.3.0"
     eol: 2027-03-06
     latest: "1.3.2.1"
     latestReleaseDate: 2024-06-20
 
--   releaseCycle: "1.3.2.0"
+  - releaseCycle: "1.3.2.0"
     releaseDate: 2024-06-06
     upgradeVersion: "1.3.2.1"
     eol: 2027-03-06
     latest: "1.3.2.0"
     latestReleaseDate: 2024-06-10
 
--   releaseCycle: "1.2.1.1"
+  - releaseCycle: "1.2.1.1"
     releaseDate: 2024-03-11
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.1.1"
     latestReleaseDate: 2024-03-11
 
--   releaseCycle: "1.3.1.0"
+  - releaseCycle: "1.3.1.0"
     releaseDate: 2024-03-06
     upgradeVersion: "1.3.2.1"
     eol: 2027-03-06
     latest: "1.3.1.0"
     latestReleaseDate: 2024-03-06
 
--   releaseCycle: "1.3.0.0"
+  - releaseCycle: "1.3.0.0"
     releaseDate: 2023-11-15
     upgradeVersion: "1.3.2.1"
     eol: 2027-03-06
     latest: "1.3.0.0"
     latestReleaseDate: 2023-11-15
 
--   releaseCycle: "1.2.1.0"
+  - releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.1.0.R7"
     latestReleaseDate: 2023-10-06
 
--   releaseCycle: "1.2.0.2"
+  - releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-20
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.0.2.R6"
     latestReleaseDate: 2023-09-12
 
--   releaseCycle: "1.2.0.1"
+  - releaseCycle: "1.2.0.1"
     releaseDate: 2022-10-26
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.0.1.R3"
     latestReleaseDate: 2023-09-27
 
--   releaseCycle: "1.2.0.0"
+  - releaseCycle: "1.2.0.0"
     releaseDate: 2022-07-21
     upgradeVersion: "1.3.0.0"
     eol: 2026-03-06
     latest: "1.2.0.0.R4"
     latestReleaseDate: 2023-09-29
 
--   releaseCycle: "1.1.1.0"
+  - releaseCycle: "1.1.1.0"
     releaseDate: 2022-04-19
     upgradeVersion: "1.2.1.0"
     eol: 2026-03-06
     latest: "1.1.1.0.R7"
     latestReleaseDate: 2023-01-23
 
--   releaseCycle: "1.1.0.0"
+  - releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
     eol: 2025-03-15
-    latest: "1.1.0.0.R2"
-    latestReleaseDate: 2022-05-16
+    latest: "1.1.0.0.R3"
+    latestReleaseDate: 2022-12-23
 
-# Use a single row for all 1.0.x releases
--   releaseCycle: "1.0"
-    releaseDate: 2018-06-22
+  - releaseCycle: "1.0.5.1"
+    releaseDate: 2021-10-01
     upgradeVersion: "1.1.0.0"
     eol: 2023-01-30
     latest: "1.0.5.1.R4"
     latestReleaseDate: 2022-05-16
+
+  - releaseCycle: "1.0.5.0"
+    releaseDate: 2021-07-27
+    upgradeVersion: "1.1.0.0"
+    eol: 2023-01-30
+    latest: "1.0.5.0.R5"
+    latestReleaseDate: 2022-05-16
+
+  - releaseCycle: "1.0.4.2"
+    releaseDate: 2021-06-01
+    upgradeVersion: "1.1.0.0"
+    eol: 2023-01-30
+    latest: "1.0.4.2.R5"
+    latestReleaseDate: 2021-08-16
+
+  - releaseCycle: "1.0.4.1"
+    releaseDate: 2020-12-08
+    upgradeVersion: "1.1.0.0"
+    eol: 2023-01-30
+    latest: "1.0.4.1.R1.1"
+    latestReleaseDate: 2021-03-22
+
+  - releaseCycle: "1.0.4.0"
+    releaseDate: 2020-10-12
+    upgradeVersion: "1.1.0.0"
+    eol: 2023-01-30
+    latest: "1.0.4.0.R2"
+    latestReleaseDate: 2021-02-24
+
+  - releaseCycle: "1.0.3.0"
+    releaseDate: 2020-08-03
+    upgradeVersion: "1.1.0.0"
+    eol: 2023-01-30
+    latest: "1.0.3.0.R3"
+    latestReleaseDate: 2021-02-19
+
+  - releaseCycle: "1.0.2.2"
+    releaseDate: 2020-03-09
+    upgradeVersion: "1.0.3.0"
+    eol: 2022-07-29
+    latest: "1.0.2.2.R6"
+    latestReleaseDate: 2021-02-19
+
+  - releaseCycle: "1.0.2.1"
+    releaseDate: 2019-11-22
+    upgradeVersion: "1.0.3.0"
+    eol: 2022-07-29
+    latest: "1.0.2.1.R6"
+    latestReleaseDate: 2020-04-22
+
+  - releaseCycle: "1.0.2.0"
+    releaseDate: 2019-11-08
+    upgradeVersion: "1.0.3.0"
+    eol: 2020-05-19
+    latest: "1.0.2.0.R3"
+    latestReleaseDate: 2020-05-05
 
 ---
 
@@ -211,9 +294,3 @@ window.
 
 Legacy Engines are not considered Generally Available, and AWS guarantees no support for the same.
 Databases running on a Legacy Engine are subject to Service Level Agreement (SLA) Exceptions.
-
-{% include table.html
-labels="Engine Version,Upgrade To"
-fields="releaseCycle,upgradeVersion"
-types="string,string"
-rows=page.releases %}

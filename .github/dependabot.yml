@@ -9,7 +9,8 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "cron"
+      cronjob: "0 0 * * *" # every day at midnight UTC
 
   - package-ecosystem: "bundler"
     vendor: true

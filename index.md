@@ -17,15 +17,24 @@ and has iCalendar support.
 endoflife.date currently tracks {{ site.pages | where: "layout", "product" | size }} products.
 Here are some of our most popular pages:
 
-Programming           | [Python][python] | [Ruby][ruby] | [Java][java] | [PHP][php]
-Devices               | [iPhone][iphone] | [Android][android] | [Google Pixel][pixel] | [Nokia][nokia]
-Databases             | [MongoDB][mongodb] | [PostgreSQL][postgresql] | [Redis][redis] | [MySQL][mysql]
-Operating Systems     | [Windows][windows] | [Windows Server][windows-server] | [macOS][macos] | [FortiOS][fortios]
-Frameworks            | [Angular][angular] | [Django][django] | [Ruby on Rails][rails] | [.NET][net]
-Desktop Applications  | [Firefox][firefox] | [Internet Explorer][ie] | [Godot][godot] | [Unity][unity]
-Server Applications   | [Nginx][nginx] | [Kubernetes][k8s] | [Tomcat][tomcat] | [HAProxy][haproxy]
-Cloud Services        | [Amazon Elastic Kubernetes Service][eks] | [Google Kubernetes Engine][gke] | [Azure Kubernetes Service][aks]
-Standards             | [PCI-DSS][pci-dss]
+| Programming | [Python](/python) | [Java](/tags/java-distribution) | [Node.js](/nodejs) | [PHP](/php) |
+| Devices | [iPhone](/iphone) | [iPad](/ipad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
+| Databases | [MongoDB](/mongodb) | [PostgreSQL](/postgresql) | [Redis](/redis) | [MySQL](/mysql) |
+| Operating Systems | [Windows](/windows) | [Android](/android) | [macOS](/macos) | [Linux](/tags/linux-distribution) |
+| Frameworks | [Angular](/angular) | [Django](/django) | [Ruby on Rails](/rails) | [.NET](/dotnet) |
+| Desktop Applications | [Firefox](/firefox) | [Internet Explorer](/internet-explorer) | [Godot](/godot) | [Unity](/unity) |
+| Server Applications | [Nginx](/nginx) | [Kubernetes](/kubernetes) | [Tomcat](/tomcat) | [HAProxy](/haproxy) |
+| Cloud Services | [Amazon Elastic Kubernetes Service](/amazon-eks) | [Google Kubernetes Engine](/google-kubernetes-engine) | [Azure Kubernetes Service](/azure-kubernetes-service) | [Alibaba ACK](/alibaba-ack) |
+| Standards | [PCI-DSS](/pci-dss) | [TLS](/tls) |
+
+## Last added products
+
+<ul>
+{% assign products = site.pages | where: "layout", "product" | sort: "addedAt" | reverse %}
+{% for product in products limit:5 %}
+<li><a href="{{ product.url }}">{{ product.title }}</a> ({{ product.addedAt | date_to_long_string }})</li>
+{% endfor %}
+</ul>
 
 ## Contributing
 
@@ -57,39 +66,3 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 ## Sponsors
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
-[![Sponsored under Datadog OSS Plan](assets/datadog-logo.png)](https://datadog.com)
-
-
-[python]: /python
-[nodejs]: /nodejs
-[java]: /java
-[php]: /php
-[iphone]: /iphone
-[android]: /android
-[pixel]: /pixel
-[nokia]: /nokia
-[mongodb]: /mongodb
-[postgresql]: /postgresql
-[redis]: /redis
-[mysql]: /mysql
-[windows]: /windows
-[windows-server]: /windows-server
-[macos]: /macos
-[fortios]: /fortios
-[angular]: /angular
-[django]: /django
-[ruby]: /ruby
-[net]: /dotnet
-[firefox]: /firefox
-[ie]: /internet-explorer
-[godot]: /godot
-[unity]: /unity
-[nginx]: /nginx
-[k8s]: /k8s
-[tomcat]: /tomcat
-[haproxy]: /haproxy
-[rails]: /rails
-[eks]: /eks
-[gke]: /gke
-[aks]: /azure-kubernetes-service
-[pci-dss]: /pci-dss

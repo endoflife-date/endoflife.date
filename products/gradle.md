@@ -1,5 +1,6 @@
 ---
 title: Gradle
+addedAt: 2022-11-27
 category: app
 tags: build-tool java-runtime
 iconSlug: gradle
@@ -11,73 +12,86 @@ eoasColumn: true
 eolColumn: Critical Bug and Security Fixes
 
 customFields:
--   name: runningJavaVersions
+  - name: runningJavaVersions
     display: api-only
     label: Java (running)
     description: Java support for running Gradle
     link: https://docs.gradle.org/current/userguide/compatibility.html
--   name: testedJavaVersions
+  - name: testedJavaVersions
     display: api-only
     label: Java
     description: Java support for compiling/testing/…
     link: https://docs.gradle.org/current/userguide/compatibility.html
--   name: testedKotlinVersions
+  - name: testedKotlinVersions
     display: api-only
     label: Kotlin
     description: Kotlin support for compiling/testing/…
     link: https://docs.gradle.org/current/userguide/compatibility.html
--   name: testedGroovyVersions
+  - name: testedGroovyVersions
     display: api-only
     label: Groovy
     description: Groovy support for compiling/testing/…
     link: https://docs.gradle.org/current/userguide/compatibility.html
--   name: testedAndroidVersions
+  - name: testedAndroidVersions
     display: api-only
     label: Android
     description: Android support for compiling/testing/…
     link: https://docs.gradle.org/current/userguide/compatibility.html
 
 identifiers:
--   repology: gradle
--   cpe: cpe:/a:gradle:gradle
--   cpe: cpe:2.3:a:gradle:gradle
+  - repology: gradle
+  - cpe: cpe:/a:gradle:gradle
+  - cpe: cpe:2.3:a:gradle:gradle
 
 auto:
   methods:
-  -   git: https://github.com/gradle/gradle.git
-    # Exclude versions below 3.x because dates are wrong (https://github.com/endoflife-date/endoflife.date/pull/3619).
+    - git: https://github.com/gradle/gradle.git
+      # Exclude versions below 3.x because dates are wrong (https://github.com/endoflife-date/endoflife.date/pull/3619).
       regex_exclude: '^v?[0-2]\.'
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "8"
-    releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.13/userguide/compatibility.html
-    runningJavaVersions: "8 - 23"
-    testedJavaVersions: "8 - 23"
-    testedKotlinVersions: "1.6.10 - 2.1.20-Beta2"
-    testedGroovyVersions: "1.5.8 - 4.0.0"
-    testedAndroidVersions: "7.3 - 8.8"
+  - releaseCycle: "9"
+    releaseDate: 2025-07-31
+    # Supported versions see https://docs.gradle.org/9.1.0/userguide/compatibility.html
+    runningJavaVersions: "17 - 25"
+    testedJavaVersions: "8 - 25"
+    testedKotlinVersions: "2.0.0 - 2.2.0"
+    testedGroovyVersions: "1.5.8 - 4.0.28"
+    testedAndroidVersions: "8.4 - 8.12"
     eoas: false
     eol: false
-    latest: "8.14.1"
-    latestReleaseDate: 2025-05-21
+    latest: "9.2.1"
+    latestReleaseDate: 2025-11-17
 
--   releaseCycle: "7"
+  - releaseCycle: "8"
+    releaseDate: 2023-02-10
+    # Supported versions see https://docs.gradle.org/8.14.3/userguide/compatibility.html
+    runningJavaVersions: "8 - 24"
+    testedJavaVersions: "8 - 24"
+    testedKotlinVersions: "1.6.10 - 2.1.20-RC3"
+    testedGroovyVersions: "1.5.8 - 4.0.0"
+    testedAndroidVersions: "7.3 - 8.9"
+    eoas: 2025-07-31
+    eol: false
+    latest: "8.14.3"
+    latestReleaseDate: 2025-07-04
+
+  - releaseCycle: "7"
     releaseDate: 2021-04-09
-    # Supported versions see https://docs.gradle.org/7.6.4/userguide/compatibility.html
+    # Supported versions see https://docs.gradle.org/7.6.6/userguide/compatibility.html
     runningJavaVersions: "8 - 19"
     testedJavaVersions: "8 - 19"
     testedKotlinVersions: "1.3.72 - 1.7.10"
     testedGroovyVersions: "1.5.8 - 4.0.0"
     testedAndroidVersions: "4.1 - 4.2, 7.0 - 7.4"
-    eoas: true
-    eol: false
-    latest: "7.6.4"
-    latestReleaseDate: 2024-02-05
+    eoas: 2023-02-10
+    eol: 2025-07-31
+    latest: "7.6.6"
+    latestReleaseDate: 2025-07-03
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2019-11-08
     # Supported versions see https://docs.gradle.org/6.9.4/userguide/compatibility.html
     runningJavaVersions: "8 - 15"
@@ -90,7 +104,7 @@ releases:
     latest: "6.9.4"
     latestReleaseDate: 2023-02-21
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2018-11-23
     runningJavaVersions: "8 - 12"
     testedJavaVersions: "N/A"
@@ -102,7 +116,7 @@ releases:
     latest: "5.6.4"
     latestReleaseDate: 2019-10-31
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2017-06-14
     runningJavaVersions: "8 - 10"
     testedJavaVersions: "N/A"
@@ -114,7 +128,7 @@ releases:
     latest: "4.10.3"
     latestReleaseDate: 2018-12-04
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2016-08-15
     runningJavaVersions: "8"
     testedJavaVersions: "N/A"
@@ -126,7 +140,7 @@ releases:
     latest: "3.5.1"
     latestReleaseDate: 2017-06-16
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2014-07-01
     runningJavaVersions: "8"
     testedJavaVersions: "N/A"
@@ -138,7 +152,7 @@ releases:
     latest: "2.14.1"
     latestReleaseDate: 2016-07-18
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2012-06-12
     runningJavaVersions: "N/A"
     testedJavaVersions: "N/A"
@@ -159,6 +173,7 @@ releases:
 
 Gradle follows [Semantic Versioning](https://semver.org/). The
 [support and EOL policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support) states that each major release causes:
+
 - The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
 - The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.
 

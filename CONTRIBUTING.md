@@ -6,53 +6,59 @@ description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
-- [:pencil: About the codebase](#pencil-about-the-codebase)
-- [:new: Adding a new product](#new-adding-a-new-product)
+- [✏️ About the codebase](#️-about-the-codebase)
+- [➕ Adding a new product](#-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
 - [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
-- [:bookmark: Code of Conduct](#bookmark-code-of-conduct)
+- [⚖️ Code of Conduct](#️-code-of-conduct)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## 🎲 Hacktoberfest
 
-## <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest
-
-This project is participating in Hacktoberfest 2022. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
+This project is participating in Hacktoberfest.
+If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
 
 ## 🕐 What's this project?
 
-Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: [#1598](https://github.com/endoflife-date/endoflife.date/pull/1598), [#1603](https://github.com/endoflife-date/endoflife.date/pull/1603), [#1552](https://github.com/endoflife-date/endoflife.date/pull/1552), [#1596](https://github.com/endoflife-date/endoflife.date/pull/1596).
+Before you get started, get to know the project a little bit.
+Open [endoflife.date](https://endoflife.date) and browse around a little bit.
+Take a look at [some of the recently merged PRs](https://github.com/endoflife-date/endoflife.date/pulls?q=is%3Apr+is%3Aclosed) to get a better idea.
 
-## :pencil: About the codebase
+## ✏️ About the codebase
 
-endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://www.netlify.com/). Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
+endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages.
+The site is built and deployed to [Netlify](https://www.netlify.com/).
+Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
 
-## :new: Adding a new product
+## ➕ Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible. Below is a template that you can adapt to add a new product:
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products).
+Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request.
+Use the UTC timezone for all dates, wherever possible.
+Below is a template that you can adapt to add a new product:
 
 ```yaml
 ---
 # Name of the product (mandatory).
 title: Timeturner
 
+# Date when the product was added to endoflife.date (optional).
+addedAt: 2019-05-27
+
 # Category of the product (mandatory).
-# Possible values are: os, database, app, lang, framework, device, service, server-app.
+# Possible values are: app, database, device, framework, lang, os, server-app, service, standard.
 # If you add a new value, please mention it in the PR description. Some rough guidelines:
-# - os: operating systems (and similar projects)
-# - database: all kinds of database
 # - app: end-user applications
-# - lang: programming languages
-# - framework: application libraries, SDKs, frameworks...
+# - database: all kinds of database
 # - device: physical, hardware devices
-# - service: managed service offerings (SaaS/PaaS...)
+# - framework: application libraries, SDKs, frameworks...
+# - lang: programming languages
+# - os: operating systems (and similar projects)
 # - server-app: applications usually installed on the server-side
+# - service: managed service offerings (SaaS/PaaS...)
+# - standard: standards and protocols.
 category: os
 
 # Tags of the product (optional).
@@ -77,8 +83,8 @@ category: os
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 tags: amazon linux-distribution
 
-# Simple Icons (https://simpleicons.org/) icon slug (optional).
-# Remove this property if the icon is not available on Simple Icons.
+# Simple Icons icon slug (https://simpleicons.org/) for the product or its vendor (optional).
+# Remove this property if no relevant icon is available on Simple Icons.
 # As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg ,
 # so the slug is `codemagic` (the SVG filename without extension).
 # A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md .
@@ -130,21 +136,13 @@ LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
-# Threshold at which the background color of the cycle's "eol" cell changes
-# to indicate that the EOL date is approaching (optional, default = 121 days).
-eolWarnThreshold: 121
-
 # Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoasColumn: Active Support
 
-# Threshold at which the background color of the cycle's "eoas" cell changes
-# to indicate that the end of active support date is approaching (optional, default = 121 days).
-eoasWarnThreshold: 121
-
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
-releaseColumn: Latest
+latestColumn: Latest
 
 # Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -155,17 +153,9 @@ releaseDateColumn: Released
 # The value of this property can be set to any string to override the default column label.
 discontinuedColumn: Discontinued
 
-# Threshold at which the background color of the cycle's "discontinued" cell changes
-# to indicate that the discontinued date is approaching (optional, default = 121 days).
-discontinuedWarnThreshold: 121
-
 # Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoesColumn: Extended Support
-
-# Threshold at which the background color of the cycle's "eoes" cell changes
-# to indicate that the extended support date is approaching (optional, default = 121 days).
-eoesWarnThreshold: 121
 
 # Custom fields configuration (optional).
 # Custom fields are non-standard fields used for documenting things such as related runtime versions, custom dates that
@@ -369,9 +359,9 @@ releases:
     #   and false otherwise.
     discontinued: true
 
-    # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
+    # Latest release for the release cycle (optional if latestColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
-    # It should be removed if releaseColumn is false.
+    # It should be removed if latestColumn is false.
     # Always add quotes around this value.
     latest: "1.2.3"
 
@@ -411,7 +401,10 @@ releases:
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
 
-For the product text, please make sure you read the [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) for the website to match the tone. File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once the pull request is merged, the changes are automatically deployed on the website. See below for how to validate your changes.
+For the product text, please make sure you read the [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) for the website to match the tone.
+File a Pull Request with this file created, and Netlify will provide a preview URL for the same.
+Once the pull request is merged, the changes are automatically deployed on the website.
+See below for how to validate your changes.
 
 You can visit <https://github.com/endoflife-date/endoflife.date/new/master/products> to directly create your file.
 
@@ -438,39 +431,25 @@ In `vim` you also could use the [yaml-language-server](https://github.com/redhat
 # yaml-language-server: $schema=../product-schema.json
 ```
 
-Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks fails, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
+Once you file your Pull Request, Netlify will provide a list of checks for your changes.
+If one of the checks fails, you can click Details and see through the errors, or one of the Maintainers will be there to help you.
 
-If all of the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website _with your changes_.
+If all the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website _with your changes_.
 
 ![image](https://user-images.githubusercontent.com/584253/134535142-7d1170b7-16f4-4cd3-987e-e890b76098d5.png)
 
-Click through, and validate your changes. Click all the links on the page you've changed and make sure they're not broken.
+Click through, and validate your changes.
+Click all the links on the page you've changed and make sure they're not broken.
 
-### Test on your workstation with Docker
+### Run endoflife.date locally
 
-You may want to read the [HACKING documentation](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md).
+Please read the [HACKING documentation](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md)
+for instructions on how to run the endoflife.date locally.
 
-If you have Docker, you can use this one line to test your changes:
+### Testing API payload
 
-```sh
-# Run this command and wait to see "Server running..."
-
-# About the volume Z flag: https://stackoverflow.com/a/35222815/5155484
-# You can use another port by changing the port number on the command line
-
-docker run --rm \
-  -v "$PWD:/srv/jekyll:Z" \
-  -p 4000:4000 \
-  jekyll/jekyll:4 \
-  jekyll serve --port 4000
-
-# Browse: http://127.0.0.1:4000/
-# CTRL+C to exit and kill the instance
-```
-
-## Testing API payload
-
-There is a GitHub workflow that already validates the OpenAPI specification.
+There is a GitHub workflow that already validates the OpenAPI specification
+(it can also be checked on <https://pb33f.io/doctor/>).
 But to test the generated API payload you can do the following:
 
 ```sh
@@ -489,20 +468,31 @@ for file in $(find _site/api/v1 -type f | grep -v releases | sort -n); do
 done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 ```
 
+### Linting and formatting files
+
+You can use the [lint-product.sh](/bin/lint-product.sh) to lint a product file
+using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
+and [prettier](https://github.com/prettier/prettier).
+
+```sh
+bin/lint-product.sh products/<product>.md
+```
+
 ## 🆔 Adding Identifiers
 
-We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing
-identifiers.
+We need help with adding more identifiers.
+Please see [this page](/pages/help/identifiers-needed/) for a list of pages missing identifiers.
 
 ## 📑 Suggested Reading
 
-We have the following documents which should help you get familiar with the project and the codebase. You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
+We have the following documents which should help you get familiar with the project and the codebase.
+You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
 
 - [HACKING.md](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md) contains instructions on setting up the codebase locally with Jekyll. Read this if you're planning to make complex changes or setting up the project locally.
 - [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is _especially important if you are making non-trivial changes_ that deal with the content or add a new product.
-- [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at https://endoflife.date/contribute
+- [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at <https://endoflife.date/contribute>
 
-## :bookmark: Code of Conduct
+## ⚖️ Code of Conduct
 
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/endoflife-date/endoflife.date/blob/master/CODE-OF-CONDUCT.md).
 By participating in this project you agree to abide by its terms.

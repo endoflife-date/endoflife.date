@@ -1,0 +1,35 @@
+# See https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml.
+
+# Default state for all rules
+default: true
+
+# Path to configuration file to extend
+extends: null
+
+# MD003/heading-style : Heading style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md003.md
+MD003:
+  style: "atx"
+
+# MD004/ul-style : Unordered list style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md004.md
+MD004:
+  style: "dash"
+
+# MD013/line-length : Line length : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md013.md
+MD013:
+  line_length: 150
+
+# MD046/code-block-style : Code block style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md046.md
+MD046:
+  style: "fenced"
+
+# MD049/emphasis-style : Emphasis style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md049.md
+MD049:
+  style: "underscore"
+
+# MD050/strong-style : Strong style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md050.md
+MD050:
+  style: "asterisk"
+
+# MD055/table-pipe-style : Table pipe style : https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md055.md
+MD055:
+  style: "leading_and_trailing"

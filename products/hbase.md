@@ -1,53 +1,54 @@
 ---
 title: Apache HBase
+addedAt: 2022-07-27
 category: database
 tags: apache java-runtime
 iconSlug: apachehbase
 permalink: /hbase
 alternate_urls:
--   /apache_hbase
--   /apache-hbase
+  - /apache_hbase
+  - /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
 eolColumn: Service Status
 
 identifiers:
--   repology: hbase
--   cpe: cpe:/a:apache:hbase
--   cpe: cpe:2.3:a:apache:hbase
+  - repology: hbase
+  - cpe: cpe:/a:apache:hbase
+  - cpe: cpe:2.3:a:apache:hbase
 
 auto:
   methods:
-  -   git: https://github.com/apache/hbase.git
+    - git: https://github.com/apache/hbase.git
       regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 # Supported releases are listed on https://hbase.apache.org/downloads.html
 releases:
--   releaseCycle: "2.6"
+  - releaseCycle: "2.6"
     releaseDate: 2024-05-17
     eol: false
-    latestReleaseDate: 2025-02-20
-    latest: '2.6.2'
+    latestReleaseDate: 2025-11-13
+    latest: "2.6.4"
 
--   releaseCycle: "2.5"
+  - releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestReleaseDate: 2025-03-06
-    latest: '2.5.11'
+    latestReleaseDate: 2025-11-13
+    latest: "2.5.13"
 
--   releaseCycle: "2.4"
+  - releaseCycle: "2.4"
     releaseDate: 2020-12-15
-    eol: false
+    eol: 2025-05-25 # more than 1 year without update, and not listed on https://hbase.apache.org/downloads.html anymore
     latest: "2.4.18"
     latestReleaseDate: 2024-05-25
 
--   releaseCycle: "2.3"
+  - releaseCycle: "2.3"
     releaseDate: 2020-07-13
     eol: 2021-10-19
     latest: "2.3.7"
     latestReleaseDate: 2021-10-19
 
--   releaseCycle: "1.7"
+  - releaseCycle: "1.7"
     outOfOrder: true # wrong tag date for https://github.com/apache/hbase/releases/tag/rel%2F1.7.0
     releaseDate: 2021-06-12
     eol: 2022-08-09
@@ -55,7 +56,7 @@ releases:
     latest: "1.7.2"
     latestReleaseDate: 2022-08-09
 
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     releaseDate: 2019-07-25
     eol: 2021-04-19
     latest: "2.2.7"
@@ -65,8 +66,8 @@ releases:
 
 > [Apache HBase](https://hbase.apache.org/) is an open-source non-relational distributed database
 > modeled after Google's Bigtable and written in Java. It's useful for random, real-time read/write
-> access to Big Data. The project's goal is the hosting of very large tables -- billions of rows X
-> millions of columns -- atop clusters of commodity hardware.
+> access to Big Data. The project's goal is the hosting of huge tables — billions of rows X
+> millions of columns — atop clusters of commodity hardware.
 
 You must pick a supported release of Hadoop as per the [compatibility matrix](https://hbase.apache.org/book.html#hadoop).
 

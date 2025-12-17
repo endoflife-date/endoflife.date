@@ -1,82 +1,103 @@
 ---
 title: Ansible
+addedAt: 2021-08-15
 category: app
 tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+releasePolicyLink: https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 eolColumn: Supported
 
 customFields:
--   name: ansibleCoreVersion
+  - name: ansibleCoreVersion
     display: api-only
     label: ansible-core
     description: ansible-core version
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
--   name: pythonVersionsControlNode
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+  - name: pythonVersionsControlNode
     display: api-only
     label: Control node Python
     description: Control node Python support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
--   name: pythonVersionsManagedNode
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+  - name: pythonVersionsManagedNode
     display: api-only
     label: Managed node Python
     description: Managed node Python support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
--   name: powershellVersionsManagedNode
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+  - name: powershellVersionsManagedNode
     display: api-only
     label: Managed node PowerShell
     description: Managed node PowerShell support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 
 identifiers:
--   purl: pkg:pypi/ansible
--   purl: pkg:deb/debian/ansible
--   purl: pkg:apk/alpine/ansible
--   purl: pkg:github/ansible/ansible
--   repology: ansible
+  - purl: pkg:pypi/ansible
+  - purl: pkg:deb/debian/ansible
+  - purl: pkg:apk/alpine/ansible
+  - purl: pkg:github/ansible/ansible
+  - repology: ansible
 
 auto:
   methods:
-  -   pypi: ansible
+    - pypi: ansible
 
-# ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
-# For Python / PowerShell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
+# ansible-Core versions can be found on https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+# For Python / PowerShell versions, see https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
 releases:
--   releaseCycle: "11"
+  - releaseCycle: "13"
+    ansibleCoreVersion: "2.20"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1"
+    releaseDate: 2025-11-19
+    eol: false
+    latest: "13.1.0"
+    latestReleaseDate: 2025-12-09
+
+  - releaseCycle: "12"
+    ansibleCoreVersion: "2.19"
+    pythonVersionsControlNode: "3.11 - 3.13"
+    pythonVersionsManagedNode: "3.8 - 3.13"
+    powershellVersionsManagedNode: "5.1"
+    releaseDate: 2025-09-09
+    eol: 2025-12-09
+    latest: "12.3.0"
+    latestReleaseDate: 2025-12-09
+
+  - releaseCycle: "11"
     ansibleCoreVersion: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-19
-    eol: false
-    latest: "11.6.0"
-    latestReleaseDate: 2025-05-20
+    eol: 2025-12-09
+    latest: "11.13.0"
+    latestReleaseDate: 2025-12-09
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     ansibleCoreVersion: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
     pythonVersionsManagedNode: "3.7 - 3.12"
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2024-06-04
-    eol: false # EOL after 10.7
+    eol: 2024-12-03 # EOL after 10.7
     latest: "10.7.0"
     latestReleaseDate: 2024-12-03
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     ansibleCoreVersion: "2.16"
     pythonVersionsControlNode: "3.10 - 3.12"
     pythonVersionsManagedNode: "2.7 / 3.6 - 3.12"
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-21
-    eol: 2024-11-30 # EOL after 9.13
+    eol: 2024-12-03 # EOL after 9.13
     latest: "9.13.0"
     latestReleaseDate: 2024-12-03
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     ansibleCoreVersion: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
@@ -86,7 +107,7 @@ releases:
     latest: "8.7.0"
     latestReleaseDate: 2023-12-06
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     ansibleCoreVersion: "2.14"
     pythonVersionsControlNode: "3.9 - 3.11"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
@@ -96,7 +117,7 @@ releases:
     latest: "7.7.0"
     latestReleaseDate: 2023-06-22
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     ansibleCoreVersion: "2.13"
     pythonVersionsControlNode: "3.8 - 3.10"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.10"
@@ -106,7 +127,7 @@ releases:
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     ansibleCoreVersion: "2.12"
     pythonVersionsControlNode: "3.8 - 3.10"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.10"
@@ -116,7 +137,7 @@ releases:
     latest: "5.10.0"
     latestReleaseDate: 2022-06-28
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     ansibleCoreVersion: "2.11"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
@@ -126,7 +147,7 @@ releases:
     latest: "4.10.0"
     latestReleaseDate: 2021-12-14
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     ansibleCoreVersion: "2.10"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
@@ -136,7 +157,7 @@ releases:
     latest: "3.4.0"
     latestReleaseDate: 2021-05-11
 
--   releaseCycle: "2.10"
+  - releaseCycle: "2.10"
     ansibleCoreVersion: "2.10"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
@@ -146,7 +167,7 @@ releases:
     latest: "2.10.7"
     latestReleaseDate: 2021-02-09
 
--   releaseCycle: "2.9"
+  - releaseCycle: "2.9"
     ansibleCoreVersion: "2.9"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.8"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.8"
@@ -167,10 +188,10 @@ releases:
 The `ansible` community package typically gets 2 major releases every year. A new minor version is
 released every 4 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
-See the [Ansible Roadmap](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html)
+See the [Ansible Roadmap](https://docs.ansible.com/projects/ansible/devel/roadmap/ansible_roadmap_index.html)
 for upcoming release details.
 
-## [Compatibility](https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs)
+## [Compatibility](https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs)
 
 {% include table.html
 labels="Ansible,ansible-core,Control node Python,Managed node Python,Managed node PowerShell"

@@ -1,5 +1,6 @@
 ---
 title: Angular
+addedAt: 2021-08-19
 category: framework
 tags: google javascript-runtime herodevs
 iconSlug: angular
@@ -9,20 +10,17 @@ releasePolicyLink: https://angular.dev/reference/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
-eoasWarnThreshold: 30
-eolWarnThreshold: 90
 
 identifiers:
--   purl: pkg:npm/%40angular/core # purl are url-encoded
--   purl: pkg:github/angular/angular
--   cpe: cpe:/a:angular:angular
--   cpe: cpe:2.3:a:angular:angular
+  - purl: pkg:npm/%40angular/core # purl are url-encoded
+  - purl: pkg:github/angular/angular
+  - cpe: cpe:/a:angular:angular
+  - cpe: cpe:2.3:a:angular:angular
 
 auto:
   methods:
-  -   git: https://github.com/angular/angular.git
-  -   release_table: https://angular.dev/reference/releases#actively-supported-versions
-      selector: "table"
+    - git: https://github.com/angular/angular.git
+    - release_table: https://angular.dev/reference/releases#actively-supported-versions
       fields:
         releaseCycle:
           column: "Version"
@@ -32,31 +30,39 @@ auto:
         eol: "LTS ends"
 
 releases:
--   releaseCycle: "20"
-    releaseDate: 2025-05-28
-    eoas: 2025-11-21
-    eol: 2026-11-21
+  - releaseCycle: "21"
+    releaseDate: 2025-11-19
+    eoas: 2026-05-19
+    eol: 2027-05-19
     eoes: false
-    latest: "20.0.0"
-    latestReleaseDate: 2025-05-28
+    latest: "21.0.5"
+    latestReleaseDate: 2025-12-11
 
--   releaseCycle: "19"
+  - releaseCycle: "20"
+    releaseDate: 2025-05-28
+    eoas: 2025-11-19
+    eol: 2026-11-28
+    eoes: false
+    latest: "20.3.15"
+    latestReleaseDate: 2025-12-01
+
+  - releaseCycle: "19"
     releaseDate: 2024-11-19
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.14"
-    latestReleaseDate: 2025-05-28
+    latest: "19.2.17"
+    latestReleaseDate: 2025-12-01
 
--   releaseCycle: "18"
+  - releaseCycle: "18"
     releaseDate: 2024-05-22
     eoas: 2024-11-19
     eol: 2025-11-21
     eoes: false
-    latest: "18.2.13"
-    latestReleaseDate: 2024-11-26
+    latest: "18.2.14"
+    latestReleaseDate: 2025-09-10
 
--   releaseCycle: "17"
+  - releaseCycle: "17"
     releaseDate: 2023-11-08
     eoas: 2024-05-08
     eol: 2025-05-15
@@ -64,7 +70,7 @@ releases:
     latest: "17.3.12"
     latestReleaseDate: 2024-07-17
 
--   releaseCycle: "16"
+  - releaseCycle: "16"
     releaseDate: 2023-05-03
     eoas: 2023-11-08
     eol: 2024-11-08
@@ -72,7 +78,7 @@ releases:
     latest: "16.2.12"
     latestReleaseDate: 2023-11-02
 
--   releaseCycle: "15"
+  - releaseCycle: "15"
     releaseDate: 2022-11-16
     eoas: 2023-05-03
     eol: 2024-05-18
@@ -80,7 +86,7 @@ releases:
     latest: "15.2.10"
     latestReleaseDate: 2023-10-04
 
--   releaseCycle: "14"
+  - releaseCycle: "14"
     releaseDate: 2022-06-02
     eoas: 2022-11-18
     eol: 2023-11-18
@@ -88,7 +94,7 @@ releases:
     latest: "14.3.0"
     latestReleaseDate: 2023-03-13
 
--   releaseCycle: "13"
+  - releaseCycle: "13"
     releaseDate: 2021-11-03
     eoas: 2022-06-02
     eol: 2023-05-04
@@ -96,7 +102,7 @@ releases:
     latest: "13.4.0"
     latestReleaseDate: 2023-04-06
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2021-05-13
     eoas: 2021-11-12
     eol: 2022-11-12
@@ -104,7 +110,7 @@ releases:
     latest: "12.2.17"
     latestReleaseDate: 2022-11-22
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2020-11-11
     eoas: 2021-05-11
     eol: 2022-05-11
@@ -112,7 +118,7 @@ releases:
     latest: "11.2.14"
     latestReleaseDate: 2021-05-12
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2020-06-24
     eoas: 2020-12-24
     eol: 2021-12-24
@@ -120,7 +126,7 @@ releases:
     latest: "10.2.5"
     latestReleaseDate: 2021-04-21
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2020-02-06
     eoas: 2020-08-06
     eol: 2021-08-06
@@ -139,11 +145,11 @@ critical and security fixes. Only newly identified security vulnerabilities and 
 are considered for LTS versions.
 
 Angular follows [semantic versioning](https://semver.org). Major releases happen roughly every 6
-months, with 1-3 minor releases for every major release. There is an
+months, with 1–3 minor releases for every major release. There is an
 [update guide](https://angular.dev/update "Keeping your Angular projects up-to-date")
 available.
 
 Commercial support is available for all deprecated versions of Angular through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative.
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

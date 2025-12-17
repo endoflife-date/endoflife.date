@@ -1,5 +1,6 @@
 ---
 title: Bazel
+addedAt: 2023-12-15
 category: app
 tags: google build-tool java-runtime
 iconSlug: bazel
@@ -11,18 +12,16 @@ changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 eoasColumn: true
 
 identifiers:
--   repology: bazel
--   purl: pkg:github/bazelbuild/bazel
--   purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
--   cpe: cpe:/a:google:bazel
--   cpe: cpe:2.3:a:google:bazel
+  - repology: bazel
+  - purl: pkg:github/bazelbuild/bazel
+  - purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
+  - cpe: cpe:/a:google:bazel
+  - cpe: cpe:2.3:a:google:bazel
 
 auto:
   methods:
-  -   git: https://github.com/bazelbuild/bazel.git
-  -   release_table: https://bazel.build/release
-      ignore_empty_releases: true # so that future releases are ignored
-      selector: "table"
+    - git: https://github.com/bazelbuild/bazel.git
+    - release_table: https://bazel.build/release
       fields:
         releaseCycle:
           column: "LTS release"
@@ -33,23 +32,23 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x) + 3 years
 releases:
--   releaseCycle: "8"
+  - releaseCycle: "8"
     lts: true
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
     eol: 2027-12-31
-    latest: "8.2.1"
-    latestReleaseDate: 2025-04-17
+    latest: "8.5.0"
+    latestReleaseDate: 2025-12-11
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     lts: true
     releaseDate: 2023-12-11
     eoas: 2024-12-09
     eol: 2026-12-31
-    latest: "7.6.1"
-    latestReleaseDate: 2025-03-31
+    latest: "7.7.1"
+    latestReleaseDate: 2025-11-12
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     lts: true
     releaseDate: 2022-12-19
     eoas: 2023-12-11 # releaseDate(7)
@@ -57,7 +56,7 @@ releases:
     latest: "6.5.0"
     latestReleaseDate: 2024-01-23
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     lts: true
     releaseDate: 2022-01-19
     eoas: 2022-12-19 # releaseDate(6)
@@ -65,7 +64,7 @@ releases:
     latest: "5.4.1"
     latestReleaseDate: 2023-04-19
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     lts: true
     releaseDate: 2021-01-21
     eoas: 2022-01-19 # releaseDate(5)

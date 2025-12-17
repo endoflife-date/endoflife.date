@@ -1,7 +1,8 @@
 ---
 title: OpenSearch
+addedAt: 2022-08-26
 category: database
-tags: amazon java-runtime
+tags: amazon java-runtime linux-foundation
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
@@ -11,9 +12,8 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-  -   git: https://github.com/opensearch-project/OpenSearch.git
-  -   release_table: https://opensearch.org/releases.html
-      selector: "table"
+    - github_releases: opensearch-project/OpenSearch
+    - release_table: https://opensearch.org/releases.html
       fields:
         releaseCycle: "Major Version"
         releaseDate:
@@ -30,26 +30,26 @@ auto:
           template: "{{month}} {{day}} {{year}}"
 
 releases:
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.0.0"
-    latestReleaseDate: 2025-04-29
+    latest: "3.3.2"
+    latestReleaseDate: 2025-10-30
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2022-05-26
     eoas: 2025-05-06
     eol: false
-    latest: "2.19.2"
-    latestReleaseDate: 2025-03-26
+    latest: "2.19.4"
+    latestReleaseDate: 2025-11-06
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2021-07-12
     eoas: 2022-05-26
     eol: 2025-05-06 # upcoming support(2) at least 1 year
     latest: "1.3.20"
-    latestReleaseDate: 2024-12-10
+    latestReleaseDate: 2024-12-11
 
 ---
 
@@ -62,7 +62,7 @@ releases:
 
 **Active Development**: The latest major version receives new features, bug fixes, and security patches.
 **Maintenance Support**: includes bug fixes and security patches. New features might be back-ported as
-  community contributions, but will not result in new releases.
+community contributions, but will not result in new releases.
 
 By default, versions remain under maintenance until the next major version enters maintenance with
 a minimum guarantee of a year. Therefore, at any given time, the current major version and previous
@@ -76,7 +76,7 @@ OpenSearch 2.x will end Maintenance Support once 4.0 is released.
 ## Versioning
 
 OpenSearch only releases breaking changes in major versions. All minor versions are compatible with
-every other minor version for that major release. When new major versions are released the previous
+every other minor version for that major release. When new major versions are released, the previous
 major version enters maintenance, with only bug fixes and security patches.
 
 The duration of the maintenance window will vary from release to release. By default, versions will

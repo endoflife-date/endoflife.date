@@ -1,5 +1,6 @@
 ---
 title: Amazon CDK
+addedAt: 2023-11-03
 category: framework
 iconSlug: amazonaws
 tags: amazon
@@ -7,28 +8,28 @@ permalink: /amazon-cdk
 changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
 
 identifiers:
--   repology: aws-cdk
--   purl: pkg:npm/aws-cdk
--   purl: pkg:golang/github.com/aws/aws-cdk-go/awscdk/v2
--   purl: pkg:github/aws/aws-cdk-go
--   cpe: cpe:/a:amazon:aws_cloud_development_kit
--   cpe: cpe:2.3:a:amazon:aws_cloud_development_kit
+  - repology: aws-cdk
+  - purl: pkg:npm/aws-cdk
+  - purl: pkg:golang/github.com/aws/aws-cdk-go/awscdk/v2
+  - purl: pkg:github/aws/aws-cdk-go
+  - cpe: cpe:/a:amazon:aws_cloud_development_kit
+  - cpe: cpe:2.3:a:amazon:aws_cloud_development_kit
 
 auto:
   methods:
-  -   git: https://github.com/aws/aws-cdk
+    - git: https://github.com/aws/aws-cdk
 
 releases:
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2021-12-01
     eoas: false
     eol: false
-    latest: "2.199.0"
-    latestReleaseDate: 2025-05-27
+    latest: "2.232.2"
+    latestReleaseDate: 2025-12-12
 
 ---
 
-> [Amazon CDK](https://aws.amazon.com/cdk/) help you define your cloud application in AWS resources
+> [Amazon CDK](https://aws.amazon.com/cdk/) helps you define your cloud application in AWS resources
 > using familiar programming languages.
 
 The AWS CDK is updated approximately once a week. Maintenance versions may be released between

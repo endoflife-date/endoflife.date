@@ -1,10 +1,11 @@
 ---
 title: KDE Plasma
+addedAt: 2022-03-19
 category: os
 iconSlug: kde
 permalink: /kde-plasma
 alternate_urls:
--   /kdeplasma
+  - /kdeplasma
 versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
 changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
@@ -12,57 +13,71 @@ eoasColumn: true
 eolColumn: Critical bug fixes
 
 identifiers:
--   cpe: cpe:/a:kde:plasma
--   cpe: cpe:2.3:a:kde:plasma
+  - cpe: cpe:/a:kde:plasma
+  - cpe: cpe:2.3:a:kde:plasma
 
 auto:
   methods:
-  -   git: https://github.com/KDE/plasma-desktop.git
-      # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are disguised beta releases
+    - git: https://github.com/KDE/plasma-desktop.git
+      # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are in fact beta releases
       regex_exclude:
-      -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
-      -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
+        - '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
+        - '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "6.3"
-    releaseDate: 2025-02-11
+  - releaseCycle: "6.5"
+    releaseDate: 2025-10-21
     eoas: false
     eol: false
-    latest: "6.3.5"
-    latestReleaseDate: 2025-05-06
+    latest: "6.5.4"
+    latestReleaseDate: 2025-12-09
 
--   releaseCycle: "6.2"
+  - releaseCycle: "6.4"
+    releaseDate: 2025-06-17
+    eoas: 2025-10-21
+    eol: 2025-10-21
+    latest: "6.4.6"
+    latestReleaseDate: 2025-11-11
+
+  - releaseCycle: "6.3"
+    releaseDate: 2025-02-11
+    eoas: 2025-06-17
+    eol: 2025-06-17
+    latest: "6.3.6"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "6.2"
     releaseDate: 2024-10-08
     eoas: 2025-02-11
     eol: 2025-02-11
     latest: "6.2.5"
     latestReleaseDate: 2024-12-31
 
--   releaseCycle: "6.1"
+  - releaseCycle: "6.1"
     releaseDate: 2024-06-18
     eoas: 2024-10-08
     eol: 2024-10-08
     latest: "6.1.5"
     latestReleaseDate: 2024-09-10
 
--   releaseCycle: "6.0"
+  - releaseCycle: "6.0"
     releaseDate: 2024-02-28
     eoas: 2024-06-18
     eol: 2024-06-18
     latest: "6.0.5"
     latestReleaseDate: 2024-05-21
 
--   releaseCycle: "5.27"
+  - releaseCycle: "5.27"
     lts: true
     releaseDate: 2023-02-14
-    eoas: false
+    eoas: 2025-01-06
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.12"
     latestReleaseDate: 2025-01-06
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
--   releaseCycle: "5.26"
+  - releaseCycle: "5.26"
     releaseDate: 2022-10-11
     eoas: 2023-02-14
     eol: 2023-02-14
@@ -70,7 +85,7 @@ releases:
     latestReleaseDate: 2023-01-03
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
--   releaseCycle: "5.25"
+  - releaseCycle: "5.25"
     releaseDate: 2022-06-14
     eoas: 2022-10-11
     eol: 2022-10-11
@@ -78,7 +93,7 @@ releases:
     latestReleaseDate: 2022-09-06
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
--   releaseCycle: "5.24"
+  - releaseCycle: "5.24"
     lts: true
     releaseDate: 2022-02-08
     eoas: 2022-06-14
@@ -87,7 +102,7 @@ releases:
     latestReleaseDate: 2022-10-14
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
--   releaseCycle: "5.23"
+  - releaseCycle: "5.23"
     releaseDate: 2021-10-14
     eoas: 2022-02-03
     eol: 2022-02-03
@@ -95,7 +110,7 @@ releases:
     latestReleaseDate: 2022-01-04
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
--   releaseCycle: "5.18"
+  - releaseCycle: "5.18"
     lts: true
     releaseDate: 2020-02-11
     eoas: 2020-06-04
@@ -110,13 +125,13 @@ releases:
 > layouts and panels, supporting virtual desktops and widgets. It is available on most Linux
 > distributions and FreeBSD.
 
-KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release
+KDE Plasma releases roughly three major feature releases a year, with one Long-Term Support release
 every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_6) for
 future bug fix releases and major releases.
 
 ## Release Cadence
 
-* The last Plasma 5 release will be version 5.27 LTS and the end of critical bug
+- The last Plasma 5 release will be version 5.27 LTS, and the end of critical bug
   fixes is not yet announced.
-* Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_6#Releases_Cycle)
+- Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_6#Releases_Cycle)
   (1, 1, 2, 3, 5) after each previous release of the same series.

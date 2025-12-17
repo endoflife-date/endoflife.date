@@ -1,7 +1,8 @@
 ---
 title: ESLint
+addedAt: 2025-01-02
 category: app
-tags: build-tool javascript-runtime herodevs
+tags: build-tool javascript-runtime herodevs linux-foundation
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
@@ -11,19 +12,18 @@ eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support
 
 customFields:
--   name: eoesProvider
+  - name: eoesProvider
     display: before-latest-column
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 
 identifiers:
--   repology: eslint
+  - repology: eslint
 
 auto:
   methods:
-  -   npm: eslint
-  -   release_table: https://eslint.org/version-support/
-      selector: "table"
+    - npm: eslint
+    - release_table: https://eslint.org/version-support/
       fields:
         releaseCycle:
           column: "Release Line"
@@ -32,16 +32,16 @@ auto:
         eol: "EOL Start"
 
 releases:
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2024-04-05
     eoas: false
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.27.0"
-    latestReleaseDate: 2025-05-16
+    latest: "9.39.2"
+    latestReleaseDate: 2025-12-12
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2021-10-09
     eoas: 2024-04-05
     eol: 2024-10-05
@@ -50,49 +50,49 @@ releases:
     latest: "8.57.1"
     latestReleaseDate: 2024-09-16
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2020-05-08
     eoas: 2021-10-09
     eol: 2022-04-09
     latest: "7.32.0"
     latestReleaseDate: 2021-07-30
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2019-06-21
     eoas: 2020-05-08
     eol: 2020-11-08
     latest: "6.8.0"
     latestReleaseDate: 2019-12-20
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2018-06-22
     eoas: 2019-06-21
     eol: 2019-12-21
     latest: "5.16.0"
     latestReleaseDate: 2019-03-30
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2017-06-11
     eoas: 2018-06-22
     eol: 2018-12-22
     latest: "4.19.1"
     latestReleaseDate: 2018-03-22
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2016-07-01
     eoas: 2017-06-11
     eol: 2017-12-11
     latest: "3.19.0"
     latestReleaseDate: 2017-03-31
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2016-02-12
     eoas: 2016-07-01
     eol: 2017-01-01
     latest: "2.13.1"
     latestReleaseDate: 2016-06-20
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2015-07-31
     eoas: 2016-02-12
     eol: 2016-08-12
