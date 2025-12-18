@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status
-releasePolicyLink: https://www.drupal.org/blog/drupal-10-will-be-supported-until-the-release-of-drupal-12-in-mid-late-2026
+releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 releaseImage: https://www.drupal.org/files/Drupal2024-2027.png
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
