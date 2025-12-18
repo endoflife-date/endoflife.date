@@ -24,7 +24,7 @@ releases:
     releaseDate: 2025-12-16
     eol: false
     latest: "2.3.0"
-    latestReleaseDate: 2025-10-23
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "2.2"
     releaseDate: 2025-06-23
