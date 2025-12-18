@@ -46,7 +46,7 @@ releases:
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07
-    eol: true # 3.4.4 announced as the last 3.4.x release in https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
+    eol: 2024-10-21 # https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
     latest: "3.4.4"
     latestReleaseDate: 2024-10-21
 
