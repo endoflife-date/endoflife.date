@@ -17,10 +17,16 @@ auto:
     - github_releases: meilisearch/meilisearch
 
 # eol(x) = releaseDate(x+1)
-releases:  
+releases:
+  - releaseCycle: "1.30"
+    releaseDate: 2025-12-15
+    eol: false
+    latest: "1.30.1"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "1.29"
     releaseDate: 2025-12-08
-    eol: false
+    eol: 2025-12-15
     latest: "1.29.0"
     latestReleaseDate: 2025-12-08
 

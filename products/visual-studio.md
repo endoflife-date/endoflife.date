@@ -29,8 +29,8 @@ releases:
     codename: "2026"
     releaseDate: 2025-12-09
     eol: false # releaseDate(18.2)
-    latest: "18.1.0"
-    latestReleaseDate: 2025-12-09
+    latest: "18.1.1"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "18.0"
     codename: "2026"
@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.20"
-    latestReleaseDate: 2025-11-11
+    latest: "17.14.23"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "17.13"
     codename: "2022"

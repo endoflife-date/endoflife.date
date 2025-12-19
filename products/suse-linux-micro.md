@@ -29,6 +29,10 @@ auto:
         eol: "General Ends"
 
 releases:
+  - releaseCycle: "6.2"
+    releaseDate: 2025-11-04
+    eol: 2029-11-30
+
   - releaseCycle: "6.1"
     releaseDate: 2024-11-26
     eol: 2028-11-30
