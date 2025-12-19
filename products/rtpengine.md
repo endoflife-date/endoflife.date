@@ -20,8 +20,8 @@ auto:
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
   - releaseCycle: "14.0"
-    releaseDate: 2025-11-28
-    eol: 2026-01-30
+    releaseDate: 2025-12-17
+    eol: 2026-02-28
     latest: "14.0.1.1"
     latestReleaseDate: 2025-12-09
 
