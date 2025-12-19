@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status
-releasePolicyLink: https://www.drupal.org/blog/drupal-10-will-be-supported-until-the-release-of-drupal-12-in-mid-late-2026
+releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 releaseImage: https://www.drupal.org/files/Drupal2024-2027.png
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
@@ -29,6 +29,13 @@ auto:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+  - releaseCycle: "11.3"
+    releaseDate: 2025-12-17
+    eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    latest: "11.3.1"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
