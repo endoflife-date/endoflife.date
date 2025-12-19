@@ -53,16 +53,17 @@ releases:
 
   - releaseCycle: "1.7"
     releaseDate: 2023-03-10
+    lts: true
     eoas: 2025-05-05 # releaseDate(2.0) + 6 months
-    eol: 2026-03-10 # eol(1.6)
+    eol: 2026-09-01 # only year and month are decided
     latest: "1.7.30"
     latestReleaseDate: 2025-12-17
 
   - releaseCycle: "1.6"
     releaseDate: 2022-02-15
     lts: true
-    eoas: false # same as EOL because it's an LTS.
-    eol: 2025-08-23 # max(February 15, 2025 or releaseDate(next LTS) + 6 months
+    eoas: 2023-09-10 # releaseDate(1.7) + 6 months
+    eol: 2025-08-23
     latest: "1.6.39"
     latestReleaseDate: 2025-07-22
 
