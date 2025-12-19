@@ -39,7 +39,7 @@ releases:
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
-    eol: false # not yet announced
+    eol: 2025-12-18 # announced https://lore.kernel.org/all/2025121823-avid-hatchback-83fb@gregkh/
     latest: "6.17.13"
     latestReleaseDate: 2025-12-18
 
