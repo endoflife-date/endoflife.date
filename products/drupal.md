@@ -31,22 +31,29 @@ auto:
 releases:
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
-    eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    eoas: 2026-12-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     latest: "11.3.1"
+    latestReleaseDate: 2025-12-18
+
+  - releaseCycle: "10.6"
+    releaseDate: 2025-12-17
+    eoas: 2026-12-01 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: 2026-12-01
+    latest: "10.6.1"
     latestReleaseDate: 2025-12-18
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: 2026-06-09
     latest: "11.2.10"
     latestReleaseDate: 2025-12-10
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
-    eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eoas: 2025-12-17
+    eol: 2026-06-17
     latest: "10.5.8"
     latestReleaseDate: 2025-12-09
 
