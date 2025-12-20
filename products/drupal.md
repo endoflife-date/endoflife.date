@@ -36,17 +36,24 @@ releases:
     latest: "11.3.1"
     latestReleaseDate: 2025-12-18
 
+  - releaseCycle: "10.6"
+    releaseDate: 2025-12-17
+    eoas: 2026-06-16
+    eol: 2026-12-16
+    latest: "10.6.1"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: 2026-06-17
     latest: "11.2.10"
     latestReleaseDate: 2025-12-10
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
-    eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eoas: 2025-12-17
+    eol: 2026-06-17
     latest: "10.5.8"
     latestReleaseDate: 2025-12-09
 
