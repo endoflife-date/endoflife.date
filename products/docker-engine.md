@@ -19,7 +19,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/moby/moby.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
+      regex: ^(docker-)?v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
 # Inside a given major release, eol(x) = releaseDate(x+1)
 # For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
