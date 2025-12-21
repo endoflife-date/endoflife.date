@@ -27,6 +27,7 @@ auto:
 releases:
   - releaseCycle: "9.14"
     releaseDate: 2025-12-19
+    lts: true
     eoas: false
     eol: false
     latest: "9.14.1"
