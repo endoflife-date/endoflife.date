@@ -25,10 +25,10 @@ auto:
 # "There will be no further releases of Lua x.y".
 releases:
   - releaseCycle: "5.5"
-    releaseDate: 2020-12-22
+    releaseDate: 2025-12-22
     eol: false
     latest: "5.5.0"
-    latestReleaseDate: 2020-12-22
+    latestReleaseDate: 2025-12-22
 
   - releaseCycle: "5.4"
     releaseDate: 2020-06-29
