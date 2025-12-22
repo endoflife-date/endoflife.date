@@ -24,6 +24,12 @@ auto:
 # The last releases are documented on https://www.lua.org/versions.html with a sentence similar to
 # "There will be no further releases of Lua x.y".
 releases:
+  - releaseCycle: "5.5"
+    releaseDate: 2020-12-22
+    eol: false
+    latest: "5.5.0"
+    latestReleaseDate: 2020-12-22
+
   - releaseCycle: "5.4"
     releaseDate: 2020-06-29
     eol: false
