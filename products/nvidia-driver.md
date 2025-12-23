@@ -40,6 +40,24 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r590-windows"
+    releaseLabel: "R590-Windows"
+    releaseDate: 2025-12-22
+    eoas: 2026-12-22
+    eol: 2026-12-22
+    latest: "591.59"
+    latestReleaseDate: 2025-12-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-590-48-01/index.html
+
+  - releaseCycle: "r590-linux"
+    releaseLabel: "R590-Linux"
+    releaseDate: 2025-12-22
+    eoas: 2026-12-22
+    eol: 2026-12-22
+    latest: "590.48.01"
+    latestReleaseDate: 2025-12-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-590-48-01/index.html
+
   - releaseCycle: "r580-linux"
     releaseLabel: "R580-Linux"
     lts: true
