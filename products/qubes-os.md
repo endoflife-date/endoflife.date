@@ -18,7 +18,7 @@ auto:
     # This tracks older versions as well
     - distrowatch: qubes
       # https://regex101.com/r/4NjXkk/1
-      regex: "^Distribution Release: Qubes OS (?P<version>(\d|\.)+)$"
+      regex: '^Distribution Release: Qubes OS (?P<version>(\d|\.)+)$'
       template: "{{version}}"
 releases:
 - releaseCyle: "4.3"
