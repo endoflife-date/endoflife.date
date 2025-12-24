@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "3.23"
     releaseDate: 2025-12-04
     eol: 2027-11-01
-    latest: "3.23.0"
-    latestReleaseDate: 2025-12-03
+    latest: "3.23.2"
+    latestReleaseDate: 2025-12-17
     link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
 
   - releaseCycle: "3.22"
