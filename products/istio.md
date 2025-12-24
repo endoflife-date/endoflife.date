@@ -62,7 +62,7 @@ releases:
 
   - releaseCycle: "1.26"
     releaseDate: 2025-05-08
-    eol: 2025-12-19
+    eol: 2025-12-22
     supportedKubernetesVersions: "1.29 - 1.33"
     latest: "1.26.8"
     latestReleaseDate: 2025-12-22
