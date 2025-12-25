@@ -21,7 +21,7 @@ auto:
       regex: '^Distribution Release: Qubes OS (?P<version>(\d|\.)+)$'
       template: "{{version}}"
 releases:
-- releaseCyle: "4.3"
+- releaseCycle: "4.3"
   releaseDate: 2025-12-21
   link: https://www.qubes-os.org/news/2025/12/21/qubes-os-4-3-0-has-been-released/
   latest: "4.3.0"
