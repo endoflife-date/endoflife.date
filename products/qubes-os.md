@@ -24,6 +24,7 @@ releases:
 - releaseCycle: "4.3"
   releaseDate: 2025-12-21
   link: https://www.qubes-os.org/news/2025/12/21/qubes-os-4-3-0-has-been-released/
+  eol: false
   latest: "4.3.0"
   latestReleaseDate: 2025-12-21
 
