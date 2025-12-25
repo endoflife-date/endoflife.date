@@ -335,3 +335,11 @@ releases and to supported [extended support releases (ESR)](https://docs.matterm
 A new ESR release is made when a significant number of new features and improvements have been added
 to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
+
+{: .warning }
+> [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11
+> 
+> Starting with Mattermost 11, the Free Edition was renamed to Entry Edition alongside reductions in the user and message limits.
+> The new limits are 250 users, and 10,000 messages for the Entry edition. Additionally, GitLab Mattermost is getting deprecated
+> from the v11 release and is no longer supported. Mattermost v10.11 ESR will continue to receive security and maintenance updates
+> in the [Gitlab Omnibus from Mattermost through August 2026](https://forum.mattermost.com/t/how-long-will-mattermost-be-bundled-in-omnibus-gitlab/25298/2).
