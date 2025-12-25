@@ -27,42 +27,22 @@ releases:
     latestReleaseDate: 2025-12-16
     link: https://docs.omnissa.com/bundle/horizon8-rnV2512/page/Horizon8-ReleaseNotes.html
 
-releases:
-  - releaseCycle: "8.2506.1"
-    releaseDate: 2025-11-03
+  - releaseCycle: "8.2506"
+    releaseDate: 2025-07-31
     eol: 2028-11-03
     technicalGuidance: 2029-11-03
     latest: "8.2506.1"
     latestReleaseDate: 2025-11-03
     link: https://docs.omnissa.com/bundle/horizon8-rnV2506.1/page/Horizon8-ReleaseNotes.html
 
-releases:
-  - releaseCycle: "8.2506"
-    releaseDate: 2025-07-31
-    eol: 2028-07-31
-    technicalGuidance: 2029-07-31
-    latest: "8.2506"
-    latestReleaseDate: 2025-07-31
-    link: https://docs.omnissa.com/bundle/horizon8-rnV2506/page/Horizon8-ReleaseNotes.html
-
-releases:
   - releaseCycle: "8.2503.1"
-    releaseDate: 2025-08-14
+    releaseDate: 2025-04-15
     eol: 2028-08-14
     technicalGuidance: 2029-08-14
     latest: "8.2503.1"
     latestReleaseDate: 2025-08-14
     link: https://docs.omnissa.com/bundle/horizon8-rnV2503.1/page/Horizon8-ReleaseNotes.html
 
-releases:
-  - releaseCycle: "8.2503"
-    releaseDate: 2025-04-15
-    eol: 2028-04-15
-    technicalGuidance: 2029-04-15
-    latest: "8.2503"
-    latestReleaseDate: 2025-04-15
-    link: https://docs.omnissa.com/bundle/horizon8-rnV2503/page/Horizon8-ReleaseNotes.html
-releases:
   - releaseCycle: "8.2412"
     releaseDate: 2025-01-28
     eol: 2028-01-28
