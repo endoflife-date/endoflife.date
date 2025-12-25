@@ -337,9 +337,11 @@ to the product and have had enough time to stabilize. A new ESR is released twic
 February and August. ESR releases are supported for nine months.
 
 {: .warning }
-> [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11
+> Mattermost announced [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11
 > 
-> Starting with Mattermost 11, the Free Edition was renamed to Entry Edition alongside reductions in the user and message limits.
-> The new limits are 250 users, and 10,000 messages for the Entry edition. Additionally, GitLab Mattermost is getting deprecated
-> from the v11 release and is no longer supported. Mattermost v10.11 ESR will continue to receive security and maintenance updates
+> - The Free Edition is renamed to **Entry Edition**.
+> - Entry edition (earlier Free) now supports a maximum of 50 users, and a 10000 message history.
+> - Team Edition is now limited to a maximum of 250 users.
+> - GitLab SSO is removed from the Team edition.
+> - GitLab Mattermost, which relied on GitLab SSO+Team edition is getting deprecated. Mattermost v10.11 ESR will continue to receive security and maintenance updates
 > in the [Gitlab Omnibus from Mattermost through August 2026](https://forum.mattermost.com/t/how-long-will-mattermost-be-bundled-in-omnibus-gitlab/25298/2).
