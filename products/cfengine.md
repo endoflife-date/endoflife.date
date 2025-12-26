@@ -38,8 +38,8 @@ releases:
     releaseDate: 2024-07-22
     lts: true
     eol: 2027-07-31
-    latest: "3.24.2"
-    latestReleaseDate: 2025-05-15
+    latest: "3.24.3"
+    latestReleaseDate: 2025-12-15
 
   - releaseCycle: "3.23"
     releaseDate: 2023-12-05
@@ -57,8 +57,8 @@ releases:
     releaseDate: 2022-12-21
     lts: true
     eol: 2025-12-31
-    latest: "3.21.7"
-    latestReleaseDate: 2025-05-14
+    latest: "3.21.8"
+    latestReleaseDate: 2025-12-15
 
   - releaseCycle: "3.20"
     releaseDate: 2022-07-01
@@ -103,6 +103,7 @@ releases:
     latest: "3.15.7"
     latestReleaseDate: 2022-11-14
     link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
+
 ---
 
 > [CFEngine](https://cfengine.com) is an open-source configuration management, automation and

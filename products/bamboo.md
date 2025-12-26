@@ -25,6 +25,13 @@ auto:
 # Release dates from https://www.atlassian.com/software/bamboo/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+  - releaseCycle: "12.1"
+    lts: true
+    releaseDate: 2025-12-16
+    eol: 2027-12-17
+    latest: "12.1.0"
+    latestReleaseDate: 2025-12-16
+
   - releaseCycle: "12.0"
     releaseDate: 2025-11-20
     eol: 2027-11-20

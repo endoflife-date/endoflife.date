@@ -25,6 +25,14 @@ auto:
     - ghc-wiki: https://gitlab.haskell.org/api/v4/projects/1/wikis/GHC-Status
 
 releases:
+  - releaseCycle: "9.14"
+    releaseDate: 2025-12-19
+    lts: true
+    eoas: false
+    eol: false
+    latest: "9.14.1"
+    latestReleaseDate: 2025-12-19
+
   - releaseCycle: "9.12"
     releaseDate: 2024-11-15
     eoas: false
