@@ -61,9 +61,9 @@ releases:
     codename: "Noble Numbat"
     lts: true
     releaseDate: 2024-04-25
-    eoas: 2029-04-25
-    eol: 2029-04-25
-    eoes: 2036-04-25
+    eoas: 2029-05-31
+    eol: 2029-05-31
+    eoes: 2036-05-31
     latest: "24.04.3"
     latestReleaseDate: 2025-08-07
 
