@@ -12,7 +12,11 @@ changelogTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
 identifiers:
   - repology: bun
   - purl: pkg:docker/oven/bun
+  - purl: pkg:npm/bun
+  - purl: pkg:maven/org.mvnpm/bun
   - purl: pkg:github/oven-sh/bun
+  - purl: pkg:golang/github.com/oven-sh/bun
+  - purl: pkg:pypi/pybun
 
 auto:
   methods:

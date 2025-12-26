@@ -12,6 +12,8 @@ auto:
 
 identifiers:
   - repology: php:twig
+  - purl: pkg:github/twigphp/twig
+  - purl: pkg:golang/github.com/twigphp/twig
 
 releases:
   - releaseCycle: "3"

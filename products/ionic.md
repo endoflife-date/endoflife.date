@@ -37,7 +37,9 @@ customFields:
 
 identifiers:
   - purl: pkg:github/ionic-team/ionic-framework
+  - purl: pkg:golang/github.com/ionic-team/ionic-framework
   - purl: pkg:npm/%40ionic/core
+  - purl: pkg:maven/org.webjars.npm/ionic__core
 
 auto:
   methods:

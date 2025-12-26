@@ -15,6 +15,8 @@ eolColumn: Limited Support
 
 identifiers:
   - repology: apache-airflow
+  - purl: pkg:github/apache/airflow
+  - purl: pkg:golang/github.com/apache/airflow
   - purl: pkg:docker/apache/airflow
   - purl: pkg:docker/bitnami/airflow
   - purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard

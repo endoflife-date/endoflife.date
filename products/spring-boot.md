@@ -42,6 +42,7 @@ identifiers:
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-log4j2
   - purl: pkg:maven/org.springframework.boot/spring-boot-starter-validation
   - purl: pkg:github/spring-projects/spring-boot
+  - purl: pkg:golang/github.com/spring-projects/spring-boot
   - repology: springboot
 
 auto:

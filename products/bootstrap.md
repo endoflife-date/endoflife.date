@@ -18,6 +18,9 @@ identifiers:
   - purl: pkg:gem/bootstrap
   - purl: pkg:composer/twbs/bootstrap
   - purl: pkg:github/twbs/bootstrap
+  - purl: pkg:golang/github.com/twbs/bootstrap
+  - purl: pkg:maven/org.mvnpm/bootstrap
+  - purl: pkg:maven/org.webjars.npm/bootstrap
 
 # NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
 auto:

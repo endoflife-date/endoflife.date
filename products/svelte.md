@@ -17,6 +17,9 @@ auto:
 identifiers:
   - purl: pkg:npm/svelte
   - purl: pkg:github/sveltejs/svelte
+  - purl: pkg:golang/github.com/sveltejs/svelte
+  - purl: pkg:maven/org.mvnpm/svelte
+  - purl: pkg:maven/org.webjars.npm/svelte
 
 releases:
   - releaseCycle: "5"

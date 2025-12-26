@@ -10,6 +10,8 @@ eoesColumn: Commercial Support
 
 identifiers:
   - purl: pkg:github/jquery/jquery
+  - purl: pkg:golang/github.com/jquery/jquery
+  - purl: pkg:maven/org.mvnpm/jquery
   - purl: pkg:maven/org.webjars/jquery
   - purl: pkg:npm/jquery
   - purl: pkg:nuget/jQuery

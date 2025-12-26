@@ -18,6 +18,8 @@ identifiers:
   - repology: js:express
   - purl: pkg:github/expressjs/express
   - purl: pkg:npm/express
+  - purl: pkg:maven/org.mvnpm/express
+  - purl: pkg:maven/org.webjars.npm/express
   - cpe: cpe:/a:openjsf:express
   - cpe: cpe:2.3:a:openjsf:express
 

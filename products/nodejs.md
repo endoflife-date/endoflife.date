@@ -20,6 +20,8 @@ identifiers:
   - purl: pkg:docker/library/node
   - purl: pkg:docker/cimg/node
   - purl: pkg:docker/bitnami/node
+  - purl: pkg:github/nodejs/node
+  - purl: pkg:golang/github.com/nodejs/node
   - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
 

@@ -12,6 +12,8 @@ eoesColumn: Premium support
 
 identifiers:
   - repology: openssl
+  - purl: pkg:github/openssl/openssl
+  - purl: pkg:golang/github.com/openssl/openssl
   - cpe: cpe:/a:openssl:openssl
   - cpe: cpe:2.3:a:openssl:openssl
 

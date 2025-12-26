@@ -22,6 +22,9 @@ identifiers:
   - purl: pkg:npm/vue
   - purl: pkg:github/vuejs/vue
   - purl: pkg:github/vuejs/core
+  - purl: pkg:golang/github.com/vuejs/core
+  - purl: pkg:maven/org.mvnpm/vue
+  - purl: pkg:maven/org.webjars.npm/vue
 
 releases:
   - releaseCycle: "3.5"

@@ -12,6 +12,9 @@ eoasColumn: true
 eoesColumn: Commercial Support
 
 identifiers:
+  - purl: pkg:npm/nuxt
+  - purl: pkg:github/nuxt/nuxt
+  - purl: pkg:golang/github.com/nuxt/nuxt
   - cpe: cpe:/a:nuxt:framework
   - cpe: cpe:2.3:a:nuxt:framework
 

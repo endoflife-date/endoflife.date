@@ -30,6 +30,7 @@ identifiers:
   - repology: robo
   - purl: pkg:composer/consolidation/robo
   - purl: pkg:github/consolidation/robo
+  - purl: pkg:golang/github.com/consolidation/robo
 
 # Based on https://github.com/consolidation/robo#branches:
 # eoas(x) = true if "Stable", false otherwise

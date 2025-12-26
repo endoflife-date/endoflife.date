@@ -11,7 +11,10 @@ eoasColumn: true
 
 identifiers:
   - purl: pkg:github/facebook/react-native
+  - purl: pkg:golang/github.com/facebook/react-native
   - purl: pkg:npm/react-native
+  - purl: pkg:maven/org.mvnpm/react-native
+  - purl: pkg:maven/org.webjars.npm/react-native
 
 # NPM dates are more accurate than git tag dates.
 auto:

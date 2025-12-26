@@ -18,7 +18,9 @@ eoasColumn: Active Support
 identifiers:
   - repology: ruby:rails
   - purl: pkg:gem/rails
+  - purl: pkg:npm/rails
   - purl: pkg:github/rails/rails
+  - purl: pkg:golang/github.com/rails/rails
 
 auto:
   methods:

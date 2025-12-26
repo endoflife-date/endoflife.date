@@ -12,7 +12,10 @@ staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#
 
 identifiers:
   - purl: pkg:github/facebook/react
+  - purl: pkg:golang/github.com/facebook/react
   - purl: pkg:npm/react
+  - purl: pkg:maven/org.mvnpm/react
+  - purl: pkg:maven/org.webjars.npm/react
 
 # NPM dates are more accurate than git tag dates.
 auto:

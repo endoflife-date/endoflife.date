@@ -14,7 +14,9 @@ staleReleaseThresholdDays: 1500 # https://github.com/phoenixframework/phoenix/se
 
 identifiers:
   - purl: pkg:hex/phoenix
+  - purl: pkg:npm/phoenix
   - purl: pkg:github/phoenixframework/phoenix
+  - purl: pkg:golang/github.com/phoenixframework/phoenix
 
 auto:
   methods:

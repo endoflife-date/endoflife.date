@@ -20,6 +20,7 @@ identifiers:
   - repology: guzzle
   - purl: pkg:composer/guzzlehttp/guzzle
   - purl: pkg:github/guzzle/guzzle
+  - purl: pkg:golang/github.com/guzzle/guzzle
   - cpe: cpe:/a:guzzlephp:guzzle
   - cpe: cpe:2.3:a:guzzlephp:guzzle
 

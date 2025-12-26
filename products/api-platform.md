@@ -16,6 +16,7 @@ auto:
 identifiers:
   - purl: pkg:composer/api-platform/core
   - purl: pkg:github/api-platform/core
+  - purl: pkg:golang/github.com/api-platform/core
   - cpe: cpe:/a:api-platform:core
   - cpe: cpe:2.3:a:api-platform:core
 

@@ -13,9 +13,11 @@ eoesColumn: Commercial Support
 
 identifiers:
   - repology: struts
+  - purl: pkg:maven/org.apache.struts/struts2-core
+  - purl: pkg:github/apache/struts
+  - purl: pkg:golang/github.com/apache/struts
   - cpe: cpe:/a:apache:struts
   - cpe: cpe:2.3:a:apache:struts
-  - purl: pkg:maven/org.apache.struts/struts2-core
 
 auto:
   methods:

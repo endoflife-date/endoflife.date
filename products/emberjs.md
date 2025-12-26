@@ -12,8 +12,9 @@ changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:
-  - purl: pkg:github/emberjs/ember.js
   - purl: pkg:npm/ember-source
+  - purl: pkg:github/emberjs/ember.js
+  - purl: pkg:golang/github.com/emberjs/ember.js
   - cpe: cpe:2.3:a:emberjs:ember.js
   - cpe: cpe:/a:emberjs:ember.js
 

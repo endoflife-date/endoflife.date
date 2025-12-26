@@ -13,6 +13,8 @@ eoesColumn: Commercial Support
 
 identifiers:
   - purl: pkg:npm/vuetify
+  - purl: pkg:github/vuetifyjs/vuetify
+  - purl: pkg:golang/github.com/vuetifyjs/vuetify
   - cpe: cpe:2.3:a:vuetifyjs:vuetify
   - cpe: cpe:/a:vuetifyjs:vuetify
 

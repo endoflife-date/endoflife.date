@@ -14,6 +14,8 @@ changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 identifiers:
   - purl: pkg:npm/next
   - purl: pkg:github/vercel/next.js
+  - purl: pkg:golang/github.com/vercel/next.js
+  - purl: pkg:maven/org.mvnpm/next
 
 auto:
   methods:

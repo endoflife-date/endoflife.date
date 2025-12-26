@@ -22,6 +22,9 @@ identifiers:
   - repology: angular.js
   - purl: pkg:npm/angular
   - purl: pkg:github/angular/angular.js
+  - purl: pkg:golang/github.com/angular/angular.js
+  - purl: pkg:maven/org.webjars.npm/angular
+  - purl: pkg:maven/org.mvnpm/angular
 
 auto:
   disabled: true # the product is discontinued

@@ -8,6 +8,7 @@ changelogTemplate: https://github.com/jquery/jquery-ui/releases/tag/__LATEST__
 
 identifiers:
   - purl: pkg:github/jquery/jquery-ui
+  - purl: pkg:maven/org.mvnpm/jquery-ui
   - purl: pkg:maven/org.webjars/jquery-ui
   - purl: pkg:npm/jquery-ui
   - purl: pkg:nuget/jQuery.UI.Combined

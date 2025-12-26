@@ -16,6 +16,7 @@ identifiers:
   - repology: grumphp
   - purl: pkg:composer/phpro/grumphp
   - purl: pkg:github/phpro/grumphp
+  - purl: pkg:golang/github.com/phpro/grumphp
 
 releases:
   - releaseCycle: "2"

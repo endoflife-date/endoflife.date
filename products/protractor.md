@@ -15,6 +15,9 @@ auto:
 
 identifiers:
   - purl: pkg:npm/protractor
+  - purl: pkg:github/angular/protractor
+  - purl: pkg:golang/github.com/angular/protractor
+  - purl: pkg:maven/org.webjars.npm/protractor
 
 releases:
   - releaseCycle: "7.0"

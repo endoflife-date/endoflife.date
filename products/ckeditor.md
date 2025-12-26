@@ -11,6 +11,12 @@ staleReleaseThresholdDays: 30 # so that maintainers are reminded to manually upd
 
 identifiers:
   - repology: ckeditor
+  - purl: pkg:npm/ckeditor5
+  - purl: pkg:npm/ckeditor4
+  - purl: pkg:maven/org.webjars.npm/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor4
+  - purl: pkg:golang/github.com/ckeditor/ckeditor5
   - cpe: cpe:/a:ckeditor:ckeditor
   - cpe: cpe:2.3:a:ckeditor:ckeditor
 

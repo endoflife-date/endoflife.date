@@ -39,6 +39,8 @@ identifiers:
   - purl: pkg:rpm/redhat/dotnet-sdk-3.1
   - purl: pkg:rpm/redhat/dotnet-sdk-3.0
   - purl: pkg:rpm/redhat/dotnet-sdk-2.1
+  - purl: pkg:github/dotnet/core
+  - purl: pkg:golang/github.com/dotnet/core
   - cpe: cpe:2.3:a:microsoft:.net
   - cpe: cpe:/a:microsoft:.net
 

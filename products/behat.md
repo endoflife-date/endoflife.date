@@ -15,6 +15,7 @@ auto:
 identifiers:
   - purl: pkg:composer/behat/behat
   - purl: pkg:github/behat/behat
+  - purl: pkg:golang/github.com/behat/behat
 
 releases:
   - releaseCycle: "3"

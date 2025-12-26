@@ -22,6 +22,9 @@ customFields:
 
 identifiers:
   - repology: electron
+  - purl: pkg:npm/electron
+  - purl: pkg:github/electron/electron
+  - purl: pkg:golang/github.com/electron/electron
   - cpe: cpe:/a:electronjs:electron
   - cpe: cpe:2.3:a:electronjs:electron
 

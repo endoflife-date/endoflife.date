@@ -13,6 +13,8 @@ eoasColumn: true
 identifiers:
   - repology: python:wagtail
   - purl: pkg:pypi/wagtail
+  - purl: pkg:github/wagtail/wagtail
+  - purl: pkg:golang/github.com/wagtail/wagtail
 
 auto:
   methods:

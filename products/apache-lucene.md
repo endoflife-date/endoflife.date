@@ -10,6 +10,10 @@ alternate_urls:
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 
+identifiers:
+  - purl: pkg:github/apache/lucene
+  - purl: pkg:golang/github.com/apache/lucene
+
 auto:
   methods:
     - maven: org.apache.lucene/lucene-core

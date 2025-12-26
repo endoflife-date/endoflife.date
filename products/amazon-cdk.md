@@ -11,7 +11,9 @@ identifiers:
   - repology: aws-cdk
   - purl: pkg:npm/aws-cdk
   - purl: pkg:golang/github.com/aws/aws-cdk-go/awscdk/v2
+  - purl: pkg:golang/github.com/aws/aws-cdk
   - purl: pkg:github/aws/aws-cdk-go
+  - purl: pkg:github/aws/aws-cdk
   - cpe: cpe:/a:amazon:aws_cloud_development_kit
   - cpe: cpe:2.3:a:amazon:aws_cloud_development_kit
 

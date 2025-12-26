@@ -13,6 +13,9 @@ eolColumn: LTS support
 
 identifiers:
   - purl: pkg:npm/quasar
+  - purl: pkg:github/quasarframework/quasar
+  - purl: pkg:golang/github.com/quasarframework/quasar
+  - purl: pkg:maven/org.webjars.npm/quasar
 
 auto:
   methods:

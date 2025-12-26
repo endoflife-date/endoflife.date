@@ -11,6 +11,8 @@ eolColumn: Supported
 
 identifiers:
   - repology: gstreamer
+  - purl: pkg:github/gstreamer/gstreamer
+  - purl: pkg:golang/github.com/gstreamer/gstreamer
   - cpe: cpe:/a:gstreamer:gstreamer
   - cpe: cpe:2.3:a:gstreamer:gstreamer
   - cpe: cpe:/a:gstreamer_project:gstreamer

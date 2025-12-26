@@ -17,6 +17,9 @@ identifiers:
   - repology: fonts:fontawesome
   - purl: pkg:github/fortawesome/font-awesome
   - purl: pkg:npm/%40fortawesome/fontawesome-svg-core
+  - purl: pkg:composer/fortawesome/font-awesome
+  - purl: pkg:maven/org.mvnpm.at.fortawesome/fontawesome-svg-core
+  - purl: pkg:maven/org.webjars.npm/fortawesome__fontawesome-svg-core
 
 releases:
   - releaseCycle: "7"

@@ -6,6 +6,11 @@ tags: javascript-runtime
 permalink: /tarteaucitron
 changelogTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
 
+identifiers:
+  - purl: pkg:npm/tarteaucitronjs
+  - purl: pkg:github/amauric/tarteaucitron.js
+  - purl: pkg:golang/github.com/amauric/tarteaucitron.js
+
 auto:
   methods:
     - git: https://github.com/AmauriC/tarteaucitron.js.git

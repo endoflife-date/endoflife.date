@@ -14,6 +14,9 @@ eoesColumn: Commercial Support
 identifiers:
   - purl: pkg:npm/%40angular/core # purl are url-encoded
   - purl: pkg:github/angular/angular
+  - purl: pkg:golang/github.com/angular/angular
+  - purl: pkg:maven/org.mvnpm.at.angular/core
+  - purl: pkg:maven/org.webjars.npm/angular__core
   - cpe: cpe:/a:angular:angular
   - cpe: cpe:2.3:a:angular:angular
 

@@ -11,6 +11,10 @@ changelogTemplate: "https://github.com/micronaut-projects/micronaut-core/release
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
+identifiers:
+  - purl: pkg:github/micronaut-projects/micronaut-core
+  - purl: pkg:golang/github.com/micronaut-projects/micronaut-core
+
 auto:
   methods:
     - git: https://github.com/micronaut-projects/micronaut-core.git

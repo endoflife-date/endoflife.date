@@ -15,6 +15,8 @@ eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
 identifiers:
   - repology: quarkus
+  - purl: pkg:github/quarkusio/quarkus
+  - purl: pkg:golang/github.com/quarkusio/quarkus
   - cpe: cpe:/a:quarkus:quarkus
   - cpe: cpe:2.3:a:quarkus:quarkus
 

@@ -12,6 +12,8 @@ eolColumn: Supported
 
 identifiers:
   - repology: ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:golang/github.com/ffmpeg/ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
 
