@@ -50,7 +50,7 @@ releases:
     releaseDate: 2025-12-19
     eol: false
     latest: "2025.11.2"
-    latestReleaseDate: 2025-12-19
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-30
