@@ -36,9 +36,18 @@ auto:
 # eol(x) = releaseDate(x+2)
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in patch versions.
 releases:
+  - releaseCycle: "2.4"
+    releaseDate: 2025-12-18
+    eoas: false
+    eol: false
+    latest: "2.4.0"
+    latestReleaseDate: 2025-12-18
+    supportedLinux: "4.18 - 6.18"
+    supportedFreeBSD: "14, 15, 16"
+
   - releaseCycle: "2.3"
     releaseDate: 2024-10-17
-    eoas: false
+    eoas: 2025-12-18
     eol: false
     latest: "2.3.5"
     latestReleaseDate: 2025-11-18
@@ -48,7 +57,7 @@ releases:
   - releaseCycle: "2.2"
     releaseDate: 2023-07-27
     eoas: 2025-01-13
-    eol: false
+    eol: 2025-12-18
     latest: "2.2.9"
     latestReleaseDate: 2025-11-18
     supportedLinux: "4.18 - 6.15"
