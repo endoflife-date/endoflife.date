@@ -19,6 +19,11 @@ auto:
         # block function update date cannot be before the deprecation date
         - {name: "nodejs4.3-edge", eol: 2020-04-30}
 
+identifiers:
+  - purl: pkg:generic/aws-lambda
+  - cpe: cpe:/a:amazon:aws_lambda
+  - cpe: cpe:2.3:a:amazon:aws_lambda
+
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
 # The release dates must be retrieved from announcement blog posts on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
