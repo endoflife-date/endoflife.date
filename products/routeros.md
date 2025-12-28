@@ -2,7 +2,7 @@
 title: RouterOS
 addedAt: 2025-10-09
 category: os
-#tags: router mikrotik
+tags: mikrotik
 iconSlug: mikrotik
 permalink: /routeros
 alternate_urls:
