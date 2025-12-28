@@ -12,7 +12,7 @@ latestColumn: Latest
 releaseDateColumn: Released
 
 identifiers:
-  - cpe: cpe:2.3:h:mikrotik
+  - cpe: cpe:/o:mikrotik:routeros
   - cpe: cpe:2.3:o:mikrotik:routeros
 
 releases:
