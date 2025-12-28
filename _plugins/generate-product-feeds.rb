@@ -1,4 +1,4 @@
-# This script create product pages for the website.
+# This script creates product pages for the website.
 
 require 'jekyll'
 
