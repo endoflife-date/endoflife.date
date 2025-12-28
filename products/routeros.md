@@ -5,8 +5,6 @@ category: os
 tags: mikrotik
 iconSlug: mikrotik
 permalink: /routeros
-alternate_urls:
-  - /mikrotik
 # Command that can be used to check the current product version (optional).
 #versionCommand: swish and flick # TODO
 changelogTemplate: https://mikrotik.com/download/changelogs#c-stable-v{{"__LATEST__" | replace:'.','_' }}
