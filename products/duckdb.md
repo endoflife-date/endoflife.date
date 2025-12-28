@@ -1,6 +1,6 @@
 ---
 title: DuckDB
-addedAt: 2025-10-17
+addedAt: 2025-10-18
 category: database
 iconSlug: duckdb
 permalink: /duckdb
