@@ -49,12 +49,8 @@ releases:
 
 ---
 
-> MikroTik [RouterOS](https://mikrotik.com/software) is a Linux-derived OS for RouterBOARD devices.
-
-RouterOS is a stand-alone operating system based on Linux kernel. It powers MikroTik hardware devices, but is also available for virtual machines.
-It can also be installed on a PC and will turn it into a router with all the necessary features - routing, firewall, bandwidth management, wireless access point, backhaul link, hotspot gateway, VPN server and more.
-
-See the [homepage](https://mikrotik.com/software), [forum](https://forum.mikrotik.com/c/routeros/6), [help docs](https://help.mikrotik.com/docs/), or [old wiki](https://wiki.mikrotik.com/) for further information.
+> [MikroTik RouterOS](https://mikrotik.com/software) is an operating system based on the Linux kernel, specifically designed for routers.
+> It is installed on the company's produced networking hardware - RouterBOARD, as well as on standard x86 type computers, enabling these devices to fulfill router functions.
 
 Note: When performing updates each minor version must be upgraded in sequence.
 
