@@ -21,18 +21,21 @@ releases:
     eol: 2026-09-09
     latest: "2.12.5"
     latestReleaseDate: 2025-11-25
+    link: https://github.com/kumahq/kuma/releases/tag/v__LATEST__  # since 2.10 the tag url will include v prefix
 
   - releaseCycle: "2.11"
     releaseDate: 2025-06-10
     eol: 2026-06-10
     latest: "2.11.8"
     latestReleaseDate: 2025-11-14
+    link: https://github.com/kumahq/kuma/releases/tag/v__LATEST__ # since 2.10 the tag url will include v prefix
 
   - releaseCycle: "2.10"
     releaseDate: 2025-03-20
     eol: 2026-03-20
     latest: "2.10.9"
     latestReleaseDate: 2025-11-18
+    link: https://github.com/kumahq/kuma/releases/tag/v__LATEST__  # since 2.10 the tag url will include v prefix
 
   - releaseCycle: "2.9"
     releaseDate: 2024-10-22
