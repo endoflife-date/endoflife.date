@@ -326,7 +326,7 @@ releases:
 
 ---
 
-> [Mattermost](https://mattermost.com/) is an open-source, self-hostable online chat service with
+> [Mattermost](https://mattermost.com/) is an [open-core](https://isitreallyfoss.com/projects/mattermost/), self-hostable online chat service with
 > file sharing, search, and integrations. It is designed as an internal chat for organizations and
 > companies.
 
@@ -336,10 +336,21 @@ A new ESR release is made when a significant number of new features and improvem
 to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
 
+Mattermost's self-hosted offering is distributed in the following [editions](https://docs.mattermost.com/product-overview/editions-and-offerings.html):
+
+1. **Enterprise** is the primary commercial offering. It comes with 24x7 support.
+1. **Enterprise Advanced** is same as the Enterprise Edition, but with a few extra compliance features.
+1. **Entry** is the limited free but commercial offering. It is Community supported.
+1. **Professional** is similar to Enterprise, but with a lower tier of support. It doesn't have features targeted at large(>250 user) organizations,
+   such as high-scalability, air-gapped deployments, Kanban, and Microsoft Teams integration.
+1. **Team** is the limited open-source offering: The AGPL source code is built and distributed as MIT licensed binaries.
+   This is also offered via GitLab in the GitLab Omnibus package.
+
+This page tracks only the self-hosted offerings as listed above. Mattermost Cloud has different [security guarantees](https://docs.mattermost.com/product-overview/cloud-subscriptions.html#who-is-responsible-for-server-maintenance-and-upgrades) and is not tracked here.
+
 {: .warning }
 > Mattermost announced [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11
 > 
-> - The Free Edition is renamed to **Entry Edition**.
 > - Entry edition (earlier Free) now supports a maximum of 50 users, and a 10000 message history.
 > - Team Edition is now limited to a maximum of 250 users.
 > - GitLab SSO is removed from the Team edition.
