@@ -281,6 +281,6 @@ Extended support by MongoDB for up to 2 years is available through the commercia
 
 : { .note }
 > [MongoBleed](https://www.ox.security/blog/attackers-could-exploit-zlib-to-exfiltrate-data-cve-2025-14847/) (CVE-2025-14847)
-> is an unauthenticated code-execution vulnerability in MongoD that was disclosed in December 2025.
+> is an unauthenticated code-execution vulnerability in MongoDB that was disclosed in December 2025.
 > MongoDB has published the following releases with a fix:
 > 8.2.3, 8.0.17, 7.0.28, 6.0.27, 5.0.32, 4.4.30.
