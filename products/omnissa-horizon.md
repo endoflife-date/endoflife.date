@@ -8,8 +8,8 @@ alternate_urls:
   - /vmware-horizon
   - /omnissahorizon
   - /omnissa-horizon
-releasePolicyLink: https://lifecycle.vmware.com
-changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
+releasePolicyLink: https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html
+changelogTemplate: https://docs.omnissa.com/bundle/horizon8-rnV{{ "__LATEST__"|replace_first:'.','' }}/page/Horizon8-ReleaseNotes.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 eolColumn: General Support
 
@@ -19,6 +19,30 @@ customFields:
     label: Technical Guidance Ends
 
 releases:
+  - releaseCycle: "8.2512"
+    releaseDate: 2025-12-16
+    eol: 2028-12-16
+    technicalGuidance: 2029-12-16
+    latest: "8.2512"
+    latestReleaseDate: 2025-12-16
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2512/page/Horizon8-ReleaseNotes.html
+
+  - releaseCycle: "8.2506"
+    releaseDate: 2025-07-31
+    eol: 2028-11-03
+    technicalGuidance: 2029-11-03
+    latest: "8.2506.1"
+    latestReleaseDate: 2025-11-03
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2506.1/page/Horizon8-ReleaseNotes.html
+
+  - releaseCycle: "8.2503"
+    releaseDate: 2025-04-15
+    eol: 2028-08-14
+    technicalGuidance: 2029-08-14
+    latest: "8.2503.1"
+    latestReleaseDate: 2025-08-14
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2503.1/page/Horizon8-ReleaseNotes.html
+
   - releaseCycle: "8.2412"
     releaseDate: 2025-01-28
     eol: 2028-01-28
@@ -35,22 +59,13 @@ releases:
     latestReleaseDate: 2024-06-25
     link: https://docs.omnissa.com/bundle/horizon8-rnV2406/page/Horizon8-ReleaseNotes.html
 
-  - releaseCycle: "8.2312.1"
-    releaseDate: 2024-04-04
+  - releaseCycle: "8.2312"
+    releaseDate: 2024-01-23
     eol: false # is there a date documented somewhere?
     technicalGuidance: null
     latest: "8.2312.1"
     latestReleaseDate: 2024-04-04
     link: https://docs.omnissa.com/bundle/horizon8-rnV2312.1/page/Horizon8-ReleaseNotes.html
-
-  - releaseCycle: "8.2312"
-    releaseDate: 2024-01-23
-    eol: false # is there a date documented somewhere?
-    technicalGuidance: null
-    lts: true
-    latest: "8.2312"
-    latestReleaseDate: 2024-01-23
-    link: https://docs.omnissa.com/bundle/horizon8-rnV2312/page/Horizon8-ReleaseNotes.html
 
   - releaseCycle: "8.2309"
     releaseDate: 2023-10-26
@@ -189,7 +204,7 @@ releases:
 in addition to the Current Release (CR) branch.
 ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months, and 15 months after the base version release.
 
-## [General Support](https://lifecycle.vmware.com/)
+## [General Support](https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html)
 
 The last date on which you can request support; the end of regular VMware maintenance updates and upgrades,
 _bug and security fixes,_ and technical assistance as per the Support and Subscription Terms and Conditions.
