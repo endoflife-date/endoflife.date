@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "9.12"
     releaseDate: 2024-11-15
-    eoas: false
+    eoas: true
     eol: false
     latest: "9.12.3"
     latestReleaseDate: 2025-12-27
