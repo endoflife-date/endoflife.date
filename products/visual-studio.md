@@ -31,6 +31,7 @@ releases:
     eol: false # releaseDate(18.2)
     latest: "18.1.1"
     latestReleaseDate: 2025-12-16
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.0"
     codename: "2026"
@@ -38,6 +39,7 @@ releases:
     eol: 2025-12-09
     latest: "18.0.2"
     latestReleaseDate: 2025-11-24
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "17.14"
     codename: "2022"
