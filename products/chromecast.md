@@ -9,23 +9,17 @@ identifiers:
   - cpe: cpe:2.3:h:google:chromecast:*:*:*:*:*:*:*:*
 
 releases:
-  - releaseCycle: "Chromecast-1"
-    releaselabel: "Chromecast 1st gen"
-    releaseDate: 2013-07-24
-    eol: true
-    latest: "1.36.159268"
-    discontinued: true
-  - releaseCycle: "Chromecast-2"
-    releaselabel: "Chromecast 2nd gen"
-    releaseDate: 2015-09-25
+  - releaseCycle: "Chromecast-google-tv-streamer"
+    releaselabel: "Google TV Streamer (4K)"
+    releaseDate: 2024-08-06
     eol: false
-    latest: "1.56.467165"
-    discontinued: true
-  - releaseCycle: "Chromecast-Ultra"
-    releaselabel: "Chromecast Ultra"
-    releaseDate: 2016-11-06
+    latest: "UTTK.250729.004"
+    discontinued: false
+  - releaseCycle: "Chromecast-google-tv-hd"
+    releaselabel: "Chromecast w/Google TV (HD)"
+    releaseDate: 2022-09-22
     eol: false
-    latest: "1.56.469779"
+    latest: "UTTC.250917.004"
     discontinued: true
   - releaseCycle: "Chromecast-3"
     releaselabel: "Chromecast 3rd gen"
@@ -33,11 +27,11 @@ releases:
     eol: false
     latest: "1.56.291998"
     discontinued: true
-  - releaseCycle: "Chromecast-audio"
-    releaselabel: "Chromecast Audio"
-    releaseDate: 2015-09-29
+  - releaseCycle: "Chromecast-Ultra"
+    releaselabel: "Chromecast Ultra"
+    releaseDate: 2016-11-06
     eol: false
-    latest: "1.56.467166"
+    latest: "1.56.469779"
     discontinued: true
   - releaseCycle: "Chromecast-google-tv-4k"
     releaselabel: "Chromecast w/Google TV (4K)"
@@ -45,18 +39,24 @@ releases:
     eol: false
     latest: "UTTC.250917.004"
     discontinued: true
-  - releaseCycle: "Chromecast-google-tv-hd"
-    releaselabel: "Chromecast w/Google TV (HD)"
-    releaseDate: 2022-09-22
+  - releaseCycle: "Chromecast-audio"
+    releaselabel: "Chromecast Audio"
+    releaseDate: 2015-09-29
     eol: false
-    latest: "UTTC.250917.004"
+    latest: "1.56.467166"
     discontinued: true
-  - releaseCycle: "Chromecast-google-tv-streamer"
-    releaselabel: "Google TV Streamer (4K)"
-    releaseDate: 2024-08-06
+  - releaseCycle: "Chromecast-2"
+    releaselabel: "Chromecast 2nd gen"
+    releaseDate: 2015-09-25
     eol: false
-    latest: "UTTK.250729.004"
-    discontinued: false
+    latest: "1.56.467165"
+    discontinued: true
+  - releaseCycle: "Chromecast-1"
+    releaselabel: "Chromecast 1st gen"
+    releaseDate: 2013-07-24
+    eol: true
+    latest: "1.36.159268"
+    discontinued: true
 ---
 
 > [Google Chromecast](https://en.wikipedia.org/wiki/Chromecast) is a line of digital media players that were developed by Google from 2013 to 2024.
