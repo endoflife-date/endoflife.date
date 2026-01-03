@@ -2,7 +2,7 @@
 title: Chromecast
 addedAt: 2026-01-02
 category: device
-tags: device google
+tags: google
 permalink: /chromecast
 
 identifiers:
