@@ -6,7 +6,7 @@ tags: device google
 permalink: /chromecast
 
 identifiers:
-  - cpe: cpe:2.3:h:google:chromecast:*:*:*:*:*:*:*:*
+  - cpe: cpe:2.3:h:google:chromecast
 
 releases:
   - releaseCycle: "chromecast-google-tv-streamer"
