@@ -10,49 +10,49 @@ identifiers:
 
 releases:
   - releaseCycle: "Chromecast-google-tv-streamer"
-    releaselabel: "Google TV Streamer (4K)"
+    releaseLabel: "Google TV Streamer (4K)"
     releaseDate: 2024-08-06
     eol: false
     latest: "UTTK.250729.004"
     discontinued: false
   - releaseCycle: "Chromecast-google-tv-hd"
-    releaselabel: "Chromecast w/Google TV (HD)"
+    releaseLabel: "Chromecast w/Google TV (HD)"
     releaseDate: 2022-09-22
     eol: false
     latest: "UTTC.250917.004"
     discontinued: true
+  - releaseCycle: "Chromecast-google-tv-4k"
+    releaseLabel: "Chromecast w/Google TV (4K)"
+    releaseDate: 2020-09-30
+    eol: false
+    latest: "UTTC.250917.004"
+    discontinued: true
   - releaseCycle: "Chromecast-3"
-    releaselabel: "Chromecast 3rd gen"
+    releaseLabel: "Chromecast 3rd gen"
     releaseDate: 2018-10-10
     eol: false
     latest: "1.56.291998"
     discontinued: true
   - releaseCycle: "Chromecast-Ultra"
-    releaselabel: "Chromecast Ultra"
+    releaseLabel: "Chromecast Ultra"
     releaseDate: 2016-11-06
     eol: false
     latest: "1.56.469779"
     discontinued: true
-  - releaseCycle: "Chromecast-google-tv-4k"
-    releaselabel: "Chromecast w/Google TV (4K)"
-    releaseDate: 2020-09-30
-    eol: false
-    latest: "UTTC.250917.004"
-    discontinued: true
   - releaseCycle: "Chromecast-audio"
-    releaselabel: "Chromecast Audio"
+    releaseLabel: "Chromecast Audio"
     releaseDate: 2015-09-29
     eol: false
     latest: "1.56.467166"
     discontinued: true
   - releaseCycle: "Chromecast-2"
-    releaselabel: "Chromecast 2nd gen"
+    releaseLabel: "Chromecast 2nd gen"
     releaseDate: 2015-09-25
     eol: false
     latest: "1.56.467165"
     discontinued: true
   - releaseCycle: "Chromecast-1"
-    releaselabel: "Chromecast 1st gen"
+    releaseLabel: "Chromecast 1st gen"
     releaseDate: 2013-07-24
     eol: true
     latest: "1.36.159268"
