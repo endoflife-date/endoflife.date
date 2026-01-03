@@ -1,5 +1,5 @@
 ---
-title: Chromecast
+title: Google Chromecast
 addedAt: 2026-01-02
 category: device
 tags: google
