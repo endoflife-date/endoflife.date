@@ -4,6 +4,7 @@ addedAt: 2026-01-02
 category: device
 tags: google
 permalink: /chromecast
+discontinuedColumn: true
 
 identifiers:
   - cpe: cpe:2.3:h:google:chromecast
