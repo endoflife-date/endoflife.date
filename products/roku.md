@@ -12,34 +12,34 @@ identifiers:
   - cpe: cpe:2.3:h:roku:roku_tv
 
 releases:
-- releaseCycle: "roku-e000x"
-    releaseLabel: "8k Roku TV E000X"
-    releaseDate: 2021-08-08=9
-    eol: true
-    latest: "13.1"
-    discontinued: true
-    codename: Bandera
-- releaseCycle: "roku-ultra-4660x"
-    releaseLabel: "Roku Ultra 4660X"
-    releaseDate: 2016-09-26
-    eol: false
-    latest: "15.0"
-    discontinued: true
-    codename: Bryan
-- releaseCycle: "roku-2-4210x"
-    releaseLabel: "Roku 2 4210X"
-    releaseDate: 2013-09-23
-    eol: false
-    latest: "15.0"
-    discontinued: 2016-10-01
-    codename: Mustang
-- releaseCycle: "roku-n1000"
-    releaseLabel: "Roku DVP N1000"
-    releaseDate: 2008-05-01
-    eol: true
-    latest: "3.1"
-    discontinued: true
-    codename: Griffin
+  - releaseCycle: "roku-e000x"
+      releaseLabel: "8k Roku TV E000X"
+      releaseDate: 2021-08-08=9
+      eol: true
+      latest: "13.1"
+      discontinued: true
+      codename: Bandera
+  - releaseCycle: "roku-ultra-4660x"
+      releaseLabel: "Roku Ultra 4660X"
+      releaseDate: 2016-09-26
+      eol: false
+      latest: "15.0"
+      discontinued: true
+      codename: Bryan
+  - releaseCycle: "roku-2-4210x"
+      releaseLabel: "Roku 2 4210X"
+      releaseDate: 2013-09-23
+      eol: false
+      latest: "15.0"
+      discontinued: 2016-10-01
+      codename: Mustang
+  - releaseCycle: "roku-n1000"
+      releaseLabel: "Roku DVP N1000"
+      releaseDate: 2008-05-01
+      eol: true
+      latest: "3.1"
+      discontinued: true
+      codename: Griffin
 
 ---
 
