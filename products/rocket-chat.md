@@ -51,15 +51,15 @@ releases:
     releaseDate: 2025-09-04
     eoas: 2025-09-04
     eol: 2026-06-30
-    latest: "7.10.5"
-    latestReleaseDate: 2025-11-25
+    latest: "7.10.6"
+    latestReleaseDate: 2025-12-30
 
   - releaseCycle: "7.9"
     releaseDate: 2025-07-29
     eoas: 2025-07-29
     eol: 2026-01-31
-    latest: "7.9.6"
-    latestReleaseDate: 2025-11-21
+    latest: "7.9.7"
+    latestReleaseDate: 2026-01-02
 
   - releaseCycle: "7.8"
     releaseDate: 2025-07-08

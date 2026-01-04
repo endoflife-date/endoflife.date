@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "9.12"
     releaseDate: 2024-11-15
-    eoas: true
+    eoas: false
     eol: false
     latest: "9.12.3"
     latestReleaseDate: 2025-12-27
@@ -113,7 +113,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.4.4"
-    latestReleaseDate: 2018-05-29
+    latestReleaseDate: 2018-10-14
     link: https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/8.4.4-notes.html
 
   - releaseCycle: "8.2"
