@@ -7,7 +7,7 @@ permalink: /ckeditor
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
 eolColumn: Support
 eoesColumn: true
-staleReleaseThresholdDays: 30 # so that maintainers are reminded to manually update the latest version frequently
+staleReleaseThresholdDays: 40 # so that maintainers are reminded to manually update the latest version frequently
 
 identifiers:
   - repology: ckeditor

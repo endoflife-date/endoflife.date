@@ -34,12 +34,19 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-tab-a11+"
+    releaseLabel: "Galaxy Tab A11+"
+    releaseDate: 2025-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    eoas: 2031-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    eol: 2031-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    link: null # unknown
+
   - releaseCycle: "galaxy-tab-a11"
     releaseLabel: "Galaxy Tab A11"
     releaseDate: 2025-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
     eoas: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
     eol: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
-    link: null # unknown
+    link: https://doc.samsungmobile.com/SM-X133/XSP/doc.html
 
   - releaseCycle: "galaxy-tab-s11-ultra"
     releaseLabel: "Galaxy Tab S11 Ultra"
