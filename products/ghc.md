@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: ghc --version
 releasePolicyLink: https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
 changelogTemplate: https://downloads.haskell.org/ghc/__LATEST__/docs/users_guide/__LATEST__-notes.html
-
 eoasColumn: Further releases planned
 eolColumn: Recommended for use
 
@@ -48,6 +47,7 @@ releases:
     latestReleaseDate: 2025-09-11
 
   - releaseCycle: "9.8"
+    staleReleaseThresholdDays: 500 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
     releaseDate: 2023-10-09
     eoas: true
     eol: false
