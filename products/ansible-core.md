@@ -42,7 +42,7 @@ auto:
         releaseCycle: "Version"
         releaseDate:
           column: "Support"
-          regex: '^GA:\s+(?P<value>\d+ \w+ \d+).*$'
+          regex: '^GA:\s+(?P<value>(\d+ )?\w+ \d+).*$'
         eol:
           column: "End Of Life"
           regex: '^(EOL\s*)?(?P<value>.+)$'
