@@ -5,8 +5,6 @@ category: server-app
 tags: cncf linux-foundation
 iconSlug: knative
 permalink: /knative
-alternate_urls:
-  - /kn
 versionCommand: kn version
 releasePolicyLink: https://github.com/knative/community/blob/main/mechanics/RELEASE-SCHEDULE.md
 changelogTemplate: https://github.com/knative/serving/releases/tag/knative-v__LATEST__
