@@ -13,8 +13,8 @@ eolColumn: Support
 customFields:
   - name: minK8sVersion
     display: after-latest-column
-    label: Min K8s Version
-    description: Minimum required Kubernetes version
+    label: Minimum Supported Kubernetes
+    description: Minimum Required Kubernetes Version
 
 identifiers:
   - repology: knative
@@ -25,6 +25,7 @@ auto:
     - git: https://github.com/knative/serving.git
 
 # eol(X) = releaseDate(X+2) + 1 week
+# releaseDate(x) = Tuesday of the 4th week in January, April, July, and October.
 releases:
   - releaseCycle: "1.20"
     releaseDate: 2025-10-21
