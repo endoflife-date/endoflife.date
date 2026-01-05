@@ -235,7 +235,7 @@ releases:
 > [Knative](https://knative.dev) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads.
 
 
-The end-of-life (EOL) date for a given release is calculated by taking the release date of the n+2 release and adding one week to it. This means that at any given time, the two most recent minor versions are supported.
+Only the latest 2 releases are supported. Each release receives approximately 9 months of community support.
 
 ## [Release Cadence](https://github.com/knative/community/blob/main/mechanics/RELEASE-SCHEDULE.md)
 
