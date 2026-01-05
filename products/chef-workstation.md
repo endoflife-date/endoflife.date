@@ -28,6 +28,7 @@ releases:
 
   - releaseCycle: "24"
     releaseLabel: "2024"
+    staleReleaseThresholdDays: 540 # Still listed on https://docs.chef.io/versions/#supported-commercial-distributions
     releaseDate: 2024-02-07
     eoas: false
     eol: false

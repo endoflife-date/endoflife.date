@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "4.2"
     releaseDate: 2025-11-11
     eol: false # releaseDate(4.3) + 3 months
-    latest: "4.2.1"
-    latestReleaseDate: 2025-12-12
+    latest: "4.2.2"
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-24
@@ -40,8 +40,8 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-03-29
     eol: 2025-12-24 # releaseDate(4.1) + 3 months
-    latest: "4.0.13"
-    latestReleaseDate: 2025-10-16
+    latest: "4.0.14"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "3.2"
     releaseDate: 2024-11-12

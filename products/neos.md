@@ -20,6 +20,13 @@ auto:
 
 # Dates available at https://www.neos.io/features/release-process.html.
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2025-12-17
+    eoas: 2027-04-01
+    eol: 2028-04-01
+    latest: "9.1.1"
+    latestReleaseDate: 2025-12-17
+
   - releaseCycle: "8.4"
     releaseDate: 2025-10-10
     lts: true
@@ -90,7 +97,7 @@ Neos releases follow Semantic Versioning, and the team strives for a regular Neo
 
 ## [PHP Support](https://docs.neos.io/guide/installation-development-setup/system-requirements)
 
-| Version | PHP       |
-| ------- | --------- |
-| 8.x     | 8.0 - 8.3 |
-| 7.3     | 7.3 - 8.1 |
+| Version   |    PHP    |
+| ------- --| --------- |
+| 9.x       | 8.2 - 8.5 |
+| 8.3 (LTS) | 8.0 - 8.3 |

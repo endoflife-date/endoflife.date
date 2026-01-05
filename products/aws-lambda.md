@@ -52,6 +52,7 @@ releases:
 
   - releaseCycle: "dotnet9"
     releaseLabel: ".NET 9 (container only)"
+    staleReleaseThresholdDays: 540 # Still "not scheduled" on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
     releaseDate: 2024-12-09
     eoas: 2026-11-10
     eol: false
