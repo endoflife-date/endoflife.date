@@ -239,4 +239,6 @@ Only the latest 2 releases are supported. Each release receives approximately 9 
 
 ## [Release Cadence](https://github.com/knative/community/blob/main/mechanics/RELEASE-SCHEDULE.md)
 
-A new minor release occurs every three months (quarterly). Patch releases are made available on an as-needed basis for the supported versions.
+A new minor release occurs every three months (quarterly). 
+New minor versions are released on the Tuesday of the 4th week in January, April, July, and October.
+Patch releases are made available on an as-needed basis for the supported versions.
