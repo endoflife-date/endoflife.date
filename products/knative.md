@@ -237,7 +237,7 @@ releases:
 
 Only the latest 2 releases are supported. Each release receives approximately 9 months of community support.
 
-## [Release Cadence](https://github.com/knative/community/blob/main/mechanics/RELEASE-SCHEDULE.md)
+## Release Cadence
 
 A new minor release occurs every three months (quarterly). 
 New minor versions are released on the Tuesday of the 4th week in January, April, July, and October.
