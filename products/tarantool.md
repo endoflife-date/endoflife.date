@@ -137,8 +137,7 @@ more long-time support series. This document explains the new release policy, ve
 [release series](https://www.tarantool.io/en/doc/latest/release/policy/#term-Release-series)
 lifecycle.
 
-The new release policy replaces the [legacy policy](https://www.tarantool.io/en/doc/latest/release/legacy-policy/)
-for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
+The new release policy replaces the legacy policy for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
 
 Here are the most significant changes from the legacy release policy:
 
@@ -148,4 +147,4 @@ Here are the most significant changes from the legacy release policy:
 - In the legacy release policy, `1.10` was a long-term support (LTS) series, while `2.x.y` had
   stable releases, but wasn’t an LTS series. Now both series are long-term supported.
 
-[2.11](https://www.tarantool.io/en/doc/latest/release/2.11.0/) is the long-term support (LTS) release with four years of maintenance.
+2.11 is the long-term support (LTS) release with four years of maintenance.
