@@ -10,11 +10,11 @@ eolColumn: Supported
 releaseDateColumn: true
 
 identifiers:
--   repology: authentik
--   purl: pkg:github/goauthentik/authentik
--   purl: pkg:docker/authentik/server
--   cpe: cpe:/a:goauthentik:authentik
--   cpe: cpe:2.3:a:goauthentik:authentik
+  - repology: authentik
+  - purl: pkg:github/goauthentik/authentik
+  - purl: pkg:docker/authentik/server
+  - cpe: cpe:/a:goauthentik:authentik
+  - cpe: cpe:2.3:a:goauthentik:authentik
 
 auto:
   methods:
@@ -47,8 +47,32 @@ releases:
     latest: "2025.4.4"
     latestReleaseDate: 2025-07-22
 
+  - releaseCycle: "2024.12"
+    releaseDate: 2024-12-19
+    eol: 2025-04-30
+    latest: "2024.12.5"
+    latestReleaseDate: 2025-04-08
+
+  - releaseCycle: "2023.10"
+    releaseDate: 2023-10-26
+    eol: 2024-04-24
+    latest: "2023.10.7"
+    latestReleaseDate: 2024-01-29
+
+  - releaseCycle: "2022.12"
+    releaseDate:  2022-12-28
+    eol: 2023-02-14
+    latest: "2022.12.3"
+    latestReleaseDate: 2023-03-2
+
+  - releaseCycle: "2021.12"
+    releaseDate:  2021-12-16
+    eol: 2022-02-16
+    latest: "2021.12.5"
+    latestReleaseDate: 2022-01-06
+
 ---
 
 > [authentik](https://goauthentik.io/) is an open source identity provider and single sign on platform.
 
-The current released version and one version back gets security fixes. There is a new release every 2 months.
+The current released version and one version back gets security fixes. There is a new release about every 2 months.
