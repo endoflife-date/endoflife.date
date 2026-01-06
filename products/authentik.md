@@ -63,7 +63,7 @@ releases:
     releaseDate:  2022-12-28
     eol: 2023-02-14
     latest: "2022.12.3"
-    latestReleaseDate: 2023-03-2
+    latestReleaseDate: 2023-03-02
 
   - releaseCycle: "2021.12"
     releaseDate:  2021-12-16
