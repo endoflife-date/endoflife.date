@@ -17,30 +17,31 @@ identifiers:
 -   cpe: cpe:2.3:a:goauthentik:authentik
 
 auto:
--   git: https://github.com/goauthentik/authentik.git
-    regex: ^version\/(?P<major>\d+).(?P<minor>\d+).(?P<patch>\d+)$
+  methods:
+    - git: https://github.com/goauthentik/authentik.git
+      regex: ^version\/(?P<major>\d+).(?P<minor>\d+).(?P<patch>\d+)$
 
 # eol(x) = release(x+1)
 releases:
--   releaseCycle: "2025.10"
+  - releaseCycle: "2025.10"
     releaseDate: 2025-10-27
     eol: false
     latest: "2025.10.3"
     latestReleaseDate: 2025-12-16
 
--   releaseCycle: "2025.8"
+  - releaseCycle: "2025.8"
     releaseDate: 2025-08-20
     eol: false
     latest: "2025.8.5"
     latestReleaseDate: 2025-11-19
 
--   releaseCycle: "2025.6"
+  - releaseCycle: "2025.6"
     releaseDate: 2025-06-03
     eol: 2025-10-27
     latest: "2025.6.4"
     latestReleaseDate: 2025-07-22
 
--   releaseCycle: "2025.4"
+  - releaseCycle: "2025.4"
     releaseDate: 2025-04-29
     eol: 2025-08-20
     latest: "2025.4.4"
