@@ -37,33 +37,40 @@ auto:
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
 releases:
+  - releaseCycle: "8.4"
+    releaseDate: 2025-11-18
+    eoas: false
+    eol: false
+    latest: "8.4.0"
+    latestReleaseDate: 2025-11-18
+
   - releaseCycle: "8.2"
     releaseDate: 2025-08-04
     eoas: false
     eol: false
-    latest: "8.2.2"
-    latestReleaseDate: 2025-10-03
+    latest: "8.2.3"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
     eoas: false
     eol: false
-    latest: "8.0.4"
-    latestReleaseDate: 2025-10-02
+    latest: "8.0.5"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: false
     eol: 2026-11-30
-    latest: "7.4.6"
-    latestReleaseDate: 2025-10-02
+    latest: "7.4.7"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
     eol: 2026-02-28
-    latest: "7.2.11"
-    latestReleaseDate: 2025-10-03
+    latest: "7.2.12"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.0"
     releaseDate: 2022-04-27
@@ -76,8 +83,8 @@ releases:
     releaseDate: 2021-02-22
     eoas: 2022-04-27
     eol: 2025-02-28
-    latest: "6.2.20"
-    latestReleaseDate: 2025-10-03
+    latest: "6.2.21"
+    latestReleaseDate: 2025-11-02
 
   - releaseCycle: "6.0"
     releaseDate: 2020-04-30

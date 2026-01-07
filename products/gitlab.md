@@ -20,38 +20,45 @@ auto:
   methods:
     - git: https://gitlab.com/gitlab-org/gitlab.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
-    - release_table: https://about.gitlab.com/releases/
-      fields:
-        releaseCycle: "Version"
-        releaseDate:
-          column: "Release Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
-# Upcoming release dates are available on https://about.gitlab.com/releases/
+# Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
 releases:
+  - releaseCycle: "18.7"
+    releaseDate: 2025-12-18
+    eoas: 2026-01-15 # releaseDate(18.8)
+    eol: 2026-03-19 # releaseDate(18.10)
+    latest: "18.7.0"
+    latestReleaseDate: 2025-12-17
+
+  - releaseCycle: "18.6"
+    releaseDate: 2025-11-20
+    eoas: 2025-12-18 # releaseDate(18.7)
+    eol: 2026-02-19 # releaseDate(18.9)
+    latest: "18.6.2"
+    latestReleaseDate: 2025-12-10
+
   - releaseCycle: "18.5"
     releaseDate: 2025-10-16
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
-    latest: "18.5"
-    latestReleaseDate: 2025-10-16
+    latest: "18.5.4"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
     eoas: 2025-10-16 # releaseDate(18.5)
     eol: 2025-12-18 # releaseDate(18.7)
-    latest: "18.4.2"
-    latestReleaseDate: 2025-10-08
+    latest: "18.4.6"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
     eol: 2025-11-20 # releaseDate(18.6)
-    latest: "18.3.4"
-    latestReleaseDate: 2025-10-08
+    latest: "18.3.6"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "18.2"
     releaseDate: 2025-07-16
@@ -446,10 +453,11 @@ public Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 The previous two minor (monthly) releases get security fixes.
 Critical bug fixes can rarely be backported based on [a set of criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
 
-| Version Type | Description                                                                                                                                                     | Cadence                                                                                                                           |
-| :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default.               |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://about.gitlab.com/releases/)). |
-| Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                                                                        |
+| Version Type | Description                                                                                                                                                         | Cadence                                                                                                                           |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
+| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                                | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default.               |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.     | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/)). |
+| Patch        | For backward-compatible bug fixes that fix incorrect behavior. See GitLab's [Patch release](https://docs.gitlab.com/policy/maintenance/#patch-releases) definition. | Twice monthly, scheduled for the Wednesday the week before and the Wednesday the week after the monthly minor release.            |
+
 
 [release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"

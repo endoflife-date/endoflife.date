@@ -24,33 +24,40 @@ auto:
     - php: https://www.php.net/releases/index.php?json&max=-1
 
 releases:
+  - releaseCycle: "8.5"
+    releaseDate: 2025-11-20
+    eoas: 2027-12-31
+    eol: 2029-12-31
+    latest: "8.5.1"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
-    latest: "8.4.13"
-    latestReleaseDate: 2025-09-25
+    latest: "8.4.16"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.26"
-    latestReleaseDate: 2025-09-25
+    latest: "8.3.29"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
-    latest: "8.2.29"
-    latestReleaseDate: 2025-07-03
+    latest: "8.2.30"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.1"
     releaseDate: 2021-11-25
     eoas: 2023-11-25
     eol: 2025-12-31
-    latest: "8.1.33"
-    latestReleaseDate: 2025-07-03
+    latest: "8.1.34"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.0"
     releaseDate: 2020-11-26

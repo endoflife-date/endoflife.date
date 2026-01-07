@@ -19,21 +19,29 @@ auto:
     - typo3: https://get.typo3.org/api/v1/release/
 
 releases:
+  - releaseCycle: "14"
+    releaseDate: 2025-11-25
+    eoas: 2027-12-31
+    eol: 2029-06-30
+    eoes: 2032-06-30
+    latest: "14.0.1"
+    latestReleaseDate: 2025-12-02
+
   - releaseCycle: "13"
     releaseDate: 2024-01-30
-    eoas: 2026-04-30
-    eol: 2027-10-31
-    eoes: 2030-10-31
-    latest: "13.4.19"
-    latestReleaseDate: 2025-10-14
+    eoas: 2026-06-30
+    eol: 2027-12-31
+    eoes: 2030-12-31
+    latest: "13.4.22"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "12"
     releaseDate: 2022-10-04
     eoas: 2024-10-31
     eol: 2026-04-30
     eoes: 2029-04-30
-    latest: "12.4.38"
-    latestReleaseDate: 2025-10-14
+    latest: "12.4.40"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "11"
     releaseDate: 2020-12-22
@@ -85,9 +93,10 @@ releases:
 
 | Version | PHP                                                                 |
 | ------- | ------------------------------------------------------------------- |
-| 13      | [8.2 - 8.3](https://get.typo3.org/version/13#system-requirements)   |
-| 12      | [8.1 - 8.3](https://get.typo3.org/version/12#system-requirements)   |
-| 11      | [7.4.1 - 8.2](https://get.typo3.org/version/11#system-requirements) |
+| 14      | [8.2 - 8.5](https://get.typo3.org/version/14#system-requirements)   |
+| 13      | [8.2 - 8.5](https://get.typo3.org/version/13#system-requirements)   |
+| 12      | [8.1 - 8.4](https://get.typo3.org/version/12#system-requirements)   |
+| 11      | [7.4.1 - 8.3](https://get.typo3.org/version/11#system-requirements) |
 | 10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)   |
 | 9       | 7.2 - 8.1                                                           |
 | 8       | 7.0 - 7.4                                                           |

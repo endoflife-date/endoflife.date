@@ -6,7 +6,7 @@ tags: java-runtime
 permalink: /ovirt
 releasePolicyLink: https://blogs.ovirt.org/2022/04/ovirt-4-4-end-of-life/
 changelogTemplate: https://github.com/oVirt/ovirt-engine/releases/tag/ovirt-engine-__LATEST__
-staleReleaseThresholdYears: 2
+staleReleaseThresholdDays: 730 # looks like there are not much releases
 
 auto:
   methods:
@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "4.5"
     releaseDate: 2022-03-16
     eol: false
-    latest: "4.5.6"
-    latestReleaseDate: 2024-02-12
+    latest: "4.5.7"
+    latestReleaseDate: 2025-12-17
 
   - releaseCycle: "4.4"
     releaseDate: 2020-05-06
@@ -56,6 +56,7 @@ releases:
     eol: 2016-06-23
     latest: "3.6.13.5"
     latestReleaseDate: 2018-05-25
+
 ---
 
 > [oVirt](https://www.ovirt.org/) is an open-source

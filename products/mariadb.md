@@ -51,7 +51,7 @@ auto:
         - ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
         - ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
         - ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>12)\.(?P<minor>[0])\.(?P<patch>([1-9]|\d{2}))$
+        - ^mariadb-(?P<major>12)\.(?P<minor>[0-1])\.(?P<patch>([2-9]|\d{2}))$
     - release_table: https://mariadb.org/about/#maintenance-policy
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -63,9 +63,16 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+  - releaseCycle: "12.1"
+    releaseDate: 2025-11-18
+    eol: 2026-02-18 #estimated 
+    latest: "12.1.2"
+    latestReleaseDate: 2025-11-18
+    link: https://mariadb.com/docs/release-notes/community-server/12.1/__LATEST__
+
   - releaseCycle: "12.0"
-    releaseDate: 2025-06-05
-    eol: 2025-11-07
+    releaseDate: 2025-08-07
+    eol: 2025-11-18
     latest: "12.0.2"
     latestReleaseDate: 2025-08-07
     link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
@@ -75,8 +82,9 @@ releases:
     releaseDate: 2025-06-04
     eol: 2028-06-04
     eoes: 2033-10-15
-    latest: "11.8.3"
-    latestReleaseDate: 2025-08-06
+    latest: "11.8.5"
+    latestReleaseDate: 2025-11-14
+    link: https://mariadb.com/docs/release-notes/community-server/mariadb-11-8-series/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -104,8 +112,8 @@ releases:
     releaseDate: 2024-05-29
     eol: 2029-05-29
     eoes: 2033-01-16
-    latest: "11.4.8"
-    latestReleaseDate: 2025-08-06
+    latest: "11.4.9"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -140,8 +148,8 @@ releases:
     releaseDate: 2023-02-16
     eol: 2028-02-16
     eoes: 2028-02-16
-    latest: "10.11.14"
-    latestReleaseDate: 2025-08-06
+    latest: "10.11.15"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07
@@ -176,8 +184,8 @@ releases:
     releaseDate: 2021-07-06
     eol: 2026-07-06
     eoes: 2029-08-23
-    latest: "10.6.23"
-    latestReleaseDate: 2025-08-06
+    latest: "10.6.24"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "10.5"
     lts: true

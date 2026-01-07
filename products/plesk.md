@@ -14,13 +14,25 @@ auto:
   methods:
     - plesk: https://docs.plesk.com/release-notes/obsidian/change-log
 
+identifiers:
+  - purl: pkg:docker/plesk/plesk
+  - cpe: cpe:/a:plesk:plesk
+  - cpe: cpe:2.3:a:plesk:plesk
+
+
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+  - releaseCycle: "18.0.74"
+    releaseDate: 2025-11-11
+    eol: 2026-02-03
+    latest: "18.0.74.3"
+    latestReleaseDate: 2025-12-08
+
   - releaseCycle: "18.0.73"
     releaseDate: 2025-09-30
     eol: 2025-12-23
-    latest: "18.0.73.3"
-    latestReleaseDate: 2025-10-13
+    latest: "18.0.73.5"
+    latestReleaseDate: 2025-11-25
 
   - releaseCycle: "18.0.72"
     releaseDate: 2025-08-19

@@ -22,6 +22,15 @@ auto:
 # EOL dates documented on https://mxlinux.org/previous-releases/.
 # If not documented yet, use Debian eol for support, and eoes for eol.
 releases:
+  - releaseCycle: "25"
+    codename: "Infinity"
+    releaseDate: 2025-11-09
+    eoas: 2028-08-31
+    eol: 2030-06-30
+    latest: "25"
+    latestReleaseDate: 2025-11-09
+    link: https://mxlinux.org/blog/mx-25-infinity-isos-now-available/
+
   - releaseCycle: "23"
     codename: "Libretto"
     releaseDate: 2023-07-31

@@ -12,12 +12,17 @@ auto:
     - git: https://github.com/phpro/grumphp.git
       regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
+identifiers:
+  - repology: grumphp
+  - purl: pkg:composer/phpro/grumphp
+  - purl: pkg:github/phpro/grumphp
+
 releases:
   - releaseCycle: "2"
     releaseDate: 2023-06-18
     eol: false
-    latest: "2.16.0"
-    latestReleaseDate: 2025-10-14
+    latest: "2.18.0"
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "1"
     releaseDate: 2020-09-25

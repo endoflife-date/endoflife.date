@@ -16,7 +16,8 @@ auto:
     - git: https://github.com/ruby/ruby.git
       # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
       # The meaning of patch and tiny below is as per the new policy
-      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
+      # Starting with 4.0, the tags use dots instead of underscores
+      regex: ^v(?P<major>\d+)(_|\.)(?P<minor>\d+)(_|\.)(?P<patch>\d{1,3})(_|\.)?(?P<tiny>\d+)?$
       template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}"
 
 identifiers:
@@ -25,17 +26,24 @@ identifiers:
   - purl: pkg:generic/ruby
 
 releases:
+  - releaseCycle: "4.0"
+    releaseDate: 2025-12-25
+    eol: 2029-03-31
+    latest: "4.0.0"
+    latestReleaseDate: 2025-12-25
+    link: https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/
+
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.7"
-    latestReleaseDate: 2025-10-07
+    latest: "3.4.8"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.9"
-    latestReleaseDate: 2025-07-24
+    latest: "3.3.10"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25

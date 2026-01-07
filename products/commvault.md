@@ -13,7 +13,7 @@ auto:
       fields:
         releaseCycle:
           column: "Release"
-          regex: '^.+ (?P<value>\d+\.\d+)\)?$'
+          regex: '^.+ \(?(?P<value>\d+\.\d+)\)?$'
         releaseDate: "Initial release date"
         eol: "End-of-life date"
         latest: "Latest maintenance release"
@@ -23,16 +23,16 @@ releases:
   - releaseCycle: "11.42"
     releaseDate: 2025-07-14
     eol: 2026-07-15
-    latest: "11.42.25"
-    latestReleaseDate: 2025-09-15
+    latest: "11.42.40"
+    latestReleaseDate: 2025-11-17
     link: https://documentation.commvault.com/11.42/software/list_of_innovation_update_releases_in_11_42.html
 
   - releaseCycle: "11.40"
     lts: true
     releaseDate: 2025-06-15
     eol: 2027-12-15
-    latest: "11.40.22"
-    latestReleaseDate: 2025-10-08
+    latest: "11.40.30"
+    latestReleaseDate: 2025-12-02
     link: https://documentation.commvault.com/11.40/essential/list_of_maintenance_releases_in_11_40.html
 
   - releaseCycle: "11.38"
@@ -47,8 +47,8 @@ releases:
     releaseLabel: "2024E"
     releaseDate: 2024-08-15
     eol: 2027-06-15
-    latest: "11.36.76"
-    latestReleaseDate: 2025-10-08
+    latest: "11.36.83"
+    latestReleaseDate: 2025-12-02
     link: https://documentation.commvault.com/2024e/essential/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
 
   - releaseCycle: "11.32"
@@ -56,8 +56,8 @@ releases:
     releaseLabel: "2023E"
     releaseDate: 2023-08-15
     eol: 2026-06-15
-    latest: "11.32.119"
-    latestReleaseDate: 2025-10-08
+    latest: "11.32.125"
+    latestReleaseDate: 2025-12-02
     link: https://documentation.commvault.com/v11/software/list_of_maintenance_releases_for_commvault_platform_release_2023e.html
 
 ---

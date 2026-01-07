@@ -21,17 +21,24 @@ auto:
 
 # Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
+  - releaseCycle: "9.0"
+    releaseDate: 2025-10-21
+    eoas: 2028-10-21
+    eol: 2028-10-21
+    latest: "9.0.1"
+    latestReleaseDate: 2025-12-09
+
   - releaseCycle: "8.1"
     releaseDate: 2025-03-31
-    eoas: false # not yet documented on https://valkey.io/topics/releases/
-    eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.1.4"
-    latestReleaseDate: 2025-10-03
+    eoas: 2028-03-31
+    eol: 2030-03-31
+    latest: "8.1.5"
+    latestReleaseDate: 2025-12-04
 
   - releaseCycle: "8.0"
     releaseDate: 2024-09-15
     eoas: 2027-09-15
-    eol: false # not yet documented on https://valkey.io/topics/releases/
+    eol: 2027-09-15
     latest: "8.0.6"
     latestReleaseDate: 2025-10-03
 

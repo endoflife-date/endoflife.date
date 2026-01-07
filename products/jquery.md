@@ -7,7 +7,6 @@ iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
-staleReleaseThresholdYears: 4
 
 identifiers:
   - purl: pkg:github/jquery/jquery
@@ -25,6 +24,7 @@ auto:
 
 releases:
   - releaseCycle: "3"
+    staleReleaseThresholdDays: 1095 # see https://github.com/jquery/jquery?tab=security-ov-file#supported-versions
     releaseDate: 2016-06-09
     eol: false
     latest: "3.7.1"

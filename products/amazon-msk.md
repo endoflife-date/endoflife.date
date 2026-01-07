@@ -12,8 +12,9 @@ alternate_urls:
 releasePolicyLink: https://docs.aws.amazon.com/msk/latest/developerguide/version-support.html
 changelogTemplate: "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html#{{'__LATEST__' | replace:'.x',''}}"
 eolColumn: Support
-staleReleaseThresholdYears: 3
+staleReleaseThresholdDays: 1000 # confirmed on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html
 
+# eol are documented on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html.
 releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-05-16

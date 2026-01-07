@@ -12,7 +12,6 @@ versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
-staleReleaseThresholdYears: 2
 
 customFields:
   - name: supportedPhpVersions
@@ -36,29 +35,30 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Remember to document the codename in the product's description when adding a new major version (codename only changes per major version release).
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
+# Supported PHP Versions are listed here: https://github.com/cakephp/cakephp/wiki#version-map
 releases:
   - releaseCycle: "5.2"
     codename: "Chiffon"
     releaseDate: 2025-03-29
-    supportedPhpVersions: 8.1+
+    supportedPhpVersions: 8.1 - 8.5
     eoas: false
     eol: false
-    latest: "5.2.8"
-    latestReleaseDate: 2025-09-23
+    latest: "5.2.10"
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "4.6"
     codename: "Strawberry"
     releaseDate: 2025-03-22
-    supportedPhpVersions: 7.4+
+    supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-09-09
     eol: 2026-09-09
-    latest: "4.6.2"
-    latestReleaseDate: 2025-07-26
+    latest: "4.6.3"
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "5.1"
     codename: "Chiffon"
     releaseDate: 2024-09-13
-    supportedPhpVersions: 8.1+
+    supportedPhpVersions: 8.1 - 8.5
     eoas: 2025-03-30
     eol: false
     latest: "5.1.6"
@@ -67,7 +67,7 @@ releases:
   - releaseCycle: "4.5"
     codename: "Strawberry"
     releaseDate: 2023-10-14
-    supportedPhpVersions: 7.4+
+    supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-03-23
     eol: 2026-09-09
     latest: "4.5.10"
@@ -75,8 +75,9 @@ releases:
 
   - releaseCycle: "5.0"
     codename: "Chiffon"
+    staleReleaseThresholdDays: 500 # not EOL on https://github.com/cakephp/cakephp/wiki
     releaseDate: 2023-09-09
-    supportedPhpVersions: 8.1+
+    supportedPhpVersions: 8.1 - 8.3
     eoas: 2024-09-14
     eol: false
     latest: "5.0.11"
@@ -85,7 +86,7 @@ releases:
   - releaseCycle: "4.4"
     codename: "Strawberry"
     releaseDate: 2022-06-06
-    supportedPhpVersions: 7.4+
+    supportedPhpVersions: 7.4 - 8.2
     eoas: 2023-10-15
     eol: 2026-09-09
     latest: "4.4.18"
@@ -94,7 +95,7 @@ releases:
   - releaseCycle: "4.3"
     codename: "Strawberry"
     releaseDate: 2021-10-23
-    supportedPhpVersions: 7.2+
+    supportedPhpVersions: 7.2 - 8.1
     eoas: 2022-06-07
     eol: 2026-09-09
     latest: "4.3.11"
@@ -112,7 +113,7 @@ releases:
   - releaseCycle: "4.2"
     codename: "Strawberry"
     releaseDate: 2020-12-20
-    supportedPhpVersions: 7.2+
+    supportedPhpVersions: 7.2 - 8.1
     eoas: 2021-10-24
     eol: 2023-10-14
     latest: "4.2.12"
@@ -121,7 +122,7 @@ releases:
   - releaseCycle: "4.1"
     codename: "Strawberry"
     releaseDate: 2020-07-04
-    supportedPhpVersions: 7.2+
+    supportedPhpVersions: 7.2 - 7.4
     eoas: 2020-12-21
     eol: true
     latest: "4.1.7"
@@ -139,7 +140,7 @@ releases:
   - releaseCycle: "4.0"
     codename: "Strawberry"
     releaseDate: 2019-12-15
-    supportedPhpVersions: 7.2+
+    supportedPhpVersions: 7.2 - 7.4
     eoas: 2020-07-05
     eol: true
     latest: "4.0.10"

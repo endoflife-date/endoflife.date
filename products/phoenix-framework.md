@@ -7,10 +7,10 @@ permalink: /phoenix-framework
 alternate_urls:
   - /phoenix
   - /phoenixframework
-changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
+changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 eoasColumn: Bug Fixes
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1500 # https://github.com/phoenixframework/phoenix/security
 
 identifiers:
   - purl: pkg:hex/phoenix
@@ -27,8 +27,8 @@ releases:
     releaseDate: 2025-08-05
     eoas: false # releaseDate(1.9)
     eol: false # releaseDate(1.12)
-    latest: "1.8.1"
-    latestReleaseDate: 2025-08-28
+    latest: "1.8.3"
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "1.7"
     releaseDate: 2023-02-24

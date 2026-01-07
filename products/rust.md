@@ -22,9 +22,21 @@ identifiers:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.92"
+    releaseDate: 2025-12-11
+    eol: false
+    latest: "1.92.0"
+    latestReleaseDate: 2025-12-11
+
+  - releaseCycle: "1.91"
+    releaseDate: 2025-10-30
+    eol: 2025-12-11
+    latest: "1.91.1"
+    latestReleaseDate: 2025-11-10
+
   - releaseCycle: "1.90"
     releaseDate: 2025-09-18
-    eol: false
+    eol: 2025-10-30
     latest: "1.90.0"
     latestReleaseDate: 2025-09-18
 
@@ -393,6 +405,7 @@ releases:
     eol: 2018-10-26
     latest: "1.29.2"
     latestReleaseDate: 2018-10-12
+
 ---
 
 > [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming language
@@ -410,6 +423,7 @@ Editions are a mechanism for opt-in changes that may otherwise pose a backwards 
 Since editions are opt-in, existing crates won't use the changes unless they explicitly migrate to the new edition.
 Each crate chooses its edition within its Cargo.toml file.
 Editions are skin-deep, and as a result - you can always use an older edition alongside a supported version of the compiler.
+Editions are expected to be [released every three years](https://rust-lang.github.io/rfcs/3501-edition-2024.html).
 
 The following Rust editions exist:
 

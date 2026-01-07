@@ -17,6 +17,42 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: moto-g-2026
+    releaseLabel: "Moto G (2026)"
+    releaseDate: 2025-12-01
+    eol: 2028-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12431
+
+  - releaseCycle: moto-g57-power
+    releaseLabel: "Moto G57 Power"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12451
+
+  - releaseCycle: moto-g57
+    releaseLabel: "Moto G57"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12453
+
+  - releaseCycle: moto-g-play-2026
+    releaseLabel: "Moto G Play (2026)"
+    releaseDate: 2025-11-01
+    eol: 2028-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12428
+
+  - releaseCycle: motorola-edge-70
+    releaseLabel: "Motorola edge 70"
+    releaseDate: 2025-10-01
+    eol: 2031-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12433
+
+  - releaseCycle: moto-g67-power-5g
+    releaseLabel: "moto g67 power 5G"
+    releaseDate: 2025-09-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12403
+
   - releaseCycle: motorola-edge-60-neo
     releaseLabel: "Motorola edge 60 neo"
     releaseDate: 2025-09-01
@@ -82,6 +118,18 @@ releases:
     releaseDate: 2025-04-01
     eol: 2029-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12219
+
+  - releaseCycle: motorola-razr-60s
+    releaseLabel: "Motorola Razr 60s"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12402
+
+  - releaseCycle: motorola-razr-60d
+    releaseLabel: "Motorola Razr 60d"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12401
 
   - releaseCycle: motorola-razr+-2025
     releaseLabel: "Motorola Razr+ 2025"

@@ -23,29 +23,29 @@ releases:
   - releaseCycle: "3.10"
     releaseDate: 2025-02-16
     eol: false
-    latest: "3.10.4"
-    latestReleaseDate: 2025-08-20
+    latest: "3.10.7"
+    latestReleaseDate: 2025-12-08
     link: https://www.postfix.org/announcements/postfix-3.10.0.html
 
   - releaseCycle: "3.9"
     releaseDate: 2024-03-06
     eol: false
-    latest: "3.9.5"
-    latestReleaseDate: 2025-08-20
+    latest: "3.9.8"
+    latestReleaseDate: 2025-12-08
     link: https://www.postfix.org/announcements/postfix-3.9.2.html
 
   - releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
-    latest: "3.8.11"
-    latestReleaseDate: 2025-08-20
+    latest: "3.8.14"
+    latestReleaseDate: 2025-12-08
     link: https://www.postfix.org/announcements/postfix-3.9.2.html
 
   - releaseCycle: "3.7"
     releaseDate: 2022-02-06
     eol: false
-    latest: "3.7.16"
-    latestReleaseDate: 2025-08-20
+    latest: "3.7.19"
+    latestReleaseDate: 2025-12-08
     link: https://www.postfix.org/announcements/postfix-3.9.2.html
 
   - releaseCycle: "3.6"

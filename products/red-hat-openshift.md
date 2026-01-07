@@ -27,56 +27,63 @@ auto:
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
+  - releaseCycle: "4.20"
+    releaseDate: 2025-10-21
+    eoas: false # 4.21 GA + 3 months
+    eol: 2027-04-21
+    latest: "4.20.4"
+    latestReleaseDate: 2025-11-18
+
   - releaseCycle: "4.19"
     releaseDate: 2025-06-17
-    eoas: false # 4.19 GA + 3 months
+    eoas: 2026-01-21
     eol: 2026-12-17
-    latest: "4.19.15"
-    latestReleaseDate: 2025-10-07
+    latest: "4.19.18"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "4.18"
     releaseDate: 2025-02-25
     eoas: 2025-09-17
     eol: 2026-08-25
     eoes: 2027-02-25
-    latest: "4.18.25"
-    latestReleaseDate: 2025-10-01
+    latest: "4.18.28"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "4.17"
     releaseDate: 2024-10-01
     eoas: 2025-05-25
     eol: 2026-04-01
-    latest: "4.17.41"
-    latestReleaseDate: 2025-10-08
+    latest: "4.17.43"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "4.16"
     releaseDate: 2024-06-27
     eoas: 2025-01-01
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.49"
-    latestReleaseDate: 2025-10-01
+    latest: "4.16.52"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "4.15"
     releaseDate: 2024-02-27
     eoas: 2024-09-27
     eol: 2025-08-27
-    latest: "4.15.58"
-    latestReleaseDate: 2025-09-25
+    latest: "4.15.59"
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "4.14"
     releaseDate: 2023-10-31
     eoas: 2024-05-27
     eol: 2025-05-01
     eoes: 2025-10-31
-    latest: "4.14.57"
-    latestReleaseDate: 2025-09-25
+    latest: "4.14.58"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "4.13"
     releaseDate: 2023-05-17
     eoas: 2024-01-31
     eol: 2024-11-17
-    latest: "4.13.60"
+    latest: "4.13.61"
     latestReleaseDate: 2025-09-18
 
   - releaseCycle: "4.12"
@@ -84,8 +91,8 @@ releases:
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.80"
-    latestReleaseDate: 2025-09-11
+    latest: "4.12.82"
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "4.11"
     releaseDate: 2022-08-10

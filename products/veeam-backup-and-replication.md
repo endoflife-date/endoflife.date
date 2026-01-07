@@ -24,8 +24,8 @@ releases:
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
     link: https://www.veeam.com/kb4738
-    latest: "13.0.0.4967"
-    latestReleaseDate: 2025-09-03
+    latest: "13.0.1.1071"
+    latestReleaseDate: 2026-01-06
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
@@ -105,14 +105,14 @@ releases:
     eol: true
     link: "https://www.veeam.com/kb1442"
     latest: "6.0.0.181"
-    latestReleaseDate: 2011-12-14
+    latestReleaseDate: 2012-02-09
 
   - releaseCycle: "5.0"
     releaseDate: 2010-08-30
     eoas: true
     eol: true
-    latest: "5.0.0.179"
-    latestReleaseDate: 2010-08-30
+    latest: "5.0.2.230"
+    latestReleaseDate: 2011-04-11
 
   - releaseCycle: "4.0"
     releaseDate: 2009-10-29
@@ -125,22 +125,22 @@ releases:
     releaseDate: 2009-10-21
     eoas: true
     eol: true
-    latest: "3.0" # no information available
-    latestReleaseDate: 2009-10-21
+    latest: "3.0.1.251" # no information available
+    latestReleaseDate: 2009-03-16
 
   - releaseCycle: "2.0"
     releaseDate: 2008-07-30
     eoas: true
     eol: true
-    latest: "2.0" # no information available
-    latestReleaseDate: 2008-07-30
+    latest: "2.0.0.152" # no information available
+    latestReleaseDate: 2008-07-26
 
   - releaseCycle: "1.0"
     releaseDate: 2008-02-26
     eoas: true
     eol: true
-    latest: "1.0" # no information available
-    latestReleaseDate: 2008-02-26
+    latest: "1.0.1.76" # no information available
+    latestReleaseDate: 2008-03-21
 
 ---
 

@@ -51,8 +51,8 @@ releases:
     lts: true
     releaseDate: 2025-09-25
     eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
-    latest: "25+36"
-    latestReleaseDate: 2025-09-25
+    latest: "25.0.1+8"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31
@@ -76,29 +76,30 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
-    latest: "21.0.8+9"
-    latestReleaseDate: 2025-07-24
+    latest: "21.0.9+10"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.16+8"
-    latestReleaseDate: 2025-07-24
+    latest: "17.0.17+10"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: "11.0.28+6"
-    latestReleaseDate: 2025-07-24
+    latest: "11.0.29+7"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-30
-    latest: "8u462-b08"
-    latestReleaseDate: 2025-07-24
+    eol: 2030-12-31
+    latest: "8u472-b08"
+    latestReleaseDate: 2025-10-28
+
 ---
 
 > The [IBM Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/) are free

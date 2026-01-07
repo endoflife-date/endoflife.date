@@ -32,15 +32,15 @@ releases:
     releaseDate: 2025-10-08
     eol: false
     supportedKubernetesVersions: 1.31 - 1.33
-    latest: "2.18.0"
-    latestReleaseDate: 2025-10-08
+    latest: "2.18.3"
+    latestReleaseDate: 2025-12-22
 
   - releaseCycle: "2.17"
     releaseDate: 2025-04-07
     eol: false
     supportedKubernetesVersions: 1.30 - 1.32
-    latest: "2.17.2"
-    latestReleaseDate: 2025-06-18
+    latest: "2.17.3"
+    latestReleaseDate: 2025-12-22
 
   - releaseCycle: "2.16"
     releaseDate: 2024-11-07
@@ -167,6 +167,7 @@ releases:
     supportedKubernetesVersions: 1.13+
     latest: "1.5.0"
     latestReleaseDate: 2020-07-07
+
 ---
 
 > [KEDA](https://keda.sh/) is a Kubernetes-based Event Driven Autoscaler. With KEDA, you can drive

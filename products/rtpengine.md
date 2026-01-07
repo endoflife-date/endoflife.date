@@ -19,17 +19,30 @@ auto:
 
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
+  - releaseCycle: "14.0"
+    releaseDate: 2025-12-17
+    eol: 2026-02-28
+    latest: "14.0.1.1"
+    latestReleaseDate: 2025-12-09
+
+  - releaseCycle: "13.5"
+    lts: true
+    releaseDate: 2025-09-26
+    eol: 2028-09-28
+    latest: "13.5.1.3"
+    latestReleaseDate: 2025-12-19
+
   - releaseCycle: "13.4"
     releaseDate: 2025-06-27
     eol: 2025-09-26
-    latest: "13.4.1.9"
-    latestReleaseDate: 2025-10-06
+    latest: "13.4.1.10"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "13.3"
     releaseDate: 2025-05-14
     eol: 2025-06-27
-    latest: "13.3.1.15"
-    latestReleaseDate: 2025-10-06
+    latest: "13.3.1.16"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "13.2"
     releaseDate: 2025-02-21
@@ -53,8 +66,8 @@ releases:
     lts: true
     releaseDate: 2024-09-20
     eol: 2027-09-24
-    latest: "12.5.1.47"
-    latestReleaseDate: 2025-10-06
+    latest: "12.5.1.48"
+    latestReleaseDate: 2025-10-21
 
   - releaseCycle: "12.4"
     releaseDate: 2024-05-31
