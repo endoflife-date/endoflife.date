@@ -52,13 +52,13 @@ releases:
 
   - releaseCycle: "3.1"
     releaseDate: 2024-04-16
-    eol: 2026-04-16
+    eol: 2024-08-26
     latest: "3.1.2"
     latestReleaseDate: 2024-08-26
 
   - releaseCycle: "3.0"
     releaseDate: 2023-12-26
-    eol: 2025-12-26
+    eol: 2024-04-16
     latest: "3.0.2"
     latestReleaseDate: 2024-04-16
 
@@ -131,20 +131,7 @@ releases:
 > optimized Lua interpreter, cooperative multitasking and non-blocking IO, persistent queues,
 > sharding, and MySQL/PostgreSQL support.
 
-The Tarantool release policy is changing to become more clear and intuitive. The new policy uses a
-[SemVer-like](https://semver.org/) versioning format, and introduces a new version lifecycle with
-more long-time support series. This document explains the new release policy, versioning rules, and
-[release series](https://www.tarantool.io/en/doc/latest/release/policy/#term-Release-series)
-lifecycle.
-
-The new release policy replaces the legacy policy for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
-
-Here are the most significant changes from the legacy release policy:
-
-- The third number in the version label doesn’t distinguish between pre-release (alpha and beta) and
-  release versions. Instead, it is used for patch (bugfix-only) releases. Pre-release versions have
-  suffixes, like `3.0.0-alpha1`.
-- In the legacy release policy, `1.10` was a long-term support (LTS) series, while `2.x.y` had
-  stable releases, but wasn’t an LTS series. Now both series are long-term supported.
+A release cycle reaches the end of life (EOL) when the last release in the series is published.
+Unsupported releases are documented as [Unsupported Versions](https://www.tarantool.io/en/doc/latest/release/eos_versions/).
 
 2.11 is the long-term support (LTS) release with four years of maintenance.
