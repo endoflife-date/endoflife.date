@@ -73,7 +73,7 @@ releases:
     releaseLabel: "Galaxy Tab A9+(2025)"
     releaseDate: 2025-08-01 # approximate, first detected in https://github.com/endoflife-date/endoflife.date/pull/8028
     eoas: 2031-08-01 # 6 android update - https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
-    eol: 2032-06-01 # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
+    eol: false      # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
     link: null # unknown model number
 
   - releaseCycle: "galaxy-tab-active5-pro"
@@ -87,21 +87,21 @@ releases:
     releaseLabel: "Galaxy Tab S10 FE+"
     releaseDate: 2025-04-03 # https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design
     eoas: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
-    eol: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
+    eol: false      # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
     link: https://doc.samsungmobile.com/SM-X520/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-s10-fe"
     releaseLabel: "Galaxy Tab S10 FE"
     releaseDate: 2025-04-03 # https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design
     eoas: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
-    eol: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
+    eol: false      # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
     link: https://doc.samsungmobile.com/SM-X520/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-s10-ultra"
     releaseLabel: "Galaxy Tab S10 Ultra"
     releaseDate: 2024-10-03 # https://news.samsung.com/global/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet
     eoas: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X920/XAC/doc.html
 
   - releaseCycle: "galaxy-tab-s10+"
@@ -129,7 +129,7 @@ releases:
     releaseLabel: "Galaxy Tab A9+"
     releaseDate: 2023-10-23 # https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone
     eoas: 2026-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2027-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X210/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-a9"
@@ -150,21 +150,21 @@ releases:
     releaseLabel: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     eoas: 2027-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
-    eol: 2028-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
+    eol: false      # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-s9-ultra"
     releaseLabel: "Galaxy Tab S9 Ultra"
     releaseDate: 2023-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     eoas: 2027-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
-    eol: 2028-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
+    eol: false      # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
   - releaseCycle: "galaxy-tab-s9+"
     releaseLabel: "Galaxy Tab S9+"
     releaseDate: 2023-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     eoas: 2027-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
-    eol: 2028-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
+    eol: false      # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
 
   - releaseCycle: "galaxy-tab-s9"
@@ -206,7 +206,7 @@ releases:
     releaseLabel: "Galaxy Tab S8+"
     releaseDate: 2022-04-14 # https://www.gsmarena.com/samsung_galaxy_tab_s8+-11342.php
     eoas: 2026-04-14 # https://news.samsung.com/us/galaxy-tab8-unpacked/
-    eol: 2027-04-14 # https://news.samsung.com/us/galaxy-tab8-unpacked/
+    eol: false      # https://news.samsung.com/us/galaxy-tab8-unpacked/
     link: https://doc.samsungmobile.com/SM-X806B/XXV/doc.html
 
   - releaseCycle: "galaxy-tab-s8"
