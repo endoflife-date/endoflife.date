@@ -26,6 +26,7 @@ auto:
     # See release links for sources of release dates.
     - declare: azure-kubernetes-service
       releases:
+        - {name: "1.34", releaseDate: 2025-12-12}
         - {name: "1.33", releaseDate: 2025-06-17}
         - {name: "1.32", releaseDate: 2025-04-06}
         - {name: "1.31", releaseDate: 2024-10-25}
