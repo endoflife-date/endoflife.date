@@ -24,54 +24,100 @@ customFields:
 
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
 releases:
+  - releaseCycle: "15r"
+    releaseLabel: "15R"
+    releaseDate: 2025-12-22
+    eoas: 2029-12-22 # approximation "4 major Android updates"
+    eol: 2031-12-31 # 6 years of security updates
+    discontinued: false
+    supportedOxygenOSVersions: "16"
+
+  - releaseCycle: "15"
+    releaseDate: 2025-11-13
+    eoas: 2029-11-13 # approximation "4 major Android updates"
+    eol: 2031-11-13 # 6 years of security updates
+    discontinued: false
+    supportedOxygenOSVersions: "16"
+
+  - releaseCycle: "pad3"
+    releaseLabel: "Pad 3"
+    releaseDate: 2025-06-05
+    eoas: 2029-06-05 # approximation "4 major Android updates"
+    eol: 2031-06-19
+    discontinued: false
+    supportedOxygenOSVersions: "15 - 16" #
+
+  - releaseCycle: "13t"
+    releaseLabel: "13T"
+    releaseDate: 2025-04-24
+    eoas: 2029-04-24 # approximation "4 major Android updates"
+    eol: 2031-04-24 # approximation "6 years of security updates"
+    discontinued: false
+    supportedOxygenOSVersions: "15 - 16"
+
   - releaseCycle: "13r"
     releaseLabel: "13R"
     releaseDate: 2025-01-07
-    eoas: 2029-01-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
+    eoas: 2029-01-07 # approximation "4 major Android updates"
     eol: 2031-01-07 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: "15"
+    supportedOxygenOSVersions: "15 - 16" #
 
   - releaseCycle: "13"
     releaseDate: 2024-10-31
-    eoas: 2028-10-31 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
+    eoas: 2028-10-31 # approximation "4 major Android updates"
     eol: 2030-10-31 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: "15"
+    supportedOxygenOSVersions: "15 - 16" #
+
+  - releaseCycle: "pad2"
+    releaseLabel: "Pad 2"
+    releaseDate: 2024-07-16
+    eoas: 2027-07-16 # approximation "3 major Android updates"
+    eol: 2028-07-16 # approximation "4 years of security updates"
+    discontinued: false
+    supportedOxygenOSVersions: "14 - 16" #
 
   - releaseCycle: "12r"
     releaseLabel: "12R"
-    releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    releaseDate: 2024-01-23
+    eoas: 2028-01-23 # approximation "4 major Android updates"
     eol: 2029-01-23
-    discontinued: false
-    supportedOxygenOSVersions: "14" # https://oxygenupdater.com/article/401/
+    discontinued: true #
+    supportedOxygenOSVersions: "14 - 16" #
 
   - releaseCycle: "12"
-    releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    releaseDate: 2024-01-23
+    eoas: 2028-01-23 # approximation "4 major Android updates"
     eol: 2029-01-23
-    discontinued: false
-    supportedOxygenOSVersions: "14" # https://oxygenupdater.com/article/396/
+    discontinued: true #
+    supportedOxygenOSVersions: "14 - 16" #
+
+  - releaseCycle: "pad1"
+    releaseLabel: "Pad"
+    releaseDate: 2023-05-01
+    eoas: 2026-05-01 # 3 years Android updates
+    eol: 2026-05-01 # Security updates end
+    discontinued: true
+    supportedOxygenOSVersions: "13 - 16" #
 
   - releaseCycle: "11r"
     releaseLabel: "11R"
-    releaseDate: 2023-02-07 #https://oxygenupdater.com/article/379/
-    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    releaseDate: 2023-02-07
+    eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
-    discontinued: false
+    discontinued: true #
     link: https://www.oneplus.in/11r
-    supportedOxygenOSVersions: "13 - 14" # https://oxygenupdater.com/article/431/ https://community.oneplus.com/thread/1480591576202739713
+    supportedOxygenOSVersions: "13 - 16" #
 
   - releaseCycle: "11"
-    releaseDate: 2023-02-07 # https://oxygenupdater.com/article/379/
-    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    releaseDate: 2023-02-07
+    eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
-    discontinued: false
+    discontinued: true #
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
-    supportedOxygenOSVersions: "13 - 14" # https://oxygenupdater.com/article/426/ https://community.oneplus.com/thread/1465453057260126214
+    supportedOxygenOSVersions: "13 - 16" #
 ---
-
 > OnePlus is a manufacturer of Android phones and other consumer electronics.
 
 OnePlus phones run OxygenOS, which is based on Android.
