@@ -34,14 +34,14 @@ releases:
     lts: true
     releaseDate: 2025-11-30
     eol: 2027-12-01
-    latest: "6.18.1"
-    latestReleaseDate: 2025-12-12
+    latest: "6.18.3"
+    latestReleaseDate: 2026-01-02
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
-    eol: false # not yet announced
-    latest: "6.17.12"
-    latestReleaseDate: 2025-12-12
+    eol: 2025-12-18 # announced https://lore.kernel.org/all/2025121823-avid-hatchback-83fb@gregkh/
+    latest: "6.17.13"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "6.16"
     releaseDate: 2025-07-27
@@ -71,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.12.62"
-    latestReleaseDate: 2025-12-12
+    latest: "6.12.63"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "6.11"
     releaseDate: 2024-09-15

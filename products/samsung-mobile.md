@@ -100,7 +100,7 @@ releases:
     releaseLabel: "Galaxy A17"
     releaseDate: 2025-08-27 # https://news.samsung.com/uk/awesome-made-easy-samsung-introduces-the-galaxy-a17-5g
     eoas: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
-    eol: 2031-08-27 # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
+    eol: false      # 6 years - https://news.samsung.com/za/from-ai-to-essentials-meet-the-new-samsung-galaxy-a17
     link: https://doc.samsungmobile.com/SM-A175F/TCE/doc.html
 
   - releaseCycle: "galaxy-z-fold7"
@@ -142,28 +142,28 @@ releases:
     releaseLabel: "Galaxy S25 Edge"
     releaseDate: 2025-05-29 # https://www.gsmarena.com/samsung_galaxy_s25_edge-13506.php
     eoas: 2032-05-29 # 7 android upgrade - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
-    eol: 2032-05-29 # 7 years of security updates - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
+    eol: false      # 7 years of security updates - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
     link: https://doc.samsungmobile.com/SM-S9370/TGY/doc.html
 
   - releaseCycle: "galaxy-f56-5g"
     releaseLabel: "Galaxy F56 5G"
     releaseDate: 2025-05-14 # https://www.gsmarena.com/samsung_galaxy_f56_5g-13855.php
     eoas: 2031-05-14 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f56-its-slimmest-f-series-smartphone-in-india
-    eol: 2031-05-14 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f56-its-slimmest-f-series-smartphone-in-india
+    eol: false      # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f56-its-slimmest-f-series-smartphone-in-india
     link: https://doc.samsungmobile.com/SM-E566B/INS/doc.html
 
   - releaseCycle: "galaxy-xcover7-pro"
     releaseLabel: "Galaxy XCover7 Pro"
     releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_xcover7_pro-13780.php
     eoas: 2029-05-07 # not found, assumed 4 OS upgrades
-    eol: 2032-05-31 # https://www.samsung.com/us/business/smartphones/galaxy-xcover7-pro/buy/galaxy-xcover7-pro-128gb-unlocked-sku-sm-g766uzkfn14/
+    eol: false      # https://www.samsung.com/us/business/smartphones/galaxy-xcover7-pro/buy/galaxy-xcover7-pro-128gb-unlocked-sku-sm-g766uzkfn14/
     link: https://doc.samsungmobile.com/SM-G766B/EUX/doc.html
 
   - releaseCycle: "galaxy-m56-5g"
     releaseLabel: "Galaxy M56 5G"
     releaseDate: 2025-04-17 # https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
     eoas: 2031-04-17 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
-    eol: 2031-04-17 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
+    eol: false      # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
     link: https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
 
   - releaseCycle: "galaxy-a56-5g"
@@ -191,49 +191,49 @@ releases:
     releaseLabel: "Galaxy F16 5G"
     releaseDate: 2025-03-13 # https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
     eoas: 2031-03-13 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
-    eol: 2031-03-13 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
+    eol: false      # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
     link: https://doc.samsungmobile.com/SM-E166P/INS/doc.html
 
   - releaseCycle: "galaxy-m16-5g"
     releaseLabel: "Galaxy M16 5G"
     releaseDate: 2025-02-27 # https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
     eoas: 2031-02-27 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
-    eol: 2031-02-27 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eol: false      # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
     link: https://doc.samsungmobile.com/SM-M166P/INS/doc.html
 
   - releaseCycle: "galaxy-m06-5g"
     releaseLabel: "Galaxy M06 5G"
     releaseDate: 2025-02-27 # https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
     eoas: 2029-02-27 # 4 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
-    eol: 2029-02-27 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
     link: https://doc.samsungmobile.com/SM-M166P/INS/doc.html
 
   - releaseCycle: "galaxy-a06-5g"
     releaseLabel: "Galaxy A06 5G"
     releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
     eoas: 2031-02-19 # 6 android upgrade - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
-    eol: 2031-02-19 # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    eol: false      # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
     link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
   - releaseCycle: "galaxy-f06-5g"
     releaseLabel: "Galaxy F06 5G"
     releaseDate: 2025-02-12 # https://news.samsung.com/in/samsung-launches-galaxy-f06-5g-its-most-affordable-5g-smartphone-in-india
     eoas: 2029-02-12 # 4 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f06-5g-its-most-affordable-5g-smartphone-in-india
-    eol: 2029-02-12 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f06-5g-its-most-affordable-5g-smartphone-in-india
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f06-5g-its-most-affordable-5g-smartphone-in-india
     link: https://doc.samsungmobile.com/SM-E066B/INS/doc.html
 
   - releaseCycle: "galaxy-s25-ultra"
     releaseLabel: "Galaxy S25 Ultra"
     releaseDate: 2025-02-03
     eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
-    eol: 2032-02-03 # "seven years of security updates"
+    eol: false      # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S938B/INS/doc.html
 
   - releaseCycle: "galaxy-s25+"
     releaseLabel: "Galaxy S25+"
     releaseDate: 2025-02-03
     eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
-    eol: 2032-02-03 # "seven years of security updates"
+    eol: false      # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S936B/INS/doc.html
 
   - releaseCycle: "galaxy-s25"
@@ -247,7 +247,7 @@ releases:
     releaseLabel: "Galaxy A16"
     releaseDate: 2024-11-20
     eoas: 2030-11-20 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
-    eol: 2030-11-20 # "6 years of security updates"
+    eol: false      # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A165F/XFA/doc.html
 
   - releaseCycle: "w25-flip" # only for China: https://www.androidauthority.com/samsung-w25-w25-flip-3496756/
@@ -268,7 +268,7 @@ releases:
     releaseLabel: "Galaxy A16 5G"
     releaseDate: 2024-10-25
     eoas: 2030-10-25 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
-    eol: 2030-10-25 # "6 years of security updates"
+    eol: false      # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A166B/EUX/doc.html
 
   - releaseCycle: "galaxy-z-fold-special-edition"
@@ -289,63 +289,63 @@ releases:
     releaseLabel: "Galaxy M55s 5G"
     releaseDate: 2024-09-24 # https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
     eoas: 2028-09-24 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
-    eol: 2029-09-24 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
+    eol: false      # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
     link: https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
 
   - releaseCycle: "galaxy-f05"
     releaseLabel: "Galaxy F05"
     releaseDate: 2024-09-17 # https://news.samsung.com/in/samsung-launches-galaxy-f05-with-stylish-leather-pattern-design-and-high-resolution-50-mp-dual-camera-in-india
     eoas: 2026-09-17 # 2 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f05-with-stylish-leather-pattern-design-and-high-resolution-50-mp-dual-camera-in-india
-    eol: 2028-09-17 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f05-with-stylish-leather-pattern-design-and-high-resolution-50-mp-dual-camera-in-india
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f05-with-stylish-leather-pattern-design-and-high-resolution-50-mp-dual-camera-in-india
     link: https://doc.samsungmobile.com/SM-E055F/INS/doc.html
 
   - releaseCycle: "galaxy-m05"
     releaseLabel: "Galaxy M05"
     releaseDate: 2024-09-12 # https://news.samsung.com/in/samsung-unveils-galaxy-m05-with-50mp-dual-camera-and-stunning-display-in-india
     eoas: 2026-09-12 # 2 android upgrade - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-09-12 # 4 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 4 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M055F/BKD/doc.html
 
   - releaseCycle: "galaxy-f14"
     releaseLabel: "Galaxy F14" # aka Galaxy F14 4G
     releaseDate: 2024-09-05 # https://www.gsmarena.com/samsung_galaxy_f14_4g-13247.php
     eoas: 2026-09-05 # 2 android upgrade - https://www.gadgets360.com/mobiles/news/samsung-galaxy-f14-4g-price-india-launch-specifications-features-6265670
-    eol: 2028-09-05 # 4 years of security updates - https://www.gadgets360.com/mobiles/news/samsung-galaxy-f14-4g-price-india-launch-specifications-features-6265670
+    eol: false      # 4 years of security updates - https://www.gadgets360.com/mobiles/news/samsung-galaxy-f14-4g-price-india-launch-specifications-features-6265670
     link: https://doc.samsungmobile.com/SM-E145F/INS/doc.html
 
   - releaseCycle: "galaxy-a06"
     releaseLabel: "Galaxy A06"
     releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
     eoas: 2026-08-22 # 2 android upgrade - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
-    eol: 2028-08-22 # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    eol: false      # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
     link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
   - releaseCycle: "galaxy-z-fold6"
     releaseLabel: "Galaxy Z Fold6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php
     eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F956W/ESK/doc.html
 
   - releaseCycle: "galaxy-z-flip6"
     releaseLabel: "Galaxy Z Flip6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php
     eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
 
   - releaseCycle: "galaxy-m35-5g"
     releaseLabel: "Galaxy M35 5G"
     releaseDate: 2024-07-17 # https://news.samsung.com/in/samsung-unveils-galaxy-m35-5g-with-segment-leading-monster-features-in-india
     eoas: 2028-07-17 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2029-07-17 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M356B/NPB/doc.html
 
   - releaseCycle: "galaxy-f55-5g"
     releaseLabel: "Galaxy F55 5G"
     releaseDate: 2024-05-27 # https://news.samsung.com/in/samsung-unveils-galaxy-f55-5g-with-classy-vegan-leather-design-super-amoled-display-and-powerful-snapdragon-processor-in-india
     eoas: 2028-05-27 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-f55-5g-with-classy-vegan-leather-design-super-amoled-display-and-powerful-snapdragon-processor-in-india
-    eol: 2029-05-27 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f55-5g-with-classy-vegan-leather-design-super-amoled-display-and-powerful-snapdragon-processor-in-india
+    eol: false      # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f55-5g-with-classy-vegan-leather-design-super-amoled-display-and-powerful-snapdragon-processor-in-india
     link: https://doc.samsungmobile.com/SM-E556B/INS/doc.html
 
   - releaseCycle: "galaxy-c55-5g"
@@ -359,21 +359,21 @@ releases:
     releaseLabel: "Galaxy M55 5G"
     releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     eoas: 2028-04-08 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
-    eol: 2029-04-08 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eol: false      # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     link: https://doc.samsungmobile.com/SM-M556B/BNG/doc.html
 
   - releaseCycle: "galaxy-m15-5g"
     releaseLabel: "Galaxy M15 5G"
     releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     eoas: 2028-04-08 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
-    eol: 2029-04-08 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eol: false      # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     link: https://doc.samsungmobile.com/SM-M156B/XID/doc.html
 
   - releaseCycle: "galaxy-f15-5g"
     releaseLabel: "Galaxy F15 5G"
     releaseDate: 2024-04-03 # https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
     eoas: 2028-04-03 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-f15-5g-with-segment-best-samoled-display-4-generations-of-android-upgrades-5-years-of-security-updates-and-6000mah-battery
-    eol: 2029-04-03 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f15-5g-with-segment-best-samoled-display-4-generations-of-android-upgrades-5-years-of-security-updates-and-6000mah-battery
+    eol: false      # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f15-5g-with-segment-best-samoled-display-4-generations-of-android-upgrades-5-years-of-security-updates-and-6000mah-battery
     link: https://doc.samsungmobile.com/SM-E156B/INS/doc.html
 
   - releaseCycle: "galaxy-a55-5g"
@@ -387,28 +387,28 @@ releases:
     releaseLabel: "Galaxy A35 5G"
     releaseDate: 2024-03-11
     eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
-    eol: 2029-03-11 # "five years of security updates"
+    eol: false      # "five years of security updates"
     link: https://doc.samsungmobile.com/SM-A356E/NPB/doc.html
 
   - releaseCycle: "galaxy-m14"
     releaseLabel: "Galaxy M14" # aka Galaxy M14 4G
     releaseDate: 2024-03-07 # https://www.gsmarena.com/samsung_galaxy_m14_4g-12862.php
     eoas: 2026-03-07 # 2 android upgrades - https://www.amazon.in/Samsung-Sapphire-Snapdragon-Processor-Security/dp/B0CV7KZLL4
-    eol: 2028-03-07 # 4 years of security updates - https://www.amazon.in/Samsung-Sapphire-Snapdragon-Processor-Security/dp/B0CV7KZLL4
+    eol: false      # 4 years of security updates - https://www.amazon.in/Samsung-Sapphire-Snapdragon-Processor-Security/dp/B0CV7KZLL4
     link: https://doc.samsungmobile.com/SM-M145F/INS/doc.html
 
   - releaseCycle: "galaxy-s24-ultra"
     releaseLabel: "Galaxy S24 Ultra"
     releaseDate: 2024-01-24
     eoas: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
-    eol: 2031-01-24 # "seven years of security updates"
+    eol: false      # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S928U1/XAA/doc.html
 
   - releaseCycle: "galaxy-s24+"
     releaseLabel: "Galaxy S24+"
     releaseDate: 2024-01-24
     eoas: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
-    eol: 2031-01-24 # "seven years of security updates"
+    eol: false      # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S926U1/XAA/doc.html
 
   - releaseCycle: "galaxy-s24"
@@ -422,28 +422,28 @@ releases:
     releaseLabel: "Galaxy XCover7"
     releaseDate: 2024-01-10
     eoas: 2030-01-10 #  "ANDROID 21 supported"
-    eol: 2031-01-01 # "ANDROID 21 supported"
+    eol: false      # "ANDROID 21 supported"
     link: https://doc.samsungmobile.com/sm-g556b/eux/doc.html
 
   - releaseCycle: "galaxy-a25-5g"
     releaseLabel: "Galaxy A25 5G"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
-    eol: 2028-12-11 # "5 years of security updates"
+    eol: false      # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A256E/CHT/doc.html
 
   - releaseCycle: "galaxy-a15-5g"
     releaseLabel: "Galaxy A15 5G"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
-    eol: 2028-12-11 # "5 years of security updates"
+    eol: false      # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A156B/EUX/doc.html
 
   - releaseCycle: "galaxy-a15"
     releaseLabel: "Galaxy A15"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
-    eol: 2028-12-11 # "5 years of security updates"
+    eol: false      # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
 
   - releaseCycle: "galaxy-m44-5g"
@@ -457,14 +457,14 @@ releases:
     releaseLabel: "Galaxy A05s"
     releaseDate: 2023-10-18 # https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
     eoas: 2025-10-18 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
-    eol: 2027-10-18 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: false      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A057F/FWD/doc.html
 
   - releaseCycle: "galaxy-a05"
     releaseLabel: "Galaxy A05"
     releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
     eoas: 2025-10-15 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
-    eol: 2027-10-15 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: false      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A055F/FWD/doc.html
 
   - releaseCycle: "galaxy-s23-fe"
@@ -492,14 +492,14 @@ releases:
     releaseLabel: "Galaxy Z Fold5"
     releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_5
     eoas: 2027-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-08-11 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F946B/ZTO/doc.html
 
   - releaseCycle: "galaxy-z-flip5"
     releaseLabel: "Galaxy Z Flip5"
     releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_5
     eoas: 2027-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-08-11 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F731B/ZTO/doc.html
 
   - releaseCycle: "galaxy-f34-5g"
@@ -513,7 +513,7 @@ releases:
     releaseLabel: "Galaxy M34 5G"
     releaseDate: 2023-07-07 # https://news.samsung.com/in/samsung-launches-galaxy-m34-5g-in-india-with-monster-display-camera-and-battery-at-just-inr-16999
     eoas: 2027-07-07 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-07-07 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M346B1/XID/doc.html
 
   - releaseCycle: "galaxy-f54-5g"
@@ -527,63 +527,63 @@ releases:
     releaseLabel: "Galaxy A14"
     releaseDate: 2023-05-22 # https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
     eoas: 2025-05-22 # 2 android upgrades - https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
-    eol: 2027-05-22 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
     link: https://doc.samsungmobile.com/SM-A145FB/XME/doc.html
 
   - releaseCycle: "galaxy-a24"
     releaseLabel: "Galaxy A24"
     releaseDate: 2023-05-05
     eoas: 2027-05-05 # four generations of OS upgrades
-    eol: 2028-05-05 # five years of security updates (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
+    eol: false      # five years of security updates (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
     link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
 
   - releaseCycle: "galaxy-m14-5g"
     releaseLabel: "Galaxy M14 5G"
     releaseDate: 2023-04-17 # https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
     eoas: 2025-04-17 # 2 android upgrades - https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
-    eol: 2027-04-17 # 4 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
     link: https://doc.samsungmobile.com/SM-M146B/INS/doc.html
 
   - releaseCycle: "galaxy-m54-5g"
     releaseLabel: "Galaxy M54 5G"
     releaseDate: 2023-04-04 # https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
     eoas: 2027-04-04 # 4 android upgrades - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
-    eol: 2028-04-04 # 5 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    eol: false      # 5 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
     link: https://doc.samsungmobile.com/SM-M546B/GTO/doc.html
 
   - releaseCycle: "galaxy-f14-5g"
     releaseLabel: "Galaxy F14 5G"
     releaseDate: 2023-03-24 # https://news.samsung.com/in/samsung-unveils-galaxy-f14-5g-with-segment-only-features-5nm-processor-and-6000-mah-battery-at-just-inr-12990
     eoas: 2025-03-24 # 2 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-f14-5g-with-segment-only-features-5nm-processor-and-6000-mah-battery-at-just-inr-12990
-    eol: 2027-03-24 # 4 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f14-5g-with-segment-only-features-5nm-processor-and-6000-mah-battery-at-just-inr-12990
+    eol: false      # 4 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f14-5g-with-segment-only-features-5nm-processor-and-6000-mah-battery-at-just-inr-12990
     link: https://doc.samsungmobile.com/SM-E146B/INS/doc.html
 
   - releaseCycle: "galaxy-a54-5g"
     releaseLabel: "Galaxy A54 5G"
     releaseDate: 2023-03-24
     eoas: 2027-03-24 # "four generations of OS upgrades"
-    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    eol: false      # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
     link: https://doc.samsungmobile.com/SM-A546U/TMB/doc.html
 
   - releaseCycle: "galaxy-a34-5g"
     releaseLabel: "Galaxy A34 5G"
     releaseDate: 2023-03-24
     eoas: 2027-03-24 # "four generations of OS upgrades"
-    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    eol: false      # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
     link: https://doc.samsungmobile.com/SM-A346E/INS/doc.html
 
   - releaseCycle: "galaxy-s23-ultra"
     releaseLabel: "Galaxy S23 Ultra"
     releaseDate: 2023-02-17
     eoas: 2027-02-17
-    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S918B/EUX/doc.html
 
   - releaseCycle: "galaxy-s23+"
     releaseLabel: "Galaxy S23+"
     releaseDate: 2023-02-17
     eoas: false
-    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S916B/EUX/doc.html
 
   - releaseCycle: "galaxy-s23"
@@ -604,14 +604,14 @@ releases:
     releaseLabel: "Galaxy A14 5G"
     releaseDate: 2023-01-05 # https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
     eoas: 2025-01-05 # 2 android upgrades - https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
-    eol: 2027-01-05 # 4 years of security updates - https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
+    eol: false      # 4 years of security updates - https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
     link: https://doc.samsungmobile.com/SM-A146B/INS/doc.html
 
   - releaseCycle: "galaxy-m04"
     releaseLabel: "Galaxy M04"
     releaseDate: 2022-12-16
     eoas: 2024-12-16
-    eol: 2025-12-16
+    eol: false
     link: https://doc.samsungmobile.com/SM-M045F/INS/doc.html
 
   - releaseCycle: "galaxy-a04e"
@@ -653,7 +653,7 @@ releases:
     releaseLabel: "Galaxy A23 5G"
     releaseDate: 2022-09-02
     eoas: 2025-09-02
-    eol: 2026-09-02
+    eol: false
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
   - releaseCycle: "galaxy-z-fold4"
@@ -793,7 +793,7 @@ releases:
     releaseLabel: "Galaxy S22+"
     releaseDate: 2022-02-25
     eoas: 2026-02-25
-    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S906E/XXV/doc.html
 
   - releaseCycle: "galaxy-s22"
@@ -821,14 +821,14 @@ releases:
     releaseLabel: "Galaxy A03 core"
     releaseDate: 2021-12-06
     eoas: false
-    eol: false
+    eol: 2026-01-06
     link: https://doc.samsungmobile.com/SM-A032M/PET/doc.html
 
   - releaseCycle: "galaxy-a13-5g"
     releaseLabel: "Galaxy A13 5G"
     releaseDate: 2021-12-03
     eoas: 2024-12-03
-    eol: false
+    eol: 2026-01-06
     link: https://doc.samsungmobile.com/SM-A136U/USC/doc.html
 
   - releaseCycle: "w22-5g"
@@ -1059,14 +1059,14 @@ releases:
     releaseLabel: "Galaxy S21 Ultra 5G"
     releaseDate: 2021-01-29
     eoas: false
-    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
 
   - releaseCycle: "galaxy-s21+-5g"
     releaseLabel: "Galaxy S21+ 5G"
     releaseDate: 2021-01-29
     eoas: false
-    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
 
   - releaseCycle: "galaxy-s21-5g"

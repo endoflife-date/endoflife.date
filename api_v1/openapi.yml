@@ -1024,8 +1024,9 @@ components:
                 examples:
                   - cpe:/o:canonical:ubuntu_linux
               product:
-                $ref: "#/components/schemas/Uri"
                 description: Reference to the product this identifier is related to.
+                allOf:
+                  - $ref: "#/components/schemas/Uri"
             required:
               - identifier
               - product

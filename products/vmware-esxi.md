@@ -36,9 +36,9 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3g"
-    latestReleaseDate: 2025-07-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html
+    latest: "8.0 Update 3h"
+    latestReleaseDate: 2025-12-15
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3h-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02

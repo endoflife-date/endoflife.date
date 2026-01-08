@@ -52,22 +52,22 @@ releases:
     releaseDate: 2025-11-03
     eoas: 2026-11-03
     eol: 2027-05-03
-    latest: "25.4.1"
-    latestReleaseDate: 2025-11-20
+    latest: "25.4.2"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
     eoas: 2026-02-04
     eol: 2026-02-04 # innovation release
-    latest: "25.3.5"
-    latestReleaseDate: 2025-11-01
+    latest: "25.3.6"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.9"
-    latestReleaseDate: 2025-10-31
+    latest: "25.2.10"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
@@ -80,8 +80,8 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.23"
-    latestReleaseDate: 2025-10-31
+    latest: "24.3.24"
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12

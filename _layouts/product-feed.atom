@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ page.product_link }}</id>
+  <title>endoflife.date: {{ page.product_label }} events</title>
+  <subtitle>{{ page.product_label }} release and end-of-life events</subtitle>
+  <link href="{{ page.url | absolute_url }}" rel="self" />
+  <link href="{{ page.product_link }}"/>
+  <updated>{{ page.last_updated | date_to_xmlschema }}</updated>
+  <author><name>endoflife.date</name></author>
+{%- assign sorted_events = page.events | sort: "occurred_at" -%}
+{%- for event in sorted_events %}
+  <entry>
+    <id>{{ page.product_link }}/{{ event.release_name }}/{{ event.type }}</id>
+    <link href="{{ page.product_link }}"/>
+    <updated>{{ event.occurred_at | date_to_xmlschema }}</updated>
+{%- if event.type == "release" %}
+    <title>{{ page.product_label }} {{ event.release_label }} released</title>
+    <summary>{{ page.product_label }} {{ event.release_label }} has been released.</summary>
+{% elsif event.type == "eoas" %}
+    <title>{{ page.product_label }} {{ event.release_label }} end of active support</title>
+    <summary>{{ page.product_label }} {{ event.release_label }} active support ended.</summary>
+{% elsif event.type == "eol-7d" %}
+    <title>{{ page.product_label }} {{ event.release_label }} upcoming end of life</title>
+    <summary>{{ page.product_label }} {{ event.release_label }} will be end-of-life in 7 days.</summary>
+{% elsif event.type == "eol" %}
+    <title>{{ page.product_label }} {{ event.release_label }} end of life</title>
+    <summary>{{ page.product_label }} {{ event.release_label }} is end-of-life.</summary>
+{% elsif event.type == "eoes" %}
+    <title>{{ page.product_label }} {{ event.release_label }} end of extended support</title>
+    <summary>{{ page.product_label }} {{ event.release_label }} extended support ended.</summary>
+{% endif -%}
+  </entry>
+{% endfor -%}
+</feed>

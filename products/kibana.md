@@ -23,22 +23,22 @@ releases:
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.2.2"
-    latestReleaseDate: 2025-11-27
+    latest: "9.2.3"
+    latestReleaseDate: 2025-12-16
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.1.8"
-    latestReleaseDate: 2025-11-26
+    latest: "9.1.9"
+    latestReleaseDate: 2025-12-16
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.8"
-    latestReleaseDate: 2025-11-27
+    latest: "8.19.9"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "9.0"
     releaseDate: 2025-04-10
