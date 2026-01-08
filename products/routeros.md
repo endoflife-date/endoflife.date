@@ -2,9 +2,11 @@
 title: RouterOS
 addedAt: 2025-10-09
 category: os
-tags: mikrotik
+tags: mikrotik os
 iconSlug: mikrotik
 permalink: /routeros
+alternate_urls:
+- /mikrotik
 changelogTemplate: https://mikrotik.com/download/changelogs#c-stable-v{{"__LATEST__" | replace:'.','_' }}
 releaseLabel: "RouterOS __RELEASE_CYCLE__"
 LTSLabel: "<abbr title='Long Term'>LT</abbr>"
@@ -19,8 +21,8 @@ releases:
   - releaseCycle: "7.20"
     releaseDate: 2025-09-30
     eol: false
-    latest: "7.20"
-    latestReleaseDate: 2025-09-30
+    latest: "7.20.6"
+    latestReleaseDate: 2025-12-04
 
   - releaseCycle: "7.19"
     releaseDate: 2025-05-22
@@ -40,12 +42,19 @@ releases:
     latest: "7.17.2"
     latestReleaseDate: 2025-02-06
 
+  - releaseCycle: "7.16"
+    releaseDate: 2024-09-24
+    eol: true
+    latest: "7.16.2"
+    latestReleaseDate: 2024-11-27
+
   - releaseCycle: "6.49"
     releaseDate: 2024-07-19
     eol: false
     lts: true
     latest: "6.49.18"
     latestReleaseDate: 2025-02-06
+  
 
 ---
 
