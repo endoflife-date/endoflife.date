@@ -29,7 +29,8 @@ auto:
 identifiers:
   - cpe: cpe:2.3:o:canonical:ubuntu_linux
   - cpe: cpe:/o:canonical:ubuntu_linux
-  - purl: pkg:os/ubuntu
+  - purl: pkg:deb/ubuntu/
+
 
 
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
