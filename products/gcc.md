@@ -40,8 +40,8 @@ releases:
   - releaseCycle: "12"
     releaseDate: 2022-05-06
     eol: 2025-07-11
-    latest: ""
-    latestReleaseDate:  
+    latest: "12.5"
+    latestReleaseDate: 2025-07-11
     link: https://gcc.gnu.org/gcc-12
 
   - releaseCycle: "11"
