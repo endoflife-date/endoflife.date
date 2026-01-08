@@ -1,5 +1,5 @@
 ---
-title: GCC
+title: GNU Compiler Collection
 addedAt: 2025-12-16
 category: app
 tags: cpp c compiler gnu gcc
