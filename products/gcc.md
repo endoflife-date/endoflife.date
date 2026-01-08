@@ -15,6 +15,7 @@ identifiers:
   - repology: gcc
   
 releases:
+
   - releaseCycle: "15"
     releaseDate: 2025-04-17
     eol: false
