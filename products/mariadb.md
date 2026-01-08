@@ -7,7 +7,7 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
-changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/mariadb-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-series/mariadb-__LATEST__-release-notes"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
@@ -84,7 +84,7 @@ releases:
     eoes: 2033-10-15
     latest: "11.8.5"
     latestReleaseDate: 2025-11-14
-    link: https://mariadb.com/docs/release-notes/community-server/mariadb-11-8-series/mariadb-__LATEST__-release-notes
+    link: https://mariadb.com/docs/release-notes/community-server/changelogs/11.8/__LATEST__
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
