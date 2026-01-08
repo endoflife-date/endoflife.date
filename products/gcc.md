@@ -5,6 +5,8 @@ category: app
 tags: cpp c compiler gnu gcc
 iconSlug: gnu
 permalink: /gcc
+alternate_urls:
+  - /gnu-gcc
 versionCommand: gcc --version
 releasePolicyLink: https://gcc.gnu.org/develop.html#timeline
 eolColumn: Support
