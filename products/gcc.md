@@ -12,7 +12,6 @@ eolColumn: Support
 identifiers:
   - repology: gcc
   
-# See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "15"
     releaseDate: 2025-04-17
