@@ -193,6 +193,6 @@ API is released for the previous major version. This begins the Long-Term Suppor
 During this phase, a maintenance minor for the previous major is released every six months.
 Maintenance minors can include certain bug fixes, API additions for forward compatibility, security updates, and dependency updates.
 
-**Drupal 7** will receive security coverage
-[until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
-with commercial support available post end-of-life through Drupal's [Certified D7 End of Life Support Partners](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support).
+**Drupal 7** is now unsupported.
+Commercial support for Drupal 7 is available post end-of-life through Drupal's
+[Certified D7 End of Life Support Partners](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support).
