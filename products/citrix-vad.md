@@ -30,11 +30,19 @@ auto:
         - "^.+Premium Edition.+$"
       template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
 
-# For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html.
+# For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html
 # For non-LTS:
 # eoas(x) = releaseDate(x) + 6 months
 # eol(x) = releaseDate(x) + 18 months
 releases:
+  - releaseCycle: "2511"
+    releaseDate: 2025-12-29
+    eoas: 2026-06-29
+    eol: 2027-06-29
+    latest: "2511"
+    latestReleaseDate: 2025-12-29
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+
   - releaseCycle: "2507"
     releaseDate: 2025-08-19
     lts: true
@@ -51,8 +59,6 @@ releases:
     eol: 2026-10-29
     latest: "2503"
     latestReleaseDate: 2025-04-29
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
-    # 404 with link using template: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2503/whats-new
 
   - releaseCycle: "2411"
     releaseDate: 2024-12-03

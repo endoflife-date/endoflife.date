@@ -26,7 +26,8 @@ auto:
         releaseCycle:
           column: "Version"
           # CE versions are ignored (not supported by release_table)
-          regex: '^(?P<value>\d+(\.\d+)*)( \(Cortex XDR agent\))?$'
+          regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.(?P<patch>\d+))?( \(Cortex XDR agent\))?$'
+          template: "{{major}}{% if minor %}.{{minor}}{% endif %}"
         releaseDate:
           column: "Release Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'

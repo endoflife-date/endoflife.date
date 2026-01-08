@@ -46,9 +46,15 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+  - releaseCycle: "2025.11"
+    releaseDate: 2025-12-19
+    eol: false
+    latest: "2025.11.2"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-30
-    eol: false
+    eol: 2025-12-19
     latest: "2025.10.1"
     latestReleaseDate: 2025-10-23
 
