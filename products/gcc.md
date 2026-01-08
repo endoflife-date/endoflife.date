@@ -13,6 +13,15 @@ eolColumn: Support
 
 identifiers:
   - repology: gcc
+  - purl: pkg:generic/gcc
+  - purl: pkg:deb/debian/gcc
+  - purl: pkg:deb/ubuntu/gcc
+  - purl: pkg:rpm/amzn/gcc
+  - purl: pkg:rpm/redhat/gcc
+  - purl: pkg:rpm/centos/gcc
+  - purl: pkg:apk/alpine/gcc
+  - purl: pkg:rpm/opensuse/gcc
+  - purl: pkg:github/gcc/gcc 
   
 releases:
 
