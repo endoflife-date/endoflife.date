@@ -12,13 +12,13 @@ identifiers:
   - cpe: cpe:2.3:h:roku:roku_tv
   - cpe: cpe:2.3:h:roku:streambar_pro
   - cpe: cpe:2.3:h:roku:streaming_stick_4k
-  - cpe: cpe:2.3:h:roku:streaming_stick_4k+
+  - cpe: cpe:2.3:h:roku:streaming_stick_4k\+
   - cpe: cpe:2.3:h:roku:wireless_speakers
   - cpe: cpe:2.3:h:roku:wireless_subwoofer
   - cpe: cpe:2.3:h:roku:streambar
   - cpe: cpe:2.3:h:roku:roku_firmware
   - cpe: cpe:2.3:h:roku:roku
-  - cpe: cpe:2.3:h:roku:express_4k+
+  - cpe: cpe:2.3:h:roku:express_4k\+
   - cpe: cpe:2.3:h:roku:express
 
 customFields:
