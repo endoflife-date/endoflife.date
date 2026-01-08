@@ -2,7 +2,7 @@
 title: GNU Compiler Collection
 addedAt: 2025-12-16
 category: app
-tags: cpp c compiler gnu gcc
+tags: gnu gcc
 iconSlug: gnu
 permalink: /gcc
 alternate_urls:
