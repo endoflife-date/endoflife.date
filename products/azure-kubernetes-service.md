@@ -47,8 +47,8 @@ auto:
 releases:
   - releaseCycle: "1.34"
     releaseDate: 2025-12-12
-    eol: 2026-11-01
-    eoes: 2027-11-01
+    eol: 2026-11-30
+    eoes: 2027-11-30
 
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
@@ -124,6 +124,7 @@ releases:
 # Not sure corresponding cycles will be added one day, but here are the announcements for:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
+
 
 ---
 
