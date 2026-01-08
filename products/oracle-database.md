@@ -27,7 +27,7 @@ auto:
 releases:
   - releaseCycle: "26"
     releaseLabel: "26ai"
-    releaseDate: 2026-10-14
+    releaseDate: 2025-10-14
     lts: true
     eol: 2031-12-31
     eoes: false
