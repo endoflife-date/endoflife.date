@@ -74,9 +74,9 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "581.80"
-    latestReleaseDate: 2025-11-06
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-105-08/index.html
+    latest: "582.16"
+    latestReleaseDate: 2026-01-08
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-582-16/index.html
 
   - releaseCycle: "r575-linux"
     releaseLabel: "R575-Linux (NFB)"
