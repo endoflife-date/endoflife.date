@@ -40,14 +40,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2025-03-18
-    eol: 2025-09-02
+    eol: false
     eoes: 2027-06-11
     latest: "4.0.1"
     latestReleaseDate: 2025-10-10
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
-    eol: 2025-03-18
+    eol: false
     eoes: 2027-02-19
     latest: "3.9.1"
     latestReleaseDate: 2025-05-19
