@@ -29,7 +29,6 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/hibernate/hibernate-orm.git
-      regex: '^(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # Supported Java/Jakarta EE versions available on https://hibernate.org/orm/releases/.
 releases:
