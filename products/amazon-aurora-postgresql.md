@@ -1,6 +1,6 @@
 ---
 title: Amazon Aurora PostgreSQL
-addedAt: 2025-10-17
+addedAt: 2026-01-10
 category: service
 tags: amazon database
 iconSlug: amazonrds
@@ -26,36 +26,36 @@ releases:
     releaseDate: 2025-02-20
     eol: 2030-02-28
     eoes: 2033-02-28
-    latest: "17.5"
-    latestReleaseDate: 2025-06-30
+    latest: "17.7"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2029-02-28
     eoes: 2032-02-28
-    latest: "16.9"
-    latestReleaseDate: 2025-06-30
+    latest: "16.11"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "15"
     releaseDate: 2022-11-10
     eol: 2028-02-29
     eoes: 2031-02-28
-    latest: "15.13"
-    latestReleaseDate: 2025-06-30
+    latest: "15.15"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2027-02-28
     eoes: 2030-02-28
-    latest: "14.18"
-    latestReleaseDate: 2025-06-30
+    latest: "14.20"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24
     eol: 2026-02-28
     eoes: 2029-02-28
-    latest: "13.21"
-    latestReleaseDate: 2025-06-30
+    latest: "13.23"
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "12"
     releaseDate: 2019-11-14
@@ -70,6 +70,7 @@ releases:
     eoes: 2027-03-31
     latest: "11.21"
     latestReleaseDate: 2023-09-07
+
 ---
 
 > [Amazon Aurora PostgreSQL](https://aws.amazon.com/rds/aurora/) is a PaaS offering from Amazon
