@@ -33,14 +33,6 @@ auto:
 
 # Supported Java/Jakarta EE versions available on https://hibernate.org/orm/releases/.
 releases:
-  - releaseCycle: "7.2"
-    supportedJavaVersions: "17, 21 or 23"
-    supportedJakartaEEVersions: "11"
-    releaseDate: 2025-10-08
-    eol: false
-    latest: "7.2.0.CR1"
-    latestReleaseDate: 2025-10-08
-
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 23"
     supportedJakartaEEVersions: "11"
