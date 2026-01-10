@@ -1,6 +1,6 @@
 ---
 title: Hibernate ORM
-addedAt: 2025-10-20
+addedAt: 2026-01-10
 category: framework
 iconSlug: hibernate
 permalink: /hibernate-orm
