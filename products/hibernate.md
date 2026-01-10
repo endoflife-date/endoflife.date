@@ -138,8 +138,8 @@ releases:
 
 ---
 
-> The [Hibernate ORM](https://hibernate.org) object relational mapping (ORM) framework for Java
-> simplifies database interactions using the Java Persistence API (JPA).
+> [Hibernate ORM](https://hibernate.org) (or simply Hibernate) is an object–relational mapping tool for the Java programming language.
+> It provides a framework for mapping an object-oriented domain model to a relational database.
 
 See [Hibernate ORM releases page](https://hibernate.org/orm/releases/) for release
 information and [Hibernate ORM maintenance policy](https://hibernate.org/community/maintenance-policy/)
