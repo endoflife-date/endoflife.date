@@ -21,7 +21,8 @@ releases:
   - releaseCycle: "7.20"
     releaseDate: 2025-09-30
     eol: false
-    latest: "7.20.6"
+    lts: true
+    latest: "7.20.7"
     latestReleaseDate: 2025-12-05
 
   - releaseCycle: "7.19"
@@ -148,44 +149,49 @@ releases:
   - releaseCycle: "6.48"
     releaseDate: 2020-12-22
     eol: true
-    latest: "6.48.4"
-    latestReleaseDate: 2021-08-18
+    latest: "6.48.7"
+    latestReleaseDate: 2023-05-23
 
   - releaseCycle: "6.47"
     releaseDate: 2020-06-02
     eol: true
-    latest: "6.47.8"
-    latestReleaseDate: 2020-11-25
+    latest: "6.47.10"
+    latestReleaseDate: 2021-05-31
 
   - releaseCycle: "6.46"
     releaseDate: 2019-12-02
     eol: true
-    latest: "6.46.6"
-    latestReleaseDate: 2020-04-27
+    lts: true
+    latest: "6.46.8"
+    latestReleaseDate: 2020-10-29
 
   - releaseCycle: "6.45"
     releaseDate: 2019-06-21
     eol: true
-    latest: "6.45.7"
-    latestReleaseDate: 2019-10-24
+    lts: true
+    latest: "6.45.9"
+    latestReleaseDate: 2020-04-30
 
   - releaseCycle: "6.44"
     releaseDate: 2019-02-25
     eol: true
-    latest: "6.44.4"
-    latestReleaseDate: 2019-05-09
+    lts: true
+    latest: "6.44.6"
+    latestReleaseDate: 2019-10-24
 
   - releaseCycle: "6.43"
     releaseDate: 2018-09-06
     eol: true
-    latest: "6.43.9"
-    latestReleaseDate: 2019-01-10
+    lts: true
+    latest: "6.43.16"
+    latestReleaseDate: 2019-05-14
 
   - releaseCycle: "6.42"
     releaseDate: 2018-04-13
     eol: true
-    latest: "6.42.7"
-    latestReleaseDate: 2018-08-17
+    lts: true
+    latest: "6.42.12"
+    latestReleaseDate: 2019-02-12
 
   - releaseCycle: "6.41"
     releaseDate: 2017-12-22
@@ -196,26 +202,30 @@ releases:
   - releaseCycle: "6.40"
     releaseDate: 2017-07-21
     eol: true
-    latest: "6.40.5"
-    latestReleaseDate: 2017-10-31
+    lts: true
+    latest: "6.40.9"
+    latestReleaseDate: 2018-08-20
 
   - releaseCycle: "6.39"
     releaseDate: 2017-04-27
     eol: true
-    latest: "6.39.2"
-    latestReleaseDate: 2017-06-06
+    lts: true
+    latest: "6.39.3"
+    latestReleaseDate: 2017-10-12
 
   - releaseCycle: "6.38"
     releaseDate: 2016-12-30
     eol: true
-    latest: "6.38.5"
-    latestReleaseDate: 2017-03-09
+    lts: true
+    latest: "6.38.7"
+    latestReleaseDate: 2017-06-20
 
   - releaseCycle: "6.37"
     releaseDate: 2016-09-23
     eol: true
-    latest: "6.37.3"
-    latestReleaseDate: 2016-11-28
+    lts: true
+    latest: "6.37.5"
+    latestReleaseDate: 2017-03-09
 
   - releaseCycle: "6.36"
     releaseDate: 2016-07-20
@@ -232,8 +242,9 @@ releases:
   - releaseCycle: "6.34"
     releaseDate: 2016-01-29
     eol: true
-    latest: "6.34.4"
-    latestReleaseDate: 2016-03-24
+    lts: true
+    latest: "6.34.6"
+    latestReleaseDate: 2016-06-06
 
   - releaseCycle: "6.33"
     releaseDate: 2015-11-06
@@ -241,11 +252,19 @@ releases:
     latest: "6.33.6"
     latestReleaseDate: 2016-01-28
 
+  - releaseCycle: "6.32"
+    releaseDate: 2015-09-07
+    eol: true
+    lts: true
+    latest: "6.32.4"
+    latestReleaseDate: 2016-02-09
+
   - releaseCycle: "6.30"
     releaseDate: 2015-07-08
     eol: true
-    latest: "6.32.2"
-    latestReleaseDate: 2015-09-17
+    lts: true
+    latest: "6.30.4"
+    latestReleaseDate: 2015-07-22
 
   - releaseCycle: "6.29"
     releaseDate: 2015-05-27
