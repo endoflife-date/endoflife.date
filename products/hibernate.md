@@ -38,8 +38,8 @@ releases:
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-08-08
     eol: false
-    latest: "7.1.4"
-    latestReleaseDate: 2025-10-20
+    latest: "7.1.14"
+    latestReleaseDate: 2026-01-04
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"
@@ -54,8 +54,8 @@ releases:
     supportedJakartaEEVersions: "10"
     releaseDate: 2024-08-08
     eol: false
-    latest: "6.6.33"
-    latestReleaseDate: 2025-10-10
+    latest: "6.6.40"
+    latestReleaseDate: 2025-12-21
 
   - releaseCycle: "6.5"
     supportedJavaVersions: "11, 17, 21, 22 or 23"
@@ -86,8 +86,8 @@ releases:
     supportedJakartaEEVersions: "10"
     releaseDate: 2023-03-31
     eol: false
-    latest: "6.2.48"
-    latestReleaseDate: 2025-10-06
+    latest: "6.2.49"
+    latestReleaseDate: 2025-11-24
 
   - releaseCycle: "6.1"
     supportedJavaVersions: "11, 17 or 18"
@@ -111,7 +111,7 @@ releases:
     releaseDate: 2021-10-11
     eol: true
     latest: "5.6.15"
-    latestReleaseDate: 2023-05-10
+    latestReleaseDate: 2023-02-06
 
   - releaseCycle: "5.5"
     supportedJavaVersions: "8, 11 or 17"
@@ -139,4 +139,3 @@ information and [Hibernate ORM maintenance policy](https://hibernate.org/communi
 for more details about supported releases.
 
 Commercial support is available [from Red Hat](https://hibernate.org/orm/support/)
-
