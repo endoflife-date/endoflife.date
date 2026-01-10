@@ -9,7 +9,7 @@ alternate_urls:
 releasePolicyLink: https://hibernate.org/community/maintenance-policy/
 changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/v__LATEST__
 eolColumn: Stable support
-eoes: Limited support
+eoesColumn: Limited support
 
 customFields:
   - name: supportedJavaVersions
