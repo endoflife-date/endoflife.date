@@ -141,8 +141,12 @@ releases:
 > [Hibernate ORM](https://hibernate.org) (or simply Hibernate) is an object–relational mapping tool for the Java programming language.
 > It provides a framework for mapping an object-oriented domain model to a relational database.
 
-See [Hibernate ORM releases page](https://hibernate.org/orm/releases/) for release
-information and [Hibernate ORM maintenance policy](https://hibernate.org/community/maintenance-policy/)
-for more details about supported releases.
+Hibernate follows [Semantic Versioning](https://semver.org/).
+A `{major}.{minor}` combination (6.0, 6.1, 6.2, e.g.) is called a series, and maintenance is based on series.
 
-Commercial support is available [from Red Hat](https://hibernate.org/orm/support/)
+There are two maintenance levels: _stable_ and _limited-support_.
+Series labeled _stable_, usually only the latest, are fully maintained with improvements, bug fixes and security fixes.
+_Limited-support_ series only receive selected bug fixes and security fixes.
+Supported series, as well as their support level, are documented on the [Hibernate ORM releases page](https://hibernate.org/orm/releases/).
+
+[Commercial support](https://hibernate.org/orm/support/) is available through [the Red Hat Runtimes](https://www.redhat.com/en/products/runtimes) offering.
