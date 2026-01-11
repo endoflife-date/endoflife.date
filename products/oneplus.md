@@ -118,9 +118,10 @@ releases:
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
     supportedOxygenOSVersions: "13 - 16" #
 ---
-> OnePlus is a manufacturer of Android phones and other consumer electronics.
 
-OnePlus phones run OxygenOS, which is based on Android.
+> OnePlus is a manufacturer of Android phones and other consumer electronics.
+> OnePlus phones run OxygenOS, which is based on Android OS.
+
 It receives updates every two months.
 
 The OnePlus 13 & 13R support [four major Android updates](https://community.oneplus.com/thread/1809805181760569353) and six years of security updates.
