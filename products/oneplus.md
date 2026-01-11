@@ -45,7 +45,7 @@ releases:
     eoas: 2029-06-05 # approximation "4 major Android updates"
     eol: 2031-06-19
     discontinued: false
-    supportedOxygenOSVersions: "15 - 16" #
+    supportedOxygenOSVersions: "15 - 16"
 
   - releaseCycle: "13t"
     releaseLabel: "13T"
@@ -61,14 +61,14 @@ releases:
     eoas: 2029-01-07 # approximation "4 major Android updates"
     eol: 2031-01-07 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: "15 - 16" #
+    supportedOxygenOSVersions: "15 - 16"
 
   - releaseCycle: "13"
     releaseDate: 2024-10-31
     eoas: 2028-10-31 # approximation "4 major Android updates"
     eol: 2030-10-31 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: "15 - 16" #
+    supportedOxygenOSVersions: "15 - 16"
 
   - releaseCycle: "pad2"
     releaseLabel: "Pad 2"
@@ -76,7 +76,7 @@ releases:
     eoas: 2027-07-16 # approximation "3 major Android updates"
     eol: 2028-07-16 # approximation "4 years of security updates"
     discontinued: false
-    supportedOxygenOSVersions: "14 - 16" #
+    supportedOxygenOSVersions: "14 - 16"
 
   - releaseCycle: "12r"
     releaseLabel: "12R"
@@ -84,14 +84,14 @@ releases:
     eoas: 2028-01-23 # approximation "4 major Android updates"
     eol: 2029-01-23
     discontinued: true #
-    supportedOxygenOSVersions: "14 - 16" #
+    supportedOxygenOSVersions: "14 - 16"
 
   - releaseCycle: "12"
     releaseDate: 2024-01-23
     eoas: 2028-01-23 # approximation "4 major Android updates"
     eol: 2029-01-23
     discontinued: true #
-    supportedOxygenOSVersions: "14 - 16" #
+    supportedOxygenOSVersions: "14 - 16"
 
   - releaseCycle: "pad1"
     releaseLabel: "Pad"
@@ -99,25 +99,27 @@ releases:
     eoas: 2026-05-01 # 3 years Android updates
     eol: 2026-05-01 # Security updates end
     discontinued: true
-    supportedOxygenOSVersions: "13 - 16" #
+    supportedOxygenOSVersions: "13 - 16"
 
   - releaseCycle: "11r"
     releaseLabel: "11R"
     releaseDate: 2023-02-07
     eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
-    discontinued: true #
+    discontinued: true
     link: https://www.oneplus.in/11r
-    supportedOxygenOSVersions: "13 - 16" #
+    supportedOxygenOSVersions: "13 - 16"
 
   - releaseCycle: "11"
     releaseDate: 2023-02-07
     eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
-    discontinued: true #
+    discontinued: true
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
-    supportedOxygenOSVersions: "13 - 16" #
+    supportedOxygenOSVersions: "13 - 16"
+
 ---
+
 > OnePlus is a manufacturer of Android phones and other consumer electronics.
 
 OnePlus phones run OxygenOS, which is based on Android.
