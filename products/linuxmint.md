@@ -29,6 +29,13 @@ releases:
     eol: false
     link: https://blog.linuxmint.com/?p=4924
 
+  - releaseCycle: "22.3"
+    codename: Zena
+    lts: true
+    releaseDate: 2026-01-11
+    eol: 2029-04-30
+    link: https://www.linuxmint.com/rel_zena.php
+  
   - releaseCycle: "22.2"
     codename: Zara
     lts: true
