@@ -24,10 +24,10 @@ auto:
 releases:
   - releaseCycle: "dotnet10"
     releaseLabel: ".NET 10"
-    releaseDate: 2025-12-17
+    releaseDate: 2026-01-08
     eoas: 2028-11-14
     eol: 2029-01-15
-    link: https://github.com/aws/aws-lambda-dotnet/blob/master/CHANGELOG.md#release-2025-12-17
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-dot-net-10/
 
   - releaseCycle: "nodejs24.x"
     releaseLabel: Node.js 24
