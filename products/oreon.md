@@ -8,8 +8,7 @@ alternate_urls:
   - /oreon-linux
   - /oreon-os
 versionCommand: cat /etc/oreon-release
-releasePolicyLink: https://wiki.oreonproject.org/docs/Support-Timelines/
-changelogTemplate: https://wiki.oreonproject.org/docs/Support-Timelines/oreon-10-support-timeline
+releasePolicyLink: https://wiki.oreonproject.org/docs/Support-Timelines/oreon-10-support-timeline
 eoasColumn: true
 
 identifiers:
@@ -29,7 +28,7 @@ releases:
     eol: 2035-06-01
     latest: "2510"
     latestReleaseDate: 2025-10-12
-    link: https://wiki.oreonproject.org/docs/Support-Timelines/oreon-10-support-timeline
+    link: https://oreonproject.org/docs/releases/oreon-10
 
   - releaseCycle: "lime-r2"
     releaseLabel: "Oreon Lime (R2)"
@@ -38,7 +37,7 @@ releases:
     eol: 2032-05-31
     latest: "2504"
     latestReleaseDate: 2025-04-19
-    link: https://wiki.oreonproject.org/docs/Support-Timelines/oreon-lime-r2-support-timeline
+    link: 
 ---
 
 > [Oreon Linux](https://oreonproject.org/) is a free and open-source Linux distribution dedicated to making Enterprise Linux more suitable for desktops and laptops, providing the best user experience right out of the gate.
