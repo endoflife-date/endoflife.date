@@ -1,9 +1,8 @@
 ---
 title: Oreon Linux
-addedAt: 2025-10-30
+addedAt: 2026-01-12
 category: os
 tags: linux-distribution
-iconSlug: oreon
 permalink: /oreon
 alternate_urls:
   - /oreon-linux
@@ -45,8 +44,4 @@ releases:
 > [Oreon Linux](https://oreonproject.org/) is a free and open-source Linux distribution dedicated to making Enterprise Linux more suitable for desktops and laptops, providing the best user experience right out of the gate.
 > Oreon is in the process of becoming independent.
 
-Oreon Linux aims to provide predictable, well-documented support timelines for enterprise and community environments alike.  
-Support lifecycles and changelogs for each release are publicly maintained on the [Oreon Wiki](https://wiki.oreonproject.org/).
-
-### Support
-The Oreon Project has several support options on [their website](https://oreonproject.org/help).
+Oreon follows the support timeline of its base RHEL version, with security updates provided throughout the entire support period.
