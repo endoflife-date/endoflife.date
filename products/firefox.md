@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "146"
     releaseDate: 2025-12-09
-    eol: false
+    eol: 2026-01-12
     latest: "146.0.1"
     latestReleaseDate: 2025-12-18
 
