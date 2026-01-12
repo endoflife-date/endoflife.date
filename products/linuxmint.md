@@ -28,14 +28,14 @@ releases:
     releaseDate: 2026-01-11
     eol: 2029-04-30
     link: https://www.linuxmint.com/rel_zena.php
-    
+
   - releaseCycle: "lmde7"
     releaseLabel: "LMDE 7 '__CODENAME__'"
     codename: Gigi
     releaseDate: 2025-10-14
     eol: false
     link: https://blog.linuxmint.com/?p=4924
-  
+
   - releaseCycle: "22.2"
     codename: Zara
     lts: true
