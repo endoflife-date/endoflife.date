@@ -29,8 +29,8 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-12-25
     eol: 2029-03-31
-    latest: "4.0.0"
-    latestReleaseDate: 2025-12-25
+    latest: "4.0.1"
+    latestReleaseDate: 2026-01-12
     link: https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/
 
   - releaseCycle: "3.4"
