@@ -17,7 +17,7 @@ eoesColumn: Extended Support
 auto:
   methods:
     - distrowatch: oracle
-      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.| Update )?(?P<minor>\d+)?$'
+      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d+)(-U|\.| Update )?(?P<minor>\d+)?$'
 
 identifiers:
   - cpe: cpe:/o:oracle:linux
