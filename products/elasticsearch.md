@@ -33,22 +33,22 @@ releases:
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
     eol: false
-    latest: "9.2.3"
-    latestReleaseDate: 2025-12-15
+    latest: "9.2.4"
+    latestReleaseDate: 2026-01-07
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false
-    latest: "9.1.9"
-    latestReleaseDate: 2025-12-16
+    latest: "9.1.10"
+    latestReleaseDate: 2026-01-08
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.9"
-    latestReleaseDate: 2025-12-16
+    latest: "8.19.10"
+    latestReleaseDate: 2026-01-08
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
