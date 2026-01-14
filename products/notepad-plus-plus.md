@@ -18,7 +18,7 @@ releases:
   - releaseCycle: "8.9"
     releaseDate: 2025-12-27
     eol: false
-    latest: "8.9.0"
+    latest: "8.9"
     latestReleaseDate: 2025-12-27
 
   - releaseCycle: "8.8"
