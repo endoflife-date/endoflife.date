@@ -32,7 +32,7 @@ releases:
     eol: false
     eoes: false
     latest: "10.1"
-    latestReleaseDate: 2025-12-02
+    latestReleaseDate: 2025-12-06
 
   - releaseCycle: "9"
     releaseDate: 2022-07-06
@@ -61,6 +61,7 @@ releases:
     eoes: 2024-12-31
     latest: "6.10"
     latestReleaseDate: 2018-07-02
+
 ---
 
 > [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle
