@@ -48,8 +48,8 @@ releases:
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.9"
-    latestReleaseDate: 2025-07-24
+    latest: "3.2.10"
+    latestReleaseDate: 2026-01-14
 
   - releaseCycle: "3.1"
     releaseDate: 2021-12-25
