@@ -19,6 +19,8 @@ identifiers:
   - purl: pkg:docker/circleci/golang
   - purl: pkg:docker/cimg/go
   - purl: pkg:docker/bitnami/golang
+  - purl: pkg:brew/go
+  - purl: pkg:snap/go
 
 auto:
   methods:
