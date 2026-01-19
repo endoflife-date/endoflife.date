@@ -70,8 +70,8 @@ releases:
     releaseDate: 2024-08-08
     eol: true
     eoes: false
-    latest: "6.6.40"
-    latestReleaseDate: 2025-12-21
+    latest: "6.6.41"
+    latestReleaseDate: 2026-01-18
 
   - releaseCycle: "6.5"
     supportedJavaVersions: "11, 17, 21, 22 or 23"
