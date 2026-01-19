@@ -51,7 +51,7 @@ releases:
     latest: "40.0.0"
     latestReleaseDate: 2026-01-13
     chromeVersion: "M144"
-    nodeVersion: "TBD"
+    nodeVersion: "24"
 
   - releaseCycle: "39"
     releaseDate: 2025-10-28
