@@ -27,17 +27,17 @@ releases:
   - releaseCycle: "24.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-242
     releaseDate: 2025-01-15
-    eol: 2027-04-30
+    eol: 2027-07-31
 
   - releaseCycle: "24.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-241
     releaseDate: 2024-06-17
-    eol: 2026-09-30
+    eol: 2026-12-31
 
   - releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2026-02-28
+    eol: 2026-05-31
 
   - releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
