@@ -139,8 +139,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
-    latest: "6.1.160"
-    latestReleaseDate: 2026-01-11
+    latest: "6.1.161"
+    latestReleaseDate: 2026-01-17
 
   - releaseCycle: "6.0"
     releaseDate: 2022-10-02
