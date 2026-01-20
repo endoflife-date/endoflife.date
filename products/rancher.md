@@ -20,39 +20,48 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/rancher/rancher.git
-
-# Support and EOL dates can be found on https://www.suse.com/lifecycle#rancher
+    - release_table: https://www.suse.com/lifecycle#suse-rancher-prime
+      render_javascript: false
+      selector: 'tr[data-url="suse-rancher-prime"]+tr table:nth-of-type(1)'
+      fields:
+        releaseCycle:
+          column: Version
+          regex: '^(?P<value>2\.\d+)\.x$'
+        releaseDate: GA
+        eoas: EOM
+        eol: EOL
+# Support and EOL dates can be found on https://www.suse.com/lifecycle#suse-rancher-prime
 releases:
   - releaseCycle: "2.13"
-    releaseDate: 2025-11-24
-    eoas: false
-    eol: false
+    releaseDate: 2025-12-17
+    eoas: 2026-06-17
+    eol: 2027-06-17
     latest: "2.13.1"
     latestReleaseDate: 2025-12-18
 
   - releaseCycle: "2.12"
-    releaseDate: 2025-07-30
-    eoas: false
-    eol: false
+    releaseDate: 2025-08-29
+    eoas: 2026-02-28
+    eol: 2027-02-28
     latest: "2.12.5"
     latestReleaseDate: 2025-12-18
 
   - releaseCycle: "2.11"
-    releaseDate: 2025-03-31
-    eoas: 2026-10-24
+    releaseDate: 2025-04-24
+    eoas: 2025-10-24
     eol: 2026-10-24
     latest: "2.11.9"
     latestReleaseDate: 2025-12-18
 
   - releaseCycle: "2.10"
-    releaseDate: 2024-11-18
+    releaseDate: 2024-12-19
     eoas: 2025-06-19
     eol: 2026-06-19
     latest: "2.10.10"
     latestReleaseDate: 2025-09-24
 
   - releaseCycle: "2.9"
-    releaseDate: 2024-07-30
+    releaseDate: 2024-08-26
     eoas: 2025-02-26
     eol: 2026-02-26
     latest: "2.9.12"
@@ -135,7 +144,7 @@ releases:
 > while providing DevOps teams with integrated tools for running containerized workloads.
 
 Rancher does not have a fixed release and support policy, but End Of Maintenance (EOM) and End of
-Life (EOL) dates for each release are well-documented [on their website](https://www.suse.com/lifecycle#rancher).
+Life (EOL) dates for each release are well-documented [on their website](https://www.suse.com/lifecycle#suse-rancher-prime).
 
 Looking at the latest releases, it seems that all releases are fully supported for at least 1 year
 with bug and security fixes, followed by at least 6 months of limited support with critical

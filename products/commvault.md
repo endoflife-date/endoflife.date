@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "11.42"
     releaseDate: 2025-07-14
     eol: 2026-07-15
-    latest: "11.42.40"
-    latestReleaseDate: 2025-11-17
+    latest: "11.42.60"
+    latestReleaseDate: 2026-01-12
     link: https://documentation.commvault.com/11.42/software/list_of_innovation_update_releases_in_11_42.html
 
   - releaseCycle: "11.40"
