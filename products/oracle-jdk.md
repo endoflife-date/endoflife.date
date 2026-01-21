@@ -59,8 +59,8 @@ releases:
     releaseDate: 2025-09-16
     eol: 2030-09-30
     eoes: 2033-09-30
-    latest: "25.0.1"
-    latestReleaseDate: 2025-10-21
+    latest: "25.0.2"
+    latestReleaseDate: 2026-01-20
     link: https://www.oracle.com/java/technologies/javase/25all-relnotes.html
 
   - releaseCycle: "24"
@@ -88,8 +88,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     eoes: 2031-09-30
-    latest: "21.0.9"
-    latestReleaseDate: 2025-10-21
+    latest: "21.0.10"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -114,8 +114,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     eoes: 2029-09-30
-    latest: "17.0.17"
-    latestReleaseDate: 2025-10-21
+    latest: "17.0.18"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -152,8 +152,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     eoes: 2032-01-31
-    latest: "11.0.29"
-    latestReleaseDate: 2025-10-21
+    latest: "11.0.30"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -172,8 +172,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     eoes: 2030-12-31
-    latest: "8u471"
-    latestReleaseDate: 2025-10-21
+    latest: "8u481"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "7"
     lts: true
