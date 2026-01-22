@@ -28,7 +28,7 @@ releases:
   eol: 2024-11-25
   latest: v3.6.2
   latestReleaseDate: 2024-08-19
-  supportedK8sVersions: 	1.25 - 1.31
+  supportedK8sVersions: 1.25 - 1.31
 
 - releaseCycle: '3.5'
   releaseDate: 2024-05-31
