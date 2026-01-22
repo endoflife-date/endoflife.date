@@ -24,7 +24,7 @@ identifiers:
 releases:
   - releaseCycle: "1.93"
     releaseDate: 2026-01-22
-    eol: false # releaseDate(1.94)
+    eol: false
     latest: "1.93.0"
     latestReleaseDate: 2026-01-22
 
