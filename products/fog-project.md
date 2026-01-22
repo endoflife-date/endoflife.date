@@ -36,10 +36,10 @@ releases:
 ---
 
 > FOG is an open-source platform for imaging and managing computers across a network.  
-> It provides a web-based interface for deploying, capturing, and organizing computers systems.
+> It provides interfaces for deploying, capturing, and organizing computer systems.
 
 FOG Project uses a stable-release versioning model.  
-**Only the latest stable release is supported**, receiving bug fixes, security patches, and minor improvements.  
+**Only the latest stable release** is supported with minor improvements, bug and security fixes.
 
 FOG Project versions use a four-part format ;
 
