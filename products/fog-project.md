@@ -39,6 +39,7 @@ releases:
 > It provides a web-based interface for deploying, capturing, and organizing computers systems.
 
 FOG Project uses a stable-release versioning model. **Only the latest stable release is supported**, receiving bug fixes, security patches, and minor improvements.  
+
 FOG Project versions use a four-part format ;
 
 | Version Part       | Description                                                                                                           | Example     |
