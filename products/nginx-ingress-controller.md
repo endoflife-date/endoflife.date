@@ -85,7 +85,9 @@ releases:
   latest: v2.3.1
   latestReleaseDate: 2022-09-16
   supportedK8sVersions: 1.19 - 1.24
+  
 ---
+
 > [F5 NGINX Ingress Controller](https://www.f5.com/products/nginx/nginx-ingress-controller) NGINX Ingress Controller works with both NGINX and NGINX Plus and supports the standard Ingress features - content-based routing and TLS/SSL termination.
 
 ## Versioning Scheme
