@@ -53,8 +53,8 @@ releases:
     releaseDate: 2022-12-19
     eoas: 2023-12-11 # releaseDate(7)
     eol: 2025-12-31
-    latest: "6.5.0"
-    latestReleaseDate: 2024-01-23
+    latest: "6.6.0"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "5"
     lts: true
