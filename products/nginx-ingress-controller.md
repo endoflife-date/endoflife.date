@@ -11,6 +11,13 @@ eolColumn: true
 identifiers:
 - purl: pkg:github/nginxinc/kubernetes-ingress
 - repology: nginx-ingress-controller
+
+customFields:
+  - name: supportedK8sVersions
+    display: after-release-column
+    label: Kubernetes Version
+    description: Supported Kubernetes versions
+
 auto:
   methods:
   - github_releases: nginxinc/kubernetes-ingress
