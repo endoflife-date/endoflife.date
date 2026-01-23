@@ -5,7 +5,6 @@ category: os
 tags: apple
 iconSlug: ios
 permalink: /ios
-releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
@@ -149,3 +148,5 @@ Apple has occasionally backported critical security fixes to [much older iOS ver
 As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices is available at [/iphone](/iphone).
+
+A detailed overview of iOS versions can be found on [Wikipedia](https://en.wikipedia.org/wiki/IOS_version_history#Overview).

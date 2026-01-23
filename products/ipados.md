@@ -5,7 +5,6 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /ipados
-releasePolicyLink: https://en.wikipedia.org/wiki/IPadOS_version_history
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
@@ -78,3 +77,5 @@ releases:
 Major versions of iPadOS are released annually.
 
 Support information for iPad devices is available at [/ipad](/ipad).
+
+A detailed overview of iPadOS versions can be found on [Wikipedia](https://en.wikipedia.org/wiki/IPadOS_version_history).

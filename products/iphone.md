@@ -5,7 +5,6 @@ category: device
 tags: apple mobile-phone
 iconSlug: apple
 permalink: /iphone
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
@@ -447,3 +446,5 @@ as a stop-gap to allow users time to update.
 Apple maintains a list of Supported iPhone models at <https://support.apple.com/guide/iphone/iphe3fa5df43>.
 
 Support information for iOS versions is available at [/ios](/ios).
+
+A detailed list of all iPhone models can also be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_iPhone_models).

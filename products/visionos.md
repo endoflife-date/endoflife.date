@@ -5,7 +5,6 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /visionos
-releasePolicyLink: https://en.wikipedia.org/wiki/VisionOS#Version_history
 changelogTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
 
 auto:
@@ -41,4 +40,6 @@ releases:
 > It integrates elements from iOS, iPadOS, and macOS, enabling users to interact with digital content in a mixed reality environment.
 > VisionOS supports new interaction paradigms such as eye-tracking, gesture control, and voice input.
 
-Major versions of tvOS are released annually, with the previous major version losing support.
+Major versions of visionOS are released annually, with the previous major version losing support.
+
+A detailed version history can be found on [Wikipedia](https://en.wikipedia.org/wiki/VisionOS#Version_history).

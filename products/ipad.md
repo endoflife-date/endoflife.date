@@ -5,7 +5,6 @@ category: device
 tags: apple tablet
 iconSlug: apple
 permalink: /ipad
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
@@ -352,10 +351,11 @@ releases:
     supportedIpadOsVersions: "3 - 5"
 ---
 
-> The iPad is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
+> The [iPad](https://www.apple.com/ipad/)is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
 
-Apple maintains a list of Supported iPad models
-[on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
+Apple maintains a list of supported iPad models [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
-Support information for iPadOS versions is also available [on endoflife.date](/ipados).
+Support information for iPadOS versions is also available [/ipados](/ipados).
+
+A detailed list of all iPad models can also be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_iPad_models#iPad).
