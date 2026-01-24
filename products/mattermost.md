@@ -33,7 +33,7 @@ releases:
     releaseDate: 2026-01-16
     eol: 2026-04-15
     latest: "11.3.0"
-    latestReleaseDate: 2026-01-16
+    latestReleaseDate: 2026-01-08
 
   - releaseCycle: "11.2"
     releaseDate: 2025-12-16
