@@ -149,4 +149,4 @@ As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is miss
 
 Support information for iPhone devices is available at [/iphone](/iphone).
 
-A detailed overview of iOS versions can be found on [Wikipedia](https://en.wikipedia.org/wiki/IOS_version_history#Overview).
+A detailed overview of iOS versions can be found on [Wikipedia](https://wikipedia.org/wiki/IOS_version_history#Overview).
