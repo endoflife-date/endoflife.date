@@ -93,4 +93,4 @@ Major versions of watchOS are released annually, with the previous major version
 
 Apple publishes a [Compatibility Table](https://support.apple.com/118490) for supported combinations of iPhone, iOS, watchOS.
 
-A detailed version history can be found on [Wikipedia](https://en.wikipedia.org/wiki/WatchOS#Version_history).
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/WatchOS#Version_history).

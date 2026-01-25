@@ -42,4 +42,4 @@ releases:
 
 Major versions of visionOS are released annually, with the previous major version losing support.
 
-A detailed version history can be found on [Wikipedia](https://en.wikipedia.org/wiki/VisionOS#Version_history).
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/VisionOS#Version_history).

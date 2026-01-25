@@ -356,6 +356,6 @@ releases:
 
 Apple maintains a list of supported iPad models [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
-Support information for iPadOS versions is also available [/ipados](/ipados).
+Support information for iPadOS versions is also available at [/ipados](/ipados).
 
-A detailed list of all iPad models can also be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_iPad_models#iPad).
+A detailed list of all iPad models can also be found on [Wikipedia](https://wikipedia.org/wiki/List_of_iPad_models#iPad).

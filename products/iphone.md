@@ -447,4 +447,4 @@ Apple maintains a list of Supported iPhone models at <https://support.apple.com/
 
 Support information for iOS versions is available at [/ios](/ios).
 
-A detailed list of all iPhone models can also be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_iPhone_models).
+A detailed list of all iPhone models can also be found on [Wikipedia](https://wikipedia.org/wiki/List_of_iPhone_models).

@@ -192,4 +192,4 @@ Some of the Raspberry Pi hardware comes with an Obsolescence statement guarantee
 specific date. [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) supports
 all Raspberry Pi models (excluding Pico).
 
-A detailed model comparison can be found on [Wikipedia](https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison).
+A detailed model comparison can be found on [Wikipedia](https://wikipedia.org/wiki/Raspberry_Pi#Model_comparison).

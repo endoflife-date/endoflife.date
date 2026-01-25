@@ -78,4 +78,4 @@ Major versions of iPadOS are released annually.
 
 Support information for iPad devices is available at [/ipad](/ipad).
 
-A detailed overview of iPadOS versions can be found on [Wikipedia](https://en.wikipedia.org/wiki/IPadOS_version_history).
+A detailed overview of iPadOS versions can be found on [Wikipedia](https://wikipedia.org/wiki/IPadOS_version_history).
