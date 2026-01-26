@@ -31,16 +31,16 @@ releases:
     releaseDate: 2025-11-27
     eoas: 2026-07-31
     eol: 2026-07-31
-    latest: "8.0.3"
-    latestReleaseDate: 2025-12-31
+    latest: "8.0.4"
+    latestReleaseDate: 2026-01-25
 
   - releaseCycle: "7.4"
     lts: true
     releaseDate: 2025-11-27
     eoas: 2028-11-30
     eol: 2029-11-30
-    latest: "7.4.3"
-    latestReleaseDate: 2025-12-31
+    latest: "7.4.4"
+    latestReleaseDate: 2026-01-24
 
   - releaseCycle: "7.3"
     releaseDate: 2025-05-29
