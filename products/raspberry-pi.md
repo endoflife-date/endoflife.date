@@ -8,7 +8,6 @@ alternate_urls:
   - /raspberrypi
   - /raspi
   - /rpi
-releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 eolColumn: Discontinued
 latestColumn: false
 
@@ -192,3 +191,5 @@ releases:
 Some of the Raspberry Pi hardware comes with an Obsolescence statement guaranteeing production until a
 specific date. [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) supports
 all Raspberry Pi models (excluding Pico).
+
+A detailed model comparison can be found on [Wikipedia](https://wikipedia.org/wiki/Raspberry_Pi#Model_comparison).

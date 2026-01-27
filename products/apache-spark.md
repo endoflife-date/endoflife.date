@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "4.1"
     releaseDate: 2025-12-11
     eol: 2027-06-11 # estimated
-    latest: "4.1.0"
-    latestReleaseDate: 2025-12-11
+    latest: "4.1.1"
+    latestReleaseDate: 2026-01-02
 
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
@@ -41,8 +41,8 @@ releases:
     lts: true
     releaseDate: 2023-09-09
     eol: 2026-04-12 # https://github.com/apache/spark-website/commit/f06babdb98c4d97163c405622b2cc06c9d3c5797
-    latest: "3.5.7"
-    latestReleaseDate: 2025-09-17
+    latest: "3.5.8"
+    latestReleaseDate: 2026-01-12
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07

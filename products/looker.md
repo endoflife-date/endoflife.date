@@ -68,7 +68,7 @@ releases:
     link: https://discuss.google.dev/t/looker-25-8-release-notes/189625
 
   - releaseCycle: "25.6"
-    releaseDate: 2025-04-09
+    releaseDate: 2025-04-30
     lts: 2025-05-31
     eol: 2025-08-31
     link: https://discuss.google.dev/t/looker-25-6-release-notes/186433

@@ -10,7 +10,7 @@ releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 
 identifiers:
-  - cpe: cpe:/:a:akeneo:product_information_management
+  - cpe: cpe:/a:akeneo:product_information_management
   - cpe: cpe:2.3:a:akeneo:product_information_management
 
 auto:

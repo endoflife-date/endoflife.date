@@ -7,7 +7,7 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
-changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/mariadb-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-series/mariadb-__LATEST__-release-notes"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
@@ -68,14 +68,12 @@ releases:
     eol: 2026-02-18 #estimated 
     latest: "12.1.2"
     latestReleaseDate: 2025-11-18
-    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "12.0"
     releaseDate: 2025-08-07
     eol: 2025-11-18
     latest: "12.0.2"
     latestReleaseDate: 2025-08-07
-    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "11.8"
     lts: true

@@ -65,16 +65,16 @@ releases:
     releaseDate: 2025-11-30
     eol: 2026-12-31
     eoes: 2027-12-31
-    latest: "4.0.1"
-    latestReleaseDate: 2025-12-18
+    latest: "4.0.2"
+    latestReleaseDate: 2026-01-22
 
   - releaseCycle: "3.5"
     supportedJavaVersions: "17 - 25" # https://docs.spring.io/spring-boot/3.5/system-requirements.html
     releaseDate: 2025-05-31
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "3.5.9"
-    latestReleaseDate: 2025-12-18
+    latest: "3.5.10"
+    latestReleaseDate: 2026-01-22
 
   - releaseCycle: "3.4"
     supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/3.4/system-requirements.html
