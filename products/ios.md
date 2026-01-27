@@ -74,8 +74,8 @@ releases:
     releaseDate: 2018-09-17
     eoas: 2019-09-19
     eol: 2023-01-23
-    latest: "12.5.7"
-    latestReleaseDate: 2023-01-23
+    latest: "12.5.8"
+    latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
   - releaseCycle: "11"
