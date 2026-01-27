@@ -28,8 +28,8 @@ releases:
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
     eoas: false
     eol: false
-    latest: "2025.6"
-    latestReleaseDate: 2025-12-12
+    latest: "2025.6.1"
+    latestReleaseDate: 2025-12-24
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
 
   - releaseCycle: "2025.5"

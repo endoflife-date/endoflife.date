@@ -25,6 +25,12 @@ auto:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
 releases:
+  - releaseCycle: "4.1"
+    releaseDate: 2025-12-11
+    eol: 2027-06-11 # estimated
+    latest: "4.1.1"
+    latestReleaseDate: 2026-01-02
+
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
@@ -35,12 +41,12 @@ releases:
     lts: true
     releaseDate: 2023-09-09
     eol: 2026-04-12 # https://github.com/apache/spark-website/commit/f06babdb98c4d97163c405622b2cc06c9d3c5797
-    latest: "3.5.7"
-    latestReleaseDate: 2025-09-17
+    latest: "3.5.8"
+    latestReleaseDate: 2026-01-12
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07
-    eol: true # 3.4.4 announced as the last 3.4.x release in https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
+    eol: 2024-10-21 # https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
     latest: "3.4.4"
     latestReleaseDate: 2024-10-21
 

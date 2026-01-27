@@ -19,88 +19,28 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/moby/moby.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
+      regex: ^(docker-)?v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
 # Inside a given major release, eol(x) = releaseDate(x+1)
 # For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
-  - releaseCycle: "29.0"
+  - releaseCycle: "29"
     releaseDate: 2025-11-10
     eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
-    latest: "29.0.1"
-    latestReleaseDate: 2025-11-14
+    latest: "29.1.5"
+    latestReleaseDate: 2026-01-16
 
-  - releaseCycle: "28.5"
-    releaseDate: 2025-10-02
-    eol: 2025-11-10
+  - releaseCycle: "28"
+    releaseDate: 2025-02-20
+    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
     latest: "28.5.2"
     latestReleaseDate: 2025-11-05
 
-  - releaseCycle: "28.4"
-    releaseDate: 2025-09-03
-    eol: 2025-10-02
-    latest: "28.4.0"
-    latestReleaseDate: 2025-09-03
-
-  - releaseCycle: "28.3"
-    releaseDate: 2025-06-24
-    eol: 2025-09-03
-    latest: "28.3.3"
-    latestReleaseDate: 2025-07-25
-
-  - releaseCycle: "28.2"
-    releaseDate: 2025-05-28
-    eol: 2025-06-24
-    latest: "28.2.2"
-    latestReleaseDate: 2025-05-30
-
-  - releaseCycle: "28.1"
-    releaseDate: 2025-04-17
-    eol: 2025-05-28
-    latest: "28.1.1"
-    latestReleaseDate: 2025-04-18
-
-  - releaseCycle: "28.0"
-    releaseDate: 2025-02-20
-    eol: 2025-04-17
-    latest: "28.0.4"
-    latestReleaseDate: 2025-03-25
-
-  - releaseCycle: "27.5"
-    releaseDate: 2025-01-13
-    eol: 2025-05-03 # https://github.com/moby/moby/pull/49910
+  - releaseCycle: "27"
+    releaseDate: 2024-06-25
+    eol: 2025-05-03
     latest: "27.5.1"
     latestReleaseDate: 2025-01-22
-
-  - releaseCycle: "27.4"
-    releaseDate: 2024-12-09
-    eol: 2025-01-13
-    latest: "27.4.1"
-    latestReleaseDate: 2024-12-18
-
-  - releaseCycle: "27.3"
-    releaseDate: 2024-09-19
-    eol: 2024-12-09
-    latest: "27.3.1"
-    latestReleaseDate: 2024-09-20
-
-  - releaseCycle: "27.2"
-    releaseDate: 2024-08-27
-    eol: 2024-09-19
-    latest: "27.2.1"
-    latestReleaseDate: 2024-09-09
-
-  - releaseCycle: "27.1"
-    releaseDate: 2024-07-22
-    eol: 2024-08-27
-    latest: "27.1.2"
-    latestReleaseDate: 2024-08-13
-
-  - releaseCycle: "27.0"
-    releaseDate: 2024-06-25
-    eol: 2024-07-22
-    latest: "27.0.3"
-    latestReleaseDate: 2024-07-01
 
   - releaseCycle: "26.1"
     releaseDate: 2024-04-22
@@ -255,5 +195,3 @@ releases:
 > whereas binary distributions are available [from multiple contributing parties](https://github.com/moby/moby/blob/master/project/PACKAGERS.md).
 
 Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support).
-
-The list of all supported releases is documented at <https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md>.
