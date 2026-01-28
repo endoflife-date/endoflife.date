@@ -16,6 +16,15 @@ identifiers:
   - cpe: cpe:2.3:o:microsoft:azure_devops_server
 
 releases:
+  - releaseCycle: "continuous"
+    releaseLabel: "Azure DevOps Server"
+    releaseDate: 2025-12-09
+    eoas: false
+    eol: false
+    latest: "20.0.36719.1"
+    latestReleaseDate: 2025-12-09
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver?view=azure-devops#azure-devops-server-release-date-december-9-2025
+
   - releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
     releaseDate: 2024-07-09
@@ -145,5 +154,7 @@ releases:
 
 > [Azure DevOps Server](https://azure.microsoft.com/products/devops/server/), is a set of
 > collaborative software development tools, hosted on-premises.
+
+[In 2025 Microsoft](https://www.powercommunity.com/announcing-the-new-azure-devops-server-rc-release/) switched to Modern Lifecycle Policy with continuous support and removed the year in the name.
 
 Prior to 2019, Azure DevOps was known as [Team Foundation Server (TFS)](https://learn.microsoft.com/lifecycle/products/?terms=Team%20Foundation%20Server).

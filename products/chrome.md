@@ -21,10 +21,14 @@ auto:
     - chrome-releases: https://chromiumdash.appspot.com/fetch_milestone_schedule
 
 # eol(x) = releaseDate(x+1)
-releases:
+releases:  
+  - releaseCycle: "144"
+    releaseDate: 2026-01-13
+    eol: false
+    
   - releaseCycle: "143"
     releaseDate: 2025-12-02
-    eol: false
+    eol: 2026-01-13
   
   - releaseCycle: "142"
     releaseDate: 2025-10-28

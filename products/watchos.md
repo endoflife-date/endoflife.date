@@ -5,7 +5,6 @@ category: os
 tags: apple smartwatch
 iconSlug: apple
 permalink: /watchos
-releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
 
 identifiers:
@@ -26,8 +25,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    latest: "26.2.1"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "11"
     releaseDate: 2024-09-16
@@ -93,3 +92,5 @@ releases:
 Major versions of watchOS are released annually, with the previous major version losing support.
 
 Apple publishes a [Compatibility Table](https://support.apple.com/118490) for supported combinations of iPhone, iOS, watchOS.
+
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/WatchOS#Version_history).
