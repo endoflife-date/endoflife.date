@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
@@ -47,7 +47,7 @@ releases:
     releaseDate: 2025-02-24
     eoas: 2026-08-16
     eol: 2027-02-24
-    supportedPhpVersions: "8.2 - 8.4"
+    supportedPhpVersions: "8.2 - 8.5"
     latest: "12.48.1"
     latestReleaseDate: 2026-01-20
 
