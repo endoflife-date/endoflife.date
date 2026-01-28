@@ -25,7 +25,7 @@ auto:
 identifiers:
   - repology: forgejo
 
-# eol dates: https://forgejo.org/releases/
+# eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:
   - releaseCycle: "14.0"
     releaseDate: 2026-01-15
