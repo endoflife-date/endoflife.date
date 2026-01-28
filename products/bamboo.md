@@ -67,8 +67,8 @@ releases:
     lts: true
     releaseDate: 2024-03-13
     eol: 2026-03-14
-    latest: "9.6.22"
-    latestReleaseDate: 2026-01-14
+    latest: "9.6.23"
+    latestReleaseDate: 2026-01-27
 
   - releaseCycle: "9.5"
     releaseDate: 2024-01-22
