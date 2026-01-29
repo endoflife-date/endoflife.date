@@ -75,8 +75,8 @@ releases:
     lts: true
     releaseDate: 2025-09-22
     eol: 2031-09-30 # expected 28 release date (see https://www.java.com/releases/)
-    latest: "25.0.1+8"
-    latestReleaseDate: 2025-10-24
+    latest: "25.0.2+10"
+    latestReleaseDate: 2026-01-22
 
   - releaseCycle: "24"
     releaseDate: 2025-03-20
@@ -133,8 +133,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
     eol: 2027-10-31
-    latest: "11.0.29+7"
-    latestReleaseDate: 2025-10-27
+    latest: "11.0.30+7"
+    latestReleaseDate: 2026-01-26
 
   # Note that the first and only 16 release is 16.0.2+7
   - releaseCycle: "16"
@@ -148,8 +148,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2030-12-31
-    latest: "8u472-b08"
-    latestReleaseDate: 2025-10-24
+    latest: "8u482-b08"
+    latestReleaseDate: 2026-01-26
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---

@@ -25,7 +25,6 @@ identifiers:
   - purl: pkg:docker/bitnami/harbor-jobservice
   - purl: pkg:docker/bitnami/harbor-portal
   - purl: pkg:docker/bitnami/harbor-registryctl
-  - purl: pkg:docker/bitnami/harbor-registry
   # Chainguard Images (Wolfi-based)
   - purl: pkg:oci/harbor-core?repository_url=cgr.dev/chainguard
   - purl: pkg:oci/harbor-jobservice?repository_url=cgr.dev/chainguard
