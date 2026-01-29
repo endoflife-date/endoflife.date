@@ -33,29 +33,29 @@ releases:
   - releaseCycle: "3.23"
     releaseDate: 2025-12-04
     eol: 2027-11-01
-    latest: "3.23.2"
-    latestReleaseDate: 2025-12-17
+    latest: "3.23.3"
+    latestReleaseDate: 2026-01-27
     link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
 
   - releaseCycle: "3.22"
     releaseDate: 2025-05-30
     eol: 2027-05-01
-    latest: "3.22.2"
-    latestReleaseDate: 2025-10-08
+    latest: "3.22.3"
+    latestReleaseDate: 2026-01-27
     link: https://alpinelinux.org/posts/Alpine-3.22.0-released.html
 
   - releaseCycle: "3.21"
     releaseDate: 2024-12-05
     eol: 2026-11-01
-    latest: "3.21.5"
-    latestReleaseDate: 2025-10-08
+    latest: "3.21.6"
+    latestReleaseDate: 2026-01-27
     link: https://alpinelinux.org/posts/Alpine-3.21.0-released.html
 
   - releaseCycle: "3.20"
     releaseDate: 2024-05-22
     eol: 2026-04-01
-    latest: "3.20.8"
-    latestReleaseDate: 2025-10-08
+    latest: "3.20.9"
+    latestReleaseDate: 2026-01-27
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
   - releaseCycle: "3.19"
