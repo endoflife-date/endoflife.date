@@ -63,7 +63,7 @@ releases:
     link: https://cloud.google.com/looker/docs/release-notes#June_11_2025
 
   - releaseCycle: "25.8"
-    releaseDate: 2025-05-14
+    releaseDate: 2025-05-31
     eol: 2025-08-31
     link: https://discuss.google.dev/t/looker-25-8-release-notes/189625
 
