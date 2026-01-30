@@ -52,6 +52,12 @@ releases:
     latest: "0.15.1"
     latestReleaseDate: 2024-12-19
 
+  - releaseCycle: "0.14"
+    releaseDate: 2023-11-07
+    eol: true
+    latest: "0.14.2"
+    latestReleaseDate: 2024-05-16
+
 ---
 
 > [ExternalDNS](https://kubernetes-sigs.github.io/external-dns) synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
