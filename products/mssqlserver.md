@@ -36,8 +36,8 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1050.2"
     latestGdrLink: https://support.microsoft.com/help/5073177
-    latest: "17.0.4005.7 CU1"
-    latestReleaseDate: 2026-01-15
+    latest: "17.0.4006.2 CU1"
+    latestReleaseDate: 2026-01-29
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate1
 
   - releaseCycle: "16.0"
@@ -48,8 +48,8 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1165.1"
     latestGdrLink: https://support.microsoft.com/help/5073031
-    latest: "16.0.4235.2 CU23"
-    latestReleaseDate: 2026-01-15
+    latest: "16.0.4236.2 CU23"
+    latestReleaseDate: 2026-01-29
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate23
 
   - releaseCycle: "13.0-sp3"
