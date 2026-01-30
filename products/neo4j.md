@@ -298,9 +298,9 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.46"
+    latest: "4.4.47"
     lts: true
-    latestReleaseDate: 2025-09-30
+    latestReleaseDate: 2026-01-29
     link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
   - releaseCycle: "4.3"

@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "14.0"
     releaseDate: 2026-01-15
     eol: 2026-04-16
-    latest: "14.0.1"
-    latestReleaseDate: 2026-01-16
+    latest: "14.0.2"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "13.0"
     releaseDate: 2025-10-16
