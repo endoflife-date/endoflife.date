@@ -8,6 +8,9 @@ permalink: /external-dns
 releasePolicyLink: https://github.com/kubernetes-sigs/external-dns/blob/master/docs/release.md
 eolColumn: Support
 
+identifiers:
+  - purl: pkg:github/kubernetes-sigs/external-dns
+
 auto:
   methods:
     - git: https://github.com/kubernetes-sigs/external-dns.git
