@@ -106,7 +106,7 @@ releases:
     lts: true
     releaseDate: 2025-03-26
     eol: 2026-03-28
-    eoes: 2026-03-24
+    eoes: 2026-03-29
     latest: "3.20.5"
     latestReleaseDate: 2026-01-21
 
