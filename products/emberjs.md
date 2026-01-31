@@ -292,8 +292,8 @@ releases:
     lts: 2018-02-14
     eoas: 2018-09-12
     eol: 2019-02-27
-    latest: "2.18.2"
-    latestReleaseDate: 2018-02-14
+    latest: "2.18.3"
+    latestReleaseDate: 2026-01-30
 
   - releaseCycle: "2.16"
     releaseDate: 2017-10-10
