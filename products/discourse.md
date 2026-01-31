@@ -18,7 +18,7 @@ identifiers:
   - purl: pkg:docker/discourse/base
 auto:
   methods:
-    git: https://github.com/discourse/discourse.git
+    - git: https://github.com/discourse/discourse.git
 
 releases:
   - releaseCycle: "2026.1"
