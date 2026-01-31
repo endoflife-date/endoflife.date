@@ -24,19 +24,19 @@ customFields:
 releases:
   - releaseCycle: "pro-8-11"
     releaseLabel: "iPad Pro 11-inch (M5)"
-    releaseDate: 2025-10-15
+    releaseDate: 2025-10-22
     discontinued: false
     eol: false
     link: https://support.apple.com/125406
-    supportedIpadOsVersions: "26 - 26"
+    supportedIpadOsVersions: "26"
 
   - releaseCycle: "pro-8-13"
     releaseLabel: "iPad Pro 13-inch (M5)"
-    releaseDate: 2025-10-15
+    releaseDate: 2025-10-22
     discontinued: false
     eol: false
     link: https://support.apple.com/125407
-    supportedIpadOsVersions: "26 - 26"
+    supportedIpadOsVersions: "26"
 
   - releaseCycle: "11"
     releaseLabel: "iPad (A16)"
