@@ -42,7 +42,7 @@ releases:
 
   - releaseCycle: "4.16"
     releaseDate: 2025-11-05
-    eol: 2026-01-13
+    eol: 2026-01-12
     supportedJavaVersions: "17, 21"
     latest: "4.16.0"
     latestReleaseDate: 2025-11-01
