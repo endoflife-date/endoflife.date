@@ -13,6 +13,7 @@ identifiers:
   - repology: bun
   - purl: pkg:docker/oven/bun
   - purl: pkg:github/oven-sh/bun
+  - pkg: brew/oven-sh/bun
 
 auto:
   methods:
