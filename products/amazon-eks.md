@@ -36,7 +36,7 @@ releases:
     eol: 2027-03-27
     eoes: 2028-03-27
     latest: "1.35-eks-3"
-    latestReleaseDate: 2026-01-28
+    latestReleaseDate: 2026-01-27
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35/
 
   - releaseCycle: "1.34"

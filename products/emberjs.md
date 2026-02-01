@@ -44,7 +44,7 @@ releases:
     eoas: false
     eol: false
     latest: "6.9.0"
-    latestReleaseDate: 2026-01-09
+    latestReleaseDate: 2025-11-25
     link: https://blog.emberjs.com/ember-released-6-9
 
   - releaseCycle: "6.8"
