@@ -19,7 +19,9 @@ identifiers:
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_client/
+    - chef-versions: https://docs.chef.io/release_notes/client/
+      regex: '^Chef Infra Client (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/chef.git
 
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
