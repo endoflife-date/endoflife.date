@@ -16,7 +16,10 @@ identifiers:
 
 auto:
   methods:
-    - chef-inspec: https://docs.chef.io/release_notes_inspec/
+    - chef-versions: https://docs.chef.io/release_notes/inspec/
+      regex: '^Chef InSpec (?P<value>.+)$'
+      template: "{{value}}"
+      repository: https://github.com/inspec/inspec.git
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/
