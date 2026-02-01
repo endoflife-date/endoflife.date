@@ -154,6 +154,15 @@ releases:
     latest: "5.4.33"
     latestReleaseDate: 2022-01-10
 
+  - releaseCycle: "5.3"
+    supportedJavaVersions: "8, 11 or 17"
+    supportedJakartaEEVersions: "8"
+    releaseDate: 2018-05-14
+    eol: true
+    eoes: false
+    latest: "5.3.38"
+    latestReleaseDate: 2026-01-19
+
 ---
 
 > [Hibernate ORM](https://hibernate.org) (or simply Hibernate) is an open-source object–relational mapping tool for the Java programming language.
