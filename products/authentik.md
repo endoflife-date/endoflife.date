@@ -21,7 +21,7 @@ auto:
     - git: https://github.com/goauthentik/authentik.git
       regex: ^version\/(?P<major>\d+).(?P<minor>\d+).(?P<patch>\d+)$
 
-# eol(x) = release(x+2)
+# eol(x) = release(x+2) [ after the cycle of 2025.4 ]
 releases:
   - releaseCycle: "2025.12"
     releaseDate: 2026-01-13
