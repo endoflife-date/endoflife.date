@@ -75,6 +75,12 @@ releases:
     latest: "1.11.5"
     latestReleaseDate: 2023-09-01
 
+  - releaseCycle: "1.10"
+    releaseDate: 2022-10-17
+    eol: 2023-05-19
+    latest: "1.10.2"
+    latestReleaseDate: 2023-01-10
+
 ---
 
 > [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller
