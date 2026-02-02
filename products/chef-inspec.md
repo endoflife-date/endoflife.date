@@ -36,28 +36,28 @@ releases:
     eoas: 2025-10-16
     eol: false
     latest: "6.8.24"
-    latestReleaseDate: 2025-01-29
+    latestReleaseDate: 2025-01-23
 
   - releaseCycle: "5"
     releaseDate: 2022-03-17
     eoas: 2023-11-14
     eol: 2025-10-16 # releaseDate(7)
-    latest: "5.23.6"
-    latestReleaseDate: 2025-09-23
+    latest: "5.24.5"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "4"
     releaseDate: 2019-04-30
     eoas: 2022-03-17
     eol: 2023-11-14
     latest: "4.56.58"
-    latestReleaseDate: 2023-10-31
+    latestReleaseDate: 2023-10-24
 
   - releaseCycle: "3"
     releaseDate: 2018-10-15
     eoas: 2019-04-30
     eol: 2020-04-30
     latest: "3.9.3"
-    latestReleaseDate: 2019-04-15
+    latestReleaseDate: 2019-04-11
 
   - releaseCycle: "2"
     releaseDate: 2018-02-20
@@ -70,8 +70,8 @@ releases:
     releaseDate: 2016-09-26
     eoas: 2018-02-20
     eol: 2019-12-31
-    latest: "1.51.25"
-    latestReleaseDate: 2018-05-10
+    latest: "1.51.31"
+    latestReleaseDate: 2019-03-06
 
 ---
 
