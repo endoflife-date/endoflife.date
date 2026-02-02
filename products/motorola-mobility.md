@@ -17,6 +17,18 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-signature
+    releaseLabel: "Motorola Signature"
+    releaseDate: 2026-01-01
+    eol: 2032-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12430
+
+  - releaseCycle: moto-g-power-2026
+    releaseLabel: "Moto G Power (2026)"
+    releaseDate: 2026-01-01
+    eol: 2029-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12452
+
   - releaseCycle: moto-g-2026
     releaseLabel: "Moto G (2026)"
     releaseDate: 2025-12-01

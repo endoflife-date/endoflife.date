@@ -13,6 +13,8 @@ identifiers:
   - repology: bun
   - purl: pkg:docker/oven/bun
   - purl: pkg:github/oven-sh/bun
+  - purl: pkg:brew/oven-sh/bun/bun
+  - purl: pkg:npm/bun
 
 auto:
   methods:
@@ -29,7 +31,7 @@ releases:
 
 ---
 
-> [Bun](https://bun.sh/) is an open-source JavaScript runtime that focuses on speed
+> [Bun](https://bun.com/) is an open-source JavaScript runtime that focuses on speed
 > and comes with a bundler, test runner, and a Node.js-compatible package manager.
 
 Bun does not have a clearly defined support policy.
