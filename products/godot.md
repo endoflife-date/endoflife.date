@@ -29,6 +29,13 @@ auto:
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
+  - releaseCycle: "4.6"
+    releaseDate: 2026-01-26
+    eoas: false
+    eol: false
+    latest: "4.6"
+    latestReleaseDate: 2026-01-25
+
   - releaseCycle: "4.5"
     releaseDate: 2025-09-15
     eoas: false

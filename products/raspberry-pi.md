@@ -8,7 +8,6 @@ alternate_urls:
   - /raspberrypi
   - /raspi
   - /rpi
-releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 eolColumn: Discontinued
 latestColumn: false
 
@@ -32,7 +31,14 @@ releases:
     # https://www.raspberrypi.com/news/compute-module-5-on-sale-now/
     releaseDate: 2024-11-27
     eol: 2036-01-01
-    link: https://www.raspberrypi.com/products/compute-module-5
+    link: https://www.raspberrypi.com/products/compute-module-5/
+
+  - releaseCycle: "pico2"
+    releaseLabel: Pico 2
+    # https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/
+    releaseDate: 2024-08-08
+    eol: 2040-01-01
+    link: https://www.raspberrypi.com/products/raspberry-pi-pico-2/
 
   - releaseCycle: "5"
     releaseLabel: "5" # Is just called "Raspberry Pi 5", without "Model B"
@@ -192,3 +198,5 @@ releases:
 Some of the Raspberry Pi hardware comes with an Obsolescence statement guaranteeing production until a
 specific date. [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) supports
 all Raspberry Pi models (excluding Pico).
+
+A detailed model comparison can be found on [Wikipedia](https://wikipedia.org/wiki/Raspberry_Pi#Model_comparison).

@@ -7,7 +7,6 @@ iconSlug: apple
 permalink: /tvos
 alternate_urls:
   - /apple-tvos
-releasePolicyLink: https://en.wikipedia.org/wiki/TvOS#Version_history
 changelogTemplate: https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes
 eolColumn: Service Status
 
@@ -102,3 +101,5 @@ releases:
 Major versions of tvOS are released annually, with the previous major version losing support.
 
 A [Compatibility Table](https://en.wikipedia.org/wiki/TvOS#Supported_OS_releases) for supported combinations of tvOS and Apple TV generations is available.
+
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/TvOS#Version_history).

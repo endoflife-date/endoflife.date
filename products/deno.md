@@ -24,15 +24,15 @@ releases:
   - releaseCycle: "2.6"
     releaseDate: 2025-12-10
     eol: false
-    latest: "2.6.4"
-    latestReleaseDate: 2026-01-05
+    latest: "2.6.8"
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10
     lts: 2025-11-01
     eol: 2026-04-30
-    latest: "2.5.6"
-    latestReleaseDate: 2025-10-29
+    latest: "2.5.7"
+    latestReleaseDate: 2026-01-27
 
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01

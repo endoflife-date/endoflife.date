@@ -25,12 +25,19 @@ auto:
 identifiers:
   - repology: forgejo
 
+# eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:
+  - releaseCycle: "14.0"
+    releaseDate: 2026-01-15
+    eol: 2026-04-16
+    latest: "14.0.2"
+    latestReleaseDate: 2026-01-28
+
   - releaseCycle: "13.0"
     releaseDate: 2025-10-16
     eol: 2026-01-15
-    latest: "13.0.4"
-    latestReleaseDate: 2026-01-08
+    latest: "13.0.5"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "12.0"
     releaseDate: 2025-07-17
@@ -42,8 +49,8 @@ releases:
     lts: true
     releaseDate: 2025-04-16
     eol: 2026-07-16
-    latest: "11.0.9"
-    latestReleaseDate: 2026-01-08
+    latest: "11.0.10"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "10.0"
     releaseDate: 2025-01-16
