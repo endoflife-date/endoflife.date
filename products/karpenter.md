@@ -40,11 +40,18 @@ releases:
     latest: "1.5.4"
     latestReleaseDate: 2025-08-26
 
+  - releaseCycle: "1.4"
+    releaseDate: 2025-04-16
+    eol: true
+    latest: "1.4.1"
+    latestReleaseDate: 2025-10-09
+
 ---
 
 # Karpenter
 
 > [Karpenter](https://karpenter.sh) is an open-source node lifecycle management project built for `Kubernetes`.
+>
 > Adding `Karpenter` to a `Kubernetes` cluster can dramatically improve the efficiency and cost of running workloads on that cluster.
 
 ## Karpenter works by:
@@ -61,4 +68,4 @@ releases:
 
 To make upgrading easier we aim to minimize the introduction of breaking changes. Before you begin upgrading `Karpenter`, consider `Karpenter` [compatibility issues](https://karpenter.sh/docs/upgrading/compatibility/#compatibility) related to `Kubernetes` and the `NodePool API` (previously `Provisioner`).
 
-[Compatibility Matrix](https://karpenter.sh/docs/upgrading/compatibility/#compatibility-matrix)
+[Kubernetes Compatibility Matrix](https://karpenter.sh/docs/upgrading/compatibility/#compatibility-matrix)
