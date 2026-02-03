@@ -51,7 +51,7 @@ auto:
 
 releases:
   - releaseCycle: "6"
-    releaseDate: 2026-01-31
+    releaseDate: 2026-01-28
     eoas: 2027-03-31
     eol: 2027-12-31
     supportedLaravelVersions: "12-13"

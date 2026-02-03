@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-01-13
     eol: false
     latest: "2025.12.3"
-    latestReleaseDate: 2026-01-30
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-27
@@ -66,13 +66,13 @@ releases:
     latestReleaseDate: 2024-01-29
 
   - releaseCycle: "2022.12"
-    releaseDate:  2022-12-28
+    releaseDate: 2022-12-28
     eol: 2023-02-14
     latest: "2022.12.3"
     latestReleaseDate: 2023-03-02
 
   - releaseCycle: "2021.12"
-    releaseDate:  2021-12-16
+    releaseDate: 2021-12-16
     eol: 2022-02-16
     latest: "2021.12.5"
     latestReleaseDate: 2022-01-06
