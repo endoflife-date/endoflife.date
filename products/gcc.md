@@ -21,7 +21,8 @@ identifiers:
   - purl: pkg:rpm/centos/gcc
   - purl: pkg:apk/alpine/gcc
   - purl: pkg:rpm/opensuse/gcc
-  - purl: pkg:github/gcc/gcc 
+  - purl: pkg:github/gcc/gcc
+  - purl: pkg:brew/gcc
   
 releases:
 
