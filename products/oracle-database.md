@@ -13,8 +13,9 @@ eolColumn: Premier Support
 eoesColumn: Extended Support
 
 auto:
+  disabled: true # https://support.oracle.com now requires an account
   methods:
-    - release_table: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+    - release_table: https://support.oracle.com/knowledgefs?docId=742060
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

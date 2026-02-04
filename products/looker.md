@@ -30,6 +30,12 @@ auto:
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
+  - releaseCycle: "26.0"
+    releaseDate: 2026-01-08
+    lts: 2026-02-28
+    eol: 2026-06-30
+    link: https://docs.cloud.google.com/looker/docs/release-notes#January_08_2026
+
   - releaseCycle: "25.20"
     releaseDate: 2025-11-05
     eol: 2026-03-31
@@ -63,12 +69,12 @@ releases:
     link: https://cloud.google.com/looker/docs/release-notes#June_11_2025
 
   - releaseCycle: "25.8"
-    releaseDate: 2025-05-14
+    releaseDate: 2025-05-31
     eol: 2025-08-31
     link: https://discuss.google.dev/t/looker-25-8-release-notes/189625
 
   - releaseCycle: "25.6"
-    releaseDate: 2025-04-09
+    releaseDate: 2025-04-30
     lts: 2025-05-31
     eol: 2025-08-31
     link: https://discuss.google.dev/t/looker-25-6-release-notes/186433

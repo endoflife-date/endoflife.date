@@ -23,7 +23,9 @@ auto:
     - couchbase-server: https://docs.couchbase.com/server
       regex: '^Release (?P<version>\d+\.\d+(\.\d+)?) \((?P<date>.+)\)$'
     - release_table: https://www.couchbase.com/support-policy/EOL/
-      user_agent: "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"
+      disabled: true  # script does not work in headless mode, must be run manually
+      render_javascript: true
+      render_javascript_headless: false
       fields:
         releaseCycle:
           column: "Release"
@@ -61,14 +63,14 @@ releases:
   - releaseCycle: "7.6"
     releaseDate: 2024-03-25
     eol: 2027-03-31
-    latest: "7.6.8"
-    latestReleaseDate: 2025-11-01
+    latest: "7.6.9"
+    latestReleaseDate: 2026-01-01
 
   - releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
-    latest: "7.2.8"
-    latestReleaseDate: 2025-08-01
+    latest: "7.2.9"
+    latestReleaseDate: 2026-01-01
 
   - releaseCycle: "7.1"
     releaseDate: 2022-05-10

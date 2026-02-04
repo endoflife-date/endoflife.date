@@ -18,7 +18,9 @@ identifiers:
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_server/
+    - chef-versions: https://docs.chef.io/release_notes/server/
+      regex: '^Chef Infra Server (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/chef-server.git
 
 # eoas(x) = releaseDate(x+1)
