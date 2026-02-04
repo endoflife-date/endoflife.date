@@ -90,8 +90,8 @@ releases:
 
   - releaseCycle: "8.2212"
     releaseDate: 2023-01-12
-    eol: 2026-01-12
-    technicalGuidance: 2027-01-12
+    eol: 2026-07-12
+    technicalGuidance: 2027-07-12
     lts: true
     latest: "8.2212.2"
     latestReleaseDate: 2023-11-30
