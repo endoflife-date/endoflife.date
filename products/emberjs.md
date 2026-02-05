@@ -51,8 +51,8 @@ releases:
     releaseDate: 2025-10-25
     eoas: 2026-06-23
     eol: 2026-12-08
-    latest: "6.8.2"
-    latestReleaseDate: 2025-11-18
+    latest: "6.8.3"
+    latestReleaseDate: 2026-02-04
     link: https://blog.emberjs.com/ember-released-6-8/
 
     lts: 2025-11-25

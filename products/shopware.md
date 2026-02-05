@@ -43,8 +43,8 @@ releases:
     releaseDate: 2024-03-21
     eoas: 2025-06-17
     eol: false # still listed on https://developer.shopware.com/release-notes/
-    latest: "6.6.10.11"
-    latestReleaseDate: 2026-01-16
+    latest: "6.6.10.12"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
