@@ -1073,7 +1073,7 @@ releases:
     releaseLabel: "Galaxy S21 5G"
     releaseDate: 2021-01-29
     eoas: false
-    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
 
   - releaseCycle: "galaxy-a02"

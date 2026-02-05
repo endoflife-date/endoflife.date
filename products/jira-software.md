@@ -80,8 +80,8 @@ releases:
     releaseDate: 2024-12-05
     eol: 2026-12-05
     lts: true
-    latest: "10.3.16"
-    latestReleaseDate: 2026-01-07
+    latest: "10.3.17"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.2"
     releaseDate: 2024-11-20
@@ -135,8 +135,8 @@ releases:
     releaseDate: 2023-11-29
     eol: 2025-11-29
     lts: true
-    latest: "9.12.31"
-    latestReleaseDate: 2026-01-06
+    latest: "9.12.32"
+    latestReleaseDate: 2026-02-03
 
   - releaseCycle: "9.11"
     releaseDate: 2023-08-30

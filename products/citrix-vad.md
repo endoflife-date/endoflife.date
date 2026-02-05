@@ -50,7 +50,7 @@ releases:
     eol: 2028-08-18
     eoes: 2033-08-18
     latest: "2507 CU1"
-    latestReleaseDate: 2025-12-16
+    latestReleaseDate: 2026-02-02
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new/cumulative-update-1
 
   - releaseCycle: "2503"
@@ -233,6 +233,7 @@ releases:
     latest: "7.15 CU9"
     latestReleaseDate: 2022-07-08
     link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-9.html
+
 ---
 
 > [Citrix Virtual Apps and Desktops](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/)

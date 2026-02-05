@@ -65,8 +65,8 @@ releases:
     codename: "Big Sur"
     releaseDate: 2020-11-12
     eol: 2023-09-26
-    latest: "11.7.10"
-    latestReleaseDate: 2023-09-11
+    latest: "11.7.11"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_0_1-release-notes
 
   - releaseCycle: "10.15"
