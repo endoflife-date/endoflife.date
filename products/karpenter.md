@@ -46,6 +46,30 @@ releases:
     latest: "1.4.1"
     latestReleaseDate: 2025-10-09
 
+  - releaseCycle: "1.3"
+    releaseDate: 2025-03-04
+    eol: true
+    latest: "1.3.4"
+    latestReleaseDate: 2025-10-09
+
+  - releaseCycle: "1.2"
+    releaseDate: 2025-01-28
+    eol: true
+    latest: "1.2.4"
+    latestReleaseDate: 2025-10-09
+
+  - releaseCycle: "1.1"
+    releaseDate: 2024-11-30
+    eol: true
+    latest: "1.1.4"
+    latestReleaseDate: 2025-10-09
+
+  - releaseCycle: "1.0"
+    releaseDate: 2025-08-14
+    eol: true
+    latest: "1.0.8"
+    latestReleaseDate: 2025-10-09
+
 ---
 
 # Karpenter
