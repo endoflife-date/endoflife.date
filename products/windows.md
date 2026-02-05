@@ -14,6 +14,14 @@ identifiers:
   - cpe: cpe:/o:microsoft:windows
 
 releases:
+  - releaseCycle: "11-25h2-iot"
+    releaseLabel: "11 25H2 IoT (E)"
+    releaseDate: 2025-09-30
+    eoas: 2028-10-10
+    eol: 2028-10-10
+    latest: 10.0.26200
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise
+
   - releaseCycle: "11-25h2-e"
     releaseLabel: "11 25H2 (E)"
     releaseDate: 2025-09-30
@@ -30,14 +38,22 @@ releases:
     latest: 10.0.26200
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
-  - releaseCycle: "11-24h2-iot-lts"
-    releaseLabel: "11 24H2 IoT"
+  - releaseCycle: "11-2024-iot-lts"
+    releaseLabel: "11 2024 IoT E LTS"
     releaseDate: 2024-10-01
     lts: true
     eoas: 2029-10-09
     eol: 2034-10-10
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise-ltsc-2024
+
+  - releaseCycle: "11-24h2-iot"
+    releaseLabel: "11 24H2 IoT (E)"
+    releaseDate: 2024-10-01
+    eoas: 2027-10-12
+    eol: 2027-10-12
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise
 
   - releaseCycle: "11-24h2-e-lts"
     releaseLabel: "11 24H2 (E)"
@@ -64,6 +80,14 @@ releases:
     latest: 10.0.26100
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
+  - releaseCycle: "11-23h2-iot"
+    releaseLabel: "11 23H2 IoT (E)"
+    releaseDate: 2023-10-31
+    eoas: 2026-11-10
+    eol: 2026-11-10
+    latest: 10.0.22631
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise
+
   - releaseCycle: "11-23h2-e"
     releaseLabel: "11 23H2 (E)"
     releaseDate: 2023-10-31
@@ -88,6 +112,14 @@ releases:
     eoes: 2028-10-10
     latest: 10.0.19045
     link: https://learn.microsoft.com/windows/release-health/release-information
+
+  - releaseCycle: "11-22h2-iot"
+    releaseLabel: "11 22H2 IoT (E)"
+    releaseDate: 2022-10-18
+    eoas: 2025-10-14
+    eol: 2025-10-14
+    latest: 10.0.22621
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-iot-enterprise
 
   - releaseCycle: "11-22h2-e"
     releaseLabel: "11 22H2 (E)"
