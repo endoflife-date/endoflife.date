@@ -20,6 +20,13 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-02-03
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.3.0"
+    latestReleaseDate: 2026-02-03
+    link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
+
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
@@ -69,7 +76,6 @@ releases:
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > [Logstash](https://www.elastic.co/logstash/) is a tool to collect, process, and forward events and
