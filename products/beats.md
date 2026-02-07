@@ -29,6 +29,13 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-02-03
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.3.0"
+    latestReleaseDate: 2026-02-03
+    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+
   - releaseCycle: "9.2"
     releaseDate: 2025-10-20
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
@@ -85,7 +92,6 @@ releases:
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > [Beats](https://www.elastic.co/beats/) are a suite of lightweight shippers for Elasticsearch and

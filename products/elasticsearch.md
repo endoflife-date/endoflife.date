@@ -30,6 +30,13 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-02-03
+    eol: false
+    latest: "9.3.0"
+    latestReleaseDate: 2026-02-03
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
+
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
     eol: false
@@ -52,7 +59,7 @@ releases:
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
-    eol: false  # Until 9.2 is released
+    eol: false # Until 9.2 is released
     latest: "8.18.8"
     latestReleaseDate: 2025-10-02
 
@@ -65,7 +72,7 @@ releases:
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-11
-    eol: false  # Supposedly until 8.19 released, but they've released twice since
+    eol: false # Supposedly until 8.19 released, but they've released twice since
     latest: "8.17.10"
     latestReleaseDate: 2025-08-05
 
@@ -86,7 +93,6 @@ releases:
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > Elasticsearch is a search engine that provides a distributed, multi-tenant-capable full-text search
