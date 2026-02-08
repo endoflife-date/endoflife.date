@@ -1072,7 +1072,8 @@ releases:
   - releaseCycle: "galaxy-s21-5g"
     releaseLabel: "Galaxy S21 5G"
     releaseDate: 2021-01-29
-    eoas: false
+    eoas: 2025-10-06
+    link: https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
     eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
 
