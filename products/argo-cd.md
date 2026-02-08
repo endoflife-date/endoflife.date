@@ -26,6 +26,12 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "3.3"
+    releaseDate: 2026-02-02
+    eol: false
+    latest: "3.3.0"
+    latestReleaseDate: 2026-02-02
+
   - releaseCycle: "3.2"
     releaseDate: 2025-11-04
     eol: false
@@ -40,7 +46,7 @@ releases:
 
   - releaseCycle: "3.0"
     releaseDate: 2025-05-06
-    eol: false
+    eol: 2026-02-02
     latest: "3.0.23"
     latestReleaseDate: 2026-01-22
 
@@ -187,7 +193,6 @@ releases:
     eol: 2019-11-13
     latest: "1.0.2"
     latestReleaseDate: 2019-06-14
-
 ---
 
 > [Argo CD](https://argo-cd.readthedocs.io) is a declarative, GitOps continuous delivery tool for Kubernetes.
