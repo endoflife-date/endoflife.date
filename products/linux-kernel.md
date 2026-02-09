@@ -30,6 +30,12 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+  - releaseCycle: "6.19"
+    releaseDate: 2026-02-08
+    eol: false
+    latest: "6.19"
+    latestReleaseDate: 2026-02-08
+
   - releaseCycle: "6.18"
     lts: true
     releaseDate: 2025-11-30
