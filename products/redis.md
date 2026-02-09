@@ -41,15 +41,15 @@ releases:
     releaseDate: 2025-11-18
     eoas: false
     eol: false
-    latest: "8.4.0"
-    latestReleaseDate: 2025-11-18
+    latest: "8.4.1"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "8.2"
     releaseDate: 2025-08-04
     eoas: false
     eol: false
-    latest: "8.2.3"
-    latestReleaseDate: 2025-11-02
+    latest: "8.2.4"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
