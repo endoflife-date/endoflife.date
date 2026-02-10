@@ -28,6 +28,13 @@ identifiers:
 # eol(x) = releaseDate(x+2)
 # For supportedKubernetesVersions: https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility
 releases:
+  - releaseCycle: "2.19"
+    releaseDate: 2026-02-02
+    eol: false
+    supportedKubernetesVersions: 1.32 - 1.34
+    latest: "2.19.0"
+    latestReleaseDate: 2026-02-02
+
   - releaseCycle: "2.18"
     releaseDate: 2025-10-08
     eol: false
