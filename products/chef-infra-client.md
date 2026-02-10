@@ -27,6 +27,13 @@ auto:
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # eoas(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "19"
+    releaseDate: 2026-02-05 # https://discourse.chef.io/t/chef-infra-client-19-1-164-released/24481
+    eoas: false
+    eol: false
+    latest: "19.1.164"
+    latestReleaseDate: 2026-02-05
+
   - releaseCycle: "18"
     releaseDate: 2022-09-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
     eoas: false
