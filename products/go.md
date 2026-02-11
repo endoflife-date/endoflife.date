@@ -33,9 +33,9 @@ releases:
     releaseDate: 2026-02-11
     eol: false
     latest: "1.26.0"
-    latestReleaseDate: 2026-02-11
+    latestReleaseDate: 2026-02-10
     link: https://go.dev/doc/go1.26
-    
+
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
     eol: false

@@ -32,7 +32,7 @@ releases:
     eoas: false
     eol: false
     latest: "19.1.164"
-    latestReleaseDate: 2026-02-05
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "18"
     releaseDate: 2022-09-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
