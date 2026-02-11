@@ -46,8 +46,15 @@ auto:
 #
 # For Innovation Releases:
 # eoas(x) = releaseDate(x) + 6m
-# eol(x) = releaseDate(x) + 6m
+# eol(x) = eoas(x)
 releases:
+  - releaseCycle: "26.1"
+    releaseDate: 2026-02-02
+    eoas: 2026-08-02
+    eol: 2026-08-02
+    latest: "26.1.0"
+    latestReleaseDate: 2026-02-02
+
   - releaseCycle: "25.4"
     releaseDate: 2025-11-03
     eoas: 2026-11-03
