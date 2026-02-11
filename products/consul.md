@@ -26,8 +26,8 @@ releases:
   - releaseCycle: "1.22"
     releaseDate: 2025-10-27
     eol: false # releaseDate(1.25)
-    latest: "1.22.2"
-    latestReleaseDate: 2025-12-17
+    latest: "1.22.3"
+    latestReleaseDate: 2026-01-14
 
   - releaseCycle: "1.21"
     releaseDate: 2025-05-06

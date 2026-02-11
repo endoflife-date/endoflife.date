@@ -22,17 +22,23 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "4.0"
+    releaseDate: 2026-02-04
+    eol: false
+    latest: "4.0.0"
+    latestReleaseDate: 2026-02-04
+
   - releaseCycle: "3.7"
     releaseDate: 2025-07-23
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2025-12-09
+    latest: "3.7.9"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.6"
     releaseDate: 2024-11-14
-    eol: false
-    latest: "3.6.15"
-    latestReleaseDate: 2025-12-09
+    eol: 2026-02-04
+    latest: "3.6.18"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.5"
     releaseDate: 2023-10-13
@@ -51,7 +57,6 @@ releases:
     eol: 2023-10-13
     latest: "3.3.10"
     latestReleaseDate: 2022-11-29
-
 ---
 
 > [Argo Workflows](https://argoproj.github.io/workflows/) is an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.

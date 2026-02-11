@@ -5,7 +5,6 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /ipados
-releasePolicyLink: https://en.wikipedia.org/wiki/IPadOS_version_history
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
@@ -23,15 +22,15 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    latest: "26.2.1"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.7.3"
-    latestReleaseDate: 2025-12-12
+    latest: "18.7.4"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -44,16 +43,16 @@ releases:
     releaseDate: 2022-10-24
     eoas: 2023-09-18
     eol: 2025-03-31
-    latest: "16.7.12"
-    latestReleaseDate: 2025-09-15
+    latest: "16.7.14"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-10-24
     eol: 2025-03-31
-    latest: "15.8.5"
-    latestReleaseDate: 2025-09-15
+    latest: "15.8.6"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
@@ -64,11 +63,19 @@ releases:
 
   - releaseCycle: "13"
     releaseDate: 2019-09-24
-    eoas: 2020-09-16
-    eol: 2020-09-16
+    eoas: 2020-09-16 # releaseDate(14)
+    eol: 2020-09-16 # releaseDate(14)
     latest: "13.6"
     latestReleaseDate: 2020-07-15
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes
+
+  - releaseCycle: "12"
+    releaseDate: 2018-09-17
+    eoas: 2019-09-24 # releaseDate(13)
+    eol: 2019-09-24 # releaseDate(13)
+    latest: "12.5.8"
+    latestReleaseDate: 2026-01-26
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
 ---
 
@@ -78,3 +85,5 @@ releases:
 Major versions of iPadOS are released annually.
 
 Support information for iPad devices is available at [/ipad](/ipad).
+
+A detailed overview of iPadOS versions can be found on [Wikipedia](https://wikipedia.org/wiki/IPadOS_version_history).

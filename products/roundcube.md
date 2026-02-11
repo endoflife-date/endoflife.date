@@ -22,16 +22,16 @@ releases:
     releaseDate: 2022-07-25
     eoas: false
     eol: false
-    latest: "1.6.12"
-    latestReleaseDate: 2025-12-14
+    latest: "1.6.13"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
     lts: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
     eoas: false
     eol: false
-    latest: "1.5.12"
-    latestReleaseDate: 2025-12-14
+    latest: "1.5.13"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "1.4"
     releaseDate: 2019-11-09

@@ -1,6 +1,6 @@
 ---
 title: DuckDB
-addedAt: 2025-10-17
+addedAt: 2025-10-18
 category: database
 iconSlug: duckdb
 permalink: /duckdb
@@ -22,8 +22,8 @@ releases:
     lts: true
     releaseDate: 2025-09-16
     eol: 2026-09-16
-    latest: "1.4.3"
-    latestReleaseDate: 2025-12-09
+    latest: "1.4.4"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "1.3"
     codename: "Ossivalis"

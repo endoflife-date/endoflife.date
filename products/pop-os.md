@@ -13,6 +13,12 @@ latestColumn: false
 eolColumn: General Support
 
 releases:
+  - releaseCycle: "24.04"
+    releaseDate: 2025-12-11
+    lts: true
+    eol: 2029-05-31
+    link: https://blog.system76.com/post/pop-os-letter-from-our-founder
+
   - releaseCycle: "22.04"
     releaseDate: 2022-04-25
     lts: true
