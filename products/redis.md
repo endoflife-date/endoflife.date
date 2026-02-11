@@ -22,6 +22,7 @@ identifiers:
   - purl: pkg:docker/circleci/redis
   - purl: pkg:docker/cimg/redis
   - purl: pkg:docker/ubuntu/redis
+  - purl: pkg:brew/redis/redis
   - repology: redis
 
 auto:
