@@ -28,7 +28,10 @@ auto:
           column: "Maintenance Window End"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
-
+identifiers:
+  - repology: opensearch
+  - purl: pkg:docker/opensearchproject/opensearch
+    
 releases:
   - releaseCycle: "3"
     releaseDate: 2025-05-06
