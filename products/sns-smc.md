@@ -5,8 +5,8 @@ category: os
 tags: stormshield
 permalink: /sns-smc
 latestColumn: false
-eoasColumn: End of Maintenance
-eolColumn: End of Life
+eoasColumn: Maintenance Support
+eolColumn: Lifecycle Support
 
 customFields:
   - name: lowestSNSVersion

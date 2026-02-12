@@ -135,7 +135,7 @@ releases:
   - releaseCycle: "tablet"
     releaseLabel: "Pixel Tablet"
     releaseDate: 2023-06-20
-    eoas: 2026-06-01
+    eoas: 2028-06-01
     eol: 2028-06-01
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet

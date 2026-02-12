@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "1.6"
     releaseDate: 2020-03-08
     eol: false
-    latest: "1.6.39"
-    latestReleaseDate: 2025-07-28
+    latest: "1.6.40"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "1.5"
     releaseDate: 2017-07-21
@@ -39,6 +39,7 @@ releases:
     eol: 2017-07-21
     latest: "1.4.39"
     latestReleaseDate: 2017-07-04
+
 ---
 
 > [Memcached](https://www.memcached.org/) is a free and open source, high-performance, distributed

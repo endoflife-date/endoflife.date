@@ -41,7 +41,16 @@ auto:
           template: "{{day}} {{month}} {{year}}"
 
 releases:
+  - releaseCycle: "7.0"
+    releaseDate: 2026-01-20
+    eoas: 2026-03-31
+    eol: 2026-03-31
+    eoes: false
+    latest: "7.0.0"
+    latestReleaseDate: 2026-01-20
+
   - releaseCycle: "6.0"
+    lts: true
     releaseDate: 2025-03-25
     eoas: 2025-09-30
     eol: 2026-09-30
@@ -50,6 +59,7 @@ releases:
     latestReleaseDate: 2025-12-01
 
   - releaseCycle: "5.2"
+    lts: true
     releaseDate: 2024-12-02
     eoas: 2025-06-30
     eol: 2026-06-30

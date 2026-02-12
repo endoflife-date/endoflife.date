@@ -481,7 +481,7 @@ bin/lint-product.sh products/<product>.md
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers.
-Please see [this page](/help/identifiers-needed/) for a list of pages missing identifiers.
+Please see [this page](/pages/help/identifiers-needed/) for a list of pages missing identifiers.
 
 ## 📑 Suggested Reading
 

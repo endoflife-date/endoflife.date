@@ -29,7 +29,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         eoes: "Confluent Enterprise Standard End of Support"
 
-# eol(x) = MAX(latestReleaseDate, releaseDate(X+1))
+# Supported releases are listed in the "Supported releases" on https://kafka.apache.org/community/downloads/
 releases:
   - releaseCycle: "4.1"
     releaseDate: 2025-09-02
@@ -40,14 +40,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2025-03-18
-    eol: 2025-09-02
+    eol: false
     eoes: 2027-06-11
     latest: "4.0.1"
     latestReleaseDate: 2025-10-10
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
-    eol: 2025-03-18
+    eol: false
     eoes: 2027-02-19
     latest: "3.9.1"
     latestReleaseDate: 2025-05-19
@@ -254,19 +254,11 @@ releases:
 > used by thousands of companies for high-performance data pipelines, streaming analytics, data
 > integration, and mission-critical applications.
 
-Apache Kafka does not have a clearly defined release and support policy. Nevertheless, looking at
-the 3.x releases, there has been a minor release every four months, and up to three minor releases
-have been supported at the same time. This is somewhat following [what is documented on the Apache
-Kafka wiki](https://cwiki.apache.org/confluence/display/KAFKA/Time+Based+Release+Plan), but there
-was unfortunately no formal announcement.
-
-Considering that this page only marks the latest minor release as supported and marks other releases
-as EOL on the latest date between the first next minor version release date and the current minor
-latest release date.
+Apache Kafka does not have a clearly defined release and support policy.
+According to [the Apache Kafka wiki](https://cwiki.apache.org/confluence/display/KAFKA/Time+Based+Release+Plan), 
+there is a minor release every four months, and up to three minor releases have been supported at the same time.
+Supported releases are listed on [the official website download page](https://kafka.apache.org/community/downloads/#supported-releases).
 
 Extended support [for up to 3 years](https://docs.confluent.io/platform/current/installation/versions-interoperability.html),
 depending on the support level, is available using the commercial distribution of Apache Kafka,
 [Confluent Platform](https://www.confluent.io/product/confluent-platform/).
-
-The full list of versions, with their associated release notes, is available [on the Apache Kafka
-website](https://kafka.apache.org/downloads).

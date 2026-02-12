@@ -16,6 +16,13 @@ auto:
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
+  - releaseCycle: "7.5"
+    releaseDate: 2025-12-08
+    eoas: 2027-03-31
+    eol: 2027-12-31
+    latest: "7.5.0.0"
+    latestReleaseDate: 2025-12-08
+
   - releaseCycle: "7.3"
     releaseDate: 2025-06-24
     eoas: 2026-09-30

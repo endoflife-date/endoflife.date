@@ -22,6 +22,7 @@ identifiers:
   - purl: pkg:oci/openbao-ubi?repository_url=ghcr.io/openbao
   - purl: pkg:oci/openbao?repository_url=quay.io/openbao
   - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
+  - purl: pkg:brew/openbao
 
 auto:
   methods:
@@ -30,9 +31,15 @@ auto:
 # eol(x) = releaseDate(x+1)
 
 releases:
+  - releaseCycle: "2.5"
+    releaseDate: 2026-02-05
+    eol: false
+    latest: "2.5.0"
+    latestReleaseDate: 2026-02-04
+
   - releaseCycle: "2.4"
     releaseDate: 2025-08-28
-    eol: false
+    eol: 2026-02-05
     latest: "2.4.4"
     latestReleaseDate: 2025-11-24
 

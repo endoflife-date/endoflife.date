@@ -40,15 +40,15 @@ releases:
     releaseDate: 2023-11-17
     eol: 2029-02-28
     eoes: 2032-02-29
-    latest: "16.10"
-    latestReleaseDate: 2025-08-14
+    latest: "16.11"
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "15"
     releaseDate: 2023-02-27
     eol: 2028-02-29
     eoes: 2031-02-28
-    latest: "15.14"
-    latestReleaseDate: 2025-08-14
+    latest: "15.15"
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "14"
     releaseDate: 2022-02-03
@@ -91,6 +91,7 @@ releases:
     eoes: true
     latest: "9.6.24" # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latestReleaseDate: 2022-01-24 # https://web.archive.org/web/20231128212117/https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-rds-postgresql-amazon-rds-outposts-postgresql-minor-versions/
+
 
 
 ---

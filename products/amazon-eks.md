@@ -31,57 +31,65 @@ auto:
         eoes: "End of extended support"
 
 releases:
+  - releaseCycle: "1.35"
+    releaseDate: 2026-01-28
+    eol: 2027-03-27
+    eoes: 2028-03-27
+    latest: "1.35-eks-3"
+    latestReleaseDate: 2026-01-27
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35/
+
   - releaseCycle: "1.34"
     releaseDate: 2025-10-06
     eol: 2026-12-02
     eoes: 2027-12-02
-    latest: "1.34-eks-1"
-    latestReleaseDate: 2025-10-06
+    latest: "1.34-eks-13"
+    latestReleaseDate: 2026-01-28
     link: https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-distro-kubernetes-version-1-34/
 
   - releaseCycle: "1.33"
     releaseDate: 2025-05-28
     eol: 2026-07-29
     eoes: 2027-07-29
-    latest: "1.33-eks-9"
-    latestReleaseDate: 2025-07-30
+    latest: "1.33-eks-27"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.32"
     releaseDate: 2025-01-25
     eol: 2026-03-23
     eoes: 2027-03-23
-    latest: "1.32-eks-16"
-    latestReleaseDate: 2025-07-30
+    latest: "1.32-eks-34"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.31"
     releaseDate: 2024-09-26
     eol: 2025-11-26
     eoes: 2026-11-26
-    latest: "1.31-eks-32"
-    latestReleaseDate: 2025-07-30
+    latest: "1.31-eks-50"
+    latestReleaseDate: 2026-01-28
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-eks-distro-kubernetes-version-1-31/
 
   - releaseCycle: "1.30"
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: "1.30-eks-40"
-    latestReleaseDate: 2025-07-30
+    latest: "1.30-eks-58"
+    latestReleaseDate: 2026-01-28
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-23
     eol: 2025-03-23
     eoes: 2026-03-23
-    latest: "1.29-eks-43"
-    latestReleaseDate: 2025-07-30
+    latest: "1.29-eks-61"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.28"
     releaseDate: 2023-09-26
     eol: 2024-11-26
     eoes: 2025-11-26
-    latest: "1.28-eks-49"
-    latestReleaseDate: 2025-07-30
+    latest: "1.28-eks-63"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.27"
     releaseDate: 2023-05-24

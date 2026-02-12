@@ -22,6 +22,7 @@ identifiers:
   - purl: pkg:docker/circleci/redis
   - purl: pkg:docker/cimg/redis
   - purl: pkg:docker/ubuntu/redis
+  - purl: pkg:brew/redis/redis
   - repology: redis
 
 auto:
@@ -37,19 +38,26 @@ auto:
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
 releases:
+  - releaseCycle: "8.6"
+    releaseDate: 2026-02-11
+    eoas: false
+    eol: false
+    latest: "8.6.0"
+    latestReleaseDate: 2026-02-10
+
   - releaseCycle: "8.4"
     releaseDate: 2025-11-18
     eoas: false
     eol: false
-    latest: "8.4.0"
-    latestReleaseDate: 2025-11-18
+    latest: "8.4.1"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "8.2"
     releaseDate: 2025-08-04
     eoas: false
     eol: false
-    latest: "8.2.3"
-    latestReleaseDate: 2025-11-02
+    latest: "8.2.4"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02

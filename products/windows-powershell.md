@@ -1,6 +1,6 @@
 ---
 title: Microsoft Windows PowerShell
-addedAt: 2019-07-29
+addedAt: 2025-10-22
 category: lang
 tags: microsoft
 iconSlug: powershell

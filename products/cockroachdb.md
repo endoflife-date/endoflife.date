@@ -46,28 +46,35 @@ auto:
 #
 # For Innovation Releases:
 # eoas(x) = releaseDate(x) + 6m
-# eol(x) = releaseDate(x) + 6m
+# eol(x) = eoas(x)
 releases:
+  - releaseCycle: "26.1"
+    releaseDate: 2026-02-02
+    eoas: 2026-08-02
+    eol: 2026-08-02
+    latest: "26.1.0"
+    latestReleaseDate: 2026-02-02
+
   - releaseCycle: "25.4"
     releaseDate: 2025-11-03
     eoas: 2026-11-03
     eol: 2027-05-03
-    latest: "25.4.1"
-    latestReleaseDate: 2025-11-20
+    latest: "25.4.3"
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
     eoas: 2026-02-04
     eol: 2026-02-04 # innovation release
-    latest: "25.3.5"
-    latestReleaseDate: 2025-11-01
+    latest: "25.3.7"
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.9"
-    latestReleaseDate: 2025-10-31
+    latest: "25.2.11"
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
@@ -80,8 +87,8 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.23"
-    latestReleaseDate: 2025-10-31
+    latest: "24.3.25"
+    latestReleaseDate: 2026-01-05
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12

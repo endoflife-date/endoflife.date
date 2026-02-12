@@ -26,6 +26,7 @@ auto:
     # See release links for sources of release dates.
     - declare: azure-kubernetes-service
       releases:
+        - {name: "1.34", releaseDate: 2025-12-12}
         - {name: "1.33", releaseDate: 2025-06-17}
         - {name: "1.32", releaseDate: 2025-04-06}
         - {name: "1.31", releaseDate: 2024-10-25}
@@ -44,6 +45,11 @@ auto:
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 # Do not forget to update the release dates in the auto section above when adding a new release.
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-12-12
+    eol: 2026-11-30
+    eoes: 2027-11-30
+
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
     eol: 2026-06-30
@@ -118,6 +124,7 @@ releases:
 # Not sure corresponding cycles will be added one day, but here are the announcements for:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
+
 
 ---
 

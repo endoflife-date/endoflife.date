@@ -230,7 +230,7 @@ If you do provide such an image, here's some recommendations:
 - Good: <https://www.php.net/supported-versions.php>
 - Good: <https://jefftriplett.com/django-release-cycle/>
 - Good: <https://hugovk.github.io/drupal-release-cycle/>
-- Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
+- Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/_images/driver-branches-overview.png> (Cryptic)
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table for desktop users)
 
 Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions).

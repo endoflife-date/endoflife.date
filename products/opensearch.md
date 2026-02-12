@@ -34,8 +34,9 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.3.2"
-    latestReleaseDate: 2025-10-30
+    latest: "3.5.0"
+    latestReleaseDate: 2026-02-10
+    link: https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-3.5.0.md
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26

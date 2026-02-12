@@ -20,8 +20,8 @@ releases:
   - releaseCycle: "4.99"
     releaseDate: 2025-10-28
     eol: false
-    latest: "4.99"
-    latestReleaseDate: 2025-10-27
+    latest: "4.99.1"
+    latestReleaseDate: 2025-12-14
     link: https://lists.exim.org/lurker/message/20251028.114149.3bf19800.en.html
 
   - releaseCycle: "4.98"

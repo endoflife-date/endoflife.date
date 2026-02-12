@@ -22,32 +22,32 @@ releases:
   - releaseCycle: "10.0"
     releaseDate: 2025-07-28
     eol: 2027-07-28
-    latest: "10.0.0"
-    latestReleaseDate: 2025-07-28
+    latest: "10.0.2"
+    latestReleaseDate: 2025-11-14
 
   - releaseCycle: "9.4"
     releaseDate: 2024-12-16
     eol: 2026-12-16
-    latest: "9.4.4"
-    latestReleaseDate: 2025-07-31
+    latest: "9.4.7"
+    latestReleaseDate: 2025-11-26
 
   - releaseCycle: "9.3"
     releaseDate: 2024-07-24
     eol: 2026-07-24
-    latest: "9.3.6"
-    latestReleaseDate: 2025-07-31
+    latest: "9.3.8"
+    latestReleaseDate: 2025-11-14
 
   - releaseCycle: "9.2"
     releaseDate: 2024-01-31
     eol: 2026-01-31
-    latest: "9.2.8"
-    latestReleaseDate: 2025-07-31
+    latest: "9.2.11"
+    latestReleaseDate: 2025-11-26
 
   - releaseCycle: "9.1"
     releaseDate: 2023-06-28
     eol: 2025-06-28
-    latest: "9.1.9"
-    latestReleaseDate: 2025-04-28
+    latest: "9.1.10"
+    latestReleaseDate: 2025-06-05
 
   - releaseCycle: "9.0"
     releaseDate: 2022-06-14
