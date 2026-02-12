@@ -20,7 +20,7 @@ releases:
     releaseDate: 2026-02-06
     eol: false
     latest: "2.17.0"
-    latestReleaseDate: 2026-02-06
+    latestReleaseDate: 2026-02-02
     link: https://hop.apache.org/blog/2026/02/hop-2.17.0/
 
   - releaseCycle: "2.16"

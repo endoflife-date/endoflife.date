@@ -45,7 +45,7 @@ releases:
     releaseLabel: "8.2 (Rapid Release)"
     releaseDate: 2025-09-17
     eol: 2026-03-30
-    latest: "8.2.4"
+    latest: "8.2.5"
     latestReleaseDate: 2026-02-10
     link: https://www.mongodb.com/docs/manual/release-notes/8.2/ # todo: check if this can be removed after 8.3 release
 
@@ -60,7 +60,7 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.18"
+    latest: "8.0.19"
     latestReleaseDate: 2026-02-10
 
   - releaseCycle: "7.3"
@@ -87,7 +87,7 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.29"
+    latest: "7.0.30"
     latestReleaseDate: 2026-02-10
 
   - releaseCycle: "6.3"
