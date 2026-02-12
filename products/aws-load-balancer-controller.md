@@ -8,6 +8,7 @@ permalink: /aws-load-balancer-controller
 alternate_urls:
   - /aws-lbc
 eoasColumn: Active Support
+eolColumn: Ticket Support
 
 identifiers:
   - purl: pkg:github/kubernetes-sigs/aws-load-balancer-controller
@@ -33,7 +34,7 @@ releases:
 
   - releaseCycle: "2.16"
     releaseDate: 2025-11-21
-    eol: true
+    eol: false
     eoas: true
     latest: "2.16.0"
     latestReleaseDate: 2025-11-21
@@ -110,11 +111,11 @@ releases:
 
 ---
 
-# AWS Load Balancer Controller
+> `AWS Load Balancer Controller` is a controller to help manage `Elastic Load Balancers` for a `Kubernetes` cluster.
 
 # Overview
 
-`AWS Load Balancer Controller` is a controller to help manage `Elastic Load Balancers` for a `Kubernetes` cluster.
+This project was formerly known as `AWS ALB Ingress Controller`.
 
 - It satisfies `Kubernetes` [Ingress resources](https://kubernetes.io/docs/concepts/services-networking/ingress/) by provisioning [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
 
@@ -122,6 +123,6 @@ releases:
 
 - It satisfies `Kubernetes` [Gateway resources](https://gateway-api.sigs.k8s.io/) by provisioning [Network Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) and [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
 
-## Support Policy
+# Support Policy
 
 Currently, AWS provides security updates and bug fixes to the latest available minor versions of AWS LBC. For other ad-hoc supports on older versions, please reach out through AWS support ticket.
