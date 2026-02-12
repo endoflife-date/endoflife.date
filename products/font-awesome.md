@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-22
     eol: false
-    latest: "7.1.0"
-    latestReleaseDate: 2025-10-01
+    latest: "7.2.0"
+    latestReleaseDate: 2026-02-10
 
   - releaseCycle: "6"
     staleReleaseThresholdDays: 1750 # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
