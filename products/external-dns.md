@@ -1,7 +1,7 @@
 ---
 title: external-dns
 addedAt: 2026-01-30
-category: app
+category: server-app
 tags: cncf
 iconSlug: kubernetes
 permalink: /external-dns
