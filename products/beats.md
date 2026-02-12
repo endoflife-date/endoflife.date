@@ -29,11 +29,18 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-02-03
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.3.0"
+    latestReleaseDate: 2026-01-29
+    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+
   - releaseCycle: "9.2"
     releaseDate: 2025-10-20
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.2.4"
-    latestReleaseDate: 2026-01-08
+    latest: "9.2.5"
+    latestReleaseDate: 2026-01-28
     link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
@@ -46,8 +53,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.10"
-    latestReleaseDate: 2026-01-08
+    latest: "8.19.11"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09

@@ -43,20 +43,30 @@ auto:
     - declare: statamic
       # Release dates are approximate on https://statamic.dev/release-schedule-support-policy.
       releases:
+        - {name: "6", releaseDate: 2026-01-28} # https://statamic.com/blog/statamic-6
         - {name: "5", releaseDate: 2024-05-09} # https://statamic.com/blog/statamic-5-is-here
         - {name: "4", releaseDate: 2023-05-09} # https://statamic.com/blog/statamic-4-unleashed
         - {name: "3.4", releaseDate: 2023-01-27} # https://statamic.com/blog/statamic-3-4-released
         - {name: "3.3", releaseDate: 2022-03-14} # https://statamic.com/blog/statamic-3-3
 
 releases:
+  - releaseCycle: "6"
+    releaseDate: 2026-01-28
+    eoas: 2027-03-31
+    eol: 2027-12-31
+    supportedLaravelVersions: "12-13"
+    supportedPhpVersions: "8.3-8.5"
+    latest: "6.2.5"
+    latestReleaseDate: 2026-02-11
+
   - releaseCycle: "5"
     releaseDate: 2024-05-09
     eoas: 2026-03-31
     eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.73.2"
-    latestReleaseDate: 2026-01-26
+    latest: "5.73.6"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09

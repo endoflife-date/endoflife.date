@@ -22,6 +22,12 @@ auto:
       regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
 releases:
+  - releaseCycle: "1.28"
+    releaseDate: 2026-01-27
+    eol: false
+    latest: "1.28.0"
+    latestReleaseDate: 2026-01-27
+
   - releaseCycle: "1.26"
     releaseDate: 2025-03-11
     eol: false

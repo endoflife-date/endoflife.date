@@ -14,7 +14,9 @@ identifiers:
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_workstation/
+    - chef-versions: https://docs.chef.io/release_notes/workstation/
+      regex: '^Chef Workstation (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/chef-workstation.git
 
 releases:

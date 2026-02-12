@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "3.0"
     releaseDate: 2025-02-28
     eol: false
-    latest: "3.0.20"
-    latestReleaseDate: 2026-01-26
+    latest: "3.0.21"
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "2.7"
     releaseDate: 2023-09-06

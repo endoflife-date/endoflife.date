@@ -18,7 +18,9 @@ identifiers:
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_server/
+    - chef-versions: https://docs.chef.io/release_notes/server/
+      regex: '^Chef Infra Server (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/chef-server.git
 
 # eoas(x) = releaseDate(x+1)
@@ -28,8 +30,8 @@ releases:
     releaseDate: 2022-06-13
     eoas: false
     eol: false
-    latest: "15.10.83"
-    latestReleaseDate: 2025-11-03
+    latest: "15.10.91"
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "14"
     staleReleaseThresholdDays: 1500 # deprecated, but no EOL on https://docs.chef.io/versions/
