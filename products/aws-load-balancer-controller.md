@@ -5,6 +5,8 @@ category: server-app
 tags: amazon cncf
 iconSlug: kubernetes
 permalink: /aws-load-balancer-controller
+alternate_urls:
+  - /aws-lbc
 eolColumn: Support
 
 identifiers:
