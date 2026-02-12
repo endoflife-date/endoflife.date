@@ -76,17 +76,14 @@ releases:
 >
 > Adding `Karpenter` to a `Kubernetes` cluster can dramatically improve the efficiency and cost of running workloads on that cluster.
 
-# Karpenter works by:
+## Karpenter works by
 
 - **Watching** for pods that the `Kubernetes` scheduler has marked as unschedulable
-
 - **Evaluating** scheduling constraints (resource requests, nodeselectors, affinities, tolerations, and topology spread constraints) requested by the pods
-
 - **Provisioning** nodes that meet the requirements of the pods
-
 - **Disrupting** the nodes when the nodes are no longer needed
 
-# Compatibility issues:
+## Compatibility issues
 
 To make upgrading easier we aim to minimize the introduction of breaking changes. Before you begin upgrading `Karpenter`, consider `Karpenter` [compatibility issues](https://karpenter.sh/docs/upgrading/compatibility/#compatibility) related to `Kubernetes` and the `NodePool API` (previously `Provisioner`).
 
