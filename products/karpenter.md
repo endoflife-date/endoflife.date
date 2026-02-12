@@ -1,7 +1,7 @@
 ---
 title: karpenter
 addedAt: 2026-02-03
-category: app
+category: server-app
 tags: cncf
 iconSlug: kubernetes
 permalink: /karpenter
