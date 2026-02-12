@@ -113,7 +113,7 @@ releases:
 
 > `AWS Load Balancer Controller` is a controller to help manage `Elastic Load Balancers` for a `Kubernetes` cluster.
 
-# Overview
+## Overview
 
 This project was formerly known as `AWS ALB Ingress Controller`.
 
@@ -123,6 +123,6 @@ This project was formerly known as `AWS ALB Ingress Controller`.
 
 - It satisfies `Kubernetes` [Gateway resources](https://gateway-api.sigs.k8s.io/) by provisioning [Network Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) and [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
 
-# Support Policy
+## Support Policy
 
 Currently, AWS provides security updates and bug fixes to the latest available minor versions of AWS LBC. For other ad-hoc supports on older versions, please reach out through AWS support ticket.
