@@ -32,6 +32,15 @@ auto:
         eol: "EOL Start"
 
 releases:
+  - releaseCycle: "10"
+    releaseDate: 2026-02-06
+    eoas: false
+    eol: false
+    eoes: false
+    eoesProvider: Tidelift
+    latest: "10.0.0"
+    latestReleaseDate: 2026-02-06
+
   - releaseCycle: "9"
     releaseDate: 2024-04-05
     eoas: false
