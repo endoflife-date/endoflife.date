@@ -7,6 +7,7 @@ iconSlug: kubernetes
 permalink: /aws-load-balancer-controller
 alternate_urls:
   - /aws-lbc
+changelogTemplate: https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Ticket Support
 
