@@ -2,7 +2,7 @@
 title: karpenter
 addedAt: 2026-02-03
 category: server-app
-tags: cncf
+tags: cncf kubernetes
 iconSlug: kubernetes
 permalink: /karpenter
 releasePolicyLink: https://github.com/kubernetes-sigs/karpenter/blob/main/RELEASE.md
