@@ -5,6 +5,7 @@ category: server-app
 tags: cncf kubernetes
 iconSlug: kubernetes
 permalink: /external-dns
+changelogTemplate: https://github.com/kubernetes-sigs/external-dns/releases/tag/v__LATEST__
 releasePolicyLink: https://github.com/kubernetes-sigs/external-dns/blob/master/docs/release.md
 eolColumn: Support
 
