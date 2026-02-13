@@ -8,6 +8,7 @@ permalink: /gha-runner-controller
 alternate_urls:
   - /actions-runner-controller
   - /gha-runner-scale-set
+changelogTemplate: https://github.com/actions/actions-runner-controller/releases/tag/gha-runner-scale-set-__LATEST__
 eolColumn: Support
 
 identifiers:
