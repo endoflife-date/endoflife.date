@@ -6,6 +6,7 @@ tags: cncf kubernetes
 iconSlug: falco
 permalink: /falco
 releasePolicyLink: https://github.com/falcosecurity/falco/blob/master/RELEASE.md
+changelogTemplate: https://github.com/falcosecurity/falco/releases/tag/__LATEST__
 eolColumn: Support
 
 identifiers:
