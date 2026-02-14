@@ -44,8 +44,8 @@ releases:
     releaseDate: 2024-03-06
     eoas: 2026-03-31
     eol: 2026-03-31
-    latest: "3007.12"
-    latestReleaseDate: 2026-02-05
+    latest: "3007.13"
+    latestReleaseDate: 2026-02-12
     link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
 
   - releaseCycle: "3006"
