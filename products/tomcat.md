@@ -50,7 +50,7 @@ releases:
 
   - releaseCycle: "9.0"
     releaseDate: 2017-09-27
-    eol: false # https://tomcat.apache.org/tomcat-9.0.x-eos.html
+    eol: 2027-03-31 # https://tomcat.apache.org/tomcat-9.0.x-eos.html
     minJavaVersion: "8"
     latest: "9.0.115"
     latestReleaseDate: 2026-01-21
