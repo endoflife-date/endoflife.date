@@ -62,7 +62,7 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
     eoas: 2025-08-04
-    eol: true
+    eol: 2026-02-11
     latest: "8.0.5"
     latestReleaseDate: 2025-11-02
 
