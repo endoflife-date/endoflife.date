@@ -17,6 +17,30 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: moto-g77
+    releaseLabel: "Moto G77"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12520
+
+  - releaseCycle: moto-g67
+    releaseLabel: "Moto G67"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12519
+
+  - releaseCycle: moto-g17-power
+    releaseLabel: "Moto G17 Power"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12521
+
+  - releaseCycle: moto-g17
+    releaseLabel: "Moto G17"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12522
+
   - releaseCycle: motorola-signature
     releaseLabel: "Motorola Signature"
     releaseDate: 2026-01-01

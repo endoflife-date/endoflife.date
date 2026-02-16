@@ -44,14 +44,14 @@ releases:
     releaseLabel: "Galaxy Z TriFold"
     releaseDate: 2025-12-01 # https://news.samsung.com/us/samsung-introducing-galaxy-z-trifold-shape-whats-next-mobile-innovation/
     eoas: 2032-12-01 # 7 years - https://www.androidcentral.com/phones/samsung-galaxy/how-many-software-updates-will-the-samsung-galaxy-z-trifold-receive
-    eol: 2032-12-01 # 7 years - https://www.androidcentral.com/phones/samsung-galaxy/how-many-software-updates-will-the-samsung-galaxy-z-trifold-receive
+    eol: false      # 7 years - https://www.androidcentral.com/phones/samsung-galaxy/how-many-software-updates-will-the-samsung-galaxy-z-trifold-receive
     link: https://doc.samsungmobile.com/SM-F9680/CHC/doc.html
 
   - releaseCycle: "galaxy-m17-5g"
     releaseLabel: "Galaxy M17 5G"
     releaseDate: 2025-10-13 # https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     eoas: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
-    eol: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
+    eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     link: https://doc.samsungmobile.com/SM-M176B/NPB/doc.html
 
   - releaseCycle: "w26"
@@ -65,7 +65,7 @@ releases:
     releaseLabel: "Galaxy F07"
     releaseDate: 2025-10-04 # https://www.gsmarena.com/samsung_galaxy_f07-14205.php
     eoas: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
-    eol: false
+    eol: 2031-10-04
     link: https://doc.samsungmobile.com/SM-E075F/INS/doc.html
 
   - releaseCycle: "galaxy-m07"
