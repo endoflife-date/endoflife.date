@@ -31,31 +31,31 @@ releases:
 
   - releaseCycle: "0.18"
     releaseDate: 2025-06-26
-    eol: true
+    eol: 2025-11-14
     latest: "0.18.0"
     latestReleaseDate: 2025-06-26
 
   - releaseCycle: "0.17"
     releaseDate: 2025-05-14
-    eol: true
+    eol: 2025-09-02
     latest: "0.17.0"
     latestReleaseDate: 2025-05-14
 
   - releaseCycle: "0.16"
     releaseDate: 2025-03-12
-    eol: true
+    eol: 2025-06-26
     latest: "0.16.1"
     latestReleaseDate: 2025-03-15
 
   - releaseCycle: "0.15"
     releaseDate: 2024-09-04
-    eol: true
+    eol: 2025-05-14
     latest: "0.15.1"
     latestReleaseDate: 2024-12-19
 
   - releaseCycle: "0.14"
     releaseDate: 2023-11-07
-    eol: true
+    eol: 2025-03-12
     latest: "0.14.2"
     latestReleaseDate: 2024-05-16
 
