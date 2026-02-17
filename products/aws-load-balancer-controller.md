@@ -1,5 +1,5 @@
 ---
-title: aws-load-balancer-controller
+title: AWS Load Balancer Controller
 addedAt: 2026-02-12
 category: server-app
 tags: amazon cncf kubernetes
