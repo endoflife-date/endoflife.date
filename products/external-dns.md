@@ -1,5 +1,5 @@
 ---
-title: external-dns
+title: ExternalDNS
 addedAt: 2026-01-30
 category: server-app
 tags: cncf kubernetes
