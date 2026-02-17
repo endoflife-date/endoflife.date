@@ -1,5 +1,5 @@
 ---
-title: falco
+title: Falco
 addedAt: 2026-02-13
 category: server-app
 tags: cncf kubernetes
