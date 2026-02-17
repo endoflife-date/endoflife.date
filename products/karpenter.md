@@ -1,5 +1,5 @@
 ---
-title: karpenter
+title: Karpenter
 addedAt: 2026-02-03
 category: server-app
 tags: cncf kubernetes
@@ -15,6 +15,13 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/kubernetes-sigs/karpenter.git
+
+customFields:
+  - name: supportedKubernetesVersions
+    display: after-release-column
+    label: kubernetes
+    description: Supported Kubernetes Versions
+    link: https://karpenter.sh/docs/upgrading/compatibility
 
 releases:
   - releaseCycle: "1.9"
