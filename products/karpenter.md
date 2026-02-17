@@ -18,7 +18,7 @@ auto:
 
 customFields:
   - name: supportedKubernetesVersion
-    display: after-release-column
+    display: after-latest-column
     label: Kubernetes Compatibility
     description: Supported Kubernetes Versions
     link: https://karpenter.sh/docs/upgrading/compatibility
