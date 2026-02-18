@@ -1065,22 +1065,22 @@ releases:
   - releaseCycle: "galaxy-s21-ultra-5g"
     releaseLabel: "Galaxy S21 Ultra 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-01-29      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
 
   - releaseCycle: "galaxy-s21+-5g"
     releaseLabel: "Galaxy S21+ 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-01-29      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
 
   - releaseCycle: "galaxy-s21-5g"
     releaseLabel: "Galaxy S21 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-01-29      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
 
   - releaseCycle: "galaxy-a02"
