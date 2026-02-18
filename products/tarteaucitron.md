@@ -2,13 +2,21 @@
 title: tarteaucitron
 addedAt: 2025-08-01
 category: framework
+iconSlug: tarteaucitron
 tags: javascript-runtime
 permalink: /tarteaucitron
+releasePolicyLink: https://github.com/AmauriC/tarteaucitron.js?tab=security-ov-file
 changelogTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
 
 auto:
   methods:
     - git: https://github.com/AmauriC/tarteaucitron.js.git
+
+identifiers:
+  - purl: pkg:github/AmauriC/tarteaucitron.js
+  - purl: pkg:npm/tarteaucitronjs
+  - cpe: cpe:2.3:a:amauri:tarteaucitronjs
+  - cpe: cpe:/a:amauri:tarteaucitronjs
 
 releases:
   - releaseCycle: "1"
