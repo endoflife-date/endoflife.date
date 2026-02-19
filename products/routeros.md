@@ -18,12 +18,19 @@ identifiers:
   - cpe: cpe:2.3:o:mikrotik:routeros
 
 releases:
+  - releaseCycle: "7.21"
+    releaseDate: 2026-01-12
+    eol: false
+    lts: false
+    latest: "7.21.3"
+    latestReleaseDate: 2026-02-12
+
   - releaseCycle: "7.20"
     releaseDate: 2025-09-30
     eol: false
     lts: true
-    latest: "7.20.7"
-    latestReleaseDate: 2025-12-05
+    latest: "7.20.8"
+    latestReleaseDate: 2026-01-30
 
   - releaseCycle: "7.19"
     releaseDate: 2025-05-22
