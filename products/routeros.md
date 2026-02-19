@@ -391,61 +391,61 @@ releases:
     releaseDate: 2014-01-31
     eol: true
     latest: "6.9"
-    latestReleaseDate: 2014-01-31'
+    latestReleaseDate: 2014-01-31
 
   - releaseCycle: "6.7"
     releaseDate: 2013-11-29
     eol: true
     latest: "6.7"
-    latestReleaseDate: 2013-11-29'
+    latestReleaseDate: 2013-11-29
 
   - releaseCycle: "6.6"
     releaseDate: 2013-11-07
     eol: true
     latest: "6.6"
-    latestReleaseDate: 2013-11-07'
+    latestReleaseDate: 2013-11-07
 
   - releaseCycle: "6.5"
     releaseDate: 2013-10-16
     eol: true
     latest: "6.5"
-    latestReleaseDate: 2013-10-16'
+    latestReleaseDate: 2013-10-16
 
   - releaseCycle: "6.4"
     releaseDate: 2013-09-12
     eol: true
     latest: "6.4"
-    latestReleaseDate: 2013-09-12'
+    latestReleaseDate: 2013-09-12
 
   - releaseCycle: "6.3"
     releaseDate: 2013-09-03
     eol: true
     latest: "6.3"
-    latestReleaseDate: 2013-09-03'
+    latestReleaseDate: 2013-09-03
 
   - releaseCycle: "6.2"
     releaseDate: 2013-08-02
     eol: true
     latest: "6.2"
-    latestReleaseDate: 2013-08-02'
+    latestReleaseDate: 2013-08-02
 
   - releaseCycle: "6.1"
     releaseDate: 2013-06-12
     eol: true
     latest: "6.1"
-    latestReleaseDate: 2013-06-12'
+    latestReleaseDate: 2013-06-12
 
   - releaseCycle: "6.0"
-    releaseDate: 2013-05-17
-    eol: true
-    latest: "6.0"
-    latestReleaseDate: 2013-05-17'
-
-  - releaseCycle: "5.2"
     releaseDate: 2013-09-04
     eol: true
-    latest: "5.26"
+    latest: "6.0"
     latestReleaseDate: 2013-09-04
+
+  - releaseCycle: "5.2"
+    releaseDate: 2013-05-17
+    eol: true
+    latest: "5.26"
+    latestReleaseDate: 2013-05-17
 
   - releaseCycle: "5.25"
     releaseDate: 2013-04-25
@@ -547,7 +547,7 @@ releases:
     releaseDate: 2011-09-14
     eol: true
     latest: "5.7"
-    latestReleaseDate: 2011-09-14'
+    latestReleaseDate: 2011-09-14
 
   - releaseCycle: "4.1"
     releaseDate: 2011-03-02
