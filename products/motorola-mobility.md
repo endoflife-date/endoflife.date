@@ -644,7 +644,7 @@ releases:
   - releaseCycle: "motorola-edge-2022"
     releaseLabel: "Motorola Edge (2022)"
     releaseDate: 2022-08-01
-    eol: 2025-08-31
+    eol: 2026-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319
 
   - releaseCycle: "moto-g62-5g"
@@ -820,6 +820,7 @@ releases:
     releaseDate: 2021-08-01
     eol: 2023-08-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11170
+
 ---
 
 > [Motorola Mobility](https://motorola.com) is an American smartphone manufacturer, known for the
