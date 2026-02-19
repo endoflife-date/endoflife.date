@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-12-04
     eol: 2027-12-04
     eoes: 2028-12-04
-    latest: "6000.3.8f1"
-    latestReleaseDate: 2026-02-11
+    latest: "6000.3.9f1"
+    latestReleaseDate: 2026-02-18
 
   - releaseCycle: "6000.2"
     releaseLabel: "6.2"
@@ -46,8 +46,8 @@ releases:
     lts: 2024-10-16
     eol: 2026-10-16
     eoes: 2027-10-16
-    latest: "6000.0.67f1"
-    latestReleaseDate: 2026-02-04
+    latest: "6000.0.68f1"
+    latestReleaseDate: 2026-02-18
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
@@ -132,6 +132,7 @@ releases:
     eol: 2020-05-18
     latest: "2017.4.40f1"
     latestReleaseDate: 2020-05-18
+
 ---
 
 > [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies,
