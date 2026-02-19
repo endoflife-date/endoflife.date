@@ -35,8 +35,8 @@ releases:
     releaseDate: 2025-11-19
     eoas: 2026-02-24
     eol: 2026-08-19
-    latest: "12.3.2+security-01"
-    latestReleaseDate: 2026-02-11
+    latest: "12.3.3"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "12.2"
     releaseDate: 2025-09-23
