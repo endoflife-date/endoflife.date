@@ -49,7 +49,7 @@ releases:
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09
-    eol: false # Until 9.2 is released
+    eol: 2025-10-21
     latest: "8.18.8"
     latestReleaseDate: 2025-09-30
 
