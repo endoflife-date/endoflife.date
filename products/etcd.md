@@ -16,6 +16,7 @@ identifiers:
   - purl: pkg:oci/etcd?repository_url=gcr.io/etcd-development
   - purl: pkg:github/etcd-io/etcd
   - purl: pkg:golang/github.com/etcd-io/etcd
+  - cpe: cpe:2.3:a:etcd:etcd
 
 auto:
   methods:

@@ -24,6 +24,7 @@ auto:
 
 identifiers:
   - repology: forgejo
+  - cpe: cpe:2.3:a:forgejo:forgejo
 
 # eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:

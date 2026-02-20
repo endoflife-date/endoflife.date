@@ -12,6 +12,9 @@ changelogTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LA
 eolColumn: Active Support
 eoesColumn: Security Support
 
+identifiers:
+  - cpe: cpe:2.3:a:apache:pulsar
+
 auto:
   methods:
     - github_releases: apache/pulsar

@@ -11,6 +11,9 @@ releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
 eolColumn: End of support
 
+identifiers:
+  - cpe: cpe:2.3:a:veeam:backup_and_replication
+
 auto:
   methods:
     - veeam: https://www.veeam.com/kb2680

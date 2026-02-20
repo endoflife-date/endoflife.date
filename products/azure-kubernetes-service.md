@@ -13,6 +13,9 @@ latestColumn: false
 eolColumn: Support
 eoesColumn: LTS Support
 
+identifiers:
+  - cpe: cpe:2.3:a:microsoft:azure_kubernetes_service
+
 auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions

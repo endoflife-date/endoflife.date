@@ -13,6 +13,7 @@ identifiers:
   - purl: pkg:docker/denoland/deno
   - purl: pkg:github/denoland/deno
   - repology: deno
+  - cpe: cpe:2.3:a:deno:deno
 
 auto:
   methods:

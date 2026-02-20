@@ -13,6 +13,9 @@ latestColumn: false
 eolColumn: End of Support
 eoasColumn: End of Engineering Support
 
+identifiers:
+  - cpe: cpe:2.3:a:fortinet:fortios
+
 releases:
   - releaseCycle: "7.6"
     releaseDate: 2024-07-25

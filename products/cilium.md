@@ -14,6 +14,7 @@ identifiers:
   - purl: pkg:github/cilium/cilium
   - purl: pkg:docker/cilium/cilium
   - purl: pkg:docker/quay.io/cilium/cilium
+  - cpe: cpe:2.3:a:cilium:cilium
 
 auto:
   methods:

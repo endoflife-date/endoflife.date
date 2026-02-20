@@ -13,6 +13,7 @@ staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#
 identifiers:
   - purl: pkg:github/facebook/react
   - purl: pkg:npm/react
+  - cpe: cpe:2.3:a:facebook:react
 
 # NPM dates are more accurate than git tag dates.
 auto:

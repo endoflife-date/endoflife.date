@@ -10,6 +10,9 @@ changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/ce
 eolColumn: OSS Support
 eoesColumn: Commercial Support
 
+identifiers:
+  - cpe: cpe:2.3:a:centreon:centreon
+
 auto:
   methods:
     - git: https://github.com/centreon/centreon.git

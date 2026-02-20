@@ -10,6 +10,9 @@ eoasColumn: Maintenance Support
 eolColumn: Lifecycle Support
 staleReleaseThresholdDays: 1825 # devices have longer support periods
 
+identifiers:
+  - cpe: cpe:2.3:a:stormshield:network_security
+
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm

@@ -22,6 +22,7 @@ identifiers:
   - repology: angular.js
   - purl: pkg:npm/angular
   - purl: pkg:github/angular/angular.js
+  - cpe: cpe:2.3:a:angularjs:angular.js
 
 auto:
   disabled: true # the product is discontinued

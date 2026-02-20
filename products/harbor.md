@@ -41,6 +41,7 @@ identifiers:
   - purl: pkg:oci/harbor-core?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-portal?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-jobservice?repository_url=quay.io/goharbor
+  - cpe: cpe:2.3:a:goharbor:harbor
 
 auto:
   methods:

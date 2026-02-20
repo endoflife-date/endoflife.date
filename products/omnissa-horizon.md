@@ -18,6 +18,9 @@ customFields:
     display: api-only
     label: Technical Guidance Ends
 
+identifiers:
+  - cpe: cpe:2.3:a:vmware:horizon
+
 releases:
   - releaseCycle: "8.2412"
     releaseDate: 2025-01-28

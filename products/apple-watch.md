@@ -17,6 +17,9 @@ customFields:
     label: WatchOS
     description: Supported WatchOS versions
 
+identifiers:
+  - cpe: cpe:2.3:a:apple:watchos
+
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/en_US/specs/applewatch.
 # All supported watchOS versions can be found on https://en.wikipedia.org/wiki/Apple_Watch#Support.

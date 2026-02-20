@@ -8,6 +8,9 @@ permalink: /ipados
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:a:apple:ipados
+
 auto:
   methods:
     - apple: ipados

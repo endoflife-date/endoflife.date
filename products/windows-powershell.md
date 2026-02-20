@@ -11,6 +11,9 @@ eolColumn: Support Status
 latestColumn: false
 staleReleaseThresholdDays: 3650 # oses have longer support periods
 
+identifiers:
+  - cpe: cpe:2.3:a:microsoft:powershell
+
 releases:
   - releaseCycle: "5.1"
     releaseDate: 2016-08-02

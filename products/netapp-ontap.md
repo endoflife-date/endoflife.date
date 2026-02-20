@@ -14,6 +14,9 @@ changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-
 eolColumn: Full Support
 latestColumn: false # no public access to the latest patches
 
+identifiers:
+  - cpe: cpe:2.3:a:netapp:ontap
+
 # Releases are documented on https://mysupport.netapp.com/site/info/version-support.
 releases:
   - releaseCycle: "9.18.1"

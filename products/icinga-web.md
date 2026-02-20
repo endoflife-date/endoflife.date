@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:docker/icinga/icingaweb2
   - purl: pkg:github/Icinga/icingaweb2
   - purl: pkg:github/Icinga/icinga-web
+  - cpe: cpe:2.3:a:icinga:icinga_web_2
 
 auto:
   methods:

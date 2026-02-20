@@ -14,6 +14,7 @@ auto:
 
 identifiers:
   - repology: openvpn
+  - cpe: cpe:2.3:a:openvpn:openvpn
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:

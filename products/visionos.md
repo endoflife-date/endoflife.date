@@ -7,6 +7,9 @@ iconSlug: apple
 permalink: /visionos
 changelogTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
 
+identifiers:
+  - cpe: cpe:2.3:a:apple:visionos
+
 auto:
   methods:
     - apple: visionos

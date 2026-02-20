@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
+  - cpe: cpe:2.3:a:laravel:laravel
 
 # Note that laravel/laravel is just a starter application.
 auto:

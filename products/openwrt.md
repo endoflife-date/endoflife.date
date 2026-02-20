@@ -12,6 +12,9 @@ releasePolicyLink: https://openwrt.org/docs/guide-developer/security#support_sta
 changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:a:openwrt:openwrt
+
 auto:
   methods:
     - git: https://github.com/openwrt/openwrt.git
