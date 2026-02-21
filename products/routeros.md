@@ -575,11 +575,11 @@ releases:
 > [MikroTik RouterOS](https://mikrotik.com/software) is an operating system based on the Linux kernel, specifically designed for routers.
 > It is installed on the company's produced networking hardware - RouterBOARD, as well as on standard x86 type computers, enabling these devices to fulfill router functions.
 
-Note: When performing updates each minor version must be upgraded in sequence.
+> This description is based on information found in [the changelog](https://mikrotik.com/download/changelogs?channelFilter=)
+> and in [the forum](https://forum.mikrotik.com/t/release-policy-eol-policy/265483/30).
 
-## Support Policy
-Offered on MikroTik product pages:
-> The device has an operating system preinstalled and licensed. No separate purchase is necessary and the product is ready to use. The device includes free software updates for the life of the product or a minimum of 5 years starting from date of purchase.
+RouterOS release and support policy is not clearly defined.
+There is a new minor release of RouterOS every few months, which is supported with bug and security fixes until the next minor release is available.
+Some minor releases are designated _long term_ and receive critical bug and security fixes until the next long term release is available.
 
-From the forum:
-> Long-term release channel (presently v6) only receives security updates. At present, there is no long-term for V7. MikroTik support policy is limited to bugs and interoperability/incompatibility, not configuration help.
+When performing updates each minor version must be upgraded in sequence.
