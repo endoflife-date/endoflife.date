@@ -32,6 +32,7 @@ releases:
     latestReleaseDate: 2025-10-16
 
   - releaseCycle: "6"
+    staleReleaseThresholdDays: 730 # still supported according to https://docs.chef.io/versions/
     releaseDate: 2023-11-14
     eoas: 2025-10-16
     eol: false

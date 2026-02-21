@@ -76,6 +76,7 @@ releases:
     latestReleaseDate: 2024-05-21
 
   - releaseCycle: "5.27"
+    staleReleaseThresholdDays: 730
     lts: true
     releaseDate: 2023-02-14
     eoas: 2025-01-06

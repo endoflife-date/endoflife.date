@@ -28,6 +28,7 @@ auto:
 
 releases:
   - releaseCycle: "4"
+    staleReleaseThresholdDays: 730
     minRubyVersion: "2.5+" # https://jekyllrb.com/docs/
     releaseDate: 2019-08-20
     eoas: false
