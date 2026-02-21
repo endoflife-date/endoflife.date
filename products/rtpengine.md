@@ -22,15 +22,15 @@ releases:
   - releaseCycle: "14.0"
     releaseDate: 2025-12-17
     eol: 2026-02-28
-    latest: "14.0.1.4"
-    latestReleaseDate: 2026-02-12
+    latest: "14.0.1.5"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "13.5"
     lts: true
     releaseDate: 2025-09-26
     eol: 2028-09-28
-    latest: "13.5.1.5"
-    latestReleaseDate: 2026-02-12
+    latest: "13.5.1.6"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "13.4"
     releaseDate: 2025-06-27
