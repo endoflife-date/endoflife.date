@@ -1,6 +1,6 @@
 ---
 title: RouterOS
-addedAt: 2025-10-09
+addedAt: 2026-02-21
 category: os
 tags: mikrotik os
 iconSlug: mikrotik
@@ -21,14 +21,13 @@ releases:
   - releaseCycle: "7.21"
     releaseDate: 2026-01-12
     eol: false
-    lts: false
     latest: "7.21.3"
     latestReleaseDate: 2026-02-12
 
   - releaseCycle: "7.20"
+    lts: true
     releaseDate: 2025-09-30
     eol: false
-    lts: true
     latest: "7.20.8"
     latestReleaseDate: 2026-01-30
 
@@ -147,9 +146,9 @@ releases:
     latestReleaseDate: 2022-03-22
 
   - releaseCycle: "6.49"
+    lts: true
     releaseDate: 2021-10-06
     eol: false
-    lts: true
     latest: "6.49.19"
     latestReleaseDate: 2025-07-07
 
@@ -166,37 +165,37 @@ releases:
     latestReleaseDate: 2021-05-31
 
   - releaseCycle: "6.46"
+    lts: true
     releaseDate: 2019-12-02
     eol: true
-    lts: true
     latest: "6.46.8"
     latestReleaseDate: 2020-10-29
 
   - releaseCycle: "6.45"
+    lts: true
     releaseDate: 2019-06-21
     eol: true
-    lts: true
     latest: "6.45.9"
     latestReleaseDate: 2020-04-30
 
   - releaseCycle: "6.44"
+    lts: true
     releaseDate: 2019-02-25
     eol: true
-    lts: true
     latest: "6.44.6"
     latestReleaseDate: 2019-10-24
 
   - releaseCycle: "6.43"
+    lts: true
     releaseDate: 2018-09-06
     eol: true
-    lts: true
     latest: "6.43.16"
     latestReleaseDate: 2019-05-14
 
   - releaseCycle: "6.42"
+    lts: true
     releaseDate: 2018-04-13
     eol: true
-    lts: true
     latest: "6.42.12"
     latestReleaseDate: 2019-02-12
 
@@ -207,30 +206,30 @@ releases:
     latestReleaseDate: 2018-04-05
 
   - releaseCycle: "6.40"
+    lts: true
     releaseDate: 2017-07-21
     eol: true
-    lts: true
     latest: "6.40.9"
     latestReleaseDate: 2018-08-20
 
   - releaseCycle: "6.39"
+    lts: true
     releaseDate: 2017-04-27
     eol: true
-    lts: true
     latest: "6.39.3"
     latestReleaseDate: 2017-10-12
 
   - releaseCycle: "6.38"
+    lts: true
     releaseDate: 2016-12-30
     eol: true
-    lts: true
     latest: "6.38.7"
     latestReleaseDate: 2017-06-20
 
   - releaseCycle: "6.37"
+    lts: true
     releaseDate: 2016-09-23
     eol: true
-    lts: true
     latest: "6.37.5"
     latestReleaseDate: 2017-03-09
 
@@ -247,9 +246,9 @@ releases:
     latestReleaseDate: 2016-06-09
 
   - releaseCycle: "6.34"
+    lts: true
     releaseDate: 2016-01-29
     eol: true
-    lts: true
     latest: "6.34.6"
     latestReleaseDate: 2016-06-06
 
@@ -260,16 +259,16 @@ releases:
     latestReleaseDate: 2016-01-28
 
   - releaseCycle: "6.32"
+    lts: true
     releaseDate: 2015-09-07
     eol: true
-    lts: true
     latest: "6.32.4"
     latestReleaseDate: 2016-02-09
 
   - releaseCycle: "6.30"
+    lts: true
     releaseDate: 2015-07-08
     eol: true
-    lts: true
     latest: "6.30.4"
     latestReleaseDate: 2015-07-22
 
@@ -440,7 +439,7 @@ releases:
     eol: true
     latest: "6.1"
     latestReleaseDate: 2013-06-12
-  
+
   - releaseCycle: "6.0"
     releaseDate: 2013-05-17
     eol: true
@@ -566,8 +565,6 @@ releases:
     eol: true
     latest: "3.30"
     latestReleaseDate: 2009-09-11
-
-  
 
 ---
 
