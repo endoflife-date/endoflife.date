@@ -31,6 +31,12 @@ auto:
 
 # Supported releases are listed in the "Supported releases" on https://kafka.apache.org/community/downloads/
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-02-17
+    eol: false
+    latest: "4.2.0"
+    latestReleaseDate: 2026-02-17
+
   - releaseCycle: "4.1"
     releaseDate: 2025-09-02
     eol: false
@@ -255,7 +261,7 @@ releases:
 > integration, and mission-critical applications.
 
 Apache Kafka does not have a clearly defined release and support policy.
-According to [the Apache Kafka wiki](https://cwiki.apache.org/confluence/display/KAFKA/Time+Based+Release+Plan), 
+According to [the Apache Kafka wiki](https://cwiki.apache.org/confluence/display/KAFKA/Time+Based+Release+Plan),
 there is a minor release every four months, and up to three minor releases have been supported at the same time.
 Supported releases are listed on [the official website download page](https://kafka.apache.org/community/downloads/#supported-releases).
 
