@@ -6,7 +6,7 @@ tags: mikrotik os
 iconSlug: mikrotik
 permalink: /routeros
 alternate_urls:
-- /mikrotik
+  - /mikrotik
 changelogTemplate: https://mikrotik.com/download/changelogs#c-stable-v{{"__LATEST__" | replace:'.','_' }}
 releaseLabel: "RouterOS __RELEASE_CYCLE__"
 LTSLabel: "<abbr title='Long Term'>LT</abbr>"
@@ -17,19 +17,23 @@ identifiers:
   - cpe: cpe:/o:mikrotik:routeros
   - cpe: cpe:2.3:o:mikrotik:routeros
 
+auto:
+  methods:
+    - routeros-versions: https://mikrotik.com/download/changelogs?channelFilter=
+
 releases:
   - releaseCycle: "7.21"
     releaseDate: 2026-01-12
     eol: false
     latest: "7.21.3"
-    latestReleaseDate: 2026-02-12
+    latestReleaseDate: 2026-02-13
 
   - releaseCycle: "7.20"
     lts: true
     releaseDate: 2025-09-30
     eol: false
     latest: "7.20.8"
-    latestReleaseDate: 2026-01-30
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "7.19"
     releaseDate: 2025-05-22
@@ -270,7 +274,7 @@ releases:
     releaseDate: 2015-07-08
     eol: true
     latest: "6.30.4"
-    latestReleaseDate: 2015-07-22
+    latestReleaseDate: 2015-08-25
 
   - releaseCycle: "6.29"
     releaseDate: 2015-05-27
