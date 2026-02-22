@@ -1,6 +1,6 @@
 ---
 title: RouterOS
-addedAt: 2026-02-21
+addedAt: 2026-02-22
 category: os
 tags: mikrotik os
 iconSlug: mikrotik
@@ -19,6 +19,9 @@ auto:
   methods:
     - routeros-versions: https://mikrotik.com/download/changelogs?channelFilter=
 
+# For 7.x and later:
+# - Non-LTS : eol(x) = releaseDate(x + 1)
+# - LTS : eol(x) = releaseDate(next LTS)
 releases:
   - releaseCycle: "7.21"
     releaseDate: 2026-01-12
@@ -35,122 +38,122 @@ releases:
 
   - releaseCycle: "7.19"
     releaseDate: 2025-05-22
-    eol: true
+    eol: 2025-09-30
     latest: "7.19.6"
     latestReleaseDate: 2025-09-15
 
   - releaseCycle: "7.18"
     releaseDate: 2025-02-24
-    eol: true
+    eol: 2025-05-22
     latest: "7.18.2"
     latestReleaseDate: 2025-03-12
 
   - releaseCycle: "7.17"
     releaseDate: 2025-01-16
-    eol: true
+    eol: 2025-02-24
     latest: "7.17.2"
     latestReleaseDate: 2025-02-06
 
   - releaseCycle: "7.16"
     releaseDate: 2024-09-24
-    eol: true
+    eol: 2025-01-16
     latest: "7.16.2"
     latestReleaseDate: 2024-11-27
 
   - releaseCycle: "7.15"
     releaseDate: 2024-05-30
-    eol: true
+    eol: 2024-09-24
     latest: "7.15.3"
     latestReleaseDate: 2024-07-25
 
   - releaseCycle: "7.14"
     releaseDate: 2024-03-25
-    eol: true
+    eol: 2024-05-30
     latest: "7.14.3"
     latestReleaseDate: 2024-04-19
 
   - releaseCycle: "7.13"
     releaseDate: 2023-12-14
-    eol: true
+    eol: 2024-03-25
     latest: "7.13.5"
     latestReleaseDate: 2024-02-16
 
   - releaseCycle: "7.12"
     releaseDate: 2023-11-09
-    eol: true
+    eol: 2023-12-14
     latest: "7.12.2"
     latestReleaseDate: 2023-12-20
 
   - releaseCycle: "7.11"
     releaseDate: 2023-08-15
-    eol: true
+    eol: 2023-11-09
     latest: "7.11.3"
     latestReleaseDate: 2023-09-27
 
   - releaseCycle: "7.10"
     releaseDate: 2023-06-15
-    eol: true
+    eol: 2023-08-15
     latest: "7.10.2"
     latestReleaseDate: 2023-07-12
 
   - releaseCycle: "7.9"
     releaseDate: 2023-05-02
-    eol: true
+    eol: 2023-06-15
     latest: "7.9.2"
     latestReleaseDate: 2023-05-30
 
   - releaseCycle: "7.8"
     releaseDate: 2023-02-24
-    eol: true
+    eol: 2023-05-02
     latest: "7.8"
     latestReleaseDate: 2023-02-24
 
   - releaseCycle: "7.7"
     releaseDate: 2023-01-12
-    eol: true
+    eol: 2023-02-24
     latest: "7.7"
     latestReleaseDate: 2023-01-12
 
   - releaseCycle: "7.6"
     releaseDate: 2022-10-17
-    eol: true
+    eol: 2023-01-12
     latest: "7.6"
     latestReleaseDate: 2022-10-17
 
   - releaseCycle: "7.5"
     releaseDate: 2022-08-30
-    eol: true
+    eol: 2022-10-17
     latest: "7.5"
     latestReleaseDate: 2022-08-30
 
   - releaseCycle: "7.4"
     releaseDate: 2022-07-19
-    eol: true
+    eol: 2022-08-30
     latest: "7.4.1"
     latestReleaseDate: 2022-08-04
 
   - releaseCycle: "7.3"
     releaseDate: 2022-06-06
-    eol: true
+    eol: 2022-07-19
     latest: "7.3.1"
     latestReleaseDate: 2022-06-09
 
   - releaseCycle: "7.2"
     releaseDate: 2022-03-31
-    eol: true
+    eol: 2022-06-06
     latest: "7.2.3"
     latestReleaseDate: 2022-05-02
 
   - releaseCycle: "7.1"
     releaseDate: 2021-12-01
-    eol: true
+    eol: 2022-03-31
     latest: "7.1.5"
     latestReleaseDate: 2022-03-22
 
   - releaseCycle: "6.49"
     lts: true
     releaseDate: 2021-10-06
-    eol: false
+    eol: 2025-09-30
     latest: "6.49.19"
     latestReleaseDate: 2025-07-07
 
