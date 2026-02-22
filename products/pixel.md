@@ -27,10 +27,10 @@ releases:
   - releaseCycle: "10a"
     releaseLabel: "Pixel 10a"
     releaseDate: 2026-03-05
-    eoas: 2032-03-01
-    eol: 2032-03-01
+    eoas: 2033-03-01
+    eol: 2033-03-01
     discontinued: false
-    link: https://en.wikipedia.org/wiki/Pixel_1a
+    link: https://en.wikipedia.org/wiki/Pixel_10a
     supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10a_5g-14474.php
 
   - releaseCycle: "10pro"
