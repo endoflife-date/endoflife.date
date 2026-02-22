@@ -1,3 +1,5 @@
+# vim: set ft=yaml :
+# yaml-language-server: $schema=../product-schema.json
 ---
 title: Freedesktop SDK
 addedAt: 2025-10-29
