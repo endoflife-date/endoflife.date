@@ -18,35 +18,35 @@ auto:
 releases:
   - releaseCycle: "25.08"
     releaseDate: 2025-09-01
-    eol: false
+    eol: 2027-09-01
     latest: 25.08.2
     latestReleaseDate: 2025-10-16
     link: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-25.08.2
 
   - releaseCycle: "24.08"
     releaseDate: 2024-09-08
-    eol: false
+    eol: 2026-09-08
     latest: 24.08.27
     latestReleaseDate: 2025-10-15
     link: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-24.08.27
 
   - releaseCycle: "23.08"
     releaseDate: 2023-09-06
-    eol: true
+    eol: 2025-09-06
     latest: 23.08.34
     latestReleaseDate: 2025-09-29
     link: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-23.08.34
 
   - releaseCycle: "22.08"
     releaseDate: 2022-09-01
-    eol: true
+    eol: 2024-09-01
     latest: 22.08.28
     latestReleaseDate: 2025-09-08
     link: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tags/freedesktop-sdk-22.08.28
 
   - releaseCycle: "21.08"
     releaseDate: 2021-09-04
-    eol: true
+    eol: 2023-09-04
     latest: 21.08.22
     latestReleaseDate: 2023-10-02
     link: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-21.08.22
