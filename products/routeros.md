@@ -5,8 +5,6 @@ category: os
 tags: mikrotik os
 iconSlug: mikrotik
 permalink: /routeros
-alternate_urls:
-  - /mikrotik
 changelogTemplate: https://mikrotik.com/download/changelogs#c-stable-v{{"__LATEST__" | replace:'.','_' }}
 releaseLabel: "RouterOS __RELEASE_CYCLE__"
 LTSLabel: "<abbr title='Long Term'>LT</abbr>"
