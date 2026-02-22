@@ -5,7 +5,7 @@ category: database
 iconSlug: redis
 permalink: /redis
 versionCommand: redis-server --version
-releasePolicyLink: https://redis.io/release/
+releasePolicyLink: https://github.com/redis/redis/security
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
 
@@ -28,13 +28,8 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/redis/redis.git
-    - release_table: https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/
-      fields:
-        releaseCycle:
-          column: "Version - Release date"
-          regex: '^(?P<value>\d+\.\d+).*'
-        eol: "End of Life (EOL)"
 
+# EOL documented on https://github.com/redis/redis/security, but as a rule of thumb:
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
 releases:
@@ -69,14 +64,14 @@ releases:
   - releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: 2025-05-02
-    eol: 2026-11-30
+    eol: false # still supported according to https://github.com/redis/redis/security
     latest: "7.4.7"
     latestReleaseDate: 2025-11-02
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
-    eol: 2026-02-28
+    eol: false # still supported according to https://github.com/redis/redis/security
     latest: "7.2.12"
     latestReleaseDate: 2025-11-02
 
@@ -90,7 +85,7 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2021-02-22
     eoas: 2022-04-27
-    eol: 2025-02-28
+    eol: false # still supported according to https://github.com/redis/redis/security
     latest: "6.2.21"
     latestReleaseDate: 2025-11-02
 
