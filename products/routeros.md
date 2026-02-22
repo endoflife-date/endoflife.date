@@ -5,7 +5,7 @@ category: os
 tags: mikrotik os
 iconSlug: mikrotik
 permalink: /routeros
-changelogTemplate: https://mikrotik.com/download/changelogs#c-stable-v{{"__LATEST__" | replace:'.','_' }}
+changelogTemplate: https://mikrotik.com/download/changelogs?versionFilter=__LATEST__&channelFilter=
 releaseLabel: "RouterOS __RELEASE_CYCLE__"
 LTSLabel: "<abbr title='Long Term'>LT</abbr>"
 latestColumn: Latest
@@ -575,6 +575,8 @@ releases:
 
 > [MikroTik RouterOS](https://mikrotik.com/software) is an operating system based on the Linux kernel, specifically designed for routers.
 > It is installed on the company's produced networking hardware - RouterBOARD, as well as on standard x86 type computers, enabling these devices to fulfill router functions.
+
+{: .warning }
 
 > This description is based on information found in [the changelog](https://mikrotik.com/download/changelogs?channelFilter=)
 > and in [the forum](https://forum.mikrotik.com/t/release-policy-eol-policy/265483/30).
