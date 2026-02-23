@@ -49,9 +49,9 @@ releases:
     eoes: 2028-10-01
     ansibleCoreVersion: "2.16"
     aapPLatformUIVersion: "2.6.1"
-    automationControllerVersion: "4.7.1"
-    automationHubVersion: "4.11.0"
-    eventDrivenAnsibleVersion: "1.2.0"
+    automationControllerVersion: "4.7.8"
+    automationHubVersion: "4.11.5"
+    eventDrivenAnsibleVersion: "1.2.4"
     platformGatewayVersion: "2.6.20251001"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/release_notes
 
@@ -63,9 +63,9 @@ releases:
     eoes: 2028-10-01
     ansibleCoreVersion: "2.16"
     aapPLatformUIVersion: "1.1"
-    automationControllerVersion: "4.6.0"
-    automationHubVersion: "4.10.0"
-    eventDrivenAnsibleVersion: "1.1.0"
+    automationControllerVersion: "4.6.25"
+    automationHubVersion: "4.10.11"
+    eventDrivenAnsibleVersion: "1.1.14"
     platformGatewayVersion: "N/A"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/release_notes
 
@@ -77,9 +77,9 @@ releases:
     eoes: 2026-06-30
     ansibleCoreVersion: "2.15"
     aapPLatformUIVersion: "N/A"
-    automationControllerVersion: "4.4"
-    automationHubVersion: "4.7"
-    eventDrivenAnsibleVersion: "1.0"
+    automationControllerVersion: "4.5.30"
+    automationHubVersion: "4.9.5"
+    eventDrivenAnsibleVersion: "1.0.8"
     platformGatewayVersion: "N/A"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/red_hat_ansible_automation_platform_release_notes/index
 
@@ -91,7 +91,7 @@ releases:
     eoes: 2024-05-31
     ansibleCoreVersion: "2.14"
     aapPLatformUIVersion: "N/A"
-    automationControllerVersion: "4.3.0"
+    automationControllerVersion: "4.3"
     automationHubVersion: "4.6"
     eventDrivenAnsibleVersion: "N/A"
     platformGatewayVersion: "N/A"
@@ -124,5 +124,7 @@ labels="Release,Ansible-Core version,AAP Platform UI version,Automation Controll
 fields="releaseCycle,ansibleCoreVersion,aapPLatformUIVersion,automationControllerVersion,automationHubVersion,eventDrivenAnsibleVersion,platformGatewayVersion"
 types="string,string,string,string,string"
 rows=page.releases %}
+
+The latest version for each component can be found in the release notes under the *Patch releases* section.
 
 [DEFINITION]: https://access.redhat.com/articles/2130961
