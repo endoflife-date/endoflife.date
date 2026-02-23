@@ -98,8 +98,7 @@ releases:
 > [Red hat Ansible Automation Platfrom](https://www.redhat.com/en/technologies/management/ansible) is a strategic, flexible, and scalable automation solution that works across the whole IT environment.
 > It provides a unified, highly capable platform that allows to build and operate intelligent automation workflows across hybrid environments.
 
-To encourage the rapid adoption of new technologies while keeping the high standard of stability inherent in Red Hat enterprise product,
-the product life cycle for Red Hat Ansible Automation Platform is divided into three phases of maintenance: **Full Support**, **Maintenance Support 1** and **Maintenance Support 2**.
+The product life cycle for Red Hat Ansible Automation Platform is divided into three phases of maintenance: **Full Support**, **Maintenance Support 1** and **Maintenance Support 2**.
 
 The **Full Support** phase begins at the GA/release.
 During the Full Support Phase, *Qualified critical security fixes*, *Critical **and** important severity issue* fixes will be released as they become available;
