@@ -53,6 +53,7 @@ releases:
     automationHubVersion: "4.11.0"
     eventDrivenAnsibleVersion: "1.2.0"
     platformGatewayVersion: "2.6.20251001"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/release_notes
 
   # Info taken from https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/release_notes/platform-introduction#whats-included
   - releaseCycle: "2.5"
@@ -66,6 +67,7 @@ releases:
     automationHubVersion: "4.10.0"
     eventDrivenAnsibleVersion: "1.1.0"
     platformGatewayVersion: "N/A"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/release_notes
 
   # Info taken from https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/red_hat_ansible_automation_platform_release_notes/platform-introduction#whats-included
   - releaseCycle: "2.4"
@@ -79,6 +81,7 @@ releases:
     automationHubVersion: "4.7"
     eventDrivenAnsibleVersion: "1.0"
     platformGatewayVersion: "N/A"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/red_hat_ansible_automation_platform_release_notes/index
 
   # Info taken from https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_release_notes/platform-introduction#whats-included
   - releaseCycle: "2.3"
@@ -92,6 +95,7 @@ releases:
     automationHubVersion: "4.6"
     eventDrivenAnsibleVersion: "N/A"
     platformGatewayVersion: "N/A"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_release_notes
 
 ---
 
