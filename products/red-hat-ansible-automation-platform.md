@@ -14,7 +14,7 @@ eoasColumn: Full Support
 eolColumn: Maintenance Support 1
 eoesColumn: Maintenance Support 2
 latestColumn: false
-releaseDateColumn: false
+releaseDateColumn: General Availability
 
 customFields:
   - name: ansibleCoreVersion
