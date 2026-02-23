@@ -99,23 +99,23 @@ releases:
 
 ---
 
-> [Red hat Ansible Automation Platfrom](https://www.redhat.com/en/technologies/management/ansible) is a strategic, flexible, and scalable automation solution that works across the whole IT environment.
-> It provides a unified, highly capable platform that allows to build and operate intelligent automation workflows across hybrid environments.
+> [Red hat Ansible Automation Platfrom](https://www.redhat.com/en/technologies/management/ansible) is a software that enables organizations to automate IT processes in enterprise environments and uses a subscription-based pricing model with annual licensing fees determined by the number of nodes managed.
+> The platform includes a controller with a web console and REST API, analytics, Execution Environments, role-based access control (RBAC), a multi-playbook workflow builder and visualizer, logging & auditing and integrates in existing authentication sources.
 
 The product life cycle for Red Hat Ansible Automation Platform is divided into three phases of maintenance: **Full Support**, **Maintenance Support 1** and **Maintenance Support 2**.
 
 The **Full Support** phase begins at the GA/release.
-During the Full Support Phase, *Qualified critical security fixes*, *Critical **and** important severity issue* fixes will be released as they become available;
-as well as fixes to *Security Errata* ([RHEA][DEFINITION]) and *Bug Fix Errata* ([RHBAs][DEFINITION]). *Select Software Enhancements* are released when made available.
+During the Full Support Phase, Qualified critical security fixes, Critical **and** important severity issue fixes will be released as they become available;
+as well as fixes to *Security Errata* ([RHEA][DEFINITION]) and *Bug Fix Errata* ([RHBAs][DEFINITION]). Software Enhancements and new featuresare released when made available.
 
 The **Maintenance Support 1** phase starts after the Full Support phase.
-During this phase, *Qualified critical security fixes*, *Critical severity issue* fixes will be released as they become available;
+During this phase, Qualified critical security fixes, Critical severity issue fixes will be released as they become available;
 as well as fixes to *Security Errata* ([RHEA][DEFINITION]) and *Bug Fix Errata* ([RHBAs][DEFINITION]).
-*Select Software Enhancements* are not part of this Life Cycle phase.
+Software Enhancements or new features are not part of this Life Cycle phase.
 
-The **Maintenance Support 2** phase starts after the *Maintenance Support 1* phase.
-*Qualified critical security fixes* and fixes to *Security Errata* ([RHEA][DEFINITION]) are released as they become available.
-*Bug fixes by severity* or *Bug Fix Errata* ([RHBAs][DEFINITION]) are not part of this Life Cycle phase; neither are *Select Software Enhancements*.
+The **Maintenance Support 2** phase starts after the Maintenance Support 1 phase.
+Qualified critical security fixes and fixes to *Security Errata* ([RHEA][DEFINITION]) are released as they become available.
+Bug fixes by severity or *Bug Fix Errata* ([RHBAs][DEFINITION]) are not part of this Life Cycle phase; neither are Software Enhancements or new features.
 
 The Ansible Automation Platform consists of multiple major services, each with their own versions.
 
