@@ -28,20 +28,34 @@ auto:
         eol: "Security support"
 
 releases:
+  - releaseCycle: "7.3"
+    releaseDate: 2026-02-03
+    eoas: 2026-05-04
+    eol: 2026-08-03
+    latest: "7.3"
+    latestReleaseDate: 2026-02-03
+
+  - releaseCycle: "7.2"
+    releaseDate: 2025-11-05
+    eoas: 2026-02-02
+    eol: 2026-05-04
+    latest: "7.2.2"
+    latestReleaseDate: 2026-02-03
+
   - releaseCycle: "7.1"
     releaseDate: 2025-08-04
-    eoas: 2025-11-03
+    eoas: 2025-11-05
     eol: 2026-02-02
-    latest: "7.1.2"
-    latestReleaseDate: 2025-10-23
+    latest: "7.1.3"
+    latestReleaseDate: 2026-02-03
 
   - releaseCycle: "7.0"
     lts: true
     releaseDate: 2025-05-06
     eoas: 2026-11-02
     eol: 2026-11-02
-    latest: "7.0.3"
-    latestReleaseDate: 2025-08-28
+    latest: "7.0.5"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "6.4"
     releaseDate: 2025-02-03
@@ -55,8 +69,8 @@ releases:
     releaseDate: 2024-11-01
     eoas: 2026-05-01
     eol: 2026-05-01
-    latest: "6.3.5"
-    latestReleaseDate: 2025-06-12
+    latest: "6.3.7"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "6.2"
     releaseDate: 2024-08-01

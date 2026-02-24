@@ -22,30 +22,41 @@ eolColumn: Maintenance support
 
 auto:
   methods:
-    - red-hat-satellite: https://access.redhat.com/articles/1365633
-      regex: '^Satellite (?P<version>\d+\.\d+\.\d+([.-]\d+)?) ([Uu]pdate|[Rr]elease)$'
+    - version_table: https://access.redhat.com/articles/1365633
+      name_column: "Release/Update"
+      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease| Update)$'
+      template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
+      date_column: "General Availability Date"
 
+# eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
-  - releaseCycle: "6.17"
-    releaseDate: 2025-05-06
+  - releaseCycle: "6.18"
+    releaseDate: 2025-11-04
     eoas: false
     eol: false
-    latest: "6.17.5"
-    latestReleaseDate: 2025-10-08
+    latest: "6.18.3"
+    latestReleaseDate: 2026-02-16
+
+  - releaseCycle: "6.17"
+    releaseDate: 2025-05-06
+    eoas: 2025-11-30
+    eol: 2026-11-30 # estimated
+    latest: "6.17.6.3"
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
-    latest: "6.16.5.4"
-    latestReleaseDate: 2025-10-08
+    latest: "6.16.6.1"
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
-    latest: "6.15.5.5"
-    latestReleaseDate: 2025-10-08
+    latest: "6.15.5.8"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "6.14"
     releaseDate: 2023-11-08

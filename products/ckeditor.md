@@ -7,7 +7,7 @@ permalink: /ckeditor
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
 eolColumn: Support
 eoesColumn: true
-staleReleaseThresholdYears: 0.1 # so that maintainers are reminded to manually update the latest version frequently
+staleReleaseThresholdDays: 40 # so that maintainers are reminded to manually update the latest version frequently
 
 identifiers:
   - repology: ckeditor
@@ -18,8 +18,8 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2018-04-25 # https://github.com/ckeditor/ckeditor5/releases/tag/v10.0.0
     eol: false
-    latest: 47.1.0
-    latestReleaseDate: 2025-10-16
+    latest: 47.4.0
+    latestReleaseDate: 2026-01-14
     link: https://github.com/ckeditor/ckeditor5/releases/tag/v__LATEST__
 
   - releaseCycle: "4"

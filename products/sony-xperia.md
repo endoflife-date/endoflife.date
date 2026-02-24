@@ -16,6 +16,7 @@ customFields:
     description: Supported Android versions
 
 auto:
+  disabled: true # Don't work in headless mode, probably due to anti-bot measures ?
   methods:
     - release_table: https://www.sony.co.uk/electronics/support/articles/SX243901
       render_javascript: true
@@ -30,11 +31,17 @@ auto:
         eol: "Security Updates End Date"
 
 releases:
+  - releaseCycle: "10-vii"
+    releaseLabel: "Xperia 10 VII"
+    releaseDate: 2025-09-19 # https://www.gsmarena.com/sony_xperia_10_vii_5g-14137.php
+    eol: 2031-08-01
+    androidVersions: '15 > 16'
+
   - releaseCycle: "1-vii"
     releaseLabel: "Xperia 1 VII"
     releaseDate: 2025-06-04 # https://www.gsmarena.com/sony_xperia_1_vii_5g-13843.php
     eol: 2031-04-01
-    androidVersions: '15'
+    androidVersions: '15 > 16'
 
   - releaseCycle: "10-vi"
     releaseLabel: "Xperia 10 VI"
@@ -167,6 +174,7 @@ releases:
     releaseDate: 2019-02-01 # https://www.gsmarena.com/sony_xperia_l3-9592.php
     eol: 2020-12-01
     androidVersions: '8.1'
+
 
 ---
 

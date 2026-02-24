@@ -19,14 +19,14 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2024-11-04
     eol: false
-    latest: "2.11.0"
-    latestReleaseDate: 2025-10-02
+    latest: "2.15.1"
+    latestReleaseDate: 2026-02-08
 
   - releaseCycle: "1"
     releaseDate: 2017-12-06
     eol: 2025-12-31 # https://github.com/jaegertracing/jaeger/issues/6321
-    latest: "1.74.0"
-    latestReleaseDate: 2025-10-02
+    latest: "1.76.0"
+    latestReleaseDate: 2025-12-03
 
 ---
 

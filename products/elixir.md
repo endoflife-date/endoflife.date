@@ -8,7 +8,7 @@ versionCommand: elixir --version
 releasePolicyLink: https://hexdocs.pm/elixir/compatibility-and-deprecations.html
 changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__/CHANGELOG.md
 eoasColumn: true
-staleReleaseThresholdYears: 3
+staleReleaseThresholdDays: 1000 # expected given https://hexdocs.pm/elixir/compatibility-and-deprecations.html
 
 identifiers:
   - repology: elixir
@@ -24,8 +24,8 @@ releases:
     releaseDate: 2025-10-16
     eoas: false # release date of 1.20
     eol: false # release date of 1.24
-    latest: "1.19.1"
-    latestReleaseDate: 2025-10-20
+    latest: "1.19.5"
+    latestReleaseDate: 2026-01-09
 
   - releaseCycle: "1.18"
     releaseDate: 2024-12-19

@@ -46,21 +46,35 @@ auto:
 #
 # For Innovation Releases:
 # eoas(x) = releaseDate(x) + 6m
-# eol(x) = releaseDate(x) + 6m
+# eol(x) = eoas(x)
 releases:
+  - releaseCycle: "26.1"
+    releaseDate: 2026-02-02
+    eoas: 2026-08-02
+    eol: 2026-08-02
+    latest: "26.1.0"
+    latestReleaseDate: 2026-02-17
+
+  - releaseCycle: "25.4"
+    releaseDate: 2025-11-03
+    eoas: 2026-11-03
+    eol: 2027-05-03
+    latest: "25.4.5"
+    latestReleaseDate: 2026-02-17
+
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
     eoas: 2026-02-04
-    eol: false
-    latest: "25.3.3"
-    latestReleaseDate: 2025-10-15
+    eol: 2026-02-04 # innovation release
+    latest: "25.3.7"
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.7"
-    latestReleaseDate: 2025-10-15
+    latest: "25.2.13"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
@@ -73,8 +87,8 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.21"
-    latestReleaseDate: 2025-10-08
+    latest: "24.3.27"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12
@@ -88,16 +102,16 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.25"
-    latestReleaseDate: 2025-10-08
+    latest: "24.1.26"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05
     lts: 2026-07-08 # v23.2.7
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    latest: "23.2.28"
-    latestReleaseDate: 2025-09-03
+    latest: "23.2.29"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "23.1"
     releaseDate: 2023-05-15

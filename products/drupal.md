@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status
-releasePolicyLink: https://www.drupal.org/blog/drupal-10-will-be-supported-until-the-release-of-drupal-12-in-mid-late-2026
+releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 releaseImage: https://www.drupal.org/files/Drupal2024-2027.png
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
@@ -29,33 +29,47 @@ auto:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+  - releaseCycle: "11.3"
+    releaseDate: 2025-12-17
+    eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    latest: "11.3.3"
+    latestReleaseDate: 2026-02-05
+
+  - releaseCycle: "10.6"
+    releaseDate: 2025-12-17
+    eoas: 2026-06-16
+    eol: 2026-12-16
+    latest: "10.6.3"
+    latestReleaseDate: 2026-02-05
+
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "11.2.5"
-    latestReleaseDate: 2025-10-02
+    eol: 2026-06-17
+    latest: "11.2.10"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
-    eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "10.5.4"
-    latestReleaseDate: 2025-10-02
+    eoas: 2025-12-17
+    eol: 2026-06-17
+    latest: "10.5.8"
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "10.4"
     releaseDate: 2024-12-17
     eoas: 2025-06-18 # releaseDate(10.5)
     eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "10.4.8"
-    latestReleaseDate: 2025-06-05
+    latest: "10.4.9"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: 2025-06-18 # releaseDate(11.2)
     eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "11.1.8"
-    latestReleaseDate: 2025-06-05
+    latest: "11.1.9"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "11.0"
     releaseDate: 2024-08-02
@@ -179,6 +193,6 @@ API is released for the previous major version. This begins the Long-Term Suppor
 During this phase, a maintenance minor for the previous major is released every six months.
 Maintenance minors can include certain bug fixes, API additions for forward compatibility, security updates, and dependency updates.
 
-**Drupal 7** will receive security coverage
-[until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
-with commercial support available post end-of-life through Drupal's [Certified D7 End of Life Support Partners](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support).
+**Drupal 7** is now unsupported.
+Commercial support for Drupal 7 is available post end-of-life through Drupal's
+[Certified D7 End of Life Support Partners](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support).

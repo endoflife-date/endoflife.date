@@ -18,13 +18,21 @@ identifiers:
 
 # Latest releases can be found on https://docs.bmc.com/docs/controlm/.
 releases:
+  - releaseCycle: "9.0.22"
+    releaseDate: 2025-05-19
+    eoas: 2028-05-19
+    eol: 2030-05-19
+    latest: "9.0.22.050"
+    latestReleaseDate: 2025-10-15
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-9-0-22-050-Release-Notes/
+    
   - releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
     eoas: 2026-09-30
     eol: 2027-09-08
-    latest: "9.0.21.200"
-    latestReleaseDate: 2024-01-08
-    link: https://docs.bmc.com/docs/controlm/90201/control-m-9-0-21-200-release-notes-1238266316.html
+    latest: "9.0.21.300"
+    latestReleaseDate: 2024-08-19
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9021/Control-M-9-0-21-300-Release-Notes/
 
   - releaseCycle: "9.0.20"
     releaseDate: 2020-07-24
@@ -32,7 +40,7 @@ releases:
     eol: 2025-07-23
     latest: "9.0.20.200"
     latestReleaseDate: 2021-10-28
-    link: https://docs.bmc.com/docs/controlm/9020/control-m-version-9-0-20-200-release-notes-1007971086.html
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9020/Control-M-Version-9-0-20-200-Release-Notes/
 
   - releaseCycle: "9.0.19"
     releaseDate: 2019-03-04
@@ -40,7 +48,7 @@ releases:
     eol: 2024-03-04
     latest: "9.0.19.200"
     latestReleaseDate: 2020-01-16
-    link: https://docs.bmc.com/docs/controlm/9019/control-m-version-9-0-19-200-release-notes-862843904.html
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9019/Control-M-Version-9-0-19-200-Release-Notes/
 
   - releaseCycle: "9.0.18"
     releaseDate: 2018-01-03
@@ -48,7 +56,7 @@ releases:
     eol: 2023-03-31
     latest: "9.0.18.200"
     latestReleaseDate: 2018-10-04
-    link: https://docs.bmc.com/docs/controlm/9018/control-m-version-9-0-18-200-release-notes-830144784.html
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9018/Control-M-Version-9-0-18-200-Release-Notes/
 
   - releaseCycle: "9.0.0"
     releaseDate: 2015-07-15

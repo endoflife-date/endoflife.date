@@ -39,35 +39,35 @@ releases:
   - releaseCycle: "5.1"
     releaseDate: 2025-10-06
     eoas: 2026-10-05
-    eol: 2027-04-05
+    eol: 2027-04-19
     supportedPhpVersions: 8.2 - 8.4
-    latest: "5.1.0"
-    latestReleaseDate: 2025-10-04
+    latest: "5.1.3"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "5.0"
     releaseDate: 2025-04-14
     eoas: 2026-04-20
     eol: 2026-10-05
     supportedPhpVersions: 8.1 - 8.4
-    latest: "5.0.3"
-    latestReleaseDate: 2025-10-04
+    latest: "5.0.6"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "4.5"
     lts: true
     releaseDate: 2024-10-07
     eoas: 2025-10-06
-    eol: 2027-10-06
+    eol: 2027-10-04
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.5.7"
-    latestReleaseDate: 2025-10-04
+    latest: "4.5.10"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "4.4"
     releaseDate: 2024-04-22
     eoas: 2025-04-21
     eol: 2025-12-08
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.4.11"
-    latestReleaseDate: 2025-10-04
+    latest: "4.4.12"
+    latestReleaseDate: 2025-12-07
 
   - releaseCycle: "4.3"
     releaseDate: 2023-10-07
@@ -91,8 +91,8 @@ releases:
     eoas: 2023-12-11
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
-    latest: "4.1.21"
-    latestReleaseDate: 2025-10-04
+    latest: "4.1.22"
+    latestReleaseDate: 2025-12-07
 
   - releaseCycle: "4.0"
     releaseDate: 2022-04-17

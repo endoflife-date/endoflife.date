@@ -5,7 +5,6 @@ category: os
 tags: apple
 iconSlug: ios
 permalink: /ios
-releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
@@ -24,15 +23,15 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "26.0.1"
-    latestReleaseDate: 2025-09-29
+    latest: "26.3"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.7.1"
-    latestReleaseDate: 2025-09-29
+    latest: "18.7.5"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -45,16 +44,16 @@ releases:
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: 2025-03-31
-    latest: "16.7.12"
-    latestReleaseDate: 2025-09-15
+    latest: "16.7.14"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: 2025-03-31
-    latest: "15.8.5"
-    latestReleaseDate: 2025-09-15
+    latest: "15.8.6"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
@@ -75,8 +74,8 @@ releases:
     releaseDate: 2018-09-17
     eoas: 2019-09-19
     eol: 2023-01-23
-    latest: "12.5.7"
-    latestReleaseDate: 2023-01-23
+    latest: "12.5.8"
+    latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
   - releaseCycle: "11"
@@ -149,3 +148,5 @@ Apple has occasionally backported critical security fixes to [much older iOS ver
 As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices is available at [/iphone](/iphone).
+
+A detailed overview of iOS versions can be found on [Wikipedia](https://wikipedia.org/wiki/IOS_version_history#Overview).

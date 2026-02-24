@@ -19,21 +19,29 @@ auto:
     - typo3: https://get.typo3.org/api/v1/release/
 
 releases:
+  - releaseCycle: "14"
+    releaseDate: 2025-11-25
+    eoas: 2027-12-31
+    eol: 2029-06-30
+    eoes: 2032-06-30
+    latest: "14.1.1"
+    latestReleaseDate: 2026-02-20
+
   - releaseCycle: "13"
     releaseDate: 2024-01-30
-    eoas: 2026-04-30
-    eol: 2027-10-31
-    eoes: 2030-10-31
-    latest: "13.4.19"
-    latestReleaseDate: 2025-10-14
+    eoas: 2026-06-30
+    eol: 2027-12-31
+    eoes: 2030-12-31
+    latest: "13.4.26"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "12"
     releaseDate: 2022-10-04
     eoas: 2024-10-31
     eol: 2026-04-30
     eoes: 2029-04-30
-    latest: "12.4.38"
-    latestReleaseDate: 2025-10-14
+    latest: "12.4.43"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "11"
     releaseDate: 2020-12-22
@@ -41,8 +49,8 @@ releases:
     eoas: 2023-03-31
     eol: 2024-10-31
     eoes: 2027-10-31
-    latest: "11.5.48"
-    latestReleaseDate: 2025-09-09
+    latest: "11.5.50"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "10"
     releaseDate: 2019-07-23
@@ -50,8 +58,8 @@ releases:
     eoas: 2021-10-31
     eol: 2023-04-30
     eoes: 2026-04-30
-    latest: "10.4.54"
-    latestReleaseDate: 2025-09-09
+    latest: "10.4.56"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "9"
     releaseDate: 2017-12-12
@@ -85,9 +93,10 @@ releases:
 
 | Version | PHP                                                                 |
 | ------- | ------------------------------------------------------------------- |
-| 13      | [8.2 - 8.3](https://get.typo3.org/version/13#system-requirements)   |
-| 12      | [8.1 - 8.3](https://get.typo3.org/version/12#system-requirements)   |
-| 11      | [7.4.1 - 8.2](https://get.typo3.org/version/11#system-requirements) |
+| 14      | [8.2 - 8.5](https://get.typo3.org/version/14#system-requirements)   |
+| 13      | [8.2 - 8.5](https://get.typo3.org/version/13#system-requirements)   |
+| 12      | [8.1 - 8.4](https://get.typo3.org/version/12#system-requirements)   |
+| 11      | [7.4.1 - 8.3](https://get.typo3.org/version/11#system-requirements) |
 | 10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)   |
 | 9       | 7.2 - 8.1                                                           |
 | 8       | 7.0 - 7.4                                                           |

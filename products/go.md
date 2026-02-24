@@ -19,6 +19,8 @@ identifiers:
   - purl: pkg:docker/circleci/golang
   - purl: pkg:docker/cimg/go
   - purl: pkg:docker/bitnami/golang
+  - purl: pkg:brew/go
+  # - purl: pkg:snap/go
 
 auto:
   methods:
@@ -27,17 +29,24 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.26"
+    releaseDate: 2026-02-11
+    eol: false
+    latest: "1.26.0"
+    latestReleaseDate: 2026-02-10
+    link: https://go.dev/doc/go1.26
+
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
     eol: false
-    latest: "1.25.3"
-    latestReleaseDate: 2025-10-13
+    latest: "1.25.7"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "1.24"
     releaseDate: 2025-02-11
-    eol: false
-    latest: "1.24.9"
-    latestReleaseDate: 2025-10-13
+    eol: 2026-02-11
+    latest: "1.24.13"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "1.23"
     releaseDate: 2024-08-13

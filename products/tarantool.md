@@ -20,39 +20,45 @@ auto:
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-12-12
+    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    latest: "3.6.1"
+    latestReleaseDate: 2026-01-27
+
   - releaseCycle: "3.5"
     releaseDate: 2025-08-27
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
-    latest: "3.5.0"
-    latestReleaseDate: 2025-08-27
+    latest: "3.5.1"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.4"
     releaseDate: 2025-04-15
     eol: 2027-04-14
-    latest: "3.4.1"
-    latestReleaseDate: 2025-08-13
+    latest: "3.4.2"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.3"
     releaseDate: 2024-11-29
     eol: 2026-11-29
-    latest: "3.3.3"
-    latestReleaseDate: 2025-08-13
+    latest: "3.3.4"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.2"
     releaseDate: 2024-08-26
     eol: 2026-08-26
-    latest: "3.2.2"
-    latestReleaseDate: 2025-08-22
+    latest: "3.2.3"
+    latestReleaseDate: 2025-11-21
 
   - releaseCycle: "3.1"
     releaseDate: 2024-04-16
-    eol: 2026-04-16
+    eol: 2024-08-26
     latest: "3.1.2"
     latestReleaseDate: 2024-08-26
 
   - releaseCycle: "3.0"
     releaseDate: 2023-12-26
-    eol: 2025-12-26
+    eol: 2024-04-16
     latest: "3.0.2"
     latestReleaseDate: 2024-04-16
 
@@ -125,21 +131,7 @@ releases:
 > optimized Lua interpreter, cooperative multitasking and non-blocking IO, persistent queues,
 > sharding, and MySQL/PostgreSQL support.
 
-The Tarantool release policy is changing to become more clear and intuitive. The new policy uses a
-[SemVer-like](https://semver.org/) versioning format, and introduces a new version lifecycle with
-more long-time support series. This document explains the new release policy, versioning rules, and
-[release series](https://www.tarantool.io/en/doc/latest/release/policy/#term-Release-series)
-lifecycle.
+A release cycle reaches the end of life (EOL) when the last release in the series is published.
+Unsupported releases are documented as [Unsupported Versions](https://www.tarantool.io/en/doc/latest/release/eos_versions/).
 
-The new release policy replaces the [legacy policy](https://www.tarantool.io/en/doc/latest/release/legacy-policy/)
-for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
-
-Here are the most significant changes from the legacy release policy:
-
-- The third number in the version label doesn’t distinguish between pre-release (alpha and beta) and
-  release versions. Instead, it is used for patch (bugfix-only) releases. Pre-release versions have
-  suffixes, like `3.0.0-alpha1`.
-- In the legacy release policy, `1.10` was a long-term support (LTS) series, while `2.x.y` had
-  stable releases, but wasn’t an LTS series. Now both series are long-term supported.
-
-[2.11](https://www.tarantool.io/en/doc/latest/release/2.11.0/) is the long-term support (LTS) release with four years of maintenance.
+2.11 is the long-term support (LTS) release with four years of maintenance.

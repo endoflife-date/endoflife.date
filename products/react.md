@@ -8,7 +8,7 @@ permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 eoasColumn: true
-staleReleaseThresholdYears: 6
+staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#stable-releases
 
 identifiers:
   - purl: pkg:github/facebook/react
@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-12-05
     eoas: false
     eol: false
-    latest: "19.2.0"
-    latestReleaseDate: 2025-10-01
+    latest: "19.2.4"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "18"
     releaseDate: 2022-03-29

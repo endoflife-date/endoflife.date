@@ -11,7 +11,6 @@ changelogTemplate: https://www.ibm.com/docs/en/db2/__RELEASE_CYCLE__.0
 latestColumn: false
 eol: Base Support
 eoes: Extended Support
-staleReleaseThresholdYears: 7
 
 identifiers:
   - cpe: cpe:/a:ibm:db2
@@ -25,6 +24,7 @@ auto:
 
 releases:
   - releaseCycle: "12.1"
+    staleReleaseThresholdDays: 730 # EOL not declared on https://www.ibm.com/support/pages/space/product-lifecycle/ibm_product_lifecycle_list.csv
     releaseDate: 2024-11-14
     eol: false
     eoes: false

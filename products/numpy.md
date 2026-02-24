@@ -20,11 +20,17 @@ auto:
 # EOL(x) = releaseDate(x) + 2 year + 1 day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+  - releaseCycle: "2.4"
+    releaseDate: 2025-12-20
+    eol: 2027-12-21
+    latest: "2.4.2"
+    latestReleaseDate: 2026-01-31
+
   - releaseCycle: "2.3"
     releaseDate: 2025-06-07
     eol: 2027-06-08
-    latest: "2.3.4"
-    latestReleaseDate: 2025-10-15
+    latest: "2.3.5"
+    latestReleaseDate: 2025-11-16
 
   - releaseCycle: "2.2"
     releaseDate: 2024-12-08
@@ -140,11 +146,8 @@ are supported. Python support is only dropped in a major/minor version, and neve
 
 | NumPy | Python   |
 | ----- | -------- |
+| 2.4   | 3.11-3.14|
+| 2.3   | 3.11-3.14|
+| 2.2   | 3.10-3.13|
+| 2.1   | 3.10-3.13|
 | 2.0   | 3.9-3.12 |
-| 1.26  | 3.9-3.12 |
-| 1.25  | 3.9+     |
-| 1.24  | 3.8+     |
-| 1.23  | 3.8+     |
-| 1.22  | 3.8+     |
-| 1.21  | 3.7+     |
-| 1.20  | 3.7+     |

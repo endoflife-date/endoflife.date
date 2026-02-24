@@ -6,14 +6,14 @@ description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
 ---
 
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
-- [✏️ About the codebase](#pencil-about-the-codebase)
-- [➕ Adding a new product](#new-adding-a-new-product)
+- [✏️ About the codebase](#️-about-the-codebase)
+- [➕ Adding a new product](#-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
 - [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
-- [⚖️ Code of Conduct](#bookmark-code-of-conduct)
+- [⚖️ Code of Conduct](#️-code-of-conduct)
 
 ## 🎲 Hacktoberfest
 
@@ -481,7 +481,7 @@ bin/lint-product.sh products/<product>.md
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers.
-Please see [this page](/help/identifiers-needed/) for a list of pages missing identifiers.
+Please see [this page](/pages/help/identifiers-needed/) for a list of pages missing identifiers.
 
 ## 📑 Suggested Reading
 

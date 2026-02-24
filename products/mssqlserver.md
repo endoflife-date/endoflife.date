@@ -28,17 +28,29 @@ identifiers:
 # releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 # Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
 releases:
+  - releaseCycle: "17.0"
+    codename: SQL25
+    releaseLabel: "2025"
+    releaseDate: 2025-11-18
+    eoas: 2031-01-06
+    eol: 2036-01-06
+    latestGdr: "17.0.1050.2"
+    latestGdrLink: https://support.microsoft.com/help/5073177
+    latest: "17.0.4015.4 CU2"
+    latestReleaseDate: 2026-02-12
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate2
+
   - releaseCycle: "16.0"
     codename: Dallas
-    releaseLabel: "2022"
+    releaseLabel: "2022 '__CODENAME__'"
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latestGdr: "16.0.1150.1"
-    latestGdrLink: https://support.microsoft.com/help/5065221
-    latest: "16.0.4215.2 CU21"
-    latestReleaseDate: 2025-09-11
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate21
+    latestGdr: "16.0.1165.1"
+    latestGdrLink: https://support.microsoft.com/help/5073031
+    latest: "16.0.4236.2 CU23"
+    latestReleaseDate: 2026-01-29
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate23
 
   - releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -46,30 +58,30 @@ releases:
     releaseDate: 2021-09-15
     eoas: 2026-07-14
     eol: 2026-07-14
-    latestGdr: "13.0.6465.1"
-    latestGdrLink: https://support.microsoft.com/help/5063762 # GDR for SP3
-    latest: "13.0.7060.1 Azure Connect pack+GDR"
-    latestReleaseDate: 2025-08-12
+    latestGdr: "13.0.6475.1"
+    latestGdrLink: https://support.microsoft.com/help/5068401 # GDR for SP3
+    latest: "13.0.7070.1 Azure Connect pack+GDR"
+    latestReleaseDate: 2025-11-11
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
     # Azure Connect pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3-azureconnect
-    link: https://support.microsoft.com/help/5063761 # GDR for Azure Connect pack
+    link: https://support.microsoft.com/help/5068400 # GDR for Azure Connect pack
 
   - releaseCycle: "15.0"
-    codename: Seattle
-    releaseLabel: "2019"
+    codename: Aris/Seattle
+    releaseLabel: "2019 '__CODENAME__'"
     releaseDate: 2019-11-04
     eoas: 2025-02-28
     eol: 2030-01-08
-    latestGdr: "15.0.2145.1"
-    latestGdrLink: https://support.microsoft.com/help/5065223
-    latest: "15.0.4445.1 CU32+GDR"
-    latestReleaseDate: 2025-09-09
+    latestGdr: "15.0.2155.2"
+    latestGdrLink: https://support.microsoft.com/help/5068405
+    latest: "15.0.4455.2 CU32+GDR"
+    latestReleaseDate: 2025-11-11
     # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
-    link: https://support.microsoft.com/help/5065222 # GDR for CU32
+    link: https://support.microsoft.com/help/5068404 # GDR for CU32
 
   - releaseCycle: "12.0-sp3"
     codename: Hekaton
-    releaseLabel: "2014 SP3"
+    releaseLabel: "2014 '__CODENAME__' SP3"
     releaseDate: 2018-10-30
     eoas: 2019-07-09
     eol: 2024-07-09
@@ -96,7 +108,7 @@ releases:
 
   - releaseCycle: "11.0-sp4"
     codename: Denali
-    releaseLabel: "2012 SP4"
+    releaseLabel: "2012 '__CODENAME__' SP4"
     releaseDate: 2017-10-05
     eoas: 2022-07-12
     eol: 2022-07-12
@@ -109,17 +121,17 @@ releases:
 
   - releaseCycle: "14.0"
     codename: Helsinki
-    releaseLabel: "2017"
+    releaseLabel: "2017 '__CODENAME__'"
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latestGdr: "14.0.2085.1"
-    latestGdrLink: https://support.microsoft.com/help/5065224
-    latest: "14.0.3505.1 CU31+GDR"
-    latestReleaseDate: 2025-09-09
+    latestGdr: "14.0.2095.1"
+    latestGdrLink: https://support.microsoft.com/help/5068403
+    latest: "14.0.3515.1 CU31+GDR"
+    latestReleaseDate: 2025-11-11
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
     # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
-    link: https://support.microsoft.com/help/5065225 # GDR for CU31
+    link: https://support.microsoft.com/help/5068402 # GDR for CU31
 
   - releaseCycle: "13.0-sp1"
     codename: SQL16
@@ -135,7 +147,7 @@ releases:
 
   - releaseCycle: "12.0-sp2"
     codename: Hekaton
-    releaseLabel: "2014 SP2"
+    releaseLabel: "2014 '__CODENAME__' SP2"
     releaseDate: 2016-07-14
     eoas: 2020-01-14
     eol: 2020-01-14
@@ -159,7 +171,7 @@ releases:
 
   - releaseCycle: "11.0-sp3"
     codename: Denali
-    releaseLabel: "2012 SP3"
+    releaseLabel: "2012 '__CODENAME__' SP3"
     releaseDate: 2015-12-01
     eoas: 2018-10-09
     eol: 2018-10-09
@@ -171,7 +183,7 @@ releases:
 
   - releaseCycle: "12.0-sp1"
     codename: Hekaton
-    releaseLabel: "2014 SP1"
+    releaseLabel: "2014 '__CODENAME__' SP1"
     releaseDate: 2015-04-14
     eoas: 2017-10-10
     eol: 2017-10-10
@@ -183,7 +195,7 @@ releases:
 
   - releaseCycle: "10.50-sp3"
     codename: Kilimanjaro
-    releaseLabel: "2008 R2 SP3"
+    releaseLabel: "2008 R2 '__CODENAME__' SP3"
     releaseDate: 2014-07-07
     eoas: 2014-07-08
     eol: 2019-07-09
@@ -196,7 +208,7 @@ releases:
 
   - releaseCycle: "10.0-sp4"
     codename: Katmai
-    releaseLabel: "2008 SP4"
+    releaseLabel: "2008 '__CODENAME__' SP4"
     releaseDate: 2014-07-07
     eoas: 2014-07-08
     eol: 2019-07-09
@@ -209,7 +221,7 @@ releases:
 
   - releaseCycle: "11.0-sp2"
     codename: Denali
-    releaseLabel: "2012 SP2"
+    releaseLabel: "2012 '__CODENAME__' SP2"
     releaseDate: 2014-06-10
     eoas: 2017-01-10
     eol: 2017-01-10
@@ -221,7 +233,7 @@ releases:
 
   - releaseCycle: "12.0"
     codename: Hekaton
-    releaseLabel: "2014"
+    releaseLabel: "2014 '__CODENAME__'"
     releaseDate: 2014-06-05
     eoas: 2016-07-12
     eol: 2016-07-12
@@ -233,7 +245,7 @@ releases:
 
   - releaseCycle: "11.0-sp1"
     codename: Denali
-    releaseLabel: "2012 SP1"
+    releaseLabel: "2012 '__CODENAME__' SP1"
     releaseDate: 2012-11-07
     eoas: 2015-07-14
     eol: 2015-07-14
@@ -245,7 +257,7 @@ releases:
 
   - releaseCycle: "10.50-sp2"
     codename: Kilimanjaro
-    releaseLabel: "2008 R2 SP2"
+    releaseLabel: "2008 R2 '__CODENAME__' SP2"
     releaseDate: 2012-07-26
     eoas: 2015-10-13
     eol: 2015-10-13
@@ -257,7 +269,7 @@ releases:
 
   - releaseCycle: "11.0"
     codename: Denali
-    releaseLabel: "2012"
+    releaseLabel: "2012 '__CODENAME__'"
     releaseDate: 2012-05-20
     eoas: 2014-01-14
     eol: 2014-01-14
@@ -267,7 +279,7 @@ releases:
 
   - releaseCycle: "10.00-sp3"
     codename: Katmai
-    releaseLabel: "2008 SP3"
+    releaseLabel: "2008 '__CODENAME__' SP3"
     releaseDate: 2011-10-06
     eoas: 2015-10-13
     eol: 2015-10-13
@@ -279,7 +291,7 @@ releases:
 
   - releaseCycle: "10.50-sp1"
     codename: Kilimanjaro
-    releaseLabel: "2008 R2 SP1"
+    releaseLabel: "2008 R2 '__CODENAME__' SP1"
     releaseDate: 2011-07-12
     eoas: 2013-10-08
     eol: 2013-10-08
@@ -289,7 +301,7 @@ releases:
 
   - releaseCycle: "9.0-sp4"
     codename: Yukon
-    releaseLabel: "2005 SP4"
+    releaseLabel: "2005 '__CODENAME__' SP4"
     releaseDate: 2010-12-13
     eoas: 2011-04-12
     eol: 2016-04-12
@@ -299,7 +311,7 @@ releases:
 
   - releaseCycle: "10.00-sp2"
     codename: Katmai
-    releaseLabel: "2008 SP2"
+    releaseLabel: "2008 '__CODENAME__' SP2"
     releaseDate: 2010-09-24
     eoas: 2012-10-09
     eol: 2012-10-09
@@ -309,7 +321,7 @@ releases:
 
   - releaseCycle: "10.50-r2"
     codename: Kilimanjaro
-    releaseLabel: "2008 R2"
+    releaseLabel: "2008 '__CODENAME__' R2"
     releaseDate: 2010-07-20
     eoas: 2012-07-10
     eol: 2012-07-10
@@ -319,7 +331,7 @@ releases:
 
   - releaseCycle: "10.00-sp1"
     codename: Katmai
-    releaseLabel: "2008 SP1"
+    releaseLabel: "2008 '__CODENAME__' SP1"
     releaseDate: 2009-03-31
     eoas: 2011-10-11
     eol: 2011-10-11
@@ -329,7 +341,7 @@ releases:
 
   - releaseCycle: "9.00-sp3"
     codename: Yukon
-    releaseLabel: "2005 SP3"
+    releaseLabel: "2005 '__CODENAME__' SP3"
     releaseDate: 2008-12-15
     eoas: 2012-01-10
     eol: 2012-01-10
@@ -339,7 +351,7 @@ releases:
 
   - releaseCycle: "10.00"
     codename: Katmai
-    releaseLabel: "2008"
+    releaseLabel: "2008 '__CODENAME__'"
     releaseDate: 2008-11-06
     eoas: 2010-04-13
     eol: 2010-04-13
@@ -349,7 +361,7 @@ releases:
 
   - releaseCycle: "9.00-sp2"
     codename: Yukon
-    releaseLabel: "2005 SP2"
+    releaseLabel: "2005 '__CODENAME__' SP2"
     releaseDate: 2007-02-19
     eoas: 2010-01-12
     eol: 2010-01-12
@@ -359,7 +371,7 @@ releases:
 
   - releaseCycle: "9.0-sp1"
     codename: Yukon
-    releaseLabel: "2005 SP1"
+    releaseLabel: "2005 '__CODENAME__' SP1"
     releaseDate: 2006-04-18
     eoas: 2008-04-08
     eol: 2008-04-08
@@ -370,7 +382,7 @@ releases:
 
   - releaseCycle: "9.0"
     codename: Yukon
-    releaseLabel: "2005"
+    releaseLabel: "2005 '__CODENAME__'"
     releaseDate: 2006-01-14
     eoas: 2007-07-10
     eol: 2007-07-10
@@ -380,7 +392,7 @@ releases:
 
   - releaseCycle: "8.0-sp4"
     codename: Shiloh
-    releaseLabel: "2000 SP4"
+    releaseLabel: "2000 '__CODENAME__' SP4"
     releaseDate: 2005-05-06
     eoas: 2008-04-08
     eol: 2013-04-09
@@ -390,7 +402,7 @@ releases:
 
   - releaseCycle: "7.0-sp4"
     codename: Sphinx
-    releaseLabel: "7.0 SP4"
+    releaseLabel: "7.0 '__CODENAME__' SP4"
     releaseDate: 2002-04-26
     eoas: 2005-12-31
     eol: 2011-01-11
@@ -400,7 +412,7 @@ releases:
 
   - releaseCycle: "6.50-sp5a"
     codename: Hydra
-    releaseLabel: "6.5 SP5a"
+    releaseLabel: "6.5 '__CODENAME__' SP5a"
     releaseDate: 1998-12-24
     eoas: 2002-01-01
     eol: 2002-01-01
@@ -411,7 +423,7 @@ releases:
 
   - releaseCycle: "6.0-sp3"
     codename: SQL95
-    releaseLabel: "6.0 SP3"
+    releaseLabel: "6.0 '__CODENAME__' SP3"
     releaseDate: 1995-06-13 # release date of SP3 unknown, using initial release date
     eoas: 1999-03-31
     eol: 1999-03-31

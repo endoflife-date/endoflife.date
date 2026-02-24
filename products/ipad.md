@@ -5,11 +5,10 @@ category: device
 tags: apple tablet
 iconSlug: apple
 permalink: /ipad
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 2920 # 8 years, ipad 6 is still supported with ipados 17, see https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 
 customFields:
   - name: supportedIpadOsVersions
@@ -22,6 +21,22 @@ customFields:
 # All links can be found on https://support.apple.com/HT201471.
 # All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
 releases:
+  - releaseCycle: "pro-8-11"
+    releaseLabel: "iPad Pro 11-inch (M5)"
+    releaseDate: 2025-10-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/125406
+    supportedIpadOsVersions: "26"
+
+  - releaseCycle: "pro-8-13"
+    releaseLabel: "iPad Pro 13-inch (M5)"
+    releaseDate: 2025-10-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/125407
+    supportedIpadOsVersions: "26"
+
   - releaseCycle: "11"
     releaseLabel: "iPad (A16)"
     releaseDate: 2025-03-12
@@ -37,6 +52,15 @@ releases:
     eol: false
     link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
+
+  - releaseCycle: "air-7-13"
+    releaseLabel: "iPad Air 13-inch (M3)"
+    releaseDate: 2025-03-12
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/122242
+    supportedIpadOsVersions: "18 - 26"
+
 
   - releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (A17 Pro)"
@@ -64,6 +88,14 @@ releases:
 
   - releaseCycle: "air-6-11"
     releaseLabel: "iPad Air 11-inch (M2)"
+    releaseDate: 2024-05-15
+    discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
+    eol: false
+    link: https://support.apple.com/119894
+    supportedIpadOsVersions: "17 - 26"
+
+  - releaseCycle: "air-6-13"
+    releaseLabel: "iPad Air 13-inch (M2)"
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
@@ -335,10 +367,11 @@ releases:
     supportedIpadOsVersions: "3 - 5"
 ---
 
-> The iPad is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
+> The [iPad](https://www.apple.com/ipad/)is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
 
-Apple maintains a list of Supported iPad models
-[on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
+Apple maintains a list of supported iPad models [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
-Support information for iPadOS versions is also available [on endoflife.date](/ipados).
+Support information for iPadOS versions is also available at [/ipados](/ipados).
+
+A detailed list of all iPad models can also be found on [Wikipedia](https://wikipedia.org/wiki/List_of_iPad_models#iPad).

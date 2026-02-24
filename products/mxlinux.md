@@ -22,6 +22,15 @@ auto:
 # EOL dates documented on https://mxlinux.org/previous-releases/.
 # If not documented yet, use Debian eol for support, and eoes for eol.
 releases:
+  - releaseCycle: "25"
+    codename: "Infinity"
+    releaseDate: 2025-11-09
+    eoas: 2028-08-31
+    eol: 2030-06-30
+    latest: "25.1"
+    latestReleaseDate: 2026-01-19
+    link: https://mxlinux.org/blog/mx-25-infinity-isos-now-available/
+
   - releaseCycle: "23"
     codename: "Libretto"
     releaseDate: 2023-07-31
@@ -93,6 +102,7 @@ releases:
     latest: "14.4"
     latestReleaseDate: 2015-03-24
     link: https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
+
 ---
 
 > [MX Linux](https://mxlinux.org/) is a desktop-oriented GNU/Linux distribution based on Debian's

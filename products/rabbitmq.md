@@ -30,15 +30,15 @@ releases:
     releaseDate: 2025-10-27
     eol: false
     eoes: false
-    latest: "4.2.0"
-    latestReleaseDate: 2025-10-27
+    latest: "4.2.4"
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "4.1"
     releaseDate: 2025-04-15
     eol: 2026-01-30
     eoes: 2028-04-29
-    latest: "4.1.5"
-    latestReleaseDate: 2025-10-25
+    latest: "4.1.8"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18

@@ -7,7 +7,6 @@ iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
-staleReleaseThresholdYears: 4
 
 identifiers:
   - purl: pkg:github/jquery/jquery
@@ -24,7 +23,14 @@ auto:
     - git: https://github.com/jquery/jquery.git
 
 releases:
+  - releaseCycle: "4"
+    releaseDate: 2026-01-17
+    eol: false
+    latest: "4.0.0"
+    latestReleaseDate: 2026-01-17
+
   - releaseCycle: "3"
+    staleReleaseThresholdDays: 1095 # see https://github.com/jquery/jquery?tab=security-ov-file#supported-versions
     releaseDate: 2016-06-09
     eol: false
     latest: "3.7.1"
@@ -67,13 +73,13 @@ through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/jqu
 | Chrome            | Latest 2 major stable releases                                                                  |
 | Edge              | Latest 2 major stable releases                                                                  |
 | Firefox           | Latest 2 major stable releases, [ESR](https://support.mozilla.org/kb/firefox-esr-release-cycle) |
-| Internet Explorer | 9+                                                                                              |
+| Internet Explorer | 11                                                                                              |
 | Safari            | Latest 2 major stable releases                                                                  |
 | Opera             | Latest stable version                                                                           |
 
 ### Mobile
 
-| Browser               | Support Versions |
-| --------------------- | ---------------- |
-| Android stock browser | Android 4.0+     |
-| Safari                | iOS 7+           |
+| Browser           | Support Versions               |
+| ------------------| ------------------------------ |
+| Chrome on Android | Latest 2 major stable releases |
+| Safari            | Latest 3 major stable releases |

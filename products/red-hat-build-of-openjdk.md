@@ -51,6 +51,13 @@ auto:
 
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-11-13
+    eol: 2030-12-31
+    # https://access.redhat.com/downloads/content/java-25-openjdk/x86_64/package-latest
+    latest: "25"
+    latestReleaseDate: 2025-11-13
+
   - releaseCycle: "21"
     releaseDate: 2023-11-14
     eol: 2029-12-31

@@ -14,19 +14,26 @@ auto:
   methods:
     - git: https://github.com/expressjs/express.git
 
+identifiers:
+  - repology: js:express
+  - purl: pkg:github/expressjs/express
+  - purl: pkg:npm/express
+  - cpe: cpe:/a:openjsf:express
+  - cpe: cpe:2.3:a:openjsf:express
+
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-09-09
     eol: false
-    latest: "5.1.0"
-    latestReleaseDate: 2025-03-28
+    latest: "5.2.1"
+    latestReleaseDate: 2025-12-01
     link: https://github.com/expressjs/express/releases/tag/v__LATEST__
 
   - releaseCycle: "4"
     releaseDate: 2014-04-09
     eol: false
-    latest: "4.21.2"
-    latestReleaseDate: 2024-12-05
+    latest: "4.22.1"
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "3"
     releaseDate: 2012-10-23
@@ -46,6 +53,7 @@ releases:
     eol: 2011-03-01
     latest: "1.0.9"
     latestReleaseDate: 2011-03-23
+
 ---
 
 > [Express.js](https://expressjs.com) is a minimal and flexible Node.js

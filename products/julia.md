@@ -20,14 +20,14 @@ releases:
   - releaseCycle: "1.12"
     releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
     eol: false
-    latest: "1.12.1"
-    latestReleaseDate: 2025-10-17
+    latest: "1.12.5"
+    latestReleaseDate: 2026-02-09
 
   - releaseCycle: "1.11"
     releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
     eol: 2025-10-08 # https://discourse.julialang.org/t/julia-v1-12-0-has-been-released/132990
-    latest: "1.11.7"
-    latestReleaseDate: 2025-09-08
+    latest: "1.11.9"
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "1.10"
     releaseDate: 2023-12-25
@@ -50,6 +50,14 @@ releases:
     latest: "1.0.5"
     latestReleaseDate: 2019-09-09
 # Please leave a new line both above and below the triple-dashes.
+
+
+
+
+
+
+
+
 
 
 

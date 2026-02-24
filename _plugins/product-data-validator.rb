@@ -403,7 +403,7 @@ module EndOfLifeHooks
     def undeclared_custom_field(property)
       releases = @data[property]
 
-      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestReleaseDate link lts outOfOrder]
+      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestReleaseDate link lts outOfOrder staleReleaseThresholdDays]
       custom_fields = @product["customFields"].map { |column| column["name"] }
 
       releases.each do |release|

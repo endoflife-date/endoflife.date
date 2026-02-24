@@ -9,7 +9,6 @@ versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 eolColumn: Support
-staleReleaseThresholdYears: 2
 
 customFields:
   - name: supportedPhpVersions
@@ -49,10 +48,11 @@ releases:
     eol: false
     supportedPhpVersions: "8.3+"
     supportedDrupalVersions: "10.2 - 11"
-    latest: "13.6.2"
-    latestReleaseDate: 2025-08-04
+    latest: "13.7.1"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "12"
+    staleReleaseThresholdDays: 730 # EOL is TBD on https://www.drush.org/13.x/install/#drupal-compatibility
     releaseDate: 2023-06-03
     eol: false
     supportedPhpVersions: "8.1+"
@@ -115,6 +115,7 @@ releases:
     supportedDrupalVersions: "6 - 7"
     latest: "5.11.0"
     latestReleaseDate: 2014-05-22
+
 ---
 
 > [Drush](https://www.drush.org/) is a command line shell and Unix scripting interface for Drupal.

@@ -6,9 +6,9 @@ tags: stormshield
 permalink: /sns-firmware
 versionCommand: getversion
 latestColumn: false
-eoasColumn: End of Maintenance
-eolColumn: End of Life
-staleReleaseThresholdYears: 5
+eoasColumn: Maintenance Support
+eolColumn: Lifecycle Support
+staleReleaseThresholdDays: 1825 # devices have longer support periods
 
 auto:
   methods:

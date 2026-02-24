@@ -18,9 +18,75 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.35"
+    releaseDate: 2026-02-02
+    eol: false
+    latest: "1.35.1"
+    latestReleaseDate: 2026-02-16
+
+  - releaseCycle: "1.34"
+    releaseDate: 2026-01-26
+    eol: 2026-02-02
+    latest: "1.34.3"
+    latestReleaseDate: 2026-01-28
+
+  - releaseCycle: "1.33"
+    releaseDate: 2026-01-19
+    eol: 2026-01-26
+    latest: "1.33.1"
+    latestReleaseDate: 2026-01-20
+
+  - releaseCycle: "1.32"
+    releaseDate: 2026-01-12
+    eol: 2026-01-19
+    latest: "1.32.2"
+    latestReleaseDate: 2026-01-15
+
+  - releaseCycle: "1.31"
+    releaseDate: 2025-12-22
+    eol: 2026-01-12
+    latest: "1.31.0"
+    latestReleaseDate: 2025-12-22
+
+  - releaseCycle: "1.30"
+    releaseDate: 2025-12-15
+    eol: 2025-12-22
+    latest: "1.30.1"
+    latestReleaseDate: 2025-12-18
+
+  - releaseCycle: "1.29"
+    releaseDate: 2025-12-08
+    eol: 2025-12-15
+    latest: "1.29.0"
+    latestReleaseDate: 2025-12-08
+
+  - releaseCycle: "1.28"
+    releaseDate: 2025-12-01
+    eol: 2025-12-08
+    latest: "1.28.2"
+    latestReleaseDate: 2025-12-03
+
+  - releaseCycle: "1.27"
+    releaseDate: 2025-11-24
+    eol: 2025-12-01
+    latest: "1.27.0"
+    latestReleaseDate: 2025-11-24
+
+  - releaseCycle: "1.26"
+    releaseDate: 2025-11-17
+    eol: 2025-11-24
+    latest: "1.26.0"
+    latestReleaseDate: 2025-11-17
+
+  - releaseCycle: "1.25"
+    releaseDate: 2025-11-10
+    eol: 2025-11-17
+    latest: "1.25.0"
+    latestReleaseDate: 2025-11-10
+
   - releaseCycle: "1.24"
     releaseDate: 2025-10-20
-    eol: false
+    eol: 2025-11-10
     latest: "1.24.0"
     latestReleaseDate: 2025-10-20
 

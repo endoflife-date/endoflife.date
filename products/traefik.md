@@ -43,12 +43,19 @@ auto:
           regex: "^End(ed|s) (?P<value>.+)$"
 
 releases:
-  - releaseCycle: "3.5"
-    releaseDate: 2025-07-23
+  - releaseCycle: "3.6"
+    releaseDate: 2025-11-07
     eoas: false
     eol: false
-    latest: "3.5.4"
-    latestReleaseDate: 2025-10-28
+    latest: "3.6.9"
+    latestReleaseDate: 2026-02-23
+
+  - releaseCycle: "3.5"
+    releaseDate: 2025-07-23
+    eoas: 2025-11-07
+    eol: 2025-11-07
+    latest: "3.5.6"
+    latestReleaseDate: 2025-11-07
 
   - releaseCycle: "3.4"
     releaseDate: 2025-05-05
@@ -89,8 +96,8 @@ releases:
     releaseDate: 2024-02-12
     eoas: 2025-04-29
     eol: 2026-02-01
-    latest: "2.11.30"
-    latestReleaseDate: 2025-10-28
+    latest: "2.11.38"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.10"
     releaseDate: 2023-04-24

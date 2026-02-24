@@ -11,7 +11,6 @@ versionCommand: cat /etc/linuxmint/info
 latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -23,6 +22,13 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "22.3"
+    codename: Zena
+    lts: true
+    releaseDate: 2026-01-11
+    eol: 2029-04-30
+    link: https://www.linuxmint.com/rel_zena.php
+
   - releaseCycle: "lmde7"
     releaseLabel: "LMDE 7 '__CODENAME__'"
     codename: Gigi
@@ -62,7 +68,7 @@ releases:
     releaseLabel: "LMDE 6 '__CODENAME__'"
     codename: Faye
     releaseDate: 2023-09-27
-    eol: false
+    eol: 2026-01-01
     link: https://blog.linuxmint.com/?p=4570
 
   - releaseCycle: "21.2"

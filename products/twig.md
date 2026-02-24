@@ -17,8 +17,8 @@ releases:
   - releaseCycle: "3"
     releaseDate: 2019-11-15
     eol: false
-    latest: "3.21.1"
-    latestReleaseDate: 2025-05-03
+    latest: "3.23.0"
+    latestReleaseDate: 2026-01-23
 
   - releaseCycle: "2"
     releaseDate: 2017-01-05
@@ -31,6 +31,7 @@ releases:
     eol: 2022-09-28
     latest: "1.44.8"
     latestReleaseDate: 2024-09-09
+
 ---
 
 > [Twig](https://twig.symfony.com/) is an open-source template language for PHP.

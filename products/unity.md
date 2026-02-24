@@ -11,32 +11,43 @@ changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|s
 eoesColumn: Extended Long Term Support
 
 auto:
-  disabled: true # there are anti-bot protection measures on https://unity.com/
   methods:
-    - unity: https://unity.com/releases/editor/qa/lts-releases
+    - unity: https://services.api.unity.com/unity/editor/release/v1/releases
 
 # For update release : eol(x) = releaseDate(x+1)
 # For LTS : eol(x) = releaseDate + 2 years
 releases:
-  - releaseCycle: "6.2"
-    releaseDate: 2025-08-12
-    eol: false
-    latest: "6000.2.9f1"
-    latestReleaseDate: 2025-10-22
+  - releaseCycle: "6000.3"
+    releaseLabel: "6.3"
+    lts: true
+    releaseDate: 2025-12-04
+    eol: 2027-12-04
+    eoes: 2028-12-04
+    latest: "6000.3.9f1"
+    latestReleaseDate: 2026-02-18
 
-  - releaseCycle: "6.1"
+  - releaseCycle: "6000.2"
+    releaseLabel: "6.2"
+    releaseDate: 2025-08-12
+    eol: 2025-12-04
+    latest: "6000.2.15f1"
+    latestReleaseDate: 2025-12-03
+
+  - releaseCycle: "6000.1"
+    releaseLabel: "6.1"
     releaseDate: 2025-04-23
     eol: 2025-08-12
-    latest: "6000.1.16f1"
-    latestReleaseDate: 2025-08-13
+    latest: "6000.1.17f1"
+    latestReleaseDate: 2025-10-03
 
-  - releaseCycle: "6.0"
-    lts: 2024-10-16
+  - releaseCycle: "6000.0"
+    releaseLabel: "6.0"
     releaseDate: 2024-04-29
-    eol: 2026-04-29
-    eoes: 2027-04-29
-    latest: "6000.0.60f1"
-    latestReleaseDate: 2025-10-16
+    lts: 2024-10-16
+    eol: 2026-10-16
+    eoes: 2027-10-16
+    latest: "6000.0.68f1"
+    latestReleaseDate: 2026-02-18
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
@@ -54,59 +65,59 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: 2025-05-07
-    latest: "2022.3.62f1"
-    latestReleaseDate: 2025-05-07
+    latest: "2022.3.62f3"
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
     eol: 2023-06-12
-    latest: "2022.2.21f1"
-    latestReleaseDate: 2023-05-24
+    latest: "2022.2.23f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.1"
     releaseDate: 2022-05-09
     eol: 2022-12-06
-    latest: "2022.1.24f1"
-    latestReleaseDate: 2022-12-06
+    latest: "2022.1.25f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021"
     lts: true
     releaseDate: 2022-04-11
     eol: 2025-02-18
-    latest: "2021.3.45f1"
-    latestReleaseDate: 2024-10-16
+    latest: "2021.3.45f2"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2025-02-18
-    latest: "2021.3.45f1"
-    latestReleaseDate: 2024-10-16
+    latest: "2021.3.45f2"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.2"
     releaseDate: 2021-10-25
     eol: 2022-04-05
-    latest: "2021.2.19f1"
-    latestReleaseDate: 2022-04-05
+    latest: "2021.2.20f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.1"
     releaseDate: 2021-03-22
     eol: 2022-11-04
-    latest: "2021.1.28f1"
-    latestReleaseDate: 2022-11-04
+    latest: "2021.1.29f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2020"
     lts: true
     releaseDate: 2020-07-20
     eol: 2023-05-05
-    latest: "2020.3.48f1"
-    latestReleaseDate: 2023-05-17
+    latest: "2020.3.49f1"
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2019"
     lts: true
     releaseDate: 2019-04-08
     eol: 2022-06-16
-    latest: "2019.4.40f1"
-    latestReleaseDate: 2022-06-16
+    latest: "2019.4.41f2"
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2018"
     lts: true
@@ -121,6 +132,7 @@ releases:
     eol: 2020-05-18
     latest: "2017.4.40f1"
     latestReleaseDate: 2020-05-18
+
 ---
 
 > [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies,

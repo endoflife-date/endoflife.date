@@ -17,6 +17,7 @@ identifiers:
   - repology: quarkus
   - cpe: cpe:/a:quarkus:quarkus
   - cpe: cpe:2.3:a:quarkus:quarkus
+  - purl: pkg:maven/io.quarkus.platform/quarkus-bom
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 # Tag and Maven release of new minor versions are usually created
@@ -33,9 +34,28 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "3.31"
+    releaseDate: 2026-01-28
+    eol: false
+    latest: "3.31.4"
+    latestReleaseDate: 2026-02-18
+    link: https://quarkus.io/blog/quarkus-3-31-released/
+
+  - releaseCycle: "3.30"
+    releaseDate: 2025-11-26
+    eol: 2026-01-28
+    latest: "3.30.8"
+    latestReleaseDate: 2026-01-23
+
+  - releaseCycle: "3.29"
+    releaseDate: 2025-10-29
+    eol: 2025-11-26
+    latest: "3.29.4"
+    latestReleaseDate: 2025-11-19
+
   - releaseCycle: "3.28"
     releaseDate: 2025-09-24
-    eol: false
+    eol: 2025-10-29
     latest: "3.28.5"
     latestReleaseDate: 2025-10-22
 
@@ -43,8 +63,9 @@ releases:
     lts: true
     releaseDate: 2025-09-24
     eol: 2026-09-24
-    latest: "3.27.0"
-    latestReleaseDate: 2025-09-24
+    eoes: false
+    latest: "3.27.2"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "3.26"
     releaseDate: 2025-08-28
@@ -86,9 +107,9 @@ releases:
     lts: true
     releaseDate: 2025-03-26
     eol: 2026-03-28
-    eoes: false
-    latest: "3.20.3"
-    latestReleaseDate: 2025-09-24
+    eoes: 2026-03-29
+    latest: "3.20.5"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "3.19"
     releaseDate: 2025-02-26
@@ -118,7 +139,7 @@ releases:
     lts: true
     releaseDate: 2024-09-25
     eol: 2025-09-25
-    eoes: false
+    eoes: 2025-09-26
     latest: "3.15.7"
     latestReleaseDate: 2025-09-24
 
@@ -162,7 +183,7 @@ releases:
     lts: true
     releaseDate: 2024-02-28
     eol: 2025-02-28
-    eoes: false
+    eoes: 2025-03-25
     latest: "3.8.6.1"
     latestReleaseDate: 2025-02-27
 
@@ -200,7 +221,7 @@ releases:
     lts: true
     releaseDate: 2023-07-05
     eol: 2024-07-05
-    eoes: false
+    eoes: 2024-08-28
     latest: "3.2.12"
     latestReleaseDate: 2024-04-16
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final

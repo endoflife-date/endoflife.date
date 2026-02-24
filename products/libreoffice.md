@@ -22,17 +22,23 @@ auto:
       template: "{{version}}"
 
 releases:
+  - releaseCycle: "26.2"
+    releaseDate: 2026-02-04 # https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/
+    eol: 2026-11-30
+    latest: "26.2.1.1"
+    latestReleaseDate: 2026-02-10
+
   - releaseCycle: "25.8"
     releaseDate: 2025-07-09 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2026-06-12
-    latest: "25.8.3.1"
-    latestReleaseDate: 2025-10-23
+    latest: "25.8.5.2"
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "25.2"
     releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2025-11-30
-    latest: "25.2.6.2"
-    latestReleaseDate: 2025-09-01
+    latest: "25.2.7.2"
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "24.8"
     releaseDate: 2024-07-09 # https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/

@@ -8,7 +8,6 @@ permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 eoasColumn: true
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -49,6 +48,7 @@ releases:
     latestReleaseDate: 2020-10-15
 
   - releaseCycle: "4.9"
+    staleReleaseThresholdDays: 1200 # https://www.phpmyadmin.net/downloads/#support
     lts: true
     releaseDate: 2019-06-04
     eoas: 2019-12-31

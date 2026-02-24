@@ -26,23 +26,35 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "3.3"
+    releaseDate: 2026-02-02
+    eol: false
+    latest: "3.3.2"
+    latestReleaseDate: 2026-02-22
+
+  - releaseCycle: "3.2"
+    releaseDate: 2025-11-04
+    eol: false
+    latest: "3.2.7"
+    latestReleaseDate: 2026-02-18
+
   - releaseCycle: "3.1"
     releaseDate: 2025-08-13
     eol: false
-    latest: "3.1.9"
-    latestReleaseDate: 2025-10-17
+    latest: "3.1.12"
+    latestReleaseDate: 2026-01-22
 
   - releaseCycle: "3.0"
     releaseDate: 2025-05-06
-    eol: false
-    latest: "3.0.20"
-    latestReleaseDate: 2025-10-17
+    eol: 2026-02-02
+    latest: "3.0.23"
+    latestReleaseDate: 2026-01-22
 
   - releaseCycle: "2.14"
     releaseDate: 2025-02-03
-    eol: false
-    latest: "2.14.20"
-    latestReleaseDate: 2025-09-30
+    eol: 2025-11-04
+    latest: "2.14.21"
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "2.13"
     releaseDate: 2024-11-04

@@ -10,7 +10,7 @@ releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 
 identifiers:
-  - cpe: cpe:/:a:akeneo:product_information_management
+  - cpe: cpe:/a:akeneo:product_information_management
   - cpe: cpe:2.3:a:akeneo:product_information_management
 
 auto:
@@ -29,8 +29,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2026-09-30
-    latest: "7.0.83"
-    latestReleaseDate: 2025-09-12
+    latest: "7.0.84"
+    latestReleaseDate: 2025-12-31
 
   - releaseCycle: "6.0"
     codename: "Buccaneer Bunny"

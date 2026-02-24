@@ -7,7 +7,7 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
-changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/mariadb-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-series/mariadb-__LATEST__-release-notes"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
@@ -51,7 +51,7 @@ auto:
         - ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
         - ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
         - ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>12)\.(?P<minor>[0])\.(?P<patch>([1-9]|\d{2}))$
+        - ^mariadb-(?P<major>12)\.(?P<minor>[0-1])\.(?P<patch>([2-9]|\d{2}))$
     - release_table: https://mariadb.org/about/#maintenance-policy
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -63,20 +63,31 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+  - releaseCycle: "12.2"
+    releaseDate: 2026-02-13
+    eol: 2026-05-13 #estimated 
+    latest: "12.2.2"
+    latestReleaseDate: 2026-02-13
+
+  - releaseCycle: "12.1"
+    releaseDate: 2025-11-18
+    eol: 2026-02-13
+    latest: "12.1.2"
+    latestReleaseDate: 2025-11-18
+
   - releaseCycle: "12.0"
-    releaseDate: 2025-06-05
-    eol: 2025-11-07
+    releaseDate: 2025-08-07
+    eol: 2025-11-18
     latest: "12.0.2"
     latestReleaseDate: 2025-08-07
-    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "11.8"
     lts: true
     releaseDate: 2025-06-04
     eol: 2028-06-04
     eoes: 2033-10-15
-    latest: "11.8.3"
-    latestReleaseDate: 2025-08-06
+    latest: "11.8.6"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -104,8 +115,8 @@ releases:
     releaseDate: 2024-05-29
     eol: 2029-05-29
     eoes: 2033-01-16
-    latest: "11.4.8"
-    latestReleaseDate: 2025-08-06
+    latest: "11.4.10"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -140,8 +151,8 @@ releases:
     releaseDate: 2023-02-16
     eol: 2028-02-16
     eoes: 2028-02-16
-    latest: "10.11.14"
-    latestReleaseDate: 2025-08-06
+    latest: "10.11.16"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07
@@ -176,8 +187,8 @@ releases:
     releaseDate: 2021-07-06
     eol: 2026-07-06
     eoes: 2029-08-23
-    latest: "10.6.23"
-    latestReleaseDate: 2025-08-06
+    latest: "10.6.25"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.5"
     lts: true

@@ -12,7 +12,6 @@ releasePolicyLink: https://www.scala-lang.org/download/all.html
 changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
-staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: scala
@@ -28,12 +27,19 @@ auto:
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "3.7"
-    releaseDate: 2025-05-07
+  - releaseCycle: "3.8"
+    releaseDate: 2026-01-22
     eoas: false
     eol: false
-    latest: "3.7.3"
-    latestReleaseDate: 2025-09-09
+    latest: "3.8.1"
+    latestReleaseDate: 2026-01-22
+
+  - releaseCycle: "3.7"
+    releaseDate: 2025-05-07
+    eoas: 2026-01-22
+    eol: 2026-01-22
+    latest: "3.7.4"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "3.6"
     releaseDate: 2024-12-10
@@ -89,19 +95,21 @@ releases:
     releaseDate: 2019-06-07
     eoas: false
     eol: false
-    latest: "2.13.17"
-    latestReleaseDate: 2025-09-30
+    latest: "2.13.18"
+    latestReleaseDate: 2025-11-17
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.12"
+    staleReleaseThresholdDays: 730 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2016-10-28
     eoas: 2019-06-07
     eol: false
-    latest: "2.12.20"
-    latestReleaseDate: 2024-09-04
+    latest: "2.12.21"
+    latestReleaseDate: 2025-12-08
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.11"
+    staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2014-04-16
     eoas: 2016-11-03
     eol: false
@@ -110,6 +118,7 @@ releases:
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.10"
+    staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
     releaseDate: 2012-12-19
     eoas: 2014-04-17
     eol: false

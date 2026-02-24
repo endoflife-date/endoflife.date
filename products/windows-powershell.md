@@ -1,6 +1,6 @@
 ---
 title: Microsoft Windows PowerShell
-addedAt: 2019-07-29
+addedAt: 2025-10-22
 category: lang
 tags: microsoft
 iconSlug: powershell
@@ -9,7 +9,7 @@ versionCommand: powershell -Command "$PSVersionTable.PSVersion"
 releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle?view=powershell-5.1#windows-powershell-release-history
 eolColumn: Support Status
 latestColumn: false
-staleReleaseThresholdYears: 10
+staleReleaseThresholdDays: 3650 # oses have longer support periods
 
 releases:
   - releaseCycle: "5.1"

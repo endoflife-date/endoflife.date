@@ -31,18 +31,18 @@ auto:
 releases:
   - releaseCycle: "6.3"
     releaseDate: 2024-06-13
-    eol: 2027-06-30
-    eoas: 2027-06-30
-    latest: "6.3.3-c711"
-    latestReleaseDate: 2025-09-22
+    eol: 2028-06-30
+    eoas: 2028-06-30
+    latest: "6.3.3-c876"
+    latestReleaseDate: 2026-02-03
     link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
 
   - releaseCycle: "6.2"
     releaseDate: 2023-05-23
-    eol: 2026-12-31
-    eoas: 2026-12-31
-    latest: "6.2.8-c317"
-    latestReleaseDate: 2025-09-09
+    eol: 2027-06-30
+    eoas: 2027-06-30
+    latest: "6.2.8-c471"
+    latestReleaseDate: 2026-02-03
     link: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes/globalprotect-addressed-issues
 
   - releaseCycle: "6.1"

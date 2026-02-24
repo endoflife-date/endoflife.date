@@ -31,15 +31,15 @@ releases:
     releaseDate: 2023-12-18
     eoas: false
     eol: false
-    latest: "5.5.1"
-    latestReleaseDate: 2025-10-20
+    latest: "5.7.1"
+    latestReleaseDate: 2026-02-03
 
   - releaseCycle: "4"
     releaseDate: 2020-11-24
     eoas: 2023-12-18
     eol: 2024-12-19 # https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
-    latest: "4.16.1"
-    latestReleaseDate: 2024-02-05
+    latest: "4.16.2"
+    latestReleaseDate: 2025-11-20
 
   - releaseCycle: "3"
     releaseDate: 2016-12-19

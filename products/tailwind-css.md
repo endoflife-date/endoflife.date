@@ -22,11 +22,17 @@ identifiers:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-02-18
+    eol: false
+    latest: "4.2.1"
+    latestReleaseDate: 2026-02-23
+
   - releaseCycle: "4.1"
     releaseDate: 2025-04-01
-    eol: false
-    latest: "4.1.16"
-    latestReleaseDate: 2025-10-23
+    eol: 2026-02-18
+    latest: "4.1.18"
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "4.0"
     releaseDate: 2025-01-21
@@ -36,9 +42,9 @@ releases:
 
   - releaseCycle: "3.4"
     releaseDate: 2023-12-18
-    eol: 2025-01-21
-    latest: "3.4.18"
-    latestReleaseDate: 2025-10-01
+    eol: 2027-02-28 # in February 2025 adamwathan commented (at least the next 18 — 24 months) https://github.com/tailwindlabs/tailwindcss/discussions/15284#discussioncomment-12340556
+    latest: "3.4.19"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "3.3"
     releaseDate: 2023-03-28
@@ -147,4 +153,6 @@ releases:
 > [Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
 
 Tailwind CSS does not have a clear release, support and EOL policy.
-Looking at the latest releases, it seems that only the latest release is supported.
+Looking at the latest releases, it seems that only the latest release is supported. This page marks Tailwind 3 as supported as per a 
+[note from the creator](https://github.com/tailwindlabs/tailwindcss/discussions/15284#discussioncomment-12340556) - this is [not yet
+documented](https://github.com/tailwindlabs/tailwindcss.com/issues/2102)

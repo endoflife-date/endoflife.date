@@ -46,9 +46,33 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+  - releaseCycle: "2026.01"
+    releaseDate: 2026-02-10
+    eol: false
+    latest: "2026.01.4"
+    latestReleaseDate: 2026-02-04
+
+  - releaseCycle: "2025.12"
+    releaseDate: 2026-01-16
+    eol: 2026-02-03
+    latest: "2025.12.1"
+    latestReleaseDate: 2026-01-14
+
+  - releaseCycle: "2025.11"
+    releaseDate: 2025-12-19
+    eol: 2026-01-16
+    latest: "2025.11.2"
+    latestReleaseDate: 2025-12-18
+
+  - releaseCycle: "2025.10"
+    releaseDate: 2025-10-30
+    eol: 2025-12-19
+    latest: "2025.10.1"
+    latestReleaseDate: 2025-10-23
+
   - releaseCycle: "2025.09"
     releaseDate: 2025-09-29
-    eol: false
+    eol: 2025-10-30
     latest: "2025.09.0"
     latestReleaseDate: 2025-09-18
 
@@ -102,10 +126,10 @@ releases:
 
   - releaseCycle: "5.26"
     releaseDate: 2024-12-06
-    eol: false # releaseDate(5.27)
+    eol: 2028-06-06 # https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
     lts: true
-    latest: "5.26.14"
-    latestReleaseDate: 2025-10-17
+    latest: "5.26.21"
+    latestReleaseDate: 2026-02-03
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"
@@ -286,9 +310,9 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.46"
+    latest: "4.4.48"
     lts: true
-    latestReleaseDate: 2025-09-30
+    latestReleaseDate: 2026-02-03
     link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
   - releaseCycle: "4.3"

@@ -24,21 +24,30 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(LTA+1)
 releases:
-  - releaseCycle: "2025.5"
-    releaseDate: 2025-09-26 # https://community.sonarsource.com/t/sonarqube-server-2025-release-5/149368
+  - releaseCycle: "2025.6"
+    releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
     eoas: false
     eol: false
+    latest: "2025.6.1"
+    latestReleaseDate: 2025-12-24
+    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
+
+  - releaseCycle: "2025.5"
+    releaseDate: 2025-09-26 # https://community.sonarsource.com/t/sonarqube-server-2025-release-5/149368
+    eoas: 2025-12-12
+    eol: 2025-12-12
     latest: "2025.5"
     latestReleaseDate: 2025-09-26
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-2/146252
 
   - releaseCycle: "2025.4"
+    lts: true
     releaseDate: 2025-07-30 # https://community.sonarsource.com/t/sonarqube-server-2025-4-error/145463
     eoas: 2025-09-26
-    eol: 2025-09-26
-    latest: "2025.4.3"
-    latestReleaseDate: 2025-09-23
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-2/146252
+    eol: false # releaseDate(2026.4) + 6 months
+    latest: "2025.4.4"
+    latestReleaseDate: 2025-12-12
+    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-3/149159
 
   - releaseCycle: "2025.3"
     releaseDate: 2025-05-30 # https://community.sonarsource.com/t/sonarqube-server-2025-release-3/142053
@@ -60,9 +69,9 @@ releases:
     lts: true
     releaseDate: 2025-01-23 # https://community.sonarsource.com/t/sonarqube-server-2025-release-1-lta-released/133961
     eoas: 2025-03-26
-    eol: false # releaseDate(2026.1)
-    latest: "2025.1.4"
-    latestReleaseDate: 2025-09-23
+    eol: 2026-01-30
+    latest: "2025.1.5"
+    latestReleaseDate: 2025-12-12
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-4-lta/149156
 
   - releaseCycle: "10"

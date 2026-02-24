@@ -25,22 +25,22 @@ releases:
     lts: true
     releaseDate: 2025-10-22
     eol: false
-    latest: "16.0.1"
-    latestReleaseDate: 2025-10-28
+    latest: "16.1.6"
+    latestReleaseDate: 2026-01-27
 
   - releaseCycle: "15"
     lts: true
     releaseDate: 2024-10-21
     eol: 2026-10-21
-    latest: "15.5.6"
-    latestReleaseDate: 2025-10-17
+    latest: "15.5.12"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "14"
     lts: true
     releaseDate: 2023-10-26
     eol: 2025-10-26
-    latest: "14.2.33"
-    latestReleaseDate: 2025-09-23
+    latest: "14.2.35"
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "13"
     releaseDate: 2022-10-25

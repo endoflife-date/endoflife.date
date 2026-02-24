@@ -8,20 +8,25 @@ alternate_urls:
   - /fontawesome
 changelogTemplate: https://github.com/FortAwesome/Font-Awesome/releases/tag/__LATEST__
 releasePolicyLink: https://fontawesome.com/versions
-staleReleaseThresholdYears: 5
 
 auto:
   methods:
     - git: https://github.com/FortAwesome/Font-Awesome.git
 
+identifiers:
+  - repology: fonts:fontawesome
+  - purl: pkg:github/fortawesome/font-awesome
+  - purl: pkg:npm/%40fortawesome/fontawesome-svg-core
+
 releases:
   - releaseCycle: "7"
     releaseDate: 2025-07-22
     eol: false
-    latest: "7.1.0"
-    latestReleaseDate: 2025-10-01
+    latest: "7.2.0"
+    latestReleaseDate: 2026-02-10
 
   - releaseCycle: "6"
+    staleReleaseThresholdDays: 1750 # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
     lts: true
     releaseDate: 2022-02-07
     eol: false
@@ -29,9 +34,10 @@ releases:
     latestReleaseDate: 2024-12-16
 
   - releaseCycle: "5"
+    staleReleaseThresholdDays: 1750 # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
     lts: true
     releaseDate: 2018-02-05
-    eol: false # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
+    eol: false
     latest: "5.15.4"
     latestReleaseDate: 2021-08-04
 

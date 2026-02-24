@@ -11,7 +11,6 @@ releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.h
 changelogTemplate: "https://github.com/godotengine/godot/releases/tag/{{'__LATEST__'|drop_zero_patch}}-stable"
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
-staleReleaseThresholdYears: 3
 
 identifiers:
   - repology: godot
@@ -26,25 +25,30 @@ auto:
       regex: ^(?P<version>\d+(\.\d+){1,3})-stable$
       template: "{{version}}"
 
-# Support level see https://docs.godotengine.org/en/latest/about/release_policy.html#release-support-timeline
+# For support level and dates, see https://github.com/godotengine/godot-docs/commits/master/about/release_policy.rst.
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
+  - releaseCycle: "4.6"
+    releaseDate: 2026-01-26
+    eoas: false
+    eol: false
+    latest: "4.6.1"
+    latestReleaseDate: 2026-02-16
+
   - releaseCycle: "4.5"
     releaseDate: 2025-09-15
     eoas: false
     eol: false
     latest: "4.5.1"
     latestReleaseDate: 2025-10-13
-    link: https://godotengine.org/releases/4.5/
 
   - releaseCycle: "4.4"
     releaseDate: 2025-03-03
-    eoas: false
+    eoas: 2025-10-23 # https://github.com/godotengine/godot-docs/commit/08f524c79b7b15ef91205599e38ed20205fec95a
     eol: false
     latest: "4.4.1"
     latestReleaseDate: 2025-03-26
-    link: https://godotengine.org/releases/4.4/
 
   - releaseCycle: "3.6"
     releaseDate: 2024-09-08
@@ -56,22 +60,22 @@ releases:
 
   - releaseCycle: "4.3"
     releaseDate: 2024-08-15
-    eoas: false
-    eol: false
+    eoas: 2025-10-09 # https://github.com/godotengine/godot-docs/commit/91e6e635889e34465c8f83f82c7175afefd3bc73
+    eol: 2025-10-23 # https://github.com/godotengine/godot-docs/commit/08f524c79b7b15ef91205599e38ed20205fec95a
     latest: "4.3"
     latestReleaseDate: 2024-08-15
 
   - releaseCycle: "4.2"
     releaseDate: 2023-11-29
-    eoas: 2023-11-29
-    eol: false
+    eoas: 2025-03-03 # https://github.com/godotengine/godot-docs/commit/48d69fc30f04e23bc0e1ec23d23f87430d3be2fd
+    eol: 2025-10-09 # https://github.com/godotengine/godot-docs/commit/91e6e635889e34465c8f83f82c7175afefd3bc73
     latest: "4.2.2"
     latestReleaseDate: 2024-04-16
 
   - releaseCycle: "4.1"
     releaseDate: 2023-07-05
-    eoas: 2023-07-05
-    eol: 2024-04-16
+    eoas: 2025-03-03 # https://github.com/godotengine/godot-docs/commit/48d69fc30f04e23bc0e1ec23d23f87430d3be2fd
+    eol: 2025-03-03 # https://github.com/godotengine/godot-docs/commit/48d69fc30f04e23bc0e1ec23d23f87430d3be2fd
     latest: "4.1.4"
     latestReleaseDate: 2024-04-16
 
@@ -86,7 +90,7 @@ releases:
     releaseDate: 2022-08-05
     lts: true
     eoas: 2022-08-05
-    eol: false
+    eol: 2025-10-23 # https://github.com/godotengine/godot-docs/commit/08f524c79b7b15ef91205599e38ed20205fec95a
     latest: "3.5.3"
     latestReleaseDate: 2023-09-24
 

@@ -17,6 +17,78 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: moto-g77
+    releaseLabel: "Moto G77"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12520
+
+  - releaseCycle: moto-g67
+    releaseLabel: "Moto G67"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12519
+
+  - releaseCycle: moto-g17-power
+    releaseLabel: "Moto G17 Power"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12521
+
+  - releaseCycle: moto-g17
+    releaseLabel: "Moto G17"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12522
+
+  - releaseCycle: motorola-signature
+    releaseLabel: "Motorola Signature"
+    releaseDate: 2026-01-01
+    eol: 2032-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12430
+
+  - releaseCycle: moto-g-power-2026
+    releaseLabel: "Moto G Power (2026)"
+    releaseDate: 2026-01-01
+    eol: 2029-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12452
+
+  - releaseCycle: moto-g-2026
+    releaseLabel: "Moto G (2026)"
+    releaseDate: 2025-12-01
+    eol: 2028-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12431
+
+  - releaseCycle: moto-g57-power
+    releaseLabel: "Moto G57 Power"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12451
+
+  - releaseCycle: moto-g57
+    releaseLabel: "Moto G57"
+    releaseDate: 2025-11-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12453
+
+  - releaseCycle: moto-g-play-2026
+    releaseLabel: "Moto G Play (2026)"
+    releaseDate: 2025-11-01
+    eol: 2028-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12428
+
+  - releaseCycle: motorola-edge-70
+    releaseLabel: "Motorola edge 70"
+    releaseDate: 2025-10-01
+    eol: 2031-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12433
+
+  - releaseCycle: moto-g67-power-5g
+    releaseLabel: "moto g67 power 5G"
+    releaseDate: 2025-09-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12403
+
   - releaseCycle: motorola-edge-60-neo
     releaseLabel: "Motorola edge 60 neo"
     releaseDate: 2025-09-01
@@ -82,6 +154,18 @@ releases:
     releaseDate: 2025-04-01
     eol: 2029-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12219
+
+  - releaseCycle: motorola-razr-60s
+    releaseLabel: "Motorola Razr 60s"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12402
+
+  - releaseCycle: motorola-razr-60d
+    releaseLabel: "Motorola Razr 60d"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12401
 
   - releaseCycle: motorola-razr+-2025
     releaseLabel: "Motorola Razr+ 2025"
@@ -560,7 +644,7 @@ releases:
   - releaseCycle: "motorola-edge-2022"
     releaseLabel: "Motorola Edge (2022)"
     releaseDate: 2022-08-01
-    eol: 2025-08-31
+    eol: 2026-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319
 
   - releaseCycle: "moto-g62-5g"
@@ -736,6 +820,7 @@ releases:
     releaseDate: 2021-08-01
     eol: 2023-08-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11170
+
 ---
 
 > [Motorola Mobility](https://motorola.com) is an American smartphone manufacturer, known for the
