@@ -54,11 +54,6 @@ releases:
 
 > [Freedesktop SDK](https://freedesktop-sdk.gitlab.io/) provides a Platform and SDK for desktop applications in various forms.
 
-* [OCI image](https://hub.docker.com/r/freedesktopsdk/platform/tags)
-* [Flatpak runtime](https://flathub.org/en/apps/org.freedesktop.Platform)
-* [Snap runtime](https://freedesktop-sdk.gitlab.io/documentation/using-the-sdk/building-outputs/building-snap-image/)
-* [Operating system image](https://freedesktop-sdk.gitlab.io/documentation/using-the-sdk/building-outputs/building-os/)
-* [Tarball](https://freedesktop-sdk.gitlab.io/documentation/using-the-sdk/building-outputs/building-tarball/)
 
 There is a new release of Freedesktop SDK every year at the end of August.
 Releases are supported for two years with bug and security fixes.
