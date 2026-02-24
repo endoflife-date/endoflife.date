@@ -18,7 +18,7 @@ customFields:
     link: https://endoflife.date/ipados
 
 identifiers:
-  - cpe: cpe:2.3:a:apple:ipados
+  - cpe: cpe:2.3:h:apple:ipad
 
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/HT201471.

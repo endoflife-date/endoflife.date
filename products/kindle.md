@@ -10,9 +10,6 @@ alternate_urls:
 releasePolicyLink: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
 eolColumn: Service Status
 
-identifiers:
-  - cpe: cpe:2.3:a:amazon:kindle
-
 # Release dates can be found on https://en.wikipedia.org/wiki/Amazon_Kindle.
 # Latest releases can be found on https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW.
 releases:

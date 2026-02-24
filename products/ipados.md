@@ -9,7 +9,7 @@ changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-
 eoasColumn: true
 
 identifiers:
-  - cpe: cpe:2.3:a:apple:ipados
+  - cpe: cpe:2.3:o:apple:ipados
 
 auto:
   methods:
