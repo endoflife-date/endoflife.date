@@ -4,6 +4,7 @@ addedAt: 2026-02-24
 category: nuget
 iconSlug: nuget
 eolColumn: Support
+permalink: /nuget-serilog
 identifiers:
   - purl: pkg:nuget/serilog
     
