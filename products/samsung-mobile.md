@@ -40,40 +40,47 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-z-trifold"
+    releaseLabel: "Galaxy Z TriFold"
+    releaseDate: 2025-12-01 # https://news.samsung.com/us/samsung-introducing-galaxy-z-trifold-shape-whats-next-mobile-innovation/
+    eoas: 2032-12-01 # 7 years - https://www.androidcentral.com/phones/samsung-galaxy/how-many-software-updates-will-the-samsung-galaxy-z-trifold-receive
+    eol: false      # 7 years - https://www.androidcentral.com/phones/samsung-galaxy/how-many-software-updates-will-the-samsung-galaxy-z-trifold-receive
+    link: https://doc.samsungmobile.com/SM-F9680/CHC/doc.html
+
   - releaseCycle: "galaxy-m17-5g"
     releaseLabel: "Galaxy M17 5G"
     releaseDate: 2025-10-13 # https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     eoas: 2031-10-13 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
     eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17-5g-with-segment-first-ois-camera-enhanced-durability-ai-features-in-india
-    link: null # not found
+    link: https://doc.samsungmobile.com/SM-M176B/NPB/doc.html
 
   - releaseCycle: "w26"
     releaseLabel: "W26"
     releaseDate: 2025-10-11 # https://www.absolutegeeks.com/article/tech-news/samsungs-galaxy-w26-brings-real-satellite-calling-but-only-for-china/
     eoas: false # unknown
     eol: false # unknown
-    link: null # not found
+    link: https://doc.samsungmobile.com/SM-W9026/CHC/doc.html
 
   - releaseCycle: "galaxy-f07"
     releaseLabel: "Galaxy F07"
     releaseDate: 2025-10-04 # https://www.gsmarena.com/samsung_galaxy_f07-14205.php
     eoas: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
-    eol: 2031-10-04 # 6 years - https://www.gsmarena.com/samsung_galaxy_f07-14205.php
-    link: null # not found
+    eol: 2031-10-04
+    link: https://doc.samsungmobile.com/SM-E075F/INS/doc.html
 
   - releaseCycle: "galaxy-m07"
     releaseLabel: "Galaxy M07"
     releaseDate: 2025-10-01 # https://www.gsmarena.com/samsung_galaxy_m07-14100.php
-    eoas: 2031-10-01 # unknown # 6 years - https://www.gsmarena.com/samsung_galaxy_m07-14100.php
-    eol: false      # unknown # vhttps://www.gsmarena.com/samsung_galaxy_m07-14100.php
-    link: null # not found
+    eoas: 2031-10-01 # 6 years - https://www.gsmarena.com/samsung_galaxy_m07-14100.php
+    eol: false
+    link: https://doc.samsungmobile.com/SM-M075F/INS/doc.html
 
   - releaseCycle: "galaxy-f17-5g"
     releaseLabel: "Galaxy F17 5G"
     releaseDate: 2025-09-11 # https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
     eoas: 2031-09-11 # 6 years - https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
     eol: 2031-09-11 # 6 years - https://news.samsung.com/in/samsung-launches-incredibly-thin-and-durable-galaxy-f17-5g-with-segment-leading-features
-    link: null # not found
+    link: https://doc.samsungmobile.com/SM-E176B/INS/doc.html
 
   - releaseCycle: "galaxy-s25-fe"
     releaseLabel: "Galaxy S25 FE"
@@ -807,7 +814,7 @@ releases:
     releaseLabel: "Galaxy A03"
     releaseDate: 2022-01-21
     eoas: false
-    eol: false
+    eol: 2026-02-21
     link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
 
   - releaseCycle: "galaxy-s21-fe-5g"
@@ -1058,22 +1065,22 @@ releases:
   - releaseCycle: "galaxy-s21-ultra-5g"
     releaseLabel: "Galaxy S21 Ultra 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-02-21      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
 
   - releaseCycle: "galaxy-s21+-5g"
     releaseLabel: "Galaxy S21+ 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-02-21      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
 
   - releaseCycle: "galaxy-s21-5g"
     releaseLabel: "Galaxy S21 5G"
     releaseDate: 2021-01-29
-    eoas: false
-    eol: false      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    eoas: 2025-10-06     # https://9to5google.com/2025/10/15/samsung-galaxy-android-16-one-ui-8-update-list-schedule/
+    eol: 2026-02-21      # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
 
   - releaseCycle: "galaxy-a02"
