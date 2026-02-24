@@ -25,6 +25,7 @@ customFields:
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
 
 identifiers:
+  - cpe: cpe:2.3:a:vmware:spring_framework
   - purl: pkg:maven/org.springframework/spring-core
   - purl: pkg:maven/org.springframework/spring-aop
   - purl: pkg:maven/org.springframework/spring-beans
