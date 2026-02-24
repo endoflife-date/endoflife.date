@@ -20,19 +20,19 @@ releases:
     releaseDate: 2025-12-22
     eol: 2028-06-22
     latest: "2.13.2"
-    latestReleaseDate: 2026-02-20
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.12"
     releaseDate: 2025-09-09
     eol: 2026-09-09
     latest: "2.12.7"
-    latestReleaseDate: 2026-02-20
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.11"
     releaseDate: 2025-06-10
     eol: 2026-06-10
     latest: "2.11.10"
-    latestReleaseDate: 2026-02-20
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.10"
     releaseDate: 2025-03-20
