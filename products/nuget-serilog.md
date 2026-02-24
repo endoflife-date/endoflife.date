@@ -1,7 +1,7 @@
 ---
 title: Serilog
 addedAt: 2026-02-24
-category: nuget
+category: app
 iconSlug: nuget
 eolColumn: Support
 permalink: /nuget-serilog
