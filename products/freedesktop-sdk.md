@@ -1,11 +1,9 @@
 ---
 title: Freedesktop SDK
 addedAt: 2025-10-29
-category: os
-tags: linux-distribution
+category: framework
 iconSlug: freedesktopdotorg
 permalink: /freedesktop-sdk
-versionCommand: cat /etc/os-release
 releasePolicyLink: https://freedesktop-sdk.gitlab.io/documentation/updating-sdk/release-notes/
 latestColumn: true
 
@@ -63,6 +61,5 @@ releases:
 * [Operating system image](https://freedesktop-sdk.gitlab.io/documentation/using-the-sdk/building-outputs/building-os/)
 * [Tarball](https://freedesktop-sdk.gitlab.io/documentation/using-the-sdk/building-outputs/building-tarball/)
 
-Releases are created every year at the end of August.
-The release branches receive security updates as necessary.
-An old release cylce becomes EOL two years after the first release.
+There is a new release of Freedesktop SDK every year at the end of August.
+Releases are supported for two years with bug and security fixes.
