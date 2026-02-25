@@ -10,7 +10,7 @@ changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''
 latestColumn: false
 
 identifiers:
-  - cpe: cpe:2.3:a:openbsd:openbsd
+  - cpe: cpe:2.3:o:openbsd:openbsd
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to the first of next month
 releases:
