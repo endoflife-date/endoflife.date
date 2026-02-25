@@ -15,7 +15,7 @@ eolColumn: Full Support
 latestColumn: false # no public access to the latest patches
 
 identifiers:
-  - cpe: cpe:2.3:a:netapp:ontap
+  - cpe: cpe:2.3:o:netapp:data_ontap
 
 # Releases are documented on https://mysupport.netapp.com/site/info/version-support.
 releases:

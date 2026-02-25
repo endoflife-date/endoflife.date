@@ -13,7 +13,7 @@ changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|jo
 eoasColumn: true
 
 identifiers:
-  - cpe: cpe:2.3:a:openwrt:openwrt
+  - cpe: cpe:2.3:o:openwrt:openwrt
 
 auto:
   methods:
