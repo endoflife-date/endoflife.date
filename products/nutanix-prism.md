@@ -14,6 +14,9 @@ releasePolicyLink: "https://www.nutanix.com/support-services/product-support/sup
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 
+identifiers:
+  - cpe: cpe:2.3:a:nutanix:prism
+
 auto:
   methods:
     - nutanix: PC

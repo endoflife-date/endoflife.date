@@ -12,6 +12,7 @@ eolColumn: Support
 
 identifiers:
   - repology: nifi
+  - cpe: cpe:2.3:a:apache:nifi
 
 auto:
   methods:

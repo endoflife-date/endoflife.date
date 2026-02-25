@@ -8,6 +8,9 @@ releasePolicyLink: https://backdropcms.org/releases
 releaseImage: https://backdropcms.org/files/images/release-cycles.png
 changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
+identifiers:
+  - cpe: cpe:2.3:a:backdropcms:backdrop
+
 auto:
   methods:
     - github_releases: backdrop/backdrop

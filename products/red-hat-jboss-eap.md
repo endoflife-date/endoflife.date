@@ -16,6 +16,9 @@ eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Life Support 1
 
+identifiers:
+  - cpe: cpe:2.3:a:redhat:jboss_enterprise_application_platform
+
 auto:
   methods:
     - red-hat-jboss-eap-7: https://access.redhat.com/articles/2332721

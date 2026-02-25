@@ -18,6 +18,7 @@ auto:
 
 identifiers:
   - purl: pkg:github/Kong/kong
+  - cpe: cpe:2.3:a:konghq:kong_gateway
 
 # Policy is not clear, maybe a more precise answer will be available someday on
 # https://discuss.konghq.com/t/question-about-the-support-policy-on-kong-community/11891.

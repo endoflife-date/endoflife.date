@@ -15,6 +15,9 @@ releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccou
 changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 eolColumn: General Support
 
+identifiers:
+  - cpe: cpe:2.3:a:vmware:cloud_foundation
+
 releases:
   - releaseCycle: "5.1"
     releaseDate: 2023-11-07

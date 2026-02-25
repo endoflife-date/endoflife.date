@@ -22,6 +22,7 @@ identifiers:
   - purl: pkg:docker/library/matomo
   - purl: pkg:docker/bitnami/matomo
   - purl: pkg:github/matomo-org/matomo
+  - cpe: cpe:2.3:a:matomo:matomo
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/

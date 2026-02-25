@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:rpm/redhat/mariadb-server
   - purl: pkg:rpm/centos/mariadb-server
   - purl: pkg:rpm/opensuse/mariadb
+  - cpe: cpe:2.3:a:mariadb:mariadb
 
 auto:
   methods:

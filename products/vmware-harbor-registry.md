@@ -8,6 +8,9 @@ permalink: /vmware-harbor-registry
 changelogTemplate: https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-release-notes.html#v__LATEST__
 eolColumn: End of general support
 
+identifiers:
+  - cpe: cpe:2.3:a:vmware:harbor_container_registry
+
 releases:
   - releaseCycle: "2.10"
     releaseDate: 2024-01-17

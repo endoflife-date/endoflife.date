@@ -12,6 +12,7 @@ eolColumn: "Support"
 identifiers:
   - purl: pkg:docker/gerritcodereview/gerrit
   - repology: gerrit
+  - cpe: cpe:2.3:a:google:gerrit
 
 auto:
   methods:

@@ -17,6 +17,7 @@ auto:
 identifiers:
   - purl: pkg:npm/svelte
   - purl: pkg:github/sveltejs/svelte
+  - cpe: cpe:2.3:a:svelte:svelte
 
 releases:
   - releaseCycle: "5"

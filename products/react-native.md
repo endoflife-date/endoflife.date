@@ -12,6 +12,7 @@ eoasColumn: true
 identifiers:
   - purl: pkg:github/facebook/react-native
   - purl: pkg:npm/react-native
+  - cpe: cpe:2.3:a:facebook:react-native
 
 # NPM dates are more accurate than git tag dates.
 auto:

@@ -11,6 +11,7 @@ eoasColumn: Stable Support
 
 identifiers:
   - repology: proftpd
+  - cpe: cpe:2.3:a:proftpd:proftpd
 
 auto:
   methods:

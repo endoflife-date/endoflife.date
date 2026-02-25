@@ -25,6 +25,7 @@ customFields:
 identifiers:
   - purl: pkg:composer/statamic/cms
   - purl: pkg:github/statamic/cms
+  - cpe: cpe:2.3:a:statamic:statamic
 
 auto:
   methods:

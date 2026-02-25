@@ -12,6 +12,7 @@ changelogTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
 identifiers:
   - purl: pkg:pypi/numpy
   - purl: pkg:github/numpy/numpy
+  - cpe: cpe:2.3:a:numpy:numpy
 
 auto:
   methods:

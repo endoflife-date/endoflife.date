@@ -39,6 +39,7 @@ identifiers:
   - purl: pkg:apk/alpine/ansible
   - purl: pkg:github/ansible/ansible
   - repology: ansible
+  - cpe: cpe:2.3:a:redhat:ansible
 
 auto:
   methods:
