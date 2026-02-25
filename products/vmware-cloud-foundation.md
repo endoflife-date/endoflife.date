@@ -16,6 +16,20 @@ changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__
 eolColumn: General Support
 
 releases:
+  - releaseCycle: "9.0"
+    releaseDate: 2025-06-17
+    eol: false
+    # technicalGuidance: ???
+    latest: "9.0.2.0"
+    latestReleaseDate: 2026-01-20
+
+  - releaseCycle: "5.2"
+    releaseDate: 2024-07-23
+    eol: false
+    # technicalGuidance: ???
+    latest: "5.2.3"
+    latestReleaseDate: 2026-02-24
+
   - releaseCycle: "5.1"
     releaseDate: 2023-11-07
     eol: 2027-06-01
