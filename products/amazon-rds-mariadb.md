@@ -41,13 +41,13 @@ releases:
 
   - releaseCycle: "10.6"
     releaseDate: 2022-02-03
-    eol: 2026-07-31
+    eol: 2026-08-31
     latest: "10.6.25"
     latestReleaseDate: 2026-02-10
 
   - releaseCycle: "10.5"
     releaseDate: 2021-01-21
-    eol: 2026-06-30
+    eol: 2026-08-31
     latest: "10.5.29"
     latestReleaseDate: 2025-05-20
 
