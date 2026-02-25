@@ -2,7 +2,7 @@
 title: RouterOS
 addedAt: 2026-02-22
 category: os
-tags: mikrotik os
+tags: mikrotik
 iconSlug: mikrotik
 permalink: /routeros
 changelogTemplate: https://mikrotik.com/download/changelogs?versionFilter=__LATEST__&channelFilter=
