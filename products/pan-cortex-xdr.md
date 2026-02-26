@@ -54,7 +54,7 @@ releases:
 
   - releaseCycle: "8.9"
     releaseDate: 2025-07-21
-    eol: 2026-04-21
+    eol: 2026-05-10
     latest: "8.9"
     latestReleaseDate: 2025-07-21
 

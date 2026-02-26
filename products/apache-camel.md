@@ -33,9 +33,17 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
+  - releaseCycle: "4.18"
+    lts: true
+    releaseDate: 2026-02-17
+    eol: 2027-02-17
+    supportedJavaVersions: "17, 21"
+    latest: "4.18.0"
+    latestReleaseDate: 2026-02-13
+
   - releaseCycle: "4.17"
     releaseDate: 2026-01-12
-    eol: false # releaseDate(4.18)
+    eol: 2026-02-17
     supportedJavaVersions: "17, 21"
     latest: "4.17.0"
     latestReleaseDate: 2026-01-08

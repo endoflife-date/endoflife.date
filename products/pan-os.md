@@ -32,9 +32,9 @@ releases:
   - releaseCycle: "12.1"
     releaseDate: 2025-08-28
     eol: 2028-08-28
-    latest: "12.1.4-h2"
-    latestReleaseDate: 2026-02-04
-    link: https://docs.paloaltonetworks.com/ngfw/release-notes/12-1/pan-os-12-1-4-known-and-addressed-issues/pan-os-12-1-4-h2-addressed-issues
+    latest: "12.1.4-h3"
+    latestReleaseDate: 2026-02-19
+    link: https://docs.paloaltonetworks.com/ngfw/release-notes/12-1/pan-os-12-1-4-known-and-addressed-issues/pan-os-12-1-4-h3-addressed-issues
 
   - releaseCycle: "11.2"
     releaseDate: 2024-05-02

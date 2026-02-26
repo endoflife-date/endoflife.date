@@ -57,8 +57,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-03
     eol: 2027-05-31
-    latest: "2.20.2"
-    latestReleaseDate: 2026-01-29
+    latest: "2.20.3"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -66,8 +66,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
     eol: 2026-11-30
-    latest: "2.19.6"
-    latestReleaseDate: 2026-01-29
+    latest: "2.19.7"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -75,8 +75,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-04
     eol: 2026-05-31
-    latest: "2.18.13"
-    latestReleaseDate: 2026-01-29
+    latest: "2.18.14"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -93,8 +93,8 @@ releases:
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
-    latest: "2.16.16"
-    latestReleaseDate: 2026-01-29
+    latest: "2.16.17"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
