@@ -24,8 +24,8 @@ releases:
   - releaseCycle: "3.8"
     releaseDate: 2025-12-18
     eol: false
-    latest: "3.8.2"
-    latestReleaseDate: 2026-02-23
+    latest: "3.8.3"
+    latestReleaseDate: 2026-02-25
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v380
 
   - releaseCycle: "3.7"

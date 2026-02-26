@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-12-04
     eol: 2027-12-04
     eoes: 2028-12-04
-    latest: "6000.3.9f1"
-    latestReleaseDate: 2026-02-18
+    latest: "6000.3.10f1"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "6000.2"
     releaseLabel: "6.2"
