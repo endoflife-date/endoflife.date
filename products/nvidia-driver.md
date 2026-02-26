@@ -64,9 +64,9 @@ releases:
     releaseDate: 2025-08-04
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "580.126.09"
-    latestReleaseDate: 2026-01-13
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-126-09/index.html
+    latest: "580.126.20"
+    latestReleaseDate: 2026-02-23
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-126-20/index.html
 
   - releaseCycle: "r580-windows"
     releaseLabel: "R580-Windows"
