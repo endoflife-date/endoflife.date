@@ -181,7 +181,7 @@ releases:
   - releaseCycle: "5.15"
     lts: true
     releaseDate: 2021-10-31
-    eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eol: 2026-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/content/releases.rst?id=eb581a36a89357c5d96257d59f42251b9628c3ab
     latest: "5.15.201"
     latestReleaseDate: 2026-02-19
 
