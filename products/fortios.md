@@ -5,8 +5,6 @@ category: os
 tags: fortinet
 iconSlug: fortinet
 permalink: /fortios
-alternate_urls:
-  - /fortinet
 versionCommand: get system status
 changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 latestColumn: false

@@ -57,8 +57,8 @@ releases:
     eol: 2027-12-31
     supportedLaravelVersions: "12-13"
     supportedPhpVersions: "8.3-8.5"
-    latest: "6.3.1"
-    latestReleaseDate: 2026-02-16
+    latest: "6.3.3"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "5"
     releaseDate: 2024-05-09
@@ -66,8 +66,8 @@ releases:
     eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.73.8"
-    latestReleaseDate: 2026-02-18
+    latest: "5.73.10"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09
