@@ -34,6 +34,11 @@ auto:
         eoes: "LTSS Ends"
 
 releases:
+  - releaseCycle: "16.0"
+    releaseDate: 2025-11-04
+    eol: 2027-11-30
+    eoes: 2030-11-30
+
   - releaseCycle: "15.7"
     releaseDate: 2025-06-17
     eol: 2031-07-31
