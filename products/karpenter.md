@@ -29,86 +29,74 @@ releases:
     eol: false
     latest: "1.9.0"
     latestReleaseDate: 2026-02-06
-    supportedKubernetesVersion: "1.35"
+    supportedKubernetesVersion: "1.29 - 1.35"
 
   - releaseCycle: "1.8"
     releaseDate: 2025-10-08
     eol: false
     latest: "1.8.2"
     latestReleaseDate: 2026-01-15
-    supportedKubernetesVersion: "1.34"
+    supportedKubernetesVersion: "1.29 - 1.34"
 
   - releaseCycle: "1.7"
     releaseDate: 2025-09-16
     eol: 2026-02-06
     latest: "1.7.1"
     latestReleaseDate: 2025-09-18
-    supportedKubernetesVersion: "1.34"
+    supportedKubernetesVersion: "1.29 - 1.34"
 
   - releaseCycle: "1.6"
     releaseDate: 2025-07-14
     eol: 2025-10-08
     latest: "1.6.3"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.34"
+    supportedKubernetesVersion: "1.29 - 1.34"
 
   - releaseCycle: "1.5"
     releaseDate: 2025-05-24
     eol: 2025-09-16
     latest: "1.5.4"
     latestReleaseDate: 2025-08-26
-    supportedKubernetesVersion: "1.33"
+    supportedKubernetesVersion: "1.29 - 1.33"
 
   - releaseCycle: "1.4"
     releaseDate: 2025-04-16
     eol: 2025-07-14
     latest: "1.4.1"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.32"
+    supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.3"
     releaseDate: 2025-03-04
     eol: 2025-05-24
     latest: "1.3.4"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.32"
+    supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.2"
     releaseDate: 2025-01-28
     eol: 2025-04-16
     latest: "1.2.4"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.32"
+    supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.1"
     releaseDate: 2024-11-30
     eol: 2025-03-04
     latest: "1.1.4"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.31"
+    supportedKubernetesVersion: "1.29 - 1.31"
 
   - releaseCycle: "1.0"
     releaseDate: 2024-08-14
     eol: 2025-01-28
     latest: "1.0.8"
     latestReleaseDate: 2025-10-09
-    supportedKubernetesVersion: "1.31 (>= 1.0.5)"
+    supportedKubernetesVersion: "1.29 - 1.31"
 
 ---
 
-> [Karpenter](https://karpenter.sh) is an open-source node lifecycle management project built for `Kubernetes`.
->
-> Adding `Karpenter` to a `Kubernetes` cluster can dramatically improve the efficiency and cost of running workloads on that cluster.
+> [Karpenter](https://karpenter.sh) is an open-source node lifecycle management controller for Kubernetes.
 
-## Karpenter works by
-
-- **Watching** for pods that the `Kubernetes` scheduler has marked as unschedulable
-- **Evaluating** scheduling constraints (resource requests, nodeselectors, affinities, tolerations, and topology spread constraints) requested by the pods
-- **Provisioning** nodes that meet the requirements of the pods
-- **Disrupting** the nodes when the nodes are no longer needed
-
-## Compatibility issues
-
-To make upgrading easier we aim to minimize the introduction of breaking changes. Before you begin upgrading `Karpenter`, consider `Karpenter` [compatibility issues](https://karpenter.sh/docs/upgrading/compatibility/#compatibility) related to `Kubernetes` and the `NodePool API` (previously `Provisioner`).
-
-[Kubernetes Compatibility Matrix](https://karpenter.sh/docs/upgrading/compatibility/#compatibility-matrix)
+Karpenter follows [Semantic Versioning](https://semver.org/). There is no documented EOL Policy, but the last
+2 releases seem to be supported with fixes.
