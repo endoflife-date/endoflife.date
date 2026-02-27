@@ -23,6 +23,11 @@ auto:
         eoas: "End of Maintenance"
 
 releases:
+  - releaseCycle: "5.0"
+    releaseDate: 2025-06-24
+    eoas: false
+    eol: false
+
   - releaseCycle: "4.8"
     releaseDate: 2024-07-02
     eoas: false
