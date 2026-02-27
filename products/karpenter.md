@@ -1,6 +1,6 @@
 ---
 title: Karpenter
-addedAt: 2026-02-03
+addedAt: 2026-03-01
 category: server-app
 tags: cncf kubernetes
 iconSlug: kubernetes
@@ -10,6 +10,10 @@ changelogTemplate: https://github.com/kubernetes-sigs/karpenter/releases/tag/v__
 eolColumn: Support
 
 identifiers:
+  - purl: pkg:github/kubernetes-sigs/karpenter
+  - purl: pkg:oci/karpenter?repository_url=public.ecr.aws/karpenter
+  - purl: pkg:oci/karpenter?repository_url=dhi.io
+  - purl: pkg:oci/karpenter?repository_url=cgr.dev/chainguard
   - purl: pkg:github/kubernetes-sigs/karpenter
 
 auto:
