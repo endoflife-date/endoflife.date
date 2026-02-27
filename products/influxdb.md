@@ -14,6 +14,7 @@ eoasColumn: false
 
 identifiers:
   - repology: influxdb
+  - cpe: cpe:2.3:a:influxdata:influxdb
 
 auto:
   methods:

@@ -12,6 +12,7 @@ eoasColumn: Active Support
 
 identifiers:
   - repology: dovecot
+  - cpe: cpe:2.3:a:dovecot:dovecot
 
 auto:
   methods:

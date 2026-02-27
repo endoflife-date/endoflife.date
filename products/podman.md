@@ -10,6 +10,7 @@ changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST_
 
 identifiers:
   - repology: podman
+  - cpe: cpe:2.3:a:podman_project:podman
 
 auto:
   methods:

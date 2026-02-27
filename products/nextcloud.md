@@ -9,6 +9,9 @@ versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
+identifiers:
+  - cpe: cpe:2.3:a:nextcloud:nextcloud_server
+
 auto:
   methods:
     - git: https://github.com/nextcloud/server.git

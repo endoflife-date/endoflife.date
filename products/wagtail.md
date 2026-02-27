@@ -13,6 +13,7 @@ eoasColumn: true
 identifiers:
   - repology: python:wagtail
   - purl: pkg:pypi/wagtail
+  - cpe: cpe:2.3:a:torchbox:wagtail
 
 auto:
   methods:

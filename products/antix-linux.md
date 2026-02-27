@@ -12,6 +12,9 @@ releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-suppor
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:o:antixlinux:antix_linux
+
 auto:
   methods:
     - distrowatch: antix

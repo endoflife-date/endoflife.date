@@ -7,6 +7,9 @@ alternate_urls:
   - /commvault-backup
 releasePolicyLink: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
 
+identifiers:
+  - cpe: cpe:2.3:a:commvault:commvault
+
 auto:
   methods:
     - release_table: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html

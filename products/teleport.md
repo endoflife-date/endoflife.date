@@ -11,6 +11,7 @@ eoasColumn: true
 identifiers:
   - purl: pkg:github/gravitational/teleport
   - repology: teleport
+  - cpe: cpe:2.3:a:goteleport:teleport
 
 auto:
   methods:

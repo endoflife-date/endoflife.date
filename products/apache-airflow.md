@@ -19,6 +19,7 @@ identifiers:
   - purl: pkg:docker/bitnami/airflow
   - purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
   - purl: pkg:pypi/apache-airflow
+  - cpe: cpe:2.3:a:apache:airflow
 
 auto:
   methods:
