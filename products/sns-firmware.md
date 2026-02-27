@@ -9,7 +9,8 @@ latestColumn: false
 eoasColumn: Maintenance Support
 eolColumn: Lifecycle Support
 staleReleaseThresholdDays: 1825 # devices have longer support periods
-
+releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
+LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
@@ -30,6 +31,7 @@ releases:
 
   - releaseCycle: "4.8"
     releaseDate: 2024-07-02
+    lts: true
     eoas: false
     eol: false
 
@@ -105,8 +107,8 @@ releases:
 
 > [Stormshield Network Security firmware](https://www.stormshield.com/products-services/products/network-security/firmware-sns-4x/)
 > are certified (ANSSI, CCN) firmwares that run
->
-on [Stormshield firewalls](https://www.stormshield.com/products-services/products/network-security/product-range-sns/).
+> on [Stormshield firewalls](https://www.stormshield.com/products-services/products/network-security/product-range-sns/).
 
-Supported firmwares are listed
-in [Stormshield technical documentation](https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm).
+Maintenance is guaranteed on release branches with an LTSB label for at least 12 months after they are designated as such. LTSB branches receieve
+only only functional or security patches. A minimum 6-month overlap is expected between each LTSB release branch,
+to allow clients to migrate their installations to the next LTSB branch.
