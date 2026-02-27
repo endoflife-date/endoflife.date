@@ -87,4 +87,4 @@ releases:
 
 > [authentik](https://goauthentik.io/) is an open source identity provider and single sign on platform.
 
-The current released version and one version back gets security fixes. There is a new release about every 2 months.
+The current released version and one version back gets security fixes. There is a new release about every 3 months.
