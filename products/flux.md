@@ -20,6 +20,7 @@ auto:
 
 identifiers:
   - repology: fluxcd
+  - cpe: cpe:2.3:a:fluxcd:flux2
 
 # eol(X) = releaseDate(X+3)
 releases:

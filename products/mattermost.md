@@ -26,6 +26,7 @@ auto:
 
 identifiers:
   - repology: mattermost
+  - cpe: cpe:2.3:a:mattermost:mattermost_server
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:

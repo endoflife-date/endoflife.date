@@ -16,6 +16,7 @@ eolColumn: Maintenance Support
 identifiers:
   - purl: pkg:github/kubernetes/kubernetes
   - repology: kubernetes
+  - cpe: cpe:2.3:a:kubernetes:kubernetes
 
 auto:
   methods:

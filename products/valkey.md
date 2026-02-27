@@ -14,6 +14,7 @@ identifiers:
   - repology: valkey
   - purl: pkg:github/valkey-io/valkey
   - purl: pkg:docker/valkey/valkey
+  - cpe: cpe:2.3:a:lfprojects:valkey
 
 auto:
   methods:

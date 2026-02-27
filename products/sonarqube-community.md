@@ -14,6 +14,7 @@ eolColumn: Support
 
 identifiers:
   - repology: sonarqube
+  - cpe: cpe:2.3:a:sonarsource:sonarqube
 
 auto:
   methods:

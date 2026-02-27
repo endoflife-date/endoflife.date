@@ -13,6 +13,7 @@ identifiers:
   - repology: coder
   - purl: pkg:github/coder/coder
   - purl: pkg:generic/coder
+  - cpe: cpe:2.3:a:coder:code-server
 
 auto:
   methods:

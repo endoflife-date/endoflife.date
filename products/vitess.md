@@ -18,6 +18,7 @@ identifiers:
   - purl: pkg:github/vitessio/vitess
   - purl: pkg:docker/vitess/lite
   - repology: vitess
+  - cpe: cpe:2.3:a:linuxfoundation:vitess
 
 # eol(x) = releaseDate(x) + 1 year
 releases:

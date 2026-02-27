@@ -16,6 +16,7 @@ eolColumn: Extended Maintenance
 
 identifiers:
   - purl: pkg:github/sonatype/nexus-public
+  - cpe: cpe:2.3:a:sonatype:nexus_repository_manager
 
 auto:
   methods:

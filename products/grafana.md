@@ -12,6 +12,7 @@ identifiers:
   - repology: grafana
   - purl: pkg:github/grafana/grafana
   - purl: pkg:golang/github.com/grafana/grafana
+  - cpe: cpe:2.3:a:grafana:grafana
 
 # See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
 # https://regex101.com/r/2GkIJ5/1

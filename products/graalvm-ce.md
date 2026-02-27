@@ -11,6 +11,7 @@ changelogTemplate: "https://www.graalvm.org/release-notes/JDK___RELEASE_CYCLE__/
 
 identifiers:
   - repology: graalvm
+  - cpe: cpe:2.3:a:oracle:graalvm
 
 auto:
   methods:

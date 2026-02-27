@@ -29,6 +29,7 @@ identifiers:
   - purl: pkg:docker/istio/proxyv2
   - purl: pkg:docker/istio/operator
   - purl: pkg:github/istio/istio
+  - cpe: cpe:2.3:a:istio:istio
 
 auto:
   methods:

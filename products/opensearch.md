@@ -31,6 +31,7 @@ auto:
 identifiers:
   - repology: opensearch
   - purl: pkg:docker/opensearchproject/opensearch
+  - cpe: cpe:2.3:a:amazon:opensearch
     
 releases:
   - releaseCycle: "3"

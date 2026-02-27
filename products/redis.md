@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:docker/ubuntu/redis
   - purl: pkg:brew/redis/redis
   - repology: redis
+  - cpe: cpe:2.3:a:redis:redis
 
 auto:
   methods:

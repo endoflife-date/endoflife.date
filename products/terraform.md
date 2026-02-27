@@ -13,6 +13,7 @@ identifiers:
   - repology: terraform
   - purl: pkg:github/hashicorp/terraform
   - purl: pkg:generic/terraform
+  - cpe: cpe:2.3:a:hashicorp:terraform
 
 auto:
   methods:

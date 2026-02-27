@@ -20,6 +20,7 @@ identifiers:
   - repology: tomcat
   - purl: pkg:maven/org.apache.tomcat/tomcat
   - purl: pkg:github/apache/tomcat
+  - cpe: cpe:2.3:a:apache:tomcat
 
 auto:
   methods:

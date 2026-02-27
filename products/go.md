@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:docker/bitnami/golang
   - purl: pkg:brew/go
   # - purl: pkg:snap/go
+  - cpe: cpe:2.3:a:golang:go
 
 auto:
   methods:

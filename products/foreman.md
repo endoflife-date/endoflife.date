@@ -10,6 +10,7 @@ changelogTemplate: https://theforeman.org/manuals/__RELEASE_CYCLE__/index.html#R
 
 identifiers:
   - repology: foreman
+  - cpe: cpe:2.3:a:theforeman:foreman
 
 auto:
   methods:
