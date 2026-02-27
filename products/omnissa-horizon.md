@@ -38,6 +38,7 @@ releases:
   - releaseCycle: "8.2503"
     releaseDate: 2025-04-15
     eol: 2028-08-14
+    lts: true
     technicalGuidance: 2028-04-15
     latest: "8.2503.1"
     latestReleaseDate: 2025-08-14
@@ -62,6 +63,7 @@ releases:
   - releaseCycle: "8.2312"
     releaseDate: 2024-01-23
     eol: 2027-01-23
+    lts: true
     technicalGuidance: 2028-01-23
     latest: "8.2312.1"
     latestReleaseDate: 2024-04-04
@@ -203,6 +205,7 @@ releases:
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of Extended Service Branch (ESB)
 in addition to the Current Release (CR) branch.
 ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months, and 15 months after the base version release.
+A new ESB release is made every 12 months.
 
 ## [General Support](https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html)
 
