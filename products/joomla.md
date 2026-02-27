@@ -11,7 +11,6 @@ eoasColumn: true
 
 identifiers:
   - repology: joomla
-  - cpe: cpe:2.3:a:joomla:joomla\!
 
 auto:
   methods:
