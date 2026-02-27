@@ -19,8 +19,6 @@ customFields:
 
 identifiers:
   - repology: eslint
-  - cpe: cpe:2.3:a:openjsf:eslint
-  - cpe: cpe:2.3:a:microsoft:eslint
 
 auto:
   methods:
