@@ -35,24 +35,24 @@ releases:
     eoas: 2026-05-19
     eol: 2027-05-19
     eoes: false
-    latest: "21.1.4"
-    latestReleaseDate: 2026-02-11
+    latest: "21.2.0"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "20"
     releaseDate: 2025-05-28
     eoas: 2025-11-19
     eol: 2026-11-28
     eoes: false
-    latest: "20.3.16"
-    latestReleaseDate: 2026-01-07
+    latest: "20.3.17"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.18"
-    latestReleaseDate: 2026-01-07
+    latest: "19.2.19"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "18"
     releaseDate: 2024-05-22

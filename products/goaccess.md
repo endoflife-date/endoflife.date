@@ -19,8 +19,9 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2016-06-09
     eol: false
-    latest: "1.9.4"
-    latestReleaseDate: 2025-03-31
+    latest: "1.10.1"
+    latestReleaseDate: 2026-02-14
+
 ---
 
 > [GoAccess](https://goaccess.io/) is an open source web analytics application for Unix-like

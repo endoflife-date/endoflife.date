@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:apk/alpine/nginx
   - purl: pkg:rpm/opensuse/nginx
   - purl: pkg:github/nginx/nginx
+  - cpe: cpe:2.3:a:f5:nginx
 
 auto:
   methods:

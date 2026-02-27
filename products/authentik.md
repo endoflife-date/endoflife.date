@@ -23,23 +23,29 @@ auto:
 
 # eol(x) = release(x+2) [ after the cycle of 2025.4 ]
 releases:
+  - releaseCycle: "2026.02"
+    releaseDate: 2026-02-24
+    eol: false
+    latest: "2025.6.0"
+    latestReleaseDate: 2026-02-24
+
   - releaseCycle: "2025.12"
     releaseDate: 2026-01-13
     eol: false
-    latest: "2025.12.3"
-    latestReleaseDate: 2026-02-02
+    latest: "2025.12.4"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-27
-    eol: false
-    latest: "2025.10.3"
-    latestReleaseDate: 2025-12-16
+    eol: 2026-02-24
+    latest: "2025.10.4"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.8"
     releaseDate: 2025-08-20
     eol: 2026-01-13
-    latest: "2025.8.5"
-    latestReleaseDate: 2025-11-19
+    latest: "2025.8.6"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-06-03
@@ -81,4 +87,4 @@ releases:
 
 > [authentik](https://goauthentik.io/) is an open source identity provider and single sign on platform.
 
-The current released version and one version back gets security fixes. There is a new release about every 2 months.
+The current released version and one version back gets security fixes. There is a new release about every 3 months.

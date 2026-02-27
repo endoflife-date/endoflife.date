@@ -11,7 +11,7 @@ alternate_urls:
   - /suselinuxenterpriseserver
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'|replace:'-SP0',''}}/"
+changelogTemplate: https://{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle < 16 %}www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__RELEASE_CYCLE__"|replace:".","-SP"|replace:"-SP0",""}}/{%else%}documentation.suse.com/releasenotes/sles/__RELEASE_CYCLE__/{%endif%}
 latestColumn: false
 eolColumn: General Support
 eoesColumn: Long Term Service Pack Support
@@ -32,8 +32,24 @@ auto:
         releaseDate: "FCS Date"
         eol: "General Ends"
         eoes: "LTSS Ends"
+    # Starting with SLES 16 the column and release titles changed
+    - release_table: https://www.suse.com/lifecycle/
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Releases"
+          regex: 'SUSE Linux Enterprise Server (?P<major>\d+)(.(?P<minor>\d+))?'
+          template: "{{major}}.{{minor}}"
+        releaseDate: "FCS Date"
+        eol: "General Ends"
+        eoes: "LTS Ends"
 
 releases:
+  - releaseCycle: "16.0"
+    releaseDate: 2025-11-04
+    eol: 2027-11-30
+    eoes: 2030-11-30
+
   - releaseCycle: "15.7"
     releaseDate: 2025-06-17
     eol: 2031-07-31

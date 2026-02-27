@@ -17,10 +17,17 @@ identifiers:
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:
-  - releaseCycle: "2.6"
-    releaseDate: 2023-01-25
+  - releaseCycle: "2.7"
+    releaseDate: 2026-02-11
     eoas: false
     eol: false
+    latest: "2.7.0"
+    latestReleaseDate: 2026-02-11
+
+  - releaseCycle: "2.6"
+    releaseDate: 2023-01-25
+    eoas: 2026-08-31
+    eol: 2028-08-31
     latest: "2.6.19"
     latestReleaseDate: 2026-02-04
 

@@ -220,7 +220,7 @@ releases:
     releaseLabel: "Galaxy Tab A8"
     releaseDate: 2022-01-17 # https://www.gsmarena.com/samsung_galaxy_tab_a8_10_5_(2021)-11265.php
     eoas: 2025-01-17 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2026-02-21
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
   - releaseCycle: "galaxy-tab-a7-lite"

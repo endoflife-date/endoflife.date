@@ -17,6 +17,30 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: moto-g77
+    releaseLabel: "Moto G77"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12520
+
+  - releaseCycle: moto-g67
+    releaseLabel: "Moto G67"
+    releaseDate: 2026-01-01
+    eol: 2030-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12519
+
+  - releaseCycle: moto-g17-power
+    releaseLabel: "Moto G17 Power"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12521
+
+  - releaseCycle: moto-g17
+    releaseLabel: "Moto G17"
+    releaseDate: 2026-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12522
+
   - releaseCycle: motorola-signature
     releaseLabel: "Motorola Signature"
     releaseDate: 2026-01-01
@@ -530,13 +554,13 @@ releases:
   - releaseCycle: "moto-g73-5g"
     releaseLabel: "Moto G73 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2026-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11431
 
   - releaseCycle: "moto-g53-5g"
     releaseLabel: "Moto G53 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2027-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11426
 
   - releaseCycle: "moto-g23"
@@ -620,7 +644,7 @@ releases:
   - releaseCycle: "motorola-edge-2022"
     releaseLabel: "Motorola Edge (2022)"
     releaseDate: 2022-08-01
-    eol: 2025-08-31
+    eol: 2026-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319
 
   - releaseCycle: "moto-g62-5g"
@@ -796,6 +820,7 @@ releases:
     releaseDate: 2021-08-01
     eol: 2023-08-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11170
+
 ---
 
 > [Motorola Mobility](https://motorola.com) is an American smartphone manufacturer, known for the
