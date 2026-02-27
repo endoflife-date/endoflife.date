@@ -11,7 +11,7 @@ alternate_urls:
   - /suselinuxenterpriseserver
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: "{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." | first %}{% if MajorReleaseCycle < 16 %}https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'|replace:'-SP0',''}}/{%else%}https://documentation.suse.com/releasenotes/sles/__RELEASE_CYCLE__/{%endif%}"
+changelogTemplate: "{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle < 16 %}https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'|replace:'-SP0',''}}/{%else%}https://documentation.suse.com/releasenotes/sles/__RELEASE_CYCLE__/{%endif%}"
 latestColumn: false
 eolColumn: General Support
 eoesColumn: Long Term Service Pack Support
