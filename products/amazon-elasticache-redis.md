@@ -52,8 +52,9 @@ releases:
 > Redis OSS to Valkey 7.2 is [supported](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/VersionManagement.HowTo.html#VersionManagement.HowTo.cross-engine-upgrade).
 > A downgrade from Valkey 7.2 to Redis OSS 7.1 is also supported.
 
-Amazon ElastiCache for Redis OSS does not follow the same support lifecycle as open-source Redis.
+Amazon ElastiCache for Redis OSS does not follow the same support lifecycle as open-source Redis. 
+ElastiCache v7.1 is compatible with Redis OSS v7.0.
 
 After the end of standard support date, ElastiCache automatically enrolls clusters in 
 [Extended Support](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/extended-support.html)
-— a paid offering providing critical security fixes for up to 3 years, see.
+— a paid offering providing critical security fixes for up to 3 years.
