@@ -76,15 +76,15 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
-    latest: "21.0.10+7"
-    latestReleaseDate: 2026-01-30
+    latest: "21.0.10+7.1"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.18+8"
-    latestReleaseDate: 2026-01-30
+    latest: "17.0.18+8.1"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "11"
     lts: true
