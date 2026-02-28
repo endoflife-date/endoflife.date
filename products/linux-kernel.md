@@ -33,15 +33,15 @@ releases:
   - releaseCycle: "6.19"
     releaseDate: 2026-02-08
     eol: false
-    latest: "6.19.3"
-    latestReleaseDate: 2026-02-19
+    latest: "6.19.4"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "6.18"
     lts: true
     releaseDate: 2025-11-30
     eol: 2028-12-31 # announced https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
-    latest: "6.18.13"
-    latestReleaseDate: 2026-02-19
+    latest: "6.18.14"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
