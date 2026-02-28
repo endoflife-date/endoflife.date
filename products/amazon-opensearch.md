@@ -4,9 +4,9 @@ addedAt: 2026-02-23
 category: service
 tags: amazon
 iconSlug: amazonopensearch
-permalink: /amazon-opensearch
+permalink: /amazon-opensearch-service
 alternate_urls:
-  - /amazon-opensearch-service
+  - /amazon-opensearch
   - /aws-opensearch
 releasePolicyLink: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#choosing-version
 latestColumn: false
