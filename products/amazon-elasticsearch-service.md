@@ -15,16 +15,6 @@ eoesColumn: Extended Support
 staleReleaseThresholdDays: 2000
 
 releases:
-  - releaseCycle: "7.10"
-    releaseDate: 2021-04-21
-    eol: false
-    eoes: false
-
-  - releaseCycle: "7.9"
-    releaseDate: 2020-11-24
-    eol: false
-    eoes: false
-
   - releaseCycle: "7.8"
     releaseDate: 2020-10-28
     eol: 2025-11-07
@@ -44,11 +34,6 @@ releases:
     releaseDate: 2019-08-13
     eol: 2025-11-07
     eoes: 2026-11-07
-
-  - releaseCycle: "6.8"
-    releaseDate: 2019-08-13
-    eol: false
-    eoes: false
 
   - releaseCycle: "6.7"
     releaseDate: 2019-05-29
