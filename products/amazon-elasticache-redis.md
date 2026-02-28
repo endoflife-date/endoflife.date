@@ -26,21 +26,29 @@ releases:
     releaseDate: 2022-04-12
     eol: false
     eoes: false
+    latest: "7.1"
+    latestReleaseDate: 2023-11-14
 
   - releaseCycle: "6"
     releaseDate: 2020-10-13
     eol: 2027-01-31
     eoes: 2030-01-31
+    latest: "6.2"
+    latestReleaseDate: 2021-11-23
 
   - releaseCycle: "5"
     releaseDate: 2018-10-17
     eol: 2026-01-31
     eoes: 2029-01-31
+    latest: "5.0.6"
+    latestReleaseDate: 2019-12-18
 
   - releaseCycle: "4"
     releaseDate: 2017-11-17
     eol: 2026-01-31
     eoes: 2029-01-31
+    latest: "4.0.10"
+    latestReleaseDate: 2018-06-14
 ---
 
 > [Amazon ElastiCache for Redis OSS](https://aws.amazon.com/elasticache/redis/) is a fully managed,
