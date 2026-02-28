@@ -8,6 +8,7 @@ permalink: /adonisjs
 alternate_urls:
   - /adonis
 versionCommand: npm list --depth=0  @adonisjs/core
+changelogTemplate: https://github.com/adonisjs/core/releases/tag/v__LATEST__
 
 auto:
   methods:
