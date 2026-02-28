@@ -1,12 +1,11 @@
 ---
 title: Amazon Elasticsearch Service
-addedAt: 2026-02-28
+addedAt: 2026-03-01
 category: service
 tags: amazon
 iconSlug: amazonopensearch
-permalink: /amazon-elasticsearch-service
+permalink: /amazon-elasticsearch
 alternate_urls:
-  - /amazon-elasticsearch
   - /aws-elasticsearch
 releasePolicyLink: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#choosing-version
 latestColumn: false
@@ -98,7 +97,10 @@ releases:
 ---
 
 {: .note }
-> This page tracks the AWS Managed Service. The Elasticsearch
-> self-hosted offering is tracked at [Elasticsearch](/elasticsearch).
+> This page tracks the AWS Managed Service. Also
+> see [Elasticsearch](/elasticsearch), and [Amazon OpenSearch](/amazon-opensearch)
 
-AWS provides bug fixes and security updates for versions under standard support. For versions in extended support, AWS offers critical security fixes for at least 12 months after standard support ends, at a flat fee per Normalized Instance Hour (NIH). NIH is based on instance size and usage hours.
+AWS provides bug fixes and security updates for versions under standard support. 
+For versions in extended support, AWS offers critical security fixes for at least 
+12 months after standard support ends, at a flat fee based on instance size and usage hours.
+Extended Support enrollment happens automatically.
