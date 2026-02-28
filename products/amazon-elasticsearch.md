@@ -70,6 +70,11 @@ releases:
     eol: 2025-11-07
     eoes: 2026-11-07
 
+  - releaseCycle: "5.6"
+    releaseDate: 2018-08-14
+    eol: 2025-11-07
+    eoes: 2028-11-07
+
   - releaseCycle: "6.2"
     releaseDate: 2018-03-14
     eol: 2025-11-07
@@ -79,11 +84,6 @@ releases:
     releaseDate: 2017-12-06
     eol: 2025-11-07
     eoes: 2026-11-07
-
-  - releaseCycle: "5.6"
-    releaseDate: 2018-08-14
-    eol: 2025-11-07
-    eoes: 2028-11-07
 
   - releaseCycle: "5.5"
     releaseDate: 2017-09-07
