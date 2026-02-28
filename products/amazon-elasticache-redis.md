@@ -1,6 +1,6 @@
 ---
 title: Amazon ElastiCache for Redis OSS
-addedAt: 2026-02-23
+addedAt: 2026-03-01
 category: service
 tags: amazon database
 iconSlug: amazonelasticache
