@@ -21,8 +21,6 @@ identifiers:
   - purl: pkg:docker/apache/hadoop
   - purl: pkg:github/apache/hadoop
   - purl: pkg:maven/org.apache.hadoop/hadoop-core
-  - purl: pkg:rpm/fedora/hadoop
-  - purl: pkg:rpm/opensuse/hadoop
   
 auto:
   methods:
