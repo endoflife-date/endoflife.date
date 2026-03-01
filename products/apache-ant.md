@@ -17,7 +17,6 @@ identifiers:
   - purl: pkg:deb/debian/ant
   - purl: pkg:deb/ubuntu/ant
   - purl: pkg:github/apache/ant
-  - purl: pkg:github/uriziel47/ant
   - purl: pkg:maven/org.apache.ant/ant
   - purl: pkg:rpm/fedora/ant
 
