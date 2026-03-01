@@ -14,7 +14,7 @@ changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releas
 identifiers:
   - cpe: cpe:/a:amazon:corretto
   - cpe: cpe:2.3:a:amazon:corretto
-  - purl: pkg:docker/amazoncorretto
+  - purl: pkg:docker/library/amazoncorretto
   - purl: pkg:github/corretto/corretto-11
   - purl: pkg:github/corretto/corretto-8
 
