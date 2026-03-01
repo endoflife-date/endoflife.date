@@ -19,7 +19,7 @@ identifiers:
   - cpe: cpe:/a:cloudera:hadoop
   - cpe: cpe:2.3:a:cloudera:hadoop
   - purl: pkg:apache/hadoop
-  - purl: pkg:dokcer/apache/hadoop
+  - purl: pkg:docker/apache/hadoop
   - purl: pkg:github/apache/hadoop
   - purl: pkg:maven/org.apache.hadoop/hadoop-core
   - purl: pkg:rpm/fedora/hadoop
