@@ -14,7 +14,11 @@ identifiers:
   - repology: cassandra
   - cpe: cpe:/a:apache:cassandra
   - cpe: cpe:2.3:a:apache:cassandra
-
+  - purl: pkg:github/apache/cassandra
+  - purl: pkg:maven/org.apache.cassandra/apache-cassandra
+  - purl: pkg:maven/org.apache.cassandra/cassandra
+  - purl: pkg:maven/org.apache.cassandra/cassandra-parent
+  
 auto:
   methods:
     - git: https://github.com/apache/cassandra.git

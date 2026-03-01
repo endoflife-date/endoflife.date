@@ -17,6 +17,7 @@ identifiers:
   - repology: kafka
   - cpe: cpe:/a:apache:kafka
   - cpe: cpe:2.3:a:apache:kafka
+  - purl: pkg:github/apache/kafka
 
 auto:
   methods:
