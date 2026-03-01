@@ -23,7 +23,6 @@ customFields:
 identifiers:
   - cpe: cpe:/o:google:android
   - cpe: cpe:2.3:o:google:android
-  - purl: pkg:googlesource/android
 
 # EOL is the latest security patch date for "Old version" on https://en.wikipedia.org/wiki/Android_version_history.
 releases:
