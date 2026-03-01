@@ -47,10 +47,6 @@ class IdentifierToUrl
       raise "Unsupported identifier type: #{type}"
     end
   end
-  
-  def _build_apache_url(purl)
-    return "https://#{purl.name.downcase}.apache.org/"
-  end
 
   def _build_repology_url(identifier)
     return "https://repology.org/project/#{identifier}"

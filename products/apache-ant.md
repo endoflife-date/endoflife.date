@@ -14,7 +14,6 @@ identifiers:
   - cpe: cpe:/a:apache:ant
   - cpe: cpe:2.3:a:apache:ant
   - repology: ant
-  - purl: pkg:apache/ant
   - purl: pkg:deb/debian/ant
   - purl: pkg:deb/ubuntu/ant
   - purl: pkg:github/apache/ant
