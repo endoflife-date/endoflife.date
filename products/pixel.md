@@ -128,7 +128,7 @@ releases:
     releaseDate: 2023-06-28
     eoas: 2028-06-01
     eol: 2028-06-01
-    discontinued: true
+    discontinued: 2024-08-13
     link: https://en.wikipedia.org/wiki/Pixel_Fold
     supportedAndroidVersions: "13 - 16" # https://www.gsmarena.com/google_pixel_fold-12265.php
 
@@ -146,7 +146,7 @@ releases:
     releaseDate: 2023-05-10
     eoas: 2028-05-01
     eol: 2028-05-01
-    discontinued: true
+    discontinued: 2023-10-04
     link: https://en.wikipedia.org/wiki/Pixel_7a
     supportedAndroidVersions: "13 - 16" # https://www.gsmarena.com/google_pixel_7a-12170.php
 
@@ -155,7 +155,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2027-10-01
     eol: 2027-10-01
-    discontinued: true
+    discontinued: 2023-10-04
     link: https://en.wikipedia.org/wiki/Pixel_7_Pro
     supportedAndroidVersions: "13 - 16" # https://www.gsmarena.com/google_pixel_7_pro-11908.php
 
@@ -164,7 +164,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2027-10-01
     eol: 2027-10-01
-    discontinued: true
+    discontinued: 2023-10-04
     link: https://en.wikipedia.org/wiki/Pixel_7
     supportedAndroidVersions: "13 - 16" # https://www.gsmarena.com/google_pixel_7-11903.php
 
@@ -173,7 +173,7 @@ releases:
     releaseDate: 2022-07-28
     eoas: 2027-07-01
     eol: 2027-07-01
-    discontinued: true
+    discontinued: 2023-05-10
     link: https://en.wikipedia.org/wiki/Pixel_6a
     supportedAndroidVersions: "12 - 16" # https://www.gsmarena.com/google_pixel_6a-11229.php
 
