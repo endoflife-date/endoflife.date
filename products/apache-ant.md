@@ -14,6 +14,13 @@ identifiers:
   - cpe: cpe:/a:apache:ant
   - cpe: cpe:2.3:a:apache:ant
   - repology: ant
+  - purl: pkg:apache/ant
+  - purl: pkg:deb/debian/ant
+  - purl: pkg:deb/ubuntu/ant
+  - purl: pkg:github/apache/ant
+  - purl: pkg:github/uriziel47/ant
+  - purl: pkg:maven/org.apache.ant/ant
+  - purl: pkg:rpm/fedora/ant
 
 auto:
   methods:

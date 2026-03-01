@@ -14,6 +14,9 @@ changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releas
 identifiers:
   - cpe: cpe:/a:amazon:corretto
   - cpe: cpe:2.3:a:amazon:corretto
+  - purl: pkg:docker/amazoncorretto
+  - purl: pkg:github/corretto/corretto-11
+  - purl: pkg:github/corretto/corretto-8
 
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.

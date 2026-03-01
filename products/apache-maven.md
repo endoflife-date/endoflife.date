@@ -20,6 +20,12 @@ identifiers:
   - repology: maven-shared-utils
   - cpe: cpe:/a:apache:maven_shared_utils
   - cpe: cpe:2.3:a:apache:maven_shared_utils
+  - purl: pkg:apache/maven
+  - purl: pkg:deb/debian/maven
+  - purl: pkg:deb/ubuntu/maven
+  - purl: pkg:github/apache/maven
+  - purl: pkg:maven/org.apache.maven/maven
+  - purl: pkg:rpm/opensuse/maven
 
 auto:
   methods:

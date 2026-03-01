@@ -18,7 +18,13 @@ identifiers:
   - cpe: cpe:2.3:a:apache:hadoop
   - cpe: cpe:/a:cloudera:hadoop
   - cpe: cpe:2.3:a:cloudera:hadoop
-
+  - purl: pkg:apache/hadoop
+  - purl: pkg:dokcer/apache/hadoop
+  - purl: pkg:github/apache/hadoop
+  - purl: pkg:maven/org.apache.hadoop/hadoop-core
+  - purl: pkg:rpm/fedora/hadoop
+  - purl: pkg:rpm/opensuse/hadoop
+  
 auto:
   methods:
     - git: https://github.com/apache/hadoop.git
