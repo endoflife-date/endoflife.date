@@ -146,7 +146,7 @@ releases:
     releaseDate: 2023-05-10
     eoas: 2028-05-01
     eol: 2028-05-01
-    discontinued: 2023-10-04
+    discontinued: 2025-04-01
     link: https://en.wikipedia.org/wiki/Pixel_7a
     supportedAndroidVersions: "13 - 16" # https://www.gsmarena.com/google_pixel_7a-12170.php
 
@@ -173,7 +173,7 @@ releases:
     releaseDate: 2022-07-28
     eoas: 2027-07-01
     eol: 2027-07-01
-    discontinued: 2023-05-10
+    discontinued: 2024-03-24
     link: https://en.wikipedia.org/wiki/Pixel_6a
     supportedAndroidVersions: "12 - 16" # https://www.gsmarena.com/google_pixel_6a-11229.php
 
