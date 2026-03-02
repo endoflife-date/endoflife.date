@@ -10,12 +10,20 @@ alternate_urls:
 versionCommand: model parameter in API requests
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
 
+customFields:
+  - name: recommendedReplacement
+    display: after-latest-column
+    label: Recommended replacement
+    description: Replacement model from Anthropic deprecation history
+    link: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
+
 releases:
   - releaseCycle: "sonnet-4.6"
     releaseLabel: Claude Sonnet 4.6
     releaseDate: 2026-02-17
     eol: false
     latest: "claude-sonnet-4-6"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2026-02-17
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -24,6 +32,7 @@ releases:
     releaseDate: 2026-02-05
     eol: false
     latest: "claude-opus-4-6"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2026-02-05
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -32,6 +41,7 @@ releases:
     releaseDate: 2025-11-24
     eol: false
     latest: "claude-opus-4-5-20251101"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-11-24
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -40,6 +50,7 @@ releases:
     releaseDate: 2025-10-15
     eol: false
     latest: "claude-haiku-4-5-20251001"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-10-15
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -48,6 +59,7 @@ releases:
     releaseDate: 2025-09-29
     eol: false
     latest: "claude-sonnet-4-5-20250929"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-09-29
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -56,6 +68,7 @@ releases:
     releaseDate: 2025-08-05
     eol: false
     latest: "claude-opus-4-1-20250805"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-08-05
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -64,6 +77,7 @@ releases:
     releaseDate: 2025-05-22
     eol: false
     latest: "claude-sonnet-4-20250514"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-05-22
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -72,6 +86,7 @@ releases:
     releaseDate: 2025-05-22
     eol: false
     latest: "claude-opus-4-20250514"
+    recommendedReplacement: "N/A"
     latestReleaseDate: 2025-05-22
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
@@ -80,6 +95,7 @@ releases:
     releaseDate: 2025-02-24
     eol: 2026-02-19
     latest: "claude-3-7-sonnet-20250219"
+    recommendedReplacement: "claude-opus-4-6"
     latestReleaseDate: 2025-02-24
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model
 
@@ -88,6 +104,7 @@ releases:
     releaseDate: 2024-10-22
     eol: 2026-02-19
     latest: "claude-3-5-haiku-20241022"
+    recommendedReplacement: "claude-haiku-4-5-20251001"
     latestReleaseDate: 2024-10-22
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-12-19-claude-haiku-3-5-model
 
@@ -96,6 +113,7 @@ releases:
     releaseDate: 2024-06-20
     eol: 2025-10-28
     latest: "claude-3-5-sonnet-20241022"
+    recommendedReplacement: "claude-opus-4-6"
     latestReleaseDate: 2024-10-22
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models
 
@@ -104,6 +122,7 @@ releases:
     releaseDate: 2024-03-13
     eol: 2026-04-20
     latest: "claude-3-haiku-20240307"
+    recommendedReplacement: "claude-haiku-4-5-20251001"
     latestReleaseDate: 2024-03-13
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-02-19-claude-haiku-3-model
 
@@ -112,6 +131,7 @@ releases:
     releaseDate: 2024-03-04
     eol: 2026-01-05
     latest: "claude-3-opus-20240229"
+    recommendedReplacement: "claude-opus-4-6"
     latestReleaseDate: 2024-03-04
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model
 
@@ -120,6 +140,7 @@ releases:
     releaseDate: 2024-03-04
     eol: 2025-07-21
     latest: "claude-3-sonnet-20240229"
+    recommendedReplacement: "claude-opus-4-6"
     latestReleaseDate: 2024-03-04
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
@@ -129,6 +150,7 @@ releases:
     releaseDate: 2023-11-21
     eol: 2025-07-21
     latest: "claude-2.1"
+    recommendedReplacement: "claude-opus-4-6"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
   - releaseCycle: "claude-2.0"
@@ -137,6 +159,7 @@ releases:
     releaseDate: 2023-07-11
     eol: 2025-07-21
     latest: "claude-2.0"
+    recommendedReplacement: "claude-opus-4-6"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
   - releaseCycle: "claude-1"
@@ -145,6 +168,7 @@ releases:
     releaseDate: 2023-03-14
     eol: 2024-11-06
     latest: "claude-1.3"
+    recommendedReplacement: "claude-haiku-4-5-20251001"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
 
   - releaseCycle: "claude-instant-1"
@@ -153,6 +177,7 @@ releases:
     releaseDate: 2023-08-09
     eol: 2024-11-06
     latest: "claude-instant-1.2"
+    recommendedReplacement: "claude-haiku-4-5-20251001"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
 ---
 
