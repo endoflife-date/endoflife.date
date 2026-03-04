@@ -1,6 +1,6 @@
 ---
 title: Knative
-addedAt: 2025-12-16
+addedAt: 2026-03-04
 category: server-app
 tags: cncf linux-foundation
 iconSlug: knative
@@ -178,8 +178,7 @@ releases:
 
 > [Knative](https://knative.dev) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads.
 
-
-Only the latest 2 releases are supported. Each release receives approximately 9 months of community support.
+Only the latest 2 releases are supported. Each release receives approximately 6 months of community support.
 
 ## Release Cadence
 
