@@ -23,10 +23,25 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/knative/serving.git
-
-# eol(X) = releaseDate(X+2) + 1 week
-# releaseDate(x) = Tuesday of the 4th week in January, April, July, and October.
+      # Render GitHub Markdown to web so we get a real table without having to render javascript
+    - release_table: https://collected.press/github/knative/community/mechanics/RELEASE-SCHEDULE.md
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>.+)$'
+        releaseDate: "Date"
+        eol: "EOL"
+        minK8sVersion: "Min K8s Version"
+# eol dates as per upstream table
 releases:
+  - releaseCycle: "1.21"
+    releaseDate: 2026-01-27
+    eol: 2026-08-04
+    minK8sVersion: "1.33"
+    latest: "1.21.0"
+    latestReleaseDate: 2026-01-27
+
   - releaseCycle: "1.20"
     releaseDate: 2025-10-21
     eol: 2026-04-21
