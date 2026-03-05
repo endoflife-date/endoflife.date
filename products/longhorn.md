@@ -15,11 +15,17 @@ auto:
     - git: https://github.com/longhorn/longhorn.git
 
 releases:
+  - releaseCycle: "1.11"
+    releaseDate: 2026-01-29
+    eol: false
+    latest: "1.11.0"
+    latestReleaseDate: 2026-01-29
+
   - releaseCycle: "1.10"
     releaseDate: 2025-09-25
     eol: false
-    latest: "1.10.1"
-    latestReleaseDate: 2025-11-12
+    latest: "1.10.2"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.9"
     releaseDate: 2025-05-27
