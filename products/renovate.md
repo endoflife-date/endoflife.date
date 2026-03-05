@@ -56,11 +56,17 @@ Only the latest major version is supported.
 
 There have been cases where the Renovate maintainers will backport (security) fixes to previous major versions, but these are at the discretion of the maintainers, and are primarily to support Mend customers.
 
-The Renovate CLI is also packaged into a few offerings from Mend:
+## Commercial offerings
+
+The Renovate CLI is also packaged into a [few offerings from Mend](https://www.mend.io/renovate/):
 
 - Mend's developer platform, a Cloud offering which includes Renovate as a Software-as-a-Service, with a "Community" free tier, and an "Enterprise" plan
 - Mend Renovate Self-Hosted, a self-hosted offering which has a "Community" offering, and an "Enterprise" offering
 
-Enterprise customers have the ability to influence the roadmap for the development of features, and receive priority support for bugs, including for previous major versions of Renovate.
+This page does not cover the end-of-life status of these products, only the Renovate CLI.
+
+## Additional support
+
+Enterprise customers of Mend products have the ability to influence the roadmap for the development of features, and receive priority support for bugs, including for previous major versions of Renovate.
 
 One of the Renovate maintainers, [Sebastian Poxhofer (`@secustor`)](https://github.com/secustor), is available for paid consulting on Renovate, including bug fixes and feature development.
