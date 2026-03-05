@@ -26,7 +26,7 @@ releases:
 
   - releaseCycle: "1.36"
     releaseDate: 2026-02-23
-    eol: false
+    eol: 2026-03-02
     latest: "1.36.0"
     latestReleaseDate: 2026-02-23
 
