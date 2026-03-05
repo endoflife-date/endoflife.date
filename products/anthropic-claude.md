@@ -4,9 +4,9 @@ addedAt: 2026-03-02
 category: llm
 tags: anthropic
 iconSlug: anthropic
-permalink: /anthropic-claude
+permalink: /claude
 alternate_urls:
-  - /claude
+  - /anthropic-claude
 versionCommand: model parameter in API requests
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
 
