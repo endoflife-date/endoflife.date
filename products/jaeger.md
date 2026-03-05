@@ -10,6 +10,7 @@ eolColumn: Security Support
 
 identifiers:
   - repology: jaeger
+  - cpe: cpe:2.3:a:linuxfoundation:jaeger
 
 auto:
   methods:

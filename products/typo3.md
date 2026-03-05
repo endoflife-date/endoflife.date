@@ -13,6 +13,7 @@ eoesColumn: Extended Long Term Support
 identifiers:
   - repology: typo3
   - purl: pkg:composer/typo3/cms
+  - cpe: cpe:2.3:a:typo3:typo3
 
 auto:
   methods:

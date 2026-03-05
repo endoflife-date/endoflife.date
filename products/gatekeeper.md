@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:github/open-policy-agent/gatekeeper
   - purl: pkg:docker/openpolicyagent/gatekeeper
   - purl: pkg:oci/gatekeeper?repository_url=cgr.dev/chainguard
+  - cpe: cpe:2.3:a:openpolicyagent:gatekeeper
 
 # eol(x) = releaseDate(x+2)
 releases:

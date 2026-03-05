@@ -18,6 +18,7 @@ identifiers:
   - purl: pkg:docker/bitnami/couchdb
   - purl: pkg:docker/rapidfort/couchdb-official
   - repology: couchdb
+  - cpe: cpe:2.3:a:apache:couchdb
 
 auto:
   methods:

@@ -13,6 +13,7 @@ eoasColumn: true
 identifiers:
   - repology: python:wagtail
   - purl: pkg:pypi/wagtail
+  - cpe: cpe:2.3:a:torchbox:wagtail
 
 auto:
   methods:
@@ -32,15 +33,15 @@ releases:
     releaseDate: 2026-02-03
     eoas: 2026-05-04
     eol: 2026-08-03
-    latest: "7.3"
-    latestReleaseDate: 2026-02-03
+    latest: "7.3.1"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "7.2"
     releaseDate: 2025-11-05
     eoas: 2026-02-02
     eol: 2026-05-04
-    latest: "7.2.2"
-    latestReleaseDate: 2026-02-03
+    latest: "7.2.3"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "7.1"
     releaseDate: 2025-08-04
@@ -54,8 +55,8 @@ releases:
     releaseDate: 2025-05-06
     eoas: 2026-11-02
     eol: 2026-11-02
-    latest: "7.0.5"
-    latestReleaseDate: 2026-02-12
+    latest: "7.0.6"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "6.4"
     releaseDate: 2025-02-03
@@ -69,8 +70,8 @@ releases:
     releaseDate: 2024-11-01
     eoas: 2026-05-01
     eol: 2026-05-01
-    latest: "6.3.7"
-    latestReleaseDate: 2026-02-12
+    latest: "6.3.8"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "6.2"
     releaseDate: 2024-08-01

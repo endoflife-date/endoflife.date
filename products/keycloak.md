@@ -12,6 +12,7 @@ eolColumn: Supported
 identifiers:
   - purl: pkg:github/keycloak/keycloak
   - repology: keycloak
+  - cpe: cpe:2.3:a:redhat:keycloak
 
 auto:
   methods:

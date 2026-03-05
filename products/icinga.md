@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:docker/icinga/icinga2
   - purl: pkg:github/Icinga/icinga2
   - purl: pkg:github/Icinga/icinga-core
+  - cpe: cpe:2.3:a:icinga:icinga
 
 auto:
   methods:

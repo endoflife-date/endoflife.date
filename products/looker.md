@@ -10,6 +10,9 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 latestColumn: false
 
+identifiers:
+  - cpe: cpe:2.3:a:google:looker
+
 # Used only for detecting new minor releases.
 auto:
   methods:

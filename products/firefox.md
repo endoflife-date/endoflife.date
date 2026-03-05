@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:apk/alpine/firefox
   - purl: pkg:deb/debian/firefox-esr
   - purl: pkg:generic/firefox
+  - cpe: cpe:2.3:a:mozilla:firefox
 
 auto:
   # It takes too much time to fetch all versions.

@@ -19,6 +19,7 @@ identifiers:
   - repology: ruby:rails
   - purl: pkg:gem/rails
   - purl: pkg:github/rails/rails
+  - cpe: cpe:2.3:a:rubyonrails:rails
 
 auto:
   methods:

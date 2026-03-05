@@ -17,6 +17,7 @@ eolColumn: Support Status
 identifiers:
   - purl: pkg:github/powershell/powershell
   - repology: powershell
+  - cpe: cpe:2.3:a:microsoft:powershell
 
 customFields:
   - name: dotnetVersion

@@ -26,14 +26,15 @@ auto:
 
 identifiers:
   - repology: mattermost
+  - cpe: cpe:2.3:a:mattermost:mattermost_server
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
   - releaseCycle: "11.4"
     releaseDate: 2026-02-16
     eol: 2026-05-15
-    latest: "11.4.1"
-    latestReleaseDate: 2026-02-20
+    latest: "11.4.2"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "11.3"
     releaseDate: 2026-01-16

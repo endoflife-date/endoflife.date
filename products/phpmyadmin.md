@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:rpm/redhat/phpmyadmin
   - purl: pkg:rpm/centos/phpmyadmin
   - purl: pkg:docker/library/phpmyadmin
+  - cpe: cpe:2.3:a:phpmyadmin:phpmyadmin
 
 releases:
   - releaseCycle: "5.2"

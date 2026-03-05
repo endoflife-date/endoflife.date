@@ -12,6 +12,7 @@ eolColumn: Security Support
 
 identifiers:
   - repology: roundcube
+  - cpe: cpe:2.3:a:roundcube:webmail
 
 auto:
   methods:
