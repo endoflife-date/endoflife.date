@@ -12,6 +12,7 @@ identifiers:
   - purl: pkg:npm/jquery-ui
   - purl: pkg:nuget/jQuery.UI.Combined
   - repology: jquery-ui
+  - cpe: cpe:2.3:a:jqueryui:jquery_ui
 
 auto:
   methods:

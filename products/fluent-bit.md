@@ -17,6 +17,7 @@ identifiers:
   - repology: fluent-bit
   - purl: pkg:github/fluent/fluent-bit
   - purl: pkg:docker/fluent/fluent-bit
+  - cpe: cpe:2.3:a:treasuredata:fluent_bit
 
 auto:
   methods:

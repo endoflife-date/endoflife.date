@@ -10,6 +10,9 @@ releasePolicyLink: https://unity.com/releases/unity-6/support
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 eoesColumn: Extended Long Term Support
 
+identifiers:
+  - cpe: cpe:2.3:a:unity3d:unity_editor
+
 auto:
   methods:
     - unity: https://services.api.unity.com/unity/editor/release/v1/releases

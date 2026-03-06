@@ -23,6 +23,7 @@ identifiers:
   - purl: pkg:oci/openbao?repository_url=quay.io/openbao
   - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
   - purl: pkg:brew/openbao
+  - cpe: cpe:2.3:a:openbao:openbao
 
 auto:
   methods:

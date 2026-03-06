@@ -3,9 +3,9 @@ name: Lint
 on:
   workflow_dispatch: # Manually run workflow.
   push:
-    branches: ["master"]
+    branches: ["master", "release"]
   pull_request:
-    branches: ["master"]
+    branches: ["master", "release"]
 
 jobs:
   lint:
