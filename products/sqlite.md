@@ -29,8 +29,9 @@ releases:
     # 3.0.7 release date, because it is the first stable release in the 3.x line
     releaseDate: 2004-09-18
     eol: false
-    latest: "3.51.2"
-    latestReleaseDate: 2026-01-09
+    latest: "3.52.0"
+    latestReleaseDate: 2026-03-06
+    link: https://sqlite.org/releaselog/3_52_0.html
 
   - releaseCycle: "2"
     releaseDate: 2001-09-28
