@@ -72,8 +72,8 @@ releases:
     maxAngularVersion: v20.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
-    latest: "8.7.18"
-    latestReleaseDate: 2026-02-25
+    latest: "8.8.0"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "7"
     releaseDate: 2023-03-29

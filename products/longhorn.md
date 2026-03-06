@@ -79,7 +79,7 @@ releases:
     releaseDate: 2020-12-18
     eol: 2022-04-23
     latest: "1.1.3"
-    latestReleaseDate: 2021-12-17
+    latestReleaseDate: 2021-12-16
 
 ---
 
