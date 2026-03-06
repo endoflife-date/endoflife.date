@@ -19,6 +19,7 @@ auto:
 
 identifiers:
   - repology: rust
+  - cpe: cpe:2.3:a:rust-lang:rust
 
 # eol(x) = releaseDate(x+1)
 releases:

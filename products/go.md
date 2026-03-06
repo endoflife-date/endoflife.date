@@ -23,6 +23,7 @@ identifiers:
   - cpe: cpe:2.3:a:golang:go
 
   # - purl: pkg:snap/go
+  - cpe: cpe:2.3:a:golang:go
 
 auto:
   methods:

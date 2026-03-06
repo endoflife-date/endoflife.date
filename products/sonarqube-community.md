@@ -14,6 +14,7 @@ eolColumn: Support
 
 identifiers:
   - repology: sonarqube
+  - cpe: cpe:2.3:a:sonarsource:sonarqube
 
 auto:
   methods:
@@ -24,8 +25,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2026-01-06
     eol: false
-    latest: "26.2.0.119303"
-    latestReleaseDate: 2026-02-04
+    latest: "26.3.0.120487"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "25"
     releaseDate: 2025-01-07

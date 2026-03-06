@@ -12,6 +12,7 @@ identifiers:
   - repology: grafana
   - purl: pkg:github/grafana/grafana
   - purl: pkg:golang/github.com/grafana/grafana
+  - cpe: cpe:2.3:a:grafana:grafana
 
 # See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
 # https://regex101.com/r/2GkIJ5/1
@@ -31,6 +32,13 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
+  - releaseCycle: "12.4"
+    releaseDate: 2026-02-24
+    eoas: 2026-04-24 # estimated
+    eol: 2027-05-24
+    latest: "12.4.0"
+    latestReleaseDate: 2026-02-25
+
   - releaseCycle: "12.3"
     releaseDate: 2025-11-19
     eoas: 2026-02-24
