@@ -42,7 +42,7 @@ releases:
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
     latest: "9.6.0"
-    latestReleaseDate: 2026-01-20
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "9.5"
     releaseDate: 2025-10-21
