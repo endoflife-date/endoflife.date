@@ -1,8 +1,6 @@
-# vim: set ft=yaml :
-# yaml-language-server: $schema=../product-schema.json
 ---
 title: Freedesktop SDK
-addedAt: 2025-10-29
+addedAt: 2026-03-07
 category: framework
 iconSlug: freedesktopdotorg
 permalink: /freedesktop-sdk
@@ -14,8 +12,7 @@ auto:
     # Cross check with the GitLab releases
     # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases
     - git: https://gitlab.com/freedesktop-sdk/freedesktop-sdk.git
-      regex: ' freedesktop-sdk-(?P<version>\d{2}[.]\d{2}[.]\d{1})'
-      template: "{{version}}"
+      regex: 'freedesktop-sdk-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)'
 
 # eol(r) = releaseDate(r) + 2 years
 releases:
