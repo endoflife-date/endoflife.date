@@ -15,6 +15,16 @@ identifiers:
   - cpe: cpe:/a:amazon:corretto
   - cpe: cpe:2.3:a:amazon:corretto
   - purl: pkg:docker/library/amazoncorretto
+  - purl: pkg:github/corretto/corretto-26
+  - purl: pkg:github/corretto/corretto-25
+  - purl: pkg:github/corretto/corretto-24
+  - purl: pkg:github/corretto/corretto-23
+  - purl: pkg:github/corretto/corretto-22
+  - purl: pkg:github/corretto/corretto-21
+  - purl: pkg:github/corretto/corretto-20
+  - purl: pkg:github/corretto/corretto-19
+  - purl: pkg:github/corretto/corretto-18
+  - purl: pkg:github/corretto/corretto-17
   - purl: pkg:github/corretto/corretto-11
   - purl: pkg:github/corretto/corretto-8
 
