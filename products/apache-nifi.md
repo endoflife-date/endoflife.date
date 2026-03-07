@@ -16,7 +16,6 @@ identifiers:
   - purl: pkg:docker/apache/nifi
   - purl: pkg:github/apache/nifi
   - purl: pkg:maven/org.apache.nifi/nifi
-  
 auto:
   methods:
     - git: https://github.com/apache/nifi.git
