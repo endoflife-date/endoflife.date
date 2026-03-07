@@ -13,6 +13,22 @@ eolColumn: Service Status
 # Release dates can be found on https://en.wikipedia.org/wiki/Amazon_Kindle.
 # Latest releases can be found on https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW.
 releases:
+  - releaseCycle: "kindle-scribe-3"
+    releaseLabel: "Kindle Scribe (3rd Generation)"
+    releaseDate: 2025-09-30
+    eol: false
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
+    link: https://www.amazon.com/KindleScribe3GenerationNotes
+
+  - releaseCycle: "kindle-scribe-colorsoft-1"
+    releaseLabel: "Kindle Scribe Colorsoft (1st Generation)"
+    releaseDate: 2025-09-30
+    eol: false
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
+    link: https://www.amazon.com/KindleScribeColorsoft1GenerationNotes
+
   - releaseCycle: "kindle-scribe-2024"
     releaseLabel: "Kindle Scribe - 2024 Release"
     releaseDate: 2024-12-04
