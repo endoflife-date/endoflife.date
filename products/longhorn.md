@@ -1,5 +1,6 @@
 ---
 title: Longhorn
+addedAt: 2026-03-05
 category: server-app
 tags: cncf
 permalink: /longhorn
