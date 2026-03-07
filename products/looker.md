@@ -66,7 +66,7 @@ releases:
     link: https://discuss.google.dev/t/looker-25-14-release-notes/254350
 
   - releaseCycle: "25.12"
-    releaseDate: 2025-07-24
+    releaseDate: 2025-07-31
     lts: 2025-08-31
     eol: 2025-11-30
     link: https://discuss.google.dev/t/looker-25-12-release-notes/245841

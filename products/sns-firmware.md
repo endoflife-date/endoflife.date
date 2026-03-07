@@ -25,7 +25,7 @@ auto:
 
 releases:
   - releaseCycle: "5.0"
-    releaseDate: 2025-06-24
+    releaseDate: 2025-09-24
     eoas: false
     eol: false
 

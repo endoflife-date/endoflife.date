@@ -28,9 +28,15 @@ auto:
       template: "{{version}}"
 
 releases:
+  - releaseCycle: "10"
+    releaseDate: 2026-03-03
+    eol: false
+    latest: "10.0.0"
+    latestReleaseDate: 2026-03-03
+
   - releaseCycle: "9"
     releaseDate: 2022-05-11
-    eol: false
+    eol: 2026-03-03
     latest: "9.10.1"
     latestReleaseDate: 2026-01-20
 
