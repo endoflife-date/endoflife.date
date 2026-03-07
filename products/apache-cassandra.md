@@ -18,7 +18,6 @@ identifiers:
   - purl: pkg:maven/org.apache.cassandra/apache-cassandra
   - purl: pkg:maven/org.apache.cassandra/cassandra
   - purl: pkg:maven/org.apache.cassandra/cassandra-parent
-  
 auto:
   methods:
     - git: https://github.com/apache/cassandra.git
