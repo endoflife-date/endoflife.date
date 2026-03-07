@@ -17,21 +17,28 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/coder/coder.git
+    - github_releases: coder/coder
 
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "2.31"
+    releaseDate: 2026-03-03
+    eoas: false # releaseDate(2.33)
+    eol: false # releaseDate(2.34)
+    latest: "2.31.3"
+    latestReleaseDate: 2026-03-06
+
   - releaseCycle: "2.30"
     releaseDate: 2026-02-03
     eoas: false # releaseDate(2.32)
     eol: false # releaseDate(2.33)
     latest: "2.30.3"
-    latestReleaseDate: 2026-03-03
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "2.29"
     releaseDate: 2025-12-02
-    eoas: false # releaseDate(2.31)
+    eoas: 2026-02-23 # releaseDate(2.31)
     eol: false # releaseDate(2.32)
     latest: "2.29.8"
     latestReleaseDate: 2026-03-03
@@ -39,7 +46,7 @@ releases:
   - releaseCycle: "2.28"
     releaseDate: 2025-11-04
     eoas: 2026-02-03 # releaseDate(2.30)
-    eol: false # releaseDate(2.31)
+    eol: 2026-02-23 # releaseDate(2.31)
     latest: "2.28.11"
     latestReleaseDate: 2026-02-23
 
