@@ -1,6 +1,6 @@
 ---
 title: Discourse
-addedAt: 2026-01-31
+addedAt: 2026-03-07
 category: server-app
 tags: javascript-runtime ruby-runtime
 iconSlug: discourse
@@ -21,6 +21,7 @@ auto:
   methods:
     - git: https://github.com/discourse/discourse.git
 
+# EOL documented on https://releases.discourse.org/
 releases:
   - releaseCycle: "2026.1"
     lts: true
@@ -46,6 +47,6 @@ releases:
 > [Discourse](https://discourse.org/) is a free and open-source software for running a self-hosted online forum.
 
 Discourse follows [Calendar Versioning](https://calver.org/) ([semver](https://semver.org) before November 2025).
-
 There is a new release every month.
-Every six months there's an ESR release which is supported for eight months.
+Each monthly release receives security updates for approximately two months.
+Every 6 months, an Extended Support Release (ESR) is designated, which receives updates for approximately 8 months.
