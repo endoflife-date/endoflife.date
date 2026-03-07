@@ -3,7 +3,9 @@ title: Concrete CMS
 addedAt: 2025-11-17
 category: server-app
 tags: php-runtime
-permalink: /concrete
+permalink: /concrete-cms
+alternate_urls:
+  - /concrete
 versionCommand: concrete/bin/concrete --version
 releasePolicyLink: https://documentation.concretecms.org/9-x/developers/introduction/versioning-numbering-guide
 changelogTemplate: "https://github.com/concretecms/concretecms/releases/tag/{{'__LATEST__'}}"
