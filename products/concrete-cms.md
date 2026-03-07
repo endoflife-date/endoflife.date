@@ -32,19 +32,19 @@ releases:
 
   - releaseCycle: "8"
     releaseDate: 2016-12-01
-    eol: true
+    eol: 2025-08-05
     latest: "8.5.21"
     latestReleaseDate: 2025-08-05
 
   - releaseCycle: "5.7"
     releaseDate: 2014-09-12
-    eol: true
+    eol: 2019-10-23
     latest: "5.7.5.13"
     latestReleaseDate: 2019-10-23
 
   - releaseCycle: "5.6"
     releaseDate: 2012-08-26
-    eol: true
+    eol: 2019-02-26 # https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640
     latest: "5.6.4.0"
     latestReleaseDate: 2019-02-26
     link: "https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640"
