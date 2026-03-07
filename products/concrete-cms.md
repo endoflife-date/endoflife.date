@@ -51,17 +51,14 @@ releases:
 
 ---
 
-> [Concrete CMS](https://www.concretecms.org/) (historically known as concrete5) is an open source content management
-> system for teams. A website builder with built in tools make editing content easy.
+> [Concrete CMS](https://www.concretecms.org/) (historically known as concrete5) is an open source content management system for teams.
+> A website builder with built-in tools make editing content easy.
 
-The last minor version of Concrete CMS released before a new major version will continue to receive patches for at least
-three years following release. These will contain bug fixes and security updates that are also being applied to the new
-major version of Concrete CMS.
-
-## [Release Schedule](https://documentation.concretecms.org/9-x/developers/introduction/versioning-numbering-guide)
-
+Beginning with version 8, Concrete CMS adheres to [Semantic Versioning](https://semver.org/).
 Concrete CMS has a loose release schedule:
 
 - A new major version comes out every few years, when it's ready.
 - A new minor version is released every six months, likely in late fall and late spring.
 - A new patch version is released every month, likely on the first Tuesday of the month.
+
+The last minor version of Concrete CMS released before a new major version is supported with bug fixes and security updates for at least three years following release.
