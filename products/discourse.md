@@ -33,14 +33,14 @@ releases:
     lts: true
     releaseDate: 2026-01-28
     eol: false
-    latest: "2026.1.0"
-    latestReleaseDate: 2026-01-28
+    latest: "2026.1.1"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "2025.12"
     releaseDate: 2025-12-30
     eol: false
-    latest: "2025.12.1"
-    latestReleaseDate: 2026-01-28
+    latest: "2025.12.2"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "2025.11"
     releaseDate: 2025-11-25
@@ -52,15 +52,15 @@ releases:
     lts: true
     releaseDate: 2025-08-19
     eol: 2026-01-28
-    latest: "3.5.0"
-    latestReleaseDate: 2025-08-19
+    latest: "3.5.4"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.4"
     lts: true
     releaseDate: 2025-02-04
     eol: 2025-08-19
-    latest: "3.4.0"
-    latestReleaseDate: 2025-02-04
+    latest: "3.4.7"
+    latestReleaseDate: 2025-07-29
 
 ---
 
