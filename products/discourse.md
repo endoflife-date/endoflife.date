@@ -23,6 +23,12 @@ auto:
 
 # EOL documented on https://releases.discourse.org/
 releases:
+  - releaseCycle: "2026.2"
+    releaseDate: 2026-02-26
+    eol: false
+    latest: "2026.2.0"
+    latestReleaseDate: 2026-02-26
+
   - releaseCycle: "2026.1"
     lts: true
     releaseDate: 2026-01-28
@@ -41,6 +47,20 @@ releases:
     eol: 2026-01-28
     latest: "2025.11.2"
     latestReleaseDate: 2026-01-28
+
+  - releaseCycle: "3.5"
+    lts: true
+    releaseDate: 2025-08-19
+    eol: 2026-01-28
+    latest: "3.5.0"
+    latestReleaseDate: 2025-08-19
+
+  - releaseCycle: "3.4"
+    lts: true
+    releaseDate: 2025-02-04
+    eol: 2025-08-19
+    latest: "3.4.0"
+    latestReleaseDate: 2025-02-04
 
 ---
 
