@@ -8,7 +8,7 @@ alternate_urls:
   - /concrete
 versionCommand: concrete/bin/concrete --version
 releasePolicyLink: https://documentation.concretecms.org/9-x/developers/introduction/versioning-numbering-guide
-changelogTemplate: "https://github.com/concretecms/concretecms/releases/tag/{{'__LATEST__'}}"
+changelogTemplate: https://github.com/concretecms/concretecms/releases/tag/__LATEST__
 eolColumn: Support
 
 auto:
