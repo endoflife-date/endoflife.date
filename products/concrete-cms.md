@@ -25,10 +25,10 @@ identifiers:
 
 releases:
   - releaseCycle: "9"
-    releaseDate: 2021-10-28
+    releaseDate: 2021-10-29
     eol: false
-    latest: "9.4.6"
-    latestReleaseDate: 2025-11-04
+    latest: "9.4.8"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "8"
     releaseDate: 2016-12-01
@@ -40,7 +40,7 @@ releases:
     releaseDate: 2014-09-12
     eol: true
     latest: "5.7.5.13"
-    latestReleaseDate: 2016-12-16
+    latestReleaseDate: 2019-10-23
 
   - releaseCycle: "5.6"
     releaseDate: 2012-08-26
@@ -48,6 +48,7 @@ releases:
     latest: "5.6.4.0"
     latestReleaseDate: 2019-02-26
     link: "https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640"
+
 ---
 
 > [Concrete CMS](https://www.concretecms.org/) (historically known as concrete5) is an open source content management
@@ -64,4 +65,3 @@ Concrete CMS has a loose release schedule:
 - A new major version comes out every few years, when it's ready.
 - A new minor version is released every six months, likely in late fall and late spring.
 - A new patch version is released every month, likely on the first Tuesday of the month.
-
