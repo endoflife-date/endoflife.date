@@ -147,16 +147,22 @@ releases:
 
   - releaseCycle: "claude-2.1"
     releaseLabel: Claude 2.1
-    outOfOrder: true
     releaseDate: 2023-11-21
     eol: 2025-07-21
     latest: "claude-2.1"
     recommendedReplacement: "claude-opus-4-6"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
+  - releaseCycle: "claude-instant-1"
+    releaseLabel: Claude Instant 1
+    releaseDate: 2023-08-09
+    eol: 2024-11-06
+    latest: "claude-instant-1.2"
+    recommendedReplacement: "claude-haiku-4-5-20251001"
+    link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
+
   - releaseCycle: "claude-2.0"
     releaseLabel: Claude 2.0
-    outOfOrder: true
     releaseDate: 2023-07-11
     eol: 2025-07-21
     latest: "claude-2.0"
@@ -165,19 +171,9 @@ releases:
 
   - releaseCycle: "claude-1"
     releaseLabel: Claude 1
-    outOfOrder: true
     releaseDate: 2023-03-14
     eol: 2024-11-06
     latest: "claude-1.3"
-    recommendedReplacement: "claude-haiku-4-5-20251001"
-    link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
-
-  - releaseCycle: "claude-instant-1"
-    releaseLabel: Claude Instant 1
-    outOfOrder: true
-    releaseDate: 2023-08-09
-    eol: 2024-11-06
-    latest: "claude-instant-1.2"
     recommendedReplacement: "claude-haiku-4-5-20251001"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
 ---
