@@ -186,5 +186,3 @@ Anthropic publishes model lifecycle state in the Claude model deprecations docum
 A model can be active, legacy, deprecated, or retired. Deprecated models keep working for
 existing users until their retirement date, and requests to retired models fail.
 
-The table tracks current major Claude model families and upcoming retirements that Anthropic has
-announced in its deprecation history.
