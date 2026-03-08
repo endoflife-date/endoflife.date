@@ -100,8 +100,8 @@ releases:
   - releaseCycle: "1.1"
     releaseDate: 2024-04-16
     eol: 2024-05-27
-    latest: "1.1.0"
-    latestReleaseDate: 2024-04-16
+    latest: "1.1.1"
+    latestReleaseDate: 2020-07-20
 
   - releaseCycle: "1.0"
     releaseDate: 2024-03-04
