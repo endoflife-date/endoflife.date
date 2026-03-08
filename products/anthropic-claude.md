@@ -204,11 +204,14 @@ releases:
 
 ## Lifecycle states
 
-Anthropic classifies Claude API models as active, legacy, deprecated, or retired.
+- Active: The model is fully supported and recommended for use.
+- Legacy: The model will no longer receive updates and may be deprecated in the future.
+- Deprecated: The model is no longer available for new customers but continues to be available
+              for existing users until retirement. Anthropic assigns a retirement date at this point.
+- Retired: The model is no longer available for use. Requests to retired models will fail.
 
-- Active models are fully supported and recommended for use.
-- Legacy models remain available, but no longer receive updates and may be deprecated later.
-- Retired models are no longer available, and requests to them fail.
+**Note** Deprecated models are likely to be less reliable than active models.
+Move workloads to active models to maintain the highest level of support and reliability.
 
 ## Deprecation policy
 
