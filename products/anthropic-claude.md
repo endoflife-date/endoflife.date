@@ -7,7 +7,6 @@ iconSlug: anthropic
 permalink: /claude
 alternate_urls:
   - /anthropic-claude
-versionCommand: model parameter in API requests
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
 
 customFields:
