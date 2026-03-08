@@ -182,7 +182,6 @@ releases:
 
 > [Anthropic Claude](https://claude.ai/) is a family of large language models provided by Anthropic.
 
-Anthropic publishes model lifecycle state in the Claude model deprecations documentation.
 A model can be active, legacy, deprecated, or retired. Deprecated models keep working for
 existing users until their retirement date, and requests to retired models fail.
 
