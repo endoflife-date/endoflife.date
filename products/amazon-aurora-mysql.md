@@ -52,12 +52,25 @@ releases:
 
 Aurora MySQL version lines correspond to MySQL community versions: version 2 is MySQL 5.7-compatible
 and version 3 is MySQL 8.0-compatible. Version 1 (MySQL 5.6-compatible) is deprecated.
+As general guidance, new versions of the MySQL engine become available on Amazon Aurora within a few
+months of their general availability. In general, Aurora minor versions are released quarterly.
 
-Major versions are supported under standard support at least until the corresponding MySQL community
-end of life. After the Aurora end of standard support date, Amazon Aurora automatically enrolls your
-databases in RDS Extended Support — a paid offering available for up to 3 years past the Aurora end
-of standard support date, see
-[Using Amazon RDS Extended Support](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/extended-support.html).
+Major versions (`x` in Amazon Aurora terminology) are supported at least
+[until the MySQL community end of life](/mysql). Certain minor versions (`x.y` in Amazon Aurora
+terminology) are supported at least for 1 year after their release date on Amazon Aurora. Note that
+in some cases Amazon may deprecate specific major or minor versions sooner, such as when there are
+security issues.
+
+Depending on the configuration, the kind of version (major or minor) and their deprecation status,
+[upgrades can be manual, automatic, or forced](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.Maintenance.html#Aurora.Maintenance.AMVU).
+When a minor release is deprecated, users are expected to upgrade within a 3-month period. This
+period is increased to 6 months for major releases. Upgrades are performed during the configured
+scheduled maintenance windows. These windows are initially automatically set by AWS but can be
+overridden in the AWS console.
 
 For the most up-to-date information about the Amazon Aurora deprecation policy for MySQL, see
 [Amazon Aurora FAQs](https://aws.amazon.com/rds/aurora/faqs/).
+
+On the Aurora end of standard support date, Amazon Aurora automatically enrolls your databases in RDS Extended Support.
+RDS Extended Support is a paid offering available for up to 3 years past the Aurora end of standard support date for a major engine version, see
+[Using Amazon RDS Extended Support with Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/extended-support.html).
