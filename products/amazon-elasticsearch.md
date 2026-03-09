@@ -40,15 +40,15 @@ releases:
     eol: 2025-11-07
     eoes: 2026-11-07
 
-  - releaseCycle: "7.1"
-    releaseDate: 2019-08-13
-    eol: 2025-11-07
-    eoes: 2026-11-07
-
   - releaseCycle: "6.8"
     releaseDate: 2019-10-03
     eol: false
     eoes: false
+
+  - releaseCycle: "7.1"
+    releaseDate: 2019-08-13
+    eol: 2025-11-07
+    eoes: 2026-11-07
 
   - releaseCycle: "6.7"
     releaseDate: 2019-05-29
@@ -70,6 +70,11 @@ releases:
     eol: 2025-11-07
     eoes: 2026-11-07
 
+  - releaseCycle: "5.6"
+    releaseDate: 2018-08-14
+    eol: 2025-11-07
+    eoes: 2028-11-07
+
   - releaseCycle: "6.2"
     releaseDate: 2018-03-14
     eol: 2025-11-07
@@ -79,11 +84,6 @@ releases:
     releaseDate: 2017-12-06
     eol: 2025-11-07
     eoes: 2026-11-07
-
-  - releaseCycle: "5.6"
-    releaseDate: 2018-08-14
-    eol: 2025-11-07
-    eoes: 2028-11-07
 
   - releaseCycle: "5.5"
     releaseDate: 2017-09-07
@@ -121,9 +121,12 @@ releases:
 > engine versions are tracked at [Amazon OpenSearch](/amazon-opensearch). The self-hosted open-source
 > Elasticsearch is tracked at [Elasticsearch](/elasticsearch).
 
-All Elasticsearch versions on this service share the same standard support end date of November 7, 2025. Extended support provides critical security fixes for at least 12 months after standard
-support ends, at a flat fee per Normalized Instance Hour. Version 5.6 has an extended support window
-until November 7, 2028 (3 years vs. 1 year for other versions).
+All Elasticsearch versions on this service share the same standard support end date of November 7,
+2025, except for versions 6.8, 7.9, and 7.10 which have no announced end date.
+
+Extended support provides critical security fixes for at least 12 months after standard support
+ends, at a flat fee per Normalized Instance Hour. Version 5.6 has an extended support window until
+November 7, 2028 (3 years vs. 1 year for other versions).
 
 Domains running Elasticsearch 6.x or 7.x can be upgraded in-place to OpenSearch 1.x. See
 [Upgrading domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html)
