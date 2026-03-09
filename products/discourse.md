@@ -16,9 +16,6 @@ identifiers:
   - cpe: cpe:2.3:a:discourse:discourse
   - purl: pkg:docker/bitnami/discourse
   - purl: pkg:docker/discourse/base
-  - purl: pkg:github/discourse/discourse-ai
-  - purl: pkg:github/discourse/discourse-calendar
-  - purl: pkg:github/discourse/discotoc
   - purl: pkg:github/discourse/discourse
   - purl: pkg:rpm/opensuse/discourse
   - purl: pkg:github/discourse/discourse-chat
