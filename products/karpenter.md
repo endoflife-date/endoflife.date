@@ -1,6 +1,6 @@
 ---
 title: Karpenter
-addedAt: 2026-03-01
+addedAt: 2026-03-10
 category: server-app
 tags: cncf kubernetes
 iconSlug: kubernetes
@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "1.8"
     releaseDate: 2025-10-08
-    eol: false
+    eol: 2026-01-15
     latest: "1.8.2"
     latestReleaseDate: 2026-01-15
     supportedKubernetesVersion: "1.29 - 1.34"
@@ -102,5 +102,5 @@ releases:
 
 > [Karpenter](https://karpenter.sh) is an open-source node lifecycle management controller for Kubernetes.
 
-Karpenter follows [Semantic Versioning](https://semver.org/). There is no documented EOL Policy, but the last
-2 releases seem to be supported with fixes.
+Karpenter follows [Semantic Versioning](https://semver.org/). There is no documented EOL Policy, but only
+the latest release seems to be supported. Backports are sometimes made for critical fixes.
