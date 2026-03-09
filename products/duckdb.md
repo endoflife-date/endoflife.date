@@ -27,7 +27,7 @@ releases:
     latestReleaseDate: 2026-03-09
     link: https://duckdb.org/2026/03/09/announcing-duckdb-150
     
-- releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     codename: "Andium"
     lts: true
     releaseDate: 2025-09-16
