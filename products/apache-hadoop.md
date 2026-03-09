@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:docker/apache/hadoop
   - purl: pkg:github/apache/hadoop
   - purl: pkg:maven/org.apache.hadoop/hadoop-core
+
 auto:
   methods:
     - git: https://github.com/apache/hadoop.git

@@ -16,6 +16,7 @@ identifiers:
   - cpe: cpe:2.3:a:apache:cassandra
   - purl: pkg:github/apache/cassandra
   - purl: pkg:maven/org.apache.cassandra/apache-cassandra
+
 auto:
   methods:
     - git: https://github.com/apache/cassandra.git
