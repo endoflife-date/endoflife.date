@@ -1,9 +1,9 @@
 ---
 title: Amazon OpenSearch
-addedAt: 2026-02-23
+addedAt: 2026-03-09
 category: service
 tags: amazon database
-iconSlug: opensearch
+iconSlug: aws
 permalink: /amazon-opensearch
 alternate_urls:
   - /amazon-opensearch-service
@@ -91,12 +91,10 @@ releases:
 
 {: .note }
 
-> This page tracks the AWS managed service. The self-hosted offering is tracked at
-> [OpenSearch](/opensearch). Legacy Elasticsearch engine versions on this service are tracked at
-> [Amazon Elasticsearch](/amazon-elasticsearch).
+> This page tracks the AWS managed service. The upstream open-source project is tracked at
+> [OpenSearch](/opensearch).
 
-Amazon OpenSearch version numbers on the managed service correspond to the open-source
-[OpenSearch](/opensearch) release versions. New OpenSearch versions typically become available on the
+New OpenSearch versions typically become available on the
 managed service within a few months of their open-source general availability.
 
 Extended support charges apply automatically when a domain runs a version for which standard
