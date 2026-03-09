@@ -15,7 +15,7 @@ eoasColumn: true
 auto:
   methods:
     - git: https://github.com/openwrt/openwrt.git
-	
+
 identifiers:
   - purl: pkg:docker/openwrtorg/sdk
   - purl: pkg:github/openwrt/openwrt
