@@ -19,14 +19,21 @@ auto:
 
 identifiers:
   - repology: rust
+  - cpe: cpe:2.3:a:rust-lang:rust
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.94"
+    releaseDate: 2026-03-06
+    eol: false
+    latest: "1.94.0"
+    latestReleaseDate: 2026-03-05
+
   - releaseCycle: "1.93"
     releaseDate: 2026-01-22
-    eol: false
-    latest: "1.93.0"
-    latestReleaseDate: 2026-01-22
+    eol: 2026-03-06
+    latest: "1.93.1"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "1.92"
     releaseDate: 2025-12-11

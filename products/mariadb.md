@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:rpm/redhat/mariadb-server
   - purl: pkg:rpm/centos/mariadb-server
   - purl: pkg:rpm/opensuse/mariadb
+  - cpe: cpe:2.3:a:mariadb:mariadb
 
 auto:
   methods:
@@ -63,9 +64,15 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+  - releaseCycle: "12.2"
+    releaseDate: 2026-02-13
+    eol: 2026-05-13 #estimated 
+    latest: "12.2.2"
+    latestReleaseDate: 2026-02-13
+
   - releaseCycle: "12.1"
     releaseDate: 2025-11-18
-    eol: 2026-02-18 #estimated 
+    eol: 2026-02-13
     latest: "12.1.2"
     latestReleaseDate: 2025-11-18
 
@@ -80,8 +87,8 @@ releases:
     releaseDate: 2025-06-04
     eol: 2028-06-04
     eoes: 2033-10-15
-    latest: "11.8.5"
-    latestReleaseDate: 2025-11-14
+    latest: "11.8.6"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -108,9 +115,9 @@ releases:
     lts: true
     releaseDate: 2024-05-29
     eol: 2029-05-29
-    eoes: 2033-01-16
-    latest: "11.4.9"
-    latestReleaseDate: 2025-11-06
+    eoes: 2033-05-29
+    latest: "11.4.10"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -144,9 +151,9 @@ releases:
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    eoes: 2028-02-16
-    latest: "10.11.15"
-    latestReleaseDate: 2025-11-06
+    eoes: 2031-02-16
+    latest: "10.11.16"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07
@@ -180,9 +187,9 @@ releases:
     lts: true
     releaseDate: 2021-07-06
     eol: 2026-07-06
-    eoes: 2029-08-23
-    latest: "10.6.24"
-    latestReleaseDate: 2025-11-06
+    eoes: 2029-07-06
+    latest: "10.6.25"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.5"
     lts: true

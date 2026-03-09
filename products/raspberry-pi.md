@@ -31,7 +31,14 @@ releases:
     # https://www.raspberrypi.com/news/compute-module-5-on-sale-now/
     releaseDate: 2024-11-27
     eol: 2036-01-01
-    link: https://www.raspberrypi.com/products/compute-module-5
+    link: https://www.raspberrypi.com/products/compute-module-5/
+
+  - releaseCycle: "pico2"
+    releaseLabel: Pico 2
+    # https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/
+    releaseDate: 2024-08-08
+    eol: 2040-01-01
+    link: https://www.raspberrypi.com/products/raspberry-pi-pico-2/
 
   - releaseCycle: "5"
     releaseLabel: "5" # Is just called "Raspberry Pi 5", without "Model B"

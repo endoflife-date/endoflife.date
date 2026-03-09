@@ -11,6 +11,7 @@ eolColumn: Support Status
 
 identifiers:
   - repology: duckdb
+  - cpe: cpe:2.3:a:duckdb:duckdb
 
 auto:
   methods:

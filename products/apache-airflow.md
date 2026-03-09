@@ -19,6 +19,7 @@ identifiers:
   - purl: pkg:docker/bitnami/airflow
   - purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
   - purl: pkg:pypi/apache-airflow
+  - cpe: cpe:2.3:a:apache:airflow
 
 auto:
   methods:
@@ -35,15 +36,15 @@ releases:
     releaseDate: 2025-04-22
     eoas: false
     eol: false
-    latest: "3.1.6"
-    latestReleaseDate: 2026-01-13
+    latest: "3.1.7"
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "2"
     releaseDate: 2020-12-17
     eoas: 2025-10-22
     eol: 2026-04-22
-    latest: "2.11.0"
-    latestReleaseDate: 2025-05-20
+    latest: "2.11.1"
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "1.10"
     releaseDate: 2018-08-27

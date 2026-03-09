@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
-    latest: "3.4.2"
-    latestReleaseDate: 2025-08-29
+    latest: "3.4.3"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "3.3"
     staleReleaseThresholdDays: 1000 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines

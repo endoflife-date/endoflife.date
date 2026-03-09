@@ -17,23 +17,24 @@ auto:
           column: "Version"
           regex: "^(?P<value>.+).x$"
         releaseDate: "Release Date"
-        eoas: "Maintenance End"
         eol: "End of Life"
 
+# There a no more a notion of "Active support", so:
+# eoas(x) = releaseDate(x)
 releases:
   - releaseCycle: "30"
     releaseDate: 2025-10-10
-    eoas: false
+    eoas: 2025-10-10
     eol: false
-    latest: "30.1"
-    latestReleaseDate: 2026-01-02
+    latest: "30.2"
+    latestReleaseDate: 2026-01-13
 
   - releaseCycle: "29"
     releaseDate: 2025-04-14
-    eoas: false
+    eoas: 2025-10-10
     eol: false
-    latest: "29.2"
-    latestReleaseDate: 2025-10-14
+    latest: "29.3"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
@@ -199,6 +200,5 @@ Bitcoin Core releases are versioned as follows: `MAJOR.MINOR` with:
 - `MAJOR` being incremented for major releases, which may include breaking changes.
 - `MINOR` being incremented for maintenance releases, which may include minor features and consensus rule updates.
 
-The last three major releases are maintained.
-The last two are actively maintained with minor features, consensus rule updates, as well as bug and security fixes.
-The release before that only receives critical security fixes.
+The last three major releases are maintained with minor features, consensus rule updates, as well as bug and security fixes.
+The threshold for backporting a change to an older major version increases as it ages.

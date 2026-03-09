@@ -10,6 +10,7 @@ eolColumn: Security Support
 
 identifiers:
   - repology: jaeger
+  - cpe: cpe:2.3:a:linuxfoundation:jaeger
 
 auto:
   methods:
@@ -19,8 +20,8 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2024-11-04
     eol: false
-    latest: "2.14.1"
-    latestReleaseDate: 2026-01-02
+    latest: "2.16.0"
+    latestReleaseDate: 2026-03-06
 
   - releaseCycle: "1"
     releaseDate: 2017-12-06

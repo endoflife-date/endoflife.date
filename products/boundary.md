@@ -11,6 +11,7 @@ changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_
 
 identifiers:
   - repology: boundary
+  - cpe: cpe:2.3:a:hashicorp:boundary
 
 auto:
   methods:
@@ -22,8 +23,8 @@ releases:
   - releaseCycle: "0.21"
     releaseDate: 2025-12-11
     eol: false
-    latest: "0.21.0"
-    latestReleaseDate: 2025-12-11
+    latest: "0.21.1"
+    latestReleaseDate: 2026-02-13
 
   - releaseCycle: "0.20"
     releaseDate: 2025-09-25

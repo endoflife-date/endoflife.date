@@ -36,32 +36,32 @@ releases:
   - releaseCycle: "18"
     releaseDate: 2025-09-25
     eol: 2030-11-14
-    latest: "18.1"
-    latestReleaseDate: 2025-11-10
+    latest: "18.3"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "17"
     releaseDate: 2024-09-26
     eol: 2029-11-08
-    latest: "17.7"
-    latestReleaseDate: 2025-11-10
+    latest: "17.9"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2028-11-09
-    latest: "16.11"
-    latestReleaseDate: 2025-11-10
+    latest: "16.13"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "15"
     releaseDate: 2022-10-13
     eol: 2027-11-11
-    latest: "15.15"
-    latestReleaseDate: 2025-11-10
+    latest: "15.17"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2026-11-12
-    latest: "14.20"
-    latestReleaseDate: 2025-11-10
+    latest: "14.22"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24

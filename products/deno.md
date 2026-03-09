@@ -13,6 +13,7 @@ identifiers:
   - purl: pkg:docker/denoland/deno
   - purl: pkg:github/denoland/deno
   - repology: deno
+  - cpe: cpe:2.3:a:deno:deno
 
 auto:
   methods:
@@ -21,11 +22,17 @@ auto:
 # non-LTS : eol(x) = releaseDate(x+1)
 # LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
+  - releaseCycle: "2.7"
+    releaseDate: 2026-02-25
+    eol: false
+    latest: "2.7.4"
+    latestReleaseDate: 2026-03-05
+
   - releaseCycle: "2.6"
     releaseDate: 2025-12-10
-    eol: false
-    latest: "2.6.6"
-    latestReleaseDate: 2026-01-22
+    eol: 2026-02-25
+    latest: "2.6.10"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10

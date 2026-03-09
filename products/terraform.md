@@ -13,6 +13,7 @@ identifiers:
   - repology: terraform
   - purl: pkg:github/hashicorp/terraform
   - purl: pkg:generic/terraform
+  - cpe: cpe:2.3:a:hashicorp:terraform
 
 auto:
   methods:
@@ -23,8 +24,8 @@ releases:
   - releaseCycle: "1.14"
     releaseDate: 2025-11-19
     eol: false # releaseDate(1.16)
-    latest: "1.14.3"
-    latestReleaseDate: 2025-12-17
+    latest: "1.14.6"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "1.13"
     releaseDate: 2025-08-20

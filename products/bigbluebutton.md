@@ -9,6 +9,9 @@ alternate_urls:
 releasePolicyLink: https://github.com/bigbluebutton/bigbluebutton/security
 changelogTemplate: https://github.com/bigbluebutton/bigbluebutton/releases/tag/v__LATEST__
 
+identifiers:
+  - cpe: cpe:2.3:a:bigbluebutton:bigbluebutton
+
 auto:
   methods:
     - github_releases: bigbluebutton/bigbluebutton
@@ -18,8 +21,8 @@ releases:
   - releaseCycle: "3.0"
     releaseDate: 2025-02-28
     eol: false
-    latest: "3.0.20"
-    latestReleaseDate: 2026-01-26
+    latest: "3.0.22"
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "2.7"
     releaseDate: 2023-09-06

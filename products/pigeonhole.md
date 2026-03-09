@@ -10,6 +10,7 @@ changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
 
 identifiers:
   - repology: dovecot-pigeonhole
+  - cpe: cpe:2.3:a:dovecot:pigeonhole
 
 auto:
   methods:

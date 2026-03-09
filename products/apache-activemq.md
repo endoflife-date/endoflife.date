@@ -28,15 +28,15 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.2.0"
-    latestReleaseDate: 2025-11-09
+    latest: "6.2.1"
+    latestReleaseDate: 2026-02-12
     link: https://activemq.apache.org/components/classic/download/classic-06-02-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.1"
-    latestReleaseDate: 2025-10-08
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-06
     link: https://activemq.apache.org/components/classic/download/classic-05-19-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "6.1"
@@ -185,6 +185,7 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: https://activemq.apache.org/components/classic/download/classic-05-00-00
+
 ---
 
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that

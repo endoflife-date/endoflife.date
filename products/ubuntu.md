@@ -64,8 +64,8 @@ releases:
     eoas: 2029-05-31
     eol: 2029-05-31
     eoes: 2036-05-31
-    latest: "24.04.3"
-    latestReleaseDate: 2025-08-07
+    latest: "24.04.4"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "23.10"
     codename: "Mantic Minotaur"
@@ -393,6 +393,7 @@ releases:
     eol: 2006-04-30
     latest: "4.10"
     latestReleaseDate: 2004-10-20
+
 ---
 
 > [Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian.

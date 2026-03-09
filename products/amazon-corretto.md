@@ -124,8 +124,8 @@ releases:
     lts: true
     releaseDate: 2021-08-24
     eol: 2029-10-31
-    latest: "17.0.18.8.1"
-    latestReleaseDate: 2026-01-20
+    latest: "17.0.18.9.1"
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16

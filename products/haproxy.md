@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:rpm/redhat/haproxy
   - purl: pkg:rpm/centos/haproxy
   - purl: pkg:apk/alpine/haproxy
+  - cpe: cpe:2.3:a:haproxy:haproxy
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
@@ -29,28 +30,28 @@ releases:
   - releaseCycle: "3.3"
     releaseDate: 2025-11-26
     eol: 2027-01-01
-    latest: "3.3.1"
-    latestReleaseDate: 2025-12-19
+    latest: "3.3.4"
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.10"
-    latestReleaseDate: 2025-12-18
+    latest: "3.2.13"
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.12"
-    latestReleaseDate: 2025-12-22
+    latest: "3.1.15"
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.14"
-    latestReleaseDate: 2025-12-22
+    latest: "3.0.17"
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "2.9"
     releaseDate: 2023-12-05

@@ -11,7 +11,9 @@ changelogTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_supermarket/
+    - chef-versions: https://docs.chef.io/release_notes/supermarket/
+      regex: '^Chef Supermarket (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/supermarket.git
 
 # eol(x) = releaseDate(x+1)

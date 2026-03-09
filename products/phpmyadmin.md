@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:rpm/redhat/phpmyadmin
   - purl: pkg:rpm/centos/phpmyadmin
   - purl: pkg:docker/library/phpmyadmin
+  - cpe: cpe:2.3:a:phpmyadmin:phpmyadmin
 
 releases:
   - releaseCycle: "5.2"
@@ -48,7 +49,7 @@ releases:
     latestReleaseDate: 2020-10-15
 
   - releaseCycle: "4.9"
-    staleReleaseThresholdDays: 1100 # https://www.phpmyadmin.net/downloads/#support
+    staleReleaseThresholdDays: 1200 # https://www.phpmyadmin.net/downloads/#support
     lts: true
     releaseDate: 2019-06-04
     eoas: 2019-12-31
