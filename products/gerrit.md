@@ -13,6 +13,8 @@ identifiers:
   - purl: pkg:docker/gerritcodereview/gerrit
   - repology: gerrit
   - cpe: cpe:2.3:a:google:gerrit
+  - purl: pkg:github/gerritcodereview/gerrit
+  - purl: pkg:googlesource/gerrit
 
 auto:
   methods:

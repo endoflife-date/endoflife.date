@@ -16,6 +16,13 @@ auto:
 identifiers:
   - repology: julia
   - cpe: cpe:2.3:a:julialang:julia
+  - purl: pkg:deb/debian/julia
+  - purl: pkg:deb/ubuntu/julia
+  - purl: pkg:docker/julia
+  - purl: pkg:github/julialang/julia
+  - purl: pkg:rpm/fedora/julia
+  - purl: pkg:rpm/opensuse/julia
+  - purl: pkg:sourceforge/julia.mirror
 
 releases:
   - releaseCycle: "1.12"

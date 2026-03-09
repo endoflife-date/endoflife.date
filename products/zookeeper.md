@@ -19,6 +19,9 @@ identifiers:
   - purl: pkg:deb/debian/zookeeper
   - cpe: cpe:2.3:a:apache:zookeeper
   - cpe: cpe:/a:apache:zookeeper
+  - purl: pkg:apache/zookeeper
+  - purl: pkg:deb/ubuntu/zookeeper
+  - purl: pkg:rpm/opensuse/zookeeper
 
 auto:
   methods:

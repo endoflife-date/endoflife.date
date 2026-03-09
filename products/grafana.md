@@ -13,6 +13,28 @@ identifiers:
   - purl: pkg:github/grafana/grafana
   - purl: pkg:golang/github.com/grafana/grafana
   - cpe: cpe:2.3:a:grafana:grafana
+  - purl: pkg:github/grafana/agent
+  - purl: pkg:github/grafana/alloy
+  - purl: pkg:github/grafana/cortex
+  - purl: pkg:golang/github.com/grafana/cortex
+  - purl: pkg:docker/grafana/grafana
+  - purl: pkg:rpm/fedora/grafana
+  - purl: pkg:rpm/opensuse/grafana
+  - purl: pkg:docker/grafana/grafana-image-renderer
+  - purl: pkg:github/grafana/grafana-image-renderer
+  - purl: pkg:github/grafana/grafana-json-datasource
+  - purl: pkg:github/grafana/grafana-json-datasource
+  - purl: pkg:docker/grafana/loki
+  - purl: pkg:github/grafana/loki
+  - purl: pkg:rpm/opensuse/loki
+  - purl: pkg:sourceforge/grafana-loki.mirror
+  - purl: pkg:github/grafana/oncall
+  - purl: pkg:github/grafana/piechart-panel
+  - purl: pkg:rpm/opensuse/grafana-piechart-panel
+  - purl: pkg:github/grafana/synthetic-monitoring-agent
+  - purl: pkg:golang/github.com/grafana/synthetic-monitoring-agent
+  - purl: pkg:github/taosdata/grafanaplugin
+  - purl: pkg:golang/github.com/taosdata/grafanaplugin
 
 # See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
 # https://regex101.com/r/2GkIJ5/1

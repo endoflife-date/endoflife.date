@@ -14,6 +14,8 @@ eoasColumn: true
 identifiers:
   - purl: pkg:composer/neos/neos
   - cpe: cpe:2.3:a:neos:neos_cms
+  - purl: pkg:github/neos/form
+  - purl: pkg:github/neos/neos
 
 auto:
   methods:

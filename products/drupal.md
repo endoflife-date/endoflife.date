@@ -20,6 +20,29 @@ identifiers:
   - purl: pkg:github/drupal/core
   - cpe: cpe:2.3:a:drupal:drupal
   - cpe: cpe:/a:drupal:drupal
+  - purl: pkg:github/drupalprojects/data
+  - purl: pkg:drupal/drupal
+  - purl: pkg:github/drupal/drupal
+  - purl: pkg:github/docker-library/drupal
+  - purl: pkg:github/dpi/entity_embed
+  - purl: pkg:github/drupal-media/entity_embed
+  - purl: pkg:drupal/project/cck_fullname
+  - purl: pkg:github/josereyero/i18n
+  - purl: pkg:github/mbovan/mailhandler
+  - purl: pkg:drupal/project/mayo
+  - purl: pkg:drupal/project/metatag
+  - purl: pkg:github/backdrop-contrib/nodeaccess_userreference
+  - purl: pkg:github/signalpoint/jdrupal
+  - purl: pkg:github/br3nda/drupal-module-project_issue
+  - purl: pkg:github/henrytran9x/quicktabs
+  - purl: pkg:github/gapple/drupal-realname
+  - purl: pkg:github/voxpelli/drupal-realname
+  - purl: pkg:github/drupalprojects/svg_sanitizer
+  - purl: pkg:github/catalyst/cca_taxonomy_manager
+  - purl: pkg:drupal/node/386942
+  - purl: pkg:github/drupalprojects/views_bulk_operations
+  - purl: pkg:github/fastcat/views_bulk_operations
+  - purl: pkg:github/drupalprojects/views_bulk_operations
 
 auto:
   methods:

@@ -12,6 +12,10 @@ identifiers:
   - purl: pkg:docker/bbriggs/unrealircd
   - cpe: cpe:2.3:a:unrealircd:unrealircd
   - cpe: cpe:/a:unrealircd:unrealircd
+  - purl: pkg:github/unrealircd/unrealircd
+  - purl: pkg:rpm/fedora/unrealircd
+  - purl: pkg:rpm/opensuse/unrealircd
+  - purl: pkg:sourceforge/unrealircd
 
 auto:
   methods:

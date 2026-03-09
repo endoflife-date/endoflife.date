@@ -22,6 +22,12 @@ identifiers:
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
   - cpe: cpe:2.3:a:laravel:laravel
+  - purl: pkg:composer/laravel/laravel
+  - purl: pkg:github/laravel/laravel
+  - purl: pkg:composer/livewire/livewire
+  - purl: pkg:github/livewire/livewire
+  - purl: pkg:composer/laravel/pulse
+  - purl: pkg:github/laravel/pulse
 
 # Note that laravel/laravel is just a starter application.
 auto:

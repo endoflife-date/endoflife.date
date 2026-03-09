@@ -13,6 +13,10 @@ identifiers:
   - repology: logstash
   - cpe: cpe:/a:elastic:logstash
   - cpe: cpe:2.3:a:elastic:logstash
+  - purl: pkg:github/elastic/logstash
+  - purl: pkg:sourceforge/logstash.mirror
+  - purl: pkg:Docker/logstash
+  - purl: pkg:github/jenkinsci/logstash-plugin
 
 auto:
   methods:

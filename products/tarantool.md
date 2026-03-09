@@ -13,6 +13,17 @@ identifiers:
   - repology: tarantool
   - cpe: cpe:/a:tarantool:tarantool
   - cpe: cpe:2.3:a:tarantool:tarantool
+  - purl: pkg:deb/debian/msgpuck
+  - purl: pkg:deb/ubuntu/msgpuck
+  - purl: pkg:github/rtsisyk/msgpuck
+  - purl: pkg:github/tarantool/msgpuck
+  - purl: pkg:rpm/fedora/msgpuck
+  - purl: pkg:deb/debian/tarantool
+  - purl: pkg:deb/ubuntu/tarantool
+  - purl: pkg:github/tarantool/tarantool
+  - purl: pkg:gitlab/tarantool/tarantool
+  - purl: pkg:rpm/fedora/tarantool
+  - purl: pkg:rpm/opensuse/tarantool
 
 auto:
   methods:

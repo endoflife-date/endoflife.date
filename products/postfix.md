@@ -10,6 +10,13 @@ identifiers:
   - repology: postfix
   - cpe: cpe:/a:postfix:postfix
   - cpe: cpe:2.3:a:postfix:postfix
+  - purl: pkg:deb/debian/postfix
+  - purl: pkg:deb/ubuntu/postfix
+  - purl: pkg:gitlab/redhat/postfix
+  - purl: pkg:npm/postfix
+  - purl: pkg:rpm/fedora/postfix
+  - purl: pkg:rpm/opensuse/postfix
+  - purl: pkg:github/vdukhovni/postfix
 
 auto:
   methods:

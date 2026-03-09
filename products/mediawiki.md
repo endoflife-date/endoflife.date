@@ -14,6 +14,27 @@ identifiers:
   - repology: mediawiki
   - cpe: cpe:/a:mediawiki:mediawiki
   - cpe: cpe:2.3:a:mediawiki:mediawiki
+  - purl: pkg:github/wikimedia/mediawiki-extensions-abusefilter
+  - purl: pkg:github/wikimedia/mediawiki-extensions-campaignevents
+  - purl: pkg:github/wikimedia/mediawiki-extensions-centralauth
+  - purl: pkg:github/wikimedia/mediawiki-extensions-checkuser
+  - purl: pkg:github/wikimedia/mediawiki-extensions-createredirect
+  - purl: pkg:github/daschtour/matomo-mediawiki-extension
+  - purl: pkg:deb/debian/mediawiki
+  - purl: pkg:deb/ubuntu/mediawiki
+  - purl: pkg:github/wikimedia/mediawiki
+  - purl: pkg:rpm/fedora/mediawiki
+  - purl: pkg:rpm/opensuse/mediawiki
+  - purl: pkg:github/wikimedia/mediawiki
+  - purl: pkg:wikimedia/mediawiki
+  - purl: pkg:github/wikimedia/mediawiki-extensions-mobilefrontend
+  - purl: pkg:github/wikimedia/mediawiki-extensions-score
+  - purl: pkg:github/wikimedia/mediawiki-extensions-scribunto
+  - purl: pkg:github/wikimedia/mediawiki-extensions-semanticdrilldown
+  - purl: pkg:github/starcitizentools/mediawiki-extensions-shortdescription
+  - purl: pkg:github/wikimedia/mediawiki-extensions-visualeditor
+  - purl: pkg:github/wikisource/ws-cat-browser
+  - purl: pkg:github/semanticmediawiki/semanticmediawiki
 
 auto:
   methods:

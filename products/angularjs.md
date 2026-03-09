@@ -22,6 +22,15 @@ identifiers:
   - repology: angular.js
   - purl: pkg:npm/angular
   - purl: pkg:github/angular/angular.js
+  - purl: pkg:deb/debian/angular.js
+  - purl: pkg:deb/ubuntu/angular.js
+  - purl: pkg:maven/org.webjars.bowergithub.angular/angular.js
+  - purl: pkg:deb/debian/angular.js
+  - purl: pkg:deb/ubuntu/angular.js
+  - purl: pkg:nuget/AngularJS.Core
+  - purl: pkg:sourceforge/angularjs
+  - purl: pkg:golang/github.com/angular/angular.js
+  - purl: pkg:maven/org.webjars.bowergithub.angular/angular.js
 
 auto:
   disabled: true # the product is discontinued

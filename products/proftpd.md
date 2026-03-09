@@ -12,6 +12,14 @@ eoasColumn: Stable Support
 identifiers:
   - repology: proftpd
   - cpe: cpe:2.3:a:proftpd:proftpd
+  - purl: pkg:deb/debian/proftpd-basic
+  - purl: pkg:deb/debian/proftpd-core
+  - purl: pkg:deb/ubuntu/proftpd-basic
+  - purl: pkg:deb/ubuntu/proftpd-core
+  - purl: pkg:github/proftpd/proftpd
+  - purl: pkg:rpm/fedora/proftpd
+  - purl: pkg:rpm/opensuse/proftpd
+  - purl: pkg:golang/github.com/proftpd/proftpd
 
 auto:
   methods:

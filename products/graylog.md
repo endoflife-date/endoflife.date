@@ -19,6 +19,7 @@ identifiers:
   - repology: graylog
   - cpe: cpe:/a:graylog:graylog
   - cpe: cpe:2.3:a:graylog:graylog
+  - purl: pkg:github/graylog2/graylog2-server
 
 auto:
   methods:

@@ -12,6 +12,11 @@ auto:
 
 identifiers:
   - repology: php:twig
+  - purl: pkg:deb/debian/twig
+  - purl: pkg:deb/ubuntu/twig
+  - purl: pkg:github/twigphp/twig
+  - purl: pkg:rpm/fedora/php-twig
+  - purl: pkg:nuget/twig.twig
 
 releases:
   - releaseCycle: "3"

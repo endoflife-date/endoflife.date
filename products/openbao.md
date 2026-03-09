@@ -23,6 +23,7 @@ identifiers:
   - purl: pkg:oci/openbao?repository_url=quay.io/openbao
   - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
   - purl: pkg:brew/openbao
+  - purl: pkg:golang/github.com/openbao/openbao-plugin-secrets-kv
 
 auto:
   methods:

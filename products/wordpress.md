@@ -34,6 +34,25 @@ identifiers:
   - purl: pkg:docker/bitnami/wordpress-nginx
   - cpe: cpe:2.3:a:wordpress:wordpress
   - cpe: cpe:/a:wordpress:wordpress
+  - purl: pkg:github/viniciusanchieta/cryptographp
+  - purl: pkg:github/dd32/debug-bar
+  - purl: pkg:github/wp-plugins/fcchat
+  - purl: pkg:github/wpplugins/fcchat
+  - purl: pkg:github/wordpress/gutenberg
+  - purl: pkg:github/wp-plugins/imagements
+  - purl: pkg:github/wpplugins/lanoba-social-plugin
+  - purl: pkg:github/wp-plugins/math-comment-spam-protection
+  - purl: pkg:github/rolandocaldas/pay-with-a-tweet-wp-plugin
+  - purl: pkg:github/wpplugins/pictpress
+  - purl: pkg:github/wp-plugins/newsletter
+  - purl: pkg:github/cabrerahector/wordpress-popular-posts
+  - purl: pkg:github/wordpress/requests
+  - purl: pkg:github/michelem09/wassup
+  - purl: pkg:github/wordpress/wordpress
+  - purl: pkg:github/wordpress/wordpress-develop
+  - purl: pkg:github/bhautikj/wordspew
+  - purl: pkg:github/drzax/wp-footnotes
+  - purl: pkg:github/codeinwp/wp-maintenance-mode
 
 # eol(x) = releaseDate(x+1)
 # Support PHP version can be found on https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/

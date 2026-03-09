@@ -16,6 +16,10 @@ identifiers:
   - purl: pkg:deb/debian/firefox-esr
   - purl: pkg:generic/firefox
   - cpe: cpe:2.3:a:mozilla:firefox
+  - purl: pkg:deb/debian/firefox
+  - purl: pkg:mozilla/mozilla-central
+  - purl: pkg:rpm/fedora/firefox
+  - purl: pkg:rpm/opensuse/mozillafirefox
 
 auto:
   # It takes too much time to fetch all versions.

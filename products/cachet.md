@@ -11,6 +11,11 @@ auto:
   methods:
     - git: https://github.com/cachethq/cachet.git
 
+identifiers:
+  - purl: pkg:composer/cachethq/cachet
+  - purl: pkg:github/cachethq/cachet
+  - purl: pkg:golang/github.com/cachethq/cachet
+
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2.4"

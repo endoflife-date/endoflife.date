@@ -16,20 +16,19 @@ auto:
   methods:
     - git: https://github.com/openwrt/openwrt.git
 
-# eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
-# eoas(x) = releaseDate(x+1)
-releases:
-  - releaseCycle: "25.12"
-    releaseDate: 2026-03-05
-    eoas: false
-    eol: false
-    latest: "25.12.0"
-    latestReleaseDate: 2026-03-03
+identifiers:
+  - purl: pkg:docker/openwrtorg/sdk
+  - purl: pkg:github/openwrt/openwrt
+  - purl: pkg:gitlab/sdr/openwrt
+  - purl: pkg:sourceforge/openwrt
 
+# EOL(R)=MAX(releaseDate(R+1)+6m, releaseDate(R)+1y)
+# Support(R) = releaseDate(R+1)
+releases:
   - releaseCycle: "24.10"
     releaseDate: 2025-02-04
-    eoas: 2026-03-05
-    eol: 2026-09-05
+    eoas: false
+    eol: false
     latest: "24.10.5"
     latestReleaseDate: 2025-12-18
 
@@ -74,7 +73,6 @@ releases:
     releaseDate: 2017-02-20
     latestReleaseDate: 2019-06-21
     latest: "17.01.7"
-
 
 
 

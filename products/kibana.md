@@ -13,6 +13,12 @@ identifiers:
   - repology: kibana
   - cpe: cpe:/a:elastic:kibana
   - cpe: cpe:2.3:a:elastic:kibana
+  - purl: pkg:docker/elastic/kibana
+  - purl: pkg:github/elastic/kibana
+  - purl: pkg:rpm/opensuse/kibana
+  - purl: pkg:docker/kibana
+  - purl: pkg:github/elastic/elasticsearch
+  - purl: pkg:sourceforge/kibana.mirror
 
 auto:
   methods:

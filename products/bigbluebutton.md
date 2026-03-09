@@ -11,6 +11,12 @@ changelogTemplate: https://github.com/bigbluebutton/bigbluebutton/releases/tag/v
 
 identifiers:
   - cpe: cpe:2.3:a:bigbluebutton:bigbluebutton
+  - purl: pkg:github/bigbluebutton/bigbluebutton
+  - purl: pkg:sourceforge/bigbluebutton
+  - purl: pkg:docker/bigbluebutton/greenlight
+  - purl: pkg:github/bigbluebutton/greenlight
+  - purl: pkg:rpm/opensuse/greenlight
+  - purl: pkg:github/blindsidenetworks/bigbluebutton-1
 
 auto:
   methods:

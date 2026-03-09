@@ -15,6 +15,12 @@ eoasColumn: false
 identifiers:
   - repology: influxdb
   - cpe: cpe:2.3:a:influxdata:influxdb
+  - purl: pkg:github/jenkinsci/influxdb-plugin
+  - purl: pkg:deb/debian/influxdb
+  - purl: pkg:deb/ubuntu/influxdb
+  - purl: pkg:github/influxdata/influxdb
+  - purl: pkg:rpm/opensuse/influxdb
+  - purl: pkg:sourceforge/influxdb.mirror
 
 auto:
   methods:

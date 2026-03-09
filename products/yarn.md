@@ -15,6 +15,11 @@ identifiers:
   - repology: yarn
   - cpe: cpe:2.3:a:yarnpkg:yarn
   - cpe: cpe:/a:yarnpkg:yarn
+  - purl: pkg:deb/debian/node-yarnpkg
+  - purl: pkg:deb/ubuntu/node-yarnpkg
+  - purl: pkg:rpm/fedora/yarnpkg
+  - purl: pkg:rpm/opensuse/yarn
+  - purl: pkg:sourceforge/yarn.mirror
 
 auto:
   methods:

@@ -9,6 +9,10 @@ releasePolicyLink: https://documentation.commvault.com/v11/software/commvault_so
 
 identifiers:
   - cpe: cpe:2.3:a:commvault:commvault
+  - purl: pkg:github/commvault/cvpysdk
+  - purl: pkg:pypi/cvpysdk
+  - purl: pkg:github/commvault/cvpysdk
+  - purl: pkg:github/commvault/cvpysdk
 
 auto:
   methods:

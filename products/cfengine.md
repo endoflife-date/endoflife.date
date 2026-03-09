@@ -13,6 +13,11 @@ identifiers:
   - purl: pkg:brew/cfengine
   - cpe: cpe:2.3:a:gnu:cfengine
   - cpe: cpe:/a:gnu:cfengine
+  - purl: pkg:deb/debian/cfengine3
+  - purl: pkg:deb/ubuntu/cfengine3
+  - purl: pkg:github/cfengine/core
+  - purl: pkg:gnu/cfengine
+  - purl: pkg:rpm/opensuse/cfengine
 
 auto:
   methods:

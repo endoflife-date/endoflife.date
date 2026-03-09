@@ -30,6 +30,8 @@ identifiers:
   - purl: pkg:docker/istio/operator
   - purl: pkg:github/istio/istio
   - cpe: cpe:2.3:a:istio:istio
+  - purl: pkg:googlesource/istio
+  - purl: pkg:sourceforge/istio.mirror
 
 auto:
   methods:

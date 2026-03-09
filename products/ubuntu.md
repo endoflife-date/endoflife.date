@@ -29,6 +29,23 @@ auto:
 identifiers:
   - cpe: cpe:2.3:o:canonical:ubuntu_linux
   - cpe: cpe:/o:canonical:ubuntu_linux
+  - purl: pkg:deb/debian/accountsservice
+  - purl: pkg:deb/ubuntu/accountsservice
+  - purl: pkg:github/magcius/accountsservice
+  - purl: pkg:rpm/fedora/accountsservice
+  - purl: pkg:rpm/opensuse/accountsservice
+  - purl: pkg:deb/debian/apparmor
+  - purl: pkg:deb/ubuntu/apparmor
+  - purl: pkg:deb/debian/python-apt
+  - purl: pkg:deb/ubuntu/python-apt
+  - purl: pkg:github/excid3/python-apt
+  - purl: pkg:github/mvo5/python-apt
+  - purl: pkg:github/pop-os/python-apt
+  - purl: pkg:pypi/python-apt
+  - purl: pkg:rpm/fedora/python-apt
+  - purl: pkg:deb/ubuntu/vivid
+  - purl: pkg:github/sharkdp/vivid
+  - purl: pkg:golang/github.com/sharkdp/vivid
 
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 # Exact day for some dates is not available, in this case use the same day as the release date.

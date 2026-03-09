@@ -14,6 +14,9 @@ eolColumn: Support
 identifiers:
   - cpe: cpe:/a:atlassian:bitbucket
   - cpe: cpe:2.3:a:atlassian:bitbucket
+  - purl: pkg:deb/debian/xnbd
+  - purl: pkg:deb/ubuntu/xnbd
+  - purl: pkg:github/takahiro-hirofuchi/xnbd
 
 auto:
   methods:

@@ -12,6 +12,8 @@ changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_
 identifiers:
   - repology: boundary
   - cpe: cpe:2.3:a:hashicorp:boundary
+  - purl: pkg:docker/hashicorp/boundary
+  - purl: pkg:github/hashicorp/boundary
 
 auto:
   methods:

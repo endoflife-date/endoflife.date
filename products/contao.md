@@ -12,6 +12,8 @@ identifiers:
   - repology: contao
   - cpe: cpe:/a:contao:contao
   - cpe: cpe:2.3:a:contao:contao
+  - purl: pkg:github/contao/contao
+  - purl: pkg:github/contao/core
 
 auto:
   methods:

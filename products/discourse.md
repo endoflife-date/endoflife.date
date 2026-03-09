@@ -16,6 +16,29 @@ identifiers:
   - cpe: cpe:2.3:a:discourse:discourse
   - purl: pkg:docker/bitnami/discourse
   - purl: pkg:docker/discourse/base
+  - purl: pkg:github/discourse/discourse-ai
+  - purl: pkg:github/discourse/discourse-calendar
+  - purl: pkg:github/discourse/discotoc
+  - purl: pkg:github/discourse/discourse
+  - purl: pkg:rpm/opensuse/discourse
+  - purl: pkg:github/discourse/discourse-chat
+  - purl: pkg:github/discourse/discourse-encrypt
+  - purl: pkg:github/discourse/discourse-mermaid-theme-component
+  - purl: pkg:github/discourse/discourse-bbcode
+  - purl: pkg:github/discourse/discourse-calendar
+  - purl: pkg:github/discourse/discourse-footnote
+  - purl: pkg:github/discourse/discourse-jira
+  - purl: pkg:github/discourse/discourse-reactions
+  - purl: pkg:github/discourse/discourse-yearly-review
+  - purl: pkg:github/discourse/discourse-group-membership-ip-block
+  - purl: pkg:github/discourse/discourse-mermaid-theme-component
+  - purl: pkg:github/discourse/message_bus
+  - purl: pkg:github/discourse/discourse-microsoft-auth
+  - purl: pkg:github/discourse/discourse-patreon
+  - purl: pkg:gem/rails_multisite
+  - purl: pkg:github/discourse/rails_multisite
+  - purl: pkg:rpm/opensuse/rubygem-rails_multisite
+  - purl: pkg:github/discourse/discourse-reactions
 
 auto:
   methods:

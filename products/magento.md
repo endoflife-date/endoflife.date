@@ -24,6 +24,14 @@ customFields:
 identifiers:
   - cpe: cpe:/a:magento:magento
   - cpe: cpe:2.3:a:magento:magento
+  - purl: pkg:github/firegento/magento
+  - purl: pkg:magento/project-community-edition
+  - purl: pkg:github/magento/magento2
+  - purl: pkg:github/magento/magento2-upward-connector
+  - purl: pkg:github/magento/upward-php
+  - purl: pkg:github/magento/upward-php
+  - purl: pkg:sourceforge/magento-open-source.mirror
+  - purl: pkg:github/openmage/magento-lts
 
 auto:
   methods:

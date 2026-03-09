@@ -18,6 +18,15 @@ identifiers:
   - purl: pkg:rpm/centos/squid
   - purl: pkg:apk/alpine/squid
   - cpe: cpe:2.3:a:squid-cache:squid
+  - purl: pkg:github/squid-cache/squid
+  - purl: pkg:gitlab/redhat/squid
+  - purl: pkg:docker/ubuntu/squid
+  - purl: pkg:github/squid-cache/squid
+  - purl: pkg:gitlab/redhat/squid
+  - purl: pkg:rpm/fedora/squid
+  - purl: pkg:rpm/opensuse/squid
+  - purl: pkg:github/squid-cache/squid
+  - purl: pkg:github/squid-cache/squid2
 
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.

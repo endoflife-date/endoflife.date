@@ -13,6 +13,20 @@ eolColumn: Security Support
 identifiers:
   - repology: roundcube
   - cpe: cpe:2.3:a:roundcube:webmail
+  - purl: pkg:deb/debian/roundcube
+  - purl: pkg:deb/ubuntu/roundcube
+  - purl: pkg:github/roundcube/roundcubemail
+  - purl: pkg:rpm/fedora/roundcubemail
+  - purl: pkg:rpm/opensuse/roundcubemail
+  - purl: pkg:sourceforge/roundcubemail
+  - purl: pkg:bitbucket/2krueger/roundcubemail
+  - purl: pkg:github/roundcube/roundcubemail
+  - purl: pkg:rpm/fedora/roundcubemail
+  - purl: pkg:rpm/opensuse/roundcubemail
+  - purl: pkg:docker/roundcube/roundcubemail
+  - purl: pkg:github/roundcube/roundcubemail
+  - purl: pkg:rpm/fedora/roundcubemail
+  - purl: pkg:rpm/opensuse/roundcubemail
 
 auto:
   methods:

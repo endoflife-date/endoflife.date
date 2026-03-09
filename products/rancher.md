@@ -17,6 +17,10 @@ identifiers:
   - purl: pkg:docker/rancher/rancher
   - repology: rancher
   - cpe: cpe:2.3:a:suse:rancher
+  - purl: pkg:github/rancher/rancher
+  - purl: pkg:sourceforge/rancher.mirror
+  - purl: pkg:github/rancher/rke2
+  - purl: pkg:rpm/opensuse/rke2
 
 auto:
   methods:

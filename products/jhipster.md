@@ -14,6 +14,16 @@ identifiers:
   - repology: jhipster
   - cpe: cpe:/a:jhipster:jhipster
   - cpe: cpe:2.3:a:jhipster:jhipster
+  - purl: pkg:github/jhipster/generator-jhipster
+  - purl: pkg:npm/generator-jhipster
+  - purl: pkg:docker/vuminhtuan/generator-jhipster
+  - purl: pkg:github/jhipster/generator-jhipster
+  - purl: pkg:npm/generator-jhipster
+  - purl: pkg:docker/jhipster/jhipster
+  - purl: pkg:github/jhipster/generator-jhipster
+  - purl: pkg:sourceforge/jhipster.mirror
+  - purl: pkg:github/jhipster/jhipster-kotlin
+  - purl: pkg:npm/generator-jhipster-kotlin
 
 auto:
   methods:

@@ -18,6 +18,49 @@ identifiers:
   - repology: php
   - cpe: cpe:2.3:a:php:php
   - cpe: cpe:/a:php:php
+  - purl: pkg:github/pear/archive_tar
+  - purl: pkg:gitlab/perl-archive-tar
+  - purl: pkg:rpm/opensuse/php7-pear-archive_tar
+  - purl: pkg:github/m971119/blog_cms
+  - purl: pkg:github/m6w6/ext-http
+  - purl: pkg:deb/debian/php-imagick
+  - purl: pkg:deb/ubuntu/php-imagick
+  - purl: pkg:github/imagick/imagick
+  - purl: pkg:nuget/PHP7_64BIT_IMAGICK_6937
+  - purl: pkg:opensuse/php7-imagick
+  - purl: pkg:rpm/fedora/php-pecl-imagick
+  - purl: pkg:rpm/opensuse/php8-imagick
+  - purl: pkg:sourceforge/banex
+  - purl: pkg:bitbucket/sandfish/php-pear
+  - purl: pkg:deb/debian/php-pear
+  - purl: pkg:deb/ubuntu/php-pear
+  - purl: pkg:github/pear/pear-core
+  - purl: pkg:gitlab/redhat/php-pear
+  - purl: pkg:rpm/fedora/php-pear
+  - purl: pkg:rpm/opensuse/php-pear
+  - purl: pkg:github/pear/archive_tar
+  - purl: pkg:rpm/opensuse/php7-pear-archive_tar
+  - purl: pkg:github/m6w6/ext-http
+  - purl: pkg:deb/debian/php-phpdocumentor-reflection-common
+  - purl: pkg:deb/ubuntu/php-phpdocumentor-reflection-common
+  - purl: pkg:gem/phpdocr
+  - purl: pkg:github/php/doc-en
+  - purl: pkg:github/phpdocumentor/phpdocumentor
+  - purl: pkg:gitlab/zerodogg/phpdocr
+  - purl: pkg:opensuse/php-phpstan-phpdoc-parser
+  - purl: pkg:rpm/fedora/phpdoc
+  - purl: pkg:rpm/opensuse/php5-pear-phpdocumentor
+  - purl: pkg:sourceforge/phpdocu
+  - purl: pkg:github/php/php-src
+  - purl: pkg:sourceforge/phpbookingcalendar
+  - purl: pkg:sourceforge/phpsquidpass
+  - purl: pkg:bitbucket/salimane/xhprof
+  - purl: pkg:github/phacility/xhprof
+  - purl: pkg:opensuse/php53-xhprof
+  - purl: pkg:rpm/fedora/php-pecl-xhprof
+  - purl: pkg:rpm/opensuse/php5-xhprof
+  - purl: pkg:composer/phpxmlrpc/phpxmlrpc
+  - purl: pkg:github/gggeek/phpxmlrpc
 
 auto:
   methods:

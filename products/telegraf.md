@@ -14,6 +14,10 @@ auto:
 
 identifiers:
   - repology: telegraf
+  - purl: pkg:github/influxdata/telegraf
+  - purl: pkg:golang/github.com/influxdata/telegraf
+  - purl: pkg:rpm/opensuse/telegraf
+  - purl: pkg:sourceforge/telegraf.mirror
 
 # eol(x) = releaseDate(x+2)
 releases:

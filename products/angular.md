@@ -16,6 +16,15 @@ identifiers:
   - purl: pkg:github/angular/angular
   - cpe: cpe:/a:angular:angular
   - cpe: cpe:2.3:a:angular:angular
+  - purl: pkg:googlesource/angular
+  - purl: pkg:maven/org.webjars.npm/angular__core
+  - purl: pkg:npm/%40angular/core
+  - purl: pkg:sourceforge/angular.mirror
+  - purl: pkg:deb/debian/angular.js
+  - purl: pkg:deb/ubuntu/angular.js
+  - purl: pkg:github/angular/angular.js
+  - purl: pkg:maven/org.webjars.bowergithub.angular/angular.js
+  - purl: pkg:npm/angular
 
 auto:
   methods:

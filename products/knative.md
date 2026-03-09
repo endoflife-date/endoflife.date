@@ -19,6 +19,8 @@ customFields:
 identifiers:
   - repology: knative
   - purl: pkg:github/knative/serving
+  - purl: pkg:gitee/knative/serving
+  - purl: pkg:golang/github.com/knative/serving
 
 auto:
   methods:

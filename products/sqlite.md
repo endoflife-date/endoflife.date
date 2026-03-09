@@ -17,6 +17,8 @@ identifiers:
   - purl: pkg:apk/alpine/sqlite
   - purl: pkg:github/sqlite/sqlite
   - cpe: cpe:2.3:a:sqlite:sqlite
+  - purl: pkg:deb/debian/sqlite
+  - purl: pkg:deb/ubuntu/sqlite
 
 # This git mirror only contains versions from 3.6.10.
 auto:

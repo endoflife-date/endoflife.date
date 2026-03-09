@@ -15,6 +15,10 @@ identifiers:
   - repology: containerd
   - cpe: cpe:2.3:a:linuxfoundation:containerd
   - cpe: cpe:/a:linuxfoundation:containerd
+  - purl: pkg:deb/debian/containerd
+  - purl: pkg:deb/ubuntu/containerd
+  - purl: pkg:github/containerd/containerd
+  - purl: pkg:rpm/fedora/containerd
 
 auto:
   methods:

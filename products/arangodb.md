@@ -11,6 +11,10 @@ identifiers:
   - repology: arangodb
   - cpe: cpe:/a:arangodb:arangodb
   - cpe: cpe:2.3:a:arangodb:arangodb
+  - purl: pkg:bitbucket/hartmarken349/arangodb
+  - purl: pkg:docker/arangodb
+  - purl: pkg:github/arangodb/arangodb
+  - purl: pkg:rpm/opensuse/arangodb
 
 auto:
   methods:

@@ -13,6 +13,38 @@ identifiers:
   - repology: ckeditor
   - cpe: cpe:/a:ckeditor:ckeditor
   - cpe: cpe:2.3:a:ckeditor:ckeditor
+  - purl: pkg:github/ckeditor/ckeditor5
+  - purl: pkg:npm/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor5-engine
+  - purl: pkg:npm/%40ckeditor/ckeditor5-engine
+  - purl: pkg:github/ckeditor/ckeditor5-font
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font
+  - purl: pkg:github/ckeditor/ckeditor5
+  - purl: pkg:golang/github.com/ckeditor/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor5
+  - purl: pkg:golang/github.com/ckeditor/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor5-image
+  - purl: pkg:npm/%40ckeditor/ckeditor5-image
+  - purl: pkg:github/ckeditor/ckeditor5-list
+  - purl: pkg:npm/%40ckeditor/ckeditor5-list
+  - purl: pkg:github/ckeditor/ckeditor5-markdown-gfm
+  - purl: pkg:npm/%40ckeditor/ckeditor5-markdown-gfm
+  - purl: pkg:github/ckeditor/ckeditor5-media-embed
+  - purl: pkg:npm/%40ckeditor/ckeditor5-media-embed
+  - purl: pkg:github/ckeditor/ckeditor5-paste-from-office
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office
+  - purl: pkg:github/ckeditor/ckeditor5-widget
+  - purl: pkg:npm/%40ckeditor/ckeditor5-widget
+  - purl: pkg:github/ckeditor/ckeditor5
+  - purl: pkg:npm/ckeditor5
+  - purl: pkg:github/ckeditor/ckeditor5-link
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link
+  - purl: pkg:github/ckeditor/ckeditor4
+  - purl: pkg:maven/org.webjars.npm/ckeditor4
+  - purl: pkg:npm/ckeditor4
+  - purl: pkg:sourceforge/fckeditor
+  - purl: pkg:github/ckeditor-for-wordpress/ckeditor-for-wordpress
+  - purl: pkg:github/wp-plugins/ckeditor-for-wordpress
 
 releases:
   - releaseCycle: "5"

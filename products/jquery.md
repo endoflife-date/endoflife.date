@@ -16,6 +16,12 @@ identifiers:
   - repology: jquery
   - repology: js-jquery
   - cpe: cpe:2.3:a:jquery:jquery
+  - purl: pkg:cpan/jquery
+  - purl: pkg:rpm/fedora/js-jquery
+  - purl: pkg:github/jquery/jquery-ui
+  - purl: pkg:maven/org.webjars.npm/jquery-ui
+  - purl: pkg:npm/jquery-ui
+  - purl: pkg:rpm/fedora/js-jquery-ui
 
 # NPM is also possible, but versions up to 1.10.2 and between 2.0.0 to 2.0.3 are not on
 # https://www.npmjs.com/package/jquery, so better it's better to keep git.

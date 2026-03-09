@@ -23,6 +23,23 @@ identifiers:
   - cpe: cpe:/a:elastic:elasticsearch
   - cpe: cpe:2.3:a:elasticsearch:elasticsearch
   - cpe: cpe:/a:elasticsearch:elasticsearch
+  - purl: pkg:github/elastic/cloud-sdk-go
+  - purl: pkg:github/logstash-plugins/logstash-output-csv
+  - purl: pkg:sourceforge/elasticsearch.mirror
+  - purl: pkg:docker/kibana
+  - purl: pkg:rpm/opensuse/kibana
+  - purl: pkg:sourceforge/kibana.mirror
+  - purl: pkg:Docker/logstash
+  - purl: pkg:github/elastic/logstash
+  - purl: pkg:sourceforge/logstash.mirror
+  - purl: pkg:github/logstash-plugins/logstash-codec-netflow
+  - purl: pkg:github/elastic/beats
+  - purl: pkg:rpm/opensuse/beats
+  - purl: pkg:github/elastic/elasticsearch-x-pack-php
+  - purl: pkg:github/anynines/rails_elasticsearch_example
+  - purl: pkg:docker/elastic/elasticsearch
+  - purl: pkg:elastic/elasticsearch
+  - purl: pkg:rpm/opensuse/elasticsearch
 
 auto:
   methods:

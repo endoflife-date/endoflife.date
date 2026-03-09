@@ -22,6 +22,21 @@ identifiers:
   - purl: pkg:docker/bitnami/node
   - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
+  - purl: pkg:deb/debian/nodejs
+  - purl: pkg:deb/ubuntu/nodejs
+  - purl: pkg:github/nodejs/node
+  - purl: pkg:rpm/fedora/nodejs
+  - purl: pkg:deb/debian/nodejs
+  - purl: pkg:deb/ubuntu/nodejs
+  - purl: pkg:github/nodejs/node
+  - purl: pkg:rpm/fedora/nodejs
+  - purl: pkg:bitbucket/pycodescene/undici
+  - purl: pkg:deb/debian/node-undici
+  - purl: pkg:deb/ubuntu/node-undici
+  - purl: pkg:github/nodejs/undici
+  - purl: pkg:maven/org.webjars.npm/undici
+  - purl: pkg:npm/undici
+  - purl: pkg:github/jenkinsci/nodejs-plugin
 
 auto:
   methods:

@@ -12,6 +12,20 @@ eoesColumn: Commercial Support
 
 identifiers:
   - cpe: cpe:2.3:a:centreon:centreon
+  - purl: pkg:github/centreon/centreon
+  - purl: pkg:github/centreon/centreon-widget-host-monitoring
+  - purl: pkg:rpm/opensuse/centreon-widget-host-monitoring
+  - purl: pkg:github/centreon/centreon-widget-service-monitoring
+  - purl: pkg:rpm/opensuse/centreon-widget-service-monitoring
+  - purl: pkg:github/centreon/centreon-widget-tactical-overview
+  - purl: pkg:rpm/opensuse/centreon-widget-tactical-overview
+  - purl: pkg:github/centreon/centreon
+  - purl: pkg:github/centreon/centreon
+  - purl: pkg:rpm/opensuse/centreon-web
+  - purl: pkg:github/centreon/centreon-widget-host-monitoring
+  - purl: pkg:rpm/opensuse/centreon-widget-host-monitoring
+  - purl: pkg:rpm/opensuse/centreon
+  - purl: pkg:sourceforge/centreon
 
 auto:
   methods:

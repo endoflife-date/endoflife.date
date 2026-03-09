@@ -24,6 +24,10 @@ identifiers:
   - purl: pkg:pypi/django
   - cpe: cpe:2.3:a:djangoproject:django
   - cpe: cpe:/a:djangoproject:django
+  - purl: pkg:docker/django/django
+  - purl: pkg:pypi/Django
+  - purl: pkg:github/gofiber/template
+  - purl: pkg:golang/github.com/gofiber/template
 
 auto:
   methods:

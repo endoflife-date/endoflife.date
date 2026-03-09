@@ -12,6 +12,9 @@ identifiers:
   - purl: pkg:github/gravitational/teleport
   - repology: teleport
   - cpe: cpe:2.3:a:goteleport:teleport
+  - purl: pkg:rpm/opensuse/teleport
+  - purl: pkg:docker/tp4a/teleport
+  - purl: pkg:github/tp4a/teleport
 
 auto:
   methods:

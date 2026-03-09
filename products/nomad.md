@@ -13,6 +13,11 @@ identifiers:
   - repology: nomad-scheduler
   - cpe: cpe:/a:hashicorp:nomad
   - cpe: cpe:2.3:a:hashicorp:nomad
+  - purl: pkg:deb/debian/nomad
+  - purl: pkg:deb/ubuntu/nomad
+  - purl: pkg:github/hashicorp/nomad
+  - purl: pkg:github/iverberk/jenkins-nomad
+  - purl: pkg:github/jenkinsci/nomad-plugin
 
 auto:
   methods:

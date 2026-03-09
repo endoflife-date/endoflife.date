@@ -13,6 +13,13 @@ latestColumn: false
 identifiers:
   - cpe: cpe:/o:fedoraproject:fedora
   - cpe: cpe:2.3:o:fedoraproject:fedora
+  - purl: pkg:github/cialu/fednews
+  - purl: pkg:rpm/fedora/newsx
+  - purl: pkg:deb/debian/pcs
+  - purl: pkg:deb/ubuntu/pcs
+  - purl: pkg:github/clusterlabs/pcs
+  - purl: pkg:rpm/fedora/pcs
+  - purl: pkg:github/rsrchboy/rpmdevtools
 
 auto:
   methods:

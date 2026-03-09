@@ -20,6 +20,10 @@ auto:
 identifiers:
   - repology: rust
   - cpe: cpe:2.3:a:rust-lang:rust
+  - purl: pkg:deb/debian/rust-all
+  - purl: pkg:deb/ubuntu/rust-src
+  - purl: pkg:github/rust-lang/rust
+  - purl: pkg:sourceforge/rust.mirror
 
 # eol(x) = releaseDate(x+1)
 releases:

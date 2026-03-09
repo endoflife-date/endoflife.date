@@ -8,6 +8,9 @@ changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/rele
 
 identifiers:
   - cpe: cpe:2.3:a:bigbluebutton:greenlight
+  - purl: pkg:docker/bigbluebutton/greenlight
+  - purl: pkg:github/bigbluebutton/greenlight
+  - purl: pkg:rpm/opensuse/greenlight
 
 auto:
   methods:

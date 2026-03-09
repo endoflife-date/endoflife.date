@@ -13,6 +13,9 @@ changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__
 
 identifiers:
   - repology: kotlin
+  - purl: pkg:github/jetbrains/kotlin
+  - purl: pkg:jetbrains/kotlin
+  - purl: pkg:github/pubnub/kotlin
 
 auto:
   methods:

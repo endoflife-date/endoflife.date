@@ -33,6 +33,27 @@ identifiers:
   - purl: pkg:deb/ubuntu/mysql-server
   - purl: pkg:deb/debian/mysql
   - cpe: cpe:2.3:a:oracle:mysql
+  - purl: pkg:github/eventum/eventum
+  - purl: pkg:deb/debian/mysql-8.0
+  - purl: pkg:deb/ubuntu/mysql-8.0
+  - purl: pkg:docker/mysql
+  - purl: pkg:github/mysql/mysql-server
+  - purl: pkg:rpm/centos/mysql-8.0
+  - purl: pkg:github/eventum/eventum
+  - purl: pkg:github/mysql/mysql-server
+  - purl: pkg:rpm/opensuse/mysql-server
+  - purl: pkg:github/mysql/mysql-workbench
+  - purl: pkg:deb/debian/mysql-workbench
+  - purl: pkg:deb/ubuntu/mysql-workbench
+  - purl: pkg:github/mysql/mysql-workbench
+  - purl: pkg:rpm/fedora/mysql-workbench
+  - purl: pkg:rpm/opensuse/mysql-workbench
+  - purl: pkg:deb/debian/node-mysql
+  - purl: pkg:deb/ubuntu/node-mysql
+  - purl: pkg:github/mysqljs/mysql
+  - purl: pkg:maven/org.webjars.npm/mysql
+  - purl: pkg:npm/mysql
+  - purl: pkg:rpm/fedora/nodejs-mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)

@@ -17,6 +17,23 @@ eolColumn: Security Support
 identifiers:
   - purl: pkg:composer/silverstripe/cms
   - purl: pkg:github/silverstripe/silverstripe-installer
+  - purl: pkg:github/silverstripe/silverstripe-admin
+  - purl: pkg:github/silverstripe/silverstripe-assets
+  - purl: pkg:github/silverstripe/silverstripe-asset-admin
+  - purl: pkg:github/silverstripe/silverstripe-framework
+  - purl: pkg:github/silverstripe/silverstripe-graphql
+  - purl: pkg:github/silverstripe/silverstripe-mimevalidator
+  - purl: pkg:github/silverstripe/recipe-core
+  - purl: pkg:github/silverstripe/silverstripe-registry
+  - purl: pkg:composer/silverstripe/reports
+  - purl: pkg:github/silverstripe/silverstripe-reports
+  - purl: pkg:github/silverstripe/silverstripe-restfulserver
+  - purl: pkg:github/silverstripe/silverstripe-cms
+  - purl: pkg:github/silverstripe/silverstripe-graphql
+  - purl: pkg:github/silverstripe/silverstripe-omnipay
+  - purl: pkg:github/thephpleague/omnipay
+  - purl: pkg:sourceforge/omnipay.mirror
+  - purl: pkg:github/silverstripe/silverstripe-subsites
 
 auto:
   methods:

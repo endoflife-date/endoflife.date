@@ -17,6 +17,13 @@ identifiers:
   - cpe: cpe:/a:cisco:clamav
   - cpe: cpe:2.3:a:clam_anti-virus:clamav
   - cpe: cpe:/a:clam_anti-virus:clamav
+  - purl: pkg:deb/debian/clamav
+  - purl: pkg:deb/ubuntu/clamav
+  - purl: pkg:docker/clamav/clamav
+  - purl: pkg:github/cisco-talos/clamav
+  - purl: pkg:rpm/fedora/clamav
+  - purl: pkg:rpm/opensuse/clamav
+  - purl: pkg:golang/github.com/cisco-talos/clamav
 
 auto:
   methods:

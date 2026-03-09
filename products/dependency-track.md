@@ -13,6 +13,7 @@ identifiers:
   - repology: dependency-track
   - cpe: cpe:/a:owasp:dependency-track
   - cpe: cpe:2.3:a:owasp:dependency-track
+  - purl: pkg:github/dependencytrack/dependency-track
 
 auto:
   methods:

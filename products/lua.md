@@ -14,6 +14,9 @@ identifiers:
   - repology: lua
   - cpe: cpe:/a:lua:lua
   - cpe: cpe:2.3:a:lua:lua
+  - purl: pkg:github/lua/lua
+  - purl: pkg:rpm/centos/lua
+  - purl: pkg:rpm/fedora/lua
 
 auto:
   cumulative: true # Only the latest versions are available on https://www.lua.org/versions.html.

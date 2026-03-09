@@ -21,6 +21,14 @@ identifiers:
   - cpe: cpe:/a:jekyllrb:jekyll
   - cpe: cpe:2.3:a:jekyllrb:jekyll
   - repology: ruby:jekyll
+  - purl: pkg:deb/debian/jekyll
+  - purl: pkg:deb/ubuntu/jekyll
+  - purl: pkg:gem/ruby/jekyll
+  - purl: pkg:github/jekyll/jekyll
+  - purl: pkg:npm/jekyll
+  - purl: pkg:rpm/fedora/rubygem-jekyll
+  - purl: pkg:rpm/opensuse/rubygem-jekyll
+  - purl: pkg:sourceforge/jekyll.mirror
 
 auto:
   methods:

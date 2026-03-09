@@ -13,6 +13,11 @@ identifiers:
   - purl: pkg:pypi/numpy
   - purl: pkg:github/numpy/numpy
   - cpe: cpe:2.3:a:numpy:numpy
+  - purl: pkg:deb/debian/numpy
+  - purl: pkg:deb/ubuntu/numpy
+  - purl: pkg:rpm/centos/numpy
+  - purl: pkg:rpm/fedora/numpy
+  - purl: pkg:sourceforge/numpy.mirror
 
 auto:
   methods:

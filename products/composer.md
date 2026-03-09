@@ -15,6 +15,13 @@ identifiers:
   - purl: pkg:github/composer/composer
   - cpe: cpe:2.3:a:getcomposer:composer
   - cpe: cpe:/a:getcomposer:composer
+  - purl: pkg:docker/composer
+  - purl: pkg:github/composer/docker
+  - purl: pkg:deb/debian/composer
+  - purl: pkg:deb/ubuntu/composer
+  - purl: pkg:rpm/fedora/composer
+  - purl: pkg:rpm/opensuse/composer
+  - purl: pkg:sourceforge/composer.mirror
 
 auto:
   methods:

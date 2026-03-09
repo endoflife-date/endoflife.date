@@ -25,6 +25,23 @@ identifiers:
   - purl: pkg:brew/redis/redis
   - repology: redis
   - cpe: cpe:2.3:a:redis:redis
+  - purl: pkg:deb/debian/hiredis
+  - purl: pkg:deb/ubuntu/hiredis
+  - purl: pkg:github/redis/hiredis
+  - purl: pkg:rpm/fedora/hiredis
+  - purl: pkg:rpm/opensuse/hiredis
+  - purl: pkg:docker/redis
+  - purl: pkg:github/redis/redis
+  - purl: pkg:rpm/opensuse/redis
+  - purl: pkg:github/redis/redis-py
+  - purl: pkg:pypi/redis-py
+  - purl: pkg:github/redisgraph/redisgraph
+  - purl: pkg:github/redislabs/redisraft
+  - purl: pkg:deb/debian/node-redis
+  - purl: pkg:deb/ubuntu/node-redis
+  - purl: pkg:github/redis/node-redis
+  - purl: pkg:npm/redis
+  - purl: pkg:redis/redis
 
 auto:
   methods:

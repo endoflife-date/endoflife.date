@@ -18,6 +18,13 @@ identifiers:
   - cpe: cpe:2.3:a:godotengine:godot
   - cpe: cpe:/a:godotengine:godot_engine
   - cpe: cpe:2.3:a:godotengine:godot_engine
+  - purl: pkg:deb/debian/godot
+  - purl: pkg:deb/ubuntu/godot
+  - purl: pkg:github/godotengine/godot
+  - purl: pkg:gitlab/sthagen/godot
+  - purl: pkg:rpm/fedora/godot
+  - purl: pkg:rpm/opensuse/godot
+  - purl: pkg:sourceforge/godot-engine.mirror
 
 auto:
   methods:

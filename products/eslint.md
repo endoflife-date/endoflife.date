@@ -19,6 +19,7 @@ customFields:
 
 identifiers:
   - repology: eslint
+  - purl: pkg:github/microsoft/vscode-eslint
 
 auto:
   methods:

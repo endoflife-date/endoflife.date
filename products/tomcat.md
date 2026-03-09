@@ -21,6 +21,10 @@ identifiers:
   - purl: pkg:maven/org.apache.tomcat/tomcat
   - purl: pkg:github/apache/tomcat
   - cpe: cpe:2.3:a:apache:tomcat
+  - purl: pkg:apache/tomcat
+  - purl: pkg:rpm/fedora/tomcat
+  - purl: pkg:rpm/opensuse/tomcat
+  - purl: pkg:deb/debian/tomcat10
 
 auto:
   methods:

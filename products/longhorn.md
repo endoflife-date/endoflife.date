@@ -10,6 +10,7 @@ eolColumn: Support
 
 identifiers:
   - purl: pkg:github/longhorn/longhorn
+  - purl: pkg:sourceforge/longhorn.mirror
 
 auto:
   methods:

@@ -16,6 +16,14 @@ identifiers:
   - purl: pkg:docker/library/memcached
   - repology: memcached
   - cpe: cpe:2.3:a:memcached:memcached
+  - purl: pkg:docker/memcached
+  - purl: pkg:github/memcached/memcached
+  - purl: pkg:gitlab/redhat/memcached
+  - purl: pkg:rpm/fedora/memcached
+  - purl: pkg:github/docker-library/memcached
+  - purl: pkg:gitlab/naturalis/memcached
+  - purl: pkg:golang/github.com/memcached/memcached
+  - purl: pkg:sourceforge/memcached
 
 auto:
   methods:

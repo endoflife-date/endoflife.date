@@ -15,6 +15,7 @@ identifiers:
   - cpe: cpe:/a:atlassian:confluence
   - cpe: cpe:2.3:a:atlassian:confluence
   - repology: atlassian-confluence
+  - purl: pkg:github/mattermost/mattermost-for-confluence
 
 auto:
   methods:

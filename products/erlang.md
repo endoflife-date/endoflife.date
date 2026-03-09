@@ -12,6 +12,9 @@ eoasColumn: true
 
 identifiers:
   - repology: erlang
+  - purl: pkg:github/erlang/otp
+  - purl: pkg:github/erlang/otp
+  - purl: pkg:github/erlang/rebar3
 
 auto:
   methods:

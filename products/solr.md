@@ -16,6 +16,12 @@ identifiers:
   - repology: solr
   - cpe: cpe:/a:apache:solr
   - cpe: cpe:2.3:a:apache:solr
+  - purl: pkg:apache/solr
+  - purl: pkg:github/apache/solr
+  - purl: pkg:maven/org.apache.solr/solr
+  - purl: pkg:maven/org.apache.solr/solrj
+  - purl: pkg:rpm/opensuse/solr
+  - purl: pkg:sourceforge/apache-solr
 
 auto:
   methods:

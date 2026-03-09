@@ -20,6 +20,11 @@ customFields:
 identifiers:
   - cpe: cpe:/a:shopware:shopware
   - cpe: cpe:2.3:a:shopware:shopware
+  - purl: pkg:github/shopware/platform
+  - purl: pkg:shopware/shopware-6
+  - purl: pkg:composer/shopware/platform
+  - purl: pkg:github/shopware/platform
+  - purl: pkg:golang/github.com/shopware/platform
 
 auto:
   methods:

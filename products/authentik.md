@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:docker/authentik/server
   - cpe: cpe:/a:goauthentik:authentik
   - cpe: cpe:2.3:a:goauthentik:authentik
+  - purl: pkg:golang/github.com/goauthentik/authentik
 
 auto:
   methods:

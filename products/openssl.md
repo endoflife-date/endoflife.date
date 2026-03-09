@@ -14,6 +14,21 @@ identifiers:
   - repology: openssl
   - cpe: cpe:/a:openssl:openssl
   - cpe: cpe:2.3:a:openssl:openssl
+  - purl: pkg:deb/debian/openssl
+  - purl: pkg:deb/ubuntu/openssl
+  - purl: pkg:github/openssl/openssl
+  - purl: pkg:rpm/centos/openssl
+  - purl: pkg:rpm/fedora/openssl
+  - purl: pkg:rpm/opensuse/openssl
+  - purl: pkg:gitlab/redhat/openssl
+  - purl: pkg:deb/debian/ruby-openssl
+  - purl: pkg:deb/ubuntu/ruby-openssl
+  - purl: pkg:gem/openssl
+  - purl: pkg:github/ruby/openssl
+  - purl: pkg:cargo/openssl
+  - purl: pkg:deb/debian/rust-openssl
+  - purl: pkg:deb/ubuntu/rust-openssl
+  - purl: pkg:github/sfackler/rust-openssl
 
 auto:
   methods:

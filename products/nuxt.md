@@ -14,6 +14,16 @@ eoesColumn: Commercial Support
 identifiers:
   - cpe: cpe:/a:nuxt:framework
   - cpe: cpe:2.3:a:nuxt:framework
+  - purl: pkg:github/nuxt/devtools
+  - purl: pkg:npm/%40nuxt/devtools
+  - purl: pkg:github/nuxt/framework
+  - purl: pkg:golang/github.com/nuxt/framework
+  - purl: pkg:maven/org.webjars.bowergithub.nuxt/framework
+  - purl: pkg:github/nuxt/framework
+  - purl: pkg:github/nuxt/nuxt
+  - purl: pkg:golang/github.com/nuxt/nuxt
+  - purl: pkg:maven/org.webjars.bowergithub.nuxt/framework
+  - purl: pkg:npm/nuxt
 
 auto:
   methods:

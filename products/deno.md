@@ -14,6 +14,10 @@ identifiers:
   - purl: pkg:github/denoland/deno
   - repology: deno
   - cpe: cpe:2.3:a:deno:deno
+  - purl: pkg:golang/github.com/denoland/deno
+  - purl: pkg:github/denoland/deno_std
+  - purl: pkg:golang/github.com/denoland/deno_std
+  - purl: pkg:github/denoland/serde_v8
 
 auto:
   methods:

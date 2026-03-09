@@ -26,6 +26,7 @@ identifiers:
   - purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
   - cpe: cpe:2.3:a:envoyproxy:envoy
   - cpe: cpe:/a:envoyproxy:envoy
+  - purl: pkg:sourceforge/envoy.mirror
 
 auto:
   methods:

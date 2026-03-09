@@ -12,6 +12,14 @@ changelogTemplate: https://nix.dev/manual/nix/latest/release-notes/rl-__RELEASE_
 
 identifiers:
   - repology: nix
+  - purl: pkg:deb/debian/nix
+  - purl: pkg:deb/ubuntu/nix
+  - purl: pkg:github/nixos/nix
+  - purl: pkg:deb/debian/rust-nix
+  - purl: pkg:deb/ubuntu/rust-nix
+  - purl: pkg:github/nix-rust/nix
+  - purl: pkg:rpm/fedora/rust-nix
+  - purl: pkg:rpm/opensuse/rust-nix
 
 auto:
   methods:

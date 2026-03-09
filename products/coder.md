@@ -14,6 +14,9 @@ identifiers:
   - purl: pkg:github/coder/coder
   - purl: pkg:generic/coder
   - cpe: cpe:2.3:a:coder:code-server
+  - purl: pkg:docker/codercom/code-server
+  - purl: pkg:github/cdr/code-server
+  - purl: pkg:npm/code-server
 
 auto:
   methods:

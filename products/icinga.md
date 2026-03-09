@@ -16,6 +16,18 @@ identifiers:
   - purl: pkg:github/Icinga/icinga2
   - purl: pkg:github/Icinga/icinga-core
   - cpe: cpe:2.3:a:icinga:icinga
+  - purl: pkg:deb/debian/icinga
+  - purl: pkg:deb/debian/icinga2
+  - purl: pkg:deb/ubuntu/icinga
+  - purl: pkg:deb/ubuntu/icinga2
+  - purl: pkg:github/icinga/icinga2
+  - purl: pkg:rpm/opensuse/icinga2
+  - purl: pkg:sourceforge/icinga
+  - purl: pkg:github/icinga/icingaweb2-module-incubator
+  - purl: pkg:github/icinga/icingadb-web
+  - purl: pkg:github/icinga/icingaweb2
+  - purl: pkg:rpm/opensuse/icingaweb2
+  - purl: pkg:github/icinga/icingaweb2-module-jira
 
 auto:
   methods:

@@ -18,6 +18,8 @@ customFields:
 identifiers:
   - cpe: cpe:/a:getkirby:kirby
   - cpe: cpe:2.3:a:getkirby:kirby
+  - purl: pkg:composer/getkirby/kirby
+  - purl: pkg:github/getkirby/kirby
 
 auto:
   methods:

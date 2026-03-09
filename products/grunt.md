@@ -19,6 +19,13 @@ identifiers:
   - purl: pkg:npm/grunt
   - cpe: cpe:/a:gruntjs:grunt
   - cpe: cpe:2.3:a:gruntjs:grunt
+  - purl: pkg:deb/debian/grunt
+  - purl: pkg:deb/ubuntu/grunt
+  - purl: pkg:maven/org.webjars.npm/grunt
+  - purl: pkg:nuget/Grunt
+  - purl: pkg:rpm/fedora/nodejs-grunt
+  - purl: pkg:rpm/opensuse/nodejs-grunt
+  - purl: pkg:sourceforge/grunt.mirror
 
 # eol(x) = releaseDate(x+1)
 releases:

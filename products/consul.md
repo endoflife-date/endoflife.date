@@ -16,6 +16,10 @@ identifiers:
   - purl: pkg:golang/github.com/hashicorp/consul
   - cpe: cpe:2.3:a:hashicorp:consul
   - cpe: cpe:/a:hashicorp:consul
+  - purl: pkg:deb/debian/consul
+  - purl: pkg:deb/ubuntu/consul
+  - purl: pkg:gem/consul
+  - purl: pkg:github/makandra/consul
 
 auto:
   methods:

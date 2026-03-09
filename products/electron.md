@@ -24,6 +24,15 @@ identifiers:
   - repology: electron
   - cpe: cpe:/a:electronjs:electron
   - cpe: cpe:2.3:a:electronjs:electron
+  - purl: pkg:github/electron-userland/electron-builder
+  - purl: pkg:npm/electron-builder
+  - purl: pkg:github/electron-userland/electron-builder
+  - purl: pkg:npm/electron-builder
+  - purl: pkg:github/electron/electron
+  - purl: pkg:gitlab/immersaview/electron
+  - purl: pkg:npm/electron
+  - purl: pkg:rpm/opensuse/nodejs-electron
+  - purl: pkg:sourceforge/electron.mirror
 
 # NPM is more accurate than git and does not contain the unreleased versions.
 # 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.

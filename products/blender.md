@@ -14,6 +14,14 @@ identifiers:
   - repology: blender
   - cpe: cpe:/a:blender:blender
   - cpe: cpe:2.3:a:blender:blender
+  - purl: pkg:bitbucket/sonictk/blender
+  - purl: pkg:deb/debian/blender
+  - purl: pkg:deb/ubuntu/blender
+  - purl: pkg:github/blender/blender
+  - purl: pkg:github/sobotka/blender
+  - purl: pkg:rpm/fedora/blender
+  - purl: pkg:rpm/opensuse/blender
+  - purl: pkg:sourceforge/blender
 
 auto:
   # https://git.blender.org/blender.git does not support partialClone

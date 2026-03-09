@@ -11,6 +11,9 @@ eolColumn: Security Support
 identifiers:
   - repology: jaeger
   - cpe: cpe:2.3:a:linuxfoundation:jaeger
+  - purl: pkg:github/jaegertracing/jaeger
+  - purl: pkg:gitlab/gitlab-org/jaeger
+  - purl: pkg:sourceforge/jaeger.mirror
 
 auto:
   methods:

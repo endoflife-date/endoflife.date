@@ -14,6 +14,12 @@ staleReleaseThresholdDays: 1095 # OSes have a longer support window
 identifiers:
   - cpe: cpe:/o:netbsd:netbsd
   - cpe: cpe:2.3:o:netbsd:netbsd
+  - purl: pkg:netbsd/netbsd
+  - purl: pkg:deb/debian/tnftp
+  - purl: pkg:deb/ubuntu/tnftp
+  - purl: pkg:github/hharte/tnftp
+  - purl: pkg:rpm/fedora/tnftp
+  - purl: pkg:rpm/opensuse/tnftp
 
 auto:
   methods:

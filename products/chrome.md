@@ -15,6 +15,9 @@ latestColumn: false
 identifiers:
   - repology: google-chrome
   - cpe: cpe:2.3:a:google:chrome
+  - purl: pkg:docker/browserless/chrome
+  - purl: pkg:github/browserless/chrome
+  - purl: pkg:npm/browserless-chrome
 
 auto:
   methods:

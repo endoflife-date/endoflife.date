@@ -22,6 +22,9 @@ identifiers:
   - purl: pkg:github/guzzle/guzzle
   - cpe: cpe:/a:guzzlephp:guzzle
   - cpe: cpe:2.3:a:guzzlephp:guzzle
+  - purl: pkg:deb/debian/guzzle
+  - purl: pkg:docker/guzzle/guzzle
+  - purl: pkg:sourceforge/guzzle.mirror
 
 # EOL dates are documented on https://github.com/guzzle/guzzle?tab=readme-ov-file#version-guidance.
 releases:

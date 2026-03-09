@@ -22,6 +22,8 @@ identifiers:
   - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
   - cpe: cpe:2.3:a:wireshark:wireshark
   - cpe: cpe:/a:wireshark:wireshark
+  - purl: pkg:github/wireshark/wireshark
+  - purl: pkg:wireshark/wireshark
 
 # eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # eoas(x) = releaseDate(x+1)

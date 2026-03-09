@@ -12,6 +12,14 @@ identifiers:
   - repology: redmine
   - cpe: cpe:/a:redmine:redmine
   - cpe: cpe:2.3:a:redmine:redmine
+  - purl: pkg:github/jbox-web/redmine_git_hosting
+  - purl: pkg:github/letic/redmine_git_hosting
+  - purl: pkg:deb/debian/redmine
+  - purl: pkg:deb/ubuntu/redmine
+  - purl: pkg:github/redmine/redmine
+  - purl: pkg:redmine/redmine
+  - purl: pkg:rpm/opensuse/redmine
+  - purl: pkg:github/redmine-git-hosting/redmine_git_hosting
 
 auto:
   methods:

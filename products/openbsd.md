@@ -11,6 +11,21 @@ latestColumn: false
 
 identifiers:
   - cpe: cpe:2.3:o:openbsd:openbsd
+  - purl: pkg:github/libressl-portable/openbsd
+  - purl: pkg:github/libressl-portable/portable
+  - purl: pkg:rpm/opensuse/libressl
+  - purl: pkg:sourceforge/libressl-3-2-0-for-windows
+  - purl: pkg:github/openbsd/src
+  - purl: pkg:openbsd/openbsd
+  - purl: pkg:deb/ubuntu/opensmtpd
+  - purl: pkg:github/opensmtpd/opensmtpd
+  - purl: pkg:rpm/fedora/opensmtpd
+  - purl: pkg:rpm/opensuse/opensmtpd
+  - purl: pkg:github/openssh/openssh-portable
+  - purl: pkg:mindrot/openss
+  - purl: pkg:openbsd/openssh
+  - purl: pkg:rpm/fedora/openssh
+  - purl: pkg:rpm/opensuse/openssh
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to the first of next month
 releases:

@@ -14,6 +14,26 @@ identifiers:
   - repology: typo3
   - purl: pkg:composer/typo3/cms
   - cpe: cpe:2.3:a:typo3:typo3
+  - purl: pkg:composer/aimeos/aimeos-typo3
+  - purl: pkg:github/aimeos/aimeos-typo3
+  - purl: pkg:golang/github.com/aimeos/aimeos-typo3
+  - purl: pkg:github/neos/flow
+  - purl: pkg:github/typo3/fluid
+  - purl: pkg:github/typo3/fluid
+  - purl: pkg:github/pegasuswerbeagentur/google_for_jobs
+  - purl: pkg:github/typo3/html-sanitizer
+  - purl: pkg:composer/coderscare/dmmjobcontrol
+  - purl: pkg:github/coders-care/dmmjobcontrol
+  - purl: pkg:gitlab/coderscare/dmmjobcontrol
+  - purl: pkg:github/friendsoftypo3/mediace
+  - purl: pkg:github/neos/neos
+  - purl: pkg:github/typo3/phar-stream-wrapper
+  - purl: pkg:github/typo3gmbh/svg_sanitizer
+  - purl: pkg:github/typo3/typo3
+  - purl: pkg:typo3/typo3.cms.git
+  - purl: pkg:composer/fluidtypo3/vhs
+  - purl: pkg:github/fluidtypo3/vhs
+  - purl: pkg:golang/github.com/fluidtypo3/vhs
 
 auto:
   methods:

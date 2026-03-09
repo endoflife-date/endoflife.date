@@ -9,6 +9,12 @@ changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 identifiers:
   - repology: exim
   - cpe: cpe:2.3:a:exim:exim
+  - purl: pkg:deb/debian/exim4
+  - purl: pkg:deb/ubuntu/exim4
+  - purl: pkg:exim/exim
+  - purl: pkg:github/exim/exim
+  - purl: pkg:rpm/fedora/exim
+  - purl: pkg:rpm/opensuse/exim
 
 auto:
   methods:

@@ -12,6 +12,9 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 identifiers:
   - cpe: cpe:/a:opnsense:opnsense
   - cpe: cpe:2.3:a:opnsense:opnsense
+  - purl: pkg:github/opnsense/core
+  - purl: pkg:sourceforge/opnsense
+  - purl: pkg:github/pfsense/pfsense
 
 auto:
   methods:

@@ -36,6 +36,9 @@ identifiers:
   - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
   - purl: pkg:docker/saltstack/salt
   - cpe: cpe:2.3:a:saltstack:salt
+  - purl: pkg:github/saltstack/salt
+  - purl: pkg:rpm/fedora/salt
+  - purl: pkg:rpm/opensuse/salt
 
 # link(x) =
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html

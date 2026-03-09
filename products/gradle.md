@@ -42,6 +42,13 @@ identifiers:
   - repology: gradle
   - cpe: cpe:/a:gradle:gradle
   - cpe: cpe:2.3:a:gradle:gradle
+  - purl: pkg:github/gradle/gradle-build-action
+  - purl: pkg:deb/debian/gradle
+  - purl: pkg:deb/ubuntu/gradle
+  - purl: pkg:docker/gradle
+  - purl: pkg:github/gradle/gradle
+  - purl: pkg:rpm/opensuse/gradle
+  - purl: pkg:github/jenkinsci/gradle-plugin
 
 auto:
   methods:

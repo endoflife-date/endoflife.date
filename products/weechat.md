@@ -11,6 +11,12 @@ identifiers:
   - repology: weechat
   - cpe: cpe:/a:weechat:weechat
   - cpe: cpe:2.3:a:weechat:weechat
+  - purl: pkg:deb/debian/weechat
+  - purl: pkg:deb/ubuntu/weechat
+  - purl: pkg:github/weechat/weechat
+  - purl: pkg:gnu/weechat
+  - purl: pkg:rpm/fedora/weechat
+  - purl: pkg:rpm/opensuse/weechat
 
 auto:
   methods:

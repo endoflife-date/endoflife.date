@@ -14,6 +14,15 @@ identifiers:
   - purl: pkg:docker/library/varnish
   - cpe: cpe:2.3:a:varnish_cache_project:varnish_cache
   - cpe: cpe:/a:varnish_cache_project:varnish_cache
+  - purl: pkg:deb/debian/varnish
+  - purl: pkg:deb/ubuntu/varnish
+  - purl: pkg:github/varnishcache/varnish-cache
+  - purl: pkg:gitlab/redhat/varnish
+  - purl: pkg:rpm/centos/varnish
+  - purl: pkg:rpm/fedora/varnish
+  - purl: pkg:rpm/opensuse/varnish
+  - purl: pkg:sourceforge/varnish
+  - purl: pkg:github/fastly/varnish-api
 
 auto:
   methods:

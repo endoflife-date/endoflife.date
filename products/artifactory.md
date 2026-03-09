@@ -12,6 +12,7 @@ identifiers:
   - repology: artifactory
   - cpe: cpe:/a:jfrog:artifactory
   - cpe: cpe:2.3:a:jfrog:artifactory
+  - purl: pkg:jfrog/artifactory
 
 auto:
   methods:

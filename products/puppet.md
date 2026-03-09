@@ -16,6 +16,57 @@ identifiers:
   - repology: puppet
   - cpe: cpe:/a:puppet:puppet
   - cpe: cpe:2.3:a:puppet:puppet
+  - purl: pkg:gem/bolt
+  - purl: pkg:github/puppetlabs/bolt
+  - purl: pkg:github/puppetlabs-toy-chest/chloride
+  - purl: pkg:github/puppetlabs/cisco_ios
+  - purl: pkg:deb/debian/facter
+  - purl: pkg:deb/ubuntu/facter
+  - purl: pkg:gem/facter
+  - purl: pkg:github/puppetlabs/facter
+  - purl: pkg:gitlab/cleveron/facter
+  - purl: pkg:rpm/fedora/facter
+  - purl: pkg:rpm/opensuse/facter
+  - purl: pkg:deb/debian/puppet-module-puppetlabs-firewall
+  - purl: pkg:deb/ubuntu/puppet-module-puppetlabs-firewall
+  - purl: pkg:github/puppetlabs/puppetlabs-firewall
+  - purl: pkg:bitbucket/guymatz/hiera
+  - purl: pkg:bitbucket/schatt/hiera
+  - purl: pkg:deb/debian/hiera
+  - purl: pkg:deb/ubuntu/hiera
+  - purl: pkg:gem/hiera
+  - purl: pkg:github/puppetlabs/hiera
+  - purl: pkg:rpm/fedora/hiera
+  - purl: pkg:github/choria-legacy/mcollective-puppet-agent
+  - purl: pkg:github/puppetlabs/mcollective-puppet-agent
+  - purl: pkg:github/choria-legacy/mcollective-sshkey-security
+  - purl: pkg:deb/debian/puppet
+  - purl: pkg:deb/ubuntu/puppet
+  - purl: pkg:github/puppetlabs/puppet
+  - purl: pkg:puppet/open-source-puppet
+  - purl: pkg:rpm/fedora/puppet
+  - purl: pkg:rpm/opensuse/puppet
+  - purl: pkg:deb/debian/puppet-module-puppetlabs-apache
+  - purl: pkg:deb/ubuntu/puppet-module-puppetlabs-apache
+  - purl: pkg:github/puppetlabs/puppetlabs-apache
+  - purl: pkg:gitlab/simp/puppetlabs-apache
+  - purl: pkg:deb/debian/puppet-module-puppetlabs-mysql
+  - purl: pkg:deb/ubuntu/puppet-module-puppetlabs-mysql
+  - purl: pkg:docker/eugenetolan/puppetlabs-mysql
+  - purl: pkg:github/eugenetolan/puppetlabs-mysql
+  - purl: pkg:github/puppetlabs/puppetlabs-mysql
+  - purl: pkg:gitlab/simp/puppetlabs-mysql
+  - purl: pkg:github/puppetlabs/puppetlabs-puppet_agent
+  - purl: pkg:github/sodabrew/puppet-dashboard
+  - purl: pkg:github/puppetlabs/puppet
+  - purl: pkg:github/puppetlabs/puppetserver
+  - purl: pkg:github/puppetlabs-toy-chest/razor-server
+  - purl: pkg:deb/debian/puppet-module-puppetlabs-stdlib
+  - purl: pkg:deb/ubuntu/puppet-module-puppetlabs-stdlib
+  - purl: pkg:github/puppetlabs/puppetlabs-stdlib
+  - purl: pkg:gitlab/simp/puppetlabs-stdlib
+  - purl: pkg:rpm/opensuse/puppetlabs-stdlib
+  - purl: pkg:gem/puppet
 
 auto:
   methods:

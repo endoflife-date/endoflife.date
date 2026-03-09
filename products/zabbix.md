@@ -16,6 +16,14 @@ identifiers:
   - purl: pkg:github/zabbix/zabbix
   - cpe: cpe:2.3:a:zabbix:zabbix
   - cpe: cpe:/a:zabbix:zabbix
+  - purl: pkg:github/zabbix/zabbix-docker
+  - purl: pkg:golang/github.com/zabbix/zabbix-docker
+  - purl: pkg:docker/zabbix/zabbix-agent
+  - purl: pkg:rpm/fedora/zabbix
+  - purl: pkg:rpm/opensuse/zabbix
+  - purl: pkg:zabbix/zbx/zabbix
+  - purl: pkg:docker/zabbix/zabbix-agent2
+  - purl: pkg:github/mesilat/zabbix-plugin
 
 auto:
   methods:

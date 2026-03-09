@@ -16,6 +16,13 @@ latestColumn: false
 identifiers:
   - cpe: cpe:/o:nixos:nixos
   - cpe: cpe:2.3:o:nixos:nixos
+  - purl: pkg:github/nixos/hydra
+  - purl: pkg:deb/debian/nix
+  - purl: pkg:deb/ubuntu/nix
+  - purl: pkg:github/nixos/nix
+  - purl: pkg:github/nixos/nixpkgs
+  - purl: pkg:github/nixos/patchelf
+  - purl: pkg:docker/nixos/nix
 
 releases:
   - releaseCycle: "25.11"

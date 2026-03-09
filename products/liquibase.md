@@ -11,6 +11,10 @@ changelogTemplate: https://github.com/liquibase/liquibase/releases/tag/v__LATEST
 identifiers:
   - repology: liquibase
   - cpe: cpe:2.3:a:liquibase:liquibase
+  - purl: pkg:github/liquibase/liquibase
+  - purl: pkg:maven/org.liquibase/liquibase-core
+  - purl: pkg:rpm/fedora/liquibase
+  - purl: pkg:rpm/opensuse/liquibase
 
 auto:
   methods:

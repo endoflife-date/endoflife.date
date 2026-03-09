@@ -15,6 +15,14 @@ eolColumn: Security
 identifiers:
   - cpe: cpe:/a:umbraco:umbraco_cms
   - cpe: cpe:2.3:a:umbraco:umbraco_cms
+  - purl: pkg:github/umbraco/umbraco-cms
+  - purl: pkg:nuget/UmbracoCms
+  - purl: pkg:nuget/umbracoforms
+  - purl: pkg:github/umbraco/umbraco-cms
+  - purl: pkg:nuget/umbracoCms
+  - purl: pkg:nuget/UmbracoCms.Core
+  - purl: pkg:nuget/UmbracoCms.Web
+  - purl: pkg:sourceforge/umbraco
 
 auto:
   methods:

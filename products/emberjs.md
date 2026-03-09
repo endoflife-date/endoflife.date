@@ -16,6 +16,8 @@ identifiers:
   - purl: pkg:npm/ember-source
   - cpe: cpe:2.3:a:emberjs:ember.js
   - cpe: cpe:/a:emberjs:ember.js
+  - purl: pkg:nuget/EmberJS.2.2
+  - purl: pkg:sourceforge/ember-js.mirror
 
 # NPM is more accurate than git. Version 1.0.0 to 2.11.0 are not on NPM, but 1.x and 2.x cycles are
 # not displayed on this page, so it's not a big deal.

@@ -14,6 +14,19 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 identifiers:
   - cpe: cpe:2.3:o:linuxmint:linuxmint
+  - purl: pkg:deb/debian/cinnamon
+  - purl: pkg:deb/ubuntu/cinnamon
+  - purl: pkg:github/linuxmint/cinnamon
+  - purl: pkg:rpm/fedora/cinnamon
+  - purl: pkg:rpm/opensuse/cinnamon
+  - purl: pkg:github/linuxmint/mintinstall
+  - purl: pkg:github/linuxmint/pix
+  - purl: pkg:rpm/opensuse/pix
+  - purl: pkg:sourceforge/pix.mirror
+  - purl: pkg:github/linuxmint/warpinator
+  - purl: pkg:rpm/opensuse/warpinator
+  - purl: pkg:github/linuxmint/xreader
+  - purl: pkg:rpm/fedora/xreader
 
 auto:
   methods:

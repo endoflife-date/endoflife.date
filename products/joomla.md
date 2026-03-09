@@ -11,6 +11,12 @@ eoasColumn: true
 
 identifiers:
   - repology: joomla
+  - purl: pkg:github/king1ted/joompass
+  - purl: pkg:github/nikosdion/joomla-expose
+  - purl: pkg:github/joomla/joomla-cms
+  - purl: pkg:rpm/opensuse/joomla
+  - purl: pkg:sourceforge/joomla.mirror
+  - purl: pkg:github/joomla-framework/session
 
 auto:
   methods:

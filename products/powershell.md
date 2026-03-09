@@ -18,6 +18,9 @@ identifiers:
   - purl: pkg:github/powershell/powershell
   - repology: powershell
   - cpe: cpe:2.3:a:microsoft:powershell
+  - purl: pkg:gitlab/kalilinux/powershell
+  - purl: pkg:nuget/PowerShell
+  - purl: pkg:sourceforge/powershell.mirror
 
 customFields:
   - name: dotnetVersion

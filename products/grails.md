@@ -18,6 +18,14 @@ identifiers:
   - purl: pkg:maven/org.apache.grails/grails
   - cpe: cpe:/a:grails:grails
   - cpe: cpe:2.3:a:grails:grails
+  - purl: pkg:github/grails/grails-core
+  - purl: pkg:maven/org.grails/grails
+  - purl: pkg:github/grails-fields-plugin/grails-fields
+  - purl: pkg:githb/glenasmith/grails-pdf
+  - purl: pkg:github/aeischeid/grails-pdfplugin
+  - purl: pkg:github/grails-plugins/grails-resources
+  - purl: pkg:github/grails/grails-spring-security-core
+  - purl: pkg:github/sheehan/grails-core
 
 auto:
   methods:

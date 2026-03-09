@@ -14,6 +14,26 @@ auto:
 
 identifiers:
   - repology: openvpn
+  - purl: pkg:docker/diadebeltphy/openvpn-connect-mac-download
+  - purl: pkg:docker/zhujintao/openvpn-connect
+  - purl: pkg:deb/debian/easy-rsa
+  - purl: pkg:deb/ubuntu/easy-rsa
+  - purl: pkg:github/openvpn/easy-rsa
+  - purl: pkg:rpm/fedora/easy-rsa
+  - purl: pkg:rpm/opensuse/easy-rsa
+  - purl: pkg:deb/debian/openvpn
+  - purl: pkg:deb/ubuntu/openvpn
+  - purl: pkg:github/openvpn/openvpn
+  - purl: pkg:github/openvpn/openvpn3-linux
+  - purl: pkg:rpm/opensuse/openvpn3-linux
+  - purl: pkg:github/openvpn/openvpn
+  - purl: pkg:gem/lita-openvpnas
+  - purl: pkg:github/openvpn/puppet-openvpnas
+  - purl: pkg:npm/openvpn-access-server-scripts
+  - purl: pkg:pypi/pyovpn-as
+  - purl: pkg:github/openvpn/openvpn-gui
+  - purl: pkg:github/openvpn/ovpn-dco-win
+  - purl: pkg:github/openvpn/tap-windows6
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:

@@ -23,6 +23,13 @@ identifiers:
   - purl: pkg:docker/bitnami/matomo
   - purl: pkg:github/matomo-org/matomo
   - cpe: cpe:2.3:a:matomo:matomo
+  - purl: pkg:docker/matomo
+  - purl: pkg:github/matomo-org/docker
+  - purl: pkg:github/brotkrueml/typo3-matomo-integration
+  - purl: pkg:rpm/opensuse/matomo
+  - purl: pkg:docker/piwik
+  - purl: pkg:github/matomo-org/docker
+  - purl: pkg:github/daschtour/matomo-mediawiki-extension
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/

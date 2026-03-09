@@ -26,6 +26,7 @@ identifiers:
   - purl: pkg:composer/statamic/cms
   - purl: pkg:github/statamic/cms
   - cpe: cpe:2.3:a:statamic:statamic
+  - purl: pkg:github/duncanmcclean/guest-entries
 
 auto:
   methods:

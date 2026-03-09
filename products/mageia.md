@@ -13,6 +13,7 @@ eolColumn: Supported
 identifiers:
   - cpe: cpe:/o:mageia:mageia
   - cpe: cpe:2.3:o:mageia:mageia
+  - purl: pkg:docker/mageia
 
 auto:
   methods:

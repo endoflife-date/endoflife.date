@@ -11,6 +11,9 @@ identifiers:
   - repology: phpbb
   - cpe: cpe:/a:phpbb:phpbb
   - cpe: cpe:2.3:a:phpbb:phpbb
+  - purl: pkg:github/phpbb/phpbb
+  - purl: pkg:rpm/opensuse/phpbb
+  - purl: pkg:github/punbb/punbb
 
 auto:
   methods:

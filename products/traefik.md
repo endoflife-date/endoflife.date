@@ -17,6 +17,8 @@ identifiers:
   - purl: pkg:github/traefik/traefik
   - purl: pkg:generic/traefik
   - cpe: cpe:2.3:a:traefik:traefik
+  - purl: pkg:rpm/opensuse/traefik
+  - purl: pkg:sourceforge/traefik.mirror
 
 auto:
   methods:

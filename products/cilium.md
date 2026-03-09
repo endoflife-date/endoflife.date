@@ -15,6 +15,10 @@ identifiers:
   - purl: pkg:docker/cilium/cilium
   - purl: pkg:docker/quay.io/cilium/cilium
   - cpe: cpe:2.3:a:cilium:cilium
+  - purl: pkg:rpm/opensuse/cilium
+  - purl: pkg:sourceforge/cilium.mirror
+  - purl: pkg:github/cilium/cilium-cli
+  - purl: pkg:golang/github.com/cilium/cilium-cli
 
 auto:
   methods:

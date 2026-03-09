@@ -20,6 +20,10 @@ identifiers:
   - purl: pkg:npm/express
   - cpe: cpe:/a:openjsf:express
   - cpe: cpe:2.3:a:openjsf:express
+  - purl: pkg:deb/debian/node-express
+  - purl: pkg:deb/ubuntu/node-express
+  - purl: pkg:maven/org.webjars.npm/express
+  - purl: pkg:sourceforge/express.mirror
 
 releases:
   - releaseCycle: "5"

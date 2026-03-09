@@ -13,6 +13,8 @@ eolColumn: LTS support
 
 identifiers:
   - purl: pkg:npm/quasar
+  - purl: pkg:github/quasarframework/quasar-ui-qmarkdown
+  - purl: pkg:npm/%40quasar/quasar-ui-qmarkdown
 
 auto:
   methods:

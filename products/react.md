@@ -14,6 +14,10 @@ identifiers:
   - purl: pkg:github/facebook/react
   - purl: pkg:npm/react
   - cpe: cpe:2.3:a:facebook:react
+  - purl: pkg:github/remix-run/react
+  - purl: pkg:npm/%40remix-run/react
+  - purl: pkg:github/remix-run/react-router
+  - purl: pkg:npm/react-router
 
 # NPM dates are more accurate than git tag dates.
 auto:

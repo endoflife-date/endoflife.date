@@ -11,6 +11,7 @@ eolColumn: Support
 
 identifiers:
   - purl: pkg:github/goharbor/harbor
+  - purl: pkg:golang/github.com/goharbor/harbor
   # Official images
   - purl: pkg:docker/goharbor/harbor-core
   - purl: pkg:docker/goharbor/harbor-exporter

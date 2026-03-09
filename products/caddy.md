@@ -29,6 +29,9 @@ identifiers:
   - purl: pkg:scoop/caddy
   - cpe: cpe:/a:caddyserver:caddy
   - cpe: cpe:2.3:a:caddyserver:caddy
+  - purl: pkg:docker/caddy
+  - purl: pkg:rpm/opensuse/caddy
+  - purl: pkg:sourceforge/caddy.mirror
 
 releases:
   - releaseCycle: "2"

@@ -17,6 +17,8 @@ auto:
 identifiers:
   - purl: pkg:github/adonisjs/core
   - purl: pkg:npm/%40adonisjs/core
+  - purl: pkg:github/edge-js/edge
+  - purl: pkg:npm/edge.js
 
 # eol(x) = releaseDate(x+1)
 releases:

@@ -12,6 +12,11 @@ changelogTemplate: https://help.splunk.com/en/splunk-enterprise/release-notes-an
 identifiers:
   - repology: splunk
   - cpe: cpe:2.3:a:splunk:splunk
+  - purl: pkg:github/splunk/hadoop-connect-for-splunk
+  - purl: pkg:github/splunk/splunk-sdk-python
+  - purl: pkg:pypi/splunk-sdk
+  - purl: pkg:github/jenkinsci/splunk-devops-plugin
+  - purl: pkg:github/splunk/splunkforjenkins
 
 auto:
   disabled: true # there are anti-bot protection measures on https://docs.splunk.com

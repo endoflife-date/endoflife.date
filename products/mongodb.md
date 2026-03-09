@@ -25,6 +25,56 @@ identifiers:
   - purl: pkg:rpm/centos/mongodb-enterprise-server
   - repology: mongodb
   - cpe: cpe:2.3:a:mongodb:mongodb
+  - purl: pkg:github/mongodb/mongodb-atlas-kubernetes
+  - purl: pkg:golang/github.com/mongodb/mongodb-atlas-kubernetes
+  - purl: pkg:github/mongodb/js-bson
+  - purl: pkg:maven/org.webjars.npm/bson
+  - purl: pkg:npm/bson
+  - purl: pkg:rpm/fedora/nodejs-bson
+  - purl: pkg:github/mongodb-js/compass
+  - purl: pkg:deb/debian/mongo-c-driver
+  - purl: pkg:deb/ubuntu/mongo-c-driver
+  - purl: pkg:github/mongodb/mongo-c-driver
+  - purl: pkg:rpm/fedora/mongo-c-driver
+  - purl: pkg:rpm/opensuse/mongo-c-driver
+  - purl: pkg:deb/debian/mongo-tools
+  - purl: pkg:deb/ubuntu/mongo-tools
+  - purl: pkg:github/mongodb/mongo-tools
+  - purl: pkg:rpm/opensuse/mongo-tools
+  - purl: pkg:deb/debian/golang-mongodb-mongo-driver
+  - purl: pkg:github/mongodb/mongo-go-driver
+  - purl: pkg:rpm/fedora/golang-mongodb-mongo-driver
+  - purl: pkg:github/mongodb/mongo-java-driver
+  - purl: pkg:maven/org.mongodb/mongo-java-driver
+  - purl: pkg:github/mongodb/js-bson
+  - purl: pkg:github/mongodb/mongodb-enterprise-kubernetes
+  - purl: pkg:deb/debian/libbson
+  - purl: pkg:deb/ubuntu/libbson
+  - purl: pkg:github/mongodb/libbson
+  - purl: pkg:github/mongodb/mongo-c-driver
+  - purl: pkg:rpm/fedora/libbson
+  - purl: pkg:deb/debian/libmongocrypt
+  - purl: pkg:deb/ubuntu/libmongocrypt
+  - purl: pkg:github/mongodb/libmongocrypt
+  - purl: pkg:npm/mongodb-client-encryption
+  - purl: pkg:rpm/fedora/libmongocrypt
+  - purl: pkg:rpm/opensuse/libmongocrypt
+  - purl: pkg:github/mongodb/mongo
+  - purl: pkg:github/mongodb/mongodb-enterprise-kubernetes
+  - purl: pkg:github/mongodb-js/mongosh
+  - purl: pkg:npm/mongosh
+  - purl: pkg:github/mongodb/node-mongodb-native
+  - purl: pkg:npm/mongodb
+  - purl: pkg:github/mongodb/mongo-php-driver
+  - purl: pkg:github/mongodb/mongo-python-driver
+  - purl: pkg:github/mongodb/mongo-python-driver
+  - purl: pkg:github/mongodb/mongo-ruby-driver
+  - purl: pkg:github/mongodb/mongo-rust-driver
+  - purl: pkg:github/mongodb/mongo-swift-driver
+  - purl: pkg:github/anynines/a9s-mongodb-app-old
+  - purl: pkg:github/lucaspinto/a9s_mongodb_app
+  - purl: pkg:github/jenkinsci/mongodb-plugin
+  - purl: pkg:github/kiy0taka/mongodb-plugin
 
 auto:
   methods:

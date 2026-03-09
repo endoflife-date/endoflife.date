@@ -13,6 +13,45 @@ latestColumn: false
 identifiers:
   - cpe: cpe:/o:freebsd:freebsd
   - cpe: cpe:2.3:o:freebsd:freebsd
+  - purl: pkg:deb/debian/aide
+  - purl: pkg:deb/ubuntu/aide
+  - purl: pkg:github/aide/aide
+  - purl: pkg:gitlab/redhat/aide
+  - purl: pkg:rpm/centos/aide
+  - purl: pkg:rpm/fedora/aide
+  - purl: pkg:rpm/opensuse/aide
+  - purl: pkg:sourceforge/aide
+  - purl: pkg:deb/debian/aide
+  - purl: pkg:deb/ubuntu/aide
+  - purl: pkg:github/aide/aide
+  - purl: pkg:gitlab/redhat/aide
+  - purl: pkg:rpm/centos/aide
+  - purl: pkg:rpm/fedora/aide
+  - purl: pkg:rpm/opensuse/aide
+  - purl: pkg:deb/debian/cvsweb
+  - purl: pkg:deb/ubuntu/cvsweb
+  - purl: pkg:github/jrmarino/fetch-freebsd
+  - purl: pkg:github/freebsd/freebsd-src
+  - purl: pkg:deb/debian/heimdal
+  - purl: pkg:deb/ubuntu/heimdal
+  - purl: pkg:github/heimdal/heimdal
+  - purl: pkg:rpm/fedora/heimdal
+  - purl: pkg:rpm/opensuse/heimdal
+  - purl: pkg:deb/debian/libarchive
+  - purl: pkg:deb/ubuntu/libarchive
+  - purl: pkg:github/libarchive/libarchive
+  - purl: pkg:gitlab/redhat/libarchive
+  - purl: pkg:rpm/centos/libarchive
+  - purl: pkg:rpm/fedora/libarchive
+  - purl: pkg:rpm/opensuse/libarchive
+  - purl: pkg:github/freebsd/freebsd-src
+  - purl: pkg:deb/debian/ppp
+  - purl: pkg:deb/ubuntu/ppp
+  - purl: pkg:github/ppp-project/ppp
+  - purl: pkg:gitlab/redhat/ppp
+  - purl: pkg:rpm/centos/ppp
+  - purl: pkg:rpm/fedora/ppp
+  - purl: pkg:rpm/opensuse/ppp
 
 auto:
   methods:

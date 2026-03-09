@@ -13,6 +13,9 @@ eoesColumn: true
 
 identifiers:
   - purl: pkg:github/mautic/mautic/
+  - purl: pkg:github/mautic/mautic
+  - purl: pkg:sourceforge/mautic.mirror
+  - purl: pkg:drupal/mautic
 
 auto:
   methods:

@@ -18,6 +18,39 @@ identifiers:
   - repology: perl
   - cpe: cpe:2.3:a:perl:perl
   - cpe: cpe:/a:perl:perl
+  - purl: pkg:cpan/cgi-application
+  - purl: pkg:github/markstos/cgi--application
+  - purl: pkg:cpan/cpan
+  - purl: pkg:github/andk/cpanpm
+  - purl: pkg:cpan/convert-uulib
+  - purl: pkg:cpan/dbi
+  - purl: pkg:github/perl5-dbi/dbi
+  - purl: pkg:gitlab/redhat/perl-dbi
+  - purl: pkg:rpm/centos/perl-dbi
+  - purl: pkg:rpm/fedora/perl-dbi
+  - purl: pkg:rpm/opensuse/perl-dbi
+  - purl: pkg:github/perl5-dbi/dbi
+  - purl: pkg:cpan/pathtools
+  - purl: pkg:github/tsee/pathtools
+  - purl: pkg:gitlab/redhat/perl-pathtools
+  - purl: pkg:rpm/fedora/perl-pathtools
+  - purl: pkg:rpm/opensuse/perl-pathtools
+  - purl: pkg:deb/debian/pcre2
+  - purl: pkg:deb/ubuntu/pcre2
+  - purl: pkg:github/rurban/pcre
+  - purl: pkg:gitlab/redhat/pcre
+  - purl: pkg:nuget/pcre
+  - purl: pkg:pypi/pcre2
+  - purl: pkg:rpm/fedora/pcre
+  - purl: pkg:rpm/opensuse/pcre2
+  - purl: pkg:sourceforge/pcre
+  - purl: pkg:deb/ubuntu/perl
+  - purl: pkg:github/perl/perl5
+  - purl: pkg:perl/perl5
+  - purl: pkg:rpm/fedora/perl
+  - purl: pkg:rpm/opensuse/perl
+  - purl: pkg:cpan/perl-dist-strawberry
+  - purl: pkg:github/strawberryperl/perl-dist-strawberry
 
 auto:
   methods:

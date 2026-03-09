@@ -12,6 +12,12 @@ identifiers:
   - repology: libreoffice
   - cpe: cpe:/a:libreoffice:libreoffice
   - cpe: cpe:2.3:a:libreoffice:libreoffice
+  - purl: pkg:deb/debian/libreoffice
+  - purl: pkg:deb/ubuntu/libreoffice
+  - purl: pkg:github/libreoffice/core
+  - purl: pkg:libreoffice/core
+  - purl: pkg:rpm/fedora/libreoffice
+  - purl: pkg:rpm/opensuse/libreoffice
 
 auto:
   methods:

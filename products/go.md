@@ -20,6 +20,15 @@ identifiers:
   - purl: pkg:docker/cimg/go
   - purl: pkg:docker/bitnami/golang
   - purl: pkg:brew/go
+  - purl: pkg:github/golang/crypto
+  - purl: pkg:github/golang/go
+  - purl: pkg:golang/github.com/golang/go
+  - purl: pkg:github/ecies/go
+  - purl: pkg:golang/github.com/ecies/go
+  - purl: pkg:golang/go/go
+  - purl: pkg:googlesource/go
+  - purl: pkg:github/google/go-attestation
+  - purl: pkg:golang/github.com/google/go-attestation
   # - purl: pkg:snap/go
   - cpe: cpe:2.3:a:golang:go
 

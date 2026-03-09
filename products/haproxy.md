@@ -22,6 +22,15 @@ identifiers:
   - purl: pkg:rpm/centos/haproxy
   - purl: pkg:apk/alpine/haproxy
   - cpe: cpe:2.3:a:haproxy:haproxy
+  - purl: pkg:docker/haproxy/haproxy
+  - purl: pkg:github/haproxy/haproxy
+  - purl: pkg:haproxy/haproxy
+  - purl: pkg:rpm/fedora/haproxy
+  - purl: pkg:rpm/opensuse/haproxy
+  - purl: pkg:github/mastercactapus/caddy-proxyprotocol
+  - purl: pkg:github/docker-library/haproxy
+  - purl: pkg:golang/github.com/haproxy/haproxy
+  - purl: pkg:github/pfsense/freebsd-ports
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01

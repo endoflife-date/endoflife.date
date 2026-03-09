@@ -12,6 +12,7 @@ eolColumn: Support Status
 identifiers:
   - repology: duckdb
   - cpe: cpe:2.3:a:duckdb:duckdb
+  - purl: pkg:github/tu0laj1/database_test
 
 auto:
   methods:

@@ -14,6 +14,18 @@ identifiers:
   - repology: php:symfony
   - cpe: cpe:/a:sensiolabs:symfony
   - cpe: cpe:2.3:a:sensiolabs:symfony
+  - purl: pkg:composer/symfony/symfony
+  - purl: pkg:github/symfony/symfony
+  - purl: pkg:golang/github.com/symfony/symfony
+  - purl: pkg:sourceforge/symfony.mirror
+  - purl: pkg:deb/debian/twig
+  - purl: pkg:deb/ubuntu/twig
+  - purl: pkg:github/twigphp/twig
+  - purl: pkg:nuget/twig.twig
+  - purl: pkg:rpm/fedora/php-twig
+  - purl: pkg:composer/symfony/ux-autocomplete
+  - purl: pkg:github/symfony/ux-autocomplete
+  - purl: pkg:github/auth0/symfony
 
 auto:
   methods:

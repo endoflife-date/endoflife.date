@@ -16,6 +16,9 @@ identifiers:
   - repology: hbase
   - cpe: cpe:/a:apache:hbase
   - cpe: cpe:2.3:a:apache:hbase
+  - purl: pkg:apache/hbase
+  - purl: pkg:github/apache/hbase
+  - purl: pkg:maven/org.apache.hbase/hbase
 
 auto:
   methods:

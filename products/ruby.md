@@ -25,6 +25,12 @@ identifiers:
   - purl: pkg:docker/library/ruby
   - purl: pkg:generic/ruby
   - cpe: cpe:2.3:a:ruby-lang:ruby
+  - purl: pkg:gem/ruby/fileutils
+  - purl: pkg:github/ruby/fileutils
+  - purl: pkg:gem/uri
+  - purl: pkg:github/ruby/uri
+  - purl: pkg:github/ruby/ruby
+  - purl: pkg:ruby-lang/ruby
 
 releases:
   - releaseCycle: "4.0"

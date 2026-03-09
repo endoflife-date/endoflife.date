@@ -18,6 +18,13 @@ identifiers:
   - cpe: cpe:2.3:a:apache:log4j
   - purl: pkg:maven/org.apache.logging.log4j/log4j-core
   - purl: pkg:maven/log4j/log4j
+  - purl: pkg:apache/logging
+  - purl: pkg:deb/debian/apache-log4j2
+  - purl: pkg:deb/ubuntu/apache-log4j2
+  - purl: pkg:github/apache/log4j
+  - purl: pkg:maven/org.apache.logging.log4j/log4j
+  - purl: pkg:rpm/fedora/log4j
+  - purl: pkg:rpm/opensuse/log4j
 
 auto:
   methods:

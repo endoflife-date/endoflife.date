@@ -32,6 +32,8 @@ identifiers:
   - repology: opensearch
   - purl: pkg:docker/opensearchproject/opensearch
   - cpe: cpe:2.3:a:amazon:opensearch
+  - purl: pkg:gem/opensearch-ruby
+  - purl: pkg:github/opensearch-project/opensearch-ruby
     
 releases:
   - releaseCycle: "3"

@@ -20,6 +20,13 @@ identifiers:
   - repology: moodle
   - cpe: cpe:/a:moodle:moodle
   - cpe: cpe:2.3:a:moodle:moodle
+  - purl: pkg:docker/bitnami/moodle
+  - purl: pkg:github/moodle/moodle
+  - purl: pkg:rpm/fedora/moodle
+  - purl: pkg:rpm/opensuse/moodle
+  - purl: pkg:github/moodle-saml/auth
+  - purl: pkg:github/moodle-saml/auth
+  - purl: pkg:github/jcrodriguez-dis/moodle-mod_vpl
 
 auto:
   methods:

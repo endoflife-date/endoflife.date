@@ -40,6 +40,13 @@ identifiers:
   - purl: pkg:github/ansible/ansible
   - repology: ansible
   - cpe: cpe:2.3:a:redhat:ansible
+  - purl: pkg:deb/ubuntu/ansible
+  - purl: pkg:docker/ansible/ansible
+  - purl: pkg:rpm/fedora/ansible
+  - purl: pkg:rpm/opensuse/ansible
+  - purl: pkg:github/confluentinc/cp-ansible
+  - purl: pkg:github/jcsirot/ansible-plugin
+  - purl: pkg:github/jenkinsci/ansible-plugin
 
 auto:
   methods:

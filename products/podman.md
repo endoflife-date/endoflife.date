@@ -11,6 +11,14 @@ changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST_
 identifiers:
   - repology: podman
   - cpe: cpe:2.3:a:podman_project:podman
+  - purl: pkg:deb/debian/libpod
+  - purl: pkg:deb/ubuntu/libpod
+  - purl: pkg:github/containers/podman
+  - purl: pkg:gitlab/redhat/podman
+  - purl: pkg:rpm/centos/podman
+  - purl: pkg:rpm/fedora/podman
+  - purl: pkg:rpm/opensuse/podman
+  - purl: pkg:sourceforge/podman.mirror
 
 auto:
   methods:

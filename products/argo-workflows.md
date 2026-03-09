@@ -14,6 +14,7 @@ identifiers:
   - purl: pkg:github/argoproj/argo-workflows
   - purl: pkg:docker/argoproj/argocli
   - purl: pkg:docker/argoproj/workflow-controller
+  - purl: pkg:golang/github.com/argoproj/argo-workflows
 
 auto:
   methods:

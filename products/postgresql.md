@@ -31,6 +31,24 @@ identifiers:
   - purl: pkg:deb/ubuntu/postgresql
   - cpe: cpe:2.3:a:postgresql:postgresql
   - cpe: cpe:/a:postgresql:postgresql
+  - purl: pkg:docker/dpage/pgadmin4
+  - purl: pkg:github/postgres/pgadmin4
+  - purl: pkg:rpm/fedora/pgadmin4
+  - purl: pkg:rpm/opensuse/pgadmin4
+  - purl: pkg:github/pgjdbc/pgjdbc
+  - purl: pkg:deb/debian/postgresql
+  - purl: pkg:docker/postgres
+  - purl: pkg:github/postgres/postgres
+  - purl: pkg:gitlab/redhat/postgresql
+  - purl: pkg:rpm/fedora/postgresql
+  - purl: pkg:deb/debian/postgresql-common
+  - purl: pkg:deb/ubuntu/postgresql-common
+  - purl: pkg:github/pgjdbc/pgjdbc
+  - purl: pkg:deb/debian/psqlodbc
+  - purl: pkg:deb/ubuntu/psqlodbc
+  - purl: pkg:github/distrotech/psqlodbc
+  - purl: pkg:rpm/opensuse/psqlodbc
+  - purl: pkg:github/anynines/a9s-postgres-app-old
 
 releases:
   - releaseCycle: "18"

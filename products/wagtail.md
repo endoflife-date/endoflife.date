@@ -14,6 +14,11 @@ identifiers:
   - repology: python:wagtail
   - purl: pkg:pypi/wagtail
   - cpe: cpe:2.3:a:torchbox:wagtail
+  - purl: pkg:github/coderedcorp/coderedcms
+  - purl: pkg:pypi/coderedcms
+  - purl: pkg:github/wagtail/wagtail
+  - purl: pkg:rpm/opensuse/python-wagtail
+  - purl: pkg:sourceforge/wagtail.mirror
 
 auto:
   methods:

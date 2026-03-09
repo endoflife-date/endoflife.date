@@ -21,6 +21,13 @@ identifiers:
   - purl: pkg:rpm/opensuse/nginx
   - purl: pkg:github/nginx/nginx
   - cpe: cpe:2.3:a:f5:nginx
+  - purl: pkg:nginx/nginx
+  - purl: pkg:rpm/fedora/nginx
+  - purl: pkg:github/nginx/njs
+  - purl: pkg:github/nginx/unit
+  - purl: pkg:docker/nginx
+  - purl: pkg:github/stnoonan/spnego-http-auth-nginx-module
+  - purl: pkg:rpm/Fedora/nginx
 
 auto:
   methods:

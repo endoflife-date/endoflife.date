@@ -18,6 +18,13 @@ identifiers:
   - purl: pkg:npm/svelte
   - purl: pkg:github/sveltejs/svelte
   - cpe: cpe:2.3:a:svelte:svelte
+  - purl: pkg:github/sveltejs/kit
+  - purl: pkg:npm/%40sveltejs/adapter-node
+  - purl: pkg:npm/devalue
+  - purl: pkg:github/sveltejs/kit
+  - purl: pkg:npm/%40sveltejs/kit
+  - purl: pkg:github/sveltejs/language-tools
+  - purl: pkg:github/sveltejs/kit
 
 releases:
   - releaseCycle: "5"

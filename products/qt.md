@@ -15,6 +15,24 @@ identifiers:
   - repology: qt
   - cpe: cpe:/a:qt:qt
   - cpe: cpe:2.3:a:qt:qt
+  - purl: pkg:deb/debian/qtbase5-dev
+  - purl: pkg:deb/ubuntu/qtbase5-dev
+  - purl: pkg:github/qt/qt
+  - purl: pkg:github/qt/qt5
+  - purl: pkg:qt/qt
+  - purl: pkg:rpm/fedora/qt5-qtbase
+  - purl: pkg:rpm/opensuse/qt5-qtbase
+  - purl: pkg:github/qt/qt5
+  - purl: pkg:github/qtwebkit/qt5
+  - purl: pkg:deb/debian/qtbase5-dev
+  - purl: pkg:deb/ubuntu/qtbase5-dev
+  - purl: pkg:github/qt/qtbase
+  - purl: pkg:qt/qt
+  - purl: pkg:rpm/fedora/qt5-qtbase
+  - purl: pkg:rpm/opensuse/qt5-qtbase
+  - purl: pkg:github/qt/qtsvg
+  - purl: pkg:github/qt/qtwebkit
+  - purl: pkg:github/ramons03/qt-creator
 
 # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 auto:

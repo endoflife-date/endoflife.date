@@ -15,6 +15,31 @@ identifiers:
   - repology: gitlab
   - cpe: cpe:/a:gitlab:gitlab
   - cpe: cpe:2.3:a:gitlab:gitlab
+  - purl: pkg:deb/debian/gitaly
+  - purl: pkg:github/jackstack24/gitaly-mirror
+  - purl: pkg:github/tnir/gitaly
+  - purl: pkg:gitlab/gitlab-org/gitaly
+  - purl: pkg:rpm/opensuse/gitaly
+  - purl: pkg:gitlab/gitlab-org/gitlab
+  - purl: pkg:deb/debian/gitlab-shell
+  - purl: pkg:deb/ubuntu/gitlab-shell
+  - purl: pkg:github/gitlabhq/gitlab-shell
+  - purl: pkg:gitlab/gitlab-org/gitlab-shell
+  - purl: pkg:rpm/opensuse/gitlab-shell
+  - purl: pkg:gitlab/gitlab-org/gitlab-vscode-extension
+  - purl: pkg:github/gitlabhq/gitlab-runner
+  - purl: pkg:github/janwillies/gitlab-runner
+  - purl: pkg:github/lunixbochs/gitlab-runner
+  - purl: pkg:gitlab/gitlab-org/gitlab-runner
+  - purl: pkg:rpm/opensuse/gitlab-runner
+  - purl: pkg:github/gitlabhq/omnibus-gitlab
+  - purl: pkg:gitlab/gitlab-org/omnibus-gitlab
+  - purl: pkg:golang/gitlab.com/gitlab-org/omnibus-gitlab
+  - purl: pkg:docker/gitlab/gitlab-runner
+  - purl: pkg:github/gitlabhq/gitlab-runner
+  - purl: pkg:gitlab/gitlab-org/gitlab-runner
+  - purl: pkg:rpm/opensuse/gitlab-runner
+  - purl: pkg:github/jenkinsci/gitlab-plugin
 
 auto:
   methods:

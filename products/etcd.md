@@ -16,6 +16,10 @@ identifiers:
   - purl: pkg:oci/etcd?repository_url=gcr.io/etcd-development
   - purl: pkg:github/etcd-io/etcd
   - purl: pkg:golang/github.com/etcd-io/etcd
+  - purl: pkg:deb/debian/etcd
+  - purl: pkg:deb/ubuntu/etcd
+  - purl: pkg:rpm/fedora/etcd
+  - purl: pkg:rpm/opensuse/etcd
 
 auto:
   methods:

@@ -11,6 +11,7 @@ identifiers:
   - purl: pkg:docker/calico/cni
   - cpe: cpe:/a:projectcalico:calico
   - cpe: cpe:2.3:a:projectcalico:calico
+  - purl: pkg:github/tigera/calico
 
 auto:
   methods:

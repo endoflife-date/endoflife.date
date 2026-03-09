@@ -15,6 +15,32 @@ identifiers:
   - cpe: cpe:2.3:a:gstreamer:gstreamer
   - cpe: cpe:/a:gstreamer_project:gstreamer
   - cpe: cpe:2.3:a:gstreamer_project:gstreamer
+  - purl: pkg:deb/debian/gst-plugins-good1.0
+  - purl: pkg:deb/gst-plugins-good
+  - purl: pkg:deb/ubuntu/gst-plugins-good
+  - purl: pkg:github/gstreamer/gst-plugins-good
+  - purl: pkg:gitlab/clevon/gst-plugins-good
+  - purl: pkg:gitlab/debian/gst-plugins-good
+  - purl: pkg:golang/github.com/gstreamer/gst-plugins-good
+  - purl: pkg:rpm/opensuse/gst-plugins-good
+  - purl: pkg:deb/debian/gst-plugins-base1.0
+  - purl: pkg:deb/ubuntu/gst-plugins-base1.0
+  - purl: pkg:github/gstreamer/gst-plugins-base
+  - purl: pkg:gnome/gst-plugins-base1.0
+  - purl: pkg:golang/github.com/gstreamer/gst-plugins-base
+  - purl: pkg:rpm/opensuse/gst-plugins-base
+  - purl: pkg:bitbucket/cleveron/gstreamer
+  - purl: pkg:deb/debian/gstreamer1
+  - purl: pkg:deb/ubuntu/gstreamer1
+  - purl: pkg:github/gstreamer/gstreamer
+  - purl: pkg:gitlab/redhat/gstreamer1
+  - purl: pkg:rpm/centos/gstreamer1
+  - purl: pkg:rpm/fedora/gstreamer1
+  - purl: pkg:rpm/opensuse/gstreamer1
+  - purl: pkg:github/gstreamer/orc
+  - purl: pkg:github/gstreamer/gst-plugins-good
+  - purl: pkg:golang/github.com/gstreamer/gst-plugins-good
+  - purl: pkg:freedesktop/gstreamer
 
 auto:
   methods:

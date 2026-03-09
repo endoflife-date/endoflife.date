@@ -17,6 +17,44 @@ identifiers:
   - purl: pkg:github/kubernetes/kubernetes
   - repology: kubernetes
   - cpe: cpe:2.3:a:kubernetes:kubernetes
+  - purl: pkg:github/kubernetes/apiserver
+  - purl: pkg:golang/github.com/kubernetes/apiserver
+  - purl: pkg:github/kubernetes-sigs/aws-iam-authenticator
+  - purl: pkg:rpm/fedora/golang-sigs-k8s-aws-iam-authenticator
+  - purl: pkg:rpm/opensuse/aws-iam-authenticator
+  - purl: pkg:github/kubernetes-csi/external-snapshotter
+  - purl: pkg:github/cri-o/cri-o
+  - purl: pkg:rpm/opensuse/cri-o
+  - purl: pkg:github/kubernetes-csi/csi-proxy
+  - purl: pkg:golang/github.com/kubernetes-csi/csi-proxy
+  - purl: pkg:docker/boky/csi-provisioner
+  - purl: pkg:github/kubernetes-csi/external-provisioner
+  - purl: pkg:rpm/opensuse/csi-external-provisioner
+  - purl: pkg:github/kubernetes-csi/external-resizer
+  - purl: pkg:rpm/opensuse/csi-external-resizer
+  - purl: pkg:github/kubernetes-csi/external-snapshotter
+  - purl: pkg:rpm/opensuse/csi-external-snapshotter
+  - purl: pkg:github/kubernetes/ingress-nginx
+  - purl: pkg:github/kubernetes-client/java
+  - purl: pkg:github/kubernetes/apiserver
+  - purl: pkg:golang/github.com/kubernetes/apiserver
+  - purl: pkg:github/brancz/kube-rbac-proxy
+  - purl: pkg:golang/github.com/brancz/kube-rbac-proxy
+  - purl: pkg:github/kubernetes/kube-state-metrics
+  - purl: pkg:rpm/opensuse/kube-state-metrics
+  - purl: pkg:code.google/kubernetes
+  - purl: pkg:github/kubernetes/minikube
+  - purl: pkg:rpm/opensuse/minikube
+  - purl: pkg:sourceforge/minikube.mirror
+  - purl: pkg:github/kubernetes/ingress-nginx
+  - purl: pkg:github/kubernetes-sigs/secrets-store-csi-driver
+  - purl: pkg:golang/github.com/kubernetes-sigs/secrets-store-csi-driver
+  - purl: pkg:github/kubernetes-sigs/secrets-store-csi-driver
+  - purl: pkg:googlesource/kubernetes
+  - purl: pkg:rpm/fedora/kubernetes
+  - purl: pkg:rpm/opensuse/kubernetes
+  - purl: pkg:sourceforge/kubernetes.mirror
+  - purl: pkg:github/jenkinsci/kubernetes-plugin
 
 auto:
   methods:

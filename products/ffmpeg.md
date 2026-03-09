@@ -14,6 +14,19 @@ identifiers:
   - repology: ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:ffmpeg/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:opensuse/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg-coverity
+  - purl: pkg:golang/github.com/ffmpeg/ffmpeg
+  - purl: pkg:maven/net.bramp.ffmpeg/ffmpeg
+  - purl: pkg:npm/%40ffmpeg/ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
 
 auto:
   methods:

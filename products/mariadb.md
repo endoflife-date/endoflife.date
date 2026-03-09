@@ -25,6 +25,13 @@ identifiers:
   - purl: pkg:rpm/centos/mariadb-server
   - purl: pkg:rpm/opensuse/mariadb
   - cpe: cpe:2.3:a:mariadb:mariadb
+  - purl: pkg:deb/debian/mariadb-server
+  - purl: pkg:deb/ubuntu/mariadb-server
+  - purl: pkg:docker/mariadb/mariadb-docker
+  - purl: pkg:docker/mariadb/server
+  - purl: pkg:github/mariadb/server
+  - purl: pkg:rpm/fedora/mariadb
+  - purl: pkg:github/mariadb-corporation/maxscale
 
 auto:
   methods:

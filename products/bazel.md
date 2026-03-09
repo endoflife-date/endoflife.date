@@ -17,6 +17,8 @@ identifiers:
   - purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
   - cpe: cpe:/a:google:bazel
   - cpe: cpe:2.3:a:google:bazel
+  - purl: pkg:github/bazelbuild/vscode-bazel
+  - purl: pkg:github/jetbrains/bazel
 
 auto:
   methods:

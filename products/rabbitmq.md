@@ -17,6 +17,20 @@ identifiers:
   - cpe: cpe:2.3:a:pivotal_software:rabbitmq
   - cpe: cpe:/a:vmware:rabbitmq
   - cpe: cpe:2.3:a:vmware:rabbitmq
+  - purl: pkg:github/rabbitmq/rabbitmq-jms-client
+  - purl: pkg:docker/rabbitmq
+  - purl: pkg:github/docker-library/rabbitmq
+  - purl: pkg:golang/github.com/docker-library/rabbitmq
+  - purl: pkg:deb/debian/rabbitmq-server
+  - purl: pkg:github/rabbitmq/rabbitmq-server
+  - purl: pkg:rpm/fedora/rabbitmq-server
+  - purl: pkg:deb/ubuntu/rabbitmq-server
+  - purl: pkg:rpm/opensuse/rabbitmq-server
+  - purl: pkg:sourceforge/rabbitmq-server.mirror
+  - purl: pkg:bitbucket/dexmatech/puppet-rabbitmq
+  - purl: pkg:deb/debian/puppet-module-puppetlabs-rabbitmq
+  - purl: pkg:deb/ubuntu/puppet-module-puppetlabs-rabbitmq
+  - purl: pkg:github/voxpupuli/puppet-rabbitmq
 
 auto:
   methods:

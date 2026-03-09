@@ -14,6 +14,9 @@ identifiers:
   - purl: pkg:github/hashicorp/terraform
   - purl: pkg:generic/terraform
   - cpe: cpe:2.3:a:hashicorp:terraform
+  - purl: pkg:github/microsoft/terraform-provider-power-platform
+  - purl: pkg:docker/hashicorp/terraform
+  - purl: pkg:rpm/opensuse/terraform
 
 auto:
   methods:

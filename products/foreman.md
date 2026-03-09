@@ -11,6 +11,11 @@ changelogTemplate: https://theforeman.org/manuals/__RELEASE_CYCLE__/index.html#R
 identifiers:
   - repology: foreman
   - cpe: cpe:2.3:a:theforeman:foreman
+  - purl: pkg:deb/debian/ruby-foreman
+  - purl: pkg:deb/ubuntu/ruby-foreman
+  - purl: pkg:gem/foreman
+  - purl: pkg:github/theforeman/foreman
+  - purl: pkg:rpm/opensuse/rubygem-foreman
 
 auto:
   methods:

@@ -11,6 +11,40 @@ changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
 identifiers:
   - cpe: cpe:2.3:a:nextcloud:nextcloud_server
+  - purl: pkg:github/nextcloud/approval
+  - purl: pkg:github/nextcloud/calendar
+  - purl: pkg:github/nextcloud/circles
+  - purl: pkg:github/nextcloud/contacts
+  - purl: pkg:github/nextcloud/deck
+  - purl: pkg:github/nextcloud/desktop
+  - purl: pkg:github/nextcloud/end_to_end_encryption
+  - purl: pkg:github/paullereverend/nextcloudextract
+  - purl: pkg:github/nextcloud/files_accesscontrol
+  - purl: pkg:github/nextcloud/globalsiteselector
+  - purl: pkg:github/nextcloud/groupfolders
+  - purl: pkg:github/nextcloud/guests
+  - purl: pkg:github/nextcloud/lookup-server
+  - purl: pkg:github/nextcloud/mail
+  - purl: pkg:github/nextcloud/news
+  - purl: pkg:github/nextcloud/news-android
+  - purl: pkg:github/nextcloud/android
+  - purl: pkg:github/nextcloud/nextcloudpi
+  - purl: pkg:github/nextcloud/files_automatedtagging
+  - purl: pkg:github/nextcloud/mail
+  - purl: pkg:github/nextcloud/server
+  - purl: pkg:github/nextcloud/spreed
+  - purl: pkg:github/nextcloud/officeonline
+  - purl: pkg:github/nextcloud/password_policy
+  - purl: pkg:github/nextcloud/preferred_providers
+  - purl: pkg:github/nextcloud/richdocuments
+  - purl: pkg:github/nextcloud/server
+  - purl: pkg:gitlab/gitlab-gold/nextcloud-server
+  - purl: pkg:sourceforge/nextcloud-server.mirror
+  - purl: pkg:github/nextcloud/social
+  - purl: pkg:github/nextcloud/tables
+  - purl: pkg:github/nextcloud/spreed
+  - purl: pkg:github/nextcloud/twofactor_webauthn
+  - purl: pkg:github/nextcloud/files_zip
 
 auto:
   methods:

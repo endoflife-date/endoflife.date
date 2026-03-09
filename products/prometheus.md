@@ -18,6 +18,23 @@ identifiers:
   - purl: pkg:github/prometheus/prometheus
   - purl: pkg:golang/github.com/prometheus/prometheus
   - cpe: cpe:2.3:a:prometheus:prometheus
+  - purl: pkg:deb/debian/prometheus-alertmanager
+  - purl: pkg:deb/ubuntu/prometheus-alertmanager
+  - purl: pkg:docker/ubuntu/prometheus-alertmanager
+  - purl: pkg:golang/github.com/prometheus/alertmanager
+  - purl: pkg:rpm/opensuse/alertmanager
+  - purl: pkg:sourceforge/alertmanager.mirror
+  - purl: pkg:github/prometheus/blackbox_exporter
+  - purl: pkg:rpm/opensuse/blackbox_exporter
+  - purl: pkg:rpm/opensuse/golang-github-prometheus-blackbox_exporter
+  - purl: pkg:rpm/opensuse/prometheus-blackbox_exporter
+  - purl: pkg:github/prometheus/client_golang
+  - purl: pkg:github/prometheus/exporter-toolkit
+  - purl: pkg:golang/github.com/prometheus/exporter-toolkit
+  - purl: pkg:deb/debian/prometheus
+  - purl: pkg:deb/ubuntu/prometheus
+  - purl: pkg:rpm/fedora/golang-github-prometheus
+  - purl: pkg:sourceforge/prometheus.mirror
 
 auto:
   methods:

@@ -19,6 +19,25 @@ customFields:
 identifiers:
   - repology: plone
   - cpe: cpe:2.3:a:plone:plone
+  - purl: pkg:github/plone/products.isurlinportal
+  - purl: pkg:pypi/products.isurlinportal
+  - purl: pkg:github/plone/plone.namedfile
+  - purl: pkg:pypi/plone.namedfile
+  - purl: pkg:github/plone/plone
+  - purl: pkg:github/plone/products.plonepas
+  - purl: pkg:pypi/products.plonepas
+  - purl: pkg:github/plone/plone
+  - purl: pkg:pypi/plone
+  - purl: pkg:docker/plone
+  - purl: pkg:github/plone/plone.docker
+  - purl: pkg:pypi/plone
+  - purl: pkg:docker/plone
+  - purl: pkg:github/plone/plone.docker
+  - purl: pkg:pypi/plone
+  - purl: pkg:github/plone/plone.rest
+  - purl: pkg:pypi/plone.rest
+  - purl: pkg:github/plone/volto
+  - purl: pkg:npm/%40plone/volto
 
 auto:
   methods:

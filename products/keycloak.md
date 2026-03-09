@@ -13,6 +13,9 @@ identifiers:
   - purl: pkg:github/keycloak/keycloak
   - repology: keycloak
   - cpe: cpe:2.3:a:redhat:keycloak
+  - purl: pkg:maven/org.keycloak/keycloak-core
+  - purl: pkg:github/keycloak/keycloak-nodejs-auth-utils
+  - purl: pkg:keycloak/keycloak
 
 auto:
   methods:

@@ -27,6 +27,23 @@ auto:
 identifiers:
   - repology: mattermost
   - cpe: cpe:2.3:a:mattermost:mattermost_server
+  - purl: pkg:github/mattermost/mattermost-for-confluence
+  - purl: pkg:github/mattermost/focalboard
+  - purl: pkg:github/mattermost/mattermost-server
+  - purl: pkg:github/mattermost/mattermost-plugin-channel-export
+  - purl: pkg:golang/github.com/mattermost/mattermost-plugin-channel-export
+  - purl: pkg:github/mattermost/desktop
+  - purl: pkg:sourceforge/mattermost-desktop.mirror
+  - purl: pkg:github/mattermost/mattermost-mobile
+  - purl: pkg:github/mattermost/mattermost-plugin-github
+  - purl: pkg:github/mattermost/mattermost-server
+  - purl: pkg:github/mattermost/mattermost-plugin-msteams-meetings
+  - purl: pkg:golang/github.com/mattermost/mattermost-plugin-msteams-meetings
+  - purl: pkg:github/mattermost/mattermost-plugin-msteams-meetings
+  - purl: pkg:golang/github.com/mattermost/mattermost-plugin-msteams-meetings
+  - purl: pkg:github/mattermost/mattermost-plugin-playbooks
+  - purl: pkg:github/mattermost/mattermost-server
+  - purl: pkg:github/jenkinsci/mattermost-plugin
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
