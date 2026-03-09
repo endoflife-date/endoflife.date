@@ -42,8 +42,8 @@ releases:
     releaseDate: 2025-07-03
     eoas: false
     eol: 2028-07-03
-    latest: "5.42.0"
-    latestReleaseDate: 2025-07-03
+    latest: "5.42.1"
+    latestReleaseDate: 2026-03-08
 
   - releaseCycle: "5.40"
     releaseDate: 2024-06-09
@@ -100,6 +100,7 @@ releases:
     eol: 2020-05-30
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
+
 ---
 
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30
