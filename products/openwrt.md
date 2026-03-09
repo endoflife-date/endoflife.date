@@ -19,8 +19,7 @@ auto:
 identifiers:
   - purl: pkg:docker/openwrtorg/sdk
   - purl: pkg:github/openwrt/openwrt
-  - purl: pkg:gitlab/sdr/openwrt
-  - purl: pkg:sourceforge/openwrt	
+  - purl: pkg:gitlab/sdr/openwrt	
 
 # eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
 # eoas(x) = releaseDate(x+1)
