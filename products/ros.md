@@ -13,7 +13,7 @@ latestColumn: false
 eolColumn: End Of Life
 
 identifiers:
-  - purl: pkg:github/ros/ros_comm
+  - purl: pkg:github/ros/ros
 
 releases:
   - releaseCycle: "noetic"

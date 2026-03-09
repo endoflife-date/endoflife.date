@@ -14,7 +14,6 @@ auto:
 identifiers:
   - purl: pkg:composer/cachethq/cachet
   - purl: pkg:github/cachethq/cachet
-  - purl: pkg:golang/github.com/cachethq/cachet
 
 # eol(x) = releaseDate(x+1)
 releases:
