@@ -1,6 +1,6 @@
 ---
 title: Anthropic Claude
-addedAt: 2026-03-02
+addedAt: 2026-03-09
 category: service
 tags:
   - llm
@@ -9,8 +9,8 @@ permalink: /claude
 alternate_urls:
   - /anthropic-claude
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
-eoasColumn: Deprecation
-eolColumn: Retirement
+eoasColumn: Deprecated
+eolColumn: Retired
 
 customFields:
   - name: recommendedReplacement
@@ -198,30 +198,25 @@ releases:
 ---
 
 > [Anthropic Claude](https://claude.ai/) is a family of large language models provided by Anthropic.
-> This page tracks Claude model availability on the Anthropic API, not the Claude app,
+
+{: .warning }
+> This page tracks Claude model availability on the Anthropic API. This does not include the Claude app,
 > Claude Code, or third-party integrations such as Amazon Bedrock and Google Cloud Vertex AI.
 
 ## Lifecycle states
 
-- Active: The model is fully supported and recommended for use.
-- Legacy: The model will no longer receive updates and may be deprecated in the future.
-- Deprecated: The model is no longer available for new customers but continues to be available
-              for existing users until retirement. Anthropic assigns a retirement date at this point.
-- Retired: The model is no longer available for use. Requests to retired models will fail.
+- **Active**: The model is fully supported and recommended for use.
+- **Legacy**: The model will no longer receive updates and may be deprecated in the future.
+- **Deprecated**: The model is no longer available for new customers but continues to be available
+  for existing users until retirement. Anthropic assigns a retirement date at this point.
+- **Retired**: The model is no longer available for use. Requests to retired models will fail.
 
 **Note** Deprecated models are likely to be less reliable than active models.
-Move workloads to active models to maintain the highest level of support and reliability.
+Anthropic recommends moving workloads to active models to maintain the highest level of support and reliability.
 
-## Deprecation policy
+Customers with active deployments receive at least 60 days' notice before retirement for publicly released models.
+Anthropic recommends auditing API usage to discover model usage and testing replacement models before retirement.
 
-The table above uses the deprecation column for Anthropic's public deprecation announcement date
-and the retirement column for the published retirement date. The recommended replacement column
-follows Anthropic's deprecation history.
+Anthropic has committed to preserve the weights of publicly released models and may make past models available again in the future.
 
-Anthropic says customers with active deployments receive at least 60 days' notice before
-retirement for publicly released models. Anthropic also recommends auditing API usage and testing
-replacement models before retirement. Anthropic has committed to preserve the weights of publicly
-released models and may make past models available again in the future.
-
-Anthropic does not publish an ‘end of active support’ date separately, so the deprecation column
-uses the public deprecation announcement date.
+Retirement is treated as EOL and Deprecation as End-of-Active-support in the above table and endoflife.date API.
