@@ -18,6 +18,9 @@ identifiers:
   - cpe: cpe:2.3:a:apache:hadoop
   - cpe: cpe:/a:cloudera:hadoop
   - cpe: cpe:2.3:a:cloudera:hadoop
+  - purl: pkg:docker/apache/hadoop
+  - purl: pkg:github/apache/hadoop
+  - purl: pkg:maven/org.apache.hadoop/hadoop-core
 
 auto:
   methods:
