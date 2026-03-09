@@ -109,7 +109,6 @@ releases:
     releaseDate: 2015-10-01
     eol: 2025-11-07
     eoes: 2026-11-07
-
 ---
 
 > [Amazon Elasticsearch](https://aws.amazon.com/opensearch-service/) (now part of Amazon OpenSearch
@@ -117,12 +116,12 @@ releases:
 > Elasticsearch OSS engine versions from 1.5 through 7.10.
 
 {: .note }
+
 > Amazon Elasticsearch Service was renamed to Amazon OpenSearch Service in September 2021. OpenSearch
 > engine versions are tracked at [Amazon OpenSearch](/amazon-opensearch). The self-hosted open-source
 > Elasticsearch is tracked at [Elasticsearch](/elasticsearch).
 
-All Elasticsearch versions on this service share the same standard support end date of November 7,
-2025. Extended support provides critical security fixes for at least 12 months after standard
+All Elasticsearch versions on this service share the same standard support end date of November 7, 2025. Extended support provides critical security fixes for at least 12 months after standard
 support ends, at a flat fee per Normalized Instance Hour. Version 5.6 has an extended support window
 until November 7, 2028 (3 years vs. 1 year for other versions).
 
