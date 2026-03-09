@@ -15,6 +15,12 @@ eoasColumn: true
 auto:
   methods:
     - git: https://github.com/openwrt/openwrt.git
+	
+identifiers:
+  - purl: pkg:docker/openwrtorg/sdk
+  - purl: pkg:github/openwrt/openwrt
+  - purl: pkg:gitlab/sdr/openwrt
+  - purl: pkg:sourceforge/openwrt	
 
 # eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
 # eoas(x) = releaseDate(x+1)
