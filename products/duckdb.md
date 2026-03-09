@@ -20,12 +20,10 @@ auto:
 releases:
   - releaseCycle: "1.5"
     codename: "Variegata"
-    lts: false
     releaseDate: 2026-03-09
     eol: false
     latest: "1.5.0"
     latestReleaseDate: 2026-03-09
-    link: https://duckdb.org/2026/03/09/announcing-duckdb-150
     
   - releaseCycle: "1.4"
     codename: "Andium"
