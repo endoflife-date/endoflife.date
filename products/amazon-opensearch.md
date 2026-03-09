@@ -84,13 +84,13 @@ releases:
     releaseDate: 2021-09-08
     eol: 2025-11-07
     eoes: 2026-11-07
-
 ---
 
 > [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) is a managed service from Amazon
 > Web Services that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud.
 
 {: .note }
+
 > This page tracks the AWS managed service. The self-hosted offering is tracked at
 > [OpenSearch](/opensearch). Legacy Elasticsearch engine versions on this service are tracked at
 > [Amazon Elasticsearch](/amazon-elasticsearch).
