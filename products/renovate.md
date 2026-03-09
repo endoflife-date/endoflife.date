@@ -8,7 +8,7 @@ versionCommand: renovate --version
 releasePolicyLink: https://docs.renovatebot.com/faq/#which-renovate-versions-are-officially-supported
 changelogTemplate: "https://github.com/renovatebot/renovate/releases/tag/__LATEST__"
 
-addedAt: 2026-03-02
+addedAt: 2026-03-09
 eolColumn: Support
 
 identifiers:
