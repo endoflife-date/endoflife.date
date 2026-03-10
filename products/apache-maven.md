@@ -28,7 +28,9 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.maven/maven-core
+    - github_releases: apache/maven
+      regex: '^maven-(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # See https://maven.apache.org/docs/history.html
 releases:
