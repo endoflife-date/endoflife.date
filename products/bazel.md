@@ -37,8 +37,8 @@ releases:
     releaseDate: 2026-01-20
     eoas: false # releaseDate(10)
     eol: 2028-12-31
-    latest: "9.0.0"
-    latestReleaseDate: 2026-01-20
+    latest: "9.0.1"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "8"
     lts: true
