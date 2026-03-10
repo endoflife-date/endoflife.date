@@ -14,7 +14,6 @@ identifiers:
   - purl: pkg:oci/karpenter?repository_url=public.ecr.aws/karpenter
   - purl: pkg:oci/karpenter?repository_url=dhi.io
   - purl: pkg:oci/karpenter?repository_url=cgr.dev/chainguard
-  - purl: pkg:github/kubernetes-sigs/karpenter
 
 auto:
   methods:
