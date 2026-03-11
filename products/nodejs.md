@@ -235,6 +235,11 @@ and even-numbered releases (10, 12, etc.) move to Active LTS status and are read
 LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months.
 Production applications should only use Active LTS or Maintenance LTS releases.
 
+Since Node 27, Node.js is moving to one major release per year starting with Node 27.
+Every release becomes LTS, version numbers align with the year and there is a 6-month
+Alpha channel for early testing.
+
+
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
