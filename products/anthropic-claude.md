@@ -2,8 +2,7 @@
 title: Anthropic Claude
 addedAt: 2026-03-09
 category: service
-tags:
-  - llm
+tags: llm
 iconSlug: anthropic
 permalink: /claude
 alternate_urls:
