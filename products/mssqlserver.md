@@ -60,13 +60,13 @@ releases:
     releaseDate: 2021-09-15
     eoas: 2026-07-14
     eol: 2026-07-14
-    latestGdr: "13.0.6475.1"
-    latestGdrLink: https://support.microsoft.com/help/5068401 # GDR for SP3
-    latest: "13.0.7070.1 Azure Connect pack+GDR"
-    latestReleaseDate: 2025-11-11
+    latestGdr: "13.0.6480.4"
+    latestGdrLink: https://support.microsoft.com/help/5077474 # GDR for SP3
+    latest: "13.0.7075.5 Azure Connect pack+GDR"
+    latestReleaseDate: 2026-03-10
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
     # Azure Connect pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3-azureconnect
-    link: https://support.microsoft.com/help/5068400 # GDR for Azure Connect pack
+    link: https://support.microsoft.com/help/5077473 # GDR for Azure Connect pack
 
   - releaseCycle: "15.0"
     codename: Aris/Seattle
