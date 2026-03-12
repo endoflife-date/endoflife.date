@@ -9,7 +9,6 @@ alternate_urls:
   - /ansible-automation-platform
   - /aap
 releasePolicyLink: https://access.redhat.com/support/policy/updates/ansible-automation-platform
-releaseImage: https://access.redhat.com/sites/hub/files/2025-10/AAP%20Lifecycle%20Doodle.jpg
 eoasColumn: Full Support
 eolColumn: Maintenance Support 1
 eoesColumn: Maintenance Support 2
