@@ -35,16 +35,16 @@ releases:
     releaseDate: 2025-06-17
     eoas: false
     eol: false # still listed on https://developer.shopware.com/release-notes/
-    latest: "6.7.8.0"
-    latestReleaseDate: 2026-02-25
+    latest: "6.7.8.1"
+    latestReleaseDate: 2026-03-09
 
   - releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
     releaseDate: 2024-03-21
     eoas: 2025-06-17
     eol: false # still listed on https://developer.shopware.com/release-notes/
-    latest: "6.6.10.14"
-    latestReleaseDate: 2026-03-05
+    latest: "6.6.10.15"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
