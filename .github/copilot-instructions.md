@@ -95,7 +95,7 @@ npx @pb33f/wiretap@latest -s http://localhost:4000/docs/api/v1/openapi.yml -u ht
 1. **Naming**: Filename is `productname.md` (lowercase, dashes for spaces)
 2. **Frontmatter only**: Product files are YAML frontmatter with markdown content below
 3. **Frontmatter order** (blank line between sections):
-   - Product info: `title`, `category`, `tags`, `iconSlug`, `permalink`, `alternate_urls`, `versionCommand`, `releasePolicyLink`, `releaseImage`, `changelogTemplate`
+   - Product info: `title`, `category`, `tags`, `iconSlug`, `permalink`, `alternate_urls`, `versionCommand`, `releasePolicyLink`, `changelogTemplate`
    - Formatting: `releaseLabel`, `LTSLabel`, `eolColumn`, `eoasColumn`, `releaseDateColumn`, `discontinuedColumn`, `eoesColumn`, etc.
    - Identifiers: `identifiers`
    - Auto-update: `auto`
