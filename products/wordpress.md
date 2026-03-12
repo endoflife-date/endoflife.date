@@ -42,43 +42,43 @@ releases:
     supportedPHPVersions: "7.2 - 8.5"
     releaseDate: 2025-12-02
     eol: false
-    latest: "6.9.2"
-    latestReleaseDate: 2026-03-10
+    latest: "6.9.4"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.8"
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2025-04-15
     eol: 2025-12-02
-    latest: "6.8.4"
-    latestReleaseDate: 2026-03-10
+    latest: "6.8.5"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.7"
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2024-11-12
     eol: 2025-04-15
-    latest: "6.7.4"
-    latestReleaseDate: 2025-09-30
+    latest: "6.7.5"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.6"
     supportedPHPVersions: "7.2 - 8.3"
     releaseDate: 2024-07-16
     eol: 2024-11-12 # releaseDate(6.7)
-    latest: "6.6.4"
-    latestReleaseDate: 2025-09-30
+    latest: "6.6.5"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.5"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2024-04-02
     eol: 2024-07-16 # releaseDate(6.6)
-    latest: "6.5.7"
-    latestReleaseDate: 2025-09-30
+    latest: "6.5.8"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2023-11-07
     eol: 2024-04-02 # releaseDate(6.5)
-    latest: "6.4.7"
-    latestReleaseDate: 2025-09-30
+    latest: "6.4.8"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "6.3"
     supportedPHPVersions: "7.0 - 8.2"

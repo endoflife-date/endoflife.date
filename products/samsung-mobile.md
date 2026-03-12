@@ -61,6 +61,18 @@ releases:
     eol: false       # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
     link: null # unknown
 
+  - releaseCycle: "galaxy-f70e-5g"
+    releaseLabel: "Galaxy F70e 5G"
+    releaseDate: 2026-02-17 # https://news.samsung.com/in/samsung-india-unveils-galaxy-f70e-5g-with-showstopper-camera-ultra-smooth-display-premium-leather-finish
+    eoas: 2032-02-17 # 6 years - https://news.samsung.com/in/samsung-india-unveils-galaxy-f70e-5g-with-showstopper-camera-ultra-smooth-display-premium-leather-finish
+    eol: 2032-02-17  # 6 years - https://news.samsung.com/in/samsung-india-unveils-galaxy-f70e-5g-with-showstopper-camera-ultra-smooth-display-premium-leather-finish
+
+  - releaseCycle: "galaxy-a07-5g"
+    releaseLabel: "Galaxy A07 5G"
+    releaseDate: 2026-01-30 # https://news.samsung.com/global/samsung-launches-galaxy-a07-5g-bringing-intelligence-and-reliable-performance-to-more-galaxy-a-series-devices
+    eoas: 2032-01-30 # 6 years - https://news.samsung.com/global/samsung-launches-galaxy-a07-5g-bringing-intelligence-and-reliable-performance-to-more-galaxy-a-series-devices
+    eol: 2032-01-30  # 6 years - https://news.samsung.com/global/samsung-launches-galaxy-a07-5g-bringing-intelligence-and-reliable-performance-to-more-galaxy-a-series-devices
+
   - releaseCycle: "galaxy-z-trifold"
     releaseLabel: "Galaxy Z TriFold"
     releaseDate: 2025-12-01 # https://news.samsung.com/us/samsung-introducing-galaxy-z-trifold-shape-whats-next-mobile-innovation/
