@@ -1,6 +1,6 @@
 ---
 title: OTOBO
-addedAt: 2026-03-07
+addedAt: 2026-03-12
 category: server-app
 permalink: /otobo
 releasePolicyLink: https://otobo.io/en/service-management-platform/otobo-download/
