@@ -50,6 +50,7 @@ releases:
     eol: 2026-01-20
     latest: "9.5.2"
     latestReleaseDate: 2025-11-20
+    link: null
 
   - releaseCycle: "9.4"
     releaseDate: 2025-07-09
@@ -57,6 +58,7 @@ releases:
     eol: 2025-10-21
     latest: "9.4.2"
     latestReleaseDate: 2025-09-04
+    link: null
 
   - releaseCycle: "9.3"
     releaseDate: 2025-03-31
@@ -64,6 +66,7 @@ releases:
     eol: 2025-07-22
     latest: "9.3.2"
     latestReleaseDate: 2025-06-10
+    link: null
 
   - releaseCycle: "9.2"
     releaseDate: 2024-12-15
@@ -71,6 +74,7 @@ releases:
     eol: 2025-04-15
     latest: "9.2.2"
     latestReleaseDate: 2025-02-21
+    link: null
 
   - releaseCycle: "9.1"
     releaseDate: 2024-09-24
