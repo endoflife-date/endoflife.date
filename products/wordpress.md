@@ -84,22 +84,22 @@ releases:
     supportedPHPVersions: "7.0 - 8.2"
     releaseDate: 2023-08-08
     eol: 2023-11-07 # releaseDate(6.4)
-    latest: "6.3.7"
-    latestReleaseDate: 2025-09-30
+    latest: "6.3.8"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "6.2"
     supportedPHPVersions: "5.6 - 8.2"
     releaseDate: 2023-03-29
     eol: 2023-08-08 # releaseDate(6.3)
-    latest: "6.2.8"
-    latestReleaseDate: 2025-09-30
+    latest: "6.2.9"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "6.1"
     supportedPHPVersions: "5.6 - 8.2"
     releaseDate: 2022-11-02
     eol: 2023-03-29 # releaseDate(6.2)
-    latest: "6.1.9"
-    latestReleaseDate: 2025-09-30
+    latest: "6.1.10"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "6.0"
     supportedPHPVersions: "5.6 - 8.1"
@@ -112,50 +112,50 @@ releases:
     supportedPHPVersions: "5.6 - 8.1"
     releaseDate: 2022-01-25
     eol: 2022-05-24 # releaseDate(6.0)
-    latest: "5.9.12"
-    latestReleaseDate: 2025-09-30
+    latest: "5.9.13"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.8"
     supportedPHPVersions: "5.6 - 8.0"
     releaseDate: 2021-07-20
     eol: 2022-01-25 # releaseDate(5.9)
-    latest: "5.8.12"
-    latestReleaseDate: 2025-09-30
+    latest: "5.8.13"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.7"
     supportedPHPVersions: "5.6 - 8.0"
     releaseDate: 2021-03-09
     eol: 2021-07-20 # releaseDate(5.8)
-    latest: "5.7.14"
-    latestReleaseDate: 2025-09-30
+    latest: "5.7.15"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.6"
     supportedPHPVersions: "5.6 - 8.0"
     releaseDate: 2020-12-08
     eol: 2021-03-09 # releaseDate(5.7)
-    latest: "5.6.16"
-    latestReleaseDate: 2025-09-30
+    latest: "5.6.17"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.5"
     supportedPHPVersions: "5.6 - 7.4"
     releaseDate: 2020-08-11
     eol: 2020-12-08 # releaseDate(5.6)
-    latest: "5.5.17"
-    latestReleaseDate: 2025-09-30
+    latest: "5.5.18"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.4"
     supportedPHPVersions: "5.6 - 7.4"
     releaseDate: 2020-03-31
     eol: 2020-08-11 # releaseDate(5.5)
-    latest: "5.4.18"
-    latestReleaseDate: 2025-09-30
+    latest: "5.4.19"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.3"
     supportedPHPVersions: "5.6 - 7.4"
     releaseDate: 2019-11-12
     eol: 2020-03-31 # releaseDate(5.4)
-    latest: "5.3.20"
-    latestReleaseDate: 2025-09-30
+    latest: "5.3.21"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "5.2"
     supportedPHPVersions: "5.6 - 7.3"
