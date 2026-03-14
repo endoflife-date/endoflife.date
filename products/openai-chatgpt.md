@@ -294,8 +294,9 @@ releases:
 - **Deprecated**: The model has an announced shutdown date. It remains accessible to all users
   until the retirement date, but is not recommended for new use cases.
 - **Retired**: The model is no longer accessible. API requests using retired models will fail.
+  May also be referred to in documentation as "sunset" and "shut down".
 
-Impacted developers are notified by email and in OpenAI's documentation. For publicly released
+Impacted developers are notified by email, in OpenAI's [documentation](https://developers.openai.com/api/docs/deprecations/) and [blog](https://openai.com/blog). For publicly released
 models, at least 60 days' notice is given before the retirement date.
 
 OpenAI recommends auditing API usage to identify which models are in use and testing replacement
