@@ -8,8 +8,8 @@ permalink: /chatgpt
 alternate_urls:
   - /openai-chatgpt
 releasePolicyLink: https://developers.openai.com/api/docs/deprecations/
-eoasColumn: Deprecated
-eolColumn: Retired
+eoasColumn: Active
+eolColumn: Available
 
 customFields:
   - name: recommendedReplacement
@@ -291,5 +291,5 @@ models, at least 60 days' notice is given before the retirement date.
 OpenAI recommends auditing API usage to identify which models are in use and testing replacement
 models before the retirement date.
 
-Retirement is treated as EOL and Deprecation as End-of-Active-support in the above table and
-endoflife.date API.
+The **Active** column shows when a model is recommended for new use; it ends at Deprecation.
+The **Available** column shows when the model remains accessible at all; it ends at Retirement.
