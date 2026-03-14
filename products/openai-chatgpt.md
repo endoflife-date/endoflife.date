@@ -1,4 +1,3 @@
-
 ---
 title: OpenAI ChatGPT
 addedAt: 2026-03-10
@@ -22,7 +21,7 @@ customFields:
 releases:
   - releaseCycle: "gpt-5.4"
     releaseLabel: GPT-5.4
-    releaseDate: 2025-03-05
+    releaseDate: 2026-03-05
     eoas: false
     eol: false
     latest: "gpt-5.4"
