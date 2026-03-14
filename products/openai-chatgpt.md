@@ -49,6 +49,16 @@ releases:
     latestReleaseDate: 2025-11-12
     link: https://developers.openai.com/api/docs/models
 
+  - releaseCycle: "gpt-5-mini"
+    releaseLabel: GPT-5
+    releaseDate: 2025-08-07
+    eoas: false
+    eol: false
+    latest: "gpt-5-mini"
+    recommendedReplacement: "N/A"
+    latestReleaseDate: 2025-08-07
+    link: https://developers.openai.com/api/docs/models
+
   - releaseCycle: "gpt-5"
     releaseLabel: GPT-5
     releaseDate: 2025-08-07
