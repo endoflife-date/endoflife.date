@@ -8,7 +8,7 @@ permalink: /nodejs
 alternate_urls:
   - /node
 versionCommand: node --version
-releasePolicyLink: https://nodejs.org/en/about/previous-releases
+releasePolicyLink: https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
@@ -229,13 +229,12 @@ releases:
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment
 > built on Chrome's V8 JavaScript engine that executes JavaScript code outside a browser.
 
-Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them.
-After six months, odd-numbered releases (9, 11, etc.) become unsupported,
-and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use.
-LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months.
-Production applications should only use Active LTS or Maintenance LTS releases.
+Node.js is moving from two major releases per year to one, starting with Node.js 27.
+Node.js 26 is the last release line under the previous release policy model
 
-If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
+Starting with Node.js 27, there is one major release per year. Every release becomes LTS : there is no longer an odd/even distinction. 
+
+Total support per version is 36 months. Version numbers align with the calendar year.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
 Commercial support is available for some deprecated LTS versions of Node.js through the
