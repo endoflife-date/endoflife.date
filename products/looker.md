@@ -61,12 +61,12 @@ releases:
     link: https://cloud.google.com/looker/docs/release-notes#October_06_2025
 
   - releaseCycle: "25.16"
-    releaseDate: 2025-09-10
+    releaseDate: 2025-09-30
     eol: 2025-12-31
     link: https://cloud.google.com/looker/docs/release-notes#September_10_2025
 
   - releaseCycle: "25.14"
-    releaseDate: 2025-08-13
+    releaseDate: 2025-08-31
     eol: 2025-11-30
     link: https://discuss.google.dev/t/looker-25-14-release-notes/254350
 
