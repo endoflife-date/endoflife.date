@@ -7,7 +7,7 @@ permalink: /hibernate-orm
 alternate_urls:
   - /hibernate
 releasePolicyLink: https://hibernate.org/community/maintenance-policy/
-changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/__LATEST__
 eolColumn: Stable support
 eoesColumn: Limited support
 
