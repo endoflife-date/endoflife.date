@@ -23,7 +23,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/knative/serving.git
-      # Render GitHub Markdown to web so we get a real table without having to render javascript
+      regex: '^knative-v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)'
     - release_table: https://collected.press/github/knative/community/mechanics/RELEASE-SCHEDULE.md
       selector: "table"
       fields:
@@ -33,6 +33,7 @@ auto:
         releaseDate: "Date"
         eol: "EOL"
         minK8sVersion: "Min K8s Version"
+
 # eol dates as per upstream table
 releases:
   - releaseCycle: "1.21"
