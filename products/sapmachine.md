@@ -111,6 +111,12 @@ releases:
     latest: "11.0.30"
     latestReleaseDate: 2026-01-20
 
+  - releaseCycle: "10"
+    releaseDate: 2018-03-21
+    eol: 2018-09-25 # releaseDate of OpenJDK 11
+    latest: "10.0.2"
+    latestReleaseDate: 2026-03-11
+
 ---
 
 > [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

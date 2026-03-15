@@ -67,7 +67,7 @@ releases:
 
   - releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
-    eol: 2027-10-31
+    eol: 2027-12-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
     latest: "17.0.17.0.10-1"
     latestReleaseDate: 2025-10-16
@@ -104,6 +104,7 @@ releases:
     latest: "1.6.0.41-1.13.13.1"
     latestReleaseDate: 2017-01-04
     link: null
+
 ---
 
 > [Red Hat build of OpenJDK](https://access.redhat.com/products/openjdk/) is a build of the Open

@@ -17,6 +17,7 @@ identifiers:
   - repology: kafka
   - cpe: cpe:/a:apache:kafka
   - cpe: cpe:2.3:a:apache:kafka
+  - purl: pkg:github/apache/kafka
 
 auto:
   methods:
@@ -37,6 +38,7 @@ releases:
     latest: "4.2.0"
     latestReleaseDate: 2026-02-16
 
+    eoes: 2028-03-04
   - releaseCycle: "4.1"
     releaseDate: 2025-09-02
     eol: false

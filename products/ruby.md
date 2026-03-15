@@ -24,6 +24,7 @@ identifiers:
   - repology: ruby
   - purl: pkg:docker/library/ruby
   - purl: pkg:generic/ruby
+  - cpe: cpe:2.3:a:ruby-lang:ruby
 
 releases:
   - releaseCycle: "4.0"
@@ -36,8 +37,8 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.8"
-    latestReleaseDate: 2025-12-16
+    latest: "3.4.9"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25

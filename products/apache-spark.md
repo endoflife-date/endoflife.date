@@ -17,6 +17,7 @@ identifiers:
   - repology: apache-spark
   - cpe: cpe:/a:apache:spark
   - cpe: cpe:2.3:a:apache:spark
+  - purl: pkg:github/apache/spark
 
 auto:
   methods:

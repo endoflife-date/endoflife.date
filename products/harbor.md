@@ -41,6 +41,7 @@ identifiers:
   - purl: pkg:oci/harbor-core?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-portal?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-jobservice?repository_url=quay.io/goharbor
+  - cpe: cpe:2.3:a:linuxfoundation:harbor
 
 auto:
   methods:
@@ -51,14 +52,14 @@ releases:
   - releaseCycle: "2.14"
     releaseDate: 2025-09-17
     eol: false
-    latest: "2.14.2"
-    latestReleaseDate: 2026-01-15
+    latest: "2.14.3"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "2.13"
     releaseDate: 2025-04-09
     eol: false
-    latest: "2.13.4"
-    latestReleaseDate: 2026-01-15
+    latest: "2.13.5"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "2.12"
     releaseDate: 2024-11-05

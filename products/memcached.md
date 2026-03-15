@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:rpm/centos/memcached
   - purl: pkg:docker/library/memcached
   - repology: memcached
+  - cpe: cpe:2.3:a:memcached:memcached
 
 auto:
   methods:
@@ -25,8 +26,8 @@ releases:
   - releaseCycle: "1.6"
     releaseDate: 2020-03-08
     eol: false
-    latest: "1.6.40"
-    latestReleaseDate: 2025-12-16
+    latest: "1.6.41"
+    latestReleaseDate: 2026-03-06
 
   - releaseCycle: "1.5"
     releaseDate: 2017-07-21

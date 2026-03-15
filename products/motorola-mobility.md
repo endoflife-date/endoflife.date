@@ -17,6 +17,18 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-edge-70-fusion+
+    releaseLabel: "Motorola edge 70 fusion+"
+    releaseDate: 2026-02-01
+    eol: 2031-11-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12535
+
+  - releaseCycle: motorola-edge-70-fusion
+    releaseLabel: "Motorola edge 70 fusion"
+    releaseDate: 2026-02-01
+    eol: 2031-11-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12531
+
   - releaseCycle: moto-g77
     releaseLabel: "Moto G77"
     releaseDate: 2026-01-01
@@ -554,13 +566,13 @@ releases:
   - releaseCycle: "moto-g73-5g"
     releaseLabel: "Moto G73 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2026-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11431
 
   - releaseCycle: "moto-g53-5g"
     releaseLabel: "Moto G53 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2027-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11426
 
   - releaseCycle: "moto-g23"

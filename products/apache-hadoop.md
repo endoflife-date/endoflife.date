@@ -18,6 +18,9 @@ identifiers:
   - cpe: cpe:2.3:a:apache:hadoop
   - cpe: cpe:/a:cloudera:hadoop
   - cpe: cpe:2.3:a:cloudera:hadoop
+  - purl: pkg:docker/apache/hadoop
+  - purl: pkg:github/apache/hadoop
+  - purl: pkg:maven/org.apache.hadoop/hadoop-core
 
 auto:
   methods:
@@ -30,8 +33,8 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
-    latest: "3.4.2"
-    latestReleaseDate: 2025-08-29
+    latest: "3.4.3"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "3.3"
     staleReleaseThresholdDays: 1000 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines

@@ -13,6 +13,7 @@ versionCommand: artemis version
 
 identifiers:
   - repology: activemq-artemis
+  - purl: pkg:github/apache/activemq-artemis
 
 auto:
   methods:
@@ -20,9 +21,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.52"
+    releaseDate: 2026-03-02
+    eol: false
+    latest: "2.52.0"
+    latestReleaseDate: 2026-03-02
+
   - releaseCycle: "2.51"
     releaseDate: 2026-02-11
-    eol: false
+    eol: 2026-03-02
     latest: "2.51.0"
     latestReleaseDate: 2026-02-06
 

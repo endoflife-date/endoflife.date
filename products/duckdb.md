@@ -11,12 +11,20 @@ eolColumn: Support Status
 
 identifiers:
   - repology: duckdb
+  - cpe: cpe:2.3:a:duckdb:duckdb
 
 auto:
   methods:
     - github_releases: duckdb/duckdb
 
 releases:
+  - releaseCycle: "1.5"
+    codename: "Variegata"
+    releaseDate: 2026-03-09
+    eol: false
+    latest: "1.5.0"
+    latestReleaseDate: 2026-03-09
+    
   - releaseCycle: "1.4"
     codename: "Andium"
     lts: true

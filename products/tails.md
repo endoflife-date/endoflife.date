@@ -8,6 +8,9 @@ permalink: /tails
 versionCommand: cat /etc/amnesia/version
 changelogTemplate: https://tails.net/news/version___LATEST__/
 
+identifiers:
+  - cpe: cpe:2.3:o:tails_project:tails
+
 # We fetch dates from Git and then override a few
 # older releases with more accurate dates from distrowatch
 # pre-1.3 releases were tagged later, so git data isn't accurate for those.
@@ -20,8 +23,8 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2025-09-18
     eol: false
-    latest: "7.4.2"
-    latestReleaseDate: 2026-02-10
+    latest: "7.5"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "6"
     releaseDate: 2024-02-27

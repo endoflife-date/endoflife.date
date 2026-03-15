@@ -27,7 +27,7 @@ auto:
 
 releases:
   - releaseCycle: "23"
-    releaseLabel: "23ai"
+    releaseLabel: "26ai" # see https://mikedietrichde.com/2025/10/14/oracle-ai-database-26ai-replaces-oracle-database-23ai/
     releaseDate: 2023-09-19
     lts: true
     eol: 2031-12-31
@@ -129,8 +129,9 @@ releases:
 
 {: .note}
 
-> Because of the importance of the breakthrough AI technology in the latest 23 release, it was
-> renamed from `23c` to `23ai`.
+> Because of the importance of the breakthrough AI technology in the 23 release, it was renamed from `23c` to `23ai`.
+> Moreover the [`23ai` release was later replaced by `26ai`](https://mikedietrichde.com/2025/10/14/oracle-ai-database-26ai-replaces-oracle-database-23ai/),
+> but `26ai` kept `23` for the first number of the release.
 
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
 [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")

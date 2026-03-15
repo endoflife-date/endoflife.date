@@ -22,6 +22,7 @@ identifiers:
   - purl: pkg:docker/library/matomo
   - purl: pkg:docker/bitnami/matomo
   - purl: pkg:github/matomo-org/matomo
+  - cpe: cpe:2.3:a:matomo:matomo
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
@@ -31,8 +32,8 @@ releases:
     releaseDate: 2023-12-18
     eoas: false
     eol: false
-    latest: "5.7.1"
-    latestReleaseDate: 2026-02-03
+    latest: "5.8.0"
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "4"
     releaseDate: 2020-11-24

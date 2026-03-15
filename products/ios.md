@@ -23,15 +23,15 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "26.3"
-    latestReleaseDate: 2026-02-11
+    latest: "26.3.1"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.7.5"
-    latestReleaseDate: 2026-02-11
+    latest: "18.7.6"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -44,16 +44,16 @@ releases:
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: 2025-03-31
-    latest: "16.7.14"
-    latestReleaseDate: 2026-02-02
+    latest: "16.7.15"
+    latestReleaseDate: 2026-03-11
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: 2025-03-31
-    latest: "15.8.6"
-    latestReleaseDate: 2026-01-26
+    latest: "15.8.7"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16

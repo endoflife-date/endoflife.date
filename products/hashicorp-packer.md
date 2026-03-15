@@ -14,6 +14,7 @@ versionCommand: packer --version
 
 identifiers:
   - repology: packer
+  - cpe: cpe:2.3:a:hashicorp:packer
 
 auto:
   methods:

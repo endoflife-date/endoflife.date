@@ -12,6 +12,7 @@ eolColumn: Supported
 identifiers:
   - purl: pkg:github/keycloak/keycloak
   - repology: keycloak
+  - cpe: cpe:2.3:a:redhat:keycloak
 
 auto:
   methods:
@@ -22,8 +23,8 @@ releases:
   - releaseCycle: "26.5"
     releaseDate: 2026-01-06
     eol: false
-    latest: "26.5.4"
-    latestReleaseDate: 2026-02-20
+    latest: "26.5.5"
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "26.4"
     releaseDate: 2025-09-30

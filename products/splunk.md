@@ -11,6 +11,7 @@ changelogTemplate: https://help.splunk.com/en/splunk-enterprise/release-notes-an
 
 identifiers:
   - repology: splunk
+  - cpe: cpe:2.3:a:splunk:splunk
 
 auto:
   disabled: true # there are anti-bot protection measures on https://docs.splunk.com

@@ -10,6 +10,7 @@ changelogTemplate: https://theforeman.org/manuals/__RELEASE_CYCLE__/index.html#R
 
 identifiers:
   - repology: foreman
+  - cpe: cpe:2.3:a:theforeman:foreman
 
 auto:
   methods:
@@ -17,15 +18,21 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.18"
+    releaseDate: 2026-03-10
+    eol: false
+    latest: "3.18.0"
+    latestReleaseDate: 2026-03-10
+
   - releaseCycle: "3.17"
     releaseDate: 2025-12-09
     eol: false
-    latest: "3.17.0"
-    latestReleaseDate: 2025-12-09
+    latest: "3.17.1"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "3.16"
     releaseDate: 2025-09-09
-    eol: false
+    eol: 2026-03-10
     latest: "3.16.2"
     latestReleaseDate: 2025-11-25
 

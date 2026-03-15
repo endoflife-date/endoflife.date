@@ -39,6 +39,7 @@ identifiers:
   - purl: pkg:apk/alpine/ansible
   - purl: pkg:github/ansible/ansible
   - repology: ansible
+  - cpe: cpe:2.3:a:redhat:ansible
 
 auto:
   methods:
@@ -54,8 +55,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-19
     eol: false
-    latest: "13.3.0"
-    latestReleaseDate: 2026-01-29
+    latest: "13.4.0"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "12"
     ansibleCoreVersion: "2.19"

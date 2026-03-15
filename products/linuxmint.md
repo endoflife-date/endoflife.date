@@ -12,6 +12,9 @@ latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
+identifiers:
+  - cpe: cpe:2.3:o:linuxmint:linuxmint
+
 auto:
   methods:
     - release_table: https://linuxmint.com/download_all.php

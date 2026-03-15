@@ -23,8 +23,8 @@ releases:
     codename: "Witty Woodpecker"
     releaseDate: 2026-01-28
     eol: false
-    latest: "26.1.2"
-    latestReleaseDate: 2026-02-11
+    latest: "26.1.4"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "25.7"
     codename: "Visionary Viper"

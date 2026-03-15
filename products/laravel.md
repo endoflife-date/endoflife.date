@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
+  - cpe: cpe:2.3:a:laravel:laravel
 
 # Note that laravel/laravel is just a starter application.
 auto:
@@ -48,8 +49,8 @@ releases:
     eoas: 2026-08-16
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.5"
-    latest: "12.52.0"
-    latestReleaseDate: 2026-02-17
+    latest: "12.54.1"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12

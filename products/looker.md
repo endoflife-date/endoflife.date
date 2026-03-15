@@ -10,6 +10,9 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 latestColumn: false
 
+identifiers:
+  - cpe: cpe:2.3:a:google:looker
+
 # Used only for detecting new minor releases.
 auto:
   methods:
@@ -30,6 +33,11 @@ auto:
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
+  - releaseCycle: "26.4"
+    releaseDate: 2026-03-05
+    eol: 2026-05-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#March_05_2026
+
   - releaseCycle: "26.2"
     releaseDate: 2026-02-09
     eol: 2026-04-30
@@ -53,17 +61,17 @@ releases:
     link: https://cloud.google.com/looker/docs/release-notes#October_06_2025
 
   - releaseCycle: "25.16"
-    releaseDate: 2025-09-10
+    releaseDate: 2025-09-30
     eol: 2025-12-31
     link: https://cloud.google.com/looker/docs/release-notes#September_10_2025
 
   - releaseCycle: "25.14"
-    releaseDate: 2025-08-13
+    releaseDate: 2025-08-31
     eol: 2025-11-30
     link: https://discuss.google.dev/t/looker-25-14-release-notes/254350
 
   - releaseCycle: "25.12"
-    releaseDate: 2025-07-24
+    releaseDate: 2025-07-31
     lts: 2025-08-31
     eol: 2025-11-30
     link: https://discuss.google.dev/t/looker-25-12-release-notes/245841

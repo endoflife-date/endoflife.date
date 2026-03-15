@@ -31,6 +31,7 @@ auto:
 identifiers:
   - repology: opensearch
   - purl: pkg:docker/opensearchproject/opensearch
+  - cpe: cpe:2.3:a:amazon:opensearch
     
 releases:
   - releaseCycle: "3"
@@ -39,7 +40,7 @@ releases:
     eol: false
     latest: "3.5.0"
     latestReleaseDate: 2026-02-12
-    link: https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-3.5.0.md
+    link: https://opensearch.org/blog/opensearch-3-5-is-live/
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
