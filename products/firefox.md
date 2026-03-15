@@ -231,7 +231,7 @@ releases:
   - releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2026-02-28 # https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support
+    eol: 2026-08-28 # https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support
     latest: "115.33.0"
     latestReleaseDate: 2026-02-24
 
