@@ -30,8 +30,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/envoyproxy/envoy.git
-    - release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
-      render_javascript: true
+    - release_table: https://collected.press/github/envoyproxy/envoy/RELEASES.md
       fields:
         releaseCycle:
           column: "Version"
