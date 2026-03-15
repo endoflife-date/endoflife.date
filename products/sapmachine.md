@@ -115,7 +115,7 @@ releases:
     releaseDate: 2018-03-21
     eol: 2018-09-25 # releaseDate of OpenJDK 11
     latest: "10.0.2"
-    latestReleaseDate: 2018-08-02
+    latestReleaseDate: 2026-03-11
 
 ---
 
