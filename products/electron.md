@@ -48,24 +48,24 @@ releases:
   - releaseCycle: "40"
     releaseDate: 2026-01-13
     eol: 2026-06-30
-    latest: "40.8.0"
-    latestReleaseDate: 2026-03-05
+    latest: "40.8.2"
+    latestReleaseDate: 2026-03-13
     chromeVersion: "M144"
     nodeVersion: "24"
 
   - releaseCycle: "39"
     releaseDate: 2025-10-28
     eol: 2026-05-05
-    latest: "39.8.0"
-    latestReleaseDate: 2026-03-04
+    latest: "39.8.2"
+    latestReleaseDate: 2026-03-13
     chromeVersion: "M142"
     nodeVersion: "22"
 
   - releaseCycle: "38"
     releaseDate: 2025-09-02
     eol: 2026-03-10
-    latest: "38.8.4"
-    latestReleaseDate: 2026-02-24
+    latest: "38.8.6"
+    latestReleaseDate: 2026-03-11
     chromeVersion: "M140"
     nodeVersion: "22"
 
@@ -356,6 +356,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
 
 
 

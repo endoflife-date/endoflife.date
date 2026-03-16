@@ -40,120 +40,120 @@ releases:
     releaseDate: 2026-01-27
     eol: 2026-08-04
     minK8sVersion: "1.33"
-    latest: "1.21.0"
-    latestReleaseDate: 2026-01-27
+    latest: "1.21.1"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "1.20"
     releaseDate: 2025-10-21
-    eol: 2026-04-21
+    eol: 2026-05-05
     minK8sVersion: "1.32"
-    latest: "1.20.0"
-    latestReleaseDate: 2025-10-21
+    latest: "1.20.3"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "1.19"
     releaseDate: 2025-07-22
-    eol: 2026-01-28
+    eol: 2026-02-03
     minK8sVersion: "1.32"
-    latest: "1.19.7"
-    latestReleaseDate: 2024-10-24
+    latest: "1.19.9"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.18"
     releaseDate: 2025-04-22
     eol: 2025-10-28
     minK8sVersion: "1.31"
     latest: "1.18.2"
-    latestReleaseDate: 2024-10-24
+    latestReleaseDate: 2025-10-24
 
   - releaseCycle: "1.17"
     releaseDate: 2025-01-28
     eol: 2025-07-28
     minK8sVersion: "1.30"
-    latest: "1.17.0"
-    latestReleaseDate: 2025-01-28
+    latest: "1.17.2"
+    latestReleaseDate: 2025-06-10
 
   - releaseCycle: "1.16"
     releaseDate: 2024-10-22
     eol: 2025-04-22
     minK8sVersion: "1.29"
-    latest: "1.16.0"
-    latestReleaseDate: 2024-10-22
+    latest: "1.16.3"
+    latestReleaseDate: 2025-03-11
 
   - releaseCycle: "1.15"
     releaseDate: 2024-07-23
     eol: 2025-01-21
     minK8sVersion: "1.28"
-    latest: "1.15.0"
-    latestReleaseDate: 2024-07-23
+    latest: "1.15.3"
+    latestReleaseDate: 2025-01-22
 
   - releaseCycle: "1.14"
     releaseDate: 2024-04-23
     eol: 2024-10-22
     minK8sVersion: "1.28"
-    latest: "1.14.0"
-    latestReleaseDate: 2024-04-23
+    latest: "1.14.2"
+    latestReleaseDate: 2024-10-08
 
   - releaseCycle: "1.13"
     releaseDate: 2024-01-23
     eol: 2024-07-22
     minK8sVersion: "1.27"
-    latest: "1.13.0"
-    latestReleaseDate: 2024-01-23
+    latest: "1.13.2"
+    latestReleaseDate: 2024-05-28
 
   - releaseCycle: "1.12"
     releaseDate: 2023-10-24
     eol: 2024-04-30
     minK8sVersion: "1.26"
-    latest: "1.12.0"
-    latestReleaseDate: 2023-10-24
+    latest: "1.12.4"
+    latestReleaseDate: 2024-02-02
 
   - releaseCycle: "1.11"
     releaseDate: 2023-07-25
     eol: 2024-01-30
     minK8sVersion: "1.25"
-    latest: "1.11.0"
-    latestReleaseDate: 2023-07-25
+    latest: "1.11.6"
+    latestReleaseDate: 2023-12-19
 
   - releaseCycle: "1.10"
     releaseDate: 2023-04-25
     eol: 2023-10-31
     minK8sVersion: "1.24"
-    latest: "1.10.0"
-    latestReleaseDate: 2023-04-25
+    latest: "1.10.6"
+    latestReleaseDate: 2023-11-01
 
   - releaseCycle: "1.9"
     releaseDate: 2023-01-24
     eol: 2023-08-01
     minK8sVersion: "1.24"
-    latest: "1.9.0"
-    latestReleaseDate: 2023-01-24
+    latest: "1.9.4"
+    latestReleaseDate: 2023-06-06
 
   - releaseCycle: "1.8"
     releaseDate: 2022-10-18
     eol: 2023-05-02
     minK8sVersion: "1.23"
-    latest: "1.8.0"
-    latestReleaseDate: 2022-10-18
+    latest: "1.8.6"
+    latestReleaseDate: 2023-04-04
 
   - releaseCycle: "1.7"
     releaseDate: 2022-08-23
     eol: 2023-02-21
     minK8sVersion: "1.22"
-    latest: "1.7.0"
-    latestReleaseDate: 2022-08-23
+    latest: "1.7.4"
+    latestReleaseDate: 2022-12-08
 
   - releaseCycle: "1.6"
     releaseDate: 2022-07-12
     eol: 2023-01-10
     minK8sVersion: "1.22"
-    latest: "1.6.0"
-    latestReleaseDate: 2022-07-12
+    latest: "1.6.3"
+    latestReleaseDate: 2022-12-08
 
   - releaseCycle: "1.5"
     releaseDate: 2022-05-31
     eol: 2022-11-29
     minK8sVersion: "1.22"
-    latest: "1.5.0"
-    latestReleaseDate: 2022-05-31
+    latest: "1.5.1"
+    latestReleaseDate: 2022-11-29
 
   - releaseCycle: "1.4"
     releaseDate: 2022-04-19
@@ -166,29 +166,29 @@ releases:
     releaseDate: 2022-03-08
     eol: 2022-08-30
     minK8sVersion: "1.21"
-    latest: "1.3.0"
-    latestReleaseDate: 2022-03-08
+    latest: "1.3.2"
+    latestReleaseDate: 2022-04-14
 
   - releaseCycle: "1.2"
     releaseDate: 2022-01-25
     eol: 2022-07-12
     minK8sVersion: "1.21"
-    latest: "1.2.0"
-    latestReleaseDate: 2022-01-25
+    latest: "1.2.5"
+    latestReleaseDate: 2022-04-14
 
   - releaseCycle: "1.1"
     releaseDate: 2021-12-14
     eol: 2022-05-31
     minK8sVersion: "1.20"
-    latest: "1.1.0"
-    latestReleaseDate: 2021-12-14
+    latest: "1.1.4"
+    latestReleaseDate: 2022-02-25
 
   - releaseCycle: "1.0"
     releaseDate: 2021-11-02
     eol: 2022-04-19
     minK8sVersion: "1.20"
-    latest: "1.0.0"
-    latestReleaseDate: 2021-11-02
+    latest: "1.0.2"
+    latestReleaseDate: 2022-02-24
 
 ---
 
