@@ -10,9 +10,11 @@ releasePolicyLink: https://docs.sylius.com/the-book/contributing/organization/re
 changelogTemplate: "https://github.com/Sylius/Sylius/releases/tag/v__LATEST__"
 eoasColumn: true
 
-identifiers:
-  - repology: php:sylius
-  - cpe: cpe:2.3:a:sylius:sylius
+identifiers:                                                                                        
+  - cpe: cpe:2.3:a:sylius:sylius           
+  - cpe: cpe:/a:sylius:sylius                                                                         
+  - purl: pkg:composer/sylius/sylius                          
+  - purl: pkg:github/sylius/sylius
 
 auto:
   methods:
