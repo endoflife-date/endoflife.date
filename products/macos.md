@@ -73,8 +73,8 @@ releases:
     codename: "Catalina"
     releaseDate: 2019-10-07
     eol: 2022-09-12
-    latest: "10.15.7"
-    latestReleaseDate: 2020-09-24
+    latest: "10.15.8"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes
 
   - releaseCycle: "10.14"
