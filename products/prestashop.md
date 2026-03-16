@@ -10,9 +10,12 @@ releasePolicyLink: https://www.prestashop-project.org/project-organization/relea
 changelogTemplate: "https://github.com/PrestaShop/PrestaShop/releases/tag/__LATEST__"
 eoasColumn: true
 
-identifiers:
-  - repology: php:prestashop
-  - cpe: cpe:2.3:a:prestashop:prestashop
+identifiers:                                                                                        
+  - cpe: cpe:2.3:a:prestashop:prestashop                      
+  - cpe: cpe:/a:prestashop:prestashop                                                                 
+  - purl: pkg:composer/prestashop/prestashop                                                          
+  - purl: pkg:github/prestashop/prestashop
+  - purl: pkg:docker/prestashop/prestashop
 
 auto:
   methods:
