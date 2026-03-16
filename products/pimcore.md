@@ -12,8 +12,12 @@ eoasColumn: false
 eolColumn: true
 
 identifiers:
-  - repology: php:pimcore
   - cpe: cpe:2.3:a:pimcore:pimcore
+  - cpe: cpe:/a:pimcore:pimcore
+  - purl: pkg:composer/pimcore/pimcore
+  - purl: pkg:docker/pimcore/pimcore
+  - purl: pkg:github/pimcore/pimcore
+  - purl: pkg:oci/pimcore?repository_url=ghcr.io/pimcore/pimcore
 
 auto:
   methods:
