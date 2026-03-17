@@ -18,6 +18,7 @@ identifiers:
   - purl: pkg:gem/bootstrap
   - purl: pkg:composer/twbs/bootstrap
   - purl: pkg:github/twbs/bootstrap
+  - cpe: cpe:2.3:a:getbootstrap:bootstrap
 
 # NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
 auto:

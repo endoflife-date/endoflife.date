@@ -20,6 +20,9 @@ releaseDateColumn: General availability
 eoasColumn: Full support
 eolColumn: Maintenance support
 
+identifiers:
+  - cpe: cpe:2.3:a:redhat:satellite
+
 auto:
   methods:
     - version_table: https://access.redhat.com/articles/1365633

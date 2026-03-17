@@ -11,6 +11,10 @@ eolColumn: Lifecycle Support
 staleReleaseThresholdDays: 1825 # devices have longer support periods
 releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
+
+identifiers:
+  - cpe: cpe:2.3:a:stormshield:stormshield_network_security
+
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm

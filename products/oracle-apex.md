@@ -12,6 +12,9 @@ releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/coll
 changelogTemplate: https://apex.oracle.com/en/platform/features/whats-new-{{"__RELEASE_CYCLE__" | replace:".",""}}/
 latestColumn: false
 
+identifiers:
+  - cpe: cpe:2.3:a:oracle:apex
+
 auto:
   methods:
     - release_table: https://www.oracle.com/database/technologies/appdev/apex/collateral/

@@ -9,6 +9,9 @@ alternate_urls:
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:a:microsoft:sharepoint_server
+
 releases:
   - releaseCycle: "subscription"
     releaseLabel: "Subscription Edition"
