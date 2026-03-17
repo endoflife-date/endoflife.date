@@ -48,7 +48,7 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1170.5"
     latestGdrLink: https://support.microsoft.com/help/5077465
-    latest: "16.0.4240.4 CU24"
+    latest: "16.0.4245.2 CU24"
     latestReleaseDate: 2026-03-12
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate24
 
