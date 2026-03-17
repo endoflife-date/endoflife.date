@@ -25,12 +25,20 @@ auto:
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
 # When adding a new major version (codename changes), remember to update URLS at auto:methods above also check https://github.com/endoflife-date/release-data/blob/main/src/visual-studio.py
 releases:
+  - releaseCycle: "18.4"
+    codename: "2026"
+    releaseDate: 2026-03-10
+    eol: false # releaseDate(18.5)
+    latest: "18.4.0"
+    latestReleaseDate: 2026-03-10
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
   - releaseCycle: "18.3"
     codename: "2026"
     releaseDate: 2026-02-10
-    eol: false # releaseDate(18.4)
-    latest: "18.3.2"
-    latestReleaseDate: 2026-02-24
+    eol: 2026-03-10
+    latest: "18.3.3"
+    latestReleaseDate: 2026-03-10
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.2"
@@ -62,8 +70,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.26"
-    latestReleaseDate: 2026-02-10
+    latest: "17.14.28"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "17.13"
     codename: "2022"
@@ -77,8 +85,8 @@ releases:
     lts: true
     releaseDate: 2024-11-12
     eol: 2026-07-14
-    latest: "17.12.17"
-    latestReleaseDate: 2026-02-10
+    latest: "17.12.18"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "17.11"
     codename: "2022"
@@ -174,8 +182,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.53"
-    latestReleaseDate: 2025-11-11
+    latest: "16.11.54"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "16.10"
     codename: "2019"

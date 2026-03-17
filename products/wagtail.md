@@ -30,7 +30,7 @@ auto:
 
 releases:
   - releaseCycle: "7.3"
-    releaseDate: 2026-02-03
+    releaseDate: 2026-02-02
     eoas: 2026-05-04
     eol: 2026-08-03
     latest: "7.3.1"

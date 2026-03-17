@@ -2,7 +2,7 @@
 title: Podman
 addedAt: 2024-09-23
 category: app
-tags: linux-foundation
+tags: cncf linux-foundation
 iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "5.8"
     releaseDate: 2026-02-12
     eol: false
-    latest: "5.8.0"
-    latestReleaseDate: 2026-02-12
+    latest: "5.8.1"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "5.7"
     releaseDate: 2025-11-11

@@ -19,9 +19,10 @@ identifiers:
 auto:
   methods:
     - atlassian_versions: https://www.atlassian.com/software/confluence/download-archives
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-Confluence
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    # Cannot locate confluence releases because there is no more properly formatted title to locate them
+    #- atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+    #  selector: AtlassianEndofSupportPolicy-Confluence
+    #  regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/confluence/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
@@ -30,8 +31,8 @@ releases:
     lts: true
     releaseDate: 2025-12-02
     eol: 2027-12-02
-    latest: "10.2.2"
-    latestReleaseDate: 2025-12-16
+    latest: "10.2.7"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "10.1"
     releaseDate: 2025-10-07
@@ -67,8 +68,8 @@ releases:
     lts: true
     releaseDate: 2024-12-09
     eol: 2026-12-10
-    latest: "9.2.13"
-    latestReleaseDate: 2025-12-16
+    latest: "9.2.17"
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "9.1"
     releaseDate: 2024-10-03

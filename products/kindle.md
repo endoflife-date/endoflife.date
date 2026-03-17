@@ -16,60 +16,76 @@ identifiers:
 # Release dates can be found on https://en.wikipedia.org/wiki/Amazon_Kindle.
 # Latest releases can be found on https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW.
 releases:
+  - releaseCycle: "kindle-scribe-3"
+    releaseLabel: "Kindle Scribe (3rd Generation)"
+    releaseDate: 2025-09-30
+    eol: false
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
+    link: https://www.amazon.com/KindleScribe3GenerationNotes
+
+  - releaseCycle: "kindle-scribe-colorsoft-1"
+    releaseLabel: "Kindle Scribe Colorsoft (1st Generation)"
+    releaseDate: 2025-09-30
+    eol: false
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
+    link: https://www.amazon.com/KindleScribeColorsoft1GenerationNotes
+
   - releaseCycle: "kindle-scribe-2024"
     releaseLabel: "Kindle Scribe - 2024 Release"
     releaseDate: 2024-12-04
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/KindleScribe2024Notes
 
   - releaseCycle: "kindle-colorsoft-1"
     releaseLabel: "Kindle Colorsoft (1st Generation)"
     releaseDate: 2024-10-30
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/KindleColorsoft-2024-Notes
 
   - releaseCycle: "paperwhite-12"
     releaseLabel: "Kindle Paperwhite (12th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/KindlePaperwhite12-2024-Notes
 
   - releaseCycle: "kindle-11-2024"
     releaseLabel: "Kindle (11th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "kindle-scribe-2022"
     releaseLabel: "Kindle Scribe - 2022 Release"
     releaseDate: 2022-11-30
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/KindleScribeNotes
 
   - releaseCycle: "kindle-11-2022"
     releaseLabel: "Kindle (11th Generation) - 2022 Release"
     releaseDate: 2022-09-13
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "paperwhite-11"
     releaseLabel: "Kindle Paperwhite (11th Generation)"
     releaseDate: 2021-10-27
     eol: false
-    latest: "5.18.5"
-    latestReleaseDate: 2025-08-01
+    latest: "5.19.2"
+    latestReleaseDate: 2026-02-01
     link: https://www.amazon.com/Paperwhite11Notes
 
   - releaseCycle: "oasis-10"
@@ -100,7 +116,7 @@ releases:
     releaseLabel: "Kindle Oasis (9th Generation)"
     releaseDate: 2017-10-31
     eol: 2024-06-01 # more than 1 year without update
-    latest: "5.16.2.1.1"
+    latest: "5.16.2.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis9Notes
 
@@ -108,7 +124,7 @@ releases:
     releaseLabel: "Kindle (8th Generation)"
     releaseDate: 2016-06-22
     eol: 2024-06-01 # more than 1 year without update
-    latest: "5.16.2.1.1"
+    latest: "5.16.2.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Kindle8Notes
 
@@ -116,7 +132,7 @@ releases:
     releaseLabel: "Kindle Oasis (8th Generation)"
     releaseDate: 2016-04-27
     eol: 2024-06-01 # more than 1 year without update
-    latest: "5.16.2.1.1"
+    latest: "5.16.2.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Oasis8Notes
 
@@ -124,7 +140,7 @@ releases:
     releaseLabel: "Kindle Paperwhite (7th Generation)"
     releaseDate: 2015-06-30
     eol: 2024-06-01 # more than 1 year without update
-    latest: "5.16.2.1.1"
+    latest: "5.16.2.1"
     latestReleaseDate: 2023-06-01
     link: https://www.amazon.com/Paperwhite7Notes
 

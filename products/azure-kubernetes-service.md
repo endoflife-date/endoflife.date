@@ -20,7 +20,7 @@ auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
       fields:
-        releaseCycle: "K8s version"
+        releaseCycle: "Kubernetes version"
         releaseDate: "AKS GA"
         eol: "End of life"
         eoes: "LTS End of life"

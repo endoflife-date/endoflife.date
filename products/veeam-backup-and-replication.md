@@ -27,16 +27,16 @@ releases:
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
     link: https://www.veeam.com/kb4738
-    latest: "13.0.1.1071"
-    latestReleaseDate: 2026-01-06
+    latest: "13.0.1.2067"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
     eoas: 2025-09-03
     eol: 2027-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.2.4165"
-    latestReleaseDate: 2025-10-14
+    latest: "12.3.2.4465"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "11"
     releaseDate: 2021-02-11

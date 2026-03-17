@@ -13,6 +13,9 @@ eolColumn: Support
 identifiers:
   - repology: nifi
   - cpe: cpe:2.3:a:apache:nifi
+  - purl: pkg:docker/apache/nifi
+  - purl: pkg:github/apache/nifi
+  - purl: pkg:maven/org.apache.nifi/nifi
 
 auto:
   methods:

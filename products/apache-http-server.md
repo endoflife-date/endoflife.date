@@ -19,6 +19,8 @@ identifiers:
   - repology: apache
   - cpe: cpe:/a:apache:http_server
   - cpe: cpe:2.3:a:apache:http_server
+  - purl: pkg:github/apache/httpd
+  - purl: pkg:rpm/fedora/httpd
 
 auto:
   methods:

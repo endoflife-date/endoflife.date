@@ -1,5 +1,6 @@
 ---
 title: Longhorn
+addedAt: 2026-03-05
 category: server-app
 tags: cncf
 permalink: /longhorn
@@ -18,8 +19,8 @@ releases:
   - releaseCycle: "1.11"
     releaseDate: 2026-01-29
     eol: false
-    latest: "1.11.0"
-    latestReleaseDate: 2026-01-29
+    latest: "1.11.1"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "1.10"
     releaseDate: 2025-09-25

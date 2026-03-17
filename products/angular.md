@@ -7,7 +7,7 @@ iconSlug: angular
 permalink: /angular
 versionCommand: ng version
 releasePolicyLink: https://angular.dev/reference/releases
-changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
+changelogTemplate: https://github.com/angular/angular/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
 
@@ -35,24 +35,24 @@ releases:
     eoas: 2026-05-19
     eol: 2027-05-19
     eoes: false
-    latest: "21.2.1"
-    latestReleaseDate: 2026-03-04
+    latest: "21.2.4"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "20"
     releaseDate: 2025-05-28
     eoas: 2025-11-19
     eol: 2026-11-28
     eoes: false
-    latest: "20.3.17"
-    latestReleaseDate: 2026-02-25
+    latest: "20.3.18"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.19"
-    latestReleaseDate: 2026-02-25
+    latest: "19.2.20"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "18"
     releaseDate: 2024-05-22
@@ -61,6 +61,7 @@ releases:
     eoes: false
     latest: "18.2.14"
     latestReleaseDate: 2025-09-10
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "17"
     releaseDate: 2023-11-08
@@ -69,6 +70,7 @@ releases:
     eoes: false
     latest: "17.3.12"
     latestReleaseDate: 2024-07-17
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "16"
     releaseDate: 2023-05-03
@@ -77,6 +79,7 @@ releases:
     eoes: false
     latest: "16.2.12"
     latestReleaseDate: 2023-11-02
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "15"
     releaseDate: 2022-11-16
@@ -85,6 +88,7 @@ releases:
     eoes: false
     latest: "15.2.10"
     latestReleaseDate: 2023-10-04
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "14"
     releaseDate: 2022-06-02
@@ -93,6 +97,7 @@ releases:
     eoes: false
     latest: "14.3.0"
     latestReleaseDate: 2023-03-13
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "13"
     releaseDate: 2021-11-03
@@ -101,6 +106,7 @@ releases:
     eoes: false
     latest: "13.4.0"
     latestReleaseDate: 2023-04-06
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "12"
     releaseDate: 2021-05-13
@@ -109,6 +115,7 @@ releases:
     eoes: false
     latest: "12.2.17"
     latestReleaseDate: 2022-11-22
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "11"
     releaseDate: 2020-11-11
@@ -117,6 +124,7 @@ releases:
     eoes: false
     latest: "11.2.14"
     latestReleaseDate: 2021-05-12
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "10"
     releaseDate: 2020-06-24
@@ -125,6 +133,7 @@ releases:
     eoes: false
     latest: "10.2.5"
     latestReleaseDate: 2021-04-21
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
   - releaseCycle: "9"
     releaseDate: 2020-02-06
@@ -133,6 +142,7 @@ releases:
     eoes: false
     latest: "9.1.13"
     latestReleaseDate: 2020-12-16
+    link: https://github.com/angular/angular/releases/tag/__LATEST__
 
 ---
 

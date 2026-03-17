@@ -7,7 +7,7 @@ iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-releaseImage: https://www.drupal.org/files/Drupal2024-2027.png
+releaseImage: https://www.drupal.org/files/Drupal11and12ScheduleDec2025.png
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
 eoasColumn: true
@@ -33,15 +33,15 @@ releases:
     releaseDate: 2025-12-17
     eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.3.4"
-    latestReleaseDate: 2026-03-05
+    latest: "11.3.5"
+    latestReleaseDate: 2026-03-06
 
   - releaseCycle: "10.6"
     releaseDate: 2025-12-17
     eoas: 2026-06-16
     eol: 2026-12-16
-    latest: "10.6.4"
-    latestReleaseDate: 2026-03-05
+    latest: "10.6.5"
+    latestReleaseDate: 2026-03-06
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
