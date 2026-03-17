@@ -8,8 +8,8 @@ permalink: /chatgpt
 alternate_urls:
   - /openai-chatgpt
 releasePolicyLink: https://developers.openai.com/api/docs/deprecations/
-eoasColumn: Deprecated
-eolColumn: Retired
+eoasColumn: Active Support
+eolColumn: Supported
 
 customFields:
   - name: recommendedReplacement
