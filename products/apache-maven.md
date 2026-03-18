@@ -28,15 +28,17 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.maven/maven-core
+    - github_releases: apache/maven
+      regex: '^maven-(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
-    latest: "3.9.12"
-    latestReleaseDate: 2025-12-13
+    latest: "3.9.14"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "3.8"
     releaseDate: 2021-03-30
