@@ -31,7 +31,7 @@ releases:
     releaseDate: 2023-03-01
     eol: false
     eoes: false
-    lts:true
+    lts: true
 
   - releaseCycle: "4.0"
     releaseDate: 2020-11-09
