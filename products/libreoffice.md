@@ -32,7 +32,7 @@ releases:
     releaseDate: 2025-07-09 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2026-06-12
     latest: "25.8.5.2"
-    latestReleaseDate: 2026-02-16
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "25.2"
     releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
