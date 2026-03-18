@@ -30,6 +30,7 @@ releases:
     latestReleaseDate: 2025-03-14
 
   - releaseCycle: "1.3.8"
+    staleReleaseThresholdDays: 500
     releaseDate: 2022-12-04
     eoas: 2025-03-14
     eol: false
