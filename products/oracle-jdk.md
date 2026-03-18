@@ -187,7 +187,7 @@ releases:
     releaseDate: 2011-07-11
     eol: 2019-07-31
     eoes: 2022-07-19
-    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361
+    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_351
     latest: "7u351"
     latestReleaseDate: 2022-07-19
 
