@@ -23,7 +23,7 @@ auto:
 
 releases:
   - releaseCycle: "8.0"
-    releaseDate: 2026-11-30
+    releaseDate: 2025-11-30
     eol: false
     eoes: false
 
