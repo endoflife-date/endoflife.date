@@ -190,6 +190,76 @@ releases:
     latest: "1.0.2"
     latestReleaseDate: 2022-02-24
 
+  - releaseCycle: "0.26"
+    releaseDate: 2021-09-21
+    eol: 2022-03-08
+    minK8sVersion: "1.19"
+
+  - releaseCycle: "0.25"
+    releaseDate: 2021-08-10
+    eol: 2022-01-25
+    minK8sVersion: "1.19"
+
+  - releaseCycle: "0.24"
+    releaseDate: 2021-06-29
+    eol: 2021-12-14
+    minK8sVersion: "1.19"
+
+  - releaseCycle: "0.23"
+    releaseDate: 2021-05-18
+    eol: 2021-11-02
+    minK8sVersion: "1.18"
+
+  - releaseCycle: "0.22"
+    releaseDate: 2021-04-06
+    eol: 2021-09-21
+    minK8sVersion: "1.18"
+
+  - releaseCycle: "0.21"
+    releaseDate: 2021-02-23
+    eol: 2021-08-10
+    minK8sVersion: "1.18"
+
+  - releaseCycle: "0.20"
+    releaseDate: 2021-01-12
+    eol: 2021-06-29
+    minK8sVersion: "1.17"
+
+  - releaseCycle: "0.19"
+    releaseDate: 2020-11-10
+    eol: 2021-05-18
+    minK8sVersion: "1.17"
+
+  - releaseCycle: "0.18"
+    releaseDate: 2020-09-29
+    eol: 2021-03-16
+    minK8sVersion: "1.17"
+
+  - releaseCycle: "0.17"
+    releaseDate: 2020-08-18
+    eol: 2021-02-02
+    minK8sVersion: "1.16"
+
+  - releaseCycle: "0.16"
+    releaseDate: 2020-07-07
+    eol: 2020-12-22
+    minK8sVersion: "1.16"
+
+  - releaseCycle: "0.15"
+    releaseDate: 2020-05-26
+    eol: 2020-11-10
+    minK8sVersion: "1.16"
+
+  - releaseCycle: "0.14"
+    releaseDate: 2020-04-14
+    eol: 2020-09-29
+    minK8sVersion: "1.15"
+
+  - releaseCycle: "0.13"
+    releaseDate: 2020-03-03
+    eol: 2020-08-18
+    minK8sVersion: "1.15"
+
 ---
 
 > [Knative](https://knative.dev) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads.
