@@ -21,6 +21,12 @@ identifiers:
   - cpe: cpe:2.3:o:lineageos:lineageos
 
 releases:
+  - releaseCycle: "23.2"
+    releaseDate: 2026-02-08
+    eol: false
+    link: https://lineageos.org/Changelog-31/
+    androidVersion: "16"
+    
   # Changed back to minor versions due to changes in upstream development (Quarterly Platform Releases). Read Changelog 29 (LineageOS 22[.1]) for more information.
   - releaseCycle: "22.1"
     releaseDate: 2024-12-31
@@ -30,7 +36,7 @@ releases:
 
   - releaseCycle: "21"
     releaseDate: 2024-02-14
-    eol: false
+    eol: 2025-10-12 #https://review.lineageos.org/c/LineageOS/hudson/+/452583
     link: https://lineageos.org/Changelog-28/
     androidVersion: "14"
 
