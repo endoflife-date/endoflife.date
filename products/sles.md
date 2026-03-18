@@ -22,7 +22,7 @@ identifiers:
 
 auto:
   methods:
-    - release_table: https://www.suse.com/lifecycle/
+    - release_table: https://www.suse.com/lifecycle/#1
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -33,13 +33,13 @@ auto:
         eol: "General Ends"
         eoes: "LTSS Ends"
     # Starting with SLES 16 the column and release titles changed
-    - release_table: https://www.suse.com/lifecycle/
+    - release_table: https://www.suse.com/lifecycle/#2
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
           column: "Releases"
           regex: 'SUSE Linux Enterprise Server (?P<major>\d+)(.(?P<minor>\d+))?'
-          template: "{{major}}.{{minor}}"
+          template: "{{major}}.{% if minor %}{{minor}}{% else %}0{% endif %}"
         releaseDate: "FCS Date"
         eol: "General Ends"
         eoes: "LTS Ends"

@@ -17,6 +17,12 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-edge-70-fusion+
+    releaseLabel: "Motorola edge 70 fusion+"
+    releaseDate: 2026-02-01
+    eol: 2031-11-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12535
+
   - releaseCycle: motorola-edge-70-fusion
     releaseLabel: "Motorola edge 70 fusion"
     releaseDate: 2026-02-01
