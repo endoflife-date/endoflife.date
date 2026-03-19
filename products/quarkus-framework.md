@@ -37,8 +37,8 @@ releases:
   - releaseCycle: "3.32"
     releaseDate: 2026-02-26
     eol: false
-    latest: "3.32.3"
-    latestReleaseDate: 2026-03-11
+    latest: "3.32.4"
+    latestReleaseDate: 2026-03-18
     link: https://quarkus.io/blog/quarkus-3-32-2-released/
 
   - releaseCycle: "3.31"

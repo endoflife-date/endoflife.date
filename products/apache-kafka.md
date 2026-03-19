@@ -50,8 +50,8 @@ releases:
     releaseDate: 2025-03-18
     eol: false
     eoes: 2027-06-11
-    latest: "4.0.1"
-    latestReleaseDate: 2025-10-10
+    latest: "4.0.2"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
