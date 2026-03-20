@@ -29,8 +29,8 @@ releases:
     codename: "2026"
     releaseDate: 2026-03-10
     eol: false # releaseDate(18.5)
-    latest: "18.4.0"
-    latestReleaseDate: 2026-03-10
+    latest: "18.4.1"
+    latestReleaseDate: 2026-03-17
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.3"

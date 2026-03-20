@@ -39,8 +39,8 @@ releases:
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: "11"
-    latest: "10.1.52"
-    latestReleaseDate: 2026-01-23
+    latest: "10.1.53"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "10.0"
     releaseDate: 2020-12-03

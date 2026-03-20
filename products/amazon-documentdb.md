@@ -22,10 +22,16 @@ auto:
         eoes: "End of Extended Support"
 
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2025-11-30
+    eol: false
+    eoes: false
+
   - releaseCycle: "5.0"
     releaseDate: 2023-03-01
     eol: false
     eoes: false
+    lts: true
 
   - releaseCycle: "4.0"
     releaseDate: 2020-11-09

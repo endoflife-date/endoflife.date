@@ -92,6 +92,7 @@ releases:
 
   - releaseCycle: "4.3"
     codename: "4:3"
+    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2020-06-15
     eol: false
     latest: "4.3.9"
@@ -120,6 +121,7 @@ releases:
 
   - releaseCycle: "3.4"
     codename: "Cantor"
+    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2017-10-15
     eol: false
     latest: "3.4.14"
