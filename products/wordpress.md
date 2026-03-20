@@ -161,43 +161,43 @@ releases:
     supportedPHPVersions: "5.6 - 7.3"
     releaseDate: 2019-05-07
     eol: 2019-11-12 # releaseDate(5.3)
-    latest: "5.2.23"
-    latestReleaseDate: 2025-09-30
+    latest: "5.2.24"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "5.1"
     supportedPHPVersions: "5.2 - 7.3"
     releaseDate: 2019-02-21
     eol: 2019-05-07 # releaseDate(5.2)
-    latest: "5.1.21"
-    latestReleaseDate: 2025-09-30
+    latest: "5.1.22"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "5.0"
     supportedPHPVersions: "5.2 - 7.3"
     releaseDate: 2018-12-06
     eol: 2019-02-21 # releaseDate(5.1)
-    latest: "5.0.24"
-    latestReleaseDate: 2025-09-30
+    latest: "5.0.25"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "4.9"
     supportedPHPVersions: "5.2 - 7.2"
     releaseDate: 2017-11-16
     eol: 2018-12-06 # releaseDate(5.0)
-    latest: "4.9.28"
-    latestReleaseDate: 2025-09-30
+    latest: "4.9.29"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "4.8"
     supportedPHPVersions: "5.2 - 7.1"
     releaseDate: 2017-06-08
     eol: 2017-11-16 # releaseDate(4.9)
-    latest: "4.8.27"
-    latestReleaseDate: 2025-09-30
+    latest: "4.8.28"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "4.7"
     supportedPHPVersions: "5.2 - 7.1"
     releaseDate: 2016-12-06
     eol: 2017-06-08 # releaseDate(4.8)
-    latest: "4.7.31"
-    latestReleaseDate: 2025-09-30
+    latest: "4.7.32"
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "4.6"
     supportedPHPVersions: "5.2 - 7.0"

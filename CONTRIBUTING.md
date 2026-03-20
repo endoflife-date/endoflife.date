@@ -470,7 +470,7 @@ done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 
 ### Linting and formatting files
 
-You can use the [lint-product.sh](/bin/lint-product.sh) to lint a product file
+You can use the `bin/lint-product.sh` to lint a product file
 using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
 and [prettier](https://github.com/prettier/prettier).
 
@@ -481,7 +481,7 @@ bin/lint-product.sh products/<product>.md
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers.
-Please see [this page](/pages/help/identifiers-needed/) for a list of pages missing identifiers.
+Please see [this page](/help/identifiers-needed/) for a list of pages missing identifiers.
 
 ## 📑 Suggested Reading
 

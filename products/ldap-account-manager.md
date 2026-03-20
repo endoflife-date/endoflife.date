@@ -21,9 +21,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "9.5"
+    releaseDate: 2026-03-17
+    eol: false
+    latest: "9.5.1"
+    latestReleaseDate: 2026-03-18
+
   - releaseCycle: "9.4"
     releaseDate: 2025-12-13
-    eol: false
+    eol: 2026-03-17
     latest: "9.4"
     latestReleaseDate: 2025-12-13
 
@@ -80,6 +86,7 @@ releases:
     eol: 2023-12-18
     latest: "8.5"
     latestReleaseDate: 2023-09-29
+
 ---
 
 > [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/) is a web frontend for managing

@@ -7,7 +7,7 @@ permalink: /hibernate-orm
 alternate_urls:
   - /hibernate
 releasePolicyLink: https://hibernate.org/community/maintenance-policy/
-changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/__LATEST__
 eolColumn: Stable support
 eoesColumn: Limited support
 
@@ -43,8 +43,8 @@ releases:
     releaseDate: 2025-10-08
     eol: false
     eoes: false
-    latest: "7.2.6"
-    latestReleaseDate: 2026-03-01
+    latest: "7.2.7"
+    latestReleaseDate: 2026-03-15
 
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 25"
@@ -52,8 +52,8 @@ releases:
     releaseDate: 2025-08-08
     eol: 2025-10-08
     eoes: false
-    latest: "7.1.18"
-    latestReleaseDate: 2026-03-01
+    latest: "7.1.19"
+    latestReleaseDate: 2026-03-15
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"

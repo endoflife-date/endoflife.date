@@ -36,10 +36,9 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1105.2"
     latestGdrLink: https://support.microsoft.com/help/5077468
-    latest: "17.0.4020.2 CU2+GDR"
-    latestReleaseDate: 2026-03-10
-    # CU2 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate2
-    link: https://support.microsoft.com/help/5077466 # GDR for CU2
+    latest: "17.0.4025.3 CU3"
+    latestReleaseDate: 2026-03-12
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate3
 
   - releaseCycle: "16.0"
     codename: Dallas
@@ -49,10 +48,9 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1170.5"
     latestGdrLink: https://support.microsoft.com/help/5077465
-    latest: "16.0.4240.4 CU23+GDR"
-    latestReleaseDate: 2026-03-10
-    # CU23 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate23
-    link: https://support.microsoft.com/help/5077464 # GDR for CU23
+    latest: "16.0.4245.2 CU24"
+    latestReleaseDate: 2026-03-12
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate24
 
   - releaseCycle: "13.0-sp3"
     codename: SQL16
