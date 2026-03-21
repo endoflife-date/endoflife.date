@@ -17,6 +17,13 @@ auto:
 # For update release : eol(x) = releaseDate(x+1)
 # For LTS : eol(x) = releaseDate + 2 years
 releases:
+  - releaseCycle: "6000.4"
+    releaseLabel: "6.4"
+    releaseDate: 2026-03-18
+    eol: false
+    latest: "6000.4.0f1"
+    latestReleaseDate: 2026-03-18
+
   - releaseCycle: "6000.3"
     releaseLabel: "6.3"
     lts: true
