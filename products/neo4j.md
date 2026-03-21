@@ -50,8 +50,8 @@ releases:
   - releaseCycle: "2026.02"
     releaseDate: 2026-03-06
     eol: false
-    latest: "2026.02.2"
-    latestReleaseDate: 2026-03-04
+    latest: "2026.02.3"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "2026.01"
     releaseDate: 2026-02-10
