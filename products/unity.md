@@ -19,10 +19,10 @@ auto:
 releases:
   - releaseCycle: "6000.4"
     releaseLabel: "6.4"
-    releaseDate: 2026-03-14
+    releaseDate: 2026-03-18
     eol: false
     latest: "6000.4.0f1"
-    latestReleaseDate: 2026-03-14
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "6000.3"
     releaseLabel: "6.3"
