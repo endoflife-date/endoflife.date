@@ -38,6 +38,14 @@ auto:
         dotnetVersion: ".NET Version"
 
 releases:
+  - releaseCycle: "7.6"
+    lts: true
+    releaseDate: 2026-03-18
+    eol: 2028-11-14
+    latest: "7.6.0"
+    latestReleaseDate: 2026-03-18
+    dotnetVersion: ".NET 10.0"
+
   - releaseCycle: "7.5"
     lts: false
     releaseDate: 2025-01-23

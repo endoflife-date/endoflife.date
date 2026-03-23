@@ -50,8 +50,8 @@ releases:
   - releaseCycle: "2026.02"
     releaseDate: 2026-03-06
     eol: false
-    latest: "2026.02.2"
-    latestReleaseDate: 2026-03-04
+    latest: "2026.02.3"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "2026.01"
     releaseDate: 2026-02-10
@@ -135,8 +135,8 @@ releases:
     releaseDate: 2024-12-06
     eol: 2028-06-06 # https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
     lts: true
-    latest: "5.26.22"
-    latestReleaseDate: 2026-03-06
+    latest: "5.26.23"
+    latestReleaseDate: 2026-03-16
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"

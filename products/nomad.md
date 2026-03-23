@@ -33,6 +33,7 @@ releases:
     latestReleaseDate: 2025-09-09
 
   - releaseCycle: "1.9"
+    staleReleaseThresholdDays: 500
     releaseDate: 2024-10-10
     eol: false
     latest: "1.9.7"
