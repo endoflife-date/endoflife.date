@@ -26,7 +26,13 @@ releases:
     eol: false
     link: https://lineageos.org/Changelog-31/
     androidVersion: "16"
-    
+
+  - releaseCycle: "23.0"
+    releaseDate: 2025-10-11
+    eol: true
+    link: https://lineageos.org/Changelog-30/
+    androidVersion: "16"
+
   - releaseCycle: "22.2"
     releaseDate: 2025-04-11 # https://review.lineageos.org/c/LineageOS/hudson/+/424685/37
     eol: false
