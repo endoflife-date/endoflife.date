@@ -21,6 +21,9 @@ customFields:
 identifiers:
   - cpe: cpe:/a:apache:camel
   - cpe: cpe:2.3:a:apache:camel
+  - purl: pkg:docker/apache/camel
+  - purl: pkg:github/apache/camel
+  - purl: pkg:maven/org.apache.camel/camel
 
 auto:
   methods:
@@ -38,8 +41,8 @@ releases:
     releaseDate: 2026-02-17
     eol: 2027-02-17
     supportedJavaVersions: "17, 21"
-    latest: "4.18.0"
-    latestReleaseDate: 2026-02-13
+    latest: "4.18.1"
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "4.17"
     releaseDate: 2026-01-12

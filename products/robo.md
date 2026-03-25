@@ -18,8 +18,7 @@ customFields:
 auto:
   methods:
     - git: https://github.com/consolidation/robo.git
-    - release_table: https://github.com/consolidation/robo/blob/5.x/README.md
-      render_javascript: true
+    - release_table: https://collected.press/github/consolidation/robo/README.md
       fields:
         releaseCycle:
           column: "Branch"

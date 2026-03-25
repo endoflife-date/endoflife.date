@@ -20,18 +20,25 @@ identifiers:
   - repology: maven-shared-utils
   - cpe: cpe:/a:apache:maven_shared_utils
   - cpe: cpe:2.3:a:apache:maven_shared_utils
+  - purl: pkg:deb/debian/maven
+  - purl: pkg:deb/ubuntu/maven
+  - purl: pkg:github/apache/maven
+  - purl: pkg:maven/org.apache.maven/maven
+  - purl: pkg:rpm/opensuse/maven
 
 auto:
   methods:
-    - maven: org.apache.maven/maven-core
+    - github_releases: apache/maven
+      regex: '^maven-(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
-    latest: "3.9.12"
-    latestReleaseDate: 2025-12-13
+    latest: "3.9.14"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "3.8"
     releaseDate: 2021-03-30

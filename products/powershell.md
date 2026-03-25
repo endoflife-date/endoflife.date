@@ -38,20 +38,28 @@ auto:
         dotnetVersion: ".NET Version"
 
 releases:
+  - releaseCycle: "7.6"
+    lts: true
+    releaseDate: 2026-03-18
+    eol: 2028-11-14
+    latest: "7.6.0"
+    latestReleaseDate: 2026-03-18
+    dotnetVersion: ".NET 10.0"
+
   - releaseCycle: "7.5"
     lts: false
     releaseDate: 2025-01-23
     eol: 2026-11-10
-    latest: "7.5.4"
-    latestReleaseDate: 2025-10-16
+    latest: "7.5.5"
+    latestReleaseDate: 2026-03-12
     dotnetVersion: ".NET 9.0"
 
   - releaseCycle: "7.4"
     lts: true
     releaseDate: 2023-11-16
     eol: 2026-11-10
-    latest: "7.4.13"
-    latestReleaseDate: 2025-10-16
+    latest: "7.4.14"
+    latestReleaseDate: 2026-03-12
     dotnetVersion: ".NET 8.0"
 
   - releaseCycle: "7.3"
@@ -104,6 +112,7 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
     dotnetVersion: ".NET Core 2.0"
+
 
 
 

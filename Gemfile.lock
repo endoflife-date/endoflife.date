@@ -74,7 +74,7 @@ GEM
     http_parser.rb (0.8.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    icalendar (2.12.1)
+    icalendar (2.12.2)
       base64
       ice_cube (~> 0.16)
       logger
@@ -117,7 +117,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.18.0)
+    json (2.19.2)
     just-the-docs (0.12.0)
       jekyll (>= 3.8.5)
       jekyll-include-cache

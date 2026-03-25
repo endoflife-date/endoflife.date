@@ -30,42 +30,50 @@ identifiers:
 auto:
   methods:
     - npm: electron
-    - release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
+    - release_table: https://releases.electronjs.org/schedule
       fields:
         releaseCycle:
-          column: "Electron"
+          column: "Release"
           regex: '^(?P<value>\d+)\.0\.0$'
         releaseDate: "Stable"
-        eol: "EOL"
-        chromeVersion: "Chrome"
+        eol: "End of Life"
+        chromeVersion: "Chromium"
         # Only get the major release of Node.js, as the documentation is valid only for the x.y.0 version.
         # See https://github.com/endoflife-date/endoflife.date/pull/7463#issuecomment-2925281977.
         nodeVersion:
-          column: "Node"
+          column: "Node.js"
           regex: '^v(?P<value>\d+).+$'
 
 releases:
+  - releaseCycle: "41"
+    releaseDate: 2026-03-10
+    eol: 2026-08-25
+    latest: "41.0.3"
+    latestReleaseDate: 2026-03-17
+    chromeVersion: "M146"
+    nodeVersion: "24"
+
   - releaseCycle: "40"
     releaseDate: 2026-01-13
     eol: 2026-06-30
-    latest: "40.6.1"
-    latestReleaseDate: 2026-02-24
+    latest: "40.8.3"
+    latestReleaseDate: 2026-03-17
     chromeVersion: "M144"
     nodeVersion: "24"
 
   - releaseCycle: "39"
     releaseDate: 2025-10-28
     eol: 2026-05-05
-    latest: "39.7.0"
-    latestReleaseDate: 2026-02-25
+    latest: "39.8.3"
+    latestReleaseDate: 2026-03-17
     chromeVersion: "M142"
     nodeVersion: "22"
 
   - releaseCycle: "38"
     releaseDate: 2025-09-02
     eol: 2026-03-10
-    latest: "38.8.4"
-    latestReleaseDate: 2026-02-24
+    latest: "38.8.6"
+    latestReleaseDate: 2026-03-11
     chromeVersion: "M140"
     nodeVersion: "22"
 
@@ -368,6 +376,10 @@ releases:
 
 
 
+
+
+
+
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using
@@ -398,7 +410,7 @@ unsupported version of Electron is in use.
 ## Other Links
 
 - A list of [officially supported platforms](https://github.com/electron/electron/#platform-support)
-- [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/)
+- [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/tutorial/security)
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
 - List of [Breaking Changes](https://www.electronjs.org/docs/latest/breaking-changes)

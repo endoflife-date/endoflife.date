@@ -45,8 +45,8 @@ releases:
     releaseDate: 2025-07-30 # https://community.sonarsource.com/t/sonarqube-server-2025-4-error/145463
     eoas: 2025-09-26
     eol: false # releaseDate(2026.4) + 6 months
-    latest: "2025.4.4"
-    latestReleaseDate: 2025-12-12
+    latest: "2025.4.5"
+    latestReleaseDate: 2026-03-24
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-3/149159
 
   - releaseCycle: "2025.3"
@@ -70,8 +70,8 @@ releases:
     releaseDate: 2025-01-23 # https://community.sonarsource.com/t/sonarqube-server-2025-release-1-lta-released/133961
     eoas: 2025-03-26
     eol: 2026-01-30
-    latest: "2025.1.5"
-    latestReleaseDate: 2025-12-12
+    latest: "2025.1.6"
+    latestReleaseDate: 2026-03-09
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-4-lta/149156
 
   - releaseCycle: "10"

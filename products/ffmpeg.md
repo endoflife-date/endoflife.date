@@ -14,6 +14,7 @@ identifiers:
   - repology: ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
+  - purl: pkg:brew/ffmpeg
 
 auto:
   methods:
@@ -24,6 +25,13 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "8.1"
+    codename: Hoare
+    releaseDate: 2026-03-16
+    eol: false
+    latest: "8.1.0"
+    latestReleaseDate: 2026-03-16
+    
   - releaseCycle: "8.0"
     codename: Huffman
     releaseDate: 2025-08-22
@@ -84,6 +92,7 @@ releases:
 
   - releaseCycle: "4.3"
     codename: "4:3"
+    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2020-06-15
     eol: false
     latest: "4.3.9"
@@ -112,6 +121,7 @@ releases:
 
   - releaseCycle: "3.4"
     codename: "Cantor"
+    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2017-10-15
     eol: false
     latest: "3.4.14"
