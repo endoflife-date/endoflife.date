@@ -115,7 +115,7 @@ releases:
     lts: true
     releaseDate: 2024-05-29
     eol: 2029-05-29
-    eoes: 2033-01-16
+    eoes: 2030-01-16
     latest: "11.4.10"
     latestReleaseDate: 2026-02-04
 
@@ -187,7 +187,7 @@ releases:
     lts: true
     releaseDate: 2021-07-06
     eol: 2026-07-06
-    eoes: 2029-08-23
+    eoes: 2028-08-23
     latest: "10.6.25"
     latestReleaseDate: 2026-02-04
 
