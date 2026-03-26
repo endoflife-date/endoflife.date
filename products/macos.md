@@ -29,22 +29,22 @@ releases:
     codename: "Tahoe"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.3.2"
-    latestReleaseDate: 2026-03-10
+    latest: "26.4"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.7.4"
-    latestReleaseDate: 2026-02-11
+    latest: "15.7.5"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: "14.8.4"
-    latestReleaseDate: 2026-02-11
+    latest: "14.8.5"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "13"
     codename: "Ventura"

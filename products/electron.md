@@ -48,24 +48,24 @@ releases:
   - releaseCycle: "41"
     releaseDate: 2026-03-10
     eol: 2026-08-25
-    latest: "41.0.3"
-    latestReleaseDate: 2026-03-17
+    latest: "41.0.4"
+    latestReleaseDate: 2026-03-25
     chromeVersion: "M146"
     nodeVersion: "24"
 
   - releaseCycle: "40"
     releaseDate: 2026-01-13
     eol: 2026-06-30
-    latest: "40.8.3"
-    latestReleaseDate: 2026-03-17
+    latest: "40.8.4"
+    latestReleaseDate: 2026-03-25
     chromeVersion: "M144"
     nodeVersion: "24"
 
   - releaseCycle: "39"
     releaseDate: 2025-10-28
     eol: 2026-05-05
-    latest: "39.8.3"
-    latestReleaseDate: 2026-03-17
+    latest: "39.8.4"
+    latestReleaseDate: 2026-03-25
     chromeVersion: "M142"
     nodeVersion: "22"
 
@@ -380,6 +380,7 @@ releases:
 
 
 
+
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using
@@ -410,7 +411,7 @@ unsupported version of Electron is in use.
 ## Other Links
 
 - A list of [officially supported platforms](https://github.com/electron/electron/#platform-support)
-- [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/)
+- [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/tutorial/security)
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
 - List of [Breaking Changes](https://www.electronjs.org/docs/latest/breaking-changes)

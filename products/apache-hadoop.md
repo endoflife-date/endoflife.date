@@ -37,7 +37,7 @@ releases:
     latestReleaseDate: 2026-02-24
 
   - releaseCycle: "3.3"
-    staleReleaseThresholdDays: 1000 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
+    staleReleaseThresholdDays: 1200 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
     releaseDate: 2020-07-15
     eol: false
     latest: "3.3.6"
