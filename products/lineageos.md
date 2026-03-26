@@ -41,7 +41,7 @@ releases:
 
   # Changed back to minor versions due to changes in upstream development (Quarterly Platform Releases). Read Changelog 29 (LineageOS 22[.1]) for more information.
   - releaseCycle: "22.1"
-    releaseDate:  2024-12-31 # https://review.lineageos.org/c/LineageOS/hudson/+/424685/37
+    releaseDate: 2024-12-31 # https://review.lineageos.org/c/LineageOS/hudson/+/424685/37
     eol: true
     link: https://lineageos.org/Changelog-29/
     androidVersion: "15"
