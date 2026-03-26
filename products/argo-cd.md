@@ -29,8 +29,8 @@ releases:
   - releaseCycle: "3.3"
     releaseDate: 2026-02-02
     eol: false
-    latest: "3.3.4"
-    latestReleaseDate: 2026-03-16
+    latest: "3.3.5"
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "3.2"
     releaseDate: 2025-11-04
@@ -41,8 +41,8 @@ releases:
   - releaseCycle: "3.1"
     releaseDate: 2025-08-13
     eol: false
-    latest: "3.1.12"
-    latestReleaseDate: 2026-01-22
+    latest: "3.1.13"
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "3.0"
     releaseDate: 2025-05-06
