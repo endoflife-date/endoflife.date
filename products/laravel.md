@@ -57,16 +57,16 @@ releases:
     eoas: 2026-08-16
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.5"
-    latest: "12.55.1"
-    latestReleaseDate: 2026-03-18
+    latest: "12.56.0"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "11.50.0"
-    latestReleaseDate: 2026-03-17
+    latest: "11.51.0"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "10"
     releaseDate: 2023-02-14
