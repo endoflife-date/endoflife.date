@@ -21,8 +21,8 @@ releases:
     releaseDate: 2014-04-20
     eoas: false
     eol: false
-    latest: "3.29.0"
-    latestReleaseDate: 2025-12-11
+    latest: "3.30.0"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01

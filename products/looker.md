@@ -55,7 +55,7 @@ releases:
     link: https://cloud.google.com/looker/docs/release-notes#November_05_2025
 
   - releaseCycle: "25.18"
-    releaseDate: 2025-10-06
+    releaseDate: 2025-10-31
     lts: 2025-11-30
     eol: 2026-02-28
     link: https://cloud.google.com/looker/docs/release-notes#October_06_2025
