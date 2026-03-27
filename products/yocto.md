@@ -131,7 +131,7 @@ releases:
 > developers create custom Linux-based systems and distributions regardless of the hardware
 > architecture.
 
-Long-Term Support (LTS) releases are usually made every 2 years and maintained for 2 years after
+Long-Term Support (LTS) releases are usually made every 2 years and maintained for 4 years after
 their initial release. Minor releases for supported stable and LTS branches (e.g. 3.0.1, 3.0.2,
 3.1.1, …) are released on an unscheduled basis, usually when enough significant bug fixes have been
 accumulated.
