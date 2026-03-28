@@ -168,4 +168,4 @@ releases:
 
 There are two phases of support: a _General Support_ phase, with bug and security fixes, and a
 _Critical Support_ phase, with only critical bug and security fixes. Once the _Critical Support_
-phase ends, the release each its _End of Support Life_ (EOSL) and is no longer supported.
+phase ends, the release reaches its _End of Support Life_ (EOSL) and is no longer supported.

@@ -81,5 +81,5 @@ releases:
 > [Mageia](https://www.mageia.org/) is a GNU/Linux-based, Free Software operating system. It is a
 > community project, supported by a nonprofit organization of elected contributors.
 
-Mageia releases are supported at least for 18 months. Or a minimum of 3 months after the next
+Mageia releases are supported at least for 18 months, or a minimum of 3 months after the next
 release, whichever is longer.
