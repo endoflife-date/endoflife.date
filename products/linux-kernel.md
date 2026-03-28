@@ -77,8 +77,8 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2028-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
-    latest: "6.12.78"
-    latestReleaseDate: 2026-03-25
+    latest: "6.12.79"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "6.11"
     releaseDate: 2024-09-15

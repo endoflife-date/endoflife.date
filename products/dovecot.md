@@ -25,8 +25,8 @@ releases:
     releaseDate: 2025-01-24
     eoas: false
     eol: false
-    latest: "2.4.2"
-    latestReleaseDate: 2025-10-28
+    latest: "2.4.3"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "2.3"
     staleReleaseThresholdDays: 730 # mentioned recently on https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/

@@ -196,8 +196,8 @@ releases:
     supportedPHPVersions: "5.2 - 7.1"
     releaseDate: 2016-12-06
     eol: 2017-06-08 # releaseDate(4.8)
-    latest: "4.7.32"
-    latestReleaseDate: 2026-03-13
+    latest: "4.7.33"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "4.6"
     supportedPHPVersions: "5.2 - 7.0"

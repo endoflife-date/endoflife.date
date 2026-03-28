@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2025-01-24
     eol: false
-    latest: "2.4.2"
-    latestReleaseDate: 2025-10-28
+    latest: "2.4.3"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "0.5"
     staleReleaseThresholdDays: 730 # Dovecot 2.3 still receive security support
