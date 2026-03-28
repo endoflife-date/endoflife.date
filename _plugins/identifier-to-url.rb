@@ -58,10 +58,16 @@ class IdentifierToUrl
 
   def _build_docker_url(purl)
     raise "Unsupported docker PURL #{purl}: no namespace specified" unless purl.namespace
-    name = purl.namespace == 'library' ? "_/#{purl.name}" : "r/#{purl.namespace}/#{purl.name}" # avoid redirects
-    return "https://hub.docker.com/#{name}"
+    
+    # Treat a dot in the namespace as signal that it is not docker hub
+    if purl.namespace.include?('.')
+      return nil
+    else
+      name = purl.namespace == 'library' ? "_/#{purl.name}" : "r/#{purl.namespace}/#{purl.name}" # avoid redirects
+      return "https://hub.docker.com/#{name}"
+    end
   end
-
+  
   def _build_github_url(purl)
     raise "Unsupported github PURL #{purl}: no namespace specified" unless purl.namespace
     return "https://github.com/#{purl.namespace}/#{purl.name}"
