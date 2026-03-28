@@ -43,8 +43,8 @@ releases:
     releaseDate: 2026-03-06
     eoas: false
     eol: false
-    latest: "6.11.0"
-    latestReleaseDate: 2026-02-17
+    latest: "6.11.1"
+    latestReleaseDate: 2026-03-27
     link: https://blog.emberjs.com/ember-released-6-11/
 
   - releaseCycle: "6.10"
@@ -67,8 +67,8 @@ releases:
     releaseDate: 2025-10-25
     eoas: 2026-06-23
     eol: 2026-12-08
-    latest: "6.8.3"
-    latestReleaseDate: 2026-02-04
+    latest: "6.8.4"
+    latestReleaseDate: 2026-03-27
     link: https://blog.emberjs.com/ember-released-6-8/
     lts: 2025-11-25
 
