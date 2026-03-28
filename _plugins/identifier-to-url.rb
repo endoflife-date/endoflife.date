@@ -67,7 +67,7 @@ class IdentifierToUrl
       return "https://hub.docker.com/#{name}"
     end
   end
-  
+
   def _build_github_url(purl)
     raise "Unsupported github PURL #{purl}: no namespace specified" unless purl.namespace
     return "https://github.com/#{purl.namespace}/#{purl.name}"
