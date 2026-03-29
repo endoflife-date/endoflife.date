@@ -60,7 +60,7 @@ releases:
     latest: "2.7.23"
     latestReleaseDate: 2026-03-25
     lts: true
-    link: https://github.com/kumahq/kuma/releases/tag/__LATEST__
+    link: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
 
   - releaseCycle: "2.6"
     releaseDate: 2024-02-01
