@@ -5,7 +5,6 @@ category: lang
 iconSlug: lua
 permalink: /lua
 versionCommand: lua -v
-releaseImage: https://www.lua.org/images/timeline.png
 releasePolicyLink: https://www.lua.org/versions.html
 changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
 eolColumn: Support

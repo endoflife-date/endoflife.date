@@ -5,7 +5,6 @@ category: lang
 iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
-releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
