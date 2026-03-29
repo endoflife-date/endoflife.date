@@ -156,7 +156,7 @@ documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conv
 ## Terminology
 
 Because GHC is a _bootstrapping compiler_ (meaning, it is written mostly in Haskell and compiles
-itself), there're versioning considerations not quite covered with SemVer.
+itself), there are versioning considerations not quite covered with SemVer.
 
 GHC defines:
 

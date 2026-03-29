@@ -10,7 +10,7 @@
 - [Automation](#automation)
 
 endoflife.date uses [Jekyll](https://jekyllrb.com/), the static website generator.
-This document helps you set the codebase locally.
+This document helps you set up the codebase locally.
 This isn't necessary for most content changes.
 Follow this guide if you are making layout, design, or code changes.
 
@@ -55,8 +55,8 @@ along with the command options for the [build](https://jekyllrb.com/docs/configu
 
 - The layout for the products page is in `_layouts/product.html`
 - Product data is in the `products` directory.
-- Automation scripts that updates latest releases are in the [`release-data`](https://github.com/endoflife-date/release-data/) repository.
-  There are also some information in the [Automation](https://github.com/endoflife-date/endoflife.date/wiki/Automation) page on the wiki.
+- Automation scripts that update latest releases are in the [`release-data`](https://github.com/endoflife-date/release-data/) repository.
+  There is also some information on the [Automation](https://github.com/endoflife-date/endoflife.date/wiki/Automation) page on the wiki.
 - We follow the following directory structure:
   - `_includes` holds partial templates, such as the content for the `<head>` tag.
   - `assets` includes CSS/JS/Logo images...
@@ -81,7 +81,7 @@ If you need to override some parts, take a look at [the customization section](h
 ## Logo
 
 The [site logo](/assets/logo.svg) is an adaptation of [An hourglass in a round icon](https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg) by David Abián and Serhio Magpie.
-The logo is representing the concepts of time (with the hourglass) and EOL/cycles (with the colored split circle).
+The logo represents the concepts of time (with the hourglass) and EOL/cycles (with the colored split circle).
 
 Derived icons for various usages, such as [the web app manifest](/manifest.json) were generated using [RealFaviconGenerator.net](https://realfavicongenerator.net/).
 

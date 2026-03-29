@@ -65,7 +65,7 @@ Major releases are typically available within a few days to a few weeks followin
 
 ### Lifecycles
 
-Unlike RHEL, each minor version reaches their end of life when the new version is released.
+Unlike RHEL, each minor version reaches its end of life when the new version is released.
 For example, AlmaLinux OS 9.2 reached its end of life with the release of AlmaLinux OS 9.3.
 
 ### Feature additions

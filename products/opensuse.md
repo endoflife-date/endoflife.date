@@ -136,7 +136,7 @@ releases:
     link: https://www.suse.com/releasenotes/x86_64/openSUSE/11.0/index.html
 ---
 
-> [openSUSE](https://www.opensuse.org/) is a linux distribution developed by the community-supported
+> [openSUSE](https://www.opensuse.org/) is a Linux distribution developed by the community-supported
 > openSUSE Project and aimed at sysadmins, developers and desktop users.
 
 openSUSE Leap is the name for openSUSE's regular releases, which were previously known as just
