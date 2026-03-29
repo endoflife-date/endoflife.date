@@ -8,7 +8,6 @@ alternate_urls:
   - /silverstripe-cms
   - /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCw0ODdd/CMS-5.1-Support-Timeline-with-provisional-release-date.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
