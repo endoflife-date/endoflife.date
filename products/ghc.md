@@ -34,10 +34,10 @@ releases:
 
   - releaseCycle: "9.12"
     releaseDate: 2024-11-15
-    eoas: false
+    eoas: true
     eol: false
-    latest: "9.12.3"
-    latestReleaseDate: 2025-12-27
+    latest: "9.12.4"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "9.10"
     releaseDate: 2024-05-10
