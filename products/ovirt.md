@@ -13,6 +13,9 @@ auto:
     - git: https://github.com/oVirt/ovirt-engine
       regex: ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
 
+identifiers:
+  - purl: pkg:github/ovirt/ovirt-engine
+
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "4.5"
