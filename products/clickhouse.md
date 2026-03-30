@@ -118,4 +118,4 @@ A new minor release is published approximately every month.
 The last three minor releases are supported with bug and security fixes.
 
 Twice a year, typically in March and August, minor releases are designated Long-Term Support (LTS).
-Such releases are supported for 1 year with critical security and stability updates.
+Such releases are supported for 1 year.
