@@ -34,7 +34,7 @@ releases:
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
-    eoas: 2025-09-15
+    eoas: 2024-08-19
     eol: 2025-09-15
     latest: "17.7.10"
     latestReleaseDate: 2025-08-20
