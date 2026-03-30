@@ -33,15 +33,7 @@ auto:
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
 # Do not use individual changelog links for non-EOL releases, they are not predictable, so their update would be manual.
 releases:
-  - releaseCycle: "8.1"
-    releaseDate: 2025-08-28
-    eoas: 2029-08-28
-    eol: 2032-08-28
-    eoes: 2034-08-28
-    latest: "8.1.5"
-    latestReleaseDate: 2026-03-17
-    
-  - releaseCycle: "8.0"
+  - releaseCycle: "8"
     releaseDate: 2024-02-05
     eoas: 2028-02-05
     eol: 2031-02-05
