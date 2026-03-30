@@ -1,6 +1,6 @@
 ---
 title: ClickHouse
-addedAt: 2025-10-26
+addedAt: 2026-03-30
 category: database
 iconSlug: clickhouse
 permalink: /clickhouse
