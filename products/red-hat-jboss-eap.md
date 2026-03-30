@@ -19,8 +19,8 @@ eoesColumn: Extended Life Support 1
 auto:
   methods:
     - red-hat-jboss-eap-7: https://access.redhat.com/articles/2332721
-    - red-hat-jboss-eap-8.0: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.0/maven-metadata.xml
-    - red-hat-jboss-eap-8.1: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.1/maven-metadata.xml
+    - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.0/maven-metadata.xml
+    - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.1/maven-metadata.xml
     - redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
       regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
       fields:
