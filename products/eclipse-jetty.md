@@ -95,8 +95,8 @@ releases:
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
     eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
     eoes: false
-    latest: "9.4.57.v20241219"
-    latestReleaseDate: 2024-12-19
+    latest: "9.4.58.v20250814"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "9.3"
     minJvmVersion: "1.8"
