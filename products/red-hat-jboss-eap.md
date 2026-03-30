@@ -20,6 +20,7 @@ auto:
   methods:
     - red-hat-jboss-eap-7: https://access.redhat.com/articles/2332721
     - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.0/maven-metadata.xml
+    - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.1/maven-metadata.xml
     - redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
       regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
       fields:
@@ -37,8 +38,8 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.0.12.0"
-    latestReleaseDate: 2026-03-05
+    latest: "8.1.5"
+    latestReleaseDate: 2026-03-17
 
   - releaseCycle: "7"
     releaseDate: 2016-05-01
