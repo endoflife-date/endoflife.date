@@ -5,7 +5,6 @@ category: server-app
 tags: php-runtime
 permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
-releaseImage: https://docs.centreon.com/assets/images/lifecycle-from-24.10-de6e3693d62648fbe4760ab65fa21015.png
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 eolColumn: OSS Support
 eoesColumn: Commercial Support
@@ -41,8 +40,8 @@ releases:
     releaseDate: 2024-10-31
     eol: 2027-10-31
     eoes: 2027-10-31
-    latest: "24.10.22"
-    latestReleaseDate: 2026-03-16
+    latest: "24.10.23"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "24.04"
     releaseDate: 2024-04-22

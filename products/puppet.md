@@ -66,7 +66,7 @@ releases:
 ---
 
 > [Puppet](https://www.puppet.com/) is a tool that helps you manage and automate the configuration
-> of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of
+> of servers. Its primary product, Puppet Enterprise, is a proprietary and closed-source version of
 > its open-source Puppet software.
 
 This page tracks the Open Source Puppet (OSP) and not Puppet Enterprise (PE). Version numbers are

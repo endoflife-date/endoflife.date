@@ -218,4 +218,4 @@ coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 For 6.1, it includes both Machine Code Level V6R1M0 and V6R1M1.
 
 Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
-on [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support) page.
+on the [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support) page.

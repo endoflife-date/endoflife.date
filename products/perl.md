@@ -5,7 +5,6 @@ category: lang
 iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
-releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
@@ -42,15 +41,15 @@ releases:
     releaseDate: 2025-07-03
     eoas: false
     eol: 2028-07-03
-    latest: "5.42.1"
-    latestReleaseDate: 2026-03-08
+    latest: "5.42.2"
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "5.40"
     releaseDate: 2024-06-09
     eoas: false
     eol: 2027-06-09
-    latest: "5.40.3"
-    latestReleaseDate: 2025-08-03
+    latest: "5.40.4"
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "5.38"
     releaseDate: 2023-07-02

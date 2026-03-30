@@ -40,8 +40,8 @@ releases:
     releaseDate: 2026-01-27
     eol: 2026-08-04
     minK8sVersion: "1.33"
-    latest: "1.21.1"
-    latestReleaseDate: 2026-02-24
+    latest: "1.21.2"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "1.20"
     releaseDate: 2025-10-21
@@ -189,6 +189,118 @@ releases:
     minK8sVersion: "1.20"
     latest: "1.0.2"
     latestReleaseDate: 2022-02-24
+
+  - releaseCycle: "0.26"
+    releaseDate: 2021-09-21
+    eol: 2022-03-08
+    minK8sVersion: "1.19"
+    latest: "0.26.1"
+    latestReleaseDate: 2021-10-18
+    link: https://github.com/knative/serving/releases/tag/v0.26.1
+
+  - releaseCycle: "0.25"
+    releaseDate: 2021-08-10
+    eol: 2022-01-25
+    minK8sVersion: "1.19"
+    latest: "0.25.0"
+    latestReleaseDate: 2021-08-10
+    link: https://github.com/knative/serving/releases/tag/v0.25.0
+
+  - releaseCycle: "0.24"
+    releaseDate: 2021-06-29
+    eol: 2021-12-14
+    minK8sVersion: "1.19"
+    latest: "0.24.0"
+    latestReleaseDate: 2021-06-29
+    link: https://github.com/knative/serving/releases/tag/v0.24.0
+
+  - releaseCycle: "0.23"
+    releaseDate: 2021-05-18
+    eol: 2021-11-02
+    minK8sVersion: "1.18"
+    latest: "0.23.0"
+    latestReleaseDate: 2021-05-18
+    link: https://github.com/knative/serving/releases/tag/v0.23.0
+
+  - releaseCycle: "0.22"
+    releaseDate: 2021-04-06
+    eol: 2021-09-21
+    minK8sVersion: "1.18"
+    latest: "0.22.0"
+    latestReleaseDate: 2021-04-06
+    link: https://github.com/knative/serving/releases/tag/v0.22.0
+
+  - releaseCycle: "0.21"
+    releaseDate: 2021-02-23
+    eol: 2021-08-10
+    minK8sVersion: "1.18"
+    latest: "0.21.0"
+    latestReleaseDate: 2021-02-23
+    link: https://github.com/knative/serving/releases/tag/v0.21.0
+
+  - releaseCycle: "0.20"
+    releaseDate: 2021-01-12
+    eol: 2021-06-29
+    minK8sVersion: "1.17"
+    latest: "0.20.0"
+    latestReleaseDate: 2021-01-12
+    link: https://github.com/knative/serving/releases/tag/v0.20.0
+
+  - releaseCycle: "0.19"
+    releaseDate: 2020-11-10
+    eol: 2021-05-18
+    minK8sVersion: "1.17"
+    latest: "0.19.0"
+    latestReleaseDate: 2020-11-10
+    link: https://github.com/knative/serving/releases/tag/v0.19.0
+
+  - releaseCycle: "0.18"
+    releaseDate: 2020-09-29
+    eol: 2021-03-16
+    minK8sVersion: "1.17"
+    latest: "0.18.2"
+    latestReleaseDate: 2020-11-03
+    link: https://github.com/knative/serving/releases/tag/v0.18.2
+
+  - releaseCycle: "0.17"
+    releaseDate: 2020-08-18
+    eol: 2021-02-02
+    minK8sVersion: "1.16"
+    latest: "0.17.1"
+    latestReleaseDate: 2020-09-16
+    link: https://github.com/knative/serving/releases/tag/v0.17.1
+
+  - releaseCycle: "0.16"
+    releaseDate: 2020-07-07
+    eol: 2020-12-22
+    minK8sVersion: "1.16"
+    latest: "0.16.0"
+    latestReleaseDate: 2020-07-07
+    link: https://github.com/knative/serving/releases/tag/v0.16.0
+
+  - releaseCycle: "0.15"
+    releaseDate: 2020-05-26
+    eol: 2020-11-10
+    minK8sVersion: "1.16"
+    latest: "0.15.0"
+    latestReleaseDate: 2020-05-26
+    link: https://github.com/knative/serving/releases/tag/v0.15.0
+
+  - releaseCycle: "0.14"
+    releaseDate: 2020-04-14
+    eol: 2020-09-29
+    minK8sVersion: "1.15"
+    latest: "0.14.3"
+    latestReleaseDate: 2020-08-17
+    link: https://github.com/knative/serving/releases/tag/v0.14.3
+
+  - releaseCycle: "0.13"
+    releaseDate: 2020-03-03
+    eol: 2020-08-18
+    minK8sVersion: "1.15"
+    latest: "0.13.3"
+    latestReleaseDate: 2020-05-13
+    link: https://github.com/knative/serving/releases/tag/v0.13.3
 
 ---
 

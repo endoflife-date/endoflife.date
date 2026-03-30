@@ -146,9 +146,9 @@ releases:
 Releases are time-based, each with a fixed release date.
 The schedule specifies 3 minor releases per year at 4-month intervals.
 
-Every subsequent first and second release (e.g. 17.1, 17.2, 17.4, 17.5...) receive standard support.
+Every subsequent first and second release (e.g. 17.1, 17.2, 17.4, 17.5...) receives standard support.
 With standard support, releases are supported 12 months with critical bug fixes and security updates.
 
-Every subsequent third release (e.g. 17.3, 17.6...) receive extended support.
+Every subsequent third release (e.g. 17.3, 17.6...) receives extended support.
 With extended support, releases are supported 30 months with critical bug fixes and security updates,
 followed by an additional 18 months of security updates only.

@@ -17,13 +17,13 @@ identifiers:
 releases:
   - releaseCycle: "7.6"
     releaseDate: 2024-07-25
-    eoas: 2027-07-25
-    eol: 2029-01-25
+    eoas: 2028-07-25
+    eol: 2030-01-25
 
   - releaseCycle: "7.4"
     releaseDate: 2023-05-11
-    eoas: 2026-05-11
-    eol: 2027-11-11
+    eoas: 2027-05-11
+    eol: 2028-11-11
 
   - releaseCycle: "7.2"
     releaseDate: 2022-03-31

@@ -43,14 +43,14 @@ releases:
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.10"
-    latestReleaseDate: 2025-10-23
+    latest: "3.3.11"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.10"
-    latestReleaseDate: 2026-01-14
+    latest: "3.2.11"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "3.1"
     releaseDate: 2021-12-25

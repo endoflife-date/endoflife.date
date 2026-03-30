@@ -805,14 +805,14 @@ releases:
     releaseLabel: "Galaxy A23"
     releaseDate: 2022-03-25
     eoas: 2025-03-25
-    eol: 2026-03-25
+    eol: false
     link: https://doc.samsungmobile.com/SM-A235M/PET/doc.html
 
   - releaseCycle: "galaxy-a13"
     releaseLabel: "Galaxy A13"
     releaseDate: 2022-03-23
     eoas: 2025-03-23
-    eol: 2026-03-23
+    eol: false
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
   - releaseCycle: "galaxy-f23"

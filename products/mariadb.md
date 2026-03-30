@@ -6,7 +6,6 @@ iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
-releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
 changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
@@ -66,7 +65,7 @@ auto:
 releases:
   - releaseCycle: "12.2"
     releaseDate: 2026-02-13
-    eol: 2026-05-13 #estimated 
+    eol: 2026-05-13 #estimated
     latest: "12.2.2"
     latestReleaseDate: 2026-02-13
 
@@ -86,7 +85,7 @@ releases:
     lts: true
     releaseDate: 2025-06-04
     eol: 2028-06-04
-    eoes: 2033-10-15
+    eoes: 2033-10-22
     latest: "11.8.6"
     latestReleaseDate: 2026-02-04
 
@@ -115,7 +114,7 @@ releases:
     lts: true
     releaseDate: 2024-05-29
     eol: 2029-05-29
-    eoes: 2033-05-29
+    eoes: 2033-01-16
     latest: "11.4.10"
     latestReleaseDate: 2026-02-04
 
@@ -151,7 +150,7 @@ releases:
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    eoes: 2031-02-16
+    eoes: 2028-02-16
     latest: "10.11.16"
     latestReleaseDate: 2026-02-04
 
@@ -187,7 +186,7 @@ releases:
     lts: true
     releaseDate: 2021-07-06
     eol: 2026-07-06
-    eoes: 2029-07-06
+    eoes: 2029-08-23
     latest: "10.6.25"
     latestReleaseDate: 2026-02-04
 

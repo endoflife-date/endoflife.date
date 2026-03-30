@@ -7,7 +7,6 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Premier Support
 eolColumn: Extended Support
@@ -43,6 +42,7 @@ releases:
     eol: false # releaseDate(x+1)
     latest: "9.6.0"
     latestReleaseDate: 2025-12-23
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-6-0.html
 
   - releaseCycle: "9.5"
     releaseDate: 2025-10-21
@@ -50,6 +50,7 @@ releases:
     eol: 2026-01-20
     latest: "9.5.2"
     latestReleaseDate: 2025-11-20
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-5-0.html
 
   - releaseCycle: "9.4"
     releaseDate: 2025-07-09
@@ -57,6 +58,7 @@ releases:
     eol: 2025-10-21
     latest: "9.4.2"
     latestReleaseDate: 2025-09-04
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-4-0.html
 
   - releaseCycle: "9.3"
     releaseDate: 2025-03-31
@@ -64,6 +66,7 @@ releases:
     eol: 2025-07-22
     latest: "9.3.2"
     latestReleaseDate: 2025-06-10
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-3-0.html
 
   - releaseCycle: "9.2"
     releaseDate: 2024-12-15
@@ -71,6 +74,7 @@ releases:
     eol: 2025-04-15
     latest: "9.2.2"
     latestReleaseDate: 2025-02-21
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-2-0.html
 
   - releaseCycle: "9.1"
     releaseDate: 2024-09-24
@@ -78,6 +82,7 @@ releases:
     eol: 2025-01-21
     latest: "9.1.2"
     latestReleaseDate: 2024-11-26
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-1-0.html
 
   - releaseCycle: "9.0"
     releaseDate: 2024-06-07

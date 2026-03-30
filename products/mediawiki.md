@@ -6,7 +6,6 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/hs5faq2k9b3pw5dm4fabgjwtjf2l8jw.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 eolColumn: End-of-Life
 
@@ -124,7 +123,7 @@ releases:
 
 ---
 
-> [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers
+> [MediaWiki](https://mediawiki.org) is a wiki engine and is mostly known as the software that powers
 > Wikipedia, but it is also frequently used for other wikis.
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2
