@@ -20,7 +20,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/fluent/fluent-bit
+    - github_releases: fluent/fluent-bit
 
 # https://fluentbit.io/announcements/older-versions/: Security Policy: support for the current series ends three months after a new series is released.
 # eol(x) = releaseDate(x+1) + 3 months
