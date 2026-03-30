@@ -6,7 +6,7 @@ tags: sap java-distribution
 iconSlug: openjdk
 permalink: /sapmachine
 versionCommand: java -version
-releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
+releasePolicyLink: https://sapmachine.io/docs/maintenance-and-support
 
 auto:
   methods:
@@ -14,9 +14,15 @@ auto:
       regex: '^sapmachine-(?P<version>[\d\.]+)$'
       template: "{{version}}"
 
-# LTS: EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
-# non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
+# LTS: EOL dates can be found on https://sapmachine.io/docs/maintenance-and-support
+# non-LTS : eol(x) = releaseDate(x+1) (future release dates follow the OpenJDK release cadence)
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-18
+    eol: 2026-09-15
+    latest: "26"
+    latestReleaseDate: 2026-03-18
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
