@@ -38,8 +38,8 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.0.12.0"
-    latestReleaseDate: 2026-03-05
+    latest: "8.1.5"
+    latestReleaseDate: 2026-03-17
 
   - releaseCycle: "7"
     releaseDate: 2016-05-01
