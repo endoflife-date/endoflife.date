@@ -22,6 +22,10 @@ auto:
         eoes: "Azure Extended Support End Date"
 
 releases:
+  - releaseCycle: "8.4"
+    releaseDate: 2025-09-01
+    eol: false
+
   - releaseCycle: "8.0"
     releaseDate: 2019-12-11
     eol: 2026-12-31
