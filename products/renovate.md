@@ -14,7 +14,7 @@ eolColumn: Support
 identifiers:
   - purl: pkg:npm/renovate
   - purl: pkg:docker/renovate/renovate
-  - purl: pkg:oci/renovate?repository_url=ghcr.io/renovate
+  - purl: pkg:oci/renovate?repository_url=ghcr.io/renovatebot
   - purl: pkg:brew/renovate
   - repology: renovate
 
