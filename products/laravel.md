@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
@@ -17,10 +17,11 @@ customFields:
     description: Supported PHP versions
 
 identifiers:
-  - purl: pkg:composer/laravel/laravel
+  - purl: pkg:composer/laravel/framework
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
+  - cpe: cpe:2.3:a:laravel:laravel
 
 # Note that laravel/laravel is just a starter application.
 auto:
@@ -43,29 +44,37 @@ auto:
 
 # Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
+  - releaseCycle: "13"
+    releaseDate: 2026-03-17
+    eoas: 2027-09-30 #estimated, no dates yet on https://laravel.com/docs/13.x/releases#support-policy
+    eol: 2028-03-17
+    supportedPhpVersions: "8.3 - 8.5"
+    latest: "13.2.0"
+    latestReleaseDate: 2026-03-24
+
   - releaseCycle: "12"
     releaseDate: 2025-02-24
     eoas: 2026-08-16
     eol: 2027-02-24
-    supportedPhpVersions: "8.2 - 8.4"
-    latest: "12.35.0"
-    latestReleaseDate: 2025-10-21
+    supportedPhpVersions: "8.2 - 8.5"
+    latest: "12.56.0"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "11.46.1"
-    latestReleaseDate: 2025-09-30
+    latest: "11.51.0"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "10"
     releaseDate: 2023-02-14
     eoas: 2024-08-06
     eol: 2025-02-04
     supportedPhpVersions: "8.1 - 8.3"
-    latest: "10.49.1"
-    latestReleaseDate: 2025-09-30
+    latest: "10.50.2"
+    latestReleaseDate: 2026-02-15
 
   - releaseCycle: "9"
     releaseDate: 2022-02-08

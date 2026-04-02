@@ -13,7 +13,7 @@ releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
 changelogTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
 latestColumn: false
 eolColumn: Support Status
-staleReleaseThresholdYears: 10
+staleReleaseThresholdDays: 3650 # linked to their corresponding Windows version
 
 auto:
   methods:

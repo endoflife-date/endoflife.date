@@ -39,6 +39,9 @@ auto:
     - github_releases: ibmruntimes/semeru25-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
+    - github_releases: ibmruntimes/semeru26-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
     - release_table: https://www.ibm.com/support/pages/node/6451203
       fields:
         releaseCycle: "IBM Semeru Runtimes version"
@@ -47,12 +50,18 @@ auto:
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-18
+    eol: 2026-09-18
+    latest: "26+35"
+    latestReleaseDate: 2026-03-18
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-25
     eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
-    latest: "25+36"
-    latestReleaseDate: 2025-09-25
+    latest: "25.0.2+10.1"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31
@@ -76,29 +85,30 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
-    latest: "21.0.8+9"
-    latestReleaseDate: 2025-07-24
+    latest: "21.0.10+7.1"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.16+8"
-    latestReleaseDate: 2025-07-24
+    latest: "17.0.18+8.1"
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: "11.0.28+6"
-    latestReleaseDate: 2025-07-24
+    latest: "11.0.30+7.1"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-30
-    latest: "8u462-b08"
-    latestReleaseDate: 2025-07-24
+    eol: 2030-12-31
+    latest: "8u482-b08"
+    latestReleaseDate: 2026-01-30
+
 ---
 
 > The [IBM Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/) are free

@@ -5,9 +5,9 @@ category: device
 tags: stormshield
 permalink: /sns-hardware
 latestColumn: false
-eoasColumn: End of Sales
-eolColumn: End of Life
-staleReleaseThresholdYears: 10
+eoasColumn: Commercial Availability
+eolColumn: Software Support
+staleReleaseThresholdDays: 3650 # devices have longer support periods
 
 customFields:
   - name: lowestSNSVersion

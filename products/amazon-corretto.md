@@ -14,6 +14,19 @@ changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releas
 identifiers:
   - cpe: cpe:/a:amazon:corretto
   - cpe: cpe:2.3:a:amazon:corretto
+  - purl: pkg:docker/library/amazoncorretto
+  - purl: pkg:github/corretto/corretto-26
+  - purl: pkg:github/corretto/corretto-25
+  - purl: pkg:github/corretto/corretto-24
+  - purl: pkg:github/corretto/corretto-23
+  - purl: pkg:github/corretto/corretto-22
+  - purl: pkg:github/corretto/corretto-21
+  - purl: pkg:github/corretto/corretto-20
+  - purl: pkg:github/corretto/corretto-19
+  - purl: pkg:github/corretto/corretto-18
+  - purl: pkg:github/corretto/corretto-17
+  - purl: pkg:github/corretto/corretto-11
+  - purl: pkg:github/corretto/corretto-8
 
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
@@ -55,18 +68,29 @@ auto:
     - github_releases: corretto/corretto-25
       regex: '^(?P<version>[\d\.]+)$'
       template: "{{version}}"
+    - github_releases: corretto/corretto-26
+      regex: '^(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # Remember to update the "auto" configuration on each new major release.
 # For EOL dates, see https://aws.amazon.com/corretto/faqs/ (Expired versions paragraph)
 releases:
+  - releaseCycle: "26"
+    # First non-pre-release release was https://github.com/corretto/corretto-26/releases/tag/26.0.0.35.2
+    # Official release was on March: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
+    releaseDate: 2026-03-17
+    eol: 2026-10-31
+    latest: "26.0.0.35.2"
+    latestReleaseDate: 2026-03-17
+
   - releaseCycle: "25"
     lts: true
     # First non-pre-release release was https://github.com/corretto/corretto-25/releases/tag/25.0.0.36.2
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-corretto-25-generally-available/
     releaseDate: 2025-09-16
     eol: 2032-10-31 # listed on https://aws.amazon.com/corretto/faqs/#topic-0
-    latest: "25.0.1.8.1"
-    latestReleaseDate: 2025-10-21
+    latest: "25.0.2.10.1"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "24"
     # The first non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
@@ -97,8 +121,8 @@ releases:
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
     eol: 2030-10-31
-    latest: "21.0.9.10.1"
-    latestReleaseDate: 2025-10-21
+    latest: "21.0.10.7.1"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -124,8 +148,8 @@ releases:
     lts: true
     releaseDate: 2021-08-24
     eol: 2029-10-31
-    latest: "17.0.17.10.1"
-    latestReleaseDate: 2025-10-21
+    latest: "17.0.18.9.1"
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -145,16 +169,16 @@ releases:
     lts: true
     releaseDate: 2019-02-18
     eol: 2032-01-31
-    latest: "11.0.29.7.1"
-    latestReleaseDate: 2025-10-21
+    latest: "11.0.30.7.1"
+    latestReleaseDate: 2026-01-20
 
   # Note that the first release was 8.202.08.2.
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.472.08.1"
-    latestReleaseDate: 2025-10-21
+    latest: "8.482.08.1"
+    latestReleaseDate: 2026-01-20
 
 ---
 

@@ -93,5 +93,5 @@ releases:
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
 SUSE Multi-Linux Manager is usually released every 12 months.
-The current release is usually supported for an additional 12 months once after the next release, resulting in a 24-month support cycle.
+The current release is usually supported for an additional 12 months after the next release, resulting in a 24-month support cycle.
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.

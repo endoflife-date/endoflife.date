@@ -13,7 +13,7 @@ changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE_
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 eolColumn: Security Support
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1460 # OSes have a longer support period
 
 customFields:
   - name: apiVersion
@@ -48,7 +48,7 @@ releases:
     apiVersion: "33"
     codename: Tiramisu
     releaseDate: 2022-08-15
-    eol: false
+    eol: 2026-03-02
 
   - releaseCycle: "12.1"
     apiVersion: "32"

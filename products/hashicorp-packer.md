@@ -14,6 +14,7 @@ versionCommand: packer --version
 
 identifiers:
   - repology: packer
+  - cpe: cpe:2.3:a:hashicorp:packer
 
 auto:
   methods:
@@ -21,11 +22,17 @@ auto:
 
 # eol(x) = release(x+3)
 releases:
+  - releaseCycle: "1.15"
+    releaseDate: 2026-02-04
+    eol: false
+    latest: "1.15.1"
+    latestReleaseDate: 2026-03-26
+
   - releaseCycle: "1.14"
     releaseDate: 2025-07-30
     eol: false
-    latest: "1.14.2"
-    latestReleaseDate: 2025-09-09
+    latest: "1.14.3"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "1.13"
     releaseDate: 2025-05-30
@@ -35,7 +42,7 @@ releases:
 
   - releaseCycle: "1.12"
     releaseDate: 2025-01-22
-    eol: false
+    eol: 2026-02-04
     latest: "1.12.0"
     latestReleaseDate: 2025-01-22
 

@@ -11,7 +11,9 @@ changelogTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_supermarket/
+    - chef-versions: https://docs.chef.io/release_notes/supermarket/
+      regex: '^Chef Supermarket (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/supermarket.git
 
 # eol(x) = releaseDate(x+1)
@@ -19,8 +21,8 @@ releases:
   - releaseCycle: "5"
     releaseDate: 2022-02-28
     eol: false
-    latest: "5.2.0"
-    latestReleaseDate: 2025-06-02
+    latest: "5.3.0"
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "4"
     releaseDate: 2021-09-23
@@ -39,6 +41,7 @@ releases:
     eol: 2017-04-10
     latest: "2.9.30"
     latestReleaseDate: 2017-04-04
+
 ---
 
 > [Chef Supermarket](https://docs.chef.io/supermarket/) is a self-hosted artifact store that lets you store,

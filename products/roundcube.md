@@ -12,6 +12,7 @@ eolColumn: Security Support
 
 identifiers:
   - repology: roundcube
+  - cpe: cpe:2.3:a:roundcube:webmail
 
 auto:
   methods:
@@ -22,16 +23,16 @@ releases:
     releaseDate: 2022-07-25
     eoas: false
     eol: false
-    latest: "1.6.11"
-    latestReleaseDate: 2025-06-01
+    latest: "1.6.15"
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
     lts: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
     eoas: false
     eol: false
-    latest: "1.5.11"
-    latestReleaseDate: 2025-06-15
+    latest: "1.5.15"
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "1.4"
     releaseDate: 2019-11-09
@@ -67,6 +68,7 @@ releases:
     eol: true
     latest: "1.0.12"
     latestReleaseDate: 2017-11-08
+
 ---
 
 > [Roundcube Webmail](https://roundcube.net/) is a browser-based multilingual IMAP client with an

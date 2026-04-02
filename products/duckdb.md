@@ -1,6 +1,6 @@
 ---
 title: DuckDB
-addedAt: 2025-10-17
+addedAt: 2025-10-18
 category: database
 iconSlug: duckdb
 permalink: /duckdb
@@ -11,19 +11,27 @@ eolColumn: Support Status
 
 identifiers:
   - repology: duckdb
+  - cpe: cpe:2.3:a:duckdb:duckdb
 
 auto:
   methods:
     - github_releases: duckdb/duckdb
 
 releases:
+  - releaseCycle: "1.5"
+    codename: "Variegata"
+    releaseDate: 2026-03-09
+    eol: false
+    latest: "1.5.1"
+    latestReleaseDate: 2026-03-23
+
   - releaseCycle: "1.4"
     codename: "Andium"
     lts: true
     releaseDate: 2025-09-16
     eol: 2026-09-16
-    latest: "1.4.1"
-    latestReleaseDate: 2025-10-07
+    latest: "1.4.4"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "1.3"
     codename: "Ossivalis"

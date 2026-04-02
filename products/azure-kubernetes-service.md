@@ -8,7 +8,6 @@ alternate_urls:
   - /aks
 versionCommand: az aks show --resource-group myResourceGroup --name myAKSCluster
 releasePolicyLink: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions
-releaseImage: https://learn.microsoft.com/en-us/azure/aks/media/supported-kubernetes-versions/kubernetes-versions-gantt.png
 latestColumn: false
 eolColumn: Support
 eoesColumn: LTS Support
@@ -17,7 +16,7 @@ auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
       fields:
-        releaseCycle: "K8s version"
+        releaseCycle: "Kubernetes version"
         releaseDate: "AKS GA"
         eol: "End of life"
         eoes: "LTS End of life"
@@ -26,24 +25,30 @@ auto:
     # See release links for sources of release dates.
     - declare: azure-kubernetes-service
       releases:
-        - { name: "1.33", releaseDate: 2025-06-17 }
-        - { name: "1.32", releaseDate: 2025-04-06 }
-        - { name: "1.31", releaseDate: 2024-10-25 }
-        - { name: "1.30", releaseDate: 2024-08-05 }
-        - { name: "1.29", releaseDate: 2024-03-18 }
-        - { name: "1.28", releaseDate: 2023-11-07 }
-        - { name: "1.27", releaseDate: 2023-08-16 }
-        - { name: "1.26", releaseDate: 2023-04-18 }
-        - { name: "1.25", releaseDate: 2022-12-14 }
-        - { name: "1.24", releaseDate: 2022-08-17 }
-        - { name: "1.23", releaseDate: 2022-04-26 }
-        - { name: "1.22", releaseDate: 2022-01-10 }
-        - { name: "1.21", releaseDate: 2021-08-18 }
+        - {name: "1.34", releaseDate: 2025-12-12}
+        - {name: "1.33", releaseDate: 2025-06-17}
+        - {name: "1.32", releaseDate: 2025-04-06}
+        - {name: "1.31", releaseDate: 2024-10-25}
+        - {name: "1.30", releaseDate: 2024-08-05}
+        - {name: "1.29", releaseDate: 2024-03-18}
+        - {name: "1.28", releaseDate: 2023-11-07}
+        - {name: "1.27", releaseDate: 2023-08-16}
+        - {name: "1.26", releaseDate: 2023-04-18}
+        - {name: "1.25", releaseDate: 2022-12-14}
+        - {name: "1.24", releaseDate: 2022-08-17}
+        - {name: "1.23", releaseDate: 2022-04-26}
+        - {name: "1.22", releaseDate: 2022-01-10}
+        - {name: "1.21", releaseDate: 2021-08-18}
 
 # Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 # Do not forget to update the release dates in the auto section above when adding a new release.
 releases:
+  - releaseCycle: "1.34"
+    releaseDate: 2025-12-12
+    eol: 2026-11-30
+    eoes: 2027-11-30
+
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
     eol: 2026-06-30
@@ -58,13 +63,13 @@ releases:
 
   - releaseCycle: "1.31"
     releaseDate: 2024-10-25
-    eol: 2025-11-30
+    eol: 2025-11-01
     eoes: 2026-11-30
     link: https://github.com/Azure/AKS/releases/tag/2024-10-25
 
   - releaseCycle: "1.30"
     releaseDate: 2024-08-05
-    eol: 2025-07-31
+    eol: 2025-08-22
     eoes: 2026-07-31
     link: https://github.com/Azure/AKS/releases/tag/2024-08-05
 
@@ -118,6 +123,8 @@ releases:
 # Not sure corresponding cycles will be added one day, but here are the announcements for:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
+
+
 ---
 
 > [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/) is a managed service used to run Kubernetes on Azure

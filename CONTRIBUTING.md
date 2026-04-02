@@ -6,14 +6,14 @@ description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
 ---
 
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
-- [✏️ About the codebase](#pencil-about-the-codebase)
-- [➕ Adding a new product](#new-adding-a-new-product)
+- [✏️ About the codebase](#️-about-the-codebase)
+- [➕ Adding a new product](#-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
 - [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
-- [⚖️ Code of Conduct](#bookmark-code-of-conduct)
+- [⚖️ Code of Conduct](#️-code-of-conduct)
 
 ## 🎲 Hacktoberfest
 
@@ -106,11 +106,6 @@ versionCommand: swish and flick
 # This link should contain information about the release policy and schedule. This is NOT the product URL!
 # Do not use a localized URL (such as one containing en-us) if possible.
 releasePolicyLink: https://nodejs.org/about/releases/
-
-# An image that shows a graphical representation of the releases (optional).
-# If provided, this image will be displayed at the top of the product's page.
-# This is not the product logo. Remove if you don't find a relevant image.
-releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 
 # Template to be used to generate a link for the releases (optional).
 # Available variables inside the template are:
@@ -392,9 +387,6 @@ releases:
 ---
 
 # All the product information text should be under triple-dashes.
-# If you are adding any images in the text, they might get blocked due to our CSP,
-# so prefer using releaseImage in such cases.
-# Note that images on the same website as releaseImage will not be blocked.
 
 > [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
 
@@ -470,7 +462,7 @@ done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 
 ### Linting and formatting files
 
-You can use the [lint-product.sh](/bin/lint-product.sh) to lint a product file
+You can use the `bin/lint-product.sh` to lint a product file
 using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
 and [prettier](https://github.com/prettier/prettier).
 

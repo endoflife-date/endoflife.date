@@ -9,7 +9,6 @@ alternate_urls:
   - /opensuseleap
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://en.opensuse.org/Lifetime
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/slucio84mdla0deffiv2vrszinbrlek.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
 latestColumn: false
@@ -136,7 +135,7 @@ releases:
     link: https://www.suse.com/releasenotes/x86_64/openSUSE/11.0/index.html
 ---
 
-> [openSUSE](https://www.opensuse.org/) is a linux distribution developed by the community-supported
+> [openSUSE](https://www.opensuse.org/) is a Linux distribution developed by the community-supported
 > openSUSE Project and aimed at sysadmins, developers and desktop users.
 
 openSUSE Leap is the name for openSUSE's regular releases, which were previously known as just

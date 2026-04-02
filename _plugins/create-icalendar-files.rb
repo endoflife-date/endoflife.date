@@ -58,10 +58,12 @@ def notification_message(product, cycle, type)
     message += ' will become End-of-life.'
   when 'eoas' then
     message += ' will end active development.'
-  when 'release' then
+  when 'releaseDate' then
     message += ' will be released.'
   when 'eoes' then
     message += ' will end extended support.'
+  when 'discontinued' then
+    message += ' will be discontinued.'
   end
 end
 
@@ -71,7 +73,7 @@ def process_product(product)
   cal = Icalendar::Calendar.new
   product.release_cycles.each do |cycle|
     cycle.fetch('data').each do |key, item|
-      next if !['release', 'eoas', 'eol', 'eoes'].include?(key) || !item.instance_of?(Date)
+      next if !['releaseDate', 'eoas', 'eol', 'eoes', 'discontinued'].include?(key) || !item.instance_of?(Date)
       event = cal.event
       event.dtstart = Icalendar::Values::Date.new(item)
       event.dtend = Icalendar::Values::Date.new(item + 1)
@@ -83,19 +85,19 @@ def process_product(product)
       next if key != 'eol'
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 12).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 12).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 6).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 6).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 3).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 3).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 1).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 1).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'

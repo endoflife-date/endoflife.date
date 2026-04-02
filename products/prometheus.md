@@ -13,11 +13,11 @@ identifiers:
   - purl: pkg:docker/prom/prometheus
   - purl: pkg:docker/bitnami/prometheus
   - purl: pkg:docker/rapidfort/prometheus-official
-  - purl: pkg:docker/bitnami/prometheus
   - purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
   - purl: pkg:oci/prometheus?repository_url=cgr.dev/chainguard
   - purl: pkg:github/prometheus/prometheus
   - purl: pkg:golang/github.com/prometheus/prometheus
+  - cpe: cpe:2.3:a:prometheus:prometheus
 
 auto:
   methods:
@@ -34,11 +34,29 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+  - releaseCycle: "3.10"
+    releaseDate: 2026-02-25
+    eol: 2026-04-08
+    latest: "3.10.0"
+    latestReleaseDate: 2026-02-25
+
+  - releaseCycle: "3.9"
+    releaseDate: 2026-01-06
+    eol: 2026-02-17
+    latest: "3.9.1"
+    latestReleaseDate: 2026-01-07
+
+  - releaseCycle: "3.8"
+    releaseDate: 2025-11-28
+    eol: 2026-01-09
+    latest: "3.8.1"
+    latestReleaseDate: 2025-12-16
+
   - releaseCycle: "3.7"
     releaseDate: 2025-10-15
     eol: 2025-11-26
-    latest: "3.7.1"
-    latestReleaseDate: 2025-10-17
+    latest: "3.7.3"
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "3.6"
     releaseDate: 2025-09-17
@@ -50,8 +68,8 @@ releases:
     lts: true
     releaseDate: 2025-07-14
     eol: 2026-07-31
-    latest: "3.5.0"
-    latestReleaseDate: 2025-07-14
+    latest: "3.5.1"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "3.4"
     releaseDate: 2025-05-17

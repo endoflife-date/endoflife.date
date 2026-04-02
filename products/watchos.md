@@ -5,7 +5,6 @@ category: os
 tags: apple smartwatch
 iconSlug: apple
 permalink: /watchos
-releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
 
 identifiers:
@@ -26,32 +25,32 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.0.2"
-    latestReleaseDate: 2025-09-29
+    latest: "26.4"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "11"
     releaseDate: 2024-09-16
     eol: 2025-09-15
-    latest: "11.6.1"
-    latestReleaseDate: 2025-08-14
+    latest: "11.6.2"
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "10"
     releaseDate: 2023-09-18
     eol: 2024-09-16
-    latest: "10.6.1"
-    latestReleaseDate: 2024-08-19
+    latest: "10.6.2"
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "9"
     releaseDate: 2022-09-12
     eol: 2023-09-18
-    latest: "9.6.3"
-    latestReleaseDate: 2023-09-21
+    latest: "9.6.4"
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "8"
     releaseDate: 2021-09-20
     eol: 2022-09-12
-    latest: "8.8.1"
-    latestReleaseDate: 2023-06-21
+    latest: "8.8.2"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "7"
     releaseDate: 2020-09-16
@@ -62,14 +61,14 @@ releases:
   - releaseCycle: "6"
     releaseDate: 2019-09-19
     eol: 2020-09-16
-    latest: "6.3"
-    latestReleaseDate: 2020-12-14
+    latest: "6.3.1"
+    latestReleaseDate: 2026-02-02
 
   - releaseCycle: "5"
     releaseDate: 2018-09-17
     eol: 2019-09-19
-    latest: "5.3.9"
-    latestReleaseDate: 2020-11-05
+    latest: "5.3.10"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "4"
     releaseDate: 2017-09-19
@@ -93,3 +92,5 @@ releases:
 Major versions of watchOS are released annually, with the previous major version losing support.
 
 Apple publishes a [Compatibility Table](https://support.apple.com/118490) for supported combinations of iPhone, iOS, watchOS.
+
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/WatchOS#Version_history).

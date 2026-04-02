@@ -9,12 +9,16 @@ alternate_urls:
   - /apache-ant
 changelogTemplate: https://ant.apache.org/antnews.html
 versionCommand: ant -version
-staleReleaseThresholdYears: 2
 
 identifiers:
   - cpe: cpe:/a:apache:ant
   - cpe: cpe:2.3:a:apache:ant
   - repology: ant
+  - purl: pkg:deb/debian/ant
+  - purl: pkg:deb/ubuntu/ant
+  - purl: pkg:github/apache/ant
+  - purl: pkg:maven/org.apache.ant/ant
+  - purl: pkg:rpm/fedora/ant
 
 auto:
   methods:
@@ -22,6 +26,7 @@ auto:
 
 releases:
   - releaseCycle: "1.10"
+    staleReleaseThresholdDays: 700 # confirmed on https://ant.apache.org/antnews.html
     releaseDate: 2016-12-27
     eol: false
     latest: "1.10.15"

@@ -9,7 +9,6 @@ alternate_urls:
   - /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-releaseImage: https://dotnet.microsoft.com/blob-assets/images/illustrations/release-schedule.svg
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 eolColumn: Support Status
 
@@ -57,18 +56,25 @@ auto:
         eol: "End of support"
 
 releases:
+  - releaseCycle: "10"
+    releaseDate: 2025-11-11
+    lts: true
+    eol: 2028-11-14
+    latest: "10.0.5"
+    latestReleaseDate: 2026-03-12
+
   - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-11-10
-    latest: "9.0.10"
-    latestReleaseDate: 2025-10-14
+    latest: "9.0.14"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.21"
-    latestReleaseDate: 2025-10-14
+    latest: "8.0.25"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "7"
     releaseDate: 2022-11-08

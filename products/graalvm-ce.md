@@ -11,6 +11,7 @@ changelogTemplate: "https://www.graalvm.org/release-notes/JDK___RELEASE_CYCLE__/
 
 identifiers:
   - repology: graalvm
+  - cpe: cpe:2.3:a:oracle:graalvm
 
 auto:
   methods:
@@ -24,8 +25,8 @@ releases:
   - releaseCycle: "25"
     releaseDate: 2025-09-16
     eol: false
-    latest: "25.0.1"
-    latestReleaseDate: 2025-10-21
+    latest: "25.0.2"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "24"
     releaseDate: 2025-03-18

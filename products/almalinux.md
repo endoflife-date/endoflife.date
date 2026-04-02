@@ -28,18 +28,18 @@ releases:
     releaseDate: 2025-05-27
     eoas: 2030-05-31
     eol: 2035-05-31
-    latest: "10.0"
-    latestReleaseDate: 2025-05-27
-    link: https://almalinux.org/blog/2025-05-27-welcoming-almalinux-10/
+    latest: "10.1"
+    latestReleaseDate: 2025-11-24
+    link: https://almalinux.org/blog/2025-11-24-almalinux_101_release/
 
   - releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
     eoas: 2027-05-31
     eol: 2032-05-31
-    latest: "9.6"
-    latestReleaseDate: 2025-05-20
-    link: https://almalinux.org/blog/2025-05-20-almalinux_96_release/
+    latest: "9.7"
+    latestReleaseDate: 2025-11-17
+    link: https://almalinux.org/blog/2025-11-17-almalinux_97_release/
 
   - releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
@@ -65,7 +65,7 @@ Major releases are typically available within a few days to a few weeks followin
 
 ### Lifecycles
 
-Unlike RHEL, each minor version reaches their end of life when the new version is released.
+Unlike RHEL, each minor version reaches its end of life when the new version is released.
 For example, AlmaLinux OS 9.2 reached its end of life with the release of AlmaLinux OS 9.3.
 
 ### Feature additions

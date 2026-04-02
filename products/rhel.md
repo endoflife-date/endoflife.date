@@ -38,8 +38,8 @@ releases:
     eol: 2035-05-31
     lts: 2035-05-31
     eoes: 2038-05-31
-    latest: "10.0"
-    latestReleaseDate: 2025-05-20
+    latest: "10.1"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "9"
     releaseDate: 2022-05-18
@@ -47,8 +47,8 @@ releases:
     eol: 2032-05-31
     lts: 2032-05-31
     eoes: 2035-05-31
-    latest: "9.6"
-    latestReleaseDate: 2025-05-20
+    latest: "9.7"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "8"
     releaseDate: 2019-05-07
@@ -115,7 +115,7 @@ If available, new or improved hardware enablement and select enhanced software f
 
 During the Maintenance Support Phase (called "Maintenance Support 2" for RHEL 7), qualified RHSAs and RHBAs may be released as they become available.
 Other errata advisories may be delivered as appropriate.
-New functionality and new hardware enablement is at the discretion of Red Hat and vary by operating system release.
+New functionality and new hardware enablement are at the discretion of Red Hat and vary by operating system release.
 
 ## Extended Life Cycle Support (ELS)
 

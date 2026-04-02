@@ -17,8 +17,7 @@ identifiers:
 auto:
   methods:
     - npm: quasar
-    - release_table: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md
-      render_javascript: true
+    - release_table: https://collected.press/github/quasarframework/quasar/ROADMAP.md
       selector: "table:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -33,8 +32,8 @@ releases:
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.18.5"
-    latestReleaseDate: 2025-09-18
+    latest: "2.19.2"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "1"
     releaseDate: 2019-03-07

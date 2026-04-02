@@ -13,6 +13,7 @@ identifiers:
   - repology: terraform
   - purl: pkg:github/hashicorp/terraform
   - purl: pkg:generic/terraform
+  - cpe: cpe:2.3:a:hashicorp:terraform
 
 auto:
   methods:
@@ -20,15 +21,21 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.14"
+    releaseDate: 2025-11-19
+    eol: false # releaseDate(1.16)
+    latest: "1.14.8"
+    latestReleaseDate: 2026-03-25
+
   - releaseCycle: "1.13"
     releaseDate: 2025-08-20
     eol: false # releaseDate(1.15)
-    latest: "1.13.4"
-    latestReleaseDate: 2025-10-15
+    latest: "1.13.5"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "1.12"
     releaseDate: 2025-05-14
-    eol: false # releaseDate(1.14)
+    eol: 2025-11-19
     latest: "1.12.2"
     latestReleaseDate: 2025-06-11
 

@@ -7,10 +7,10 @@ permalink: /pigeonhole
 alternate_urls:
   - /dovecot-pigeonhole
 changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
-staleReleaseThresholdYears: 2
 
 identifiers:
   - repology: dovecot-pigeonhole
+  - cpe: cpe:2.3:a:dovecot:pigeonhole
 
 auto:
   methods:
@@ -22,10 +22,11 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2025-01-24
     eol: false
-    latest: "2.4.1"
-    latestReleaseDate: 2025-03-28
+    latest: "2.4.3"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "0.5"
+    staleReleaseThresholdDays: 730 # Dovecot 2.3 still receive security support
     releaseDate: 2017-12-24
     eol: false
     latest: "0.5.21.1"
@@ -60,8 +61,6 @@ releases:
 > [Pigeonhole](https://pigeonhole.dovecot.org/) is the project that adds support for the Sieve
 > language and the ManageSieve protocol to the [Dovecot](https://dovecot.org/) Secure IMAP Server.
 
-Pigeonhole does not follow a documented release policy for its own. It follows the same cycle as
-[Dovecot](/dovecot) does, even if that means to do a release without changes to keep version numbers
-synced.
-Since v2.4.0 (released in 2025) the version numbering scheme is also aligned to match Dovecot's
-scheme.
+Pigeonhole does not follow a documented release policy for its own.
+It follows the same cycle as [Dovecot](/dovecot) does, even if that means to do a release without changes to keep version numbers synced.
+Since v2.4.0 (released in 2025) the version numbering scheme is also aligned to match Dovecot's scheme.

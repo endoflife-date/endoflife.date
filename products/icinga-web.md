@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:docker/icinga/icingaweb2
   - purl: pkg:github/Icinga/icingaweb2
   - purl: pkg:github/Icinga/icinga-web
+  - cpe: cpe:2.3:a:icinga:icinga_web_2
 
 auto:
   methods:
@@ -30,8 +31,8 @@ releases:
     releaseDate: 2023-09-21
     eoas: false
     eol: false
-    latest: "2.12.5"
-    latestReleaseDate: 2025-07-16
+    latest: "2.12.6"
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "2.11"
     releaseDate: 2022-06-30
@@ -124,6 +125,7 @@ releases:
     latest: "1.14.1"
     latestReleaseDate: 2017-12-19
     link: null
+
 ---
 
 > [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface

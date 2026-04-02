@@ -22,9 +22,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.9"
+    releaseDate: 2025-11-13
+    eol: false
+    latest: "2.9.5"
+    latestReleaseDate: 2026-01-29
+
   - releaseCycle: "2.8"
     releaseDate: 2024-10-02
-    eol: false
+    eol: 2025-11-13
     latest: "2.8.12"
     latestReleaseDate: 2025-09-19
 
@@ -62,8 +68,8 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: false # seems still supported https://github.com/endoflife-date/endoflife.date/issues/5119
-    latest: "2.2.25"
-    latestReleaseDate: 2024-12-11
+    latest: "2.2.26"
+    latestReleaseDate: 2025-12-30
 
   - releaseCycle: "1"
     releaseDate: 2016-04-05
@@ -75,11 +81,6 @@ releases:
 
 > [Composer](https://getcomposer.org/) is a package manager commonly used to manage
 > libraries and other dependencies for PHP projects.
-
-{: .warning}
-The packagist.org service will
-[shut down metadata access for Composer 1 on 1st August 2025](https://blog.packagist.com/shutting-down-packagist-org-support-for-composer-1-x/)
-Attempting to update packages using Composer 1.x will no longer work beyond this date.
 
 ## [PHP Support](https://blog.packagist.com/composer-2-2/)
 

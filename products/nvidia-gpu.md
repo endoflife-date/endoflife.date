@@ -12,7 +12,7 @@ releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
 latestColumn: false
 discontinuedColumn: true
 eoasColumn: true
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 2920 # GPUs have a long support window, and https://en.wikipedia.org/wiki/Turing_(microarchitecture) not EOL yet
 
 # Support can be found on Wikipedia.
 # Example of a documented deprecated architecture (support status): https://en.wikipedia.org/wiki/Pascal_(microarchitecture).

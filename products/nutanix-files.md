@@ -15,12 +15,19 @@ auto:
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
-  - releaseCycle: "5.2"
-    releaseDate: 2025-07-30
+  - releaseCycle: "5.3"
+    releaseDate: 2026-01-30
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
-    latest: "5.2.0.0"
-    latestReleaseDate: 2025-07-30
+    latest: "5.3"
+    latestReleaseDate: 2026-01-30
+
+  - releaseCycle: "5.2"
+    releaseDate: 2025-07-30
+    eoas: 2026-05-31
+    eol: 2027-01-31
+    latest: "5.2.1"
+    latestReleaseDate: 2025-10-29
 
   - releaseCycle: "5.1"
     releaseDate: 2024-12-16
@@ -98,6 +105,7 @@ releases:
     eol: 2020-10-31
     latest: "3.5.6"
     latestReleaseDate: 2019-12-15
+
 ---
 
 > [Nutanix Files](https://www.nutanix.com/uk/products/files) is a simple, scalable and smart

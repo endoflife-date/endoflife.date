@@ -17,7 +17,6 @@ versionCommand: DSPJOB OUTPUT(*PRINT)
 releasePolicyLink: https://www.ibm.com/support/pages/release-life-cycle # https://www.ibm.com/support/pages/ibm-i-release-support
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 eoesColumn: Extended Life Cycle Support
-staleReleaseThresholdYears: 7
 
 auto:
   methods:
@@ -28,7 +27,7 @@ auto:
           regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
           template: "{{major}}.{{minor}}"
         releaseDate: "GA date*"
-        eol: "End of Program Support*"
+        eol: "Change in Service Level*"
         eoes: "Program Support Extension Available*"
 
 releases:
@@ -40,6 +39,7 @@ releases:
     link: https://www.ibm.com/docs/i/7.6.0
 
   - releaseCycle: "7.5"
+    staleReleaseThresholdDays: 1500 # see https://www.ibm.com/support/pages/release-life-cycle
     releaseDate: 2022-05-10
     eol: false
     latest: "7.5.0"
@@ -48,7 +48,7 @@ releases:
 
   - releaseCycle: "7.4"
     releaseDate: 2019-06-21
-    eol: false
+    eol: 2026-09-30
     latest: "7.4.0"
     latestReleaseDate: 2019-06-21
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-74
@@ -218,4 +218,4 @@ coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 For 6.1, it includes both Machine Code Level V6R1M0 and V6R1M1.
 
 Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
-on [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support) page.
+on the [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support) page.
