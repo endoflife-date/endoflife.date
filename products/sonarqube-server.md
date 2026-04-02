@@ -21,9 +21,26 @@ auto:
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
 # For LTA releases:
-# - eoas(x) = releaseDate(x+1)
-# - eol(x) = releaseDate(LTA+1)
+# - eoas(x) = releaseDate(x) + 1y
+# - eol(x) = releaseDate(x) + 18m
 releases:
+  - releaseCycle: "2026.2"
+    releaseDate: 2026-03-24 #https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
+    eoas: 2026-05-18
+    eol: 2026-05-18
+    latest: "2026.2.1"
+    latestReleaseDate: 2026-03-26
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
+
+  - releaseCycle: "2026.1"
+    lts: true
+    releaseDate: 2026-01-30 # https://community.sonarsource.com/t/sonarqube-server-2026-release-1-lta/177042
+    eoas: 2027-01-30
+    eol: 2027-08-02
+    latest: "2026.1.2"
+    latestReleaseDate: 2026-03-26
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-2/180529
+
   - releaseCycle: "2025.6"
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
     eoas: false
@@ -43,11 +60,11 @@ releases:
   - releaseCycle: "2025.4"
     lts: true
     releaseDate: 2025-07-30 # https://community.sonarsource.com/t/sonarqube-server-2025-4-error/145463
-    eoas: 2025-09-26
-    eol: false # releaseDate(2026.4) + 6 months
-    latest: "2025.4.5"
-    latestReleaseDate: 2026-03-24
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-3/149159
+    eoas: 2026-07-30
+    eol: 2027-01-30
+    latest: "2025.4.6"
+    latestReleaseDate: 2026-03-26
+    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-6-lta/180554
 
   - releaseCycle: "2025.3"
     releaseDate: 2025-05-30 # https://community.sonarsource.com/t/sonarqube-server-2025-release-3/142053
@@ -68,11 +85,11 @@ releases:
   - releaseCycle: "2025.1"
     lts: true
     releaseDate: 2025-01-23 # https://community.sonarsource.com/t/sonarqube-server-2025-release-1-lta-released/133961
-    eoas: 2025-03-26
-    eol: 2026-01-30
-    latest: "2025.1.6"
-    latestReleaseDate: 2026-03-09
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-4-lta/149156
+    eoas: 2026-01-23
+    eol: 2026-07-01
+    latest: "2025.1.7"
+    latestReleaseDate: 2026-03-26
+    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-7-lta/180553
 
   - releaseCycle: "10"
     releaseDate: 2023-03-30
