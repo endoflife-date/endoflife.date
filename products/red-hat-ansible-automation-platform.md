@@ -54,8 +54,8 @@ releases:
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/release_notes/patch_releases
 
   - releaseCycle: "2.5"
-    releaseDate: 2025-09-30
-    eoas: 2026-10-02
+    releaseDate: 2024-09-30
+    eoas: 2025-10-02
     eol: 2026-10-02
     eoes: 2027-10-02
     ansibleCoreVersion: "2.16"
