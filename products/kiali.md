@@ -2,10 +2,9 @@
 title: Kiali
 addedAt: 2025-10-07
 category: server-app
-iconSlug: kiali
 permalink: /kiali
 versionCommand: kiali version
-releasePolicyLink: https://kiali.io/docs/
+releasePolicyLink: https://kiali.io
 changelogTemplate: https://github.com/kiali/kiali/releases/tag/__LATEST__
 
 identifiers:
@@ -17,9 +16,6 @@ auto:
   methods:
     - github_releases: kiali/kiali
 
-# Kiali releases approximately every 3 weeks for the v2.x series based on recent release history.
-# The project maintains two active release lines: v2.x (current development) and v1.73.x (LTS).
-# No explicit end-of-life policy has been documented.
 releases:
   - releaseCycle: "2.16"
     releaseDate: 2025-09-22
