@@ -8,7 +8,6 @@ permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 eoasColumn: true
-staleReleaseThresholdYears: 3
 
 auto:
   methods:
@@ -25,14 +24,15 @@ identifiers:
   - purl: pkg:rpm/redhat/phpmyadmin
   - purl: pkg:rpm/centos/phpmyadmin
   - purl: pkg:docker/library/phpmyadmin
+  - cpe: cpe:2.3:a:phpmyadmin:phpmyadmin
 
 releases:
   - releaseCycle: "5.2"
     releaseDate: 2022-05-11
     eoas: false
     eol: false
-    latest: "5.2.2"
-    latestReleaseDate: 2025-01-20
+    latest: "5.2.3"
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "5.1"
     releaseDate: 2021-02-24
@@ -49,6 +49,7 @@ releases:
     latestReleaseDate: 2020-10-15
 
   - releaseCycle: "4.9"
+    staleReleaseThresholdDays: 1200 # https://www.phpmyadmin.net/downloads/#support
     lts: true
     releaseDate: 2019-06-04
     eoas: 2019-12-31
@@ -125,6 +126,7 @@ releases:
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.0.10.20"
     latestReleaseDate: 2017-03-28
+
 ---
 
 > [PHPMyAdmin](https://www.phpmyadmin.net/) is a free software tool written in PHP, intended to

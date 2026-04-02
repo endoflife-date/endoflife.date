@@ -19,12 +19,13 @@ auto:
 
 releases:
   - releaseCycle: "1.14"
+    staleReleaseThresholdDays: 730 # see https://github.com/jquery/jquery-ui?tab=security-ov-file#supported-versions
     releaseDate: 2024-08-05
     eol: false
-    latest: "1.14.1"
-    link: https://blog.jqueryui.com/2024/08/jquery-ui-1-14-0-released/
+    latest: "1.14.2"
+    link: https://blog.jqueryui.com/2024/10/jquery-ui-1-14-1-released/
 
-    latestReleaseDate: 2024-10-30
+    latestReleaseDate: 2026-01-29
   - releaseCycle: "1.13"
     releaseDate: 2021-10-07
     eol: 2024-08-05
@@ -73,6 +74,7 @@ releases:
     latest: "1.7.3"
     latestReleaseDate: 2010-05-04
     link: https://blog.jqueryui.com/2010/05/jquery-ui-173/
+
 ---
 
 > [jQuery UI](https://jqueryui.com/) is a collection of GUI widgets, animated

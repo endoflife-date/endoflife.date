@@ -24,6 +24,7 @@ identifiers:
   - purl: pkg:rpm/redhat/mongodb-enterprise-server
   - purl: pkg:rpm/centos/mongodb-enterprise-server
   - repology: mongodb
+  - cpe: cpe:2.3:a:mongodb:mongodb
 
 auto:
   methods:
@@ -44,9 +45,10 @@ releases:
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
     releaseDate: 2025-09-17
-    eol: 2026-03-30
-    latest: "8.2.1"
-    latestReleaseDate: 2025-09-30
+    eol: 2026-07-31
+    latest: "8.2.6"
+    latestReleaseDate: 2026-03-18
+    link: https://www.mongodb.com/docs/manual/release-notes/8.2/ # todo: check if this can be removed after 8.3 release
 
   - releaseCycle: "8.1"
     releaseLabel: "8.1 (Rapid Release)"
@@ -54,12 +56,13 @@ releases:
     eol: 2025-09-30
     latest: "8.1.3"
     latestReleaseDate: 2025-08-08
+    link: null
 
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.14"
-    latestReleaseDate: 2025-09-15
+    latest: "8.0.20"
+    latestReleaseDate: 2026-03-17
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
@@ -85,8 +88,8 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.24"
-    latestReleaseDate: 2025-09-04
+    latest: "7.0.31"
+    latestReleaseDate: 2026-03-17
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -94,6 +97,7 @@ releases:
     eol: 2023-08-31
     latest: "6.3.2"
     latestReleaseDate: 2023-06-28
+    link: https://web.archive.org/web/20240117080159/http://www.mongodb.com/docs/manual/release-notes/6.3/
 
   - releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
@@ -101,6 +105,7 @@ releases:
     eol: 2023-04-24
     latest: "6.2.1"
     latestReleaseDate: 2023-02-28
+    link: https://web.archive.org/web/20231205173501/http://www.mongodb.com/docs/manual/release-notes/6.2/
 
   - releaseCycle: "6.1"
     releaseLabel: "6.1 (Rapid Release)"
@@ -108,12 +113,13 @@ releases:
     eol: 2023-02-09
     latest: "6.1.1"
     latestReleaseDate: 2023-01-03
+    link: https://web.archive.org/web/20240119192418/http://www.mongodb.com/docs/manual/release-notes/6.1/
 
   - releaseCycle: "6.0"
     releaseDate: 2022-07-31
-    eol: 2025-07-01
-    latest: "6.0.26"
-    latestReleaseDate: 2025-08-14
+    eol: 2025-07-31
+    latest: "6.0.27"
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -121,6 +127,7 @@ releases:
     eol: 2022-07-31
     latest: "5.3.2"
     latestReleaseDate: 2022-06-15
+    link: https://web.archive.org/web/20240117081126/http://www.mongodb.com/docs/manual/release-notes/5.3/
 
   - releaseCycle: "5.2"
     releaseLabel: "5.2 (Rapid Release)"
@@ -128,6 +135,7 @@ releases:
     eol: 2022-03-23
     latest: "5.2.1"
     latestReleaseDate: 2022-02-17
+    link: https://web.archive.org/web/20240119192416/http://www.mongodb.com/docs/manual/release-notes/5.2/
 
   - releaseCycle: "5.1"
     releaseLabel: "5.1 (Rapid Release)"
@@ -135,18 +143,19 @@ releases:
     eol: 2022-01-18
     latest: "5.1.1"
     latestReleaseDate: 2021-12-01
+    link: https://web.archive.org/web/20240222034545/http://www.mongodb.com/docs/manual/release-notes/5.1/
 
   - releaseCycle: "5.0"
     releaseDate: 2021-07-31
-    eol: 2024-10-01
-    latest: "5.0.31"
-    latestReleaseDate: 2025-01-22
+    eol: 2024-10-31
+    latest: "5.0.32"
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "4.4"
     releaseDate: 2020-07-31
-    eol: 2024-02-01
-    latest: "4.4.29"
-    latestReleaseDate: 2024-02-21
+    eol: 2024-02-29
+    latest: "4.4.30"
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "4.2"
     releaseDate: 2019-08-31
@@ -157,14 +166,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2018-06-30
-    eol: 2022-04-01
+    eol: 2022-04-30
     latest: "4.0.28"
     latestReleaseDate: 2022-01-24
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/4.0/
 
   - releaseCycle: "3.6"
     releaseDate: 2017-11-30
-    eol: 2021-04-01
+    eol: 2021-04-30
     latest: "3.6.23"
     latestReleaseDate: 2021-03-16
     link: https://web.archive.org/web/20220625104036/https://www.mongodb.com/docs/v4.0/release-notes/3.6/
@@ -270,3 +279,10 @@ Release Date of that version of the Stable API. Lifecycle Schedule is documented
 
 Extended support by MongoDB for up to 2 years is available through the commercial
 [MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/services/support/enterprise-advanced-support-plans).
+
+
+{: .note }
+> [MongoBleed](https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025) (CVE-2025-14847)
+> is an unauthenticated out-of-bounds read vulnerability in MongoDB that was disclosed in December 2025.
+> MongoDB has published the following releases with a fix:
+> 8.2.3, 8.0.17, 7.0.28, 6.0.27, 5.0.32, 4.4.30.

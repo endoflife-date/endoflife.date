@@ -51,8 +51,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.1.1"
-    latestReleaseDate: 2025-09-08
+    latest: "12.1.7"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "12.0"
     releaseDate: 2023-08-07
@@ -62,8 +62,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.27"
-    latestReleaseDate: 2025-09-11
+    latest: "12.0.33"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "11"
     minJvmVersion: "11"
@@ -93,10 +93,10 @@ releases:
     jspVersion: "2.3"
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
-    eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
+    eol: 2025-08-14 # https://github.com/jetty/jetty.project/releases/tag/jetty-9.4.58.v20250814
     eoes: false
-    latest: "9.4.57.v20241219"
-    latestReleaseDate: 2024-12-19
+    latest: "9.4.58.v20250814"
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "9.3"
     minJvmVersion: "1.8"

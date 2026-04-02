@@ -34,8 +34,8 @@ releases:
   - releaseCycle: "2.10"
     releaseDate: 2023-12-05
     eol: 2024-08-23
-    latest: "2.10.2"
-    latestReleaseDate: 2024-05-02
+    latest: "2.10.3"
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "2.8"
     releaseDate: 2022-12-05
@@ -66,6 +66,7 @@ releases:
     eol: 2019-11-25
     latest: "2.0.1"
     latestReleaseDate: 2019-04-16
+
 ---
 
 > [Weakforced](https://powerdns.github.io/weakforced/) is an open-source anti-abuse engine for

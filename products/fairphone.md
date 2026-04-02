@@ -22,26 +22,27 @@ customFields:
 releases:
   - releaseCycle: "6"
     releaseLabel: "Fairphone 6"
-    supportedAndroidVersions: "15" # https://support.fairphone.com/hc/en-us/articles/24463713641234-The-Fairphone-Gen-6-Release-Notes
+    supportedAndroidVersions: "15 - 16" # https://support.fairphone.com/hc/en-us/articles/24463713641234-The-Fairphone-Gen-6-Release-Notes
     releaseDate: 2025-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
     discontinued: false
     eoas: false
     eol: 2033-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
     link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    
   - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
-    supportedAndroidVersions: "13 - 14" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
+    supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
     releaseDate: 2023-09-14
-    discontinued: false
+    discontinued: 2026-01-12
     eoas: false
     eol: 2031-09-14 # according to https://www.gsmarena.com/fairphone_5_goes_official_with_5_years_warranty_up_to_10_years_of_software_support-news-59724.php
     link: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
 
   - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
-    supportedAndroidVersions: 11 - 13
+    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/en-us/articles/4405858220945-Fairphone-4-Release-Notes
     releaseDate: 2021-09-30
-    discontinued: false
+    discontinued: true
     eoas: true
     eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/4405858220945

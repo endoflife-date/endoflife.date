@@ -32,10 +32,17 @@ auto:
         eol: "End of Bug Fixes"
 
 releases:
+  - releaseCycle: "10.8"
+    releaseLabel: "10.8"
+    releaseDate: 2025-10-28
+    eoas: false # Next GA date
+    eol: 2026-10-28
+    link: "https://help.zerto.com/bundle/RN.HTML.10.8/page/release_notes_for_zerto_10_8.html"
+
   - releaseCycle: "10.0_u7"
     releaseLabel: "10.0 Update 7"
     releaseDate: 2025-05-06
-    eoas: false # Next GA date
+    eoas: 2025-08-28
     eol: 2026-05-06
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U7/page/release_notes_for_zerto_10_0_update_7.html"
 
@@ -148,6 +155,7 @@ releases:
     releaseDate: 2016-11-08
     eoas: 2018-08-31
     eol: 2018-08-31
+
 ---
 
 > [HPE Zerto](https://www.hpe.com/us/en/zerto-software.html) is a commercial product that provides
@@ -160,4 +168,4 @@ releases:
 
 There are two phases of support: a _General Support_ phase, with bug and security fixes, and a
 _Critical Support_ phase, with only critical bug and security fixes. Once the _Critical Support_
-phase ends, the release each its _End of Support Life_ (EOSL) and is no longer supported.
+phase ends, the release reaches its _End of Support Life_ (EOSL) and is no longer supported.

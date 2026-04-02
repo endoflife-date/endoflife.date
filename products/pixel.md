@@ -24,6 +24,15 @@ customFields:
 # Discontinued dates come from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
+  - releaseCycle: "10a"
+    releaseLabel: "Pixel 10a"
+    releaseDate: 2026-03-05
+    eoas: 2033-03-01
+    eol: 2033-03-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_10a
+    supportedAndroidVersions: "16" # https://www.gsmarena.com/google_pixel_10a_5g-14474.php
+
   - releaseCycle: "10pro"
     releaseLabel: "Pixel 10 Pro"
     releaseDate: 2025-08-28
@@ -110,7 +119,7 @@ releases:
     releaseDate: 2023-10-04
     eoas: 2030-10-01
     eol: 2030-10-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_8_Pro
     supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8-12546.php
 
@@ -135,7 +144,7 @@ releases:
   - releaseCycle: "tablet"
     releaseLabel: "Pixel Tablet"
     releaseDate: 2023-06-20
-    eoas: 2026-06-01
+    eoas: 2028-06-01
     eol: 2028-06-01
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet

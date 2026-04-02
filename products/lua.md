@@ -5,7 +5,6 @@ category: lang
 iconSlug: lua
 permalink: /lua
 versionCommand: lua -v
-releaseImage: https://www.lua.org/images/timeline.png
 releasePolicyLink: https://www.lua.org/versions.html
 changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
 eolColumn: Support
@@ -24,6 +23,12 @@ auto:
 # The last releases are documented on https://www.lua.org/versions.html with a sentence similar to
 # "There will be no further releases of Lua x.y".
 releases:
+  - releaseCycle: "5.5"
+    releaseDate: 2025-12-22
+    eol: false
+    latest: "5.5.0"
+    latestReleaseDate: 2025-12-22
+
   - releaseCycle: "5.4"
     releaseDate: 2020-06-29
     eol: false

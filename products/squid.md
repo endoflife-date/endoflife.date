@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:rpm/redhat/squid
   - purl: pkg:rpm/centos/squid
   - purl: pkg:apk/alpine/squid
+  - cpe: cpe:2.3:a:squid-cache:squid
 
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
@@ -31,10 +32,17 @@ auto:
         - ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
         - ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
 
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2025-07-10
+    eol: false
+    latest: "7.5"
+    latestReleaseDate: 2026-03-13
+
   - releaseCycle: "6"
     releaseDate: 2023-07-06
-    eol: false
+    eol: 2025-07-10
     latest: "6.14"
     latestReleaseDate: 2025-06-24
 
@@ -113,6 +121,7 @@ releases:
     latest: "2.4.7"
     latestReleaseDate: 2002-07-02
     link: http://www.squid-cache.org/Versions/v2/2.4/
+
 ---
 
 > [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP,

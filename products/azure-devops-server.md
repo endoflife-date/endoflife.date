@@ -16,14 +16,23 @@ identifiers:
   - cpe: cpe:2.3:o:microsoft:azure_devops_server
 
 releases:
+  - releaseCycle: "continuous"
+    releaseLabel: "Azure DevOps Server"
+    releaseDate: 2025-12-09
+    eoas: false
+    eol: false
+    latest: "Patch 1"
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-1-release-date-february-10-2026
+
   - releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.2patch6"
-    latestReleaseDate: 2025-06-10
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-6-release-date-june-10-2025
+    latest: "2022.2patch8"
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-8-release-date-february-10-2026
 
   - releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
@@ -48,9 +57,9 @@ releases:
     releaseDate: 2021-05-25
     eoas: 2025-10-14
     eol: 2030-10-08
-    latest: "2020.1.2patch17"
-    latestReleaseDate: 2025-07-09
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-17-release-date-july-9-2025
+    latest: "2020.1.2patch18"
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-18-release-date-february-10-2026
 
   - releaseCycle: "2020.0"
     releaseLabel: "2020"
@@ -66,9 +75,9 @@ releases:
     releaseDate: 2019-08-20
     eoas: 2024-04-09
     eol: 2029-04-10
-    latest: "2019.1.2patch11"
-    latestReleaseDate: 2025-04-08
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-11-release-date-april-8-2025
+    latest: "2019.1.2patch12"
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
 
   - releaseCycle: "2019.0"
     releaseLabel: "2019"
@@ -145,5 +154,7 @@ releases:
 
 > [Azure DevOps Server](https://azure.microsoft.com/products/devops/server/), is a set of
 > collaborative software development tools, hosted on-premises.
+
+[In 2025 Microsoft](https://www.powercommunity.com/announcing-the-new-azure-devops-server-rc-release/) switched to Modern Lifecycle Policy with continuous support and removed the year in the name.
 
 Prior to 2019, Azure DevOps was known as [Team Foundation Server (TFS)](https://learn.microsoft.com/lifecycle/products/?terms=Team%20Foundation%20Server).

@@ -7,7 +7,7 @@ iconSlug: steam
 permalink: /steamos
 eolColumn: Support
 latestColumn: false
-staleReleaseThresholdYears: 4
+staleReleaseThresholdDays: 1825 # devices have longer support periods
 
 identifiers:
   - cpe: cpe:/o:valvesoftware:steamos

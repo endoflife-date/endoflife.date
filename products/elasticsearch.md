@@ -30,22 +30,36 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-02-03
+    eol: false
+    latest: "9.3.2"
+    latestReleaseDate: 2026-03-16
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
+
+  - releaseCycle: "9.2"
+    releaseDate: 2025-10-21
+    eol: false
+    latest: "9.2.7"
+    latestReleaseDate: 2026-03-16
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
+
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false
-    latest: "9.1.5"
-    latestReleaseDate: 2025-10-02
-    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.1.2-release-notes
+    latest: "9.1.10"
+    latestReleaseDate: 2026-01-08
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.5"
-    latestReleaseDate: 2025-10-03
+    latest: "8.19.13"
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
-    eol: false  # Until 9.2 is released
+    eol: 2025-10-21
     latest: "8.18.8"
     latestReleaseDate: 2025-10-02
 
@@ -54,11 +68,11 @@ releases:
     eol: false
     latest: "9.0.8"
     latestReleaseDate: 2025-10-02
-    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.0.5-release-notes
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-11
-    eol: false  # Supposedly until 8.19 released, but they've released twice since
+    eol: false # Supposedly until 8.19 released, but they've released twice since
     latest: "8.17.10"
     latestReleaseDate: 2025-08-05
 

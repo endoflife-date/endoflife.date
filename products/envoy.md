@@ -30,8 +30,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/envoyproxy/envoy.git
-    - release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
-      render_javascript: true
+    - release_table: https://collected.press/github/envoyproxy/envoy/RELEASES.md
       fields:
         releaseCycle:
           column: "Version"
@@ -42,29 +41,41 @@ auto:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+  - releaseCycle: "1.37"
+    releaseDate: 2026-01-13
+    eol: 2027-01-13
+    latest: "1.37.1"
+    latestReleaseDate: 2026-03-11
+
+  - releaseCycle: "1.36"
+    releaseDate: 2025-10-14
+    eol: 2026-10-14
+    latest: "1.36.5"
+    latestReleaseDate: 2026-03-11
+
   - releaseCycle: "1.35"
     releaseDate: 2025-07-23
     eol: 2026-07-23
-    latest: "1.35.3"
-    latestReleaseDate: 2025-09-08
+    latest: "1.35.9"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "1.34"
     releaseDate: 2025-04-15
     eol: 2026-04-15
-    latest: "1.34.7"
-    latestReleaseDate: 2025-09-08
+    latest: "1.34.13"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "1.33"
     releaseDate: 2025-01-14
     eol: 2026-01-14
-    latest: "1.33.9"
-    latestReleaseDate: 2025-09-05
+    latest: "1.33.14"
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "1.32"
     releaseDate: 2024-10-15
     eol: 2025-10-15
-    latest: "1.32.12"
-    latestReleaseDate: 2025-09-04
+    latest: "1.32.13"
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "1.31"
     releaseDate: 2024-07-19

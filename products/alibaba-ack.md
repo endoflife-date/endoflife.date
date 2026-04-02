@@ -13,14 +13,15 @@ latestColumn: false
 eolColumn: End of Support
 
 auto:
+  disabled: true # https://www.alibabacloud.com is protected by anti-bot measures
   methods:
     - release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "Version"
-        releaseDate: "Release date"
+        releaseDate: "ACK Release date"
         eol:
-          column: "Discontinue date"
+          column: "ACK end of life date"
           regex: '^(?P<value>.+\s+\d+).*$'
 
 releases:

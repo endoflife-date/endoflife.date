@@ -5,7 +5,6 @@ category: server-app
 tags: python-runtime
 permalink: /plone
 releasePolicyLink: https://plone.org/download/release-schedule
-releaseImage: https://plone.org/download/release-schedule/plone-release-schedule-2025-01-23.png/@@images/image
 changelogTemplate: "https://plone.org/download/releases/__LATEST__"
 eoasColumn: Maintenance Support
 eolColumn: Security Support
@@ -18,6 +17,7 @@ customFields:
 
 identifiers:
   - repology: plone
+  - cpe: cpe:2.3:a:plone:plone
 
 auto:
   methods:
@@ -37,8 +37,8 @@ releases:
     releaseDate: 2025-02-07
     eoas: false
     eol: 2027-12-31
-    latest: "6.1.3"
-    latestReleaseDate: 2025-10-02
+    latest: "6.1.4"
+    latestReleaseDate: 2026-01-15
 
   - releaseCycle: "6.0"
     pythonVersions: "3.9-3.13"

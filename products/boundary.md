@@ -11,6 +11,7 @@ changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_
 
 identifiers:
   - repology: boundary
+  - cpe: cpe:2.3:a:hashicorp:boundary
 
 auto:
   methods:
@@ -19,11 +20,17 @@ auto:
 
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "0.21"
+    releaseDate: 2025-12-11
+    eol: false
+    latest: "0.21.1"
+    latestReleaseDate: 2026-02-13
+
   - releaseCycle: "0.20"
     releaseDate: 2025-09-25
     eol: false
-    latest: "0.20.0"
-    latestReleaseDate: 2025-09-25
+    latest: "0.20.1"
+    latestReleaseDate: 2025-11-03
 
   - releaseCycle: "0.19"
     releaseDate: 2025-02-10
@@ -33,7 +40,7 @@ releases:
 
   - releaseCycle: "0.18"
     releaseDate: 2024-10-14
-    eol: false
+    eol: 2025-12-11
     latest: "0.18.2"
     latestReleaseDate: 2024-12-12
 
@@ -48,6 +55,7 @@ releases:
     eol: 2025-02-10
     latest: "0.16.3"
     latestReleaseDate: 2024-08-22
+
 ---
 
 > [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy

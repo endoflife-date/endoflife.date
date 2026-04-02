@@ -12,6 +12,7 @@ eolColumn: "Support"
 identifiers:
   - purl: pkg:docker/gerritcodereview/gerrit
   - repology: gerrit
+  - cpe: cpe:2.3:a:google:gerrit
 
 auto:
   methods:
@@ -19,23 +20,29 @@ auto:
 
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "3.13"
+    releaseDate: 2025-11-10
+    eol: false
+    latest: "3.13.5"
+    latestReleaseDate: 2026-03-23
+
   - releaseCycle: "3.12"
     releaseDate: 2025-05-19
     eol: false
-    latest: "3.12.2"
-    latestReleaseDate: 2025-08-14
+    latest: "3.12.6"
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "3.11"
     releaseDate: 2024-12-02
     eol: false
-    latest: "3.11.5"
-    latestReleaseDate: 2025-08-14
+    latest: "3.11.10"
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "3.10"
     releaseDate: 2024-05-17
-    eol: false
-    latest: "3.10.8"
-    latestReleaseDate: 2025-08-14
+    eol: 2025-11-10
+    latest: "3.10.9"
+    latestReleaseDate: 2025-11-03
 
   - releaseCycle: "3.9"
     releaseDate: 2023-11-25

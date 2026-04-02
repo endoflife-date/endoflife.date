@@ -9,6 +9,9 @@ versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
+identifiers:
+  - cpe: cpe:2.3:a:nextcloud:nextcloud_server
+
 auto:
   methods:
     - git: https://github.com/nextcloud/server.git
@@ -20,23 +23,29 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "33"
+    releaseDate: 2026-02-18
+    eol: 2027-02-28
+    latest: "33.0.1"
+    latestReleaseDate: 2026-03-26
+
   - releaseCycle: "32"
     releaseDate: 2025-09-27
     eol: 2026-09-30
-    latest: "32.0.0"
-    latestReleaseDate: 2025-09-27
+    latest: "32.0.7"
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "31"
     releaseDate: 2025-02-25
     eol: 2026-02-28
-    latest: "31.0.9"
-    latestReleaseDate: 2025-09-11
+    latest: "31.0.14"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "30"
     releaseDate: 2024-09-11
-    eol: 2025-09-30
-    latest: "30.0.16"
-    latestReleaseDate: 2025-09-25
+    eol: 2025-10-31
+    latest: "30.0.17"
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "29"
     releaseDate: 2024-04-24

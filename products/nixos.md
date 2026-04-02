@@ -18,6 +18,11 @@ identifiers:
   - cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+  - releaseCycle: "25.11"
+    codename: "Xantusia"
+    releaseDate: 2025-11-30
+    eol: 2026-06-30
+    
   - releaseCycle: "25.05"
     codename: "Warbler"
     releaseDate: 2025-05-23
@@ -139,4 +144,4 @@ releases:
 
 There is also the Unstable release that is always supported and receives updates most frequently.
 
-**If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**.
+**If you're looking for nix, the package manager NixOS is based on, [click here](/nix)**.

@@ -30,20 +30,28 @@ auto:
         - "^.+Premium Edition.+$"
       template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
 
-# For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html.
+# For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html
 # For non-LTS:
 # eoas(x) = releaseDate(x) + 6 months
 # eol(x) = releaseDate(x) + 18 months
 releases:
+  - releaseCycle: "2511"
+    releaseDate: 2025-12-29
+    eoas: 2026-06-29
+    eol: 2027-06-29
+    latest: "2511"
+    latestReleaseDate: 2025-12-29
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+
   - releaseCycle: "2507"
     releaseDate: 2025-08-19
     lts: true
     eoas: 2028-08-18
     eol: 2028-08-18
     eoes: 2033-08-18
-    latest: "2507"
-    latestReleaseDate: 2025-08-19
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new
+    latest: "2507 CU1"
+    latestReleaseDate: 2026-02-02
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new/cumulative-update-1
 
   - releaseCycle: "2503"
     releaseDate: 2025-04-29
@@ -51,8 +59,6 @@ releases:
     eol: 2026-10-29
     latest: "2503"
     latestReleaseDate: 2025-04-29
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
-    # 404 with link using template: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2503/whats-new
 
   - releaseCycle: "2411"
     releaseDate: 2024-12-03
@@ -91,6 +97,7 @@ releases:
     eol: 2025-03-14
     latest: "2308"
     latestReleaseDate: 2023-09-14
+    link: http://web.archive.org/web/20251002064202/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2308/whats-new
 
   - releaseCycle: "2305"
     releaseDate: 2023-05-31
@@ -98,6 +105,7 @@ releases:
     eol: 2024-11-30
     latest: "2305"
     latestReleaseDate: 2023-05-31
+    link: http://web.archive.org/web/20250719020802/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2305/whats-new
 
   - releaseCycle: "2303"
     releaseDate: 2023-03-20
@@ -105,6 +113,7 @@ releases:
     eol: 2024-09-20
     latest: "2303"
     latestReleaseDate: 2023-03-20
+    link: http://web.archive.org/web/20240415050756/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2303/whats-new.html
 
   - releaseCycle: "2212"
     releaseDate: 2022-12-19
@@ -112,6 +121,7 @@ releases:
     eol: 2024-06-19
     latest: "2212"
     latestReleaseDate: 2022-12-19
+    link: http://web.archive.org/web/20250325060541/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2212/whats-new
 
   - releaseCycle: "2209"
     releaseDate: 2022-09-29
@@ -119,6 +129,7 @@ releases:
     eol: 2024-03-29
     latest: "2209"
     latestReleaseDate: 2022-09-29
+    link: http://web.archive.org/web/20240105021050/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2209/whats-new.html
 
   - releaseCycle: "2206"
     releaseDate: 2022-06-28
@@ -126,6 +137,7 @@ releases:
     eol: 2023-12-28
     latest: "2206"
     latestReleaseDate: 2022-06-28
+    link: http://web.archive.org/web/20250521145252/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2206/whats-new
 
   - releaseCycle: "2203"
     releaseDate: 2022-03-23
@@ -133,9 +145,9 @@ releases:
     eoas: 2027-03-23
     eol: 2027-03-23
     eoes: 2032-03-23
-    latest: "2203 CU6"
-    latestReleaseDate: 2025-01-08
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-6.html
+    latest: "2203 CU7"
+    latestReleaseDate: 2025-08-25
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-7
 
   - releaseCycle: "2112"
     releaseDate: 2021-12-13
@@ -143,6 +155,7 @@ releases:
     eol: 2023-06-14
     latest: "2112"
     latestReleaseDate: 2021-12-13
+    link: http://web.archive.org/web/20240805182525/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2112/whats-new.html
 
   - releaseCycle: "2109"
     releaseDate: 2021-09-27
@@ -150,6 +163,7 @@ releases:
     eol: 2023-03-27
     latest: "2109"
     latestReleaseDate: 2021-09-27
+    link: http://web.archive.org/web/20250804164352/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2109/whats-new
 
   - releaseCycle: "2106"
     releaseDate: 2021-06-16
@@ -157,6 +171,7 @@ releases:
     eol: 2022-12-16
     latest: "2106"
     latestReleaseDate: 2021-06-16
+    link: http://web.archive.org/web/20250418235814/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2106/whats-new
 
   - releaseCycle: "2103"
     releaseDate: 2021-03-17
@@ -164,6 +179,7 @@ releases:
     eol: 2022-09-17
     latest: "2103"
     latestReleaseDate: 2021-03-17
+    link: http://web.archive.org/web/20240105020947/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2103/whats-new.html
 
   - releaseCycle: "2012"
     releaseDate: 2020-12-14
@@ -217,6 +233,7 @@ releases:
     latest: "7.15 CU9"
     latestReleaseDate: 2022-07-08
     link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-9.html
+
 ---
 
 > [Citrix Virtual Apps and Desktops](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/)

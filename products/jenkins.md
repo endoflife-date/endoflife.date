@@ -34,13 +34,27 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.530"
-    latestReleaseDate: 2025-09-30
+    latest: "2.556"
+    latestReleaseDate: 2026-03-24
+
+  - releaseCycle: "2.541"
+    releaseDate: 2025-12-10
+    lts: 2026-01-21
+    eol: false
+    latest: "2.541.3"
+    latestReleaseDate: 2026-03-16
+
+  - releaseCycle: "2.528"
+    releaseDate: 2025-09-17
+    lts: 2025-10-15
+    eol: 2026-01-21
+    latest: "2.528.3"
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "2.516"
     releaseDate: 2025-06-24
     lts: 2025-07-23
-    eol: false
+    eol: 2025-10-15
     latest: "2.516.3"
     latestReleaseDate: 2025-09-15
 

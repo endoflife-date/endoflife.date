@@ -25,7 +25,6 @@ identifiers:
   - purl: pkg:docker/bitnami/harbor-jobservice
   - purl: pkg:docker/bitnami/harbor-portal
   - purl: pkg:docker/bitnami/harbor-registryctl
-  - purl: pkg:docker/bitnami/harbor-registry
   # Chainguard Images (Wolfi-based)
   - purl: pkg:oci/harbor-core?repository_url=cgr.dev/chainguard
   - purl: pkg:oci/harbor-jobservice?repository_url=cgr.dev/chainguard
@@ -42,6 +41,7 @@ identifiers:
   - purl: pkg:oci/harbor-core?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-portal?repository_url=quay.io/goharbor
   - purl: pkg:oci/harbor-jobservice?repository_url=quay.io/goharbor
+  - cpe: cpe:2.3:a:linuxfoundation:harbor
 
 auto:
   methods:
@@ -49,21 +49,27 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "2.15"
+    releaseDate: 2026-03-20
+    eol: false
+    latest: "2.15.0"
+    latestReleaseDate: 2026-03-20
+
   - releaseCycle: "2.14"
     releaseDate: 2025-09-17
     eol: false
-    latest: "2.14.0"
-    latestReleaseDate: 2025-09-17
+    latest: "2.14.3"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "2.13"
     releaseDate: 2025-04-09
     eol: false
-    latest: "2.13.2"
-    latestReleaseDate: 2025-07-31
+    latest: "2.13.5"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "2.12"
     releaseDate: 2024-11-05
-    eol: false
+    eol: 2026-03-20
     latest: "2.12.4"
     latestReleaseDate: 2025-05-23
 

@@ -20,6 +20,7 @@ identifiers:
   - repology: tomcat
   - purl: pkg:maven/org.apache.tomcat/tomcat
   - purl: pkg:github/apache/tomcat
+  - cpe: cpe:2.3:a:apache:tomcat
 
 auto:
   methods:
@@ -31,15 +32,15 @@ releases:
     releaseDate: 2024-10-03
     eol: false
     minJavaVersion: "17"
-    latest: "11.0.12"
-    latestReleaseDate: 2025-10-01
+    latest: "11.0.20"
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: "11"
-    latest: "10.1.47"
-    latestReleaseDate: 2025-10-02
+    latest: "10.1.53"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "10.0"
     releaseDate: 2020-12-03
@@ -48,12 +49,12 @@ releases:
     latest: "10.0.27"
     latestReleaseDate: 2022-10-03
 
-  - releaseCycle: "9"
+  - releaseCycle: "9.0"
     releaseDate: 2017-09-27
-    eol: false
+    eol: 2027-03-31 # https://tomcat.apache.org/tomcat-9.0.x-eos.html
     minJavaVersion: "8"
-    latest: "9.0.110"
-    latestReleaseDate: 2025-10-01
+    latest: "9.0.116"
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "8.5"
     releaseDate: 2016-03-17

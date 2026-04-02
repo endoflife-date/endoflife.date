@@ -27,16 +27,23 @@ auto:
       regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
       template: "{{version}}"
 
+# eol(x) = releaseDate(x+2) or announcement on https://solr.apache.org/news.html
 releases:
+  - releaseCycle: "10"
+    releaseDate: 2026-03-03
+    eol: false # releaseDate(12)
+    latest: "10.0.0"
+    latestReleaseDate: 2026-03-03
+
   - releaseCycle: "9"
     releaseDate: 2022-05-11
-    eol: false
-    latest: "9.9.0"
-    latestReleaseDate: 2025-07-24
+    eol: false # releaseDate(11)
+    latest: "9.10.1"
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13
-    eol: 2024-10-25
+    eol: 2024-10-25 # https://solr.apache.org/news.html#solr-8-reaches-end-of-life
     latest: "8.11.4"
     latestReleaseDate: 2024-09-24
 
@@ -77,6 +84,7 @@ releases:
     latest: "1.4.1"
     latestReleaseDate: 2010-06-25
     link: https://svn.apache.org/repos/asf/lucene/solr/tags/release-1.4.1/CHANGES.txt
+
 ---
 
 > [Apache Solr](https://solr.apache.org/) is an open-source search engine written in Java.

@@ -9,7 +9,6 @@ releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Active Maintenance
-staleReleaseThresholdYears: 2
 
 customFields:
   - name: minRubyVersion
@@ -29,6 +28,7 @@ auto:
 
 releases:
   - releaseCycle: "4"
+    staleReleaseThresholdDays: 730
     minRubyVersion: "2.5+" # https://jekyllrb.com/docs/
     releaseDate: 2019-08-20
     eoas: false
@@ -37,6 +37,7 @@ releases:
     latestReleaseDate: 2025-01-29
 
   - releaseCycle: "3"
+    staleReleaseThresholdDays: 730 # still used on GitHub pages
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2015-10-26
     eoas: true

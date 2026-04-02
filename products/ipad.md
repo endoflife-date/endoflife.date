@@ -5,11 +5,10 @@ category: device
 tags: apple tablet
 iconSlug: apple
 permalink: /ipad
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
 latestColumn: false
-staleReleaseThresholdYears: 8
+staleReleaseThresholdDays: 2920 # 8 years, ipad 6 is still supported with ipados 17, see https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 
 customFields:
   - name: supportedIpadOsVersions
@@ -22,6 +21,22 @@ customFields:
 # All links can be found on https://support.apple.com/HT201471.
 # All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
 releases:
+  - releaseCycle: "pro-8-11"
+    releaseLabel: "iPad Pro 11-inch (M5)"
+    releaseDate: 2025-10-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/125406
+    supportedIpadOsVersions: "26"
+
+  - releaseCycle: "pro-8-13"
+    releaseLabel: "iPad Pro 13-inch (M5)"
+    releaseDate: 2025-10-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/125407
+    supportedIpadOsVersions: "26"
+
   - releaseCycle: "11"
     releaseLabel: "iPad (A16)"
     releaseDate: 2025-03-12
@@ -30,13 +45,22 @@ releases:
     link: https://support.apple.com/122240
     supportedIpadOsVersions: "18 - 26"
 
-  - releaseCycle: "air-7"
-    releaseLabel: "iPad Air (M3)"
+  - releaseCycle: "air-7-11"
+    releaseLabel: "iPad Air 11-inch (M3)"
     releaseDate: 2025-03-12
     discontinued: false
     eol: false
     link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
+
+  - releaseCycle: "air-7-13"
+    releaseLabel: "iPad Air 13-inch (M3)"
+    releaseDate: 2025-03-12
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/122242
+    supportedIpadOsVersions: "18 - 26"
+
 
   - releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (A17 Pro)"
@@ -46,16 +70,32 @@ releases:
     link: https://support.apple.com/121456
     supportedIpadOsVersions: "18 - 26"
 
-  - releaseCycle: "pro-7"
-    releaseLabel: "iPad Pro (M4)"
+  - releaseCycle: "pro-7-11"
+    releaseLabel: "iPad Pro 11-inch (M4)"
+    releaseDate: 2024-05-15
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/119892
+    supportedIpadOsVersions: "17 - 26"
+
+  - releaseCycle: "pro-7-13"
+    releaseLabel: "iPad Pro 13-inch (M4)"
     releaseDate: 2024-05-15
     discontinued: false
     eol: false
     link: https://support.apple.com/119891
     supportedIpadOsVersions: "17 - 26"
 
-  - releaseCycle: "air-6"
-    releaseLabel: "iPad Air (M2)"
+  - releaseCycle: "air-6-11"
+    releaseLabel: "iPad Air 11-inch (M2)"
+    releaseDate: 2024-05-15
+    discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
+    eol: false
+    link: https://support.apple.com/119894
+    supportedIpadOsVersions: "17 - 26"
+
+  - releaseCycle: "air-6-13"
+    releaseLabel: "iPad Air 13-inch (M2)"
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
@@ -102,8 +142,8 @@ releases:
     link: https://support.apple.com/kb/SP850
     supportedIpadOsVersions: "15 - 26"
 
-  - releaseCycle: "pro-5"
-    releaseLabel: "iPad Pro (5th generation)"
+  - releaseCycle: "pro-5-12"
+    releaseLabel: "iPad Pro 12.9-inch (5th generation)"
     releaseDate: 2021-05-21
     discontinued: 2022-10-18
     eol: false
@@ -126,12 +166,20 @@ releases:
     link: https://support.apple.com/kb/SP822
     supportedIpadOsVersions: "14 - 26"
 
-  - releaseCycle: "pro-4"
-    releaseLabel: "iPad Pro (4th generation)"
+  - releaseCycle: "pro-4-12"
+    releaseLabel: "iPad Pro 12.9-inch (4th generation)"
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
     link: https://support.apple.com/kb/SP815
+    supportedIpadOsVersions: "13 - 26"
+
+  - releaseCycle: "pro-4-11"
+    releaseLabel: "iPad Pro 11-inch (4th generation)"
+    releaseDate: 2020-03-25
+    discontinued: 2021-04-20
+    eol: false
+    link: https://support.apple.com/111842
     supportedIpadOsVersions: "13 - 26"
 
   - releaseCycle: "pro-2-11"
@@ -166,8 +214,16 @@ releases:
     link: https://support.apple.com/kb/SP787
     supportedIpadOsVersions: "12 - 26"
 
-  - releaseCycle: "pro-3"
-    releaseLabel: "iPad Pro (3rd generation)"
+  - releaseCycle: "pro-3-11"
+    releaseLabel: "iPad Pro 11-inch (3rd generation)"
+    releaseDate: 2018-11-07
+    discontinued: 2020-03-18
+    eol: false
+    link: https://support.apple.com/111897
+    supportedIpadOsVersions: "12 - 26"
+
+  - releaseCycle: "pro-3-12"
+    releaseLabel: "iPad Pro 12.9-inch (3rd generation)"
     releaseDate: 2018-11-07
     discontinued: 2020-03-18
     eol: false
@@ -311,10 +367,11 @@ releases:
     supportedIpadOsVersions: "3 - 5"
 ---
 
-> The iPad is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
+> The [iPad](https://www.apple.com/ipad/)is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
 
-Apple maintains a list of Supported iPad models
-[on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
+Apple maintains a list of supported iPad models [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
-Support information for iPadOS versions is also available [on endoflife.date](/ipados).
+Support information for iPadOS versions is also available at [/ipados](/ipados).
+
+A detailed list of all iPad models can also be found on [Wikipedia](https://wikipedia.org/wiki/List_of_iPad_models#iPad).

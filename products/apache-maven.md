@@ -20,23 +20,29 @@ identifiers:
   - repology: maven-shared-utils
   - cpe: cpe:/a:apache:maven_shared_utils
   - cpe: cpe:2.3:a:apache:maven_shared_utils
+  - purl: pkg:deb/debian/maven
+  - purl: pkg:deb/ubuntu/maven
+  - purl: pkg:github/apache/maven
+  - purl: pkg:maven/org.apache.maven/maven
+  - purl: pkg:rpm/opensuse/maven
 
 auto:
   methods:
-    - maven: org.apache.maven/maven-core
+    - github_releases: apache/maven
+      regex: '^maven-(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
-# Before 3.8: eol(x) = releaseDate(x+1) (introduced in https://web.archive.org/web/20230615224740/https://maven.apache.org/docs/history.html)
-# Since 3.8: eol(x) = releaseDate(x+2)
+# See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
-    latest: "3.9.11"
-    latestReleaseDate: 2025-07-12
+    latest: "3.9.14"
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "3.8"
     releaseDate: 2021-03-30
-    eol: false
+    eol: 2025-06-14
     latest: "3.8.9"
     latestReleaseDate: 2025-06-14
 
@@ -88,12 +94,12 @@ releases:
     latest: "1.1"
     latestReleaseDate: 2007-06-25
     link: https://maven.apache.org/archives/maven-1.x/start/release-notes-LATEST.html
+
 ---
 
 > [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool.
 > Based on the concept of a project object model (POM), Maven can manage a project's build,
 > reporting and documentation from a central piece of information.
 
-Apache Maven follows [semantic versioning](https://semver.org).
-[Since mid-2023](https://web.archive.org/web/20230615224740/https://maven.apache.org/docs/history.html),
-the Apache Maven team maintains the two last minor versions.
+Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains 
+the [two last minor versions](https://maven.apache.org/docs/history.html).

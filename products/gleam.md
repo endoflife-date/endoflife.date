@@ -11,7 +11,7 @@ versionCommand: gleam --version
 identifiers:
   - repology: gleam
   - purl: pkg:github/gleam-lang/gleam
-  - purl: pkg:oci/gleam?repository_url=ghcr.io/gleam-lang/gleam
+  - purl: pkg:oci/gleam?repository_url=ghcr.io/gleam-lang
 
 auto:
   methods:
@@ -19,9 +19,27 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.15"
+    releaseDate: 2026-03-16
+    eol: false
+    latest: "1.15.2"
+    latestReleaseDate: 2026-03-19
+
+  - releaseCycle: "1.14"
+    releaseDate: 2025-12-25
+    eol: 2026-03-16
+    latest: "1.14.0"
+    latestReleaseDate: 2025-12-25
+
+  - releaseCycle: "1.13"
+    releaseDate: 2025-10-19
+    eol: 2025-12-25
+    latest: "1.13.0"
+    latestReleaseDate: 2025-10-19
+
   - releaseCycle: "1.12"
     releaseDate: 2025-08-05
-    eol: false
+    eol: 2025-10-19
     latest: "1.12.0"
     latestReleaseDate: 2025-08-05
 
@@ -88,8 +106,8 @@ releases:
   - releaseCycle: "1.1"
     releaseDate: 2024-04-16
     eol: 2024-05-27
-    latest: "1.1.0"
-    latestReleaseDate: 2024-04-16
+    latest: "1.1.1"
+    latestReleaseDate: 2020-07-20
 
   - releaseCycle: "1.0"
     releaseDate: 2024-03-04

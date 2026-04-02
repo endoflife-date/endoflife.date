@@ -9,7 +9,6 @@ alternate_urls:
   - /node
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/en/about/previous-releases
-releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 eoesColumn: "Commercial Support"
@@ -29,13 +28,20 @@ auto:
 
 # See https://github.com/nodejs/release#release-schedule.
 releases:
+  - releaseCycle: "25"
+    releaseDate: 2025-10-15
+    eoas: 2026-04-01
+    eol: 2026-06-01
+    latest: "25.8.2"
+    latestReleaseDate: 2026-03-24
+
   - releaseCycle: "24"
     releaseDate: 2025-05-06
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.9.0"
-    latestReleaseDate: 2025-09-25
+    latest: "24.14.1"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
@@ -49,8 +55,9 @@ releases:
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.20.0"
-    latestReleaseDate: 2025-09-24
+    eoes: false
+    latest: "22.22.2"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -64,8 +71,9 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.19.5"
-    latestReleaseDate: 2025-09-03
+    eoes: false
+    latest: "20.20.2"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "19"
     releaseDate: 2022-10-18

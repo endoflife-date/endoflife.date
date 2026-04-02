@@ -10,6 +10,7 @@ changelogTemplate: https://github.com/liquibase/liquibase/releases/tag/v__LATEST
 
 identifiers:
   - repology: liquibase
+  - cpe: cpe:2.3:a:liquibase:liquibase
 
 auto:
   methods:

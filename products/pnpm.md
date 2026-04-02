@@ -13,6 +13,7 @@ eolColumn: Support
 identifiers:
   - purl: pkg:npm/pnpm
   - repology: pnpm
+  - cpe: cpe:2.3:a:pnpm:pnpm
 
 auto:
   methods:
@@ -22,8 +23,8 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2025-01-07
     eol: false
-    latest: "10.18.1"
-    latestReleaseDate: 2025-10-06
+    latest: "10.33.0"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "9"
     releaseDate: 2024-04-16

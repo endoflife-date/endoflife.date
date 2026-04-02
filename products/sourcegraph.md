@@ -11,6 +11,7 @@ eolColumn: Support
 
 identifiers:
   - purl: pkg:docker/sourcegraph/sg
+  - cpe: cpe:2.3:a:sourcegraph:sourcegraph
 
 auto:
   methods:
@@ -20,11 +21,18 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2026-02-25
+    eol: false
+    latest: "7.0.2852"
+    latestReleaseDate: 2026-03-13
+    link: null
+
   - releaseCycle: "6"
     releaseDate: 2025-01-29
     eol: false
-    latest: "6.8.2313"
-    latestReleaseDate: 2025-10-01
+    latest: "6.12.5040"
+    latestReleaseDate: 2026-02-10
     link: null
 
   - releaseCycle: "5"

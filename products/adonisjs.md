@@ -8,24 +8,36 @@ permalink: /adonisjs
 alternate_urls:
   - /adonis
 versionCommand: npm list --depth=0  @adonisjs/core
+changelogTemplate: https://github.com/adonisjs/core/releases/tag/v__LATEST__
 
 auto:
   methods:
     - git: https://github.com/adonisjs/core.git
 
+identifiers:
+  - purl: pkg:github/adonisjs/core
+  - purl: pkg:npm/%40adonisjs/core
+
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "7"
+    releaseDate: 2026-02-25
+    eol: false
+    latest: "7.3.0"
+    latestReleaseDate: 2026-03-28
+
   - releaseCycle: "6"
     releaseDate: 2023-02-20
     eol: false
-    latest: "6.19.0"
-    latestReleaseDate: 2025-06-17
+    latest: "6.20.0"
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "5"
     releaseDate: 2020-10-11
     eol: 2023-02-20
     latest: "5.9.0"
     latestReleaseDate: 2022-11-22
+
 ---
 
 > [AdonisJS](https://adonisjs.com/) AdonisJS is a TypeScript-first web framework for building web apps and API servers.

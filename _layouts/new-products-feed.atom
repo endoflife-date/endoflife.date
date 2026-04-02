@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ site.url }}/new-products.atom</id>
+  <title>endoflife.date: new products</title>
+  <subtitle>Products recently added to endoflife.date</subtitle>
+  <link href="{{ '/new-products.atom' | absolute_url }}" rel="self" />
+  <link href="{{ site.url }}"/>
+  <updated>{{ page.products.first.added_at | date_to_xmlschema }}</updated>
+  <author><name>endoflife.date</name></author>
+{%- for product in page.products %}
+  <entry>
+    <id>{{ product.link }}</id>
+    <link href="{{ product.link }}"/>
+    <updated>{{ product.added_at | date_to_xmlschema }}</updated>
+    <title>{{ product.title | xml_escape }} added</title>
+    <summary>{{ product.title | xml_escape }} has been added to endoflife.date.</summary>
+  </entry>
+{% endfor -%}
+</feed>

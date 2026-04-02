@@ -26,7 +26,8 @@ auto:
         releaseCycle:
           column: "Version"
           # CE versions are ignored (not supported by release_table)
-          regex: '^(?P<value>\d+(\.\d+)*)( \(Cortex XDR agent\))?$'
+          regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.(?P<patch>\d+))?( \(Cortex XDR agent\))?$'
+          template: "{{major}}{% if minor %}.{{minor}}{% endif %}"
         releaseDate:
           column: "Release Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
@@ -39,9 +40,21 @@ auto:
 # EOL dates can be found on https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary#traps-esm-and-cortex
 # Latest can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2026-01-25
+    eol: 2026-11-22
+    latest: "9.1.0"
+    latestReleaseDate: 2026-01-25
+
+  - releaseCycle: "9.0"
+    releaseDate: 2025-11-09
+    eol: 2026-08-23
+    latest: "9.0.0"
+    latestReleaseDate: 2025-11-09
+
   - releaseCycle: "8.9"
     releaseDate: 2025-07-21
-    eol: 2026-04-21
+    eol: 2026-05-10
     latest: "8.9"
     latestReleaseDate: 2025-07-21
 

@@ -12,20 +12,21 @@ auto:
 
 identifiers:
   - repology: privatebin
+  - cpe: cpe:2.3:a:privatebin:privatebin
 
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2.0"
     releaseDate: 2025-07-28
     eol: false
-    latest: "2.0.0"
-    latestReleaseDate: 2025-07-28
+    latest: "2.0.3"
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "1.7"
     releaseDate: 2024-02-11
     eol: 2025-07-28
-    latest: "1.7.8"
-    latestReleaseDate: 2025-06-30
+    latest: "1.7.9"
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "1.6"
     releaseDate: 2023-09-11
@@ -68,6 +69,7 @@ releases:
     eol: 2016-12-26
     latest: "1.0"
     latestReleaseDate: 2016-08-25
+
 ---
 
 > [PrivateBin](https://privatebin.info/) is a minimalist, open source [Pastebin](https://pastebin.com/) where the server
