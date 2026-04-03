@@ -17,7 +17,7 @@ auto:
     - git: https://github.com/openwrt/openwrt.git
 
 identifiers:
-  - purl: pkg:github/openwrt/openwrt	
+  - purl: pkg:github/openwrt/openwrt
 
 # eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
 # eoas(x) = releaseDate(x+1)
