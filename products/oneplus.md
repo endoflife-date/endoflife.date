@@ -54,6 +54,7 @@ releases:
     eol: 2031-04-24 # approximation "6 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
+    link: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
 
   - releaseCycle: "13r"
     releaseLabel: "13R"
@@ -69,7 +70,6 @@ releases:
     eol: 2030-10-31 # 6 years of security updates
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
-    link: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
 
   - releaseCycle: "pad-2"
     releaseLabel: "Pad 2"
