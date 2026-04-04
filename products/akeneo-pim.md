@@ -21,8 +21,10 @@ auto:
       selector: "table:nth-of-type(1)"
       fields:
         releaseCycle:
+          # 2.1 to 2.3 only contained enterprise fixes or improvements.
+          # 1.0 release dates are incorrect in table
           column: "Version"
-          regex_exclude: "^2.[1-3]" # 2.1 to 2.3 only contained enterprise fixes or improvements.
+          regex_exclude: "^(1.0|2.[1-3])" 
         releaseDate: "Release date"
         eol: "End of support date"
 
@@ -158,7 +160,7 @@ releases:
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 
-Akeneo PIM does not follow a documented release policy. But looking at the latest releases, it seems
-that there is a new major release every year, with frequent patch versions containing bug fixes for
-supported releases in between. All active releases, along with their EOL dates, are documented
-[on their help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
+Akeneo is migrating to Calendar Versioning (vYYYY.Minor) in 2026. Breaking changes may be introduced in any release (e.g., from v2026.1 to v2026.2). It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
+
+All active releases, along with their EOL dates, are documented
+[on the help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
