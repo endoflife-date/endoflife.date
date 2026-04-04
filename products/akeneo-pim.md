@@ -141,14 +141,6 @@ releases:
     latest: "1.1.3"
     latestReleaseDate: 2014-07-22
 
-  - releaseCycle: "1.0"
-    codename: "Hare We Go"
-    releaseDate: 2014-03-06
-    eol: 2016-03-31
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
-    latest: "1.0.3"
-    latestReleaseDate: 2014-03-27
-
 ---
 
 > [Akeneo PIM](https://www.akeneo.com/akeneo-pim-community-edition/) is a Product Information
