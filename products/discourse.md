@@ -38,7 +38,7 @@ releases:
   - releaseCycle: "2026.1"
     lts: true
     releaseDate: 2026-01-28
-    eol: 2026-09-31 # planned on https://releases.discourse.org/, to be updated once known
+    eol: 2026-09-30 # planned on https://releases.discourse.org/, to be updated once known
     latest: "2026.1.3"
     latestReleaseDate: 2026-03-31
 
