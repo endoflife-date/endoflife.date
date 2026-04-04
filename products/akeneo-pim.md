@@ -23,6 +23,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex_exclude: "^2.[1-3]" # 2.1 to 2.3 only contained enterprise fixes or improvements.
+        releaseDate: "Release date"
         eol: "End of support date"
 
 releases:
