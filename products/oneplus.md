@@ -39,7 +39,7 @@ releases:
     discontinued: false
     supportedOxygenOSVersions: "16"
 
-  - releaseCycle: "pad3"
+  - releaseCycle: "pad-3"
     releaseLabel: "Pad 3"
     releaseDate: 2025-06-05
     eoas: 2029-06-05 # approximation "4 major Android updates"
@@ -54,6 +54,7 @@ releases:
     eol: 2031-04-24 # approximation "6 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
+    link: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
 
   - releaseCycle: "13r"
     releaseLabel: "13R"
@@ -70,7 +71,7 @@ releases:
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
 
-  - releaseCycle: "pad2"
+  - releaseCycle: "pad-2"
     releaseLabel: "Pad 2"
     releaseDate: 2024-07-16
     eoas: 2027-07-16 # approximation "3 major Android updates"
@@ -93,7 +94,7 @@ releases:
     discontinued: true #
     supportedOxygenOSVersions: "14 - 16"
 
-  - releaseCycle: "pad1"
+  - releaseCycle: "pad"
     releaseLabel: "Pad"
     releaseDate: 2023-05-01
     eoas: 2026-05-01 # 3 years Android updates
