@@ -894,6 +894,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of URIs in the list.
           type: integer
@@ -919,6 +925,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of products in the list.
           type: integer
@@ -968,6 +980,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         result:
           $ref: "#/components/schemas/ProductRelease"
 
@@ -984,6 +1002,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         last_modified:
           description: The time this product was last modified.
           type: string
@@ -1006,6 +1030,12 @@ components:
           description: Version of this schema.
           examples:
             - 1.0.0
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of identifiers in the list.
           type: integer
