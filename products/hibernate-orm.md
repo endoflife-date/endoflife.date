@@ -37,11 +37,20 @@ auto:
 # Since 7 (may be more ?) : eol(x) = releaseDate(x+1), except if marked as stable on https://hibernate.org/orm/releases/.
 # Supported Java/Jakarta EE versions available on https://hibernate.org/orm/releases/.
 releases:
+  - releaseCycle: "7.3"
+    supportedJavaVersions: "17, 21, 25 or 26"
+    supportedJakartaEEVersions: "11"
+    releaseDate: 2026-03-16
+    eol: false
+    eoes: false
+    latest: "7.3.0"
+    latestReleaseDate: 2026-03-16
+
   - releaseCycle: "7.2"
     supportedJavaVersions: "17, 21 or 25"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-10-08
-    eol: false
+    eol: 2026-03-16
     eoes: false
     latest: "7.2.9"
     latestReleaseDate: 2026-03-30
