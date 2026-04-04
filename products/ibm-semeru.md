@@ -52,7 +52,7 @@ auto:
 releases:
   - releaseCycle: "26"
     releaseDate: 2026-03-18
-    eol: 2026-09-18
+    eol: 2026-09-30
     latest: "26+35"
     latestReleaseDate: 2026-03-18
 
