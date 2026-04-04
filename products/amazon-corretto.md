@@ -68,10 +68,21 @@ auto:
     - github_releases: corretto/corretto-25
       regex: '^(?P<version>[\d\.]+)$'
       template: "{{version}}"
+    - github_releases: corretto/corretto-26
+      regex: '^(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # Remember to update the "auto" configuration on each new major release.
 # For EOL dates, see https://aws.amazon.com/corretto/faqs/ (Expired versions paragraph)
 releases:
+  - releaseCycle: "26"
+    # First non-pre-release release was https://github.com/corretto/corretto-26/releases/tag/26.0.0.35.2
+    # Official release was on March: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
+    releaseDate: 2026-03-17
+    eol: 2026-10-31
+    latest: "26.0.0.35.2"
+    latestReleaseDate: 2026-03-17
+
   - releaseCycle: "25"
     lts: true
     # First non-pre-release release was https://github.com/corretto/corretto-25/releases/tag/25.0.0.36.2

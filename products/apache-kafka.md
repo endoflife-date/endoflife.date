@@ -66,6 +66,7 @@ releases:
     eoes: 2026-12-02
     latest: "3.8.1"
     latestReleaseDate: 2024-10-29
+    link: https://web.archive.org/web/20260216184820/https://downloads.apache.org/kafka/3.8.1/RELEASE_NOTES.html
 
   - releaseCycle: "3.7"
     releaseDate: 2024-02-26
@@ -73,6 +74,7 @@ releases:
     eoes: 2026-07-26
     latest: "3.7.2"
     latestReleaseDate: 2024-12-04
+    link: https://web.archive.org/web/20260216184827/https://downloads.apache.org/kafka/3.7.2/RELEASE_NOTES.html
 
   - releaseCycle: "3.6"
     releaseDate: 2023-10-03
