@@ -64,6 +64,7 @@ releases:
 
 ---
 
-> [FoundationDB](https://www.foundationdb.org/) is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations.
+> [FoundationDB](https://www.foundationdb.org/) is a distributed database designed to handle large volumes of structured data across clusters of commodity servers.
+> It organizes data as an ordered key-value store and employs ACID transactions for all operations.
 
 The project documents release support in the [GitHub README](https://github.com/apple/foundationdb#latest-stable-releases) under "Getting Started" → "Latest Stable Releases". Branches are classified as **Supported** (actively maintained, new patch releases published), **Bug fixes** (bug fixes still accepted but newer patch releases may not be published; upgrading to a Supported branch is encouraged), **Experimental** (for internal feature testing; not recommended for production), or **Unsupported** (no further updates). A recommended upgrade path is 6.2.X → 6.3.25 → 7.1.57 → 7.3.69.
