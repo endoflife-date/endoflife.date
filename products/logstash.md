@@ -57,7 +57,6 @@ releases:
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.0.8"
     latestReleaseDate: 2025-09-30
-    link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-04
