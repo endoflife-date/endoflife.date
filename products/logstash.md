@@ -43,14 +43,14 @@ releases:
     eol: 2027-07-15
     latest: "8.19.13"
     latestReleaseDate: 2026-03-10
-    link: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}.html
+    link: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09
     eol: 2025-10-21
     latest: "8.18.8"
     latestReleaseDate: 2025-09-30
-    link: https://www.elastic.co/guide/en/logstash/8.18/logstash-{{'__LATEST__'|replace:'.','-'}.html
+    link: https://www.elastic.co/guide/en/logstash/8.18/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "9.0"
     releaseDate: 2025-03-17
