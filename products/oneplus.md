@@ -39,13 +39,14 @@ releases:
     discontinued: false
     supportedOxygenOSVersions: "16"
 
-  - releaseCycle: "pad-3"
+  - releaseCycle: "pad3"
     releaseLabel: "Pad 3"
     releaseDate: 2025-06-05
     eoas: 2029-06-05 # approximation "4 major Android updates"
     eol: 2031-06-19
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad-3
 
   - releaseCycle: "13t"
     releaseLabel: "13T"
@@ -71,13 +72,14 @@ releases:
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
 
-  - releaseCycle: "pad-2"
+  - releaseCycle: "pad2"
     releaseLabel: "Pad 2"
     releaseDate: 2024-07-16
     eoas: 2027-07-16 # approximation "3 major Android updates"
     eol: 2028-07-16 # approximation "4 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "14 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad-2
 
   - releaseCycle: "12r"
     releaseLabel: "12R"
@@ -94,13 +96,14 @@ releases:
     discontinued: true #
     supportedOxygenOSVersions: "14 - 16"
 
-  - releaseCycle: "pad"
+  - releaseCycle: "pad1"
     releaseLabel: "Pad"
     releaseDate: 2023-05-01
     eoas: 2026-05-01 # 3 years Android updates
     eol: 2026-05-01 # Security updates end
     discontinued: true
     supportedOxygenOSVersions: "13 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad
 
   - releaseCycle: "11r"
     releaseLabel: "11R"
