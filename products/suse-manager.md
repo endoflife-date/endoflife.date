@@ -12,28 +12,31 @@ versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
+eoesColumn: <abbr title="Long Term Support">LTS</abbr>
 
 # Release dates are documented in each release note in the "Version revision history" paragraph.
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
   - releaseCycle: "5.1"
     releaseDate: 2025-07-31
-    eol: false
-    latest: "5.1"
-    latestReleaseDate: 2025-07-31
+    eol: 2027-07-31
+    latest: "5.1.2"
+    latestReleaseDate: 2026-02-27
     link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
     eol: 2026-06-30
-    latest: "5.0.5"
-    latestReleaseDate: 2025-07-01
+    latest: "5.0.7"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.3"
     releaseDate: 2022-06-20
-    eol: 2025-07-23
-    latest: "4.3.16"
-    latestReleaseDate: 2025-07-01
+    eol: 2025-06-30
+    eoes: 2026-07-31
+    lts: true
+    latest: "4.3.17"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.2"
     releaseDate: 2021-06-21
