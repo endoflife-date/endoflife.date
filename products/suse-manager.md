@@ -9,7 +9,7 @@ alternate_urls:
   - /suse-multi-linux-manager
   - /suse-mlm
 versionCommand: zypper info mgradm
-releasePolicyLink: https://www.suse.com/lifecycle
+releasePolicyLink: https://www.suse.com/support/policy-products/#manager
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
 eoesColumn: <abbr title="Long Term Support">LTS</abbr>
@@ -100,7 +100,7 @@ SUSE supports each SUSE Multi-Linux Manager release for three years.
 
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.
 
-## Long Term Support
+## [Long Term Support](https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.3/index.html#_suse_manager_4_3_lts)
 
 There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
 
