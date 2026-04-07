@@ -31,7 +31,7 @@ releases:
     releaseDate: 2026-03-20
     eol: false
     latest: "1.10.0"
-    latestReleaseDate: 2026-03-20
+    latestReleaseDate: 2026-03-17
     supportedKubernetesVersion: "1.29 - 1.35"
 
   - releaseCycle: "1.9"
@@ -103,6 +103,7 @@ releases:
     latest: "1.0.8"
     latestReleaseDate: 2025-10-01
     supportedKubernetesVersion: "1.29 - 1.31"
+
 
 
 ---
