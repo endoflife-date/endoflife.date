@@ -95,6 +95,14 @@ releases:
 > This page tracks SUSE Multi-Linux Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE Multi-Linux Manager is usually released every 12 months.
-The current release is usually supported for an additional 12 months after the next release, resulting in a 24-month support cycle.
+SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years. 
+SUSE supports each SUSE Multi-Linux Manager release for three years.
+
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.
+
+## Long Term Support
+
+There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
+
+An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3), 
+which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription. 
