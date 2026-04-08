@@ -57,7 +57,7 @@ releases:
 > relational database service from Microsoft, based on the community version of the open-source
 > [PostgreSQL](/postgresql) database engine.
 
-Azure Database for PostgreSQL - Flexible Server follows the [PostgreSQL community versioning policy](https://www.postgresql.org/support/versioning/).
+Azure Database for PostgreSQL follows the [PostgreSQL community versioning policy](https://www.postgresql.org/support/versioning/).
 Microsoft supports a PostgreSQL major version until its Azure Standard Support End Date.
 New PostgreSQL major versions are typically made available on Azure within a few months of their community release.
 
