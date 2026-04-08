@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2018-08-28
     eol: false
-    latest: "1.31.0"
-    latestReleaseDate: 2026-03-04
+    latest: "1.32.0"
+    latestReleaseDate: 2026-04-02
 
 ---
 
