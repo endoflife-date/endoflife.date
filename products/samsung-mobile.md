@@ -40,6 +40,12 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-m17e-5g"
+    releaseLabel: "Galaxy M17e 5G"
+    releaseDate: 2026-03-20 # https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
+    eoas: 2032-03-20 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
+    eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
+
   - releaseCycle: "galaxy-s26-ultra"
     releaseLabel: "Galaxy S26 Ultra"
     releaseDate: 2026-03-06 # https://www.gsmarena.com/samsung_galaxy_s26_ultra_5g-14320.php
@@ -777,7 +783,7 @@ releases:
     releaseLabel: "Galaxy M23 5G"
     releaseDate: 2022-04-08
     eoas: false
-    eol: false
+    eol: 2026-04-07
     link: https://doc.samsungmobile.com/SM-M236B/XXV/doc.html
 
   - releaseCycle: "galaxy-s20-fe"

@@ -22,23 +22,30 @@ auto:
 # Non-LTS : eol(x) = releaseDate(x+3)
 # LTS : eol(x) = releaseDate(x) + 1 year
 releases:
+  - releaseCycle: "26.3"
+    lts: true
+    releaseDate: 2026-03-26
+    eol: 2027-03-26
+    latest: "26.3.4.11"
+    latestReleaseDate: 2026-04-07
+
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27
     eol: false
-    latest: "26.2.4.23"
-    latestReleaseDate: 2026-03-05
+    latest: "26.2.7.17"
+    latestReleaseDate: 2026-04-01
 
   - releaseCycle: "26.1"
     releaseDate: 2026-01-30
     eol: false
-    latest: "26.1.4.35"
-    latestReleaseDate: 2026-03-01
+    latest: "26.1.7.13"
+    latestReleaseDate: 2026-03-28
 
   - releaseCycle: "25.12"
     releaseDate: 2025-12-18
-    eol: false
-    latest: "25.12.8.9"
-    latestReleaseDate: 2026-03-01
+    eol: 2026-03-26
+    latest: "25.12.9.61"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "25.11"
     releaseDate: 2025-11-27
@@ -62,8 +69,8 @@ releases:
     lts: true
     releaseDate: 2025-08-29
     eol: 2026-08-29
-    latest: "25.8.18.1"
-    latestReleaseDate: 2026-03-02
+    latest: "25.8.21.7"
+    latestReleaseDate: 2026-03-28
 
   - releaseCycle: "25.7"
     releaseDate: 2025-07-29

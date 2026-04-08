@@ -263,6 +263,13 @@ auto:
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/support/.
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-18
+    eol: 2026-09-18
+    latest: "26+37"
+    latestReleaseDate: 2026-03-18
+    link: https://docs.bell-sw.com/liberica-jdk/26b37/general/release-notes/
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16

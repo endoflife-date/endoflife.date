@@ -21,56 +21,59 @@ auto:
       selector: "table:nth-of-type(1)"
       fields:
         releaseCycle:
+          # 2.1 to 2.3 only contained enterprise fixes or improvements.
+          # 1.0 release dates are incorrect in table
           column: "Version"
-          regex_exclude: "^2.[1-3]" # 2.1 to 2.3 only contained enterprise fixes or improvements.
+          regex_exclude: "^(1.0|2.[1-3])"
+        releaseDate: "Release date"
         eol: "End of support date"
 
 releases:
   - releaseCycle: "7.0"
     codename: "Sahara hare"
-    releaseDate: 2023-01-05
+    releaseDate: 2023-03-08
     eol: 2026-09-30
     latest: "7.0.84"
     latestReleaseDate: 2025-12-31
 
   - releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
-    releaseDate: 2022-02-04
+    releaseDate: 2022-03-15
     eol: 2023-09-30
     latest: "6.0.113"
     latestReleaseDate: 2024-10-08
 
   - releaseCycle: "5.0"
     codename: "Bully for Bugs"
-    releaseDate: 2020-12-31
+    releaseDate: 2021-03-09
     eol: 2022-09-30
     latest: "5.0.120"
     latestReleaseDate: 2023-02-08
 
   - releaseCycle: "4.0"
     codename: "Hare Tonic"
-    releaseDate: 2020-01-15
+    releaseDate: 2020-02-06
     eol: 2021-08-31
     latest: "4.0.126"
     latestReleaseDate: 2021-11-16
 
   - releaseCycle: "3.2"
     codename: "Rabbit Transit"
-    releaseDate: 2019-07-24
+    releaseDate: 2019-07-31
     eol: 2021-05-31
     latest: "3.2.84"
     latestReleaseDate: 2021-05-17
 
   - releaseCycle: "3.1"
     codename: "Slick Hare"
-    releaseDate: 2019-04-30
+    releaseDate: 2019-05-02
     eol: 2019-07-20
     latest: "3.1.18"
     latestReleaseDate: 2019-08-06
 
   - releaseCycle: "3.0"
     codename: "Super-Rabbit"
-    releaseDate: 2019-02-06
+    releaseDate: 2019-01-31
     eol: 2020-08-31
     latest: "3.0.84"
     latestReleaseDate: 2020-08-19
@@ -93,14 +96,14 @@ releases:
 
   - releaseCycle: "1.6"
     codename: "Wackiki Wabbit"
-    releaseDate: 2016-08-30
+    releaseDate: 2016-09-15
     eol: 2018-03-31
     latest: "1.6.23"
     latestReleaseDate: 2018-04-03
 
   - releaseCycle: "1.5"
     codename: "Fresh Hare"
-    releaseDate: 2016-03-08
+    releaseDate: 2016-03-15
     eol: 2017-09-30
     link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v15
     latest: "1.5.27"
@@ -108,7 +111,7 @@ releases:
 
   - releaseCycle: "1.4"
     codename: "Rhapsody Rabbit"
-    releaseDate: 2015-09-23
+    releaseDate: 2015-09-15
     eol: 2017-03-31
     link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v14
     latest: "1.4.28"
@@ -116,7 +119,7 @@ releases:
 
   - releaseCycle: "1.3"
     codename: "Hare Force"
-    releaseDate: 2015-02-12
+    releaseDate: 2015-02-15
     eol: 2016-09-30
     link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v13
     latest: "1.3.41"
@@ -138,14 +141,6 @@ releases:
     latest: "1.1.3"
     latestReleaseDate: 2014-07-22
 
-  - releaseCycle: "1.0"
-    codename: "Hare We Go"
-    releaseDate: 2014-03-06
-    eol: 2016-03-31
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
-    latest: "1.0.3"
-    latestReleaseDate: 2014-03-27
-
 ---
 
 > [Akeneo PIM](https://www.akeneo.com/akeneo-pim-community-edition/) is a Product Information
@@ -157,7 +152,7 @@ releases:
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 
-Akeneo PIM does not follow a documented release policy. But looking at the latest releases, it seems
-that there is a new major release every year, with frequent patch versions containing bug fixes for
-supported releases in between. All active releases, along with their EOL dates, are documented
-[on their help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
+Akeneo is migrating to Calendar Versioning (vYYYY.Minor) in 2026. Breaking changes may be introduced in any release (e.g., from v2026.1 to v2026.2). It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
+
+All active releases, along with their EOL dates, are documented
+[on the help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).

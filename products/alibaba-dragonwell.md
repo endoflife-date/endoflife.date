@@ -52,6 +52,12 @@ auto:
         - '^dragonwell-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
         - '^jdk-(?P<version>21[\d\.\+]+)-ga$'
       template: "{{version}}"
+    - git: "https://github.com/dragonwell-project/dragonwell25.git"
+      regex:
+        - '^dragonwell-standard-(?P<version>25[\d\.\+]+)_jdk.+-ga$'
+        - '^dragonwell-(?P<version>25[\d\.\+]+)_jdk.+-ga$'
+        - '^jdk-(?P<version>25[\d\.\+]+)-ga$'
+      template: "{{version}}"
     - release_table: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
       fields:
         releaseCycle: "Dragonwell Version"
@@ -62,6 +68,13 @@ auto:
 
 # Remember to update the "auto" configuration and the "releasePolicyLink" on each new major release.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-24 # The first official release is 25.0.0.0.1.
+    eol: 2029-09-30 # expected, following Dragonwell's stated four-year minimum support window
+    latest: "25.0.2.0.2+10"
+    latestReleaseDate: 2026-02-06
+
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.

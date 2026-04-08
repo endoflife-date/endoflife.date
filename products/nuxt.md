@@ -8,12 +8,15 @@ permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
 changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
-eoasColumn: true
+eoasColumn: Active Development
+eolColumn: Maintenance Support
 eoesColumn: Commercial Support
 
 identifiers:
   - cpe: cpe:/a:nuxt:framework
   - cpe: cpe:2.3:a:nuxt:framework
+  - purl: pkg:npm/nuxt
+  - purl: pkg:github/nuxt/nuxt
 
 auto:
   methods:
@@ -30,6 +33,8 @@ auto:
           column: "End Of Life"
           regex: '^(?P<value>\d+-\d+-\d+).*$'
 
+# eol(X) = releaseDate(X+1) + 6m
+# eoas(X) = releaseDate(X+1)
 releases:
   - releaseCycle: "4"
     releaseDate: 2025-07-16
@@ -40,7 +45,7 @@ releases:
 
   - releaseCycle: "3"
     releaseDate: 2022-11-16
-    eoas: false
+    eoas: 2025-07-16
     eol: 2026-07-31
     latest: "3.21.2"
     latestReleaseDate: 2026-03-12
@@ -67,8 +72,11 @@ releases:
 
 Nuxt follows [Semantic Versioning](https://semver.org/).
 The roadmap plans for a major release every year, with an expectation of patch releases every week or so and minor releases every month or so.
+Each major version is supported for a minimum of six months after the release of the next major version, and upgrade paths are guaranteed
+between every consecutive major release.
 
 Minor and Patch releases should never contain breaking changes except for features marked as _experimental_.
+Maintenance Support includes bug and security fixes.
 
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
 

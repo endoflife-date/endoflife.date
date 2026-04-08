@@ -27,9 +27,16 @@ customFields:
     link: https://karpenter.sh/docs/upgrading/compatibility
 
 releases:
+  - releaseCycle: "1.10"
+    releaseDate: 2026-03-20
+    eol: false
+    latest: "1.10.0"
+    latestReleaseDate: 2026-03-17
+    supportedKubernetesVersion: "1.29 - 1.35"
+
   - releaseCycle: "1.9"
     releaseDate: 2026-02-06
-    eol: false
+    eol: 2026-03-20
     latest: "1.9.0"
     latestReleaseDate: 2026-02-04
     supportedKubernetesVersion: "1.29 - 1.35"
@@ -96,6 +103,7 @@ releases:
     latest: "1.0.8"
     latestReleaseDate: 2025-10-01
     supportedKubernetesVersion: "1.29 - 1.31"
+
 
 
 ---

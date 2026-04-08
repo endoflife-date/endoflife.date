@@ -3,7 +3,7 @@ title: Amazon OpenSearch
 addedAt: 2026-03-09
 category: service
 tags: amazon database
-iconSlug: aws
+iconSlug: amazonaws
 permalink: /amazon-opensearch
 alternate_urls:
   - /amazon-opensearch-service

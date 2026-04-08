@@ -23,22 +23,28 @@ auto:
 
 # EOL documented on https://releases.discourse.org/
 releases:
+  - releaseCycle: "2026.3"
+    releaseDate: 2026-03-31
+    eol: 2026-05-31 # planned on https://releases.discourse.org/, to be updated once known
+    latest: "2026.3.0"
+    latestReleaseDate: 2026-03-31
+
   - releaseCycle: "2026.2"
     releaseDate: 2026-02-26
-    eol: false
-    latest: "2026.2.1"
-    latestReleaseDate: 2026-03-19
+    eol: 2026-04-30 # planned on https://releases.discourse.org/, to be updated once known
+    latest: "2026.2.2"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "2026.1"
     lts: true
     releaseDate: 2026-01-28
-    eol: false
-    latest: "2026.1.2"
-    latestReleaseDate: 2026-03-19
+    eol: 2026-09-30 # planned on https://releases.discourse.org/, to be updated once known
+    latest: "2026.1.3"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "2025.12"
     releaseDate: 2025-12-30
-    eol: false
+    eol: 2026-02-26
     latest: "2025.12.2"
     latestReleaseDate: 2026-02-26
 

@@ -25,35 +25,41 @@ auto:
 # https://fluentbit.io/announcements/older-versions/: Security Policy: support for the current series ends three months after a new series is released.
 # eol(x) = releaseDate(x+1) + 3 months
 releases:
+  - releaseCycle: "5.0"
+    releaseDate: 2026-03-31 # first version was 5.0.1
+    eol: false # releaseDate(5.1 + 3 months)
+    latest: "5.0.2"
+    latestReleaseDate: 2026-04-01
+
   - releaseCycle: "4.2"
     releaseDate: 2025-11-11
-    eol: false # releaseDate(4.3) + 3 months
+    eol: 2026-06-30 # releaseDate(5.0) + 3 months
     latest: "4.2.3.1"
-    latestReleaseDate: 2026-02-19
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-24
     eol: 2026-02-11 # releaseDate(4.2) + 3 months
     latest: "4.1.2"
-    latestReleaseDate: 2025-12-09
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "4.0"
     releaseDate: 2025-03-29
     eol: 2025-12-24 # releaseDate(4.1) + 3 months
     latest: "4.0.14"
-    latestReleaseDate: 2025-12-18
+    latestReleaseDate: 2025-12-23
 
   - releaseCycle: "3.2"
     releaseDate: 2024-11-12
     eol: 2025-06-29 # releaseDate(4.0) + 3 months
     latest: "3.2.10"
-    latestReleaseDate: 2025-03-24
+    latestReleaseDate: 2025-03-25
 
   - releaseCycle: "3.1"
     releaseDate: 2024-07-08
     eol: 2025-02-12 # releaseDate(3.2) + 3 months
     latest: "3.1.10"
-    latestReleaseDate: 2024-11-04
+    latestReleaseDate: 2024-11-05
 
   - releaseCycle: "3.0"
     releaseDate: 2024-03-21
@@ -65,13 +71,13 @@ releases:
     releaseDate: 2023-11-06
     eol: 2024-06-21
     latest: "2.2.3"
-    latestReleaseDate: 2024-05-21
+    latestReleaseDate: 2024-05-22
 
   - releaseCycle: "2.1"
     releaseDate: 2023-04-18
     eol: 2024-02-06
     latest: "2.1.10"
-    latestReleaseDate: 2023-09-27
+    latestReleaseDate: 2023-09-28
 
   - releaseCycle: "2.0"
     releaseDate: 2022-10-25
@@ -83,13 +89,13 @@ releases:
     releaseDate: 2022-03-11
     eol: 2022-12-05
     latest: "1.9.10"
-    latestReleaseDate: 2022-11-25
+    latestReleaseDate: 2022-11-27
 
   - releaseCycle: "1.8"
     releaseDate: 2021-07-07
     eol: 2022-12-05
     latest: "1.8.15"
-    latestReleaseDate: 2022-03-22
+    latestReleaseDate: 2022-03-23
 
   - releaseCycle: "1.7"
     releaseDate: 2021-02-14
@@ -101,7 +107,7 @@ releases:
     releaseDate: 2020-10-08
     eol: true
     latest: "1.6.10"
-    latestReleaseDate: 2021-01-08
+    latestReleaseDate: 2021-01-09
 
   - releaseCycle: "1.5"
     releaseDate: 2020-07-13
@@ -113,13 +119,13 @@ releases:
     releaseDate: 2020-03-25
     eol: true
     latest: "1.4.6"
-    latestReleaseDate: 2020-06-10
+    latestReleaseDate: 2020-07-13
 
   - releaseCycle: "1.3"
     releaseDate: 2019-09-30
     eol: true
     latest: "1.3.11"
-    latestReleaseDate: 2020-03-19
+    latestReleaseDate: 2020-03-27
 
   - releaseCycle: "1.2"
     releaseDate: 2019-06-26
@@ -131,7 +137,7 @@ releases:
     releaseDate: 2019-05-08
     eol: true
     latest: "1.1.3"
-    latestReleaseDate: 2019-06-13
+    latestReleaseDate: 2019-06-27
 
   - releaseCycle: "1.0"
     releaseDate: 2018-12-13

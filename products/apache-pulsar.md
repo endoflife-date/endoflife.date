@@ -34,6 +34,13 @@ auto:
           regex: '.*\((?P<value>.+)\)'
 
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-03-24
+    eol: 2026-09-24
+    eoes: 2026-09-24
+    latest: "4.2.0"
+    latestReleaseDate: 2026-03-31
+
   - releaseCycle: "4.1"
     releaseDate: 2025-09-08
     eol: 2026-03-08
