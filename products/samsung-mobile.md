@@ -783,7 +783,7 @@ releases:
     releaseLabel: "Galaxy M23 5G"
     releaseDate: 2022-04-08
     eoas: false
-    eol: false
+    eol: 2026-04-07
     link: https://doc.samsungmobile.com/SM-M236B/XXV/doc.html
 
   - releaseCycle: "galaxy-s20-fe"
