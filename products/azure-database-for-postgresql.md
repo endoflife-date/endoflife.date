@@ -61,5 +61,4 @@ Azure Database for PostgreSQL - Flexible Server follows the [PostgreSQL communit
 Microsoft supports a PostgreSQL major version until its Azure Standard Support End Date.
 New PostgreSQL major versions are typically made available on Azure within a few months of their community release.
 
-For more details, see the [versioning policy](https://learn.microsoft.com/en-us/azure/postgresql/configure-maintain/concepts-version-policy)
-and [major version upgrade documentation](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-perform-major-version-upgrade).
+For more details about upgrades, see [the major version upgrade documentation](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-perform-major-version-upgrade).
