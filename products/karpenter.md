@@ -17,7 +17,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/kubernetes-sigs/karpenter.git
+    - github_releases: kubernetes-sigs/karpenter
 
 customFields:
   - name: supportedKubernetesVersion
@@ -26,10 +26,18 @@ customFields:
     description: Supported Kubernetes Versions
     link: https://karpenter.sh/docs/upgrading/compatibility
 
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.11"
+    releaseDate: 2026-04-06
+    eol: false
+    latest: "1.11.0"
+    latestReleaseDate: 2026-04-06
+    supportedKubernetesVersion: "1.29 - 1.35"
+
   - releaseCycle: "1.10"
     releaseDate: 2026-03-20
-    eol: false
+    eol: 2026-04-06
     latest: "1.10.0"
     latestReleaseDate: 2026-03-17
     supportedKubernetesVersion: "1.29 - 1.35"
@@ -103,8 +111,6 @@ releases:
     latest: "1.0.8"
     latestReleaseDate: 2025-10-01
     supportedKubernetesVersion: "1.29 - 1.31"
-
-
 
 ---
 
