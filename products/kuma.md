@@ -20,19 +20,19 @@ releases:
     releaseDate: 2025-12-22
     eol: 2027-12-22
     latest: "2.13.4"
-    latestReleaseDate: 2026-04-07
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "2.12"
     releaseDate: 2025-09-09
     eol: 2026-09-09
     latest: "2.12.9"
-    latestReleaseDate: 2026-04-07
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "2.11"
     releaseDate: 2025-06-10
     eol: 2026-06-10
     latest: "2.11.12"
-    latestReleaseDate: 2026-04-07
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "2.10"
     releaseDate: 2025-03-20
@@ -44,7 +44,7 @@ releases:
     releaseDate: 2024-10-22
     eol: 2026-04-22
     latest: "2.9.14"
-    latestReleaseDate: 2026-04-07
+    latestReleaseDate: 2026-04-08
     link: https://github.com/kumahq/kuma/releases/tag/__LATEST__
 
   - releaseCycle: "2.8"
@@ -58,7 +58,7 @@ releases:
     releaseDate: 2024-04-19
     eol: 2026-10-19
     latest: "2.7.24"
-    latestReleaseDate: 2026-04-07
+    latestReleaseDate: 2026-04-08
     lts: true
     link: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
 

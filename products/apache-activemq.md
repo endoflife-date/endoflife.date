@@ -28,15 +28,15 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.2.3"
-    latestReleaseDate: 2026-03-27
+    latest: "6.2.4"
+    latestReleaseDate: 2026-04-08
     link: https://activemq.apache.org/components/classic/download/classic-06-02-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.4"
-    latestReleaseDate: 2026-03-28
+    latest: "5.19.5"
+    latestReleaseDate: 2026-04-08
     link: https://activemq.apache.org/components/classic/download/classic-05-19-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "6.1"
