@@ -30,13 +30,13 @@ auto:
       template: "{{version}}"
 
 # Note:
-# - eol(x) = releaseDate(x+1) for non-LTS
+# - eol(x) = releaseDate(x+1) for non-LTS OR releaseDate(X)+5w
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
   - releaseCycle: "3.34"
     releaseDate: 2026-03-25
-    eol: false
+    eol: 2026-04-30
     latest: "3.34.3"
     latestReleaseDate: 2026-04-08
     link: https://quarkus.io/blog/quarkus-3-34-released/
@@ -51,7 +51,7 @@ releases:
 
   - releaseCycle: "3.32"
     releaseDate: 2026-02-26
-    eol: 2027-03-25
+    eol: 2026-03-25
     latest: "3.32.4"
     latestReleaseDate: 2026-03-18
     link: https://quarkus.io/blog/quarkus-3-32-2-released/
