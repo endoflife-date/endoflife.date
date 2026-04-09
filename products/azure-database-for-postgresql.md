@@ -1,6 +1,6 @@
 ---
 title: Azure Database for PostgreSQL
-addedAt: 2026-03-31
+addedAt: 2026-04-09
 category: service
 tags: database microsoft
 permalink: /azure-database-for-postgresql
