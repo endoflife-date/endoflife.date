@@ -25,15 +25,15 @@ releases:
     lts: true
     releaseDate: 2025-10-22
     eol: false
-    latest: "16.2.2"
-    latestReleaseDate: 2026-04-01
+    latest: "16.2.3"
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "15"
     lts: true
     releaseDate: 2024-10-21
     eol: 2026-10-21
-    latest: "15.5.14"
-    latestReleaseDate: 2026-03-19
+    latest: "15.5.15"
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "14"
     lts: true

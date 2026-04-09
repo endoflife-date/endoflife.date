@@ -26,29 +26,29 @@ releases:
     releaseDate: 2025-02-20
     eol: 2030-02-28
     eoes: 2033-02-28
-    latest: "17.7"
-    latestReleaseDate: 2025-12-18
+    latest: "17.9"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2029-02-28
     eoes: 2032-02-28
-    latest: "16.11"
-    latestReleaseDate: 2025-12-18
+    latest: "16.13"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "15"
     releaseDate: 2022-11-10
     eol: 2028-02-29
     eoes: 2031-02-28
-    latest: "15.15"
-    latestReleaseDate: 2025-12-18
+    latest: "15.17"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2027-02-28
     eoes: 2030-02-28
-    latest: "14.20"
-    latestReleaseDate: 2025-12-18
+    latest: "14.22"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24
