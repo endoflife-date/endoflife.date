@@ -46,7 +46,7 @@ auto:
 # Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
   - releaseCycle: "3.91"
-    releaseDate: 2026-03-05
+    releaseDate: 2026-04-07
     eoas: 2027-04-07
     eol: 2027-10-07
     latest: "3.91.0-07"
