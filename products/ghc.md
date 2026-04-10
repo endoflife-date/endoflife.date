@@ -55,6 +55,7 @@ releases:
     latestReleaseDate: 2024-12-02
 
   - releaseCycle: "9.6"
+    staleReleaseThresholdDays: 500 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
     releaseDate: 2023-03-10
     eoas: true
     eol: false
