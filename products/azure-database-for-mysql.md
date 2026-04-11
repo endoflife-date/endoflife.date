@@ -8,6 +8,7 @@ alternate_urls:
   - /azure-mysql
 releasePolicyLink: https://learn.microsoft.com/en-us/azure/mysql/concepts-version-policy
 latestColumn: false
+eolColumn: Standard Support
 eoesColumn: Extended Support
 
 auto:
@@ -41,12 +42,11 @@ releases:
 > relational database service from Microsoft, based on the community edition of
 > [MySQL](/mysql).
 
-Azure Database for MySQL - Flexible Server follows the [MySQL community versioning policy](https://endoflife.date/mysql).
+Azure Database for MySQL follows the [MySQL community versioning policy](https://endoflife.date/mysql).
 Microsoft supports a MySQL major version until its Azure Standard Support End Date.
 
 After the Azure Standard Support End Date, servers are automatically enrolled in Extended Support,
 which provides critical security updates for up to three years. A one-month grace period applies
 before billing begins. Customers can exit Extended Support by upgrading to a supported version.
 
-For more details, see the [versioning policy](https://learn.microsoft.com/en-us/azure/mysql/concepts-version-policy)
-and the [major version upgrade documentation](https://learn.microsoft.com/en-us/azure/mysql/how-to-major-version-upgrade-portal).
+For more details about upgrades, see [the major version upgrade documentation](https://learn.microsoft.com/en-us/azure/mysql/how-to-major-version-upgrade-portal).
