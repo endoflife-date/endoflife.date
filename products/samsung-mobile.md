@@ -40,32 +40,47 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-a57-5g"
+    releaseLabel: "Galaxy A57 5G"
+    releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    eoas: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    eol: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    link: https://doc.samsungmobile.com/SM-A576B/ECO/doc.html
+
+  - releaseCycle: "galaxy-a37-5g"
+    releaseLabel: "Galaxy A37 5G"
+    releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    eoas: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    eol: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
+    link: null # unknown
+
   - releaseCycle: "galaxy-m17e-5g"
     releaseLabel: "Galaxy M17e 5G"
     releaseDate: 2026-03-20 # https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
     eoas: 2032-03-20 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
-    eol: false      # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
+    eol: 2032-03-20 # 6 years - https://news.samsung.com/in/samsung-launches-galaxy-m17e-5g-redefining-the-smartphone-experience-for-indias-young-on-the-go-generation
+    link: null # unknown
 
   - releaseCycle: "galaxy-s26-ultra"
     releaseLabel: "Galaxy S26 Ultra"
     releaseDate: 2026-03-06 # https://www.gsmarena.com/samsung_galaxy_s26_ultra_5g-14320.php
     eoas: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    eol: false       # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    link: null # unknown
+    eol: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
+    link: https://doc.samsungmobile.com/SM-S948B/ECT/doc.html
 
   - releaseCycle: "galaxy-s26+"
     releaseLabel: "Galaxy S26+"
     releaseDate: 2026-03-06 # https://www.gsmarena.com/samsung_galaxy_s26+_5g-14457.php
     eoas: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    eol: false       # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    link: null # unknown
+    eol: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
+    link: https://doc.samsungmobile.com/SM-S947B/ECT/doc.html
 
   - releaseCycle: "galaxy-s26"
     releaseLabel: "Galaxy S26"
     releaseDate: 2026-03-06 # https://www.gsmarena.com/samsung_galaxy_s26_5g-14456.php
     eoas: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    eol: false       # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
-    link: null # unknown
+    eol: 2033-03-06 # 7 years - https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet
+    link: https://doc.samsungmobile.com/SM-S942B/ECT/doc.html
 
   - releaseCycle: "galaxy-f70e-5g"
     releaseLabel: "Galaxy F70e 5G"
