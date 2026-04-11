@@ -19,6 +19,7 @@ customFields:
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
+      render_javascript: true
       ignore_empty_releases: true
       fields:
         releaseCycle:
