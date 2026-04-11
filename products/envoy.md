@@ -56,14 +56,14 @@ releases:
   - releaseCycle: "1.35"
     releaseDate: 2025-07-23
     eol: 2026-07-23
-    latest: "1.35.9"
-    latestReleaseDate: 2026-03-10
+    latest: "1.35.10"
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.34"
     releaseDate: 2025-04-15
     eol: 2026-04-15
-    latest: "1.34.13"
-    latestReleaseDate: 2026-03-10
+    latest: "1.34.14"
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.33"
     releaseDate: 2025-01-14
