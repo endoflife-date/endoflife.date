@@ -1,5 +1,10 @@
 # endoflife.date API Changelog
 
+## API v1.2.1
+
+- Declare `generated_at` in OpenAPI specification ([#9798](https://github.com/endoflife-date/endoflife.date/pull/9798)).
+  This field was always provided in responses, but was not declared in the OpenAPI specification.
+
 ## API v1.2.0
 
 - Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))

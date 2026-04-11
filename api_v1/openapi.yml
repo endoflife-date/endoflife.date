@@ -10,7 +10,7 @@ openapi: 3.1.1
 info:
   title: endoflife API
   # This version must be kept in sync with the version in _plugins/generate-api-v1.rb.
-  version: "1.2.0"
+  version: "1.2.1"
   license:
     name: MIT License
     url: "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
@@ -886,6 +886,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - total
         - result
       properties:
@@ -894,6 +895,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of URIs in the list.
           type: integer
@@ -911,6 +918,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - total
         - result
       properties:
@@ -919,6 +927,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of products in the list.
           type: integer
@@ -936,6 +950,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - total
         - result
       properties:
@@ -944,6 +959,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of products in the list.
           type: integer
@@ -961,6 +982,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - result
       properties:
         schema_version:
@@ -968,6 +990,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         result:
           $ref: "#/components/schemas/ProductRelease"
 
@@ -976,6 +1004,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - last_modified
         - result
       properties:
@@ -984,6 +1013,12 @@ components:
           type: string
           examples:
             - "1.0.0"
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         last_modified:
           description: The time this product was last modified.
           type: string
@@ -998,6 +1033,7 @@ components:
       type: object
       required:
         - schema_version
+        - generated_at
         - total
         - result
       properties:
@@ -1006,6 +1042,12 @@ components:
           description: Version of this schema.
           examples:
             - 1.0.0
+        generated_at:
+          description: The time this response was generated.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
         total:
           description: Number of identifiers in the list.
           type: integer
