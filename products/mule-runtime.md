@@ -16,12 +16,6 @@ eolColumn: Extended Support
 
 auto:
   methods:
-    - version_table: https://repository.mulesoft.org/nexus/content/repositories/releases/org/mule/runtime/mule-core/
-      header_selector: "tr:nth-of-type(1)"
-      name_column: "Name"
-      regex: '^(?P<value>\d+\.\d+\.\d+(-\d+))/$'
-      template: "{{value}}"
-      date_column: "Last Modified"
     - release_table: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence
       selector: "table"
       fields:
