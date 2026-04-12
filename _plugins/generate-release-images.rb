@@ -28,7 +28,7 @@ module EndOfLife
     LEGEND_ICON_SIZE    = 14  # width and height of legend colour swatches
     LEGEND_ICON_TEXT_GAP = 4  # gap between icon and label text
     LEGEND_ITEM_SPACING = 240 # horizontal distance between legend item start positions
-    NO_END_DATE_LABEL   = "Unknown end date"
+    NO_END_DATE_LABEL   = "No end date published"
 
     # Release filtering & date range
     MAX_NON_EOL        = 10  # refuse to generate image if non-EOL releases exceed this
