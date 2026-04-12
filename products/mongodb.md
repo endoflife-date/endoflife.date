@@ -17,7 +17,6 @@ releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 identifiers:
   - purl: pkg:deb/debian/mongodb
   - purl: pkg:deb/ubuntu/mongodb
-  - purl: pkg:deb/ubuntu/mongodb-org-server
   - purl: pkg:rpm/amzn/mongodb-org-server
   - purl: pkg:rpm/redhat/mongodb-org-server
   - purl: pkg:rpm/centos/mongodb-org-server

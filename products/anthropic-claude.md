@@ -196,7 +196,7 @@ releases:
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models
 ---
 
-> [Anthropic Claude](https://claude.ai/) is a family of large language models provided by Anthropic.
+> [Anthropic Claude](https://platform.claude.com/docs/en/about-claude/models/overview) is a family of large language models provided by Anthropic.
 
 {: .warning }
 > This page tracks Claude model availability on the Anthropic API. This does not include the Claude app,

@@ -17,7 +17,7 @@ customFields:
     display: after-latest-column
     label: Latest JDK
     description: Corresponding latest Java version
-    link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
+    link: https://docs.azul.com/core/detailed/versioning-and-naming
 
 identifiers:
   - repology: zulu-openjdk
