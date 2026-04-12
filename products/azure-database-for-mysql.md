@@ -6,14 +6,14 @@ tags: database microsoft
 permalink: /azure-database-for-mysql
 alternate_urls:
   - /azure-mysql
-releasePolicyLink: https://learn.microsoft.com/en-us/azure/mysql/concepts-version-policy
+releasePolicyLink: https://learn.microsoft.com/azure/mysql/concepts-version-policy
 latestColumn: false
 eolColumn: Standard Support
 eoesColumn: Extended Support
 
 auto:
   methods:
-    - release_table: https://learn.microsoft.com/en-us/azure/mysql/concepts-version-policy
+    - release_table: https://learn.microsoft.com/azure/mysql/concepts-version-policy
       fields:
         releaseCycle:
           column: "Version"
@@ -38,7 +38,7 @@ releases:
     eoes: 2029-03-31
 ---
 
-> [Azure Database for MySQL](https://azure.microsoft.com/en-us/products/mysql/) is a fully managed
+> [Azure Database for MySQL](https://azure.microsoft.com/products/mysql/) is a fully managed
 > relational database service from Microsoft, based on the community edition of
 > [MySQL](/mysql).
 
@@ -49,4 +49,4 @@ After the Azure Standard Support End Date, servers are automatically enrolled in
 which provides critical security updates for up to three years. A one-month grace period applies
 before billing begins. Customers can exit Extended Support by upgrading to a supported version.
 
-For more details about upgrades, see [the major version upgrade documentation](https://learn.microsoft.com/en-us/azure/mysql/how-to-major-version-upgrade-portal).
+For more details about upgrades, see [the major version upgrade documentation](https://learn.microsoft.com/azure/mysql/flexible-server/how-to-upgrade).
