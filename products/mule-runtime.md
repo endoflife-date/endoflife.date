@@ -43,8 +43,8 @@ releases:
     releaseLabel: '4.9 LTS'
     lts: true
     releaseDate: 2025-02-28
-    eoas: 2026-08-31
-    eol: 2027-02-28
+    eoas: 2027-08-31
+    eol: 2028-02-29
     latest: "4.9.9" # should be at least equal to latest of 4.9 Edge, but don't know how to automate that yet
     latestReleaseDate: 2025-09-02
 
@@ -75,8 +75,8 @@ releases:
   - releaseCycle: "4.6-lts"
     releaseLabel: "4.6 LTS"
     releaseDate: 2024-02-29
-    eoas: 2026-02-28
-    eol: 2026-10-31
+    eoas: 2026-08-31
+    eol: 2027-02-28
     latest: "4.6.22" # should be at least equal to latest of 4.6 Edge, but don't know how to automate that yet
     latestReleaseDate: 2025-09-02
 
