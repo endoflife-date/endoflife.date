@@ -4,6 +4,9 @@
   """
   publish = "_site/"
 
+[build.environment]
+  MISE_RUBY_COMPILE = "false"
+
 [context.deploy-preview]
   command = """
   ./bin/deploy.sh $DEPLOY_PRIME_URL
