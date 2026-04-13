@@ -1,23 +1,24 @@
 ---
-title: Apache ActiveMQ Artemis
+title: Apache Artemis
 addedAt: 2025-08-16
 category: server-app
 tags: apache java-runtime
 iconSlug: apache
-permalink: /apache-activemq-artemis
+permalink: /apache-artemis
 alternate_urls:
+  - /apache-activemq-artemis
   - /activemq-artemis
-releasePolicyLink: https://activemq.apache.org/support.html
-changelogTemplate: "https://activemq.apache.org/components/artemis/documentation/latest/versions.html#{{'__LATEST__'|replace:'.','-'}}"
+releasePolicyLink: https://artemis.apache.org/
+changelogTemplate: "https://artemis.apache.org/components/artemis/documentation/latest/versions.html#{{'__LATEST__'|replace:'.','-'}}"
 versionCommand: artemis version
 
 identifiers:
   - repology: activemq-artemis
-  - purl: pkg:github/apache/activemq-artemis
+  - purl: pkg:github/apache/artemis
 
 auto:
   methods:
-    - git: https://github.com/apache/activemq-artemis.git
+    - git: https://github.com/apache/artemis.git
 
 # eol(x) = releaseDate(x+1)
 releases:
@@ -350,20 +351,12 @@ releases:
     eol: 2015-09-15
     latest: "1.0.0"
     latestReleaseDate: 2015-05-21
-
 ---
 
-> [Apache ActiveMQ Artemis](https://activemq.apache.org/) is an open source Java-based message
-> broker that supports a number of transport protocols, such as STOMP, MQTT, or AMQP.
+> [Apache Artemis](https://artemis.apache.org/), formerly known as [Apache ActiveMQ Artemis](https://activemq.apache.org/news/artemis-tlp),
+> is an open source Java-based message broker that supports a number of transport protocols, such as STOMP, MQTT, or AMQP.
 
-There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
-generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
-point).
-This page tracks ActiveMQ "Artemis" releases; information about the classic version can be found in
-its own [product page](/apache-activemq).
+Apache Artemis does not have a clearly defined release and support policy.
+It seems that only the latest minor release is actively maintained.
 
-Apache ActiveMQ Artemis does not have a clearly defined release and support policy. It seems that
-only the latest minor release is actively maintained.
-
-The full list of versions, with their associated release notes, is available [in the Apache ActiveMQ
-Artemis documentation](https://activemq.apache.org/components/artemis/documentation/latest/versions.html).
+The full list of versions, with their associated release notes, is available [in the Apache Artemis documentation](https://artemis.apache.org/components/artemis/documentation/latest/versions.html).
