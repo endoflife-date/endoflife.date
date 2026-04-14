@@ -97,8 +97,8 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2016-09-07
     eol: false # only for paying customer: https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103
-    latest: "1.12.3"
-    latestReleaseDate: 2026-02-27
+    latest: "1.12.4"
+    latestReleaseDate: 2026-04-09
 
 ---
 
