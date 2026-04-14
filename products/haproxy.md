@@ -150,8 +150,8 @@ releases:
   - releaseCycle: "1.4"
     releaseDate: 2010-02-26
     eol: 2020-01-10
-    latest: "1.5.19"
-    latestReleaseDate: 2016-12-25
+    latest: "1.4.27"
+    latestReleaseDate: 2016-03-14
 
   - releaseCycle: "1.3"
     releaseDate: 2006-06-29 	
