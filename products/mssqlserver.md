@@ -58,6 +58,7 @@ releases:
     releaseDate: 2021-09-15
     eoas: 2026-07-14
     eol: 2026-07-14
+    eoes: 2029-07-17
     latestGdr: "13.0.6480.4"
     latestGdrLink: https://support.microsoft.com/help/5077474 # GDR for SP3
     latest: "13.0.7075.5 Azure Connect pack+GDR"
