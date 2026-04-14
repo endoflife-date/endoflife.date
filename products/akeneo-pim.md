@@ -29,6 +29,12 @@ auto:
         eol: "End of support date"
 
 releases:
+  - releaseCycle: "2026.3"
+    releaseDate: 2026-03-30
+    eol: false
+    latest: "2026.3"
+    latestReleaseDate: 2026-03-30
+
   - releaseCycle: "7.0"
     codename: "Sahara hare"
     releaseDate: 2023-03-08
