@@ -22,6 +22,7 @@ releases:
   - releaseCycle: "8.2603"
     releaseDate: 2026-04-14
     eol: 2029-04-14
+    lts: true
     technicalGuidance: 2030-04-14
     latest: "8.2603"
     latestReleaseDate: 2026-04-14
