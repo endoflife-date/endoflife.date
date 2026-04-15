@@ -118,6 +118,13 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
 
+  - releaseCycle: "galaxy-tab-active5"
+    releaseLabel: "Galaxy Tab Active5"
+    releaseDate: 2024-01-23 # https://www.gsmarena.com/samsung_galaxy_tab_active5-12785.php
+    eoas: 2028-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2029-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
+
   - releaseCycle: "galaxy-tab-active5-5g"
     releaseLabel: "Galaxy Tab Active5 5G"
     releaseDate: 2024-01-10 
@@ -125,12 +132,6 @@ releases:
     eol: 2029-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X306B/XSA/doc.html
 
-  - releaseCycle: "galaxy-tab-active5"
-    releaseLabel: "Galaxy Tab Active5"
-    releaseDate: 2024-01-23 # https://www.gsmarena.com/samsung_galaxy_tab_active5-12785.php
-    eoas: 2028-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2029-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-a9+"
     releaseLabel: "Galaxy Tab A9+"
