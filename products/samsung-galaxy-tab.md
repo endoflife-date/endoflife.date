@@ -123,7 +123,7 @@ releases:
     releaseDate: 2024-01-10 
     eoas: 2028-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2029-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    https://doc.samsungmobile.com/SM-X306B/XSA/doc.html
+    link: https://doc.samsungmobile.com/SM-X306B/XSA/doc.html
 
   - releaseCycle: "galaxy-tab-active5"
     releaseLabel: "Galaxy Tab Active5"
