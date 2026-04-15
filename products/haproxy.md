@@ -176,6 +176,7 @@ releases:
     eol: 2001-12-30
     latest: "1.0.2"
     latestReleaseDate: 2001-12-30
+    link: null
 
 ---
 
