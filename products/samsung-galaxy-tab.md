@@ -129,7 +129,7 @@ releases:
     releaseLabel: "Galaxy Tab A9+"
     releaseDate: 2023-10-23 # https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone
     eoas: 2026-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false      # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-10-23      # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X210/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-a9"
