@@ -154,17 +154,17 @@ releases:
     latestReleaseDate: 2016-03-14
 
   - releaseCycle: "1.3"
-    releaseDate: 2006-06-29 	
-    eol: 2016-03-14 
-    latest: "1.3.28" 	
-    latestReleaseDate: 2016-03-14 	
+    releaseDate: 2006-06-29
+    eol: 2016-03-14
+    latest: "1.3.28"
+    latestReleaseDate: 2016-03-14
 
   - releaseCycle: "1.2"
     releaseDate: 2003-11-09
     eol: 2011-08-06
     latest: "1.2.18"
     latestReleaseDate: 2008-05-25
-  
+
   - releaseCycle: "1.1"
     releaseDate: 2002-03-10
     eol: 2006-01-29
