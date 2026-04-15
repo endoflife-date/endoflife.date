@@ -76,7 +76,7 @@ releases:
     eol: false      # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
     link: null # unknown model number
 
-  - releaseCycle: "galaxy-tab-active5-pro-5G"
+  - releaseCycle: "galaxy-tab-active5-pro-5g"
     releaseLabel: "Galaxy Tab Active5 Pro 5G"
     releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_tab_active5_pro-13790.php
     eoas: 2029-05-07 # https://www.samsung.com/us/business/mobile/tablets/galaxy-tab-active/explore/
