@@ -118,7 +118,7 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
 
-  - releaseCycle: "galaxy-tab-active5-5G"
+  - releaseCycle: "galaxy-tab-active5-5g"
     releaseLabel: "Galaxy Tab Active5 5G"
     releaseDate: 2024-01-10 
     eoas: 2028-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
