@@ -2,7 +2,7 @@
 title: FortiGate
 addedAt: 2026-04-17
 category: device
-tags: fortinet 
+tags: fortinet
 iconSlug: fortinet
 permalink: /fortigate
 latestColumn: false
@@ -155,13 +155,6 @@ releases:
     lastServiceExtension: 2030-01-13
     eol: 2031-01-13
 
-  - releaseCycle: "fg-5001e"
-    releaseLabel: "FortiGate-5001E"
-    releaseDate: 2017-11-01
-    discontinued: 2026-01-13
-    lastServiceExtension: 2030-01-13
-    eol: 2031-01-13
-
   - releaseCycle: "fg-300e"
     releaseLabel: "FortiGate-300E"
     releaseDate: 2017-11-14
@@ -189,6 +182,13 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+
+  - releaseCycle: "fg-5001e"
+    releaseLabel: "FortiGate-5001E"
+    releaseDate: 2017-11-01
+    discontinued: 2026-01-13
+    lastServiceExtension: 2030-01-13
+    eol: 2031-01-13
 
   - releaseCycle: "fg-80e"
     releaseLabel: "FortiGate-80E"
@@ -302,20 +302,6 @@ releases:
     lastServiceExtension: 2026-07-15
     eol: 2027-07-15
 
-  - releaseCycle: "fg-2000e"
-    releaseLabel: "FortiGate-2000E"
-    releaseDate: 2016-04-12
-    discontinued: 2025-05-02
-    lastServiceExtension: 2029-05-02
-    eol: 2030-05-02
-
-  - releaseCycle: "fg-800d"
-    releaseLabel: "FortiGate-800D"
-    releaseDate: 2015-08-01
-    discontinued: 2023-04-16
-    lastServiceExtension: 2027-04-16
-    eol: 2028-04-16
-
   - releaseCycle: "fg-60e"
     releaseLabel: "FortiGate-60E"
     releaseDate: 2016-07-26
@@ -343,7 +329,21 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+
+  - releaseCycle: "fg-2000e"
+    releaseLabel: "FortiGate-2000E"
+    releaseDate: 2016-04-12
+    discontinued: 2025-05-02
+    lastServiceExtension: 2029-05-02
+    eol: 2030-05-02
   
+  - releaseCycle: "fg-800d"
+    releaseLabel: "FortiGate-800D"
+    releaseDate: 2015-08-01
+    discontinued: 2023-04-16
+    lastServiceExtension: 2027-04-16
+    eol: 2028-04-16
+
   - releaseCycle: "fg-900d"
     releaseLabel: "FortiGate-900D"
     releaseDate: 2015-07-23
@@ -415,13 +415,12 @@ releases:
 
 ---
 
-> [Fortigate](https://fortinet.com/products/next-generation-firewall) 
-> is a line of Next-Generation Firewalls (NGFW) manufactured by Fortinet.
+> [Fortigate](https://fortinet.com/products/next-generation-firewall) is a line of Next-Generation Firewalls (NGFW) manufactured by Fortinet.
 
- Fortinet's hardware lifecycle policy dictates that an appliance reaches its End Of Support (EOS) exactly 60 months (5 years) after its official End Of Order (EOO) date. During this 5-year period following the end of sales, Fortinet continues to provide technical support, hardware replacements, and critical software updates.
+Fortinet's hardware lifecycle policy dictates that an appliance reaches its End Of Support (EOS) exactly 60 months (5 years) after its official End Of Order (EOO) date. During this 5-year period following the end of sales, Fortinet continues to provide technical support, hardware replacements, and critical software updates.
 
- - [Fortinet Product Life Cycle Page](https://support.fortinet.com/welcome/#/lifecycle)
+- [Fortinet Product Life Cycle Page](https://support.fortinet.com/welcome/#/lifecycle)
 
-Hardware End Of Life is distinct from the software lifecycle. For information regarding the support of the operating system running on these appliances, please refer to to the [FortiOS page](https://endoflife.date/fortios).
+Hardware End Of Life is distinct from the software lifecycle. For information regarding the support of the operating system running on these appliances, please refer to the [FortiOS page](/fortios).
 
 Additionally, highly specific hardware variants (such as government-regulated, low-encryption or ruggedized SKUs) may have custom lifecycle dates and can be verified directly on the [Fortinet Product Life Cycle Page](https://support.fortinet.com/welcome/#/lifecycle).
