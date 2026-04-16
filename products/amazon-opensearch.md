@@ -15,6 +15,16 @@ eoesColumn: Extended Support
 staleReleaseThresholdDays: 2000
 
 releases:
+  - releaseCycle: "3.5"
+    releaseDate: 2026-03-17
+    eol: false
+    eoes: false
+
+  - releaseCycle: "3.3"
+    releaseDate: 2025-11-19
+    eol: false
+    eoes: false
+
   - releaseCycle: "3.1"
     releaseDate: 2025-09-09
     eol: false
