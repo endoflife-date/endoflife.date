@@ -29,8 +29,8 @@ releases:
     staleReleaseThresholdDays: 700 # confirmed on https://ant.apache.org/antnews.html
     releaseDate: 2016-12-27
     eol: false
-    latest: "1.10.16"
-    latestReleaseDate: 2026-03-29
+    latest: "1.10.17"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "1.9"
     releaseDate: 2013-03-07

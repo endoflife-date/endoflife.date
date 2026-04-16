@@ -34,7 +34,7 @@ auto:
 releases:
   - releaseCycle: "4.0"
     releaseDate: 2026-04-14
-    eol: 2027-05-31
+    eol: 2027-05-14
     latest: "4.0.0"
     latestReleaseDate: 2026-04-14
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-40
