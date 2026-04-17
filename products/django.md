@@ -92,7 +92,7 @@ releases:
     lts: true
     releaseDate: 2023-04-03
     eoas: 2023-12-04
-    eol: 2026-04-30
+    eol: 2026-04-07
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
     latest: "4.2.30"
     latestReleaseDate: 2026-04-07

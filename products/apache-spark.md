@@ -31,6 +31,7 @@ releases:
     eol: 2027-06-11 # estimated
     latest: "4.1.1"
     latestReleaseDate: 2026-01-02
+    link: https://spark.apache.org/downloads.html
 
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19

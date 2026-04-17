@@ -51,15 +51,15 @@ releases:
     releaseDate: 2026-02-16
     eol: 2026-08-31
     supportedKubernetesVersions: "1.31 - 1.35"
-    latest: "1.29.1"
-    latestReleaseDate: 2026-03-10
+    latest: "1.29.2"
+    latestReleaseDate: 2026-04-13
 
   - releaseCycle: "1.28"
     releaseDate: 2025-11-05
     eol: 2026-05-31
     supportedKubernetesVersions: "1.30 - 1.34"
-    latest: "1.28.5"
-    latestReleaseDate: 2026-03-10
+    latest: "1.28.6"
+    latestReleaseDate: 2026-04-13
 
   - releaseCycle: "1.27"
     releaseDate: 2025-08-11
