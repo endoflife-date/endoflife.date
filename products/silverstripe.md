@@ -26,6 +26,13 @@ auto:
 # eoas, eol rounded to the end of month
 # When adding a new release, please also update the auto section above with the exact release date.
 releases:
+  - releaseCycle: "6.2"
+    releaseDate: 2026-04-17
+    eoas: 2026-10-31
+    eol: 2027-04-30
+    latest: "6.2.0"
+    latestReleaseDate: 2026-04-17
+
   - releaseCycle: "6.1"
     releaseDate: 2025-10-13
     eoas: 2026-04-17
