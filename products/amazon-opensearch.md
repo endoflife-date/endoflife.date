@@ -14,14 +14,15 @@ eolColumn: Standard Support
 eoesColumn: Extended Support
 staleReleaseThresholdDays: 2000
 
+# EOL can be found on https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#end-of-support
 releases:
   - releaseCycle: "3.5"
-    releaseDate: 2026-03-17
+    releaseDate: 2026-03-18 # https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/
     eol: false
     eoes: false
 
   - releaseCycle: "3.3"
-    releaseDate: 2025-11-19
+    releaseDate: 2025-11-24 # https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-opensearch-service-opensearch-version-3-3/
     eol: false
     eoes: false
 
