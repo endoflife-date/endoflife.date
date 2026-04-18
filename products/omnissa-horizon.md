@@ -19,6 +19,15 @@ customFields:
     label: Technical Guidance Ends
 
 releases:
+  - releaseCycle: "8.2603"
+    releaseDate: 2026-04-14
+    eol: 2029-04-14
+    lts: true
+    technicalGuidance: 2030-04-14
+    latest: "8.2603"
+    latestReleaseDate: 2026-04-14
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2603/page/Horizon8-ReleaseNotes.html
+
   - releaseCycle: "8.2512"
     releaseDate: 2025-12-16
     eol: 2028-12-16
