@@ -27,8 +27,8 @@ auto:
 releases:
   - releaseCycle: "2.0"
     releaseDate: 2026-04-13
-    eol: false # releaseDate(1.22)
-    latest: "1.21.4"
+    eol: false
+    latest: "2.0.0"
     latestReleaseDate: 2026-04-13
 
   - releaseCycle: "1.21"
