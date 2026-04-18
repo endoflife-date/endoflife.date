@@ -31,13 +31,21 @@ auto:
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
 # Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
+  - releaseCycle: "4.11"
+    releaseLabel: '4.11 Edge'
+    releaseDate: 2026-02-28
+    eoas: 2026-07-31
+    eol: 2026-10-31
+    latest: "4.11.2"
+    latestReleaseDate: 2026-04-15 # approximation
+
   - releaseCycle: "4.10"
     releaseLabel: '4.10 Edge'
     releaseDate: 2025-10-31
     eoas: 2026-03-31
     eol: 2026-06-30
-    latest: "4.10.0"
-    latestReleaseDate: 2025-10-31
+    latest: "4.10.5"
+    latestReleaseDate: 2026-03-15 # approximation
 
   - releaseCycle: "4.9-lts"
     releaseLabel: '4.9 LTS'
@@ -45,16 +53,16 @@ releases:
     releaseDate: 2025-02-28
     eoas: 2027-08-31
     eol: 2028-02-29
-    latest: "4.9.9" # should be at least equal to latest of 4.9 Edge, but don't know how to automate that yet
-    latestReleaseDate: 2025-09-02
+    latest: "4.9.16" # should be at least equal to latest of 4.9 Edge, but don't know how to automate that yet
+    latestReleaseDate: 2026-04-15 # approximation
 
   - releaseCycle: "4.9"
     releaseLabel: '4.9 Edge'
     releaseDate: 2025-02-28
     eoas: 2025-11-30
     eol: 2026-02-28
-    latest: "4.9.9"
-    latestReleaseDate: 2025-09-02
+    latest: "4.9.16"
+    latestReleaseDate: 2026-04-15 # approximation
 
   - releaseCycle: "4.8"
     releaseLabel: '4.8 Edge'
