@@ -329,7 +329,7 @@ releases:
     releaseLabel: "Galaxy A16 5G"
     releaseDate: 2024-10-25
     eoas: 2030-10-25 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
-    eol: 2030-10-31      # "6 years of security updates"
+    eol: 2030-10-25      # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A166B/EUX/doc.html
 
   - releaseCycle: "galaxy-z-fold-special-edition"
@@ -490,7 +490,7 @@ releases:
     releaseLabel: "Galaxy A25 5G"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
-    eol: 2032-12-12      # "5 years of security updates"
+    eol: 2028-12-11      # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A256E/CHT/doc.html
 
   - releaseCycle: "galaxy-a15-5g"
@@ -525,7 +525,7 @@ releases:
     releaseLabel: "Galaxy A05"
     releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
     eoas: 2025-10-15 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
-    eol: 2027-10-18      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: 2027-10-15      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A055F/FWD/doc.html
 
   - releaseCycle: "galaxy-s23-fe"
@@ -672,7 +672,7 @@ releases:
     releaseLabel: "Galaxy M04"
     releaseDate: 2022-12-16
     eoas: 2024-12-16
-    eol: 2025-12-16
+    eol: false
     link: https://doc.samsungmobile.com/SM-M045F/INS/doc.html
 
   - releaseCycle: "galaxy-a04e"
@@ -714,7 +714,7 @@ releases:
     releaseLabel: "Galaxy A23 5G"
     releaseDate: 2022-09-02
     eoas: 2025-09-02
-    eol: 2026-03-26
+    eol: false
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
   - releaseCycle: "galaxy-z-fold4"
@@ -777,7 +777,7 @@ releases:
     releaseLabel: "Galaxy M53 5G"
     releaseDate: 2022-04-22 # https://news.samsung.com/in/samsung-launches-galaxy-m53-5g-with-segment-best-108-mp-quad-camera-segment-only-auto-data-switching-segment-leading-samoled-display-in-india
     eoas: 2024-04-22 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2025-04-22 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M536B/SER/doc.html
 
   - releaseCycle: "galaxy-a73-5g"
@@ -833,7 +833,7 @@ releases:
     releaseLabel: "Galaxy A13"
     releaseDate: 2022-03-23
     eoas: 2025-03-23
-    eol: 2026-03-23
+    eol: false
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
   - releaseCycle: "galaxy-f23"
@@ -1078,7 +1078,7 @@ releases:
     releaseLabel: "Galaxy XCover5"
     releaseDate: 2021-03-12
     eoas: 2024-03-12
-    eol: 2025-03-12
+    eol: false
     link: https://doc.samsungmobile.com/SM-G525F/XNZ/doc.html
 
   - releaseCycle: "galaxy-m62"
