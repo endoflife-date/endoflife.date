@@ -30,6 +30,7 @@ auto:
 
 releases:
   - releaseCycle: "2026.3"
+    releaseLabel: "2026.3"
     releaseDate: 2026-03-30
     eol: false
     latest: "2026.3"
@@ -158,7 +159,7 @@ releases:
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 
-Akeneo is migrating to Calendar Versioning (vYYYY.Minor) in 2026. Breaking changes may be introduced in any release (e.g., from v2026.1 to v2026.2). It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
+Akeneo migrated to Calendar Versioning (vYYYY.Minor) in 2026. Breaking changes may be introduced in any release (e.g., from v2026.1 to v2026.2). It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
 
 All active releases, along with their EOL dates, are documented
 [on the help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
