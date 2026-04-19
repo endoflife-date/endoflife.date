@@ -35,8 +35,8 @@ releases:
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.5"
-    latestReleaseDate: 2026-04-08
+    latest: "5.19.6"
+    latestReleaseDate: 2026-04-18
     link: https://activemq.apache.org/components/classic/download/classic-05-19-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "6.1"
