@@ -25,6 +25,7 @@ customFields:
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
 
 identifiers:
+  - purl: pkg:github/spring-projects/spring-framework
   - purl: pkg:maven/org.springframework/spring-core
   - purl: pkg:maven/org.springframework/spring-aop
   - purl: pkg:maven/org.springframework/spring-beans
@@ -156,8 +157,8 @@ releases:
 > programming and configuration model for modern Java-based enterprise applications — on any kind of
 > deployment platform.
 
-See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
-for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
+See [Spring Framework Milestones page](https://github.com/spring-projects/spring-framework/milestones)
+for upcoming releases and [Spring Framework Support page](https://spring.io/projects/spring-framework#support)
 for more details about the support roadmap.
 
 Extended support is available
@@ -168,5 +169,5 @@ Extended support is available
 {% include table.html
   labels="Release,JDK,Jakarta EE"
   fields="releaseCycle,supportedJavaVersions,supportedJakartaEEVersions"
-  types="string,string"
+  types="string,string,string"
   rows=page.releases %}
