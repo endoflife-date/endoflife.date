@@ -9,8 +9,8 @@ alternate_urls:
   - /anthropic-claude
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations
 changelogTemplate: https://www.anthropic.com/news/__RELEASE_CYCLE__
-eoasColumn: Deprecated
-eolColumn: Retired
+eoasColumn: Active support
+eolColumn: Deprecated support
 latestColumn: false
 
 customFields:
