@@ -14,6 +14,7 @@ identifiers:
   - cpe: cpe:2.3:a:libreoffice:libreoffice
 
 auto:
+  disabled: true # prereleases not listed anymore, the script is failing
   methods:
     - libreoffice: https://downloadarchive.documentfoundation.org/libreoffice/old/
       prereleases_url: https://www.libreoffice.org/download/download-libreoffice/
