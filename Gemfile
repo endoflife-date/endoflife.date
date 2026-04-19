@@ -17,11 +17,10 @@ group :jekyll_plugins do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.2.0" if Gem.win_platform?
-
 gem "webrick", "~> 1.9"
 
 gem 'icalendar', '~> 2.12'
@@ -31,3 +30,5 @@ gem "open-uri", "~> 0.5"
 
 # Used in purl-to-url to parse PURLs
 gem "packageurl-ruby", "~> 0.2.0"
+# Required on archlinux, see https://github.com/jekyll/jekyll/issues/9935
+gem "erb", "~> 6.0"
