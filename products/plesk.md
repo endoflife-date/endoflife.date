@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 iconSlug: plesk
 permalink: /plesk
-versionCommand: plesk version
+versionCommand: cat /etc/plesk-release
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
