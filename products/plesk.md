@@ -8,7 +8,7 @@ permalink: /plesk
 versionCommand: |-
   plesk version
 
-  # or (without root acces) alternatively
+  # or alternatively without root access / on Linux
   cat /etc/plesk-release
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
