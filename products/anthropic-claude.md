@@ -248,9 +248,9 @@ releases:
 Anthropic uses the following terms to describe the model lifecycle:
 
 - **Active**: The model is fully supported and recommended for use.
-- **Deprecated**: The model is no longer available for new customers but continues to be available for existing users until retirement.
+- **Deprecated**: The model is no longer available for new customers but continues to be available for existing users until retirement. Deprecation date is same as the "Active Support" end date in the above table.
   Anthropic assigns a retirement date at this point.
-- **Retired**: The model is no longer available for use. Requests to retired models will fail.
+- **Retired**: The model is no longer available for use. Requests to retired models will fail. Retirement date is same as the "Deprecated Support" end date in the above table.
 
 **Note** Deprecated models are likely to be less reliable than active models.
 Anthropic recommends moving workloads to active models to maintain the highest level of support and reliability.
