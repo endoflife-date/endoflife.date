@@ -21,32 +21,33 @@ auto:
 
 # There is no more a notion of "Active support", so:
 # eoas(x) = releaseDate(x)
+# eol(x) = releaseDate(x+3)
 releases:
   - releaseCycle: "31"
     releaseDate: 2026-04-20
     eoas: 2026-04-20
-    eol: false
+    eol: false # releaseDate(34)
     latest: "31.0"
     latestReleaseDate: 2026-04-20
 
   - releaseCycle: "30"
     releaseDate: 2025-10-10
     eoas: 2025-10-10
-    eol: false
+    eol: false # releaseDate(33)
     latest: "30.2"
     latestReleaseDate: 2026-01-13
 
   - releaseCycle: "29"
     releaseDate: 2025-04-14
     eoas: 2025-10-10
-    eol: false
+    eol: false # releaseDate(32)
     latest: "29.3"
     latestReleaseDate: 2026-02-11
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
     eoas: 2025-10-10
-    eol: false
+    eol: 2026-04-19
     latest: "28.4"
     latestReleaseDate: 2026-04-06
 
