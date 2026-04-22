@@ -1,69 +1,49 @@
 ---
-
 title: Hcl Notes
-
 addedAt: 2026-04-20
 category: app
 tags: hcl 
 
 permalink: /hcl-notes
-
 alternate_urls:
 -   /lotus-notes
 -   /hcl-domino
 
 versionCommand: Menu "?"> "About"
-
+releaseLabel: "HCL Notes __RELEASE_CYCLE__"
 latestColumn: false
 eolColumn: End of Support
 eoesColumn: End of Extended Support
-
-
 releasePolicyLink: https://www.hcl-software.com/resources/product-release/standard-and-enhanced
+changelogTemplate: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
 
 releases:
   - releaseCycle: "14.5.x"
-    releaseLabel: "HCL Notes 14.5.x"
     releaseDate: 2025-06-17
-    lts: false
     eol: false
-    link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
-    
 
   - releaseCycle: "14.0.x"
-    releaseLabel: "HCL Notes 14.0.x"
     releaseDate: 2023-12-07
-    lts: false
     eol: false
-    link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
 
   - releaseCycle: "12.0.x"
-    releaseLabel: "HCL Notes 12.0.x"
     releaseDate: 2021-05-27
-    lts: false
     eol: false
-    link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
 
   - releaseCycle: "11.0.x"
-    releaseLabel: "HCL Notes 11.0.x"
     releaseDate: 2019-12-20
-    lts: false
     eol: 2025-06-26
     eoes: 2025-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0114064    
 
   - releaseCycle: "10.0.x"
-    releaseLabel: "HCL Notes 10.0.x"
     releaseDate: 2018-10-10
-    lts: false
     eol: 2024-01-06
     eoes: 2030-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0099055
 
   - releaseCycle: "9.0.x"
-    releaseLabel: "HCL Notes 9.0.x"
     releaseDate: 2013-12-04
-    lts: false
     eol: 2024-01-06
     eoes: 2030-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0099055
