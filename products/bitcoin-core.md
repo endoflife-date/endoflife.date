@@ -209,4 +209,5 @@ Bitcoin Core releases are versioned as follows: `MAJOR.MINOR` with:
 - `MINOR` being incremented for maintenance releases, which may include minor features and consensus rule updates.
 
 The last three major releases are maintained with minor features, consensus rule updates, as well as bug and security fixes.
+A new major release is made roughly every 6 months, leading to a 18-month support cycle.
 The threshold for backporting a change to an older major version increases as it ages.
