@@ -38,10 +38,10 @@ identifiers:
 releases:
   - releaseCycle: "9.7"
     releaseDate: 2026-04-21
-    eoas: false # releaseDate(x+1)
-    eol: false # releaseDate(x+1)
-    latest: "9.7.0"
     lts: true
+    eoas: false # releaseDate(x+1)
+    eol: 2034-04-21 # estimated eol date
+    latest: "9.7.0"
     latestReleaseDate: 2026-04-21
     link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
 
