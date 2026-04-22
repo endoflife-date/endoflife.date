@@ -135,6 +135,49 @@ releases:
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
 
+  - releaseCycle: "1.6"
+    releaseDate: 2015-10-13
+    eol: 2020-10-01
+    latest: "1.6.16"
+    latestReleaseDate: 2021-03-19
+
+  - releaseCycle: "1.5"
+    releaseDate: 2014-06-19
+    eol: 2020-01-10
+    latest: "1.5.19"
+    latestReleaseDate: 2016-12-25
+
+  - releaseCycle: "1.4"
+    releaseDate: 2010-02-26
+    eol: 2020-01-10
+    latest: "1.4.27"
+    latestReleaseDate: 2016-03-14
+
+  - releaseCycle: "1.3"
+    releaseDate: 2006-06-29
+    eol: 2016-03-14
+    latest: "1.3.28"
+    latestReleaseDate: 2016-03-14
+
+  - releaseCycle: "1.2"
+    releaseDate: 2003-11-09
+    eol: 2011-08-06
+    latest: "1.2.18"
+    latestReleaseDate: 2008-05-25
+
+  - releaseCycle: "1.1"
+    releaseDate: 2002-03-10
+    eol: 2006-01-29
+    latest: "1.1.34"
+    latestReleaseDate: 2006-01-29
+
+  - releaseCycle: "1.0"
+    releaseDate: 2001-12-16
+    eol: 2001-12-30
+    latest: "1.0.2"
+    latestReleaseDate: 2001-12-30
+    link: null
+
 ---
 
 > [HAProxy](https://www.haproxy.org/) is a free, fast, and reliable reverse-proxy offering high

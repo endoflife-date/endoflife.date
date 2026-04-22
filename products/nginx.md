@@ -28,8 +28,13 @@ auto:
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
-
 releases:
+  - releaseCycle: "1.30"
+    releaseDate: 2026-04-14
+    eol: false
+    latest: "1.30.0"
+    latestReleaseDate: 2026-04-14
+
   - releaseCycle: "1.29"
     releaseDate: 2025-06-24
     eol: false
@@ -39,7 +44,7 @@ releases:
 
   - releaseCycle: "1.28"
     releaseDate: 2025-04-23
-    eol: false
+    eol: 2026-04-14
     latest: "1.28.3"
     latestReleaseDate: 2026-03-24
 

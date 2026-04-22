@@ -107,10 +107,9 @@ releases:
     latestReleaseDate: 2023-05-04
 
   - releaseCycle: "3.2"
-    staleReleaseThresholdDays: 1000 # status is unclear, https://github.com/apache/apisix/issues/11759
     lts: true
     releaseDate: 2023-03-06
-    eol: false
+    eol: 2024-11-13 # https://github.com/apache/apisix-website/pull/1830
     latest: "3.2.2"
     latestReleaseDate: 2023-07-22
 
