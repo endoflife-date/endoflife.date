@@ -28,7 +28,7 @@ releases:
 
   - releaseCycle: "14.0.x"
     releaseLabel: "HCL Notes 14.0.x"
-    releaseDate: 2023-07-12
+    releaseDate: 2023-12-07
     lts: false
     eol: false
     link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
@@ -42,7 +42,7 @@ releases:
 
   - releaseCycle: "11.0.x"
     releaseLabel: "HCL Notes 11.0.x"
-    releaseDate: 2019-20-12
+    releaseDate: 2019-12-20
     lts: false
     eol: 2025-06-26
     eoes: 2025-06-30
@@ -53,7 +53,7 @@ releases:
     releaseDate: 2018-10-10
     lts: false
     eol: 2024-01-06
-    eoes: 2030-30-06
+    eoes: 2030-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0099055
 
   - releaseCycle: "9.0.x"
@@ -61,7 +61,7 @@ releases:
     releaseDate: 2013-12-04
     lts: false
     eol: 2024-01-06
-    eoes: 2030-30-06
+    eoes: 2030-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0099055
 
 ---
