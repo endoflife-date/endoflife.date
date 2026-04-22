@@ -41,6 +41,7 @@ releases:
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
     latest: "9.7.0"
+    lts: true
     latestReleaseDate: 2026-04-21
     link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
 
