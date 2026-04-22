@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "7.21"
     releaseDate: 2026-01-12
     eol: 2026-03-10
-    latest: "7.21.3"
-    latestReleaseDate: 2026-02-13
+    latest: "7.21.4"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "7.20"
     lts: true

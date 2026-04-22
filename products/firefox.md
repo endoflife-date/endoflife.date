@@ -92,8 +92,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
-    latest: "140.9.1"
-    latestReleaseDate: 2026-04-07
+    latest: "140.10.0"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -244,8 +244,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2026-08-28 # https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support
-    latest: "115.34.1"
-    latestReleaseDate: 2026-04-07
+    latest: "115.35.0"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06
