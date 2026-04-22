@@ -14,6 +14,10 @@ alternate_urls:
 
 versionCommand: Menu "?"> "About"
 
+latestColumn: false
+eolColumn: End of Support
+eoesColumn: End of Extended Support
+
 
 releasePolicyLink: https://www.hcl-software.com/resources/product-release/standard-and-enhanced
 
@@ -23,7 +27,7 @@ releases:
     releaseDate: 2025-06-17
     lts: false
     eol: false
-    link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
+    link: eolColumn
     
 
   - releaseCycle: "14.0.x"
