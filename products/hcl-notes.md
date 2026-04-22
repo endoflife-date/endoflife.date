@@ -27,7 +27,7 @@ releases:
     releaseDate: 2025-06-17
     lts: false
     eol: false
-    link: eolColumn
+    link: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
     
 
   - releaseCycle: "14.0.x"
