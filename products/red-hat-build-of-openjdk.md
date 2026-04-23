@@ -40,6 +40,18 @@ identifiers:
   - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug
   - purl: pkg:rpm/redhat/java-11-openjdk-devel
   - purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
+  - purl: pkg:rpm/redhat/java-17-openjdk
+  - purl: pkg:rpm/redhat/java-17-openjdk-devel
+  - purl: pkg:rpm/redhat/java-17-openjdk-headless
+  - purl: pkg:rpm/redhat/java-17-openjdk-headless-devel
+  - purl: pkg:rpm/redhat/java-21-openjdk
+  - purl: pkg:rpm/redhat/java-21-openjdk-devel
+  - purl: pkg:rpm/redhat/java-21-openjdk-headless
+  - purl: pkg:rpm/redhat/java-21-openjdk-headless-devel
+  - purl: pkg:rpm/redhat/java-25-openjdk
+  - purl: pkg:rpm/redhat/java-25-openjdk-devel
+  - purl: pkg:rpm/redhat/java-25-openjdk-headless
+  - purl: pkg:rpm/redhat/java-25-openjdk-headless-devel
 
 auto:
   methods:
@@ -104,7 +116,6 @@ releases:
     latest: "1.6.0.41-1.13.13.1"
     latestReleaseDate: 2017-01-04
     link: null
-
 ---
 
 > [Red Hat build of OpenJDK](https://access.redhat.com/products/openjdk/) is a build of the Open
