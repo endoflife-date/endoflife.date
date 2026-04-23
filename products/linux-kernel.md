@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "6.19"
     releaseDate: 2026-02-08
-    eol: false
+    eol: 2026-04-22 # announced https://lore.kernel.org/all/2026042220-coastline-flirt-ad3c@gregkh/
     latest: "6.19.14"
     latestReleaseDate: 2026-04-22
 
