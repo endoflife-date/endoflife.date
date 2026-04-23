@@ -32,7 +32,7 @@ identifiers:
 # Exact day for some dates is not available, in this case use the same day as the release date.
 releases:
   - releaseCycle: "26.04"
-    codename: "Noble Numbat"
+    codename: "Resolute Raccoon"
     lts: true
     releaseDate: 2026-04-23
     eoas: 2031-05-31
