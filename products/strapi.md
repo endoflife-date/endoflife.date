@@ -28,6 +28,7 @@ auto:
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-09-18
+    lts: true
     eoas: false
     eol: false
     latest: "5.43.0"
