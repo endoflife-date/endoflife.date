@@ -102,8 +102,8 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.27"
-    latestReleaseDate: 2026-04-07
+    latest: "24.1.28"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05

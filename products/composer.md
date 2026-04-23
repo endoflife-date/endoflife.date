@@ -75,7 +75,7 @@ releases:
     releaseDate: 2021-06-03
     eol: 2021-12-22
     latest: "2.1.14"
-    latestReleaseDate: 2021-10-30
+    latestReleaseDate: 2021-11-30
 
   - releaseCycle: "2.0"
     releaseDate: 2020-10-24
