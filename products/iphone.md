@@ -264,7 +264,7 @@ releases:
     releaseLabel: "XR"
     releaseDate: 2018-10-26
     discontinued: 2021-09-07
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP781
     supportedIosVersions: "12 - 18"
 
@@ -272,7 +272,7 @@ releases:
     releaseLabel: "XS"
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP779
     supportedIosVersions: "12 - 18"
 
@@ -280,7 +280,7 @@ releases:
     releaseLabel: "XS Max"
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP780
     supportedIosVersions: "12 - 18"
 
