@@ -55,4 +55,3 @@ releases:
 
 HCLSoftware releases products with predictable, consistent and transparent lifecycle policies for software support and servicing. The supported lifecycle policies are Standard Support (3+2), Enhanced Support (5+3), Other Support (applicable for acquired products) and Continuous Delivery (2+1).
 
-HCL Notes (formerly Lotus Notes then IBM Notes) is a proprietary collaborative software platform for Unix (AIX), IBM i, Windows, Linux, and macOS, sold by HCLTech. The client application is called Notes while the server component is branded HCL Domino. 
