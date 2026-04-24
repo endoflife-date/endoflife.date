@@ -1,5 +1,5 @@
 ---
-title: Hcl Notes
+title: HCL Notes
 addedAt: 2026-04-20
 category: app
 tags: hcl 
