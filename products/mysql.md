@@ -49,8 +49,8 @@ releases:
     releaseDate: 2026-01-20
     eoas: 2026-04-21
     eol: 2026-04-21
-    latest: "9.6.0"
-    latestReleaseDate: 2025-12-23
+    latest: "9.6.1"
+    latestReleaseDate: 2026-01-16
     link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-6-0.html
 
   - releaseCycle: "9.5"
