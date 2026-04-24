@@ -71,6 +71,18 @@ releases:
     latest: "2.2.27"
     latestReleaseDate: 2026-04-14
 
+  - releaseCycle: "2.1"
+    releaseDate: 2021-06-03
+    eol: 2021-12-22
+    latest: "2.1.14"
+    latestReleaseDate: 2021-11-30
+
+  - releaseCycle: "2.0"
+    releaseDate: 2020-10-24
+    eol: 2021-06-03
+    latest: "2.0.14"
+    latestReleaseDate: 2021-05-21
+
   - releaseCycle: "1"
     releaseDate: 2016-04-05
     eol: 2020-10-24

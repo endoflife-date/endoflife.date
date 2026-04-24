@@ -4,6 +4,7 @@ addedAt: 2025-09-12
 category: server-app
 tags: linux-foundation
 permalink: /openbao
+iconSlug: openbao
 alternate_urls:
   - /open-bao
   - /bao

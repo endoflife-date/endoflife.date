@@ -31,6 +31,16 @@ identifiers:
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 # Exact day for some dates is not available, in this case use the same day as the release date.
 releases:
+  - releaseCycle: "26.04"
+    codename: "Resolute Raccoon"
+    lts: true
+    releaseDate: 2026-04-23
+    eoas: 2031-05-31
+    eol: 2031-05-31
+    eoes: 2031-05-31
+    latest: "26.04"
+    latestReleaseDate: 2026-04-23
+    
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
