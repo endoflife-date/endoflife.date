@@ -8,6 +8,7 @@ permalink: /hcl-notes
 alternate_urls:
 -   /lotus-notes
 -   /hcl-domino
+-   /ibm-notes
 
 versionCommand: Menu "?"> "About"
 releaseLabel: "HCL Notes __RELEASE_CYCLE__"
@@ -18,31 +19,31 @@ releasePolicyLink: https://www.hcl-software.com/resources/product-release/standa
 changelogTemplate: https://www.hcl-software.com/resources/product-release/product-lifecycle-table?searchTerm=hcl-notes
 
 releases:
-  - releaseCycle: "14.5.x"
+  - releaseCycle: "14.5"
     releaseDate: 2025-06-17
     eol: false
 
-  - releaseCycle: "14.0.x"
+  - releaseCycle: "14.0"
     releaseDate: 2023-12-07
     eol: false
 
-  - releaseCycle: "12.0.x"
+  - releaseCycle: "12.0"
     releaseDate: 2021-05-27
     eol: false
 
-  - releaseCycle: "11.0.x"
+  - releaseCycle: "11.0"
     releaseDate: 2019-12-20
     eol: 2025-06-26
     eoes: 2025-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0114064    
 
-  - releaseCycle: "10.0.x"
+  - releaseCycle: "10.0"
     releaseDate: 2018-10-10
     eol: 2024-01-06
     eoes: 2030-06-30
     link: https://support.hcl-software.com/csm?id=kb_article&sysparm_article=KB0099055
 
-  - releaseCycle: "9.0.x"
+  - releaseCycle: "9.0"
     releaseDate: 2013-12-04
     eol: 2024-01-06
     eoes: 2030-06-30
