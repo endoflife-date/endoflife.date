@@ -4,6 +4,7 @@ addedAt: 2023-07-17
 category: server-app
 tags: linux-foundation
 iconSlug: prometheus
+versionCommand: prometheus --version
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
