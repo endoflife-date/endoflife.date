@@ -50,8 +50,8 @@ releases:
 
 ---
 
-> HCL Notes is the email client software that gives teams access to email, calendar, and contact management capabilities, 
-> and seamlessly integrates other collaboration tools and HCL Domino business applications. 
+> HCL Notes (formerly Lotus Notes then IBM Notes) is an email client software that gives teams access to email, calendar, and contact management capabilities. 
+> The client application is called Notes while the server component is branded HCL Domino.
 
 HCLSoftware releases products with predictable, consistent and transparent lifecycle policies for software support and servicing. The supported lifecycle policies are Standard Support (3+2), Enhanced Support (5+3), Other Support (applicable for acquired products) and Continuous Delivery (2+1).
 
