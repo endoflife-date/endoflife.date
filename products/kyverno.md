@@ -32,22 +32,22 @@ releases:
   - releaseCycle: "1.17"
     releaseDate: 2026-02-02
     eol: false
-    latest: "1.17.1"
-    latestReleaseDate: 2026-02-19
+    latest: "1.17.2"
+    latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.32 - 1.35
 
   - releaseCycle: "1.16"
     releaseDate: 2025-11-10
     eol: false
-    latest: "1.16.3"
-    latestReleaseDate: 2026-01-27
+    latest: "1.16.4"
+    latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.31 - 1.34
 
   - releaseCycle: "1.15"
     releaseDate: 2025-07-31
     eol: false
-    latest: "1.15.3"
-    latestReleaseDate: 2026-01-27
+    latest: "1.15.20"
+    latestReleaseDate: 2025-11-05
     supportedK8sVersions: 1.30 - 1.33
 
   - releaseCycle: "1.14"

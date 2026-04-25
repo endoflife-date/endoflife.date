@@ -17,7 +17,7 @@ customFields:
     display: after-latest-column
     label: Latest JDK
     description: Corresponding latest Java version
-    link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
+    link: https://docs.azul.com/core/detailed/versioning-and-naming
 
 identifiers:
   - repology: zulu-openjdk
@@ -53,7 +53,7 @@ releases:
     lts: true
     releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes/release-notes
     eol: 2033-09-30
-    eoes: 2033-09-30
+    eoes: 2035-09-30
     latest: "25.32.21"
     latestJdkVersion: "25.0.2+10"
     latestReleaseDate: 2026-01-30
@@ -187,8 +187,8 @@ releases:
   - releaseCycle: "11"
     lts: true
     releaseDate: 2018-09-25
-    eol: 2026-09-30
-    eoes: 2028-09-30
+    eol: 2032-01-31
+    eoes: 2034-01-31
     latest: "11.86.21"
     latestJdkVersion: "11.0.30+7"
     latestReleaseDate: 2026-01-30

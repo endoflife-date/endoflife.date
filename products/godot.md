@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "4.5"
     releaseDate: 2025-09-15
-    eoas: false
+    eoas: 2026-03-19 # https://github.com/godotengine/godot-docs/commit/00873c99a2d3131859cb121ffa31d33f6fafa6d8
     eol: false
     latest: "4.5.2"
     latestReleaseDate: 2026-03-18
@@ -46,7 +46,7 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2025-03-03
     eoas: 2025-10-23 # https://github.com/godotengine/godot-docs/commit/08f524c79b7b15ef91205599e38ed20205fec95a
-    eol: false
+    eol: 2026-03-26 # https://github.com/godotengine/godot-docs/commit/00873c99a2d3131859cb121ffa31d33f6fafa6d8
     latest: "4.4.1"
     latestReleaseDate: 2025-03-26
 

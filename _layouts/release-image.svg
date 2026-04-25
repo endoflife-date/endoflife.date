@@ -15,6 +15,9 @@
     .eoas { fill: #0A2472; }
     .eol { fill: #1E96FC; }
     .eoes { fill: #CDEBFF; }
+    .no-end { fill: #C8C8C8; }
+    .no-end-badge { width: {{ page.no_end_badge_width }}px; stroke: #ccc; stroke-width: 1; stroke-dasharray: 2,3; }
+    .no-end-plus { font-size: 14px; font-weight: bold; fill: white; }
     .legend-icon { width: 14px; height: 14px; rx: 2; ry: 2; }
   </style>
 
@@ -41,6 +44,10 @@
       {% if row.security_width > 0 %}
       <rect class="bar eol" x="{{ row.security_x }}" y="0" width="{{ row.security_width }}" height="{{ page.row_height }}"/>
       {% endif %}
+      {% if row.no_end_date %}
+      <rect class="bar no-end-badge no-end" x="{{ page.today_x }}" y="0" height="{{ page.row_height }}"/>
+      <text class="no-end-plus" x="{{ page.no_end_badge_width | divided_by: 2 | plus: page.today_x }}" y="{{ page.text_y_offset }}" text-anchor="middle">+</text>
+      {% endif %}
     </g>
     {% endfor %}
 
@@ -49,15 +56,10 @@
 
     <!-- Legend -->
     <g transform="translate({{ page.legend_dx }}, {{ page.legend_y }})">
-      {% if page.has_eoas_column %}
-      <rect class="legend-icon eoas" x="0" y="0"/>
-      <text class="label" x="18" y="11">{{ page.eoas_label | xml_escape }}</text>
-      <rect class="legend-icon eol" x="240" y="0"/>
-      <text class="label" x="258" y="11">{{ page.eol_label | xml_escape }}</text>
-      {% else %}
-      <rect class="legend-icon eol" x="0" y="0"/>
-      <text class="label" x="18" y="11">{{ page.eol_label | xml_escape }}</text>
-      {% endif %}
+      {% for item in page.legend_items %}
+      <rect class="legend-icon {{ item.icon_class }}" x="{{ item.x }}" y="0"/>
+      <text class="label" x="{{ item.x | plus: 18 }}" y="11">{{ item.label | xml_escape }}</text>
+      {% endfor %}
     </g>
   </g>
 </svg>

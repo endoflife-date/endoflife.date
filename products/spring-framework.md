@@ -25,6 +25,7 @@ customFields:
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
 
 identifiers:
+  - purl: pkg:github/spring-projects/spring-framework
   - purl: pkg:maven/org.springframework/spring-core
   - purl: pkg:maven/org.springframework/spring-aop
   - purl: pkg:maven/org.springframework/spring-beans
@@ -63,8 +64,8 @@ releases:
     releaseDate: 2025-11-30
     eol: 2027-06-30
     eoes: 2028-06-30
-    latest: "7.0.6"
-    latestReleaseDate: 2026-03-13
+    latest: "7.0.7"
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"
@@ -72,8 +73,8 @@ releases:
     releaseDate: 2024-11-30
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "6.2.17"
-    latestReleaseDate: 2026-03-13
+    latest: "6.2.18"
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"
@@ -156,8 +157,8 @@ releases:
 > programming and configuration model for modern Java-based enterprise applications — on any kind of
 > deployment platform.
 
-See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
-for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
+See [Spring Framework Milestones page](https://github.com/spring-projects/spring-framework/milestones)
+for upcoming releases and [Spring Framework Support page](https://spring.io/projects/spring-framework#support)
 for more details about the support roadmap.
 
 Extended support is available
@@ -168,5 +169,5 @@ Extended support is available
 {% include table.html
   labels="Release,JDK,Jakarta EE"
   fields="releaseCycle,supportedJavaVersions,supportedJakartaEEVersions"
-  types="string,string"
+  types="string,string,string"
   rows=page.releases %}

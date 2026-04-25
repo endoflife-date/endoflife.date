@@ -25,6 +25,7 @@ identifiers:
   - purl: pkg:rpm/centos/mongodb-enterprise-server
   - repology: mongodb
   - cpe: cpe:2.3:a:mongodb:mongodb
+  - cpe: cpe:2.3:a:mongodb-org-server:mongodb-org-server
 
 auto:
   methods:

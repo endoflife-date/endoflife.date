@@ -17,7 +17,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/kubernetes-sigs/karpenter.git
+    - github_releases: kubernetes-sigs/karpenter
 
 customFields:
   - name: supportedKubernetesVersion
@@ -26,12 +26,27 @@ customFields:
     description: Supported Kubernetes Versions
     link: https://karpenter.sh/docs/upgrading/compatibility
 
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.11"
+    releaseDate: 2026-04-06
+    eol: false
+    latest: "1.11.1"
+    latestReleaseDate: 2026-04-09
+    supportedKubernetesVersion: "1.29 - 1.35"
+
+  - releaseCycle: "1.10"
+    releaseDate: 2026-03-20
+    eol: 2026-04-06
+    latest: "1.10.0"
+    latestReleaseDate: 2026-03-20
+    supportedKubernetesVersion: "1.29 - 1.35"
+
   - releaseCycle: "1.9"
     releaseDate: 2026-02-06
-    eol: false
+    eol: 2026-03-20
     latest: "1.9.0"
-    latestReleaseDate: 2026-02-04
+    latestReleaseDate: 2026-02-06
     supportedKubernetesVersion: "1.29 - 1.35"
 
   - releaseCycle: "1.8"
@@ -45,56 +60,56 @@ releases:
     releaseDate: 2025-09-16
     eol: 2026-02-06
     latest: "1.7.1"
-    latestReleaseDate: 2025-09-17
+    latestReleaseDate: 2025-09-18
     supportedKubernetesVersion: "1.29 - 1.34"
 
   - releaseCycle: "1.6"
     releaseDate: 2025-07-14
     eol: 2025-10-08
     latest: "1.6.3"
-    latestReleaseDate: 2025-09-03
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.34"
 
   - releaseCycle: "1.5"
     releaseDate: 2025-05-24
     eol: 2025-09-16
     latest: "1.5.4"
-    latestReleaseDate: 2025-08-26
+    latestReleaseDate: 2025-08-27
     supportedKubernetesVersion: "1.29 - 1.33"
 
   - releaseCycle: "1.4"
     releaseDate: 2025-04-16
     eol: 2025-07-14
     latest: "1.4.1"
-    latestReleaseDate: 2025-09-26
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.3"
     releaseDate: 2025-03-04
     eol: 2025-05-24
     latest: "1.3.4"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.2"
     releaseDate: 2025-01-28
     eol: 2025-04-16
     latest: "1.2.4"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.32"
 
   - releaseCycle: "1.1"
     releaseDate: 2024-11-30
     eol: 2025-03-04
     latest: "1.1.4"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.31"
 
   - releaseCycle: "1.0"
     releaseDate: 2024-08-14
     eol: 2025-01-28
     latest: "1.0.8"
-    latestReleaseDate: 2025-10-01
+    latestReleaseDate: 2025-10-08
     supportedKubernetesVersion: "1.29 - 1.31"
 
 

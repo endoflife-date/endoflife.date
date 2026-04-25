@@ -4,6 +4,7 @@ addedAt: 2023-07-17
 category: server-app
 tags: linux-foundation
 iconSlug: prometheus
+versionCommand: prometheus --version
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
@@ -34,6 +35,12 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+  - releaseCycle: "3.11"
+    releaseDate: 2026-04-02
+    eol: 2026-05-14
+    latest: "3.11.2"
+    latestReleaseDate: 2026-04-13
+
   - releaseCycle: "3.10"
     releaseDate: 2026-02-25
     eol: 2026-04-08
@@ -68,8 +75,8 @@ releases:
     lts: true
     releaseDate: 2025-07-14
     eol: 2026-07-31
-    latest: "3.5.1"
-    latestReleaseDate: 2026-01-21
+    latest: "3.5.2"
+    latestReleaseDate: 2026-04-13
 
   - releaseCycle: "3.4"
     releaseDate: 2025-05-17

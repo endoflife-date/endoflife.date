@@ -22,9 +22,15 @@ auto:
 #
 # Official releases dates and git tag dates always differ by a few days.
 releases:
+  - releaseCycle: "3.16"
+    releaseDate: 2026-04-08
+    eol: false
+    latest: "3.16.0"
+    latestReleaseDate: 2026-04-08
+
   - releaseCycle: "3.15"
     releaseDate: 2026-02-05
-    eol: false
+    eol: 2026-04-08
     latest: "3.15.0"
     latestReleaseDate: 2026-02-05
 
@@ -101,10 +107,9 @@ releases:
     latestReleaseDate: 2023-05-04
 
   - releaseCycle: "3.2"
-    staleReleaseThresholdDays: 1000 # status is unclear, https://github.com/apache/apisix/issues/11759
     lts: true
     releaseDate: 2023-03-06
-    eol: false
+    eol: 2024-11-13 # https://github.com/apache/apisix-website/pull/1830
     latest: "3.2.2"
     latestReleaseDate: 2023-07-22
 

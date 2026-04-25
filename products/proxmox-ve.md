@@ -89,5 +89,5 @@ releases:
 > software server for virtualization management. It is a hosted hypervisor that can run operating
 > systems including Linux and Windows on x64 hardware.
 
-Proxmox VE versions are supported at least as long as the corresponding Debian Version is oldstable.
-Proxmox VE uses a rolling release model, and using the latest stable version is always recommended.
+Proxmox VE versions are supported at least as long as the corresponding Debian version, i.e. approximately 3 years after its initial release, see [Debian lifespan](https://www.debian.org/security/faq#lifespan).
+Proxmox VE uses a rolling release model and using the latest stable version is always recommended.
