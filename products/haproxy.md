@@ -37,8 +37,8 @@ releases:
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.15"
-    latestReleaseDate: 2026-03-19
+    latest: "3.2.16"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
@@ -50,8 +50,8 @@ releases:
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.19"
-    latestReleaseDate: 2026-03-19
+    latest: "3.0.20"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.9"
     releaseDate: 2023-12-05
@@ -63,8 +63,8 @@ releases:
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.20"
-    latestReleaseDate: 2026-03-20
+    latest: "2.8.21"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.7"
     releaseDate: 2022-12-01
@@ -76,8 +76,8 @@ releases:
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
-    latest: "2.6.25"
-    latestReleaseDate: 2026-03-20
+    latest: "2.6.26"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.5"
     releaseDate: 2021-11-23
@@ -89,8 +89,8 @@ releases:
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
-    latest: "2.4.31"
-    latestReleaseDate: 2026-03-09
+    latest: "2.4.32"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.3"
     releaseDate: 2020-11-05
