@@ -12,6 +12,7 @@ releasePolicyLink: https://docs.aws.amazon.com/opensearch-service/latest/develop
 latestColumn: false
 eolColumn: Standard Support
 eoesColumn: Extended Support
+staleReleaseThresholdDays: 1000
 
 # EOL can be found on https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#end-of-support
 releases:

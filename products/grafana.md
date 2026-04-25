@@ -4,7 +4,13 @@ addedAt: 2022-11-02
 category: server-app
 iconSlug: grafana
 permalink: /grafana
-versionCommand: grafana-server -v
+versionCommand: |-
+  # For Grafana >= 13
+  grafana --version
+
+  # For Grafana < 13
+  grafana-server -v
+
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 eoasColumn: true
 

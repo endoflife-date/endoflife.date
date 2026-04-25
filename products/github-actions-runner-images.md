@@ -8,6 +8,7 @@ permalink: /github-actions-runner-images
 eoasColumn: Deprecated
 eolColumn: Removed
 latestColumn: false
+staleReleaseThresholdDays: 720
 
 auto:
   methods:
@@ -39,6 +40,13 @@ releases:
     eoas: false
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/windows/Windows2025-Readme.md
+
+  - releaseCycle: "macos-15-arm64"
+    releaseLabel: "macOS 15 Arm64"
+    releaseDate: 2025-04-10 # https://github.blog/changelog/2025-04-10-github-actions-macos-15-and-windows-2025-images-are-now-generally-available/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/macos/macos-15-arm64-Readme.md
 
   - releaseCycle: "macos-15"
     releaseLabel: "macOS 15"
@@ -81,6 +89,7 @@ releases:
     eoas: false
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
+    staleReleaseThresholdDays: 1825 # still not announced
 
   - releaseCycle: "macos-12"
     releaseLabel: "macOS 12"
@@ -95,6 +104,7 @@ releases:
     eoas: false
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/windows/Windows2022-Readme.md
+    staleReleaseThresholdDays: 1825 # still not announced
 
   - releaseCycle: "ubuntu-20.04"
     releaseLabel: "Ubuntu 20.04"
