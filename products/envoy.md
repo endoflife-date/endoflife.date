@@ -41,6 +41,12 @@ auto:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+  - releaseCycle: "1.38"
+    releaseDate: 2026-04-23
+    eol: 2027-04-23
+    latest: "1.38.0"
+    latestReleaseDate: 2026-04-23
+
   - releaseCycle: "1.37"
     releaseDate: 2026-01-13
     eol: 2027-01-13
