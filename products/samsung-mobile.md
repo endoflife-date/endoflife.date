@@ -826,14 +826,14 @@ releases:
     releaseLabel: "Galaxy A23"
     releaseDate: 2022-03-25
     eoas: 2025-03-25
-    eol: 2026-03-25   # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
+    eol: false
     link: https://doc.samsungmobile.com/SM-A235M/PET/doc.html
 
   - releaseCycle: "galaxy-a13"
     releaseLabel: "Galaxy A13"
     releaseDate: 2022-03-23
     eoas: 2025-03-23
-    eol: 2026-03-23   # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
+    eol: false
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
   - releaseCycle: "galaxy-f23"
@@ -1078,7 +1078,7 @@ releases:
     releaseLabel: "Galaxy XCover5"
     releaseDate: 2021-03-12
     eoas: 2024-03-12
-    eol: 2026-03-12  # 5 years of security updates -  https://news.samsung.com/uk/samsung-announces-galaxy-xcover-5-the-latest-rugged-smartphone-built-for-the-toughest-environments?utm_source=chatgpt.com
+    eol: false
     link: https://doc.samsungmobile.com/SM-G525F/XNZ/doc.html
 
   - releaseCycle: "galaxy-m62"
