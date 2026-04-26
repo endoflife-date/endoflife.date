@@ -19,7 +19,7 @@ auto:
 releases:
   - releaseCycle: motorola-razr-fold
     releaseLabel: "Motorola RAZR Fold"
-    releaseDate: 2026-04-18 # https://www.gsmarena.com/motorola_razr_fold_5g-14402.php
+    releaseDate: 2026-03-01 # https://www.gsmarena.com/motorola_razr_fold_5g-14402.php
     eol: 2030-03-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12524
 

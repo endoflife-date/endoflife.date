@@ -714,7 +714,7 @@ releases:
     releaseLabel: "Galaxy A23 5G"
     releaseDate: 2022-09-02
     eoas: 2025-09-02
-    eol: 2026-09-02   # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
+    eol: false        # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
   - releaseCycle: "galaxy-z-fold4"
