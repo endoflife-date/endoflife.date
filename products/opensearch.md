@@ -10,7 +10,7 @@ versionCommand: |-
 
   # CLI method (may use significant memory due to JVM)
   # WARNING: large heap settings (e.g. Xmx = 50% RAM) may trigger extra allocation and OOM killer
-  opensearch --version
+  opensearch --version 2>/dev/null
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
