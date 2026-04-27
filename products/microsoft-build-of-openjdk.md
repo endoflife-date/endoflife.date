@@ -37,30 +37,30 @@ releases:
     lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
-    latest: "25.0.2"
-    latestReleaseDate: 2026-01-20
+    latest: "25.0.3"
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
-    latest: "21.0.10"
-    latestReleaseDate: 2026-01-15
+    latest: "21.0.11"
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
-    latest: "17.0.18"
-    latestReleaseDate: 2026-01-15
+    latest: "17.0.19"
+    latestReleaseDate: 2026-04-17
 
   # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
   - releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
     eol: 2027-09-30
-    latest: "11.0.30"
-    latestReleaseDate: 2026-01-21
+    latest: "11.0.31"
+    latestReleaseDate: 2026-04-22
 
 ---
 

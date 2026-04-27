@@ -101,13 +101,13 @@ This page only covers the Enterprise edition.
 
 Support for Veeam ONE always requires an active maintenance contract and is divided into two phases.
 
-The first phase is ending with the end of fix date. During this phase, updates, patches, and hotfixes
+The first phase ends with the end of fix date. During this phase, updates, patches, and hotfixes
 are provided for the product.
 
-The second phase is ending with the end of support date. Updates, patches, and hotfixes may also be
+The second phase ends with the end of support date. Updates, patches, and hotfixes may also be
 provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
 in a later supported generally available version, an update to the later release is required.
 
-This page is using GA dates as release dates. RTM versions are more or less finalized versions
+This page uses GA dates as release dates. RTM versions are more or less finalized versions
 provided to manufacturers, whereas GA versions are fully tested and finalized versions available
 to all customers.

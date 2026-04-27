@@ -28,15 +28,15 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.2.1"
-    latestReleaseDate: 2026-02-12
+    latest: "6.2.5"
+    latestReleaseDate: 2026-04-21
     link: https://activemq.apache.org/components/classic/download/classic-06-02-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-06
+    latest: "5.19.6"
+    latestReleaseDate: 2026-04-21
     link: https://activemq.apache.org/components/classic/download/classic-05-19-0{{'__LATEST__'|split:'.'|last}}
 
   - releaseCycle: "6.1"
@@ -191,11 +191,11 @@ releases:
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that
 > supports a number of transport protocols, such as STOMP, MQTT, or AMQP.
 
-There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
-generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
-point).  
-This page tracks ActiveMQ "Classic" releases; information about the Artemis version can be found in
-its own [product page](/apache-activemq-artemis).
+{: .note }
+> There used to be two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
+generation broker code-named _Artemis_, which is [now called Apache Artemis](https://activemq.apache.org/news/artemis-tlp).
+> This page tracks ActiveMQ "Classic" releases.
+> Information about Apache Artemis version can be found [in its own product page](/apache-activemq-artemis).
 
 Apache ActiveMQ does not have a clearly defined release and support policy. But it seems that the
 last two minor releases are currently community-supported.

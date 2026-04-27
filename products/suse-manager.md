@@ -9,31 +9,34 @@ alternate_urls:
   - /suse-multi-linux-manager
   - /suse-mlm
 versionCommand: zypper info mgradm
-releasePolicyLink: https://www.suse.com/lifecycle
+releasePolicyLink: https://www.suse.com/support/policy-products/#manager
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
+eoesColumn: <abbr title="Long Term Support">LTS</abbr>
 
 # Release dates are documented in each release note in the "Version revision history" paragraph.
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
   - releaseCycle: "5.1"
     releaseDate: 2025-07-31
-    eol: false
-    latest: "5.1"
-    latestReleaseDate: 2025-07-31
+    eol: 2027-07-31
+    latest: "5.1.2"
+    latestReleaseDate: 2026-02-27
     link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
     eol: 2026-06-30
-    latest: "5.0.5"
-    latestReleaseDate: 2025-07-01
+    latest: "5.0.7"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.3"
     releaseDate: 2022-06-20
-    eol: 2025-07-23
-    latest: "4.3.16"
-    latestReleaseDate: 2025-07-01
+    eol: 2025-06-30
+    eoes: 2026-07-31
+    lts: true
+    latest: "4.3.17"
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.2"
     releaseDate: 2021-06-21
@@ -92,6 +95,14 @@ releases:
 > This page tracks SUSE Multi-Linux Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE Multi-Linux Manager is usually released every 12 months.
-The current release is usually supported for an additional 12 months once after the next release, resulting in a 24-month support cycle.
+SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years. 
+SUSE supports each SUSE Multi-Linux Manager release for three years.
+
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.
+
+## [Long Term Support](https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.3/index.html#_suse_manager_4_3_lts)
+
+There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
+
+An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3), 
+which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription. 

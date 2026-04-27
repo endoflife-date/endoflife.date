@@ -13,34 +13,49 @@ identifiers:
   - repology: coder
   - purl: pkg:github/coder/coder
   - purl: pkg:generic/coder
+  - cpe: cpe:2.3:a:coder:code-server
 
 auto:
   methods:
-    - git: https://github.com/coder/coder.git
+    - github_releases: coder/coder
 
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "2.32"
+    releaseDate: 2026-04-14
+    eoas: false # releaseDate(2.34)
+    eol: false # releaseDate(2.35)
+    latest: "2.32.0"
+    latestReleaseDate: 2026-04-14
+
+  - releaseCycle: "2.31"
+    releaseDate: 2026-03-03
+    eoas: false # releaseDate(2.33)
+    eol: false # releaseDate(2.34)
+    latest: "2.31.9"
+    latestReleaseDate: 2026-04-09
+
   - releaseCycle: "2.30"
     releaseDate: 2026-02-03
-    eoas: false # releaseDate(2.32)
+    eoas: 2026-04-14 # releaseDate(2.32)
     eol: false # releaseDate(2.33)
-    latest: "2.30.1"
-    latestReleaseDate: 2026-02-10
+    latest: "2.30.7"
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "2.29"
     releaseDate: 2025-12-02
-    eoas: false # releaseDate(2.31)
-    eol: false # releaseDate(2.32)
-    latest: "2.29.6"
-    latestReleaseDate: 2026-02-05
+    eoas: 2026-02-23 # releaseDate(2.31)
+    eol: 2026-04-14 # releaseDate(2.32)
+    latest: "2.29.10"
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "2.28"
     releaseDate: 2025-11-04
     eoas: 2026-02-03 # releaseDate(2.30)
-    eol: false # releaseDate(2.31)
-    latest: "2.28.10"
-    latestReleaseDate: 2026-02-03
+    eol: 2026-02-23 # releaseDate(2.31)
+    latest: "2.28.11"
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "2.27"
     releaseDate: 2025-10-07

@@ -54,6 +54,13 @@ auto:
 # LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
 # for non-LTS, eol(x) = releaseDate(x+1).
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-17
+    eol: 2026-09-18
+    latest: "26.0.0"
+    latestReleaseDate: 2026-03-17
+    link: https://www.oracle.com/java/technologies/javase/26all-relnotes.html
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
@@ -180,7 +187,7 @@ releases:
     releaseDate: 2011-07-11
     eol: 2019-07-31
     eoes: 2022-07-19
-    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361
+    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_351
     latest: "7u351"
     latestReleaseDate: 2022-07-19
 

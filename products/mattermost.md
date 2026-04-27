@@ -26,20 +26,39 @@ auto:
 
 identifiers:
   - repology: mattermost
+  - cpe: cpe:2.3:a:mattermost:mattermost_server
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+  - releaseCycle: "11.6"
+    releaseDate: 2026-04-16
+    eol: 2026-07-15
+    latest: "11.6.1"
+    latestReleaseDate: 2026-04-21
+
+  - releaseCycle: "11.5"
+    releaseDate: 2026-03-16
+    eol: 2026-06-15
+    latest: "11.5.4"
+    latestReleaseDate: 2026-04-22
+
+  - releaseCycle: "11.4"
+    releaseDate: 2026-02-16
+    eol: 2026-05-15
+    latest: "11.4.5"
+    latestReleaseDate: 2026-04-22
+
   - releaseCycle: "11.3"
     releaseDate: 2026-01-16
     eol: 2026-04-15
-    latest: "11.3.0"
-    latestReleaseDate: 2026-01-08
+    latest: "11.3.3"
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "11.2"
     releaseDate: 2025-12-16
     eol: 2026-03-15
-    latest: "11.2.2"
-    latestReleaseDate: 2026-01-15
+    latest: "11.2.4"
+    latestReleaseDate: 2026-02-20
 
   - releaseCycle: "11.1"
     releaseDate: 2025-11-14
@@ -62,8 +81,8 @@ releases:
   - releaseCycle: "10.11"
     releaseDate: 2025-08-15
     eol: 2026-08-15
-    latest: "10.11.10"
-    latestReleaseDate: 2026-01-15
+    latest: "10.11.15"
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "10.10"
     releaseDate: 2025-07-16

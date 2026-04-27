@@ -5,7 +5,6 @@ category: framework
 iconSlug: qt
 permalink: /qt
 versionCommand: qmake --version
-releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 eolColumn: OSS support
@@ -27,12 +26,19 @@ auto:
 # - releaseDate(x) + 3 years for LTS
 # See also https://wiki.qt.io/QtReleasing.
 releases:
+  - releaseCycle: "6.11"
+    releaseDate: 2026-03-23
+    eol: 2026-09-22 # estimated releaseDate(6.12)
+    eoes: 2027-03-23 # estimated
+    latest: "6.11"
+    latestReleaseDate: 2026-03-23
+
   - releaseCycle: "6.10"
     releaseDate: 2025-10-07
     eol: 2026-04-07 # estimated, 2025-10-07 + 6 months
     eoes: 2026-10-07 # estimated
-    latest: "6.10.2"
-    latestReleaseDate: 2026-01-29
+    latest: "6.10.3"
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "6.9"
     releaseDate: 2025-04-02

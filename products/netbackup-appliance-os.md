@@ -17,6 +17,7 @@ releases:
     latestReleaseDate: 2025-07-31
 
   - releaseCycle: "5.3"
+    staleReleaseThresholdDays: 730 # still supported according to https://sort.veritas.com/eosl
     releaseDate: 2023-11-27
     eol: false
     latest: "5.3.0.1 MR4"

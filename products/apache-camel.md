@@ -21,6 +21,9 @@ customFields:
 identifiers:
   - cpe: cpe:/a:apache:camel
   - cpe: cpe:2.3:a:apache:camel
+  - purl: pkg:docker/apache/camel
+  - purl: pkg:github/apache/camel
+  - purl: pkg:maven/org.apache.camel/camel
 
 auto:
   methods:
@@ -33,9 +36,24 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
+  - releaseCycle: "4.19"
+    releaseDate: 2026-04-18
+    eol: false
+    supportedJavaVersions: "17, 21"
+    latest: "4.19.0"
+    latestReleaseDate: 2026-04-12
+
+  - releaseCycle: "4.18"
+    lts: true
+    releaseDate: 2026-02-17
+    eol: 2027-02-17
+    supportedJavaVersions: "17, 21"
+    latest: "4.18.2"
+    latestReleaseDate: 2026-04-15
+
   - releaseCycle: "4.17"
     releaseDate: 2026-01-12
-    eol: false # releaseDate(4.18)
+    eol: 2026-02-17
     supportedJavaVersions: "17, 21"
     latest: "4.17.0"
     latestReleaseDate: 2026-01-08
@@ -59,8 +77,8 @@ releases:
     releaseDate: 2025-08-15
     eol: 2026-08-20
     supportedJavaVersions: "17, 21"
-    latest: "4.14.5"
-    latestReleaseDate: 2026-02-07
+    latest: "4.14.7"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "4.13"
     releaseDate: 2025-07-04

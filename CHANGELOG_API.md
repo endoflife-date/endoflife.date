@@ -1,5 +1,10 @@
 # endoflife.date API Changelog
 
+## API v1.2.1
+
+- Declare `generated_at` in OpenAPI specification ([#9798](https://github.com/endoflife-date/endoflife.date/pull/9798)).
+  This field was always provided in responses, but was not declared in the OpenAPI specification.
+
 ## API v1.2.0
 
 - Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))
@@ -19,7 +24,7 @@ API v1 is a major rework of the API v0 with a lot of breaking changes. Compared 
 v1:
 
 - feels more _Restful_ (#2431),
-- expose almost all product's data (#394, #759, #2062, #2595),
+- expose almost all products' data (#394, #759, #2062, #2595),
 - expose new metadata such as `schema version` (#2331), `total` (for lists), `generated_at` or
   `last modified` date,
 - is easier to consume thanks to:
@@ -30,7 +35,7 @@ v1:
     - `eol` -> `isEol` and `eolFrom`,
     - `discontinued` -> `isDiscontinued` and `discontinuedFrom`,
     - `extendedSupport` -> `isEoes` and `eoesFrom`.
-- provide new endpoints (#2078, #2160, #2530),
+- provides new endpoints (#2078, #2160, #2530),
 - is versioned using the `api/v1` prefix (#2066), making it easier to implement
   non-backward-compatible changes in the future,
 - is documented using [swagger-ui](https://github.com/swagger-api/swagger-ui) instead of [Stoplight Elements
@@ -52,7 +57,7 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
 - Response has been changed from a simple array of strings to a JSON document.
   This made it possible to include additional metadata, such as the schema version and the number of
   products.
-- Response items has been changed from a simple string (the product name) to a JSON document (#2062).
+- Response items have been changed from a simple string (the product name) to a JSON document (#2062).
   This made it possible to include additional information about the product, such as its category
   and tags.
 - See <https://endoflife.date/docs/api/v1/#/default/get_products> for a detailed description of the
