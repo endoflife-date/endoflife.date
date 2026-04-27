@@ -19,16 +19,30 @@ auto:
     - git: https://github.com/kubernetes-sigs/aws-load-balancer-controller.git
 
 releases:
-  - releaseCycle: "3.0"
-    releaseDate: 2026-01-23
+  - releaseCycle: "3.2"
+    releaseDate: 2026-04-06
     eol: false
     eoas: false
+    latest: "3.2.2"
+    latestReleaseDate: 2026-04-18
+
+  - releaseCycle: "3.1"
+    releaseDate: 2026-02-24
+    eol: false
+    eoas: 2026-04-06
+    latest: "3.1.0"
+    latestReleaseDate: 2026-02-24
+
+  - releaseCycle: "3.0"
+    releaseDate: 2026-01-23
+    eol: 2026-04-06
+    eoas: 2026-02-24
     latest: "3.0.0"
     latestReleaseDate: 2026-01-23
 
   - releaseCycle: "2.17"
     releaseDate: 2025-12-19
-    eol: false
+    eol: 2026-02-24
     eoas: 2026-01-23
     latest: "2.17.1"
     latestReleaseDate: 2026-01-10
