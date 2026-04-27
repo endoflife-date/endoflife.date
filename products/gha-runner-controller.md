@@ -19,6 +19,12 @@ auto:
     - git: https://github.com/actions/actions-runner-controller.git
 
 releases:
+  - releaseCycle: "0.14"
+    releaseDate: 2026-03-19
+    eol: false
+    latest: "0.14.1"
+    latestReleaseDate: 2026-04-15
+
   - releaseCycle: "0.13"
     releaseDate: 2025-10-16
     eol: false
@@ -27,7 +33,7 @@ releases:
 
   - releaseCycle: "0.12"
     releaseDate: 2025-06-13
-    eol: false
+    eol: 2026-03-19
     latest: "0.12.1"
     latestReleaseDate: 2025-06-27
 
