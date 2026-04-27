@@ -17,6 +17,7 @@ identifiers:
   - repology: fonts:fontawesome
   - purl: pkg:github/fortawesome/font-awesome
   - purl: pkg:npm/%40fortawesome/fontawesome-svg-core
+  - cpe: cpe:2.3:a:fontawesome:font_awesome
 
 releases:
   - releaseCycle: "7"
@@ -80,7 +81,7 @@ With the release of Font Awesome 6:
 - Font Awesome 3 and 4 are now end-of-life.
 
 Note that Font Awesome 6 dropped support for Internet Explorer,
-and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/v6/web/setup/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
+and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
 
 Font Awesome comes in two flavors: the free version and the pro version.
 Font Awesome Free version is free, open source, GPL friendly,

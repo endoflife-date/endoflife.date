@@ -7,7 +7,7 @@ permalink: /hibernate-orm
 alternate_urls:
   - /hibernate
 releasePolicyLink: https://hibernate.org/community/maintenance-policy/
-changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/__LATEST__
 eolColumn: Stable support
 eoesColumn: Limited support
 
@@ -37,14 +37,23 @@ auto:
 # Since 7 (may be more ?) : eol(x) = releaseDate(x+1), except if marked as stable on https://hibernate.org/orm/releases/.
 # Supported Java/Jakarta EE versions available on https://hibernate.org/orm/releases/.
 releases:
+  - releaseCycle: "7.3"
+    supportedJavaVersions: "17, 21, 25 or 26"
+    supportedJakartaEEVersions: "11"
+    releaseDate: 2026-03-16
+    eol: false
+    eoes: false
+    latest: "7.3.2"
+    latestReleaseDate: 2026-04-20
+
   - releaseCycle: "7.2"
     supportedJavaVersions: "17, 21 or 25"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-10-08
-    eol: false
+    eol: 2026-03-16
     eoes: false
-    latest: "7.2.4"
-    latestReleaseDate: 2026-02-08
+    latest: "7.2.12"
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 25"
@@ -52,8 +61,8 @@ releases:
     releaseDate: 2025-08-08
     eol: 2025-10-08
     eoes: false
-    latest: "7.1.16"
-    latestReleaseDate: 2026-02-08
+    latest: "7.1.24"
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"
@@ -70,8 +79,8 @@ releases:
     releaseDate: 2024-08-08
     eol: true
     eoes: false
-    latest: "6.6.42"
-    latestReleaseDate: 2026-02-01
+    latest: "6.6.49"
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "6.5"
     supportedJavaVersions: "11, 17, 21, 22 or 23"
@@ -106,8 +115,8 @@ releases:
     releaseDate: 2023-03-31
     eol: true
     eoes: false
-    latest: "6.2.49"
-    latestReleaseDate: 2025-11-24
+    latest: "6.2.51"
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "6.1"
     supportedJavaVersions: "11, 17 or 18"

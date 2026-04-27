@@ -43,8 +43,8 @@ releases:
     supportedPhpVersions: 8.2 - 8.5
     eoas: false
     eol: false
-    latest: "5.3.1"
-    latestReleaseDate: 2026-01-13
+    latest: "5.3.4"
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "5.2"
     codename: "Chiffon"
@@ -66,6 +66,7 @@ releases:
 
   - releaseCycle: "5.1"
     codename: "Chiffon"
+    staleReleaseThresholdDays: 500
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2025-03-30

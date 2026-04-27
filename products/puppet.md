@@ -8,8 +8,7 @@ alternate_urls:
   - /puppet-osp
   - /puppet-agent
 versionCommand: puppet --version
-releasePolicyLink: https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
-changelogTemplate: https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
+releasePolicyLink: https://help.puppet.com/core/8/Content/PuppetCore/platform_lifecycle.htm#Puppetreleasesandlifecycle
 eolColumn: Supported
 
 identifiers:
@@ -25,16 +24,16 @@ releases:
   - releaseCycle: "8"
     releaseDate: 2023-04-21
     eol: false
-    latest: "8.10.0"
-    latestReleaseDate: 2024-10-18
-    link: https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
+    latest: "8.18.0"
+    latestReleaseDate: 2026-04-10
+    link: https://help.puppet.com/core/8/Content/PuppetCore/PuppetReleaseNotes/release_notes_puppet_x-8-18-0.htm
 
   - releaseCycle: "7"
     releaseDate: 2020-11-13
-    eol: 2025-02-28
-    latest: "7.34.0"
-    latestReleaseDate: 2024-10-17
-    link: https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
+    eol: 2025-04-30
+    latest: "7.35.0"
+    latestReleaseDate: 2025-02-28
+    link: https://www.puppet.com/docs/puppet/7/release_notes_puppet#release_notes_puppet
 
   - releaseCycle: "6"
     releaseDate: 2018-09-18
@@ -66,7 +65,7 @@ releases:
 ---
 
 > [Puppet](https://www.puppet.com/) is a tool that helps you manage and automate the configuration
-> of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of
+> of servers. Its primary product, Puppet Enterprise, is a proprietary and closed-source version of
 > its open-source Puppet software.
 
 This page tracks the Open Source Puppet (OSP) and not Puppet Enterprise (PE). Version numbers are

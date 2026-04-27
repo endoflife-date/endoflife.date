@@ -19,6 +19,7 @@ customFields:
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm
+      render_javascript: true
       ignore_empty_releases: true
       fields:
         releaseCycle:
@@ -32,15 +33,15 @@ auto:
     - declare: sns-smc
       releases:
         # There is an error on https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm.
-        - { name: "3.0", eoas: 2021-12-03, eol: 2021-12-03 }
+        - {name: "3.0", eoas: 2021-12-03, eol: 2021-12-03}
 
 releases:
   - releaseCycle: "3.8"
     releaseDate: 2025-06-10
-    eoas: false
-    eol: false
+    eoas: 2026-07-08
+    eol: 2026-10-08
     lowestSNSVersion: '4.3'
-    highestSNSVersion: ND
+    highestSNSVersion: '4.8'
 
   - releaseCycle: "3.7"
     releaseDate: 2024-12-17
@@ -111,6 +112,7 @@ releases:
     eol: 2017-03-31
     lowestSNSVersion: "2.5.0"
     highestSNSVersion: "4.7"
+
 
 ---
 

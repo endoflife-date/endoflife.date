@@ -25,8 +25,8 @@ releases:
     releaseDate: 2025-02-03
     eoas: false
     eol: false
-    latest: "25.12.1102"
-    latestReleaseDate: 2025-12-12
+    latest: "25.13.7"
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "24"
     releaseLabel: "2024"

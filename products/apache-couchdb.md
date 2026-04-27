@@ -10,6 +10,7 @@ alternate_urls:
 releasePolicyLink: https://docs.couchdb.org/en/stable/cve/index.html
 changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
 versionCommand: curl -s http://localhost:5984/ | jq -r '.version'
+staleReleaseThresholdDays: 500
 
 identifiers:
   - purl: pkg:github/apache/couchdb
@@ -18,6 +19,7 @@ identifiers:
   - purl: pkg:docker/bitnami/couchdb
   - purl: pkg:docker/rapidfort/couchdb-official
   - repology: couchdb
+  - cpe: cpe:2.3:a:apache:couchdb
 
 auto:
   methods:

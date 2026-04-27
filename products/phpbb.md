@@ -20,11 +20,12 @@ auto:
 releases:
   - releaseCycle: "3.3"
     releaseDate: 2020-01-06
+    staleReleaseThresholdDays: 500
     eoas: false
     eol: false
     latest: "3.3.15"
     latestReleaseDate: 2025-04-02
-    link: https://www.phpbb.com/community/viewtopic.php?t=2635986
+    link: https://www.phpbb.com/community/viewtopic.php?t=2661607
 
   - releaseCycle: "3.2"
     releaseDate: 2017-01-07

@@ -25,6 +25,7 @@ customFields:
 identifiers:
   - purl: pkg:composer/statamic/cms
   - purl: pkg:github/statamic/cms
+  - cpe: cpe:2.3:a:statamic:statamic
 
 auto:
   methods:
@@ -56,8 +57,8 @@ releases:
     eol: 2027-12-31
     supportedLaravelVersions: "12-13"
     supportedPhpVersions: "8.3-8.5"
-    latest: "6.3.0"
-    latestReleaseDate: 2026-02-14
+    latest: "6.14.0"
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "5"
     releaseDate: 2024-05-09
@@ -65,8 +66,8 @@ releases:
     eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.73.7"
-    latestReleaseDate: 2026-02-14
+    latest: "5.73.20"
+    latestReleaseDate: 2026-04-13
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09

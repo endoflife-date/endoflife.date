@@ -17,6 +17,24 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-razr-fold
+    releaseLabel: "Motorola RAZR Fold"
+    releaseDate: 2026-03-01 # https://www.gsmarena.com/motorola_razr_fold_5g-14402.php
+    eol: 2030-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12524
+
+  - releaseCycle: motorola-edge-70-fusion+
+    releaseLabel: "Motorola edge 70 fusion+"
+    releaseDate: 2026-02-01
+    eol: 2031-11-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12535
+
+  - releaseCycle: motorola-edge-70-fusion
+    releaseLabel: "Motorola edge 70 fusion"
+    releaseDate: 2026-02-01
+    eol: 2031-11-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12531
+
   - releaseCycle: moto-g77
     releaseLabel: "Moto G77"
     releaseDate: 2026-01-01
@@ -554,13 +572,13 @@ releases:
   - releaseCycle: "moto-g73-5g"
     releaseLabel: "Moto G73 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2026-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11431
 
   - releaseCycle: "moto-g53-5g"
     releaseLabel: "Moto G53 5G"
     releaseDate: 2023-01-01
-    eol: 2026-01-31
+    eol: 2027-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11426
 
   - releaseCycle: "moto-g23"
@@ -644,7 +662,7 @@ releases:
   - releaseCycle: "motorola-edge-2022"
     releaseLabel: "Motorola Edge (2022)"
     releaseDate: 2022-08-01
-    eol: 2025-08-31
+    eol: 2026-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319
 
   - releaseCycle: "moto-g62-5g"
@@ -820,6 +838,7 @@ releases:
     releaseDate: 2021-08-01
     eol: 2023-08-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11170
+
 ---
 
 > [Motorola Mobility](https://motorola.com) is an American smartphone manufacturer, known for the

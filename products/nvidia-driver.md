@@ -40,6 +40,24 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r595-windows"
+    releaseLabel: "R595-Windows"
+    releaseDate: 2026-03-24
+    eoas: 2027-03-24
+    eol: 2027-03-24
+    latest: "595.97"
+    latestReleaseDate: 2026-03-24
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-58-03/index.html
+
+  - releaseCycle: "r595-linux"
+    releaseLabel: "R595-Linux"
+    releaseDate: 2026-03-24
+    eoas: 2027-03-24
+    eol: 2027-03-24
+    latest: "595.58.03"
+    latestReleaseDate: 2026-03-24
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-58-03/index.html
+
   - releaseCycle: "r590-windows"
     releaseLabel: "R590-Windows"
     releaseDate: 2025-12-22
@@ -64,9 +82,9 @@ releases:
     releaseDate: 2025-08-04
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "580.126.16"
-    latestReleaseDate: 2026-02-09
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-126-16/index.html
+    latest: "580.126.20"
+    latestReleaseDate: 2026-02-23
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-126-20/index.html
 
   - releaseCycle: "r580-windows"
     releaseLabel: "R580-Windows"

@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:nuget/jQuery
   - repology: jquery
   - repology: js-jquery
+  - cpe: cpe:2.3:a:jquery:jquery
 
 # NPM is also possible, but versions up to 1.10.2 and between 2.0.0 to 2.0.3 are not on
 # https://www.npmjs.com/package/jquery, so better it's better to keep git.

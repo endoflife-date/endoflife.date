@@ -98,4 +98,4 @@ releases:
 > This page tracks the VMWare Harbor Registry, which is a VMWare product based on the [open-source Harbor project](/harbor).
 
 New major versions are usually maintained for approximately 1 year.
-More information about releases on [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).
+More information about releases is available on the [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).
