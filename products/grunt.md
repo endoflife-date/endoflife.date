@@ -26,8 +26,8 @@ releases:
     staleReleaseThresholdDays: 1460 # https://github.com/gruntjs/grunt/issues/1700
     releaseDate: 2023-01-28
     eol: false
-    latest: "1.6.1"
-    latestReleaseDate: 2023-01-31
+    latest: "1.6.2"
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "1.5"
     releaseDate: 2022-04-10
@@ -70,6 +70,7 @@ releases:
     eoes: false
     latest: "1.0.4"
     latestReleaseDate: 2019-03-22
+
 ---
 
 > [Grunt](https://github.com/gruntjs/grunt) is a popular

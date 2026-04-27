@@ -15,13 +15,14 @@ auto:
     - git: https://github.com/JuliaLang/julia.git
 identifiers:
   - repology: julia
+  - cpe: cpe:2.3:a:julialang:julia
 
 releases:
   - releaseCycle: "1.12"
     releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
     eol: false
-    latest: "1.12.5"
-    latestReleaseDate: 2026-02-09
+    latest: "1.12.6"
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "1.11"
     releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
@@ -33,8 +34,8 @@ releases:
     releaseDate: 2023-12-25
     lts: 2024-10-08 # https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064
     eol: false
-    latest: "1.10.10"
-    latestReleaseDate: 2025-06-27
+    latest: "1.10.11"
+    latestReleaseDate: 2026-03-09
 
   - releaseCycle: "1.6"
     releaseDate: 2021-03-24
@@ -50,6 +51,8 @@ releases:
     latest: "1.0.5"
     latestReleaseDate: 2019-09-09
 # Please leave a new line both above and below the triple-dashes.
+
+
 
 
 

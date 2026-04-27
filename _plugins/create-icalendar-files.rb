@@ -85,19 +85,19 @@ def process_product(product)
       next if key != 'eol'
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 12).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 12).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 6).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 6).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 3).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 3).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'
-        a.trigger = Icalendar::Values::DateTime.new((item << 1).to_datetime + Rational(9, 24))
+        a.trigger = Icalendar::Values::DateTime.new((item << 1).to_datetime + Rational(9, 24), 'tzid' => 'UTC')
       end
       event.alarm do |a|
         a.action = 'DISPLAY'

@@ -9,8 +9,6 @@ alternate_urls:
   - /ubuntu-linux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
-
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 eoasColumn: Hardware & Maintenance
@@ -33,6 +31,16 @@ identifiers:
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 # Exact day for some dates is not available, in this case use the same day as the release date.
 releases:
+  - releaseCycle: "26.04"
+    codename: "Resolute Raccoon"
+    lts: true
+    releaseDate: 2026-04-23
+    eoas: 2031-05-31
+    eol: 2031-05-31
+    eoes: 2031-05-31
+    latest: "26.04"
+    latestReleaseDate: 2026-04-23
+    
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
@@ -64,8 +72,8 @@ releases:
     eoas: 2029-05-31
     eol: 2029-05-31
     eoes: 2036-05-31
-    latest: "24.04.3"
-    latestReleaseDate: 2025-08-07
+    latest: "24.04.4"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "23.10"
     codename: "Mantic Minotaur"
@@ -393,6 +401,7 @@ releases:
     eol: 2006-04-30
     latest: "4.10"
     latestReleaseDate: 2004-10-20
+
 ---
 
 > [Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian.

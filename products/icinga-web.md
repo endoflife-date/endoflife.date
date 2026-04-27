@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:docker/icinga/icingaweb2
   - purl: pkg:github/Icinga/icingaweb2
   - purl: pkg:github/Icinga/icinga-web
+  - cpe: cpe:2.3:a:icinga:icinga_web_2
 
 auto:
   methods:
@@ -26,9 +27,16 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "2.13"
+    releaseDate: 2026-03-27
+    eoas: false
+    eol: false
+    latest: "2.13.0"
+    latestReleaseDate: 2026-03-27
+
   - releaseCycle: "2.12"
     releaseDate: 2023-09-21
-    eoas: false
+    eoas: 2026-03-27
     eol: false
     latest: "2.12.6"
     latestReleaseDate: 2025-11-18
@@ -36,7 +44,7 @@ releases:
   - releaseCycle: "2.11"
     releaseDate: 2022-06-30
     eoas: 2023-09-21
-    eol: false
+    eol: 2026-03-27
     latest: "2.11.6"
     latestReleaseDate: 2025-03-26
 

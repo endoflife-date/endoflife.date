@@ -128,8 +128,8 @@ releases:
   - releaseCycle: "galaxy-tab-a9+"
     releaseLabel: "Galaxy Tab A9+"
     releaseDate: 2023-10-23 # https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone
-    eoas: 2026-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false      # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2026-10-23 # https://rmupdate.com/2024/03/04/how-many-software-updates-will-samsung-galaxy-tab-a9-and-a9-get/
+    eol: 2027-10-23 # https://rmupdate.com/2024/03/04/how-many-software-updates-will-samsung-galaxy-tab-a9-and-a9-get/
     link: https://doc.samsungmobile.com/SM-X210/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-a9"
@@ -220,7 +220,7 @@ releases:
     releaseLabel: "Galaxy Tab A8"
     releaseDate: 2022-01-17 # https://www.gsmarena.com/samsung_galaxy_tab_a8_10_5_(2021)-11265.php
     eoas: 2025-01-17 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2026-02-21
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
   - releaseCycle: "galaxy-tab-a7-lite"
