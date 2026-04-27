@@ -12,6 +12,10 @@ eolColumn: Support
 
 identifiers:
   - repology: nifi
+  - cpe: cpe:2.3:a:apache:nifi
+  - purl: pkg:docker/apache/nifi
+  - purl: pkg:github/apache/nifi
+  - purl: pkg:maven/org.apache.nifi/nifi
 
 auto:
   methods:
@@ -20,9 +24,21 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.9"
+    releaseDate: 2026-04-10
+    eol: false
+    latest: "2.9.0"
+    latestReleaseDate: 2026-04-10
+
+  - releaseCycle: "2.8"
+    releaseDate: 2026-02-13
+    eol: 2026-04-10
+    latest: "2.8.0"
+    latestReleaseDate: 2026-02-13
+
   - releaseCycle: "2.7"
     releaseDate: 2025-12-09
-    eol: false
+    eol: 2026-02-13
     latest: "2.7.2"
     latestReleaseDate: 2025-12-17
 

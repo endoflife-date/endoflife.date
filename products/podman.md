@@ -2,7 +2,7 @@
 title: Podman
 addedAt: 2024-09-23
 category: app
-tags: linux-foundation
+tags: cncf linux-foundation
 iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
@@ -10,6 +10,7 @@ changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST_
 
 identifiers:
   - repology: podman
+  - cpe: cpe:2.3:a:podman_project:podman
 
 auto:
   methods:
@@ -17,9 +18,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "5.8"
+    releaseDate: 2026-02-12
+    eol: false
+    latest: "5.8.2"
+    latestReleaseDate: 2026-04-14
+
   - releaseCycle: "5.7"
     releaseDate: 2025-11-11
-    eol: false
+    eol: 2026-02-12
     latest: "5.7.1"
     latestReleaseDate: 2025-12-09
 

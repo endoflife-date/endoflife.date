@@ -21,7 +21,7 @@ require 'jekyll'
 module ApiV1
 
   # This version must be kept in sync with the version in api_v1/openapi.yml.
-  VERSION = '1.2.0'
+  VERSION = '1.2.1'
   MAJOR_VERSION = VERSION.split('.')[0]
 
   STRIP_HTML_BLOCKS = Regexp.union(

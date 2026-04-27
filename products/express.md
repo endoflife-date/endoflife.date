@@ -6,7 +6,7 @@ tags: herodevs javascript-runtime linux-foundation
 iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/
-changelogTemplate: https://github.com/expressjs/express/releases/tag/__LATEST__
+changelogTemplate: https://github.com/expressjs/express/releases/tag/v__LATEST__
 eolColumn: Security Support
 eoesColumn: Commercial Support
 
@@ -27,7 +27,6 @@ releases:
     eol: false
     latest: "5.2.1"
     latestReleaseDate: 2025-12-01
-    link: https://github.com/expressjs/express/releases/tag/v__LATEST__
 
   - releaseCycle: "4"
     releaseDate: 2014-04-09
@@ -41,18 +40,21 @@ releases:
     eoes: false
     latest: "3.21.2"
     latestReleaseDate: 2015-07-31
+    link: https://github.com/expressjs/express/releases/tag/__LATEST__
 
   - releaseCycle: "2"
     releaseDate: 2011-03-17
     eol: 2012-07-01
     latest: "2.5.11"
     latestReleaseDate: 2012-06-29
+    link: https://github.com/expressjs/express/releases/tag/__LATEST__
 
   - releaseCycle: "1"
     releaseDate: 2010-11-16
     eol: 2011-03-01
     latest: "1.0.9"
     latestReleaseDate: 2011-03-23
+    link: https://github.com/expressjs/express/releases/tag/__LATEST__
 
 ---
 

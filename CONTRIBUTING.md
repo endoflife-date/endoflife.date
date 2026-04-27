@@ -107,11 +107,6 @@ versionCommand: swish and flick
 # Do not use a localized URL (such as one containing en-us) if possible.
 releasePolicyLink: https://nodejs.org/about/releases/
 
-# An image that shows a graphical representation of the releases (optional).
-# If provided, this image will be displayed at the top of the product's page.
-# This is not the product logo. Remove if you don't find a relevant image.
-releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
-
 # Template to be used to generate a link for the releases (optional).
 # Available variables inside the template are:
 # - __RELEASE_CYCLE__: will be replaced by the value of `releaseCycle`,
@@ -392,9 +387,6 @@ releases:
 ---
 
 # All the product information text should be under triple-dashes.
-# If you are adding any images in the text, they might get blocked due to our CSP,
-# so prefer using releaseImage in such cases.
-# Note that images on the same website as releaseImage will not be blocked.
 
 > [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
 
@@ -470,7 +462,7 @@ done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 
 ### Linting and formatting files
 
-You can use the [lint-product.sh](/bin/lint-product.sh) to lint a product file
+You can use the `bin/lint-product.sh` to lint a product file
 using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
 and [prettier](https://github.com/prettier/prettier).
 
@@ -481,7 +473,7 @@ bin/lint-product.sh products/<product>.md
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers.
-Please see [this page](/pages/help/identifiers-needed/) for a list of pages missing identifiers.
+Please see [this page](/help/identifiers-needed/) for a list of pages missing identifiers.
 
 ## 📑 Suggested Reading
 

@@ -105,6 +105,7 @@ releases:
     releaseLabel: "Series 6"
     releaseDate: 2020-09-18
     discontinued: 2021-10-14
+    staleReleaseThresholdDays: 2200
     eol: false
     link: https://support.apple.com/kb/SP826
     supportedWatchOsVersions: "7, 8, 9, 10, 11, 26"
