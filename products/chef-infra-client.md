@@ -99,7 +99,7 @@ releases:
 
 ---
 
-> [Chef Infra Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration
+> [Chef Infra Client](https://docs.chef.io/client/) is an open-source software provisioning, configuration
 > management and application-deployment tool enabling infrastructure as code.
 
 Chef Infra Client generally follows an N-1 support strategy
