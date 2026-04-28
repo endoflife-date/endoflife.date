@@ -23,8 +23,8 @@ releases:
     staleReleaseThresholdDays: 500
     eoas: false
     eol: false
-    latest: "3.3.15"
-    latestReleaseDate: 2025-04-02
+    latest: "3.3.16"
+    latestReleaseDate: 2026-04-27
     link: https://www.phpbb.com/community/viewtopic.php?t=2661607
 
   - releaseCycle: "3.2"
@@ -47,6 +47,7 @@ releases:
     eol: 2015-11-01
     latest: "3.0.14"
     latestReleaseDate: 2015-05-03
+
 ---
 
 > [phpBB](https://www.phpbb.com/) is an open-source forum software written in PHP.

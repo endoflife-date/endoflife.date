@@ -42,7 +42,7 @@ releases:
 
   - releaseCycle: "2.9"
     releaseDate: 2024-10-22
-    eol: 2026-04-22
+    eol: 2026-06-22
     latest: "2.9.14"
     latestReleaseDate: 2026-04-08
     link: https://github.com/kumahq/kuma/releases/tag/__LATEST__
