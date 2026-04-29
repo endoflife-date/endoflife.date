@@ -45,11 +45,11 @@ releases:
 ---
 
 > [Amazon ElastiCache for Valkey](https://aws.amazon.com/elasticache/what-is-valkey/) is a fully managed,
-> Valkey-compatible in-memory data store from Amazon Web Services. Valkey is an open source,
-> high-performance key/value datastore stewarded by the Linux Foundation.
+> Valkey-compatible caching service that delivers microsecond latency and scales to hundreds of millions
+> of operations per second. It offers serverless and node-based deployment options.
 
 {: .note }
-> This page tracks the ElastiCache Valkey offering. For the Redis OSS variant, see
+> This page tracks the Amazon ElastiCache for Valkey offering. For the Redis OSS variant, see
 > [Amazon ElastiCache for Redis OSS](/amazon-elasticache-redis).
 
 Amazon ElastiCache for Valkey does not currently have an announced end-of-life or Extended Support
