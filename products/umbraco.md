@@ -96,7 +96,7 @@ releases:
     latestReleaseDate: 2025-06-24
 
   - releaseCycle: "9"
-    releaseDate: 2021-09-28
+    releaseDate: 2021-09-29
     eoas: 2022-09-16
     eol: 2022-12-16
     latest: "9.5.4"
