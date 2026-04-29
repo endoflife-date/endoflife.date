@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2024-10-08
 ---
 
-> [Amazon ElastiCache for Valkey](https://aws.amazon.com/elasticache/valkey/) is a fully managed,
+> [Amazon ElastiCache for Valkey](https://aws.amazon.com/elasticache/what-is-valkey/) is a fully managed,
 > Valkey-compatible in-memory data store from Amazon Web Services. Valkey is an open source,
 > high-performance key/value datastore stewarded by the Linux Foundation.
 
