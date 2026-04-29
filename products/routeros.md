@@ -39,7 +39,7 @@ releases:
   - releaseCycle: "7.20"
     lts: true
     releaseDate: 2025-09-30
-    eol: true
+    eol: 2026-01-12 # releaseDate(7.21)
     latest: "7.20.8"
     latestReleaseDate: 2026-02-02
 
