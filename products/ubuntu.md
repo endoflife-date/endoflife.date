@@ -35,9 +35,9 @@ releases:
     codename: "Resolute Raccoon"
     lts: true
     releaseDate: 2026-04-23
-    eoas: 2031-05-31
-    eol: 2031-05-31
-    eoes: 2031-05-31
+    eoas: 2031-04-30
+    eol: 2031-04-30
+    eoes: 2036-04-30
     latest: "26.04"
     latestReleaseDate: 2026-04-23
     
