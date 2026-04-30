@@ -26,38 +26,38 @@ releases:
   - releaseCycle: "7.146"
     releaseDate: 2026-04-16
     eol: 2027-10-16
-    latest: "7.146.7"
-    latestReleaseDate: 2026-04-16
+    latest: "7.146.8"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.133"
     releaseDate: 2025-10-30
     eol: 2027-04-30
-    latest: "7.133.18"
-    latestReleaseDate: 2026-04-15
+    latest: "7.133.21"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.125"
     releaseDate: 2025-10-30
     eol: 2027-04-30
-    latest: "7.125.10"
-    latestReleaseDate: 2025-12-30
+    latest: "7.125.14"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.117"
     releaseDate: 2025-07-14
     eol: 2027-01-14
-    latest: "7.117.19"
-    latestReleaseDate: 2025-10-23
+    latest: "7.117.21"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.111"
     releaseDate: 2025-04-23
     eol: 2026-10-23
-    latest: "7.111.12"
-    latestReleaseDate: 2025-07-13
+    latest: "7.111.14"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.104"
     releaseDate: 2025-01-29
     eol: 2026-07-30
-    latest: "7.104.15"
-    latestReleaseDate: 2025-04-09
+    latest: "7.104.16"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.98"
     releaseDate: 2024-10-29
