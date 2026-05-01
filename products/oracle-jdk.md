@@ -23,7 +23,7 @@ identifiers:
 
 auto:
   methods:
-    - oracle-jdk: https://www.java.com/releases/
+    - oracle-jdk: https://ops.java/releases/
     - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
       render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
@@ -39,9 +39,8 @@ auto:
           column: "Extended Support Until"
           regex: '^(?P<value>\w+ \d+).*'
     # Fix the release date, as only month-year dates are provided in the previous table.
-    - release_table: https://www.java.com/releases/
-      render_javascript: true
-      selector: "table.releaselist"
+    - release_table: https://ops.java/releases/
+      user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
       header_selector: "tbody#released tr:nth-of-type(3)"
       rows_selector: "tbody#released tr"
       fields:
