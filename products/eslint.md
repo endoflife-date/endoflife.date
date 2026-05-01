@@ -13,7 +13,7 @@ eoesColumn: Extended Long Term Support
 
 customFields:
   - name: eoesProvider
-    display: before-latest-column
+    display: api-only
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 
