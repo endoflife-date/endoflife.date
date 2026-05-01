@@ -5,7 +5,7 @@ category: app
 permalink: /libreoffice
 iconSlug: libreoffice
 releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
-latestLinkTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
+changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
 eolColumn: Support Status
 
 identifiers:
@@ -27,55 +27,55 @@ releases:
     releaseDate: 2026-02-04 # https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/
     eol: 2026-11-30
     latest: "26.2.2.2"
-    latestDate: 2026-03-22
+    latestReleaseDate: 2026-03-22
 
   - releaseCycle: "25.8"
     releaseDate: 2025-07-09 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2026-06-12
     latest: "25.8.6.2"
-    latestDate: 2026-03-19
+    latestReleaseDate: 2026-03-19
 
   - releaseCycle: "25.2"
     releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
     eol: 2025-11-30
     latest: "25.2.7.2"
-    latestDate: 2025-12-11
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "24.8"
     releaseDate: 2024-07-09 # https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/
     eol: 2025-06-12
     latest: "24.8.7.2"
-    latestDate: 2025-05-14
+    latestReleaseDate: 2025-05-14
 
   - releaseCycle: "24.2"
     releaseDate: 2024-01-08 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
     eol: 2024-11-30
     latest: "24.2.7.2"
-    latestDate: 2024-10-30
+    latestReleaseDate: 2024-10-30
 
   - releaseCycle: "7.6"
     releaseDate: 2023-07-10 # https://blog.documentfoundation.org/blog/2023/08/21/libreoffice-7-6-community/
     eol: 2024-06-12
     latest: "7.6.7.2"
-    latestDate: 2024-05-21
+    latestReleaseDate: 2024-05-21
 
   - releaseCycle: "7.5"
     releaseDate: 2022-12-26 # https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/
     eol: 2023-12-07 # https://blog.documentfoundation.org/blog/2023/12/07/libreoffice-764-and-759/
     latest: "7.5.9.2"
-    latestDate: 2023-12-04
+    latestReleaseDate: 2023-12-04
 
   - releaseCycle: "7.4"
     releaseDate: 2022-07-10 # https://blog.documentfoundation.org/blog/2022/08/18/libreoffice-7-4-community/
     eol: 2023-06-12
     latest: "7.4.7.2"
-    latestDate: 2023-05-23
+    latestReleaseDate: 2023-05-23
 
   - releaseCycle: "7.3"
     releaseDate: 2021-12-23 # https://blog.documentfoundation.org/blog/2022/02/02/libreoffice-73-community/
     eol: 2022-11-30
     latest: "7.3.7.2"
-    latestDate: 2022-12-08
+    latestReleaseDate: 2022-12-08
 
 ---
 

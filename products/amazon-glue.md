@@ -14,17 +14,17 @@ customFields:
     display: api-only
     label: Python
     description: Python version
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
   - name: sparkVersion
     display: api-only
     label: Spark
     description: Spark version
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
   - name: javaVersion
     display: api-only
     label: Java
     description: Supported Java version
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 
 auto:
   methods:
@@ -57,7 +57,7 @@ releases:
     javaVersion: '17'
     releaseDate: 2025-11-26
     eol: false
-    latestLink: https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-5-1/
+    link: https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-5-1/
 
   - releaseCycle: "5.0"
     sparkVersion: "3.5.4"
@@ -65,7 +65,7 @@ releases:
     javaVersion: '17'
     releaseDate: 2024-12-03
     eol: false
-    latestLink: https://aws.amazon.com/about-aws/whats-new/2024/12/aws-glue-5-0/
+    link: https://aws.amazon.com/about-aws/whats-new/2024/12/aws-glue-5-0/
 
   - releaseCycle: "4.0"
     sparkVersion: "3.3.0"
@@ -73,7 +73,7 @@ releases:
     javaVersion: '8'
     releaseDate: 2022-11-28
     eol: false
-    latestLink: https://aws.amazon.com/about-aws/whats-new/2022/11/introducing-aws-glue-4-0/
+    link: https://aws.amazon.com/about-aws/whats-new/2022/11/introducing-aws-glue-4-0/
 
   - releaseCycle: "3.0"
     sparkVersion: "3.1.1"
@@ -81,7 +81,7 @@ releases:
     javaVersion: '8'
     releaseDate: 2021-08-19
     eol: false
-    latestLink: https://aws.amazon.com/blogs/big-data/introducing-aws-glue-3-0-with-optimized-apache-spark-3-1-runtime-for-faster-data-integration/
+    link: https://aws.amazon.com/blogs/big-data/introducing-aws-glue-3-0-with-optimized-apache-spark-3-1-runtime-for-faster-data-integration/
 
   - releaseCycle: "2.0"
     sparkVersion: "2.4.3"
@@ -89,7 +89,7 @@ releases:
     javaVersion: N/A
     releaseDate: 2020-08-10
     eol: 2026-04-01
-    latestLink: https://aws.amazon.com/blogs/aws/aws-glue-version-2-0-featuring-10x-faster-job-start-times-and-1-minute-minimum-billing-duration/
+    link: https://aws.amazon.com/blogs/aws/aws-glue-version-2-0-featuring-10x-faster-job-start-times-and-1-minute-minimum-billing-duration/
 
   - releaseCycle: "1.0"
     releaseLabel: "1.0 (Python 3)"
@@ -98,7 +98,7 @@ releases:
     javaVersion: N/A
     releaseDate: 2019-07-25
     eol: 2026-04-01
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 
   - releaseCycle: "1.0-python-2"
     releaseLabel: "1.0 (Python 2)"
@@ -107,7 +107,7 @@ releases:
     javaVersion: N/A
     releaseDate: 2019-07-25
     eol: 2026-04-01
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 
   - releaseCycle: "0.9"
     sparkVersion: "2.2.1"
@@ -115,7 +115,7 @@ releases:
     javaVersion: N/A
     releaseDate: 2019-07-25
     eol: 2026-04-01
-    latestLink: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
+    link: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 
 ---
 

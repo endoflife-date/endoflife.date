@@ -8,7 +8,7 @@ permalink: /adonisjs
 alternate_urls:
   - /adonis
 versionCommand: npm list --depth=0  @adonisjs/core
-latestLinkTemplate: https://github.com/adonisjs/core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/adonisjs/core/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -24,19 +24,19 @@ releases:
     releaseDate: 2026-02-25
     eol: false
     latest: "7.3.2"
-    latestDate: 2026-04-26
+    latestReleaseDate: 2026-04-26
 
   - releaseCycle: "6"
     releaseDate: 2023-02-20
     eol: false
     latest: "6.20.0"
-    latestDate: 2026-02-05
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "5"
     releaseDate: 2020-10-11
     eol: 2023-02-20
     latest: "5.9.0"
-    latestDate: 2022-11-22
+    latestReleaseDate: 2022-11-22
 
 ---
 

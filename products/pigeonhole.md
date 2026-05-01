@@ -6,7 +6,7 @@ iconSlug: dovecot
 permalink: /pigeonhole
 alternate_urls:
   - /dovecot-pigeonhole
-latestLinkTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
+changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
 
 identifiers:
   - repology: dovecot-pigeonhole
@@ -23,38 +23,38 @@ releases:
     releaseDate: 2025-01-24
     eol: false
     latest: "2.4.3"
-    latestDate: 2026-03-27
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "0.5"
     staleReleaseThresholdDays: 730 # Dovecot 2.3 still receive security support
     releaseDate: 2017-12-24
     eol: false
     latest: "0.5.21.1"
-    latestDate: 2024-08-14
+    latestReleaseDate: 2024-08-14
 
   - releaseCycle: "0.4"
     releaseDate: 2013-05-09
     eol: 2025-01-24
     latest: "0.4.24.2"
-    latestDate: 2019-08-28
+    latestReleaseDate: 2019-08-28
 
   - releaseCycle: "0.3"
     releaseDate: 2012-02-16
     eol: 2017-12-24
     latest: "0.3.6"
-    latestDate: 2013-09-26
+    latestReleaseDate: 2013-09-26
 
   - releaseCycle: "0.2"
     releaseDate: 2010-09-10
     eol: 2013-05-09
     latest: "0.2.5"
-    latestDate: 2011-11-19
+    latestReleaseDate: 2011-11-19
 
   - releaseCycle: "0.1"
     releaseDate: 2008-10-23
     eol: 2012-02-16
     latest: "0.1.4"
-    latestDate: 2009-03-21
+    latestReleaseDate: 2009-03-21
 
 ---
 

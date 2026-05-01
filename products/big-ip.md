@@ -6,7 +6,7 @@ iconSlug: f5
 permalink: /big-ip
 versionCommand: show /sys version
 releasePolicyLink: https://my.f5.com/manage/s/article/K5903
-latestLinkTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
+changelogTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
 eoasColumn: End of Software Development
 eolColumn: End of Technical Support
 
@@ -49,7 +49,7 @@ releases:
     eoas: 2026-08-06
     eol: 2026-08-06
     latest: "21.0.0"
-    latestDate: 2025-11-06
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "17.5"
     lts: true
@@ -57,7 +57,7 @@ releases:
     eoas: 2029-01-01
     eol: 2029-01-01
     latest: "17.5.1"
-    latestDate: 2025-06-26
+    latestReleaseDate: 2025-06-26
 
   - releaseCycle: "17.1"
     lts: true
@@ -65,14 +65,14 @@ releases:
     eoas: 2027-03-31
     eol: 2027-03-31
     latest: "17.1.3"
-    latestDate: 2025-10-10
+    latestReleaseDate: 2025-10-10
 
   - releaseCycle: "17.0"
     releaseDate: 2022-04-26
     eoas: 2023-07-31
     eol: 2023-07-31
     latest: "17.0.0"
-    latestDate: 2022-04-26
+    latestReleaseDate: 2022-04-26
 
   - releaseCycle: "16.1"
     lts: true
@@ -80,15 +80,15 @@ releases:
     eoas: 2026-07-01
     eol: 2026-07-01
     latest: "16.1.6"
-    latestDate: 2025-04-15
+    latestReleaseDate: 2025-04-15
 
   - releaseCycle: "16.0"
     releaseDate: 2020-07-16
     eoas: 2021-10-07
     eol: 2021-10-07
     latest: "16.0.1.1"
-    latestDate: 2021-10-02
-    latestLink: null
+    latestReleaseDate: 2021-10-02
+    link: null
 
   - releaseCycle: "15.1"
     lts: true
@@ -96,16 +96,16 @@ releases:
     eoas: 2025-12-31
     eol: 2025-12-31
     latest: "15.1.10"
-    latestDate: 2023-08-30
-    latestLink: null
+    latestReleaseDate: 2023-08-30
+    link: null
 
   - releaseCycle: "15.0"
     releaseDate: 2019-05-23 # https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-0.html
     eoas: 2020-08-23
     eol: 2020-08-23
     latest: "15.0.1"
-    latestDate: 2019-08-08
-    latestLink: null
+    latestReleaseDate: 2019-08-08
+    link: null
 
 ---
 

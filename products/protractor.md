@@ -23,56 +23,56 @@ releases:
     eol: 2023-08-31
     eoes: false
     latest: "7.0.0"
-    latestDate: 2020-05-13
-    latestLink: https://github.com/angular/protractor/blob/release-7.0/CHANGELOG.md#700
+    latestReleaseDate: 2020-05-13
+    link: https://github.com/angular/protractor/blob/release-7.0/CHANGELOG.md#700
 
   - releaseCycle: "6.0"
     releaseDate: 2019-03-23
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "6.0.0"
-    latestDate: 2019-03-23
-    latestLink: https://github.com/angular/protractor/blob/master/CHANGELOG.md#600
+    latestReleaseDate: 2019-03-23
+    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#600
 
   - releaseCycle: "5.0"
     releaseDate: 2017-01-10
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "5.4.4"
-    latestDate: 2020-04-16
-    latestLink: https://github.com/angular/protractor/blob/release-5.4/CHANGELOG.md#544
+    latestReleaseDate: 2020-04-16
+    link: https://github.com/angular/protractor/blob/release-5.4/CHANGELOG.md#544
 
   - releaseCycle: "4.0"
     releaseDate: 2016-07-12
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "4.0.14"
-    latestDate: 2016-12-21
-    latestLink: https://github.com/angular/protractor/blob/master/CHANGELOG.md#4014
+    latestReleaseDate: 2016-12-21
+    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#4014
 
   - releaseCycle: "3.0"
     releaseDate: 2015-11-18
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "3.3.0"
-    latestDate: 2016-04-25
-    latestLink: https://github.com/angular/protractor/blob/master/CHANGELOG.md#330
+    latestReleaseDate: 2016-04-25
+    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#330
 
   - releaseCycle: "2.0"
     releaseDate: 2015-03-18
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "2.5.1"
-    latestDate: 2015-10-08
-    latestLink: https://github.com/angular/protractor/blob/master/CHANGELOG.md#251
+    latestReleaseDate: 2015-10-08
+    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#251
 
   - releaseCycle: "1.0"
     releaseDate: 2014-07-21
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "1.8.0"
-    latestDate: 2015-03-02
-    latestLink: https://github.com/angular/protractor/blob/master/CHANGELOG.md#180
+    latestReleaseDate: 2015-03-02
+    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#180
 ---
 
 > [Protractor](https://www.protractortest.org/) is an end-to-end test framework for Angular and

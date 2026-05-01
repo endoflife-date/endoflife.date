@@ -4,7 +4,7 @@ addedAt: 2025-06-29
 category: framework
 tags: php-runtime
 permalink: /behat
-latestLinkTemplate: https://github.com/Behat/Behat/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/Behat/Behat/releases/tag/v__LATEST__
 releasePolicyLink: https://docs.behat.org/en/latest/releases.html
 eoasColumn: true
 
@@ -22,14 +22,14 @@ releases:
     eoas: false
     eol: false
     latest: "3.31.0"
-    latestDate: 2026-04-19
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01
     eoas: 2015-06-01
     eol: 2015-06-01
     latest: "2.5.5"
-    latestDate: 2015-06-01
+    latestReleaseDate: 2015-06-01
 
 ---
 

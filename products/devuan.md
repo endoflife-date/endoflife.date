@@ -22,8 +22,8 @@ releases:
     lts: 2028-08-09
     eol: 2030-06-30
     latest: "6.0.0"
-    latestDate: 2025-11-03
-    latestLink: https://www.devuan.org/os/announce/excalibur-release-announce-2025-11-02
+    latestReleaseDate: 2025-11-03
+    link: https://www.devuan.org/os/announce/excalibur-release-announce-2025-11-02
 
   - releaseCycle: "5"
     codename: "Daedalus"
@@ -31,8 +31,8 @@ releases:
     lts: 2026-06-10
     eol: 2028-06-10
     latest: "5.0.0"
-    latestDate: 2023-08-15
-    latestLink: https://www.devuan.org/os/announce/daedalus-release-announce-2023-08-14
+    latestReleaseDate: 2023-08-15
+    link: https://www.devuan.org/os/announce/daedalus-release-announce-2023-08-14
 
   - releaseCycle: "4"
     codename: "Chimaera"
@@ -40,8 +40,8 @@ releases:
     lts: 2024-07-01
     eol: 2026-08-15
     latest: "4.0.0"
-    latestDate: 2021-10-14
-    latestLink: https://www.devuan.org/os/announce/chimaera-release-announce-2021-10-14
+    latestReleaseDate: 2021-10-14
+    link: https://www.devuan.org/os/announce/chimaera-release-announce-2021-10-14
 
   - releaseCycle: "3"
     codename: "Beowulf"
@@ -49,8 +49,8 @@ releases:
     lts: 2022-07-01
     eol: 2024-06-01
     latest: "3.1.0"
-    latestDate: 2021-02-15
-    latestLink: https://www.devuan.org/os/announce/beowulf-point-release-announce-021421
+    latestReleaseDate: 2021-02-15
+    link: https://www.devuan.org/os/announce/beowulf-point-release-announce-021421
 
   - releaseCycle: "2"
     codename: "ASCII"
@@ -58,8 +58,8 @@ releases:
     lts: 2020-06-06
     eol: 2022-06-30
     latest: "2.1"
-    latestDate: 2019-11-25
-    latestLink: https://www.devuan.org/os/announce/ascii-point-release-announce-112119
+    latestReleaseDate: 2019-11-25
+    link: https://www.devuan.org/os/announce/ascii-point-release-announce-112119
 
   - releaseCycle: "1"
     codename: "Jessie"
@@ -67,8 +67,8 @@ releases:
     releaseDate: 2017-05-25
     eol: 2020-06-30
     latest: "1.0.0"
-    latestDate: 2017-05-25
-    latestLink: https://www.devuan.org/os/announce/stable-jessie-announce-052517.html
+    latestReleaseDate: 2017-05-25
+    link: https://www.devuan.org/os/announce/stable-jessie-announce-052517.html
 
 ---
 

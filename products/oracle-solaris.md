@@ -25,46 +25,46 @@ releases:
     releaseDate: 2018-08-28
     eol: 2031-11-01
     eoes: 2037-11-01
-    latestLink: https://docs.oracle.com/en/operating-systems/solaris/oracle-solaris/
+    link: https://docs.oracle.com/en/operating-systems/solaris/oracle-solaris/
 
   - releaseCycle: "11.3"
     releaseDate: 2015-10-26
     eol: 2021-01-01
     eoes: 2027-01-01
-    latestLink: https://docs.oracle.com/cd/E53394_01/index.html
+    link: https://docs.oracle.com/cd/E53394_01/index.html
 
   - releaseCycle: "11.2"
     releaseDate: 2014-04-29
     eol: true
-    latestLink: https://docs.oracle.com/cd/E36784_01/index.html
+    link: https://docs.oracle.com/cd/E36784_01/index.html
 
   - releaseCycle: "11.1"
     releaseDate: 2012-10-03
     eol: true
-    latestLink: https://docs.oracle.com/cd/E26502_01/index.html
+    link: https://docs.oracle.com/cd/E26502_01/index.html
 
   - releaseCycle: "11"
     releaseDate: 2011-11-09
     eol: true
-    latestLink: https://docs.oracle.com/cd/E23824_01/index.html
+    link: https://docs.oracle.com/cd/E23824_01/index.html
 
   - releaseCycle: "10"
     releaseDate: 2005-01-31
     eol: 2018-01-01
     eoes: 2027-01-01
-    latestLink: https://docs.oracle.com/cd/F24622_01/index.html
+    link: https://docs.oracle.com/cd/F24622_01/index.html
 
   - releaseCycle: "9"
     releaseDate: 2002-05-28
     eol: 2011-10-01
     eoes: 2014-10-01
-    latestLink: https://docs.oracle.com/cd/E19683-01/index.html
+    link: https://docs.oracle.com/cd/E19683-01/index.html
 
   - releaseCycle: "8"
     releaseDate: 2000-02-01
     eol: 2009-03-01
     eoes: 2012-03-01
-    latestLink: https://docs.oracle.com/cd/E19455-01/index.html
+    link: https://docs.oracle.com/cd/E19455-01/index.html
 ---
 
 > [Oracle Solaris](https://www.oracle.com/solaris/) is a proprietary Unix operating system

@@ -7,7 +7,7 @@ iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
 releasePolicyLink: https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-al2.html
-latestLinkTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_DATE__'|replace:'-',''}}.html"
+changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__'|replace:'-',''}}.html"
 eoasColumn: Standard Support
 eolColumn: Security Support
 
@@ -30,16 +30,16 @@ releases:
     eoas: 2027-06-30
     eol: 2029-06-30
     latest: "2023.11.20260413.0"
-    latestDate: 2026-04-24
-    latestLink: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
+    latestReleaseDate: 2026-04-24
+    link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
   - releaseCycle: "2"
     releaseDate: 2018-06-26
     eoas: 2026-06-30
     eol: 2026-06-30
     latest: "2.0.20260413.0"
-    latestDate: 2026-04-24
-    latestLink: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
+    latestReleaseDate: 2026-04-24
+    link: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
   - releaseCycle: "2018.03"
     releaseLabel: "AMI 2018.03"
@@ -47,43 +47,43 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2018.03.0.20231218.0"
-    latestLink: https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
+    link: https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
   - releaseCycle: "2017.09"
     releaseLabel: "AMI 2017.09"
     releaseDate: 2017-11-03
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2017.09.1.20180409"
-    latestLink: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2017-09/
+    link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2017-09/
 
-    latestDate: 2018-04-10
+    latestReleaseDate: 2018-04-10
   - releaseCycle: "2017.03"
     releaseLabel: "AMI 2017.03"
     releaseDate: 2017-04-07
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2017.03.1.20170812"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/ # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
+    link: https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/ # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
 
-    latestDate: 2017-11-03
+    latestReleaseDate: 2017-11-03
   - releaseCycle: "2016.09"
     releaseLabel: "AMI 2016.09"
     releaseDate: 2016-11-16
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2016.09.1.20161221"
-    latestLink: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2016-09/
+    link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2016-09/
 
-    latestDate: 2017-11-03
+    latestReleaseDate: 2017-11-03
   - releaseCycle: "2016.03"
     releaseLabel: "AMI 2016.03"
     releaseDate: 2016-03-22
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2016.03"
-    latestLink: https://aws.amazon.com/amazon-linux-ami/2016.03-release-notes/
+    link: https://aws.amazon.com/amazon-linux-ami/2016.03-release-notes/
 
   - releaseCycle: "2015.09"
     releaseLabel: "AMI 2015.09"
@@ -91,7 +91,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2015.09"
-    latestLink: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-09/
+    link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-09/
 
   - releaseCycle: "2015.03"
     releaseLabel: "AMI 2015.03"
@@ -99,7 +99,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2015.03"
-    latestLink: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-03/
+    link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-03/
 
   - releaseCycle: "2014.09"
     releaseLabel: "AMI 2014.09"
@@ -107,7 +107,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2014.09"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2014-09/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2014-09/
 
   - releaseCycle: "2014.03"
     releaseLabel: "AMI 2014.03"
@@ -115,7 +115,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2014.03"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201403-is-now-available/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201403-is-now-available/
 
   - releaseCycle: "2013.09"
     releaseLabel: "AMI 2013.09"
@@ -123,7 +123,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2013.09"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201309-now-available/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201309-now-available/
 
   - releaseCycle: "2013.03"
     releaseLabel: "AMI 2013.03"
@@ -131,7 +131,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2013.03"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201303-now-available/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201303-now-available/
 
   - releaseCycle: "2012.09"
     releaseLabel: "AMI 2012.09"
@@ -139,7 +139,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2012.09"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201209-now-available/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201209-now-available/
 
   - releaseCycle: "2012.03"
     releaseLabel: "AMI 2012.03"
@@ -147,7 +147,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2012.03"
-    latestLink: https://aws.amazon.com/blogs/aws/updated-amazon-linux-ami-201203-now-available/
+    link: https://aws.amazon.com/blogs/aws/updated-amazon-linux-ami-201203-now-available/
 
   - releaseCycle: "2011.09"
     releaseLabel: "AMI 2011.09"
@@ -155,7 +155,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2011.09"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-production-status-new-features/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-production-status-new-features/
 
   - releaseCycle: "2010.11"
     releaseLabel: "AMI 2010.11"
@@ -163,7 +163,7 @@ releases:
     eoas: 2020-12-31
     eol: 2023-12-31
     latest: "2010.11"
-    latestLink: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2010111-released/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2010111-released/
 
 ---
 

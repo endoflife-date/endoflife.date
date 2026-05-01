@@ -9,7 +9,7 @@ alternate_urls:
   - /saltstack
 versionCommand: salt --version
 releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-latestLinkTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
+changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 eoasColumn: true
 
@@ -39,15 +39,15 @@ identifiers:
 
 # link(x) =
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
-# - other: see latestLinkTemplate
+# - other: see changelogTemplate
 releases:
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
     eoas: 2026-07-31
     eol: 2026-07-31
     latest: "3007.14"
-    latestDate: 2026-04-29
-    latestLink: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
+    latestReleaseDate: 2026-04-29
+    link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
 
   - releaseCycle: "3006"
     lts: true
@@ -55,111 +55,111 @@ releases:
     eoas: 2026-07-31
     eol: 2027-07-31
     latest: "3006.24"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3005"
     releaseDate: 2022-08-22
     eoas: 2023-08-25
     eol: 2024-02-25
     latest: "3005.5"
-    latestDate: 2024-01-24
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2024-01-24
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "3004"
     releaseDate: 2021-10-12
     eoas: 2022-10-18
     eol: 2023-04-18
     latest: "3004.2"
-    latestDate: 2022-05-13
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2022-05-13
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "3003"
     releaseDate: 2021-03-23
     eoas: 2022-03-31
     eol: 2022-09-30
     latest: "3003.5"
-    latestDate: 2022-05-24
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2022-05-24
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "3002"
     releaseDate: 2020-10-20
     eoas: 2021-10-21
     eol: 2022-04-21
     latest: "3002.9"
-    latestDate: 2022-05-26
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2022-05-26
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "3001"
     releaseDate: 2020-06-09
     eoas: 2021-06-30
     eol: 2021-12-31
     latest: "3001.8"
-    latestDate: 2021-08-24
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2021-08-24
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "3000"
     releaseDate: 2020-02-01
     eoas: 2021-02-28
     eol: 2021-08-31
     latest: "3000.9"
-    latestDate: 2021-03-10
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2021-03-10
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2019.2"
     releaseDate: 2019-01-07
     eoas: 2020-03-31
     eol: 2020-09-30
     latest: "2019.2.8"
-    latestDate: 2020-12-01
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2020-12-01
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2018.3"
     releaseDate: 2018-02-22
     eoas: 2019-04-30
     eol: 2019-10-31
     latest: "2018.3.5"
-    latestDate: 2020-01-07
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2020-01-07
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2017.7"
     releaseDate: 2017-06-14
     eoas: 2018-06-30
     eol: 2019-08-30
     latest: "2017.7.8"
-    latestDate: 2018-09-07
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2018-09-07
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2016.3"
     releaseDate: 2016-02-02
     eoas: 2017-05-31
     eol: 2017-11-30
     latest: "2016.3.8"
-    latestDate: 2017-08-31
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2017-08-31
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2015.8"
     releaseDate: 2015-07-02
     eoas: 2016-09-30
     eol: 2017-03-31
     latest: "2015.8.13"
-    latestDate: 2017-01-09
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2017-01-09
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2015.5"
     releaseDate: 2015-05-06
     eoas: 2016-05-31
     eol: 2016-11-30
     latest: "2015.5.11"
-    latestDate: 2016-07-22
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2016-07-22
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
   - releaseCycle: "2014.7"
     releaseDate: 2014-07-15
     eoas: 2015-11-30
     eol: 2016-05-31
     latest: "2014.7.9"
-    latestDate: 2016-03-11
-    latestLink: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    latestReleaseDate: 2016-03-11
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
 ---
 

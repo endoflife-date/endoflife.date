@@ -14,7 +14,7 @@ versionCommand: |-
   # or, on older versions
   yum info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-latestLinkTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
 eoasColumn: Full support
 eolColumn: Maintenance support
@@ -34,135 +34,135 @@ releases:
     eoas: false
     eol: false
     latest: "6.18.4"
-    latestDate: 2026-03-26
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "6.17"
     releaseDate: 2025-05-06
     eoas: 2025-11-30
     eol: 2026-11-30 # estimated
     latest: "6.17.7"
-    latestDate: 2026-03-26
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
     latest: "6.16.7"
-    latestDate: 2026-03-26
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
     latest: "6.15.5.8"
-    latestDate: 2025-12-02
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "6.14"
     releaseDate: 2023-11-08
     eoas: 2024-05-31
     eol: 2025-05-31
     latest: "6.14.4.5"
-    latestDate: 2025-04-01
+    latestReleaseDate: 2025-04-01
 
   - releaseCycle: "6.13"
     releaseDate: 2023-05-03
     eoas: 2023-11-30
     eol: 2024-11-30
     latest: "6.13.7.3"
-    latestDate: 2024-10-31
+    latestReleaseDate: 2024-10-31
 
   - releaseCycle: "6.12"
     releaseDate: 2022-11-16
     eoas: 2023-05-31
     eol: 2024-05-31
     latest: "6.12.5.3"
-    latestDate: 2024-04-22
+    latestReleaseDate: 2024-04-22
 
   - releaseCycle: "6.11"
     releaseDate: 2022-07-05
     eoas: 2022-11-30
     eol: 2024-01-31
     latest: "6.11.5.7"
-    latestDate: 2024-05-06
+    latestReleaseDate: 2024-05-06
 
   - releaseCycle: "6.10"
     releaseDate: 2021-11-16
     eoas: 2022-06-30
     eol: 2023-05-31
     latest: "6.10.7.2"
-    latestDate: 2023-03-01
+    latestReleaseDate: 2023-03-01
 
   - releaseCycle: "6.9"
     releaseDate: 2021-04-21
     eoas: 2021-11-30
     eol: 2022-11-30
     latest: "6.9.10"
-    latestDate: 2022-11-17
+    latestReleaseDate: 2022-11-17
 
   - releaseCycle: "6.8"
     releaseDate: 2020-10-27
     eoas: 2021-04-30
     eol: 2022-07-31
     latest: "6.8.6"
-    latestDate: 2021-04-13
+    latestReleaseDate: 2021-04-13
 
   - releaseCycle: "6.7"
     releaseDate: 2020-04-14
     eoas: 2020-10-31
     eol: 2021-11-30
     latest: "6.7.5"
-    latestDate: 2020-10-26
+    latestReleaseDate: 2020-10-26
 
   - releaseCycle: "6.6"
     releaseDate: 2019-10-22
     eoas: 2020-04-30
     eol: 2021-05-14
     latest: "6.6.3"
-    latestDate: 2020-04-16
+    latestReleaseDate: 2020-04-16
 
   - releaseCycle: "6.5"
     releaseDate: 2019-05-14
     eoas: 2019-10-31
     eol: 2020-10-31
     latest: "6.5.3"
-    latestDate: 2019-10-29
+    latestReleaseDate: 2019-10-29
 
   - releaseCycle: "6.4"
     releaseDate: 2018-10-16
     eoas: 2019-05-31
     eol: 2020-04-30
     latest: "6.4.4"
-    latestDate: 2019-07-15
+    latestReleaseDate: 2019-07-15
 
   - releaseCycle: "6.3"
     releaseDate: 2018-02-21
     eoas: 2018-10-30
     eol: 2019-05-31
     latest: "6.3.5"
-    latestDate: 2018-10-30
+    latestReleaseDate: 2018-10-30
 
   - releaseCycle: "6.2"
     releaseDate: 2016-07-27
     eoas: 2018-02-21
     eol: 2019-05-31
     latest: "6.2.16"
-    latestDate: 2018-11-26
+    latestReleaseDate: 2018-11-26
 
   - releaseCycle: "6.1"
     releaseDate: 2015-08-12
     eoas: 2016-07-27
     eol: 2018-10-30
     latest: "6.1.12"
-    latestDate: 2017-06-29
-    latestLink: https://web.archive.org/web/20190719230423/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.1/html/release_notes/index
+    latestReleaseDate: 2017-06-29
+    link: https://web.archive.org/web/20190719230423/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.1/html/release_notes/index
 
   - releaseCycle: "6.0"
     releaseDate: 2014-09-10
     eoas: 2015-08-12
     eol: 2018-02-21
     latest: "6.0.8"
-    latestDate: 2015-02-20
-    latestLink: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
+    latestReleaseDate: 2015-02-20
+    link: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
 
 ---
 

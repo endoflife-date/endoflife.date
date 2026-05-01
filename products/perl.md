@@ -6,7 +6,7 @@ iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
-latestLinkTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
+changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
 eolColumn: Critical security patches
 
@@ -42,63 +42,63 @@ releases:
     eoas: false
     eol: 2028-07-03
     latest: "5.42.2"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "5.40"
     releaseDate: 2024-06-09
     eoas: false
     eol: 2027-06-09
     latest: "5.40.4"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "5.38"
     releaseDate: 2023-07-02
     eoas: 2025-07-03
     eol: 2026-07-02
     latest: "5.38.5"
-    latestDate: 2025-08-03
+    latestReleaseDate: 2025-08-03
 
   - releaseCycle: "5.36"
     releaseDate: 2022-05-27
     eoas: 2024-06-09
     eol: 2025-05-27
     latest: "5.36.3"
-    latestDate: 2023-11-29
+    latestReleaseDate: 2023-11-29
 
   - releaseCycle: "5.34"
     releaseDate: 2021-05-20
     eoas: 2023-07-02
     eol: 2024-05-20
     latest: "5.34.3"
-    latestDate: 2023-11-29
+    latestReleaseDate: 2023-11-29
 
   - releaseCycle: "5.32"
     releaseDate: 2020-06-20
     eoas: 2022-05-27
     eol: 2023-06-20
     latest: "5.32.1"
-    latestDate: 2021-01-23
+    latestReleaseDate: 2021-01-23
 
   - releaseCycle: "5.30"
     releaseDate: 2019-05-22
     eoas: 2021-05-20
     eol: 2022-05-22
     latest: "5.30.3"
-    latestDate: 2020-05-29
+    latestReleaseDate: 2020-05-29
 
   - releaseCycle: "5.28"
     releaseDate: 2018-06-22
     eoas: 2020-06-20
     eol: 2021-06-23
     latest: "5.28.3"
-    latestDate: 2020-05-29
+    latestReleaseDate: 2020-05-29
 
   - releaseCycle: "5.26"
     releaseDate: 2017-05-30
     eoas: 2019-05-22
     eol: 2020-05-30
     latest: "5.26.3"
-    latestDate: 2018-11-28
+    latestReleaseDate: 2018-11-28
 
 ---
 

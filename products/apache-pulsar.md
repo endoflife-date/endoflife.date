@@ -8,7 +8,7 @@ permalink: /apache-pulsar
 alternate_urls:
   - /pulsar
 releasePolicyLink: https://pulsar.apache.org/contribute/release-policy/
-latestLinkTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LATEST__/
+changelogTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LATEST__/
 eolColumn: Active Support
 eoesColumn: Security Support
 
@@ -39,14 +39,14 @@ releases:
     eol: 2026-09-24
     eoes: 2026-09-24
     latest: "4.2.1"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-08
     eol: 2026-03-08
     eoes: 2026-03-08
     latest: "4.1.3"
-    latestDate: 2026-02-19
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "4.0"
     lts: true
@@ -54,28 +54,28 @@ releases:
     eol: 2026-10-21
     eoes: 2027-10-21
     latest: "4.0.10"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "3.3"
     releaseDate: 2024-06-05
     eol: 2024-12-05
     eoes: 2024-12-05
     latest: "3.3.9"
-    latestDate: 2025-09-27
+    latestReleaseDate: 2025-09-27
 
   - releaseCycle: "3.2"
     releaseDate: 2024-02-05
     eol: 2024-08-05
     eoes: 2024-08-05
     latest: "3.2.4"
-    latestDate: 2024-08-01
+    latestReleaseDate: 2024-08-01
 
   - releaseCycle: "3.1"
     releaseDate: 2023-08-10
     eol: 2024-02-10
     eoes: 2024-02-10
     latest: "3.1.3"
-    latestDate: 2024-03-08
+    latestReleaseDate: 2024-03-08
 
   - releaseCycle: "3.0"
     lts: true
@@ -83,56 +83,56 @@ releases:
     eol: 2025-05-02
     eoes: 2026-05-02
     latest: "3.0.17"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "2.11"
     releaseDate: 2023-01-11
     eol: 2024-01-11
     eoes: 2024-01-11
     latest: "2.11.4"
-    latestDate: 2024-03-08
+    latestReleaseDate: 2024-03-08
 
   - releaseCycle: "2.10"
     releaseDate: 2022-04-18
     eol: 2023-04-18
     eoes: 2023-04-18
     latest: "2.10.6"
-    latestDate: 2024-03-08
+    latestReleaseDate: 2024-03-08
 
   - releaseCycle: "2.9"
     releaseDate: 2021-12-20
     eol: 2022-12-20
     eoes: 2022-12-20
     latest: "2.9.5"
-    latestDate: 2023-04-20
+    latestReleaseDate: 2023-04-20
 
   - releaseCycle: "2.8"
     releaseDate: 2021-06-15
     eol: 2022-06-15
     eoes: 2022-06-15
     latest: "2.8.4"
-    latestDate: 2022-10-04
+    latestReleaseDate: 2022-10-04
 
   - releaseCycle: "2.7"
     releaseDate: 2020-12-03
     eol: 2021-12-03
     eoes: 2021-12-03
     latest: "2.7.5"
-    latestDate: 2022-09-06
+    latestReleaseDate: 2022-09-06
 
   - releaseCycle: "2.6"
     releaseDate: 2020-06-17
     eol: 2021-06-17
     eoes: 2021-06-17
     latest: "2.6.4"
-    latestDate: 2021-06-02
+    latestReleaseDate: 2021-06-02
 
   - releaseCycle: "2.5"
     releaseDate: 2020-01-15
     eol: 2021-01-15
     eoes: 2021-01-15
     latest: "2.5.2"
-    latestDate: 2020-05-19
+    latestReleaseDate: 2020-05-19
 
 ---
 

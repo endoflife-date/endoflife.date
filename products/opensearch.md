@@ -13,7 +13,7 @@ versionCommand: |-
   opensearch --version 2>/dev/null
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
-latestLinkTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
+changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 eoasColumn: Active Development
 eolColumn: Maintenance Support
 
@@ -46,22 +46,22 @@ releases:
     eoas: false
     eol: false
     latest: "3.6.0"
-    latestDate: 2026-04-07
-    latestLink: https://opensearch.org/blog/opensearch-3-5-is-live/
+    latestReleaseDate: 2026-04-07
+    link: https://opensearch.org/blog/opensearch-3-5-is-live/
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
     eoas: 2025-05-06
     eol: false
     latest: "2.19.4"
-    latestDate: 2025-11-06
+    latestReleaseDate: 2025-11-06
 
   - releaseCycle: "1"
     releaseDate: 2021-07-12
     eoas: 2022-05-26
     eol: 2025-05-06 # upcoming support(2) at least 1 year
     latest: "1.3.20"
-    latestDate: 2024-12-11
+    latestReleaseDate: 2024-12-11
 
 ---
 

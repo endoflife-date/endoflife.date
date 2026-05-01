@@ -24,29 +24,29 @@ releases:
     eoas: false
     eol: false
     latest: "3.3.16"
-    latestDate: 2026-04-27
-    latestLink: https://www.phpbb.com/community/viewtopic.php?t=2661607
+    latestReleaseDate: 2026-04-27
+    link: https://www.phpbb.com/community/viewtopic.php?t=2661607
 
   - releaseCycle: "3.2"
     releaseDate: 2017-01-07
     eoas: 2019-05-01
     eol: 2019-11-01
     latest: "3.2.11"
-    latestDate: 2020-11-04
+    latestReleaseDate: 2020-11-04
 
   - releaseCycle: "3.1"
     releaseDate: 2014-10-28
     eoas: 2017-06-01
     eol: 2018-11-01
     latest: "3.1.12"
-    latestDate: 2018-01-07
+    latestReleaseDate: 2018-01-07
 
   - releaseCycle: "3.0"
     releaseDate: 2007-12-12
     eoas: 2015-05-01
     eol: 2015-11-01
     latest: "3.0.14"
-    latestDate: 2015-05-03
+    latestReleaseDate: 2015-05-03
 
 ---
 

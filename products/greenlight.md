@@ -4,7 +4,7 @@ addedAt: 2025-03-01
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
-latestLinkTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
+changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:bigbluebutton:greenlight
@@ -20,13 +20,13 @@ releases:
     releaseDate: 2023-02-16
     eol: false
     latest: "3.8.2"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "2"
     releaseDate: 2018-09-14
     eol: 2023-09-11 # https://github.com/bigbluebutton/greenlight/commit/f739387a304b7d8f8d28b5cf5d96e801f7f60546
     latest: "2.14.10"
-    latestDate: 2024-05-03
+    latestReleaseDate: 2024-05-03
 
 ---
 

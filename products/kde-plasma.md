@@ -8,7 +8,7 @@ alternate_urls:
   - /kdeplasma
 versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
-latestLinkTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
+changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
 eoasColumn: true
 eolColumn: Critical bug fixes
 
@@ -31,49 +31,49 @@ releases:
     eoas: false
     eol: false
     latest: "6.6.4"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "6.5"
     releaseDate: 2025-10-21
     eoas: 2026-02-17
     eol: 2026-02-17
     latest: "6.5.6"
-    latestDate: 2026-03-10
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "6.4"
     releaseDate: 2025-06-17
     eoas: 2025-10-21
     eol: 2025-10-21
     latest: "6.4.6"
-    latestDate: 2025-11-11
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "6.3"
     releaseDate: 2025-02-11
     eoas: 2025-06-17
     eol: 2025-06-17
     latest: "6.3.6"
-    latestDate: 2025-07-08
+    latestReleaseDate: 2025-07-08
 
   - releaseCycle: "6.2"
     releaseDate: 2024-10-08
     eoas: 2025-02-11
     eol: 2025-02-11
     latest: "6.2.5"
-    latestDate: 2024-12-31
+    latestReleaseDate: 2024-12-31
 
   - releaseCycle: "6.1"
     releaseDate: 2024-06-18
     eoas: 2024-10-08
     eol: 2024-10-08
     latest: "6.1.5"
-    latestDate: 2024-09-10
+    latestReleaseDate: 2024-09-10
 
   - releaseCycle: "6.0"
     releaseDate: 2024-02-28
     eoas: 2024-06-18
     eol: 2024-06-18
     latest: "6.0.5"
-    latestDate: 2024-05-21
+    latestReleaseDate: 2024-05-21
 
   - releaseCycle: "5.27"
     staleReleaseThresholdDays: 730
@@ -82,24 +82,24 @@ releases:
     eoas: 2025-01-06
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.12"
-    latestDate: 2025-01-06
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2025-01-06
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
   - releaseCycle: "5.26"
     releaseDate: 2022-10-11
     eoas: 2023-02-14
     eol: 2023-02-14
     latest: "5.26.5"
-    latestDate: 2023-01-03
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2023-01-03
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
   - releaseCycle: "5.25"
     releaseDate: 2022-06-14
     eoas: 2022-10-11
     eol: 2022-10-11
     latest: "5.25.5"
-    latestDate: 2022-09-06
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2022-09-06
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
   - releaseCycle: "5.24"
     lts: true
@@ -107,16 +107,16 @@ releases:
     eoas: 2022-06-14
     eol: 2022-10-14
     latest: "5.24.7"
-    latestDate: 2022-10-14
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2022-10-14
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
   - releaseCycle: "5.23"
     releaseDate: 2021-10-14
     eoas: 2022-02-03
     eol: 2022-02-03
     latest: "5.23.5"
-    latestDate: 2022-01-04
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2022-01-04
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
   - releaseCycle: "5.18"
     lts: true
@@ -124,8 +124,8 @@ releases:
     eoas: 2020-06-04
     eol: 2022-02-11
     latest: "5.18.8"
-    latestDate: 2021-10-19
-    latestLink: https://kde.org/announcements/plasma/5/__LATEST__/
+    latestReleaseDate: 2021-10-19
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 ---
 

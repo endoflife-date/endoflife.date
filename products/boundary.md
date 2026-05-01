@@ -7,7 +7,7 @@ iconSlug: hashicorp
 permalink: /boundary
 versionCommand: boundary --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
-latestLinkTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
+changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
 
 identifiers:
   - repology: boundary
@@ -24,37 +24,37 @@ releases:
     releaseDate: 2025-12-11
     eol: false
     latest: "0.21.3"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "0.20"
     releaseDate: 2025-09-25
     eol: false
     latest: "0.20.3"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "0.19"
     releaseDate: 2025-02-10
     eol: false
     latest: "0.19.5"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "0.18"
     releaseDate: 2024-10-14
     eol: 2025-12-11
     latest: "0.18.2"
-    latestDate: 2024-12-12
+    latestReleaseDate: 2024-12-12
 
   - releaseCycle: "0.17"
     releaseDate: 2024-07-31
     eol: 2025-09-25
     latest: "0.17.2"
-    latestDate: 2024-10-14
+    latestReleaseDate: 2024-10-14
 
   - releaseCycle: "0.16"
     releaseDate: 2024-04-30
     eol: 2025-02-10
     latest: "0.16.3"
-    latestDate: 2024-08-22
+    latestReleaseDate: 2024-08-22
 
 ---
 

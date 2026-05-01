@@ -6,7 +6,7 @@ tags: build-tool javascript-runtime
 iconSlug: yarn
 permalink: /yarn
 versionCommand: yarn --version
-latestLinkTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
+changelogTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
 
 identifiers:
   - purl: pkg:github/yarnpkg/berry
@@ -26,27 +26,27 @@ releases:
     releaseDate: 2023-10-22
     eol: false
     latest: "4.14.1"
-    latestDate: 2026-04-17
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: 2024-12-04
     latest: "3.8.7"
-    latestDate: 2024-12-04
+    latestReleaseDate: 2024-12-04
 
   - releaseCycle: "2"
     releaseDate: 2020-07-09
     eol: 2021-09-06
     latest: "2.4.3"
-    latestDate: 2021-09-06
+    latestReleaseDate: 2021-09-06
 
   - releaseCycle: "1"
     staleReleaseThresholdDays: 1460 # https://github.com/yarnpkg/yarn/issues/8583
     releaseDate: 2017-09-05
     eol: false
     latest: "1.22.22"
-    latestDate: 2024-03-09
-    latestLink: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
+    latestReleaseDate: 2024-03-09
+    link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---
 

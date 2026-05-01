@@ -9,7 +9,7 @@ alternate_urls:
   - /k8s
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
-latestLinkTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
+changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -30,140 +30,140 @@ releases:
     eoas: 2026-12-28
     eol: 2027-02-28
     latest: "1.35.4"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "1.34"
     releaseDate: 2025-08-27
     eoas: 2026-08-27
     eol: 2026-10-27
     latest: "1.34.7"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "1.33"
     releaseDate: 2025-04-23
     eoas: 2026-04-28
     eol: 2026-06-28
     latest: "1.33.11"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "1.32"
     releaseDate: 2024-12-11
     eoas: 2025-12-28
     eol: 2026-02-28
     latest: "1.32.13"
-    latestDate: 2026-02-26
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "1.31"
     releaseDate: 2024-08-13
     eoas: 2025-08-28
     eol: 2025-10-28
     latest: "1.31.14"
-    latestDate: 2025-11-11
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "1.30"
     releaseDate: 2024-04-17
     eoas: 2025-04-28
     eol: 2025-06-28
     latest: "1.30.14"
-    latestDate: 2025-06-17
+    latestReleaseDate: 2025-06-17
 
   - releaseCycle: "1.29"
     releaseDate: 2023-12-13
     eoas: 2024-12-28
     eol: 2025-02-28
     latest: "1.29.15"
-    latestDate: 2025-03-11
+    latestReleaseDate: 2025-03-11
 
   - releaseCycle: "1.28"
     releaseDate: 2023-08-15
     eoas: 2024-08-28
     eol: 2024-10-28
     latest: "1.28.15"
-    latestDate: 2024-10-22
+    latestReleaseDate: 2024-10-22
 
   - releaseCycle: "1.27"
     releaseDate: 2023-04-11
     eoas: 2024-04-28
     eol: 2024-06-28
     latest: "1.27.16"
-    latestDate: 2024-07-17
+    latestReleaseDate: 2024-07-17
 
   - releaseCycle: "1.26"
     releaseDate: 2022-12-08
     eoas: 2023-12-28
     eol: 2024-02-28
     latest: "1.26.15"
-    latestDate: 2024-03-14
+    latestReleaseDate: 2024-03-14
 
   - releaseCycle: "1.25"
     releaseDate: 2022-08-23
     eoas: 2023-08-27
     eol: 2023-10-27
     latest: "1.25.16"
-    latestDate: 2023-11-15
+    latestReleaseDate: 2023-11-15
 
   - releaseCycle: "1.24"
     releaseDate: 2022-05-03
     eoas: 2023-05-28
     eol: 2023-07-28
     latest: "1.24.17"
-    latestDate: 2023-08-23
+    latestReleaseDate: 2023-08-23
 
   - releaseCycle: "1.23"
     releaseDate: 2021-12-07
     eoas: 2022-12-28
     eol: 2023-02-28
     latest: "1.23.17"
-    latestDate: 2023-02-22
+    latestReleaseDate: 2023-02-22
 
   - releaseCycle: "1.22"
     releaseDate: 2021-08-04
     eoas: 2022-08-28
     eol: 2022-10-28
     latest: "1.22.17"
-    latestDate: 2022-12-08
+    latestReleaseDate: 2022-12-08
 
   - releaseCycle: "1.21"
     releaseDate: 2021-04-08
     eoas: 2022-04-28
     eol: 2022-06-28
     latest: "1.21.14"
-    latestDate: 2022-06-15
+    latestReleaseDate: 2022-06-15
 
   - releaseCycle: "1.20"
     releaseDate: 2020-12-08
     eoas: 2021-12-28
     eol: 2022-02-28
     latest: "1.20.15"
-    latestDate: 2022-01-19
+    latestReleaseDate: 2022-01-19
 
   - releaseCycle: "1.19"
     releaseDate: 2020-08-26
     eoas: 2021-08-28
     eol: 2021-10-28
     latest: "1.19.16"
-    latestDate: 2021-10-27
+    latestReleaseDate: 2021-10-27
 
   - releaseCycle: "1.18"
     releaseDate: 2020-03-25
     eoas: 2021-04-28
     eol: 2021-06-18
     latest: "1.18.20"
-    latestDate: 2021-06-16
+    latestReleaseDate: 2021-06-16
 
   - releaseCycle: "1.17"
     releaseDate: 2019-12-07
     eoas: true
     eol: 2020-12-25
     latest: "1.17.17"
-    latestDate: 2021-01-13
+    latestReleaseDate: 2021-01-13
 
   - releaseCycle: "1.16"
     releaseDate: 2019-09-18
     eoas: true
     eol: 2020-08-04
     latest: "1.16.15"
-    latestDate: 2020-09-02
+    latestReleaseDate: 2020-09-02
 
 ---
 

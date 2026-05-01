@@ -9,7 +9,7 @@ alternate_urls:
   - /aosp
   - /androidos
 releasePolicyLink: https://developer.android.com/about/versions
-latestLinkTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
+changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 eolColumn: Security Support
@@ -56,7 +56,7 @@ releases:
     releaseLabel: 12.1 'Snow Cone v2' (aka 12L)
     releaseDate: 2022-03-07
     eol: 2025-03-03
-    latestLink: https://developer.android.com/about/versions/12/12L
+    link: https://developer.android.com/about/versions/12/12L
 
   - releaseCycle: "12"
     apiVersion: "31"
@@ -81,56 +81,56 @@ releases:
     codename: Pie
     releaseDate: 2018-08-06
     eol: 2022-01-01
-    latestLink: https://developer.android.com/about/versions/pie
+    link: https://developer.android.com/about/versions/pie
 
   - releaseCycle: "8.1"
     apiVersion: "27"
     codename: Oreo
     releaseDate: 2017-12-05
     eol: 2021-01-10
-    latestLink: https://developer.android.com/about/versions/oreo/android-8.1
+    link: https://developer.android.com/about/versions/oreo/android-8.1
 
   - releaseCycle: "8.0"
     apiVersion: "26"
     codename: Oreo
     releaseDate: 2017-08-21
     eol: 2021-01-01
-    latestLink: https://developer.android.com/about/versions/oreo
+    link: https://developer.android.com/about/versions/oreo
 
   - releaseCycle: "7.1"
     apiVersion: "25"
     codename: Nougat
     releaseDate: 2016-12-01
     eol: 2019-10-01
-    latestLink: https://developer.android.com/about/versions/nougat
+    link: https://developer.android.com/about/versions/nougat
 
   - releaseCycle: "7.0"
     apiVersion: "24"
     codename: Nougat
     releaseDate: 2016-08-22
     eol: 2019-10-01
-    latestLink: https://developer.android.com/about/versions/nougat
+    link: https://developer.android.com/about/versions/nougat
 
   - releaseCycle: "6.0"
     apiVersion: "23"
     codename: Marshmallow
     releaseDate: 2015-10-05
     eol: 2018-08-01
-    latestLink: https://developer.android.com/about/versions/marshmallow
+    link: https://developer.android.com/about/versions/marshmallow
 
   - releaseCycle: "5.1"
     apiVersion: "22"
     codename: Lollipop
     releaseDate: 2015-03-01
     eol: 2018-03-01
-    latestLink: https://developer.android.com/about/versions/lollipop
+    link: https://developer.android.com/about/versions/lollipop
 
   - releaseCycle: "5.0"
     apiVersion: "21"
     codename: Lollipop
     releaseDate: 2014-11-12
     eol: 2018-03-01
-    latestLink: https://developer.android.com/about/versions/lollipop
+    link: https://developer.android.com/about/versions/lollipop
 
   - releaseCycle: "4.4w"
     releaseLabel: "4.4W"
@@ -138,119 +138,119 @@ releases:
     codename: KitKatW
     releaseDate: 2014-03-31
     eol: 2017-10-01
-    latestLink: https://developer.android.com/about/versions/kitkat
+    link: https://developer.android.com/about/versions/kitkat
 
   - releaseCycle: "4.4"
     apiVersion: "19"
     codename: KitKat
     releaseDate: 2013-10-31
     eol: 2017-10-01
-    latestLink: https://developer.android.com/about/versions/kitkat
+    link: https://developer.android.com/about/versions/kitkat
 
   - releaseCycle: "4.3"
     apiVersion: "18"
     codename: Jelly Bean
     releaseDate: 2013-07-24
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_4.3_Jelly_Bean
+    link: https://android.fandom.com/wiki/Android_4.3_Jelly_Bean
 
   - releaseCycle: "4.2"
     apiVersion: "17"
     codename: Jelly Bean
     releaseDate: 2012-11-13
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_4.2_Jelly_Bean
+    link: https://android.fandom.com/wiki/Android_4.2_Jelly_Bean
 
   - releaseCycle: "4.1"
     apiVersion: "16"
     codename: Jelly Bean
     releaseDate: 2012-07-09
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_4.1_Jelly_Bean
+    link: https://android.fandom.com/wiki/Android_4.1_Jelly_Bean
 
   - releaseCycle: "4.0"
     apiVersion: "14-15"
     codename: Ice Cream Sandwich
     releaseDate: 2011-10-18
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_4.0_Ice_Cream_Sandwich
+    link: https://android.fandom.com/wiki/Android_4.0_Ice_Cream_Sandwich
 
   - releaseCycle: "3.2"
     apiVersion: "13"
     codename: Honeycomb
     releaseDate: 2011-07-15
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_3.2_Honeycomb
+    link: https://android.fandom.com/wiki/Android_3.2_Honeycomb
 
   - releaseCycle: "3.1"
     apiVersion: "12"
     codename: Honeycomb
     releaseDate: 2011-05-10
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_3.1_Honeycomb
+    link: https://android.fandom.com/wiki/Android_3.1_Honeycomb
 
   - releaseCycle: "3.0"
     apiVersion: "11"
     codename: Honeycomb
     releaseDate: 2011-02-22
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_3.0_Honeycomb
+    link: https://android.fandom.com/wiki/Android_3.0_Honeycomb
 
   - releaseCycle: "2.3"
     apiVersion: "9-10"
     codename: Gingerbread
     releaseDate: 2010-12-06
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_2.3_Gingerbread
+    link: https://android.fandom.com/wiki/Android_2.3_Gingerbread
 
   - releaseCycle: "2.2"
     apiVersion: "8"
     codename: Froyo
     releaseDate: 2010-05-20
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_2.2_Froyo
+    link: https://android.fandom.com/wiki/Android_2.2_Froyo
 
   - releaseCycle: "2.1"
     apiVersion: "7"
     codename: Eclair
     releaseDate: 2010-01-11
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_2.1_Eclair
+    link: https://android.fandom.com/wiki/Android_2.1_Eclair
 
   - releaseCycle: "2.0"
     apiVersion: "5-6"
     codename: Eclair
     releaseDate: 2009-10-26
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_2.0_Eclair
+    link: https://android.fandom.com/wiki/Android_2.0_Eclair
 
   - releaseCycle: "1.6"
     apiVersion: "4"
     codename: Donut
     releaseDate: 2009-09-15
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_1.6_Doughnut
+    link: https://android.fandom.com/wiki/Android_1.6_Doughnut
 
   - releaseCycle: "1.5"
     apiVersion: "3"
     codename: Cupcake
     releaseDate: 2009-04-27
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_1.5_Cupcake
+    link: https://android.fandom.com/wiki/Android_1.5_Cupcake
 
   - releaseCycle: "1.1"
     apiVersion: "2"
     codename: Petit Four
     releaseDate: 2009-02-09
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_1.1
+    link: https://android.fandom.com/wiki/Android_1.1
 
   - releaseCycle: "1.0"
     apiVersion: "1"
     releaseLabel: "1.0"
     releaseDate: 2008-09-23
     eol: true
-    latestLink: https://android.fandom.com/wiki/Android_1.0
+    link: https://android.fandom.com/wiki/Android_1.0
 ---
 
 > Android is a mobile operating system based on a modified version of the Linux kernel and other

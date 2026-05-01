@@ -300,8 +300,8 @@ module ApiV1
           isMaintained: release['is_maintained'],
           latest: {
             name: release['latest'],
-            date: release['latestDate'],
-            link: release['latestLink'],
+            date: release['latestReleaseDate'],
+            link: release['link'],
           },
           custom: custom_fields(product, release)
         }

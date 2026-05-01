@@ -5,7 +5,7 @@ category: app
 permalink: /goaccess
 versionCommand: goaccess --version
 releasePolicyLink: https://github.com/allinurl/goaccess/blob/master/SECURITY.md
-latestLinkTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
+changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 
 auto:
   methods:
@@ -20,7 +20,7 @@ releases:
     releaseDate: 2016-06-09
     eol: false
     latest: "1.10.2"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
 ---
 

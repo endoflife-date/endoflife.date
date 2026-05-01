@@ -3,7 +3,7 @@
 #
 # Naming conventions:
 # - Raw fields, declared in product's markdown front matter or derived from a template (such as the
-#   latestLinkTemplate), use the camel case notation (example: endOfLife).
+#   changelogTemplate), use the camel case notation (example: endOfLife).
 # - Computed fields, injected by ProductDataEnricher, use the snake case notation (example: end_of_life).
 #
 # Here is a list of computed fields :
@@ -291,13 +291,13 @@ module Jekyll
 
       def set_cycle_link(page, cycle)
         if cycle.has_key?('link')
-          # null latestLink means no changelog template
-          if cycle['latestLink'] && cycle['latestLink'].include?('__')
-            cycle['latestLink'] = render_eol_template(cycle['link'], cycle)
+          # null link means no changelog template
+          if cycle['link'] && cycle['link'].include?('__')
+            cycle['link'] = render_eol_template(cycle['link'], cycle)
           end
         else
-          if page['latestLinkTemplate']
-            cycle['latestLink'] = render_eol_template(page['latestLinkTemplate'], cycle)
+          if page['changelogTemplate']
+            cycle['link'] = render_eol_template(page['changelogTemplate'], cycle)
           end
         end
       end
@@ -351,7 +351,7 @@ module Jekyll
         link.gsub!('__CODENAME__', cycle['codename'] || '')
         link.gsub!('__RELEASE_DATE__', cycle['releaseDate'].iso8601)
         link.gsub!('__LATEST__', cycle['latest'] || '')
-        link.gsub!('__LATEST_DATE__', cycle['latestDate'] ? cycle['latestDate'].iso8601 : '')
+        link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
         return Liquid::Template.parse(link).render(@context)
       end
     end

@@ -8,7 +8,7 @@ permalink: /confluence
 alternate_urls:
   - /atlassian-confluence
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
-latestLinkTemplate: https://confluence.atlassian.com/display/DOC/Confluence+__RELEASE_CYCLE__+Release+Notes
+changelogTemplate: https://confluence.atlassian.com/display/DOC/Confluence+__RELEASE_CYCLE__+Release+Notes
 eolColumn: Support
 
 identifiers:
@@ -32,188 +32,188 @@ releases:
     releaseDate: 2025-12-02
     eol: 2027-12-02
     latest: "10.2.10"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "10.1"
     releaseDate: 2025-10-07
     eol: 2027-10-07
     latest: "10.1.2"
-    latestDate: 2025-12-01
+    latestReleaseDate: 2025-12-01
 
   - releaseCycle: "10.0"
     releaseDate: 2025-08-05
     eol: 2027-08-05
     latest: "10.0.3"
-    latestDate: 2025-09-03
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.5"
     releaseDate: 2025-06-04
     eol: 2027-06-04
     latest: "9.5.4"
-    latestDate: 2025-09-03
+    latestReleaseDate: 2025-09-03
 
   - releaseCycle: "9.4"
     releaseDate: 2025-03-31
     eol: 2027-04-01
     latest: "9.4.1"
-    latestDate: 2025-05-05
+    latestReleaseDate: 2025-05-05
 
   - releaseCycle: "9.3"
     releaseDate: 2025-02-04
     eol: 2027-02-04
     latest: "9.3.2"
-    latestDate: 2025-03-03
+    latestReleaseDate: 2025-03-03
 
   - releaseCycle: "9.2"
     lts: true
     releaseDate: 2024-12-09
     eol: 2026-12-10
     latest: "9.2.19"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "9.1"
     releaseDate: 2024-10-03
     eol: 2026-10-03
     latest: "9.1.1"
-    latestDate: 2024-11-04
+    latestReleaseDate: 2024-11-04
 
   - releaseCycle: "9.0"
     releaseDate: 2024-07-30
     eol: 2026-07-30
     latest: "9.0.3"
-    latestDate: 2024-09-03
+    latestReleaseDate: 2024-09-03
 
   - releaseCycle: "8.9"
     releaseDate: 2024-04-01
     eol: 2026-04-02
     latest: "8.9.8"
-    latestDate: 2024-11-04
+    latestReleaseDate: 2024-11-04
 
   - releaseCycle: "8.8"
     releaseDate: 2024-02-08
     eol: 2026-02-08
     latest: "8.8.1"
-    latestDate: 2024-03-05
+    latestReleaseDate: 2024-03-05
 
   - releaseCycle: "8.7"
     releaseDate: 2023-12-05
     eol: 2025-12-06
     latest: "8.7.2"
-    latestDate: 2024-01-16
+    latestReleaseDate: 2024-01-16
 
   - releaseCycle: "8.6"
     releaseDate: 2023-10-04
     eol: 2025-10-05
     latest: "8.6.2"
-    latestDate: 2023-12-06
+    latestReleaseDate: 2023-12-06
 
   - releaseCycle: "8.5"
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-12-15
     latest: "8.5.31"
-    latestDate: 2025-12-16
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "8.4"
     releaseDate: 2023-07-05
     eol: 2025-07-06
     latest: "8.4.5"
-    latestDate: 2023-12-06
+    latestReleaseDate: 2023-12-06
 
   - releaseCycle: "8.3"
     releaseDate: 2023-05-22
     eol: 2025-05-23
     latest: "8.3.4"
-    latestDate: 2023-10-31
+    latestReleaseDate: 2023-10-31
 
   - releaseCycle: "8.2"
     releaseDate: 2023-03-28
     eol: 2025-03-29
     latest: "8.2.3"
-    latestDate: 2023-05-16
+    latestReleaseDate: 2023-05-16
 
   - releaseCycle: "8.1"
     releaseDate: 2023-02-13
     eol: 2025-02-14
     latest: "8.1.4"
-    latestDate: 2023-04-05
+    latestReleaseDate: 2023-04-05
 
   - releaseCycle: "8.0"
     releaseDate: 2022-11-28
     eol: 2024-11-29
     latest: "8.0.4"
-    latestDate: 2023-02-13
+    latestReleaseDate: 2023-02-13
 
   - releaseCycle: "7.20"
     releaseDate: 2022-10-03
     eol: 2024-10-04
     latest: "7.20.3"
-    latestDate: 2022-12-13
+    latestReleaseDate: 2022-12-13
 
   - releaseCycle: "7.19"
     lts: true
     releaseDate: 2022-07-27
     eol: 2024-12-13
     latest: "7.19.30"
-    latestDate: 2024-12-02
+    latestReleaseDate: 2024-12-02
 
   - releaseCycle: "7.18"
     releaseDate: 2022-05-28
     eol: 2024-05-30
     latest: "7.18.3"
-    latestDate: 2022-07-11
+    latestReleaseDate: 2022-07-11
 
   - releaseCycle: "7.17"
     releaseDate: 2022-03-20
     eol: 2024-03-22
     latest: "7.17.5"
-    latestDate: 2022-06-21
+    latestReleaseDate: 2022-06-21
 
   - releaseCycle: "7.16"
     releaseDate: 2022-01-30
     eol: 2024-01-31
     latest: "7.16.5"
-    latestDate: 2022-07-05
+    latestReleaseDate: 2022-07-05
 
   - releaseCycle: "7.15"
     releaseDate: 2021-11-22
     eol: 2023-11-24
     latest: "7.15.3"
-    latestDate: 2022-06-23
+    latestReleaseDate: 2022-06-23
 
   - releaseCycle: "7.14"
     releaseDate: 2021-10-10
     eol: 2023-10-12
     latest: "7.14.4"
-    latestDate: 2022-06-23
+    latestReleaseDate: 2022-06-23
 
   - releaseCycle: "7.13"
     lts: true
     releaseDate: 2021-08-15
     eol: 2023-08-17
     latest: "7.13.20"
-    latestDate: 2023-08-02
+    latestReleaseDate: 2023-08-02
 
   - releaseCycle: "7.4"
     lts: true
     releaseDate: 2020-04-18
     eol: 2022-04-21
     latest: "7.4.18"
-    latestDate: 2022-07-04
+    latestReleaseDate: 2022-07-04
 
   - releaseCycle: "6.13"
     lts: true
     releaseDate: 2018-12-02
     eol: 2020-12-04
     latest: "6.13.23"
-    latestDate: 2021-08-23
+    latestReleaseDate: 2021-08-23
 
   - releaseCycle: "6.6"
     lts: true
     releaseDate: 2017-12-10
     eol: 2019-12-12
     latest: "6.6.17"
-    latestDate: 2019-11-07
+    latestReleaseDate: 2019-11-07
 
 ---
 

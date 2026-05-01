@@ -10,7 +10,7 @@ alternate_urls:
   - /oracle-virtualbox
   - /oracle-vm-virtualbox
 versionCommand: virtualbox -h
-latestLinkTemplate: https://www.virtualbox.org/wiki/Changelog-__RELEASE_CYCLE__
+changelogTemplate: https://www.virtualbox.org/wiki/Changelog-__RELEASE_CYCLE__
 eolColumn: Maintenance support
 
 identifiers:
@@ -25,80 +25,80 @@ auto:
     - virtualbox-versions: https://download.virtualbox.org/virtualbox/
       regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\/$'
 
-# eol(x) = latestDate(x)
+# eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.
 releases:
   - releaseCycle: "7.2"
     releaseDate: 2025-08-14
     eol: false
     latest: "7.2.8"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "7.1"
     releaseDate: 2024-09-09
     eol: 2026-03-31
     latest: "7.1.18"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "7.0"
     releaseDate: 2022-10-10
     eol: 2025-03-31
     latest: "7.0.26"
-    latestDate: 2025-04-15
+    latestReleaseDate: 2025-04-15
 
   - releaseCycle: "6.1"
     releaseDate: 2019-12-10
     eol: 2024-01-31
     latest: "6.1.50"
-    latestDate: 2024-01-16
+    latestReleaseDate: 2024-01-16
 
   - releaseCycle: "6.0"
     releaseDate: 2018-12-18
     eol: 2020-07-31
     latest: "6.0.24"
-    latestDate: 2020-07-14
+    latestReleaseDate: 2020-07-14
 
   - releaseCycle: "5.2"
     releaseDate: 2017-10-17
     eol: 2020-07-31
     latest: "5.2.44"
-    latestDate: 2020-10-21
+    latestReleaseDate: 2020-10-21
 
   - releaseCycle: "5.1"
     releaseDate: 2016-07-12
     eol: 2018-04-30
     latest: "5.1.38"
-    latestDate: 2018-10-24
+    latestReleaseDate: 2018-10-24
 
   - releaseCycle: "5.0"
     releaseDate: 2015-07-09
     eol: 2017-05-31
     latest: "5.0.40"
-    latestDate: 2017-04-29
+    latestReleaseDate: 2017-04-29
 
   - releaseCycle: "4.3"
     releaseDate: 2013-10-15
     eol: 2015-12-31
     latest: "4.3.40"
-    latestDate: 2016-08-23
+    latestReleaseDate: 2016-08-23
 
   - releaseCycle: "4.2"
     releaseDate: 2012-09-13
     eol: 2015-12-31
     latest: "4.2.38"
-    latestDate: 2016-09-14
+    latestReleaseDate: 2016-09-14
 
   - releaseCycle: "4.1"
     releaseDate: 2011-07-19
     eol: 2015-12-31
     latest: "4.1.44"
-    latestDate: 2015-11-11
+    latestReleaseDate: 2015-11-11
 
   - releaseCycle: "4.0"
     releaseDate: 2010-12-22
     eol: 2015-12-31
     latest: "4.0.36"
-    latestDate: 2015-11-11
+    latestReleaseDate: 2015-11-11
 
 ---
 

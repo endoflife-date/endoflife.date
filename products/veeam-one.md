@@ -21,73 +21,73 @@ releases:
     releaseDate: 2025-09-03
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
-    latestLink: https://www.veeam.com/kb4762
+    link: https://www.veeam.com/kb4762
     latest: "13.0.1.6168"
-    latestDate: 2026-01-06
+    latestReleaseDate: 2026-01-06
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
     eoas: 2025-09-03
     eol: 2027-02-01
-    latestLink: https://www.veeam.com/kb4705
+    link: https://www.veeam.com/kb4705
     latest: "12.3.0.4670"
-    latestDate: 2024-12-03
+    latestReleaseDate: 2024-12-03
 
   - releaseCycle: "11"
     releaseDate: 2021-02-09
     eoas: 2023-02-01
     eol: 2024-02-01
     latest: "11.0.1.1880"
-    latestDate: 2021-09-28
+    latestReleaseDate: 2021-09-28
 
   - releaseCycle: "10"
     releaseDate: 2020-02-18
     eoas: 2021-02-01 # https://web.archive.org/web/20220325105334/https://www.veeam.com/product-lifecycle.html
     eol: 2023-02-01 # https://web.archive.org/web/20220325105334/https://www.veeam.com/product-lifecycle.html
     latest: "10.0.2.1094"
-    latestDate: 2020-07-21
+    latestReleaseDate: 2020-07-21
 
   - releaseCycle: "9.5"
     releaseDate: 2016-11-16
     eoas: 2020-02-01 # https://web.archive.org/web/20220325105334/https://www.veeam.com/product-lifecycle.html
     eol: 2022-02-01 # https://web.archive.org/web/20220325105334/https://www.veeam.com/product-lifecycle.html
     latest: "9.5.4.4587"
-    latestDate: 2019-09-11
+    latestReleaseDate: 2019-09-11
 
   - releaseCycle: "9.0"
     releaseDate: 2016-01-12
     eoas: true
     eol: true
     latest: "9.0.0.2088"
-    latestDate: 2016-03-24
+    latestReleaseDate: 2016-03-24
 
   - releaseCycle: "8.0"
     releaseDate: 2014-11-06
     eoas: true
     eol: true
     latest: "8.0.0.1669"
-    latestDate: 2015-04-27
+    latestReleaseDate: 2015-04-27
 
   - releaseCycle: "7.0"
     releaseDate: 2013-08-15
     eoas: true
     eol: true
     latest: "7.0.0.949"
-    latestDate: 2014-09-18
+    latestReleaseDate: 2014-09-18
 
   - releaseCycle: "6.5"
     releaseDate: 2012-10-09
     eoas: true
     eol: true
     latest: "6.5.0.686"
-    latestDate: 2012-12-18
+    latestReleaseDate: 2012-12-18
 
   - releaseCycle: "6.0"
     releaseDate: 2011-08-22
     eoas: true
     eol: true
     latest: "6.0.0.520"
-    latestDate: 2012-04-23
+    latestReleaseDate: 2012-04-23
 
 ---
 

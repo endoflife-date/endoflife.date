@@ -5,7 +5,7 @@ category: server-app
 tags: python-runtime
 permalink: /plone
 releasePolicyLink: https://plone.org/download/release-schedule
-latestLinkTemplate: "https://plone.org/download/releases/__LATEST__"
+changelogTemplate: "https://plone.org/download/releases/__LATEST__"
 eoasColumn: Maintenance Support
 eolColumn: Security Support
 
@@ -38,7 +38,7 @@ releases:
     eoas: false
     eol: 2027-12-31
     latest: "6.1.4"
-    latestDate: 2026-01-15
+    latestReleaseDate: 2026-01-15
 
   - releaseCycle: "6.0"
     pythonVersions: "3.9-3.13"
@@ -46,7 +46,7 @@ releases:
     eoas: 2025-03-27
     eol: 2027-12-31
     latest: "6.0.15"
-    latestDate: 2025-03-27
+    latestReleaseDate: 2025-03-27
 
   - releaseCycle: "5.2"
     pythonVersions: "2.7, 3.8"
@@ -54,7 +54,7 @@ releases:
     eoas: 2023-10-31
     eol: 2024-10-31
     latest: "5.2.15"
-    latestDate: 2024-08-01
+    latestReleaseDate: 2024-08-01
 
   - releaseCycle: "5.1"
     pythonVersions: "2.7"
@@ -62,7 +62,7 @@ releases:
     eoas: 2020-10-02
     eol: 2022-12-12
     latest: "5.1.7"
-    latestDate: 2020-10-02
+    latestReleaseDate: 2020-10-02
 
   - releaseCycle: "5.0"
     pythonVersions: "2.7"
@@ -70,7 +70,7 @@ releases:
     eoas: 2019-02-07
     eol: 2022-12-12
     latest: "5.0.10"
-    latestDate: 2019-02-07
+    latestReleaseDate: 2019-02-07
 
   - releaseCycle: "4.3"
     pythonVersions: "2.7"
@@ -78,7 +78,7 @@ releases:
     eoas: 2020-08-28
     eol: 2022-12-12
     latest: "4.3.20"
-    latestDate: 2020-08-28
+    latestReleaseDate: 2020-08-28
 
 ---
 

@@ -11,7 +11,7 @@ alternate_urls:
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releasePolicyLink: https://www.kernel.org/
-latestLinkTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
+changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
 auto:
   methods:
@@ -33,221 +33,221 @@ releases:
     releaseDate: 2026-04-12
     eol: false
     latest: "7.0.3"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6.19"
     releaseDate: 2026-02-08
     eol: 2026-04-22 # announced https://lore.kernel.org/all/2026042220-coastline-flirt-ad3c@gregkh/
     latest: "6.19.14"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "6.18"
     lts: true
     releaseDate: 2025-11-30
     eol: 2028-12-31 # announced https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
     latest: "6.18.26"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
     eol: 2025-12-18 # announced https://lore.kernel.org/all/2025121823-avid-hatchback-83fb@gregkh/
     latest: "6.17.13"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "6.16"
     releaseDate: 2025-07-27
     eol: 2025-10-12 # announced https://lore.kernel.org/lkml/2025101235-eliminate-dexterity-d7f9@gregkh/
     latest: "6.16.12"
-    latestDate: 2025-10-12
+    latestReleaseDate: 2025-10-12
 
   - releaseCycle: "6.15"
     releaseDate: 2025-05-25
     eol: 2025-08-20 # announced https://lore.kernel.org/lkml/2025082012-jingling-alarm-7380@gregkh/
     latest: "6.15.11"
-    latestDate: 2025-08-20
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "6.14"
     releaseDate: 2025-03-24
     eol: 2025-06-10 # announced https://lore.kernel.org/lkml/2025061030-latticed-capacity-dc94@gregkh/T/
     latest: "6.14.11"
-    latestDate: 2025-06-10
+    latestReleaseDate: 2025-06-10
 
   - releaseCycle: "6.13"
     releaseDate: 2025-01-19
     eol: 2025-04-20 # announced https://lore.kernel.org/lkml/2025042056-outskirts-disarm-6ceb@gregkh/
     latest: "6.13.12"
-    latestDate: 2025-04-20
+    latestReleaseDate: 2025-04-20
 
   - releaseCycle: "6.12"
     lts: true
     releaseDate: 2024-11-17
     eol: 2028-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
     latest: "6.12.85"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6.11"
     releaseDate: 2024-09-15
     eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120539-badass-unboxed-0b14@gregkh/
     latest: "6.11.11"
-    latestDate: 2024-12-05
+    latestReleaseDate: 2024-12-05
 
   - releaseCycle: "6.10"
     releaseDate: 2024-07-14
     eol: 2024-10-10 # announced https://lore.kernel.org/lkml/2024101047-unclothed-armadillo-6520@gregkh/
     latest: "6.10.14"
-    latestDate: 2024-10-10
+    latestReleaseDate: 2024-10-10
 
   - releaseCycle: "6.9"
     releaseDate: 2024-05-12
     eol: 2024-07-27 # announced https://lore.kernel.org/lkml/2024072948-glimmer-glitch-6a95@gregkh/
     latest: "6.9.12"
-    latestDate: 2024-07-27
+    latestReleaseDate: 2024-07-27
 
   - releaseCycle: "6.8"
     releaseDate: 2024-03-10
     eol: 2024-05-30 # announced https://lore.kernel.org/lkml/2024053036-matron-confess-13e0@gregkh/
     latest: "6.8.12"
-    latestDate: 2024-05-30
+    latestReleaseDate: 2024-05-30
 
   - releaseCycle: "6.7"
     releaseDate: 2024-01-07
     eol: 2024-04-03 # announced https://lore.kernel.org/lkml/2024040316-sports-conceal-dbbb@gregkh/
     latest: "6.7.12"
-    latestDate: 2024-04-03
+    latestReleaseDate: 2024-04-03
 
   - releaseCycle: "6.6"
     lts: true
     releaseDate: 2023-10-30
     eol: 2027-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
     latest: "6.6.137"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6.5"
     releaseDate: 2023-08-27
     eol: 2023-11-28 # announced https://lore.kernel.org/lkml/2023112807-usher-penholder-f856@gregkh/
     latest: "6.5.13"
-    latestDate: 2023-11-28
+    latestReleaseDate: 2023-11-28
 
   - releaseCycle: "6.4"
     releaseDate: 2023-06-25
     eol: 2023-09-13 # announced https://lore.kernel.org/lkml/2023091345-prankish-during-e3b4@gregkh/
     latest: "6.4.16"
-    latestDate: 2023-09-13
+    latestReleaseDate: 2023-09-13
 
   - releaseCycle: "6.3"
     releaseDate: 2023-04-23
     eol: 2023-07-11 # announced https://lore.kernel.org/lkml/2023071110-clash-nastily-2b70@gregkh/T/
     latest: "6.3.13"
-    latestDate: 2023-07-11
+    latestReleaseDate: 2023-07-11
 
   - releaseCycle: "6.2"
     releaseDate: 2023-02-19
     eol: 2023-05-17 # announced https://lore.kernel.org/all/2023051744-drainable-footwear-49bd@gregkh/
     latest: "6.2.16"
-    latestDate: 2023-05-17
+    latestReleaseDate: 2023-05-17
 
   - releaseCycle: "6.1"
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
     latest: "6.1.170"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6.0"
     releaseDate: 2022-10-02
     eol: 2023-01-12 # announced https://lore.kernel.org/lkml/1673522302104114@kroah.com/
     latest: "6.0.19"
-    latestDate: 2023-01-12
+    latestReleaseDate: 2023-01-12
 
   - releaseCycle: "5.19"
     releaseDate: 2022-07-31
     eol: 2022-10-24 # announced https://lore.kernel.org/lkml/166659973847148@kroah.com/
     latest: "5.19.17"
-    latestDate: 2022-10-24
+    latestReleaseDate: 2022-10-24
 
   - releaseCycle: "5.18"
     releaseDate: 2022-05-22
     eol: 2022-08-21 # announced https://lore.kernel.org/lkml/166108895535224@kroah.com/
     latest: "5.18.19"
-    latestDate: 2022-08-21
+    latestReleaseDate: 2022-08-21
 
   - releaseCycle: "5.17"
     releaseDate: 2022-03-20
     eol: 2022-06-14 # announced https://lore.kernel.org/lkml/165522580839104@kroah.com/
     latest: "5.17.15"
-    latestDate: 2022-06-14
+    latestReleaseDate: 2022-06-14
 
   - releaseCycle: "5.16"
     releaseDate: 2022-01-09
     eol: 2022-04-13 # announced https://lore.kernel.org/lkml/164987613419048@kroah.com/
     latest: "5.16.20"
-    latestDate: 2022-04-13
+    latestReleaseDate: 2022-04-13
 
   - releaseCycle: "5.15"
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/content/releases.rst?id=eb581a36a89357c5d96257d59f42251b9628c3ab
     latest: "5.15.204"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "5.14"
     releaseDate: 2021-08-29
     eol: 2021-11-21 # https://lkml.iu.edu/hypermail/linux/kernel/2111.2/05433.html
     latest: "5.14.21"
-    latestDate: 2021-11-21
+    latestReleaseDate: 2021-11-21
 
   - releaseCycle: "5.13"
     releaseDate: 2021-06-27
     eol: 2021-09-18 # https://lore.kernel.org/lkml/16319668996036@kroah.com/
     latest: "5.13.19"
-    latestDate: 2021-09-18
+    latestReleaseDate: 2021-09-18
 
   - releaseCycle: "5.12"
     releaseDate: 2021-04-25
     eol: 2021-07-20 # https://lore.kernel.org/lkml/1626791065147152@kroah.com/
     latest: "5.12.19"
-    latestDate: 2021-07-20
+    latestReleaseDate: 2021-07-20
 
   - releaseCycle: "5.11"
     releaseDate: 2021-02-14
     eol: 2021-05-19 # https://lore.kernel.org/lkml/162141437223831@kroah.com/
     latest: "5.11.22"
-    latestDate: 2021-05-19
+    latestReleaseDate: 2021-05-19
 
   - releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
     latest: "5.10.254"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-03 # https://lore.kernel.org/lkml/2025120319-blip-grime-93e8@gregkh/
     latest: "5.4.302"
-    latestDate: 2025-12-03
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120520-mashing-facing-6776@gregkh/
     latest: "4.19.325"
-    latestDate: 2024-12-05
+    latestReleaseDate: 2024-12-05
 
   - releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
     eol: 2024-01-10 # announced https://lore.kernel.org/lkml/2024011046-ecology-tiptoeing-ce50@gregkh/
     latest: "4.14.336"
-    latestDate: 2024-01-10
+    latestReleaseDate: 2024-01-10
 
   - releaseCycle: "4.9"
     lts: true
     releaseDate: 2016-12-11
     eol: 2023-01-07 # announced https://lore.kernel.org/lkml/Y7lbu6%2F0P7Q%2FP3oj@kroah.com/
     latest: "4.9.337"
-    latestDate: 2023-01-07
+    latestReleaseDate: 2023-01-07
 
 ---
 

@@ -9,7 +9,7 @@ alternate_urls:
   - /julia-lang
 versionCommand: julia --version
 releasePolicyLink: https://julialang.org/blog/2019/08/release-process/
-latestLinkTemplate: "https://github.com/JuliaLang/julia/blob/v__LATEST__/NEWS.md"
+changelogTemplate: "https://github.com/JuliaLang/julia/blob/v__LATEST__/NEWS.md"
 auto:
   methods:
     - git: https://github.com/JuliaLang/julia.git
@@ -22,34 +22,34 @@ releases:
     releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
     eol: false
     latest: "1.12.6"
-    latestDate: 2026-04-09
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "1.11"
     releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
     eol: 2025-10-08 # https://discourse.julialang.org/t/julia-v1-12-0-has-been-released/132990
     latest: "1.11.9"
-    latestDate: 2026-02-05
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "1.10"
     releaseDate: 2023-12-25
     lts: 2024-10-08 # https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064
     eol: false
     latest: "1.10.11"
-    latestDate: 2026-03-09
+    latestReleaseDate: 2026-03-09
 
   - releaseCycle: "1.6"
     releaseDate: 2021-03-24
     lts: 2021-12-01 # https://discourse.julialang.org/t/julia-v1-7-0-has-been-released-and-v1-6-is-now-lts/72336
     eol: 2024-10-08 # https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064
     latest: "1.6.7"
-    latestDate: 2022-07-19
+    latestReleaseDate: 2022-07-19
 
   - releaseCycle: "1.0"
     releaseDate: 2018-08-08
     lts: 2019-01-22 # https://discourse.julialang.org/t/proposed-release-process-and-schedule/15623 + https://discourse.julialang.org/t/julia-v1-1-0-has-been-released/19911
     eol: 2021-12-01 # https://discourse.julialang.org/t/julia-v1-7-0-has-been-released-and-v1-6-is-now-lts/72336
     latest: "1.0.5"
-    latestDate: 2019-09-09
+    latestReleaseDate: 2019-09-09
 # Please leave a new line both above and below the triple-dashes.
 
 

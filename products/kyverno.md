@@ -6,7 +6,7 @@ tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
-latestLinkTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
 
 customFields:
@@ -14,7 +14,7 @@ customFields:
     display: after-release-column
     label: Kubernetes Version
     description: Supported Kubernetes versions
-    latestLink: https://kyverno.io/docs/installation/#compatibility-matrix
+    link: https://kyverno.io/docs/installation/#compatibility-matrix
 
 identifiers:
   - purl: pkg:github/kyverno/kyverno
@@ -33,70 +33,70 @@ releases:
     releaseDate: 2026-02-02
     eol: false
     latest: "1.17.2"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.32 - 1.35
 
   - releaseCycle: "1.16"
     releaseDate: 2025-11-10
     eol: false
     latest: "1.16.4"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.31 - 1.34
 
   - releaseCycle: "1.15"
     releaseDate: 2025-07-31
     eol: false
     latest: "1.15.20"
-    latestDate: 2025-11-05
+    latestReleaseDate: 2025-11-05
     supportedK8sVersions: 1.30 - 1.33
 
   - releaseCycle: "1.14"
     releaseDate: 2025-04-24
     eol: 2026-02-02
     latest: "1.14.5"
-    latestDate: 2025-11-05
+    latestReleaseDate: 2025-11-05
     supportedK8sVersions: 1.29 - 1.32
 
   - releaseCycle: "1.13"
     releaseDate: 2024-10-29
     eol: 2025-11-10 # releaseDate(1.16)
     latest: "1.13.6"
-    latestDate: 2025-05-08
+    latestReleaseDate: 2025-05-08
     supportedK8sVersions: 1.28 - 1.31
 
   - releaseCycle: "1.12"
     releaseDate: 2024-04-26
     eol: 2025-07-31 # releaseDate(1.15)
     latest: "1.12.7"
-    latestDate: 2025-01-16
+    latestReleaseDate: 2025-01-16
     supportedK8sVersions: 1.26 - 1.29
 
   - releaseCycle: "1.11"
     releaseDate: 2023-11-10
     eol: 2025-04-25 # releaseDate(1.14)
     latest: "1.11.5"
-    latestDate: 2024-05-09
+    latestReleaseDate: 2024-05-09
     supportedK8sVersions: 1.25 - 1.28
 
   - releaseCycle: "1.10"
     releaseDate: 2023-05-30
     eol: 2024-10-29 # releaseDate(1.13)
     latest: "1.10.7"
-    latestDate: 2023-12-20
+    latestReleaseDate: 2023-12-20
     supportedK8sVersions: 1.24 - 1.26
 
   - releaseCycle: "1.9"
     releaseDate: 2023-02-01
     eol: 2024-04-26
     latest: "1.9.5"
-    latestDate: 2023-05-29
+    latestReleaseDate: 2023-05-29
     supportedK8sVersions: 1.24 - 1.26
 
   - releaseCycle: "1.8"
     releaseDate: 2022-10-10
     eol: 2023-11-10
     latest: "1.8.5"
-    latestDate: 2022-12-20
+    latestReleaseDate: 2022-12-20
     supportedK8sVersions: 1.23.3 - 1.25
 
 ---

@@ -9,7 +9,7 @@ alternate_urls:
   - /crdb
 versionCommand: cockroach version
 releasePolicyLink: https://www.cockroachlabs.com/docs/releases/release-support-policy
-latestLinkTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
+changelogTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 
@@ -53,56 +53,56 @@ releases:
     eoas: 2027-04-27
     eol: 2027-10-27
     latest: "26.2.0"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "26.1"
     releaseDate: 2026-02-02
     eoas: 2026-08-02
     eol: 2026-08-02
     latest: "26.1.3"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "25.4"
     releaseDate: 2025-11-03
     eoas: 2026-11-03
     eol: 2027-05-03
     latest: "25.4.9"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
     eoas: 2026-02-04
     eol: 2026-02-04 # innovation release
     latest: "25.3.7"
-    latestDate: 2026-01-07
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
     latest: "25.2.17"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
     eoas: 2025-08-18
     eol: false
     latest: "25.1.10"
-    latestDate: 2025-07-31
+    latestReleaseDate: 2025-07-31
 
   - releaseCycle: "24.3"
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
     latest: "24.3.31"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12
     eoas: 2025-02-12
     eol: 2025-02-12
     latest: "24.2.10"
-    latestDate: 2025-01-31
+    latestReleaseDate: 2025-01-31
 
   - releaseCycle: "24.1"
     releaseDate: 2024-05-20
@@ -110,7 +110,7 @@ releases:
     eoas: 2025-05-20
     eol: 2025-11-20
     latest: "24.1.28"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05
@@ -118,7 +118,7 @@ releases:
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     latest: "23.2.30"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "23.1"
     releaseDate: 2023-05-15
@@ -126,91 +126,91 @@ releases:
     eoas: 2024-05-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
     eol: 2024-11-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
     latest: "23.1.30"
-    latestDate: 2024-11-19
+    latestReleaseDate: 2024-11-19
 
   - releaseCycle: "22.2"
     releaseDate: 2022-12-05
     eoas: 2023-12-05
     eol: 2024-06-05
     latest: "22.2.19"
-    latestDate: 2024-02-23
+    latestReleaseDate: 2024-02-23
 
   - releaseCycle: "22.1"
     releaseDate: 2022-05-24
     eoas: 2023-05-24
     eol: 2023-11-24
     latest: "22.1.22"
-    latestDate: 2023-08-01
+    latestReleaseDate: 2023-08-01
 
   - releaseCycle: "21.2"
     releaseDate: 2021-11-16
     eoas: 2022-11-16
     eol: 2023-05-16
     latest: "21.2.17"
-    latestDate: 2022-10-12
+    latestReleaseDate: 2022-10-12
 
   - releaseCycle: "21.1"
     releaseDate: 2021-05-18
     eoas: 2022-05-18
     eol: 2022-11-18
     latest: "21.1.21"
-    latestDate: 2022-08-08
+    latestReleaseDate: 2022-08-08
 
   - releaseCycle: "20.2"
     releaseDate: 2020-11-10
     eoas: 2021-11-10
     eol: 2022-05-10
     latest: "20.2.19"
-    latestDate: 2022-02-03
+    latestReleaseDate: 2022-02-03
 
   - releaseCycle: "20.1"
     releaseDate: 2020-05-12
     eoas: 2021-05-12
     eol: 2021-11-12
     latest: "20.1.17"
-    latestDate: 2021-05-11
+    latestReleaseDate: 2021-05-11
 
   - releaseCycle: "19.2"
     releaseDate: 2019-11-12
     eoas: 2020-11-12
     eol: 2021-05-12
     latest: "19.2.12"
-    latestDate: 2021-01-12
+    latestReleaseDate: 2021-01-12
 
   - releaseCycle: "19.1"
     releaseDate: 2019-04-30
     eoas: 2020-04-30
     eol: 2020-10-30
     latest: "19.1.11"
-    latestDate: 2020-06-29
+    latestReleaseDate: 2020-06-29
 
   - releaseCycle: "2.1"
     releaseDate: 2018-10-30
     eoas: 2019-10-30
     eol: 2020-04-30
     latest: "2.1.11"
-    latestDate: 2020-01-22
+    latestReleaseDate: 2020-01-22
 
   - releaseCycle: "2.0"
     releaseDate: 2018-04-04
     eoas: 2019-04-04
     eol: 2019-10-04
     latest: "2.0.7"
-    latestDate: 2018-11-28
+    latestReleaseDate: 2018-11-28
 
   - releaseCycle: "1.1"
     releaseDate: 2017-10-12
     eoas: 2018-10-12
     eol: 2019-04-12
     latest: "1.1.9"
-    latestDate: 2018-10-01
+    latestReleaseDate: 2018-10-01
 
   - releaseCycle: "1.0"
     releaseDate: 2017-05-10
     eoas: 2018-05-10
     eol: 2018-11-10
     latest: "1.0.7"
-    latestDate: 2018-02-11
+    latestReleaseDate: 2018-02-11
 
 ---
 

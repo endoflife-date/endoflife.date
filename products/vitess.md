@@ -7,7 +7,7 @@ iconSlug: vitess
 permalink: /vitess
 versionCommand: vtctl --version
 releasePolicyLink: https://github.com/vitessio/enhancements/blob/main/veps/vep-5.md
-latestLinkTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:
@@ -26,67 +26,67 @@ releases:
     releaseDate: 2025-11-04
     eol: 2026-11-04
     latest: "23.0.3"
-    latestDate: 2026-02-26
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "22"
     releaseDate: 2025-04-29
     eol: 2026-04-29
     latest: "22.0.4"
-    latestDate: 2026-02-26
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "21"
     releaseDate: 2024-10-29
     eol: 2025-10-29
     latest: "21.0.6"
-    latestDate: 2025-11-05
+    latestReleaseDate: 2025-11-05
 
   - releaseCycle: "20"
     releaseDate: 2024-06-27
     eol: 2025-06-27
     latest: "20.0.8"
-    latestDate: 2025-06-18
+    latestReleaseDate: 2025-06-18
 
   - releaseCycle: "19"
     releaseDate: 2024-03-06
     eol: 2025-03-06
     latest: "19.0.10"
-    latestDate: 2025-02-12
+    latestReleaseDate: 2025-02-12
 
   - releaseCycle: "18"
     releaseDate: 2023-11-06
     eol: 2024-11-07
     latest: "18.0.8"
-    latestDate: 2024-11-06
+    latestReleaseDate: 2024-11-06
 
   - releaseCycle: "17"
     releaseDate: 2023-06-27
     eol: 2024-06-27
     latest: "17.0.7"
-    latestDate: 2024-05-08
+    latestReleaseDate: 2024-05-08
 
   - releaseCycle: "16"
     releaseDate: 2023-02-28
     eol: 2024-02-28
     latest: "16.0.7"
-    latestDate: 2023-12-20
+    latestReleaseDate: 2023-12-20
 
   - releaseCycle: "15"
     releaseDate: 2022-10-25
     eol: 2023-10-25
     latest: "15.0.5"
-    latestDate: 2023-10-03
+    latestReleaseDate: 2023-10-03
 
   - releaseCycle: "14"
     releaseDate: 2022-06-28
     eol: 2023-06-28
     latest: "14.0.5"
-    latestDate: 2023-03-30
+    latestReleaseDate: 2023-03-30
 
   - releaseCycle: "13"
     releaseDate: 2022-02-22
     eol: 2023-02-22
     latest: "13.0.3"
-    latestDate: 2022-09-01
+    latestReleaseDate: 2022-09-01
 
 ---
 

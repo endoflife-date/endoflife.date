@@ -9,7 +9,7 @@ alternate_urls:
   - /gke
 versionCommand: kubectl version
 releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
-latestLinkTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
+changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -30,133 +30,133 @@ releases:
     eoas: 2027-02-28
     eol: 2027-04-11
     latest: "1.35.3-gke.1737000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.34"
     releaseDate: 2025-09-30
     eoas: 2026-08-30
     eol: 2026-10-01
     latest: "1.34.7-gke.1055000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.33"
     releaseDate: 2025-06-03
     eoas: 2026-06-30
     eol: 2026-08-03
     latest: "1.33.11-gke.1074000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.32"
     releaseDate: 2025-02-11
     eoas: 2026-02-28
     eol: 2026-04-11
     latest: "1.32.13-gke.1407000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eoas: 2025-11-30
     eol: 2026-01-16
     latest: "1.31.14-gke.1823000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eoas: 2025-07-31
     eol: 2025-09-30
     latest: "1.30.14-gke.2415000"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-02-28
     eol: 2025-04-12
     latest: "1.29.15-gke.2725000"
-    latestDate: 2026-01-29
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "1.28"
     releaseDate: 2023-12-04
     eoas: 2024-12-31
     eol: 2025-02-04
     latest: "1.28.15-gke.3290000"
-    latestDate: 2026-01-07
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "1.27"
     releaseDate: 2023-06-15
     eoas: 2024-07-31
     eol: 2024-10-01
     latest: "1.27.16-gke.2894000"
-    latestDate: 2025-06-18
+    latestReleaseDate: 2025-06-18
 
   - releaseCycle: "1.26"
     releaseDate: 2023-03-31
     eoas: 2024-04-30
     eol: 2024-06-30
     latest: "1.26.15-gke.1469001"
-    latestDate: 2024-07-03
+    latestReleaseDate: 2024-07-03
 
   - releaseCycle: "1.25"
     releaseDate: 2022-12-14
     eoas: 2024-01-31
     eol: 2024-03-30
     latest: "1.25.16-gke.1759000"
-    latestDate: 2024-04-18
+    latestReleaseDate: 2024-04-18
 
   - releaseCycle: "1.24"
     releaseDate: 2022-06-23
     eol: 2023-10-31
     eoas: 2023-08-31
     latest: "1.24.17-gke.2472000"
-    latestDate: 2024-01-11
+    latestReleaseDate: 2024-01-11
 
   - releaseCycle: "1.23"
     releaseDate: 2022-05-03
     eol: 2023-07-31
     eoas: 2023-05-31
     latest: "1.23.17-gke.10700"
-    latestDate: 2023-08-08
+    latestReleaseDate: 2023-08-08
 
   - releaseCycle: "1.22"
     releaseDate: 2022-03-07
     eoas: 2023-02-28
     eol: 2023-04-30
     latest: "1.22.17-gke.14100"
-    latestDate: 2023-07-07
+    latestReleaseDate: 2023-07-07
 
   - releaseCycle: "1.21"
     releaseDate: 2021-10-01
     eoas: 2022-11-01
     eol: 2023-01-31
     latest: "1.21.14-gke.18800"
-    latestDate: 2023-03-22
+    latestReleaseDate: 2023-03-22
 
   - releaseCycle: "1.20"
     releaseDate: 2021-06-09
     eoas: 2021-12-01
     eol: 2022-08-01
     latest: "1.20.15-gke.13700"
-    latestDate: 2022-08-18
+    latestReleaseDate: 2022-08-18
 
   - releaseCycle: "1.19"
     releaseDate: 2021-04-14
     eoas: 2021-10-01
     eol: 2022-06-01
     latest: "1.19.16-gke.15700"
-    latestDate: 2022-06-23
+    latestReleaseDate: 2022-06-23
 
   - releaseCycle: "1.18"
     releaseDate: 2021-03-29
     eoas: 2021-08-01
     eol: 2022-03-01
     latest: "1.18.20-gke.6000"
-    latestDate: 2021-09-17
+    latestReleaseDate: 2021-09-17
 
   - releaseCycle: "1.17"
     releaseDate: 2021-03-29
     eoas: 2021-07-01
     eol: 2021-11-01
     latest: "1.17.17-gke.9100"
-    latestDate: 2021-06-09
+    latestReleaseDate: 2021-06-09
 
 ---
 

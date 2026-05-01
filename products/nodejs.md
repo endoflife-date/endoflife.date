@@ -9,7 +9,7 @@ alternate_urls:
   - /node
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/en/about/previous-releases
-latestLinkTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
+changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 eoesColumn: "Commercial Support"
 
@@ -33,7 +33,7 @@ releases:
     eoas: 2026-04-01
     eol: 2026-06-01
     latest: "25.9.0"
-    latestDate: 2026-04-01
+    latestReleaseDate: 2026-04-01
 
   - releaseCycle: "24"
     releaseDate: 2025-05-06
@@ -41,14 +41,14 @@ releases:
     eoas: 2026-10-20
     eol: 2028-04-30
     latest: "24.15.0"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
     eoas: 2025-04-01
     eol: 2025-06-01
     latest: "23.11.1"
-    latestDate: 2025-05-14
+    latestReleaseDate: 2025-05-14
 
   - releaseCycle: "22"
     releaseDate: 2024-04-24
@@ -57,14 +57,14 @@ releases:
     eol: 2027-04-30
     eoes: false
     latest: "22.22.2"
-    latestDate: 2026-03-24
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17
     eoas: 2024-04-01
     eol: 2024-06-01
     latest: "21.7.3"
-    latestDate: 2024-04-10
+    latestReleaseDate: 2024-04-10
 
   - releaseCycle: "20"
     releaseDate: 2023-04-18
@@ -73,14 +73,14 @@ releases:
     eol: 2026-04-30
     eoes: false
     latest: "20.20.2"
-    latestDate: 2026-03-24
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "19"
     releaseDate: 2022-10-18
     eoas: 2023-04-01
     eol: 2023-06-01
     latest: "19.9.0"
-    latestDate: 2023-04-10
+    latestReleaseDate: 2023-04-10
 
   - releaseCycle: "18"
     releaseDate: 2022-04-19
@@ -89,14 +89,14 @@ releases:
     eol: 2025-04-30
     eoes: false
     latest: "18.20.8"
-    latestDate: 2025-03-27
+    latestReleaseDate: 2025-03-27
 
   - releaseCycle: "17"
     releaseDate: 2021-10-19
     eoas: 2022-04-01
     eol: 2022-06-01
     latest: "17.9.1"
-    latestDate: 2022-06-01
+    latestReleaseDate: 2022-06-01
 
   - releaseCycle: "16"
     releaseDate: 2021-04-20
@@ -105,14 +105,14 @@ releases:
     eol: 2023-09-11
     eoes: false
     latest: "16.20.2"
-    latestDate: 2023-08-09
+    latestReleaseDate: 2023-08-09
 
   - releaseCycle: "15"
     releaseDate: 2020-10-20
     eoas: 2021-04-01
     eol: 2021-06-01
     latest: "15.14.0"
-    latestDate: 2021-04-06
+    latestReleaseDate: 2021-04-06
 
   - releaseCycle: "14"
     releaseDate: 2020-04-21
@@ -121,14 +121,14 @@ releases:
     eol: 2023-04-30
     eoes: false
     latest: "14.21.3"
-    latestDate: 2023-02-16
+    latestReleaseDate: 2023-02-16
 
   - releaseCycle: "13"
     releaseDate: 2019-10-22
     eoas: 2020-04-01
     eol: 2020-06-01
     latest: "13.14.0"
-    latestDate: 2020-04-29
+    latestReleaseDate: 2020-04-29
 
   - releaseCycle: "12"
     releaseDate: 2019-04-23
@@ -137,14 +137,14 @@ releases:
     eol: 2022-04-30
     eoes: false
     latest: "12.22.12"
-    latestDate: 2022-04-05
+    latestReleaseDate: 2022-04-05
 
   - releaseCycle: "11"
     releaseDate: 2018-10-23
     eoas: 2019-04-01
     eol: 2019-06-30
     latest: "11.15.0"
-    latestDate: 2019-04-30
+    latestReleaseDate: 2019-04-30
 
   - releaseCycle: "10"
     releaseDate: 2018-04-24
@@ -152,14 +152,14 @@ releases:
     eoas: 2020-05-19
     eol: 2021-04-30
     latest: "10.24.1"
-    latestDate: 2021-04-06
+    latestReleaseDate: 2021-04-06
 
   - releaseCycle: "9"
     releaseDate: 2017-10-31
     eoas: 2018-06-30
     eol: 2018-06-30
     latest: "9.11.2"
-    latestDate: 2018-06-12
+    latestReleaseDate: 2018-06-12
 
   - releaseCycle: "8"
     releaseDate: 2017-05-30
@@ -167,14 +167,14 @@ releases:
     eoas: 2019-01-01
     eol: 2019-12-31
     latest: "8.17.0"
-    latestDate: 2019-12-17
+    latestReleaseDate: 2019-12-17
 
   - releaseCycle: "7"
     releaseDate: 2016-10-25
     eoas: 2017-06-30
     eol: 2017-06-30
     latest: "7.10.1"
-    latestDate: 2017-07-11
+    latestReleaseDate: 2017-07-11
 
   - releaseCycle: "6"
     releaseDate: 2016-04-26
@@ -182,14 +182,14 @@ releases:
     eoas: 2018-04-30
     eol: 2019-04-30
     latest: "6.17.1"
-    latestDate: 2019-04-03
+    latestReleaseDate: 2019-04-03
 
   - releaseCycle: "5"
     releaseDate: 2015-10-30
     eoas: 2016-06-30
     eol: 2016-06-30
     latest: "5.12.0"
-    latestDate: 2016-06-23
+    latestReleaseDate: 2016-06-23
 
   - releaseCycle: "4"
     releaseDate: 2015-09-09
@@ -197,31 +197,31 @@ releases:
     eoas: 2017-04-01
     eol: 2018-04-30
     latest: "4.9.1"
-    latestDate: 2018-03-29
+    latestReleaseDate: 2018-03-29
 
   - releaseCycle: "3"
     releaseDate: 2015-08-04
     eoas: true
     eol: true
-    latestLink: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "3.3.1"
-    latestDate: 2015-09-15
+    latestReleaseDate: 2015-09-15
 
   - releaseCycle: "2"
     releaseDate: 2015-05-04
     eoas: true
     eol: true
-    latestLink: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "2.5.0"
-    latestDate: 2015-07-28
+    latestReleaseDate: 2015-07-28
 
   - releaseCycle: "1"
     releaseDate: 2015-01-20
     eoas: true
     eol: true
-    latestLink: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
-    latestDate: 2015-07-09
+    latestReleaseDate: 2015-07-09
 
 ---
 

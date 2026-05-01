@@ -8,7 +8,7 @@ alternate_urls:
   - /concrete
 versionCommand: concrete/bin/concrete --version
 releasePolicyLink: https://documentation.concretecms.org/9-x/developers/introduction/versioning-numbering-guide
-latestLinkTemplate: https://github.com/concretecms/concretecms/releases/tag/__LATEST__
+changelogTemplate: https://github.com/concretecms/concretecms/releases/tag/__LATEST__
 eolColumn: Support
 
 auto:
@@ -28,26 +28,26 @@ releases:
     releaseDate: 2021-10-29
     eol: false
     latest: "9.5.0"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "8"
     releaseDate: 2016-12-01
     eol: 2025-08-05
     latest: "8.5.21"
-    latestDate: 2025-08-05
+    latestReleaseDate: 2025-08-05
 
   - releaseCycle: "5.7"
     releaseDate: 2014-09-12
     eol: 2019-10-23
     latest: "5.7.5.13"
-    latestDate: 2019-10-23
+    latestReleaseDate: 2019-10-23
 
   - releaseCycle: "5.6"
     releaseDate: 2012-08-26
     eol: 2019-02-26 # https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640
     latest: "5.6.4.0"
-    latestDate: 2019-02-26
-    latestLink: "https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640"
+    latestReleaseDate: 2019-02-26
+    link: "https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640"
 
 
 ---

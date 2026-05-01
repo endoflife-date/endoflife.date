@@ -7,7 +7,7 @@ iconSlug: mastodon
 permalink: /mastodon
 versionCommand: tootctl --version
 releasePolicyLink: https://github.com/mastodon/mastodon/security/policy
-latestLinkTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:
@@ -28,87 +28,87 @@ releases:
     releaseDate: 2025-11-06
     eol: false
     latest: "4.5.9"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "4.4"
     releaseDate: 2025-07-08
     eol: false
     latest: "4.4.16"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "4.3"
     releaseDate: 2024-10-08
     eol: 2026-05-06
     latest: "4.3.22"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: 2026-01-08
     latest: "4.2.29"
-    latestDate: 2026-01-07
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "4.1"
     releaseDate: 2023-02-10
     eol: 2025-04-08
     latest: "4.1.25"
-    latestDate: 2025-04-02
+    latestReleaseDate: 2025-04-02
 
   - releaseCycle: "4.0"
     releaseDate: 2022-11-14
     eol: 2023-10-31
     latest: "4.0.15"
-    latestDate: 2024-02-16
+    latestReleaseDate: 2024-02-16
 
   - releaseCycle: "3.5"
     releaseDate: 2022-03-30
     eol: 2023-12-31
     latest: "3.5.19"
-    latestDate: 2024-02-16
+    latestReleaseDate: 2024-02-16
 
   - releaseCycle: "3.4"
     releaseDate: 2021-05-16
     # https://github.com/mastodon/mastodon/commit/bd220c32f162230d31e99bdabd30aea787a89cfc
     eol: 2022-11-06
     latest: "3.4.10"
-    latestDate: 2022-11-14
+    latestReleaseDate: 2022-11-14
 
   - releaseCycle: "3.3"
     releaseDate: 2020-12-27
     # https://github.com/mastodon/mastodon/commit/d8abc0018f59ed63fb6c5fae2f6081c141a4b978
     eol: 2022-05-26
     latest: "3.3.3"
-    latestDate: 2022-03-30
+    latestReleaseDate: 2022-03-30
 
   - releaseCycle: "3.2"
     releaseDate: 2020-07-27
     eol: true
     latest: "3.2.2"
-    latestDate: 2020-12-19
+    latestReleaseDate: 2020-12-19
 
   - releaseCycle: "3.1"
     releaseDate: 2020-02-09
     eol: true
     latest: "3.1.5"
-    latestDate: 2020-07-07
+    latestReleaseDate: 2020-07-07
 
   - releaseCycle: "3.0"
     releaseDate: 2019-10-03
     eol: true
     latest: "3.0.2"
-    latestDate: 2020-02-27
+    latestReleaseDate: 2020-02-27
 
   - releaseCycle: "2"
     releaseDate: 2017-10-18
     eol: true
     latest: "2.9.4"
-    latestDate: 2020-02-27
+    latestReleaseDate: 2020-02-27
 
   - releaseCycle: "1"
     releaseDate: 2017-02-05
     eol: true
     latest: "1.6.1"
-    latestDate: 2017-09-17
+    latestReleaseDate: 2017-09-17
 
 ---
 

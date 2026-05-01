@@ -10,7 +10,7 @@ alternative_urls:
   - /dotnetframework
 versionCommand: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
-latestLinkTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
+changelogTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
 latestColumn: false
 eolColumn: Support Status
 staleReleaseThresholdDays: 3650 # linked to their corresponding Windows version
@@ -73,13 +73,13 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2010-04-12
     eol: 2016-01-12
-    latestLink: https://learn.microsoft.com/previous-versions/dotnet/netframework-4.0/ms171868(v=vs.100)
+    link: https://learn.microsoft.com/previous-versions/dotnet/netframework-4.0/ms171868(v=vs.100)
 
   - releaseCycle: "3.5-sp1"
     releaseLabel: "3.5 SP1"
     releaseDate: 2007-11-19
     eol: 2029-01-09
-    latestLink: https://support.microsoft.com/en-us/topic/list-of-changes-and-fixed-issues-in-the-net-framework-3-5-service-pack-1-7e580459-9f9a-3f0d-ecb3-ee3ea374044f
+    link: https://support.microsoft.com/en-us/topic/list-of-changes-and-fixed-issues-in-the-net-framework-3-5-service-pack-1-7e580459-9f9a-3f0d-ecb3-ee3ea374044f
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft

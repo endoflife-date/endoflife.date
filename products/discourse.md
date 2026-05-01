@@ -6,7 +6,7 @@ tags: javascript-runtime ruby-runtime
 iconSlug: discourse
 permalink: /discourse
 releasePolicyLink: https://releases.discourse.org/
-latestLinkTemplate: "https://releases.discourse.org/changelog/v__LATEST__"
+changelogTemplate: "https://releases.discourse.org/changelog/v__LATEST__"
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support
 
@@ -27,46 +27,46 @@ releases:
     releaseDate: 2026-03-31
     eol: 2026-05-31 # planned on https://releases.discourse.org/, to be updated once known
     latest: "2026.3.0"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "2026.2"
     releaseDate: 2026-02-26
     eol: 2026-04-30 # planned on https://releases.discourse.org/, to be updated once known
     latest: "2026.2.2"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "2026.1"
     lts: true
     releaseDate: 2026-01-28
     eol: 2026-09-30 # planned on https://releases.discourse.org/, to be updated once known
     latest: "2026.1.3"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "2025.12"
     releaseDate: 2025-12-30
     eol: 2026-02-26
     latest: "2025.12.2"
-    latestDate: 2026-02-26
+    latestReleaseDate: 2026-02-26
 
   - releaseCycle: "2025.11"
     releaseDate: 2025-11-25
     eol: 2026-01-28
     latest: "2025.11.2"
-    latestDate: 2026-01-28
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-08-19
     eol: 2026-01-28
     latest: "3.5.4"
-    latestDate: 2026-01-28
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.4"
     lts: true
     releaseDate: 2025-02-04
     eol: 2025-08-19
     latest: "3.4.7"
-    latestDate: 2025-07-29
+    latestReleaseDate: 2025-07-29
 
 ---
 

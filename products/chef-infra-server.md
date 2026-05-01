@@ -9,7 +9,7 @@ alternate_urls:
   - /chef-server
 versionCommand: chef-server-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
-latestLinkTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
+changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 eoasColumn: true
 
 identifiers:
@@ -31,7 +31,7 @@ releases:
     eoas: false
     eol: false
     latest: "15.10.91"
-    latestDate: 2026-02-05
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "14"
     staleReleaseThresholdDays: 1500 # deprecated, but no EOL on https://docs.chef.io/versions/
@@ -39,28 +39,28 @@ releases:
     eoas: 2022-06-13
     eol: false
     latest: "14.16.19"
-    latestDate: 2022-06-07
+    latestReleaseDate: 2022-06-07
 
   - releaseCycle: "13"
     releaseDate: 2019-05-31
     eoas: 2020-06-08
     eol: 2021-06-30 # https://www.chef.io/blog/announcing-the-chef-infra-server-13-deprecation
     latest: "13.2.0"
-    latestDate: 2020-04-10
+    latestReleaseDate: 2020-04-10
 
   - releaseCycle: "12"
     releaseDate: 2014-11-25
     eoas: 2019-05-31
     eol: 2020-12-31 # https://web.archive.org/web/20210613113759/https://docs.chef.io/versions/
     latest: "12.19.31"
-    latestDate: 2019-03-07
+    latestReleaseDate: 2019-03-07
 
   - releaseCycle: "11"
     releaseDate: 2013-02-04 # https://www.chef.io/blog/chef-11-released
     eoas: 2014-11-25
     eol: 2018-12-31 # https://www.chef.io/blog/end-of-life-announcement-for-chef-reporting-enterprise-chef-server-11-and-chef-analytics
     latest: "11.1.7"
-    latestDate: 2014-06-19
+    latestReleaseDate: 2014-06-19
 
 ---
 

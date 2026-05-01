@@ -6,7 +6,7 @@ tags: mondoo
 permalink: /cnspec
 versionCommand: cnspec version
 releasePolicyLink: https://mondoo.com/docs/cnspec/cnspec-adv-install/update/
-latestLinkTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:
@@ -27,56 +27,56 @@ releases:
     eoas: false
     eol: false
     latest: "13.7.0"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "12"
     releaseDate: 2025-09-05
     eoas: 2026-03-10
     eol: false
     latest: "12.23.1"
-    latestDate: 2026-02-17
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "11"
     releaseDate: 2024-04-17
     eoas: 2025-09-05
     eol: 2026-03-10
     latest: "11.69.1"
-    latestDate: 2025-08-26
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "10"
     releaseDate: 2024-01-23
     eoas: 2024-04-17
     eol: 2025-09-05
     latest: "10.12.2"
-    latestDate: 2024-04-16
+    latestReleaseDate: 2024-04-16
 
   - releaseCycle: "9"
     releaseDate: 2023-10-05
     eoas: 2024-01-23
     eol: 2024-04-17
     latest: "9.14.0"
-    latestDate: 2024-01-09
+    latestReleaseDate: 2024-01-09
 
   - releaseCycle: "8"
     releaseDate: 2023-03-09
     eoas: 2023-10-05
     eol: 2024-01-23
     latest: "8.28.4"
-    latestDate: 2023-09-20
+    latestReleaseDate: 2023-09-20
 
   - releaseCycle: "7"
     releaseDate: 2022-10-18
     eoas: 2023-03-09
     eol: 2023-10-05
     latest: "7.19.2"
-    latestDate: 2023-03-02
+    latestReleaseDate: 2023-03-02
 
   - releaseCycle: "6"
     releaseDate: 2022-10-11
     eoas: 2022-10-18
     eol: 2023-03-09
     latest: "6.19.0"
-    latestDate: 2022-10-11
+    latestReleaseDate: 2022-10-11
 
 ---
 

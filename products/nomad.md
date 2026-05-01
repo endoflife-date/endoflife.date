@@ -7,7 +7,7 @@ iconSlug: nomad
 permalink: /nomad
 versionCommand: nomad --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
-latestLinkTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 
 identifiers:
   - repology: nomad-scheduler
@@ -24,85 +24,85 @@ releases:
     releaseDate: 2026-04-21
     eol: false
     latest: "2.0.0"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "1.11"
     releaseDate: 2025-11-11
     eol: false
     latest: "1.11.3"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "1.10"
     releaseDate: 2025-04-09
     eol: false
     latest: "1.10.5"
-    latestDate: 2025-09-09
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "1.9"
     releaseDate: 2024-10-10
     eol: 2026-04-21  # releaseDate(2.0)
     latest: "1.9.7"
-    latestDate: 2025-03-11
+    latestReleaseDate: 2025-03-11
 
   - releaseCycle: "1.8"
     releaseDate: 2024-05-28
     eol: 2025-11-11 # releaseDate(1.11)
     latest: "1.8.4"
-    latestDate: 2024-09-17
+    latestReleaseDate: 2024-09-17
 
   - releaseCycle: "1.7"
     releaseDate: 2023-12-07
     eol: 2025-04-09 # releaseDate(1.10)
     latest: "1.7.7"
-    latestDate: 2024-04-16
+    latestReleaseDate: 2024-04-16
 
   - releaseCycle: "1.6"
     releaseDate: 2023-07-18
     eol: 2024-10-10 # releaseDate(1.9)
     latest: "1.6.10"
-    latestDate: 2024-04-16
+    latestReleaseDate: 2024-04-16
 
   - releaseCycle: "1.5"
     releaseDate: 2023-03-01
     eol: 2024-05-28
     latest: "1.5.17"
-    latestDate: 2024-04-16
+    latestReleaseDate: 2024-04-16
 
   - releaseCycle: "1.4"
     releaseDate: 2022-10-04
     eol: 2023-12-07
     latest: "1.4.14"
-    latestDate: 2023-10-30
+    latestReleaseDate: 2023-10-30
 
   - releaseCycle: "1.3"
     releaseDate: 2022-05-11
     eol: 2023-07-18
     latest: "1.3.16"
-    latestDate: 2023-08-18
+    latestReleaseDate: 2023-08-18
 
   - releaseCycle: "1.2"
     releaseDate: 2021-11-15
     eol: 2023-03-01
     latest: "1.2.16"
-    latestDate: 2023-02-14
+    latestReleaseDate: 2023-02-14
 
   - releaseCycle: "1.1"
     releaseDate: 2021-05-17
     eol: 2022-10-04
     latest: "1.1.18"
-    latestDate: 2022-08-31
+    latestReleaseDate: 2022-08-31
 
   - releaseCycle: "1.0"
     releaseDate: 2020-12-08
     eol: 2022-05-11
     latest: "1.0.18"
-    latestDate: 2022-02-10
+    latestReleaseDate: 2022-02-10
 
   - releaseCycle: "0.12"
     releaseDate: 2020-07-09
     eol: 2021-11-15
     latest: "0.12.12"
-    latestDate: 2021-05-11
+    latestReleaseDate: 2021-05-11
 
 ---
 

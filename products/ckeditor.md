@@ -19,8 +19,8 @@ releases:
     releaseDate: 2018-04-25 # https://github.com/ckeditor/ckeditor5/releases/tag/v10.0.0
     eol: false
     latest: 47.6.1
-    latestDate: 2026-03-11
-    latestLink: https://github.com/ckeditor/ckeditor5/releases/tag/v__LATEST__
+    latestReleaseDate: 2026-03-11
+    link: https://github.com/ckeditor/ckeditor5/releases/tag/v__LATEST__
 
   - releaseCycle: "4"
     lts: true
@@ -28,8 +28,8 @@ releases:
     eol: 2023-06-30
     eoes: 2028-12-01
     latest: 4.25.1
-    latestDate: 2025-02-05
-    latestLink: https://github.com/ckeditor/ckeditor4/releases/tag/__LATEST__-lts
+    latestReleaseDate: 2025-02-05
+    link: https://github.com/ckeditor/ckeditor4/releases/tag/__LATEST__-lts
 ---
 
 > [CKEditor](https://ckeditor.com/) is an open-source WYSIWYG rich text editor written in JavaScript.

@@ -6,8 +6,8 @@ iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
-latestLinkTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|replace:'.','_'}}
-# latestLinkTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
+changelogTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|replace:'.','_'}}
+# changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
 eolColumn: Support Status
 
 # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
@@ -31,96 +31,96 @@ releases:
     releaseDate: 2025-12-25
     eol: 2029-03-31
     latest: "4.0.3"
-    latestDate: 2026-04-21
-    latestLink: https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/
+    latestReleaseDate: 2026-04-21
+    link: https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/
 
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
     latest: "3.4.9"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
     latest: "3.3.11"
-    latestDate: 2026-03-26
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
     latest: "3.2.11"
-    latestDate: 2026-03-27
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "3.1"
     releaseDate: 2021-12-25
     eol: 2025-03-31
     latest: "3.1.7"
-    latestDate: 2025-03-26
+    latestReleaseDate: 2025-03-26
 
   - releaseCycle: "3.0"
     releaseDate: 2020-12-25
     eol: 2024-04-23
     latest: "3.0.7"
-    latestDate: 2024-04-23
+    latestReleaseDate: 2024-04-23
 
   - releaseCycle: "2.7"
     releaseDate: 2019-12-25
     eol: 2023-03-31
     latest: "2.7.8"
-    latestDate: 2023-03-30
+    latestReleaseDate: 2023-03-30
 
   - releaseCycle: "2.6"
     releaseDate: 2018-12-25
     eol: 2022-03-31
     latest: "2.6.10"
-    latestDate: 2022-04-12
+    latestReleaseDate: 2022-04-12
 
   - releaseCycle: "2.5"
     releaseDate: 2017-12-25
     eol: 2021-03-31
     latest: "2.5.9"
-    latestDate: 2021-04-05
+    latestReleaseDate: 2021-04-05
 
   - releaseCycle: "2.4"
     releaseDate: 2016-12-23
     eol: 2020-03-31
     latest: "2.4.10"
-    latestDate: 2020-03-31
+    latestReleaseDate: 2020-03-31
 
   - releaseCycle: "2.3"
     releaseDate: 2015-12-24
     eol: 2019-03-31
     latest: "2.3.8"
-    latestDate: 2018-10-17
+    latestReleaseDate: 2018-10-17
 
   - releaseCycle: "2.2"
     releaseDate: 2014-12-25
     eol: 2018-03-31
     latest: "2.2.10"
-    latestDate: 2018-03-28
+    latestReleaseDate: 2018-03-28
 
   - releaseCycle: "2.1"
     releaseDate: 2013-12-25
     eol: 2017-03-31
     latest: "2.1.10"
-    latestDate: 2016-03-31
+    latestReleaseDate: 2016-03-31
 
   - releaseCycle: "2.0.0"
     releaseDate: 2013-02-24
     eol: 2016-02-24
     # Keep this pinned
     latest: "2.0.0p648"
-    latestDate: 2015-12-16
-    latestLink: null
+    latestReleaseDate: 2015-12-16
+    link: null
 
   - releaseCycle: "1.9.3"
     releaseDate: 2011-10-30
     eol: 2015-02-23
     # Keep this pinned
     latest: "1.9.3p551"
-    latestDate: 2014-11-13
-    latestLink: null
+    latestReleaseDate: 2014-11-13
+    link: null
 
 ---
 

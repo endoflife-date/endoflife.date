@@ -8,7 +8,7 @@ permalink: /apache-couchdb
 alternate_urls:
   - /couchdb
 releasePolicyLink: https://docs.couchdb.org/en/stable/cve/index.html
-latestLinkTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
+changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
 versionCommand: curl -s http://localhost:5984/ | jq -r '.version'
 staleReleaseThresholdDays: 500
 
@@ -31,25 +31,25 @@ releases:
     releaseDate: 2025-05-05
     eol: false
     latest: "3.5.1"
-    latestDate: 2025-11-09
+    latestReleaseDate: 2025-11-09
 
   - releaseCycle: "3.4"
     releaseDate: 2024-09-20
     eol: false
     latest: "3.4.3"
-    latestDate: 2025-03-17
+    latestReleaseDate: 2025-03-17
 
   - releaseCycle: "3.3"
     releaseDate: 2022-12-28
     eol: 2025-05-05
     latest: "3.3.3"
-    latestDate: 2023-12-04
+    latestReleaseDate: 2023-12-04
 
   - releaseCycle: "3.2"
     releaseDate: 2021-10-08
     eol: 2024-09-20
     latest: "3.2.3"
-    latestDate: 2023-04-24
+    latestReleaseDate: 2023-04-24
 
 ---
 

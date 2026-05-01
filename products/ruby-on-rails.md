@@ -11,7 +11,7 @@ alternate_urls:
   - /roro
   - /ror
 releasePolicyLink: https://rubyonrails.org/maintenance
-latestLinkTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
 
@@ -32,77 +32,77 @@ releases:
     eoas: 2026-10-10
     eol: 2027-10-10
     latest: "8.1.3"
-    latestDate: 2026-03-24
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "8.0"
     releaseDate: 2024-11-07
     eoas: 2026-05-07
     eol: 2026-11-07
     latest: "8.0.5"
-    latestDate: 2026-03-24
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "7.2"
     releaseDate: 2024-08-09
     eoas: 2025-08-09
     eol: 2026-08-09
     latest: "7.2.3.1"
-    latestDate: 2026-03-23
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eoas: 2024-10-01
     eol: 2025-10-01 # see https://rubyonrails.org/maintenance
     latest: "7.1.6"
-    latestDate: 2025-10-28
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "7.0"
     releaseDate: 2021-12-15
     eoas: 2023-10-15
     eol: 2025-04-01 # see https://rubyonrails.org/maintenance
     latest: "7.0.10"
-    latestDate: 2025-10-28
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "6.1"
     releaseDate: 2020-12-09
     eoas: 2021-12-15
     eol: 2024-10-01 # see https://rubyonrails.org/maintenance
     latest: "6.1.7.10"
-    latestDate: 2024-10-23
+    latestReleaseDate: 2024-10-23
 
   - releaseCycle: "6.0"
     releaseDate: 2019-08-16
     eoas: 2021-12-15
     eol: 2023-06-01
     latest: "6.0.6.1"
-    latestDate: 2023-01-17
+    latestReleaseDate: 2023-01-17
 
   - releaseCycle: "5.2"
     releaseDate: 2018-04-09
     eoas: 2021-12-15
     eol: 2022-06-01
     latest: "5.2.8.1"
-    latestDate: 2022-07-12
+    latestReleaseDate: 2022-07-12
 
   - releaseCycle: "5.1"
     releaseDate: 2017-04-27
     eoas: 2018-04-09
     eol: 2019-08-25
     latest: "5.1.7"
-    latestDate: 2019-03-27
+    latestReleaseDate: 2019-03-27
 
   - releaseCycle: "5.0"
     releaseDate: 2016-06-30
     eoas: 2018-04-09
     eol: 2018-04-09
     latest: "5.0.7.2"
-    latestDate: 2019-03-13
+    latestReleaseDate: 2019-03-13
 
   - releaseCycle: "4.2"
     releaseDate: 2014-12-19
     eoas: 2016-06-30
     eol: 2017-04-27
     latest: "4.2.11.3"
-    latestDate: 2020-05-15
+    latestReleaseDate: 2020-05-15
 
 ---
 

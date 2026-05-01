@@ -22,71 +22,71 @@ releases:
     releaseDate: 2025-12-23
     eol: false
     latest: "25.12"
-    latestDate: 2025-12-23
-    latestLink: https://postmarketos.org/blog/2025/12/23/v25.12-release/
+    latestReleaseDate: 2025-12-23
+    link: https://postmarketos.org/blog/2025/12/23/v25.12-release/
 
   - releaseCycle: "25.06"
     releaseDate: 2025-06-23
     eol: 2026-01-23
     latest: "25.06"
-    latestDate: 2025-06-23
-    latestLink: https://postmarketos.org/blog/2025/06/22/v25.06-release/
+    latestReleaseDate: 2025-06-23
+    link: https://postmarketos.org/blog/2025/06/22/v25.06-release/
 
   - releaseCycle: "24.12"
     releaseDate: 2024-12-23
     eol: 2025-07-23
     latest: "24.12"
-    latestDate: 2024-12-23
-    latestLink: https://postmarketos.org/blog/2024/12/23/v24.12-release/
+    latestReleaseDate: 2024-12-23
+    link: https://postmarketos.org/blog/2024/12/23/v24.12-release/
 
   - releaseCycle: "24.06"
     releaseDate: 2024-06-16
     eol: 2025-01-23
     latest: "24.06"
-    latestDate: 2024-06-16
-    latestLink: https://postmarketos.org/blog/2024/06/16/v24.06-release/
+    latestReleaseDate: 2024-06-16
+    link: https://postmarketos.org/blog/2024/06/16/v24.06-release/
 
   - releaseCycle: "23.12"
     releaseDate: 2023-12-18
     eol: 2024-07-16
     latest: "23.12"
-    latestDate: 2023-12-19
-    latestLink: https://postmarketos.org/blog/2023/12/18/v23.12-release/
+    latestReleaseDate: 2023-12-19
+    link: https://postmarketos.org/blog/2023/12/18/v23.12-release/
 
   - releaseCycle: "23.06"
     releaseDate: 2023-06-07
     eol: 2024-01-18
     latest: "23.06"
-    latestDate: 2023-06-07
-    latestLink: https://postmarketos.org/blog/2023/06/07/v23.06-release/
+    latestReleaseDate: 2023-06-07
+    link: https://postmarketos.org/blog/2023/06/07/v23.06-release/
 
   - releaseCycle: "22.12"
     releaseDate: 2022-12-18
     eol: 2023-07-07
     latest: "22.12"
-    latestDate: 2022-12-18
-    latestLink: https://postmarketos.org/blog/2022/12/18/v22.12-release/
+    latestReleaseDate: 2022-12-18
+    link: https://postmarketos.org/blog/2022/12/18/v22.12-release/
 
   - releaseCycle: "22.06"
     releaseDate: 2022-06-12
     eol: 2023-01-18
     latest: "22.06"
-    latestDate: 2022-06-12
-    latestLink: https://postmarketos.org/blog/2022/06/12/v22.06-release/
+    latestReleaseDate: 2022-06-12
+    link: https://postmarketos.org/blog/2022/06/12/v22.06-release/
 
   - releaseCycle: "21.12"
     releaseDate: 2021-12-29
     eol: 2022-07-12
     latest: "21.12"
-    latestDate: 2021-12-29
-    latestLink: https://postmarketos.org/blog/2021/12/29/v21.12-release/
+    latestReleaseDate: 2021-12-29
+    link: https://postmarketos.org/blog/2021/12/29/v21.12-release/
 
   - releaseCycle: "21.06"
     releaseDate: 2021-07-04
     eol: 2022-01-29
     latest: "21.06"
-    latestDate: 2021-07-04
-    latestLink: https://postmarketos.org/blog/2021/07/04/v21.06-release/
+    latestReleaseDate: 2021-07-04
+    link: https://postmarketos.org/blog/2021/07/04/v21.06-release/
 ---
 
 > [postmarketOS](https://postmarketos.org/) extends Alpine Linux

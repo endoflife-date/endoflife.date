@@ -71,7 +71,7 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
   - additional metadata, such as the schema version and the last modified date,
   - product-level information, such as the product label or category (#2062).
 - Cycles data now always contain most of the release cycles properties, even if they are null
-  (example: `latest`, `latestDate`).
+  (example: `latest`, `latestReleaseDate`).
 - See <https://endoflife.date/docs/api/v1/#/default/get_products__product__> for a detailed
   description of the response.
 
@@ -81,7 +81,7 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
 - Response has been changed to make it possible to include additional metadata, such as the schema
   version and the last modified date,
 - Cycles data now always contain most of the release cycles properties, even if they are null
-  (example: `latest`, `latestDate`).
+  (example: `latest`, `latestReleaseDate`).
 - A special `/api/v1/products/<product>/cycles/latest/` cycle, containing the same data as the
   latest cycle, has been added (#2078).
 - See <https://endoflife.date/docs/api/v1/#/default/get_products__product__cycles__cycle_> for a

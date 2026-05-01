@@ -8,7 +8,7 @@ permalink: /svelte
 versionCommand: npm list svelte
 eoasColumn: true
 eoesColumn: false
-latestLinkTemplate: https://github.com/sveltejs/svelte/releases/tag/svelte%40__LATEST__
+changelogTemplate: https://github.com/sveltejs/svelte/releases/tag/svelte%40__LATEST__
 
 auto:
   methods:
@@ -25,38 +25,38 @@ releases:
     eoas: false
     eol: false
     latest: "5.55.5"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "4"
     releaseDate: 2023-06-22
     eoas: 2024-10-19
     eol: 2024-10-19
     latest: "4.2.20"
-    latestDate: 2025-05-20
+    latestReleaseDate: 2025-05-20
 
   - releaseCycle: "3"
     releaseDate: 2019-04-21
     eoas: 2023-06-22
     eol: 2023-06-22
     latest: "3.59.2"
-    latestDate: 2023-06-20
-    latestLink: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
+    latestReleaseDate: 2023-06-20
+    link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
   - releaseCycle: "2"
     releaseDate: 2018-04-19
     eoas: 2019-04-21
     eol: 2019-04-21
     latest: "2.16.1"
-    latestDate: 2019-02-08
-    latestLink: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
+    latestReleaseDate: 2019-02-08
+    link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
   - releaseCycle: "1"
     releaseDate: 2016-11-29
     eoas: 2018-04-19
     eol: 2018-04-19
     latest: "1.64.1"
-    latestDate: 2018-04-18
-    latestLink: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
+    latestReleaseDate: 2018-04-18
+    link: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
 ---
 

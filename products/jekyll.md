@@ -6,7 +6,7 @@ tags: ruby-runtime
 iconSlug: jekyll
 permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
-latestLinkTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
@@ -15,7 +15,7 @@ customFields:
     display: api-only
     label: Ruby
     description: Minimum required Ruby version
-    latestLink: https://jekyllrb.com/docs/installation/
+    link: https://jekyllrb.com/docs/installation/
 
 identifiers:
   - cpe: cpe:/a:jekyllrb:jekyll
@@ -34,7 +34,7 @@ releases:
     eoas: false
     eol: false
     latest: "4.4.1"
-    latestDate: 2025-01-29
+    latestReleaseDate: 2025-01-29
 
   - releaseCycle: "3"
     staleReleaseThresholdDays: 730 # still used on GitHub pages
@@ -43,7 +43,7 @@ releases:
     eoas: true
     eol: false
     latest: "3.10.0"
-    latestDate: 2024-06-24
+    latestReleaseDate: 2024-06-24
 
   - releaseCycle: "2"
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
@@ -51,7 +51,7 @@ releases:
     eoas: true
     eol: 2015-10-27
     latest: "2.5.3"
-    latestDate: 2014-12-22
+    latestReleaseDate: 2014-12-22
 
   - releaseCycle: "1"
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://github.com/jekyll/jekyll/releases/tag/v1.2.0
@@ -59,7 +59,7 @@ releases:
     eoas: true
     eol: 2014-05-07
     latest: "1.5.1"
-    latestDate: 2014-03-28
+    latestReleaseDate: 2014-03-28
 
   - releaseCycle: "0"
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://web.archive.org/web/20091202224411/http://wiki.github.com/mojombo/jekyll/install
@@ -67,7 +67,7 @@ releases:
     eol: 2014-05-07
     eoas: true
     latest: "0.9.0"
-    latestDate: 2010-12-15
+    latestReleaseDate: 2010-12-15
 ---
 
 > [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator. It takes text

@@ -7,7 +7,7 @@ iconSlug: apachehadoop
 permalink: /apache-hadoop
 alternate_urls:
   - /hadoop
-latestLinkTemplate: https://hadoop.apache.org/release/__LATEST__.html
+changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
@@ -27,118 +27,118 @@ auto:
     - git: https://github.com/apache/hadoop.git
       regex: '^(rel\/)?release-(?P<major>[1-9][0-9]*)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
-# eol(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestDate(x) (if the release is not active anymore)
+# eol(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
 releases:
   - releaseCycle: "3.5"
     releaseDate: 2026-04-02
     eol: false
     latest: "3.5.0"
-    latestDate: 2026-04-01
+    latestReleaseDate: 2026-04-01
 
   - releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
     latest: "3.4.3"
-    latestDate: 2026-02-24
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "3.3"
     staleReleaseThresholdDays: 1200 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
     releaseDate: 2020-07-15
     eol: false
     latest: "3.3.6"
-    latestDate: 2023-06-26
+    latestReleaseDate: 2023-06-26
 
   - releaseCycle: "2.10"
     staleReleaseThresholdDays: 1500 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
     releaseDate: 2019-10-29
     eol: false
     latest: "2.10.2"
-    latestDate: 2022-05-31
+    latestReleaseDate: 2022-05-31
 
   - releaseCycle: "3.2"
     releaseDate: 2019-01-21
     eol: 2023-12-21 # https://www.mail-archive.com/hdfs-dev@hadoop.apache.org/msg48821.html
     latest: "3.2.4"
-    latestDate: 2022-07-22
+    latestReleaseDate: 2022-07-22
 
   - releaseCycle: "3.1"
     releaseDate: 2018-04-05
     eol: 2020-08-18
     latest: "3.1.4"
-    latestDate: 2020-08-18
+    latestReleaseDate: 2020-08-18
 
   - releaseCycle: "3.0"
     releaseDate: 2017-12-18
     eol: 2018-06-10
     latest: "3.0.3"
-    latestDate: 2018-06-10
+    latestReleaseDate: 2018-06-10
 
   - releaseCycle: "2.9"
     releaseDate: 2017-11-17
     eol: 2018-11-20
     latest: "2.9.2"
-    latestDate: 2018-11-20
+    latestReleaseDate: 2018-11-20
 
   - releaseCycle: "2.8"
     releaseDate: 2017-03-24
     eol: 2018-09-18
     latest: "2.8.5"
-    latestDate: 2018-09-18
+    latestReleaseDate: 2018-09-18
 
   - releaseCycle: "2.7"
     releaseDate: 2015-07-06
     eol: 2018-07-18
     latest: "2.7.7"
-    latestDate: 2018-07-18
+    latestReleaseDate: 2018-07-18
 
   - releaseCycle: "2.6"
     releaseDate: 2014-11-30
     eol: 2016-10-10
     latest: "2.6.5"
-    latestDate: 2016-10-10
+    latestReleaseDate: 2016-10-10
 
   - releaseCycle: "2.5"
     releaseDate: 2014-09-11
     eol: 2015-11-19
     latest: "2.5.2"
-    latestDate: 2014-11-20
+    latestReleaseDate: 2014-11-20
 
   - releaseCycle: "2.4"
     releaseDate: 2014-04-10
     eol: 2014-06-30
     latest: "2.4.1"
-    latestDate: 2014-06-30
+    latestReleaseDate: 2014-06-30
 
   - releaseCycle: "2.3"
     releaseDate: 2014-02-24
     eol: 2014-02-24
     latest: "2.3.0"
-    latestDate: 2014-02-24
+    latestReleaseDate: 2014-02-24
 
   - releaseCycle: "2.2"
     releaseDate: 2013-10-16
     eol: 2013-10-16
     latest: "2.2.0"
-    latestDate: 2013-10-16
+    latestReleaseDate: 2013-10-16
 
   - releaseCycle: "1.2"
     releaseDate: 2013-05-14
     eol: 2013-08-04
     latest: "1.2.1"
-    latestDate: 2013-08-04
+    latestReleaseDate: 2013-08-04
 
   - releaseCycle: "1.1"
     releaseDate: 2012-10-15
     eol: 2013-03-06
     latest: "1.1.2"
-    latestDate: 2013-03-06
+    latestReleaseDate: 2013-03-06
 
   - releaseCycle: "1.0"
     releaseDate: 2011-12-27
     eol: 2012-10-12
     latest: "1.0.4"
-    latestDate: 2012-10-12
+    latestReleaseDate: 2012-10-12
 
 ---
 

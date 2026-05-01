@@ -10,7 +10,7 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-latestLinkTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
+changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Expanded Security Maintenance
@@ -39,15 +39,15 @@ releases:
     eol: 2031-05-31
     eoes: 2031-05-31
     latest: "26.04"
-    latestDate: 2026-04-23
-
+    latestReleaseDate: 2026-04-23
+    
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
     eoas: 2026-07-01
     eol: 2026-07-01
     latest: "25.10"
-    latestDate: 2025-10-09
+    latestReleaseDate: 2025-10-09
 
   - releaseCycle: "25.04"
     codename: "Plucky Puffin"
@@ -55,7 +55,7 @@ releases:
     eoas: 2026-01-17
     eol: 2026-01-17
     latest: "25.04"
-    latestDate: 2025-04-17
+    latestReleaseDate: 2025-04-17
 
   - releaseCycle: "24.10"
     codename: "Oracular Oriole"
@@ -63,7 +63,7 @@ releases:
     eoas: 2025-07-10
     eol: 2025-07-10
     latest: "24.10"
-    latestDate: 2024-10-10
+    latestReleaseDate: 2024-10-10
 
   - releaseCycle: "24.04"
     codename: "Noble Numbat"
@@ -73,7 +73,7 @@ releases:
     eol: 2029-05-31
     eoes: 2036-05-31
     latest: "24.04.4"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "23.10"
     codename: "Mantic Minotaur"
@@ -81,7 +81,7 @@ releases:
     eoas: 2024-07-12
     eol: 2024-07-12
     latest: "23.10"
-    latestDate: 2023-10-12
+    latestReleaseDate: 2023-10-12
 
   - releaseCycle: "23.04"
     codename: "Lunar Lobster"
@@ -89,7 +89,7 @@ releases:
     eoas: 2024-01-20
     eol: 2024-01-20
     latest: "23.04"
-    latestDate: 2023-04-20
+    latestReleaseDate: 2023-04-20
 
   - releaseCycle: "22.10"
     codename: "Kinetic Kudu"
@@ -97,7 +97,7 @@ releases:
     eoas: 2023-07-20
     eol: 2023-07-20
     latest: "22.10"
-    latestDate: 2022-10-20
+    latestReleaseDate: 2022-10-20
 
   - releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
@@ -107,7 +107,7 @@ releases:
     eol: 2027-04-01
     eoes: 2032-04-09
     latest: "22.04.5"
-    latestDate: 2024-09-12
+    latestReleaseDate: 2024-09-12
 
   - releaseCycle: "21.10"
     codename: "Impish Indri"
@@ -115,7 +115,7 @@ releases:
     eoas: 2022-07-14
     eol: 2022-07-14
     latest: "21.10"
-    latestDate: 2021-10-14
+    latestReleaseDate: 2021-10-14
 
   - releaseCycle: "21.04"
     codename: "Hirsute Hippo"
@@ -123,7 +123,7 @@ releases:
     eoas: 2022-01-20
     eol: 2022-01-20
     latest: "21.04"
-    latestDate: 2021-04-22
+    latestReleaseDate: 2021-04-22
 
   - releaseCycle: "20.10"
     codename: "Groovy Gorilla"
@@ -131,7 +131,7 @@ releases:
     eoas: 2021-07-22
     eol: 2021-07-22
     latest: "20.10"
-    latestDate: 2020-10-22
+    latestReleaseDate: 2020-10-22
 
   - releaseCycle: "20.04"
     codename: "Focal Fossa"
@@ -141,7 +141,7 @@ releases:
     eol: 2025-05-31
     eoes: 2030-04-02
     latest: "20.04.6"
-    latestDate: 2023-03-23
+    latestReleaseDate: 2023-03-23
 
   - releaseCycle: "19.10"
     codename: "Eoan Ermine"
@@ -149,7 +149,7 @@ releases:
     eoas: 2020-07-06
     eol: 2020-07-06
     latest: "19.10"
-    latestDate: 2019-10-17
+    latestReleaseDate: 2019-10-17
 
   - releaseCycle: "19.04"
     codename: "Disco Dingo"
@@ -157,7 +157,7 @@ releases:
     eoas: 2020-01-23
     eol: 2020-01-23
     latest: "19.04"
-    latestDate: 2019-04-18
+    latestReleaseDate: 2019-04-18
 
   - releaseCycle: "18.10"
     codename: "Cosmic Cuttlefish"
@@ -165,7 +165,7 @@ releases:
     eoas: 2019-07-18
     eol: 2019-07-18
     latest: "18.10"
-    latestDate: 2018-10-18
+    latestReleaseDate: 2018-10-18
 
   - releaseCycle: "18.04"
     codename: "Bionic Beaver"
@@ -175,7 +175,7 @@ releases:
     eol: 2023-05-31
     eoes: 2028-04-01
     latest: "18.04.6"
-    latestDate: 2021-09-17
+    latestReleaseDate: 2021-09-17
 
   - releaseCycle: "17.10"
     codename: "Artful Aardvark"
@@ -183,7 +183,7 @@ releases:
     eoas: 2018-07-19
     eol: 2018-07-19
     latest: "17.10"
-    latestDate: 2017-10-19
+    latestReleaseDate: 2017-10-19
 
   - releaseCycle: "17.04"
     codename: "Zesty Zapus"
@@ -191,7 +191,7 @@ releases:
     eoas: 2018-01-13
     eol: 2018-01-13
     latest: "17.04"
-    latestDate: 2017-04-13
+    latestReleaseDate: 2017-04-13
 
   - releaseCycle: "16.10"
     codename: "Yakkety Yak"
@@ -199,7 +199,7 @@ releases:
     eoas: 2017-07-20
     eol: 2017-07-20
     latest: "16.10"
-    latestDate: 2016-10-13
+    latestReleaseDate: 2016-10-13
 
   - releaseCycle: "16.04"
     codename: "Xenial Xerus"
@@ -209,7 +209,7 @@ releases:
     eol: 2021-04-02
     eoes: 2026-04-02
     latest: "16.04.7"
-    latestDate: 2020-08-13
+    latestReleaseDate: 2020-08-13
 
   - releaseCycle: "15.10"
     codename: "Wily Werewolf"
@@ -217,7 +217,7 @@ releases:
     eoas: 2016-07-28
     eol: 2016-07-28
     latest: "15.10"
-    latestDate: 2015-10-22
+    latestReleaseDate: 2015-10-22
 
   - releaseCycle: "15.04"
     codename: "Vivid Vervet"
@@ -225,7 +225,7 @@ releases:
     eoas: 2016-02-04
     eol: 2016-02-04
     latest: "15.04"
-    latestDate: 2015-04-23
+    latestReleaseDate: 2015-04-23
 
   - releaseCycle: "14.10"
     codename: "Utopic Unicorn"
@@ -233,7 +233,7 @@ releases:
     eoas: 2015-07-23
     eol: 2015-07-23
     latest: "14.10"
-    latestDate: 2014-10-23
+    latestReleaseDate: 2014-10-23
 
   - releaseCycle: "14.04"
     codename: "Trusty Tahr"
@@ -243,7 +243,7 @@ releases:
     eol: 2019-04-02
     eoes: 2024-04-02
     latest: "14.04.6"
-    latestDate: 2019-03-07
+    latestReleaseDate: 2019-03-07
 
   - releaseCycle: "13.10"
     codename: "Saucy Salamander"
@@ -251,7 +251,7 @@ releases:
     eoas: 2014-07-17
     eol: 2014-07-17
     latest: "13.10"
-    latestDate: 2013-10-17
+    latestReleaseDate: 2013-10-17
 
   - releaseCycle: "13.04"
     codename: "Raring Ringtail"
@@ -259,7 +259,7 @@ releases:
     eoas: 2014-01-27
     eol: 2014-01-27
     latest: "13.04"
-    latestDate: 2013-04-25
+    latestReleaseDate: 2013-04-25
 
   - releaseCycle: "12.10"
     codename: "Quantal Quetzal"
@@ -267,7 +267,7 @@ releases:
     eoas: 2014-05-16
     eol: 2014-05-16
     latest: "12.10"
-    latestDate: 2012-10-18
+    latestReleaseDate: 2012-10-18
 
   - releaseCycle: "12.04"
     codename: "Precise Pangolin"
@@ -277,7 +277,7 @@ releases:
     eol: 2017-04-28
     eoes: 2019-04-26
     latest: "12.04.5"
-    latestDate: 2014-08-08
+    latestReleaseDate: 2014-08-08
 
   - releaseCycle: "11.10"
     codename: "Oneiric Ocelot"
@@ -285,7 +285,7 @@ releases:
     eoas: 2013-05-09
     eol: 2013-05-09
     latest: "11.10"
-    latestDate: 2011-10-13
+    latestReleaseDate: 2011-10-13
 
   - releaseCycle: "11.04"
     codename: "Natty Narwhal"
@@ -293,7 +293,7 @@ releases:
     eoas: 2012-10-28
     eol: 2012-10-28
     latest: "11.04"
-    latestDate: 2011-04-28
+    latestReleaseDate: 2011-04-28
 
   - releaseCycle: "10.10"
     codename: "Maverick Meerkat"
@@ -301,7 +301,7 @@ releases:
     eoas: 2012-04-10
     eol: 2012-04-10
     latest: "10.10"
-    latestDate: 2010-10-10
+    latestReleaseDate: 2010-10-10
 
   - releaseCycle: "10.04"
     codename: "Lucid Lynx"
@@ -310,7 +310,7 @@ releases:
     eoas: 2013-05-09
     eol: 2013-05-09
     latest: "10.04.4"
-    latestDate: 2012-02-16
+    latestReleaseDate: 2012-02-16
 
   - releaseCycle: "9.10"
     codename: "Karmic Koala"
@@ -318,7 +318,7 @@ releases:
     eoas: 2011-04-30
     eol: 2011-04-30
     latest: "9.10"
-    latestDate: 2009-10-29
+    latestReleaseDate: 2009-10-29
 
   - releaseCycle: "9.04"
     codename: "Jaunty Jackalope"
@@ -326,7 +326,7 @@ releases:
     eoas: 2010-10-23
     eol: 2010-10-23
     latest: "9.04"
-    latestDate: 2009-04-23
+    latestReleaseDate: 2009-04-23
 
   - releaseCycle: "8.10"
     codename: "Intrepid Ibex"
@@ -334,8 +334,8 @@ releases:
     eoas: 2010-04-30
     eol: 2010-04-30
     latest: "8.10"
-    latestDate: 2008-10-30
-    latestLink: null
+    latestReleaseDate: 2008-10-30
+    link: null
 
   - releaseCycle: "8.04"
     codename: "Hardy Heron"
@@ -344,8 +344,8 @@ releases:
     eoas: 2013-05-09
     eol: 2013-05-09
     latest: "8.04.4"
-    latestDate: 2010-01-29
-    latestLink: null
+    latestReleaseDate: 2010-01-29
+    link: null
 
   - releaseCycle: "7.10"
     codename: "Gutsy Gibbon"
@@ -353,7 +353,7 @@ releases:
     eoas: 2009-04-18
     eol: 2009-04-18
     latest: "7.10"
-    latestDate: 2007-10-18
+    latestReleaseDate: 2007-10-18
 
   - releaseCycle: "7.04"
     codename: "Feisty Fawn"
@@ -361,8 +361,8 @@ releases:
     eoas: 2008-10-19
     eol: 2008-10-19
     latest: "7.04"
-    latestDate: 2007-04-19
-    latestLink: null
+    latestReleaseDate: 2007-04-19
+    link: null
 
   - releaseCycle: "6.10"
     codename: "Edgy Eft"
@@ -370,8 +370,8 @@ releases:
     eoas: 2006-10-26
     eol: 2008-04-26
     latest: "6.10"
-    latestDate: 2006-10-26
-    latestLink: null
+    latestReleaseDate: 2006-10-26
+    link: null
 
   - releaseCycle: "6.06"
     codename: "Dapper Drake"
@@ -380,8 +380,8 @@ releases:
     releaseDate: 2006-08-10
     eol: 2011-06-01
     latest: "6.06.2"
-    latestDate: 2008-01-22
-    latestLink: null
+    latestReleaseDate: 2008-01-22
+    link: null
 
   - releaseCycle: "5.10"
     codename: "Breezy Badger"
@@ -389,8 +389,8 @@ releases:
     eoas: 2007-04-13
     eol: 2007-04-13
     latest: "5.10"
-    latestDate: 2005-10-13
-    latestLink: null
+    latestReleaseDate: 2005-10-13
+    link: null
 
   - releaseCycle: "5.04"
     codename: "Hoary Hedgehog"
@@ -398,8 +398,8 @@ releases:
     eoas: 2006-10-31
     eol: 2006-10-31
     latest: "5.04"
-    latestDate: 2005-04-08
-    latestLink: null
+    latestReleaseDate: 2005-04-08
+    link: null
 
   - releaseCycle: "4.10"
     codename: "Warty Warthog"
@@ -407,8 +407,8 @@ releases:
     eoas: 2004-10-26
     eol: 2006-04-30
     latest: "4.10"
-    latestDate: 2004-10-20
-    latestLink: null
+    latestReleaseDate: 2004-10-20
+    link: null
 
 ---
 

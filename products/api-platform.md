@@ -6,7 +6,7 @@ tags: php-runtime
 permalink: /api-platform
 versionCommand: composer show api-platform/core | grep versions
 releasePolicyLink: https://api-platform.com/docs/extra/releases/
-latestLinkTemplate: https://github.com/api-platform/core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/api-platform/core/releases/tag/v__LATEST__
 eoasColumn: true
 
 auto:
@@ -27,119 +27,119 @@ releases:
     eoas: false
     eol: false
     latest: "4.3.4"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "4.2"
     releaseDate: 2025-09-18
     eoas: 2026-03-13
     eol: false
     latest: "4.2.24"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "4.1"
     releaseDate: 2025-02-28
     eoas: 2025-09-18
     eol: 2026-03-13
     latest: "4.1.28"
-    latestDate: 2025-12-05
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
     eoas: 2025-02-28
     eol: 2025-09-18
     latest: "4.0.22"
-    latestDate: 2025-04-03
+    latestReleaseDate: 2025-04-03
 
   - releaseCycle: "3.4"
     releaseDate: 2024-09-18
     eoas: 2024-09-18
     eol: 2025-02-28
     latest: "3.4.17"
-    latestDate: 2025-04-07
+    latestReleaseDate: 2025-04-07
 
   - releaseCycle: "3.3"
     releaseDate: 2024-04-29
     eoas: 2024-09-18
     eol: 2025-02-28
     latest: "3.3.15"
-    latestDate: 2025-01-17
+    latestReleaseDate: 2025-01-17
 
   - releaseCycle: "3.2"
     releaseDate: 2023-10-12
     eoas: 2024-04-29
     eol: 2024-09-18
     latest: "3.2.26"
-    latestDate: 2024-07-19
+    latestReleaseDate: 2024-07-19
 
   - releaseCycle: "3.1"
     releaseDate: 2023-01-23
     eoas: 2023-10-12
     eol: 2024-04-29
     latest: "3.1.29"
-    latestDate: 2024-04-29
+    latestReleaseDate: 2024-04-29
 
   - releaseCycle: "3.0"
     releaseDate: 2022-09-15
     eoas: 2023-01-23
     eol: 2023-10-12
     latest: "3.0.12"
-    latestDate: 2023-02-28
+    latestReleaseDate: 2023-02-28
 
   - releaseCycle: "2.7"
     releaseDate: 2022-09-15
     eoas: 2023-01-27
     eol: 2023-01-27
     latest: "2.7.18"
-    latestDate: 2024-03-19
+    latestReleaseDate: 2024-03-19
 
   - releaseCycle: "2.6"
     releaseDate: 2021-01-22
     eoas: 2022-09-15
     eol: 2022-09-15
     latest: "2.6.8"
-    latestDate: 2022-01-11
+    latestReleaseDate: 2022-01-11
 
   - releaseCycle: "2.5"
     releaseDate: 2019-09-30
     eoas: 2021-01-22
     eol: 2022-09-15
     latest: "2.5.10"
-    latestDate: 2021-01-22
+    latestReleaseDate: 2021-01-22
 
   - releaseCycle: "2.4"
     releaseDate: 2019-03-22
     eoas: 2019-09-30
     eol: 2021-01-22
     latest: "2.4.7"
-    latestDate: 2019-09-17
+    latestReleaseDate: 2019-09-17
 
   - releaseCycle: "2.3"
     releaseDate: 2018-07-06
     eoas: 2019-03-22
     eol: 2019-09-30
     latest: "2.3.6"
-    latestDate: 2019-01-15
+    latestReleaseDate: 2019-01-15
 
   - releaseCycle: "2.2"
     releaseDate: 2018-02-16
     eoas: 2018-07-06
     eol: 2019-03-22
     latest: "2.2.10"
-    latestDate: 2019-01-15
+    latestReleaseDate: 2019-01-15
 
   - releaseCycle: "2.1"
     releaseDate: 2017-09-08
     eoas: 2018-02-16
     eol: 2018-07-06
     latest: "2.1.6"
-    latestDate: 2018-02-12
+    latestReleaseDate: 2018-02-12
 
   - releaseCycle: "2.0"
     releaseDate: 2016-11-24
     eoas: 2017-09-08
     eol: 2018-02-16
     latest: "2.0.11"
-    latestDate: 2017-09-08
+    latestReleaseDate: 2017-09-08
 
 ---
 

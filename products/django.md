@@ -7,7 +7,7 @@ iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"
 releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
-latestLinkTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
+changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 eoasColumn: true
 
 customFields:
@@ -15,7 +15,7 @@ customFields:
     display: after-release-column
     label: Python
     description: Supported Python versions
-    latestLink: https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
+    link: https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
 
 identifiers:
   - repology: python:django
@@ -61,7 +61,7 @@ releases:
     eol: 2027-04-30
     supportedPythonVersions: "3.12 - 3.14"
     latest: "6.0.4"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "5.2"
     lts: true
@@ -70,7 +70,7 @@ releases:
     eol: 2028-04-30
     supportedPythonVersions: "3.10 - 3.14 (added in 5.2.8)"
     latest: "5.2.13"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "5.1"
     releaseDate: 2024-08-07
@@ -78,7 +78,7 @@ releases:
     eol: 2025-12-03
     supportedPythonVersions: "3.10 - 3.13 (added in 5.1.3)"
     latest: "5.1.15"
-    latestDate: 2025-12-02
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "5.0"
     releaseDate: 2023-12-04
@@ -86,7 +86,7 @@ releases:
     eol: 2025-04-02
     supportedPythonVersions: "3.10 - 3.12"
     latest: "5.0.14"
-    latestDate: 2025-04-02
+    latestReleaseDate: 2025-04-02
 
   - releaseCycle: "4.2"
     lts: true
@@ -95,7 +95,7 @@ releases:
     eol: 2026-04-07
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
     latest: "4.2.30"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "4.1"
     releaseDate: 2022-08-03
@@ -103,7 +103,7 @@ releases:
     eol: 2023-12-01
     supportedPythonVersions: "3.8 - 3.11 (added in 4.1.3)"
     latest: "4.1.13"
-    latestDate: 2023-11-01
+    latestReleaseDate: 2023-11-01
 
   - releaseCycle: "4.0"
     releaseDate: 2021-12-07
@@ -111,7 +111,7 @@ releases:
     eol: 2023-04-01
     supportedPythonVersions: "3.8 - 3.10"
     latest: "4.0.10"
-    latestDate: 2023-02-14
+    latestReleaseDate: 2023-02-14
 
   - releaseCycle: "3.2"
     lts: true
@@ -120,7 +120,7 @@ releases:
     eol: 2024-04-01
     latest: "3.2.25"
     supportedPythonVersions: "3.6 - 3.10 (added in 3.2.9)"
-    latestDate: 2024-03-04
+    latestReleaseDate: 2024-03-04
 
   - releaseCycle: "3.1"
     releaseDate: 2020-08-04
@@ -128,7 +128,7 @@ releases:
     eol: 2021-12-07
     supportedPythonVersions: "3.6 - 3.9 (added in 3.1.3)"
     latest: "3.1.14"
-    latestDate: 2021-12-07
+    latestReleaseDate: 2021-12-07
 
   - releaseCycle: "3.0"
     releaseDate: 2019-12-02
@@ -136,7 +136,7 @@ releases:
     eol: 2021-04-06
     supportedPythonVersions: "3.6 - 3.9 (added in 3.0.11)"
     latest: "3.0.14"
-    latestDate: 2021-04-06
+    latestReleaseDate: 2021-04-06
 
   - releaseCycle: "2.2"
     lts: true
@@ -145,7 +145,7 @@ releases:
     eol: 2022-04-11
     supportedPythonVersions: "3.5 - 3.9 (added in 2.2.17)"
     latest: "2.2.28"
-    latestDate: 2022-04-11
+    latestReleaseDate: 2022-04-11
 
   - releaseCycle: "2.1"
     releaseDate: 2018-08-01
@@ -153,7 +153,7 @@ releases:
     eol: 2019-12-02
     supportedPythonVersions: "3.5 - 3.7"
     latest: "2.1.15"
-    latestDate: 2019-12-02
+    latestReleaseDate: 2019-12-02
 
   - releaseCycle: "2.0"
     releaseDate: 2017-12-02
@@ -161,7 +161,7 @@ releases:
     eol: 2019-04-01
     supportedPythonVersions: "3.4 - 3.7"
     latest: "2.0.13"
-    latestDate: 2019-02-12
+    latestReleaseDate: 2019-02-12
 
   - releaseCycle: "1.11"
     lts: true
@@ -170,7 +170,7 @@ releases:
     eol: 2020-04-01
     supportedPythonVersions: "2.7 - 3.7 (added in 1.11.17)"
     latest: "1.11.29"
-    latestDate: 2020-03-04
+    latestReleaseDate: 2020-03-04
 
   - releaseCycle: "1.10"
     releaseDate: 2016-08-01
@@ -178,7 +178,7 @@ releases:
     eol: 2017-12-02
     supportedPythonVersions: "2.7, 3.4 - 3.5"
     latest: "1.10.8"
-    latestDate: 2017-09-05
+    latestReleaseDate: 2017-09-05
 
   - releaseCycle: "1.9"
     releaseDate: 2015-12-01
@@ -186,8 +186,8 @@ releases:
     eol: 2017-04-04
     supportedPythonVersions: "2.7, 3.4 - 3.5"
     latest: "1.9.13"
-    latestDate: 2017-04-04
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2017-04-04
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.8"
     releaseDate: 2015-04-01
@@ -195,8 +195,8 @@ releases:
     eol: 2018-04-01
     supportedPythonVersions: "2.7, 3.2 - 3.5"
     latest: "1.8.19"
-    latestDate: 2018-03-06
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2018-03-06
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.7"
     releaseDate: 2014-09-03
@@ -204,8 +204,8 @@ releases:
     eol: 2015-12-01
     supportedPythonVersions: "2.7, 3.2 - 3.4"
     latest: "1.7.11"
-    latestDate: 2015-11-24
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2015-11-24
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.6"
     releaseDate: 2013-11-06
@@ -213,8 +213,8 @@ releases:
     eol: 2015-04-01
     supportedPythonVersions: "2.6 - 2.7, 3.2 - 3.3"
     latest: "1.6.11"
-    latestDate: 2015-03-18
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2015-03-18
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.5"
     releaseDate: 2013-02-26
@@ -222,8 +222,8 @@ releases:
     eol: 2014-09-02
     supportedPythonVersions: "2.6 - 2.7, 3.2"
     latest: "1.5.12"
-    latestDate: 2015-01-02
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2015-01-02
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.4"
     releaseDate: 2012-03-23
@@ -231,8 +231,8 @@ releases:
     eol: 2015-10-01
     supportedPythonVersions: "2.5 - 2.7"
     latest: "1.4.22"
-    latestDate: 2015-08-18
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2015-08-18
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
   - releaseCycle: "1.3"
     releaseDate: 2011-03-23
@@ -240,8 +240,8 @@ releases:
     eol: 2013-02-26
     supportedPythonVersions: "2.4 - 2.5"
     latest: "1.3.7"
-    latestDate: 2013-02-21
-    latestLink: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
+    latestReleaseDate: 2013-02-21
+    link: https://docs.djangoproject.com/en/5.2/releases/__LATEST__/
 
 ---
 

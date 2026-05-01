@@ -7,7 +7,7 @@ iconSlug: freebsd
 permalink: /freebsd
 versionCommand: freebsd-version
 releasePolicyLink: https://www.freebsd.org/security/#sup
-latestLinkTemplate: https://www.freebsd.org/releases/__RELEASE_CYCLE__R/relnotes/
+changelogTemplate: https://www.freebsd.org/releases/__RELEASE_CYCLE__R/relnotes/
 latestColumn: false
 
 identifiers:
@@ -41,7 +41,7 @@ releases:
     releaseLabel: "stable/15"
     releaseDate: 2025-12-02
     eol: 2029-12-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "15.0"
     releaseLabel: "releng/15.0"
@@ -87,7 +87,7 @@ releases:
     releaseLabel: "stable/14"
     releaseDate: 2023-11-20
     eol: 2028-11-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "13.2"
     releaseLabel: "releng/13.2"
@@ -118,7 +118,7 @@ releases:
     releaseLabel: "stable/13"
     releaseDate: 2021-04-13
     eol: 2026-04-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "12.2"
     releaseLabel: "releng/12.2"
@@ -149,7 +149,7 @@ releases:
     releaseLabel: "stable/12"
     releaseDate: 2018-12-11
     eol: 2023-12-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "11.2"
     releaseLabel: "releng/11.2"
@@ -175,7 +175,7 @@ releases:
     releaseLabel: "stable/11"
     releaseDate: 2016-10-10
     eol: 2021-09-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "10.3"
     releaseLabel: "releng/10.3"
@@ -206,7 +206,7 @@ releases:
     releaseLabel: "stable/10"
     releaseDate: 2014-01-20
     eol: 2018-10-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "9.2"
     releaseLabel: "releng/9.2"
@@ -237,7 +237,7 @@ releases:
     releaseLabel: "stable/9"
     releaseDate: 2012-01-10
     eol: 2016-12-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "7.4"
     releaseLabel: "releng/7.4"
@@ -268,7 +268,7 @@ releases:
     releaseLabel: "stable/8"
     releaseDate: 2009-11-25
     eol: 2015-08-01
-    latestLink: null
+    link: null
 
   - releaseCycle: "7.2"
     releaseLabel: "releng/7.2"
@@ -294,7 +294,7 @@ releases:
     releaseLabel: "stable/7"
     releaseDate: 2008-02-27
     eol: 2013-02-28
-    latestLink: null
+    link: null
 
   - releaseCycle: "6.3"
     releaseLabel: "releng/6.3"
@@ -325,7 +325,7 @@ releases:
     releaseLabel: "stable/6"
     releaseDate: 2005-11-04
     eol: 2010-11-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "5.4"
     releaseLabel: "releng/5.4"
@@ -376,7 +376,7 @@ releases:
     releaseLabel: "stable/5"
     releaseDate: 2003-01-14
     eol: 2008-05-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.7"
     releaseLabel: "releng/4.7"
@@ -392,109 +392,109 @@ releases:
     releaseLabel: "releng/4.5"
     releaseDate: 2002-01-29
     eol: 2002-09-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.4"
     releaseLabel: "releng/4.4"
     releaseDate: 2001-09-20
     eol: 2002-04-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.3"
     releaseLabel: "releng/4.3"
     releaseDate: 2001-04-20
     eol: 2001-12-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.2"
     releaseLabel: "releng/4.2"
     releaseDate: 2000-11-21
     eol: 2001-07-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.1"
     releaseLabel: "releng/4.1"
     releaseDate: 2000-07-27
     eol: 2001-02-28
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.5"
     releaseLabel: releng/3.5
     releaseDate: 2000-06-30
     eol: 2001-06-30 # unknown, assumed to be 1 year after release
-    latestLink: null
+    link: null
 
   - releaseCycle: "4.0"
     releaseLabel: "releng/4.0"
     releaseDate: 2000-03-14
     eol: 2000-10-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "4"
     releaseLabel: "stable/4"
     releaseDate: 2000-03-14
     eol: 2007-01-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.4"
     releaseLabel: releng/3.4
     releaseDate: 1999-12-31
     eol: 2000-09-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.3"
     releaseLabel: releng/3.3
     releaseDate: 1999-09-30
     eol: 2000-02-29
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.2"
     releaseLabel: releng/3.2
     releaseDate: 1999-05-31
     eol: 1999-12-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.1"
     releaseLabel: releng/3.1
     releaseDate: 1999-02-28
     eol: 1999-08-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "3.0"
     releaseLabel: releng/3.0
     releaseDate: 1998-10-16
     eol: 1999-05-31
-    latestLink: null
+    link: null
 
   - releaseCycle: "2.2"
     releaseLabel: releng/2.2
     releaseDate: 1997-03-31
     eol: 1998-03-31 # unknown, assumed to be 1 year after release
-    latestLink: null
+    link: null
 
   - releaseCycle: "2.1"
     releaseLabel: releng/2.1
     releaseDate: 1995-11-30
     eol: 1997-06-30
-    latestLink: null
+    link: null
 
   - releaseCycle: "2.0"
     releaseLabel: releng/2.0
     releaseDate: 1994-11-22
     eol: 1996-02-28
-    latestLink: null
+    link: null
 
   - releaseCycle: "1.1"
     releaseLabel: releng/1.1
     releaseDate: 1994-05-31
     eol: 1995-05-31 # unknown, assumed to be 1 year after release
-    latestLink: null
+    link: null
 
   - releaseCycle: "1.0"
     releaseLabel: releng/1.0
     releaseDate: 1993-11-30
     eol: 1994-08-31
-    latestLink: null
+    link: null
 ---
 
 > [FreeBSD](https://www.freebsd.org) is an operating system used to power modern servers, desktops,

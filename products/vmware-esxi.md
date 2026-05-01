@@ -29,73 +29,73 @@ releases:
     eol: false
     technicalGuidance: 2032-06-17 # no source, calculated releaseDate(x)+7y
     latest: "9.0.2.0"
-    latestDate: 2026-01-20
-    latestLink: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
+    latestReleaseDate: 2026-01-20
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
     latest: "8.0 Update 3i"
-    latestDate: 2026-02-24
-    latestLink: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3i-release-notes.html
+    latestReleaseDate: 2026-02-24
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3i-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02
     eol: 2025-10-02
     technicalGuidance: 2027-04-02
     latest: "7.0 Update 3w"
-    latestDate: 2025-07-15
-    latestLink: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3w-release-notes.html
+    latestReleaseDate: 2025-07-15
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3w-release-notes.html
 
   - releaseCycle: "6.7"
     releaseDate: 2018-04-17
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
     latest: "6.7 Update 3w"
-    latestDate: 2024-10-28
-    latestLink: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-7/release-notes/vcenter-server-update-and-patch-releases.html
+    latestReleaseDate: 2024-10-28
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-7/release-notes/vcenter-server-update-and-patch-releases.html
 
   - releaseCycle: "6.5"
     releaseDate: 2016-11-15
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
     latest: "6.5 ESXi650-202403001"
-    latestDate: 2024-03-05
-    latestLink: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-5/release-notes.html
+    latestReleaseDate: 2024-03-05
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-5/release-notes.html
 
   - releaseCycle: "6.0"
     releaseDate: 2015-03-12
     eol: 2020-03-12
     technicalGuidance: 2022-03-12
     latest: "6.0 EP 25"
-    latestDate: 2020-02-20
-    latestLink: https://web.archive.org/web/20220710112255/https://docs.vmware.com/en/VMware-vSphere/6.0/rn/esxi600-202002001.html
+    latestReleaseDate: 2020-02-20
+    link: https://web.archive.org/web/20220710112255/https://docs.vmware.com/en/VMware-vSphere/6.0/rn/esxi600-202002001.html
 
   - releaseCycle: "5.5"
     releaseDate: 2013-09-19
     eol: 2018-09-19
     technicalGuidance: 2020-09-19
     latest: "5.5 Update 3k"
-    latestDate: 2018-09-14
-    # old latestLink: http://kb.vmware.com/kb/57478
-    latestLink: https://www.findbugzero.com/operational-defect-database/vendors/vmware/defects/57478
+    latestReleaseDate: 2018-09-14
+    # old link: http://kb.vmware.com/kb/57478
+    link: https://www.findbugzero.com/operational-defect-database/vendors/vmware/defects/57478
 
   - releaseCycle: "5.1"
     releaseDate: 2012-08-27
     eol: 2016-08-24
     technicalGuidance: 2018-08-24
     latest: "5.1 Update 3d"
-    latestDate: 2016-05-24
-    latestLink: https://web.archive.org/web/20190923124908/http://pubs.vmware.com/Release_Notes/en/vsphere/51/vsphere-vcenter-server-51u3d-release-notes.html
+    latestReleaseDate: 2016-05-24
+    link: https://web.archive.org/web/20190923124908/http://pubs.vmware.com/Release_Notes/en/vsphere/51/vsphere-vcenter-server-51u3d-release-notes.html
 
   - releaseCycle: "5.0"
     releaseDate: 2011-07-12
     eol: 2016-08-24
     technicalGuidance: 2018-08-24
     latest: "5.0 Update 3g"
-    latestDate: 2016-06-14
-    latestLink: https://web.archive.org/web/20190923125449/https://pubs.vmware.com/Release_Notes/en/vsphere/50/vsp_vc50_u3g_rel_notes.html
+    latestReleaseDate: 2016-06-14
+    link: https://web.archive.org/web/20190923125449/https://pubs.vmware.com/Release_Notes/en/vsphere/50/vsp_vc50_u3g_rel_notes.html
 ---
 
 > [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that

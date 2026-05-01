@@ -8,7 +8,7 @@ alternate_urls:
   - /sqlite3
 versionCommand: sqlite3 --version
 releasePolicyLink: https://www.sqlite.org/support.html
-latestLinkTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
+changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
 eolColumn: Support Status
 
 identifiers:
@@ -30,20 +30,20 @@ releases:
     releaseDate: 2004-09-18
     eol: false
     latest: "3.53.0"
-    latestDate: 2026-04-09
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "2"
     releaseDate: 2001-09-28
     # 3.0.7 release date, because it is the first stable release in the 3.x line
     eol: 2004-09-18
     latest: "2.8.17"
-    latestDate: 2005-12-19
+    latestReleaseDate: 2005-12-19
 
   - releaseCycle: "1"
     releaseDate: 2000-08-17
     eol: 2001-09-28
     latest: "1.0.32"
-    latestDate: 2001-07-23
+    latestReleaseDate: 2001-07-23
 
 ---
 

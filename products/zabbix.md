@@ -6,7 +6,7 @@ tags: php-runtime
 permalink: /zabbix
 versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
-latestLinkTemplate: https://www.zabbix.com/rn/rn__LATEST__
+changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
 eoasColumn: true
 eolColumn: Security Support
 
@@ -28,14 +28,14 @@ releases:
     eoas: false # until 8.0 LTS
     eol: 2026-09-30 # Q3 2026
     latest: "7.4.9"
-    latestDate: 2026-04-08
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "7.2"
     releaseDate: 2024-12-10
     eoas: 2025-06-30
     eol: 2025-12-31
     latest: "7.2.15"
-    latestDate: 2025-12-17
+    latestReleaseDate: 2025-12-17
 
   - releaseCycle: "7.0"
     lts: true
@@ -43,21 +43,21 @@ releases:
     eoas: 2027-06-30
     eol: 2029-06-30
     latest: "7.0.25"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "6.4"
     releaseDate: 2023-03-06
     eoas: 2024-06-30
     eol: 2024-12-31
     latest: "6.4.21"
-    latestDate: 2025-01-27
+    latestReleaseDate: 2025-01-27
 
   - releaseCycle: "6.2"
     releaseDate: 2022-07-04
     eoas: 2023-01-31
     eol: 2023-02-28
     latest: "6.2.9"
-    latestDate: 2023-03-27
+    latestReleaseDate: 2023-03-27
 
   - releaseCycle: "6.0"
     lts: true
@@ -65,14 +65,14 @@ releases:
     eoas: 2025-02-28
     eol: 2027-02-28
     latest: "6.0.45"
-    latestDate: 2026-03-10
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "5.4"
     releaseDate: 2021-05-17
     eoas: 2022-02-28
     eol: 2022-03-31
     latest: "5.4.12"
-    latestDate: 2022-04-04
+    latestReleaseDate: 2022-04-04
 
   - releaseCycle: "5.0"
     lts: true
@@ -80,7 +80,7 @@ releases:
     eoas: 2023-05-31
     eol: 2025-05-31
     latest: "5.0.47"
-    latestDate: 2025-05-20
+    latestReleaseDate: 2025-05-20
 
   - releaseCycle: "4.0"
     lts: true
@@ -88,7 +88,7 @@ releases:
     eoas: 2021-10-31
     eol: 2023-10-31
     latest: "4.0.50"
-    latestDate: 2023-10-30
+    latestReleaseDate: 2023-10-30
 
 ---
 

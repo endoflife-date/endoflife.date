@@ -8,7 +8,7 @@ alternate_urls:
   - /phoenix
   - /phoenixframework
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
-latestLinkTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 eoasColumn: Bug Fixes
 staleReleaseThresholdDays: 1500 # https://github.com/phoenixframework/phoenix/security
 
@@ -28,63 +28,63 @@ releases:
     eoas: false # releaseDate(1.9)
     eol: false # releaseDate(1.12)
     latest: "1.8.5"
-    latestDate: 2026-03-05
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "1.7"
     releaseDate: 2023-02-24
     eoas: 2025-08-05
     eol: false # releaseDate(1.11)
     latest: "1.7.21"
-    latestDate: 2025-03-27
+    latestReleaseDate: 2025-03-27
 
   - releaseCycle: "1.6"
     releaseDate: 2021-08-26
     eoas: 2023-02-24
     eol: false # releaseDate(1.10)
     latest: "1.6.16"
-    latestDate: 2023-02-17
+    latestReleaseDate: 2023-02-17
 
   - releaseCycle: "1.5"
     releaseDate: 2020-04-22
     eoas: 2021-08-26
     eol: false # releaseDate(1.9)
     latest: "1.5.14"
-    latestDate: 2022-10-10
+    latestReleaseDate: 2022-10-10
 
   - releaseCycle: "1.4"
     releaseDate: 2018-11-07
     eoas: 2020-04-22
     eol: 2025-08-05
     latest: "1.4.18"
-    latestDate: 2022-10-10
+    latestReleaseDate: 2022-10-10
 
   - releaseCycle: "1.3"
     releaseDate: 2017-07-28
     eoas: 2018-11-07
     eol: 2023-02-24
     latest: "1.3.5"
-    latestDate: 2022-10-10
+    latestReleaseDate: 2022-10-10
 
   - releaseCycle: "1.2"
     releaseDate: 2016-06-23
     eoas: 2017-07-28
     eol: 2017-07-28
     latest: "1.2.5"
-    latestDate: 2017-07-27
+    latestReleaseDate: 2017-07-27
 
   - releaseCycle: "1.1"
     releaseDate: 2015-12-16
     eoas: 2016-06-23
     eol: 2017-05-15
     latest: "1.1.9"
-    latestDate: 2017-05-15
+    latestReleaseDate: 2017-05-15
 
   - releaseCycle: "1.0"
     releaseDate: 2015-08-28
     eoas: 2015-12-16
     eol: 2017-03-14
     latest: "1.0.6"
-    latestDate: 2017-03-14
+    latestReleaseDate: 2017-03-14
 
 ---
 

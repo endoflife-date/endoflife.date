@@ -4,7 +4,7 @@ addedAt: 2022-10-17
 category: framework
 tags: php-runtime
 permalink: /twig
-latestLinkTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
+changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 
 auto:
   methods:
@@ -18,19 +18,19 @@ releases:
     releaseDate: 2019-11-15
     eol: false
     latest: "3.24.0"
-    latestDate: 2026-03-17
+    latestReleaseDate: 2026-03-17
 
   - releaseCycle: "2"
     releaseDate: 2017-01-05
     eol: 2023-12-31 # https://symfony.com/blog/twig-2-end-of-life
     latest: "2.16.1"
-    latestDate: 2024-09-09
+    latestReleaseDate: 2024-09-09
 
   - releaseCycle: "1"
     releaseDate: 2011-03-27
     eol: 2022-09-28
     latest: "1.44.8"
-    latestDate: 2024-09-09
+    latestReleaseDate: 2024-09-09
 
 ---
 

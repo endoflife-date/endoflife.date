@@ -8,7 +8,7 @@ alternate_urls:
   - /yocto-project
 versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
-latestLinkTemplate: https://docs.yoctoproject.org/migration-guides/migration-__RELEASE_CYCLE__.html
+changelogTemplate: https://docs.yoctoproject.org/migration-guides/migration-__RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Support Status
 
@@ -29,21 +29,21 @@ releases:
     releaseDate: 2025-12-15
     eol: 2026-06-15
     latest: "5.3"
-    latestDate: 2025-12-15
+    latestReleaseDate: 2025-12-15
 
   - releaseCycle: "5.2"
     codename: "Walnascar"
     releaseDate: 2025-05-07
     eol: 2025-12-07
     latest: "5.2.4"
-    latestDate: 2025-10-14
+    latestReleaseDate: 2025-10-14
 
   - releaseCycle: "5.1"
     codename: "Styhead"
     releaseDate: 2024-10-16
     eol: 2025-05-16
     latest: "5.1.4"
-    latestDate: 2025-04-01
+    latestReleaseDate: 2025-04-01
 
   - releaseCycle: "5.0"
     codename: "Scarthgap"
@@ -51,28 +51,28 @@ releases:
     releaseDate: 2024-04-29
     eol: 2028-04-30
     latest: "5.0.17"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "4.3"
     codename: "Nanbield"
     releaseDate: 2023-11-09
     eol: 2024-06-09
     latest: "4.3.4"
-    latestDate: 2024-04-09
+    latestReleaseDate: 2024-04-09
 
   - releaseCycle: "4.2"
     codename: "Mickledore"
     releaseDate: 2023-05-03
     eol: 2023-11-05
     latest: "4.2.4"
-    latestDate: 2023-12-07
+    latestReleaseDate: 2023-12-07
 
   - releaseCycle: "4.1"
     codename: "Langdale"
     releaseDate: 2022-10-23
     eol: 2023-05-27
     latest: "4.1.4"
-    latestDate: 2023-05-11
+    latestReleaseDate: 2023-05-11
 
   - releaseCycle: "4.0"
     codename: "Kirkstone"
@@ -80,28 +80,28 @@ releases:
     releaseDate: 2022-04-25
     eol: 2026-04-27
     latest: "4.0.35"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "3.4"
     codename: "Honister"
     releaseDate: 2021-10-25
     eol: 2022-05-01
     latest: "3.4.4"
-    latestDate: 2022-05-12
+    latestReleaseDate: 2022-05-12
 
   - releaseCycle: "3.3"
     codename: "Hardknott"
     releaseDate: 2021-04-19
     eol: 2022-04-20
     latest: "3.3.6"
-    latestDate: 2022-04-27
+    latestReleaseDate: 2022-04-27
 
   - releaseCycle: "3.2"
     codename: "Gatesgarth"
     releaseDate: 2020-11-03
     eol: 2021-05-01
     latest: "3.2.4"
-    latestDate: 2021-05-17
+    latestReleaseDate: 2021-05-17
 
   - releaseCycle: "3.1"
     codename: "Dunfell"
@@ -109,21 +109,21 @@ releases:
     releaseDate: 2020-04-21
     eol: 2024-04-30
     latest: "3.1.33"
-    latestDate: 2024-05-03
+    latestReleaseDate: 2024-05-03
 
   - releaseCycle: "3.0"
     codename: "Zeus"
     releaseDate: 2019-10-22
     eol: 2020-08-01
     latest: "3.0.4"
-    latestDate: 2020-08-20
+    latestReleaseDate: 2020-08-20
 
   - releaseCycle: "2.7"
     codename: "Warrior"
     releaseDate: 2019-05-01
     eol: 2020-06-01
     latest: "2.7.4"
-    latestDate: 2020-06-02
+    latestReleaseDate: 2020-06-02
 
 ---
 

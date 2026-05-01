@@ -7,7 +7,7 @@ iconSlug: apacheant
 permalink: /ant
 alternate_urls:
   - /apache-ant
-latestLinkTemplate: https://ant.apache.org/antnews.html
+changelogTemplate: https://ant.apache.org/antnews.html
 versionCommand: ant -version
 
 identifiers:
@@ -30,19 +30,19 @@ releases:
     releaseDate: 2016-12-27
     eol: false
     latest: "1.10.17"
-    latestDate: 2026-04-06
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "1.9"
     releaseDate: 2013-03-07
     eol: 2024-06-19
     latest: "1.9.16"
-    latestDate: 2021-07-10
+    latestReleaseDate: 2021-07-10
 
   - releaseCycle: "1.8"
     releaseDate: 2010-02-02
     eol: 2013-03-07 # no announcement, using 1.9 release date
     latest: "1.8.4"
-    latestDate: 2012-05-22
+    latestReleaseDate: 2012-05-22
 
 ---
 

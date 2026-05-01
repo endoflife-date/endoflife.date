@@ -9,7 +9,7 @@ alternate_urls:
   - /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-latestLinkTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
+changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 eolColumn: Support Status
 
 identifiers:
@@ -61,39 +61,39 @@ releases:
     lts: true
     eol: 2028-11-14
     latest: "10.0.7"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-11-10
     latest: "9.0.15"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
     latest: "8.0.26"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "7"
     releaseDate: 2022-11-08
     eol: 2024-05-14
     latest: "7.0.20"
-    latestDate: 2024-05-29
+    latestReleaseDate: 2024-05-29
 
   - releaseCycle: "6"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
     latest: "6.0.36"
-    latestDate: 2024-11-12
+    latestReleaseDate: 2024-11-12
 
   - releaseCycle: "5"
     releaseDate: 2020-11-10
     eol: 2022-05-10
     latest: "5.0.17"
-    latestDate: 2022-05-10
+    latestReleaseDate: 2022-05-10
 
   - releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
@@ -101,21 +101,21 @@ releases:
     lts: true
     eol: 2022-12-13
     latest: "3.1.32"
-    latestDate: 2022-12-13
+    latestReleaseDate: 2022-12-13
 
   - releaseCycle: "3.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2019-09-23
     eol: 2020-03-03
     latest: "3.0.3"
-    latestDate: 2020-02-19
+    latestReleaseDate: 2020-02-19
 
   - releaseCycle: "2.2"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2018-12-04
     eol: 2019-12-23
     latest: "2.2.8"
-    latestDate: 2019-11-19
+    latestReleaseDate: 2019-11-19
 
   - releaseCycle: "2.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
@@ -123,29 +123,29 @@ releases:
     lts: true
     eol: 2021-08-21
     latest: "2.1.30"
-    latestDate: 2021-08-19
+    latestReleaseDate: 2021-08-19
 
   - releaseCycle: "2.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2017-08-14
     eol: 2018-10-01
     latest: "2.0.9"
-    latestDate: 2018-07-10
-    latestLink: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
+    latestReleaseDate: 2018-07-10
+    link: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
 
   - releaseCycle: "1.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2016-11-16
     eol: 2019-06-27
     latest: "1.1.13"
-    latestDate: 2019-05-15
+    latestReleaseDate: 2019-05-15
 
   - releaseCycle: "1.0"
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2016-06-27
     eol: 2019-06-27
     latest: "1.0.16"
-    latestDate: 2019-05-15
+    latestReleaseDate: 2019-05-15
 
 ---
 

@@ -9,7 +9,7 @@ alternate_urls:
   - /scala-lang
 versionCommand: scalac -version
 releasePolicyLink: https://www.scala-lang.org/download/all.html
-latestLinkTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
+changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
 
@@ -32,35 +32,35 @@ releases:
     eoas: false
     eol: false
     latest: "3.8.3"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "3.7"
     releaseDate: 2025-05-07
     eoas: 2026-01-22
     eol: 2026-01-22
     latest: "3.7.4"
-    latestDate: 2025-11-11
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "3.6"
     releaseDate: 2024-12-10
     eoas: 2025-05-07
     eol: 2025-05-07
     latest: "3.6.4"
-    latestDate: 2025-03-07
+    latestReleaseDate: 2025-03-07
 
   - releaseCycle: "3.5"
     releaseDate: 2024-08-22
     eoas: 2024-12-10
     eol: 2024-12-10
     latest: "3.5.2"
-    latestDate: 2024-10-22
+    latestReleaseDate: 2024-10-22
 
   - releaseCycle: "3.4"
     releaseDate: 2024-02-14
     eoas: 2024-08-22
     eol: 2024-08-22
     latest: "3.4.3"
-    latestDate: 2024-08-23
+    latestReleaseDate: 2024-08-23
 
   - releaseCycle: "3.3"
     lts: true
@@ -68,36 +68,36 @@ releases:
     eoas: false
     eol: false
     latest: "3.3.7"
-    latestDate: 2025-10-13
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "3.2"
     releaseDate: 2022-08-31
     eoas: 2023-05-23
     eol: 2023-05-23
     latest: "3.2.2"
-    latestDate: 2023-01-30
+    latestReleaseDate: 2023-01-30
 
   - releaseCycle: "3.1"
     releaseDate: 2021-10-18
     eoas: 2022-09-01
     eol: 2022-09-01
     latest: "3.1.3"
-    latestDate: 2022-06-21
+    latestReleaseDate: 2022-06-21
 
   - releaseCycle: "3.0"
     releaseDate: 2021-05-13
     eoas: 2021-10-18
     eol: 2021-10-18
     latest: "3.0.2"
-    latestDate: 2021-09-01
+    latestReleaseDate: 2021-09-01
 
   - releaseCycle: "2.13"
     releaseDate: 2019-06-07
     eoas: false
     eol: false
     latest: "2.13.18"
-    latestDate: 2025-11-17
-    latestLink: https://github.com/scala/scala/releases/tag/v__LATEST__
+    latestReleaseDate: 2025-11-17
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.12"
     staleReleaseThresholdDays: 730 # still listed on https://www.scala-lang.org/download/all.html
@@ -105,8 +105,8 @@ releases:
     eoas: 2019-06-07
     eol: false
     latest: "2.12.21"
-    latestDate: 2025-12-08
-    latestLink: https://github.com/scala/scala/releases/tag/v__LATEST__
+    latestReleaseDate: 2025-12-08
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.11"
     staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
@@ -114,8 +114,8 @@ releases:
     eoas: 2016-11-03
     eol: false
     latest: "2.11.12"
-    latestDate: 2017-11-09
-    latestLink: https://github.com/scala/scala/releases/tag/v__LATEST__
+    latestReleaseDate: 2017-11-09
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
   - releaseCycle: "2.10"
     staleReleaseThresholdDays: 3285 # still listed on https://www.scala-lang.org/download/all.html
@@ -123,8 +123,8 @@ releases:
     eoas: 2014-04-17
     eol: false
     latest: "2.10.7"
-    latestDate: 2017-11-09
-    latestLink: https://github.com/scala/scala/releases/tag/v__LATEST__
+    latestReleaseDate: 2017-11-09
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 ---
 

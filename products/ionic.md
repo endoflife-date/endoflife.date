@@ -8,7 +8,7 @@ permalink: /ionic
 alternate_urls:
   - /ionic-framework
 releasePolicyLink: https://ionicframework.com/docs/reference/support
-latestLinkTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 eoasColumn: true
 eolColumn: Maintenance
 eoesColumn: true
@@ -18,22 +18,22 @@ customFields:
     display: api-only
     label: Min. Angular
     description: Minimum required Angular version
-    latestLink: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
   - name: maxAngularVersion
     display: api-only
     label: Max Angular
     description: Maximum required Angular version
-    latestLink: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
   - name: supportedReactVersions
     display: api-only
     label: React
     description: Supported React versions
-    latestLink: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
   - name: supportedVueVersions
     display: api-only
     label: Vue
     description: Supported Vue versions
-    latestLink: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
 
 identifiers:
   - purl: pkg:github/ionic-team/ionic-framework
@@ -73,7 +73,7 @@ releases:
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
     latest: "8.8.5"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "7"
     releaseDate: 2023-03-29
@@ -85,7 +85,7 @@ releases:
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
     latest: "7.8.6"
-    latestDate: 2024-04-24
+    latestReleaseDate: 2024-04-24
 
   - releaseCycle: "6"
     releaseDate: 2021-12-08
@@ -97,7 +97,7 @@ releases:
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
     latest: "6.7.5"
-    latestDate: 2023-06-08
+    latestReleaseDate: 2023-06-08
 
   - releaseCycle: "5"
     releaseDate: 2020-02-11
@@ -109,7 +109,7 @@ releases:
     supportedReactVersions: v16.8+
     supportedVueVersions: v3.0+
     latest: "5.9.4"
-    latestDate: 2022-04-27
+    latestReleaseDate: 2022-04-27
 
   - releaseCycle: "4"
     releaseDate: 2019-01-23
@@ -121,7 +121,7 @@ releases:
     supportedReactVersions: v16.8+
     supportedVueVersions: N/A
     latest: "4.11.13"
-    latestDate: 2020-10-01
+    latestReleaseDate: 2020-10-01
 
   - releaseCycle: "3"
     releaseDate: 2017-04-05
@@ -133,7 +133,7 @@ releases:
     supportedReactVersions: N/A
     supportedVueVersions: N/A
     latest: "3.9.3"
-    latestDate: 2019-01-14
+    latestReleaseDate: 2019-01-14
 
   - releaseCycle: "2"
     releaseDate: 2017-01-24
@@ -145,7 +145,7 @@ releases:
     supportedReactVersions: N/A
     supportedVueVersions: N/A
     latest: "2.3.0"
-    latestDate: 2017-03-17
+    latestReleaseDate: 2017-03-17
 
   - releaseCycle: "1"
     releaseDate: 2015-05-12
@@ -157,7 +157,7 @@ releases:
     supportedReactVersions: N/A
     supportedVueVersions: N/A
     latest: "1.3.2"
-    latestDate: 2016-10-24
+    latestReleaseDate: 2016-10-24
 
 ---
 

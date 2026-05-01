@@ -6,7 +6,7 @@ permalink: /ldap-account-manager
 alternate_urls:
   - /lam
   - /ldapaccountmanager
-latestLinkTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
+changelogTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
 
 identifiers:
   - repology: ldap-account-manager
@@ -25,67 +25,67 @@ releases:
     releaseDate: 2026-03-17
     eol: false
     latest: "9.5.2"
-    latestDate: 2026-04-01
+    latestReleaseDate: 2026-04-01
 
   - releaseCycle: "9.4"
     releaseDate: 2025-12-13
     eol: 2026-03-17
     latest: "9.4"
-    latestDate: 2025-12-13
+    latestReleaseDate: 2025-12-13
 
   - releaseCycle: "9.3"
     releaseDate: 2025-09-15
     eol: 2025-12-13
     latest: "9.3"
-    latestDate: 2025-09-15
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "9.2"
     releaseDate: 2025-06-06
     eol: 2025-09-15
     latest: "9.2"
-    latestDate: 2025-06-06
+    latestReleaseDate: 2025-06-06
 
   - releaseCycle: "9.1"
     releaseDate: 2025-03-13
     eol: 2025-06-06
     latest: "9.1"
-    latestDate: 2025-03-13
+    latestReleaseDate: 2025-03-13
 
   - releaseCycle: "9.0"
     releaseDate: 2024-12-17
     eol: 2025-03-13
     latest: "9.0"
-    latestDate: 2024-12-17
+    latestReleaseDate: 2024-12-17
 
   - releaseCycle: "8.9"
     releaseDate: 2024-09-24
     eol: 2024-12-17
     latest: "8.9"
-    latestDate: 2024-09-24
+    latestReleaseDate: 2024-09-24
 
   - releaseCycle: "8.8"
     releaseDate: 2024-06-22
     eol: 2024-09-24
     latest: "8.8"
-    latestDate: 2024-06-22
+    latestReleaseDate: 2024-06-22
 
   - releaseCycle: "8.7"
     releaseDate: 2024-03-16
     eol: 2024-06-22
     latest: "8.7"
-    latestDate: 2024-03-16
+    latestReleaseDate: 2024-03-16
 
   - releaseCycle: "8.6"
     releaseDate: 2023-12-18
     eol: 2024-03-16
     latest: "8.6"
-    latestDate: 2023-12-18
+    latestReleaseDate: 2023-12-18
 
   - releaseCycle: "8.5"
     releaseDate: 2023-09-29
     eol: 2023-12-18
     latest: "8.5"
-    latestDate: 2023-09-29
+    latestReleaseDate: 2023-09-29
 
 ---
 

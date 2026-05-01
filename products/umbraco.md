@@ -8,7 +8,7 @@ permalink: /umbraco
 alternative_urls:
   - /umbraco-cms
 releasePolicyLink: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
-latestLinkTemplate: "https://our.umbraco.com/download/releases/{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://our.umbraco.com/download/releases/{{'__LATEST__'|replace:'.',''}}"
 eoasColumn: Support
 eolColumn: Security
 
@@ -42,28 +42,28 @@ releases:
     eoas: 2027-11-27
     eol: 2028-11-27
     latest: "17.3.5"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "16"
     releaseDate: 2025-06-12
     eoas: 2026-03-12
     eol: 2026-06-12
     latest: "16.5.1"
-    latestDate: 2026-03-10
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "15"
     releaseDate: 2024-11-14
     eoas: 2025-08-14
     eol: 2025-11-14
     latest: "15.4.4"
-    latestDate: 2025-07-29
+    latestReleaseDate: 2025-07-29
 
   - releaseCycle: "14"
     releaseDate: 2024-05-30
     eoas: 2025-03-02
     eol: 2025-05-30
     latest: "14.3.4"
-    latestDate: 2025-04-08
+    latestReleaseDate: 2025-04-08
 
   - releaseCycle: "13"
     lts: true
@@ -71,21 +71,21 @@ releases:
     eoas: 2025-12-14
     eol: 2026-12-14
     latest: "13.14.0"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "12"
     releaseDate: 2023-06-29
     eoas: 2024-03-29
     eol: 2024-06-29
     latest: "12.3.10"
-    latestDate: 2024-05-17
+    latestReleaseDate: 2024-05-17
 
   - releaseCycle: "11"
     releaseDate: 2022-12-01
     eoas: 2023-09-01
     eol: 2023-12-01
     latest: "11.5.0"
-    latestDate: 2023-09-05
+    latestReleaseDate: 2023-09-05
 
   - releaseCycle: "10"
     lts: true
@@ -93,14 +93,14 @@ releases:
     eoas: 2024-06-16
     eol: 2025-06-16
     latest: "10.8.11"
-    latestDate: 2025-06-24
+    latestReleaseDate: 2025-06-24
 
   - releaseCycle: "9"
     releaseDate: 2021-09-29
     eoas: 2022-09-16
     eol: 2022-12-16
     latest: "9.5.4"
-    latestDate: 2022-09-05
+    latestReleaseDate: 2022-09-05
 
   # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-8-end-of-life-eol/
   - releaseCycle: "8"
@@ -109,7 +109,7 @@ releases:
     eoas: 2024-02-24
     eol: 2025-02-24
     latest: "8.18.15"
-    latestDate: 2024-10-21
+    latestReleaseDate: 2024-10-21
 
   # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-7-end-of-life-eol/
   - releaseCycle: "7"
@@ -118,7 +118,7 @@ releases:
     eoas: 2021-07-31
     eol: 2023-09-30
     latest: "7.15.11"
-    latestDate: 2023-09-05
+    latestReleaseDate: 2023-09-05
 
   - releaseCycle: "6"
     # https://umbraco.com/blog/umbraco-600-released/
@@ -126,8 +126,8 @@ releases:
     eoas: 2018-05-01
     eol: 2018-05-01
     latest: "6.2.6"
-    latestDate: 2016-03-03
-    latestLink: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-6-end-of-life-eol/
+    latestReleaseDate: 2016-03-03
+    link: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-6-end-of-life-eol/
 
 ---
 

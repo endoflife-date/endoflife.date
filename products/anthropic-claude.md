@@ -8,7 +8,7 @@ permalink: /claude
 alternate_urls:
   - /anthropic-claude
 releasePolicyLink: https://platform.claude.com/docs/en/about-claude/model-deprecations
-latestLinkTemplate: https://www.anthropic.com/news/__RELEASE_CYCLE__
+changelogTemplate: https://www.anthropic.com/news/__RELEASE_CYCLE__
 eoasColumn: Active support
 eolColumn: Deprecated support
 latestColumn: false
@@ -18,7 +18,7 @@ customFields:
     display: after-latest-column
     label: Recommended replacement
     description: Replacement model from Anthropic deprecation history
-    latestLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
+    link: https://platform.claude.com/docs/en/about-claude/model-deprecations#deprecation-history
 
 auto:
   methods:
@@ -67,7 +67,7 @@ releases:
     eoas: false
     eol: 2026-11-24
     recommendedReplacement: "N/A"
-    latestLink: https://www.anthropic.com/news/claude-opus-4-5
+    link: https://www.anthropic.com/news/claude-opus-4-5
 
   - releaseCycle: "claude-haiku-4-5-20251001"
     releaseLabel: Claude Haiku 4.5
@@ -75,7 +75,7 @@ releases:
     eoas: false
     eol: 2026-10-15
     recommendedReplacement: "N/A"
-    latestLink: https://www.anthropic.com/news/claude-haiku-4-5
+    link: https://www.anthropic.com/news/claude-haiku-4-5
 
   - releaseCycle: "claude-sonnet-4-5-20250929"
     releaseLabel: Claude Sonnet 4.5
@@ -83,7 +83,7 @@ releases:
     eoas: false
     eol: 2026-09-29
     recommendedReplacement: "N/A"
-    latestLink: https://platform.claude.com/docs/en/about-claude/model-deprecations
+    link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
   - releaseCycle: "claude-opus-4-1-20250805"
     releaseLabel: Claude Opus 4.1
@@ -91,7 +91,7 @@ releases:
     eoas: false
     eol: 2026-08-05
     recommendedReplacement: "N/A"
-    latestLink: https://www.anthropic.com/news/claude-opus-4-1
+    link: https://www.anthropic.com/news/claude-opus-4-1
 
   - releaseCycle: "claude-sonnet-4-20250514"
     releaseLabel: Claude Sonnet 4
@@ -99,7 +99,7 @@ releases:
     eoas: 2026-04-14
     eol: 2026-06-15
     recommendedReplacement: "claude-sonnet-4-6"
-    latestLink: https://www.anthropic.com/news/claude-4
+    link: https://www.anthropic.com/news/claude-4
 
   - releaseCycle: "claude-opus-4-20250514"
     releaseLabel: Claude Opus 4
@@ -107,7 +107,7 @@ releases:
     eoas: 2026-04-14
     eol: 2026-06-15
     recommendedReplacement: "claude-opus-4-7"
-    latestLink: https://www.anthropic.com/news/claude-4
+    link: https://www.anthropic.com/news/claude-4
 
   - releaseCycle: "claude-3-7-sonnet-20250219"
     releaseLabel: Claude Sonnet 3.7
@@ -115,7 +115,7 @@ releases:
     eoas: 2025-10-28
     eol: 2026-02-19
     recommendedReplacement: "claude-sonnet-4-6"
-    latestLink: https://www.anthropic.com/news/claude-3-7-sonnet
+    link: https://www.anthropic.com/news/claude-3-7-sonnet
 
   - releaseCycle: "claude-3-5-haiku-20241022"
     releaseLabel: Claude Haiku 3.5
@@ -123,7 +123,7 @@ releases:
     eoas: 2025-12-19
     eol: 2026-02-19
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.anthropic.com/news/3-5-models-and-computer-use
+    link: https://www.anthropic.com/news/3-5-models-and-computer-use
 
   - releaseCycle: "claude-3-5-sonnet-20241022"
     releaseLabel: Claude Sonnet 3.5 (20241022)
@@ -131,7 +131,7 @@ releases:
     eoas: 2025-08-13
     eol: 2025-10-28
     recommendedReplacement: "claude-sonnet-4-6"
-    latestLink: https://www.anthropic.com/news/3-5-models-and-computer-use
+    link: https://www.anthropic.com/news/3-5-models-and-computer-use
 
   - releaseCycle: "claude-3-5-sonnet-20240620"
     releaseLabel: Claude Sonnet 3.5 (20240620)
@@ -139,7 +139,7 @@ releases:
     eoas: 2025-08-13
     eol: 2025-10-28
     recommendedReplacement: "claude-sonnet-4-6"
-    latestLink: https://www.anthropic.com/news/claude-3-5-sonnet
+    link: https://www.anthropic.com/news/claude-3-5-sonnet
 
   - releaseCycle: "claude-3-haiku-20240307"
     releaseLabel: Claude Haiku 3
@@ -147,7 +147,7 @@ releases:
     eoas: 2026-02-19
     eol: 2026-04-20
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.anthropic.com/news/claude-3-haiku
+    link: https://www.anthropic.com/news/claude-3-haiku
 
   - releaseCycle: "claude-3-opus-20240229"
     releaseLabel: Claude Opus 3
@@ -155,7 +155,7 @@ releases:
     eoas: 2025-06-30
     eol: 2026-01-05
     recommendedReplacement: "claude-opus-4-7"
-    latestLink: https://www.anthropic.com/news/claude-3-family
+    link: https://www.anthropic.com/news/claude-3-family
 
   - releaseCycle: "claude-3-sonnet-20240229"
     releaseLabel: Claude Sonnet 3
@@ -163,7 +163,7 @@ releases:
     eoas: 2025-01-21
     eol: 2025-07-21
     recommendedReplacement: "claude-sonnet-4-6"
-    latestLink: https://www.anthropic.com/news/claude-3-family
+    link: https://www.anthropic.com/news/claude-3-family
 
   - releaseCycle: "claude-2.1"
     releaseLabel: Claude 2.1
@@ -171,7 +171,7 @@ releases:
     eoas: 2025-01-21
     eol: 2025-07-21
     recommendedReplacement: "claude-opus-4-7"
-    latestLink: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
+    link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
   - releaseCycle: "claude-instant-1.2"
     releaseLabel: Claude Instant 1.2
@@ -179,7 +179,7 @@ releases:
     eoas: 2024-11-06
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.anthropic.com/news/releasing-claude-instant-1-2
+    link: https://www.anthropic.com/news/releasing-claude-instant-1-2
 
   - releaseCycle: "claude-2.0"
     releaseLabel: Claude 2.0
@@ -187,7 +187,7 @@ releases:
     eoas: 2025-01-21
     eol: 2025-07-21
     recommendedReplacement: "claude-opus-4-7"
-    latestLink: https://www.anthropic.com/news/claude-2
+    link: https://www.anthropic.com/news/claude-2
 
   - releaseCycle: "claude-1.3"
     releaseLabel: Claude 1.3
@@ -195,7 +195,7 @@ releases:
     eoas: 2024-09-04
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.maginative.com/article/anthropic-releases-safer-improved-version-of-ai-assistant-claude/
+    link: https://www.maginative.com/article/anthropic-releases-safer-improved-version-of-ai-assistant-claude/
 
   - releaseCycle: "claude-instant-1.1"
     releaseLabel: Claude Instant 1.1
@@ -203,7 +203,7 @@ releases:
     eoas: 2024-11-06
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: null
+    link: null
 
   - releaseCycle: "claude-1.2"
     releaseLabel: Claude 1.2
@@ -211,7 +211,7 @@ releases:
     eoas: 2024-09-04
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: null
+    link: null
 
   - releaseCycle: "claude-1.1"
     releaseLabel: Claude 1.1
@@ -219,7 +219,7 @@ releases:
     eoas: 2024-09-04
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: null
+    link: null
 
   - releaseCycle: "claude-instant-1.0"
     releaseLabel: Claude Instant 1.0
@@ -227,7 +227,7 @@ releases:
     eoas: 2024-09-04
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.anthropic.com/news/introducing-claude
+    link: https://www.anthropic.com/news/introducing-claude
 
   - releaseCycle: "claude-1.0"
     releaseLabel: Claude 1.0
@@ -235,7 +235,7 @@ releases:
     eoas: 2024-09-04
     eol: 2024-11-06
     recommendedReplacement: "claude-haiku-4-5-20251001"
-    latestLink: https://www.anthropic.com/news/introducing-claude
+    link: https://www.anthropic.com/news/introducing-claude
 
 ---
 

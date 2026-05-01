@@ -8,7 +8,7 @@ alternate_urls:
   - /neoscms
 versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
-latestLinkTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
+changelogTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
 eoasColumn: true
 
 identifiers:
@@ -26,7 +26,7 @@ releases:
     eoas: 2027-04-01
     eol: 2028-04-01
     latest: "9.1.4"
-    latestDate: 2026-03-20
+    latestReleaseDate: 2026-03-20
 
   - releaseCycle: "8.4"
     releaseDate: 2025-10-10
@@ -34,14 +34,14 @@ releases:
     eoas: 2026-09-01
     eol: 2027-09-01
     latest: "8.4.5"
-    latestDate: 2026-03-20
+    latestReleaseDate: 2026-03-20
 
   - releaseCycle: "9.0"
     releaseDate: 2025-04-03
     eoas: 2027-04-01
     eol: 2028-04-01
     latest: "9.0.11"
-    latestDate: 2026-03-20
+    latestReleaseDate: 2026-03-20
 
   - releaseCycle: "8.3"
     releaseDate: 2023-04-24
@@ -49,7 +49,7 @@ releases:
     eoas: 2026-09-01
     eol: 2027-09-01
     latest: "8.3.33"
-    latestDate: 2026-03-20
+    latestReleaseDate: 2026-03-20
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-01
@@ -57,7 +57,7 @@ releases:
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "8.2.14"
-    latestDate: 2024-04-19
+    latestReleaseDate: 2024-04-19
 
   - releaseCycle: "8.1"
     releaseDate: 2022-09-02
@@ -65,7 +65,7 @@ releases:
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "8.1.14"
-    latestDate: 2024-04-19
+    latestReleaseDate: 2024-04-19
 
   - releaseCycle: "8.0"
     releaseDate: 2022-04-01
@@ -73,7 +73,7 @@ releases:
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "8.0.19"
-    latestDate: 2024-04-19
+    latestReleaseDate: 2024-04-19
 
   - releaseCycle: "7.3"
     releaseDate: 2021-12-08
@@ -81,7 +81,7 @@ releases:
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "7.3.21"
-    latestDate: 2024-04-19
+    latestReleaseDate: 2024-04-19
 
 ---
 

@@ -10,7 +10,7 @@ alternate_urls:
   - /ontap-os
 versionCommand: system-get-version
 releasePolicyLink: https://mysupport.netapp.com/site/info/version-support
-latestLinkTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
+changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 eolColumn: Full Support
 latestColumn: false # no public access to the latest patches
 

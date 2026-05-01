@@ -9,7 +9,7 @@ alternate_urls:
   - /piwik
 versionCommand: console core:version
 releasePolicyLink: https://matomo.org/faq/new-to-piwik/faq_18925/
-latestLinkTemplate: https://github.com/matomo-org/matomo/releases/tag/__LATEST__
+changelogTemplate: https://github.com/matomo-org/matomo/releases/tag/__LATEST__
 eoasColumn: true
 eolColumn: Long Term Support
 
@@ -33,35 +33,35 @@ releases:
     eoas: false
     eol: false
     latest: "5.9.0"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "4"
     releaseDate: 2020-11-24
     eoas: 2023-12-18
     eol: 2024-12-19 # https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
     latest: "4.16.2"
-    latestDate: 2025-11-20
+    latestReleaseDate: 2025-11-20
 
   - releaseCycle: "3"
     releaseDate: 2016-12-19
     eoas: 2020-11-24
     eol: 2021-12-01 # https://web.archive.org/web/20231111145144/https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
     latest: "3.14.1"
-    latestDate: 2020-09-11
+    latestReleaseDate: 2020-09-11
 
   - releaseCycle: "2"
     releaseDate: 2013-12-17
     eoas: 2016-12-19
     eol: 2017-12-18 # https://matomo.org/blog/2017/12/piwik-2-reaches-end-life-soon-december-2017-update-now/
     latest: "2.18.1" # released to help upgrading to Matomo 4.x
-    latestDate: 2020-07-01
+    latestReleaseDate: 2020-07-01
 
   - releaseCycle: "1"
     releaseDate: 2010-08-28
     eoas: 2013-12-17
     eol: 2013-12-17
     latest: "1.12"
-    latestDate: 2013-05-30
+    latestReleaseDate: 2013-05-30
 
 ---
 

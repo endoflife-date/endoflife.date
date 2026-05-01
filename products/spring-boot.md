@@ -8,7 +8,7 @@ permalink: /spring-boot
 alternate_urls:
   - /springboot
 releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported-Versions
-latestLinkTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
 eolColumn: OSS support
 eoesColumn: Commercial Support
 
@@ -66,7 +66,7 @@ releases:
     eol: 2026-12-31
     eoes: 2027-12-31
     latest: "4.0.6"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.5"
     supportedJavaVersions: "17 - 25" # https://docs.spring.io/spring-boot/3.5/system-requirements.html
@@ -74,7 +74,7 @@ releases:
     eol: 2026-06-30
     eoes: 2032-06-30
     latest: "3.5.14"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.4"
     supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/3.4/system-requirements.html
@@ -82,7 +82,7 @@ releases:
     eol: 2025-12-31
     eoes: 2026-12-31
     latest: "3.4.13"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "3.3"
     supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -90,7 +90,7 @@ releases:
     eol: 2025-06-30
     eoes: 2026-06-30
     latest: "3.3.13"
-    latestDate: 2025-06-19
+    latestReleaseDate: 2025-06-19
 
   - releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -98,7 +98,7 @@ releases:
     eol: 2024-12-31
     eoes: 2025-12-31
     latest: "3.2.12"
-    latestDate: 2024-11-21
+    latestReleaseDate: 2024-11-21
 
   - releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -106,7 +106,7 @@ releases:
     eol: 2024-06-30
     eoes: 2025-06-30
     latest: "3.1.12"
-    latestDate: 2024-05-23
+    latestReleaseDate: 2024-05-23
 
   - releaseCycle: "3.0"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.0.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -114,7 +114,7 @@ releases:
     eol: 2023-12-31
     eoes: 2024-12-31
     latest: "3.0.13"
-    latestDate: 2023-11-23
+    latestReleaseDate: 2023-11-23
 
   - releaseCycle: "2.7"
     supportedJavaVersions: "8 - 21" # https://docs.spring.io/spring-boot/docs/2.7.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -122,7 +122,7 @@ releases:
     eol: 2023-06-30
     eoes: 2029-06-30
     latest: "2.7.18"
-    latestDate: 2023-11-23
+    latestReleaseDate: 2023-11-23
 
   - releaseCycle: "2.6"
     supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.6.14/reference/html/getting-started.html#getting-started.system-requirements
@@ -130,7 +130,7 @@ releases:
     eol: 2022-11-24
     eoes: 2024-02-24
     latest: "2.6.15"
-    latestDate: 2023-05-18
+    latestReleaseDate: 2023-05-18
 
   - releaseCycle: "2.5"
     supportedJavaVersions: "8 - 18" # https://docs.spring.io/spring-boot/docs/2.5.14/reference/html/getting-started.html#getting-started.system-requirements
@@ -138,7 +138,7 @@ releases:
     eol: 2022-05-19
     eoes: 2023-08-24
     latest: "2.5.15"
-    latestDate: 2023-05-18
+    latestReleaseDate: 2023-05-18
 
   - releaseCycle: "2.4"
     supportedJavaVersions: "8 - 16" # https://docs.spring.io/spring-boot/docs/2.4.13/reference/html/getting-started.html#getting-started-system-requirements
@@ -146,52 +146,52 @@ releases:
     eol: 2021-11-18
     eoes: 2023-02-23
     latest: "2.4.13"
-    latestDate: 2021-11-18
+    latestReleaseDate: 2021-11-18
 
   - releaseCycle: "2.3"
     supportedJavaVersions: "8 - 15" # https://docs.spring.io/spring-boot/docs/2.3.12.RELEASE/reference/html/getting-started.html#getting-started-system-requirements
     releaseDate: 2020-05-15
     eol: 2021-05-20
     eoes: 2022-08-20
-    latestLink: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "2.3.12"
-    latestDate: 2021-06-10
+    latestReleaseDate: 2021-06-10
 
   - releaseCycle: "2.2"
     supportedJavaVersions: "8 - 15" # https://docs.spring.io/spring-boot/docs/2.2.13.RELEASE/reference/html/getting-started.html#getting-started-system-requirements
     releaseDate: 2019-10-16
     eol: 2020-10-16
     eoes: 2022-01-16
-    latestLink: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "2.2.13"
-    latestDate: 2021-01-14
+    latestReleaseDate: 2021-01-14
 
   - releaseCycle: "2.1"
     supportedJavaVersions: "8 - 12" # https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/reference/html/getting-started-system-requirements.html
     releaseDate: 2018-10-30
     eol: 2019-10-30
     eoes: 2021-01-30
-    latestLink: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "2.1.18"
-    latestDate: 2020-10-29
+    latestReleaseDate: 2020-10-29
 
   - releaseCycle: "2.0"
     supportedJavaVersions: "8 - 9" # https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/html/getting-started-system-requirements.html
     releaseDate: 2018-03-01
     eol: 2019-03-01
     eoes: 2020-06-01
-    latestLink: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "2.0.9"
-    latestDate: 2019-04-03
+    latestReleaseDate: 2019-04-03
 
   - releaseCycle: "1.5"
     supportedJavaVersions: "6 - 8" # https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/reference/html/getting-started-system-requirements.html
     releaseDate: 2017-01-30
     eol: 2019-08-06
     eoes: 2020-11-06
-    latestLink: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__.RELEASE
     latest: "1.5.22"
-    latestDate: 2019-08-06
+    latestReleaseDate: 2019-08-06
 
 ---
 

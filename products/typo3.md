@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: typo3
 permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
-latestLinkTemplate: https://get.typo3.org/release-notes/__LATEST__
+changelogTemplate: https://get.typo3.org/release-notes/__LATEST__
 eoasColumn: true
 eoesColumn: Extended Long Term Support
 
@@ -26,7 +26,7 @@ releases:
     eol: 2029-06-30
     eoes: 2032-06-30
     latest: "14.3.0"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "13"
     releaseDate: 2024-01-30
@@ -34,7 +34,7 @@ releases:
     eol: 2027-12-31
     eoes: 2030-12-31
     latest: "13.4.28"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "12"
     releaseDate: 2022-10-04
@@ -42,7 +42,7 @@ releases:
     eol: 2026-04-30
     eoes: 2029-04-30
     latest: "12.4.45"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "11"
     releaseDate: 2020-12-22
@@ -51,7 +51,7 @@ releases:
     eol: 2024-10-31
     eoes: 2027-10-31
     latest: "11.5.50"
-    latestDate: 2026-01-20
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "10"
     releaseDate: 2019-07-23
@@ -60,7 +60,7 @@ releases:
     eol: 2023-04-30
     eoes: 2026-04-30
     latest: "10.4.56"
-    latestDate: 2026-01-20
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "9"
     releaseDate: 2017-12-12
@@ -68,7 +68,7 @@ releases:
     eol: 2021-09-30
     eoes: 2024-09-30
     latest: "9.5.55"
-    latestDate: 2025-09-09
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "8"
     releaseDate: 2016-03-22
@@ -76,7 +76,7 @@ releases:
     eol: 2020-03-31
     eoes: 2024-03-31
     latest: "8.7.58"
-    latestDate: 2024-02-14
+    latestReleaseDate: 2024-02-14
 
   - releaseCycle: "7"
     releaseDate: 2014-12-02
@@ -84,7 +84,7 @@ releases:
     eol: 2018-12-01
     eoes: 2022-11-30
     latest: "7.6.58"
-    latestDate: 2022-09-12
+    latestReleaseDate: 2022-09-12
 
 ---
 

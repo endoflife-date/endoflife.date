@@ -8,7 +8,7 @@ permalink: /emberjs
 alternate_urls:
   - /ember
 releasePolicyLink: https://emberjs.com/releases/
-latestLinkTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:
@@ -44,32 +44,32 @@ releases:
     eoas: false
     eol: false
     latest: "6.11.1"
-    latestDate: 2026-03-27
-    latestLink: https://blog.emberjs.com/ember-released-6-11/
+    latestReleaseDate: 2026-03-27
+    link: https://blog.emberjs.com/ember-released-6-11/
 
   - releaseCycle: "6.10"
     releaseDate: 2026-02-06
     eoas: 2026-03-06
     eol: 2026-03-06
     latest: "6.10.1"
-    latestDate: 2026-02-03
-    latestLink: https://blog.emberjs.com/ember-released-6-10/
+    latestReleaseDate: 2026-02-03
+    link: https://blog.emberjs.com/ember-released-6-10/
 
   - releaseCycle: "6.9"
     releaseDate: 2026-01-09
     eoas: 2026-02-06
     eol: 2026-02-06
     latest: "6.9.0"
-    latestDate: 2025-11-25
-    latestLink: https://blog.emberjs.com/ember-released-6-9/
+    latestReleaseDate: 2025-11-25
+    link: https://blog.emberjs.com/ember-released-6-9/
 
   - releaseCycle: "6.8"
     releaseDate: 2025-10-25
     eoas: 2026-06-23
     eol: 2026-12-08
     latest: "6.8.4"
-    latestDate: 2026-03-27
-    latestLink: https://blog.emberjs.com/ember-released-6-8/
+    latestReleaseDate: 2026-03-27
+    link: https://blog.emberjs.com/ember-released-6-8/
     lts: 2025-11-25
 
   - releaseCycle: "6.7"
@@ -77,24 +77,24 @@ releases:
     eoas: 2025-10-25
     eol: 2025-10-25
     latest: "6.7.0"
-    latestDate: 2025-09-01
-    latestLink: https://blog.emberjs.com/ember-released-6-7/
+    latestReleaseDate: 2025-09-01
+    link: https://blog.emberjs.com/ember-released-6-7/
 
   - releaseCycle: "6.6"
     releaseDate: 2025-07-21
     eoas: 2025-09-03
     eol: 2025-09-03
     latest: "6.6.0"
-    latestDate: 2025-07-21
-    latestLink: https://blog.emberjs.com/ember-released-6-6/
+    latestReleaseDate: 2025-07-21
+    link: https://blog.emberjs.com/ember-released-6-6/
 
   - releaseCycle: "6.5"
     releaseDate: 2025-06-09
     eoas: 2025-09-01
     eol: 2025-09-01
     latest: "6.5.0"
-    latestDate: 2025-06-09
-    latestLink: https://blog.emberjs.com/ember-released-6-5/
+    latestReleaseDate: 2025-06-09
+    link: https://blog.emberjs.com/ember-released-6-5/
 
   - releaseCycle: "6.4"
     releaseDate: 2025-04-28
@@ -102,40 +102,40 @@ releases:
     eoas: 2026-01-05
     eol: 2026-06-22
     latest: "6.4.0"
-    latestDate: 2025-04-28
-    latestLink: https://blog.emberjs.com/ember-released-6-4/
+    latestReleaseDate: 2025-04-28
+    link: https://blog.emberjs.com/ember-released-6-4/
 
   - releaseCycle: "6.3"
     releaseDate: 2025-03-17
     eoas: 2025-05-26
     eol: 2025-05-26
     latest: "6.3.0"
-    latestDate: 2025-03-17
-    latestLink: https://blog.emberjs.com/ember-released-6-3/
+    latestReleaseDate: 2025-03-17
+    link: https://blog.emberjs.com/ember-released-6-3/
 
   - releaseCycle: "6.2"
     releaseDate: 2025-02-03
     eoas: 2025-03-28
     eol: 2025-03-28
     latest: "6.2.0"
-    latestDate: 2025-02-03
-    latestLink: https://blog.emberjs.com/ember-released-6-2/
+    latestReleaseDate: 2025-02-03
+    link: https://blog.emberjs.com/ember-released-6-2/
 
   - releaseCycle: "6.1"
     releaseDate: 2024-12-23
     eoas: 2025-02-22
     eol: 2025-02-22
     latest: "6.1.0"
-    latestDate: 2024-12-23
-    latestLink: https://blog.emberjs.com/ember-released-6-1/
+    latestReleaseDate: 2024-12-23
+    link: https://blog.emberjs.com/ember-released-6-1/
 
   - releaseCycle: "6.0"
     releaseDate: 2024-11-12
     eoas: 2024-12-28
     eol: 2024-12-28
     latest: "6.0.1"
-    latestDate: 2024-11-15
-    latestLink: https://blog.emberjs.com/ember-6-0-released/
+    latestReleaseDate: 2024-11-15
+    link: https://blog.emberjs.com/ember-6-0-released/
 
   - releaseCycle: "5.12"
     releaseDate: 2024-09-30
@@ -143,28 +143,28 @@ releases:
     eoas: 2025-04-28
     eol: 2025-10-13
     latest: "5.12.0"
-    latestDate: 2024-09-30
+    latestReleaseDate: 2024-09-30
 
   - releaseCycle: "5.11"
     releaseDate: 2024-08-19
     eoas: 2024-10-04 # releaseDate(5.12)
     eol: 2024-10-04 # releaseDate(5.12)
     latest: "5.11.1"
-    latestDate: 2024-09-23
+    latestReleaseDate: 2024-09-23
 
   - releaseCycle: "5.10"
     releaseDate: 2024-07-08
     eoas: 2024-08-19
     eol: 2024-08-19
     latest: "5.10.2"
-    latestDate: 2024-08-06
+    latestReleaseDate: 2024-08-06
 
   - releaseCycle: "5.9"
     releaseDate: 2024-06-03
     eoas: 2024-07-08
     eol: 2024-07-08
     latest: "5.9.0"
-    latestDate: 2024-06-03
+    latestReleaseDate: 2024-06-03
 
   - releaseCycle: "5.8"
     releaseDate: 2024-04-15
@@ -172,28 +172,28 @@ releases:
     eoas: 2024-12-30
     eol: 2025-06-16
     latest: "5.8.0"
-    latestDate: 2024-04-15
+    latestReleaseDate: 2024-04-15
 
   - releaseCycle: "5.7"
     releaseDate: 2024-03-04
     eoas: 2024-04-20
     eol: 2024-04-20
     latest: "5.7.0"
-    latestDate: 2024-03-04
+    latestReleaseDate: 2024-03-04
 
   - releaseCycle: "5.6"
     releaseDate: 2024-01-22
     eoas: 2024-03-04
     eol: 2024-03-04
     latest: "5.6.0"
-    latestDate: 2024-01-22
+    latestReleaseDate: 2024-01-22
 
   - releaseCycle: "5.5"
     releaseDate: 2023-12-11
     eoas: 2024-01-22
     eol: 2024-01-22
     latest: "5.5.0"
-    latestDate: 2023-12-11
+    latestReleaseDate: 2023-12-11
 
   - releaseCycle: "5.4"
     releaseDate: 2023-10-30
@@ -201,35 +201,35 @@ releases:
     eoas: 2024-07-08
     eol: 2024-12-23
     latest: "5.4.1"
-    latestDate: 2024-01-22
+    latestReleaseDate: 2024-01-22
 
   - releaseCycle: "5.3"
     releaseDate: 2023-09-18
     eoas: 2024-07-07
     eol: 2024-12-22
     latest: "5.3.0"
-    latestDate: 2023-09-18
+    latestReleaseDate: 2023-09-18
 
   - releaseCycle: "5.2"
     releaseDate: 2023-08-07
     eoas: 2023-09-21
     eol: 2023-09-21
     latest: "5.2.0"
-    latestDate: 2023-08-07
+    latestReleaseDate: 2023-08-07
 
   - releaseCycle: "5.1"
     releaseDate: 2023-06-26
     eoas: 2023-08-07
     eol: 2023-08-07
     latest: "5.1.2"
-    latestDate: 2023-06-30
+    latestReleaseDate: 2023-06-30
 
   - releaseCycle: "5.0"
     releaseDate: 2023-05-15
     eoas: 2023-07-08
     eol: 2023-07-08
     latest: "5.0.0"
-    latestDate: 2023-05-15
+    latestReleaseDate: 2023-05-15
 
   - releaseCycle: "4.12"
     releaseDate: 2023-04-03
@@ -237,7 +237,7 @@ releases:
     eoas: 2023-12-10
     eol: 2024-05-26
     latest: "4.12.4"
-    latestDate: 2024-01-22
+    latestReleaseDate: 2024-01-22
 
   - releaseCycle: "4.8"
     releaseDate: 2022-10-17
@@ -245,7 +245,7 @@ releases:
     eoas: 2023-07-06
     eol: 2023-12-21
     latest: "4.8.6"
-    latestDate: 2023-06-12
+    latestReleaseDate: 2023-06-12
 
   - releaseCycle: "4.4"
     releaseDate: 2022-05-03
@@ -253,7 +253,7 @@ releases:
     eoas: 2023-02-08
     eol: 2023-07-26
     latest: "4.4.5"
-    latestDate: 2023-05-04
+    latestReleaseDate: 2023-05-04
 
   - releaseCycle: "3.28"
     releaseDate: 2021-08-10
@@ -261,7 +261,7 @@ releases:
     eoas: 2022-07-18
     eol: 2023-01-02
     latest: "3.28.12"
-    latestDate: 2023-05-04
+    latestReleaseDate: 2023-05-04
 
   - releaseCycle: "3.24"
     releaseDate: 2020-12-28
@@ -269,7 +269,7 @@ releases:
     eoas: 2021-09-23
     eol: 2022-03-10
     latest: "3.24.7"
-    latestDate: 2022-11-02
+    latestReleaseDate: 2022-11-02
 
   - releaseCycle: "3.20"
     releaseDate: 2020-07-13
@@ -277,7 +277,7 @@ releases:
     eoas: 2021-03-31
     eol: 2021-09-15
     latest: "3.20.7"
-    latestDate: 2021-06-03
+    latestReleaseDate: 2021-06-03
 
   - releaseCycle: "3.16"
     releaseDate: 2020-01-20
@@ -285,7 +285,7 @@ releases:
     eoas: 2020-10-12
     eol: 2021-03-29
     latest: "3.16.10"
-    latestDate: 2020-08-05
+    latestReleaseDate: 2020-08-05
 
   - releaseCycle: "3.12"
     releaseDate: 2019-08-06
@@ -293,7 +293,7 @@ releases:
     eoas: 2020-04-22
     eol: 2020-10-07
     latest: "3.12.4"
-    latestDate: 2020-05-21
+    latestReleaseDate: 2020-05-21
 
   - releaseCycle: "3.8"
     releaseDate: 2019-02-18
@@ -301,7 +301,7 @@ releases:
     eoas: 2019-11-06
     eol: 2020-04-22
     latest: "3.8.3"
-    latestDate: 2019-06-28
+    latestReleaseDate: 2019-06-28
 
   - releaseCycle: "3.4"
     releaseDate: 2018-08-28
@@ -309,7 +309,7 @@ releases:
     eoas: 2019-05-13
     eol: 2019-10-28
     latest: "3.4.8"
-    latestDate: 2019-01-22
+    latestReleaseDate: 2019-01-22
 
   - releaseCycle: "2.18"
     releaseDate: 2018-01-01
@@ -317,7 +317,7 @@ releases:
     eoas: 2018-09-12
     eol: 2019-02-27
     latest: "2.18.3"
-    latestDate: 2026-01-30
+    latestReleaseDate: 2026-01-30
 
   - releaseCycle: "2.16"
     releaseDate: 2017-10-10
@@ -325,7 +325,7 @@ releases:
     eoas: 2018-06-18
     eol: 2018-12-03
     latest: "2.16.4"
-    latestDate: 2018-02-14
+    latestReleaseDate: 2018-02-14
 
   - releaseCycle: "2.12"
     releaseDate: 2017-03-15
@@ -333,7 +333,7 @@ releases:
     eoas: 2017-11-25
     eol: 2018-05-12
     latest: "2.12.2"
-    latestDate: 2017-04-27
+    latestReleaseDate: 2017-04-27
 
   - releaseCycle: "2.8"
     releaseDate: 2016-09-09
@@ -341,7 +341,7 @@ releases:
     eoas: 2017-05-15
     eol: 2017-10-30
     latest: "2.8.3"
-    latestDate: 2016-11-01
+    latestReleaseDate: 2016-11-01
 
   - releaseCycle: "2.4"
     releaseDate: 2016-02-29
@@ -349,7 +349,7 @@ releases:
     eoas: 2016-11-07
     eol: 2017-04-24
     latest: "2.4.6"
-    latestDate: 2016-06-05
+    latestReleaseDate: 2016-06-05
 
 ---
 

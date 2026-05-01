@@ -6,7 +6,7 @@ iconSlug: lua
 permalink: /lua
 versionCommand: lua -v
 releasePolicyLink: https://www.lua.org/versions.html
-latestLinkTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
+changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
 eolColumn: Support
 
 identifiers:
@@ -27,91 +27,91 @@ releases:
     releaseDate: 2025-12-22
     eol: false
     latest: "5.5.0"
-    latestDate: 2025-12-22
+    latestReleaseDate: 2025-12-22
 
   - releaseCycle: "5.4"
     releaseDate: 2020-06-29
     eol: false
     latest: "5.4.8"
-    latestDate: 2025-06-04
+    latestReleaseDate: 2025-06-04
 
   - releaseCycle: "5.3"
     releaseDate: 2015-01-12
     eol: 2020-09-25
     latest: "5.3.6"
-    latestDate: 2020-09-25
+    latestReleaseDate: 2020-09-25
 
   - releaseCycle: "5.2"
     releaseDate: 2011-12-16
     eol: 2015-03-07
     latest: "5.2.4"
-    latestDate: 2015-03-07
+    latestReleaseDate: 2015-03-07
 
   - releaseCycle: "5.1"
     releaseDate: 2006-02-21
     eol: 2012-02-17
     latest: "5.1.5"
-    latestDate: 2012-02-17
+    latestReleaseDate: 2012-02-17
 
   - releaseCycle: "5.0"
     releaseDate: 2003-04-11
     eol: 2006-06-26
     latest: "5.0.3"
-    latestDate: 2006-06-26
+    latestReleaseDate: 2006-06-26
 
   - releaseCycle: "4.0"
     releaseDate: 2000-11-06
     eol: 2002-07-04
     latest: "4.0.1"
-    latestDate: 2002-07-04
+    latestReleaseDate: 2002-07-04
 
   - releaseCycle: "3.2"
     releaseDate: 1999-07-08
     eol: 2000-02-22
     latest: "3.2.2"
-    latestDate: 2000-02-22
+    latestReleaseDate: 2000-02-22
 
   - releaseCycle: "3.1"
     releaseDate: 1998-07-11
     eol: 1999-07-08
     latest: "3.1"
-    latestDate: 1998-07-11
+    latestReleaseDate: 1998-07-11
 
   - releaseCycle: "3.0"
     releaseDate: 1997-07-01
     eol: 1998-07-11
     latest: "3.0"
-    latestDate: 1997-07-01
+    latestReleaseDate: 1997-07-01
 
   - releaseCycle: "2.5"
     releaseDate: 1996-11-19
     eol: 1997-07-01
     latest: "2.5.1"
-    latestDate: 1996-11-20
+    latestReleaseDate: 1996-11-20
 
   - releaseCycle: "2.4"
     releaseDate: 1996-05-14
     eol: 1996-11-19
     latest: "2.4"
-    latestDate: 1996-05-14
+    latestReleaseDate: 1996-05-14
 
   - releaseCycle: "2.2"
     releaseDate: 1995-11-28
     eol: 1996-05-14
     latest: "2.2"
-    latestDate: 1995-11-28
+    latestReleaseDate: 1995-11-28
 
   - releaseCycle: "2.1"
     releaseDate: 1995-02-07
     eol: 1995-11-28
     latest: "2.1"
-    latestDate: 1995-02-07
+    latestReleaseDate: 1995-02-07
 
   - releaseCycle: "1.1"
     releaseDate: 1994-07-08
     eol: 1995-02-07
     latest: "1.1"
-    latestDate: 1994-07-08
+    latestReleaseDate: 1994-07-08
 ---
 
 > [Lua](https://www.lua.org/) is a powerful, efficient, lightweight and embeddable scripting

@@ -7,7 +7,7 @@ iconSlug: bun
 permalink: /bun
 versionCommand: bun --version
 releasePolicyLink: https://github.com/oven-sh/bun/releases
-latestLinkTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
+changelogTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
 
 identifiers:
   - repology: bun
@@ -27,7 +27,7 @@ releases:
     releaseDate: 2023-09-07
     eol: false
     latest: "1.3.13"
-    latestDate: 2026-04-19
+    latestReleaseDate: 2026-04-19
 
 ---
 

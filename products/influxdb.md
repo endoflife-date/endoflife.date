@@ -9,7 +9,7 @@ alternate_urls:
   - /influxdb-core
 versionCommand: influxd version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
-latestLinkTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
 eoasColumn: false
 
 identifiers:
@@ -26,79 +26,79 @@ releases:
     releaseDate: 2026-04-02
     eol: false
     latest: "3.9.1"
-    latestDate: 2026-04-09
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
+    latestReleaseDate: 2026-04-09
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
 
   - releaseCycle: "3.8"
     releaseDate: 2025-12-18
     eol: false
     latest: "3.8.3"
-    latestDate: 2026-02-25
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v380
+    latestReleaseDate: 2026-02-25
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v380
 
   - releaseCycle: "3.7"
     releaseDate: 2025-11-19
     eol: 2026-04-02
     latest: "3.7.0"
-    latestDate: 2025-11-19
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v370
+    latestReleaseDate: 2025-11-19
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v370
 
   - releaseCycle: "3.6"
     releaseDate: 2025-10-30
     eol: 2025-12-18
     latest: "3.6.0"
-    latestDate: 2025-10-29
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v360
+    latestReleaseDate: 2025-10-29
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v360
 
   - releaseCycle: "3.5"
     releaseDate: 2025-09-29
     eol: 2025-11-19
     latest: "3.5.0"
-    latestDate: 2025-09-29
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v350
+    latestReleaseDate: 2025-09-29
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v350
 
   - releaseCycle: "3.4"
     releaseDate: 2025-08-26
     eol: 2025-10-30
     latest: "3.4.2"
-    latestDate: 2025-09-11
-    latestLink: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v340
+    latestReleaseDate: 2025-09-11
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v340
 
   - releaseCycle: "3.3"
     releaseDate: 2025-07-29
     eol: 2025-09-29
     latest: "3.3.0"
-    latestDate: 2025-07-29
+    latestReleaseDate: 2025-07-29
 
   - releaseCycle: "3.2"
     releaseDate: 2025-06-25
     eol: 2025-08-26
     latest: "3.2.1"
-    latestDate: 2025-07-03
+    latestReleaseDate: 2025-07-03
 
   - releaseCycle: "3.1"
     releaseDate: 2025-05-28
     eol: 2025-07-30
     latest: "3.1.0"
-    latestDate: 2025-05-28
+    latestReleaseDate: 2025-05-28
 
   - releaseCycle: "3.0"
     releaseDate: 2025-04-14
     eol: 2025-06-25
     latest: "3.0.3"
-    latestDate: 2025-05-15
+    latestReleaseDate: 2025-05-15
 
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
     latest: "2.8.0"
-    latestDate: 2025-12-02
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07
     eol: false # only for paying customer: https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103
     latest: "1.12.4"
-    latestDate: 2026-04-09
+    latestReleaseDate: 2026-04-09
 
 ---
 

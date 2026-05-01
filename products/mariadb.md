@@ -6,7 +6,7 @@ iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
-latestLinkTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
@@ -67,19 +67,19 @@ releases:
     releaseDate: 2026-02-13
     eol: 2026-05-13 #estimated
     latest: "12.2.2"
-    latestDate: 2026-02-13
+    latestReleaseDate: 2026-02-13
 
   - releaseCycle: "12.1"
     releaseDate: 2025-11-18
     eol: 2026-02-13
     latest: "12.1.2"
-    latestDate: 2025-11-18
+    latestReleaseDate: 2025-11-18
 
   - releaseCycle: "12.0"
     releaseDate: 2025-08-07
     eol: 2025-11-18
     latest: "12.0.2"
-    latestDate: 2025-08-07
+    latestReleaseDate: 2025-08-07
 
   - releaseCycle: "11.8"
     lts: true
@@ -87,28 +87,28 @@ releases:
     eol: 2028-06-04
     eoes: 2033-10-22
     latest: "11.8.6"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
     eol: 2025-05-12
     latest: "11.7.2"
-    latestDate: 2025-02-12
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-11-7-rolling-releases/mariadb-11-7-2-release-notes
+    latestReleaseDate: 2025-02-12
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-11-7-rolling-releases/mariadb-11-7-2-release-notes
 
   - releaseCycle: "11.6"
     releaseDate: 2024-11-13
     eol: 2025-02-13
     latest: "11.6.2"
-    latestDate: 2024-11-13
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-6-rolling-releases/mariadb-11-6-2-release-notes
+    latestReleaseDate: 2024-11-13
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-6-rolling-releases/mariadb-11-6-2-release-notes
 
   - releaseCycle: "11.5"
     releaseDate: 2024-08-14
     eol: 2024-11-21
     latest: "11.5.2"
-    latestDate: 2024-08-14
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-5-rolling-releases/mariadb-11-5-2-release-notes
+    latestReleaseDate: 2024-08-14
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-5-rolling-releases/mariadb-11-5-2-release-notes
 
   - releaseCycle: "11.4"
     lts: true
@@ -116,35 +116,35 @@ releases:
     eol: 2029-05-29
     eoes: 2033-01-16
     latest: "11.4.10"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
     eol: 2024-05-29
     latest: "11.3.2"
-    latestDate: 2024-02-16
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-3-rolling-releases/mariadb-11-3-2-release-notes
+    latestReleaseDate: 2024-02-16
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-3-rolling-releases/mariadb-11-3-2-release-notes
 
   - releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
     latest: "11.2.6"
-    latestDate: 2024-11-01
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-2-series/mariadb-11-2-6-release-notes
+    latestReleaseDate: 2024-11-01
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-2-series/mariadb-11-2-6-release-notes
 
   - releaseCycle: "11.1"
     releaseDate: 2023-08-21
     eol: 2024-08-21
     latest: "11.1.6"
-    latestDate: 2024-08-08
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-1-series/mariadb-11-1-6-release-notes
+    latestReleaseDate: 2024-08-08
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-1-series/mariadb-11-1-6-release-notes
 
   - releaseCycle: "11.0"
     releaseDate: 2023-06-06
     eol: 2024-06-06
     latest: "11.0.6"
-    latestDate: 2024-05-15
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-0-series/mariadb-11-0-6-release-notes
+    latestReleaseDate: 2024-05-15
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-0-series/mariadb-11-0-6-release-notes
 
   - releaseCycle: "10.11"
     lts: true
@@ -152,35 +152,35 @@ releases:
     eol: 2028-02-16
     eoes: 2028-02-16
     latest: "10.11.16"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07
     eol: 2023-11-17
     latest: "10.10.7"
-    latestDate: 2023-11-13
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-10-series/mariadb-10-10-7-release-notes
+    latestReleaseDate: 2023-11-13
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-10-series/mariadb-10-10-7-release-notes
 
   - releaseCycle: "10.9"
     releaseDate: 2022-08-15
     eol: 2023-08-22
     latest: "10.9.8"
-    latestDate: 2023-08-14
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-9-series/mariadb-10-9-8-release-notes
+    latestReleaseDate: 2023-08-14
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-9-series/mariadb-10-9-8-release-notes
 
   - releaseCycle: "10.8"
     releaseDate: 2022-05-20
     eol: 2023-05-20
     latest: "10.8.8"
-    latestDate: 2023-05-10
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-8-series/mariadb-10-8-8-release-notes
+    latestReleaseDate: 2023-05-10
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-8-series/mariadb-10-8-8-release-notes
 
   - releaseCycle: "10.7"
     releaseDate: 2022-02-08
     eol: 2023-02-09
     latest: "10.7.8"
-    latestDate: 2023-02-06
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-7-series/mariadb-10-7-8-release-notes
+    latestReleaseDate: 2023-02-06
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-7-series/mariadb-10-7-8-release-notes
 
   - releaseCycle: "10.6"
     lts: true
@@ -188,7 +188,7 @@ releases:
     eol: 2026-07-06
     eoes: 2029-08-23
     latest: "10.6.25"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "10.5"
     lts: true
@@ -196,8 +196,8 @@ releases:
     eol: 2025-06-24
     eoes: 2025-07-16
     latest: "10.5.29"
-    latestDate: 2025-05-06
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-10-5-series/mariadb-10-5-29-release-notes
+    latestReleaseDate: 2025-05-06
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-10-5-series/mariadb-10-5-29-release-notes
 
   - releaseCycle: "10.4"
     lts: true
@@ -205,40 +205,40 @@ releases:
     eol: 2024-06-18
     eoes: 2024-06-18
     latest: "10.4.34"
-    latestDate: 2024-05-15
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-4-series/mariadb-10-4-34-release-notes
+    latestReleaseDate: 2024-05-15
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-4-series/mariadb-10-4-34-release-notes
 
   - releaseCycle: "10.3"
     releaseDate: 2018-05-25
     eol: 2023-05-25
     eoes: 2023-05-25
     latest: "10.3.39"
-    latestDate: 2023-05-10
-    latestLink: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-3-series/mariadb-10-3-39-release-notes
+    latestReleaseDate: 2023-05-10
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-3-series/mariadb-10-3-39-release-notes
 
   - releaseCycle: "10.2"
     releaseDate: 2017-05-23
     eol: 2022-05-23
     eoes: 2022-05-23
     latest: "10.2.44"
-    latestDate: 2022-05-20
-    latestLink: https://mariadb.com/kb/en/mariadb-10244-release-notes/
+    latestReleaseDate: 2022-05-20
+    link: https://mariadb.com/kb/en/mariadb-10244-release-notes/
 
   - releaseCycle: "10.1"
     releaseDate: 2015-10-17
     eol: 2020-10-17
     eoes: 2020-10-17
     latest: "10.1.48"
-    latestDate: 2020-10-30
-    latestLink: https://mariadb.com/kb/en/mariadb-10148-release-notes/
+    latestReleaseDate: 2020-10-30
+    link: https://mariadb.com/kb/en/mariadb-10148-release-notes/
 
   - releaseCycle: "10.0"
     releaseDate: 2014-03-31
     eol: 2019-03-31
     eoes: 2019-03-31
     latest: "10.0.38"
-    latestDate: 2019-01-29
-    latestLink: https://mariadb.com/kb/en/mariadb-10038-release-notes/
+    latestReleaseDate: 2019-01-29
+    link: https://mariadb.com/kb/en/mariadb-10038-release-notes/
 
   - releaseCycle: "5.5"
     lts: true
@@ -246,32 +246,32 @@ releases:
     eol: 2020-04-11
     eoes: 2020-04-11
     latest: "5.5.68"
-    latestDate: 2020-05-06
-    latestLink: https://mariadb.com/kb/en/mariadb-5568-release-notes/
+    latestReleaseDate: 2020-05-06
+    link: https://mariadb.com/kb/en/mariadb-5568-release-notes/
 
   - releaseCycle: "5.3"
     releaseDate: 2012-02-29
     eol: 2017-03-01
     eoes: 2017-03-01
     latest: "5.3.12"
-    latestDate: 2013-01-28
-    latestLink: https://mariadb.com/kb/en/mariadb-5312-release-notes/
+    latestReleaseDate: 2013-01-28
+    link: https://mariadb.com/kb/en/mariadb-5312-release-notes/
 
   - releaseCycle: "5.2"
     releaseDate: 2010-11-10
     eol: 2015-11-10
     eoes: 2015-11-10
     latest: "5.2.14"
-    latestDate: 2013-01-28
-    latestLink: https://mariadb.com/kb/en/mariadb-5214-release-notes/
+    latestReleaseDate: 2013-01-28
+    link: https://mariadb.com/kb/en/mariadb-5214-release-notes/
 
   - releaseCycle: "5.1"
     releaseDate: 2010-02-01
     eol: 2015-02-01
     eoes: 2015-02-01
     latest: "5.1.67"
-    latestDate: 2013-01-25
-    latestLink: https://mariadb.com/kb/en/mariadb-5167-release-notes/
+    latestReleaseDate: 2013-01-25
+    link: https://mariadb.com/kb/en/mariadb-5167-release-notes/
 
 ---
 

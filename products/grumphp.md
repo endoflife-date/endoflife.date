@@ -5,7 +5,7 @@ category: framework
 tags: php-runtime
 permalink: /grumphp
 versionCommand: grumphp --version
-latestLinkTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
 
 auto:
   methods:
@@ -22,19 +22,19 @@ releases:
     releaseDate: 2023-06-18
     eol: false
     latest: "2.20.0"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "1"
     releaseDate: 2020-09-25
     eol: true # https://github.com/phpro/grumphp/discussions/1175#discussioncomment-13609368
     latest: "1.16.0"
-    latestDate: 2023-04-27
+    latestReleaseDate: 2023-04-27
 
   - releaseCycle: "0"
     releaseDate: 2015-03-18
     eol: true
     latest: "0.22.0"
-    latestDate: 2020-09-03
+    latestReleaseDate: 2020-09-03
 
 ---
 

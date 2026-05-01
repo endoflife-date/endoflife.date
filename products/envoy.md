@@ -9,7 +9,7 @@ alternate_urls:
   - /envoy-proxy
 versionCommand: envoy --version
 releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
-latestLinkTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
 
 identifiers:
   - repology: envoy-proxy
@@ -45,235 +45,235 @@ releases:
     releaseDate: 2026-04-23
     eol: 2027-04-23
     latest: "1.38.0"
-    latestDate: 2026-04-24
+    latestReleaseDate: 2026-04-24
 
   - releaseCycle: "1.37"
     releaseDate: 2026-01-13
     eol: 2027-01-13
     latest: "1.37.2"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.36"
     releaseDate: 2025-10-14
     eol: 2026-10-14
     latest: "1.36.6"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.35"
     releaseDate: 2025-07-23
     eol: 2026-07-23
     latest: "1.35.10"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.34"
     releaseDate: 2025-04-15
     eol: 2026-04-15
     latest: "1.34.14"
-    latestDate: 2026-04-10
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.33"
     releaseDate: 2025-01-14
     eol: 2026-01-14
     latest: "1.33.14"
-    latestDate: 2025-12-10
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "1.32"
     releaseDate: 2024-10-15
     eol: 2025-10-15
     latest: "1.32.13"
-    latestDate: 2025-10-13
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "1.31"
     releaseDate: 2024-07-19
     eol: 2025-07-19
     latest: "1.31.10"
-    latestDate: 2025-07-18
+    latestReleaseDate: 2025-07-18
 
   - releaseCycle: "1.30"
     releaseDate: 2024-04-16
     eol: 2025-04-16
     latest: "1.30.11"
-    latestDate: 2025-03-25
+    latestReleaseDate: 2025-03-25
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-16
     eol: 2025-01-16
     latest: "1.29.12"
-    latestDate: 2024-12-18
+    latestReleaseDate: 2024-12-18
 
   - releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
     latest: "1.28.7"
-    latestDate: 2024-09-19
+    latestReleaseDate: 2024-09-19
 
   - releaseCycle: "1.27"
     releaseDate: 2023-07-27
     eol: 2024-07-27
     latest: "1.27.7"
-    latestDate: 2024-06-29
+    latestReleaseDate: 2024-06-29
 
   - releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
     latest: "1.26.8"
-    latestDate: 2024-04-04
+    latestReleaseDate: 2024-04-04
 
   - releaseCycle: "1.25"
     releaseDate: 2023-01-18
     eol: 2024-01-18
     latest: "1.25.11"
-    latestDate: 2023-10-17
+    latestReleaseDate: 2023-10-17
 
   - releaseCycle: "1.24"
     releaseDate: 2022-10-19
     eol: 2023-10-19
     latest: "1.24.12"
-    latestDate: 2023-10-17
+    latestReleaseDate: 2023-10-17
 
   - releaseCycle: "1.23"
     releaseDate: 2022-07-15
     eol: 2023-07-15
     latest: "1.23.12"
-    latestDate: 2023-07-25
+    latestReleaseDate: 2023-07-25
 
   - releaseCycle: "1.22"
     releaseDate: 2022-04-15
     eol: 2023-04-15
     latest: "1.22.11"
-    latestDate: 2023-04-12
+    latestReleaseDate: 2023-04-12
 
   - releaseCycle: "1.21"
     releaseDate: 2022-01-12
     eol: 2023-01-12
     latest: "1.21.6"
-    latestDate: 2022-11-28
+    latestReleaseDate: 2022-11-28
 
   - releaseCycle: "1.20"
     releaseDate: 2021-10-05
     eol: 2022-10-05
     latest: "1.20.7"
-    latestDate: 2022-07-21
+    latestReleaseDate: 2022-07-21
 
   - releaseCycle: "1.19"
     releaseDate: 2021-07-13
     eol: 2022-07-13
     latest: "1.19.5"
-    latestDate: 2022-06-08
+    latestReleaseDate: 2022-06-08
 
   - releaseCycle: "1.18"
     releaseDate: 2021-04-15
     eol: 2022-04-15
     latest: "1.18.6"
-    latestDate: 2022-02-21
+    latestReleaseDate: 2022-02-21
 
   - releaseCycle: "1.17"
     releaseDate: 2021-01-11
     eol: 2022-01-11
     latest: "1.17.4"
-    latestDate: 2021-08-24
+    latestReleaseDate: 2021-08-24
 
   - releaseCycle: "1.16"
     releaseDate: 2020-10-08
     eol: 2021-10-08
-    latestDate: 2021-08-24
+    latestReleaseDate: 2021-08-24
     latest: "1.16.5"
 
   - releaseCycle: "1.15"
     releaseDate: 2020-07-07
     eol: 2021-07-07
     latest: "1.15.5"
-    latestDate: 2021-05-11
+    latestReleaseDate: 2021-05-11
 
   - releaseCycle: "1.14"
     releaseDate: 2020-04-08
     eol: 2021-04-08
     latest: "1.14.7"
-    latestDate: 2021-04-15
+    latestReleaseDate: 2021-04-15
 
   - releaseCycle: "1.13"
     releaseDate: 2020-01-20
     eol: 2021-01-20
     latest: "1.13.8"
-    latestDate: 2021-01-17
+    latestReleaseDate: 2021-01-17
 
   - releaseCycle: "1.12"
     releaseDate: 2019-10-31
     eol: 2020-10-31
     latest: "1.12.7"
-    latestDate: 2020-09-29
+    latestReleaseDate: 2020-09-29
 
   - releaseCycle: "1.11"
     releaseDate: 2019-07-11
     eol: 2019-10-31
     latest: "1.11.2"
-    latestDate: 2019-10-08
+    latestReleaseDate: 2019-10-08
 
   - releaseCycle: "1.10"
     releaseDate: 2019-04-05
     eol: 2019-07-11
     latest: "1.10.0"
-    latestDate: 2019-04-05
+    latestReleaseDate: 2019-04-05
 
   - releaseCycle: "1.9"
     releaseDate: 2018-12-20
     eol: 2019-04-05
     latest: "1.9.1"
-    latestDate: 2019-04-04
+    latestReleaseDate: 2019-04-04
 
   - releaseCycle: "1.8"
     releaseDate: 2018-10-04
     eol: 2018-12-20
     latest: "1.8.0"
-    latestDate: 2018-10-04
+    latestReleaseDate: 2018-10-04
 
   - releaseCycle: "1.7"
     releaseDate: 2018-06-21
     eol: 2018-10-04
     latest: "1.7.1"
-    latestDate: 2018-08-03
+    latestReleaseDate: 2018-08-03
 
   - releaseCycle: "1.6"
     releaseDate: 2018-03-20
     eol: 2018-06-21
     latest: "1.6.0"
-    latestDate: 2018-03-20
+    latestReleaseDate: 2018-03-20
 
   - releaseCycle: "1.5"
     releaseDate: 2017-12-04
     eol: 2018-03-20
     latest: "1.5.0"
-    latestDate: 2017-12-04
+    latestReleaseDate: 2017-12-04
 
   - releaseCycle: "1.4"
     releaseDate: 2017-08-24
     eol: 2017-12-04
     latest: "1.4.0"
-    latestDate: 2017-08-24
+    latestReleaseDate: 2017-08-24
 
   - releaseCycle: "1.3"
     releaseDate: 2017-05-17
     eol: 2017-08-24
     latest: "1.3.0"
-    latestDate: 2017-05-17
+    latestReleaseDate: 2017-05-17
 
   - releaseCycle: "1.2"
     releaseDate: 2017-03-07
     eol: 2017-05-17
     latest: "1.2.0"
-    latestDate: 2017-03-07
+    latestReleaseDate: 2017-03-07
 
   - releaseCycle: "1.1"
     releaseDate: 2016-11-30
     eol: 2017-03-07
     latest: "1.1.0"
-    latestDate: 2016-11-30
+    latestReleaseDate: 2016-11-30
 
   - releaseCycle: "1.0"
     releaseDate: 2016-09-12
     eol: 2016-11-30
     latest: "1.0.0"
-    latestDate: 2016-09-12
+    latestReleaseDate: 2016-09-12
 
 ---
 

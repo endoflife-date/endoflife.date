@@ -9,7 +9,7 @@ alternate_urls:
   - /sl-micro
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-latestLinkTemplate: https://www.suse.com/releasenotes/x86_64/SL-Micro/__RELEASE_CYCLE__/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SL-Micro/__RELEASE_CYCLE__/
 latestColumn: false
 eolColumn: General Support
 
@@ -44,32 +44,32 @@ releases:
   - releaseCycle: "5.5"
     releaseDate: 2023-10-12
     eol: 2027-10-31
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
   - releaseCycle: "5.4"
     releaseDate: 2023-04-20
     eol: 2027-04-30
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
   - releaseCycle: "5.3"
     releaseDate: 2022-10-25
     eol: 2026-10-30
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
   - releaseCycle: "5.2"
     releaseDate: 2022-04-14
     eol: 2026-04-30
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
   - releaseCycle: "5.1"
     releaseDate: 2021-10-26
     eol: 2025-10-31
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
   - releaseCycle: "5.0"
     releaseDate: 2021-03-30
     eol: 2022-03-31
-    latestLink: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
+    link: https://www.suse.com/releasenotes/x86_64/SLE-Micro/__RELEASE_CYCLE__/
 
 ---
 

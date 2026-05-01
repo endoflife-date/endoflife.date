@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: roundcube
 permalink: /roundcube
 releasePolicyLink: https://roundcube.net/download/
-latestLinkTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
+changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 eoasColumn: true
 eolColumn: Security Support
 
@@ -24,7 +24,7 @@ releases:
     eoas: false
     eol: false
     latest: "1.6.15"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
@@ -32,42 +32,42 @@ releases:
     eoas: false
     eol: false
     latest: "1.5.15"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "1.4"
     releaseDate: 2019-11-09
     eoas: true
     eol: 2023-12-10
     latest: "1.4.16"
-    latestDate: 2023-12-10
+    latestReleaseDate: 2023-12-10
 
   - releaseCycle: "1.3"
     releaseDate: 2017-06-26
     eoas: true
     eol: 2022-07-28
     latest: "1.3.17"
-    latestDate: 2021-11-12
+    latestReleaseDate: 2021-11-12
 
   - releaseCycle: "1.2"
     releaseDate: 2016-05-21
     eoas: true
     eol: 2021-10-18
     latest: "1.2.13"
-    latestDate: 2020-12-27
+    latestReleaseDate: 2020-12-27
 
   - releaseCycle: "1.1"
     releaseDate: 2015-02-07
     eoas: true
     eol: true
     latest: "1.1.12"
-    latestDate: 2018-04-29
+    latestReleaseDate: 2018-04-29
 
   - releaseCycle: "1.0"
     releaseDate: 2014-04-05
     eoas: true
     eol: true
     latest: "1.0.12"
-    latestDate: 2017-11-08
+    latestReleaseDate: 2017-11-08
 
 ---
 

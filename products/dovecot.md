@@ -6,7 +6,7 @@ iconSlug: dovecot
 permalink: /dovecot
 versionCommand: dovecot --version
 releasePolicyLink: https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/
-latestLinkTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
+changelogTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
 
@@ -26,7 +26,7 @@ releases:
     eoas: false
     eol: false
     latest: "2.4.3"
-    latestDate: 2026-03-27
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "2.3"
     staleReleaseThresholdDays: 730 # mentioned recently on https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/
@@ -34,28 +34,28 @@ releases:
     eoas: 2025-01-24
     eol: false
     latest: "2.3.21.1"
-    latestDate: 2024-08-14
+    latestReleaseDate: 2024-08-14
 
   - releaseCycle: "2.2"
     releaseDate: 2013-04-11
     eoas: 2017-12-22
     eol: 2025-01-24
     latest: "2.2.36.4"
-    latestDate: 2019-08-28
+    latestReleaseDate: 2019-08-28
 
   - releaseCycle: "2.1"
     releaseDate: 2012-02-16
     eoas: 2013-04-11
     eol: 2017-12-22
     latest: "2.1.16"
-    latestDate: 2013-04-05
+    latestReleaseDate: 2013-04-05
 
   - releaseCycle: "2.0"
     releaseDate: 2010-08-16
     eoas: 2012-02-16
     eol: 2013-04-11
     latest: "2.0.15"
-    latestDate: 2011-09-16
+    latestReleaseDate: 2011-09-16
 
 ---
 

@@ -15,7 +15,7 @@ customFields:
     display: after-release-column
     label: Supported iPadOS
     description: Supported iPadOS versions
-    latestLink: https://endoflife.date/ipados
+    link: https://endoflife.date/ipados
 
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/HT201471.
@@ -26,7 +26,7 @@ releases:
     releaseDate: 2025-10-22
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/125406
+    link: https://support.apple.com/125406
     supportedIpadOsVersions: "26"
 
   - releaseCycle: "pro-8-13"
@@ -34,7 +34,7 @@ releases:
     releaseDate: 2025-10-22
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/125407
+    link: https://support.apple.com/125407
     supportedIpadOsVersions: "26"
 
   - releaseCycle: "11"
@@ -42,7 +42,7 @@ releases:
     releaseDate: 2025-03-12
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/122240
+    link: https://support.apple.com/122240
     supportedIpadOsVersions: "18 - 26"
 
   - releaseCycle: "air-7-11"
@@ -50,7 +50,7 @@ releases:
     releaseDate: 2025-03-12
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/122241
+    link: https://support.apple.com/122241
     supportedIpadOsVersions: "18 - 26"
 
   - releaseCycle: "air-7-13"
@@ -58,7 +58,7 @@ releases:
     releaseDate: 2025-03-12
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/122242
+    link: https://support.apple.com/122242
     supportedIpadOsVersions: "18 - 26"
 
 
@@ -67,7 +67,7 @@ releases:
     releaseDate: 2024-10-23
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/121456
+    link: https://support.apple.com/121456
     supportedIpadOsVersions: "18 - 26"
 
   - releaseCycle: "pro-7-11"
@@ -75,7 +75,7 @@ releases:
     releaseDate: 2024-05-15
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/119892
+    link: https://support.apple.com/119892
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "pro-7-13"
@@ -83,7 +83,7 @@ releases:
     releaseDate: 2024-05-15
     discontinued: false
     eol: false
-    latestLink: https://support.apple.com/119891
+    link: https://support.apple.com/119891
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "air-6-11"
@@ -91,7 +91,7 @@ releases:
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
-    latestLink: https://support.apple.com/119894
+    link: https://support.apple.com/119894
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "air-6-13"
@@ -99,7 +99,7 @@ releases:
     releaseDate: 2024-05-15
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
-    latestLink: https://support.apple.com/119893
+    link: https://support.apple.com/119893
     supportedIpadOsVersions: "17 - 26"
 
   - releaseCycle: "10"
@@ -107,7 +107,7 @@ releases:
     releaseDate: 2022-10-26
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_(10th_generation)
     eol: false
-    latestLink: https://support.apple.com/kb/SP884
+    link: https://support.apple.com/kb/SP884
     supportedIpadOsVersions: "16 - 26"
 
   - releaseCycle: "pro-6"
@@ -115,7 +115,7 @@ releases:
     releaseDate: 2022-10-26
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_Pro_(6th_generation)
     eol: false
-    latestLink: https://support.apple.com/kb/SP844
+    link: https://support.apple.com/kb/SP844
     supportedIpadOsVersions: "16 - 26"
 
   - releaseCycle: "air-5"
@@ -123,7 +123,7 @@ releases:
     releaseDate: 2022-03-18
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_Air_(5th_generation)
     eol: false
-    latestLink: https://support.apple.com/kb/SP866
+    link: https://support.apple.com/kb/SP866
     supportedIpadOsVersions: "15 - 26"
 
   - releaseCycle: "9"
@@ -131,7 +131,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_(9th_generation)
     eol: false
-    latestLink: https://support.apple.com/kb/SP849
+    link: https://support.apple.com/kb/SP849
     supportedIpadOsVersions: "15 - 26"
 
   - releaseCycle: "mini-6"
@@ -139,7 +139,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2024-10-15 # https://en.wikipedia.org/wiki/IPad_Mini_(6th_generation)
     eol: false
-    latestLink: https://support.apple.com/kb/SP850
+    link: https://support.apple.com/kb/SP850
     supportedIpadOsVersions: "15 - 26"
 
   - releaseCycle: "pro-5-12"
@@ -147,7 +147,7 @@ releases:
     releaseDate: 2021-05-21
     discontinued: 2022-10-18
     eol: false
-    latestLink: https://support.apple.com/kb/SP844
+    link: https://support.apple.com/kb/SP844
     supportedIpadOsVersions: "14 - 26"
 
   - releaseCycle: "air-4"
@@ -155,7 +155,7 @@ releases:
     releaseDate: 2020-10-23
     discontinued: 2022-03-08
     eol: 2027-09-15 # 3-year support expected
-    latestLink: https://support.apple.com/kb/SP828
+    link: https://support.apple.com/kb/SP828
     supportedIpadOsVersions: "14 - 26"
 
   - releaseCycle: "8"
@@ -163,7 +163,7 @@ releases:
     releaseDate: 2020-09-18
     discontinued: 2021-09-14
     eol: false
-    latestLink: https://support.apple.com/kb/SP822
+    link: https://support.apple.com/kb/SP822
     supportedIpadOsVersions: "14 - 26"
 
   - releaseCycle: "pro-4-12"
@@ -171,7 +171,7 @@ releases:
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
-    latestLink: https://support.apple.com/kb/SP815
+    link: https://support.apple.com/kb/SP815
     supportedIpadOsVersions: "13 - 26"
 
   - releaseCycle: "pro-4-11"
@@ -179,7 +179,7 @@ releases:
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
-    latestLink: https://support.apple.com/111842
+    link: https://support.apple.com/111842
     supportedIpadOsVersions: "13 - 26"
 
   - releaseCycle: "pro-2-11"
@@ -187,7 +187,7 @@ releases:
     releaseDate: 2020-03-01
     discontinued: 2021-04-01
     eol: false
-    latestLink: https://support.apple.com/en-us/118452
+    link: https://support.apple.com/en-us/118452
     supportedIpadOsVersions: "10 - 26"
 
   - releaseCycle: "7"
@@ -195,7 +195,7 @@ releases:
     releaseDate: 2019-09-25
     discontinued: 2020-09-15
     eol: false
-    latestLink: https://support.apple.com/kb/SP807
+    link: https://support.apple.com/kb/SP807
     supportedIpadOsVersions: "13 - 18"
 
   - releaseCycle: "mini-5"
@@ -203,7 +203,7 @@ releases:
     releaseDate: 2019-03-18
     discontinued: 2021-09-14
     eol: false
-    latestLink: https://support.apple.com/kb/SP788
+    link: https://support.apple.com/kb/SP788
     supportedIpadOsVersions: "12- 26"
 
   - releaseCycle: "air-3"
@@ -211,7 +211,7 @@ releases:
     releaseDate: 2019-03-18
     discontinued: 2021-09-15
     eol: false
-    latestLink: https://support.apple.com/kb/SP787
+    link: https://support.apple.com/kb/SP787
     supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "pro-3-11"
@@ -219,7 +219,7 @@ releases:
     releaseDate: 2018-11-07
     discontinued: 2020-03-18
     eol: false
-    latestLink: https://support.apple.com/111897
+    link: https://support.apple.com/111897
     supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "pro-3-12"
@@ -227,7 +227,7 @@ releases:
     releaseDate: 2018-11-07
     discontinued: 2020-03-18
     eol: false
-    latestLink: https://support.apple.com/kb/SP785
+    link: https://support.apple.com/kb/SP785
     supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "pro-1-11"
@@ -235,7 +235,7 @@ releases:
     releaseDate: 2018-11-01
     discontinued: 2020-03-01
     eol: false
-    latestLink: https://support.apple.com/en-us/111974
+    link: https://support.apple.com/en-us/111974
     supportedIpadOsVersions: "9 - 26"
 
   - releaseCycle: "6"
@@ -243,7 +243,7 @@ releases:
     releaseDate: 2018-03-27
     discontinued: 2019-09-10
     eol: false
-    latestLink: https://support.apple.com/kb/SP774
+    link: https://support.apple.com/kb/SP774
     supportedIpadOsVersions: "11 - 17"
 
   - releaseCycle: "pro-1-10"
@@ -251,7 +251,7 @@ releases:
     releaseDate: 2017-06-13
     discontinued: 2018-11-01
     eol: 2026-09-17 # 3-year support expected for iPadOS 17
-    latestLink: https://support.apple.com/en-us/111927
+    link: https://support.apple.com/en-us/111927
     supportedIpadOsVersions: "9 - 17"
 
   - releaseCycle: "pro-2-12"
@@ -259,7 +259,7 @@ releases:
     releaseDate: 2017-06-05
     discontinued: 2018-10-30
     eol: 2026-09-17 # 3-year support expected for iPadOS 17
-    latestLink: https://support.apple.com/en-us/111964
+    link: https://support.apple.com/en-us/111964
     supportedIpadOsVersions: "10 - 17"
 
   - releaseCycle: "5"
@@ -267,7 +267,7 @@ releases:
     releaseDate: 2017-03-24
     discontinued: 2018-03-27
     eol: 2025-03-31
-    latestLink: https://support.apple.com/kb/SP751
+    link: https://support.apple.com/kb/SP751
     supportedIpadOsVersions: "10 - 16"
 
   - releaseCycle: "pro-1-9"
@@ -275,7 +275,7 @@ releases:
     releaseDate: 2016-03-21
     discontinued: 2017-06-05
     eol: 2025-03-31
-    latestLink: https://support.apple.com/en-us/111965
+    link: https://support.apple.com/en-us/111965
     supportedIpadOsVersions: "9 - 16"
 
   - releaseCycle: "pro-1-12"
@@ -283,7 +283,7 @@ releases:
     releaseDate: 2015-11-11
     discontinued: 2017-06-05
     eol: 2025-03-31
-    latestLink: https://support.apple.com/en-us/112024
+    link: https://support.apple.com/en-us/112024
     supportedIpadOsVersions: "9 - 16"
 
   - releaseCycle: "mini-4"
@@ -291,7 +291,7 @@ releases:
     releaseDate: 2015-09-09
     discontinued: 2019-03-18
     eol: 2025-03-31
-    latestLink: https://support.apple.com/kb/SP725
+    link: https://support.apple.com/kb/SP725
     supportedIpadOsVersions: "9 - 15"
 
   - releaseCycle: "mini-3"
@@ -299,7 +299,7 @@ releases:
     releaseDate: 2014-10-22
     discontinued: 2015-09-09
     eol: 2023-01-23
-    latestLink: https://support.apple.com/kb/SP709
+    link: https://support.apple.com/kb/SP709
     supportedIpadOsVersions: "8 - 12"
 
   - releaseCycle: "air-2"
@@ -307,7 +307,7 @@ releases:
     releaseDate: 2014-10-22
     discontinued: 2017-03-21
     eol: 2024-09-16
-    latestLink: https://support.apple.com/kb/SP708
+    link: https://support.apple.com/kb/SP708
     supportedIpadOsVersions: "8 - 15"
 
   - releaseCycle: "mini-2"
@@ -315,7 +315,7 @@ releases:
     releaseDate: 2013-11-12
     discontinued: 2017-03-21
     eol: 2023-01-23
-    latestLink: https://support.apple.com/kb/SP693
+    link: https://support.apple.com/kb/SP693
     supportedIpadOsVersions: "7 - 12"
 
   - releaseCycle: "air-1"
@@ -323,7 +323,7 @@ releases:
     releaseDate: 2013-11-01
     discontinued: 2016-03-21
     eol: 2023-01-23
-    latestLink: https://support.apple.com/kb/SP692
+    link: https://support.apple.com/kb/SP692
     supportedIpadOsVersions: "7 - 12"
 
   - releaseCycle: "mini-1"
@@ -331,7 +331,7 @@ releases:
     releaseDate: 2012-11-02
     discontinued: 2015-06-19
     eol: 2019-07-22
-    latestLink: https://support.apple.com/kb/SP661
+    link: https://support.apple.com/kb/SP661
     supportedIpadOsVersions: "6 - 9"
 
   - releaseCycle: "4"
@@ -339,7 +339,7 @@ releases:
     releaseDate: 2012-11-02
     discontinued: 2014-10-16
     eol: 2019-07-22
-    latestLink: https://support.apple.com/kb/SP662
+    link: https://support.apple.com/kb/SP662
     supportedIpadOsVersions: "6 - 10"
 
   - releaseCycle: "3"
@@ -347,7 +347,7 @@ releases:
     releaseDate: 2012-03-16
     discontinued: 2012-10-23
     eol: 2019-07-22
-    latestLink: https://support.apple.com/kb/SP647
+    link: https://support.apple.com/kb/SP647
     supportedIpadOsVersions: "5 - 9"
 
   - releaseCycle: "2"
@@ -355,7 +355,7 @@ releases:
     releaseDate: 2011-03-11
     discontinued: 2014-03-18
     eol: 2019-07-22
-    latestLink: https://support.apple.com/kb/sp622
+    link: https://support.apple.com/kb/sp622
     supportedIpadOsVersions: "4 - 9"
 
   - releaseCycle: "1"
@@ -363,7 +363,7 @@ releases:
     releaseDate: 2010-04-03
     discontinued: 2011-03-02
     eol: 2012-09-19
-    latestLink: https://support.apple.com/kb/SP580
+    link: https://support.apple.com/kb/SP580
     supportedIpadOsVersions: "3 - 5"
 ---
 

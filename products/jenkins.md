@@ -6,7 +6,7 @@ tags: java-runtime linux-foundation
 iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
-latestLinkTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
+changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
 eolColumn: Support
 
 identifiers:
@@ -35,119 +35,119 @@ releases:
     releaseDate: 2016-04-20
     eol: false
     latest: "2.562"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "2.541"
     releaseDate: 2025-12-10
     lts: 2026-01-21
     eol: false
     latest: "2.541.3"
-    latestDate: 2026-03-16
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "2.528"
     releaseDate: 2025-09-17
     lts: 2025-10-15
     eol: 2026-01-21
     latest: "2.528.3"
-    latestDate: 2025-12-08
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "2.516"
     releaseDate: 2025-06-24
     lts: 2025-07-23
     eol: 2025-10-15
     latest: "2.516.3"
-    latestDate: 2025-09-15
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "2.504"
     releaseDate: 2025-03-31
     lts: 2025-04-30
     eol: 2025-07-23
     latest: "2.504.3"
-    latestDate: 2025-06-25
+    latestReleaseDate: 2025-06-25
 
   - releaseCycle: "2.492"
     releaseDate: 2025-01-07
     lts: 2025-02-05
     eol: 2025-04-30
     latest: "2.492.3"
-    latestDate: 2025-03-31
+    latestReleaseDate: 2025-03-31
 
   - releaseCycle: "2.479"
     releaseDate: 2024-09-27
     lts: 2024-10-30
     eol: 2025-02-05
     latest: "2.479.3"
-    latestDate: 2025-01-08
+    latestReleaseDate: 2025-01-08
 
   - releaseCycle: "2.462"
     releaseDate: 2024-06-10
     lts: 2024-08-07
     eol: 2024-10-02
     latest: "2.462.3"
-    latestDate: 2024-09-19
+    latestReleaseDate: 2024-09-19
 
   - releaseCycle: "2.452"
     releaseDate: 2024-04-02
     lts: 2024-05-15
     eol: 2024-08-07
     latest: "2.452.4"
-    latestDate: 2024-08-05
+    latestReleaseDate: 2024-08-05
 
   - releaseCycle: "2.440"
     releaseDate: 2024-01-10
     lts: 2024-02-21
     eol: 2024-05-15
     latest: "2.440.3"
-    latestDate: 2024-04-17
+    latestReleaseDate: 2024-04-17
 
   - releaseCycle: "2.426"
     releaseDate: 2023-10-03
     lts: 2023-11-15
     eol: 2024-02-21
     latest: "2.426.3"
-    latestDate: 2024-01-22
+    latestReleaseDate: 2024-01-22
 
   - releaseCycle: "2.414"
     releaseDate: 2023-07-11
     lts: 2023-08-23
     eol: 2023-11-15
     latest: "2.414.3"
-    latestDate: 2023-10-18
+    latestReleaseDate: 2023-10-18
 
   - releaseCycle: "2.401"
     releaseDate: 2023-04-18
     lts: 2023-05-31
     eol: 2023-08-23
     latest: "2.401.3"
-    latestDate: 2023-07-24
+    latestReleaseDate: 2023-07-24
 
   - releaseCycle: "2.387"
     releaseDate: 2023-01-17
     lts: 2023-03-08
     eol: 2023-05-31
     latest: "2.387.3"
-    latestDate: 2023-05-03
+    latestReleaseDate: 2023-05-03
 
   - releaseCycle: "2.375"
     releaseDate: 2022-10-25
     lts: 2022-11-30
     eol: 2023-03-08
     latest: "2.375.4"
-    latestDate: 2023-03-06
+    latestReleaseDate: 2023-03-06
 
   - releaseCycle: "2.361"
     releaseDate: 2022-07-26
     lts: 2022-09-07
     eol: 2022-11-30
     latest: "2.361.4"
-    latestDate: 2022-11-14
+    latestReleaseDate: 2022-11-14
 
   - releaseCycle: "2.346"
     releaseDate: 2022-05-03
     lts: 2022-06-22
     eol: 2022-09-07
     latest: "2.346.3"
-    latestDate: 2022-08-10
+    latestReleaseDate: 2022-08-10
 
 ---
 

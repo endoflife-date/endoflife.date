@@ -7,7 +7,7 @@ iconSlug: nuxt
 permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
-latestLinkTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Maintenance Support
 eoesColumn: Commercial Support
@@ -41,14 +41,14 @@ releases:
     eoas: false
     eol: false
     latest: "4.4.4"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "3"
     releaseDate: 2022-11-16
     eoas: 2025-07-16
     eol: 2026-07-31
     latest: "3.21.4"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "2"
     releaseDate: 2018-09-21
@@ -56,14 +56,14 @@ releases:
     eol: 2024-06-30
     eoes: false
     latest: "2.18.1"
-    latestDate: 2024-06-28
+    latestReleaseDate: 2024-06-28
 
   - releaseCycle: "1"
     releaseDate: 2018-01-08
     eoas: 2018-09-21
     eol: 2019-09-21
     latest: "1.4.5"
-    latestDate: 2018-11-27
+    latestReleaseDate: 2018-11-27
 
 ---
 

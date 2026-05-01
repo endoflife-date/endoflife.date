@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 permalink: /backdrop
 releasePolicyLink: https://backdropcms.org/releases
-latestLinkTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
+changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:backdropcms:backdrop_cms
@@ -20,43 +20,43 @@ releases:
     releaseDate: 2026-01-16
     eol: false
     latest: "1.33.2"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "1.32"
     releaseDate: 2025-09-16
     eol: false
     latest: "1.32.3"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "1.31"
     releaseDate: 2025-05-15
     eol: 2026-01-16
     latest: "1.31.2"
-    latestDate: 2025-10-07
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "1.30"
     releaseDate: 2025-01-15
     eol: 2025-09-16
     latest: "1.30.3"
-    latestDate: 2025-05-15
+    latestReleaseDate: 2025-05-15
 
   - releaseCycle: "1.29"
     releaseDate: 2024-09-15
     eol: 2025-05-15
     latest: "1.29.5"
-    latestDate: 2025-03-20
+    latestReleaseDate: 2025-03-20
 
   - releaseCycle: "1.28"
     releaseDate: 2024-05-15
     eol: 2025-01-15
     latest: "1.28.5"
-    latestDate: 2025-01-08
+    latestReleaseDate: 2025-01-08
 
   - releaseCycle: "1.27"
     releaseDate: 2024-01-15
     eol: 2024-09-15
     latest: "1.27.3"
-    latestDate: 2024-07-03
+    latestReleaseDate: 2024-07-03
 
 ---
 

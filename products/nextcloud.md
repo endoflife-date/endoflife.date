@@ -7,7 +7,7 @@ iconSlug: nextcloud
 permalink: /nextcloud
 versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
-latestLinkTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
+changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
 identifiers:
   - cpe: cpe:2.3:a:nextcloud:nextcloud_server
@@ -27,151 +27,151 @@ releases:
     releaseDate: 2026-02-18
     eol: 2027-02-28
     latest: "33.0.3"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "32"
     releaseDate: 2025-09-27
     eol: 2026-09-30
     latest: "32.0.9"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "31"
     releaseDate: 2025-02-25
     eol: 2026-02-28
     latest: "31.0.14"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "30"
     releaseDate: 2024-09-11
     eol: 2025-10-31
     latest: "30.0.17"
-    latestDate: 2025-10-23
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "29"
     releaseDate: 2024-04-24
     eol: 2025-04-30
     latest: "29.0.16"
-    latestDate: 2025-04-17
+    latestReleaseDate: 2025-04-17
 
   - releaseCycle: "28"
     releaseDate: 2023-12-12
     eol: 2024-12-31
     latest: "28.0.14"
-    latestDate: 2024-12-12
+    latestReleaseDate: 2024-12-12
 
   - releaseCycle: "27"
     releaseDate: 2023-06-13
     eol: 2024-06-30
     latest: "27.1.11"
-    latestDate: 2024-06-25
+    latestReleaseDate: 2024-06-25
 
   - releaseCycle: "26"
     releaseDate: 2023-03-21
     eol: 2024-03-31
     latest: "26.0.13"
-    latestDate: 2024-03-28
+    latestReleaseDate: 2024-03-28
 
   - releaseCycle: "25"
     releaseDate: 2022-10-19
     eol: 2023-10-31
     latest: "25.0.13"
-    latestDate: 2023-10-26
+    latestReleaseDate: 2023-10-26
 
   - releaseCycle: "24"
     releaseDate: 2022-05-03
     eol: 2023-04-30
     latest: "24.0.12"
-    latestDate: 2023-04-19
+    latestReleaseDate: 2023-04-19
 
   - releaseCycle: "23"
     releaseDate: 2021-11-30
     eol: 2022-12-31
     latest: "23.0.12"
-    latestDate: 2022-12-08
+    latestReleaseDate: 2022-12-08
 
   - releaseCycle: "22"
     releaseDate: 2021-07-06
     eol: 2022-07-31
     latest: "22.2.10"
-    latestDate: 2022-07-18
+    latestReleaseDate: 2022-07-18
 
   - releaseCycle: "21"
     releaseDate: 2021-02-22
     eol: 2022-02-28
     latest: "21.0.9"
-    latestDate: 2022-02-15
+    latestReleaseDate: 2022-02-15
 
   - releaseCycle: "20"
     releaseDate: 2020-10-03
     eol: 2021-11-30
     latest: "20.0.14"
-    latestDate: 2021-11-11
+    latestReleaseDate: 2021-11-11
 
   - releaseCycle: "19"
     releaseDate: 2020-06-03
     eol: 2021-06-30
     latest: "19.0.13"
-    latestDate: 2021-07-01
+    latestReleaseDate: 2021-07-01
 
   - releaseCycle: "18"
     releaseDate: 2020-01-16
     eol: 2021-01-31
     latest: "18.0.14"
-    latestDate: 2021-01-25
+    latestReleaseDate: 2021-01-25
 
   - releaseCycle: "17"
     releaseDate: 2019-09-30
     eol: 2020-10-31
     latest: "17.0.10"
-    latestDate: 2020-10-08
+    latestReleaseDate: 2020-10-08
 
   - releaseCycle: "16"
     releaseDate: 2019-04-25
     eol: 2020-06-30
     latest: "16.0.11"
-    latestDate: 2020-06-04
+    latestReleaseDate: 2020-06-04
 
   - releaseCycle: "15"
     releaseDate: 2018-12-10
     eol: 2019-12-31
     latest: "15.0.14"
-    latestDate: 2019-12-19
+    latestReleaseDate: 2019-12-19
 
   - releaseCycle: "14"
     releaseDate: 2018-09-10
     eol: 2019-09-30
     latest: "14.0.14"
-    latestDate: 2019-08-14
+    latestReleaseDate: 2019-08-14
 
   - releaseCycle: "13"
     releaseDate: 2018-02-06
     eol: 2019-02-28
     latest: "13.0.12"
-    latestDate: 2019-02-27
+    latestReleaseDate: 2019-02-27
 
   - releaseCycle: "12"
     releaseDate: 2017-05-22
     eol: 2018-11-30
     latest: "12.0.13"
-    latestDate: 2018-11-22
+    latestReleaseDate: 2018-11-22
 
   - releaseCycle: "11"
     releaseDate: 2016-12-13
     eol: 2018-03-31
     latest: "11.0.8"
-    latestDate: 2018-03-13
+    latestReleaseDate: 2018-03-13
 
   - releaseCycle: "10"
     releaseDate: 2016-08-25
     eol: 2017-08-31
     latest: "10.0.6"
-    latestDate: 2017-08-06
+    latestReleaseDate: 2017-08-06
 
   - releaseCycle: "9"
     releaseDate: 2016-08-03
     eol: 2017-08-31
     latest: "9.1.3"
-    latestDate: 2016-12-12
+    latestReleaseDate: 2016-12-12
 
 ---
 

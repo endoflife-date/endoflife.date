@@ -5,7 +5,7 @@ category: lang
 tags: java-distribution oracle
 permalink: /oracle-graalvm
 releasePolicyLink: https://docs.oracle.com/en/graalvm/support-roadmap.html
-latestLinkTemplate: https://docs.oracle.com/en/graalvm/jdk/__RELEASE_CYCLE__/docs/release-notes/
+changelogTemplate: https://docs.oracle.com/en/graalvm/jdk/__RELEASE_CYCLE__/docs/release-notes/
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
@@ -32,25 +32,25 @@ releases:
     eol: 2030-09-30
     eoes: 2033-09-30
     latest: "25.0.3"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "24"
     releaseDate: 2025-03-18
     eol: 2025-09-30
     latest: "24.0.2"
-    latestDate: 2025-07-15
+    latestReleaseDate: 2025-07-15
 
   - releaseCycle: "23"
     releaseDate: 2024-09-17
     eol: 2025-03-31
     latest: "23.0.2"
-    latestDate: 2025-01-21
+    latestReleaseDate: 2025-01-21
 
   - releaseCycle: "22"
     releaseDate: 2024-03-19
     eol: 2024-09-17
     latest: "22.0.2"
-    latestDate: 2024-07-16
+    latestReleaseDate: 2024-07-16
 
   - releaseCycle: "21"
     lts: true
@@ -58,13 +58,13 @@ releases:
     eol: 2028-09-30
     eoes: 2031-09-30
     latest: "21.0.11"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "20"
     releaseDate: 2023-06-13
     eol: 2023-09-19
     latest: "20.0.2"
-    latestDate: 2023-07-25
+    latestReleaseDate: 2023-07-25
 
   - releaseCycle: "17"
     lts: true
@@ -72,7 +72,7 @@ releases:
     eol: 2026-09-30
     eoes: 2029-09-30
     latest: "17.0.19"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
 ---
 

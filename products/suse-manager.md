@@ -10,7 +10,7 @@ alternate_urls:
   - /suse-mlm
 versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/support/policy-products/#manager
-latestLinkTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
 eoesColumn: <abbr title="Long Term Support">LTS</abbr>
 
@@ -21,14 +21,14 @@ releases:
     releaseDate: 2025-07-31
     eol: 2027-07-31
     latest: "5.1.2"
-    latestDate: 2026-02-27
-    latestLink: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
+    latestReleaseDate: 2026-02-27
+    link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.0"
     releaseDate: 2024-07-16
     eol: 2026-06-30
     latest: "5.0.7"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.3"
     releaseDate: 2022-06-20
@@ -36,55 +36,55 @@ releases:
     eoes: 2026-07-31
     lts: true
     latest: "4.3.17"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "4.2"
     releaseDate: 2021-06-21
     eol: 2023-10-31
     latest: "4.2.14"
-    latestDate: 2023-08-29
+    latestReleaseDate: 2023-08-29
 
   - releaseCycle: "4.1"
     releaseDate: 2020-07-21
     eol: 2022-10-31
     latest: "4.1.15"
-    latestDate: 2022-06-20
+    latestReleaseDate: 2022-06-20
 
   - releaseCycle: "4.0"
     releaseDate: 2019-06-26
     eol: 2021-06-30
     latest: "4.0.14"
-    latestDate: 2021-06-22
+    latestReleaseDate: 2021-06-22
 
   - releaseCycle: "3.2"
     releaseDate: 2018-06-25
     eol: 2020-09-30
     latest: "3.2.15"
-    latestDate: 2020-08-19
+    latestReleaseDate: 2020-08-19
 
   - releaseCycle: "3.1"
     releaseDate: 2017-06-27
     eol: 2019-06-30
     latest: "3.1.11"
-    latestDate: 2019-06-30 # https://web.archive.org/web/20190407030446/https://www.suse.com/lifecycle/
+    latestReleaseDate: 2019-06-30 # https://web.archive.org/web/20190407030446/https://www.suse.com/lifecycle/
 
   - releaseCycle: "3.0"
     releaseDate: 2016-04-05
     eol: 2018-10-31 # https://web.archive.org/web/20190808082538/https://www.suse.com/lifecycle/
     latest: "3.0.12"
-    latestDate: 2018-06-01
+    latestReleaseDate: 2018-06-01
 
   - releaseCycle: "2.1"
     releaseDate: 2014-06-02
     eol: 2017-01-31 # https://web.archive.org/web/20170318160650/https://www.suse.com/lifecycle/
     latest: "2.1.19"
-    latestDate: 2016-10-31
+    latestReleaseDate: 2016-10-31
 
   - releaseCycle: "1.7"
     releaseDate: 2012-08-09
     eol: 2015-06-30 # https://web.archive.org/web/20170318160650/https://www.suse.com/lifecycle/
     latest: "1.7.6"
-    latestDate: 2013-08-26
+    latestReleaseDate: 2013-08-26
 ---
 
 > [SUSE Multi-Linux Manager](https://www.suse.com/products/multi-linux-manager/), formerly known as SUSE Manager, is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment.
@@ -95,7 +95,7 @@ releases:
 > This page tracks SUSE Multi-Linux Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years.
+SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years. 
 SUSE supports each SUSE Multi-Linux Manager release for three years.
 
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.
@@ -104,5 +104,5 @@ SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Ma
 
 There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
 
-An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3),
-which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription.
+An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3), 
+which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription. 

@@ -58,8 +58,8 @@ layout: default
     {%- if r.is_eol %}{% assign cycleColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ cycleColumnClass }}">
       {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-      {% if page.latestColumn == false and r.latestLink  %}
-        <a href="{{ r.latestLink }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
+      {% if page.latestColumn == false and r.link  %}
+        <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
       {% else %}
         {{ r.label }}
       {% endif %}
@@ -137,12 +137,12 @@ layout: default
     {%- assign latestColumnClass = '' %}
     {%- if r.is_eol %}{% assign latestColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ latestColumnClass }}">
-      {% if r.latestLink %}
-        <a href="{{ r.latestLink }}" title="Release Notes / Changelog">{{ r.latest }}</a>
+      {% if r.link %}
+        <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
       {% else %}
         {{ r.latest }}
       {% endif %}
-      {% if r.latestDate %}<div>({{ r.latestDate | date_to_string }})</div>{% endif %}
+      {% if r.latestReleaseDate %}<div>({{ r.latestReleaseDate | date_to_string }})</div>{% endif %}
     </td>
     {% endif %}
 

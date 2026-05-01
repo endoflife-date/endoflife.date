@@ -6,7 +6,7 @@ iconSlug: tarteaucitron
 tags: javascript-runtime
 permalink: /tarteaucitron
 releasePolicyLink: https://github.com/AmauriC/tarteaucitron.js?tab=security-ov-file
-latestLinkTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -23,7 +23,7 @@ releases:
     releaseDate: 2018-08-28
     eol: false
     latest: "1.32.0"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
 ---
 

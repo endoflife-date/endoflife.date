@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: moodle
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
-latestLinkTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
+changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 eoasColumn: true
 
 customFields:
@@ -14,7 +14,7 @@ customFields:
     display: api-only
     label: PHP
     description: Supported PHP versions
-    latestLink: https://moodledev.io/general/development/policies/php
+    link: https://moodledev.io/general/development/policies/php
 
 identifiers:
   - repology: moodle
@@ -42,7 +42,7 @@ releases:
     eol: 2027-10-04
     supportedPhpVersions: 8.2 - 8.4
     latest: "5.2.0"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "5.1"
     releaseDate: 2025-10-06
@@ -50,7 +50,7 @@ releases:
     eol: 2027-04-19
     supportedPhpVersions: 8.2 - 8.4
     latest: "5.1.4"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "5.0"
     releaseDate: 2025-04-14
@@ -58,7 +58,7 @@ releases:
     eol: 2026-10-05
     supportedPhpVersions: 8.1 - 8.4
     latest: "5.0.7"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "4.5"
     lts: true
@@ -67,7 +67,7 @@ releases:
     eol: 2027-10-04
     supportedPhpVersions: 8.1 - 8.3
     latest: "4.5.11"
-    latestDate: 2026-04-16
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "4.4"
     releaseDate: 2024-04-22
@@ -75,7 +75,7 @@ releases:
     eol: 2025-12-08
     supportedPhpVersions: 8.1 - 8.3
     latest: "4.4.12"
-    latestDate: 2025-12-07
+    latestReleaseDate: 2025-12-07
 
   - releaseCycle: "4.3"
     releaseDate: 2023-10-07
@@ -83,7 +83,7 @@ releases:
     eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
     latest: "4.3.12"
-    latestDate: 2025-04-13
+    latestReleaseDate: 2025-04-13
 
   - releaseCycle: "4.2"
     releaseDate: 2023-04-22
@@ -91,7 +91,7 @@ releases:
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
     latest: "4.2.11"
-    latestDate: 2024-10-05
+    latestReleaseDate: 2024-10-05
 
   - releaseCycle: "4.1"
     lts: true
@@ -100,7 +100,7 @@ releases:
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
     latest: "4.1.22"
-    latestDate: 2025-12-07
+    latestReleaseDate: 2025-12-07
 
   - releaseCycle: "4.0"
     releaseDate: 2022-04-17
@@ -108,7 +108,7 @@ releases:
     eol: 2023-11-13
     supportedPhpVersions: 7.3 - 8.0
     latest: "4.0.12"
-    latestDate: 2023-12-08
+    latestReleaseDate: 2023-12-08
 
   - releaseCycle: "3.11"
     releaseDate: 2021-05-15
@@ -116,7 +116,7 @@ releases:
     eol: 2023-11-13
     supportedPhpVersions: 7.3 - 8.0
     latest: "3.11.18"
-    latestDate: 2023-12-08
+    latestReleaseDate: 2023-12-08
 
   - releaseCycle: "3.10"
     releaseDate: 2020-11-07
@@ -124,7 +124,7 @@ releases:
     eol: 2022-05-09
     supportedPhpVersions: 7.2 - 7.4
     latest: "3.10.11"
-    latestDate: 2022-05-07
+    latestReleaseDate: 2022-05-07
 
   - releaseCycle: "3.9"
     lts: true
@@ -133,7 +133,7 @@ releases:
     eol: 2023-11-13
     supportedPhpVersions: 7.2 - 7.4
     latest: "3.9.25"
-    latestDate: 2023-12-08
+    latestReleaseDate: 2023-12-08
 
   - releaseCycle: "3.8"
     releaseDate: 2019-11-16
@@ -141,7 +141,7 @@ releases:
     eol: 2021-05-10
     supportedPhpVersions: 7.1 - 7.4
     latest: "3.8.9"
-    latestDate: 2021-05-08
+    latestReleaseDate: 2021-05-08
 
 ---
 

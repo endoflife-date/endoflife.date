@@ -6,7 +6,7 @@ tags: elastic
 iconSlug: logstash
 permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy
-latestLinkTemplate: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
+changelogTemplate: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
 eolColumn: Support
 
 identifiers:
@@ -24,60 +24,60 @@ releases:
     releaseDate: 2026-02-03
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.3.4"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.2.8"
-    latestDate: 2026-03-31
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-22
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.10"
-    latestDate: 2026-01-07
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-14
     eol: 2027-07-15
     latest: "8.19.15"
-    latestDate: 2026-04-21
-    latestLink: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}}.html
+    latestReleaseDate: 2026-04-21
+    link: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09
     eol: 2025-10-21
     latest: "8.18.8"
-    latestDate: 2025-09-30
-    latestLink: https://www.elastic.co/guide/en/logstash/8.18/logstash-{{'__LATEST__'|replace:'.','-'}}.html
+    latestReleaseDate: 2025-09-30
+    link: https://www.elastic.co/guide/en/logstash/8.18/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "9.0"
     releaseDate: 2025-03-17
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.0.8"
-    latestDate: 2025-09-30
+    latestReleaseDate: 2025-09-30
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-04
     eol: 2025-07-14
     latest: "8.17.10"
-    latestDate: 2025-08-06
-    latestLink: https://www.elastic.co/guide/en/logstash/8.17/logstash-8-17-10.html
+    latestReleaseDate: 2025-08-06
+    link: https://www.elastic.co/guide/en/logstash/8.17/logstash-8-17-10.html
 
   - releaseCycle: "7"
     releaseDate: 2019-04-05
     eol: 2026-01-15
     latest: "7.17.29"
-    latestDate: 2025-04-10
-    latestLink: https://www.elastic.co/guide/en/logstash/7.17/logstash-7-17-29.html
+    latestReleaseDate: 2025-04-10
+    link: https://www.elastic.co/guide/en/logstash/7.17/logstash-7-17-29.html
 
   - releaseCycle: "6"
     releaseDate: 2017-11-08
     eol: 2022-02-10
     latest: "6.8.23"
-    latestDate: 2022-01-13
-    latestLink: https://www.elastic.co/guide/en/logstash/6.8/logstash-6-8-23.html
+    latestReleaseDate: 2022-01-13
+    link: https://www.elastic.co/guide/en/logstash/6.8/logstash-6-8-23.html
 
 ---
 

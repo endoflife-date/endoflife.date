@@ -6,7 +6,7 @@ iconSlug: gstreamer
 permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
-latestLinkTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
+changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
 eolColumn: Supported
 
 identifiers:
@@ -26,97 +26,97 @@ releases:
     releaseDate: 2026-01-27
     eol: false
     latest: "1.28.2"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "1.26"
     releaseDate: 2025-03-11
     eol: false
     latest: "1.26.11"
-    latestDate: 2026-03-10
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "1.24"
     releaseDate: 2024-03-04
     eol: false
     latest: "1.24.13"
-    latestDate: 2025-06-11
+    latestReleaseDate: 2025-06-11
 
   - releaseCycle: "1.22"
     releaseDate: 2023-01-23
     eol: true
     latest: "1.22.12"
-    latestDate: 2024-04-29
+    latestReleaseDate: 2024-04-29
 
   - releaseCycle: "1.20"
     releaseDate: 2022-02-03
     eol: true
     latest: "1.20.7"
-    latestDate: 2023-07-26
+    latestReleaseDate: 2023-07-26
 
   - releaseCycle: "1.18"
     releaseDate: 2020-09-08
     eol: true
     latest: "1.18.6"
-    latestDate: 2022-02-02
+    latestReleaseDate: 2022-02-02
 
   - releaseCycle: "1.16"
     releaseDate: 2019-04-19
     eol: true
     latest: "1.16.3"
-    latestDate: 2020-10-21
+    latestReleaseDate: 2020-10-21
 
   - releaseCycle: "1.14"
     releaseDate: 2018-03-19
     eol: true
     latest: "1.14.5"
-    latestDate: 2019-05-29
+    latestReleaseDate: 2019-05-29
 
   - releaseCycle: "1.12"
     releaseDate: 2017-05-04
     eol: true
     latest: "1.12.5"
-    latestDate: 2018-03-28
+    latestReleaseDate: 2018-03-28
 
   - releaseCycle: "1.10"
     releaseDate: 2016-11-01
     eol: true
     latest: "1.10.5"
-    latestDate: 2017-06-15
+    latestReleaseDate: 2017-06-15
 
   - releaseCycle: "1.8"
     releaseDate: 2016-03-24
     eol: true
     latest: "1.8.3"
-    latestDate: 2016-08-19
+    latestReleaseDate: 2016-08-19
 
   - releaseCycle: "1.6"
     releaseDate: 2015-09-25
     eol: true
     latest: "1.6.4"
-    latestDate: 2016-04-14
+    latestReleaseDate: 2016-04-14
 
   - releaseCycle: "1.4"
     releaseDate: 2014-07-19
     eol: true
     # no known changelog for this version
-    latestLink: null
+    link: null
     latest: "1.4.5"
-    latestDate: 2014-12-18
+    latestReleaseDate: 2014-12-18
 
   - releaseCycle: "1.2"
     releaseDate: 2013-09-24
     eol: true
     # no known changelog for this version
-    latestLink: null
+    link: null
     latest: "1.2.4"
-    latestDate: 2014-04-18
+    latestReleaseDate: 2014-04-18
 
   - releaseCycle: "1.0"
     releaseDate: 2012-09-24
     eol: true
     # no known changelog for this version
-    latestLink: null
+    link: null
     latest: "1.0.10"
-    latestDate: 2013-08-28
+    latestReleaseDate: 2013-08-28
 
 ---
 

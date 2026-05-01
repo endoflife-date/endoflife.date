@@ -25,43 +25,43 @@ releases:
     releaseDate: 2023-04-21
     eol: false
     latest: "8.18.0"
-    latestDate: 2026-04-10
-    latestLink: https://help.puppet.com/core/8/Content/PuppetCore/PuppetReleaseNotes/release_notes_puppet_x-8-18-0.htm
+    latestReleaseDate: 2026-04-10
+    link: https://help.puppet.com/core/8/Content/PuppetCore/PuppetReleaseNotes/release_notes_puppet_x-8-18-0.htm
 
   - releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: 2025-04-30
     latest: "7.35.0"
-    latestDate: 2025-02-28
-    latestLink: https://www.puppet.com/docs/puppet/7/release_notes_puppet#release_notes_puppet
+    latestReleaseDate: 2025-02-28
+    link: https://www.puppet.com/docs/puppet/7/release_notes_puppet#release_notes_puppet
 
   - releaseCycle: "6"
     releaseDate: 2018-09-18
     eol: 2023-02-01
     latest: "6.29.0"
-    latestDate: 2023-01-24
-    latestLink: https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
+    latestReleaseDate: 2023-01-24
+    link: https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
 
   - releaseCycle: "5"
     releaseDate: 2017-06-27
     eol: 2021-01-01
     latest: "5.5.22"
-    latestDate: 2020-10-09
-    latestLink: https://www.puppet.com/docs/puppet/5.5/release_notes.html
+    latestReleaseDate: 2020-10-09
+    link: https://www.puppet.com/docs/puppet/5.5/release_notes.html
 
   - releaseCycle: "4"
     releaseDate: 2015-04-08
     eol: 2018-10-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "4.10.13"
-    latestDate: 2018-12-19
-    latestLink: https://github.com/puppetlabs/docs-archive/blob/main/puppet/4.10/release_notes.markdown
+    latestReleaseDate: 2018-12-19
+    link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/4.10/release_notes.markdown
 
   - releaseCycle: "3"
     releaseDate: 2012-09-28
     eol: 2017-01-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "3.8.7"
-    latestDate: 2016-04-25
-    latestLink: https://github.com/puppetlabs/docs-archive/blob/main/puppet/3.8/release_notes.markdown
+    latestReleaseDate: 2016-04-25
+    link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/3.8/release_notes.markdown
 ---
 
 > [Puppet](https://www.puppet.com/) is a tool that helps you manage and automate the configuration

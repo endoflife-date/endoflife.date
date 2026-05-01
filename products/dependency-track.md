@@ -7,7 +7,7 @@ iconSlug: owasp
 permalink: /dependency-track
 alternate_urls:
   - /dependencytrack
-latestLinkTemplate: https://docs.dependencytrack.org/changelog/
+changelogTemplate: https://docs.dependencytrack.org/changelog/
 
 identifiers:
   - repology: dependency-track
@@ -24,49 +24,49 @@ releases:
     releaseDate: 2026-03-09
     eol: false # releaseDate(4.15)
     latest: "4.14.1"
-    latestDate: 2026-04-03
+    latestReleaseDate: 2026-04-03
 
   - releaseCycle: "4.13"
     releaseDate: 2025-04-07
     eol: 2026-03-09
     latest: "4.13.6"
-    latestDate: 2025-11-17
+    latestReleaseDate: 2025-11-17
 
   - releaseCycle: "4.12"
     releaseDate: 2024-10-01
     eol: 2025-04-07
     latest: "4.12.7"
-    latestDate: 2025-03-12
+    latestReleaseDate: 2025-03-12
 
   - releaseCycle: "4.11"
     releaseDate: 2024-05-07
     eol: 2024-10-01
     latest: "4.11.7"
-    latestDate: 2024-08-14
+    latestReleaseDate: 2024-08-14
 
   - releaseCycle: "4.10"
     releaseDate: 2023-12-08
     eol: 2024-05-07
     latest: "4.10.1"
-    latestDate: 2023-12-19
+    latestReleaseDate: 2023-12-19
 
   - releaseCycle: "4.9"
     releaseDate: 2023-10-16
     eol: 2023-12-08
     latest: "4.9.1"
-    latestDate: 2023-10-30
+    latestReleaseDate: 2023-10-30
 
   - releaseCycle: "4.8"
     releaseDate: 2023-04-18
     eol: 2023-10-16
     latest: "4.8.2"
-    latestDate: 2023-05-16
+    latestReleaseDate: 2023-05-16
 
   - releaseCycle: "4.7"
     releaseDate: 2022-12-16
     eol: 2023-04-18
     latest: "4.7.1"
-    latestDate: 2023-01-31
+    latestReleaseDate: 2023-01-31
 
 ---
 

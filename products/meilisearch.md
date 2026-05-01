@@ -7,7 +7,7 @@ iconSlug: meilisearch
 permalink: /meilisearch
 versionCommand: meilisearch --version
 releasePolicyLink: https://www.meilisearch.com/docs/learn/update_and_migration/versioning
-latestLinkTemplate: https://github.com/meilisearch/meilisearch/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/meilisearch/meilisearch/releases/tag/v__LATEST__
 
 identifiers:
   - repology: meilisearch
@@ -22,259 +22,259 @@ releases:
     releaseDate: 2026-04-13
     eol: false
     latest: "1.42.1"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "1.41"
     releaseDate: 2026-03-30
     eol: 2026-04-13
     latest: "1.41.0"
-    latestDate: 2026-03-30
+    latestReleaseDate: 2026-03-30
 
   - releaseCycle: "1.40"
     releaseDate: 2026-03-23
     eol: 2026-03-30
     latest: "1.40.0"
-    latestDate: 2026-03-23
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "1.39"
     releaseDate: 2026-03-16
     eol: 2026-03-23
     latest: "1.39.0"
-    latestDate: 2026-03-16
+    latestReleaseDate: 2026-03-16
 
   - releaseCycle: "1.38"
     releaseDate: 2026-03-09
     eol: 2026-03-16
     latest: "1.38.2"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "1.37"
     releaseDate: 2026-03-02
     eol: 2026-03-09
     latest: "1.37.0"
-    latestDate: 2026-03-02
+    latestReleaseDate: 2026-03-02
 
   - releaseCycle: "1.36"
     releaseDate: 2026-02-23
     eol: 2026-03-02
     latest: "1.36.0"
-    latestDate: 2026-02-23
+    latestReleaseDate: 2026-02-23
 
   - releaseCycle: "1.35"
     releaseDate: 2026-02-02
     eol: 2026-02-23
     latest: "1.35.1"
-    latestDate: 2026-02-16
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "1.34"
     releaseDate: 2026-01-26
     eol: 2026-02-02
     latest: "1.34.3"
-    latestDate: 2026-01-28
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.33"
     releaseDate: 2026-01-19
     eol: 2026-01-26
     latest: "1.33.1"
-    latestDate: 2026-01-20
+    latestReleaseDate: 2026-01-20
 
   - releaseCycle: "1.32"
     releaseDate: 2026-01-12
     eol: 2026-01-19
     latest: "1.32.2"
-    latestDate: 2026-01-15
+    latestReleaseDate: 2026-01-15
 
   - releaseCycle: "1.31"
     releaseDate: 2025-12-22
     eol: 2026-01-12
     latest: "1.31.0"
-    latestDate: 2025-12-22
+    latestReleaseDate: 2025-12-22
 
   - releaseCycle: "1.30"
     releaseDate: 2025-12-15
     eol: 2025-12-22
     latest: "1.30.1"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "1.29"
     releaseDate: 2025-12-08
     eol: 2025-12-15
     latest: "1.29.0"
-    latestDate: 2025-12-08
+    latestReleaseDate: 2025-12-08
 
   - releaseCycle: "1.28"
     releaseDate: 2025-12-01
     eol: 2025-12-08
     latest: "1.28.2"
-    latestDate: 2025-12-03
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "1.27"
     releaseDate: 2025-11-24
     eol: 2025-12-01
     latest: "1.27.0"
-    latestDate: 2025-11-24
+    latestReleaseDate: 2025-11-24
 
   - releaseCycle: "1.26"
     releaseDate: 2025-11-17
     eol: 2025-11-24
     latest: "1.26.0"
-    latestDate: 2025-11-17
+    latestReleaseDate: 2025-11-17
 
   - releaseCycle: "1.25"
     releaseDate: 2025-11-10
     eol: 2025-11-17
     latest: "1.25.0"
-    latestDate: 2025-11-10
+    latestReleaseDate: 2025-11-10
 
   - releaseCycle: "1.24"
     releaseDate: 2025-10-20
     eol: 2025-11-10
     latest: "1.24.0"
-    latestDate: 2025-10-20
+    latestReleaseDate: 2025-10-20
 
   - releaseCycle: "1.23"
     releaseDate: 2025-10-13
     eol: 2025-10-20
     latest: "1.23.0"
-    latestDate: 2025-10-13
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "1.22"
     releaseDate: 2025-09-24
     eol: 2025-10-13
     latest: "1.22.3"
-    latestDate: 2025-10-07
+    latestReleaseDate: 2025-10-07
 
   - releaseCycle: "1.21"
     releaseDate: 2025-09-15
     eol: 2025-09-24
     latest: "1.21.0"
-    latestDate: 2025-09-15
+    latestReleaseDate: 2025-09-15
 
   - releaseCycle: "1.20"
     releaseDate: 2025-09-08
     eol: 2025-09-15
     latest: "1.20.0"
-    latestDate: 2025-09-08
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "1.19"
     releaseDate: 2025-08-25
     eol: 2025-09-08
     latest: "1.19.1"
-    latestDate: 2025-08-26
+    latestReleaseDate: 2025-08-26
 
   - releaseCycle: "1.18"
     releaseDate: 2025-08-18
     eol: 2025-08-25
     latest: "1.18.0"
-    latestDate: 2025-08-18
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "1.17"
     releaseDate: 2025-08-12
     eol: 2025-08-18
     latest: "1.17.1"
-    latestDate: 2025-08-12
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "1.16"
     releaseDate: 2025-08-04
     eol: 2025-08-12
     latest: "1.16.0"
-    latestDate: 2025-08-04
+    latestReleaseDate: 2025-08-04
 
   - releaseCycle: "1.15"
     releaseDate: 2025-06-09
     eol: 2025-08-04
     latest: "1.15.2"
-    latestDate: 2025-06-12
+    latestReleaseDate: 2025-06-12
 
   - releaseCycle: "1.14"
     releaseDate: 2025-04-14
     eol: 2025-06-09
     latest: "1.14.0"
-    latestDate: 2025-04-14
+    latestReleaseDate: 2025-04-14
 
   - releaseCycle: "1.13"
     releaseDate: 2025-02-17
     eol: 2025-04-14
     latest: "1.13.3"
-    latestDate: 2025-03-05
+    latestReleaseDate: 2025-03-05
 
   - releaseCycle: "1.12"
     releaseDate: 2024-12-23
     eol: 2025-02-17
     latest: "1.12.8"
-    latestDate: 2025-01-30
+    latestReleaseDate: 2025-01-30
 
   - releaseCycle: "1.11"
     releaseDate: 2024-10-21
     eol: 2024-12-23
     latest: "1.11.3"
-    latestDate: 2024-11-14
+    latestReleaseDate: 2024-11-14
 
   - releaseCycle: "1.10"
     releaseDate: 2024-08-21
     eol: 2024-10-21
     latest: "1.10.3"
-    latestDate: 2024-10-10
+    latestReleaseDate: 2024-10-10
 
   - releaseCycle: "1.9"
     releaseDate: 2024-06-27
     eol: 2024-08-26
     latest: "1.9.1"
-    latestDate: 2024-08-27
+    latestReleaseDate: 2024-08-27
 
   - releaseCycle: "1.8"
     releaseDate: 2024-05-02
     eol: 2024-06-27
     latest: "1.8.4"
-    latestDate: 2024-07-15
+    latestReleaseDate: 2024-07-15
 
   - releaseCycle: "1.7"
     releaseDate: 2024-03-06
     eol: 2024-05-02
     latest: "1.7.6"
-    latestDate: 2024-04-11
+    latestReleaseDate: 2024-04-11
 
   - releaseCycle: "1.6"
     releaseDate: 2024-01-15
     eol: 2024-03-06
     latest: "1.6.2"
-    latestDate: 2024-02-13
+    latestReleaseDate: 2024-02-13
 
   - releaseCycle: "1.5"
     releaseDate: 2023-11-13
     eol: 2024-01-15
     latest: "1.5.1"
-    latestDate: 2023-12-13
+    latestReleaseDate: 2023-12-13
 
   - releaseCycle: "1.4"
     releaseDate: 2023-09-11
     eol: 2023-11-13
     latest: "1.4.2"
-    latestDate: 2023-10-19
+    latestReleaseDate: 2023-10-19
 
   - releaseCycle: "1.3"
     releaseDate: 2023-07-27
     eol: 2023-09-11
     latest: "1.3.5"
-    latestDate: 2023-09-20
+    latestReleaseDate: 2023-09-20
 
   - releaseCycle: "1.2"
     releaseDate: 2023-05-30
     eol: 2023-07-27
     latest: "1.2.1"
-    latestDate: 2023-09-13
+    latestReleaseDate: 2023-09-13
 
   - releaseCycle: "1.1"
     releaseDate: 2023-03-30
     eol: 2023-05-30
     latest: "1.1.1"
-    latestDate: 2023-04-18
+    latestReleaseDate: 2023-04-18
 
   - releaseCycle: "1.0"
     releaseDate: 2023-02-01
     eol: 2023-03-30
     latest: "1.0.2"
-    latestDate: 2023-02-23
+    latestReleaseDate: 2023-02-23
 
 ---
 

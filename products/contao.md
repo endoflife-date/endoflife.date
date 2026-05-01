@@ -5,7 +5,7 @@ category: server-app
 iconSlug: contao
 permalink: /contao
 releasePolicyLink: https://contao.org/release-plan
-latestLinkTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
 eoasColumn: true
 
 identifiers:
@@ -25,28 +25,28 @@ releases:
     eoas: 2029-02-14
     eol: 2030-02-14
     latest: "5.7.4"
-    latestDate: 2026-04-24
+    latestReleaseDate: 2026-04-24
 
   - releaseCycle: "5.6"
     releaseDate: 2025-08-18
     eoas: 2026-02-14
     eol: 2026-02-14
     latest: "5.6.11"
-    latestDate: 2026-02-18
+    latestReleaseDate: 2026-02-18
 
   - releaseCycle: "5.5"
     releaseDate: 2025-02-18
     eoas: 2025-08-14
     eol: 2025-08-14
     latest: "5.5.16"
-    latestDate: 2025-08-18
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "5.4"
     releaseDate: 2024-08-15
     eoas: 2025-02-14
     eol: 2025-02-14
     latest: "5.4.14"
-    latestDate: 2025-02-17
+    latestReleaseDate: 2025-02-17
 
   - releaseCycle: "5.3"
     lts: true
@@ -54,28 +54,28 @@ releases:
     eoas: 2027-02-14
     eol: 2028-02-14
     latest: "5.3.46"
-    latestDate: 2026-04-24
+    latestReleaseDate: 2026-04-24
 
   - releaseCycle: "5.2"
     releaseDate: 2023-08-15
     eoas: 2024-02-14
     eol: 2024-02-14
     latest: "5.2.10"
-    latestDate: 2024-02-16
+    latestReleaseDate: 2024-02-16
 
   - releaseCycle: "5.1"
     releaseDate: 2023-02-16
     eoas: 2023-08-14
     eol: 2023-08-14
     latest: "5.1.11"
-    latestDate: 2023-08-01
+    latestReleaseDate: 2023-08-01
 
   - releaseCycle: "5.0"
     releaseDate: 2022-08-18
     eoas: 2023-02-14
     eol: 2023-02-14
     latest: "5.0.10"
-    latestDate: 2023-02-16
+    latestReleaseDate: 2023-02-16
 
   - releaseCycle: "4.13"
     lts: true
@@ -83,28 +83,28 @@ releases:
     eoas: 2025-02-14
     eol: 2026-02-14
     latest: "4.13.58"
-    latestDate: 2025-11-26
+    latestReleaseDate: 2025-11-26
 
   - releaseCycle: "4.12"
     releaseDate: 2021-08-19
     eoas: 2022-01-14
     eol: 2022-01-14
     latest: "4.12.7"
-    latestDate: 2022-02-18
+    latestReleaseDate: 2022-02-18
 
   - releaseCycle: "4.11"
     releaseDate: 2021-02-17
     eoas: 2021-08-14
     eol: 2021-08-14
     latest: "4.11.9"
-    latestDate: 2021-08-24
+    latestReleaseDate: 2021-08-24
 
   - releaseCycle: "4.10"
     releaseDate: 2020-08-18
     eoas: 2021-02-14
     eol: 2021-02-14
     latest: "4.10.7"
-    latestDate: 2021-02-16
+    latestReleaseDate: 2021-02-16
 
   - releaseCycle: "4.9"
     lts: true
@@ -112,7 +112,7 @@ releases:
     eoas: 2023-02-14
     eol: 2024-02-14
     latest: "4.9.42"
-    latestDate: 2023-07-25
+    latestReleaseDate: 2023-07-25
 
   - releaseCycle: "4.4"
     lts: true
@@ -120,16 +120,16 @@ releases:
     eoas: 2020-12-14
     eol: 2021-12-14
     latest: "4.4.57"
-    latestDate: 2021-08-23
+    latestReleaseDate: 2021-08-23
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2015-06-05
     eoas: 2018-06-30
     eol: 2019-05-31
-    latestLink: null
+    link: null
     latest: "3.5.40"
-    latestDate: 2019-04-11
+    latestReleaseDate: 2019-04-11
 
 ---
 

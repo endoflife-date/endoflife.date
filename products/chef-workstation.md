@@ -6,7 +6,7 @@ tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-workstation
 versionCommand: chef --version
-latestLinkTemplate: "https://docs.chef.io/release_notes_workstation/#__LATEST__"
+changelogTemplate: "https://docs.chef.io/release_notes_workstation/#__LATEST__"
 eoasColumn: true
 
 identifiers:
@@ -26,7 +26,7 @@ releases:
     eoas: false
     eol: false
     latest: "25.13.7"
-    latestDate: 2026-03-05
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "24"
     releaseLabel: "2024"
@@ -35,7 +35,7 @@ releases:
     eoas: false
     eol: false
     latest: "24.12.1073"
-    latestDate: 2024-12-16
+    latestReleaseDate: 2024-12-16
 
   - releaseCycle: "23"
     releaseLabel: "2023"
@@ -43,7 +43,7 @@ releases:
     eoas: 2024-12-31
     eol: 2024-12-31
     latest: "23.12.1055"
-    latestDate: 2023-12-04
+    latestReleaseDate: 2023-12-04
 
   - releaseCycle: "22"
     releaseLabel: "2021"
@@ -51,7 +51,7 @@ releases:
     eoas: 2024-12-31
     eol: 2024-12-31
     latest: "22.12.1024"
-    latestDate: 2022-12-20
+    latestReleaseDate: 2022-12-20
 
   - releaseCycle: "21"
     releaseLabel: "2021"
@@ -59,7 +59,7 @@ releases:
     eoas: 2024-12-31
     eol: 2024-12-31
     latest: "21.12.720"
-    latestDate: 2021-12-17
+    latestReleaseDate: 2021-12-17
 
   - releaseCycle: "20"
     releaseLabel: "2020"
@@ -67,7 +67,7 @@ releases:
     eoas: 2024-12-31
     eol: 2024-12-31
     latest: "20.12.205"
-    latestDate: 2020-12-14
+    latestReleaseDate: 2020-12-14
 
 ---
 

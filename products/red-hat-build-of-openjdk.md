@@ -14,7 +14,7 @@ alternate_urls:
   - /red-hat-build-of-openjdk
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
-latestLinkTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
 eolColumn: Support
 releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 
@@ -68,28 +68,28 @@ releases:
     eol: 2030-12-31
     # https://access.redhat.com/downloads/content/java-25-openjdk/x86_64/package-latest
     latest: "25"
-    latestDate: 2025-11-13
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "21"
     releaseDate: 2023-11-14
     eol: 2029-12-31
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
     latest: "21.0.9.0.10-1"
-    latestDate: 2025-10-17
+    latestReleaseDate: 2025-10-17
 
   - releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
     eol: 2027-12-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
     latest: "17.0.17.0.10-1"
-    latestDate: 2025-10-16
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "11"
     releaseDate: 2018-10-01 # RHEL 7.6
     eol: 2024-10-31
     # https://access.redhat.com/downloads/content/java-11-openjdk/x86_64/package-latest
     latest: "11.0.25.0.9-3"
-    latestDate: 2025-01-14
+    latestReleaseDate: 2025-01-14
 
   - releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
@@ -97,7 +97,7 @@ releases:
     eol: 2026-11-30
     # https://access.redhat.com/downloads/content/java-1.8.0-openjdk/x86_64/package-latest
     latest: "1.8.0.472.b08-1"
-    latestDate: 2025-10-16
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
@@ -105,8 +105,8 @@ releases:
     eol: 2020-06-30
     # https://access.redhat.com/downloads/content/java-1.7.0-openjdk/x86_64/package-latest
     latest: "1.7.0.261-2.6.22.2"
-    latestDate: 2020-04-15
-    latestLink: null
+    latestReleaseDate: 2020-04-15
+    link: null
 
   - releaseCycle: "6"
     releaseLabel: "OpenJDK 6 (1.6)"
@@ -114,8 +114,8 @@ releases:
     eol: 2016-12-31
     # https://access.redhat.com/downloads/content/java-1.6.0-openjdk/x86_64/package-latest
     latest: "1.6.0.41-1.13.13.1"
-    latestDate: 2017-01-04
-    latestLink: null
+    latestReleaseDate: 2017-01-04
+    link: null
 ---
 
 > [Red Hat build of OpenJDK](https://access.redhat.com/products/openjdk/) is a build of the Open

@@ -10,7 +10,7 @@ alternate_urls:
   - /mulesoft-runtimes
   - /mule-runtimes
 releasePolicyLink: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence
-latestLinkTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__RELEASE_CYCLE__'|split:'-'|first}}.0-release-notes"
+changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__RELEASE_CYCLE__'|split:'-'|first}}.0-release-notes"
 eoasColumn: Standard Support
 eolColumn: Extended Support
 
@@ -37,7 +37,7 @@ releases:
     eoas: 2026-07-31
     eol: 2026-10-31
     latest: "4.11.2"
-    latestDate: 2026-04-15 # approximation
+    latestReleaseDate: 2026-04-15 # approximation
 
   - releaseCycle: "4.10"
     releaseLabel: '4.10 Edge'
@@ -45,7 +45,7 @@ releases:
     eoas: 2026-03-31
     eol: 2026-06-30
     latest: "4.10.5"
-    latestDate: 2026-03-15 # approximation
+    latestReleaseDate: 2026-03-15 # approximation
 
   - releaseCycle: "4.9-lts"
     releaseLabel: '4.9 LTS'
@@ -54,7 +54,7 @@ releases:
     eoas: 2027-08-31
     eol: 2028-02-29
     latest: "4.9.16" # should be at least equal to latest of 4.9 Edge, but don't know how to automate that yet
-    latestDate: 2026-04-15 # approximation
+    latestReleaseDate: 2026-04-15 # approximation
 
   - releaseCycle: "4.9"
     releaseLabel: '4.9 Edge'
@@ -62,7 +62,7 @@ releases:
     eoas: 2025-11-30
     eol: 2026-02-28
     latest: "4.9.16"
-    latestDate: 2026-04-15 # approximation
+    latestReleaseDate: 2026-04-15 # approximation
 
   - releaseCycle: "4.8"
     releaseLabel: '4.8 Edge'
@@ -70,7 +70,7 @@ releases:
     eoas: 2025-03-31
     eol: 2025-06-30
     latest: "4.8.6"
-    latestDate: 2025-06-03
+    latestReleaseDate: 2025-06-03
 
   - releaseCycle: "4.7"
     releaseLabel: '4.7 Edge'
@@ -78,7 +78,7 @@ releases:
     eoas: 2024-10-31
     eol: 2025-02-28
     latest: "4.7.4"
-    latestDate: 2024-10-05
+    latestReleaseDate: 2024-10-05
 
   - releaseCycle: "4.6-lts"
     releaseLabel: "4.6 LTS"
@@ -86,7 +86,7 @@ releases:
     eoas: 2026-08-31
     eol: 2027-02-28
     latest: "4.6.22" # should be at least equal to latest of 4.6 Edge, but don't know how to automate that yet
-    latestDate: 2025-09-02
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "4.6"
     releaseLabel: '4.6 Edge'
@@ -94,7 +94,7 @@ releases:
     eoas: 2024-06-30
     eol: 2024-10-31
     latest: "4.6.22"
-    latestDate: 2025-09-02
+    latestReleaseDate: 2025-09-02
 
   - releaseCycle: "4.5"
     releaseLabel: '4.5 Edge'
@@ -102,37 +102,37 @@ releases:
     eoas: 2024-02-29
     eol: 2024-06-30
     latest: "4.5.3"
-    latestDate: 2024-02-22
+    latestReleaseDate: 2024-02-22
 
   - releaseCycle: "4.4"
     releaseDate: 2021-09-07
     eoas: 2024-10-08
     eol: 2025-10-08
     latest: "4.4.0-20250919"
-    latestDate: 2025-11-04
+    latestReleaseDate: 2025-11-04
 
   - releaseCycle: "4.3"
     releaseDate: 2020-04-30
     eoas: 2023-03-07
     eol: 2025-03-07
     latest: "4.3.0-20240424"
-    latestDate: 2024-04-24
+    latestReleaseDate: 2024-04-24
 
   - releaseCycle: "4.2"
     releaseDate: 2019-05-02
     eoas: 2021-05-02
     eol: 2023-05-02
     latest: "4.2.2-20221027"
-    latestDate: 2022-10-27
-    latestLink: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.2.2-release-notes
+    latestReleaseDate: 2022-10-27
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.2.2-release-notes
 
   - releaseCycle: "4.1"
     releaseDate: 2018-03-20
     eoas: 2020-11-02
     eol: 2022-11-02
     latest: "4.1.6-20240112"
-    latestDate: 2024-08-10
-    latestLink: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
+    latestReleaseDate: 2024-08-10
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
 
   - releaseCycle: "3.9"
     lts: true
@@ -140,8 +140,8 @@ releases:
     eoas: 2021-03-20
     eol: 2024-03-20
     latest: "3.9.5-20240122"
-    latestDate: 2024-01-22
-    latestLink: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.9.5-release-notes
+    latestReleaseDate: 2024-01-22
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.9.5-release-notes
 
   - releaseCycle: "3.8"
     lts: true
@@ -149,8 +149,8 @@ releases:
     eoas: 2018-11-16
     eol: 2021-11-16
     latest: "3.8.7"
-    latestDate: 2018-05-28
-    latestLink: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.8.7-release-notes
+    latestReleaseDate: 2018-05-28
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.8.7-release-notes
 
 ---
 

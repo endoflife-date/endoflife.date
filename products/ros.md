@@ -7,7 +7,7 @@ iconSlug: ros
 permalink: /ros
 versionCommand: rosversion -d
 releasePolicyLink: https://wiki.ros.org/Distributions
-latestLinkTemplate: "https://wiki.ros.org/__RELEASE_CYCLE__"
+changelogTemplate: "https://wiki.ros.org/__RELEASE_CYCLE__"
 releaseLabel: "__CODENAME__"
 latestColumn: false
 eolColumn: End Of Life

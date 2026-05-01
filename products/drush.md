@@ -7,7 +7,7 @@ iconSlug: drupal
 permalink: /drush
 versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
-latestLinkTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
+changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 eolColumn: Support
 
 customFields:
@@ -15,12 +15,12 @@ customFields:
     display: api-only
     label: PHP
     description: Supported PHP versions
-    latestLink: https://www.drush.org/latest/install/
+    link: https://www.drush.org/latest/install/
   - name: supportedDrupalVersions
     display: api-only
     label: Drupal
     description: Supported Drupal versions
-    latestLink: https://www.drush.org/latest/install/
+    link: https://www.drush.org/latest/install/
 
 identifiers:
   - repology: drush
@@ -49,7 +49,7 @@ releases:
     supportedPhpVersions: "8.3+"
     supportedDrupalVersions: "10.2 - 11"
     latest: "13.7.2"
-    latestDate: 2026-03-20
+    latestReleaseDate: 2026-03-20
 
   - releaseCycle: "12"
     staleReleaseThresholdDays: 730 # EOL is TBD on https://www.drush.org/13.x/install/#drupal-compatibility
@@ -58,7 +58,7 @@ releases:
     supportedPhpVersions: "8.1+"
     supportedDrupalVersions: "10"
     latest: "12.5.3"
-    latestDate: 2024-08-02
+    latestReleaseDate: 2024-08-02
 
   - releaseCycle: "11"
     releaseDate: 2022-01-11
@@ -66,7 +66,7 @@ releases:
     supportedPhpVersions: "7.4+"
     supportedDrupalVersions: "9 - 10"
     latest: "11.6.0"
-    latestDate: 2023-06-06
+    latestReleaseDate: 2023-06-06
 
   - releaseCycle: "10"
     releaseDate: 2019-10-31
@@ -74,7 +74,7 @@ releases:
     supportedPhpVersions: "7.1+ (not 8)"
     supportedDrupalVersions: "8 - 9"
     latest: "10.6.2"
-    latestDate: 2021-12-15
+    latestReleaseDate: 2021-12-15
 
   - releaseCycle: "9"
     releaseDate: 2018-01-24
@@ -82,7 +82,7 @@ releases:
     supportedPhpVersions: "5.6+"
     supportedDrupalVersions: "8"
     latest: "9.7.3"
-    latestDate: 2021-03-22
+    latestReleaseDate: 2021-03-22
 
   - releaseCycle: "8"
     releaseDate: 2015-11-19
@@ -90,7 +90,7 @@ releases:
     supportedPhpVersions: "5.4.5+"
     supportedDrupalVersions: "6 - 8"
     latest: "8.5.0"
-    latestDate: 2024-11-26
+    latestReleaseDate: 2024-11-26
 
   - releaseCycle: "7"
     releaseDate: 2015-05-20
@@ -98,7 +98,7 @@ releases:
     supportedPhpVersions: "5.3.0+"
     supportedDrupalVersions: "6 - 7"
     latest: "7.4.2"
-    latestDate: 2022-03-25
+    latestReleaseDate: 2022-03-25
 
   - releaseCycle: "6"
     releaseDate: 2013-08-16
@@ -106,7 +106,7 @@ releases:
     supportedPhpVersions: "5.3.0+"
     supportedDrupalVersions: "6 - 7"
     latest: "6.7.0"
-    latestDate: 2015-12-02
+    latestReleaseDate: 2015-12-02
 
   - releaseCycle: "5"
     releaseDate: 2012-03-23
@@ -114,7 +114,7 @@ releases:
     supportedPhpVersions: "5.2.0+"
     supportedDrupalVersions: "6 - 7"
     latest: "5.11.0"
-    latestDate: 2014-05-22
+    latestReleaseDate: 2014-05-22
 
 ---
 

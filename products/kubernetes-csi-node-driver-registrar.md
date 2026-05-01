@@ -9,7 +9,7 @@ alternate_urls:
   - /node-driver-registrar
 versionCommand: |-
   csi-node-driver-registrar --version
-latestLinkTemplate: https://github.com/kubernetes-csi/node-driver-registrar/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/kubernetes-csi/node-driver-registrar/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:
@@ -29,109 +29,109 @@ releases:
     releaseDate: 2026-02-12
     eol: false
     latest: "2.16.0"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2.15"
     releaseDate: 2025-09-12
     eol: 2026-02-12
     latest: "2.15.0"
-    latestDate: 2025-09-12
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "2.14"
     releaseDate: 2025-05-30
     eol: 2025-09-12
     latest: "2.14.0"
-    latestDate: 2025-05-30
+    latestReleaseDate: 2025-05-30
 
   - releaseCycle: "2.13"
     releaseDate: 2024-12-19
     eol: 2025-05-30
     latest: "2.13.0"
-    latestDate: 2024-12-19
+    latestReleaseDate: 2024-12-19
 
   - releaseCycle: "2.12"
     releaseDate: 2024-08-22
     eol: 2024-12-19
     latest: "2.12.0"
-    latestDate: 2024-08-22
+    latestReleaseDate: 2024-08-22
 
   - releaseCycle: "2.11"
     releaseDate: 2024-05-22
     eol: 2024-08-22
     latest: "2.11.1"
-    latestDate: 2024-07-16
+    latestReleaseDate: 2024-07-16
 
   - releaseCycle: "2.10"
     releaseDate: 2024-01-04
     eol: 2024-05-22
     latest: "2.10.1"
-    latestDate: 2024-03-20
+    latestReleaseDate: 2024-03-20
 
   - releaseCycle: "2.9"
     releaseDate: 2023-09-11
     eol: 2024-01-04
     latest: "2.9.4"
-    latestDate: 2024-03-20
+    latestReleaseDate: 2024-03-20
 
   - releaseCycle: "2.8"
     releaseDate: 2023-04-27
     eol: 2023-09-11
     latest: "2.8.0"
-    latestDate: 2023-04-27
+    latestReleaseDate: 2023-04-27
 
   - releaseCycle: "2.7"
     releaseDate: 2022-12-28
     eol: 2023-04-27
     latest: "2.7.0"
-    latestDate: 2022-12-28
+    latestReleaseDate: 2022-12-28
 
   - releaseCycle: "2.6"
     releaseDate: 2022-10-20
     eol: 2022-12-28
     latest: "2.6.3"
-    latestDate: 2023-01-23
+    latestReleaseDate: 2023-01-23
 
   - releaseCycle: "2.5"
     releaseDate: 2022-02-02
     eol: 2022-10-20
     latest: "2.5.1"
-    latestDate: 2022-05-06
+    latestReleaseDate: 2022-05-06
 
   - releaseCycle: "2.4"
     releaseDate: 2021-11-09
     eol: 2021-11-09
     latest: "2.4.0"
-    latestDate: 2021-11-09
+    latestReleaseDate: 2021-11-09
 
   - releaseCycle: "2.3"
     releaseDate: 2021-08-11
     eol: 2021-11-09
     latest: "2.3.0"
-    latestDate: 2021-08-11
+    latestReleaseDate: 2021-08-11
 
   - releaseCycle: "2.2"
     releaseDate: 2021-04-27
     eol: 2021-08-11
     latest: "2.2.0"
-    latestDate: 2021-04-27
+    latestReleaseDate: 2021-04-27
 
   - releaseCycle: "2.1"
     releaseDate: 2020-12-17
     eol: 2021-04-27
     latest: "2.1.0"
-    latestDate: 2020-12-17
+    latestReleaseDate: 2020-12-17
 
   - releaseCycle: "2.0"
     releaseDate: 2020-08-28
     eol: 2020-12-17
     latest: "2.0.1"
-    latestDate: 2020-09-03
+    latestReleaseDate: 2020-09-03
 
   - releaseCycle: "1.2"
     releaseDate: 2019-09-09
     eol: 2020-08-28
     latest: "1.2.0"
-    latestDate: 2019-09-09
+    latestReleaseDate: 2019-09-09
 ---
 
 > The node-driver-registrar is a sidecar container for Kubernetes

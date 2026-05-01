@@ -9,7 +9,7 @@ alternate_urls:
   - /oraclelinux
 versionCommand: cat /etc/oracle-release # https://linux-audit.com/how-to-see-version-of-oracle-linux/
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
-latestLinkTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
+changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 eolColumn: Basic/Premier Support
 eoesColumn: Extended Support
 
@@ -32,35 +32,35 @@ releases:
     eol: false
     eoes: false
     latest: "10.1"
-    latestDate: 2025-12-06
+    latestReleaseDate: 2025-12-06
 
   - releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
     eoes: 2035-06-30
     latest: "9.7"
-    latestDate: 2025-11-26
+    latestReleaseDate: 2025-11-26
 
   - releaseCycle: "8"
     releaseDate: 2019-07-19
     eol: 2029-07-31
     eoes: 2032-07-31
     latest: "8.10"
-    latestDate: 2024-05-28
+    latestReleaseDate: 2024-05-28
 
   - releaseCycle: "7"
     releaseDate: 2014-07-23
     eol: 2024-12-31
     eoes: 2028-06-30
     latest: "7.9"
-    latestDate: 2020-10-08
+    latestReleaseDate: 2020-10-08
 
   - releaseCycle: "6"
     releaseDate: 2011-02-12
     eol: 2021-03-31
     eoes: 2024-12-31
     latest: "6.10"
-    latestDate: 2018-07-02
+    latestReleaseDate: 2018-07-02
 
 ---
 

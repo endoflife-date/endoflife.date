@@ -7,7 +7,7 @@ alternate_urls:
   - /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-latestLinkTemplate: https://github.com/squid-cache/squid/releases/tag/SQUID_{{'__LATEST__'|replace:'.':'_'}}
+changelogTemplate: https://github.com/squid-cache/squid/releases/tag/SQUID_{{'__LATEST__'|replace:'.':'_'}}
 
 identifiers:
   - repology: squid
@@ -38,89 +38,89 @@ releases:
     releaseDate: 2025-07-10
     eol: false
     latest: "7.5"
-    latestDate: 2026-03-13
+    latestReleaseDate: 2026-03-13
 
   - releaseCycle: "6"
     releaseDate: 2023-07-06
     eol: 2025-07-10
     latest: "6.14"
-    latestDate: 2025-06-24
+    latestReleaseDate: 2025-06-24
 
   - releaseCycle: "5"
     releaseDate: 2021-07-31
     eol: 2023-07-06
     latest: "5.9"
-    latestDate: 2023-05-01
+    latestReleaseDate: 2023-05-01
 
   - releaseCycle: "4"
     releaseDate: 2018-07-03
     eol: 2021-10-04
     latest: "4.17"
-    latestDate: 2021-10-04
+    latestReleaseDate: 2021-10-04
 
   - releaseCycle: "3.5"
     releaseDate: 2015-01-13
     eol: 2018-08-07
     latest: "3.5.28"
-    latestDate: 2018-07-16
+    latestReleaseDate: 2018-07-16
 
   - releaseCycle: "3.4"
     releaseDate: 2013-12-08
     eol: 2015-08-01
     latest: "3.4.14"
-    latestDate: 2015-08-01
+    latestReleaseDate: 2015-08-01
 
   - releaseCycle: "3.3"
     releaseDate: 2013-02-09
     eol: 2015-05-01
     latest: "3.3.14"
-    latestDate: 2015-05-01
+    latestReleaseDate: 2015-05-01
 
   - releaseCycle: "3.2"
     releaseDate: 2012-08-14
     eol: 2015-05-01
     latest: "3.2.14"
-    latestDate: 2015-05-01
+    latestReleaseDate: 2015-05-01
 
   - releaseCycle: "3.1"
     releaseDate: 2010-03-29
     eol: 2013-01-08
     latest: "3.1.23"
-    latestDate: 2013-01-08
+    latestReleaseDate: 2013-01-08
 
   - releaseCycle: "2.7"
     releaseDate: 2008-05-27
     eol: 2010-03-14
     latest: "2.7.9"
-    latestDate: 2010-03-14
+    latestReleaseDate: 2010-03-14
 
   - releaseCycle: "3.0"
     releaseDate: 2007-12-14
     eol: 2011-08-27
     latest: "3.0.26"
-    latestDate: 2011-08-27
-    latestLink: http://www.squid-cache.org/Versions/v3/3.0/
+    latestReleaseDate: 2011-08-27
+    link: http://www.squid-cache.org/Versions/v3/3.0/
 
   - releaseCycle: "2.6"
     releaseDate: 2006-07-01
     eol: 2010-03-26
     latest: "2.6.24"
-    latestDate: 2010-03-26
-    latestLink: http://www.squid-cache.org/Versions/v2/2.6/
+    latestReleaseDate: 2010-03-26
+    link: http://www.squid-cache.org/Versions/v2/2.6/
 
   - releaseCycle: "2.5"
     releaseDate: 2002-09-24
     eol: 2006-05-20
     latest: "2.5.14"
-    latestDate: 2006-05-20
-    latestLink: http://www.squid-cache.org/Versions/v2/2.5/
+    latestReleaseDate: 2006-05-20
+    link: http://www.squid-cache.org/Versions/v2/2.5/
 
   - releaseCycle: "2.4"
     releaseDate: 2001-03-20
     eol: 2002-07-02
     latest: "2.4.7"
-    latestDate: 2002-07-02
-    latestLink: http://www.squid-cache.org/Versions/v2/2.4/
+    latestReleaseDate: 2002-07-02
+    link: http://www.squid-cache.org/Versions/v2/2.4/
 
 ---
 

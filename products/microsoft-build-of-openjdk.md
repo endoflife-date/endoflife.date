@@ -7,7 +7,7 @@ iconSlug: openjdk
 permalink: /microsoft-build-of-openjdk
 versionCommand: java -version
 releasePolicyLink: https://learn.microsoft.com/java/openjdk/support
-latestLinkTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openjdk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
+changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openjdk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 
 # There is one repository for each major LTS release.
 auto:
@@ -38,21 +38,21 @@ releases:
     releaseDate: 2025-09-16
     eol: 2030-09-30
     latest: "25.0.3"
-    latestDate: 2026-04-17
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
     latest: "21.0.11"
-    latestDate: 2026-04-17
+    latestReleaseDate: 2026-04-17
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
     latest: "17.0.19"
-    latestDate: 2026-04-17
+    latestReleaseDate: 2026-04-17
 
   # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
   - releaseCycle: "11"
@@ -60,7 +60,7 @@ releases:
     releaseDate: 2019-01-21
     eol: 2027-09-30
     latest: "11.0.31"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
 ---
 

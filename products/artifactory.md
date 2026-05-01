@@ -4,7 +4,7 @@ addedAt: 2023-07-09
 category: server-app
 iconSlug: jfrog
 permalink: /artifactory
-latestLinkTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
+changelogTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
 releasePolicyLink: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
 eolColumn: Support
 
@@ -27,175 +27,175 @@ releases:
     releaseDate: 2026-04-16
     eol: 2027-10-16
     latest: "7.146.8"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.133"
     releaseDate: 2025-10-30
     eol: 2027-04-30
     latest: "7.133.21"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.125"
     releaseDate: 2025-10-30
     eol: 2027-04-30
     latest: "7.125.14"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.117"
     releaseDate: 2025-07-14
     eol: 2027-01-14
     latest: "7.117.21"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.111"
     releaseDate: 2025-04-23
     eol: 2026-10-23
     latest: "7.111.14"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.104"
     releaseDate: 2025-01-29
     eol: 2026-07-30
     latest: "7.104.16"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.98"
     releaseDate: 2024-10-29
     eol: 2026-04-29
     latest: "7.98.19"
-    latestDate: 2025-05-12
+    latestReleaseDate: 2025-05-12
 
   - releaseCycle: "7.90"
     releaseDate: 2024-07-25
     eol: 2026-01-25
     latest: "7.90.19"
-    latestDate: 2025-03-27
+    latestReleaseDate: 2025-03-27
 
   - releaseCycle: "7.84"
     releaseDate: 2024-05-12
     eol: 2025-11-12
     latest: "7.84.23"
-    latestDate: 2025-02-02
+    latestReleaseDate: 2025-02-02
 
   - releaseCycle: "7.77"
     releaseDate: 2024-01-24
     eol: 2025-07-24
     latest: "7.77.17"
-    latestDate: 2025-02-02
+    latestReleaseDate: 2025-02-02
 
   - releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
     latest: "7.71.25"
-    latestDate: 2025-02-02
+    latestReleaseDate: 2025-02-02
 
   - releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
     latest: "7.68.23"
-    latestDate: 2025-02-02
+    latestReleaseDate: 2025-02-02
 
   - releaseCycle: "7.63"
     releaseDate: 2023-07-12
     eol: 2025-01-12
     latest: "7.63.22"
-    latestDate: 2024-08-05
+    latestReleaseDate: 2024-08-05
 
   - releaseCycle: "7.59"
     releaseDate: 2023-05-28
     eol: 2024-11-28
     latest: "7.59.22"
-    latestDate: 2024-05-01
+    latestReleaseDate: 2024-05-01
 
   - releaseCycle: "7.55"
     releaseDate: 2023-02-28
     eol: 2024-08-28
     latest: "7.55.17"
-    latestDate: 2024-05-01
+    latestReleaseDate: 2024-05-01
 
   - releaseCycle: "7.49"
     releaseDate: 2022-12-29
     eol: 2024-06-29
     latest: "7.49.10"
-    latestDate: 2023-03-07
+    latestReleaseDate: 2023-03-07
 
   - releaseCycle: "7.47"
     releaseDate: 2022-12-01
     eol: 2024-06-01
     latest: "7.47.16"
-    latestDate: 2023-01-30
+    latestReleaseDate: 2023-01-30
 
   - releaseCycle: "7.46"
     releaseDate: 2022-10-11
     eol: 2024-04-11
     latest: "7.46.23"
-    latestDate: 2023-01-31
+    latestReleaseDate: 2023-01-31
 
   - releaseCycle: "7.41"
     releaseDate: 2022-07-11
     eol: 2024-01-11
     latest: "7.41.14"
-    latestDate: 2022-10-11
+    latestReleaseDate: 2022-10-11
 
   - releaseCycle: "7.39"
     releaseDate: 2022-06-20
     eol: 2023-12-20
     latest: "7.39.10"
-    latestDate: 2022-08-03
+    latestReleaseDate: 2022-08-03
 
   - releaseCycle: "7.38"
     releaseDate: 2022-05-08
     eol: 2023-11-08
     latest: "7.38.17"
-    latestDate: 2022-08-11
+    latestReleaseDate: 2022-08-11
 
   - releaseCycle: "7.37"
     releaseDate: 2022-04-14
     eol: 2023-10-14
     latest: "7.37.17"
-    latestDate: 2022-08-04
+    latestReleaseDate: 2022-08-04
 
   - releaseCycle: "7.35"
     releaseDate: 2022-03-01
     eol: 2023-09-01
     latest: "7.35.2"
-    latestDate: 2022-03-09
+    latestReleaseDate: 2022-03-09
 
   - releaseCycle: "7.33"
     releaseDate: 2022-02-03
     eol: 2023-08-03
     latest: "7.33.9"
-    latestDate: 2022-02-07
+    latestReleaseDate: 2022-02-07
 
   - releaseCycle: "7.31"
     releaseDate: 2022-01-10
     eol: 2023-07-10
     latest: "7.31.12"
-    latestDate: 2022-01-25
+    latestReleaseDate: 2022-01-25
 
   - releaseCycle: "7.29"
     releaseDate: 2021-12-05
     eol: 2023-06-05
     latest: "7.29.9"
-    latestDate: 2022-01-11
+    latestReleaseDate: 2022-01-11
 
   - releaseCycle: "7.27"
     releaseDate: 2021-09-30
     eol: 2023-03-30
     latest: "7.27.10"
-    latestDate: 2021-11-07
+    latestReleaseDate: 2021-11-07
 
   - releaseCycle: "7.25"
     releaseDate: 2021-09-02
     eol: 2023-03-02
     latest: "7.25.7"
-    latestDate: 2021-09-10
+    latestReleaseDate: 2021-09-10
 
   - releaseCycle: "7.24"
     releaseDate: 2021-08-11
     eol: 2023-02-11
     latest: "7.24.7"
-    latestDate: 2021-12-16
+    latestReleaseDate: 2021-12-16
 
 ---
 

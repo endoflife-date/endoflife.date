@@ -6,7 +6,7 @@ iconSlug: "gerrit"
 permalink: /gerrit
 versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
-latestLinkTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
+changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
 eolColumn: "Support"
 
 identifiers:
@@ -24,109 +24,109 @@ releases:
     releaseDate: 2025-11-10
     eol: false
     latest: "3.13.6"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "3.12"
     releaseDate: 2025-05-19
     eol: false
     latest: "3.12.7"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "3.11"
     releaseDate: 2024-12-02
     eol: false
     latest: "3.11.11"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "3.10"
     releaseDate: 2024-05-17
     eol: 2025-11-10
     latest: "3.10.9"
-    latestDate: 2025-11-03
+    latestReleaseDate: 2025-11-03
 
   - releaseCycle: "3.9"
     releaseDate: 2023-11-25
     eol: 2025-05-19
     latest: "3.9.11"
-    latestDate: 2025-05-05
+    latestReleaseDate: 2025-05-05
 
   - releaseCycle: "3.8"
     releaseDate: 2023-05-19
     eol: 2024-12-02
     latest: "3.8.10"
-    latestDate: 2024-11-26
+    latestReleaseDate: 2024-11-26
 
   - releaseCycle: "3.7"
     releaseDate: 2022-11-09
     eol: 2024-05-17
     latest: "3.7.9"
-    latestDate: 2024-05-15
+    latestReleaseDate: 2024-05-15
 
   - releaseCycle: "3.6"
     releaseDate: 2022-05-23
     eol: 2023-11-25
     latest: "3.6.8"
-    latestDate: 2023-11-23
+    latestReleaseDate: 2023-11-23
 
   - releaseCycle: "3.5"
     releaseDate: 2021-12-06
     eol: 2023-05-19
     latest: "3.5.6"
-    latestDate: 2023-05-08
+    latestReleaseDate: 2023-05-08
 
   - releaseCycle: "3.4"
     releaseDate: 2021-05-17
     eol: 2022-11-09
     latest: "3.4.8"
-    latestDate: 2022-11-08
+    latestReleaseDate: 2022-11-08
 
   - releaseCycle: "3.3"
     releaseDate: 2020-12-01
     eol: 2022-05-24
     latest: "3.3.11"
-    latestDate: 2022-05-21
+    latestReleaseDate: 2022-05-21
 
   - releaseCycle: "3.2"
     releaseDate: 2020-06-01
     eol: 2021-12-07
     latest: "3.2.14"
-    latestDate: 2021-11-21
+    latestReleaseDate: 2021-11-21
 
   - releaseCycle: "3.1"
     releaseDate: 2019-11-14
     eol: 2021-05-19
     latest: "3.1.16"
-    latestDate: 2021-08-20
+    latestReleaseDate: 2021-08-20
 
   - releaseCycle: "3.0"
     releaseDate: 2019-05-15
     eol: 2020-12-01
     latest: "3.0.16"
-    latestDate: 2021-02-01
+    latestReleaseDate: 2021-02-01
 
   - releaseCycle: "2.16"
     releaseDate: 2018-11-15
     eol: 2020-06-01
     latest: "2.16.28"
-    latestDate: 2021-11-19
+    latestReleaseDate: 2021-11-19
 
   - releaseCycle: "2.15"
     releaseDate: 2018-03-28
     eol: 2019-11-15
     latest: "2.15.22"
-    latestDate: 2021-02-01
+    latestReleaseDate: 2021-02-01
 
   - releaseCycle: "2.14"
     releaseDate: 2017-04-26
     eol: 2019-05-31
     latest: "2.14.22"
-    latestDate: 2020-11-19
+    latestReleaseDate: 2020-11-19
 
   - releaseCycle: "2.13"
     releaseDate: 2016-09-21
     eol: true
     latest: "2.13.14"
-    latestDate: 2019-04-19
+    latestReleaseDate: 2019-04-19
 
 ---
 

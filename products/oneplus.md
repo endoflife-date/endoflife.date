@@ -7,7 +7,7 @@ iconSlug: oneplus
 permalink: /oneplus
 versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
-latestLinkTemplate: "https://www.oneplus.com/us/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
+changelogTemplate: "https://www.oneplus.com/us/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
 latestColumn: false
 activeSupportColumn: Active Major Updates
@@ -20,7 +20,7 @@ customFields:
     display: after-release-column
     label: Supported OxygenOS
     description: Supported OxygenOS versions range
-    latestLink: https://wikipedia.org/wiki/OxygenOS
+    link: https://wikipedia.org/wiki/OxygenOS
 
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
 releases:
@@ -46,7 +46,7 @@ releases:
     eol: 2031-06-19
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
-    latestLink: https://www.oneplus.com/us/oneplus-pad-3
+    link: https://www.oneplus.com/us/oneplus-pad-3
 
   - releaseCycle: "13t"
     releaseLabel: "13T"
@@ -55,7 +55,7 @@ releases:
     eol: 2031-04-24 # approximation "6 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
-    latestLink: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
+    link: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
 
   - releaseCycle: "13r"
     releaseLabel: "13R"
@@ -79,7 +79,7 @@ releases:
     eol: 2028-07-16 # approximation "4 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "14 - 16"
-    latestLink: https://www.oneplus.com/us/oneplus-pad-2
+    link: https://www.oneplus.com/us/oneplus-pad-2
 
   - releaseCycle: "12r"
     releaseLabel: "12R"
@@ -103,7 +103,7 @@ releases:
     eol: 2026-05-01 # Security updates end
     discontinued: true
     supportedOxygenOSVersions: "13 - 16"
-    latestLink: https://www.oneplus.com/us/oneplus-pad
+    link: https://www.oneplus.com/us/oneplus-pad
 
   - releaseCycle: "11r"
     releaseLabel: "11R"
@@ -111,7 +111,7 @@ releases:
     eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
     discontinued: true
-    latestLink: https://www.oneplus.in/11r
+    link: https://www.oneplus.in/11r
     supportedOxygenOSVersions: "13 - 16"
 
   - releaseCycle: "11"
@@ -119,7 +119,7 @@ releases:
     eoas: 2027-02-07 # approximation "4 major Android updates"
     eol: 2028-02-07
     discontinued: true
-    latestLink: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
+    link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
     supportedOxygenOSVersions: "13 - 16"
 
 ---

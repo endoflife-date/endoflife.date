@@ -5,7 +5,7 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /ipados
-latestLinkTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
+changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
 auto:
@@ -23,59 +23,59 @@ releases:
     eoas: false
     eol: false
     latest: "26.4.2"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
     latest: "18.7.8"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: 2024-08-19
     eol: 2025-09-15
     latest: "17.7.10"
-    latestDate: 2025-08-20
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "16"
     releaseDate: 2022-10-24
     eoas: 2023-09-18
     eol: 2025-03-31
     latest: "16.7.15"
-    latestDate: 2026-03-11
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
+    latestReleaseDate: 2026-03-11
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-10-24
     eol: 2025-03-31
     latest: "15.8.7"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
     eoas: 2021-09-20
     eol: 2021-10-01
     latest: "14.8.1"
-    latestDate: 2021-10-26
+    latestReleaseDate: 2021-10-26
 
   - releaseCycle: "13"
     releaseDate: 2019-09-24
     eoas: 2020-09-16 # releaseDate(14)
     eol: 2020-09-16 # releaseDate(14)
     latest: "13.6"
-    latestDate: 2020-07-15
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes
+    latestReleaseDate: 2020-07-15
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes
 
   - releaseCycle: "12"
     releaseDate: 2018-09-17
     eoas: 2019-09-24 # releaseDate(13)
     eol: 2019-09-24 # releaseDate(13)
     latest: "12.5.8"
-    latestDate: 2026-01-26
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
+    latestReleaseDate: 2026-01-26
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
 ---
 

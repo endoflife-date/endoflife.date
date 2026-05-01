@@ -8,7 +8,7 @@ permalink: /eclipse-jetty
 alternate_urls:
   - /jetty
 releasePolicyLink: https://jetty.org/download.html
-latestLinkTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
+changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
@@ -18,17 +18,17 @@ customFields:
     display: api-only
     label: JVM
     description: Minimum required JVM version
-    latestLink: https://jetty.org/download.html
+    link: https://jetty.org/download.html
   - name: servletVersion
     display: api-only
     label: Servlet
     description: Supported Servlet versions
-    latestLink: https://jetty.org/download.html
+    link: https://jetty.org/download.html
   - name: jspVersion
     display: api-only
     label: JSP
     description: Supported JSP versions
-    latestLink: https://jetty.org/download.html
+    link: https://jetty.org/download.html
 
 identifiers:
   - repology: jetty
@@ -52,7 +52,7 @@ releases:
     eol: false
     eoes: false
     latest: "12.1.8"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "12.0"
     releaseDate: 2023-08-07
@@ -63,7 +63,7 @@ releases:
     eol: false
     eoes: false
     latest: "12.0.34"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "11"
     minJvmVersion: "11"
@@ -74,7 +74,7 @@ releases:
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
     latest: "11.0.26"
-    latestDate: 2025-08-18
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "10"
     minJvmVersion: "11"
@@ -85,7 +85,7 @@ releases:
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
     latest: "10.0.26"
-    latestDate: 2025-08-18
+    latestReleaseDate: 2025-08-18
 
   - releaseCycle: "9.4"
     minJvmVersion: "1.8"
@@ -96,7 +96,7 @@ releases:
     eol: 2025-08-14 # https://github.com/jetty/jetty.project/releases/tag/jetty-9.4.58.v20250814
     eoes: false
     latest: "9.4.58.v20250814"
-    latestDate: 2025-08-14
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "9.3"
     minJvmVersion: "1.8"
@@ -106,7 +106,7 @@ releases:
     eoas: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     eol: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     latest: "9.3.30.v20211001"
-    latestDate: 2021-10-01
+    latestReleaseDate: 2021-10-01
 
   - releaseCycle: "9.2"
     minJvmVersion: "1.7"
@@ -116,7 +116,7 @@ releases:
     eoas: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     eol: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     latest: "9.2.30.v20200428"
-    latestDate: 2020-04-28
+    latestReleaseDate: 2020-04-28
 
   - releaseCycle: "9.1"
     minJvmVersion: "1.7"
@@ -126,7 +126,7 @@ releases:
     eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.1.6.v20160112"
-    latestDate: 2016-01-12
+    latestReleaseDate: 2016-01-12
 
   - releaseCycle: "9.0"
     minJvmVersion: "1.7"
@@ -136,7 +136,7 @@ releases:
     eoas: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     eol: 2013-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "9.0.7.v20131107"
-    latestDate: 2013-11-07
+    latestReleaseDate: 2013-11-07
 
   - releaseCycle: "8"
     minJvmVersion: "1.6"
@@ -146,7 +146,7 @@ releases:
     eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "8.2.0.v20160908"
-    latestDate: 2016-09-08
+    latestReleaseDate: 2016-09-08
 
   - releaseCycle: "7"
     minJvmVersion: "1.5"
@@ -156,7 +156,7 @@ releases:
     eoas: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     eol: 2014-12-31 # only year provided on https://jetty.org/download.html, used end of the year
     latest: "7.6.21.v20160908"
-    latestDate: 2016-09-08
+    latestReleaseDate: 2016-09-08
 
 ---
 

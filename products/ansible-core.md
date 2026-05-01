@@ -7,7 +7,7 @@ iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-latestLinkTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
+changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 eolColumn: Supported
 
 customFields:
@@ -15,17 +15,17 @@ customFields:
     display: api-only
     label: Control node Python
     description: Control node Python support
-    latestLink: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: pythonVersionsManagedNode
     display: api-only
     label: Managed node Python
     description: Managed node Python support
-    latestLink: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: powershellVersionsManagedNode
     display: api-only
     label: Managed node PowerShell
     description: Managed node PowerShell support
-    latestLink: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 
 identifiers:
   - repology: ansible-core
@@ -58,7 +58,7 @@ releases:
     releaseDate: 2025-11-03
     eol: 2027-05-31
     latest: "2.20.5"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -67,7 +67,7 @@ releases:
     releaseDate: 2025-07-21
     eol: 2026-11-30
     latest: "2.19.9"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -76,7 +76,7 @@ releases:
     releaseDate: 2024-11-04
     eol: 2026-05-31
     latest: "2.18.16"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -85,7 +85,7 @@ releases:
     releaseDate: 2024-05-20
     eol: 2025-11-30
     latest: "2.17.14"
-    latestDate: 2025-09-08
+    latestReleaseDate: 2025-09-08
 
   - releaseCycle: "2.16"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -94,7 +94,7 @@ releases:
     releaseDate: 2023-11-06
     eol: 2025-07-31
     latest: "2.16.18"
-    latestDate: 2026-03-23
+    latestReleaseDate: 2026-03-23
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
@@ -103,7 +103,7 @@ releases:
     releaseDate: 2023-05-22
     eol: 2024-11-30
     latest: "2.15.13"
-    latestDate: 2024-11-04
+    latestReleaseDate: 2024-11-04
 
   - releaseCycle: "2.14"
     pythonVersionsControlNode: "3.9 - 3.11"
@@ -112,7 +112,7 @@ releases:
     releaseDate: 2022-11-07
     eol: 2024-05-20
     latest: "2.14.18"
-    latestDate: 2024-11-04
+    latestReleaseDate: 2024-11-04
 
   - releaseCycle: "2.13"
     pythonVersionsControlNode: "3.8 - 3.10"
@@ -121,7 +121,7 @@ releases:
     releaseDate: 2022-05-23
     eol: 2023-11-06
     latest: "2.13.13"
-    latestDate: 2023-10-09
+    latestReleaseDate: 2023-10-09
 
   - releaseCycle: "2.12"
     pythonVersionsControlNode: "3.8 - 3.10"
@@ -130,7 +130,7 @@ releases:
     releaseDate: 2021-11-08
     eol: 2023-05-22
     latest: "2.12.10"
-    latestDate: 2022-10-11
+    latestReleaseDate: 2022-10-11
 
   - releaseCycle: "2.11"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
@@ -139,7 +139,7 @@ releases:
     releaseDate: 2021-04-26
     eol: 2022-11-07
     latest: "2.11.12"
-    latestDate: 2022-05-23
+    latestReleaseDate: 2022-05-23
 
   - releaseCycle: "2.10"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
@@ -148,7 +148,7 @@ releases:
     releaseDate: 2020-08-13
     eol: 2022-05-23
     latest: "2.10.17"
-    latestDate: 2022-01-31
+    latestReleaseDate: 2022-01-31
 
   - releaseCycle: "2.9"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.8"
@@ -157,7 +157,7 @@ releases:
     releaseDate: 2019-10-31
     eol: 2022-05-23
     latest: "2.9.27"
-    latestDate: 2021-10-11
+    latestReleaseDate: 2021-10-11
 
 ---
 

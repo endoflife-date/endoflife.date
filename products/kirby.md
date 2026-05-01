@@ -6,14 +6,14 @@ iconSlug: kirby
 permalink: /kirby
 alternate_urls:
   - /getkirby
-latestLinkTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
+changelogTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
 customFields:
   - name: supportedPhpVersions
     display: after-release-column
     label: Supported PHP
     description: Supported PHP versions range
-    latestLink: https://getkirby.com/docs/reference/system/requirements#php-version-support-history
+    link: https://getkirby.com/docs/reference/system/requirements#php-version-support-history
 
 identifiers:
   - cpe: cpe:/a:getkirby:kirby
@@ -33,7 +33,7 @@ releases:
     eol: false
     supportedPhpVersions: 8.2 - 8.4
     latest: "5.4.0"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
@@ -41,7 +41,7 @@ releases:
     eol: 2025-11-27 # Assume eol(3.9)
     supportedPhpVersions: 8.1 - 8.3
     latest: "3.10.1.2"
-    latestDate: 2025-05-05
+    latestReleaseDate: 2025-05-05
 
   - releaseCycle: "4"
     codename: "A new era"
@@ -49,7 +49,7 @@ releases:
     eol: 2027-06-23
     supportedPhpVersions: 8.1 - 8.4
     latest: "4.9.0"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.9"
     codename: "Brookesia"
@@ -57,7 +57,7 @@ releases:
     eol: 2025-11-27
     supportedPhpVersions: 8.0 - 8.2
     latest: "3.9.8.3"
-    latestDate: 2025-05-05
+    latestReleaseDate: 2025-05-05
 
   - releaseCycle: "3.8"
     codename: "Rhampholeon"
@@ -65,7 +65,7 @@ releases:
     eol: 2025-01-16
     supportedPhpVersions: 8.0 - 8.1
     latest: "3.8.4.4"
-    latestDate: 2024-08-24
+    latestReleaseDate: 2024-08-24
 
   - releaseCycle: "3.7"
     codename: "Kinyongia"
@@ -73,7 +73,7 @@ releases:
     eol: 2024-10-05
     supportedPhpVersions: 7.4 - 8.1
     latest: "3.7.5.5"
-    latestDate: 2024-08-24
+    latestReleaseDate: 2024-08-24
 
   - releaseCycle: "3.6"
     codename: "Jungle Calumma"
@@ -81,7 +81,7 @@ releases:
     eol: 2024-06-26
     supportedPhpVersions: 7.4 - 8.1
     latest: "3.6.6.6"
-    latestDate: 2024-08-24
+    latestReleaseDate: 2024-08-24
 
   - releaseCycle: "3.5"
     codename: "Calumma"
@@ -89,7 +89,7 @@ releases:
     eol: 2023-11-15
     supportedPhpVersions: 7.3 - 8.0
     latest: "3.5.8.4"
-    latestDate: 2023-08-10
+    latestReleaseDate: 2023-08-10
 
   - releaseCycle: "3.4"
     codename: "Furcifer"
@@ -97,7 +97,7 @@ releases:
     eol: 2021-11-16
     supportedPhpVersions: 7.2 - 7.4
     latest: "3.4.5"
-    latestDate: 2020-12-01
+    latestReleaseDate: 2020-12-01
 
   - releaseCycle: "3.3"
     codename: "Trioceros"
@@ -105,7 +105,7 @@ releases:
     eol: 2021-11-16
     supportedPhpVersions: 7.1 - 7.4
     latest: "3.3.6"
-    latestDate: 2020-04-27
+    latestReleaseDate: 2020-04-27
 
   - releaseCycle: "3.2"
     codename: "Archaius"
@@ -113,7 +113,7 @@ releases:
     supportedPhpVersions: 7.1 - 7.3
     eol: 2021-11-16
     latest: "3.2.5"
-    latestDate: 2019-09-24
+    latestReleaseDate: 2019-09-24
 
   - releaseCycle: "3.1"
     codename: "Chamaeleo"
@@ -121,70 +121,70 @@ releases:
     eol: 2021-11-16
     supportedPhpVersions: 7.1 - 7.3
     latest: "3.1.4"
-    latestDate: 2019-05-21
+    latestReleaseDate: 2019-05-21
 
   - releaseCycle: "3.0"
     releaseDate: 2019-01-15
     eol: 2021-11-16
     supportedPhpVersions: 7.1 - 7.3
     latest: "3.0.3"
-    latestDate: 2019-03-05
+    latestReleaseDate: 2019-03-05
 
   - releaseCycle: "2.5"
     releaseDate: 2017-06-20
     eol: 2021-01-01
     latest: "2.5.14"
-    latestDate: 2020-12-01
-    latestLink: null
+    latestReleaseDate: 2020-12-01
+    link: null
 
   - releaseCycle: "2.4"
     releaseDate: 2016-11-03
     eol: 2021-01-01
     latest: "2.4.2"
-    latestDate: 2017-10-13
-    latestLink: null
+    latestReleaseDate: 2017-10-13
+    link: null
 
   - releaseCycle: "2.3"
     releaseDate: 2016-05-17
     eol: 2021-01-01
     latest: "2.3.3"
-    latestDate: 2017-10-31
-    latestLink: null
+    latestReleaseDate: 2017-10-31
+    link: null
 
   - releaseCycle: "2.2"
     releaseDate: 2015-11-17
     eol: 2021-01-01
     latest: "2.2.3"
-    latestDate: 2015-12-09
-    latestLink: null
+    latestReleaseDate: 2015-12-09
+    link: null
 
   - releaseCycle: "2.1"
     releaseDate: 2015-05-19
     eol: 2021-01-01
     latest: "2.1.1"
-    latestDate: 2015-08-11
-    latestLink: null
+    latestReleaseDate: 2015-08-11
+    link: null
 
   - releaseCycle: "2.0"
     releaseDate: 2014-10-07
     eol: 2021-01-01
     latest: "2.0.6"
-    latestDate: 2015-01-15
-    latestLink: null
+    latestReleaseDate: 2015-01-15
+    link: null
 
   - releaseCycle: "1.1"
     releaseDate: 2012-06-19
     eol: 2016-02-01
     latest: "1.1.2"
-    latestDate: 2013-02-04
-    latestLink: null
+    latestReleaseDate: 2013-02-04
+    link: null
 
   - releaseCycle: "1.0"
     releaseDate: 2012-01-09
     eol: 2016-02-01
     latest: "1.0.9"
-    latestDate: 2012-04-20
-    latestLink: null
+    latestReleaseDate: 2012-04-20
+    link: null
 
 ---
 

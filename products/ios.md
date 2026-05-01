@@ -5,7 +5,7 @@ category: os
 tags: apple
 iconSlug: ios
 permalink: /ios
-latestLinkTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
+changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
 auto:
@@ -24,115 +24,115 @@ releases:
     eoas: false
     eol: false
     latest: "26.4.2"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: 2025-09-15
     eol: 2026-04-22
     latest: "18.7.8"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: 2024-09-16
     eol: 2024-11-19
     latest: "17.7.2"
-    latestDate: 2024-11-19
+    latestReleaseDate: 2024-11-19
 
   - releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: 2025-03-31
     latest: "16.7.15"
-    latestDate: 2026-03-11
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
+    latestReleaseDate: 2026-03-11
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: 2025-03-31
     latest: "15.8.7"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
     eoas: 2021-09-20
     eol: 2021-10-01
     latest: "14.8.1"
-    latestDate: 2021-10-26
+    latestReleaseDate: 2021-10-26
 
   - releaseCycle: "13"
     releaseDate: 2019-09-19
     eoas: 2020-09-16
     eol: 2020-09-16
     latest: "13.7"
-    latestDate: 2020-09-01
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-13-release-notes
+    latestReleaseDate: 2020-09-01
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-13-release-notes
 
   - releaseCycle: "12"
     releaseDate: 2018-09-17
     eoas: 2019-09-19
     eol: 2023-01-23
     latest: "12.5.8"
-    latestDate: 2026-01-26
-    latestLink: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
+    latestReleaseDate: 2026-01-26
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
   - releaseCycle: "11"
     releaseDate: 2017-09-19
     eoas: 2018-09-17
     eol: 2018-10-08
     latest: "11.4.1"
-    latestDate: 2018-07-09
-    latestLink: https://support.apple.com/HT208067
+    latestReleaseDate: 2018-07-09
+    link: https://support.apple.com/HT208067
 
   - releaseCycle: "10"
     releaseDate: 2016-09-13
     eoas: 2017-09-19
     eol: 2017-09-26
     latest: "10.3.4"
-    latestDate: 2019-07-22
-    latestLink: https://support.apple.com/HT208011
+    latestReleaseDate: 2019-07-22
+    link: https://support.apple.com/HT208011
 
   - releaseCycle: "9"
     releaseDate: 2015-09-16
     eoas: 2016-09-13
     eol: 2016-09-13
     latest: "9.3.6"
-    latestDate: 2019-07-22
-    latestLink: https://support.apple.com/HT208010
+    latestReleaseDate: 2019-07-22
+    link: https://support.apple.com/HT208010
 
   - releaseCycle: "8"
     releaseDate: 2014-09-17
     eoas: 2015-09-16
     eol: 2015-09-30
     latest: "8.4.1"
-    latestDate: 2015-08-13
-    latestLink: https://support.apple.com/HT208000
+    latestReleaseDate: 2015-08-13
+    link: https://support.apple.com/HT208000
 
   - releaseCycle: "7"
     releaseDate: 2013-09-18
     eoas: 2014-09-17
     eol: 2014-10-20
     latest: "7.1.2"
-    latestDate: 2014-06-30
-    latestLink: https://support.apple.com/HT207979
+    latestReleaseDate: 2014-06-30
+    link: https://support.apple.com/HT207979
 
   - releaseCycle: "6"
     releaseDate: 2012-09-19
     eoas: 2013-09-18
     eol: 2013-09-26
     latest: "6.1.6"
-    latestDate: 2014-02-21
-    latestLink: https://support.apple.com/HT212584
+    latestReleaseDate: 2014-02-21
+    link: https://support.apple.com/HT212584
 
   - releaseCycle: "5"
     releaseDate: 2011-10-12
     eoas: 2012-09-19
     eol: 2012-11-01
     latest: "5.1.1"
-    latestDate: 2012-05-07
-    latestLink: https://support.apple.com/HT212597
+    latestReleaseDate: 2012-05-07
+    link: https://support.apple.com/HT212597
 
 ---
 

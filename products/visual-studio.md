@@ -7,7 +7,7 @@ permalink: /visual-studio
 alternate_urls:
   - /visualstudio
 releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
-latestLinkTemplate: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes-v__RELEASE_CYCLE__#__LATEST__
+changelogTemplate: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes-v__RELEASE_CYCLE__#__LATEST__
 releaseLabel: "__CODENAME__ - __RELEASE_CYCLE__"
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eolColumn: Active Support
@@ -30,48 +30,48 @@ releases:
     releaseDate: 2026-04-14
     eol: false # releaseDate(18.6)
     latest: "18.5.2"
-    latestDate: 2026-04-28
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2026-04-28
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.4"
     codename: "2026"
     releaseDate: 2026-03-10
     eol: 2026-04-14
     latest: "18.4.4"
-    latestDate: 2026-04-14
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2026-04-14
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.3"
     codename: "2026"
     releaseDate: 2026-02-10
     eol: 2026-03-10
     latest: "18.3.3"
-    latestDate: 2026-03-10
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2026-03-10
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.2"
     codename: "2026"
     releaseDate: 2026-01-13
     eol: 2026-02-10
     latest: "18.2.2"
-    latestDate: 2026-02-10
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.1"
     codename: "2026"
     releaseDate: 2025-12-09
     eol: 2026-01-13
     latest: "18.1.1"
-    latestDate: 2025-12-16
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2025-12-16
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.0"
     codename: "2026"
     releaseDate: 2025-11-11
     eol: 2025-12-09
     latest: "18.0.2"
-    latestDate: 2025-11-24
-    latestLink: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    latestReleaseDate: 2025-11-24
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "17.14"
     codename: "2022"
@@ -79,14 +79,14 @@ releases:
     releaseDate: 2025-05-13
     eol: 2032-01-13
     latest: "17.14.30"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "17.13"
     codename: "2022"
     releaseDate: 2025-02-11
     eol: 2025-05-13
     latest: "17.13.7"
-    latestDate: 2025-05-13
+    latestReleaseDate: 2025-05-13
 
   - releaseCycle: "17.12"
     codename: "2022"
@@ -94,14 +94,14 @@ releases:
     releaseDate: 2024-11-12
     eol: 2026-07-14
     latest: "17.12.19"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "17.11"
     codename: "2022"
     releaseDate: 2024-08-13
     eol: 2024-11-12
     latest: "17.11.6"
-    latestDate: 2024-11-12
+    latestReleaseDate: 2024-11-12
 
   - releaseCycle: "17.10"
     codename: "2022"
@@ -109,14 +109,14 @@ releases:
     releaseDate: 2024-05-21
     eol: 2026-01-13
     latest: "17.10.21"
-    latestDate: 2025-11-11
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "17.9"
     codename: "2022"
     releaseDate: 2024-02-13
     eol: 2024-05-21
     latest: "17.9.7"
-    latestDate: 2024-05-14
+    latestReleaseDate: 2024-05-14
 
   - releaseCycle: "17.8"
     codename: "2022"
@@ -124,14 +124,14 @@ releases:
     releaseDate: 2023-11-14
     eol: 2025-07-08
     latest: "17.8.23"
-    latestDate: 2025-07-08
+    latestReleaseDate: 2025-07-08
 
   - releaseCycle: "17.7"
     codename: "2022"
     releaseDate: 2023-08-08
     eol: 2023-11-14
     latest: "17.7.7"
-    latestDate: 2023-11-14
+    latestReleaseDate: 2023-11-14
 
   - releaseCycle: "17.6"
     codename: "2022"
@@ -139,14 +139,14 @@ releases:
     releaseDate: 2023-05-16
     eol: 2025-01-14
     latest: "17.6.22"
-    latestDate: 2025-01-14
+    latestReleaseDate: 2025-01-14
 
   - releaseCycle: "17.5"
     codename: "2022"
     releaseDate: 2023-02-21
     eol: 2023-05-16
     latest: "17.5.5"
-    latestDate: 2023-05-01
+    latestReleaseDate: 2023-05-01
 
   - releaseCycle: "17.4"
     codename: "2022"
@@ -154,14 +154,14 @@ releases:
     releaseDate: 2022-11-08
     eol: 2024-07-09
     latest: "17.4.21"
-    latestDate: 2024-07-09
+    latestReleaseDate: 2024-07-09
 
   - releaseCycle: "17.3"
     codename: "2022"
     releaseDate: 2022-08-09
     eol: 2022-11-08
     latest: "17.3.7"
-    latestDate: 2022-11-08
+    latestReleaseDate: 2022-11-08
 
   - releaseCycle: "17.2"
     codename: "2022"
@@ -169,14 +169,14 @@ releases:
     releaseDate: 2022-05-10
     eol: 2024-01-09
     latest: "17.2.23"
-    latestDate: 2024-01-09
+    latestReleaseDate: 2024-01-09
 
   - releaseCycle: "17.1"
     codename: "2022"
     releaseDate: 2022-02-15
     eol: 2022-05-10
     latest: "17.1.7"
-    latestDate: 2022-05-10
+    latestReleaseDate: 2022-05-10
 
   - releaseCycle: "17.0"
     codename: "2022"
@@ -184,203 +184,203 @@ releases:
     releaseDate: 2021-11-08
     eol: 2023-07-11
     latest: "17.0.23"
-    latestDate: 2023-07-11
+    latestReleaseDate: 2023-07-11
 
   - releaseCycle: "16.11"
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
     latest: "16.11.55"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "16.10"
     codename: "2019"
     releaseDate: 2021-05-25
     eol: 2021-08-10
     latest: "16.10.4"
-    latestDate: 2021-07-20
+    latestReleaseDate: 2021-07-20
 
   - releaseCycle: "16.9"
     codename: "2019"
     releaseDate: 2021-03-02
     eol: 2022-10-11
     latest: "16.9.26"
-    latestDate: 2022-10-11
+    latestReleaseDate: 2022-10-11
 
   - releaseCycle: "16.8"
     codename: "2019"
     releaseDate: 2020-11-10
     eol: 2021-03-09
     latest: "16.8.7"
-    latestDate: 2021-03-09
+    latestReleaseDate: 2021-03-09
 
   - releaseCycle: "16.7"
     codename: "2019"
     releaseDate: 2020-08-05
     eol: 2022-04-12
     latest: "16.7.28"
-    latestDate: 2022-04-19
+    latestReleaseDate: 2022-04-19
 
   - releaseCycle: "16.6"
     codename: "2019"
     releaseDate: 2020-05-19
     eol: 2020-08-05
     latest: "16.6.5"
-    latestDate: 2020-07-21
+    latestReleaseDate: 2020-07-21
 
   - releaseCycle: "16.5"
     codename: "2019"
     releaseDate: 2020-03-16
     eol: 2020-05-19
     latest: "16.5.5"
-    latestDate: 2020-05-12
+    latestReleaseDate: 2020-05-12
 
   - releaseCycle: "16.4"
     codename: "2019"
     releaseDate: 2019-12-03
     eol: 2021-10-12
     latest: "16.4.27"
-    latestDate: 2021-10-12
+    latestReleaseDate: 2021-10-12
 
   - releaseCycle: "16.3"
     codename: "2019"
     releaseDate: 2019-09-23
     eol: 2019-12-03
     latest: "16.3.10"
-    latestDate: 2019-11-20
+    latestReleaseDate: 2019-11-20
 
   - releaseCycle: "16.2"
     codename: "2019"
     releaseDate: 2019-07-24
     eol: 2019-09-23
     latest: "16.2.5"
-    latestDate: 2019-09-10
+    latestReleaseDate: 2019-09-10
 
   - releaseCycle: "16.1"
     codename: "2019"
     releaseDate: 2019-05-21
     eol: 2019-07-24
     latest: "16.1.6"
-    latestDate: 2019-07-09
+    latestReleaseDate: 2019-07-09
 
   - releaseCycle: "16.0"
     codename: "2019"
     releaseDate: 2019-04-02
     eol: 2021-01-12
     latest: "16.0.22"
-    latestDate: 2021-01-12
+    latestReleaseDate: 2021-01-12
 
   - releaseCycle: "15.9"
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
     latest: "15.9.79"
-    latestDate: 2026-04-14
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
+    latestReleaseDate: 2026-04-14
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
   - releaseCycle: "15.8"
     codename: "2017"
     releaseDate: 2018-08-14
     eol: 2018-11-13
     latest: "15.8.9"
-    latestDate: 2018-11-02
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.8#-visual-studio-2017-version-1589
+    latestReleaseDate: 2018-11-02
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.8#-visual-studio-2017-version-1589
 
   - releaseCycle: "15.7"
     codename: "2017"
     releaseDate: 2018-05-07
     eol: 2018-08-14
     latest: "15.7.6"
-    latestDate: 2018-08-02
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.7#-visual-studio-2017-version-1576
+    latestReleaseDate: 2018-08-02
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.7#-visual-studio-2017-version-1576
 
   - releaseCycle: "15.6"
     codename: "2017"
     releaseDate: 2018-03-05
     eol: 2018-05-07
     latest: "15.6.7"
-    latestDate: 2018-04-26
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.6#--visual-studio-2017-version-1567-servicing-update-
+    latestReleaseDate: 2018-04-26
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.6#--visual-studio-2017-version-1567-servicing-update-
 
   - releaseCycle: "15.5"
     codename: "2017"
     releaseDate: 2017-12-04
     eol: 2018-03-05
     latest: "15.5.7"
-    latestDate: 2018-02-20
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.5#visual-studio-2017-version-1557
+    latestReleaseDate: 2018-02-20
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.5#visual-studio-2017-version-1557
 
   - releaseCycle: "15.4"
     codename: "2017"
     releaseDate: 2017-10-09
     eol: 2017-12-04
     latest: "15.4.5"
-    latestDate: 2017-11-27
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.4#visual-studio-2017-version-1545
+    latestReleaseDate: 2017-11-27
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.4#visual-studio-2017-version-1545
 
   - releaseCycle: "15.3"
     codename: "2017"
     releaseDate: 2017-08-14
     eol: 2017-10-09
     latest: "15.3.5"
-    latestDate: 2017-09-19
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.3#visual-studio-2017-version-1535
+    latestReleaseDate: 2017-09-19
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.3#visual-studio-2017-version-1535
 
   - releaseCycle: "15.2"
     codename: "2017"
     releaseDate: 2017-05-10
     eol: 2017-08-14
     latest: "15.2.6"
-    latestDate: 2017-07-17
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.2#visual-studio-2017-version-1525
+    latestReleaseDate: 2017-07-17
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.2#visual-studio-2017-version-1525
 
   - releaseCycle: "15.1"
     codename: "2017"
     releaseDate: 2017-04-05
     eol: 2017-05-10
     latest: "15.1.2"
-    latestDate: 2017-04-17
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.1#-visual-studio-2017-version-1512
+    latestReleaseDate: 2017-04-17
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.1#-visual-studio-2017-version-1512
 
   - releaseCycle: "15.0"
     codename: "2017"
     releaseDate: 2017-03-07
     eol: 2020-01-14
     latest: "15.0.28"
-    latestDate: 2019-12-11
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.0#--visual-studio-2017-version-15018
+    latestReleaseDate: 2019-12-11
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.0#--visual-studio-2017-version-15018
 
   - releaseCycle: "14.0"
     codename: "2015"
     releaseDate: 2015-07-20
     eol: 2025-10-14
     latest: "Update 3 + KB3165756"
-    latestDate: 2016-09-14
-    latestLink: https://learn.microsoft.com/previous-versions/mt752379(v=vs.140)
+    latestReleaseDate: 2016-09-14
+    link: https://learn.microsoft.com/previous-versions/mt752379(v=vs.140)
 
   - releaseCycle: "12.0"
     codename: "2013"
     releaseDate: 2014-01-15
     eol: 2024-04-09
     latest: "Update 5"
-    latestDate: 2015-07-20
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
+    latestReleaseDate: 2015-07-20
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
 
   - releaseCycle: "11.0"
     codename: "2012"
     releaseDate: 2012-10-31
     eol: 2023-01-10
     latest: "Update 4"
-    latestDate: 2013-11-13
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2012-update4-vs
+    latestReleaseDate: 2013-11-13
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2012-update4-vs
 
   - releaseCycle: "10.0"
     codename: "2010"
     releaseDate: 2010-06-29
     eol: 2020-07-14
     latest: "Service Pack 1"
-    latestDate: 2011-08-18
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2010-sp1-vs
+    latestReleaseDate: 2011-08-18
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2010-sp1-vs
 
 ---
 

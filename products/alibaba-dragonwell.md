@@ -9,7 +9,7 @@ alternate_urls:
   - /dragonwell
 versionCommand: java -version
 releasePolicyLink: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
-latestLinkTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
+changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 
 # The repology ones are only AUR right now
 # The docker images and rpm repo are official ones,
@@ -73,36 +73,36 @@ releases:
     releaseDate: 2025-09-24 # The first official release is 25.0.0.0.1.
     eol: 2029-09-30 # expected, following Dragonwell's stated four-year minimum support window
     latest: "25.0.3.0.3+9"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.
     eol: 2029-11-30
     latest: "21.0.10.0.10+7"
-    latestDate: 2026-02-28
+    latestReleaseDate: 2026-02-28
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # The first official release is 17.0.1.
     eol: 2027-09-30
     latest: "17.0.18.0.19+8"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2020-07-20 # The first official release is 11.0.7.2.
     eol: 2027-09-30
     latest: "11.0.30.26"
-    latestDate: 2026-03-04
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
     latest: "8.28.27"
-    latestDate: 2026-03-04
-    latestLink: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
+    latestReleaseDate: 2026-03-04
+    link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---
 

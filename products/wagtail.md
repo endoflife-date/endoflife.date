@@ -7,7 +7,7 @@ iconSlug: wagtail
 permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
-latestLinkTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
+changelogTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
 eoasColumn: true
 
 identifiers:
@@ -34,21 +34,21 @@ releases:
     eoas: 2026-05-04
     eol: 2026-08-03
     latest: "7.3.1"
-    latestDate: 2026-03-03
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "7.2"
     releaseDate: 2025-11-05
     eoas: 2026-02-02
     eol: 2026-05-04
     latest: "7.2.3"
-    latestDate: 2026-03-03
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "7.1"
     releaseDate: 2025-08-04
     eoas: 2025-11-05
     eol: 2026-02-02
     latest: "7.1.3"
-    latestDate: 2026-02-03
+    latestReleaseDate: 2026-02-03
 
   - releaseCycle: "7.0"
     lts: true
@@ -56,14 +56,14 @@ releases:
     eoas: 2026-11-02
     eol: 2026-11-02
     latest: "7.0.6"
-    latestDate: 2026-03-03
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "6.4"
     releaseDate: 2025-02-03
     eoas: 2025-05-06
     eol: 2025-08-04
     latest: "6.4.2"
-    latestDate: 2025-06-12
+    latestReleaseDate: 2025-06-12
 
   - releaseCycle: "6.3"
     lts: true
@@ -71,28 +71,28 @@ releases:
     eoas: 2026-05-01
     eol: 2026-05-01
     latest: "6.3.8"
-    latestDate: 2026-03-03
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "6.2"
     releaseDate: 2024-08-01
     eoas: 2024-11-01
     eol: 2025-02-03
     latest: "6.2.4"
-    latestDate: 2025-06-17
+    latestReleaseDate: 2025-06-17
 
   - releaseCycle: "6.1"
     releaseDate: 2024-05-01
     eoas: 2024-08-01
     eol: 2024-11-01
     latest: "6.1.3"
-    latestDate: 2024-07-11
+    latestReleaseDate: 2024-07-11
 
   - releaseCycle: "6.0"
     releaseDate: 2024-02-07
     eoas: 2024-05-01
     eol: 2024-08-01
     latest: "6.0.6"
-    latestDate: 2024-07-11
+    latestReleaseDate: 2024-07-11
 
   - releaseCycle: "5.2"
     lts: true
@@ -100,28 +100,28 @@ releases:
     eoas: 2025-05-06
     eol: 2025-05-06
     latest: "5.2.8"
-    latestDate: 2025-02-03
+    latestReleaseDate: 2025-02-03
 
   - releaseCycle: "5.1"
     releaseDate: 2023-08-01
     eoas: 2023-11-01
     eol: 2024-02-01
     latest: "5.1.3"
-    latestDate: 2023-10-19
+    latestReleaseDate: 2023-10-19
 
   - releaseCycle: "5.0"
     releaseDate: 2023-05-02
     eoas: 2023-08-01
     eol: 2023-11-01
     latest: "5.0.5"
-    latestDate: 2023-10-19
+    latestReleaseDate: 2023-10-19
 
   - releaseCycle: "4.2"
     releaseDate: 2023-02-01
     eoas: 2023-05-02
     eol: 2023-08-01
     latest: "4.2.4"
-    latestDate: 2023-05-25
+    latestReleaseDate: 2023-05-25
 
   - releaseCycle: "4.1"
     releaseDate: 2022-11-01
@@ -129,28 +129,28 @@ releases:
     lts: true
     eol: 2024-02-01
     latest: "4.1.9"
-    latestDate: 2023-10-19
+    latestReleaseDate: 2023-10-19
 
   - releaseCycle: "4.0"
     releaseDate: 2022-08-31
     eoas: 2022-11-01
     eol: 2023-02-01
     latest: "4.0.4"
-    latestDate: 2022-10-18
+    latestReleaseDate: 2022-10-18
 
   - releaseCycle: "3.0"
     releaseDate: 2022-05-16
     eoas: 2022-08-31
     eol: 2022-11-01
     latest: "3.0.3"
-    latestDate: 2022-09-05
+    latestReleaseDate: 2022-09-05
 
   - releaseCycle: "2.16"
     releaseDate: 2022-02-07
     eoas: 2022-05-01
     eol: 2022-08-01
     latest: "2.16.3"
-    latestDate: 2022-09-05
+    latestReleaseDate: 2022-09-05
 
   - releaseCycle: "2.15"
     lts: true
@@ -158,28 +158,28 @@ releases:
     eoas: 2023-02-01
     eol: 2023-02-01
     latest: "2.15.6"
-    latestDate: 2022-09-05
+    latestReleaseDate: 2022-09-05
 
   - releaseCycle: "2.14"
     releaseDate: 2021-08-01
     eoas: 2021-11-04
     eol: 2022-02-07
     latest: "2.14.2"
-    latestDate: 2021-10-14
+    latestReleaseDate: 2021-10-14
 
   - releaseCycle: "2.13"
     releaseDate: 2021-05-12
     eoas: 2021-08-01
     eol: 2021-11-04
     latest: "2.13.5"
-    latestDate: 2021-10-14
+    latestReleaseDate: 2021-10-14
 
   - releaseCycle: "2.12"
     releaseDate: 2021-02-02
     eoas: 2021-05-12
     eol: 2021-08-01
     latest: "2.12.6"
-    latestDate: 2021-07-13
+    latestReleaseDate: 2021-07-13
 
   - releaseCycle: "2.11"
     lts: true
@@ -187,28 +187,28 @@ releases:
     eoas: 2022-02-01
     eol: 2022-02-01
     latest: "2.11.9"
-    latestDate: 2022-01-24
+    latestReleaseDate: 2022-01-24
 
   - releaseCycle: "2.10"
     releaseDate: 2020-08-11
     eoas: 2020-11-01
     eol: 2021-02-02
     latest: "2.10.2"
-    latestDate: 2020-09-25
+    latestReleaseDate: 2020-09-25
 
   - releaseCycle: "2.9"
     releaseDate: 2020-05-04
     eoas: 2020-08-11
     eol: 2020-11-02
     latest: "2.9.3"
-    latestDate: 2020-07-20
+    latestReleaseDate: 2020-07-20
 
   - releaseCycle: "2.8"
     releaseDate: 2020-02-03
     eoas: 2020-05-04
     eol: 2020-08-11
     latest: "2.8.2"
-    latestDate: 2020-05-04
+    latestReleaseDate: 2020-05-04
 
   - releaseCycle: "2.7"
     lts: true
@@ -216,28 +216,28 @@ releases:
     eoas: 2021-02-03
     eol: 2021-02-03
     latest: "2.7.4"
-    latestDate: 2020-07-20
+    latestReleaseDate: 2020-07-20
 
   - releaseCycle: "2.6"
     releaseDate: 2019-08-01
     eoas: 2019-11-01
     eol: 2020-02-03
     latest: "2.6.3"
-    latestDate: 2019-10-22
+    latestReleaseDate: 2019-10-22
 
   - releaseCycle: "2.5"
     releaseDate: 2019-04-24
     eoas: 2019-08-01
     eol: 2019-11-06
     latest: "2.5.2"
-    latestDate: 2019-08-01
+    latestReleaseDate: 2019-08-01
 
   - releaseCycle: "2.4"
     releaseDate: 2018-12-19
     eoas: 2019-04-30
     eol: 2019-08-01
     latest: "2.4"
-    latestDate: 2018-12-19
+    latestReleaseDate: 2018-12-19
 
   - releaseCycle: "2.3"
     lts: true
@@ -245,7 +245,7 @@ releases:
     eoas: 2020-02-01
     eol: 2020-02-01
     latest: "2.3"
-    latestDate: 2018-10-23
+    latestReleaseDate: 2018-10-23
 
   - releaseCycle: "1.13"
     lts: true
@@ -253,7 +253,7 @@ releases:
     eoas: 2019-04-30
     eol: 2019-04-30
     latest: "1.13.4"
-    latestDate: 2018-08-13
+    latestReleaseDate: 2018-08-13
 
   - releaseCycle: "1.12"
     lts: true
@@ -261,7 +261,7 @@ releases:
     eoas: 2018-11-30
     eol: 2018-11-30
     latest: "1.12.6"
-    latestDate: 2018-08-13
+    latestReleaseDate: 2018-08-13
 
   - releaseCycle: "1.8"
     lts: true
@@ -269,7 +269,7 @@ releases:
     eoas: 2017-08-31
     eol: 2017-08-31
     latest: "1.8.2"
-    latestDate: 2017-04-21
+    latestReleaseDate: 2017-04-21
 
   - releaseCycle: "1.4"
     lts: true
@@ -277,7 +277,7 @@ releases:
     eoas: 2016-12-31
     eol: 2016-12-31
     latest: "1.4.6"
-    latestDate: 2016-07-18
+    latestReleaseDate: 2016-07-18
 
   - releaseCycle: "0.8"
     lts: true
@@ -285,7 +285,7 @@ releases:
     eoas: 2016-03-31
     eol: 2016-03-31
     latest: "0.8.10"
-    latestDate: 2015-09-16
+    latestReleaseDate: 2015-09-16
 
 ---
 

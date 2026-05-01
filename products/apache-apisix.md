@@ -7,7 +7,7 @@ iconSlug: apache
 permalink: /apache-apisix
 alternate_urls:
   - /apisix
-latestLinkTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
+changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:apache:apisix
@@ -26,143 +26,143 @@ releases:
     releaseDate: 2026-04-08
     eol: false
     latest: "3.16.0"
-    latestDate: 2026-04-08
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "3.15"
     releaseDate: 2026-02-05
     eol: 2026-04-08
     latest: "3.15.0"
-    latestDate: 2026-02-05
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "3.14"
     releaseDate: 2025-10-10
     eol: 2026-02-05
     latest: "3.14.1"
-    latestDate: 2025-10-16
+    latestReleaseDate: 2025-10-16
 
   - releaseCycle: "3.13"
     releaseDate: 2025-06-27
     eol: 2025-10-10
     latest: "3.13.0"
-    latestDate: 2025-06-27
+    latestReleaseDate: 2025-06-27
 
   - releaseCycle: "3.12"
     releaseDate: 2025-04-01
     eol: 2025-06-27
     latest: "3.12.0"
-    latestDate: 2025-04-01
+    latestReleaseDate: 2025-04-01
 
   - releaseCycle: "3.11"
     releaseDate: 2024-10-17
     eol: 2025-04-01
     latest: "3.11.0"
-    latestDate: 2024-10-17
+    latestReleaseDate: 2024-10-17
 
   - releaseCycle: "3.10"
     releaseDate: 2024-08-14
     eol: 2024-10-17
     latest: "3.10.0"
-    latestDate: 2024-08-14
+    latestReleaseDate: 2024-08-14
 
   - releaseCycle: "3.9"
     releaseDate: 2024-03-20
     eol: 2024-08-14
     latest: "3.9.1"
-    latestDate: 2024-04-24
+    latestReleaseDate: 2024-04-24
 
   - releaseCycle: "3.8"
     releaseDate: 2024-01-09
     eol: 2024-03-20
     latest: "3.8.1"
-    latestDate: 2024-04-29
+    latestReleaseDate: 2024-04-29
 
   - releaseCycle: "3.7"
     releaseDate: 2023-11-17
     eol: 2024-01-09
     latest: "3.7.0"
-    latestDate: 2023-11-21
+    latestReleaseDate: 2023-11-21
 
   - releaseCycle: "3.6"
     releaseDate: 2023-10-01
     eol: 2023-11-17
     latest: "3.6.0"
-    latestDate: 2023-10-04
+    latestReleaseDate: 2023-10-04
 
   - releaseCycle: "3.5"
     releaseDate: 2023-08-29
     eol: 2023-10-01
     latest: "3.5.0"
-    latestDate: 2023-09-01
+    latestReleaseDate: 2023-09-01
 
   - releaseCycle: "3.4"
     releaseDate: 2023-06-27
     eol: 2023-08-29
     latest: "3.4.1"
-    latestDate: 2023-07-20
+    latestReleaseDate: 2023-07-20
 
   - releaseCycle: "3.3"
     releaseDate: 2023-04-30
     eol: 2023-06-27
     latest: "3.3.0"
-    latestDate: 2023-05-04
+    latestReleaseDate: 2023-05-04
 
   - releaseCycle: "3.2"
     lts: true
     releaseDate: 2023-03-06
     eol: 2024-11-13 # https://github.com/apache/apisix-website/pull/1830
     latest: "3.2.2"
-    latestDate: 2023-07-22
+    latestReleaseDate: 2023-07-22
 
   - releaseCycle: "3.1"
     releaseDate: 2022-12-26
     eol: 2023-03-06
     latest: "3.1.0"
-    latestDate: 2022-12-29
+    latestReleaseDate: 2022-12-29
 
   - releaseCycle: "3.0"
     releaseDate: 2022-10-26
     eol: 2022-12-26
     latest: "3.0.0"
-    latestDate: 2022-11-02
+    latestReleaseDate: 2022-11-02
 
   - releaseCycle: "2.15"
     releaseDate: 2022-07-22
     lts: true
     eol: 2023-03-03
     latest: "2.15.3"
-    latestDate: 2023-03-07
+    latestReleaseDate: 2023-03-07
 
   - releaseCycle: "2.14"
     releaseDate: 2022-05-23
     eol: 2022-07-22
     latest: "2.14.1"
-    latestDate: 2022-05-27
+    latestReleaseDate: 2022-05-27
 
   - releaseCycle: "2.13"
     lts: true
     releaseDate: 2022-03-21
     eol: 2022-08-19
     latest: "2.13.3"
-    latestDate: 2022-08-26
+    latestReleaseDate: 2022-08-26
 
   - releaseCycle: "2.12"
     releaseDate: 2022-01-20
     eol: 2022-03-21
     latest: "2.12.1"
-    latestDate: 2022-02-10
+    latestReleaseDate: 2022-02-10
 
   - releaseCycle: "2.11"
     releaseDate: 2021-11-23
     eol: 2022-01-20
     latest: "2.11.0"
-    latestDate: 2021-11-29
+    latestReleaseDate: 2021-11-29
 
   - releaseCycle: "2.10"
     lts: true
     releaseDate: 2021-09-24
     eol: 2022-04-01
     latest: "2.10.5"
-    latestDate: 2022-04-05
+    latestReleaseDate: 2022-04-05
 
 ---
 

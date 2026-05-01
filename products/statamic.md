@@ -7,7 +7,7 @@ iconSlug: statamic
 permalink: /statamic
 versionCommand: php please --version
 releasePolicyLink: https://statamic.dev/release-schedule-support-policy/
-latestLinkTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.md"
+changelogTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.md"
 eoasColumn: true
 
 customFields:
@@ -15,12 +15,12 @@ customFields:
     display: api-only
     label: Laravel
     description: Supported Laravel versions
-    latestLink: https://statamic.dev/release-schedule-support-policy
+    link: https://statamic.dev/release-schedule-support-policy
   - name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
-    latestLink: https://statamic.dev/release-schedule-support-policy
+    link: https://statamic.dev/release-schedule-support-policy
 
 identifiers:
   - purl: pkg:composer/statamic/cms
@@ -58,7 +58,7 @@ releases:
     supportedLaravelVersions: "12-13"
     supportedPhpVersions: "8.3-8.5"
     latest: "6.15.0"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "5"
     releaseDate: 2024-05-09
@@ -67,7 +67,7 @@ releases:
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
     latest: "5.73.21"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09
@@ -76,7 +76,7 @@ releases:
     supportedLaravelVersions: "9-10"
     supportedPhpVersions: "8.0-8.3"
     latest: "4.58.3"
-    latestDate: 2024-09-11
+    latestReleaseDate: 2024-09-11
 
   - releaseCycle: "3.4"
     releaseDate: 2023-01-27
@@ -85,7 +85,7 @@ releases:
     supportedLaravelVersions: "8-9"
     supportedPhpVersions: "7.4-8.1"
     latest: "3.4.17"
-    latestDate: 2024-01-25
+    latestReleaseDate: 2024-01-25
 
   - releaseCycle: "3.3"
     releaseDate: 2022-03-14
@@ -94,7 +94,7 @@ releases:
     supportedLaravelVersions: "8-9"
     supportedPhpVersions: "7.4-8.1"
     latest: "3.3.68"
-    latestDate: 2023-02-02
+    latestReleaseDate: 2023-02-02
 
 ---
 

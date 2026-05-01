@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes linux-foundation
 permalink: /contour
 releasePolicyLink: https://projectcontour.io/resources/support/
-latestLinkTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
 eolColumn: Bug and Security Fixes
 
 identifiers:
@@ -26,61 +26,61 @@ releases:
     releaseDate: 2025-09-08
     eol: false # releaseDate(1.36)
     latest: "1.33.4"
-    latestDate: 2026-04-20
+    latestReleaseDate: 2026-04-20
 
   - releaseCycle: "1.32"
     releaseDate: 2025-05-15
     eol: false # releaseDate(1.35)
     latest: "1.32.5"
-    latestDate: 2026-04-20
+    latestReleaseDate: 2026-04-20
 
   - releaseCycle: "1.31"
     releaseDate: 2025-05-06
     eol: false # releaseDate(1.34)
     latest: "1.31.6"
-    latestDate: 2026-04-20
+    latestReleaseDate: 2026-04-20
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eol: 2025-09-08
     latest: "1.30.5"
-    latestDate: 2025-08-15
+    latestReleaseDate: 2025-08-15
 
   - releaseCycle: "1.29"
     releaseDate: 2024-05-07
     eol: 2025-05-15
     latest: "1.29.5"
-    latestDate: 2025-03-25
+    latestReleaseDate: 2025-03-25
 
   - releaseCycle: "1.28"
     releaseDate: 2024-02-12
     eol: 2025-05-06 # releaseDate(1.31)
     latest: "1.28.8"
-    latestDate: 2025-01-13
+    latestReleaseDate: 2025-01-13
 
   - releaseCycle: "1.27"
     releaseDate: 2023-10-30
     eol: 2024-07-31 # releaseDate(1.30)
     latest: "1.27.4"
-    latestDate: 2024-06-12
+    latestReleaseDate: 2024-06-12
 
   - releaseCycle: "1.26"
     releaseDate: 2023-08-29
     eol: 2024-05-07 # releaseDate(1.29)
     latest: "1.26.3"
-    latestDate: 2024-04-10
+    latestReleaseDate: 2024-04-10
 
   - releaseCycle: "1.25"
     releaseDate: 2023-05-09
     eol: 2024-02-12 # releaseDate(1.28)
     latest: "1.25.3"
-    latestDate: 2023-10-17
+    latestReleaseDate: 2023-10-17
 
   - releaseCycle: "1.24"
     releaseDate: 2023-01-31
     eol: 2023-10-30 # releaseDate(1.27)
     latest: "1.24.6"
-    latestDate: 2023-10-17
+    latestReleaseDate: 2023-10-17
 
 ---
 

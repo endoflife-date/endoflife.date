@@ -13,7 +13,7 @@ customFields:
     display: after-release-column
     label: PHP versions
     description: Supported PHP versions range
-    latestLink: https://github.com/consolidation/robo/blob/5.x/README.md
+    link: https://github.com/consolidation/robo/blob/5.x/README.md
 
 auto:
   methods:
@@ -40,7 +40,7 @@ releases:
     eoas: false
     eol: false
     latest: "5.1.1"
-    latestDate: 2025-11-14
+    latestReleaseDate: 2025-11-14
 
   - releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
@@ -48,7 +48,7 @@ releases:
     eoas: false
     eol: false
     latest: "4.0.6"
-    latestDate: 2023-04-30
+    latestReleaseDate: 2023-04-30
 
   - releaseCycle: "3"
     supportedPHPVersions: "7.1 - 8.1"
@@ -56,7 +56,7 @@ releases:
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "3.0.12"
-    latestDate: 2023-04-30
+    latestReleaseDate: 2023-04-30
 
   - releaseCycle: "2"
     supportedPHPVersions: "7.1 - 7.4"
@@ -64,7 +64,7 @@ releases:
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "2.2.2"
-    latestDate: 2020-12-18
+    latestReleaseDate: 2020-12-18
 
   - releaseCycle: "1"
     supportedPHPVersions: "5.5 - 7.4"
@@ -72,7 +72,7 @@ releases:
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "1.5.0"
-    latestDate: 2021-10-07
+    latestReleaseDate: 2021-10-07
 
 ---
 

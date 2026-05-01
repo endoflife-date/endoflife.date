@@ -7,7 +7,7 @@ iconSlug: caddy
 permalink: /caddy
 versionCommand: caddy version
 releasePolicyLink: https://github.com/caddyserver/caddy/security
-latestLinkTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -35,14 +35,14 @@ releases:
     releaseDate: 2020-05-04
     eol: false
     latest: "2.11.2"
-    latestDate: 2026-03-05
+    latestReleaseDate: 2026-03-05
 
   - releaseCycle: "1"
     releaseDate: 2019-04-24
     #https://caddy.community/t/caddy-version-1-end-of-life-date/7835/10
     eol: 2020-07-01
     latest: "1.0.5"
-    latestDate: 2020-02-28
+    latestReleaseDate: 2020-02-28
 
 ---
 

@@ -6,7 +6,7 @@ tags: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
 releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
-latestLinkTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
+changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 eolColumn: Core Support
 eoesColumn: true
 
@@ -43,49 +43,49 @@ releases:
     eol: 2030-04-08
     eoes: 2031-04-08
     latest: "2025.0.07.331586"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "2023"
     releaseDate: 2022-05-16
     eol: 2028-05-16
     eoes: 2029-05-16
     latest: "2023.0.19.330899"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "2021"
     releaseDate: 2020-11-11
     eol: 2025-11-10
     eoes: 2026-11-10
     latest: "2021.0.23.330486"
-    latestDate: 2025-12-09
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "2018"
     releaseDate: 2018-07-12
     eol: 2023-07-13
     eoes: 2024-07-13
     latest: "2018.0.19.330149"
-    latestDate: 2023-07-19
+    latestReleaseDate: 2023-07-19
 
   - releaseCycle: "2016"
     releaseDate: 2016-02-16
     eol: 2021-02-17
     eoes: 2022-02-17
     latest: "2016.0.17.325979"
-    latestDate: 2021-03-22
+    latestReleaseDate: 2021-03-22
 
   - releaseCycle: "11"
     releaseDate: 2014-04-29
     eol: 2019-04-30
     eoes: 2021-04-30
     latest: "11.0.19.314546"
-    latestDate: 2019-06-11
+    latestReleaseDate: 2019-06-11
 
   - releaseCycle: "10"
     releaseDate: 2012-05-15
     eol: 2017-05-16
     eoes: 2019-05-16
     latest: "10.0.23.302580"
-    latestDate: 2017-04-25
+    latestReleaseDate: 2017-04-25
 ---
 
 > [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) is a Java-based commercial

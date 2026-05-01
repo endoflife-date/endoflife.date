@@ -7,14 +7,14 @@ iconSlug: apachetomcat
 permalink: /tomcat
 versionCommand: ./bin/version.sh
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
-latestLinkTemplate: "https://tomcat.apache.org/tomcat-{{'__LATEST__'|split:'.'|pop|join:'.'}}-doc/changelog.html"
+changelogTemplate: "https://tomcat.apache.org/tomcat-{{'__LATEST__'|split:'.'|pop|join:'.'}}-doc/changelog.html"
 
 customFields:
   - name: minJavaVersion
     display: api-only
     label: Java
     description: Minimum required Java version
-    latestLink: https://tomcat.apache.org/whichversion.html
+    link: https://tomcat.apache.org/whichversion.html
 
 identifiers:
   - repology: tomcat
@@ -33,63 +33,63 @@ releases:
     eol: false
     minJavaVersion: "17"
     latest: "11.0.21"
-    latestDate: 2026-03-30
+    latestReleaseDate: 2026-03-30
 
   - releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: "11"
     latest: "10.1.54"
-    latestDate: 2026-03-30
+    latestReleaseDate: 2026-03-30
 
   - releaseCycle: "10.0"
     releaseDate: 2020-12-03
     eol: 2022-10-31 # https://tomcat.apache.org/tomcat-10.0-eol.html
     minJavaVersion: "8"
     latest: "10.0.27"
-    latestDate: 2022-10-03
+    latestReleaseDate: 2022-10-03
 
   - releaseCycle: "9.0"
     releaseDate: 2017-09-27
     eol: 2027-03-31 # https://tomcat.apache.org/tomcat-9.0.x-eos.html
     minJavaVersion: "8"
     latest: "9.0.117"
-    latestDate: 2026-03-30
+    latestReleaseDate: 2026-03-30
 
   - releaseCycle: "8.5"
     releaseDate: 2016-03-17
     eol: 2024-03-31 # https://tomcat.apache.org/tomcat-85-eol.html
     minJavaVersion: "7"
     latest: "8.5.100"
-    latestDate: 2024-03-19
+    latestReleaseDate: 2024-03-19
 
   - releaseCycle: "8.0"
     releaseDate: 2014-01-29
     eol: 2018-06-30 # https://tomcat.apache.org/tomcat-80-eol.html
     minJavaVersion: "7"
     latest: "8.0.53"
-    latestDate: 2018-06-29
+    latestReleaseDate: 2018-06-29
 
   - releaseCycle: "7"
     releaseDate: 2013-01-10
     eol: 2021-03-31 # https://tomcat.apache.org/tomcat-70-eol.html
     minJavaVersion: "6"
     latest: "7.0.109"
-    latestDate: 2021-04-22
+    latestReleaseDate: 2021-04-22
 
   - releaseCycle: "6"
     releaseDate: 2006-10-21
     eol: 2016-12-31 # https://tomcat.apache.org/tomcat-60-eol.html
     minJavaVersion: "5"
     latest: "6.0.53"
-    latestDate: 2017-04-02
+    latestReleaseDate: 2017-04-02
 
   - releaseCycle: "5"
     releaseDate: 2003-09-06
     eol: 2012-09-30 # https://tomcat.apache.org/tomcat-55-eol.html
     minJavaVersion: "1.4"
     latest: "5.5.36"
-    latestDate: 2012-10-10
+    latestReleaseDate: 2012-10-10
 
 ---
 

@@ -9,7 +9,7 @@ alternate_urls:
   - /apache_hbase
   - /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads
-latestLinkTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
+changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
 eolColumn: Service Status
 
 identifiers:
@@ -27,40 +27,40 @@ releases:
   - releaseCycle: "2.6"
     releaseDate: 2024-05-17
     eol: false
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
     latest: "2.6.5"
 
   - releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
     latest: "2.5.14"
 
   - releaseCycle: "2.4"
     releaseDate: 2020-12-15
     eol: 2025-05-25 # more than 1 year without update, and not listed on https://hbase.apache.org/downloads anymore
     latest: "2.4.18"
-    latestDate: 2024-05-25
+    latestReleaseDate: 2024-05-25
 
   - releaseCycle: "2.3"
     releaseDate: 2020-07-13
     eol: 2021-10-19
     latest: "2.3.7"
-    latestDate: 2021-10-19
+    latestReleaseDate: 2021-10-19
 
   - releaseCycle: "1.7"
     outOfOrder: true # wrong tag date for https://github.com/apache/hbase/releases/tag/rel%2F1.7.0
     releaseDate: 2021-06-12
     eol: 2022-08-09
-    latestLink: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
+    link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
     latest: "1.7.2"
-    latestDate: 2022-08-09
+    latestReleaseDate: 2022-08-09
 
   - releaseCycle: "2.2"
     releaseDate: 2019-07-25
     eol: 2021-04-19
     latest: "2.2.7"
-    latestDate: 2021-04-19
+    latestReleaseDate: 2021-04-19
 
 ---
 

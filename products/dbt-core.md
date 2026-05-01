@@ -8,7 +8,7 @@ permalink: /dbt-core
 alternate_urls:
   - /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
-latestLinkTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Critical Support
 
@@ -28,84 +28,84 @@ releases:
     eoas: false
     eol: 2026-12-19
     latest: "1.11.8"
-    latestDate: 2026-04-08
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-16
     eoas: 2025-12-19
     eol: 2026-06-16
     latest: "1.10.20"
-    latestDate: 2026-03-03
+    latestReleaseDate: 2026-03-03
 
   - releaseCycle: "1.9"
     releaseDate: 2024-12-09
     eoas: 2025-06-16
     eol: 2025-12-09
     latest: "1.9.10"
-    latestDate: 2025-08-29
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "1.8"
     releaseDate: 2024-05-09
     eoas: 2024-12-09
     eol: 2025-05-09
     latest: "1.8.9"
-    latestDate: 2024-11-21
+    latestReleaseDate: 2024-11-21
 
   - releaseCycle: "1.7"
     releaseDate: 2023-11-02
     eoas: 2024-05-09
     eol: 2024-11-02
     latest: "1.7.19"
-    latestDate: 2024-12-02
+    latestReleaseDate: 2024-12-02
 
   - releaseCycle: "1.6"
     releaseDate: 2023-07-31
     eoas: 2023-11-02
     eol: 2024-07-30
     latest: "1.6.18"
-    latestDate: 2024-08-07
+    latestReleaseDate: 2024-08-07
 
   - releaseCycle: "1.5"
     releaseDate: 2023-04-27
     eoas: 2023-07-31
     eol: 2024-04-27
     latest: "1.5.11"
-    latestDate: 2024-03-28
+    latestReleaseDate: 2024-03-28
 
   - releaseCycle: "1.4"
     releaseDate: 2023-01-25
     eoas: 2023-04-27
     eol: 2024-01-25
     latest: "1.4.9"
-    latestDate: 2023-10-11
+    latestReleaseDate: 2023-10-11
 
   - releaseCycle: "1.3"
     releaseDate: 2022-10-11
     eoas: 2023-01-25
     eol: 2023-10-12
     latest: "1.3.7"
-    latestDate: 2023-10-11
+    latestReleaseDate: 2023-10-11
 
   - releaseCycle: "1.2"
     releaseDate: 2022-07-26
     eoas: 2022-10-12
     eol: 2023-07-26
     latest: "1.2.6"
-    latestDate: 2023-04-19
+    latestReleaseDate: 2023-04-19
 
   - releaseCycle: "1.1"
     releaseDate: 2022-04-28
     eoas: 2022-07-26
     eol: 2023-04-28
     latest: "1.1.5"
-    latestDate: 2023-04-19
+    latestReleaseDate: 2023-04-19
 
   - releaseCycle: "1.0"
     releaseDate: 2021-12-03
     eoas: 2022-04-28
     eol: 2022-12-03
     latest: "1.0.9"
-    latestDate: 2023-01-05
+    latestReleaseDate: 2023-01-05
 
 ---
 

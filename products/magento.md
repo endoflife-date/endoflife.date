@@ -9,7 +9,7 @@ alternate_urls:
   - /adobe-commerce
 versionCommand: php bin/magento --version
 releasePolicyLink: https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
-latestLinkTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
+changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support
@@ -40,7 +40,7 @@ releases:
     eoes: false # not yet on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
     supportedPhpVersions: "8.3, 8.4"
     latest: "2.4.8"
-    latestDate: 2025-04-03
+    latestReleaseDate: 2025-04-03
 
   - releaseCycle: "2.4.7"
     releaseDate: 2024-04-04
@@ -49,7 +49,7 @@ releases:
     eoes: 2027-04-19
     supportedPhpVersions: "8.2, 8.3"
     latest: "2.4.7"
-    latestDate: 2024-04-04
+    latestReleaseDate: 2024-04-04
 
   - releaseCycle: "2.4.6"
     releaseDate: 2023-02-28
@@ -58,7 +58,7 @@ releases:
     eoes: 2026-08-11
     supportedPhpVersions: "8.1, 8.2"
     latest: "2.4.6"
-    latestDate: 2023-02-28
+    latestReleaseDate: 2023-02-28
 
   - releaseCycle: "2.4.5"
     releaseDate: 2022-08-01
@@ -67,7 +67,7 @@ releases:
     eoes: 2025-08-09
     supportedPhpVersions: "8.1"
     latest: "2.4.5"
-    latestDate: 2022-08-01
+    latestReleaseDate: 2022-08-01
 
   - releaseCycle: "2.4.4"
     releaseDate: 2022-03-30
@@ -76,7 +76,7 @@ releases:
     eoes: 2025-04-24
     supportedPhpVersions: "8.1"
     latest: "2.4.4"
-    latestDate: 2022-03-30
+    latestReleaseDate: 2022-03-30
 
   - releaseCycle: "2.4.3"
     releaseDate: 2021-08-04
@@ -84,7 +84,7 @@ releases:
     eol: 2022-11-28
     supportedPhpVersions: "7.4"
     latest: "2.4.3"
-    latestDate: 2021-08-04
+    latestReleaseDate: 2021-08-04
 
   - releaseCycle: "2.4.2"
     releaseDate: 2021-02-04
@@ -92,7 +92,7 @@ releases:
     eol: 2022-11-28
     supportedPhpVersions: "7.4"
     latest: "2.4.2"
-    latestDate: 2021-02-04
+    latestReleaseDate: 2021-02-04
 
   - releaseCycle: "2.4.1"
     releaseDate: 2020-10-14
@@ -100,7 +100,7 @@ releases:
     eol: 2022-11-28
     supportedPhpVersions: "7.4"
     latest: "2.4.1"
-    latestDate: 2020-10-14
+    latestReleaseDate: 2020-10-14
 
   - releaseCycle: "2.4.0"
     releaseDate: 2020-07-20
@@ -108,8 +108,8 @@ releases:
     eol: 2022-11-28
     supportedPhpVersions: "7.3, 7.4"
     latest: "2.4.0"
-    latestDate: 2020-07-20
-    latestLink: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
+    latestReleaseDate: 2020-07-20
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
 
   - releaseCycle: "2.3"
     releaseDate: 2018-11-23
@@ -117,102 +117,102 @@ releases:
     eol: 2022-09-30
     # https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html#platform-upgrades
     supportedPhpVersions: "7.2, 7.3"
-    latestLink: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
+    link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
     latest: "2.3.7"
-    latestDate: 2021-05-07
+    latestReleaseDate: 2021-05-07
 
   - releaseCycle: "2.2"
     releaseDate: 2017-09-22
     eoas: 2019-12-01
     eol: 2019-12-01
-    latestLink: https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
+    link: https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
     latest: "2.2.11"
-    latestDate: 2020-01-07
+    latestReleaseDate: 2020-01-07
 
   - releaseCycle: "2.1"
     releaseDate: 2016-06-23
     eoas: 2019-06-01
     eol: 2019-06-01
-    latestLink: https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
     latest: "2.1.18"
-    latestDate: 2019-06-06
+    latestReleaseDate: 2019-06-06
 
   - releaseCycle: "2.0"
     releaseDate: 2015-11-16
     eoas: 2018-03-01
     eol: 2018-03-01
-    latestLink: https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
     latest: "2.0.18"
-    latestDate: 2018-02-20
+    latestReleaseDate: 2018-02-20
 
   - releaseCycle: "1.9"
     releaseDate: 2014-05-01
     eoas: 2020-06-01
     eol: 2020-06-01
-    latestLink: null
+    link: null
     latest: "1.9.4.3"
 
   - releaseCycle: "1.8"
     releaseDate: 2013-09-01
     eoas: 2014-09-01
     eol: 2020-06-01
-    latestLink: null
+    link: null
     latest: "1.8.1.0"
 
   - releaseCycle: "1.7"
     releaseDate: 2012-04-01
     eoas: 2013-04-01
     eol: 2020-06-01
-    latestLink: null
+    link: null
     latest: "1.7.0.2"
 
   - releaseCycle: "1.6"
     releaseDate: 2011-08-01
     eoas: 2012-08-01
     eol: 2020-06-01
-    latestLink: null
+    link: null
     latest: "1.6.2.0"
 
   - releaseCycle: "1.5"
     releaseDate: 2011-02-01
     eoas: 2012-02-01
     eol: 2020-06-01
-    latestLink: null
+    link: null
     latest: "1.5.1.0"
 
   - releaseCycle: "1.4"
     releaseDate: 2010-02-01
     eoas: 2011-02-01
     eol: 2012-02-01
-    latestLink: null
+    link: null
     latest: "1.4.2.0"
 
   - releaseCycle: "1.3"
     releaseDate: 2009-03-01
     eoas: 2010-03-01
     eol: 2011-03-01
-    latestLink: null
+    link: null
     latest: "1.3.3.0"
 
   - releaseCycle: "1.2"
     releaseDate: 2008-12-01
     eoas: 2009-12-01
     eol: 2010-12-01
-    latestLink: null
+    link: null
     latest: "1.2.1.2"
 
   - releaseCycle: "1.1"
     releaseDate: 2008-07-01
     eoas: 2009-07-01
     eol: 2010-07-01
-    latestLink: null
+    link: null
     latest: "1.1.8"
 
   - releaseCycle: "1.0"
     releaseDate: 2008-03-01
     eoas: 2009-03-01
     eol: 2010-03-01
-    latestLink: null
+    link: null
     latest: "1.0.0"
 ---
 

@@ -7,7 +7,7 @@ iconSlug: argo
 permalink: /argo-workflows
 versionCommand: argo version
 releasePolicyLink: https://argo-workflows.readthedocs.io/en/latest/releases/
-latestLinkTemplate: https://github.com/argoproj/argo-workflows/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/argoproj/argo-workflows/releases/tag/v__LATEST__
 eolColumn: Supported
 
 identifiers:
@@ -26,37 +26,37 @@ releases:
     releaseDate: 2026-02-04
     eol: false
     latest: "4.0.5"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.7"
     releaseDate: 2025-07-23
     eol: false
     latest: "3.7.14"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "3.6"
     releaseDate: 2024-11-14
     eol: 2026-02-04
     latest: "3.6.19"
-    latestDate: 2026-02-16
+    latestReleaseDate: 2026-02-16
 
   - releaseCycle: "3.5"
     releaseDate: 2023-10-13
     eol: 2025-07-23
     latest: "3.5.15"
-    latestDate: 2025-06-13
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "3.4"
     releaseDate: 2022-09-18
     eol: 2024-11-14
     latest: "3.4.18"
-    latestDate: 2024-10-07
+    latestReleaseDate: 2024-10-07
 
   - releaseCycle: "3.3"
     releaseDate: 2022-03-14
     eol: 2023-10-13
     latest: "3.3.10"
-    latestDate: 2022-11-29
+    latestReleaseDate: 2022-11-29
 
 ---
 

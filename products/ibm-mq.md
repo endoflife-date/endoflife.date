@@ -7,7 +7,7 @@ iconSlug: ibm
 permalink: /ibm-mq
 versionCommand: dspmqver
 releasePolicyLink: https://www.ibm.com/support/pages/ibm-mq-faq-long-term-support-and-continuous-delivery-releases
-latestLinkTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
+changelogTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
 latestColumn: false
 eolColumn: Support
 eoesColumn: Extended Support
@@ -62,43 +62,43 @@ releases:
     releaseDate: 2014-06-13
     eol: 2020-04-30
     eoes: 2023-04-30
-    latestLink: https://www.ibm.com/docs/en/ibm-mq/8.0.0
+    link: https://www.ibm.com/docs/en/ibm-mq/8.0.0
 
   - releaseCycle: "7.5"
     releaseLabel: "WebSphere MQ 7.5"
     releaseDate: 2012-06-15
     eol: 2018-04-30
-    latestLink: https://www.ibm.com/docs/en/ibm-mq/7.5.0
+    link: https://www.ibm.com/docs/en/ibm-mq/7.5.0
 
   - releaseCycle: "7.1"
     releaseLabel: "WebSphere MQ 7.1"
     releaseDate: 2011-11-01
     eol: 2017-04-30
-    latestLink: https://public.dhe.ibm.com/software/integration/wmq/docs/V7.1/
+    link: https://public.dhe.ibm.com/software/integration/wmq/docs/V7.1/
 
   - releaseCycle: "7.0"
     releaseLabel: "WebSphere MQ 7.0"
     releaseDate: 2008-05-01
     eol: 2015-09-30
-    latestLink: https://public.dhe.ibm.com/software/integration/wmq/docs/V7.0/
+    link: https://public.dhe.ibm.com/software/integration/wmq/docs/V7.0/
 
   - releaseCycle: "6.0"
     releaseLabel: "WebSphere MQ 6.X"
     releaseDate: 2005-05-01
     eol: 2012-09-30
-    latestLink: https://public.dhe.ibm.com/software/integration/wmq/docs/V6.0/
+    link: https://public.dhe.ibm.com/software/integration/wmq/docs/V6.0/
 
   - releaseCycle: "5.3"
     releaseLabel: "WebSphere MQ 5.3"
     releaseDate: 2002-06-01
     eol: 2007-09-28
-    latestLink: https://public.dhe.ibm.com/software/integration/wmq/docs/V5.3/
+    link: https://public.dhe.ibm.com/software/integration/wmq/docs/V5.3/
 
   - releaseCycle: "5.2"
     releaseLabel: "MQ Series 5.2"
     releaseDate: 2000-12-01
     eol: 2003-12-31
-    latestLink: https://public.dhe.ibm.com/software/integration/wmq/docs/V5.2/
+    link: https://public.dhe.ibm.com/software/integration/wmq/docs/V5.2/
 ---
 
 > [IBM MQ](https://www.ibm.com/products/mq) is a commercial messaging middleware that allows the exchange of information

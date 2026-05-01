@@ -5,7 +5,7 @@ category: framework
 tags: javascript-runtime linux-foundation
 iconSlug: jquery
 permalink: /jquery
-latestLinkTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
+changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
 
 identifiers:
@@ -28,30 +28,30 @@ releases:
     releaseDate: 2026-01-17
     eol: false
     latest: "4.0.0"
-    latestDate: 2026-01-17
+    latestReleaseDate: 2026-01-17
 
   - releaseCycle: "3"
     staleReleaseThresholdDays: 1095 # see https://github.com/jquery/jquery?tab=security-ov-file#supported-versions
     releaseDate: 2016-06-09
     eol: false
     latest: "3.7.1"
-    latestDate: 2023-08-28
+    latestReleaseDate: 2023-08-28
 
   - releaseCycle: "2"
     releaseDate: 2013-04-18
     eol: true
     eoes: false
     latest: "2.2.4"
-    latestDate: 2016-05-20
-    latestLink: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
+    latestReleaseDate: 2016-05-20
+    link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
 
   - releaseCycle: "1"
     releaseDate: 2006-08-31
     eol: true
     eoes: false
     latest: "1.12.4"
-    latestDate: 2016-05-20
-    latestLink: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
+    latestReleaseDate: 2016-05-20
+    link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
 ---
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.

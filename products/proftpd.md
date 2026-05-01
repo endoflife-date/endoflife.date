@@ -5,7 +5,7 @@ category: server-app
 permalink: /proftpd
 versionCommand: proftpd --version
 releasePolicyLink: http://www.proftpd.org/docs/howto/Versioning.html
-latestLinkTemplate: https://github.com/proftpd/proftpd/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/proftpd/proftpd/releases/tag/v__LATEST__
 eolColumn: Maintenance Support
 eoasColumn: Stable Support
 
@@ -28,7 +28,7 @@ releases:
     eoas: false
     eol: false
     latest: "1.3.9"
-    latestDate: 2025-03-14
+    latestReleaseDate: 2025-03-14
 
   - releaseCycle: "1.3.8"
     staleReleaseThresholdDays: 500
@@ -36,28 +36,28 @@ releases:
     eoas: 2025-03-14
     eol: false
     latest: "1.3.8d"
-    latestDate: 2025-03-14
+    latestReleaseDate: 2025-03-14
 
   - releaseCycle: "1.3.7"
     releaseDate: 2020-07-20
     eoas: 2022-12-04
     eol: 2025-03-14
     latest: "1.3.7f"
-    latestDate: 2022-12-04
+    latestReleaseDate: 2022-12-04
 
   - releaseCycle: "1.3.6"
     releaseDate: 2017-04-09
     eoas: 2020-07-20
     eol: 2022-12-04
     latest: "1.3.6e"
-    latestDate: 2020-07-20
+    latestReleaseDate: 2020-07-20
 
   - releaseCycle: "1.3.5"
     releaseDate: 2015-05-27
     eoas: 2017-04-09
     eol: 2020-07-20
     latest: "1.3.5e"
-    latestDate: 2017-04-09
+    latestReleaseDate: 2017-04-09
 ---
 
 > [ProFTPD](http://www.proftpd.org/) is a highly configurable GPL-licensed FTP daemon for Unix and

@@ -5,7 +5,7 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /visionos
-latestLinkTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
+changelogTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
 
 auto:
   methods:
@@ -19,20 +19,20 @@ releases:
     releaseDate: 2025-09-15
     eol: false
     latest: "26.4"
-    latestDate: 2026-03-24
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "2"
     releaseDate: 2024-09-16
     eol: 2025-09-15
     latest: "2.6"
-    latestDate: 2025-07-29
+    latestReleaseDate: 2025-07-29
 
   - releaseCycle: "1"
     releaseDate: 2024-01-31
     eol: 2024-09-16
     latest: "1.3"
-    latestDate: 2024-07-29
-    latestLink: https://developer.apple.com/documentation/visionos-release-notes/visionos-release-notes
+    latestReleaseDate: 2024-07-29
+    link: https://developer.apple.com/documentation/visionos-release-notes/visionos-release-notes
 
 ---
 

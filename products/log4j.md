@@ -9,7 +9,7 @@ alternate_urls:
   - /apache_log4j
   - /apache-log4j
 releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
-latestLinkTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
+changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
 eolColumn: Supported
 
 identifiers:
@@ -29,28 +29,28 @@ releases:
     releaseDate: 2014-07-12
     eol: false
     latest: "2.25.4"
-    latestDate: 2026-03-25
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "2.12"
     releaseDate: 2019-06-26
     eol: 2021-12-14
     latest: "2.12.4"
-    latestDate: 2021-12-28
-    latestLink: https://github.com/apache/logging-log4j2/blob/rel/__LATEST__/RELEASE-NOTES.md
+    latestReleaseDate: 2021-12-28
+    link: https://github.com/apache/logging-log4j2/blob/rel/__LATEST__/RELEASE-NOTES.md
 
   - releaseCycle: "2.3"
     releaseDate: 2015-05-10
     eol: 2015-09-20
     latest: "2.3.2"
-    latestDate: 2021-12-29
-    latestLink: https://github.com/apache/logging-log4j2/blob/rel/__LATEST__/RELEASE-NOTES.txt
+    latestReleaseDate: 2021-12-29
+    link: https://github.com/apache/logging-log4j2/blob/rel/__LATEST__/RELEASE-NOTES.txt
 
   - releaseCycle: "1"
     releaseDate: 2001-01-08
     eol: 2015-10-15
     latest: "1.2.17"
-    latestDate: 2012-05-06
-    latestLink: https://logging.apache.org/log4j/1.2/changes-report.html#a1.2.17
+    latestReleaseDate: 2012-05-06
+    link: https://logging.apache.org/log4j/1.2/changes-report.html#a1.2.17
 
 ---
 

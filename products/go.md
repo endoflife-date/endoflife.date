@@ -8,7 +8,7 @@ permalink: /go
 alternate_urls:
   - /golang
 releasePolicyLink: https://go.dev/doc/devel/release#policy
-latestLinkTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
+changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
 
@@ -34,104 +34,104 @@ releases:
     releaseDate: 2026-02-11
     eol: false
     latest: "1.26.2"
-    latestDate: 2026-04-07
-    latestLink: https://go.dev/doc/go1.26
+    latestReleaseDate: 2026-04-07
+    link: https://go.dev/doc/go1.26
 
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
     eol: false
     latest: "1.25.9"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "1.24"
     releaseDate: 2025-02-11
     eol: 2026-02-11
     latest: "1.24.13"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "1.23"
     releaseDate: 2024-08-13
     eol: 2025-08-12
     latest: "1.23.12"
-    latestDate: 2025-08-06
+    latestReleaseDate: 2025-08-06
 
   - releaseCycle: "1.22"
     releaseDate: 2024-02-06
     eol: 2025-02-11
     latest: "1.22.12"
-    latestDate: 2025-02-04
+    latestReleaseDate: 2025-02-04
 
   - releaseCycle: "1.21"
     releaseDate: 2023-08-08
     eol: 2024-08-13
     latest: "1.21.13"
-    latestDate: 2024-08-06
+    latestReleaseDate: 2024-08-06
 
   - releaseCycle: "1.20"
     releaseDate: 2023-02-01
     eol: 2024-02-06
     latest: "1.20.14"
-    latestDate: 2024-02-06
+    latestReleaseDate: 2024-02-06
 
   - releaseCycle: "1.19"
     releaseDate: 2022-08-02
     eol: 2023-09-06
     latest: "1.19.13"
-    latestDate: 2023-09-06
+    latestReleaseDate: 2023-09-06
 
   - releaseCycle: "1.18"
     releaseDate: 2022-03-15
     eol: 2023-02-01
     latest: "1.18.10"
-    latestDate: 2023-01-10
+    latestReleaseDate: 2023-01-10
 
   - releaseCycle: "1.17"
     releaseDate: 2021-08-16
     eol: 2022-08-02
     latest: "1.17.13"
-    latestDate: 2022-08-01
+    latestReleaseDate: 2022-08-01
 
   - releaseCycle: "1.16"
     releaseDate: 2021-02-16
     eol: 2022-03-15
     latest: "1.16.15"
-    latestDate: 2022-03-03
+    latestReleaseDate: 2022-03-03
 
   - releaseCycle: "1.15"
     releaseDate: 2020-08-11
     eol: 2021-08-16
     latest: "1.15.15"
-    latestDate: 2021-08-04
+    latestReleaseDate: 2021-08-04
 
   - releaseCycle: "1.14"
     releaseDate: 2020-02-25
     eol: 2021-02-16
     latest: "1.14.15"
-    latestDate: 2021-02-04
+    latestReleaseDate: 2021-02-04
 
   - releaseCycle: "1.13"
     releaseDate: 2019-09-03
     eol: 2020-08-11
     latest: "1.13.15"
-    latestDate: 2020-08-06
+    latestReleaseDate: 2020-08-06
 
   - releaseCycle: "1.12"
     releaseDate: 2019-02-25
     eol: 2020-02-25
     latest: "1.12.17"
-    latestDate: 2020-02-12
+    latestReleaseDate: 2020-02-12
 
   - releaseCycle: "1.11"
     releaseDate: 2018-08-24
     eol: 2019-09-03
     latest: "1.11.13"
-    latestDate: 2019-08-13
+    latestReleaseDate: 2019-08-13
 
   - releaseCycle: "1.10"
     releaseDate: 2018-02-16
     eol: 2019-02-25
     latest: "1.10.8"
-    latestDate: 2019-01-23
+    latestReleaseDate: 2019-01-23
 
 ---
 

@@ -8,7 +8,7 @@ alternate_urls:
   - /ros2
 versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
-latestLinkTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
+changelogTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
 releaseLabel: "__CODENAME__"
 latestColumn: false
 eolColumn: End Of Life
@@ -74,13 +74,13 @@ releases:
     codename: "Bouncy Bolson"
     releaseDate: 2018-07-02
     eol: 2019-07-31
-    latestLink: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
+    link: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
 
   - releaseCycle: "ardent"
     codename: "Ardent Apalone"
     releaseDate: 2017-12-08
     eol: 2018-12-31
-    latestLink: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
+    link: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
 ---
 
 > ROS 2 (Robot Operating System) provides libraries and tools to help software developers create

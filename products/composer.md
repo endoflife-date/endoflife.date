@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
-latestLinkTemplate: https://getcomposer.org/changelog/__LATEST__
+changelogTemplate: https://getcomposer.org/changelog/__LATEST__
 
 identifiers:
   - repology: php:composer
@@ -26,68 +26,68 @@ releases:
     releaseDate: 2025-11-13
     eol: false
     latest: "2.9.7"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "2.8"
     releaseDate: 2024-10-02
     eol: 2025-11-13
     latest: "2.8.12"
-    latestDate: 2025-09-19
+    latestReleaseDate: 2025-09-19
 
   - releaseCycle: "2.7"
     releaseDate: 2024-02-08
     eol: 2024-10-02
     latest: "2.7.9"
-    latestDate: 2024-09-04
+    latestReleaseDate: 2024-09-04
 
   - releaseCycle: "2.6"
     releaseDate: 2023-09-01
     eol: 2024-02-08
     latest: "2.6.6"
-    latestDate: 2023-12-08
+    latestReleaseDate: 2023-12-08
 
   - releaseCycle: "2.5"
     releaseDate: 2022-12-20
     eol: 2023-09-01
     latest: "2.5.8"
-    latestDate: 2023-06-09
+    latestReleaseDate: 2023-06-09
 
   - releaseCycle: "2.4"
     releaseDate: 2022-08-16
     eol: 2022-12-20
     latest: "2.4.4"
-    latestDate: 2022-10-27
+    latestReleaseDate: 2022-10-27
 
   - releaseCycle: "2.3"
     releaseDate: 2022-03-30
     eol: 2022-08-16
     latest: "2.3.10"
-    latestDate: 2022-07-13
+    latestReleaseDate: 2022-07-13
 
   - releaseCycle: "2.2"
     releaseDate: 2021-12-22
     lts: true
     eol: false # seems still supported https://github.com/endoflife-date/endoflife.date/issues/5119
     latest: "2.2.27"
-    latestDate: 2026-04-14
+    latestReleaseDate: 2026-04-14
 
   - releaseCycle: "2.1"
     releaseDate: 2021-06-03
     eol: 2021-12-22
     latest: "2.1.14"
-    latestDate: 2021-11-30
+    latestReleaseDate: 2021-11-30
 
   - releaseCycle: "2.0"
     releaseDate: 2020-10-24
     eol: 2021-06-03
     latest: "2.0.14"
-    latestDate: 2021-05-21
+    latestReleaseDate: 2021-05-21
 
   - releaseCycle: "1"
     releaseDate: 2016-04-05
     eol: 2020-10-24
     latest: "1.10.27"
-    latestDate: 2023-09-29
+    latestReleaseDate: 2023-09-29
 
 ---
 

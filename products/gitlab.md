@@ -7,7 +7,7 @@ iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-latestLinkTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
+changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -30,434 +30,434 @@ releases:
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
     latest: "18.11.2"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19
     eoas: 2026-04-16 # releaseDate(18.11)
     eol: 2026-06-18 # releaseDate(19.1)
     latest: "18.10.5"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "18.9"
     releaseDate: 2026-02-19
     eoas: 2026-03-19 # releaseDate(18.10)
     eol: 2026-05-21 # releaseDate(19.0)
     latest: "18.9.6"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "18.8"
     releaseDate: 2026-01-15
     eoas: 2026-02-19 # releaseDate(18.9)
     eol: 2026-04-16 # releaseDate(18.11)
     latest: "18.8.9"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "18.7"
     releaseDate: 2025-12-18
     eoas: 2026-01-15 # releaseDate(18.8)
     eol: 2026-03-19 # releaseDate(18.10)
     latest: "18.7.6"
-    latestDate: 2026-03-10
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "18.6"
     releaseDate: 2025-11-20
     eoas: 2025-12-18 # releaseDate(18.7)
     eol: 2026-02-19 # releaseDate(18.9)
     latest: "18.6.6"
-    latestDate: 2026-02-09
+    latestReleaseDate: 2026-02-09
 
   - releaseCycle: "18.5"
     releaseDate: 2025-10-16
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
     latest: "18.5.5"
-    latestDate: 2026-01-07
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
     eoas: 2025-10-16 # releaseDate(18.5)
     eol: 2025-12-18 # releaseDate(18.7)
     latest: "18.4.6"
-    latestDate: 2025-12-10
+    latestReleaseDate: 2025-12-10
 
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
     eol: 2025-11-20 # releaseDate(18.6)
     latest: "18.3.6"
-    latestDate: 2025-11-11
+    latestReleaseDate: 2025-11-11
 
   - releaseCycle: "18.2"
     releaseDate: 2025-07-16
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
     latest: "18.2.8"
-    latestDate: 2025-10-08
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-17 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
     latest: "18.1.6"
-    latestDate: 2025-09-09
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14
     eoas: 2025-06-19 # releaseDate(18.1)
     eol: 2025-08-21 # releaseDate(18.3)
     latest: "18.0.6"
-    latestDate: 2025-08-12
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "17.11"
     releaseDate: 2025-04-16
     eoas: 2025-05-15 # releaseDate(18.0)
     eol: 2025-07-17 # releaseDate(18.2)
     latest: "17.11.7"
-    latestDate: 2025-08-14
+    latestReleaseDate: 2025-08-14
 
   - releaseCycle: "17.10"
     releaseDate: 2025-03-19
     eoas: 2025-04-17 # releaseDate(17.11)
     eol: 2025-06-19 # releaseDate(18.1)
     latest: "17.10.8"
-    latestDate: 2025-06-11
+    latestReleaseDate: 2025-06-11
 
   - releaseCycle: "17.9"
     releaseDate: 2025-02-19
     eoas: 2025-03-20 # releaseDate(17.10)
     eol: 2025-05-15 # releaseDate(18.0)
     latest: "17.9.8"
-    latestDate: 2025-05-07
+    latestReleaseDate: 2025-05-07
 
   - releaseCycle: "17.8"
     releaseDate: 2025-01-15
     eoas: 2025-02-20 # releaseDate(17.9)
     eol: 2025-04-17 # releaseDate(17.11)
     latest: "17.8.7"
-    latestDate: 2025-04-09
+    latestReleaseDate: 2025-04-09
 
   - releaseCycle: "17.7"
     releaseDate: 2024-12-18
     eoas: 2025-01-16 # releaseDate(17.8)
     eol: 2025-03-20 # releaseDate(17.10)
     latest: "17.7.7"
-    latestDate: 2025-03-11
+    latestReleaseDate: 2025-03-11
 
   - releaseCycle: "17.6"
     releaseDate: 2024-11-20
     eoas: 2024-12-19 # releaseDate(17.7)
     eol: 2025-02-20 # releaseDate(17.9)
     latest: "17.6.5"
-    latestDate: 2025-02-11
+    latestReleaseDate: 2025-02-11
 
   - releaseCycle: "17.5"
     releaseDate: 2024-10-16
     eoas: 2024-11-21
     eol: 2025-01-16
     latest: "17.5.5"
-    latestDate: 2025-01-08
+    latestReleaseDate: 2025-01-08
 
   - releaseCycle: "17.4"
     releaseDate: 2024-09-18
     eoas: 2024-10-17
     eol: 2024-12-19
     latest: "17.4.6"
-    latestDate: 2024-12-10
+    latestReleaseDate: 2024-12-10
 
   - releaseCycle: "17.3"
     releaseDate: 2024-08-14
     eoas: 2024-09-19
     eol: 2024-11-21
     latest: "17.3.7"
-    latestDate: 2024-11-12
+    latestReleaseDate: 2024-11-12
 
   - releaseCycle: "17.2"
     releaseDate: 2024-07-17
     eoas: 2024-08-15
     eol: 2024-10-17
     latest: "17.2.9"
-    latestDate: 2024-10-09
+    latestReleaseDate: 2024-10-09
 
   - releaseCycle: "17.1"
     releaseDate: 2024-06-19
     eoas: 2024-07-18
     eol: 2024-09-19
     latest: "17.1.8"
-    latestDate: 2024-09-16
+    latestReleaseDate: 2024-09-16
 
   - releaseCycle: "17.0"
     releaseDate: 2024-05-15
     eoas: 2024-06-20
     eol: 2024-08-15
     latest: "17.0.8"
-    latestDate: 2024-09-16
+    latestReleaseDate: 2024-09-16
 
   - releaseCycle: "16.11"
     releaseDate: 2024-04-17
     eoas: 2024-05-16
     eol: 2024-07-18
     latest: "16.11.10"
-    latestDate: 2024-09-16
+    latestReleaseDate: 2024-09-16
 
   - releaseCycle: "16.10"
     releaseDate: 2024-03-20
     eoas: 2024-04-18
     eol: 2024-06-20
     latest: "16.10.10"
-    latestDate: 2024-09-19
+    latestReleaseDate: 2024-09-19
 
   - releaseCycle: "16.9"
     releaseDate: 2024-02-14
     eoas: 2024-03-21
     eol: 2024-05-16
     latest: "16.9.11"
-    latestDate: 2024-09-19
+    latestReleaseDate: 2024-09-19
 
   - releaseCycle: "16.8"
     releaseDate: 2024-01-17
     eoas: 2024-02-15
     eol: 2024-04-18
     latest: "16.8.10"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.7"
     releaseDate: 2023-12-20
     eoas: 2024-01-18
     eol: 2024-03-21
     latest: "16.7.10"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.6"
     releaseDate: 2023-11-15
     eoas: 2023-12-21
     eol: 2024-02-15
     latest: "16.6.10"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.5"
     releaseDate: 2023-10-20
     eoas: 2023-11-16
     eol: 2024-01-18
     latest: "16.5.10"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.4"
     releaseDate: 2023-09-21
     eoas: 2023-10-22
     eol: 2023-12-21
     latest: "16.4.7"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.3"
     releaseDate: 2023-08-21
     eoas: 2023-09-22
     eol: 2023-11-16
     latest: "16.3.9"
-    latestDate: 2024-09-20
+    latestReleaseDate: 2024-09-20
 
   - releaseCycle: "16.2"
     releaseDate: 2023-07-21
     eoas: 2023-08-22
     eol: 2023-10-22
     latest: "16.2.11"
-    latestDate: 2024-09-23
+    latestReleaseDate: 2024-09-23
 
   - releaseCycle: "16.1"
     releaseDate: 2023-06-21
     eoas: 2023-07-22
     eol: 2023-09-22
     latest: "16.1.8"
-    latestDate: 2024-09-23
+    latestReleaseDate: 2024-09-23
 
   - releaseCycle: "16.0"
     releaseDate: 2023-05-18
     eoas: 2023-06-22
     eol: 2023-08-22
     latest: "16.0.10"
-    latestDate: 2024-09-23
+    latestReleaseDate: 2024-09-23
 
   - releaseCycle: "15.11"
     releaseDate: 2023-04-21
     eoas: 2023-05-22
     eol: 2023-07-22
     latest: "15.11.13"
-    latestDate: 2023-07-27
+    latestReleaseDate: 2023-07-27
 
   - releaseCycle: "15.10"
     releaseDate: 2023-03-21
     eoas: 2023-04-22
     eol: 2023-06-22
     latest: "15.10.8"
-    latestDate: 2023-06-05
+    latestReleaseDate: 2023-06-05
 
   - releaseCycle: "15.9"
     releaseDate: 2023-02-21
     eoas: 2023-03-22
     eol: 2023-05-22
     latest: "15.9.8"
-    latestDate: 2023-05-10
+    latestReleaseDate: 2023-05-10
 
   - releaseCycle: "15.8"
     releaseDate: 2023-01-20
     eoas: 2023-02-22
     eol: 2023-04-22
     latest: "15.8.6"
-    latestDate: 2023-04-18
+    latestReleaseDate: 2023-04-18
 
   - releaseCycle: "15.7"
     releaseDate: 2022-12-21
     eoas: 2023-01-22
     eol: 2023-03-22
     latest: "15.7.9"
-    latestDate: 2023-04-20
+    latestReleaseDate: 2023-04-20
 
   - releaseCycle: "15.6"
     releaseDate: 2022-11-21
     eoas: 2022-12-22
     eol: 2023-02-22
     latest: "15.6.8"
-    latestDate: 2023-02-10
+    latestReleaseDate: 2023-02-10
 
   - releaseCycle: "15.5"
     releaseDate: 2022-10-21
     eoas: 2022-11-22
     eol: 2023-01-22
     latest: "15.5.9"
-    latestDate: 2023-01-12
+    latestReleaseDate: 2023-01-12
 
   - releaseCycle: "15.4"
     releaseDate: 2022-09-21
     eoas: 2022-10-22
     eol: 2022-12-22
     latest: "15.4.6"
-    latestDate: 2022-11-30
+    latestReleaseDate: 2022-11-30
 
   - releaseCycle: "15.3"
     releaseDate: 2022-08-19
     eoas: 2022-09-22
     eol: 2022-11-22
     latest: "15.3.5"
-    latestDate: 2022-11-02
+    latestReleaseDate: 2022-11-02
 
   - releaseCycle: "15.2"
     releaseDate: 2022-07-21
     eoas: 2022-08-22
     eol: 2022-10-22
     latest: "15.2.5"
-    latestDate: 2022-09-29
+    latestReleaseDate: 2022-09-29
 
   - releaseCycle: "15.1"
     releaseDate: 2022-06-21
     eoas: 2022-07-22
     eol: 2022-09-22
     latest: "15.1.6"
-    latestDate: 2022-08-30
+    latestReleaseDate: 2022-08-30
 
   - releaseCycle: "15.0"
     releaseDate: 2022-05-20
     eoas: 2022-06-22
     eol: 2022-08-22
     latest: "15.0.5"
-    latestDate: 2022-07-28
+    latestReleaseDate: 2022-07-28
 
   - releaseCycle: "14.10"
     releaseDate: 2022-04-21
     eoas: 2022-05-22
     eol: 2022-07-22
     latest: "14.10.5"
-    latestDate: 2022-06-30
+    latestReleaseDate: 2022-06-30
 
   - releaseCycle: "14.9"
     releaseDate: 2022-03-21
     eoas: 2022-04-22
     eol: 2022-06-22
     latest: "14.9.5"
-    latestDate: 2022-06-01
+    latestReleaseDate: 2022-06-01
 
   - releaseCycle: "14.8"
     releaseDate: 2022-02-21
     eoas: 2022-03-22
     eol: 2022-05-22
     latest: "14.8.6"
-    latestDate: 2022-04-29
+    latestReleaseDate: 2022-04-29
 
   - releaseCycle: "14.7"
     releaseDate: 2022-01-21
     eoas: 2022-02-22
     eol: 2022-04-22
     latest: "14.7.7"
-    latestDate: 2022-03-31
+    latestReleaseDate: 2022-03-31
 
   - releaseCycle: "14.6"
     releaseDate: 2021-12-21
     eoas: 2022-01-22
     eol: 2022-03-22
     latest: "14.6.7"
-    latestDate: 2022-03-31
+    latestReleaseDate: 2022-03-31
 
   - releaseCycle: "14.5"
     releaseDate: 2021-11-19
     eoas: 2021-12-22
     eol: 2022-02-22
     latest: "14.5.4"
-    latestDate: 2022-02-03
+    latestReleaseDate: 2022-02-03
 
   - releaseCycle: "14.4"
     releaseDate: 2021-10-21
     eoas: 2021-11-22
     eol: 2022-01-22
     latest: "14.4.5"
-    latestDate: 2022-01-11
+    latestReleaseDate: 2022-01-11
 
   - releaseCycle: "14.3"
     releaseDate: 2021-09-21
     eoas: 2021-10-22
     eol: 2021-12-22
     latest: "14.3.6"
-    latestDate: 2021-12-03
+    latestReleaseDate: 2021-12-03
 
   - releaseCycle: "14.2"
     releaseDate: 2021-08-20
     eoas: 2021-09-22
     eol: 2021-11-22
     latest: "14.2.7"
-    latestDate: 2021-11-26
+    latestReleaseDate: 2021-11-26
 
   - releaseCycle: "14.1"
     releaseDate: 2021-07-21
     eoas: 2021-08-22
     eol: 2021-10-22
     latest: "14.1.8"
-    latestDate: 2021-11-15
+    latestReleaseDate: 2021-11-15
 
   - releaseCycle: "14.0"
     releaseDate: 2021-06-21
     eoas: 2021-07-22
     eol: 2021-09-22
     latest: "14.0.12"
-    latestDate: 2021-11-05
+    latestReleaseDate: 2021-11-05
 
   - releaseCycle: "13.12"
     releaseDate: 2021-05-21
     eoas: 2021-06-22
     eol: 2021-08-22
     latest: "13.12.15"
-    latestDate: 2021-11-03
+    latestReleaseDate: 2021-11-03
 
   - releaseCycle: "13.11"
     releaseDate: 2021-04-21
     eoas: 2021-05-22
     eol: 2021-07-22
     latest: "13.11.7"
-    latestDate: 2021-07-07
+    latestReleaseDate: 2021-07-07
 
   - releaseCycle: "13.10"
     releaseDate: 2021-03-18
     eoas: 2021-04-22
     eol: 2021-06-22
     latest: "13.10.5"
-    latestDate: 2021-06-01
+    latestReleaseDate: 2021-06-01
 
 ---
 

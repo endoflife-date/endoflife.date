@@ -27,70 +27,70 @@ releases:
     eol: 2031-02-28
     eoes: 2034-02-28
     latest: "18.3"
-    latestDate: 2026-02-27
+    latestReleaseDate: 2026-02-27
 
   - releaseCycle: "17"
     releaseDate: 2024-11-14
     eol: 2030-02-28
     eoes: 2033-02-28
     latest: "17.9"
-    latestDate: 2026-02-27
+    latestReleaseDate: 2026-02-27
 
   - releaseCycle: "16"
     releaseDate: 2023-11-17
     eol: 2029-02-28
     eoes: 2032-02-29
     latest: "16.13"
-    latestDate: 2026-02-27
+    latestReleaseDate: 2026-02-27
 
   - releaseCycle: "15"
     releaseDate: 2023-02-27
     eol: 2028-02-29
     eoes: 2031-02-28
     latest: "15.17"
-    latestDate: 2026-02-27
+    latestReleaseDate: 2026-02-27
 
   - releaseCycle: "14"
     releaseDate: 2022-02-03
     eol: 2027-02-28
     eoes: 2030-02-28
     latest: "14.22"
-    latestDate: 2026-02-27
+    latestReleaseDate: 2026-02-27
 
   - releaseCycle: "13"
     releaseDate: 2021-02-24
     eol: 2026-02-28
     eoes: 2029-02-28
     latest: "13.23"
-    latestDate: 2025-11-13
+    latestReleaseDate: 2025-11-13
 
   - releaseCycle: "12"
     releaseDate: 2020-03-31
     eol: 2025-02-28
     eoes: 2028-02-29
     latest: "12.22"
-    latestDate: 2025-04-03
+    latestReleaseDate: 2025-04-03
 
   - releaseCycle: "11"
     releaseDate: 2019-03-13
     eol: 2024-02-29
     eoes: 2027-03-31
     latest: "11.22"
-    latestDate: 2024-05-14
+    latestReleaseDate: 2024-05-14
 
   - releaseCycle: "10"
     releaseDate: 2018-02-27
     eol: 2023-04-30
     eoes: true
     latest: "10.23"
-    latestDate: 2023-01-24
+    latestReleaseDate: 2023-01-24
 
   - releaseCycle: "9.6"
     releaseDate: 2016-11-11
     eol: 2022-04-30
     eoes: true
     latest: "9.6.24" # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
-    latestDate: 2022-01-24 # https://web.archive.org/web/20231128212117/https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-rds-postgresql-amazon-rds-outposts-postgresql-minor-versions/
+    latestReleaseDate: 2022-01-24 # https://web.archive.org/web/20231128212117/https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-rds-postgresql-amazon-rds-outposts-postgresql-minor-versions/
 
 
 

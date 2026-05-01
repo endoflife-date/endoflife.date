@@ -16,7 +16,7 @@ customFields:
     display: after-release-column
     label: Supported Android
     description: Supported Android version range
-    latestLink: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS
+    link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS
 
 # Supported android versions can be found on https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS.
 releases:
@@ -27,8 +27,8 @@ releases:
     discontinued: false
     eoas: false
     eol: 2033-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
-    latestLink: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
-
+    link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    
   - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
     supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
@@ -36,7 +36,7 @@ releases:
     discontinued: 2026-01-12
     eoas: false
     eol: 2031-09-14 # according to https://www.gsmarena.com/fairphone_5_goes_official_with_5_years_warranty_up_to_10_years_of_software_support-news-59724.php
-    latestLink: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
+    link: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
 
   - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
@@ -45,7 +45,7 @@ releases:
     discontinued: true
     eoas: true
     eol: 2026-09-30
-    latestLink: https://support.fairphone.com/hc/articles/4405858220945
+    link: https://support.fairphone.com/hc/articles/4405858220945
 
   - releaseCycle: "3+"
     releaseLabel: "Fairphone 3+"
@@ -54,7 +54,7 @@ releases:
     discontinued: 2022-11-01
     eoas: 2024-09-30
     eol: 2026-09-30
-    latestLink: https://support.fairphone.com/hc/articles/360048139032
+    link: https://support.fairphone.com/hc/articles/360048139032
 
   - releaseCycle: "3"
     releaseLabel: "Fairphone 3"
@@ -63,7 +63,7 @@ releases:
     discontinued: 2021-09-01
     eoas: 2024-09-30
     eol: 2026-09-30
-    latestLink: https://support.fairphone.com/hc/articles/360048139032
+    link: https://support.fairphone.com/hc/articles/360048139032
 
   - releaseCycle: "2"
     releaseLabel: "Fairphone 2"
@@ -74,7 +74,7 @@ releases:
     eoas: true
     # https://www.linkedin.com/posts/fairphone_fairphone2forever-unlaunching-changeisinyourhands-activity-7038910425882615808-DS7c
     eol: 2023-03-07
-    latestLink: https://support.fairphone.com/hc/articles/360019515018
+    link: https://support.fairphone.com/hc/articles/360019515018
 
   - releaseCycle: "1"
     releaseLabel: "Fairphone 1"
@@ -83,7 +83,7 @@ releases:
     discontinued: 2017-07-13
     eoas: true
     eol: 2017-07-13
-    latestLink: https://support.fairphone.com/hc/articles/6217522827281
+    link: https://support.fairphone.com/hc/articles/6217522827281
 ---
 
 > Fairphone is a line of smartphones that are designed with the goal of having a lower environmental

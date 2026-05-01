@@ -6,7 +6,7 @@ iconSlug: grafana
 permalink: /grafana-loki
 alternate_urls:
   - /loki
-latestLinkTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -27,151 +27,151 @@ releases:
     releaseDate: 2026-03-26
     eol: false
     latest: "3.7.1"
-    latestDate: 2026-03-26
+    latestReleaseDate: 2026-03-26
 
   - releaseCycle: "3.6"
     releaseDate: 2025-11-17
     eol: false
     latest: "3.6.10"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
     eol: 2026-03-26
     latest: "3.5.12"
-    latestDate: 2026-03-11
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "3.4"
     releaseDate: 2025-02-12
     eol: 2025-11-17
     latest: "3.4.6"
-    latestDate: 2025-09-09
+    latestReleaseDate: 2025-09-09
 
   - releaseCycle: "3.3"
     releaseDate: 2024-11-19
     eol: 2025-04-17
     latest: "3.3.4"
-    latestDate: 2025-04-03
+    latestReleaseDate: 2025-04-03
 
   - releaseCycle: "3.2"
     releaseDate: 2024-09-18
     eol: 2025-02-12
     latest: "3.2.2"
-    latestDate: 2024-12-04
+    latestReleaseDate: 2024-12-04
 
   - releaseCycle: "3.1"
     releaseDate: 2024-07-02
     eol: 2024-11-19
     latest: "3.1.2"
-    latestDate: 2024-10-17
+    latestReleaseDate: 2024-10-17
 
   - releaseCycle: "3.0"
     releaseDate: 2024-04-08
     eol: 2024-09-18
     latest: "3.0.1"
-    latestDate: 2024-08-09
+    latestReleaseDate: 2024-08-09
 
   - releaseCycle: "2.9"
     releaseDate: 2023-09-06
     eol: false
     latest: "2.9.17"
-    latestDate: 2025-11-07
+    latestReleaseDate: 2025-11-07
 
   - releaseCycle: "2.8"
     releaseDate: 2023-04-03
     eol: 2024-04-08
     latest: "2.8.11"
-    latestDate: 2024-03-22
+    latestReleaseDate: 2024-03-22
 
   - releaseCycle: "2.7"
     releaseDate: 2022-11-10
     eol: 2023-09-06
     latest: "2.7.7"
-    latestDate: 2023-08-11
+    latestReleaseDate: 2023-08-11
 
   - releaseCycle: "2.6"
     releaseDate: 2022-07-08
     eol: 2022-11-10
     latest: "2.6.1"
-    latestDate: 2022-07-18
+    latestReleaseDate: 2022-07-18
 
   - releaseCycle: "2.5"
     releaseDate: 2022-04-07
     eol: 2022-07-08
     latest: "2.5.0"
-    latestDate: 2022-04-07
+    latestReleaseDate: 2022-04-07
 
   - releaseCycle: "2.4"
     releaseDate: 2021-11-05
     eol: 2022-04-07
     latest: "2.4.2"
-    latestDate: 2022-01-12
+    latestReleaseDate: 2022-01-12
 
   - releaseCycle: "2.3"
     releaseDate: 2021-08-06
     eol: 2021-11-05
     latest: "2.3.0"
-    latestDate: 2021-08-06
+    latestReleaseDate: 2021-08-06
 
   - releaseCycle: "2.2"
     releaseDate: 2021-03-11
     eol: 2021-08-06
     latest: "2.2.1"
-    latestDate: 2021-04-05
+    latestReleaseDate: 2021-04-05
 
   - releaseCycle: "2.1"
     releaseDate: 2020-12-24
     eol: 2021-03-11
     latest: "2.1.0"
-    latestDate: 2020-12-24
+    latestReleaseDate: 2020-12-24
 
   - releaseCycle: "2.0"
     releaseDate: 2020-10-26
     eol: 2020-12-24
     latest: "2.0.1"
-    latestDate: 2020-12-23
+    latestReleaseDate: 2020-12-23
 
   - releaseCycle: "1.6"
     releaseDate: 2020-08-13
     eol: 2020-10-26
     latest: "1.6.1"
-    latestDate: 2020-08-24
+    latestReleaseDate: 2020-08-24
 
   - releaseCycle: "1.5"
     releaseDate: 2020-05-20
     eol: 2020-08-13
     latest: "1.5.0"
-    latestDate: 2020-05-20
+    latestReleaseDate: 2020-05-20
 
   - releaseCycle: "1.4"
     releaseDate: 2020-04-01
     eol: 2020-05-20
     latest: "1.4.1"
-    latestDate: 2020-04-06
+    latestReleaseDate: 2020-04-06
 
   - releaseCycle: "1.3"
     releaseDate: 2020-01-22
     eol: 2020-04-01
     latest: "1.3.0"
-    latestDate: 2020-01-22
+    latestReleaseDate: 2020-01-22
 
   - releaseCycle: "1.2"
     releaseDate: 2019-12-09
     eol: 2020-01-22
     latest: "1.2.0"
-    latestDate: 2019-12-09
+    latestReleaseDate: 2019-12-09
 
   - releaseCycle: "1.1"
     releaseDate: 2019-12-04
     eol: 2019-12-09
     latest: "1.1.0"
-    latestDate: 2019-12-04
+    latestReleaseDate: 2019-12-04
 
   - releaseCycle: "1.0"
     releaseDate: 2019-07-26
     eol: 2019-12-04
     latest: "1.0.2"
-    latestDate: 2019-07-26
+    latestReleaseDate: 2019-07-26
 
 ---
 

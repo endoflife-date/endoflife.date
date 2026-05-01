@@ -37,8 +37,8 @@ releases:
     latestGdr: "17.0.1110.1"
     latestGdrLink: https://support.microsoft.com/help/5084814
     latest: "17.0.4035.5 CU4"
-    latestDate: 2026-04-16
-    latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate4
+    latestReleaseDate: 2026-04-16
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate4
 
   - releaseCycle: "16.0"
     codename: Dallas
@@ -49,9 +49,9 @@ releases:
     latestGdr: "16.0.1175.1"
     latestGdrLink: https://support.microsoft.com/help/5084815
     latest: "16.0.4250.1 CU24+GDR"
-    latestDate: 2026-04-14
-    # CU24 latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate24
-    latestLink: https://support.microsoft.com/help/5083252 # GDR for CU24
+    latestReleaseDate: 2026-04-14
+    # CU24 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate24
+    link: https://support.microsoft.com/help/5083252 # GDR for CU24
 
   - releaseCycle: "13.0-sp3-acp"
     codename: SQL16
@@ -63,10 +63,10 @@ releases:
     latestGdr: "13.0.7080.1"
     latestGdrLink: https://support.microsoft.com/help/5084820
     latest: "13.0.7080.1 Azure Connect pack+GDR"
-    latestDate: 2026-04-14
-    # SP3 latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
-    # Azure Connect pack latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3-azureconnect
-    latestLink: https://support.microsoft.com/help/5084820 # GDR for Azure Connect pack
+    latestReleaseDate: 2026-04-14
+    # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
+    # Azure Connect pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3-azureconnect
+    link: https://support.microsoft.com/help/5084820 # GDR for Azure Connect pack
 
   - releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -78,9 +78,9 @@ releases:
     latestGdr: "13.0.6485.1"
     latestGdrLink: https://support.microsoft.com/help/5084821
     latest: "13.0.6485.1 GDR"
-    latestDate: 2026-04-14
-    # SP3 latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
-    latestLink: https://support.microsoft.com/help/5084821
+    latestReleaseDate: 2026-04-14
+    # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
+    link: https://support.microsoft.com/help/5084821
 
   - releaseCycle: "15.0"
     codename: Aris/Seattle
@@ -91,9 +91,9 @@ releases:
     latestGdr: "15.0.2165.1"
     latestGdrLink: https://support.microsoft.com/help/5084817
     latest: "15.0.4465.1 CU32+GDR"
-    latestDate: 2026-04-14
-    # CU32 latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
-    latestLink: https://support.microsoft.com/help/5084816 # GDR for CU32
+    latestReleaseDate: 2026-04-14
+    # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
+    link: https://support.microsoft.com/help/5084816 # GDR for CU32
 
   - releaseCycle: "12.0-sp3"
     codename: Hekaton
@@ -105,10 +105,10 @@ releases:
     latestGdr: "12.0.6179.1"
     latestGdrLink: https://support.microsoft.com/help/5029184
     latest: "12.0.6449.1 CU4+GDR"
-    latestDate: 2023-10-10
-    # SP3 latestLink: https://support.microsoft.com/help/4022619
-    # CU4 latestLink: https://support.microsoft.com/help/4500181
-    latestLink: https://support.microsoft.com/help/5029185 # GDR for SP3 CU4
+    latestReleaseDate: 2023-10-10
+    # SP3 link: https://support.microsoft.com/help/4022619
+    # CU4 link: https://support.microsoft.com/help/4500181
+    link: https://support.microsoft.com/help/5029185 # GDR for SP3 CU4
 
   - releaseCycle: "13.0-sp2"
     codename: SQL16
@@ -119,8 +119,8 @@ releases:
     latestGdr: "13.0.5108.50"
     latestGdrLink: https://support.microsoft.com/help/5014365
     latest: "13.0.5893.48 CU17+GDR"
-    latestDate: 2019-07-09
-    latestLink: https://support.microsoft.com/help/5014351
+    latestReleaseDate: 2019-07-09
+    link: https://support.microsoft.com/help/5014351
 
   - releaseCycle: "11.0-sp4"
     codename: Denali
@@ -132,8 +132,8 @@ releases:
     latestGdr: "11.0.7512.11"
     latestGdrLink: https://support.microsoft.com/help/5021123
     latest: "11.0.7512.11 GDR"
-    latestDate: 2023-02-14
-    latestLink: https://support.microsoft.com/help/5021123
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5021123
 
   - releaseCycle: "14.0"
     codename: Helsinki
@@ -144,10 +144,10 @@ releases:
     latestGdr: "14.0.2105.1"
     latestGdrLink: https://support.microsoft.com/help/5084819
     latest: "14.0.3525.1 CU31+GDR"
-    latestDate: 2026-04-14
-    # CU31 latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
-    # Azure Connect Pack latestLink: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
-    latestLink: https://support.microsoft.com/help/5084818 # GDR for CU31
+    latestReleaseDate: 2026-04-14
+    # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
+    # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
+    link: https://support.microsoft.com/help/5084818 # GDR for CU31
 
   - releaseCycle: "13.0-sp1"
     codename: SQL16
@@ -158,8 +158,8 @@ releases:
     latestGdr: "13.0.4259.0"
     latestGdrLink: https://support.microsoft.com/help/4505219
     latest: "13.0.4604.0 CU15+GDR"
-    latestDate: 2019-07-09
-    latestLink: https://support.microsoft.com/help/4505221
+    latestReleaseDate: 2019-07-09
+    link: https://support.microsoft.com/help/4505221
 
   - releaseCycle: "12.0-sp2"
     codename: Hekaton
@@ -170,8 +170,8 @@ releases:
     latestGdr: "12.0.5223.6"
     latestGdrLink: https://support.microsoft.com/help/4505217
     latest: "12.0.5687.1 CU18"
-    latestDate: 2019-07-29
-    latestLink: https://support.microsoft.com/help/4500180
+    latestReleaseDate: 2019-07-29
+    link: https://support.microsoft.com/help/4500180
 
   - releaseCycle: "13.0"
     codename: SQL16
@@ -182,8 +182,8 @@ releases:
     latestGdr: "13.0.1745.2"
     latestGdrLink: https://support.microsoft.com/help/4058560
     latest: "13.0.2218.0 CU9+GDR"
-    latestDate: 2018-01-06
-    latestLink: https://support.microsoft.com/help/4058559
+    latestReleaseDate: 2018-01-06
+    link: https://support.microsoft.com/help/4058559
 
   - releaseCycle: "11.0-sp3"
     codename: Denali
@@ -194,8 +194,8 @@ releases:
     latestGdr: "11.0.6260.1"
     latestGdrLink: https://support.microsoft.com/help/4057115
     latest: "11.0.6614.2 CU10+QFE"
-    latestDate: 2018-01-16
-    latestLink: https://support.microsoft.com/help/4057121
+    latestReleaseDate: 2018-01-16
+    link: https://support.microsoft.com/help/4057121
 
   - releaseCycle: "12.0-sp1"
     codename: Hekaton
@@ -206,8 +206,8 @@ releases:
     latestGdr: "12.0.4237.0"
     latestGdrLink: https://support.microsoft.com/help/4019091
     latest: "12.0.4522.0 CU13"
-    latestDate: 2017-08-08
-    latestLink: https://support.microsoft.com/help/4019099
+    latestReleaseDate: 2017-08-08
+    link: https://support.microsoft.com/help/4019099
 
   - releaseCycle: "10.50-sp3"
     codename: Kilimanjaro
@@ -219,8 +219,8 @@ releases:
     latestGdr: "10.50.6785.2"
     latestGdrLink: https://support.microsoft.com/help/5021112
     latest: "10.50.6785.2 GDR"
-    latestDate: 2023-02-14
-    latestLink: https://support.microsoft.com/help/5021112
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5021112
 
   - releaseCycle: "10.0-sp4"
     codename: Katmai
@@ -232,8 +232,8 @@ releases:
     latestGdr: "10.0.6814.4"
     latestGdrLink: https://support.microsoft.com/help/5020863
     latest: "10.0.6814.4 CU17+GDR"
-    latestDate: 2023-02-14
-    latestLink: https://support.microsoft.com/help/5020863
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5020863
 
   - releaseCycle: "11.0-sp2"
     codename: Denali
@@ -244,8 +244,8 @@ releases:
     latestGdr: "11.0.5388.0"
     latestGdrLink: https://support.microsoft.com/help/3194719
     latest: "11.0.5678.0 CU16"
-    latestDate: 2016-11-17
-    latestLink: https://support.microsoft.com/help/3205054
+    latestReleaseDate: 2016-11-17
+    link: https://support.microsoft.com/help/3205054
 
   - releaseCycle: "12.0"
     codename: Hekaton
@@ -256,8 +256,8 @@ releases:
     latestGdr: "12.0.2269.0"
     latestGdrLink: https://support.microsoft.com/help/3045324
     latest: "12.0.2569.0 CU14"
-    latestDate: 2016-06-20
-    latestLink: https://support.microsoft.com/help/3158271
+    latestReleaseDate: 2016-06-20
+    link: https://support.microsoft.com/help/3158271
 
   - releaseCycle: "11.0-sp1"
     codename: Denali
@@ -268,8 +268,8 @@ releases:
     latestGdr: "11.0.3156.0"
     latestGdrLink: https://support.microsoft.com/help/3045318
     latest: "11.0.3513.0 CU13+QFE"
-    latestDate: 2015-07-14
-    latestLink: https://support.microsoft.com/help/3045317
+    latestReleaseDate: 2015-07-14
+    link: https://support.microsoft.com/help/3045317
 
   - releaseCycle: "10.50-sp2"
     codename: Kilimanjaro
@@ -280,8 +280,8 @@ releases:
     latestGdr: "10.50.4042.0"
     latestGdrLink: https://support.microsoft.com/help/3045313
     latest: "10.50.4339.0 CU13+QFE"
-    latestDate: 2015-07-14
-    latestLink: https://support.microsoft.com/help/3045312
+    latestReleaseDate: 2015-07-14
+    link: https://support.microsoft.com/help/3045312
 
   - releaseCycle: "11.0"
     codename: Denali
@@ -290,8 +290,8 @@ releases:
     eoas: 2014-01-14
     eol: 2014-01-14
     latest: "11.0.2424.0 CU11"
-    latestDate: 2012-12-16
-    latestLink: https://support.microsoft.com/help/2908007
+    latestReleaseDate: 2012-12-16
+    link: https://support.microsoft.com/help/2908007
 
   - releaseCycle: "10.00-sp3"
     codename: Katmai
@@ -302,8 +302,8 @@ releases:
     latestGdr: "10.0.5500.0"
     latestGdrLink: https://support.microsoft.com/help/3045305
     latest: "10.00.5861 CU16+QFE"
-    latestDate: 2015-07-14
-    latestLink: https://support.microsoft.com/help/3045303
+    latestReleaseDate: 2015-07-14
+    link: https://support.microsoft.com/help/3045303
 
   - releaseCycle: "10.50-sp1"
     codename: Kilimanjaro
@@ -312,8 +312,8 @@ releases:
     eoas: 2013-10-08
     eol: 2013-10-08
     latest: "10.50.2881.0 CU14"
-    latestDate: 2013-08-08
-    latestLink: https://support.microsoft.com/help/2868244
+    latestReleaseDate: 2013-08-08
+    link: https://support.microsoft.com/help/2868244
 
   - releaseCycle: "9.0-sp4"
     codename: Yukon
@@ -322,8 +322,8 @@ releases:
     eoas: 2011-04-12
     eol: 2016-04-12
     latest: "9.0.5324.0 QFE"
-    latestDate: 2012-10-09
-    latestLink: https://support.microsoft.com/help/2716427
+    latestReleaseDate: 2012-10-09
+    link: https://support.microsoft.com/help/2716427
 
   - releaseCycle: "10.00-sp2"
     codename: Katmai
@@ -332,8 +332,8 @@ releases:
     eoas: 2012-10-09
     eol: 2012-10-09
     latest: "10.00.4371 CU10+QFE"
-    latestDate: 2012-10-09
-    latestLink: https://support.microsoft.com/help/2716433
+    latestReleaseDate: 2012-10-09
+    link: https://support.microsoft.com/help/2716433
 
   - releaseCycle: "10.50-r2"
     codename: Kilimanjaro
@@ -342,8 +342,8 @@ releases:
     eoas: 2012-07-10
     eol: 2012-07-10
     latest: "10.50.1815.0 CU13"
-    latestDate: 2012-04-16
-    latestLink: https://support.microsoft.com/help/2679366
+    latestReleaseDate: 2012-04-16
+    link: https://support.microsoft.com/help/2679366
 
   - releaseCycle: "10.00-sp1"
     codename: Katmai
@@ -352,8 +352,8 @@ releases:
     eoas: 2011-10-11
     eol: 2011-10-11
     latest: "10.00.2850 CU16"
-    latestDate: 2011-09-19
-    latestLink: https://support.microsoft.com/help/2582282
+    latestReleaseDate: 2011-09-19
+    link: https://support.microsoft.com/help/2582282
 
   - releaseCycle: "9.00-sp3"
     codename: Yukon
@@ -362,8 +362,8 @@ releases:
     eoas: 2012-01-10
     eol: 2012-01-10
     latest: "9.00.4309 CU11"
-    latestDate: 2010-08-16
-    latestLink: https://support.microsoft.com/help/2258854
+    latestReleaseDate: 2010-08-16
+    link: https://support.microsoft.com/help/2258854
 
   - releaseCycle: "10.00"
     codename: Katmai
@@ -372,8 +372,8 @@ releases:
     eoas: 2010-04-13
     eol: 2010-04-13
     latest: "10.00.1835 CU10"
-    latestDate: 2010-03-15
-    latestLink: https://support.microsoft.com/help/979064
+    latestReleaseDate: 2010-03-15
+    link: https://support.microsoft.com/help/979064
 
   - releaseCycle: "9.00-sp2"
     codename: Yukon
@@ -382,8 +382,8 @@ releases:
     eoas: 2010-01-12
     eol: 2010-01-12
     latest: "9.00.3325 CU13"
-    latestDate: 2009-04-20
-    latestLink: https://support.microsoft.com/help/967908
+    latestReleaseDate: 2009-04-20
+    link: https://support.microsoft.com/help/967908
 
   - releaseCycle: "9.0-sp1"
     codename: Yukon
@@ -392,9 +392,9 @@ releases:
     eoas: 2008-04-08
     eol: 2008-04-08
     latest: "9.0.2233"
-    latestDate: 2007-05-16
+    latestReleaseDate: 2007-05-16
     # Original KB937545 but 404 in the meantime: https://support.microsoft.com/help/937545
-    latestLink: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/937545
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/937545
 
   - releaseCycle: "9.0"
     codename: Yukon
@@ -403,8 +403,8 @@ releases:
     eoas: 2007-07-10
     eol: 2007-07-10
     latest: "9.0.1399"
-    latestDate: 2006-01-14
-    latestLink: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
+    latestReleaseDate: 2006-01-14
+    link: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
 
   - releaseCycle: "8.0-sp4"
     codename: Shiloh
@@ -413,8 +413,8 @@ releases:
     eoas: 2008-04-08
     eol: 2013-04-09
     latest: "8.0.2305 QFE"
-    latestDate: 2012-08-14
-    latestLink: https://support.microsoft.com/help/983811
+    latestReleaseDate: 2012-08-14
+    link: https://support.microsoft.com/help/983811
 
   - releaseCycle: "7.0-sp4"
     codename: Sphinx
@@ -423,8 +423,8 @@ releases:
     eoas: 2005-12-31
     eol: 2011-01-11
     latest: "7.0.1152"
-    latestDate: 2012-05-09
-    latestLink: https://support.microsoft.com/help/941203
+    latestReleaseDate: 2012-05-09
+    link: https://support.microsoft.com/help/941203
 
   - releaseCycle: "6.50-sp5a"
     codename: Hydra
@@ -433,9 +433,9 @@ releases:
     eoas: 2002-01-01
     eol: 2002-01-01
     latest: "6.50.480"
-    latestDate: 2005-10-07
+    latestReleaseDate: 2005-10-07
     # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
-    latestLink: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/238621
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/238621
 
   - releaseCycle: "6.0-sp3"
     codename: SQL95
@@ -444,9 +444,9 @@ releases:
     eoas: 1999-03-31
     eol: 1999-03-31
     latest: "6.0.151"
-    latestDate: 2000-12-22
+    latestReleaseDate: 2000-12-22
     # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
-    latestLink: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/152616
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/152616
 ---
 
 > [SQLServer](https://www.microsoft.com/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.

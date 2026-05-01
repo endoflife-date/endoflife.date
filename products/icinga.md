@@ -6,7 +6,7 @@ iconSlug: icinga
 permalink: /icinga
 versionCommand: icinga2 -V
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
-latestLinkTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
+changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
 
 identifiers:
@@ -33,127 +33,127 @@ releases:
     eoas: false
     eol: false
     latest: "2.16.0"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "2.15"
     releaseDate: 2025-06-17
     eoas: 2026-04-23
     eol: false
     latest: "2.15.3"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "2.14"
     releaseDate: 2023-07-12
     eoas: 2025-06-17
     eol: 2026-04-23
     latest: "2.14.8"
-    latestDate: 2026-01-29
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "2.13"
     releaseDate: 2021-08-02
     eoas: 2023-07-12
     eol: 2025-06-17
     latest: "2.13.14"
-    latestDate: 2026-01-29
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "2.12"
     releaseDate: 2020-08-03
     eoas: 2021-08-02
     eol: 2023-07-12
     latest: "2.12.12"
-    latestDate: 2025-05-22
+    latestReleaseDate: 2025-05-22
 
   - releaseCycle: "2.11"
     releaseDate: 2019-09-19
     eoas: 2020-08-03
     eol: 2021-08-02
     latest: "2.11.12"
-    latestDate: 2024-10-29
+    latestReleaseDate: 2024-10-29
 
   - releaseCycle: "2.10"
     releaseDate: 2018-10-11
     eoas: 2019-09-19
     eol: 2020-08-03
     latest: "2.12.10"
-    latestDate: 2023-02-16
+    latestReleaseDate: 2023-02-16
 
   - releaseCycle: "2.9"
     releaseDate: 2018-07-17
     eoas: 2018-10-11
     eol: 2018-10-11
     latest: "2.9.3"
-    latestDate: 2019-07-30
+    latestReleaseDate: 2019-07-30
 
   - releaseCycle: "2.8"
     releaseDate: 2017-11-16
     eoas: 2018-07-17
     eol: 2018-07-17
     latest: "2.8.4"
-    latestDate: 2018-04-25
+    latestReleaseDate: 2018-04-25
 
   - releaseCycle: "2.7"
     releaseDate: 2017-08-02
     eoas: 2017-11-16
     eol: 2017-11-16
     latest: "2.7.2"
-    latestDate: 2017-11-09
+    latestReleaseDate: 2017-11-09
 
   - releaseCycle: "2.6"
     releaseDate: 2016-12-13
     eoas: 2017-08-02
     eol: 2017-08-02
     latest: "2.6.3"
-    latestDate: 2017-03-29
+    latestReleaseDate: 2017-03-29
 
   - releaseCycle: "2.5"
     releaseDate: 2016-08-22
     eoas: 2016-12-13
     eol: 2016-12-13
     latest: "2.5.4"
-    latestDate: 2016-08-30
+    latestReleaseDate: 2016-08-30
 
   - releaseCycle: "2.4"
     releaseDate: 2015-11-16
     eoas: 2016-08-22
     eol: 2016-08-22
     latest: "2.4.10"
-    latestDate: 2016-05-19
+    latestReleaseDate: 2016-05-19
 
   - releaseCycle: "2.3"
     releaseDate: 2015-03-09
     eoas: 2015-11-16
     eol: 2015-11-16
     latest: "2.3.11"
-    latestDate: 2015-10-19
+    latestReleaseDate: 2015-10-19
 
   - releaseCycle: "2.2"
     releaseDate: 2014-11-17
     eoas: 2015-03-09
     eol: 2015-03-09
     latest: "2.2.4"
-    latestDate: 2015-02-05
+    latestReleaseDate: 2015-02-05
 
   - releaseCycle: "2.1"
     releaseDate: 2014-08-29
     eoas: 2014-11-17
     eol: 2014-11-17
     latest: "2.1.1"
-    latestDate: 2014-09-16
+    latestReleaseDate: 2014-09-16
 
   - releaseCycle: "2.0"
     releaseDate: 2014-06-16
     eoas: 2014-08-29
     eol: 2014-08-29
     latest: "2.0.2"
-    latestDate: 2014-08-07
+    latestReleaseDate: 2014-08-07
 
   - releaseCycle: "1"
     releaseDate: 2009-12-15
     eoas: 2014-06-16
     eol: 2018-12-31 # https://github.com/Icinga/icinga-core
     latest: "1.14.2"
-    latestDate: 2017-12-20
-    latestLink: null
+    latestReleaseDate: 2017-12-20
+    link: null
 
 ---
 

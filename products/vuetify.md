@@ -7,7 +7,7 @@ iconSlug: vuetify
 permalink: /vuetify
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
-latestLinkTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
 
@@ -45,14 +45,14 @@ releases:
     eoas: false
     eol: false
     latest: "4.0.6"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "3"
     releaseDate: 2022-11-01
     eoas: false
     eol: false
     latest: "3.12.5"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "2"
     releaseDate: 2019-07-23
@@ -60,7 +60,7 @@ releases:
     eol: 2025-01-23
     latest: "2.7.2"
     eoes: false
-    latestDate: 2024-02-14
+    latestReleaseDate: 2024-02-14
 
   - releaseCycle: "1"
     releaseDate: 2019-02-05
@@ -68,7 +68,7 @@ releases:
     lts: 2019-07-31
     eol: 2020-07-31
     latest: "1.5.24"
-    latestDate: 2020-03-03
+    latestReleaseDate: 2020-03-03
 
 ---
 

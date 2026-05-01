@@ -5,7 +5,7 @@ category: server-app
 iconSlug: authentik
 permalink: /authentik
 releasePolicyLink: https://docs.goauthentik.io/enterprise/entsupport/#product-version-support
-latestLinkTemplate: "https://docs.goauthentik.io/releases/__RELEASE_CYCLE__/#fixed-in-{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://docs.goauthentik.io/releases/__RELEASE_CYCLE__/#fixed-in-{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Supported
 releaseDateColumn: true
 
@@ -27,61 +27,61 @@ releases:
     releaseDate: 2026-02-24
     eol: false
     latest: "2026.2.2"
-    latestDate: 2026-04-07
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "2025.12"
     releaseDate: 2026-01-13
     eol: false
     latest: "2025.12.4"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-27
     eol: 2026-02-24
     latest: "2025.10.4"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.8"
     releaseDate: 2025-08-20
     eol: 2026-01-13
     latest: "2025.8.6"
-    latestDate: 2026-02-12
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-06-03
     eol: 2025-10-27
     latest: "2025.6.4"
-    latestDate: 2025-07-22
+    latestReleaseDate: 2025-07-22
 
   - releaseCycle: "2025.4"
     releaseDate: 2025-04-29
     eol: 2025-08-20
     latest: "2025.4.4"
-    latestDate: 2025-07-22
+    latestReleaseDate: 2025-07-22
 
   - releaseCycle: "2024.12"
     releaseDate: 2024-12-19
     eol: 2025-04-30
     latest: "2024.12.5"
-    latestDate: 2025-04-08
+    latestReleaseDate: 2025-04-08
 
   - releaseCycle: "2023.10"
     releaseDate: 2023-10-26
     eol: 2024-04-24
     latest: "2023.10.7"
-    latestDate: 2024-01-29
+    latestReleaseDate: 2024-01-29
 
   - releaseCycle: "2022.12"
     releaseDate: 2022-12-28
     eol: 2023-02-14
     latest: "2022.12.3"
-    latestDate: 2023-03-02
+    latestReleaseDate: 2023-03-02
 
   - releaseCycle: "2021.12"
     releaseDate: 2021-12-16
     eol: 2022-02-16
     latest: "2021.12.5"
-    latestDate: 2022-01-06
+    latestReleaseDate: 2022-01-06
 
 ---
 

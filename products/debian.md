@@ -34,162 +34,162 @@ releases:
     releaseDate: 2025-08-09
     eol: 2028-08-09
     eoes: 2030-06-30
-    latestLink: https://www.debian.org/News/2025/20250809
+    link: https://www.debian.org/News/2025/20250809
     latest: "13.4"
-    latestDate: 2026-03-14
+    latestReleaseDate: 2026-03-14
 
   - releaseCycle: "12"
     codename: "Bookworm"
     releaseDate: 2023-06-10
     eol: 2026-06-10
     eoes: 2028-06-30
-    latestLink: https://www.debian.org/News/2025/20250517
+    link: https://www.debian.org/News/2025/20250517
     latest: "12.13"
-    latestDate: 2026-01-10
+    latestReleaseDate: 2026-01-10
 
   - releaseCycle: "11"
     codename: "Bullseye"
     releaseDate: 2021-08-14
     eol: 2024-08-14
     eoes: 2026-08-31
-    latestLink: https://lists.debian.org/debian-release/2024/06/msg00700.html
+    link: https://lists.debian.org/debian-release/2024/06/msg00700.html
     latest: "11.11"
-    latestDate: 2024-08-31
+    latestReleaseDate: 2024-08-31
 
   - releaseCycle: "10"
     codename: "Buster"
     releaseDate: 2019-07-06
     eol: 2022-09-10
     eoes: 2024-06-30
-    latestLink: https://www.debian.org/News/2022/20220910
+    link: https://www.debian.org/News/2022/20220910
     latest: "10.13"
-    latestDate: 2022-09-10
+    latestReleaseDate: 2022-09-10
 
   - releaseCycle: "9"
     codename: "Stretch"
     releaseDate: 2017-06-17
     eol: 2020-07-18
     eoes: 2022-07-01
-    latestLink: https://lists.debian.org/debian-announce/2017/msg00003.html
+    link: https://lists.debian.org/debian-announce/2017/msg00003.html
     latest: "9.13"
-    latestDate: 2020-07-18
+    latestReleaseDate: 2020-07-18
 
   - releaseCycle: "8"
     codename: "Jessie"
     releaseDate: 2015-04-25
     eol: 2018-06-17
     eoes: 2020-06-30
-    latestLink: https://lists.debian.org/debian-announce/2015/msg00001.html
+    link: https://lists.debian.org/debian-announce/2015/msg00001.html
     latest: "8.11"
-    latestDate: 2018-06-23
+    latestReleaseDate: 2018-06-23
 
   - releaseCycle: "7"
     codename: "Wheezy"
     releaseDate: 2013-05-04
     eol: 2016-04-25
     eoes: 2018-05-31
-    latestLink: https://lists.debian.org/debian-announce/2013/msg00002.html
+    link: https://lists.debian.org/debian-announce/2013/msg00002.html
     latest: "7.11"
-    latestDate: 2016-06-04
+    latestReleaseDate: 2016-06-04
 
   - releaseCycle: "6"
     codename: "Squeeze"
     releaseDate: 2011-02-06
     eol: 2014-05-31
     eoes: 2016-02-29
-    latestLink: https://lists.debian.org/debian-announce/2011/msg00001.html
+    link: https://lists.debian.org/debian-announce/2011/msg00001.html
     latest: "6.0.10"
-    latestDate: 2014-07-19
+    latestReleaseDate: 2014-07-19
 
   - releaseCycle: "5"
     codename: "Lenny"
     releaseDate: 2009-02-14
     eol: 2012-02-06
     eoes: 2012-02-06
-    latestLink: https://lists.debian.org/debian-announce/2009/msg00002.html
+    link: https://lists.debian.org/debian-announce/2009/msg00002.html
     latest: "5.0.10"
-    latestDate: 2012-03-10
+    latestReleaseDate: 2012-03-10
 
   - releaseCycle: "4"
     codename: "Etch"
     releaseDate: 2007-04-08
     eol: 2010-02-15
     eoes: 2010-02-15
-    latestLink: https://lists.debian.org/debian-announce/2007/msg00002.html
+    link: https://lists.debian.org/debian-announce/2007/msg00002.html
     latest: "4.0r9"
-    latestDate: 2010-05-22
+    latestReleaseDate: 2010-05-22
 
   - releaseCycle: "3.1"
     codename: "Sarge"
     releaseDate: 2005-06-06
     eol: 2008-03-31
     eoes: 2008-03-31
-    latestLink: https://lists.debian.org/debian-announce/2005/msg00003.html
+    link: https://lists.debian.org/debian-announce/2005/msg00003.html
     latest: "3.1r8"
-    latestDate: 2008-04-13
+    latestReleaseDate: 2008-04-13
 
   - releaseCycle: "3.0"
     codename: "Woody"
     releaseDate: 2002-07-19
     eol: 2006-06-30
     eoes: 2006-06-30
-    latestLink: https://lists.debian.org/debian-announce/2002/msg00004.html
+    link: https://lists.debian.org/debian-announce/2002/msg00004.html
     latest: "3.0r6"
-    latestDate: 2005-06-02
+    latestReleaseDate: 2005-06-02
 
   - releaseCycle: "2.2"
     codename: "Potato"
     releaseDate: 2000-08-15
     eol: 2003-06-30
     eoes: 2003-06-30
-    latestLink: https://lists.debian.org/debian-announce/2000/msg00009.html
+    link: https://lists.debian.org/debian-announce/2000/msg00009.html
     latest: "2.2r7"
-    latestDate: 2002-07-13
+    latestReleaseDate: 2002-07-13
 
   - releaseCycle: "2.1"
     codename: "Slink"
     releaseDate: 1999-03-09
     eol: 2000-09-30
     eoes: 2000-10-30
-    latestLink: https://lists.debian.org/debian-announce/1999/msg00005.html
+    link: https://lists.debian.org/debian-announce/1999/msg00005.html
     latest: "2.1r5"
-    latestDate: 2000-02-16
+    latestReleaseDate: 2000-02-16
 
   - releaseCycle: "2.0"
     codename: "Hamm"
     releaseDate: 1998-07-24
     eol: 1999-02-15
     eoes: 1999-02-15
-    latestLink: https://lists.debian.org/debian-announce/1998/msg00015.html
+    link: https://lists.debian.org/debian-announce/1998/msg00015.html
     latest: "2.0r5"
-    latestDate: 1999-02-17
+    latestReleaseDate: 1999-02-17
 
   - releaseCycle: "1.3"
     codename: "Bo"
     releaseDate: 1997-07-02
     eol: 1998-12-08
     eoes: 1998-12-08
-    latestLink: https://lists.debian.org/debian-announce/1997/msg00018.html
+    link: https://lists.debian.org/debian-announce/1997/msg00018.html
     latest: "1.3.1 r.6"
-    latestDate: 1998-02-03
+    latestReleaseDate: 1998-02-03
 
   - releaseCycle: "1.2"
     codename: "Rex"
     releaseDate: 1996-12-12
     eol: 1997-10-23
     eoes: 1997-10-23
-    latestLink: https://lists.debian.org/debian-announce/1996/msg00026.html
+    link: https://lists.debian.org/debian-announce/1996/msg00026.html
     latest: "1.2"
-    latestDate: 1996-12-12
+    latestReleaseDate: 1996-12-12
 
   - releaseCycle: "1.1"
     codename: "Buzz"
     releaseDate: 1996-06-17
     eol: 1996-12-12
     eoes: 1996-12-12
-    latestLink: https://lists.debian.org/debian-announce/1996/msg00021.html
+    link: https://lists.debian.org/debian-announce/1996/msg00021.html
     latest: "1.1"
-    latestDate: 1996-06-17
+    latestReleaseDate: 1996-06-17
 
 ---
 

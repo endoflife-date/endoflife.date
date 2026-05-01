@@ -4,7 +4,7 @@ addedAt: 2023-07-15
 category: app
 permalink: /weechat
 versionCommand: weechat --version
-latestLinkTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
 eolColumn: Active Support
 
 identifiers:
@@ -22,121 +22,121 @@ releases:
     releaseDate: 2026-03-29
     eol: false
     latest: "4.9.0"
-    latestDate: 2026-03-29
+    latestReleaseDate: 2026-03-29
 
   - releaseCycle: "4.8"
     releaseDate: 2025-11-30
     eol: 2026-03-29
     latest: "4.8.2"
-    latestDate: 2026-03-06
+    latestReleaseDate: 2026-03-06
 
   - releaseCycle: "4.7"
     releaseDate: 2025-07-19
     eol: 2025-11-30
     latest: "4.7.2"
-    latestDate: 2025-11-23
+    latestReleaseDate: 2025-11-23
 
   - releaseCycle: "4.6"
     releaseDate: 2025-03-23
     eol: 2025-07-19
     latest: "4.6.3"
-    latestDate: 2025-05-11
+    latestReleaseDate: 2025-05-11
 
   - releaseCycle: "4.5"
     releaseDate: 2024-12-15
     eol: 2025-03-23
     latest: "4.5.2"
-    latestDate: 2025-02-20
+    latestReleaseDate: 2025-02-20
 
   - releaseCycle: "4.4"
     releaseDate: 2024-08-17
     eol: 2024-12-15
     latest: "4.4.4"
-    latestDate: 2024-11-30
+    latestReleaseDate: 2024-11-30
 
   - releaseCycle: "4.3"
     releaseDate: 2024-05-26
     eol: 2024-08-17
     latest: "4.3.6"
-    latestDate: 2024-08-15
+    latestReleaseDate: 2024-08-15
 
   - releaseCycle: "4.2"
     releaseDate: 2024-01-21
     eol: 2024-05-26
     latest: "4.2.3"
-    latestDate: 2024-05-31
+    latestReleaseDate: 2024-05-31
 
   - releaseCycle: "4.1"
     releaseDate: 2023-10-15
     eol: 2024-01-21
     latest: "4.1.3"
-    latestDate: 2024-01-20
+    latestReleaseDate: 2024-01-20
 
   - releaseCycle: "4.0"
     releaseDate: 2023-06-24
     eol: 2023-10-15
     latest: "4.0.8"
-    latestDate: 2024-01-20
+    latestReleaseDate: 2024-01-20
 
   - releaseCycle: "3.8"
     releaseDate: 2023-01-08
     eol: 2023-06-24
     latest: "3.8"
-    latestDate: 2023-01-08
+    latestReleaseDate: 2023-01-08
 
   - releaseCycle: "3.7"
     releaseDate: 2022-10-09
     eol: 2023-01-08
     latest: "3.7.1"
-    latestDate: 2022-10-21
+    latestReleaseDate: 2022-10-21
 
   - releaseCycle: "3.6"
     releaseDate: 2022-07-10
     eol: 2022-10-09
     latest: "3.6"
-    latestDate: 2022-07-10
+    latestReleaseDate: 2022-07-10
 
   - releaseCycle: "3.5"
     releaseDate: 2022-03-27
     eol: 2022-07-10
     latest: "3.5"
-    latestDate: 2022-03-27
+    latestReleaseDate: 2022-03-27
 
   - releaseCycle: "3.4"
     releaseDate: 2021-12-18
     eol: 2022-03-27
     latest: "3.4.1"
-    latestDate: 2022-03-13
+    latestReleaseDate: 2022-03-13
 
   - releaseCycle: "3.3"
     releaseDate: 2021-09-19
     eol: 2021-12-18
     latest: "3.3"
-    latestDate: 2021-09-19
+    latestReleaseDate: 2021-09-19
 
   - releaseCycle: "3.2"
     releaseDate: 2021-06-13
     eol: 2021-09-19
     latest: "3.2.1"
-    latestDate: 2021-09-04
+    latestReleaseDate: 2021-09-04
 
   - releaseCycle: "3.1"
     releaseDate: 2021-03-07
     eol: 2021-06-13
     latest: "3.1"
-    latestDate: 2021-03-07
+    latestReleaseDate: 2021-03-07
 
   - releaseCycle: "3.0"
     releaseDate: 2020-11-11
     eol: 2021-03-07
     latest: "3.0.1"
-    latestDate: 2021-01-31
+    latestReleaseDate: 2021-01-31
 
   - releaseCycle: "2.9"
     releaseDate: 2020-07-18
     eol: 2020-11-11
     latest: "2.9"
-    latestDate: 2020-07-18
+    latestReleaseDate: 2020-07-18
 
 ---
 

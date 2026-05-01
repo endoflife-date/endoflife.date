@@ -23,124 +23,124 @@ releases:
     releaseDate: 2025-09-03
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
-    latestLink: https://www.veeam.com/kb4738
+    link: https://www.veeam.com/kb4738
     latest: "13.0.1.2067"
-    latestDate: 2026-03-12
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
     eoas: 2025-09-03
     eol: 2027-02-01
-    latestLink: "https://www.veeam.com/kb4420"
+    link: "https://www.veeam.com/kb4420"
     latest: "12.3.2.4465"
-    latestDate: 2026-03-12
+    latestReleaseDate: 2026-03-12
 
   - releaseCycle: "11"
     releaseDate: 2021-02-11
     eoas: 2023-02-01
     eol: 2024-02-01
-    latestLink: "https://www.veeam.com/kb4126"
+    link: "https://www.veeam.com/kb4126"
     latest: "11.0.1.1261-P20240304"
-    latestDate: 2024-03-07
+    latestReleaseDate: 2024-03-07
 
   - releaseCycle: "10"
     releaseDate: 2020-02-04
     eoas: 2021-02-01
     eol: 2023-02-01
-    latestLink: "https://www.veeam.com/kb3161"
+    link: "https://www.veeam.com/kb3161"
     latest: "10.0.1.4854-P20220304"
-    latestDate: 2022-03-12
+    latestReleaseDate: 2022-03-12
 
   - releaseCycle: "9.5"
     releaseDate: 2016-11-16
     eoas: 2020-02-01
     eol: 2022-01-01 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
-    latestLink: "https://www.veeam.com/kb2970"
+    link: "https://www.veeam.com/kb2970"
     latest: "9.5.4.2866"
-    latestDate: 2019-07-15
+    latestReleaseDate: 2019-07-15
 
   - releaseCycle: "9.0"
     releaseDate: 2016-01-12
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb2147"
+    link: "https://www.veeam.com/kb2147"
     latest: "9.0.0.1715"
-    latestDate: 2016-08-05
+    latestReleaseDate: 2016-08-05
 
   - releaseCycle: "8.0"
     releaseDate: 2014-11-06
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb2068"
+    link: "https://www.veeam.com/kb2068"
     latest: "8.0.0.2084"
-    latestDate: 2015-10-08
+    latestReleaseDate: 2015-10-08
 
   - releaseCycle: "7.0"
     releaseDate: 2013-08-20
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb1891"
+    link: "https://www.veeam.com/kb1891"
     latest: "7.0.0.871"
-    latestDate: 2014-06-05
+    latestReleaseDate: 2014-06-05
 
   - releaseCycle: "6.5"
     releaseDate: 2012-10-09
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb1751"
+    link: "https://www.veeam.com/kb1751"
     latest: "6.5.0.144"
-    latestDate: 2013-04-29
+    latestReleaseDate: 2013-04-29
 
   - releaseCycle: "6.1"
     releaseDate: 2012-06-04
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb1671"
+    link: "https://www.veeam.com/kb1671"
     latest: "6.1.0.205"
-    latestDate: 2012-08-15
+    latestReleaseDate: 2012-08-15
 
   - releaseCycle: "6.0"
     releaseDate: 2011-08-22
     eoas: true
     eol: true
-    latestLink: "https://www.veeam.com/kb1442"
+    link: "https://www.veeam.com/kb1442"
     latest: "6.0.0.181"
-    latestDate: 2012-02-09
+    latestReleaseDate: 2012-02-09
 
   - releaseCycle: "5.0"
     releaseDate: 2010-08-30
     eoas: true
     eol: true
     latest: "5.0.2.230"
-    latestDate: 2011-04-11
+    latestReleaseDate: 2011-04-11
 
   - releaseCycle: "4.0"
     releaseDate: 2009-10-29
     eoas: true
     eol: true
     latest: "4.1.2.125"
-    latestDate: 2010-08-04
+    latestReleaseDate: 2010-08-04
 
   - releaseCycle: "3.0"
     releaseDate: 2009-10-21
     eoas: true
     eol: true
     latest: "3.0.1.251" # no information available
-    latestDate: 2009-03-16
+    latestReleaseDate: 2009-03-16
 
   - releaseCycle: "2.0"
     releaseDate: 2008-07-30
     eoas: true
     eol: true
     latest: "2.0.0.152" # no information available
-    latestDate: 2008-07-26
+    latestReleaseDate: 2008-07-26
 
   - releaseCycle: "1.0"
     releaseDate: 2008-02-26
     eoas: true
     eol: true
     latest: "1.0.1.76" # no information available
-    latestDate: 2008-03-21
+    latestReleaseDate: 2008-03-21
 
 ---
 

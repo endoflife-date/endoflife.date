@@ -5,7 +5,7 @@ category: server-app
 tags: discontinued
 permalink: /isc-dhcp
 releasePolicyLink: https://kb.isc.org/docs/aa-00896#isc-dhcp-eol
-latestLinkTemplate: https://ftp.isc.org/isc/dhcp/__LATEST__/dhcp-__LATEST__-RELNOTES
+changelogTemplate: https://ftp.isc.org/isc/dhcp/__LATEST__/dhcp-__LATEST__-RELNOTES
 eolColumn: Support
 
 identifiers:
@@ -17,27 +17,27 @@ releases:
     releaseDate: 2018-01-31
     eol: 2022-10-05
     latest: "4.4.3-P1"
-    latestDate: 2022-10-05
+    latestReleaseDate: 2022-10-05
 
   - releaseCycle: "4.3"
     releaseDate: 2014-02-04
     eol: 2018-02-28
     latest: "4.3.6-P1"
-    latestDate: 2018-02-28
+    latestReleaseDate: 2018-02-28
 
   - releaseCycle: "4.2"
     # https://dhcp-users.isc.narkive.com/41iloiKm/isc-dhcp-4-2-0-is-now-available
     releaseDate: 2010-07-15
     eol: 2015-03-05
     latest: "4.2.8"
-    latestDate: 2015-03-05
+    latestReleaseDate: 2015-03-05
 
   - releaseCycle: "4.1"
     # dhcp-4.1.0.tar.gz on http://ftp.dei.uc.pt/pub/dhcp/
     releaseDate: 2008-12-19
     eol: 2022-10-05
     latest: "4.1-ESV-R16-P2"
-    latestDate: 2022-10-05
+    latestReleaseDate: 2022-10-05
 ---
 
 > [ISC DHCP](https://www.isc.org/dhcp/) is an open source solution for DHCP servers, relay agents,

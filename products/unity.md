@@ -7,7 +7,7 @@ permalink: /unity
 alternate_urls:
   - /unity3d
 releasePolicyLink: https://unity.com/releases/unity-6/support
-latestLinkTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
+changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 eoesColumn: Extended Long Term Support
 
 auto:
@@ -22,7 +22,7 @@ releases:
     releaseDate: 2026-03-18
     eol: false
     latest: "6000.4.5f1"
-    latestDate: 2026-04-28
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "6000.3"
     releaseLabel: "6.3"
@@ -31,21 +31,21 @@ releases:
     eol: 2027-12-04
     eoes: 2028-12-04
     latest: "6000.3.14f1"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "6000.2"
     releaseLabel: "6.2"
     releaseDate: 2025-08-12
     eol: 2025-12-04
     latest: "6000.2.15f1"
-    latestDate: 2025-12-03
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "6000.1"
     releaseLabel: "6.1"
     releaseDate: 2025-04-23
     eol: 2025-08-12
     latest: "6000.1.17f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "6000.0"
     releaseLabel: "6.0"
@@ -54,91 +54,91 @@ releases:
     eol: 2026-10-16
     eoes: 2027-10-16
     latest: "6000.0.74f1"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14
     eol: 2024-04-29
     latest: "2023.2.22f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2023.1"
     releaseDate: 2023-06-12
     eol: 2023-11-13
     latest: "2023.1.22f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.3"
     lts: true
     releaseDate: 2023-05-30
     eol: 2025-05-07
     latest: "2022.3.62f3"
-    latestDate: 2025-10-28
+    latestReleaseDate: 2025-10-28
 
   - releaseCycle: "2022.2"
     releaseDate: 2022-12-07
     eol: 2023-06-12
     latest: "2022.2.23f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2022.1"
     releaseDate: 2022-05-09
     eol: 2022-12-06
     latest: "2022.1.25f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021"
     lts: true
     releaseDate: 2022-04-11
     eol: 2025-02-18
     latest: "2021.3.45f2"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2025-02-18
     latest: "2021.3.45f2"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.2"
     releaseDate: 2021-10-25
     eol: 2022-04-05
     latest: "2021.2.20f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2021.1"
     releaseDate: 2021-03-22
     eol: 2022-11-04
     latest: "2021.1.29f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2020"
     lts: true
     releaseDate: 2020-07-20
     eol: 2023-05-05
     latest: "2020.3.49f1"
-    latestDate: 2025-10-03
+    latestReleaseDate: 2025-10-03
 
   - releaseCycle: "2019"
     lts: true
     releaseDate: 2019-04-08
     eol: 2022-06-16
     latest: "2019.4.41f2"
-    latestDate: 2025-10-15
+    latestReleaseDate: 2025-10-15
 
   - releaseCycle: "2018"
     lts: true
     releaseDate: 2018-04-26
     eol: 2021-06-17
     latest: "2018.4.36f1"
-    latestDate: 2021-06-17
+    latestReleaseDate: 2021-06-17
 
   - releaseCycle: "2017"
     lts: true
     releaseDate: 2017-06-26
     eol: 2020-05-18
     latest: "2017.4.40f1"
-    latestDate: 2020-05-18
+    latestReleaseDate: 2020-05-18
 
 ---
 

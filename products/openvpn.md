@@ -5,7 +5,7 @@ category: app
 iconSlug: openvpn
 permalink: /openvpn
 releasePolicyLink: https://community.openvpn.net/openvpn/wiki/SupportedVersions
-latestLinkTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
+changelogTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
 eoasColumn: Full Stable Support
 
 auto:
@@ -25,49 +25,49 @@ releases:
     eoas: false
     eol: false
     latest: "2.7.4"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "2.6"
     releaseDate: 2023-01-25
     eoas: 2026-08-31
     eol: 2028-08-31
     latest: "2.6.20"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "2.5"
     releaseDate: 2020-10-27
     eoas: 2024-07-18
     eol: 2025-07-31
     latest: "2.5.11"
-    latestDate: 2024-07-18
+    latestReleaseDate: 2024-07-18
 
   - releaseCycle: "2.4"
     releaseDate: 2016-12-16
     eoas: 2022-03-17
     eol: 2023-03-31
     latest: "2.4.12"
-    latestDate: 2022-03-17
+    latestReleaseDate: 2022-03-17
 
   - releaseCycle: "2.3"
     releaseDate: 2013-01-02
     eoas: 2017-09-25
     eol: 2021-06-30
     latest: "2.3.18"
-    latestDate: 2017-09-25
+    latestReleaseDate: 2017-09-25
 
   - releaseCycle: "2.2"
     releaseDate: 2011-04-21
     eoas: 2014-11-30
     eol: 2015-11-30
     latest: "2.2.3"
-    latestDate: 2014-11-30
+    latestReleaseDate: 2014-11-30
 
   - releaseCycle: "2.1"
     releaseDate: 2009-12-11
     eoas: 2010-11-06
     eol: 2011-11-30
     latest: "2.1.4"
-    latestDate: 2010-11-06
+    latestReleaseDate: 2010-11-06
 
 ---
 

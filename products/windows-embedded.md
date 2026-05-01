@@ -18,42 +18,42 @@ releases:
     releaseDate: 2013-11-25
     eoas: 2018-07-10
     eol: 2023-07-11
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-81-industry
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-81-industry
 
   - releaseCycle: "8.1-pro"
     releaseLabel: "8.1 Pro"
     releaseDate: 2013-11-13
     eoas: 2018-01-09
     eol: 2023-01-10
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-81-pro
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-81-pro
 
   - releaseCycle: "compact-2013"
     releaseLabel: "Compact 2013"
     releaseDate: 2013-08-11
     eoas: 2018-10-09
     eol: 2023-10-10
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-compact-2013
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-compact-2013
 
   - releaseCycle: "posready-7"
     releaseLabel: "POSReady 7"
     releaseDate: 2011-09-10
     eoas: 2016-10-11
     eol: 2021-10-12
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-posready-7
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-posready-7
 
   - releaseCycle: "compact-7"
     releaseLabel: "Compact 7"
     releaseDate: 2011-03-15
     eoas: 2016-04-12
     eol: 2021-04-13
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-compact-7
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-compact-7
 
   - releaseCycle: "standard-7-sp1"
     releaseLabel: "Standard 7 SP1"
     releaseDate: 2011-02-28
     eoas: 2015-10-13
     eol: 2020-10-13
-    latestLink: https://learn.microsoft.com/lifecycle/products/windows-embedded-standard-7
+    link: https://learn.microsoft.com/lifecycle/products/windows-embedded-standard-7
 ---
 
 > [Windows Embedded](https://developer.microsoft.com/windows/iot/), now called Windows IoT, is a

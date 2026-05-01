@@ -27,49 +27,49 @@ releases:
     eol: 2030-02-28
     eoes: 2033-02-28
     latest: "17.9"
-    latestDate: 2026-04-06
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2029-02-28
     eoes: 2032-02-28
     latest: "16.13"
-    latestDate: 2026-04-06
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "15"
     releaseDate: 2022-11-10
     eol: 2028-02-29
     eoes: 2031-02-28
     latest: "15.17"
-    latestDate: 2026-04-06
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2027-02-28
     eoes: 2030-02-28
     latest: "14.22"
-    latestDate: 2026-04-06
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24
     eol: 2026-02-28
     eoes: 2029-02-28
     latest: "13.23"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "12"
     releaseDate: 2019-11-14
     eol: 2025-02-28
     eoes: 2028-02-29
     latest: "12.22"
-    latestDate: 2024-12-13
+    latestReleaseDate: 2024-12-13
 
   - releaseCycle: "11"
     releaseDate: 2018-10-18
     eol: 2024-02-29
     eoes: 2027-03-31
     latest: "11.21"
-    latestDate: 2023-09-07
+    latestReleaseDate: 2023-09-07
 
 ---
 

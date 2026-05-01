@@ -5,7 +5,7 @@ category: server-app
 tags: cncf
 permalink: /gatekeeper
 releasePolicyLink: https://github.com/open-policy-agent/gatekeeper/blob/master/docs/Release_Management.md#supported-releases
-latestLinkTemplate: https://github.com/open-policy-agent/gatekeeper/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/open-policy-agent/gatekeeper/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:
@@ -25,73 +25,73 @@ releases:
     releaseDate: 2026-03-09
     eol: false
     latest: "3.22.2"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "3.21"
     releaseDate: 2025-11-19
     eol: false
     latest: "3.21.1"
-    latestDate: 2026-02-04
+    latestReleaseDate: 2026-02-04
 
   - releaseCycle: "3.20"
     releaseDate: 2025-07-24
     eol: 2026-03-09
     latest: "3.20.1"
-    latestDate: 2025-08-29
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "3.19"
     releaseDate: 2025-04-09
     eol: 2025-11-19
     latest: "3.19.3"
-    latestDate: 2025-07-15
+    latestReleaseDate: 2025-07-15
 
   - releaseCycle: "3.18"
     releaseDate: 2024-12-12
     eol: 2025-07-24
     latest: "3.18.3"
-    latestDate: 2025-04-25
+    latestReleaseDate: 2025-04-25
 
   - releaseCycle: "3.17"
     releaseDate: 2024-08-21
     eol: 2025-04-09
     latest: "3.17.2"
-    latestDate: 2025-01-24
+    latestReleaseDate: 2025-01-24
 
   - releaseCycle: "3.16"
     releaseDate: 2024-05-09
     eol: 2024-12-12
     latest: "3.16.3"
-    latestDate: 2024-05-24
+    latestReleaseDate: 2024-05-24
 
   - releaseCycle: "3.15"
     releaseDate: 2024-02-05
     eol: 2024-08-21
     latest: "3.15.1"
-    latestDate: 2024-03-12
+    latestReleaseDate: 2024-03-12
 
   - releaseCycle: "3.14"
     releaseDate: 2023-11-01
     eol: 2024-05-09
     latest: "3.14.2"
-    latestDate: 2024-04-22
+    latestReleaseDate: 2024-04-22
 
   - releaseCycle: "3.13"
     releaseDate: 2023-08-08
     eol: 2024-02-05
     latest: "3.13.4"
-    latestDate: 2023-11-01
+    latestReleaseDate: 2023-11-01
 
   - releaseCycle: "3.12"
     releaseDate: 2023-04-14
     eol: 2023-11-01
     latest: "3.12.0"
-    latestDate: 2023-04-14
+    latestReleaseDate: 2023-04-14
 
   - releaseCycle: "3.11"
     releaseDate: 2023-01-04
     eol: 2023-08-08
     latest: "3.11.1"
-    latestDate: 2023-04-25
+    latestReleaseDate: 2023-04-25
 
 ---
 

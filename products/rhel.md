@@ -9,7 +9,7 @@ alternate_urls:
   - /redhat
   - /redhatlinux
 versionCommand: cat /etc/redhat-release
-latestLinkTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 eoasColumn: Full Support
@@ -39,7 +39,7 @@ releases:
     lts: 2035-05-31
     eoes: 2038-05-31
     latest: "10.1"
-    latestDate: 2025-11-12
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "9"
     releaseDate: 2022-05-18
@@ -48,7 +48,7 @@ releases:
     lts: 2032-05-31
     eoes: 2035-05-31
     latest: "9.7"
-    latestDate: 2025-11-12
+    latestReleaseDate: 2025-11-12
 
   - releaseCycle: "8"
     releaseDate: 2019-05-07
@@ -57,7 +57,7 @@ releases:
     lts: 2029-05-31
     eoes: 2032-05-31
     latest: "8.10"
-    latestDate: 2024-05-22
+    latestReleaseDate: 2024-05-22
 
   - releaseCycle: "7"
     releaseDate: 2014-06-10
@@ -66,7 +66,7 @@ releases:
     lts: 2024-06-30
     eoes: 2029-05-31
     latest: "7.9"
-    latestDate: 2020-09-29
+    latestReleaseDate: 2020-09-29
 
   - releaseCycle: "6"
     releaseDate: 2010-11-10
@@ -75,7 +75,7 @@ releases:
     lts: 2020-11-30
     eoes: 2024-06-30
     latest: "6.10"
-    latestDate: 2018-06-19
+    latestReleaseDate: 2018-06-19
 
   - releaseCycle: "5"
     releaseDate: 2007-03-15
@@ -84,7 +84,7 @@ releases:
     lts: 2017-03-31
     eoes: 2020-11-30
     latest: "5.11"
-    latestDate: 2014-09-16
+    latestReleaseDate: 2014-09-16
 
   - releaseCycle: "4"
     releaseDate: 2005-02-15
@@ -92,7 +92,7 @@ releases:
     eol: 2012-02-29
     eoes: 2017-03-31
     latest: "4.9"
-    latestDate: 2011-02-16
+    latestReleaseDate: 2011-02-16
 ---
 
 > Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market.

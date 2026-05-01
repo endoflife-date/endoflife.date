@@ -22,8 +22,8 @@ releases:
     eoas: false
     eol: false
     latest: "Patch 3"
-    latestDate: 2026-04-14
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-3-release-date-april-14-2026
+    latestReleaseDate: 2026-04-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-3-release-date-april-14-2026
 
   - releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
@@ -31,8 +31,8 @@ releases:
     eoas: 2028-01-11
     eol: 2033-01-11
     latest: "2022.2patch8"
-    latestDate: 2026-02-10
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-8-release-date-february-10-2026
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-8-release-date-february-10-2026
 
   - releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
@@ -40,8 +40,8 @@ releases:
     eoas: 2028-01-11
     eol: 2033-01-11
     latest: "2022.1patch4"
-    latestDate: 2024-06-11
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-4-release-date-june-11-2024
+    latestReleaseDate: 2024-06-11
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-4-release-date-june-11-2024
 
   - releaseCycle: "2022.0"
     releaseLabel: "2022"
@@ -49,8 +49,8 @@ releases:
     eoas: 2028-01-11
     eol: 2033-01-11
     latest: "2022.0.1patch5"
-    latestDate: 2023-11-14
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022#azure-devops-server-2022-update-01-patch-5-release-date-november-14-2023
+    latestReleaseDate: 2023-11-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022#azure-devops-server-2022-update-01-patch-5-release-date-november-14-2023
 
   - releaseCycle: "2020.1"
     releaseLabel: "2020 Update 1"
@@ -58,8 +58,8 @@ releases:
     eoas: 2025-10-14
     eol: 2030-10-08
     latest: "2020.1.2patch18"
-    latestDate: 2026-02-10
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-18-release-date-february-10-2026
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-18-release-date-february-10-2026
 
   - releaseCycle: "2020.0"
     releaseLabel: "2020"
@@ -67,8 +67,8 @@ releases:
     eoas: 2025-10-14
     eol: 2030-10-08
     latest: "2020.0.2patch6"
-    latestDate: 2023-11-14
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020#azure-devops-server-2020-update-02-patch-6-release-date-november-14-2023
+    latestReleaseDate: 2023-11-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020#azure-devops-server-2020-update-02-patch-6-release-date-november-14-2023
 
   - releaseCycle: "2019.1"
     releaseLabel: "2019 Update 1"
@@ -76,8 +76,8 @@ releases:
     eoas: 2024-04-09
     eol: 2029-04-10
     latest: "2019.1.2patch12"
-    latestDate: 2026-02-10
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
+    latestReleaseDate: 2026-02-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
 
   - releaseCycle: "2019.0"
     releaseLabel: "2019"
@@ -85,8 +85,8 @@ releases:
     eoas: 2024-04-09
     eol: 2029-04-10
     latest: "2019.0.1patch16"
-    latestDate: 2023-11-14
-    latestLink: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019#azure-devops-server-201901-patch-16-release-date-november-14-2023
+    latestReleaseDate: 2023-11-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019#azure-devops-server-201901-patch-16-release-date-november-14-2023
 
   - releaseCycle: "2018"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -94,8 +94,8 @@ releases:
     eoas: 2023-01-10
     eol: 2028-01-11
     latest: "2018.3.2patch20"
-    latestDate: 2025-04-08
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-20
+    latestReleaseDate: 2025-04-08
+    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-20
 
   - releaseCycle: "2017"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -103,8 +103,8 @@ releases:
     eoas: 2022-01-11
     eol: 2027-01-11
     latest: "2017.3.1patch15"
-    latestDate: 2022-05-17
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/tfs2017-update3#details-of-whats-new-in-team-foundation-server-2017-update-31-patch-15
+    latestReleaseDate: 2022-05-17
+    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2017-update3#details-of-whats-new-in-team-foundation-server-2017-update-31-patch-15
 
   - releaseCycle: "2015"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -112,8 +112,8 @@ releases:
     eoas: 2020-10-13
     eol: 2025-10-14
     latest: "2015.4.2patch8"
-    latestDate: 2022-05-17
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/tfs2015-update4-vs#details-of-whats-new-in-team-foundation-server-2015-update-42-patch-8
+    latestReleaseDate: 2022-05-17
+    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2015-update4-vs#details-of-whats-new-in-team-foundation-server-2015-update-42-patch-8
 
   - releaseCycle: "2013"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -121,8 +121,8 @@ releases:
     eoas: 2019-04-09
     eol: 2024-04-09
     latest: "2013.5"
-    latestDate: 2015-07-20
-    latestLink: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
+    latestReleaseDate: 2015-07-20
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
 
   - releaseCycle: "2012"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -130,8 +130,8 @@ releases:
     eoas: 2019-01-09
     eol: 2023-01-10
     latest: "2012.4"
-    latestDate: 2013-11-13
-    latestLink: https://learn.microsoft.com/troubleshoot/developer/visualstudio/installation/visual-studio-2012-update-4
+    latestReleaseDate: 2013-11-13
+    link: https://learn.microsoft.com/troubleshoot/developer/visualstudio/installation/visual-studio-2012-update-4
 
   - releaseCycle: "2010"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -139,8 +139,8 @@ releases:
     eoas: 2015-07-14
     eol: 2020-07-14
     latest: "2010.SP1"
-    latestDate: 2011-03-08
-    latestLink: https://devblogs.microsoft.com/bharry/vstfs-2010-sp1-and-tfs-project-server-integration-feature-pack-have-released/
+    latestReleaseDate: 2011-03-08
+    link: https://devblogs.microsoft.com/bharry/vstfs-2010-sp1-and-tfs-project-server-integration-feature-pack-have-released/
 
   - releaseCycle: "2005"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -148,8 +148,8 @@ releases:
     eoas: 2011-07-12
     eol: 2016-07-12
     latest: "2005.SP2"
-    latestDate: 2007-03-21
-    latestLink: https://devblogs.microsoft.com/bharry/tfs-2005-sql-server-2005-sp2/
+    latestReleaseDate: 2007-03-21
+    link: https://devblogs.microsoft.com/bharry/tfs-2005-sql-server-2005-sp2/
 ---
 
 > [Azure DevOps Server](https://azure.microsoft.com/products/devops/server/), is a set of

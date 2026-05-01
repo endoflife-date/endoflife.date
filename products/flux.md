@@ -10,7 +10,7 @@ alternate_urls:
   - /fluxcd
 versionCommand: flux version
 releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
-latestLinkTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:
@@ -28,62 +28,62 @@ releases:
     releaseDate: 2026-02-24
     eol: false
     latest: "2.8.6"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "2.7"
     releaseDate: 2025-09-30
     eol: false
     latest: "2.7.5"
-    latestDate: 2025-11-27
+    latestReleaseDate: 2025-11-27
 
   - releaseCycle: "2.6"
     releaseDate: 2025-05-29
     eol: false
     latest: "2.6.4"
-    latestDate: 2025-07-08
+    latestReleaseDate: 2025-07-08
 
   - releaseCycle: "2.5"
     releaseDate: 2025-02-20
     eol: 2026-02-24
     latest: "2.5.1"
-    latestDate: 2025-02-25
+    latestReleaseDate: 2025-02-25
 
   - releaseCycle: "2.4"
     releaseDate: 2024-09-30
     eol: 2025-09-30
     latest: "2.4.0"
-    latestDate: 2024-09-30
+    latestReleaseDate: 2024-09-30
 
   - releaseCycle: "2.3"
     releaseDate: 2024-05-13
     eol: 2025-05-29
     latest: "2.3.0"
-    latestDate: 2024-05-13
+    latestReleaseDate: 2024-05-13
 
   - releaseCycle: "2.2"
     releaseDate: 2023-12-12
     eol: 2025-02-20
     latest: "2.2.3"
-    latestDate: 2024-02-05
+    latestReleaseDate: 2024-02-05
 
   - releaseCycle: "2.1"
     releaseDate: 2023-08-24
     eol: 2024-09-30 # releaseDate(2.4)
     latest: "2.1.2"
-    latestDate: 2023-10-12
+    latestReleaseDate: 2023-10-12
 
   - releaseCycle: "2.0"
     releaseDate: 2023-07-05
     eol: 2024-05-13 # https://fluxcd.io/blog/2024/05/flux-v2.3.0/#supported-versions
     latest: "2.0.1"
-    latestDate: 2023-07-11
+    latestReleaseDate: 2023-07-11
 
   - releaseCycle: "1.25"
     releaseDate: 2022-03-30
     eol: 2022-11-02 # https://github.com/endoflife-date/endoflife.date/pull/3420#discussion_r1306636700
     latest: "1.25.4"
-    latestDate: 2022-08-30
-    latestLink: https://github.com/fluxcd/flux/releases/tag/1.25.4
+    latestReleaseDate: 2022-08-30
+    link: https://github.com/fluxcd/flux/releases/tag/1.25.4
 
 ---
 

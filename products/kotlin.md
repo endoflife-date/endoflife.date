@@ -9,7 +9,7 @@ alternate_urls:
   - /kotlinlang
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
-latestLinkTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 identifiers:
   - repology: kotlin
@@ -18,72 +18,72 @@ auto:
   methods:
     - github_releases: JetBrains/kotlin
 
-# EOL(N) = MAX(latestDate(N), releaseDate(N+1))
+# EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
   - releaseCycle: "2.3"
     releaseDate: 2025-12-16
     eol: false
     latest: "2.3.21"
-    latestDate: 2026-04-23
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.2"
     releaseDate: 2025-06-23
     eol: 2025-12-16 # releaseDate(2.3)
     latest: "2.2.21"
-    latestDate: 2025-10-23
+    latestReleaseDate: 2025-10-23
 
   - releaseCycle: "2.1"
     releaseDate: 2024-11-27
     eol: 2025-06-23
     latest: "2.1.21"
-    latestDate: 2025-05-13
+    latestReleaseDate: 2025-05-13
 
   - releaseCycle: "2.0"
     releaseDate: 2024-05-21
     eol: 2024-11-27
     latest: "2.0.21"
-    latestDate: 2024-10-10
+    latestReleaseDate: 2024-10-10
 
   - releaseCycle: "1.9"
     releaseDate: 2023-07-06
     eol: 2024-05-21
     latest: "1.9.25"
-    latestDate: 2024-07-19
+    latestReleaseDate: 2024-07-19
 
   - releaseCycle: "1.8"
     eol: 2023-07-06
     latest: "1.8.22"
-    latestDate: 2023-06-08
+    latestReleaseDate: 2023-06-08
     releaseDate: 2022-12-28
 
   - releaseCycle: "1.7"
     eol: 2022-12-28
     latest: "1.7.22"
-    latestDate: 2022-11-28
+    latestReleaseDate: 2022-11-28
     releaseDate: 2022-06-09
 
   - releaseCycle: "1.6"
     eol: 2022-06-09
     latest: "1.6.21"
-    latestDate: 2022-04-20
+    latestReleaseDate: 2022-04-20
     releaseDate: 2021-11-15
 
   - releaseCycle: "1.5"
     eol: 2021-11-29
     latest: "1.5.32"
-    latestDate: 2021-11-29
+    latestReleaseDate: 2021-11-29
     releaseDate: 2021-04-26
 
   - releaseCycle: "1.4"
     eol: 2021-04-26
     latest: "1.4.32"
-    latestDate: 2021-03-30
+    latestReleaseDate: 2021-03-30
     releaseDate: 2020-08-14
 
   - releaseCycle: "1.3"
     eol: 2020-08-14
     latest: "1.3.72"
-    latestDate: 2020-04-15
+    latestReleaseDate: 2020-04-15
     releaseDate: 2018-10-29
 
 ---

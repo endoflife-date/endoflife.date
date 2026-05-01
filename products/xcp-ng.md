@@ -26,47 +26,47 @@ releases:
     releaseDate: 2024-10-07
     eol: 2028-11-30
     latest: "8.3.0"
-    latestDate: 2024-08-23
-    latestLink: https://docs.xcp-ng.org/releases/release-8-3/
+    latestReleaseDate: 2024-08-23
+    link: https://docs.xcp-ng.org/releases/release-8-3/
 
   - releaseCycle: "8.2"
     releaseDate: 2020-11-13
     eol: 2025-06-25
     lts: true
     latest: "8.2.1"
-    latestDate: 2022-01-03
-    latestLink: https://docs.xcp-ng.org/releases/release-8-2/
+    latestReleaseDate: 2022-01-03
+    link: https://docs.xcp-ng.org/releases/release-8-2/
 
   - releaseCycle: "8.1"
     releaseDate: 2020-03-31
     eol: 2021-03-31
     latest: "8.1.0"
-    latestDate: 2020-03-25
-    latestLink: https://docs.xcp-ng.org/releases/release-8-1/
+    latestReleaseDate: 2020-03-25
+    link: https://docs.xcp-ng.org/releases/release-8-1/
 
   - releaseCycle: "8.0"
     releaseDate: 2019-07-25
     eol: 2020-11-13
     latest: "8.0.0"
-    latestDate: 2019-07-18
+    latestReleaseDate: 2019-07-18
 
   - releaseCycle: "7.6"
     releaseDate: 2018-10-31
     eol: 2020-03-30
     latest: "7.6.0"
-    latestDate: 2018-10-10
+    latestReleaseDate: 2018-10-10
 
   - releaseCycle: "7.5"
     releaseDate: 2018-08-10
     eol: 2019-07-25
     latest: "7.5.0"
-    latestDate: 2018-08-09
+    latestReleaseDate: 2018-08-09
 
   - releaseCycle: "7.4"
     releaseDate: 2018-03-31
     eol: 2018-10-31
     latest: "7.4.0"
-    latestDate: 2018-03-31
+    latestReleaseDate: 2018-03-31
 
 ---
 

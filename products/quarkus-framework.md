@@ -9,7 +9,7 @@ alternate_urls:
   - /quarkus
 releasePolicyLink: https://quarkus.io/security/
 # See https://github.com/endoflife-date/endoflife.date/issues/3462
-latestLinkTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
+changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 eolColumn: Support
 eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
@@ -38,48 +38,48 @@ releases:
     releaseDate: 2026-03-25
     eol: 2026-04-30
     latest: "3.34.6"
-    latestDate: 2026-04-22
-    latestLink: https://quarkus.io/blog/quarkus-3-34-released/
+    latestReleaseDate: 2026-04-22
+    link: https://quarkus.io/blog/quarkus-3-34-released/
 
   - releaseCycle: "3.33"
     lts: true
     releaseDate: 2026-03-25
     eol: 2027-03-25
     latest: "3.33.1"
-    latestDate: 2026-03-25
-    latestLink: https://quarkus.io/blog/quarkus-3-33-released/
+    latestReleaseDate: 2026-03-25
+    link: https://quarkus.io/blog/quarkus-3-33-released/
 
   - releaseCycle: "3.32"
     releaseDate: 2026-02-26
     eol: 2026-03-25
     latest: "3.32.4"
-    latestDate: 2026-03-18
-    latestLink: https://quarkus.io/blog/quarkus-3-32-2-released/
+    latestReleaseDate: 2026-03-18
+    link: https://quarkus.io/blog/quarkus-3-32-2-released/
 
   - releaseCycle: "3.31"
     releaseDate: 2026-01-28
     eol: 2026-02-26
     latest: "3.31.4"
-    latestDate: 2026-02-18
-    latestLink: https://quarkus.io/blog/quarkus-3-31-released/
+    latestReleaseDate: 2026-02-18
+    link: https://quarkus.io/blog/quarkus-3-31-released/
 
   - releaseCycle: "3.30"
     releaseDate: 2025-11-26
     eol: 2026-01-28
     latest: "3.30.8"
-    latestDate: 2026-01-23
+    latestReleaseDate: 2026-01-23
 
   - releaseCycle: "3.29"
     releaseDate: 2025-10-29
     eol: 2025-11-26
     latest: "3.29.4"
-    latestDate: 2025-11-19
+    latestReleaseDate: 2025-11-19
 
   - releaseCycle: "3.28"
     releaseDate: 2025-09-24
     eol: 2025-10-29
     latest: "3.28.5"
-    latestDate: 2025-10-22
+    latestReleaseDate: 2025-10-22
 
   - releaseCycle: "3.27"
     lts: true
@@ -87,43 +87,43 @@ releases:
     eol: 2026-09-24
     eoes: false
     latest: "3.27.3"
-    latestDate: 2026-03-25
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "3.26"
     releaseDate: 2025-08-28
     eol: 2025-09-24
     latest: "3.26.4"
-    latestDate: 2025-09-17
+    latestReleaseDate: 2025-09-17
 
   - releaseCycle: "3.25"
     releaseDate: 2025-07-30
     eol: 2025-08-28
     latest: "3.25.4"
-    latestDate: 2025-08-20
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "3.24"
     releaseDate: 2025-06-25
     eol: 2025-07-30
     latest: "3.24.5"
-    latestDate: 2025-07-23
+    latestReleaseDate: 2025-07-23
 
   - releaseCycle: "3.23"
     releaseDate: 2025-05-28
     eol: 2025-06-25
     latest: "3.23.4"
-    latestDate: 2025-06-19
+    latestReleaseDate: 2025-06-19
 
   - releaseCycle: "3.22"
     releaseDate: 2025-04-30
     eol: 2025-05-28
     latest: "3.22.3"
-    latestDate: 2025-05-15
+    latestReleaseDate: 2025-05-15
 
   - releaseCycle: "3.21"
     releaseDate: 2025-03-26
     eol: 2025-04-30
     latest: "3.21.4"
-    latestDate: 2025-04-24
+    latestReleaseDate: 2025-04-24
 
   - releaseCycle: "3.20"
     lts: true
@@ -131,31 +131,31 @@ releases:
     eol: 2026-03-28
     eoes: 2026-03-29
     latest: "3.20.6"
-    latestDate: 2026-03-25
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "3.19"
     releaseDate: 2025-02-26
     eol: 2025-03-28
     latest: "3.19.4"
-    latestDate: 2025-03-19
+    latestReleaseDate: 2025-03-19
 
   - releaseCycle: "3.18"
     releaseDate: 2025-01-29
     eol: 2025-02-26
     latest: "3.18.4"
-    latestDate: 2025-02-19
+    latestReleaseDate: 2025-02-19
 
   - releaseCycle: "3.17"
     releaseDate: 2024-11-27
     eol: 2025-01-29
     latest: "3.17.8"
-    latestDate: 2025-01-22
+    latestReleaseDate: 2025-01-22
 
   - releaseCycle: "3.16"
     releaseDate: 2024-10-30
     eol: 2024-11-27
     latest: "3.16.4"
-    latestDate: 2024-11-20
+    latestReleaseDate: 2024-11-20
 
   - releaseCycle: "3.15"
     lts: true
@@ -163,43 +163,43 @@ releases:
     eol: 2025-09-25
     eoes: 2025-09-26
     latest: "3.15.7"
-    latestDate: 2025-09-24
+    latestReleaseDate: 2025-09-24
 
   - releaseCycle: "3.14"
     releaseDate: 2024-08-28
     eol: 2024-09-25
     latest: "3.14.4"
-    latestDate: 2024-09-14
+    latestReleaseDate: 2024-09-14
 
   - releaseCycle: "3.13"
     releaseDate: 2024-07-31
     eol: 2024-08-28
     latest: "3.13.3"
-    latestDate: 2024-08-20
+    latestReleaseDate: 2024-08-20
 
   - releaseCycle: "3.12"
     releaseDate: 2024-06-26
     eol: 2024-07-31
     latest: "3.12.3"
-    latestDate: 2024-07-17
+    latestReleaseDate: 2024-07-17
 
   - releaseCycle: "3.11"
     releaseDate: 2024-05-29
     eol: 2024-06-26
     latest: "3.11.3"
-    latestDate: 2024-06-19
+    latestReleaseDate: 2024-06-19
 
   - releaseCycle: "3.10"
     releaseDate: 2024-04-30
     eol: 2024-05-29
     latest: "3.10.2"
-    latestDate: 2024-05-22
+    latestReleaseDate: 2024-05-22
 
   - releaseCycle: "3.9"
     releaseDate: 2024-03-27
     eol: 2024-04-30
     latest: "3.9.5"
-    latestDate: 2024-04-27
+    latestReleaseDate: 2024-04-27
 
   - releaseCycle: "3.8"
     lts: true
@@ -207,37 +207,37 @@ releases:
     eol: 2025-02-28
     eoes: 2025-03-25
     latest: "3.8.6.1"
-    latestDate: 2025-02-27
+    latestReleaseDate: 2025-02-27
 
   - releaseCycle: "3.7"
     releaseDate: 2024-01-31
     eol: 2024-02-28 # releaseDate(3.8)
     latest: "3.7.4"
-    latestDate: 2024-02-21
+    latestReleaseDate: 2024-02-21
 
   - releaseCycle: "3.6"
     releaseDate: 2023-11-29
     eol: 2024-01-31
     latest: "3.6.9"
-    latestDate: 2024-01-31
+    latestReleaseDate: 2024-01-31
 
   - releaseCycle: "3.5"
     releaseDate: 2023-10-25
     eol: 2023-11-29
     latest: "3.5.3"
-    latestDate: 2023-11-21
+    latestReleaseDate: 2023-11-21
 
   - releaseCycle: "3.4"
     releaseDate: 2023-09-20
     eol: 2023-10-25
     latest: "3.4.3"
-    latestDate: 2023-10-13
+    latestReleaseDate: 2023-10-13
 
   - releaseCycle: "3.3"
     releaseDate: 2023-08-23
     eol: 2023-09-20
     latest: "3.3.3"
-    latestDate: 2023-09-14
+    latestReleaseDate: 2023-09-14
 
   - releaseCycle: "3.2"
     lts: true
@@ -245,159 +245,159 @@ releases:
     eol: 2024-07-05
     eoes: 2024-08-28
     latest: "3.2.12"
-    latestDate: 2024-04-16
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2024-04-16
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "3.1"
     releaseDate: 2023-05-31
     eol: 2023-07-05
     latest: "3.1.3"
-    latestDate: 2023-06-29
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-06-29
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "3.0"
     releaseDate: 2023-04-26
     eol: 2023-05-31
     latest: "3.0.4"
-    latestDate: 2023-05-25
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-05-25
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.16"
     releaseDate: 2023-01-25
     eol: 2023-10-31
     latest: "2.16.12"
-    latestDate: 2023-10-17
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-10-17
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.15"
     releaseDate: 2022-12-14
     eol: 2023-01-25
     latest: "2.15.3"
-    latestDate: 2023-01-10
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-01-10
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.14"
     releaseDate: 2022-11-09
     eol: 2022-12-14
     latest: "2.14.3"
-    latestDate: 2022-12-06
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-12-06
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.13"
     releaseDate: 2022-09-28
     eol: 2022-11-07
     eoes: 2024-04-30
     latest: "2.13.9"
-    latestDate: 2023-11-22
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-11-22
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.12"
     releaseDate: 2022-08-31
     eol: 2022-09-21
     latest: "2.12.3"
-    latestDate: 2022-09-20
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-09-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.11"
     releaseDate: 2022-07-27
     eol: 2022-08-24
     latest: "2.11.3"
-    latestDate: 2022-08-24
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-08-24
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.10"
     releaseDate: 2022-06-22
     eol: 2022-07-26
     latest: "2.10.4"
-    latestDate: 2022-07-27
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-07-27
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.9"
     releaseDate: 2022-05-11
     eol: 2022-06-15
     latest: "2.9.2"
-    latestDate: 2022-05-25
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-05-25
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.8"
     releaseDate: 2022-04-12
     eol: 2022-05-06
     latest: "2.8.3"
-    latestDate: 2022-05-06
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-05-06
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.7"
     releaseDate: 2022-02-02
     eol: 2022-05-30
     eoes: 2023-06-14
     latest: "2.7.7"
-    latestDate: 2023-01-26
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2023-01-26
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.6"
     releaseDate: 2021-12-22
     eol: 2022-01-26
     latest: "2.6.3"
-    latestDate: 2022-01-20
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2022-01-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.5"
     releaseDate: 2021-11-24
     eol: 2021-12-17
     latest: "2.5.4"
-    latestDate: 2021-12-20
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-12-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.4"
     releaseDate: 2021-10-27
     eol: 2021-11-17
     latest: "2.4.2"
-    latestDate: 2021-11-12
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-11-12
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.3"
     releaseDate: 2021-10-06
     eol: 2021-10-20
     latest: "2.3.1"
-    latestDate: 2021-10-20
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-10-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.2"
     releaseDate: 2021-08-31
     eol: 2021-12-21
     eoes: 2022-07-18
     latest: "2.2.5"
-    latestDate: 2021-12-21
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-12-21
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.1"
     releaseDate: 2021-07-29
     eol: 2021-08-26
     latest: "2.1.4"
-    latestDate: 2021-08-26
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-08-26
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "2.0"
     releaseDate: 2021-06-30
     eol: 2021-07-22
     latest: "2.0.3"
-    latestDate: 2021-07-22
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-07-22
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "1"
     releaseDate: 2019-11-25
     eol: 2021-06-23
     eoes: 2021-11-20
     latest: "1.13.7"
-    latestDate: 2021-06-09
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
+    latestReleaseDate: 2021-06-09
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
   - releaseCycle: "0"
     releaseDate: 2018-12-12
     eol: 2019-11-25
     latest: "0.28.1"
-    latestDate: 2019-11-04
-    latestLink: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
+    latestReleaseDate: 2019-11-04
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 
 ---
 

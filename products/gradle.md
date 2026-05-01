@@ -7,7 +7,7 @@ iconSlug: gradle
 permalink: /gradle
 versionCommand: gradle --version
 releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support
-latestLinkTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
 eoasColumn: true
 eolColumn: Critical Bug and Security Fixes
 
@@ -16,27 +16,27 @@ customFields:
     display: api-only
     label: Java (running)
     description: Java support for running Gradle
-    latestLink: https://docs.gradle.org/current/userguide/compatibility.html
+    link: https://docs.gradle.org/current/userguide/compatibility.html
   - name: testedJavaVersions
     display: api-only
     label: Java
     description: Java support for compiling/testing/…
-    latestLink: https://docs.gradle.org/current/userguide/compatibility.html
+    link: https://docs.gradle.org/current/userguide/compatibility.html
   - name: testedKotlinVersions
     display: api-only
     label: Kotlin
     description: Kotlin support for compiling/testing/…
-    latestLink: https://docs.gradle.org/current/userguide/compatibility.html
+    link: https://docs.gradle.org/current/userguide/compatibility.html
   - name: testedGroovyVersions
     display: api-only
     label: Groovy
     description: Groovy support for compiling/testing/…
-    latestLink: https://docs.gradle.org/current/userguide/compatibility.html
+    link: https://docs.gradle.org/current/userguide/compatibility.html
   - name: testedAndroidVersions
     display: api-only
     label: Android
     description: Android support for compiling/testing/…
-    latestLink: https://docs.gradle.org/current/userguide/compatibility.html
+    link: https://docs.gradle.org/current/userguide/compatibility.html
 
 identifiers:
   - repology: gradle
@@ -63,7 +63,7 @@ releases:
     eoas: false
     eol: false
     latest: "9.5.0"
-    latestDate: 2026-04-27
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "8"
     releaseDate: 2023-02-10
@@ -76,7 +76,7 @@ releases:
     eoas: 2025-07-31
     eol: false
     latest: "8.14.4"
-    latestDate: 2026-01-23
+    latestReleaseDate: 2026-01-23
 
   - releaseCycle: "7"
     releaseDate: 2021-04-09
@@ -89,7 +89,7 @@ releases:
     eoas: 2023-02-10
     eol: 2025-07-31
     latest: "7.6.6"
-    latestDate: 2025-07-03
+    latestReleaseDate: 2025-07-03
 
   - releaseCycle: "6"
     releaseDate: 2019-11-08
@@ -102,7 +102,7 @@ releases:
     eoas: 2021-04-09
     eol: 2023-02-10
     latest: "6.9.4"
-    latestDate: 2023-02-21
+    latestReleaseDate: 2023-02-21
 
   - releaseCycle: "5"
     releaseDate: 2018-11-23
@@ -114,7 +114,7 @@ releases:
     eoas: 2019-11-08
     eol: 2019-11-08
     latest: "5.6.4"
-    latestDate: 2019-10-31
+    latestReleaseDate: 2019-10-31
 
   - releaseCycle: "4"
     releaseDate: 2017-06-14
@@ -126,7 +126,7 @@ releases:
     eoas: 2018-11-26
     eol: 2018-11-26
     latest: "4.10.3"
-    latestDate: 2018-12-04
+    latestReleaseDate: 2018-12-04
 
   - releaseCycle: "3"
     releaseDate: 2016-08-15
@@ -138,7 +138,7 @@ releases:
     eoas: 2017-06-14
     eol: 2017-06-14
     latest: "3.5.1"
-    latestDate: 2017-06-16
+    latestReleaseDate: 2017-06-16
 
   - releaseCycle: "2"
     releaseDate: 2014-07-01
@@ -150,7 +150,7 @@ releases:
     eoas: 2016-08-15
     eol: 2016-08-15
     latest: "2.14.1"
-    latestDate: 2016-07-18
+    latestReleaseDate: 2016-07-18
 
   - releaseCycle: "1"
     releaseDate: 2012-06-12
@@ -162,7 +162,7 @@ releases:
     eoas: 2014-07-01
     eol: 2014-07-01
     latest: "1.12.0"
-    latestDate: 2014-04-29
+    latestReleaseDate: 2014-04-29
 
 ---
 

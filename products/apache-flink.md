@@ -7,7 +7,7 @@ iconSlug: apacheflink
 permalink: /apache-flink
 alternate_urls:
   - /flink
-latestLinkTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
+changelogTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
 
 customFields:
   - name: recommendedJavaVersion
@@ -36,21 +36,21 @@ releases:
     releaseDate: 2025-12-04
     eol: false
     latest: "2.2.0"
-    latestDate: 2025-12-03
+    latestReleaseDate: 2025-12-03
 
   - releaseCycle: "2.1"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.1/docs/deployment/java_compatibility/
     releaseDate: 2025-07-29
     eol: false
     latest: "2.1.1"
-    latestDate: 2025-10-30
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "2.0"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.0/docs/deployment/java_compatibility/
     releaseDate: 2025-03-19
     eol: false
     latest: "2.0.1"
-    latestDate: 2025-10-30
+    latestReleaseDate: 2025-10-30
 
   - releaseCycle: "1.20"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/deployment/java_compatibility/
@@ -58,28 +58,28 @@ releases:
     releaseDate: 2024-08-01
     eol: false
     latest: "1.20.3"
-    latestDate: 2025-09-25
+    latestReleaseDate: 2025-09-25
 
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/
     releaseDate: 2024-03-15
     eol: false
     latest: "1.19.3"
-    latestDate: 2025-07-07
+    latestReleaseDate: 2025-07-07
 
   - releaseCycle: "1.18"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.18/docs/deployment/java_compatibility/
     releaseDate: 2023-10-24
     eol: 2025-03-24
     latest: "1.18.1"
-    latestDate: 2024-01-16
+    latestReleaseDate: 2024-01-16
 
   - releaseCycle: "1.17"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.18/docs/deployment/java_compatibility/
     releaseDate: 2023-03-23
     eol: 2024-08-01
     latest: "1.17.2"
-    latestDate: 2023-11-27
+    latestReleaseDate: 2023-11-27
 
 ---
 

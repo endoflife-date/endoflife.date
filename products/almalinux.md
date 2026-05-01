@@ -10,7 +10,7 @@ alternate_urls:
   - /alma
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.almalinux.org/release-notes/
-latestLinkTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
+changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 eoasColumn: true
 
 identifiers:
@@ -29,8 +29,8 @@ releases:
     eoas: 2030-05-31
     eol: 2035-05-31
     latest: "10.1"
-    latestDate: 2025-11-24
-    latestLink: https://almalinux.org/blog/2025-11-24-almalinux_101_release/
+    latestReleaseDate: 2025-11-24
+    link: https://almalinux.org/blog/2025-11-24-almalinux_101_release/
 
   - releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
@@ -38,8 +38,8 @@ releases:
     eoas: 2027-05-31
     eol: 2032-05-31
     latest: "9.7"
-    latestDate: 2025-11-17
-    latestLink: https://almalinux.org/blog/2025-11-17-almalinux_97_release/
+    latestReleaseDate: 2025-11-17
+    link: https://almalinux.org/blog/2025-11-17-almalinux_97_release/
 
   - releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
@@ -47,8 +47,8 @@ releases:
     eoas: 2024-05-01
     eol: 2029-03-01
     latest: "8.10"
-    latestDate: 2024-05-28
-    latestLink: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
+    latestReleaseDate: 2024-05-28
+    link: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open source, community-owned and governed, forever-free enterprise Linux distribution.

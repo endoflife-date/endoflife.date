@@ -8,7 +8,7 @@ alternate_urls:
   - /angular-js
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
-latestLinkTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
 eolColumn: Support
 eoesColumn: Extended Long Term Support
 
@@ -36,13 +36,13 @@ releases:
     eoes: false
     eoesProvider: HeroDevs, OpenLogic
     latest: "1.8.3"
-    latestDate: 2022-04-07
+    latestReleaseDate: 2022-04-07
 
   - releaseCycle: "1.7"
     releaseDate: 2018-05-11
     eol: 2021-12-31
     latest: "1.7.9"
-    latestDate: 2019-11-19
+    latestReleaseDate: 2019-11-19
 
   - releaseCycle: "1.6"
     releaseDate: 2016-12-08
@@ -50,7 +50,7 @@ releases:
     eoes: false
     eoesProvider: OpenLogic
     latest: "1.6.10"
-    latestDate: 2018-04-17
+    latestReleaseDate: 2018-04-17
 
   - releaseCycle: "1.5"
     releaseDate: 2016-02-05
@@ -58,37 +58,37 @@ releases:
     eoes: false
     eoesProvider: HeroDevs
     latest: "1.5.11"
-    latestDate: 2017-01-12
+    latestReleaseDate: 2017-01-12
 
   - releaseCycle: "1.4"
     releaseDate: 2015-05-27
     eol: 2021-12-31
     latest: "1.4.14"
-    latestDate: 2016-10-11
+    latestReleaseDate: 2016-10-11
 
   - releaseCycle: "1.3"
     releaseDate: 2014-10-13
     eol: 2021-12-31
     latest: "1.3.20"
-    latestDate: 2015-09-29
+    latestReleaseDate: 2015-09-29
 
   - releaseCycle: "1.2"
     releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.2.32"
-    latestDate: 2016-10-11
+    latestReleaseDate: 2016-10-11
 
   - releaseCycle: "1.1"
     releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.1.5"
-    latestDate: 2013-11-23
+    latestReleaseDate: 2013-11-23
 
   - releaseCycle: "1.0"
     releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.0.8"
-    latestDate: 2013-11-23
+    latestReleaseDate: 2013-11-23
 ---
 
 > AngularJS is a free and open-source JavaScript-based web framework for developing single-page

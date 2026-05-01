@@ -8,7 +8,7 @@ alternate_urls:
   - /grails-framework
   - /apache-grails
 releasePolicyLink: https://grails.apache.org/support.html
-latestLinkTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
@@ -29,49 +29,49 @@ releases:
     eoas: false
     eol: false
     latest: "7.1.1"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "6"
     releaseDate: 2023-07-24
     eoas: 2025-01-03
     eol: 2025-10-19
     latest: "6.2.3"
-    latestDate: 2025-01-03
+    latestReleaseDate: 2025-01-03
 
   - releaseCycle: "5"
     releaseDate: 2021-10-12
     eoas: 2023-07-24
     eol: 2025-01-09 # more than 1 year without update, and not listed on https://grails.apache.org/download.html anymore
     latest: "5.3.6"
-    latestDate: 2024-01-09
+    latestReleaseDate: 2024-01-09
 
   - releaseCycle: "4"
     releaseDate: 2019-07-11
     eoas: true
     eol: 2023-03-31
     latest: "4.1.4"
-    latestDate: 2024-03-08
+    latestReleaseDate: 2024-03-08
 
   - releaseCycle: "3"
     releaseDate: 2015-03-31
     eoas: true
     eol: 2021-09-30
     latest: "3.3.18"
-    latestDate: 2024-01-09
+    latestReleaseDate: 2024-01-09
 
   - releaseCycle: "2"
     releaseDate: 2011-12-15
     eoas: true
     eol: 2021-06-30
     latest: "2.6.1"
-    latestDate: 2022-06-07
+    latestReleaseDate: 2022-06-07
 
   - releaseCycle: "1"
     releaseDate: 2009-05-14
     eoas: true
     eol: 2012-05-01
     latest: "1.3.9"
-    latestDate: 2015-01-16
+    latestReleaseDate: 2015-01-16
 
 ---
 

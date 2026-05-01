@@ -8,7 +8,7 @@ alternate_urls:
   - /apache_zookeeper
   - /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
-latestLinkTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
+changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
 eoasColumn: true
 
 identifiers:
@@ -32,42 +32,42 @@ releases:
     eol: false
     eoas: false
     latest: "3.9.5"
-    latestDate: 2026-02-11
+    latestReleaseDate: 2026-02-11
 
   - releaseCycle: "3.8"
     releaseDate: 2022-02-25
     eol: false
     eoas: false
     latest: "3.8.6"
-    latestDate: 2026-01-28
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "3.7"
     releaseDate: 2021-03-17
     eol: 2024-01-19
     eoas: 2023-07-19
     latest: "3.7.2"
-    latestDate: 2023-10-06
+    latestReleaseDate: 2023-10-06
 
   - releaseCycle: "3.6"
     releaseDate: 2020-02-25
     eol: 2022-12-30
     eoas: 2022-03-07
     latest: "3.6.4"
-    latestDate: 2022-12-18
+    latestReleaseDate: 2022-12-18
 
   - releaseCycle: "3.5"
     releaseDate: 2019-05-03
     eol: 2022-06-01
     eoas: 2021-03-27
     latest: "3.5.10"
-    latestDate: 2022-05-29
+    latestReleaseDate: 2022-05-29
 
   - releaseCycle: "3.4"
     releaseDate: 2011-11-23
     eol: 2020-06-01
     eoas: 2020-03-27
     latest: "3.4.14"
-    latestDate: 2019-03-06
+    latestReleaseDate: 2019-03-06
 
 ---
 

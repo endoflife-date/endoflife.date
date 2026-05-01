@@ -8,7 +8,7 @@ permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
 releasePolicyLink: https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html
-latestLinkTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 eolColumn: Supported
 
 customFields:
@@ -16,22 +16,22 @@ customFields:
     display: api-only
     label: ansible-core
     description: ansible-core version
-    latestLink: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: pythonVersionsControlNode
     display: api-only
     label: Control node Python
     description: Control node Python support
-    latestLink: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: pythonVersionsManagedNode
     display: api-only
     label: Managed node Python
     description: Managed node Python support
-    latestLink: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: powershellVersionsManagedNode
     display: api-only
     label: Managed node PowerShell
     description: Managed node PowerShell support
-    latestLink: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 
 identifiers:
   - purl: pkg:pypi/ansible
@@ -56,7 +56,7 @@ releases:
     releaseDate: 2025-11-19
     eol: false
     latest: "13.6.0"
-    latestDate: 2026-04-21
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "12"
     ansibleCoreVersion: "2.19"
@@ -66,7 +66,7 @@ releases:
     releaseDate: 2025-09-09
     eol: 2025-12-09
     latest: "12.3.0"
-    latestDate: 2025-12-09
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "11"
     ansibleCoreVersion: "2.18"
@@ -76,7 +76,7 @@ releases:
     releaseDate: 2024-11-19
     eol: 2025-12-09
     latest: "11.13.0"
-    latestDate: 2025-12-09
+    latestReleaseDate: 2025-12-09
 
   - releaseCycle: "10"
     ansibleCoreVersion: "2.17"
@@ -86,7 +86,7 @@ releases:
     releaseDate: 2024-06-04
     eol: 2024-12-03 # EOL after 10.7
     latest: "10.7.0"
-    latestDate: 2024-12-03
+    latestReleaseDate: 2024-12-03
 
   - releaseCycle: "9"
     ansibleCoreVersion: "2.16"
@@ -96,7 +96,7 @@ releases:
     releaseDate: 2023-11-21
     eol: 2024-12-03 # EOL after 9.13
     latest: "9.13.0"
-    latestDate: 2024-12-03
+    latestReleaseDate: 2024-12-03
 
   - releaseCycle: "8"
     ansibleCoreVersion: "2.15"
@@ -106,7 +106,7 @@ releases:
     releaseDate: 2023-05-30
     eol: 2023-12-06
     latest: "8.7.0"
-    latestDate: 2023-12-06
+    latestReleaseDate: 2023-12-06
 
   - releaseCycle: "7"
     ansibleCoreVersion: "2.14"
@@ -116,7 +116,7 @@ releases:
     releaseDate: 2022-11-22
     eol: 2023-06-22
     latest: "7.7.0"
-    latestDate: 2023-06-22
+    latestReleaseDate: 2023-06-22
 
   - releaseCycle: "6"
     ansibleCoreVersion: "2.13"
@@ -126,7 +126,7 @@ releases:
     releaseDate: 2022-06-21
     eol: 2022-12-06
     latest: "6.7.0"
-    latestDate: 2022-12-06
+    latestReleaseDate: 2022-12-06
 
   - releaseCycle: "5"
     ansibleCoreVersion: "2.12"
@@ -136,7 +136,7 @@ releases:
     releaseDate: 2021-12-02
     eol: 2022-06-08
     latest: "5.10.0"
-    latestDate: 2022-06-28
+    latestReleaseDate: 2022-06-28
 
   - releaseCycle: "4"
     ansibleCoreVersion: "2.11"
@@ -146,7 +146,7 @@ releases:
     releaseDate: 2021-05-18
     eol: 2021-12-14
     latest: "4.10.0"
-    latestDate: 2021-12-14
+    latestReleaseDate: 2021-12-14
 
   - releaseCycle: "3"
     ansibleCoreVersion: "2.10"
@@ -156,7 +156,7 @@ releases:
     releaseDate: 2021-02-18
     eol: 2021-05-11
     latest: "3.4.0"
-    latestDate: 2021-05-11
+    latestReleaseDate: 2021-05-11
 
   - releaseCycle: "2.10"
     ansibleCoreVersion: "2.10"
@@ -166,7 +166,7 @@ releases:
     releaseDate: 2020-09-22
     eol: 2021-02-09
     latest: "2.10.7"
-    latestDate: 2021-02-09
+    latestReleaseDate: 2021-02-09
 
   - releaseCycle: "2.9"
     ansibleCoreVersion: "2.9"
@@ -176,8 +176,8 @@ releases:
     releaseDate: 2019-10-31
     eol: 2022-05-23
     latest: "2.9.27"
-    latestDate: 2021-10-11
-    latestLink: https://github.com/ansible/ansible/blob/stable-2.9/changelogs/CHANGELOG-v2.9.rst
+    latestReleaseDate: 2021-10-11
+    link: https://github.com/ansible/ansible/blob/stable-2.9/changelogs/CHANGELOG-v2.9.rst
 
 ---
 

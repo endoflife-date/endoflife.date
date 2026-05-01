@@ -6,7 +6,7 @@ tags: linux-distribution
 iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
-latestLinkTemplate: https://tails.net/news/version___LATEST__/
+changelogTemplate: https://tails.net/news/version___LATEST__/
 
 identifiers:
   - cpe: cpe:2.3:o:tails_project:tails
@@ -24,43 +24,43 @@ releases:
     releaseDate: 2025-09-18
     eol: false
     latest: "7.7.1"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "6"
     releaseDate: 2024-02-27
     eol: 2025-09-18
     latest: "6.19"
-    latestDate: 2025-08-20
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "5"
     releaseDate: 2022-05-03
     eol: 2024-02-27
     latest: "5.22"
-    latestDate: 2024-01-29
+    latestReleaseDate: 2024-01-29
 
   - releaseCycle: "4"
     releaseDate: 2019-10-22
     eol: 2022-05-02
     latest: "4.29"
-    latestDate: 2022-04-04
+    latestReleaseDate: 2022-04-04
 
   - releaseCycle: "3"
     releaseDate: 2017-06-13
     eol: 2019-10-21
     latest: "3.16"
-    latestDate: 2019-09-03
+    latestReleaseDate: 2019-09-03
 
   - releaseCycle: "2"
     releaseDate: 2016-01-27
     eol: 2017-07-10
     latest: "2.12"
-    latestDate: 2017-04-18
+    latestReleaseDate: 2017-04-18
 
   - releaseCycle: "1"
     releaseDate: 2014-04-29
     eol: 2016-01-25
     latest: "1.8.2"
-    latestDate: 2016-01-09
+    latestReleaseDate: 2016-01-09
 
 ---
 

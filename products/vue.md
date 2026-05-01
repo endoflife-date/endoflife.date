@@ -11,7 +11,7 @@ versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
 eoasColumn: true
 eoesColumn: Commercial Support
-latestLinkTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -29,21 +29,21 @@ releases:
     eoas: false
     eol: false
     latest: "3.5.33"
-    latestDate: 2026-04-22
+    latestReleaseDate: 2026-04-22
 
   - releaseCycle: "3.4"
     releaseDate: 2023-12-29
     eoas: 2024-09-03
     eol: 2024-09-03
     latest: "3.4.38"
-    latestDate: 2024-08-15
+    latestReleaseDate: 2024-08-15
 
   - releaseCycle: "3.3"
     releaseDate: 2023-05-11
     eoas: 2023-12-29
     eol: 2023-12-29
     latest: "3.3.13"
-    latestDate: 2023-12-19
+    latestReleaseDate: 2023-12-19
 
   - releaseCycle: "2.7"
     releaseDate: 2022-07-01 # this is correct, see https://blog.vuejs.org/posts/vue-2-7-naruto
@@ -51,29 +51,29 @@ releases:
     eol: 2023-12-31
     eoes: false
     latest: "2.7.16"
-    latestDate: 2023-12-24
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2023-12-24
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "3.2"
     releaseDate: 2021-08-09
     eoas: 2023-05-11
     eol: 2023-05-11
     latest: "3.2.47"
-    latestDate: 2023-02-02
+    latestReleaseDate: 2023-02-02
 
   - releaseCycle: "3.1"
     releaseDate: 2021-06-07
     eoas: 2021-08-09
     eol: 2021-08-09
     latest: "3.1.5"
-    latestDate: 2021-07-16
+    latestReleaseDate: 2021-07-16
 
   - releaseCycle: "3.0"
     releaseDate: 2020-09-18
     eoas: 2021-06-07
     eol: 2021-06-07
     latest: "3.0.11"
-    latestDate: 2021-04-01
+    latestReleaseDate: 2021-04-01
 
   - releaseCycle: "2.6"
     releaseDate: 2019-02-04
@@ -81,8 +81,8 @@ releases:
     eol: 2022-07-01
     eoes: false
     latest: "2.6.14"
-    latestDate: 2021-06-07
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2021-06-07
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.5"
     releaseDate: 2017-10-13
@@ -90,8 +90,8 @@ releases:
     eol: 2019-02-04
     eoes: true
     latest: "2.5.22"
-    latestDate: 2019-01-11
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2019-01-11
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.4"
     releaseDate: 2017-07-13
@@ -99,8 +99,8 @@ releases:
     eol: 2017-10-13
     eoes: true
     latest: "2.4.4"
-    latestDate: 2017-09-14
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2017-09-14
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.3"
     releaseDate: 2017-04-27
@@ -108,8 +108,8 @@ releases:
     eol: 2017-07-13
     eoes: true
     latest: "2.3.4"
-    latestDate: 2017-06-08
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2017-06-08
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.2"
     releaseDate: 2017-02-26
@@ -117,8 +117,8 @@ releases:
     eol: 2017-04-27
     eoes: true
     latest: "2.2.6"
-    latestDate: 2017-03-27
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2017-03-27
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.1"
     releaseDate: 2016-11-22
@@ -126,8 +126,8 @@ releases:
     eol: 2017-02-26
     eoes: true
     latest: "2.1.10"
-    latestDate: 2017-01-17
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2017-01-17
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "2.0"
     releaseDate: 2016-09-30
@@ -135,16 +135,16 @@ releases:
     eol: 2016-11-22
     eoes: true
     latest: "2.0.8"
-    latestDate: 2016-11-20
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2016-11-20
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
   - releaseCycle: "1"
     releaseDate: 2015-10-27
     eoas: true
     eol: true
     latest: "1.0.28"
-    latestDate: 2016-09-27
-    latestLink: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+    latestReleaseDate: 2016-09-27
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
 
 

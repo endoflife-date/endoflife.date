@@ -9,7 +9,7 @@ alternate_urls:
   - /next-js
   - /nextdotjs
 versionCommand: npx next --version
-latestLinkTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 
 identifiers:
   - purl: pkg:npm/next
@@ -19,58 +19,58 @@ auto:
   methods:
     - npm: next
 
-# eol(x) = MAX(releaseDate(x+1), latestDate(x))
+# eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
   - releaseCycle: "16"
     lts: true
     releaseDate: 2025-10-22
     eol: false
     latest: "16.2.4"
-    latestDate: 2026-04-15
+    latestReleaseDate: 2026-04-15
 
   - releaseCycle: "15"
     lts: true
     releaseDate: 2024-10-21
     eol: 2026-10-21
     latest: "15.5.15"
-    latestDate: 2026-04-08
+    latestReleaseDate: 2026-04-08
 
   - releaseCycle: "14"
     lts: true
     releaseDate: 2023-10-26
     eol: 2025-10-26
     latest: "14.2.35"
-    latestDate: 2025-12-11
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "13"
     releaseDate: 2022-10-25
     eol: 2024-12-21
     latest: "13.5.11"
-    latestDate: 2025-03-27
+    latestReleaseDate: 2025-03-27
 
   - releaseCycle: "12"
     releaseDate: 2021-10-26
     eol: 2022-11-21
     latest: "12.3.7"
-    latestDate: 2025-03-28
+    latestReleaseDate: 2025-03-28
 
   - releaseCycle: "11"
     releaseDate: 2021-06-15
     eol: 2022-01-27
     latest: "11.1.4"
-    latestDate: 2022-01-27
+    latestReleaseDate: 2022-01-27
 
   - releaseCycle: "10"
     releaseDate: 2020-10-27
     eol: 2021-06-15
     latest: "10.2.3"
-    latestDate: 2021-05-24
+    latestReleaseDate: 2021-05-24
 
   - releaseCycle: "9"
     releaseDate: 2019-07-08
     eol: 2020-10-27
     latest: "9.5.5"
-    latestDate: 2020-10-10
+    latestReleaseDate: 2020-10-10
 
 ---
 

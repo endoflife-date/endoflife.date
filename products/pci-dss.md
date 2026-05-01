@@ -15,17 +15,17 @@ releases:
   - releaseCycle: "4.0.1"
     releaseDate: 2024-06-11
     eol: false
-    latestLink: https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1
+    link: https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1
 
   - releaseCycle: "4.0"
     releaseDate: 2022-03-31
     eol: 2024-12-31
-    latestLink: https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub
+    link: https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub
 
   - releaseCycle: "3.2.1"
     releaseDate: 2018-05-01
     eol: 2024-03-31
-    latestLink: https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI_DSS_Summary_of_Changes_3-2-1.pdf
+    link: https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI_DSS_Summary_of_Changes_3-2-1.pdf
 
   - releaseCycle: "3.2"
     releaseDate: 2016-04-01

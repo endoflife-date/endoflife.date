@@ -4,7 +4,7 @@ addedAt: 2022-12-05
 category: lang
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
-latestLinkTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
+changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
 latestColumn: false
 eolColumn: Support Status
 
@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "10.0"
     releaseDate: 2024-07-19
     eol: 2028-07-31
-    latestLink: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
+    link: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
 
   - releaseCycle: "9.0"
     releaseDate: 2023-06-29
@@ -41,47 +41,47 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2021-09-14
     eol: 2025-09-30
-    latestLink: https://www.microfocus.com/documentation/visual-cobol/vc70/VS2019/GUID-7ECA1D86-EC87-454D-B666-1047527FD9BF.html
+    link: https://www.microfocus.com/documentation/visual-cobol/vc70/VS2019/GUID-7ECA1D86-EC87-454D-B666-1047527FD9BF.html
 
   - releaseCycle: "6.0"
     releaseDate: 2020-06-18
     eol: 2024-06-30
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=6.0&Rel=
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=6.0&Rel=
 
   - releaseCycle: "5.0"
     releaseDate: 2019-06-21
     eol: 2023-06-30
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=5.0&Rel=
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=5.0&Rel=
 
   - releaseCycle: "4.0"
     releaseDate: 2018-06-14
     eol: 2022-06-30
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=4.0&Rel=
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=4.0&Rel=
 
   - releaseCycle: "3.0"
     releaseDate: 2017-07-07
     eol: 2021-07-31
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=3.0&Rel=
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=3.0&Rel=
 
   - releaseCycle: "2.3"
     releaseDate: 2016-10-03
     eol: 2019-09-30
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.3&Rel=Update%202
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.3&Rel=Update%202
 
   - releaseCycle: "2.2"
     releaseDate: 2014-11-19
     eol: 2018-07-31
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.2&Rel=Update%202
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.2&Rel=Update%202
 
   - releaseCycle: "2.1"
     releaseDate: 2013-04-05
     eol: 2017-05-31
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.1&Rel=Update%201
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.1&Rel=Update%201
 
   - releaseCycle: "2.0"
     releaseDate: 2012-04-27
     eol: 2014-12-31
-    latestLink: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.0&Rel=0
+    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.0&Rel=0
 ---
 
 > [Visual COBOL](https://www.microfocus.com/en-us/products/visual-cobol/overview) is a suite of

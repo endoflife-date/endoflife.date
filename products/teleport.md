@@ -5,7 +5,7 @@ category: server-app
 permalink: /teleport
 versionCommand: teleport version
 releasePolicyLink: https://goteleport.com/docs/upcoming-releases/
-latestLinkTemplate: https://github.com/gravitational/teleport/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/gravitational/teleport/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:
@@ -25,21 +25,21 @@ releases:
     eoas: false
     eol: false
     latest: "18.7.6"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "17"
     releaseDate: 2024-11-15
     eoas: 2025-07-04
     eol: false
     latest: "17.7.23"
-    latestDate: 2026-04-29
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "16"
     releaseDate: 2024-06-13
     eoas: 2024-11-15
     eol: 2025-10-31 # https://web.archive.org/web/20250709131044/https://goteleport.com/docs/upcoming-releases/
     latest: "16.5.18"
-    latestDate: 2025-09-29
+    latestReleaseDate: 2025-09-29
 
 ---
 

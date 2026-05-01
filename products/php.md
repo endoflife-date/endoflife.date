@@ -6,7 +6,7 @@ iconSlug: php
 permalink: /php
 versionCommand: php --version
 releasePolicyLink: https://www.php.net/supported-versions.php
-latestLinkTemplate: "https://www.php.net/ChangeLog-{{'__LATEST__'|split:'.'|first}}.php#__LATEST__"
+changelogTemplate: "https://www.php.net/ChangeLog-{{'__LATEST__'|split:'.'|first}}.php#__LATEST__"
 eoasColumn: true
 
 identifiers:
@@ -29,126 +29,126 @@ releases:
     eoas: 2027-12-31
     eol: 2029-12-31
     latest: "8.5.5"
-    latestDate: 2026-04-09
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
     latest: "8.4.20"
-    latestDate: 2026-04-09
+    latestReleaseDate: 2026-04-09
 
   - releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
     latest: "8.3.30"
-    latestDate: 2026-01-15
+    latestReleaseDate: 2026-01-15
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
     latest: "8.2.30"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.1"
     releaseDate: 2021-11-25
     eoas: 2023-11-25
     eol: 2025-12-31
     latest: "8.1.34"
-    latestDate: 2025-12-18
+    latestReleaseDate: 2025-12-18
 
   - releaseCycle: "8.0"
     releaseDate: 2020-11-26
     eoas: 2022-11-26
     eol: 2023-11-26
     latest: "8.0.30"
-    latestDate: 2023-08-03
+    latestReleaseDate: 2023-08-03
 
   - releaseCycle: "7.4"
     releaseDate: 2019-11-28
     eoas: 2021-11-28
     eol: 2022-11-28
     latest: "7.4.33"
-    latestDate: 2022-11-03
+    latestReleaseDate: 2022-11-03
 
   - releaseCycle: "7.3"
     releaseDate: 2018-12-06
     eoas: 2020-12-06
     eol: 2021-12-06
     latest: "7.3.33"
-    latestDate: 2021-11-18
+    latestReleaseDate: 2021-11-18
 
   - releaseCycle: "7.2"
     releaseDate: 2017-11-30
     eoas: 2019-11-30
     eol: 2020-11-30
     latest: "7.2.34"
-    latestDate: 2020-10-01
+    latestReleaseDate: 2020-10-01
 
   - releaseCycle: "7.1"
     releaseDate: 2016-12-01
     eoas: 2018-12-01
     eol: 2019-12-01
     latest: "7.1.33"
-    latestDate: 2019-10-24
+    latestReleaseDate: 2019-10-24
 
   - releaseCycle: "7.0"
     releaseDate: 2015-12-03
     eoas: 2018-01-04
     eol: 2019-01-10
     latest: "7.0.33"
-    latestDate: 2019-01-10
+    latestReleaseDate: 2019-01-10
 
   - releaseCycle: "5.6"
     releaseDate: 2014-08-28
     eoas: 2017-01-19
     eol: 2018-12-31
     latest: "5.6.40"
-    latestDate: 2019-01-10
+    latestReleaseDate: 2019-01-10
 
   - releaseCycle: "5.5"
     releaseDate: 2013-06-20
     eoas: 2015-07-10
     eol: 2016-07-21
     latest: "5.5.38"
-    latestDate: 2016-07-21
+    latestReleaseDate: 2016-07-21
 
   - releaseCycle: "5.4"
     releaseDate: 2012-03-01
     eoas: 2014-09-14
     eol: 2015-09-14
     latest: "5.4.45"
-    latestDate: 2015-09-03
+    latestReleaseDate: 2015-09-03
 
   - releaseCycle: "5.3"
     releaseDate: 2009-06-30
     eoas: 2011-06-30
     eol: 2014-08-14
     latest: "5.3.29"
-    latestDate: 2014-08-14
+    latestReleaseDate: 2014-08-14
 
   - releaseCycle: "5.2"
     releaseDate: 2006-11-02
     eoas: 2008-11-02
     eol: 2011-01-06
     latest: "5.2.17"
-    latestDate: 2011-01-06
+    latestReleaseDate: 2011-01-06
 
   - releaseCycle: "5.1"
     releaseDate: 2005-11-24
     eoas: 2006-08-24
     eol: 2006-08-24
     latest: "5.1.6"
-    latestDate: 2006-08-24
+    latestReleaseDate: 2006-08-24
 
   - releaseCycle: "5.0"
     releaseDate: 2004-07-13
     eoas: 2005-09-05
     eol: 2005-09-05
     latest: "5.0.5"
-    latestDate: 2005-09-05
+    latestReleaseDate: 2005-09-05
 
 ---
 

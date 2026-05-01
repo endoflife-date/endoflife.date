@@ -8,7 +8,7 @@ alternate_urls:
   - /zfs
 versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
-latestLinkTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
+changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 eoasColumn: Active support
 eolColumn: LTS support
 
@@ -41,7 +41,7 @@ releases:
     eoas: false
     eol: false
     latest: "2.4.1"
-    latestDate: 2026-02-25
+    latestReleaseDate: 2026-02-25
     supportedLinux: "4.18 - 6.18"
     supportedFreeBSD: "14, 15, 16"
 
@@ -50,7 +50,7 @@ releases:
     eoas: 2025-12-18
     eol: false
     latest: "2.3.6"
-    latestDate: 2026-02-25
+    latestReleaseDate: 2026-02-25
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -59,7 +59,7 @@ releases:
     eoas: 2025-01-13
     eol: 2025-12-18
     latest: "2.2.9"
-    latestDate: 2025-11-18
+    latestReleaseDate: 2025-11-18
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.3+, 14.0+"
 
@@ -68,7 +68,7 @@ releases:
     eoas: 2023-10-12
     eol: 2025-01-13
     latest: "2.1.16"
-    latestDate: 2024-12-06
+    latestReleaseDate: 2024-12-06
     supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2+"
 
@@ -77,7 +77,7 @@ releases:
     eoas: 2021-07-02
     eol: 2021-12-23
     latest: "2.0.7"
-    latestDate: 2021-12-23
+    latestReleaseDate: 2021-12-23
     supportedLinux: "3.10 - 5.15"
     supportedFreeBSD: "12.2+"
 
@@ -86,7 +86,7 @@ releases:
     eoas: 2020-12-14
     eol: 2020-12-14
     latest: "0.8.6"
-    latestDate: 2020-12-14
+    latestReleaseDate: 2020-12-14
     supportedLinux: "2.6.32 - 5.9"
     supportedFreeBSD: "N/A"
 

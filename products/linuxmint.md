@@ -30,153 +30,153 @@ releases:
     lts: true
     releaseDate: 2026-01-11
     eol: 2029-04-30
-    latestLink: https://www.linuxmint.com/rel_zena.php
+    link: https://www.linuxmint.com/rel_zena.php
 
   - releaseCycle: "lmde7"
     releaseLabel: "LMDE 7 '__CODENAME__'"
     codename: Gigi
     releaseDate: 2025-10-14
     eol: false
-    latestLink: https://blog.linuxmint.com/?p=4924
+    link: https://blog.linuxmint.com/?p=4924
 
   - releaseCycle: "22.2"
     codename: Zara
     lts: true
     releaseDate: 2025-09-04
     eol: 2029-04-30
-    latestLink: https://blog.linuxmint.com/?p=4881
+    link: https://blog.linuxmint.com/?p=4881
 
   - releaseCycle: "22.1"
     codename: Xia
     lts: true
     releaseDate: 2025-01-16
     eol: 2029-04-30
-    latestLink: https://blog.linuxmint.com/?p=4793
+    link: https://blog.linuxmint.com/?p=4793
 
   - releaseCycle: "22"
     codename: Wilma
     lts: true
     releaseDate: 2024-07-25
     eol: 2029-04-30
-    latestLink: https://blog.linuxmint.com/?p=4731
+    link: https://blog.linuxmint.com/?p=4731
 
   - releaseCycle: "21.3"
     codename: Virginia
     lts: true
     releaseDate: 2024-01-12
     eol: 2027-04-30
-    latestLink: https://blog.linuxmint.com/?p=4624
+    link: https://blog.linuxmint.com/?p=4624
 
   - releaseCycle: "lmde6"
     releaseLabel: "LMDE 6 '__CODENAME__'"
     codename: Faye
     releaseDate: 2023-09-27
     eol: 2026-01-01
-    latestLink: https://blog.linuxmint.com/?p=4570
+    link: https://blog.linuxmint.com/?p=4570
 
   - releaseCycle: "21.2"
     codename: Victoria
     lts: true
     releaseDate: 2023-07-16
     eol: 2027-04-30
-    latestLink: https://blog.linuxmint.com/?p=4543
+    link: https://blog.linuxmint.com/?p=4543
 
   - releaseCycle: "21.1"
     codename: Vera
     lts: true
     releaseDate: 2022-12-20
     eol: 2027-04-30
-    latestLink: https://blog.linuxmint.com/?p=4454
+    link: https://blog.linuxmint.com/?p=4454
 
   - releaseCycle: "21"
     codename: Vanessa
     lts: true
     releaseDate: 2022-07-31
     eol: 2027-04-30
-    latestLink: https://blog.linuxmint.com/?p=4359
+    link: https://blog.linuxmint.com/?p=4359
 
   - releaseCycle: "lmde5"
     releaseLabel: "LMDE 5 '__CODENAME__'"
     codename: Elsie
     releaseDate: 2022-03-20
     eol: 2024-07-01
-    latestLink: https://blog.linuxmint.com/?p=4287
+    link: https://blog.linuxmint.com/?p=4287
 
   - releaseCycle: "20.3"
     codename: Una
     lts: true
     releaseDate: 2022-01-07
     eol: 2025-04-30
-    latestLink: https://blog.linuxmint.com/?p=4220
+    link: https://blog.linuxmint.com/?p=4220
 
   - releaseCycle: "20.2"
     codename: Uma
     lts: true
     releaseDate: 2021-07-08
     eol: 2025-04-30
-    latestLink: https://blog.linuxmint.com/?p=4102
+    link: https://blog.linuxmint.com/?p=4102
 
   - releaseCycle: "20.1"
     codename: Ulyssa
     lts: true
     releaseDate: 2021-01-08
     eol: 2025-04-30
-    latestLink: https://blog.linuxmint.com/?p=4011
+    link: https://blog.linuxmint.com/?p=4011
 
   - releaseCycle: "20"
     codename: Ulyana
     lts: true
     releaseDate: 2020-06-27
     eol: 2025-04-30
-    latestLink: https://blog.linuxmint.com/?p=3928
+    link: https://blog.linuxmint.com/?p=3928
 
   - releaseCycle: "lmde4"
     releaseLabel: "LMDE 4 '__CODENAME__'"
     codename: Debbie
     releaseDate: 2020-03-20
     eol: 2022-08-01
-    latestLink: https://blog.linuxmint.com/?p=3867
+    link: https://blog.linuxmint.com/?p=3867
 
   - releaseCycle: "19.3"
     codename: Tricia
     lts: true
     releaseDate: 2019-12-18
     eol: 2023-04-01
-    latestLink: https://blog.linuxmint.com/?p=3832
+    link: https://blog.linuxmint.com/?p=3832
 
   - releaseCycle: "19.2"
     codename: Tina
     lts: true
     releaseDate: 2019-08-02
     eol: 2023-04-01
-    latestLink: https://blog.linuxmint.com/?p=3786
+    link: https://blog.linuxmint.com/?p=3786
 
   - releaseCycle: "19.1"
     codename: Tessa
     lts: true
     releaseDate: 2018-12-19
     eol: 2023-04-01
-    latestLink: https://blog.linuxmint.com/?p=3669
+    link: https://blog.linuxmint.com/?p=3669
 
   - releaseCycle: "19"
     codename: Tara
     lts: true
     releaseDate: 2018-06-29
     eol: 2023-04-01
-    latestLink: https://blog.linuxmint.com/?p=3597
+    link: https://blog.linuxmint.com/?p=3597
 
   - releaseCycle: "18.3"
     codename: Sylvia
     lts: true
     releaseDate: 2017-11-27
     eol: 2021-05-03
-    latestLink: https://blog.linuxmint.com/?p=3457
+    link: https://blog.linuxmint.com/?p=3457
 
   - releaseCycle: "18.1"
     codename: Serena
     releaseDate: 2017-01-27
     eol: 2021-04-01
-    latestLink: https://blog.linuxmint.com/?p=3223
+    link: https://blog.linuxmint.com/?p=3223
 ---
 
 > [Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution for desktop and

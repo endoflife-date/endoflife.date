@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: opnsense
 permalink: /opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
-latestLinkTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
+changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 identifiers:
@@ -24,161 +24,161 @@ releases:
     releaseDate: 2026-01-28
     eol: false
     latest: "26.1.7"
-    latestDate: 2026-04-30
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "25.7"
     codename: "Visionary Viper"
     releaseDate: 2025-07-22
     eol: 2026-01-28
     latest: "25.7.11"
-    latestDate: 2026-01-15
+    latestReleaseDate: 2026-01-15
 
   - releaseCycle: "25.1"
     codename: "Ultimate Unicorn"
     releaseDate: 2025-01-28
     eol: 2025-07-23
     latest: "25.1.12"
-    latestDate: 2025-07-21
+    latestReleaseDate: 2025-07-21
 
   - releaseCycle: "24.7"
     codename: "Thriving Tiger"
     releaseDate: 2024-07-23
     eol: 2025-01-28
     latest: "24.7.12"
-    latestDate: 2025-01-14
+    latestReleaseDate: 2025-01-14
 
   - releaseCycle: "24.1"
     codename: "Savvy Shark"
     releaseDate: 2024-01-26
     eol: 2024-07-25
     latest: "24.1.10"
-    latestDate: 2024-07-11
+    latestReleaseDate: 2024-07-11
 
   - releaseCycle: "23.7"
     codename: "Restless Roadrunner"
     releaseDate: 2023-07-28
     eol: 2024-01-26
     latest: "23.7.12"
-    latestDate: 2024-01-16
+    latestReleaseDate: 2024-01-16
 
   - releaseCycle: "23.1"
     codename: "Quintessential Quail"
     releaseDate: 2023-01-25
     eol: 2023-07-28
     latest: "23.1.11"
-    latestDate: 2023-06-27
+    latestReleaseDate: 2023-06-27
 
   - releaseCycle: "22.7"
     codename: "Powerful Panther"
     releaseDate: 2022-07-25
     eol: 2023-01-25
     latest: "22.7.11"
-    latestDate: 2023-01-17
+    latestReleaseDate: 2023-01-17
 
   - releaseCycle: "22.1"
     codename: "Observant Owl"
     releaseDate: 2022-01-25
     eol: 2022-07-25
     latest: "22.1.10"
-    latestDate: 2022-07-06
+    latestReleaseDate: 2022-07-06
 
   - releaseCycle: "21.7"
     codename: "Noble Nightingale"
     releaseDate: 2021-07-23
     eol: 2022-01-25
     latest: "21.7.8"
-    latestDate: 2022-01-27
+    latestReleaseDate: 2022-01-27
 
   - releaseCycle: "21.1"
     codename: "Marvelous Meerkat"
     releaseDate: 2021-01-26
     eol: 2021-07-23
     latest: "21.1.9"
-    latestDate: 2021-07-26
+    latestReleaseDate: 2021-07-26
 
   - releaseCycle: "20.7"
     codename: "Legendary Lion"
     releaseDate: 2020-07-28
     eol: 2021-01-26
     latest: "20.7.8"
-    latestDate: 2021-01-18
+    latestReleaseDate: 2021-01-18
 
   - releaseCycle: "20.1"
     codename: "Keen Kingfisher"
     releaseDate: 2020-01-29
     eol: 2020-07-28
     latest: "20.1.9"
-    latestDate: 2020-07-23
+    latestReleaseDate: 2020-07-23
 
   - releaseCycle: "19.7"
     codename: "Jazzy Jaguar"
     releaseDate: 2019-07-15
     eol: 2020-01-29
     latest: "19.7.10"
-    latestDate: 2020-01-27
+    latestReleaseDate: 2020-01-27
 
   - releaseCycle: "19.1"
     codename: "Inspiring Iguana"
     releaseDate: 2019-01-28
     eol: 2019-07-15
     latest: "19.1.10"
-    latestDate: 2019-07-02
+    latestReleaseDate: 2019-07-02
 
   - releaseCycle: "18.7"
     codename: "Happy Hippo"
     releaseDate: 2018-07-29
     eol: 2019-01-28
     latest: "18.7.10"
-    latestDate: 2019-01-06
+    latestReleaseDate: 2019-01-06
 
   - releaseCycle: "18.1"
     codename: "Groovy Gecko"
     releaseDate: 2018-01-26
     eol: 2018-07-29
     latest: "18.1.13"
-    latestDate: 2018-07-23
+    latestReleaseDate: 2018-07-23
 
   - releaseCycle: "17.7"
     codename: "Free Fox"
     releaseDate: 2017-07-26
     eol: 2018-01-26
     latest: "17.7.12"
-    latestDate: 2018-01-17
+    latestReleaseDate: 2018-01-17
 
   - releaseCycle: "17.1"
     codename: "Eclectic Eagle"
     releaseDate: 2017-01-27
     eol: 2017-07-26
     latest: "17.1.11"
-    latestDate: 2017-07-24
+    latestReleaseDate: 2017-07-24
 
   - releaseCycle: "16.7"
     codename: "Dancing Dolphin"
     releaseDate: 2016-07-26
     eol: 2017-01-27
     latest: "16.7.14"
-    latestDate: 2017-01-24
+    latestReleaseDate: 2017-01-24
 
   - releaseCycle: "16.1"
     codename: "Crafty Coyote"
     releaseDate: 2016-01-28
     eol: 2016-07-26
     latest: "16.1.20"
-    latestDate: 2016-07-22
+    latestReleaseDate: 2016-07-22
 
   - releaseCycle: "15.7"
     codename: "Brave Badger"
     releaseDate: 2015-07-02
     eol: 2016-01-28
     latest: "15.7.25"
-    latestDate: 2016-01-18
+    latestReleaseDate: 2016-01-18
 
   - releaseCycle: "15.1"
     codename: "Ascending Albatross"
     releaseDate: 2015-01-02
     eol: 2015-07-02
     latest: "15.1.12"
-    latestDate: 2015-06-17
+    latestReleaseDate: 2015-06-17
 
 ---
 

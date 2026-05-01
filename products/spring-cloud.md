@@ -6,7 +6,7 @@ tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-cloud
 releasePolicyLink: https://spring.io/projects/spring-cloud#support
-latestLinkTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/__LATEST__
+changelogTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/__LATEST__
 eolColumn: OSS support
 eoesColumn: Commercial Support
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -47,7 +47,7 @@ releases:
     eol: 2026-12-31
     eoes: 2027-12-31
     latest: "2025.1.1"
-    latestDate: 2026-01-29
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "2025.0"
     codename: Northfields
@@ -56,7 +56,7 @@ releases:
     eol: 2026-06-30
     eoes: 2032-06-30
     latest: "2025.0.2"
-    latestDate: 2026-04-02
+    latestReleaseDate: 2026-04-02
 
   - releaseCycle: "2024.0"
     codename: Moorgate
@@ -65,7 +65,7 @@ releases:
     eol: 2025-12-31
     eoes: 2026-12-31
     latest: "2024.0.3"
-    latestDate: 2025-12-11
+    latestReleaseDate: 2025-12-11
 
   - releaseCycle: "2023.0"
     codename: Leyton
@@ -74,7 +74,7 @@ releases:
     eol: 2025-06-30
     eoes: 2026-06-30
     latest: "2023.0.6"
-    latestDate: 2025-06-24
+    latestReleaseDate: 2025-06-24
 
   - releaseCycle: "2022.0"
     codename: Kilburn
@@ -83,7 +83,7 @@ releases:
     eol: 2024-06-30
     eoes: 2025-06-30
     latest: "2022.0.5"
-    latestDate: 2024-01-26
+    latestReleaseDate: 2024-01-26
 
   - releaseCycle: "2021.0"
     codename: Jubilee
@@ -92,7 +92,7 @@ releases:
     eol: 2023-06-30
     eoes: 2029-06-30
     latest: "2021.0.9"
-    latestDate: 2023-12-19
+    latestReleaseDate: 2023-12-19
 
   - releaseCycle: "2020.0"
     codename: Ilford
@@ -101,7 +101,7 @@ releases:
     eol: 2022-05-31
     eoes: 2023-08-31
     latest: "2020.0.6"
-    latestDate: 2022-06-30
+    latestReleaseDate: 2022-06-30
 
 ---
 
