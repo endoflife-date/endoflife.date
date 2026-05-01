@@ -7,7 +7,7 @@ iconSlug: deno
 permalink: /deno
 versionCommand: deno --version
 releasePolicyLink: https://docs.deno.com/runtime/fundamentals/stability_and_releases/
-changelogTemplate: https://github.com/denoland/deno/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/denoland/deno/releases/tag/v__LATEST__
 
 identifiers:
   - purl: pkg:docker/denoland/deno

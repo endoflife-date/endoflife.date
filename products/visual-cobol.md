@@ -4,7 +4,7 @@ addedAt: 2022-12-05
 category: lang
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
-changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
+latestLinkTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
 latestColumn: false
 eolColumn: Support Status
 

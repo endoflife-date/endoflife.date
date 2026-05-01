@@ -8,7 +8,7 @@ permalink: /go
 alternate_urls:
   - /golang
 releasePolicyLink: https://go.dev/doc/devel/release#policy
-changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
+latestLinkTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
 

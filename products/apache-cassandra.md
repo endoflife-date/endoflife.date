@@ -8,7 +8,7 @@ permalink: /apache-cassandra
 alternate_urls:
   - /cassandra
 releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
-changelogTemplate: "https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__"
+latestLinkTemplate: "https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__"
 
 identifiers:
   - repology: cassandra

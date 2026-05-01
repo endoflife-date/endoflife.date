@@ -6,7 +6,7 @@ tags: elastic
 iconSlug: logstash
 permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy
-changelogTemplate: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
+latestLinkTemplate: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
 eolColumn: Support
 
 identifiers:

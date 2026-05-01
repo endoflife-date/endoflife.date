@@ -7,7 +7,7 @@ iconSlug: neo4j
 permalink: /neo4j
 versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
-changelogTemplate: https://neo4j.com/release-notes/database/neo4j-{{'__RELEASE_CYCLE__'|replace:'.','-'}}/
+latestLinkTemplate: https://neo4j.com/release-notes/database/neo4j-{{'__RELEASE_CYCLE__'|replace:'.','-'}}/
 eolColumn: Support Status
 
 identifiers:

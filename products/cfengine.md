@@ -5,7 +5,7 @@ category: app
 permalink: /cfengine
 versionCommand: cf-agent --version
 releasePolicyLink: https://cfengine.com
-changelogTemplate: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes/whatsnew/changelog-core/
+latestLinkTemplate: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes/whatsnew/changelog-core/
 eolColumn: Supported
 
 identifiers:

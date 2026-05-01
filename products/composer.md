@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
-changelogTemplate: https://getcomposer.org/changelog/__LATEST__
+latestLinkTemplate: https://getcomposer.org/changelog/__LATEST__
 
 identifiers:
   - repology: php:composer

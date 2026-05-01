@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 permalink: /backdrop
 releasePolicyLink: https://backdropcms.org/releases
-changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:backdropcms:backdrop_cms

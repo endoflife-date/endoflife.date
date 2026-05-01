@@ -6,7 +6,7 @@ tags: java-runtime
 iconSlug: sourcegraph
 permalink: /sourcegraph
 releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/
-changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

@@ -10,7 +10,7 @@ alternate_urls:
   - /cake
 versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
-changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
+latestLinkTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
 
 customFields:

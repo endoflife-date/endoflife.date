@@ -107,7 +107,7 @@ versionCommand: swish and flick
 # Do not use a localized URL (such as one containing en-us) if possible.
 releasePolicyLink: https://nodejs.org/about/releases/
 
-# Template to be used to generate a link for the releases (optional).
+# Template to be used to generate a link for the latest versions of releases (optional).
 # Available variables inside the template are:
 # - __RELEASE_CYCLE__: will be replaced by the value of `releaseCycle`,
 # - __LATEST__: will be replaced by the value of `latest`,
@@ -115,10 +115,10 @@ releasePolicyLink: https://nodejs.org/about/releases/
 # You can even use Liquid Templating inside the template, such as:
 #   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 # Do not use a localized URL (such as one containing en-us) if possible.
-changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
+latestLinkTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 
 # Template that generates names for every release (optional, default = "__RELEASE_CYCLE__").
-# It supports the same variables as changelogTemplate.
+# It supports the same variables as latestLinkTemplate.
 releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 
 # The label that will be used alongside releases labelled with `lts: true`
@@ -299,7 +299,7 @@ releases:
     releaseLabel: "Timeturner Firebolt (1.2)"
 
     # Codename of the release (optional, not displayed anywhere by default).
-    # It can be used as __CODENAME__ in the releaseLabel and changelogTemplate.
+    # It can be used as __CODENAME__ in the releaseLabel and latestLinkTemplate.
     # It is also returned as-is in the API.
     codename: firebolt
 
@@ -365,12 +365,12 @@ releases:
     latestReleaseDate: 2022-01-23
 
     # A link to the changelog for the latest release in this cycle
-    # (optional, default = the URL generated from changelogTemplate if it is provided).
-    # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
-    # or if the changelogTemplate generated link must be overridden.
+    # (optional, default = the URL generated from latestLinkTemplate if it is provided).
+    # Use this if the link is not predictable (i.e. you can't use latestLinkTemplate),
+    # or if the latestLinkTemplate generated link must be overridden.
     # Do not use a localized URL (such as one containing en-us) if possible.
     # Use the special value 'null' (unquoted) if you want to disable the link
-    # for a specific cycle of a product having a changelogTemplate.
+    # for a specific cycle of a product having a latestLinkTemplate.
     link: https://example.com/news/2021-12-25/release-1.2.3
 
 # In the following markdown section, ensure that all the above are present:

@@ -5,7 +5,7 @@ category: app
 permalink: /goaccess
 versionCommand: goaccess --version
 releasePolicyLink: https://github.com/allinurl/goaccess/blob/master/SECURITY.md
-changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
+latestLinkTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 
 auto:
   methods:

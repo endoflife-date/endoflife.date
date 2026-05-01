@@ -8,7 +8,7 @@ permalink: /apache-spark
 alternate_urls:
   - /spark
 releasePolicyLink: https://spark.apache.org/versioning-policy.html
-changelogTemplate: "https://spark.apache.org/releases/spark-release-{{'__LATEST__'|replace:'.','-'}}.html"
+latestLinkTemplate: "https://spark.apache.org/releases/spark-release-{{'__LATEST__'|replace:'.','-'}}.html"
 eolColumn: Support
 # https://sparkbyexamples.com/spark/check-spark-version/
 versionCommand: spark-shell --version

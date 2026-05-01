@@ -15,7 +15,7 @@ alternate_urls:
   - /heartbeat
   - /functionbeat
 releasePolicyLink: https://www.elastic.co/support_policy
-changelogTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
+latestLinkTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
 
 identifiers:

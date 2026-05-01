@@ -11,7 +11,7 @@ alternate_urls:
   - /roro
   - /ror
 releasePolicyLink: https://rubyonrails.org/maintenance
-changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
 

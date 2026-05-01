@@ -8,7 +8,7 @@ alternate_urls:
   - /apache_zookeeper
   - /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
-changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
+latestLinkTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
 eoasColumn: true
 
 identifiers:

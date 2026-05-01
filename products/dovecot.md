@@ -6,7 +6,7 @@ iconSlug: dovecot
 permalink: /dovecot
 versionCommand: dovecot --version
 releasePolicyLink: https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/
-changelogTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/dovecot/core/releases/tag/__LATEST__
 eolColumn: Security Support
 eoasColumn: Active Support
 

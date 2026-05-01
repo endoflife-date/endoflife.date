@@ -7,7 +7,7 @@ iconSlug: knative
 permalink: /knative
 versionCommand: kn version
 releasePolicyLink: https://github.com/knative/community/blob/main/mechanics/RELEASE-SCHEDULE.md
-changelogTemplate: https://github.com/knative/serving/releases/tag/knative-v__LATEST__
+latestLinkTemplate: https://github.com/knative/serving/releases/tag/knative-v__LATEST__
 eolColumn: Support
 
 customFields:
@@ -310,6 +310,6 @@ Only the latest 2 releases are supported. Each release receives approximately 6 
 
 ## Release Cadence
 
-A new minor release occurs every three months (quarterly). 
+A new minor release occurs every three months (quarterly).
 New minor versions are released on the Tuesday of the 4th week in January, April, July, and October.
 Patch releases are made available on an as-needed basis for the supported versions.

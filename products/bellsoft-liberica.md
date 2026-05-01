@@ -9,7 +9,7 @@ alternate_urls:
   - /liberica
 versionCommand: java -version
 releasePolicyLink: https://bell-sw.com/support/
-changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
+latestLinkTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
 eolColumn: Public support
 eoesColumn: Commercial support
 

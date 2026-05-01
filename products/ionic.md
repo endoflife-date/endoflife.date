@@ -8,7 +8,7 @@ permalink: /ionic
 alternate_urls:
   - /ionic-framework
 releasePolicyLink: https://ionicframework.com/docs/reference/support
-changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 eoasColumn: true
 eolColumn: Maintenance
 eoesColumn: true

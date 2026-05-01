@@ -5,7 +5,7 @@ category: lang
 tags: java-distribution oracle
 permalink: /oracle-graalvm
 releasePolicyLink: https://docs.oracle.com/en/graalvm/support-roadmap.html
-changelogTemplate: https://docs.oracle.com/en/graalvm/jdk/__RELEASE_CYCLE__/docs/release-notes/
+latestLinkTemplate: https://docs.oracle.com/en/graalvm/jdk/__RELEASE_CYCLE__/docs/release-notes/
 eolColumn: Premier Support
 eoesColumn: Extended Support
 

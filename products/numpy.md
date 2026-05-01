@@ -7,7 +7,7 @@ iconSlug: numpy
 permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
-changelogTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
 
 identifiers:
   - purl: pkg:pypi/numpy

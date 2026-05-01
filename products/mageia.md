@@ -6,7 +6,7 @@ tags: linux-distribution
 permalink: /mageia
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://www.mageia.org/support/
-changelogTemplate: https://wiki.mageia.org/en/Archive:_Mageia___RELEASE_CYCLE___Release_Notes
+latestLinkTemplate: https://wiki.mageia.org/en/Archive:_Mageia___RELEASE_CYCLE___Release_Notes
 latestColumn: false
 eolColumn: Supported
 

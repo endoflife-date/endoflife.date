@@ -6,7 +6,7 @@ iconSlug: kirby
 permalink: /kirby
 alternate_urls:
   - /getkirby
-changelogTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
 customFields:
   - name: supportedPhpVersions

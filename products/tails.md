@@ -6,7 +6,7 @@ tags: linux-distribution
 iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
-changelogTemplate: https://tails.net/news/version___LATEST__/
+latestLinkTemplate: https://tails.net/news/version___LATEST__/
 
 identifiers:
   - cpe: cpe:2.3:o:tails_project:tails

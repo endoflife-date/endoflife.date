@@ -9,7 +9,7 @@ alternate_urls:
   - /msie
   - /iexplore
 releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
-changelogTemplate: https://learn.microsoft.com/lifecycle/products/internet-explorer-__RELEASE_CYCLE__
+latestLinkTemplate: https://learn.microsoft.com/lifecycle/products/internet-explorer-__RELEASE_CYCLE__
 latestColumn: false
 eolColumn: Security and technical support
 

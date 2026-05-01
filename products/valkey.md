@@ -6,7 +6,7 @@ tags: linux-foundation
 permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/
-changelogTemplate: https://github.com/valkey-io/valkey/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/valkey-io/valkey/releases/tag/__LATEST__
 eoasColumn: Maintenance Support
 eolColumn: Extended Security Support
 

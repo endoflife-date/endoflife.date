@@ -8,7 +8,7 @@ alternate_urls:
   - /haskell
 versionCommand: ghc --version
 releasePolicyLink: https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
-changelogTemplate: https://downloads.haskell.org/ghc/__LATEST__/docs/users_guide/__LATEST__-notes.html
+latestLinkTemplate: https://downloads.haskell.org/ghc/__LATEST__/docs/users_guide/__LATEST__-notes.html
 eoasColumn: Further releases planned
 eolColumn: Recommended for use
 

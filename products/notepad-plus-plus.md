@@ -4,7 +4,7 @@ addedAt: 2025-05-30
 category: app
 iconSlug: notepadplusplus
 permalink: /notepad-plus-plus
-changelogTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
+latestLinkTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
 
 auto:
   methods:

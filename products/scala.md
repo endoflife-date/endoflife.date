@@ -9,7 +9,7 @@ alternate_urls:
   - /scala-lang
 versionCommand: scalac -version
 releasePolicyLink: https://www.scala-lang.org/download/all.html
-changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
+latestLinkTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
 

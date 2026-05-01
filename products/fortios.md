@@ -6,7 +6,7 @@ tags: fortinet
 iconSlug: fortinet
 permalink: /fortios
 versionCommand: get system status
-changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
+latestLinkTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 latestColumn: false
 eolColumn: End of Support
 eoasColumn: End of Engineering Support

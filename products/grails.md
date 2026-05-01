@@ -8,7 +8,7 @@ alternate_urls:
   - /grails-framework
   - /apache-grails
 releasePolicyLink: https://grails.apache.org/support.html
-changelogTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/apache/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 

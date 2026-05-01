@@ -9,7 +9,7 @@ alternate_urls:
   - /aosp
   - /androidos
 releasePolicyLink: https://developer.android.com/about/versions
-changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
+latestLinkTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 eolColumn: Security Support

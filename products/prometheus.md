@@ -7,7 +7,7 @@ iconSlug: prometheus
 versionCommand: prometheus --version
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
-changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
 
 identifiers:
   - repology: prometheus

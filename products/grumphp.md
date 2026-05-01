@@ -5,7 +5,7 @@ category: framework
 tags: php-runtime
 permalink: /grumphp
 versionCommand: grumphp --version
-changelogTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
 
 auto:
   methods:

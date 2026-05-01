@@ -14,7 +14,7 @@ versionCommand: |-
   # or, on older versions
   yum info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+latestLinkTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
 eoasColumn: Full support
 eolColumn: Maintenance support

@@ -6,7 +6,7 @@ iconSlug: influxdb
 permalink: /telegraf
 versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
-changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
 
 auto:
   methods:

@@ -8,7 +8,7 @@ alternate_urls:
   - /godotengine
 versionCommand: godot --version
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
-changelogTemplate: "https://github.com/godotengine/godot/releases/tag/{{'__LATEST__'|drop_zero_patch}}-stable"
+latestLinkTemplate: "https://github.com/godotengine/godot/releases/tag/{{'__LATEST__'|drop_zero_patch}}-stable"
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
 

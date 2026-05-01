@@ -6,7 +6,7 @@ tags: build-tool javascript-runtime herodevs linux-foundation
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
-changelogTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support

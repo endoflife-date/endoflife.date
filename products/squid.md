@@ -7,7 +7,7 @@ alternate_urls:
   - /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate: https://github.com/squid-cache/squid/releases/tag/SQUID_{{'__LATEST__'|replace:'.':'_'}}
+latestLinkTemplate: https://github.com/squid-cache/squid/releases/tag/SQUID_{{'__LATEST__'|replace:'.':'_'}}
 
 identifiers:
   - repology: squid

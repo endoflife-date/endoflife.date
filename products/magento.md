@@ -9,7 +9,7 @@ alternate_urls:
   - /adobe-commerce
 versionCommand: php bin/magento --version
 releasePolicyLink: https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
-changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
+latestLinkTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support

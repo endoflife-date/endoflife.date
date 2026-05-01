@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes linux-foundation
 permalink: /contour
 releasePolicyLink: https://projectcontour.io/resources/support/
-changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
 eolColumn: Bug and Security Fixes
 
 identifiers:

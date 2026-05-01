@@ -9,7 +9,7 @@ alternate_urls:
   - /chef-server
 versionCommand: chef-server-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
-changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
+latestLinkTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 eoasColumn: true
 
 identifiers:

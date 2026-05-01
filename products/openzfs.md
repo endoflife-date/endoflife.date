@@ -8,7 +8,7 @@ alternate_urls:
   - /zfs
 versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
-changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
+latestLinkTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 eoasColumn: Active support
 eolColumn: LTS support
 

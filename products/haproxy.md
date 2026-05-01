@@ -6,7 +6,7 @@ tags: web-server
 permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
-changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
+latestLinkTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 
 auto:
   methods:

@@ -7,7 +7,7 @@ iconSlug: vuetify
 permalink: /vuetify
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
-changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
 

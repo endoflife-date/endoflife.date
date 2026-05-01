@@ -95,7 +95,7 @@ npx @pb33f/wiretap@latest -s http://localhost:4000/docs/api/v1/openapi.yml -u ht
 1. **Naming**: Filename is `productname.md` (lowercase, dashes for spaces)
 2. **Frontmatter only**: Product files are YAML frontmatter with markdown content below
 3. **Frontmatter order** (blank line between sections):
-   - Product info: `title`, `category`, `tags`, `iconSlug`, `permalink`, `alternate_urls`, `versionCommand`, `releasePolicyLink`, `changelogTemplate`
+   - Product info: `title`, `category`, `tags`, `iconSlug`, `permalink`, `alternate_urls`, `versionCommand`, `releasePolicyLink`, `latestLinkTemplate`
    - Formatting: `releaseLabel`, `LTSLabel`, `eolColumn`, `eoasColumn`, `releaseDateColumn`, `discontinuedColumn`, `eoesColumn`, etc.
    - Identifiers: `identifiers`
    - Auto-update: `auto`
@@ -109,7 +109,7 @@ npx @pb33f/wiretap@latest -s http://localhost:4000/docs/api/v1/openapi.yml -u ht
 10. **Release ordering**: Releases must be sorted newest to oldest (each separated by blank line)
 11. **Stable only**: Don't add RC/Alpha/Beta/Nightly releases
 12. **Boolean dates**: Use boolean `true`/`false` when exact date is unknown
-13. **changelogTemplate**: Keep on one line, use double quotes if containing liquid expressions
+13. **latestLinkTemplate**: Keep on one line, use double quotes if containing liquid expressions
 
 ### Product Content
 

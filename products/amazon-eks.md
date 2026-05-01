@@ -10,7 +10,7 @@ alternate_urls:
   - /amazon-elastic-kubernetes-service
 versionCommand: eksctl get cluster --name=cluster-name
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
-changelogTemplate: "https://github.com/aws/eks-distro/releases/tag/v{{'__LATEST__'|replace:'.','-'}}"
+latestLinkTemplate: "https://github.com/aws/eks-distro/releases/tag/v{{'__LATEST__'|replace:'.','-'}}"
 eolColumn: End of Support
 eoesColumn: true
 

@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: phpmyadmin
 permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#versions
-changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
+latestLinkTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 eoasColumn: true
 
 auto:

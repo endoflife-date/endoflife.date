@@ -9,7 +9,7 @@ alternate_urls:
   - /corretto
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
-changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releases/tag/__LATEST__
 
 identifiers:
   - cpe: cpe:/a:amazon:corretto

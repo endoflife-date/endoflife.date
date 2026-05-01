@@ -6,7 +6,7 @@ iconSlug: redis
 permalink: /redis
 versionCommand: redis-server --version
 releasePolicyLink: https://github.com/redis/redis/security
-changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
+latestLinkTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
 
 identifiers:

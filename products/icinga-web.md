@@ -9,7 +9,7 @@ alternate_urls:
   - /icingaweb
 versionCommand: icingacli version
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
-changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
+latestLinkTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
 eoasColumn: true
 
 identifiers:

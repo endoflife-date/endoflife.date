@@ -10,7 +10,7 @@ alternate_urls:
   - /oracle-virtualbox
   - /oracle-vm-virtualbox
 versionCommand: virtualbox -h
-changelogTemplate: https://www.virtualbox.org/wiki/Changelog-__RELEASE_CYCLE__
+latestLinkTemplate: https://www.virtualbox.org/wiki/Changelog-__RELEASE_CYCLE__
 eolColumn: Maintenance support
 
 identifiers:

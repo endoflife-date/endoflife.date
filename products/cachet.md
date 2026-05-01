@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 iconSlug: cachet
 permalink: /cachet
-changelogTemplate: https://github.com/cachethq/cachet/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/cachethq/cachet/releases/tag/v__LATEST__
 
 auto:
   methods:

@@ -9,7 +9,7 @@ alternate_urls:
   - /omnissahorizon
   - /omnissa-horizon
 releasePolicyLink: https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html
-changelogTemplate: https://docs.omnissa.com/bundle/horizon8-rnV{{ "__LATEST__"|replace_first:'.','' }}/page/Horizon8-ReleaseNotes.html
+latestLinkTemplate: https://docs.omnissa.com/bundle/horizon8-rnV{{ "__LATEST__"|replace_first:'.','' }}/page/Horizon8-ReleaseNotes.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 eolColumn: General Support
 

@@ -5,7 +5,7 @@ category: server-app
 permalink: /teleport
 versionCommand: teleport version
 releasePolicyLink: https://goteleport.com/docs/upcoming-releases/
-changelogTemplate: https://github.com/gravitational/teleport/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/gravitational/teleport/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:

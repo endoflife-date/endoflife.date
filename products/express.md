@@ -6,7 +6,7 @@ tags: herodevs javascript-runtime linux-foundation
 iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/
-changelogTemplate: https://github.com/expressjs/express/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/expressjs/express/releases/tag/v__LATEST__
 eolColumn: Security Support
 eoesColumn: Commercial Support
 

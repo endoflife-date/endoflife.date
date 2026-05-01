@@ -8,7 +8,7 @@ alternate_urls:
   - /kdeplasma
 versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
-changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
+latestLinkTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
 eoasColumn: true
 eolColumn: Critical bug fixes
 

@@ -9,7 +9,7 @@ alternate_urls:
   - /opensuseleap
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://en.opensuse.org/Lifetime
-changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
+latestLinkTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
 latestColumn: false
 eolColumn: End of Life

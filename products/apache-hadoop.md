@@ -7,7 +7,7 @@ iconSlug: apachehadoop
 permalink: /apache-hadoop
 alternate_urls:
   - /hadoop
-changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
+latestLinkTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version

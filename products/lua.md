@@ -6,7 +6,7 @@ iconSlug: lua
 permalink: /lua
 versionCommand: lua -v
 releasePolicyLink: https://www.lua.org/versions.html
-changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
+latestLinkTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
 eolColumn: Support
 
 identifiers:

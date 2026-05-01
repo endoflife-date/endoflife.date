@@ -7,7 +7,7 @@ iconSlug: apacheant
 permalink: /ant
 alternate_urls:
   - /apache-ant
-changelogTemplate: https://ant.apache.org/antnews.html
+latestLinkTemplate: https://ant.apache.org/antnews.html
 versionCommand: ant -version
 
 identifiers:

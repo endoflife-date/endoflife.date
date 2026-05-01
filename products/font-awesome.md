@@ -6,7 +6,7 @@ iconSlug: fontawesome
 permalink: /font-awesome
 alternate_urls:
   - /fontawesome
-changelogTemplate: https://github.com/FortAwesome/Font-Awesome/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/FortAwesome/Font-Awesome/releases/tag/__LATEST__
 releasePolicyLink: https://fontawesome.com/versions
 
 auto:

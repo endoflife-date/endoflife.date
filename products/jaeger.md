@@ -5,7 +5,7 @@ category: app
 tags: cncf linux-foundation
 iconSlug: jaeger
 permalink: /jaeger
-changelogTemplate: https://github.com/jaegertracing/jaeger/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/jaegertracing/jaeger/releases/tag/v__LATEST__
 eolColumn: Security Support
 
 identifiers:

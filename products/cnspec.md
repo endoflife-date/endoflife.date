@@ -6,7 +6,7 @@ tags: mondoo
 permalink: /cnspec
 versionCommand: cnspec version
 releasePolicyLink: https://mondoo.com/docs/cnspec/cnspec-adv-install/update/
-changelogTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:

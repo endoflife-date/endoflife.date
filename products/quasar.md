@@ -7,7 +7,7 @@ iconSlug: quasar
 permalink: /quasar
 versionCommand: quasar -v
 releasePolicyLink: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule
-changelogTemplate: https://github.com/quasarframework/quasar/releases/tag/quasar-v__LATEST__
+latestLinkTemplate: https://github.com/quasarframework/quasar/releases/tag/quasar-v__LATEST__
 eoasColumn: true
 eolColumn: LTS support
 

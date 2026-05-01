@@ -10,7 +10,7 @@ alternate_urls:
   - /mulesoft-runtimes
   - /mule-runtimes
 releasePolicyLink: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence
-changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__RELEASE_CYCLE__'|split:'-'|first}}.0-release-notes"
+latestLinkTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__RELEASE_CYCLE__'|split:'-'|first}}.0-release-notes"
 eoasColumn: Standard Support
 eolColumn: Extended Support
 

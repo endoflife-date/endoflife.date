@@ -6,7 +6,7 @@ iconSlug: php
 permalink: /php
 versionCommand: php --version
 releasePolicyLink: https://www.php.net/supported-versions.php
-changelogTemplate: "https://www.php.net/ChangeLog-{{'__LATEST__'|split:'.'|first}}.php#__LATEST__"
+latestLinkTemplate: "https://www.php.net/ChangeLog-{{'__LATEST__'|split:'.'|first}}.php#__LATEST__"
 eoasColumn: true
 
 identifiers:

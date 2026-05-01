@@ -12,7 +12,7 @@ alternate_urls:
   - /citrix
   - /citrix-apps-desktops
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
-changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new
+latestLinkTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 eoasColumn: true
 eoesColumn: true

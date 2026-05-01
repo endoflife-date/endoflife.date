@@ -7,7 +7,7 @@ iconSlug: caddy
 permalink: /caddy
 versionCommand: caddy version
 releasePolicyLink: https://github.com/caddyserver/caddy/security
-changelogTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
 
 auto:
   methods:

@@ -8,7 +8,7 @@ permalink: /eclipse-jetty
 alternate_urls:
   - /jetty
 releasePolicyLink: https://jetty.org/download.html
-changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
+latestLinkTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"

@@ -11,7 +11,7 @@ alternate_urls:
   - /ps1
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
-changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 eolColumn: Support Status
 
 identifiers:

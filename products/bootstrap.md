@@ -6,7 +6,7 @@ tags: css-runtime javascript-runtime herodevs
 iconSlug: bootstrap
 permalink: /bootstrap
 releasePolicyLink: https://github.com/twbs/release
-changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
 eolColumn: Critical Support

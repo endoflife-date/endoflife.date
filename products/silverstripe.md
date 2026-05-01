@@ -9,7 +9,7 @@ alternate_urls:
   - /silverstripe-framework
 versionCommand: composer info silverstripe/cms
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
-changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
+latestLinkTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
 eolColumn: Security Support
 

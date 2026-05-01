@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
-changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
+latestLinkTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 eolColumn: OSS Support
 eoesColumn: Commercial Support
 

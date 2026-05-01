@@ -7,7 +7,7 @@ iconSlug: elasticsearch
 permalink: /elasticsearch
 versionCommand: $ES_HOME/bin/elasticsearch -v
 releasePolicyLink: https://www.elastic.co/support_policy
-changelogTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
+latestLinkTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
 
 identifiers:

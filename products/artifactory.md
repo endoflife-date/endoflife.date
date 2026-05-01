@@ -4,7 +4,7 @@ addedAt: 2023-07-09
 category: server-app
 iconSlug: jfrog
 permalink: /artifactory
-changelogTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
+latestLinkTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
 releasePolicyLink: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
 eolColumn: Support
 

@@ -7,7 +7,7 @@ iconSlug: apachenifi
 permalink: /apache-nifi
 alternate_urls:
   - /nifi
-changelogTemplate: https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version__LATEST__
+latestLinkTemplate: https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version__LATEST__
 eolColumn: Support
 
 identifiers:

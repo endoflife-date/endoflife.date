@@ -7,7 +7,7 @@ iconSlug: netbsd
 permalink: /netbsd
 versionCommand: uname -r
 releasePolicyLink: https://www.netbsd.org/releases/
-changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
+latestLinkTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
 eoasColumn: true
 staleReleaseThresholdDays: 1095 # OSes have a longer support window
 

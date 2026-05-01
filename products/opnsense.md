@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: opnsense
 permalink: /opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
-changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
+latestLinkTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 identifiers:

@@ -9,7 +9,7 @@ alternate_urls:
   - /crdb
 versionCommand: cockroach version
 releasePolicyLink: https://www.cockroachlabs.com/docs/releases/release-support-policy
-changelogTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
+latestLinkTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 

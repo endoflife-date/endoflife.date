@@ -7,7 +7,7 @@ iconSlug: apple
 permalink: /tvos
 alternate_urls:
   - /apple-tvos
-changelogTemplate: https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes
+latestLinkTemplate: https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes
 eolColumn: Service Status
 
 identifiers:

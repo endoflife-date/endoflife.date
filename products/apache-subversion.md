@@ -7,7 +7,7 @@ permalink: /apache-subversion
 alternate_urls:
   - /svn
   - /subversion
-changelogTemplate: https://subversion.apache.org/docs/release-notes/__RELEASE_CYCLE__.html
+latestLinkTemplate: https://subversion.apache.org/docs/release-notes/__RELEASE_CYCLE__.html
 releasePolicyLink: https://subversion.apache.org/roadmap.html
 eolColumn: Support
 staleReleaseThresholdDays: 730 # project is not very active anymore

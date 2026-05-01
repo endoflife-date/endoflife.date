@@ -7,7 +7,7 @@ iconSlug: angular
 permalink: /angular
 versionCommand: ng version
 releasePolicyLink: https://angular.dev/reference/releases
-changelogTemplate: https://github.com/angular/angular/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/angular/angular/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
 

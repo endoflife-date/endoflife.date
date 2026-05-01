@@ -10,7 +10,7 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
+latestLinkTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Expanded Security Maintenance
@@ -40,7 +40,7 @@ releases:
     eoes: 2031-05-31
     latest: "26.04"
     latestReleaseDate: 2026-04-23
-    
+
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09

@@ -9,7 +9,7 @@ alternate_urls:
   - /node
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/en/about/previous-releases
-changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
+latestLinkTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 eoesColumn: "Commercial Support"
 

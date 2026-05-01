@@ -6,7 +6,7 @@ iconSlug: ffmpeg
 permalink: /ffmpeg
 versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
-changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
+latestLinkTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Supported
 
@@ -31,7 +31,7 @@ releases:
     eol: false
     latest: "8.1.0"
     latestReleaseDate: 2026-03-16
-    
+
   - releaseCycle: "8.0"
     codename: Huffman
     releaseDate: 2025-08-22

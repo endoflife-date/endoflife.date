@@ -6,7 +6,7 @@ iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
-changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
+latestLinkTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
 eolColumn: Critical security patches
 

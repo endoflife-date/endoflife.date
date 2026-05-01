@@ -12,7 +12,7 @@ versionCommand: |-
 
   # RedHat based
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
-changelogTemplate: "https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
+latestLinkTemplate: "https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
 
 identifiers:

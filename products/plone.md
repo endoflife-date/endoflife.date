@@ -5,7 +5,7 @@ category: server-app
 tags: python-runtime
 permalink: /plone
 releasePolicyLink: https://plone.org/download/release-schedule
-changelogTemplate: "https://plone.org/download/releases/__LATEST__"
+latestLinkTemplate: "https://plone.org/download/releases/__LATEST__"
 eoasColumn: Maintenance Support
 eolColumn: Security Support
 

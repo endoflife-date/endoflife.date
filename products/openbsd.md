@@ -6,7 +6,7 @@ tags: bsd-distribution unix-distribution
 iconSlug: openbsd
 permalink: /openbsd
 versionCommand: uname -r
-changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
+latestLinkTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 latestColumn: false
 
 identifiers:

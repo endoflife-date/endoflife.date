@@ -10,7 +10,7 @@ alternate_urls:
   - /suse-mlm
 versionCommand: zypper info mgradm
 releasePolicyLink: https://www.suse.com/support/policy-products/#manager
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
+latestLinkTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
 eoesColumn: <abbr title="Long Term Support">LTS</abbr>
 
@@ -95,7 +95,7 @@ releases:
 > This page tracks SUSE Multi-Linux Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org).
 > Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years. 
+SUSE releases a new version of SUSE Multi-Linux Manager roughly every 2 years.
 SUSE supports each SUSE Multi-Linux Manager release for three years.
 
 SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Manager Server.
@@ -104,5 +104,5 @@ SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Ma
 
 There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
 
-An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3), 
-which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription. 
+An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3),
+which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription.

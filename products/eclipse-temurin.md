@@ -9,7 +9,7 @@ alternate_urls:
   - /temurin
 versionCommand: java -version
 releasePolicyLink: https://adoptium.net/support/
-changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
+latestLinkTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 
 identifiers:
   - repology: temurin-bin

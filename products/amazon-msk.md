@@ -10,7 +10,7 @@ alternate_urls:
   - /managed-streaming-for-apache-kafka
   - /aws-msk
 releasePolicyLink: https://docs.aws.amazon.com/msk/latest/developerguide/version-support.html
-changelogTemplate: "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html#{{'__LATEST__' | replace:'.x',''}}"
+latestLinkTemplate: "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html#{{'__LATEST__' | replace:'.x',''}}"
 eolColumn: Support
 staleReleaseThresholdDays: 1000 # confirmed on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html
 

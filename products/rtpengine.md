@@ -5,7 +5,7 @@ category: server-app
 permalink: /rtpengine
 versionCommand: rtpengine -v
 releaseLabel: "mr__RELEASE_CYCLE__"
-changelogTemplate: "https://www.sipwise.com/releases/{{'__RELEASE_DATE__'|split:'-'|first}}/mr__RELEASE_CYCLE__"
+latestLinkTemplate: "https://www.sipwise.com/releases/{{'__RELEASE_DATE__'|split:'-'|first}}/mr__RELEASE_CYCLE__"
 
 identifiers:
   - repology: rtpengine

@@ -5,7 +5,7 @@ category: server-app
 iconSlug: authentik
 permalink: /authentik
 releasePolicyLink: https://docs.goauthentik.io/enterprise/entsupport/#product-version-support
-changelogTemplate: "https://docs.goauthentik.io/releases/__RELEASE_CYCLE__/#fixed-in-{{'__LATEST__'|replace:'.',''}}"
+latestLinkTemplate: "https://docs.goauthentik.io/releases/__RELEASE_CYCLE__/#fixed-in-{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Supported
 releaseDateColumn: true
 

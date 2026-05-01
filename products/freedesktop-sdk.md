@@ -5,7 +5,7 @@ category: framework
 iconSlug: freedesktopdotorg
 permalink: /freedesktop-sdk
 releasePolicyLink: https://freedesktop-sdk.gitlab.io/documentation/updating-sdk/release-notes/
-changelogTemplate: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-__LATEST__
+latestLinkTemplate: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-__LATEST__
 
 auto:
   methods:

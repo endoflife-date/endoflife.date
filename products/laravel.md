@@ -7,7 +7,7 @@ iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
 releasePolicyLink: https://laravel.com/docs/releases#support-policy
-changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
+latestLinkTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
 customFields:

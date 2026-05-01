@@ -8,7 +8,7 @@ alternate_urls:
   - /varnish
 versionCommand: varnishd -V
 releasePolicyLink: https://vinyl-cache.org/releases/index.html
-changelogTemplate: https://vinyl-cache.org/releases/rel__LATEST__.html
+latestLinkTemplate: https://vinyl-cache.org/releases/rel__LATEST__.html
 
 identifiers:
   - repology: varnish

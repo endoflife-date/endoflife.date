@@ -7,7 +7,7 @@ iconSlug: mastodon
 permalink: /mastodon
 versionCommand: tootctl --version
 releasePolicyLink: https://github.com/mastodon/mastodon/security/policy
-changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

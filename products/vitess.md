@@ -7,7 +7,7 @@ iconSlug: vitess
 permalink: /vitess
 versionCommand: vtctl --version
 releasePolicyLink: https://github.com/vitessio/enhancements/blob/main/veps/vep-5.md
-changelogTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:

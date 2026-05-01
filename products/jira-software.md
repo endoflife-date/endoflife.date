@@ -9,7 +9,7 @@ alternate_urls:
   - /jira
   - /jira-core
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
-changelogTemplate: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+__RELEASE_CYCLE__.x+release+notes
+latestLinkTemplate: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+__RELEASE_CYCLE__.x+release+notes
 eolColumn: Support
 
 identifiers:

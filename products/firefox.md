@@ -7,7 +7,7 @@ iconSlug: firefoxbrowser
 permalink: /firefox
 versionCommand: firefox --version
 releasePolicyLink: https://www.mozilla.org/firefox/
-changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+latestLinkTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
 identifiers:

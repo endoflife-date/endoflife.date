@@ -6,7 +6,7 @@ iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
-changelogTemplate: |
+latestLinkTemplate: |
   https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
 
 identifiers:

@@ -9,7 +9,7 @@ alternate_urls:
   - /influxdb-core
 versionCommand: influxd version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
-changelogTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
 eoasColumn: false
 
 identifiers:

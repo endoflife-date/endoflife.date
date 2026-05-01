@@ -6,7 +6,7 @@ iconSlug: forgejo
 permalink: /forgejo
 versionCommand: forgejo --version
 releasePolicyLink: https://forgejo.org/docs/latest/admin/upgrade/#release-life-cycle
-changelogTemplate: https://codeberg.org/forgejo/forgejo/releases/tag/v__LATEST__
+latestLinkTemplate: https://codeberg.org/forgejo/forgejo/releases/tag/v__LATEST__
 
 auto:
   methods:

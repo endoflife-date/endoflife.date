@@ -7,7 +7,7 @@ iconSlug: pnpm
 permalink: /pnpm
 versionCommand: pnpm --version
 releasePolicyLink: https://github.com/pnpm/pnpm/security/policy
-changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
 eolColumn: Support
 
 identifiers:

@@ -7,7 +7,7 @@ iconSlug: argo
 permalink: /argo-workflows
 versionCommand: argo version
 releasePolicyLink: https://argo-workflows.readthedocs.io/en/latest/releases/
-changelogTemplate: https://github.com/argoproj/argo-workflows/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/argoproj/argo-workflows/releases/tag/v__LATEST__
 eolColumn: Supported
 
 identifiers:

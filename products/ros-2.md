@@ -8,7 +8,7 @@ alternate_urls:
   - /ros2
 versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
-changelogTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
+latestLinkTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
 releaseLabel: "__CODENAME__"
 latestColumn: false
 eolColumn: End Of Life

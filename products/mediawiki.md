@@ -6,7 +6,7 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
+latestLinkTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 eolColumn: End-of-Life
 
 identifiers:

@@ -6,7 +6,7 @@ tags: ruby-runtime
 iconSlug: redmine
 permalink: /redmine
 releasePolicyLink: https://www.redmine.org/projects/redmine/news
-changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
+latestLinkTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 
 identifiers:
   - repology: redmine

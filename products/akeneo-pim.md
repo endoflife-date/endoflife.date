@@ -5,7 +5,7 @@ category: server-app
 tags: php-runtime
 permalink: /akeneo-pim
 releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
+latestLinkTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 

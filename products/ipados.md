@@ -5,7 +5,7 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /ipados
-changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
+latestLinkTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
 auto:

@@ -6,7 +6,7 @@ tags: cncf kubernetes
 iconSlug: kubernetes
 permalink: /karpenter
 releasePolicyLink: https://github.com/kubernetes-sigs/karpenter/blob/main/RELEASE.md
-changelogTemplate: https://github.com/kubernetes-sigs/karpenter/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/kubernetes-sigs/karpenter/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

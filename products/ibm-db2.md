@@ -7,7 +7,7 @@ iconSlug: ibm
 permalink: /ibm-db2
 versionCommand: db2level
 releasePolicyLink: https://www.ibm.com/support/pages/db2-distributed-end-support-eos-dates
-changelogTemplate: https://www.ibm.com/docs/en/db2/__RELEASE_CYCLE__.0
+latestLinkTemplate: https://www.ibm.com/docs/en/db2/__RELEASE_CYCLE__.0
 latestColumn: false
 eol: Base Support
 eoes: Extended Support

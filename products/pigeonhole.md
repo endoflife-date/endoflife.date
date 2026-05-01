@@ -6,7 +6,7 @@ iconSlug: dovecot
 permalink: /pigeonhole
 alternate_urls:
   - /dovecot-pigeonhole
-changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
 
 identifiers:
   - repology: dovecot-pigeonhole

@@ -7,7 +7,7 @@ iconSlug: mautic
 permalink: /mautic
 versionCommand: bin/console --version
 releasePolicyLink: https://www.mautic.org/mautic-releases
-changelogTemplate: https://github.com/mautic/mautic/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/mautic/mautic/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: true
 

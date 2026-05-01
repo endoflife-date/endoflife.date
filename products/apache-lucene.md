@@ -8,7 +8,7 @@ permalink: /apache-lucene
 alternate_urls:
   - /lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
-changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
+latestLinkTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 
 identifiers:
   - cpe: cpe:2.3:a:apache:lucene

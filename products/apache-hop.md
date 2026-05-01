@@ -7,7 +7,7 @@ iconSlug: apache
 permalink: /apache-hop
 alternate_urls:
   - /hop
-changelogTemplate: "https://hop.apache.org/blog/{{'__LATEST_RELEASE_DATE__'|split:'-'|pop|join:'/'}}/hop-__LATEST__/"
+latestLinkTemplate: "https://hop.apache.org/blog/{{'__LATEST_RELEASE_DATE__'|split:'-'|pop|join:'/'}}/hop-__LATEST__/"
 eolColumn: Support
 
 auto:

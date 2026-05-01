@@ -9,7 +9,7 @@ alternate_urls:
   - /open-wrt
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://openwrt.org/docs/guide-developer/security#support_status
-changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
+latestLinkTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
 eoasColumn: true
 
 auto:

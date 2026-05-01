@@ -6,7 +6,7 @@ tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-workstation
 versionCommand: chef --version
-changelogTemplate: "https://docs.chef.io/release_notes_workstation/#__LATEST__"
+latestLinkTemplate: "https://docs.chef.io/release_notes_workstation/#__LATEST__"
 eoasColumn: true
 
 identifiers:

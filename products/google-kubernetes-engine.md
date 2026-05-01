@@ -9,7 +9,7 @@ alternate_urls:
   - /gke
 versionCommand: kubectl version
 releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
-changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
+latestLinkTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 eoasColumn: true
 eolColumn: Maintenance Support
 

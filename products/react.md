@@ -6,7 +6,7 @@ tags: meta javascript-runtime
 iconSlug: react
 permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
-changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 eoasColumn: true
 staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#stable-releases
 

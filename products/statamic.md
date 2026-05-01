@@ -7,7 +7,7 @@ iconSlug: statamic
 permalink: /statamic
 versionCommand: php please --version
 releasePolicyLink: https://statamic.dev/release-schedule-support-policy/
-changelogTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.md"
+latestLinkTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.md"
 eoasColumn: true
 
 customFields:

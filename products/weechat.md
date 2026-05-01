@@ -4,7 +4,7 @@ addedAt: 2023-07-15
 category: app
 permalink: /weechat
 versionCommand: weechat --version
-changelogTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
 eolColumn: Active Support
 
 identifiers:

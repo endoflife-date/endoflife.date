@@ -4,7 +4,7 @@ addedAt: 2025-09-10
 category: lang
 iconSlug: gleam
 permalink: /gleam
-changelogTemplate: https://github.com/gleam-lang/gleam/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/gleam-lang/gleam/releases/tag/v__LATEST__
 eolColumn: Support
 versionCommand: gleam --version
 

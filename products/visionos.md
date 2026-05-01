@@ -5,7 +5,7 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /visionos
-changelogTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
+latestLinkTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
 
 auto:
   methods:

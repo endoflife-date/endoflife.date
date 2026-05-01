@@ -7,7 +7,7 @@ iconSlug: owasp
 permalink: /dependency-track
 alternate_urls:
   - /dependencytrack
-changelogTemplate: https://docs.dependencytrack.org/changelog/
+latestLinkTemplate: https://docs.dependencytrack.org/changelog/
 
 identifiers:
   - repology: dependency-track

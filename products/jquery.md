@@ -5,7 +5,7 @@ category: framework
 tags: javascript-runtime linux-foundation
 iconSlug: jquery
 permalink: /jquery
-changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
 
 identifiers:

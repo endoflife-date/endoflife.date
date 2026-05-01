@@ -11,7 +11,7 @@ versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
 eoasColumn: true
 eoesColumn: Commercial Support
-changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
 
 auto:
   methods:

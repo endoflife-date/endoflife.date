@@ -5,7 +5,7 @@ category: app
 tags: herodevs javascript-runtime linux-foundation
 iconSlug: grunt
 permalink: /grunt
-changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/gruntjs/grunt/releases/tag/v__LATEST__
 eolColumn: Community Support
 eoesColumn: Commercial Support
 

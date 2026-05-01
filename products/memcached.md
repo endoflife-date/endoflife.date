@@ -4,7 +4,7 @@ addedAt: 2023-12-26
 category: database
 permalink: /memcached
 versionCommand: memcached -h
-changelogTemplate: "https://github.com/memcached/memcached/wiki/ReleaseNotes{{'__LATEST__'|replace:'.',''}}"
+latestLinkTemplate: "https://github.com/memcached/memcached/wiki/ReleaseNotes{{'__LATEST__'|replace:'.',''}}"
 
 identifiers:
   - purl: pkg:generic/memcached

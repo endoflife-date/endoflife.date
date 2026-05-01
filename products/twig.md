@@ -4,7 +4,7 @@ addedAt: 2022-10-17
 category: framework
 tags: php-runtime
 permalink: /twig
-changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
+latestLinkTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 
 auto:
   methods:

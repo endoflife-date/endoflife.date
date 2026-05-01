@@ -6,7 +6,7 @@ iconSlug: gstreamer
 permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
-changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
+latestLinkTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
 eolColumn: Supported
 
 identifiers:

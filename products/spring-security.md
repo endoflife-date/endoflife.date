@@ -6,7 +6,7 @@ tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-security
 releasePolicyLink: https://github.com/spring-projects/spring-security/releases
-changelogTemplate: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__
 eolColumn: OSS support
 eoesColumn: Commercial Support
 

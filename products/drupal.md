@@ -7,7 +7,7 @@ iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
+latestLinkTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
 eoasColumn: true
 

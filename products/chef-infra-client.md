@@ -9,7 +9,7 @@ alternate_urls:
   - /chef-client
 versionCommand: chef-client -v
 releasePolicyLink: https://docs.chef.io/versions/
-changelogTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
+latestLinkTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
 eoasColumn: true
 
 identifiers:

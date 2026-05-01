@@ -6,7 +6,7 @@ tags: java-runtime linux-foundation
 iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
-changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
+latestLinkTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
 eolColumn: Support
 
 identifiers:

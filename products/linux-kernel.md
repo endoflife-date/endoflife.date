@@ -11,7 +11,7 @@ alternate_urls:
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releasePolicyLink: https://www.kernel.org/
-changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
+latestLinkTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
 auto:
   methods:

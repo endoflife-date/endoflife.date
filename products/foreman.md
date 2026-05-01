@@ -6,7 +6,7 @@ permalink: /foreman
 alternate_urls:
   - /theforeman
   - /the-foreman
-changelogTemplate: https://theforeman.org/manuals/__RELEASE_CYCLE__/index.html#Releasenotesfor__RELEASE_CYCLE__
+latestLinkTemplate: https://theforeman.org/manuals/__RELEASE_CYCLE__/index.html#Releasenotesfor__RELEASE_CYCLE__
 
 identifiers:
   - repology: foreman

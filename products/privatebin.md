@@ -4,7 +4,7 @@ addedAt: 2024-07-27
 category: server-app
 permalink: /privatebin
 releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme
-changelogTemplate: https://github.com/PrivateBin/PrivateBin/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/PrivateBin/PrivateBin/releases/tag/__LATEST__
 
 auto:
   methods:

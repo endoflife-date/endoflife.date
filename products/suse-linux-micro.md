@@ -9,7 +9,7 @@ alternate_urls:
   - /sl-micro
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SL-Micro/__RELEASE_CYCLE__/
+latestLinkTemplate: https://www.suse.com/releasenotes/x86_64/SL-Micro/__RELEASE_CYCLE__/
 latestColumn: false
 eolColumn: General Support
 

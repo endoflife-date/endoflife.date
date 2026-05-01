@@ -5,7 +5,7 @@ category: server-app
 tags: python-runtime web-server
 permalink: /thumbor
 versionCommand: thumbor --version
-changelogTemplate: https://github.com/thumbor/thumbor/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/thumbor/thumbor/releases/tag/__LATEST__
 
 identifiers:
   - repology: thumbor

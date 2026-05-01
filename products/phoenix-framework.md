@@ -8,7 +8,7 @@ alternate_urls:
   - /phoenix
   - /phoenixframework
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
-changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 eoasColumn: Bug Fixes
 staleReleaseThresholdDays: 1500 # https://github.com/phoenixframework/phoenix/security
 

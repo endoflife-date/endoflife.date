@@ -5,7 +5,7 @@ category: os
 tags: apple smartwatch
 iconSlug: apple
 permalink: /watchos
-changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
+latestLinkTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
 
 identifiers:
   - cpe: cpe:/o:apple:watch_os

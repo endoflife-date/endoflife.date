@@ -7,7 +7,7 @@ iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
-changelogTemplate: https://releases.electronjs.org/release/v__LATEST__
+latestLinkTemplate: https://releases.electronjs.org/release/v__LATEST__
 eolColumn: Supported
 
 customFields:

@@ -5,7 +5,7 @@ category: server-app
 tags: cncf linux-foundation
 iconSlug: kuma
 permalink: /kuma
-changelogTemplate: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:

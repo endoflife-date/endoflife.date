@@ -7,7 +7,7 @@ permalink: /unity
 alternate_urls:
   - /unity3d
 releasePolicyLink: https://unity.com/releases/unity-6/support
-changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
+latestLinkTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 eoesColumn: Extended Long Term Support
 
 auto:

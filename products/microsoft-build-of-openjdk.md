@@ -7,7 +7,7 @@ iconSlug: openjdk
 permalink: /microsoft-build-of-openjdk
 versionCommand: java -version
 releasePolicyLink: https://learn.microsoft.com/java/openjdk/support
-changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openjdk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
+latestLinkTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openjdk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 
 # There is one repository for each major LTS release.
 auto:

@@ -6,7 +6,7 @@ iconSlug: f5
 permalink: /big-ip
 versionCommand: show /sys version
 releasePolicyLink: https://my.f5.com/manage/s/article/K5903
-changelogTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
+latestLinkTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
 eoasColumn: End of Software Development
 eolColumn: End of Technical Support
 

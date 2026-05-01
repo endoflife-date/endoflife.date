@@ -10,7 +10,7 @@ alternate_urls:
   - /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-changelogTemplate: https://docs.redhat.com/en/documentation/openshift_container_platform/__RELEASE_CYCLE__/html/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes
+latestLinkTemplate: https://docs.redhat.com/en/documentation/openshift_container_platform/__RELEASE_CYCLE__/html/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes
 eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Update Support

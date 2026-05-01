@@ -7,7 +7,7 @@ permalink: /erlang
 alternate_urls:
   - /erlang-otp
 releasePolicyLink: https://www.erlang.org/doc/system_principles/misc.html
-changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
+latestLinkTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
 
 identifiers:

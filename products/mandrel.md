@@ -4,7 +4,7 @@ addedAt: 2024-09-25
 category: lang
 tags: java-distribution openjdk
 permalink: /mandrel
-changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
+latestLinkTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
 
 auto:

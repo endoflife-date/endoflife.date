@@ -5,7 +5,7 @@ category: server-app
 tags: jetbrains
 iconSlug: jetbrains
 permalink: /youtrack
-changelogTemplate: https://www.jetbrains.com/youtrack/whatsnew/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
+latestLinkTemplate: https://www.jetbrains.com/youtrack/whatsnew/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
 
 identifiers:
   - repology: youtrack

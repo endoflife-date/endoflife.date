@@ -6,7 +6,7 @@ iconSlug: icinga
 permalink: /icinga
 versionCommand: icinga2 -V
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
-changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
+latestLinkTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
 
 identifiers:

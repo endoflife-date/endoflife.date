@@ -5,7 +5,7 @@ category: framework
 tags: discontinued
 permalink: /oniguruma
 releasePolicyLink: https://github.com/kkos/oniguruma
-changelogTemplate: https://github.com/kkos/oniguruma/releases/tag/v__LATEST__/
+latestLinkTemplate: https://github.com/kkos/oniguruma/releases/tag/v__LATEST__/
 eolColumn: Support
 
 identifiers:

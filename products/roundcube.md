@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: roundcube
 permalink: /roundcube
 releasePolicyLink: https://roundcube.net/download/
-changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 eoasColumn: true
 eolColumn: Security Support
 

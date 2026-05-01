@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
-changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}_version_history#Joomla___LATEST__"
+latestLinkTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}_version_history#Joomla___LATEST__"
 eoasColumn: true
 
 identifiers:
@@ -25,7 +25,7 @@ releases:
     eol: 2029-10-16
     latest: "6.1.0"
     latestReleaseDate: 2026-04-14
-    # check later for removal: the link with changelogTemplate does not work (yet)
+    # check later for removal: the link with latestLinkTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5939-joomla-6-0-and-joomla-5-4-are-here.html
 
   - releaseCycle: "5"
@@ -34,7 +34,7 @@ releases:
     eol: 2027-10-12
     latest: "5.4.112"
     latestReleaseDate: 2025-07-22
-    # check later for removal: the link with changelogTemplate does not work (yet)
+    # check later for removal: the link with latestLinkTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
   - releaseCycle: "4"

@@ -10,7 +10,7 @@ versionCommand: |-
   # or alternatively
   python3 --version
 releasePolicyLink: https://devguide.python.org/versions/
-changelogTemplate: |
+latestLinkTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 eoasColumn: true
 

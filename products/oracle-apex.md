@@ -9,7 +9,7 @@ alternate_urls:
   - /orclapex
 versionCommand: SELECT VERSION_NO FROM APEX_RELEASE;
 releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
-changelogTemplate: https://apex.oracle.com/en/platform/features/whats-new-{{"__RELEASE_CYCLE__" | replace:".",""}}/
+latestLinkTemplate: https://apex.oracle.com/en/platform/features/whats-new-{{"__RELEASE_CYCLE__" | replace:".",""}}/
 latestColumn: false
 
 auto:

@@ -9,7 +9,7 @@ alternate_urls:
   - /oracle-openjdk
 versionCommand: java -version
 releasePolicyLink: https://jdk.java.net/
-changelogTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
+latestLinkTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
 supportColumn: false
 
 identifiers:

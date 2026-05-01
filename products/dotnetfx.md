@@ -10,7 +10,7 @@ alternative_urls:
   - /dotnetframework
 versionCommand: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
-changelogTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
+latestLinkTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
 latestColumn: false
 eolColumn: Support Status
 staleReleaseThresholdDays: 3650 # linked to their corresponding Windows version

@@ -7,7 +7,7 @@ iconSlug: freebsd
 permalink: /freebsd
 versionCommand: freebsd-version
 releasePolicyLink: https://www.freebsd.org/security/#sup
-changelogTemplate: https://www.freebsd.org/releases/__RELEASE_CYCLE__R/relnotes/
+latestLinkTemplate: https://www.freebsd.org/releases/__RELEASE_CYCLE__R/relnotes/
 latestColumn: false
 
 identifiers:

@@ -5,7 +5,7 @@ category: server-app
 tags: cncf linux-foundation
 permalink: /keda
 releasePolicyLink: https://github.com/kedacore/governance/blob/main/RELEASES.md
-changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
 
 customFields:

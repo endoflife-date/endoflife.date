@@ -5,7 +5,7 @@ category: app
 permalink: /libreoffice
 iconSlug: libreoffice
 releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
-changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
+latestLinkTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
 eolColumn: Support Status
 
 identifiers:

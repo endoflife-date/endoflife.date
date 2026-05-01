@@ -6,7 +6,7 @@ tags: herodevs javascript-runtime linux-foundation
 iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm
-changelogTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
 versionCommand: nvm --version
 eolColumn: Community Support
 

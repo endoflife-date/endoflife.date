@@ -7,7 +7,7 @@ iconSlug: cilium
 permalink: /cilium
 versionCommand: cilium version
 releasePolicyLink: https://docs.cilium.io/en/stable/contributing/release/
-changelogTemplate: https://github.com/cilium/cilium/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/cilium/cilium/releases/tag/v__LATEST__
 eolColumn: Maintenance Support
 
 identifiers:

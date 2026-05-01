@@ -7,7 +7,7 @@ iconSlug: hashicorp
 permalink: /boundary
 versionCommand: boundary --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
-changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
+latestLinkTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
 
 identifiers:
   - repology: boundary

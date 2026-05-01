@@ -5,7 +5,7 @@ category: server-app
 permalink: /proftpd
 versionCommand: proftpd --version
 releasePolicyLink: http://www.proftpd.org/docs/howto/Versioning.html
-changelogTemplate: https://github.com/proftpd/proftpd/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/proftpd/proftpd/releases/tag/v__LATEST__
 eolColumn: Maintenance Support
 eoasColumn: Stable Support
 

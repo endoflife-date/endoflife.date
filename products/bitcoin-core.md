@@ -5,7 +5,7 @@ category: server-app
 iconSlug: bitcoin
 permalink: /bitcoin-core
 releasePolicyLink: https://bitcoincore.org/en/lifecycle/
-changelogTemplate: https://bitcoincore.org/en/releases/__LATEST__/
+latestLinkTemplate: https://bitcoincore.org/en/releases/__LATEST__/
 
 auto:
   methods:

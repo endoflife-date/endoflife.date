@@ -7,7 +7,7 @@ iconSlug: apacheflink
 permalink: /apache-flink
 alternate_urls:
   - /flink
-changelogTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
+latestLinkTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
 
 customFields:
   - name: recommendedJavaVersion

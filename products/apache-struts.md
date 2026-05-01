@@ -7,7 +7,7 @@ iconSlug: apache
 permalink: /apache-struts
 alternate_urls:
   - /struts
-changelogTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+__LATEST__
+latestLinkTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+__LATEST__
 eolColumn: Support
 eoesColumn: Commercial Support
 

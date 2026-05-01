@@ -6,7 +6,7 @@ iconSlug: tarteaucitron
 tags: javascript-runtime
 permalink: /tarteaucitron
 releasePolicyLink: https://github.com/AmauriC/tarteaucitron.js?tab=security-ov-file
-changelogTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__
 
 auto:
   methods:

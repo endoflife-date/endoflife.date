@@ -9,7 +9,7 @@ alternate_urls:
   - /next-js
   - /nextdotjs
 versionCommand: npx next --version
-changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 
 identifiers:
   - purl: pkg:npm/next

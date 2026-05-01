@@ -6,7 +6,7 @@ permalink: /ldap-account-manager
 alternate_urls:
   - /lam
   - /ldapaccountmanager
-changelogTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATEST__
 
 identifiers:
   - repology: ldap-account-manager

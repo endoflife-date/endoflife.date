@@ -8,7 +8,7 @@ permalink: /dbt-core
 alternate_urls:
   - /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
-changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Critical Support
 

@@ -6,7 +6,7 @@ tags: java-runtime
 permalink: /jreleaser
 versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html
-changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATEST__"
 eoasColumn: true
 eolColumn: Security Support
 

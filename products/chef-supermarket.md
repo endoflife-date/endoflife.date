@@ -7,7 +7,7 @@ iconSlug: chef
 permalink: /chef-supermarket
 versionCommand: supermarket-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
-changelogTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
+latestLinkTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
 
 auto:
   methods:

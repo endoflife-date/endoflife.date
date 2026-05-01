@@ -10,7 +10,7 @@ alternate_urls:
   - /mvn
 versionCommand: mvn --version
 releasePolicyLink: https://maven.apache.org/docs/history.html
-changelogTemplate: "https://github.com/apache/maven/releases/tag/maven-__LATEST__"
+latestLinkTemplate: "https://github.com/apache/maven/releases/tag/maven-__LATEST__"
 eolColumn: Support
 
 identifiers:
@@ -101,5 +101,5 @@ releases:
 > Based on the concept of a project object model (POM), Maven can manage a project's build,
 > reporting and documentation from a central piece of information.
 
-Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains 
+Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains
 the [two last minor versions](https://maven.apache.org/docs/history.html).

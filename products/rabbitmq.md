@@ -7,7 +7,7 @@ iconSlug: rabbitmq
 permalink: /rabbitmq
 versionCommand: rabbitmqctl --version
 releasePolicyLink: https://www.rabbitmq.com/release-information
-changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
 eolColumn: Community Support
 eoesColumn: Extended Commercial Support
 

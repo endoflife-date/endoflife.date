@@ -6,7 +6,7 @@ tags: javascript-runtime ruby-runtime
 iconSlug: discourse
 permalink: /discourse
 releasePolicyLink: https://releases.discourse.org/
-changelogTemplate: "https://releases.discourse.org/changelog/v__LATEST__"
+latestLinkTemplate: "https://releases.discourse.org/changelog/v__LATEST__"
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support
 

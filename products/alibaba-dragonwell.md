@@ -9,7 +9,7 @@ alternate_urls:
   - /dragonwell
 versionCommand: java -version
 releasePolicyLink: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
-changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
+latestLinkTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 
 # The repology ones are only AUR right now
 # The docker images and rpm repo are official ones,

@@ -8,7 +8,7 @@ permalink: /spring-boot
 alternate_urls:
   - /springboot
 releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported-Versions
-changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
 eolColumn: OSS support
 eoesColumn: Commercial Support
 

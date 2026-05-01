@@ -6,7 +6,7 @@ iconSlug: openssl
 permalink: /openssl
 versionCommand: openssl version
 releasePolicyLink: https://openssl-library.org/policies/releasestrat/index.html
-changelogTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
+latestLinkTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
 eolColumn: Supported
 eoesColumn: Premium support
 

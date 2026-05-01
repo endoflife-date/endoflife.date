@@ -9,7 +9,7 @@ alternate_urls:
   - /nixoslinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://nixos.org/blog/announcements.html
-changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
+latestLinkTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
 
@@ -22,7 +22,7 @@ releases:
     codename: "Xantusia"
     releaseDate: 2025-11-30
     eol: 2026-06-30
-    
+
   - releaseCycle: "25.05"
     codename: "Warbler"
     releaseDate: 2025-05-23

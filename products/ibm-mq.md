@@ -7,7 +7,7 @@ iconSlug: ibm
 permalink: /ibm-mq
 versionCommand: dspmqver
 releasePolicyLink: https://www.ibm.com/support/pages/ibm-mq-faq-long-term-support-and-continuous-delivery-releases
-changelogTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
+latestLinkTemplate: https://www.ibm.com/docs/en/ibm-mq/__RELEASE_CYCLE__.x
 latestColumn: false
 eolColumn: Support
 eoesColumn: Extended Support

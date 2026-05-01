@@ -11,7 +11,7 @@ versionCommand: |-
   # or alternatively without root access / on Linux
   cat /etc/plesk-release
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
-changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
+latestLinkTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
 
 auto:

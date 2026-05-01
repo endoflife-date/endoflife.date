@@ -6,7 +6,7 @@ iconSlug: coder
 permalink: /coder
 versionCommand: coder version
 releasePolicyLink: https://coder.com/docs/install/releases
-changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:

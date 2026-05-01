@@ -3,7 +3,7 @@
 #
 # Naming conventions:
 # - Raw fields, declared in product's markdown front matter or derived from a template (such as the
-#   changelogTemplate), use the camel case notation (example: endOfLife).
+#   latestLinkTemplate), use the camel case notation (example: endOfLife).
 # - Computed fields, injected by ProductDataEnricher, use the snake case notation (example: end_of_life).
 #
 # Here is a list of computed fields :
@@ -296,8 +296,8 @@ module Jekyll
             cycle['link'] = render_eol_template(cycle['link'], cycle)
           end
         else
-          if page['changelogTemplate']
-            cycle['link'] = render_eol_template(page['changelogTemplate'], cycle)
+          if page['latestLinkTemplate']
+            cycle['link'] = render_eol_template(page['latestLinkTemplate'], cycle)
           end
         end
       end

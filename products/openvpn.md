@@ -5,7 +5,7 @@ category: app
 iconSlug: openvpn
 permalink: /openvpn
 releasePolicyLink: https://community.openvpn.net/openvpn/wiki/SupportedVersions
-changelogTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
+latestLinkTemplate: https://github.com/OpenVPN/openvpn/blob/release/__RELEASE_CYCLE__/ChangeLog
 eoasColumn: Full Stable Support
 
 auto:

@@ -8,7 +8,7 @@ permalink: /svelte
 versionCommand: npm list svelte
 eoasColumn: true
 eoesColumn: false
-changelogTemplate: https://github.com/sveltejs/svelte/releases/tag/svelte%40__LATEST__
+latestLinkTemplate: https://github.com/sveltejs/svelte/releases/tag/svelte%40__LATEST__
 
 auto:
   methods:

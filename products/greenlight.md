@@ -4,7 +4,7 @@ addedAt: 2025-03-01
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
-changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
+latestLinkTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:bigbluebutton:greenlight

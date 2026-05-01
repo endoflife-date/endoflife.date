@@ -6,7 +6,7 @@ tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-cloud
 releasePolicyLink: https://spring.io/projects/spring-cloud#support
-changelogTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/__LATEST__
 eolColumn: OSS support
 eoesColumn: Commercial Support
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"

@@ -10,7 +10,7 @@ versionCommand: |-
   #run wforce client
   wforce -c
   > showVersion()
-changelogTemplate: "https://github.com/PowerDNS/weakforced/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/PowerDNS/weakforced/releases/tag/v__LATEST__"
 auto:
   methods:
     - git: https://github.com/PowerDNS/weakforced.git

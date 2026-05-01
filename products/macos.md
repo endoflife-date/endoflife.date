@@ -8,7 +8,7 @@ permalink: /macos
 alternate_urls:
   - /mac
 versionCommand: sw_vers
-changelogTemplate: "https://developer.apple.com/documentation/macos-release-notes/macos-__RELEASE_CYCLE__-release-notes"
+latestLinkTemplate: "https://developer.apple.com/documentation/macos-release-notes/macos-__RELEASE_CYCLE__-release-notes"
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Service Status
 

@@ -9,7 +9,7 @@ alternate_urls:
   - /apache-activemq-artemis
   - /activemq-artemis
 releasePolicyLink: https://artemis.apache.org/
-changelogTemplate: "https://artemis.apache.org/components/artemis/documentation/latest/versions.html#{{'__LATEST__'|replace:'.','-'}}"
+latestLinkTemplate: "https://artemis.apache.org/components/artemis/documentation/latest/versions.html#{{'__LATEST__'|replace:'.','-'}}"
 versionCommand: artemis version
 
 identifiers:

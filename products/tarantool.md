@@ -5,7 +5,7 @@ category: database
 permalink: /tarantool
 versionCommand: $ tarantool --version
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
-changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
 eolColumn: Support Status
 
 identifiers:

@@ -9,7 +9,7 @@ alternate_urls:
   - /node-driver-registrar
 versionCommand: |-
   csi-node-driver-registrar --version
-changelogTemplate: https://github.com/kubernetes-csi/node-driver-registrar/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/kubernetes-csi/node-driver-registrar/releases/tag/v__LATEST__
 eolColumn: Support
 
 auto:

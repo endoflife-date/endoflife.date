@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes
 permalink: /metallb
 releasePolicyLink: https://metallb.io/community/release-process/
-changelogTemplate: "https://metallb.io/release-notes/#version-{{'__LATEST__'|replace:'.',''}}"
+latestLinkTemplate: "https://metallb.io/release-notes/#version-{{'__LATEST__'|replace:'.',''}}"
 latestColumn: Latest
 releaseDateColumn: Released
 

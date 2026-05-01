@@ -10,7 +10,7 @@ alternate_urls:
   - /alma
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.almalinux.org/release-notes/
-changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
+latestLinkTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 eoasColumn: true
 
 identifiers:

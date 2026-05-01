@@ -7,7 +7,7 @@ iconSlug: wagtail
 permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
-changelogTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
+latestLinkTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
 eoasColumn: true
 
 identifiers:

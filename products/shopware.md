@@ -7,7 +7,7 @@ iconSlug: shopware
 permalink: /shopware
 versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
-changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 eoasColumn: true
 
 customFields:

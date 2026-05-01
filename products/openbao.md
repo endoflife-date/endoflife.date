@@ -9,7 +9,7 @@ alternate_urls:
   - /open-bao
   - /bao
 releasePolicyLink: https://openbao.org/docs/policies/support/
-changelogTemplate: https://github.com/openbao/openbao/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/openbao/openbao/releases/tag/v__LATEST__
 eolColumn: Standard Maintenance
 
 versionCommand: bao version

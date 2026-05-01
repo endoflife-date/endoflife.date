@@ -9,7 +9,7 @@ alternate_urls:
   - /kotlinlang
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
-changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 identifiers:
   - repology: kotlin

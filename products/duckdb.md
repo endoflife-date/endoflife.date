@@ -6,7 +6,7 @@ iconSlug: duckdb
 permalink: /duckdb
 versionCommand: duckdb -version
 releasePolicyLink: https://duckdblabs.com/community_support_policy/
-changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/duckdb/duckdb/releases/tag/v__LATEST__
 eolColumn: Support Status
 
 identifiers:

@@ -8,7 +8,7 @@ versionCommand: |-
   # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
   cmctl version
 releasePolicyLink: https://cert-manager.io/docs/releases/
-changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

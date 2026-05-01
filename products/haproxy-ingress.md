@@ -4,7 +4,7 @@ addedAt: 2026-04-06
 category: server-app
 tags: kubernetes
 permalink: /haproxy-ingress
-changelogTemplate: https://github.com/jcmoraisjr/haproxy-ingress/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/jcmoraisjr/haproxy-ingress/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

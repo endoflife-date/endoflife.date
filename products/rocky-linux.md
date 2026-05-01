@@ -10,7 +10,7 @@ alternate_urls:
   - /rockylinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
-changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
+latestLinkTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
 
 identifiers:

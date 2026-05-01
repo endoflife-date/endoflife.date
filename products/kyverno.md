@@ -6,7 +6,7 @@ tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
-changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
 
 customFields:

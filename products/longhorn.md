@@ -5,7 +5,7 @@ category: server-app
 tags: cncf
 permalink: /longhorn
 releasePolicyLink: https://github.com/longhorn/longhorn/wiki/Release-Schedule-&-Support
-changelogTemplate: https://github.com/longhorn/longhorn/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/longhorn/longhorn/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:

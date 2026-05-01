@@ -11,7 +11,7 @@ versionCommand: |-
   # For Grafana < 13
   grafana-server -v
 
-changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:

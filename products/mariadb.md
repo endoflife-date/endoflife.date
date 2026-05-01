@@ -6,7 +6,7 @@ iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
-changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
+latestLinkTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 

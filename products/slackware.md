@@ -10,7 +10,7 @@ alternate_urls:
   - /slackware-linux
 versionCommand: cat /etc/os-release
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
-changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
+latestLinkTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 latestColumn: false
 staleReleaseThresholdDays: 1825 # oses have longer support periods
 

@@ -8,7 +8,7 @@ permalink: /rancher
 alternate_urls:
   - /suse-rancher
 releasePolicyLink: https://www.suse.com/support/kb/doc/?id=000020432
-changelogTemplate: https://github.com/rancher/rancher/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/rancher/rancher/releases/tag/v__LATEST__
 releaseDateColumn: General Availability
 eoasColumn: Full Support
 eolColumn: Limited Support

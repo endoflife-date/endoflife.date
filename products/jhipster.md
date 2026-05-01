@@ -7,7 +7,7 @@ iconSlug: jhipster
 permalink: /jhipster
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
-changelogTemplate: "https://github.com/jhipster/generator-jhipster/releases/tag/v__LATEST__"
+latestLinkTemplate: "https://github.com/jhipster/generator-jhipster/releases/tag/v__LATEST__"
 eolColumn: Supported
 
 identifiers:

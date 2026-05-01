@@ -7,7 +7,7 @@ iconSlug: symfony
 permalink: /symfony
 versionCommand: composer show | grep "symfony/"
 releasePolicyLink: https://symfony.com/releases
-changelogTemplate: "https://symfony.com/blog/symfony-{{'__LATEST__'|replace:'.','-'}}-released"
+latestLinkTemplate: "https://symfony.com/blog/symfony-{{'__LATEST__'|replace:'.','-'}}-released"
 eoasColumn: true
 
 identifiers:

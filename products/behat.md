@@ -4,7 +4,7 @@ addedAt: 2025-06-29
 category: framework
 tags: php-runtime
 permalink: /behat
-changelogTemplate: https://github.com/Behat/Behat/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/Behat/Behat/releases/tag/v__LATEST__
 releasePolicyLink: https://docs.behat.org/en/latest/releases.html
 eoasColumn: true
 

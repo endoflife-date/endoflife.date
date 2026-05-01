@@ -7,7 +7,7 @@ iconSlug: bazel
 permalink: /bazel
 versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
-changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
+latestLinkTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 eoasColumn: true
 
 identifiers:

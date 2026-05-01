@@ -7,7 +7,7 @@ iconSlug: nuxt
 permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
-changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
+latestLinkTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Maintenance Support
 eoesColumn: Commercial Support

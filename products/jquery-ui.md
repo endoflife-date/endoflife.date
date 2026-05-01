@@ -4,7 +4,7 @@ addedAt: 2024-08-21
 category: framework
 tags: javascript-runtime
 permalink: /jquery-ui
-changelogTemplate: https://github.com/jquery/jquery-ui/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/jquery/jquery-ui/releases/tag/__LATEST__
 
 identifiers:
   - purl: pkg:github/jquery/jquery-ui

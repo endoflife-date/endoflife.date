@@ -9,7 +9,7 @@ alternate_urls:
   - /saltstack
 versionCommand: salt --version
 releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
+latestLinkTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 eoasColumn: true
 
@@ -39,7 +39,7 @@ identifiers:
 
 # link(x) =
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
-# - other: see changelogTemplate
+# - other: see latestLinkTemplate
 releases:
   - releaseCycle: "3007"
     releaseDate: 2024-03-06

@@ -6,7 +6,7 @@ iconSlug: wireshark
 permalink: /wireshark
 versionCommand: wireshark --version
 releasePolicyLink: "https://wiki.wireshark.org/Development/LifeCycle"
-changelogTemplate: "https://www.wireshark.org/docs/relnotes/wireshark-__LATEST__.html"
+latestLinkTemplate: "https://www.wireshark.org/docs/relnotes/wireshark-__LATEST__.html"
 
 eoasColumn: true
 

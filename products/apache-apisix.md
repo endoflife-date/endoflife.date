@@ -7,7 +7,7 @@ iconSlug: apache
 permalink: /apache-apisix
 alternate_urls:
   - /apisix
-changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
+latestLinkTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
 
 identifiers:
   - cpe: cpe:2.3:a:apache:apisix

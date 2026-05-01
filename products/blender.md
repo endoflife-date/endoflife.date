@@ -6,7 +6,7 @@ iconSlug: blender
 permalink: /blender
 versionCommand: blender --version
 releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/release_cycle/
-changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
+latestLinkTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
 eoasColumn: true
 eolColumn: Critical bug fixes
 

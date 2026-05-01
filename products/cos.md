@@ -10,7 +10,7 @@ alternate_urls:
   - /container-optimized-os
 versionCommand: cat /etc/os-release /etc/lsb-release
 releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
-changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
+latestLinkTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
 releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 eolColumn: Support Status
 
