@@ -11,7 +11,7 @@ eolColumn: Standard Support
 
 auto:
   methods:
-    - release_table: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/supported-engine-versions.html
+    - release_table: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/engine-versions.html
       fields:
         releaseCycle:
           column: "Major Engine Version"
