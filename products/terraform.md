@@ -25,91 +25,91 @@ releases:
     releaseDate: 2025-11-19
     eol: false # releaseDate(1.16)
     latest: "1.14.9"
-    latestReleaseDate: 2026-04-20
+    latestDate: 2026-04-20
 
   - releaseCycle: "1.13"
     releaseDate: 2025-08-20
     eol: false # releaseDate(1.15)
     latest: "1.13.5"
-    latestReleaseDate: 2025-11-05
+    latestDate: 2025-11-05
 
   - releaseCycle: "1.12"
     releaseDate: 2025-05-14
     eol: 2025-11-19
     latest: "1.12.2"
-    latestReleaseDate: 2025-06-11
+    latestDate: 2025-06-11
 
   - releaseCycle: "1.11"
     releaseDate: 2025-02-27
     eol: 2025-08-20
     latest: "1.11.4"
-    latestReleaseDate: 2025-04-09
+    latestDate: 2025-04-09
 
   - releaseCycle: "1.10"
     releaseDate: 2024-11-26
     eol: 2025-05-14
     latest: "1.10.5"
-    latestReleaseDate: 2025-01-22
+    latestDate: 2025-01-22
 
   - releaseCycle: "1.9"
     releaseDate: 2024-06-26
     eol: 2025-02-27
     latest: "1.9.8"
-    latestReleaseDate: 2024-10-16
+    latestDate: 2024-10-16
 
   - releaseCycle: "1.8"
     releaseDate: 2024-04-10
     eol: 2024-11-26
     latest: "1.8.5"
-    latestReleaseDate: 2024-06-05
+    latestDate: 2024-06-05
 
   - releaseCycle: "1.7"
     releaseDate: 2024-01-17
     eol: 2024-06-26
     latest: "1.7.5"
-    latestReleaseDate: 2024-03-13
+    latestDate: 2024-03-13
 
   - releaseCycle: "1.6"
     releaseDate: 2023-10-04
     eol: 2024-04-10
     latest: "1.6.6"
-    latestReleaseDate: 2023-12-13
+    latestDate: 2023-12-13
 
   - releaseCycle: "1.5"
     releaseDate: 2023-06-12
     eol: 2024-01-17
     latest: "1.5.7"
-    latestReleaseDate: 2023-09-07
+    latestDate: 2023-09-07
 
   - releaseCycle: "1.4"
     releaseDate: 2023-03-08
     eol: 2023-10-04
     latest: "1.4.7"
-    latestReleaseDate: 2023-09-13
+    latestDate: 2023-09-13
 
   - releaseCycle: "1.3"
     releaseDate: 2022-09-21
     eol: 2023-06-12
     latest: "1.3.10"
-    latestReleaseDate: 2023-09-13
+    latestDate: 2023-09-13
 
   - releaseCycle: "1.2"
     releaseDate: 2022-05-18
     eol: 2023-03-08
     latest: "1.2.9"
-    latestReleaseDate: 2022-09-07
+    latestDate: 2022-09-07
 
   - releaseCycle: "1.1"
     releaseDate: 2021-12-08
     eol: 2022-09-21
     latest: "1.1.9"
-    latestReleaseDate: 2022-04-20
+    latestDate: 2022-04-20
 
   - releaseCycle: "1.0"
     releaseDate: 2021-06-08
     eol: 2022-05-18
     latest: "1.0.11"
-    latestReleaseDate: 2021-11-10
+    latestDate: 2021-11-10
 
 ---
 

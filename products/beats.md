@@ -33,65 +33,65 @@ releases:
     releaseDate: 2026-02-03
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.3.4"
-    latestReleaseDate: 2026-04-22
-    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+    latestDate: 2026-04-22
+    latestLink: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.2"
     releaseDate: 2025-10-20
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.2.8"
-    latestReleaseDate: 2026-04-01
-    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+    latestDate: 2026-04-01
+    latestLink: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.10"
-    latestReleaseDate: 2026-01-07
-    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+    latestDate: 2026-01-07
+    latestLink: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
     latest: "8.19.15"
-    latestReleaseDate: 2026-04-28
+    latestDate: 2026-04-28
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-09
     eol: 2025-10-20
     latest: "8.18.8"
-    latestReleaseDate: 2025-10-02
+    latestDate: 2025-10-02
 
   - releaseCycle: "9.0"
     releaseDate: 2025-04-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.0.8"
-    latestReleaseDate: 2025-10-02
-    link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
+    latestDate: 2025-10-02
+    latestLink: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "8.17"
     releaseDate: 2024-12-11
     eol: false # Supposedly until 8.19 released, but they've released twice since
     latest: "8.17.10"
-    latestReleaseDate: 2025-08-08
+    latestDate: 2025-08-08
 
   - releaseCycle: "8.16"
     releaseDate: 2024-11-07
     eol: 2025-04-18
     latest: "8.16.6"
-    latestReleaseDate: 2025-03-18
+    latestDate: 2025-03-18
 
   - releaseCycle: "7"
     releaseDate: 2019-04-05
     eol: 2026-01-15
     latest: "7.17.29"
-    latestReleaseDate: 2025-06-18
+    latestDate: 2025-06-18
 
   - releaseCycle: "6"
     releaseDate: 2017-11-08
     eol: 2022-02-10
     latest: "6.8.23"
-    latestReleaseDate: 2022-01-13
+    latestDate: 2022-01-13
 
 ---
 

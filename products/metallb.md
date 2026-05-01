@@ -22,19 +22,19 @@ releases:
     releaseDate: 2025-06-03
     eol: false
     latest: "0.15.3"
-    latestReleaseDate: 2025-12-04
+    latestDate: 2025-12-04
 
 -   releaseCycle: "0.14"
     releaseDate: 2024-01-29
     eol: true
     latest: "0.14.9"
-    latestReleaseDate: 2024-12-17
+    latestDate: 2024-12-17
 
 -   releaseCycle: "0.13"
     releaseDate: 2022-07-06
     eol: true
     latest: "0.13.12"
-    latestReleaseDate: 2023-10-20
+    latestDate: 2023-10-20
 
 ---
 

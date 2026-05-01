@@ -18,136 +18,136 @@ releases:
     releaseDate: 2025-09-30
     eol: 2030-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindleScribe3GenerationNotes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindleScribe3GenerationNotes
 
   - releaseCycle: "kindle-scribe-colorsoft-1"
     releaseLabel: "Kindle Scribe Colorsoft (1st Generation)"
     releaseDate: 2025-09-30
     eol: 2030-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindleScribeColorsoft1GenerationNotes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindleScribeColorsoft1GenerationNotes
 
   - releaseCycle: "kindle-scribe-2024"
     releaseLabel: "Kindle Scribe - 2024 Release"
     releaseDate: 2024-12-04
     eol: 2029-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindleScribe2024Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindleScribe2024Notes
 
   - releaseCycle: "kindle-colorsoft-1"
     releaseLabel: "Kindle Colorsoft (1st Generation)"
     releaseDate: 2024-10-30
     eol: 2030-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindleColorsoft-2024-Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindleColorsoft-2024-Notes
 
   - releaseCycle: "paperwhite-12"
     releaseLabel: "Kindle Paperwhite (12th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: 2030-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindlePaperwhite12-2024-Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindlePaperwhite12-2024-Notes
 
   - releaseCycle: "kindle-11-2024"
     releaseLabel: "Kindle (11th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: 2030-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/Kindle11Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "kindle-scribe-2022"
     releaseLabel: "Kindle Scribe - 2022 Release"
     releaseDate: 2022-11-30
     eol: 2029-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/KindleScribeNotes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/KindleScribeNotes
 
   - releaseCycle: "kindle-11-2022"
     releaseLabel: "Kindle (11th Generation) - 2022 Release"
     releaseDate: 2022-09-13
     eol: 2028-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/Kindle11Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "paperwhite-11"
     releaseLabel: "Kindle Paperwhite (11th Generation)"
     releaseDate: 2021-10-27
     eol: 2028-12-31
     latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
-    link: https://www.amazon.com/Paperwhite11Notes
+    latestDate: 2026-02-01
+    latestLink: https://www.amazon.com/Paperwhite11Notes
 
   - releaseCycle: "oasis-10"
     releaseLabel: "Kindle Oasis (10th Generation)"
     releaseDate: 2019-07-24
     eol: 2028-12-31
     latest: "5.18.2"
-    latestReleaseDate: 2025-04-01
-    link: https://www.amazon.com/Oasis10Notes
+    latestDate: 2025-04-01
+    latestLink: https://www.amazon.com/Oasis10Notes
 
   - releaseCycle: "kindle-10"
     releaseLabel: "Kindle (10th Generation)"
     releaseDate: 2019-04-10
     eol: 2026-12-31
     latest: "5.18.1"
-    latestReleaseDate: 2025-03-01
-    link: https://www.amazon.com/Kindle10Notes
+    latestDate: 2025-03-01
+    latestLink: https://www.amazon.com/Kindle10Notes
 
   - releaseCycle: "paperwhite-10"
     releaseLabel: "Kindle Paperwhite (10th Generation)"
     releaseDate: 2018-11-07
     eol: 2026-12-31
     latest: "5.18.1"
-    latestReleaseDate: 2025-03-01
-    link: https://www.amazon.com/Paperwhite10Notes
+    latestDate: 2025-03-01
+    latestLink: https://www.amazon.com/Paperwhite10Notes
 
   - releaseCycle: "oasis-9"
     releaseLabel: "Kindle Oasis (9th Generation)"
     releaseDate: 2017-10-31
     eol: 2024-06-01 # not in Amazon's security support table
     latest: "5.16.2.1.1"
-    latestReleaseDate: 2023-06-01
-    link: https://www.amazon.com/Oasis9Notes
+    latestDate: 2023-06-01
+    latestLink: https://www.amazon.com/Oasis9Notes
 
   - releaseCycle: "kindle-8"
     releaseLabel: "Kindle (8th Generation)"
     releaseDate: 2016-06-22
     eol: 2024-06-01 # not in Amazon's security support table
     latest: "5.16.2.1.1"
-    latestReleaseDate: 2023-06-01
-    link: https://www.amazon.com/Kindle8Notes
+    latestDate: 2023-06-01
+    latestLink: https://www.amazon.com/Kindle8Notes
 
   - releaseCycle: "oasis-8"
     releaseLabel: "Kindle Oasis (8th Generation)"
     releaseDate: 2016-04-27
     eol: 2024-06-01 # not in Amazon's security support table
     latest: "5.16.2.1.1"
-    latestReleaseDate: 2023-06-01
-    link: https://www.amazon.com/Oasis8Notes
+    latestDate: 2023-06-01
+    latestLink: https://www.amazon.com/Oasis8Notes
 
   - releaseCycle: "paperwhite-7"
     releaseLabel: "Kindle Paperwhite (7th Generation)"
     releaseDate: 2015-06-30
     eol: 2024-06-01 # not in Amazon's security support table
     latest: "5.16.2.1.1"
-    latestReleaseDate: 2023-06-01
-    link: https://www.amazon.com/Paperwhite7Notes
+    latestDate: 2023-06-01
+    latestLink: https://www.amazon.com/Paperwhite7Notes
 
   - releaseCycle: "voyage-7"
     releaseLabel: "Kindle Voyage (7th Generation)"
     releaseDate: 2014-11-04
     eol: 2021-04-01
     latest: "5.13.6"
-    latestReleaseDate: 2021-04-01
-    link: https://www.amazon.com/Voyage7Notes
+    latestDate: 2021-04-01
+    latestLink: https://www.amazon.com/Voyage7Notes
 
   - releaseCycle: "kindle-7"
     releaseLabel: "Kindle (7th Generation)"
@@ -166,7 +166,7 @@ releases:
     releaseDate: 2012-10-01
     eol: 2015-06-26 # https://drivers.softpedia.com/blog/amazon-kindle-paperwhite-1st-generation-receives-firmware-5-6-1-1-485364.shtml
     latest: "5.6.1.1"
-    latestReleaseDate: 2015-06-26 # # https://drivers.softpedia.com/blog/amazon-kindle-paperwhite-1st-generation-receives-firmware-5-6-1-1-485364.shtml
+    latestDate: 2015-06-26 # # https://drivers.softpedia.com/blog/amazon-kindle-paperwhite-1st-generation-receives-firmware-5-6-1-1-485364.shtml
 
   - releaseCycle: "kindle-5"
     releaseLabel: "Kindle (5th Generation)"

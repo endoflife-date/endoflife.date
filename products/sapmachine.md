@@ -21,107 +21,107 @@ releases:
     releaseDate: 2026-03-18
     eol: 2026-09-15
     latest: "26.0.1"
-    latestReleaseDate: 2026-04-21
+    latestDate: 2026-04-21
 
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
     latest: "25.0.3"
-    latestReleaseDate: 2026-04-21
+    latestDate: 2026-04-21
 
   - releaseCycle: "24"
     releaseDate: 2025-03-19
     eol: 2025-09-16
     latest: "24.0.2"
-    latestReleaseDate: 2025-07-15
+    latestDate: 2025-07-15
 
   - releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-18
     latest: "23.0.2"
-    latestReleaseDate: 2025-01-22
+    latestDate: 2025-01-22
 
   - releaseCycle: "22"
     releaseDate: 2024-03-18
     eol: 2024-09-17
     latest: "22.0.2"
-    latestReleaseDate: 2024-07-17
+    latestDate: 2024-07-17
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-18
     eol: 2028-09-01
     latest: "21.0.11"
-    latestReleaseDate: 2026-04-21
+    latestDate: 2026-04-21
 
   - releaseCycle: "20"
     releaseDate: 2023-03-17
     eol: 2023-09-19
     latest: "20.0.2"
-    latestReleaseDate: 2023-07-18
+    latestDate: 2023-07-18
 
   - releaseCycle: "19"
     releaseDate: 2022-09-19
     eol: 2023-03-17
     latest: "19.0.2"
-    latestReleaseDate: 2023-01-17
+    latestDate: 2023-01-17
 
   - releaseCycle: "18"
     releaseDate: 2022-03-21
     eol: 2022-09-19
     latest: "18.0.2.1"
-    latestReleaseDate: 2022-08-23
+    latestDate: 2022-08-23
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2026-09-01
     latest: "17.0.19"
-    latestReleaseDate: 2026-04-21
+    latestDate: 2026-04-21
 
   - releaseCycle: "16"
     releaseDate: 2021-03-15
     eol: 2021-09-14
     latest: "16.0.2"
-    latestReleaseDate: 2021-07-22
+    latestDate: 2021-07-22
 
   - releaseCycle: "15"
     releaseDate: 2020-09-16
     eol: 2021-03-15
     latest: "15.0.2"
-    latestReleaseDate: 2021-01-22
+    latestDate: 2021-01-22
 
   - releaseCycle: "14"
     releaseDate: 2020-03-18
     eol: 2020-09-16
     latest: "14.0.2"
-    latestReleaseDate: 2020-07-16
+    latestDate: 2020-07-16
 
   - releaseCycle: "13"
     releaseDate: 2019-09-18
     eol: 2020-03-18
     latest: "13.0.2"
-    latestReleaseDate: 2020-01-16
+    latestDate: 2020-01-16
 
   - releaseCycle: "12"
     releaseDate: 2019-03-21
     eol: 2019-09-18
     latest: "12.0.2"
-    latestReleaseDate: 2019-07-17
+    latestDate: 2019-07-17
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-16
     eol: 2024-12-01
     latest: "11.0.30"
-    latestReleaseDate: 2026-01-20
+    latestDate: 2026-01-20
 
   - releaseCycle: "10"
     releaseDate: 2018-03-21
     eol: 2018-09-25 # releaseDate of OpenJDK 11
     latest: "10.0.2"
-    latestReleaseDate: 2026-03-11
+    latestDate: 2026-03-11
 
 ---
 

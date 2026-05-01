@@ -39,7 +39,7 @@ releases:
     eol: 2031-02-05
     eoes: 2033-02-05
     latest: "8.1.5"
-    latestReleaseDate: 2026-03-17
+    latestDate: 2026-03-17
 
   - releaseCycle: "7"
     releaseDate: 2016-05-01
@@ -47,7 +47,7 @@ releases:
     eol: 2025-06-30
     eoes: 2027-10-31
     latest: "7.4.23"
-    latestReleaseDate: 2025-07-14
+    latestDate: 2025-07-14
 
   - releaseCycle: "6"
     releaseDate: 2012-06-01
@@ -55,7 +55,7 @@ releases:
     eol: 2019-06-30
     eoes: 2022-06-30
     latest: "6.4.24"
-    latestReleaseDate: 2022-06-30
+    latestDate: 2022-06-30
 
   - releaseCycle: "5"
     releaseDate: 2009-11-01
@@ -63,8 +63,8 @@ releases:
     eol: 2016-11-30
     eoes: 2019-11-30
     latest: "5.2.0"
-    latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
-    link: https://web.archive.org/web/20230821184117/https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
+    latestDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
+    latestLink: https://web.archive.org/web/20230821184117/https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
   - releaseCycle: "4.3"
     releaseDate: 2008-01-01
@@ -72,8 +72,8 @@ releases:
     eol: 2013-01-31
     eoes: 2016-11-30
     latest: "4.3.0 CP10"
-    latestReleaseDate: 2013-02-11
-    link: https://access.redhat.com/errata/RHSA-2013:0249
+    latestDate: 2013-02-11
+    latestLink: https://access.redhat.com/errata/RHSA-2013:0249
 
   - releaseCycle: "4.2"
     releaseDate: 2007-06-01
@@ -81,8 +81,8 @@ releases:
     eol: 2012-06-30
     eoes: 2015-06-30
     latest: "4.2.0.CP09"
-    latestReleaseDate: 2010-04-26
-    link: https://web.archive.org/web/20240225123551/https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
+    latestDate: 2010-04-26
+    latestLink: https://web.archive.org/web/20240225123551/https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
 
 ---
 

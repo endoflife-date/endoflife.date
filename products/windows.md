@@ -20,7 +20,7 @@ releases:
     eoas: 2029-03-13
     eol: 2029-03-13
     latest: 10.0.28000
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-26h1-w"
     releaseLabel: "11 26H1 (W)"
@@ -28,7 +28,7 @@ releases:
     eoas: 2028-03-14
     eol: 2028-03-14
     latest: 10.0.28000
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-25h2-e"
     releaseLabel: "11 25H2 (E)"
@@ -36,7 +36,7 @@ releases:
     eoas: 2028-10-10
     eol: 2028-10-10
     latest: 10.0.26200
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-25h2-w"
     releaseLabel: "11 25H2 (W)"
@@ -44,7 +44,7 @@ releases:
     eoas: 2027-10-12
     eol: 2027-10-12
     latest: 10.0.26200
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-24h2-iot-lts"
     releaseLabel: "11 24H2 IoT"
@@ -53,7 +53,7 @@ releases:
     eoas: 2029-10-09
     eol: 2034-10-10
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
 
   - releaseCycle: "11-24h2-e-lts"
     releaseLabel: "11 24H2 (E)"
@@ -62,7 +62,7 @@ releases:
     eoas: 2029-10-09
     eol: 2029-10-09
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
 
   - releaseCycle: "11-24h2-e"
     releaseLabel: "11 24H2 (E)"
@@ -70,7 +70,7 @@ releases:
     eoas: 2027-10-12
     eol: 2027-10-12
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-24h2-w"
     releaseLabel: "11 24H2 (W)"
@@ -78,7 +78,7 @@ releases:
     eoas: 2026-10-13
     eol: 2026-10-13
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-23h2-e"
     releaseLabel: "11 23H2 (E)"
@@ -86,7 +86,7 @@ releases:
     eoas: 2026-11-10
     eol: 2026-11-10
     latest: 10.0.22631
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-23h2-w"
     releaseLabel: "11 23H2 (W)"
@@ -94,7 +94,7 @@ releases:
     eoas: 2025-11-11
     eol: 2025-11-11
     latest: 10.0.22631
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "10-22h2"
     releaseLabel: "10 22H2"
@@ -103,7 +103,7 @@ releases:
     eol: 2025-10-14
     eoes: 2028-10-10
     latest: 10.0.19045
-    link: https://learn.microsoft.com/windows/release-health/release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/release-information
 
   - releaseCycle: "11-22h2-e"
     releaseLabel: "11 22H2 (E)"
@@ -111,7 +111,7 @@ releases:
     eoas: 2025-10-14
     eol: 2025-10-14
     latest: 10.0.22621
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-22h2-w"
     releaseLabel: "11 22H2 (W)"
@@ -119,7 +119,7 @@ releases:
     eoas: 2024-10-08
     eol: 2024-10-08
     latest: 10.0.22621
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "10-21h2-iot-lts"
     releaseLabel: "10 21H2 IoT"
@@ -128,7 +128,7 @@ releases:
     eoas: 2027-01-12
     eol: 2032-01-13
     latest: 10.0.19044
-    link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
 
   - releaseCycle: "10-21h2-e-lts"
     releaseLabel: "10 21H2 (E)"
@@ -137,7 +137,7 @@ releases:
     eoas: 2027-01-12
     eol: 2027-01-12
     latest: 10.0.19044
-    link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
 
     # 10 21H2 (E) non-LTS cycle
   - releaseCycle: "10-21h2-e"
@@ -146,7 +146,7 @@ releases:
     eoas: 2024-06-11
     eol: 2024-06-11
     latest: 10.0.19044
-    link: https://learn.microsoft.com/lifecycle/products/windows-10-enterprise-and-education
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-10-enterprise-and-education
 
   - releaseCycle: "10-21h2-w"
     releaseLabel: "10 21H2 (W)"
@@ -154,7 +154,7 @@ releases:
     eoas: 2023-06-13
     eol: 2023-06-13
     latest: 10.0.19044
-    link: https://learn.microsoft.com/windows/release-health/release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/release-information
 
   - releaseCycle: "11-21h2-e"
     releaseLabel: "11 21H2 (E)"
@@ -162,7 +162,7 @@ releases:
     eoas: 2024-10-08
     eol: 2024-10-08
     latest: 10.0.22000
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-21h2-w"
     releaseLabel: "11 21H2 (W)"
@@ -170,7 +170,7 @@ releases:
     eoas: 2023-10-10
     eol: 2023-10-10
     latest: 10.0.22000
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    latestLink: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "10-21h1"
     releaseLabel: "10 21H1"
@@ -178,7 +178,7 @@ releases:
     eoas: 2022-12-13
     eol: 2022-12-13
     latest: 10.0.19043
-    link: https://learn.microsoft.com/windows/release-health/status-windows-10-21h1
+    latestLink: https://learn.microsoft.com/windows/release-health/status-windows-10-21h1
 
   - releaseCycle: "10-20h2-e"
     releaseLabel: "10 20H2 (E)"
@@ -186,7 +186,7 @@ releases:
     eoas: 2023-05-09
     eol: 2023-05-09
     latest: 10.0.19042
-    link: https://learn.microsoft.com/windows/release-health/status-windows-10-20h2
+    latestLink: https://learn.microsoft.com/windows/release-health/status-windows-10-20h2
 
   - releaseCycle: "10-20h2-w"
     releaseLabel: "10 20H2 (W)"
@@ -194,7 +194,7 @@ releases:
     eoas: 2022-05-10
     eol: 2022-05-10
     latest: 10.0.19042
-    link: https://learn.microsoft.com/windows/release-health/status-windows-10-20h2
+    latestLink: https://learn.microsoft.com/windows/release-health/status-windows-10-20h2
 
   - releaseCycle: "10-2004"
     releaseLabel: "10 2004"
@@ -202,7 +202,7 @@ releases:
     eoas: 2021-12-14
     eol: 2021-12-14
     latest: 10.0.19041
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-version-2004-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-version-2004-end-of-servicing
 
   - releaseCycle: "10-1909-e"
     releaseLabel: "10 1909 (E)"
@@ -210,7 +210,7 @@ releases:
     eoas: 2022-05-10
     eol: 2022-05-10
     latest: 10.0.18363
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1909-enterprise-education-eos
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1909-enterprise-education-eos
 
   - releaseCycle: "10-1909-w"
     releaseLabel: "10 1909 (W)"
@@ -218,7 +218,7 @@ releases:
     eoas: 2021-05-11
     eol: 2021-05-11
     latest: 10.0.18363
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1909-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1909-end-of-servicing
 
   - releaseCycle: "10-1903"
     releaseLabel: "10 1903"
@@ -226,7 +226,7 @@ releases:
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1903-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1903-end-of-servicing
 
   - releaseCycle: "10-1809-e-lts"
     releaseLabel: "10 1809 (E)"
@@ -235,7 +235,7 @@ releases:
     eoas: 2024-01-09
     eol: 2029-01-09
     latest: 10.0.17763
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
     # 10 1809 (E) non-LTS cycle
   - releaseCycle: "10-1809-e"
@@ -244,7 +244,7 @@ releases:
     eoas: 2021-05-11
     eol: 2021-05-11
     latest: 10.0.17763
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
 
   - releaseCycle: "10-1809-w"
     releaseLabel: "10 1809 (W)"
@@ -252,7 +252,7 @@ releases:
     eoas: 2020-11-10
     eol: 2020-11-10
     latest: 10.0.17763
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1809-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1809-end-of-servicing
 
   - releaseCycle: "10-1803-e"
     releaseLabel: "10 1803 (E)"
@@ -260,7 +260,7 @@ releases:
     eoas: 2020-05-11
     eol: 2021-05-11
     latest: 10.0.17134
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
 
   - releaseCycle: "10-1803-w"
     releaseLabel: "10 1803 (W)"
@@ -268,7 +268,7 @@ releases:
     eoas: 2019-11-12
     eol: 2019-11-12
     latest: 10.0.17134
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-end-of-servicing
 
   - releaseCycle: "10-1709-e"
     releaseLabel: "10 1709 (E)"
@@ -276,7 +276,7 @@ releases:
     eoas: 2020-10-13
     eol: 2020-10-13
     latest: 10.0.16299
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1709-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1709-end-of-servicing
 
   - releaseCycle: "10-1709-w"
     releaseLabel: "10 1709 (W)"
@@ -284,7 +284,7 @@ releases:
     eoas: 2019-04-09
     eol: 2019-04-09
     latest: 10.0.16299
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1709-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1709-end-of-servicing
 
   - releaseCycle: "10-1703-e"
     releaseLabel: "10 1703 (E)"
@@ -292,7 +292,7 @@ releases:
     eoas: 2019-10-08
     eol: 2019-10-08
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    latestLink: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
 
   - releaseCycle: "10-1703-w"
     releaseLabel: "10 1703 (W)"
@@ -300,7 +300,7 @@ releases:
     eoas: 2018-10-09
     eol: 2018-10-09
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    latestLink: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
 
   - releaseCycle: "10-1607-e-lts"
     releaseLabel: "10 1607 (E)"
@@ -309,7 +309,7 @@ releases:
     eoas: 2021-10-12
     eol: 2026-10-13
     latest: 10.0.14393
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
     # 10 1607 (E) non-LTS cycle
   - releaseCycle: "10-1607-e"
@@ -318,7 +318,7 @@ releases:
     eoas: 2019-04-09
     eol: 2019-04-09
     latest: 10.0.14393
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1607-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1607-end-of-servicing
 
   - releaseCycle: "10-1607-w"
     releaseLabel: "10 1607 (W)"
@@ -326,7 +326,7 @@ releases:
     eoas: 2018-04-10
     eol: 2018-04-10
     latest: 10.0.14393
-    link: null
+    latestLink: null
 
   - releaseCycle: "10-1511"
     releaseLabel: "10 1511"
@@ -334,7 +334,7 @@ releases:
     eoas: 2017-10-10
     eol: 2017-10-10
     latest: 10.0.10586
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1511-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1511-end-of-servicing
 
   - releaseCycle: "10-1507-e-lts"
     releaseLabel: "10 1507 (E)"
@@ -343,7 +343,7 @@ releases:
     eoas: 2020-10-13
     eol: 2025-10-14
     latest: 10.0.10240
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
+    latestLink: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
     # This cycle includes 10 1507 (E) non-LTS version
   - releaseCycle: "10-1507"
@@ -352,7 +352,7 @@ releases:
     eoas: 2017-05-09
     eol: 2017-05-09
     latest: 10.0.10240
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
 
   - releaseCycle: "10-1507-iot"
     releaseLabel: "10 1507 IOT"
@@ -361,7 +361,7 @@ releases:
     eoas: 2020-11-10
     eol: 2020-11-10
     latest: 10.0.10240
-    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-core
+    latestLink: https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-core
 
   - releaseCycle: "8.1"
     releaseLabel: "8.1"
@@ -369,7 +369,7 @@ releases:
     eoas: 2018-01-09
     eol: 2023-01-10
     latest: 6.3.9600
-    link: https://learn.microsoft.com/lifecycle/products/windows-81
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-81
 
   - releaseCycle: "8"
     releaseLabel: "8"
@@ -377,7 +377,7 @@ releases:
     eoas: 2016-01-12
     eol: 2016-01-12
     latest: 6.2.9200
-    link: https://learn.microsoft.com/lifecycle/products/windows-8
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-8
 
   - releaseCycle: "7-sp1"
     releaseLabel: "7 SP1"
@@ -385,7 +385,7 @@ releases:
     eoas: 2015-01-13
     eol: 2020-01-14
     latest: 6.1.7601
-    link: https://learn.microsoft.com/lifecycle/products/windows-7
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-7
 
   - releaseCycle: "6-sp2"
     releaseLabel: "Vista SP2"
@@ -393,7 +393,7 @@ releases:
     eoas: 2012-04-10
     eol: 2017-04-11
     latest: 6.0.6200
-    link: https://learn.microsoft.com/lifecycle/products/windows-vista
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-vista
 
   - releaseCycle: "5-sp3"
     releaseLabel: "XP SP3"
@@ -401,7 +401,7 @@ releases:
     eoas: 2009-04-14
     eol: 2014-04-08
     latest: 5.1.2600
-    link: https://learn.microsoft.com/lifecycle/products/windows-xp
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-xp
 ---
 
 > [Microsoft Windows](https://www.microsoft.com/windows) is the operating system developed by

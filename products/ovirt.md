@@ -22,43 +22,43 @@ releases:
     releaseDate: 2022-03-16
     eol: false
     latest: "4.5.7"
-    latestReleaseDate: 2025-12-17
+    latestDate: 2025-12-17
 
   - releaseCycle: "4.4"
     releaseDate: 2020-05-06
     eol: 2022-05-20
     latest: "4.4.10.7"
-    latestReleaseDate: 2022-03-07
+    latestDate: 2022-03-07
 
   - releaseCycle: "4.3"
     releaseDate: 2019-01-22
     eol: 2020-05-20
     latest: "4.3.11.4"
-    latestReleaseDate: 2020-08-18
+    latestDate: 2020-08-18
 
   - releaseCycle: "4.2"
     releaseDate: 2017-12-04
     eol: 2019-02-04
     latest: "4.2.8.9"
-    latestReleaseDate: 2019-09-25
+    latestDate: 2019-09-25
 
   - releaseCycle: "4.1"
     releaseDate: 2017-01-12
     eol: 2017-12-17
     latest: "4.1.11.2"
-    latestReleaseDate: 2018-04-17
+    latestDate: 2018-04-17
 
   - releaseCycle: "4.0"
     releaseDate: 2016-05-31
     eol: 2017-01-12
     latest: "4.0.7.5"
-    latestReleaseDate: 2017-06-06
+    latestDate: 2017-06-06
 
   - releaseCycle: "3.6"
     releaseDate: 2015-09-25
     eol: 2016-06-23
     latest: "3.6.13.5"
-    latestReleaseDate: 2018-05-25
+    latestDate: 2018-05-25
 
 ---
 

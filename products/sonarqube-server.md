@@ -29,8 +29,8 @@ releases:
     eoas: 2026-05-18
     eol: 2026-05-18
     latest: "2026.2.1"
-    latestReleaseDate: 2026-03-30
-    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
+    latestDate: 2026-03-30
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
 
   - releaseCycle: "2026.1"
     lts: true
@@ -38,24 +38,24 @@ releases:
     eoas: 2027-01-30
     eol: 2027-08-02
     latest: "2026.1.2"
-    latestReleaseDate: 2026-03-30
-    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-2/180529
+    latestDate: 2026-03-30
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-2/180529
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
     eoas: false
     eol: false
     latest: "2025.6.1"
-    latestReleaseDate: 2025-12-24
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
+    latestDate: 2025-12-24
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
 
   - releaseCycle: "2025.5"
     releaseDate: 2025-09-26 # https://community.sonarsource.com/t/sonarqube-server-2025-release-5/149368
     eoas: 2025-12-12
     eol: 2025-12-12
     latest: "2025.5"
-    latestReleaseDate: 2025-09-26
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-2/146252
+    latestDate: 2025-09-26
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-2/146252
 
   - releaseCycle: "2025.4"
     lts: true
@@ -63,24 +63,24 @@ releases:
     eoas: 2026-07-30
     eol: 2027-01-30
     latest: "2025.4.6"
-    latestReleaseDate: 2026-03-30
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-6-lta/180554
+    latestDate: 2026-03-30
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-6-lta/180554
 
   - releaseCycle: "2025.3"
     releaseDate: 2025-05-30 # https://community.sonarsource.com/t/sonarqube-server-2025-release-3/142053
     eoas: 2025-07-29
     eol: 2025-07-29
     latest: "2025.3.1"
-    latestReleaseDate: 2025-06-20
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-3-1/143131
+    latestDate: 2025-06-20
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-3-1/143131
 
   - releaseCycle: "2025.2"
     releaseDate: 2025-03-27 # https://community.sonarsource.com/t/sonarqube-server-2025-release-2-released/137906
     eoas: 2025-05-26
     eol: 2025-05-26
     latest: "2025.2.0"
-    latestReleaseDate: 2025-03-27
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-2-released/137906
+    latestDate: 2025-03-27
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-2-released/137906
 
   - releaseCycle: "2025.1"
     lts: true
@@ -88,16 +88,16 @@ releases:
     eoas: 2026-01-23
     eol: 2026-07-01
     latest: "2025.1.7"
-    latestReleaseDate: 2026-03-30
-    link: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-7-lta/180553
+    latestDate: 2026-03-30
+    latestLink: https://community.sonarsource.com/t/sonarqube-server-2025-release-1-7-lta/180553
 
   - releaseCycle: "10"
     releaseDate: 2023-03-30
     eoas: 2025-01-20
     eol: 2025-03-26
     latest: "10.8.0"
-    latestReleaseDate: 2024-12-04
-    link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-10-8/
+    latestDate: 2024-12-04
+    latestLink: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-10-8/
 
   - releaseCycle: "9"
     releaseDate: 2021-07-05
@@ -105,8 +105,8 @@ releases:
     lts: 2023-02-07
     eol: 2025-01-20
     latest: "9.9.8"
-    latestReleaseDate: 2024-11-25
-    link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
+    latestDate: 2024-11-25
+    latestLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
   - releaseCycle: "8"
     releaseDate: 2019-10-15
@@ -114,8 +114,8 @@ releases:
     lts: 2021-05-04
     eol: 2023-02-07
     latest: "8.9.10"
-    latestReleaseDate: 2022-10-14
-    link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
+    latestDate: 2022-10-14
+    latestLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
 
   - releaseCycle: "7"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
@@ -124,8 +124,8 @@ releases:
     lts: 2019-07-01
     eol: 2021-05-04
     latest: "7.9.6"
-    latestReleaseDate: 2021-03-01
-    link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
+    latestDate: 2021-03-01
+    latestLink: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
 
 ---
 

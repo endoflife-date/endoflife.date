@@ -25,28 +25,28 @@ releases:
     releaseDate: 2026-02-25
     eol: false
     latest: "7.2.0"
-    latestReleaseDate: 2026-04-24
-    link: null
+    latestDate: 2026-04-24
+    latestLink: null
 
   - releaseCycle: "6"
     releaseDate: 2025-01-29
     eol: false
     latest: "6.12.5040"
-    latestReleaseDate: 2026-02-10
-    link: null
+    latestDate: 2026-02-10
+    latestLink: null
 
   - releaseCycle: "5"
     releaseDate: 2023-03-22
     eol: 2025-01-29
     latest: "5.11.6271"
-    latestReleaseDate: 2025-01-23
-    link: null
+    latestDate: 2025-01-23
+    latestLink: null
 
   - releaseCycle: "4"
     releaseDate: 2022-09-22
     eol: 2023-05-22
     latest: "4.5.1"
-    latestReleaseDate: 2023-02-24
+    latestDate: 2023-02-24
 
 ---
 

@@ -21,13 +21,13 @@ releases:
     releaseDate: 2024-11-04
     eol: false
     latest: "2.17.0"
-    latestReleaseDate: 2026-03-30
+    latestDate: 2026-03-30
 
   - releaseCycle: "1"
     releaseDate: 2017-12-06
     eol: 2025-12-31 # https://github.com/jaegertracing/jaeger/issues/6321
     latest: "1.76.0"
-    latestReleaseDate: 2025-12-03
+    latestDate: 2025-12-03
 
 ---
 

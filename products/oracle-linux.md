@@ -32,35 +32,35 @@ releases:
     eol: false
     eoes: false
     latest: "10.1"
-    latestReleaseDate: 2025-12-06
+    latestDate: 2025-12-06
 
   - releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
     eoes: 2035-06-30
     latest: "9.7"
-    latestReleaseDate: 2025-11-26
+    latestDate: 2025-11-26
 
   - releaseCycle: "8"
     releaseDate: 2019-07-19
     eol: 2029-07-31
     eoes: 2032-07-31
     latest: "8.10"
-    latestReleaseDate: 2024-05-28
+    latestDate: 2024-05-28
 
   - releaseCycle: "7"
     releaseDate: 2014-07-23
     eol: 2024-12-31
     eoes: 2028-06-30
     latest: "7.9"
-    latestReleaseDate: 2020-10-08
+    latestDate: 2020-10-08
 
   - releaseCycle: "6"
     releaseDate: 2011-02-12
     eol: 2021-03-31
     eoes: 2024-12-31
     latest: "6.10"
-    latestReleaseDate: 2018-07-02
+    latestDate: 2018-07-02
 
 ---
 

@@ -12,22 +12,22 @@ releases:
   - releaseCycle: "1.3"
     releaseDate: 2018-08-10 # https://datatracker.ietf.org/doc/rfc8446/history/
     eol: false
-    link: https://www.rfc-editor.org/rfc/rfc8446
+    latestLink: https://www.rfc-editor.org/rfc/rfc8446
 
   - releaseCycle: "1.2"
     releaseDate: 2008-08-15 # https://datatracker.ietf.org/doc/rfc5246/history/
     eol: false
-    link: https://www.rfc-editor.org/rfc/rfc5246
+    latestLink: https://www.rfc-editor.org/rfc/rfc5246
 
   - releaseCycle: "1.1"
     releaseDate: 2006-04-26 # https://datatracker.ietf.org/doc/rfc4346/history/
     eol: 2021-03-23 # https://datatracker.ietf.org/doc/rfc8996/history/
-    link: https://www.rfc-editor.org/rfc/rfc4346
+    latestLink: https://www.rfc-editor.org/rfc/rfc4346
 
   - releaseCycle: "1.0"
     releaseDate: 1999-01-01 # https://datatracker.ietf.org/doc/rfc2246/history/
     eol: 2021-03-23 # https://datatracker.ietf.org/doc/rfc8996/history/
-    link: https://www.rfc-editor.org/rfc/rfc2246
+    latestLink: https://www.rfc-editor.org/rfc/rfc2246
 ---
 
 > [Transport Layer Security (TLS)](https://datatracker.ietf.org/wg/tls/about/) is a cryptographic protocol

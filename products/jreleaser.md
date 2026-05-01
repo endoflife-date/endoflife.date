@@ -20,14 +20,14 @@ releases:
     eol: false
     eoas: false
     latest: "1.18.0"
-    latestReleaseDate: 2025-04-30
+    latestDate: 2025-04-30
 
   - releaseCycle: "0"
     releaseDate: 2021-04-10
     eol: 2022-04-10
     eoas: 2022-04-10
     latest: "0.10.0"
-    latestReleaseDate: 2021-12-28
+    latestDate: 2021-12-28
 ---
 
 > [JReleaser](https://jreleaser.org/) is a release automation tool for Java and non-Java projects.

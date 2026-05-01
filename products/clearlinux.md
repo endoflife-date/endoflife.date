@@ -21,7 +21,7 @@ releases:
     releaseDate: 2015-02-06
     eol: 2025-07-21
     latest: "43800"
-    latestReleaseDate: 2025-07-21
+    latestDate: 2025-07-21
 ---
 
 > [Clear Linux](https://web.archive.org/web/20260119204143/https://clearlinux.org/) was a Linux distribution optimized for

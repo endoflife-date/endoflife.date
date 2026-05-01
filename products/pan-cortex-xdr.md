@@ -44,238 +44,238 @@ releases:
     releaseDate: 2026-01-25
     eol: 2026-11-22
     latest: "9.1.0"
-    latestReleaseDate: 2026-01-25
+    latestDate: 2026-01-25
 
   - releaseCycle: "9.0"
     releaseDate: 2025-11-09
     eol: 2026-08-23
     latest: "9.0.0"
-    latestReleaseDate: 2025-11-09
+    latestDate: 2025-11-09
 
   - releaseCycle: "8.9"
     releaseDate: 2025-07-21
     eol: 2026-05-10
     latest: "8.9"
-    latestReleaseDate: 2025-07-21
+    latestDate: 2025-07-21
 
   - releaseCycle: "8.8"
     releaseDate: 2025-04-28
     eol: 2026-02-18
     latest: "8.8"
-    latestReleaseDate: 2025-04-28
+    latestDate: 2025-04-28
 
   - releaseCycle: "8.7"
     releaseDate: 2025-02-02
     eol: 2025-11-23
     latest: "8.7"
-    latestReleaseDate: 2025-02-02
+    latestDate: 2025-02-02
 
   - releaseCycle: "7.9.103-ce"
     releaseDate: 2024-11-11
     eol: 2026-12-31
     latest: "7.9.103-CE"
-    latestReleaseDate: 2024-11-11
+    latestDate: 2024-11-11
 
   - releaseCycle: "8.6"
     releaseDate: 2024-09-30
     eol: 2025-07-13
     latest: "8.6.1"
-    latestReleaseDate: 2024-12-03 # used Linux/Mac date
+    latestDate: 2024-12-03 # used Linux/Mac date
 
   - releaseCycle: "8.5"
     releaseDate: 2024-06-30
     eol: 2025-04-21
     latest: "8.5.2"
-    latestReleaseDate: 2025-02-24
+    latestDate: 2025-02-24
 
   - releaseCycle: "8.3-ce"
     releaseDate: 2024-05-21
     eol: 2026-05-21
     latest: "8.3.101-CE"
-    latestReleaseDate: 2025-01-13 # used Linux date
+    latestDate: 2025-01-13 # used Linux date
 
   - releaseCycle: "8.4"
     releaseDate: 2024-04-14
     eol: 2025-02-05
     latest: "8.4"
-    latestReleaseDate: 2024-04-14
+    latestDate: 2024-04-14
 
   - releaseCycle: "8.3"
     releaseDate: 2024-02-11
     eol: 2024-11-25
     latest: "8.3"
-    latestReleaseDate: 2024-02-11
+    latestDate: 2024-02-11
 
   - releaseCycle: "8.2"
     releaseDate: 2023-10-29
     eol: 2024-08-12
     latest: "8.2.1"
-    latestReleaseDate: 2024-01-09
+    latestDate: 2024-01-09
 
   - releaseCycle: "8.1"
     releaseDate: 2023-06-25
     eol: 2024-04-09
     latest: "8.1.2"
-    latestReleaseDate: 2023-11-27
+    latestDate: 2023-11-27
 
   - releaseCycle: "7.9-ce"
     lts: true
     releaseDate: 2023-03-19
     eol: 2025-03-19
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
+    latestLink: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
     latest: "7.9-ce"
-    latestReleaseDate: 2023-03-19
+    latestDate: 2023-03-19
 
   - releaseCycle: "8.0"
     releaseDate: 2023-03-05
     eol: 2023-12-19
     latest: "8.0.2"
-    latestReleaseDate: 2023-07-19
+    latestDate: 2023-07-19
 
   - releaseCycle: "7.9"
     releaseDate: 2022-12-04
     eol: 2023-09-11
     latest: "7.9.101-ce"
-    latestReleaseDate: 2023-07-10
+    latestDate: 2023-07-10
 
   - releaseCycle: "7.8"
     releaseDate: 2022-07-24
     eol: 2023-04-24
     latest: "7.8.2-HF2"
-    latestReleaseDate: 2023-02-27
+    latestDate: 2023-02-27
 
   - releaseCycle: "7.7"
     releaseDate: 2022-03-27
     eol: 2022-12-27
     latest: "7.7.2-HF"
-    latestReleaseDate: 2022-07-27
+    latestDate: 2022-07-27
 
   - releaseCycle: "7.5-ce"
     lts: true
     releaseDate: 2022-03-06
     eol: 2024-03-06
     latest: "7.5.102-ce"
-    latestReleaseDate: 2023-01-24
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
+    latestDate: 2023-01-24
+    latestLink: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
 
   - releaseCycle: "7.6"
     releaseDate: 2021-12-05
     eol: 2022-09-05
     latest: "7.6.3"
-    latestReleaseDate: 2022-06-07
-    link: null
+    latestDate: 2022-06-07
+    latestLink: null
 
   - releaseCycle: "7.5"
     releaseDate: 2021-08-22
     eol: 2022-08-22
     latest: "7.5.3"
-    latestReleaseDate: 2022-04-25
-    link: null
+    latestDate: 2022-04-25
+    latestLink: null
 
   - releaseCycle: "7.4"
     releaseDate: 2021-05-24
     eol: 2022-05-24
     latest: "7.4.4"
-    latestReleaseDate: 2022-01-24
-    link: null
+    latestDate: 2022-01-24
+    latestLink: null
 
   - releaseCycle: "7.3"
     releaseDate: 2021-02-01
     eol: 2022-02-01
     latest: "7.3"
-    latestReleaseDate: 2021-02-01
-    link: null
+    latestDate: 2021-02-01
+    latestLink: null
 
   - releaseCycle: "7.2"
     releaseDate: 2020-09-07
     eol: 2022-03-07
     latest: "7.2"
-    latestReleaseDate: 2020-09-07
-    link: null
+    latestDate: 2020-09-07
+    latestLink: null
 
   - releaseCycle: "7.1"
     releaseDate: 2020-04-22
     eol: 2021-06-04
     latest: "7.1"
-    latestReleaseDate: 2020-04-22
-    link: null
+    latestDate: 2020-04-22
+    latestLink: null
 
   - releaseCycle: "7.0"
     releaseDate: 2019-12-04
     eol: 2021-06-04
     latest: "7.0"
-    latestReleaseDate: 2019-12-04
-    link: null
+    latestDate: 2019-12-04
+    latestLink: null
 
   - releaseCycle: "6.1"
     releaseDate: 2019-07-02
     eol: 2022-07-01
     latest: "6.1.9"
-    latestReleaseDate: 2022-05-09
-    link: null
+    latestDate: 2022-05-09
+    latestLink: null
 
   - releaseCycle: "6.0"
     releaseDate: 2019-02-26
     eol: 2020-02-26
     latest: "6.0"
-    latestReleaseDate: 2019-02-26
-    link: null
+    latestDate: 2019-02-26
+    latestLink: null
 
   - releaseCycle: "4.2"
     releaseDate: 2018-06-25
     eol: 2022-03-01
     latest: "4.2"
-    latestReleaseDate: 2018-06-25
-    link: null
+    latestDate: 2018-06-25
+    latestLink: null
 
   - releaseCycle: "5.0"
     releaseDate: 2018-03-19
     eol: 2024-06-01
     latest: "5.0.12"
-    latestReleaseDate: 2021-06-07
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/5.0/Traps-Agent-Release-Notes/Traps-Agent-Release-Information
+    latestDate: 2021-06-07
+    latestLink: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/5.0/Traps-Agent-Release-Notes/Traps-Agent-Release-Information
 
   - releaseCycle: "4.1"
     releaseDate: 2017-09-15
     eol: 2019-09-15
     latest: "4.1"
-    latestReleaseDate: 2017-09-15
-    link: null
+    latestDate: 2017-09-15
+    latestLink: null
 
   - releaseCycle: "4.0"
     releaseDate: 2017-04-05
     eol: 2018-04-05
     latest: "4.0"
-    latestReleaseDate: 2017-04-05
-    link: null
+    latestDate: 2017-04-05
+    latestLink: null
 
   - releaseCycle: "3.4"
     releaseDate: 2016-08-21
     eol: 2019-08-21
     latest: "3.4"
-    latestReleaseDate: 2016-08-21
-    link: null
+    latestDate: 2016-08-21
+    latestLink: null
 
   - releaseCycle: "3.3"
     releaseDate: 2015-11-10
     eol: 2017-02-28
     latest: "3.3"
-    latestReleaseDate: 2015-11-10
-    link: null
+    latestDate: 2015-11-10
+    latestLink: null
 
   - releaseCycle: "3.2"
     releaseDate: 2015-03-31
     eol: 2016-03-31
     latest: "3.2"
-    latestReleaseDate: 2015-03-31
-    link: null
+    latestDate: 2015-03-31
+    latestLink: null
 
   - releaseCycle: "3.1"
     releaseDate: 2014-09-03
     eol: 2015-09-03
     latest: "3.1"
-    latestReleaseDate: 2014-09-03
-    link: null
+    latestDate: 2014-09-03
+    latestLink: null
 
 ---
 

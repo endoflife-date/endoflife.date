@@ -31,7 +31,7 @@ releases:
     eoas: false
     eol: false
     latest: "5.3.8"
-    latestReleaseDate: 2025-08-25
+    latestDate: 2025-08-25
 
   - releaseCycle: "4"
     releaseDate: 2018-01-18
@@ -40,7 +40,7 @@ releases:
     eol: 2023-01-01
     eoes: false
     latest: "4.6.2"
-    latestReleaseDate: 2022-07-19
+    latestDate: 2022-07-19
 
   - releaseCycle: "3"
     releaseDate: 2013-08-19
@@ -49,7 +49,7 @@ releases:
     eol: 2019-07-24
     eoes: false
     latest: "3.4.1"
-    latestReleaseDate: 2019-02-13
+    latestDate: 2019-02-13
 
   - releaseCycle: "2"
     releaseDate: 2012-01-31 # source: https://web.archive.org/web/20140216052758/https://blog.twitter.com/2012/say-hello-to-bootstrap-2
@@ -57,7 +57,7 @@ releases:
     eol: 2013-08-19
     eoes: false
     latest: "2.3.2"
-    latestReleaseDate: 2013-07-26
+    latestDate: 2013-07-26
 
 ---
 

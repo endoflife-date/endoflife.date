@@ -22,25 +22,25 @@ releases:
     releaseDate: 2022-02-28
     eol: false
     latest: "5.3.0"
-    latestReleaseDate: 2025-11-11
+    latestDate: 2025-11-11
 
   - releaseCycle: "4"
     releaseDate: 2021-09-23
     eol: 2022-03-03
     latest: "4.2.89"
-    latestReleaseDate: 2022-01-04
+    latestDate: 2022-01-04
 
   - releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: 2021-09-23
     latest: "3.4.8"
-    latestReleaseDate: 2021-03-05
+    latestDate: 2021-03-05
 
   - releaseCycle: "2"
     releaseDate: 2015-08-13
     eol: 2017-04-10
     latest: "2.9.30"
-    latestReleaseDate: 2017-04-04
+    latestDate: 2017-04-04
 
 ---
 

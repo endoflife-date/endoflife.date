@@ -74,13 +74,13 @@ releases:
     codename: "Bouncy Bolson"
     releaseDate: 2018-07-02
     eol: 2019-07-31
-    link: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
+    latestLink: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
 
   - releaseCycle: "ardent"
     codename: "Ardent Apalone"
     releaseDate: 2017-12-08
     eol: 2018-12-31
-    link: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
+    latestLink: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
 ---
 
 > ROS 2 (Robot Operating System) provides libraries and tools to help software developers create

@@ -31,33 +31,33 @@ releases:
     releaseDate: 2021-12-17
     eoas: false
     eol: false
-    link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
+    latestLink: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
     latest: "6.2.4"
-    latestReleaseDate: 2026-04-17
+    latestDate: 2026-04-17
 
   - releaseCycle: "5"
     releaseDate: 2019-12-13
     eoas: 2022-07-01
     eol: 2023-07-01
-    link: "https://github.com/unrealircd/unrealircd/blob/unreal52/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
+    latestLink: "https://github.com/unrealircd/unrealircd/blob/unreal52/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
     latest: "5.2.4"
-    latestReleaseDate: 2022-01-28
+    latestDate: 2022-01-28
 
   - releaseCycle: "4"
     releaseDate: 2015-12-24
     eoas: 2019-05-20
     eol: 2020-12-31
-    link: https://github.com/unrealircd/unrealircd/blob/unreal42/doc/RELEASE-NOTES
+    latestLink: https://github.com/unrealircd/unrealircd/blob/unreal42/doc/RELEASE-NOTES
     latest: "4.2.4.1"
-    latestReleaseDate: 2019-07-07
+    latestDate: 2019-07-07
 
   - releaseCycle: "3.2"
     releaseDate: 2004-04-25
     eoas: 2015-12-11
     eol: 2016-12-31
-    link: https://forums.unrealircd.org/viewtopic.php?f=1&t=8588
+    latestLink: https://forums.unrealircd.org/viewtopic.php?f=1&t=8588
     latest: "3.2.10.7"
-    latestReleaseDate: 2016-09-03
+    latestDate: 2016-09-03
 
 ---
 

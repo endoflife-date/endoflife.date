@@ -33,7 +33,7 @@ releases:
     releaseDate: 2019-06-25
     eol: 2027-04-30
     eoes: 2031-04-30
-    link: https://www.ibm.com/docs/en/db2/11.5.x
+    latestLink: https://www.ibm.com/docs/en/db2/11.5.x
 
   - releaseCycle: "11.1"
     releaseDate: 2016-06-15
@@ -59,13 +59,13 @@ releases:
     releaseDate: 2007-12-14
     eol: 2015-04-30
     eoes: 2018-04-30
-    link: https://www.ibm.com/support/pages/db2-version-95-linux-unix-and-windows-english-manuals
+    latestLink: https://www.ibm.com/support/pages/db2-version-95-linux-unix-and-windows-english-manuals
 
   - releaseCycle: "9.1"
     releaseDate: 2006-09-22
     eol: 2012-04-30
     eoes: 2015-04-30
-    link: https://www.ibm.com/support/pages/db2-version-91-linux-unix-and-windows-manuals
+    latestLink: https://www.ibm.com/support/pages/db2-version-91-linux-unix-and-windows-manuals
 
 ---
 

@@ -28,8 +28,8 @@ releases:
     eoas: 2028-08-31
     eol: 2030-06-30
     latest: "25.1"
-    latestReleaseDate: 2026-01-19
-    link: https://mxlinux.org/blog/mx-25-infinity-isos-now-available/
+    latestDate: 2026-01-19
+    latestLink: https://mxlinux.org/blog/mx-25-infinity-isos-now-available/
 
   - releaseCycle: "23"
     codename: "Libretto"
@@ -37,8 +37,8 @@ releases:
     eoas: 2026-06-10
     eol: 2028-06-10
     latest: "23.6"
-    latestReleaseDate: 2025-04-14
-    link: https://mxlinux.org/blog/mx-23-libretto-now-available/
+    latestDate: 2025-04-14
+    latestLink: https://mxlinux.org/blog/mx-23-libretto-now-available/
 
   - releaseCycle: "21"
     codename: "Wildflower"
@@ -46,8 +46,8 @@ releases:
     eoas: 2024-06-30
     eol: 2026-06-30
     latest: "21.3"
-    latestReleaseDate: 2023-01-15
-    link: https://mxlinux.org/blog/mx-21-3-wildflower-released/
+    latestDate: 2023-01-15
+    latestLink: https://mxlinux.org/blog/mx-21-3-wildflower-released/
 
   - releaseCycle: "19"
     codename: "Patito Feo"
@@ -55,8 +55,8 @@ releases:
     eoas: 2022-09-10
     eol: 2024-06-30
     latest: "19.4"
-    latestReleaseDate: 2021-04-01
-    link: https://mxlinux.org/blog/mx-19-4-now-available/
+    latestDate: 2021-04-01
+    latestLink: https://mxlinux.org/blog/mx-19-4-now-available/
 
   - releaseCycle: "18"
     codename: "Continuum"
@@ -64,8 +64,8 @@ releases:
     eoas: 2020-06-05
     eol: 2022-06-30
     latest: "18.3"
-    latestReleaseDate: 2019-05-28
-    link: https://mxlinux.org/blog/mx-18-3-refreshed-isos-now-available/
+    latestDate: 2019-05-28
+    latestLink: https://mxlinux.org/blog/mx-18-3-refreshed-isos-now-available/
 
   - releaseCycle: "17"
     codename: "Horizon"
@@ -73,8 +73,8 @@ releases:
     eoas: 2020-06-05
     eol: 2022-06-30
     latest: "17.1"
-    latestReleaseDate: 2018-03-15
-    link: https://mxlinux.org/blog/mx-17-1-released/
+    latestDate: 2018-03-15
+    latestLink: https://mxlinux.org/blog/mx-17-1-released/
 
   - releaseCycle: "16"
     codename: "Metamorphosis"
@@ -82,8 +82,8 @@ releases:
     eoas: 2018-06-23
     eol: 2020-06-30
     latest: "16.1"
-    latestReleaseDate: 2017-06-08
-    link: https://mxlinux.org/blog/mx-16-1-now-available/
+    latestDate: 2017-06-08
+    latestLink: https://mxlinux.org/blog/mx-16-1-now-available/
 
   - releaseCycle: "15"
     codename: "Fusion"
@@ -91,8 +91,8 @@ releases:
     eoas: 2018-06-23
     eol: 2020-06-30
     latest: "15"
-    latestReleaseDate: 2015-12-24
-    link: https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
+    latestDate: 2015-12-24
+    latestLink: https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
 
   - releaseCycle: "14"
     codename: "Symbiosis"
@@ -100,8 +100,8 @@ releases:
     eoas: 2016-06-04
     eol: 2018-05-31
     latest: "14.4"
-    latestReleaseDate: 2015-03-24
-    link: https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
+    latestDate: 2015-03-24
+    latestLink: https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
 
 ---
 

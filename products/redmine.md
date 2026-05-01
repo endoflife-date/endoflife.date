@@ -23,43 +23,43 @@ releases:
     releaseDate: 2025-09-21
     eol: false
     latest: "6.1.2"
-    latestReleaseDate: 2026-03-17
+    latestDate: 2026-03-17
 
   - releaseCycle: "6.0"
     releaseDate: 2024-11-10
     eol: false
     latest: "6.0.9"
-    latestReleaseDate: 2026-03-17
+    latestDate: 2026-03-17
 
   - releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
     latest: "5.1.12"
-    latestReleaseDate: 2026-03-17
+    latestDate: 2026-03-17
 
   - releaseCycle: "5.0"
     releaseDate: 2022-03-28
     eol: 2025-09-21 # https://www.redmine.org/news/156
     latest: "5.0.14"
-    latestReleaseDate: 2025-09-21
+    latestDate: 2025-09-21
 
   - releaseCycle: "4.2"
     releaseDate: 2021-03-28
     eol: 2023-10-31
     latest: "4.2.11"
-    latestReleaseDate: 2023-09-30
+    latestDate: 2023-09-30
 
   - releaseCycle: "4.1"
     releaseDate: 2019-12-20
     eol: 2022-03-28
     latest: "4.1.7"
-    latestReleaseDate: 2022-03-28
+    latestDate: 2022-03-28
 
   - releaseCycle: "4.0"
     releaseDate: 2018-12-09
     eol: 2021-04-26
     latest: "4.0.9"
-    latestReleaseDate: 2021-04-26
+    latestDate: 2021-04-26
 
 ---
 

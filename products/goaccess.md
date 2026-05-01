@@ -20,7 +20,7 @@ releases:
     releaseDate: 2016-06-09
     eol: false
     latest: "1.10.2"
-    latestReleaseDate: 2026-03-31
+    latestDate: 2026-03-31
 
 ---
 

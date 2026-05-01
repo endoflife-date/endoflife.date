@@ -22,25 +22,25 @@ releases:
     releaseDate: 2024-10-14
     eol: false
     latest: "10.4.0"
-    latestReleaseDate: 2026-02-25
+    latestDate: 2026-02-25
 
   - releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
     latest: "9.12.3"
-    latestReleaseDate: 2025-09-27
+    latestDate: 2025-09-27
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13
     eol: 2024-10-14
     latest: "8.11.4"
-    latestReleaseDate: 2024-09-24
+    latestDate: 2024-09-24
 
   - releaseCycle: "7"
     releaseDate: 2017-09-19
     eol: true
     latest: "7.7.3"
-    latestReleaseDate: 2020-04-24
+    latestDate: 2020-04-24
 
 ---
 

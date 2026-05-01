@@ -291,13 +291,13 @@ module Jekyll
 
       def set_cycle_link(page, cycle)
         if cycle.has_key?('link')
-          # null link means no changelog template
-          if cycle['link'] && cycle['link'].include?('__')
-            cycle['link'] = render_eol_template(cycle['link'], cycle)
+          # null latestLink means no changelog template
+          if cycle['latestLink'] && cycle['latestLink'].include?('__')
+            cycle['latestLink'] = render_eol_template(cycle['link'], cycle)
           end
         else
           if page['latestLinkTemplate']
-            cycle['link'] = render_eol_template(page['latestLinkTemplate'], cycle)
+            cycle['latestLink'] = render_eol_template(page['latestLinkTemplate'], cycle)
           end
         end
       end
@@ -351,7 +351,7 @@ module Jekyll
         link.gsub!('__CODENAME__', cycle['codename'] || '')
         link.gsub!('__RELEASE_DATE__', cycle['releaseDate'].iso8601)
         link.gsub!('__LATEST__', cycle['latest'] || '')
-        link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
+        link.gsub!('__LATEST_DATE__', cycle['latestDate'] ? cycle['latestDate'].iso8601 : '')
         return Liquid::Template.parse(link).render(@context)
       end
     end

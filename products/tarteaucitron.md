@@ -23,7 +23,7 @@ releases:
     releaseDate: 2018-08-28
     eol: false
     latest: "1.32.0"
-    latestReleaseDate: 2026-04-02
+    latestDate: 2026-04-02
 
 ---
 

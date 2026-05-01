@@ -247,7 +247,7 @@ endoflife.date treats certain changes as breaking changes that require special h
 ### Updating a release
 
 1. Edit the release entry in the product's `releases:` array
-2. Update `latest`, `latestReleaseDate`, and/or date fields
+2. Update `latest`, `latestDate`, and/or date fields
 3. Respect the newest-to-oldest ordering
 
 ### Adding automation

@@ -23,48 +23,48 @@ releases:
     eoas: 2028-05-19
     eol: 2030-05-19
     latest: "9.0.22.050"
-    latestReleaseDate: 2025-10-15
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-9-0-22-050-Release-Notes/
-    
+    latestDate: 2025-10-15
+    latestLink: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-9-0-22-050-Release-Notes/
+
   - releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
     eoas: 2026-09-30
     eol: 2027-09-08
     latest: "9.0.21.300"
-    latestReleaseDate: 2024-08-19
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9021/Control-M-9-0-21-300-Release-Notes/
+    latestDate: 2024-08-19
+    latestLink: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9021/Control-M-9-0-21-300-Release-Notes/
 
   - releaseCycle: "9.0.20"
     releaseDate: 2020-07-24
     eoas: 2024-04-30
     eol: 2025-07-23
     latest: "9.0.20.200"
-    latestReleaseDate: 2021-10-28
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9020/Control-M-Version-9-0-20-200-Release-Notes/
+    latestDate: 2021-10-28
+    latestLink: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9020/Control-M-Version-9-0-20-200-Release-Notes/
 
   - releaseCycle: "9.0.19"
     releaseDate: 2019-03-04
     eoas: 2022-12-31
     eol: 2024-03-04
     latest: "9.0.19.200"
-    latestReleaseDate: 2020-01-16
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9019/Control-M-Version-9-0-19-200-Release-Notes/
+    latestDate: 2020-01-16
+    latestLink: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9019/Control-M-Version-9-0-19-200-Release-Notes/
 
   - releaseCycle: "9.0.18"
     releaseDate: 2018-01-03
     eoas: 2021-03-31
     eol: 2023-03-31
     latest: "9.0.18.200"
-    latestReleaseDate: 2018-10-04
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9018/Control-M-Version-9-0-18-200-Release-Notes/
+    latestDate: 2018-10-04
+    latestLink: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9018/Control-M-Version-9-0-18-200-Release-Notes/
 
   - releaseCycle: "9.0.0"
     releaseDate: 2015-07-15
     eoas: 2018-08-01
     eol: 2020-10-31
     latest: "9.0.00.200"
-    latestReleaseDate: 2016-06-21
-    link: https://documents.bmc.com/supportu/952/78/79/477879/477879.pdf
+    latestDate: 2016-06-21
+    latestLink: https://documents.bmc.com/supportu/952/78/79/477879/477879.pdf
 ---
 
 > [Control-M](https://www.bmc.com/it-solutions/control-m.html) is an enterprise workload automation solution

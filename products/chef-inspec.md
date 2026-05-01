@@ -29,7 +29,7 @@ releases:
     eoas: false
     eol: false
     latest: "7.0.107"
-    latestReleaseDate: 2026-02-20
+    latestDate: 2026-02-20
 
   - releaseCycle: "6"
     staleReleaseThresholdDays: 730 # still supported according to https://docs.chef.io/versions/
@@ -37,42 +37,42 @@ releases:
     eoas: 2025-10-16
     eol: false
     latest: "6.8.24"
-    latestReleaseDate: 2025-01-23
+    latestDate: 2025-01-23
 
   - releaseCycle: "5"
     releaseDate: 2022-03-17
     eoas: 2023-11-14
     eol: 2025-10-16 # releaseDate(7)
     latest: "5.24.7"
-    latestReleaseDate: 2026-02-26
+    latestDate: 2026-02-26
 
   - releaseCycle: "4"
     releaseDate: 2019-04-30
     eoas: 2022-03-17
     eol: 2023-11-14
     latest: "4.56.58"
-    latestReleaseDate: 2023-10-24
+    latestDate: 2023-10-24
 
   - releaseCycle: "3"
     releaseDate: 2018-10-15
     eoas: 2019-04-30
     eol: 2020-04-30
     latest: "3.9.3"
-    latestReleaseDate: 2019-04-11
+    latestDate: 2019-04-11
 
   - releaseCycle: "2"
     releaseDate: 2018-02-20
     eoas: 2018-10-15
     eol: 2019-12-31
     latest: "2.3.28"
-    latestReleaseDate: 2019-02-08
+    latestDate: 2019-02-08
 
   - releaseCycle: "1"
     releaseDate: 2016-09-26
     eoas: 2018-02-20
     eol: 2019-12-31
     latest: "1.51.31"
-    latestReleaseDate: 2019-03-06
+    latestDate: 2019-03-06
 
 ---
 

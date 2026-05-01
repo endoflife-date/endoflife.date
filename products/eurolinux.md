@@ -24,28 +24,28 @@ releases:
     eoas: 2024-10-23
     eol: 2024-11-03
     latest: "9.4"
-    latestReleaseDate: 2024-05-10
+    latestDate: 2024-05-10
 
   - releaseCycle: "8"
     releaseDate: 2021-07-12
     eoas: 2024-10-23
     eol: 2024-11-03
     latest: "8.10"
-    latestReleaseDate: 2024-05-27
+    latestDate: 2024-05-27
 
   - releaseCycle: "7"
     releaseDate: 2020-11-25
     eoas: 2024-07-31
     eol: 2024-07-31
     latest: "7.9"
-    latestReleaseDate: 2020-11-25
+    latestDate: 2020-11-25
 
   - releaseCycle: "6"
     releaseDate: 2015-02-16
     eoas: 2020-12-31
     eol: 2020-12-31
     latest: "6.10"
-    latestReleaseDate: 2018-07-25
+    latestDate: 2018-07-25
 ---
 
 > [EuroLinux](https://euro-linux.com) was a Polish Enterprise Linux distribution

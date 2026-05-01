@@ -22,14 +22,14 @@ releases:
     eoas: false
     eol: false
     latest: "3.31.0"
-    latestReleaseDate: 2026-04-19
+    latestDate: 2026-04-19
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01
     eoas: 2015-06-01
     eol: 2015-06-01
     latest: "2.5.5"
-    latestReleaseDate: 2015-06-01
+    latestDate: 2015-06-01
 
 ---
 

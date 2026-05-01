@@ -26,16 +26,16 @@ releases:
     eoas: 2028-10-01
     eol: 2028-10-01
     discontinued: false
-    link: https://en.wikipedia.org/wiki/Pixel_Watch_4
+    latestLink: https://en.wikipedia.org/wiki/Pixel_Watch_4
     supportedAndroidVersions: "6" # https://www.gsmarena.com/google_pixel_watch_4-14088.php
-    
+
   - releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
     releaseDate: 2024-09-10
     eoas: 2027-10-01
     eol: 2027-10-01
     discontinued: false
-    link: https://en.wikipedia.org/wiki/Pixel_Watch_3
+    latestLink: https://en.wikipedia.org/wiki/Pixel_Watch_3
     supportedAndroidVersions: "5 - 6" # https://www.gsmarena.com/google_pixel_watch_3-13253.php
 
   - releaseCycle: "2"
@@ -44,7 +44,7 @@ releases:
     eoas: 2026-10-01
     eol: 2026-10-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Pixel_Watch_2
+    latestLink: https://en.wikipedia.org/wiki/Pixel_Watch_2
     supportedAndroidVersions: "4 - 6" # https://www.gsmarena.com/google_pixel_watch_2-12547.php
 
   - releaseCycle: "1"
@@ -53,7 +53,7 @@ releases:
     eoas: 2025-10-01
     eol: 2025-10-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Pixel_Watch
+    latestLink: https://en.wikipedia.org/wiki/Pixel_Watch
     supportedAndroidVersions: "3.5 - 5" # https://www.gsmarena.com/google_pixel_watch-11546.php
 ---
 

@@ -27,10 +27,10 @@ releases:
     codename: "Arditi del Popolo" # Bookworm
     releaseDate: 2023-08-28
     latest: "23"
-    latestReleaseDate: 2023-08-28
+    latestDate: 2023-08-28
     eoas: 2026-06-10
     eol: 2028-06-10
-    link: https://antixlinux.com/antix-23-released/
+    latestLink: https://antixlinux.com/antix-23-released/
 
   - releaseCycle: "21"
     codename: "Grup Yorum" # Bullseye
@@ -38,8 +38,8 @@ releases:
     eoas: 2024-06-30
     eol: 2026-06-30
     latest: "22"
-    latestReleaseDate: 2022-10-19
-    link: https://antixlinux.com/antix-22-released/
+    latestDate: 2022-10-19
+    latestLink: https://antixlinux.com/antix-22-released/
 
   - releaseCycle: "19"
     codename: "Grup Yorum" # Buster
@@ -47,8 +47,8 @@ releases:
     eoas: 2022-09-10
     eol: 2024-06-30
     latest: "19.5"
-    latestReleaseDate: 2022-01-25
-    link: https://antixlinux.com/antix-19-5-point-release-update/
+    latestDate: 2022-01-25
+    latestLink: https://antixlinux.com/antix-19-5-point-release-update/
 
   - releaseCycle: "17"
     codename: "Helen Keller" # Stretch
@@ -56,8 +56,8 @@ releases:
     eoas: 2020-06-05
     eol: 2022-06-30
     latest: "17.4.1"
-    latestReleaseDate: 2019-03-28
-    link: https://antixlinux.com/antix-17-4-1-now-out/
+    latestDate: 2019-03-28
+    latestLink: https://antixlinux.com/antix-17-4-1-now-out/
 
   - releaseCycle: "16"
     codename: "Berta Cáceres"
@@ -65,8 +65,8 @@ releases:
     eoas: 2018-06-23
     eol: 2020-06-30
     latest: "16.3"
-    latestReleaseDate: 2017-12-21
-    link: https://antixlinux.com/antix-16-3-full-iso-files-available/
+    latestDate: 2017-12-21
+    latestLink: https://antixlinux.com/antix-16-3-full-iso-files-available/
 
   - releaseCycle: "15"
     codename: "Berta Cáceres"
@@ -74,8 +74,8 @@ releases:
     eoas: 2018-06-23
     eol: 2020-06-30
     latest: "15"
-    latestReleaseDate: 2015-06-30
-    link: https://antixlinux.com/forum-archive/antix-15-released-t5697.html
+    latestDate: 2015-06-30
+    latestLink: https://antixlinux.com/forum-archive/antix-15-released-t5697.html
 ---
 
 > [antiX Linux](https://antixlinux.com/) is a lightweight desktop-oriented systemd-free GNU/Linux

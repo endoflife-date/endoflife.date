@@ -32,13 +32,13 @@ releases:
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
+    latestLink: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
 
   - releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
     eol: 2027-07-31
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
+    latestLink: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
   - releaseCycle: "19"
     releaseLabel: "19c"
@@ -46,19 +46,19 @@ releases:
     lts: true
     eol: 2029-12-31
     eoes: 2032-12-31
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
+    latestLink: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
   - releaseCycle: "18"
     releaseLabel: "18c"
     releaseDate: 2018-07-23
     eol: 2021-06-30
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
+    latestLink: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
 
   - releaseCycle: "12.2"
     releaseLabel: "12c Release 2"
     releaseDate: 2017-03-01
     eol: 2022-03-31
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
+    latestLink: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
 
   - releaseCycle: "12.1"
     releaseLabel: "12c Release 1"
@@ -66,7 +66,7 @@ releases:
     releaseDate: 2013-06-25
     eol: 2018-07-31
     eoes: 2022-07-31
-    link: https://docs.oracle.com/database/121/index.htm
+    latestLink: https://docs.oracle.com/database/121/index.htm
 
   - releaseCycle: "11.2"
     releaseLabel: "11g Release 2"
@@ -75,7 +75,7 @@ releases:
     releaseDate: 2009-09-01
     eol: 2015-01-31
     eoes: 2020-12-31
-    link: https://docs.oracle.com/cd/E11882_01/index.htm
+    latestLink: https://docs.oracle.com/cd/E11882_01/index.htm
 
   - releaseCycle: "11.1"
     releaseLabel: "11g Release 1"
@@ -85,7 +85,7 @@ releases:
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html#foot1
     eol: 2012-08-31
     eoes: 2015-08-31
-    link: https://docs.oracle.com/cd/B28359_01/index.htm
+    latestLink: https://docs.oracle.com/cd/B28359_01/index.htm
 
   - releaseCycle: "10.2"
     releaseLabel: "10g Release 2"
@@ -95,7 +95,7 @@ releases:
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
     eol: 2010-07-31
     eoes: 2015-07-31
-    link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
+    latestLink: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
   - releaseCycle: "10.1"
     releaseLabel: "10g Release 1"
@@ -105,7 +105,7 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_10g
     eol: 2009-01-31
     eoes: 2012-01-01
-    link: https://www.oracle.com/database/technologies/database10g-doc.html
+    latestLink: https://www.oracle.com/database/technologies/database10g-doc.html
 
   - releaseCycle: "9.2"
     releaseLabel: "9i Release 2"
@@ -114,7 +114,7 @@ releases:
     releaseDate: 2002-05-01
     eol: 2007-07-31
     eoes: 2010-07-31
-    link: https://web.archive.org/web/20230921152724/https://www.oracle.com/database/technologies/oracle9i.html
+    latestLink: https://web.archive.org/web/20230921152724/https://www.oracle.com/database/technologies/oracle9i.html
 
   - releaseCycle: "9.0"
     releaseLabel: "9i Release 1"

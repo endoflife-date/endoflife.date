@@ -25,7 +25,7 @@ releases:
     eoas: false
     eol: false
     latest: "2.252.0"
-    latestReleaseDate: 2026-04-29
+    latestDate: 2026-04-29
 
 ---
 

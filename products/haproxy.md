@@ -25,158 +25,158 @@ identifiers:
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
-# eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
+# eol(x) = max(fuzzyDate(x), latestDate(x))
 releases:
   - releaseCycle: "3.3"
     releaseDate: 2025-11-26
     eol: 2027-01-01
     latest: "3.3.8"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
     latest: "3.2.17"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
     latest: "3.1.17"
-    latestReleaseDate: 2026-03-19
+    latestDate: 2026-03-19
 
   - releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
     latest: "3.0.21"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.9"
     releaseDate: 2023-12-05
     eol: 2025-03-21
     latest: "2.9.15"
-    latestReleaseDate: 2025-03-21
+    latestDate: 2025-03-21
 
   - releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
     latest: "2.8.22"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.7"
     releaseDate: 2022-12-01
     eol: 2024-04-05
     latest: "2.7.12"
-    latestReleaseDate: 2024-04-05
+    latestDate: 2024-04-05
 
   - releaseCycle: "2.6"
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
     latest: "2.6.27"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.5"
     releaseDate: 2021-11-23
     eol: 2023-05-02
     latest: "2.5.14"
-    latestReleaseDate: 2023-05-02
+    latestDate: 2023-05-02
 
   - releaseCycle: "2.4"
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
     latest: "2.4.33"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.3"
     releaseDate: 2020-11-05
     eol: 2022-07-27
     latest: "2.3.21"
-    latestReleaseDate: 2022-07-27
+    latestDate: 2022-07-27
 
   - releaseCycle: "2.2"
     releaseDate: 2020-07-07
     lts: true
     eol: 2025-04-23
     latest: "2.2.34"
-    latestReleaseDate: 2025-04-23
+    latestDate: 2025-04-23
 
   - releaseCycle: "2.1"
     releaseDate: 2019-11-25
     eol: 2021-03-18
     latest: "2.1.12"
-    latestReleaseDate: 2021-03-18
+    latestDate: 2021-03-18
 
   - releaseCycle: "2.0"
     releaseDate: 2019-06-16
     eol: 2024-04-05
     latest: "2.0.35"
-    latestReleaseDate: 2024-04-05
+    latestDate: 2024-04-05
 
   - releaseCycle: "1.9"
     releaseDate: 2018-12-19
     eol: 2020-07-31
     latest: "1.9.16"
-    latestReleaseDate: 2020-07-31
+    latestDate: 2020-07-31
 
   - releaseCycle: "1.8"
     releaseDate: 2017-11-26
     eol: 2022-12-09
     latest: "1.8.31"
-    latestReleaseDate: 2022-12-09
+    latestDate: 2022-12-09
 
   - releaseCycle: "1.7"
     releaseDate: 2016-11-25
     eol: 2021-10-01
     latest: "1.7.14"
-    latestReleaseDate: 2021-03-31
+    latestDate: 2021-03-31
 
   - releaseCycle: "1.6"
     releaseDate: 2015-10-13
     eol: 2020-10-01
     latest: "1.6.16"
-    latestReleaseDate: 2021-03-19
+    latestDate: 2021-03-19
 
   - releaseCycle: "1.5"
     releaseDate: 2014-06-19
     eol: 2020-01-10
     latest: "1.5.19"
-    latestReleaseDate: 2016-12-25
+    latestDate: 2016-12-25
 
   - releaseCycle: "1.4"
     releaseDate: 2010-02-26
     eol: 2020-01-10
     latest: "1.4.27"
-    latestReleaseDate: 2016-03-14
+    latestDate: 2016-03-14
 
   - releaseCycle: "1.3"
     releaseDate: 2006-06-29
     eol: 2016-03-14
     latest: "1.3.28"
-    latestReleaseDate: 2016-03-14
+    latestDate: 2016-03-14
 
   - releaseCycle: "1.2"
     releaseDate: 2003-11-09
     eol: 2011-08-06
     latest: "1.2.18"
-    latestReleaseDate: 2008-05-25
+    latestDate: 2008-05-25
 
   - releaseCycle: "1.1"
     releaseDate: 2002-03-10
     eol: 2006-01-29
     latest: "1.1.34"
-    latestReleaseDate: 2006-01-29
+    latestDate: 2006-01-29
 
   - releaseCycle: "1.0"
     releaseDate: 2001-12-16
     eol: 2001-12-30
     latest: "1.0.2"
-    latestReleaseDate: 2001-12-30
-    link: null
+    latestDate: 2001-12-30
+    latestLink: null
 
 ---
 

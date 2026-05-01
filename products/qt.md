@@ -31,21 +31,21 @@ releases:
     eol: 2026-09-22 # estimated releaseDate(6.12)
     eoes: 2027-03-23 # estimated
     latest: "6.11"
-    latestReleaseDate: 2026-03-23
+    latestDate: 2026-03-23
 
   - releaseCycle: "6.10"
     releaseDate: 2025-10-07
     eol: 2026-04-07 # estimated, 2025-10-07 + 6 months
     eoes: 2026-10-07 # estimated
     latest: "6.10.3"
-    latestReleaseDate: 2026-04-02
+    latestDate: 2026-04-02
 
   - releaseCycle: "6.9"
     releaseDate: 2025-04-02
     eol: 2025-10-07
     eoes: 2026-04-02 # estimated
     latest: "6.9.3"
-    latestReleaseDate: 2025-09-30
+    latestDate: 2025-09-30
 
   - releaseCycle: "6.8"
     lts: true
@@ -53,21 +53,21 @@ releases:
     eol: 2025-04-02
     eoes: 2029-10-08
     latest: "6.8.3"
-    latestReleaseDate: 2025-03-26
+    latestDate: 2025-03-26
 
   - releaseCycle: "6.7"
     releaseDate: 2024-03-28
     eol: 2024-10-07
     eoes: 2025-04-02
     latest: "6.7.3"
-    latestReleaseDate: 2024-09-27
+    latestDate: 2024-09-27
 
   - releaseCycle: "6.6"
     releaseDate: 2023-10-09
     eol: 2024-04-02
     eoes: 2024-10-09
     latest: "6.6.3"
-    latestReleaseDate: 2024-03-26
+    latestDate: 2024-03-26
 
   - releaseCycle: "6.5"
     lts: true
@@ -75,22 +75,22 @@ releases:
     eol: 2023-10-09
     eoes: 2026-03-31
     latest: "6.5.8"
-    latestReleaseDate: 2023-12-13
-    link: https://www.qt.io/blog/commercial-lts-qt-6.5.8-released
+    latestDate: 2023-12-13
+    latestLink: https://www.qt.io/blog/commercial-lts-qt-6.5.8-released
 
   - releaseCycle: "6.4"
     releaseDate: 2022-09-28
     eol: 2023-03-31
     eoes: 2023-09-28
     latest: "6.4.3"
-    latestReleaseDate: 2023-03-16
+    latestDate: 2023-03-16
 
   - releaseCycle: "6.3"
     releaseDate: 2022-04-11
     eol: 2022-09-28
     eoes: 2023-04-11
     latest: "6.3.2"
-    latestReleaseDate: 2022-09-08
+    latestDate: 2022-09-08
 
   - releaseCycle: "6.2"
     lts: true
@@ -98,21 +98,21 @@ releases:
     eol: 2022-04-11
     eoes: 2024-09-30
     latest: "6.2.4"
-    latestReleaseDate: 2022-03-16
+    latestDate: 2022-03-16
 
   - releaseCycle: "6.1"
     releaseDate: 2021-05-05
     eol: 2021-09-30
     eoes: 2022-05-05
     latest: "6.1.3"
-    latestReleaseDate: 2021-08-31
+    latestDate: 2021-08-31
 
   - releaseCycle: "6.0"
     releaseDate: 2020-12-08
     eol: 2021-05-05
     eoes: 2021-12-08
     latest: "6.0.4"
-    latestReleaseDate: 2021-05-03
+    latestDate: 2021-05-03
 
   - releaseCycle: "5.15"
     lts: true
@@ -120,50 +120,50 @@ releases:
     eol: 2020-12-08
     eoes: 2025-05-25
     latest: "5.15.17"
-    latestReleaseDate: 2025-05-22
-    link: https://www.qt.io/blog/commercial-lts-qt-5.15.17-released
+    latestDate: 2025-05-22
+    latestLink: https://www.qt.io/blog/commercial-lts-qt-5.15.17-released
 
   - releaseCycle: "5.14"
     releaseDate: 2019-12-11
     eol: 2020-12-12
     latest: "5.14.2"
-    latestReleaseDate: 2020-03-30
-    link: https://www.qt.io/blog/qt-5.14-has-released
+    latestDate: 2020-03-30
+    latestLink: https://www.qt.io/blog/qt-5.14-has-released
 
   - releaseCycle: "5.13"
     releaseDate: 2019-06-18
     eol: 2020-06-19
     latest: "5.13.2"
-    latestReleaseDate: 2019-10-28
+    latestDate: 2019-10-28
 
   - releaseCycle: "5.12"
     lts: true
     releaseDate: 2018-12-04
     eol: 2021-12-05
     latest: "5.12.12"
-    latestReleaseDate: 2021-11-25
+    latestDate: 2021-11-25
 
   - releaseCycle: "5.9"
     releaseDate: 2017-05-29
     eol: 2020-05-31
     latest: "5.9.9"
-    latestReleaseDate: 2019-12-16
+    latestDate: 2019-12-16
 
   - releaseCycle: "5.6"
     lts: true
     releaseDate: 2016-03-15
     eol: 2019-03-16
     latest: "5.6.3"
-    latestReleaseDate: 2017-09-20
-    link: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
+    latestDate: 2017-09-20
+    latestLink: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
 
   - releaseCycle: "4.8"
     lts: true
     releaseDate: 2011-12-15
     eol: 2015-12-31
     latest: "4.8.7"
-    latestReleaseDate: 2015-05-26
-    link: https://web.archive.org/web/20240814204109/https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
+    latestDate: 2015-05-26
+    latestLink: https://web.archive.org/web/20240814204109/https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
 
 ---
 

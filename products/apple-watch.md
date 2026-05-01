@@ -26,7 +26,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/125093
+    latestLink: https://support.apple.com/en-us/125093
     supportedWatchOsVersions: "26"
 
   - releaseCycle: "se-3"
@@ -34,7 +34,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/125094
+    latestLink: https://support.apple.com/en-us/125094
     supportedWatchOsVersions: "26"
 
   - releaseCycle: "ultra-3"
@@ -42,7 +42,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/125095
+    latestLink: https://support.apple.com/en-us/125095
     supportedWatchOsVersions: "26"
 
   - releaseCycle: "series-10"
@@ -50,7 +50,7 @@ releases:
     releaseDate: 2024-09-20
     discontinued: 2025-09-19
     eol: false
-    link: https://support.apple.com/en-us/121202
+    latestLink: https://support.apple.com/en-us/121202
     supportedWatchOsVersions: "11, 26"
 
   - releaseCycle: "ultra-2"
@@ -58,7 +58,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2025-09-19
     eol: false
-    link: https://support.apple.com/kb/SP906
+    latestLink: https://support.apple.com/kb/SP906
     supportedWatchOsVersions: "10, 11, 26"
 
   - releaseCycle: "series-9"
@@ -66,7 +66,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2024-09-12
     eol: false
-    link: https://support.apple.com/kb/SP905
+    latestLink: https://support.apple.com/kb/SP905
     supportedWatchOsVersions: "10, 11, 26"
 
   - releaseCycle: "ultra-1"
@@ -74,7 +74,7 @@ releases:
     releaseDate: 2022-09-23
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP879
+    latestLink: https://support.apple.com/kb/SP879
     supportedWatchOsVersions: "9, 10, 11, 26"
 
   - releaseCycle: "series-8"
@@ -82,7 +82,7 @@ releases:
     releaseDate: 2022-09-16
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP878
+    latestLink: https://support.apple.com/kb/SP878
     supportedWatchOsVersions: "9, 10, 11, 26"
 
   - releaseCycle: "se-2"
@@ -90,7 +90,7 @@ releases:
     releaseDate: 2022-09-16
     discontinued: 2025-09-19
     eol: false
-    link: https://support.apple.com/kb/SP877
+    latestLink: https://support.apple.com/kb/SP877
     supportedWatchOsVersions: "9, 10, 11, 26"
 
   - releaseCycle: "series-7"
@@ -98,7 +98,7 @@ releases:
     releaseDate: 2021-10-15
     discontinued: 2022-09-07
     eol: false
-    link: https://support.apple.com/kb/SP860
+    latestLink: https://support.apple.com/kb/SP860
     supportedWatchOsVersions: "8, 9, 10, 11, 26"
 
   - releaseCycle: "series-6"
@@ -107,7 +107,7 @@ releases:
     discontinued: 2021-10-14
     staleReleaseThresholdDays: 2200
     eol: false
-    link: https://support.apple.com/kb/SP826
+    latestLink: https://support.apple.com/kb/SP826
     supportedWatchOsVersions: "7, 8, 9, 10, 11, 26"
 
   - releaseCycle: "se-1"
@@ -115,7 +115,7 @@ releases:
     releaseDate: 2020-09-18
     discontinued: 2022-09-07
     eol: 2024-09-16
-    link: https://support.apple.com/kb/SP827
+    latestLink: https://support.apple.com/kb/SP827
     supportedWatchOsVersions: "7, 8, 9, 10"
 
   - releaseCycle: "series-5"
@@ -123,7 +123,7 @@ releases:
     releaseDate: 2019-09-20
     discontinued: 2020-09-15
     eol: 2024-09-16
-    link: https://support.apple.com/kb/SP808
+    latestLink: https://support.apple.com/kb/SP808
     supportedWatchOsVersions: "6, 7, 8, 9, 10"
 
   - releaseCycle: "series-4"
@@ -131,7 +131,7 @@ releases:
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
     eol: 2024-09-16
-    link: https://support.apple.com/kb/SP778
+    latestLink: https://support.apple.com/kb/SP778
     supportedWatchOsVersions: "5, 6, 7, 8, 9, 10"
 
   - releaseCycle: "series-3"
@@ -139,7 +139,7 @@ releases:
     releaseDate: 2017-09-22
     discontinued: 2022-09-07
     eol: 2022-09-13
-    link: https://support.apple.com/kb/SP766
+    latestLink: https://support.apple.com/kb/SP766
     supportedWatchOsVersions: "4, 5, 6, 7, 8"
 
   - releaseCycle: "series-2"
@@ -147,7 +147,7 @@ releases:
     releaseDate: 2016-09-16
     discontinued: 2017-09-12
     eol: 2020-09-15
-    link: https://support.apple.com/kb/SP746
+    latestLink: https://support.apple.com/kb/SP746
     supportedWatchOsVersions: "3, 4, 5, 6"
 
   - releaseCycle: "series-1"
@@ -155,7 +155,7 @@ releases:
     releaseDate: 2016-09-12
     discontinued: 2018-09-12
     eol: 2020-09-15
-    link: https://support.apple.com/kb/SP745
+    latestLink: https://support.apple.com/kb/SP745
     supportedWatchOsVersions: "3, 4, 5, 6"
 
   - releaseCycle: "1"
@@ -163,7 +163,7 @@ releases:
     releaseDate: 2015-04-24
     discontinued: 2016-09-07
     eol: 2018-09-17
-    link: https://support.apple.com/kb/SP735
+    latestLink: https://support.apple.com/kb/SP735
     supportedWatchOsVersions: "1, 2, 3, 4"
 ---
 

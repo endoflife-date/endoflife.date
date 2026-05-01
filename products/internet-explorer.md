@@ -17,31 +17,31 @@ releases:
   - releaseCycle: "11" # This applies to 99% of users
     releaseDate: 2013-11-13
     eol: 2022-06-14
-    link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
+    latestLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
   - releaseCycle: "11-ltsb"
     releaseLabel: "11 LTSB"
     releaseDate: 2013-11-13
     eol: 2031-10-14
-    link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
+    latestLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
   - releaseCycle: "11-ltsc"
     releaseLabel: "11 LTSC"
     releaseDate: 2013-11-13
     eol: 2031-10-14
-    link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
+    latestLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
   - releaseCycle: "11-server"
     releaseLabel: "11 Server"
     releaseDate: 2013-11-13
     eol: 2031-10-14
-    link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
+    latestLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
   - releaseCycle: "11-embedded"
     releaseLabel: "11 Embedded"
     releaseDate: 2013-11-13
     eol: 2031-10-14
-    link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
+    latestLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
   - releaseCycle: "10"
     releaseDate: 2012-10-30

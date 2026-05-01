@@ -39,70 +39,70 @@ releases:
     eoas: false
     eol: false
     latest: "8.6.2"
-    latestReleaseDate: 2026-03-24
+    latestDate: 2026-03-24
 
   - releaseCycle: "8.4"
     releaseDate: 2025-11-18
     eoas: 2026-02-11
     eol: false
     latest: "8.4.2"
-    latestReleaseDate: 2026-02-22
+    latestDate: 2026-02-22
 
   - releaseCycle: "8.2"
     releaseDate: 2025-08-04
     eoas: 2025-11-18
     eol: false
     latest: "8.2.5"
-    latestReleaseDate: 2026-02-22
+    latestDate: 2026-02-22
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
     eoas: 2025-08-04
     eol: 2026-02-11
     latest: "8.0.6"
-    latestReleaseDate: 2026-02-22
+    latestDate: 2026-02-22
 
   - releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: 2025-05-02
     eol: false # still supported according to https://github.com/redis/redis/security
     latest: "7.4.8"
-    latestReleaseDate: 2026-02-22
+    latestDate: 2026-02-22
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
     eol: false # still supported according to https://github.com/redis/redis/security
     latest: "7.2.13"
-    latestReleaseDate: 2026-02-22
+    latestDate: 2026-02-22
 
   - releaseCycle: "7.0"
     releaseDate: 2022-04-27
     eoas: 2023-08-15
     eol: 2024-07-29
     latest: "7.0.15"
-    latestReleaseDate: 2024-01-09
+    latestDate: 2024-01-09
 
   - releaseCycle: "6.2"
     releaseDate: 2021-02-22
     eoas: 2022-04-27
     eol: false # still supported according to https://github.com/redis/redis/security
     latest: "6.2.21"
-    latestReleaseDate: 2025-11-02
+    latestDate: 2025-11-02
 
   - releaseCycle: "6.0"
     releaseDate: 2020-04-30
     eoas: 2021-02-22
     eol: 2022-05-31
     latest: "6.0.20"
-    latestReleaseDate: 2023-07-10
+    latestDate: 2023-07-10
 
   - releaseCycle: "5.0"
     releaseDate: 2018-10-17
     eoas: 2020-04-30
     eol: 2022-04-27
     latest: "5.0.14"
-    latestReleaseDate: 2021-10-04
+    latestDate: 2021-10-04
 
 ---
 

@@ -20,7 +20,7 @@ releases:
     eol: 2034-10-10
     latest: 10.0.26100
     lts: true
-    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    latestLink: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
   - releaseCycle: "23h2-ac"
     releaseLabel: "Windows Server 23H2 AC"
@@ -28,7 +28,7 @@ releases:
     eoas: 2025-04-24
     eol: 2025-10-24
     latest: 10.0.25398
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-annual-channel
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-annual-channel
 
   - releaseCycle: "2022"
     releaseDate: 2021-08-18
@@ -36,7 +36,7 @@ releases:
     eol: 2031-10-14
     latest: 10.0.20348
     lts: true
-    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    latestLink: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
   - releaseCycle: "20h2-sac"
     releaseLabel: "Windows Server 20H2 SAC"
@@ -44,7 +44,7 @@ releases:
     eoas: 2022-08-09
     eol: 2022-08-09
     latest: 10.0.19042
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring
 
   - releaseCycle: "2004-sac"
     releaseLabel: "Windows Server 2004 SAC"
@@ -52,7 +52,7 @@ releases:
     eoas: 2021-12-14
     eol: 2021-12-14
     latest: 10.0.19041
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-version-2004-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-server-version-2004-end-of-servicing
 
   - releaseCycle: "1909-sac"
     releaseLabel: "Windows Server 1909 SAC"
@@ -60,7 +60,7 @@ releases:
     eoas: 2021-05-11
     eol: 2021-05-11
     latest: 10.0.18363
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1909-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-server-1909-end-of-servicing
 
   - releaseCycle: "1903-sac"
     releaseLabel: "Windows Server 1903 SAC"
@@ -68,7 +68,7 @@ releases:
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-semiannual-channel
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-semiannual-channel
 
   - releaseCycle: "1809-sac"
     releaseLabel: "Windows Server 1809 SAC"
@@ -76,7 +76,7 @@ releases:
     eoas: 2020-11-10
     eol: 2020-11-10
     latest: 10.0.17763
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1809-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-server-1809-end-of-servicing
 
   - releaseCycle: "2019"
     releaseDate: 2018-11-13
@@ -84,7 +84,7 @@ releases:
     eoas: 2024-01-09
     eol: 2029-01-09
     latest: 10.0.17763
-    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    latestLink: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
   - releaseCycle: "1803-sac"
     releaseLabel: "Windows Server 1803 SAC"
@@ -92,7 +92,7 @@ releases:
     eoas: 2019-11-12
     eol: 2019-11-12
     latest: 10.0.17134
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1803-end-of-servicing
+    latestLink: https://learn.microsoft.com/lifecycle/announcements/windows-server-1803-end-of-servicing
 
   - releaseCycle: "1709-sac"
     releaseLabel: "Windows Server 1709 SAC"
@@ -100,7 +100,7 @@ releases:
     eoas: 2019-04-09
     eol: 2019-04-09
     latest: 10.0.16299
-    link: https://techcommunity.microsoft.com/t5/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/m-p/379766
+    latestLink: https://techcommunity.microsoft.com/t5/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/m-p/379766
 
   - releaseCycle: "2016"
     releaseDate: 2016-10-15
@@ -108,7 +108,7 @@ releases:
     eoas: 2022-01-11
     eol: 2027-01-12
     latest: 10.0.14393
-    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    latestLink: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
   - releaseCycle: "2012-r2"
     releaseLabel: "Windows Server 2012 R2"
@@ -118,7 +118,7 @@ releases:
     eol: 2023-10-10
     eoes: 2026-10-13
     latest: 6.3.9600
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012-r2
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2012-r2
 
   - releaseCycle: "2012"
     lts: true
@@ -127,7 +127,7 @@ releases:
     eol: 2023-10-10
     eoes: 2026-10-13
     latest: 6.2.9200
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2012
 
   - releaseCycle: "2008-r2-sp1"
     releaseLabel: "Windows Server 2008 R2 SP1"
@@ -137,7 +137,7 @@ releases:
     eol: 2020-01-14
     eoes: 2023-01-10
     latest: 6.1.7601
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
 
   - releaseCycle: "2008-sp2"
     releaseLabel: "Windows Server 2008 SP2"
@@ -147,7 +147,7 @@ releases:
     eol: 2020-01-14
     eoes: 2023-01-10
     latest: 6.0.6003
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2008
 
   - releaseCycle: "2003-sp2"
     releaseLabel: "Windows Server 2003 SP2"
@@ -156,7 +156,7 @@ releases:
     eoas: 2010-07-13
     eol: 2015-07-14
     latest: 5.2.3790
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
   - releaseCycle: "2003-sp1"
     releaseLabel: "Windows Server 2003 SP1"
@@ -165,7 +165,7 @@ releases:
     eoas: 2009-04-14
     eol: 2009-04-14
     latest: 5.2.3790
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
   - releaseCycle: "2003"
     releaseDate: 2003-04-24
@@ -173,7 +173,7 @@ releases:
     eoas: 2007-04-10
     eol: 2007-04-10
     latest: 5.2.3790
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+    latestLink: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
   - releaseCycle: "2000"
     releaseDate: 2000-02-17
@@ -181,7 +181,7 @@ releases:
     eoas: 2005-06-30
     eol: 2010-07-13
     latest: 5.0.2195
-    link: null
+    latestLink: null
 ---
 
 > Windows Server (formerly Windows NT Server) is a group of operating systems (OS) for servers by Microsoft.

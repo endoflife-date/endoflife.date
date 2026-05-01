@@ -192,7 +192,7 @@ customFields:
     link: https://en.wikipedia.org/wiki/IPhone#Models
 
 # Auto-update release configuration (optional).
-# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
+# This is used for automatically updating `releaseDate`, `latest`, and `latestDate` for every release.
 # Multiple configurations are allowed.
 # Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
 # The presence of such configuration modifies the product page so that users are informed that existing
@@ -362,7 +362,7 @@ releases:
 
     # Latest release date (optional).
     # Use valid dates, and do not add quotes around dates.
-    latestReleaseDate: 2022-01-23
+    latestDate: 2022-01-23
 
     # A link to the changelog for the latest release in this cycle
     # (optional, default = the URL generated from latestLinkTemplate if it is provided).

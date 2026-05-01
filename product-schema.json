@@ -374,19 +374,6 @@
           "type": "string",
           "pattern": "^[a-z0-9.\\-+_]+$"
         },
-        "link": {
-          "title": "Link",
-          "description": "Link to changelog for the latest release in this cycle, or null if unavailable.",
-          "oneOf": [
-            {
-              "type": "string",
-              "format": "uri"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "releaseLabel": {
           "title": "Release label",
           "description": "The human-readable name of this release.",
@@ -450,15 +437,28 @@
           "$ref": "#/$defs/boolOrString"
         },
         "latest": {
-          "title": "Latest release",
-          "description": "The latest release in this cycle.",
+          "title": "Latest version",
+          "description": "The latest version number for this release.",
           "type": "string"
         },
-        "latestReleaseDate": {
-          "title": "Latest release date",
-          "description": "The date of the latest release.",
+        "latestDate": {
+          "title": "Latest date",
+          "description": "The latest version date for this release.",
           "type": "string",
           "format": "date"
+        },
+        "latestLink": {
+          "title": "Latest link",
+          "description": "Link to the changelog / notes for the latest version of this cycle, or null if unavailable.",
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         }
       },
       "allOf": [

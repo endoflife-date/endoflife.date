@@ -87,17 +87,17 @@ releases:
   - releaseCycle: "18.2"
     releaseDate: 2018-09-28
     eol: 2023-09-01
-    link: https://blogs.oracle.com/apex/post/announcing-oracle-apex-182
+    latestLink: https://blogs.oracle.com/apex/post/announcing-oracle-apex-182
 
   - releaseCycle: "18.1"
     releaseDate: 2018-05-24
     eol: 2023-05-01
-    link: https://docs.oracle.com/database/apex-18.1/HTMRN/toc.htm#HTMRN-GUID-540B73CB-08A7-4422-B6BF-CC785EC47694
+    latestLink: https://docs.oracle.com/database/apex-18.1/HTMRN/toc.htm#HTMRN-GUID-540B73CB-08A7-4422-B6BF-CC785EC47694
 
   - releaseCycle: "5.1"
     releaseDate: 2016-12-21
     eol: 2021-12-01
-    link: https://blogs.oracle.com/apex/post/oracle-announces-oracle-application-express-51
+    latestLink: https://blogs.oracle.com/apex/post/oracle-announces-oracle-application-express-51
 
 ---
 

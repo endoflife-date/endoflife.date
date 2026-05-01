@@ -215,8 +215,8 @@ module EndOfLifeHooks
       error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
       error_if.is_not_a_string('latest') if product.data['latestColumn']
-      error_if.is_not_a_date('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
-      error_if.too_far_in_future('latestReleaseDate') if product.data['latestColumn'] and release.has_key?('latestReleaseDate')
+      error_if.is_not_a_date('latestDate') if product.data['latestColumn'] and release.has_key?('latestDate')
+      error_if.too_far_in_future('latestDate') if product.data['latestColumn'] and release.has_key?('latestDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
       error_if.is_not_before('releaseDate', 'eoas') if product.data['eoasColumn']
@@ -407,7 +407,7 @@ module EndOfLifeHooks
     def undeclared_custom_field(property)
       releases = @data[property]
 
-      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestReleaseDate link lts outOfOrder staleReleaseThresholdDays]
+      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestDate latestLink lts outOfOrder staleReleaseThresholdDays]
       custom_fields = @product["customFields"].map { |column| column["name"] }
 
       releases.each do |release|

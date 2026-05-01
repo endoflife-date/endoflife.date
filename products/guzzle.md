@@ -30,35 +30,35 @@ releases:
     supportedPHPVersions: ">=7.2.5, <8.6"
     latest: "7.10.0"
     releaseDate: 2020-06-27
-    latestReleaseDate: 2025-08-23
+    latestDate: 2025-08-23
 
   - releaseCycle: "6"
     eol: 2023-10-31
     supportedPHPVersions: ">=5.5, <8.0"
     latest: "6.5.8"
     releaseDate: 2015-05-26
-    latestReleaseDate: 2022-06-20
+    latestDate: 2022-06-20
 
   - releaseCycle: "5"
     eol: 2019-10-31
     supportedPHPVersions: ">=5.4, <7.4"
     latest: "5.3.4"
     releaseDate: 2014-10-12
-    latestReleaseDate: 2019-10-30
+    latestDate: 2019-10-30
 
   - releaseCycle: "4"
     eol: 2016-10-31
     supportedPHPVersions: ">=5.4, <7.0"
     latest: "4.2.4"
     releaseDate: 2014-03-29
-    latestReleaseDate: 2016-07-15
+    latestDate: 2016-07-15
 
   - releaseCycle: "3"
     eol: 2016-10-31
     supportedPHPVersions: ">=5.3.3, <7.0"
     latest: "3.8.1"
     releaseDate: 2014-01-28
-    latestReleaseDate: 2014-01-28
+    latestDate: 2014-01-28
 
 ---
 

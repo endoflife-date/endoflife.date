@@ -20,13 +20,13 @@ releases:
     releaseDate: 2023-02-16
     eol: false
     latest: "3.8.2"
-    latestReleaseDate: 2026-04-07
+    latestDate: 2026-04-07
 
   - releaseCycle: "2"
     releaseDate: 2018-09-14
     eol: 2023-09-11 # https://github.com/bigbluebutton/greenlight/commit/f739387a304b7d8f8d28b5cf5d96e801f7f60546
     latest: "2.14.10"
-    latestReleaseDate: 2024-05-03
+    latestDate: 2024-05-03
 
 ---
 

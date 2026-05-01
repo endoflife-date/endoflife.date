@@ -29,13 +29,13 @@ releases:
     releaseDate: 2016-05-09
     eol: 2025-04-24
     latest: "6.9.10"
-    latestReleaseDate: 2025-01-01
+    latestDate: 2025-01-01
 
   - releaseCycle: "5"
     eol: 2016-05-09
     releaseDate: 2006-10-19
     latest: "5.9.6"
-    latestReleaseDate: 2015-09-07
+    latestDate: 2015-09-07
 
 ---
 

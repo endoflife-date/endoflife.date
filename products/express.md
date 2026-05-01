@@ -26,35 +26,35 @@ releases:
     releaseDate: 2024-09-09
     eol: false
     latest: "5.2.1"
-    latestReleaseDate: 2025-12-01
+    latestDate: 2025-12-01
 
   - releaseCycle: "4"
     releaseDate: 2014-04-09
     eol: false
     latest: "4.22.1"
-    latestReleaseDate: 2025-12-01
+    latestDate: 2025-12-01
 
   - releaseCycle: "3"
     releaseDate: 2012-10-23
     eol: 2015-07-05
     eoes: false
     latest: "3.21.2"
-    latestReleaseDate: 2015-07-31
-    link: https://github.com/expressjs/express/releases/tag/__LATEST__
+    latestDate: 2015-07-31
+    latestLink: https://github.com/expressjs/express/releases/tag/__LATEST__
 
   - releaseCycle: "2"
     releaseDate: 2011-03-17
     eol: 2012-07-01
     latest: "2.5.11"
-    latestReleaseDate: 2012-06-29
-    link: https://github.com/expressjs/express/releases/tag/__LATEST__
+    latestDate: 2012-06-29
+    latestLink: https://github.com/expressjs/express/releases/tag/__LATEST__
 
   - releaseCycle: "1"
     releaseDate: 2010-11-16
     eol: 2011-03-01
     latest: "1.0.9"
-    latestReleaseDate: 2011-03-23
-    link: https://github.com/expressjs/express/releases/tag/__LATEST__
+    latestDate: 2011-03-23
+    latestLink: https://github.com/expressjs/express/releases/tag/__LATEST__
 
 ---
 

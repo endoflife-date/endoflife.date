@@ -37,328 +37,328 @@ releases:
     releaseDate: 2026-03-25
     lts: 2026-05-31
     eol: 2026-08-31
-    link: https://docs.cloud.google.com/looker/docs/release-notes#March_25_2026
+    latestLink: https://docs.cloud.google.com/looker/docs/release-notes#March_25_2026
 
   - releaseCycle: "26.4"
     releaseDate: 2026-03-05
     eol: 2026-05-31
-    link: https://docs.cloud.google.com/looker/docs/release-notes#March_05_2026
+    latestLink: https://docs.cloud.google.com/looker/docs/release-notes#March_05_2026
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-09
     eol: 2026-04-30
-    link: https://docs.cloud.google.com/looker/docs/release-notes#February_09_2026
+    latestLink: https://docs.cloud.google.com/looker/docs/release-notes#February_09_2026
 
   - releaseCycle: "26.0"
     releaseDate: 2026-01-08
     lts: 2026-02-28
     eol: 2026-06-30
-    link: https://docs.cloud.google.com/looker/docs/release-notes#January_08_2026
+    latestLink: https://docs.cloud.google.com/looker/docs/release-notes#January_08_2026
 
   - releaseCycle: "25.20"
     releaseDate: 2025-11-30
     eol: 2026-03-31
-    link: https://cloud.google.com/looker/docs/release-notes#November_05_2025
+    latestLink: https://cloud.google.com/looker/docs/release-notes#November_05_2025
 
   - releaseCycle: "25.18"
     releaseDate: 2025-10-31
     lts: 2025-11-30
     eol: 2026-02-28
-    link: https://cloud.google.com/looker/docs/release-notes#October_06_2025
+    latestLink: https://cloud.google.com/looker/docs/release-notes#October_06_2025
 
   - releaseCycle: "25.16"
     releaseDate: 2025-09-30
     eol: 2025-12-31
-    link: https://cloud.google.com/looker/docs/release-notes#September_10_2025
+    latestLink: https://cloud.google.com/looker/docs/release-notes#September_10_2025
 
   - releaseCycle: "25.14"
     releaseDate: 2025-08-31
     eol: 2025-11-30
-    link: https://discuss.google.dev/t/looker-25-14-release-notes/254350
+    latestLink: https://discuss.google.dev/t/looker-25-14-release-notes/254350
 
   - releaseCycle: "25.12"
     releaseDate: 2025-07-31
     lts: 2025-08-31
     eol: 2025-11-30
-    link: https://discuss.google.dev/t/looker-25-12-release-notes/245841
+    latestLink: https://discuss.google.dev/t/looker-25-12-release-notes/245841
 
   - releaseCycle: "25.10"
     releaseDate: 2025-06-30
     eol: 2025-09-30
-    link: https://cloud.google.com/looker/docs/release-notes#June_11_2025
+    latestLink: https://cloud.google.com/looker/docs/release-notes#June_11_2025
 
   - releaseCycle: "25.8"
     releaseDate: 2025-05-31
     eol: 2025-08-31
-    link: https://discuss.google.dev/t/looker-25-8-release-notes/189625
+    latestLink: https://discuss.google.dev/t/looker-25-8-release-notes/189625
 
   - releaseCycle: "25.6"
     releaseDate: 2025-04-30
     lts: 2025-05-31
     eol: 2025-08-31
-    link: https://discuss.google.dev/t/looker-25-6-release-notes/186433
+    latestLink: https://discuss.google.dev/t/looker-25-6-release-notes/186433
 
   - releaseCycle: "25.4"
     releaseDate: 2025-03-31
     eol: 2025-06-30
-    link: https://discuss.google.dev/t/looker-25-4-release-notes/185240
+    latestLink: https://discuss.google.dev/t/looker-25-4-release-notes/185240
 
   - releaseCycle: "25.2"
     releaseDate: 2025-02-28
     eol: 2025-05-31
-    link: https://discuss.google.dev/t/looker-25-2-release-notes/182687
+    latestLink: https://discuss.google.dev/t/looker-25-2-release-notes/182687
 
   - releaseCycle: "25.0"
     releaseDate: 2025-01-31
     lts: 2025-02-28
     eol: 2025-05-31
-    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290
+    latestLink: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290
 
   - releaseCycle: "24.20"
     releaseDate: 2024-11-30
     eol: 2025-03-31
-    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-20-Release-Notes/m-p/831705
+    latestLink: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-20-Release-Notes/m-p/831705
 
   - releaseCycle: "24.18"
     releaseDate: 2024-10-31
     lts: 2024-11-30
     eol: 2025-02-28
-    link: https://cloud.google.com/looker/docs/release-notes#October_09_2024
+    latestLink: https://cloud.google.com/looker/docs/release-notes#October_09_2024
 
   - releaseCycle: "24.16"
     releaseDate: 2024-09-11
     eol: 2024-12-31
-    link: https://discuss.google.dev/t/looker-24-16-release-notes/166482
+    latestLink: https://discuss.google.dev/t/looker-24-16-release-notes/166482
 
   - releaseCycle: "24.14"
     releaseDate: 2024-08-14
     eol: 2024-11-30
-    link: https://discuss.google.dev/t/looker-24-14-release-notes/163516
+    latestLink: https://discuss.google.dev/t/looker-24-14-release-notes/163516
 
   - releaseCycle: "24.12"
     releaseDate: 2024-07-10
     lts: 2024-09-01
     eol: 2024-11-30
-    link: https://discuss.google.dev/t/looker-24-12-release-notes/160239
+    latestLink: https://discuss.google.dev/t/looker-24-12-release-notes/160239
 
   - releaseCycle: "24.10"
     releaseDate: 2024-06-12
     eol: 2024-09-30
-    link: https://discuss.google.dev/t/looker-24-10-release-notes/157366
+    latestLink: https://discuss.google.dev/t/looker-24-10-release-notes/157366
 
   - releaseCycle: "24.8"
     releaseDate: 2024-05-08
     eol: 2024-08-31
-    link: https://discuss.google.dev/t/looker-24-8-release-notes/153970
+    latestLink: https://discuss.google.dev/t/looker-24-8-release-notes/153970
 
   - releaseCycle: "24.6"
     releaseDate: 2024-04-10
     lts: 2024-06-01
     eol: 2024-08-31
-    link: https://cloud.google.com/looker/docs/release-notes#April_10_2024
+    latestLink: https://cloud.google.com/looker/docs/release-notes#April_10_2024
 
   - releaseCycle: "24.4"
     releaseDate: 2024-03-13
     eol: 2024-06-30
-    link: https://cloud.google.com/looker/docs/release-notes#March_13_2024
+    latestLink: https://cloud.google.com/looker/docs/release-notes#March_13_2024
 
   - releaseCycle: "24.2"
     releaseDate: 2024-02-14
     eol: 2024-05-31
-    link: https://cloud.google.com/looker/docs/release-notes#February_14_2024
+    latestLink: https://cloud.google.com/looker/docs/release-notes#February_14_2024
 
   - releaseCycle: "24.0"
     releaseDate: 2024-01-10
     lts: 2024-03-01
     eol: 2024-05-31
-    link: https://cloud.google.com/looker/docs/release-notes#January_10_2024
+    latestLink: https://cloud.google.com/looker/docs/release-notes#January_10_2024
 
   - releaseCycle: "23.20"
     releaseDate: 2023-11-08
     eol: 2024-03-31
-    link: https://cloud.google.com/looker/docs/release-notes#November_08_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#November_08_2023
 
   - releaseCycle: "23.18"
     releaseDate: 2023-10-11
     lts: 2023-12-01
     eol: 2024-02-28
-    link: https://cloud.google.com/looker/docs/release-notes#October_11_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#October_11_2023
 
   - releaseCycle: "23.16"
     releaseDate: 2023-09-13
     eol: 2023-12-12
-    link: https://cloud.google.com/looker/docs/release-notes#September_13_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#September_13_2023
 
   - releaseCycle: "23.14"
     releaseDate: 2023-08-09
     eol: 2023-11-08
-    link: https://cloud.google.com/looker/docs/release-notes#August_09_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#August_09_2023
 
   - releaseCycle: "23.12"
     releaseDate: 2023-07-12
     lts: 2023-09-07
     eol: 2023-11-30
-    link: https://cloud.google.com/looker/docs/release-notes#July_12_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#July_12_2023
 
   - releaseCycle: "23.10"
     releaseDate: 2023-06-14
     eol: 2023-09-13
-    link: https://cloud.google.com/looker/docs/release-notes#June_14_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#June_14_2023
 
   - releaseCycle: "23.8"
     releaseDate: 2023-05-10
     eol: 2023-08-09
-    link: https://cloud.google.com/looker/docs/release-notes#May_10_2023
+    latestLink: https://cloud.google.com/looker/docs/release-notes#May_10_2023
 
   - releaseCycle: "23.6"
     releaseDate: 2023-04-14
     lts: 2023-06-05
     eol: 2023-08-31
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#236
+    latestLink: https://cloud.google.com/looker/docs/looker-23-changelog#236
 
   - releaseCycle: "23.4"
     releaseDate: 2023-03-14
     eol: 2023-06-13
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#234
+    latestLink: https://cloud.google.com/looker/docs/looker-23-changelog#234
 
   - releaseCycle: "23.2"
     releaseDate: 2023-02-10
     eol: 2023-05-09
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#232
+    latestLink: https://cloud.google.com/looker/docs/looker-23-changelog#232
 
   - releaseCycle: "23.0"
     releaseDate: 2023-01-11
     lts: 2023-03-07
     eol: 2023-05-31
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#230
+    latestLink: https://cloud.google.com/looker/docs/looker-23-changelog#230
 
   - releaseCycle: "22.20"
     releaseDate: 2022-11-14
     eol: 2023-03-13
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2220
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2220
 
   - releaseCycle: "22.18"
     releaseDate: 2022-10-17
     lts: 2022-12-01
     eol: 2023-02-28
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2218
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2218
 
   - releaseCycle: "22.16"
     releaseDate: 2022-09-19
     eol: 2022-12-18
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2216
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2216
 
   - releaseCycle: "22.14"
     releaseDate: 2022-08-15
     eol: 2022-11-14
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2214
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2214
 
   - releaseCycle: "22.12"
     releaseDate: 2022-07-18
     lts: 2022-09-01
     eol: 2022-11-30
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2212
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2212
 
   - releaseCycle: "22.10"
     releaseDate: 2022-06-13
     eol: 2022-09-19
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#2210
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#2210
 
   - releaseCycle: "22.8"
     releaseDate: 2022-05-16
     eol: 2022-08-15
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#228
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#228
 
   - releaseCycle: "22.6"
     releaseDate: 2022-04-18
     lts: 2022-06-01
     eol: 2022-08-31
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#226
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#226
 
   - releaseCycle: "22.4"
     releaseDate: 2022-03-14
     eol: 2022-06-13
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#224
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#224
 
   - releaseCycle: "22.2"
     releaseDate: 2022-02-15
     eol: 2022-05-16
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#222
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#222
 
   - releaseCycle: "22.0"
     releaseDate: 2022-01-18
     lts: 2022-03-01
     eol: 2022-05-31
-    link: https://cloud.google.com/looker/docs/looker-22-changelog#220
+    latestLink: https://cloud.google.com/looker/docs/looker-22-changelog#220
 
   - releaseCycle: "21.20"
     releaseDate: 2021-11-16
     eol: 2022-03-15
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2120
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2120
 
   - releaseCycle: "21.18"
     releaseDate: 2021-10-19
     lts: 2021-12-01
     eol: 2022-02-28
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2118
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2118
 
   - releaseCycle: "21.16"
     releaseDate: 2021-09-14
     eol: 2021-12-15
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2116
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2116
 
   - releaseCycle: "21.14"
     releaseDate: 2021-08-16
     eol: 2021-11-16
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2114
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2114
 
   - releaseCycle: "21.12"
     releaseDate: 2021-07-15
     lts: 2021-09-01
     eol: 2021-11-30
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2112
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2112
 
   - releaseCycle: "21.10"
     releaseDate: 2021-06-10
     eol: 2021-09-14
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#2110
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#2110
 
   - releaseCycle: "21.8"
     releaseDate: 2021-05-13
     eol: 2021-10-16
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#218
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#218
 
   - releaseCycle: "21.6"
     releaseDate: 2021-04-15
     lts: 2021-06-01
     eol: 2021-08-31
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#216
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#216
 
   - releaseCycle: "21.4"
     releaseDate: 2021-03-11
     eol: 2021-06-10
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#214
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#214
 
   - releaseCycle: "21.0"
     releaseDate: 2021-01-20
     lts: 2021-03-01
     eol: 2021-05-31
-    link: https://cloud.google.com/looker/docs/looker-21-changelog#210
+    latestLink: https://cloud.google.com/looker/docs/looker-21-changelog#210
 
   - releaseCycle: "7.20"
     releaseDate: 2020-11-15
     eol: true
-    link: https://cloud.google.com/looker/docs/looker-7-changelog#720
+    latestLink: https://cloud.google.com/looker/docs/looker-7-changelog#720
 
   - releaseCycle: "7.18"
     releaseDate: 2020-10-15
     eol: true
-    link: https://cloud.google.com/looker/docs/looker-7-changelog#718
+    latestLink: https://cloud.google.com/looker/docs/looker-7-changelog#718
 
   - releaseCycle: "7.16"
     releaseDate: 2020-09-17
     eol: true
-    link: https://cloud.google.com/looker/docs/looker-7-changelog#716
+    latestLink: https://cloud.google.com/looker/docs/looker-7-changelog#716
 
 ---
 

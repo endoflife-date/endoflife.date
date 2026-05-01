@@ -50,7 +50,7 @@ releases:
     eol: 2028-03-17
     supportedPhpVersions: "8.3 - 8.5"
     latest: "13.7.0"
-    latestReleaseDate: 2026-04-28
+    latestDate: 2026-04-28
 
   - releaseCycle: "12"
     releaseDate: 2025-02-24
@@ -58,7 +58,7 @@ releases:
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.5"
     latest: "12.58.0"
-    latestReleaseDate: 2026-04-26
+    latestDate: 2026-04-26
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
@@ -66,7 +66,7 @@ releases:
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
     latest: "11.51.0"
-    latestReleaseDate: 2026-03-26
+    latestDate: 2026-03-26
 
   - releaseCycle: "10"
     releaseDate: 2023-02-14
@@ -74,7 +74,7 @@ releases:
     eol: 2025-02-04
     supportedPhpVersions: "8.1 - 8.3"
     latest: "10.50.2"
-    latestReleaseDate: 2026-02-15
+    latestDate: 2026-02-15
 
   - releaseCycle: "9"
     releaseDate: 2022-02-08
@@ -82,7 +82,7 @@ releases:
     eol: 2024-02-06
     supportedPhpVersions: "8.0 - 8.2"
     latest: "9.52.21"
-    latestReleaseDate: 2025-09-30
+    latestDate: 2025-09-30
 
   - releaseCycle: "8"
     releaseDate: 2020-09-08
@@ -90,7 +90,7 @@ releases:
     eol: 2023-01-24
     supportedPhpVersions: 7.3 - 8.1
     latest: "8.83.29"
-    latestReleaseDate: 2024-11-20
+    latestDate: 2024-11-20
 
   - releaseCycle: "7"
     releaseDate: 2020-03-03
@@ -98,7 +98,7 @@ releases:
     eol: 2021-03-03
     supportedPhpVersions: 7.2 - 8.0
     latest: "7.30.7"
-    latestReleaseDate: 2024-11-12
+    latestDate: 2024-11-12
 
   - releaseCycle: "6"
     lts: true
@@ -107,16 +107,16 @@ releases:
     eol: 2022-09-06
     supportedPhpVersions: 7.2 - 8.0
     latest: "6.20.45"
-    latestReleaseDate: 2024-11-12
+    latestDate: 2024-11-12
 
   - releaseCycle: "5.8"
     releaseDate: 2019-02-26
     eoas: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
-    link: https://laravel.com/docs/5.8/releases
+    latestLink: https://laravel.com/docs/5.8/releases
     latest: "5.8.38"
-    latestReleaseDate: 2020-04-14
+    latestDate: 2020-04-14
 
   - releaseCycle: "5.5"
     lts: true
@@ -124,9 +124,9 @@ releases:
     eoas: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
-    link: https://laravel.com/docs/5.5/releases
+    latestLink: https://laravel.com/docs/5.5/releases
     latest: "5.5.50"
-    latestReleaseDate: 2020-08-18
+    latestDate: 2020-08-18
 
 ---
 

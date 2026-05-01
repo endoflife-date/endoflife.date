@@ -26,27 +26,27 @@ releases:
     releaseDate: 2023-10-22
     eol: false
     latest: "4.14.1"
-    latestReleaseDate: 2026-04-17
+    latestDate: 2026-04-17
 
   - releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: 2024-12-04
     latest: "3.8.7"
-    latestReleaseDate: 2024-12-04
+    latestDate: 2024-12-04
 
   - releaseCycle: "2"
     releaseDate: 2020-07-09
     eol: 2021-09-06
     latest: "2.4.3"
-    latestReleaseDate: 2021-09-06
+    latestDate: 2021-09-06
 
   - releaseCycle: "1"
     staleReleaseThresholdDays: 1460 # https://github.com/yarnpkg/yarn/issues/8583
     releaseDate: 2017-09-05
     eol: false
     latest: "1.22.22"
-    latestReleaseDate: 2024-03-09
-    link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
+    latestDate: 2024-03-09
+    latestLink: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---
 

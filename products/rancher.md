@@ -39,112 +39,112 @@ releases:
     eoas: false # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
     eol: false # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
     latest: "2.14.1"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.13"
     releaseDate: 2025-12-17
     eoas: 2026-06-17
     eol: 2027-06-17
     latest: "2.13.5"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.12"
     releaseDate: 2025-08-29
     eoas: 2026-02-28
     eol: 2027-02-28
     latest: "2.12.9"
-    latestReleaseDate: 2026-04-30
+    latestDate: 2026-04-30
 
   - releaseCycle: "2.11"
     releaseDate: 2025-04-24
     eoas: 2025-10-24
     eol: 2026-10-24
     latest: "2.11.13"
-    latestReleaseDate: 2026-04-29
+    latestDate: 2026-04-29
 
   - releaseCycle: "2.10"
     releaseDate: 2024-12-19
     eoas: 2025-06-19
     eol: 2026-06-19
     latest: "2.10.11"
-    latestReleaseDate: 2026-01-29
+    latestDate: 2026-01-29
 
   - releaseCycle: "2.9"
     releaseDate: 2024-08-26
     eoas: 2025-02-26
     eol: 2026-02-26
     latest: "2.9.12"
-    latestReleaseDate: 2025-09-24
+    latestDate: 2025-09-24
 
   - releaseCycle: "2.8"
     releaseDate: 2023-12-05
     eoas: 2024-09-22
     eol: 2025-07-22
     latest: "2.8.15"
-    latestReleaseDate: 2025-04-24
+    latestDate: 2025-04-24
 
   - releaseCycle: "2.7"
     releaseDate: 2022-11-16
     eoas: 2024-05-15
     eol: 2024-11-18
     latest: "2.7.18"
-    latestReleaseDate: 2024-11-08
+    latestDate: 2024-11-08
 
   - releaseCycle: "2.6"
     releaseDate: 2021-08-30
     eoas: 2023-03-01
     eol: 2024-04-30
     latest: "2.6.14"
-    latestReleaseDate: 2024-02-06
+    latestDate: 2024-02-06
 
   - releaseCycle: "2.5"
     releaseDate: 2020-10-05
     eoas: 2022-01-05
     eol: 2023-01-31
     latest: "2.5.17"
-    latestReleaseDate: 2023-01-23
+    latestDate: 2023-01-23
 
   - releaseCycle: "2.4"
     releaseDate: 2020-03-30
     eoas: 2021-07-30
     eol: 2022-03-31
     latest: "2.4.18"
-    latestReleaseDate: 2022-03-31
+    latestDate: 2022-03-31
 
   - releaseCycle: "2.3"
     releaseDate: 2019-10-07
     eoas: 2020-10-07
     eol: 2021-04-07
     latest: "2.3.11"
-    latestReleaseDate: 2021-03-02
+    latestDate: 2021-03-02
 
   - releaseCycle: "2.2"
     releaseDate: 2019-03-25
     eoas: 2020-04-15
     eol: 2020-10-15
     latest: "2.2.13"
-    latestReleaseDate: 2020-06-01
+    latestDate: 2020-06-01
 
   - releaseCycle: "2.1"
     releaseDate: 2018-10-05
     eoas: 2019-10-19
     eol: 2020-04-19
     latest: "2.1.14"
-    latestReleaseDate: 2020-01-03
+    latestDate: 2020-01-03
 
   - releaseCycle: "2.0"
     releaseDate: 2018-04-30
     eoas: 2019-05-01
     eol: 2019-11-01
     latest: "2.0.16"
-    latestReleaseDate: 2019-07-03
+    latestDate: 2019-07-03
 
   - releaseCycle: "1.6"
     releaseDate: 2017-05-04
     eoas: 2019-12-31
     eol: 2020-06-30
     latest: "1.6.30"
-    latestReleaseDate: 2020-05-04
+    latestDate: 2020-05-04
 
 ---
 

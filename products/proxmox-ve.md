@@ -33,55 +33,55 @@ releases:
     releaseDate: 2025-08-05
     eol: false # no date yet available on https://pve.proxmox.com/wiki/FAQ
     latest: "9.1"
-    latestReleaseDate: 2025-11-19
+    latestDate: 2025-11-19
 
   - releaseCycle: "8"
     releaseDate: 2023-06-22
     eol: 2026-08-31
     latest: "8.4"
-    latestReleaseDate: 2025-04-09
+    latestDate: 2025-04-09
 
   - releaseCycle: "7"
     releaseDate: 2021-07-06
     eol: 2024-07-31
     latest: "7.4"
-    latestReleaseDate: 2023-03-23
+    latestDate: 2023-03-23
 
   - releaseCycle: "6"
     releaseDate: 2019-07-16
     eol: 2022-09-30
     latest: "6.4"
-    latestReleaseDate: 2021-04-18
+    latestDate: 2021-04-18
 
   - releaseCycle: "5"
     releaseDate: 2017-07-04
     eol: 2020-07-31
     latest: "5.4"
-    latestReleaseDate: 2019-04-11
+    latestDate: 2019-04-11
 
   - releaseCycle: "4"
     releaseDate: 2015-10-06
     eol: 2018-06-30
     latest: "4.4"
-    latestReleaseDate: 2016-12-13
+    latestDate: 2016-12-13
 
   - releaseCycle: "3"
     releaseDate: 2013-05-24
     eol: 2017-02-28
     latest: "3.4"
-    latestReleaseDate: 2015-02-19
+    latestDate: 2015-02-19
 
   - releaseCycle: "2"
     releaseDate: 2012-03-30
     eol: 2014-05-31
     latest: "2.3"
-    latestReleaseDate: 2013-03-04
+    latestDate: 2013-03-04
 
   - releaseCycle: "1"
     releaseDate: 2011-09-13
     eol: 2013-01-31
     latest: "1.9"
-    latestReleaseDate: 2011-09-13
+    latestDate: 2011-09-13
 
 ---
 

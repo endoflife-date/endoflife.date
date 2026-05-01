@@ -22,49 +22,49 @@ auto:
     - git: https://github.com/etcd-io/etcd.git
 
 # tentative rule:
-# eol(x) = max(latestReleaseDate(x), releaseDate(x+2))
+# eol(x) = max(latestDate(x), releaseDate(x+2))
 releases:
   - releaseCycle: "3.6"
     releaseDate: 2025-05-15
     eol: false
     latest: "3.6.10"
-    latestReleaseDate: 2026-04-01
+    latestDate: 2026-04-01
 
   - releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
     latest: "3.5.29"
-    latestReleaseDate: 2026-04-01
+    latestDate: 2026-04-01
 
   - releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: 2025-05-15 # releaseDate(3.6)
     latest: "3.4.43"
-    latestReleaseDate: 2026-04-01
+    latestDate: 2026-04-01
 
   - releaseCycle: "3.3"
     releaseDate: 2018-02-01
-    eol: 2021-10-15 # latestReleaseDate(3.3)
+    eol: 2021-10-15 # latestDate(3.3)
     latest: "3.3.27"
-    latestReleaseDate: 2021-10-15
+    latestDate: 2021-10-15
 
   - releaseCycle: "3.2"
     releaseDate: 2017-06-09
-    eol: 2021-03-28 # latestReleaseDate(3.2)
+    eol: 2021-03-28 # latestDate(3.2)
     latest: "3.2.32"
-    latestReleaseDate: 2021-03-28
+    latestDate: 2021-03-28
 
   - releaseCycle: "3.1"
     releaseDate: 2017-01-20
-    eol: 2018-10-10 # latestReleaseDate(3.1)
+    eol: 2018-10-10 # latestDate(3.1)
     latest: "3.1.20"
-    latestReleaseDate: 2018-10-10
+    latestDate: 2018-10-10
 
   - releaseCycle: "3.0"
     releaseDate: 2016-06-30
-    eol: 2017-01-20 # latestReleaseDate(3.0)
+    eol: 2017-01-20 # latestDate(3.0)
     latest: "3.0.17"
-    latestReleaseDate: 2017-01-20
+    latestDate: 2017-01-20
 
 ---
 

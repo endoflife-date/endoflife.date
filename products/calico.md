@@ -22,43 +22,43 @@ releases:
     releaseDate: 2025-10-21
     eol: false
     latest: "3.31.5"
-    latestReleaseDate: 2026-04-14
+    latestDate: 2026-04-14
 
   - releaseCycle: "3.30"
     releaseDate: 2025-05-05
     eol: false
     latest: "3.30.7"
-    latestReleaseDate: 2026-03-18
+    latestDate: 2026-03-18
 
   - releaseCycle: "3.29"
     releaseDate: 2024-10-29
     eol: 2025-10-21
     latest: "3.29.7"
-    latestReleaseDate: 2025-11-19
+    latestDate: 2025-11-19
 
   - releaseCycle: "3.28"
     releaseDate: 2024-05-10
     eol: 2025-05-05
     latest: "3.28.5"
-    latestReleaseDate: 2025-06-11
+    latestDate: 2025-06-11
 
   - releaseCycle: "3.27"
     releaseDate: 2023-12-15
     eol: 2024-10-29
     latest: "3.27.5"
-    latestReleaseDate: 2024-11-28
+    latestDate: 2024-11-28
 
   - releaseCycle: "3.26"
     releaseDate: 2023-05-27
     eol: 2024-05-11
     latest: "3.26.5"
-    latestReleaseDate: 2024-08-29
+    latestDate: 2024-08-29
 
   - releaseCycle: "3.25"
     releaseDate: 2023-01-11
     eol: 2023-12-15
     latest: "3.25.2"
-    latestReleaseDate: 2023-09-05
+    latestDate: 2023-09-05
 
 ---
 

@@ -17,19 +17,19 @@ releases:
     releaseDate: 2024-05-13
     eol: false
     latest: "11.0.16"
-    latestReleaseDate: 2026-04-23
+    latestDate: 2026-04-23
 
   - releaseCycle: "10.1"
     releaseDate: 2022-03-02
     eol: false
     latest: "10.1.17"
-    latestReleaseDate: 2026-04-23
+    latestDate: 2026-04-23
 
   - releaseCycle: "10.0"
     releaseDate: 2020-07-13
     eol: 2026-01-01
     latest: "10.0.27"
-    latestReleaseDate: 2025-10-23
+    latestDate: 2025-10-23
 
 ---
 
