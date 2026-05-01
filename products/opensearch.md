@@ -4,6 +4,13 @@ addedAt: 2022-08-26
 category: database
 tags: amazon java-runtime linux-foundation
 iconSlug: opensearch
+versionCommand: |-
+  # Preferred method
+  curl -k -u 'user:password' https://opensearch_ip:port/
+
+  # CLI method (may use significant memory due to JVM)
+  # WARNING: large heap settings (e.g. Xmx = 50% RAM) may trigger extra allocation and OOM killer
+  opensearch --version 2>/dev/null
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"

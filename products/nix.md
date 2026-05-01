@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "2.33"
     releaseDate: 2025-12-10
     eol: 2026-02-27
-    latest: "2.33.4"
-    latestReleaseDate: 2026-04-07
+    latest: "2.33.5"
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "2.32"
     releaseDate: 2025-10-07

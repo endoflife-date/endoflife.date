@@ -20,6 +20,12 @@ auto:
     - npm: pnpm
 
 releases:
+  - releaseCycle: "11"
+    releaseDate: 2026-04-28
+    eol: false
+    latest: "11.0.2"
+    latestReleaseDate: 2026-04-30
+
   - releaseCycle: "10"
     releaseDate: 2025-01-07
     eol: false

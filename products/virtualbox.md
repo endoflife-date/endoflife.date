@@ -32,13 +32,13 @@ releases:
     releaseDate: 2025-08-14
     eol: false
     latest: "7.2.8"
-    latestReleaseDate: 2026-04-21
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "7.1"
     releaseDate: 2024-09-09
     eol: 2026-03-31
     latest: "7.1.18"
-    latestReleaseDate: 2026-04-21
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "7.0"
     releaseDate: 2022-10-10
