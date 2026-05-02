@@ -464,7 +464,7 @@ This offer is only available for Ubuntu Pro paying customers.
 For package-specific support details, the following commands are available:
 
 - `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
-- [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
+- [`pro security-status`](https://web.archive.org/web/20241109012358/http://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.htmlhttps://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
 
 ---
 
