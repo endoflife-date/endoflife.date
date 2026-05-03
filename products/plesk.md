@@ -5,7 +5,11 @@ category: server-app
 tags: php-runtime
 iconSlug: plesk
 permalink: /plesk
-versionCommand: plesk version
+versionCommand: |-
+  plesk version
+
+  # or alternatively without root access / on Linux
+  cat /etc/plesk-release
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
@@ -22,17 +26,23 @@ identifiers:
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+  - releaseCycle: "18.0.77"
+    releaseDate: 2026-03-31
+    eol: 2026-06-23
+    latest: "18.0.77.2"
+    latestReleaseDate: 2026-04-20
+
   - releaseCycle: "18.0.76"
     releaseDate: 2026-02-16
     eol: 2026-05-11
-    latest: "18.0.76.1"
-    latestReleaseDate: 2026-02-18
+    latest: "18.0.76.6"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "18.0.75"
     releaseDate: 2026-01-06
     eol: 2026-03-31
-    latest: "18.0.75"
-    latestReleaseDate: 2026-01-06
+    latest: "18.0.75.1"
+    latestReleaseDate: 2026-02-25
 
   - releaseCycle: "18.0.74"
     releaseDate: 2025-11-11

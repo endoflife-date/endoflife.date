@@ -14,6 +14,7 @@ eoasColumn: false
 
 identifiers:
   - repology: influxdb
+  - cpe: cpe:2.3:a:influxdata:influxdb
 
 auto:
   methods:
@@ -21,16 +22,23 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.9"
+    releaseDate: 2026-04-02
+    eol: false
+    latest: "3.9.2"
+    latestReleaseDate: 2026-05-01
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
+
   - releaseCycle: "3.8"
     releaseDate: 2025-12-18
     eol: false
-    latest: "3.8.1"
-    latestReleaseDate: 2026-01-12
+    latest: "3.8.3"
+    latestReleaseDate: 2026-02-25
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v380
 
   - releaseCycle: "3.7"
     releaseDate: 2025-11-19
-    eol: false
+    eol: 2026-04-02
     latest: "3.7.0"
     latestReleaseDate: 2025-11-19
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v370
@@ -83,14 +91,14 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
-    latest: "2.8.0"
-    latestReleaseDate: 2025-12-02
+    latest: "2.9.0"
+    latestReleaseDate: 2026-05-01
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07
     eol: false # only for paying customer: https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103
-    latest: "1.12.2"
-    latestReleaseDate: 2025-08-05
+    latest: "1.12.4"
+    latestReleaseDate: 2026-04-09
 
 ---
 

@@ -115,7 +115,7 @@ If available, new or improved hardware enablement and select enhanced software f
 
 During the Maintenance Support Phase (called "Maintenance Support 2" for RHEL 7), qualified RHSAs and RHBAs may be released as they become available.
 Other errata advisories may be delivered as appropriate.
-New functionality and new hardware enablement is at the discretion of Red Hat and vary by operating system release.
+New functionality and new hardware enablement are at the discretion of Red Hat and vary by operating system release.
 
 ## Extended Life Cycle Support (ELS)
 

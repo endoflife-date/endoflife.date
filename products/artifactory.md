@@ -4,8 +4,8 @@ addedAt: 2023-07-09
 category: server-app
 iconSlug: jfrog
 permalink: /artifactory
-changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
-releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
+changelogTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
+releasePolicyLink: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
 eolColumn: Support
 
 identifiers:
@@ -15,38 +15,49 @@ identifiers:
 
 auto:
   methods:
-    - artifactory: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
-    - declare: artifactory
-      versions:
-        # release date is wrong on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
-        - {name: "7.71.23", date: 2024-08-05}
+    - version_table: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
+      name_column: "Version"
+      regex: '^(?P<version>\d+\.\d+\.\d+)$'
+      template: "{{version}}"
+      date_column: "Release Date"
 
-# EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
+# EOL documented on https://docs.jfrog.com/releases/docs/artifactory-end-of-life.
 releases:
+  - releaseCycle: "7.146"
+    releaseDate: 2026-04-16
+    eol: 2027-10-16
+    latest: "7.146.8"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.133"
+    releaseDate: 2025-10-30
+    eol: 2027-04-30
+    latest: "7.133.21"
+    latestReleaseDate: 2026-04-28
+
   - releaseCycle: "7.125"
     releaseDate: 2025-10-30
     eol: 2027-04-30
-    latest: "7.125.10"
-    latestReleaseDate: 2025-12-30
-    link: https://jfrog.com/help/r/jfrog-release-information/artifactory-7.125.4-self-hosted-self-managed
+    latest: "7.125.14"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.117"
     releaseDate: 2025-07-14
     eol: 2027-01-14
-    latest: "7.117.19"
-    latestReleaseDate: 2025-10-23
+    latest: "7.117.21"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.111"
     releaseDate: 2025-04-23
     eol: 2026-10-23
-    latest: "7.111.12"
-    latestReleaseDate: 2025-07-13
+    latest: "7.111.14"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.104"
     releaseDate: 2025-01-29
     eol: 2026-07-30
-    latest: "7.104.15"
-    latestReleaseDate: 2025-04-09
+    latest: "7.104.16"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "7.98"
     releaseDate: 2024-10-29
@@ -198,5 +209,5 @@ self-hosted offering. Note that not all releases are made available to self-host
 the gaps between the release cycles.
 
 JFrog supports all versions of Artifactory from their date of release going forward 18 months. But
-looking at the [Artifactory End of Life page](https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life)
+looking at the [Artifactory End of Life page](https://docs.jfrog.com/releases/docs/artifactory-end-of-life)
 it looks like releases rarely see any updates after a few months.

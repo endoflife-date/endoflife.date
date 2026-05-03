@@ -12,6 +12,9 @@ changelogTemplate: https://pulsar.apache.org/release-notes/versioned/pulsar-__LA
 eolColumn: Active Support
 eoesColumn: Security Support
 
+identifiers:
+  - cpe: cpe:2.3:a:apache:pulsar
+
 auto:
   methods:
     - github_releases: apache/pulsar
@@ -31,6 +34,13 @@ auto:
           regex: '.*\((?P<value>.+)\)'
 
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-03-24
+    eol: 2026-09-24
+    eoes: 2026-09-24
+    latest: "4.2.1"
+    latestReleaseDate: 2026-04-27
+
   - releaseCycle: "4.1"
     releaseDate: 2025-09-08
     eol: 2026-03-08
@@ -43,8 +53,8 @@ releases:
     releaseDate: 2024-10-21
     eol: 2026-10-21
     eoes: 2027-10-21
-    latest: "4.0.9"
-    latestReleaseDate: 2026-02-19
+    latest: "4.0.10"
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "3.3"
     releaseDate: 2024-06-05
@@ -72,8 +82,8 @@ releases:
     releaseDate: 2023-05-02
     eol: 2025-05-02
     eoes: 2026-05-02
-    latest: "3.0.16"
-    latestReleaseDate: 2026-02-16
+    latest: "3.0.17"
+    latestReleaseDate: 2026-04-27
 
   - releaseCycle: "2.11"
     releaseDate: 2023-01-11

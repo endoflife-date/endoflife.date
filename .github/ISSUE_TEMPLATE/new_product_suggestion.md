@@ -20,4 +20,4 @@ For example: <https://github.com/PowerShell/PowerShell/tags>
 
 **Additional context**
 
-Add any other context or screenshots about the product which you want us to add endoflife.date
+Add any other context or screenshots about the product which you want us to add to endoflife.date

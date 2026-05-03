@@ -12,6 +12,7 @@ auto:
 
 identifiers:
   - repology: privatebin
+  - cpe: cpe:2.3:a:privatebin:privatebin
 
 # eol(x) = releaseDate(x+1)
 releases:

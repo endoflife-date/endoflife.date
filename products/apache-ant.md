@@ -14,6 +14,11 @@ identifiers:
   - cpe: cpe:/a:apache:ant
   - cpe: cpe:2.3:a:apache:ant
   - repology: ant
+  - purl: pkg:deb/debian/ant
+  - purl: pkg:deb/ubuntu/ant
+  - purl: pkg:github/apache/ant
+  - purl: pkg:maven/org.apache.ant/ant
+  - purl: pkg:rpm/fedora/ant
 
 auto:
   methods:
@@ -24,8 +29,8 @@ releases:
     staleReleaseThresholdDays: 700 # confirmed on https://ant.apache.org/antnews.html
     releaseDate: 2016-12-27
     eol: false
-    latest: "1.10.15"
-    latestReleaseDate: 2024-08-25
+    latest: "1.10.17"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "1.9"
     releaseDate: 2013-03-07
@@ -38,6 +43,7 @@ releases:
     eol: 2013-03-07 # no announcement, using 1.9 release date
     latest: "1.8.4"
     latestReleaseDate: 2012-05-22
+
 ---
 
 > [Apache Ant](https://ant.apache.org/) is a Java library and command-line build tool primarily used for building of Java applications.

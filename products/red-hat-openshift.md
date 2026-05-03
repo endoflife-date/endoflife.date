@@ -10,7 +10,6 @@ alternate_urls:
   - /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v4_0.png
 changelogTemplate: https://docs.redhat.com/en/documentation/openshift_container_platform/__RELEASE_CYCLE__/html/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes
 eoasColumn: Full Support
 eolColumn: Maintenance Support
@@ -195,7 +194,7 @@ Important Security Advisories (RHSAs) and Urgent and Selected High Priority Bug 
 ([RHEA][DEFINITION]) may be released at Red Hat’s discretion, but should not be expected.
 
 The **Extended Update Support** phase starts after the Full Support phase for even numbered minor
-releases (e.g. 4.8, 4.10, 4.12). Additionally, to the full support and maintenance support phases,
+releases (e.g. 4.8, 4.10, 4.12). In addition to the full support and maintenance support phases,
 which also apply to EUS releases, upgrades between EUS releases will cause fewer reboots of nodes.
 This was the only benefit of EUS releases before version 4.12. Starting from 4.12, Red Hat will
 additionally include a six-month EUS phase. The EUS phase will follow the maintenance phase for

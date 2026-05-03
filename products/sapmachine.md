@@ -6,7 +6,7 @@ tags: sap java-distribution
 iconSlug: openjdk
 permalink: /sapmachine
 versionCommand: java -version
-releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
+releasePolicyLink: https://sapmachine.io/docs/maintenance-and-support
 
 auto:
   methods:
@@ -14,15 +14,21 @@ auto:
       regex: '^sapmachine-(?P<version>[\d\.]+)$'
       template: "{{version}}"
 
-# LTS: EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
-# non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
+# LTS: EOL dates can be found on https://sapmachine.io/docs/maintenance-and-support
+# non-LTS : eol(x) = releaseDate(x+1) (future release dates follow the OpenJDK release cadence)
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-18
+    eol: 2026-09-15
+    latest: "26.0.1"
+    latestReleaseDate: 2026-04-21
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
-    latest: "25.0.2"
-    latestReleaseDate: 2026-01-20
+    latest: "25.0.3"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "24"
     releaseDate: 2025-03-19
@@ -46,8 +52,8 @@ releases:
     lts: true
     releaseDate: 2023-09-18
     eol: 2028-09-01
-    latest: "21.0.10.0.1"
-    latestReleaseDate: 2026-02-17
+    latest: "21.0.11"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "20"
     releaseDate: 2023-03-17
@@ -71,8 +77,8 @@ releases:
     lts: true
     releaseDate: 2021-09-14
     eol: 2026-09-01
-    latest: "17.0.18"
-    latestReleaseDate: 2026-01-20
+    latest: "17.0.19"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "16"
     releaseDate: 2021-03-15
@@ -110,6 +116,12 @@ releases:
     eol: 2024-12-01
     latest: "11.0.30"
     latestReleaseDate: 2026-01-20
+
+  - releaseCycle: "10"
+    releaseDate: 2018-03-21
+    eol: 2018-09-25 # releaseDate of OpenJDK 11
+    latest: "10.0.2"
+    latestReleaseDate: 2026-03-11
 
 ---
 
