@@ -26,6 +26,13 @@ identifiers:
   
 releases:
 
+  - releaseCycle: "16"
+    releaseDate: 2026-05-03
+    eol: false
+    latest: "16.1"
+    latestReleaseDate: 2026-05-03
+    link: https://gcc.gnu.org/gcc-16/
+    
   - releaseCycle: "15"
     releaseDate: 2025-04-17
     eol: false
