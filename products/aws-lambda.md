@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-04-30
     eoas: 2029-03-31
     eol: 2029-05-31
-    link: https://aws.amazon.com/tr/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/
+    link: https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/
 
   - releaseCycle: "dotnet10"
     releaseLabel: ".NET 10"
