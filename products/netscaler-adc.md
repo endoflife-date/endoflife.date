@@ -16,7 +16,6 @@ releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matr
 eoasColumn: "End of Maintenance"
 
 releases:
-
   - releaseCycle: "14.1"
     releaseDate: 2023-08-08
     eoas: 2029-08-08
@@ -50,7 +49,6 @@ releases:
     releaseDate: 2018-05-25
     eoas: 2024-12-31
     eol: 2025-12-31
-
 ---
 
 > [NetScaler ADC](https://www.netscaler.com/products/netscaler-adc/) (formerly
