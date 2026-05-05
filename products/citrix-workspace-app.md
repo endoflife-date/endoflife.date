@@ -15,6 +15,12 @@ LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 
 releases:
   # Current Releases (Windows)
+  - releaseCycle: "2603"
+    releaseDate: 2026-04-30
+    eol: 2027-10-30
+    latest: "2603"
+    latestReleaseDate: 2026-04-30
+
   - releaseCycle: "2511"
     releaseDate: 2025-12-23
     eol: 2027-08-17
@@ -111,7 +117,7 @@ releases:
 
   - releaseCycle: "2210"
     releaseDate: 2022-10-06
-    eol: 2024-05-23
+    eol: 2024-06-02
     latest: "2210.5"
     latestReleaseDate: 2022-10-31
 
