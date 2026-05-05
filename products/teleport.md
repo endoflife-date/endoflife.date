@@ -25,7 +25,7 @@ releases:
     eoas: false
     eol: false
     latest: "18.7.6"
-    latestReleaseDate: 2026-04-29
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "17"
     releaseDate: 2024-11-15
