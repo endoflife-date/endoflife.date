@@ -29,15 +29,15 @@ releases:
     codename: Hoare
     releaseDate: 2026-03-16
     eol: false
-    latest: "8.1.0"
-    latestReleaseDate: 2026-03-16
-    
+    latest: "8.1.1"
+    latestReleaseDate: 2026-05-04
+
   - releaseCycle: "8.0"
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0.1"
-    latestReleaseDate: 2025-11-20
+    latest: "8.0.2"
+    latestReleaseDate: 2026-05-04
 
   - releaseCycle: "7.1"
     codename: Péter
