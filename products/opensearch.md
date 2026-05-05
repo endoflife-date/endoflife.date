@@ -47,7 +47,7 @@ releases:
     eol: false
     latest: "3.6.0"
     latestReleaseDate: 2026-04-07
-    link: https://opensearch.org/blog/opensearch-3-5-is-live/
+    link: https://opensearch.org/blog/introducing-opensearch-3-6/
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
