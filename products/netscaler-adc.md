@@ -32,23 +32,27 @@ releases:
     releaseDate: 2019-05-15
     eoas: 2023-07-15
     eol: 2024-07-15
+    latest: "13.0-92.21"
 
   - releaseCycle: "12.1"
     releaseDate: 2018-05-25
     eoas: 2022-05-30
     eol: 2023-05-30
+    latest: "12.1-65.39"
 
   - releaseCycle: "12.1-ndcpp"
     releaseLabel: "12.1 NDcPP"
     releaseDate: 2018-05-25
     eoas: 2023-12-31
     eol: 2024-12-31
+    latest: "12.1-55.327"
 
   - releaseCycle: "12.1-fips"
     releaseLabel: "12.1 FIPS"
     releaseDate: 2018-05-25
     eoas: 2024-12-31
     eol: 2025-12-31
+    latest: "12.1-55.333"
 ---
 
 > [NetScaler ADC](https://www.netscaler.com/products/netscaler-adc/) (formerly
