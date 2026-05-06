@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.3"
-    latestReleaseDate: 2025-11-21
+    latest: "7.1.4"
+    latestReleaseDate: 2026-05-05
 
   - releaseCycle: "7.0"
     codename: Dijkstra
@@ -58,8 +58,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.4"
-    latestReleaseDate: 2025-11-23
+    latest: "6.1.5"
+    latestReleaseDate: 2026-05-05
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -73,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.8"
-    latestReleaseDate: 2025-11-26
+    latest: "5.1.9"
+    latestReleaseDate: 2026-05-05
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -87,8 +87,8 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.6"
-    latestReleaseDate: 2025-05-17
+    latest: "4.4.7"
+    latestReleaseDate: 2026-05-05
 
   - releaseCycle: "4.3"
     codename: "4:3"
