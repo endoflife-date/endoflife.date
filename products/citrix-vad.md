@@ -35,13 +35,20 @@ auto:
 # eoas(x) = releaseDate(x) + 6 months
 # eol(x) = releaseDate(x) + 18 months
 releases:
+  - releaseCycle: "2603"
+    releaseDate: 2026-04-30
+    eoas: 2026-10-30 # estimate releaseDate(x) + 6 months, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eol: 2027-10-30 # estimate releaseDate(x) + 18 months, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    latest: "2603"
+    latestReleaseDate: 2026-04-30
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+
   - releaseCycle: "2511"
     releaseDate: 2025-12-29
     eoas: 2026-06-29
     eol: 2027-06-29
-    latest: "2511"
-    latestReleaseDate: 2025-12-29
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+    latest: "2511 Update 3"
+    latestReleaseDate: 2026-04-20
 
   - releaseCycle: "2507"
     releaseDate: 2025-08-19
@@ -49,8 +56,8 @@ releases:
     eoas: 2028-08-18
     eol: 2028-08-18
     eoes: 2033-08-18
-    latest: "2507 CU1"
-    latestReleaseDate: 2026-02-02
+    latest: "2507 CU1 Update 4"
+    latestReleaseDate: 2026-04-20
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new/cumulative-update-1
 
   - releaseCycle: "2503"
@@ -80,9 +87,9 @@ releases:
     eoas: 2029-04-15
     eol: 2029-04-15
     eoes: 2034-04-15
-    latest: "2402 CU3"
-    latestReleaseDate: 2026-04-10
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2402-ltsr/whats-new/cumulative-update-2.html
+    latest: "2402 CU3 Update 2"
+    latestReleaseDate: 2026-04-20
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2402-ltsr/whats-new/cumulative-update-3.html
 
   - releaseCycle: "2311"
     releaseDate: 2023-12-21
@@ -145,8 +152,8 @@ releases:
     eoas: 2027-03-23
     eol: 2027-03-23
     eoes: 2032-03-23
-    latest: "2203 CU7"
-    latestReleaseDate: 2026-04-10
+    latest: "2203 CU7 Update 3"
+    latestReleaseDate: 2026-04-20
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-7
 
   - releaseCycle: "2112"
@@ -221,7 +228,7 @@ releases:
     eoes: 2029-12-18
     latest: "1912 CU10"
     latestReleaseDate: 2024-11-25
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-10.html
+    link: https://web.archive.org/web/20251008131431/https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-10.html
 
   - releaseCycle: "7.15"
     releaseLabel: XenDesktop __RELEASE_CYCLE__

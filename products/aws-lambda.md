@@ -22,6 +22,13 @@ auto:
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
 # The release dates must be retrieved from announcement blog posts on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
+  - releaseCycle: "ruby4.0"
+    releaseLabel: "Ruby 4.0"
+    releaseDate: 2026-04-30
+    eoas: 2029-03-31
+    eol: 2029-05-31
+    link: https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/
+
   - releaseCycle: "dotnet10"
     releaseLabel: ".NET 10"
     releaseDate: 2026-01-08

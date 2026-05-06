@@ -57,8 +57,8 @@ releases:
     lts: true # See https://nightlies.apache.org/flink/flink-docs-lts/
     releaseDate: 2024-08-01
     eol: false
-    latest: "1.20.3"
-    latestReleaseDate: 2025-09-25
+    latest: "1.20.4"
+    latestReleaseDate: 2026-05-04
 
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/

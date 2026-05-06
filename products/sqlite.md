@@ -29,8 +29,8 @@ releases:
     # 3.0.7 release date, because it is the first stable release in the 3.x line
     releaseDate: 2004-09-18
     eol: false
-    latest: "3.53.0"
-    latestReleaseDate: 2026-04-09
+    latest: "3.53.1"
+    latestReleaseDate: 2026-05-05
 
   - releaseCycle: "2"
     releaseDate: 2001-09-28

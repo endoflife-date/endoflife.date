@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "3.9"
     releaseDate: 2026-04-02
     eol: false
-    latest: "3.9.1"
-    latestReleaseDate: 2026-04-09
+    latest: "3.9.2"
+    latestReleaseDate: 2026-05-01
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
 
   - releaseCycle: "3.8"
@@ -91,8 +91,8 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
-    latest: "2.8.0"
-    latestReleaseDate: 2025-12-02
+    latest: "2.9.0"
+    latestReleaseDate: 2026-05-01
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07

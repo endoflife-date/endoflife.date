@@ -35,32 +35,32 @@ auto:
 # Support and EOL dates can be found on https://www.suse.com/lifecycle#suse-rancher-prime
 releases:
   - releaseCycle: "2.14"
-    releaseDate: 2026-03-26
-    eoas: false # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
-    eol: false # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
-    latest: "2.14.0"
-    latestReleaseDate: 2026-03-26
+    releaseDate: 2026-04-30
+    eoas: 2026-10-30 # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
+    eol: 2027-10-10 # not yet declared on https://www.suse.com/lifecycle#suse-rancher-prime
+    latest: "2.14.1"
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "2.13"
     releaseDate: 2025-12-17
     eoas: 2026-06-17
     eol: 2027-06-17
-    latest: "2.13.4"
-    latestReleaseDate: 2026-03-25
+    latest: "2.13.5"
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "2.12"
     releaseDate: 2025-08-29
     eoas: 2026-02-28
     eol: 2027-02-28
-    latest: "2.12.8"
-    latestReleaseDate: 2026-03-25
+    latest: "2.12.9"
+    latestReleaseDate: 2026-04-30
 
   - releaseCycle: "2.11"
     releaseDate: 2025-04-24
     eoas: 2025-10-24
     eol: 2026-10-24
-    latest: "2.11.12"
-    latestReleaseDate: 2026-03-25
+    latest: "2.11.13"
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "2.10"
     releaseDate: 2024-12-19

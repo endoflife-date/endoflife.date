@@ -15,6 +15,11 @@ identifiers:
   - cpe: cpe:2.3:o:fortinet:fortios
 
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2026-04-21
+    eoas: 2029-04-21
+    eol: 2030-10-21
+
   - releaseCycle: "7.6"
     releaseDate: 2024-07-25
     eoas: 2028-07-25
