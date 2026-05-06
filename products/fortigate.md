@@ -21,6 +21,7 @@ releases:
     discontinued: 2026-05-17
     lastServiceExtension: 2030-05-17
     eol: 2031-05-17
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-{{'__RELEASE_CYCLE__' | split: '-' | last}}-series.pdf
 
   - releaseCycle: "fg-600f"
     releaseLabel: "FortiGate-600F"
@@ -28,6 +29,7 @@ releases:
     discontinued: 2026-05-01
     lastServiceExtension: 2030-05-01
     eol: 2031-05-01
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-{{'__RELEASE_CYCLE__' | split: '-' | last}}-series.pdf
 
   - releaseCycle: "fg-601f"
     releaseLabel: "FortiGate-601F"
@@ -35,6 +37,7 @@ releases:
     discontinued: 2026-05-01
     lastServiceExtension: 2030-05-01
     eol: 2031-05-01
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-600f-series.pdf
   
   - releaseCycle: "fg-200f"
     releaseLabel: "FortiGate-200F"
@@ -42,6 +45,7 @@ releases:
     discontinued: 2026-03-01
     lastServiceExtension: 2030-03-01
     eol: 2031-03-01
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate-200f-series.pdf
 
   - releaseCycle: "fwf-40f"
     releaseLabel: "FortiWifi-40F"
@@ -49,6 +53,7 @@ releases:
     discontinued: 2026-05-01
     lastServiceExtension: 2030-05-01
     eol: 2031-05-01
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-fortiwifi-{{'__RELEASE_CYCLE__' | split: '-' | last}}-series.pdf
 
   - releaseCycle: "fwf-60f"
     releaseLabel: "FortiWifi-60F"
@@ -56,6 +61,7 @@ releases:
     discontinued: 2026-05-01
     lastServiceExtension: 2030-05-01
     eol: 2031-05-01
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-fortiwifi-{{'__RELEASE_CYCLE__' | split: '-' | last}}-series.pdf
 
   - releaseCycle: "fwf-61f"
     releaseLabel: "FortiWifi-61F"
@@ -63,6 +69,7 @@ releases:
     discontinued: 2026-05-01
     lastServiceExtension: 2030-05-01
     eol: 2031-05-01
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-fortiwifi-60f-series.pdf
 
   - releaseCycle: "fg-100f"
     releaseLabel: "FortiGate-100F"
@@ -70,6 +77,7 @@ releases:
     discontinued: 2026-04-16
     lastServiceExtension: 2030-04-16
     eol: 2031-04-16
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate-100f-series.pdf
 
   - releaseCycle: "fg-101f"
     releaseLabel: "FortiGate-101F"
@@ -77,6 +85,7 @@ releases:
     discontinued: 2026-04-16
     lastServiceExtension: 2030-04-16
     eol: 2031-04-16
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate-100f-series.pdf
 
   - releaseCycle: "fg-400e"
     releaseLabel: "FortiGate-400E"
@@ -84,6 +93,7 @@ releases:
     discontinued: 2025-10-13
     lastServiceExtension: 2029-10-13
     eol: 2030-10-13
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_400e.pdf
 
   - releaseCycle: "fg-401e"
     releaseLabel: "FortiGate-401E"
@@ -91,6 +101,7 @@ releases:
     discontinued: 2025-10-13
     lastServiceExtension: 2029-10-13
     eol: 2030-10-13
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_400e.pdf
 
   - releaseCycle: "fg-3400e"
     releaseLabel: "FortiGate-3400E"
@@ -98,6 +109,7 @@ releases:
     discontinued: 2025-04-16
     lastServiceExtension: 2029-04-16
     eol: 2030-04-16
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3400E.pdf
 
   - releaseCycle: "fg-3401e"
     releaseLabel: "FortiGate-3401E"
@@ -105,6 +117,7 @@ releases:
     discontinued: 2025-04-16
     lastServiceExtension: 2029-04-16
     eol: 2030-04-16
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3400E.pdf
 
   - releaseCycle: "fg-3600e"
     releaseLabel: "FortiGate-3600E"
@@ -112,6 +125,7 @@ releases:
     discontinued: 2024-04-15
     lastServiceExtension: 2028-04-15
     eol: 2029-04-15
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3600E.pdf
 
   - releaseCycle: "fg-3601e"
     releaseLabel: "FortiGate-3601E"
@@ -119,6 +133,7 @@ releases:
     discontinued: 2024-04-15
     lastServiceExtension: 2028-04-15
     eol: 2029-04-15
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3600E.pdf
 
   - releaseCycle: "fg-6001f"
     releaseLabel: "FortiGate-6001F"
@@ -126,6 +141,7 @@ releases:
     discontinued: 2026-04-30
     lastServiceExtension: 2030-04-30
     eol: 2031-04-30
+    link: https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/ffef9904-1a11-11e9-9685-f8bc1258b856/fortigate-6000F-system-guide.pdf
 
   - releaseCycle: "fg-6300f"
     releaseLabel: "FortiGate-6300F"
@@ -133,6 +149,7 @@ releases:
     discontinued: 2026-04-15
     lastServiceExtension: 2030-04-15
     eol: 2031-04-15
+    link: https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/ffef9904-1a11-11e9-9685-f8bc1258b856/fortigate-6000F-system-guide.pdf
 
   - releaseCycle: "fg-6301f"
     releaseLabel: "FortiGate-6301F"
@@ -140,6 +157,7 @@ releases:
     discontinued: 2026-04-15
     lastServiceExtension: 2030-04-15
     eol: 2031-04-15
+    link: https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/ffef9904-1a11-11e9-9685-f8bc1258b856/fortigate-6000F-system-guide.pdf
 
   - releaseCycle: "fg-6500f"
     releaseLabel: "FortiGate-6500F"
@@ -147,6 +165,7 @@ releases:
     discontinued: 2026-01-13
     lastServiceExtension: 2030-01-13
     eol: 2031-01-13
+    link: https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/ffef9904-1a11-11e9-9685-f8bc1258b856/fortigate-6000F-system-guide.pdf
 
   - releaseCycle: "fg-6501f"
     releaseLabel: "FortiGate-6501F"
@@ -154,6 +173,7 @@ releases:
     discontinued: 2026-01-13
     lastServiceExtension: 2030-01-13
     eol: 2031-01-13
+    link: https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/ffef9904-1a11-11e9-9685-f8bc1258b856/fortigate-6000F-system-guide.pdf
 
   - releaseCycle: "fg-300e"
     releaseLabel: "FortiGate-300E"
@@ -161,6 +181,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_300e.pdf
 
   - releaseCycle: "fg-301e"
     releaseLabel: "FortiGate-301E"
@@ -168,6 +189,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_300e.pdf
 
   - releaseCycle: "fg-500e"
     releaseLabel: "FortiGate-500E"
@@ -175,6 +197,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-500E.pdf
 
   - releaseCycle: "fg-501e"
     releaseLabel: "FortiGate-501E"
@@ -182,6 +205,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-500E.pdf
 
   - releaseCycle: "fg-5001e"
     releaseLabel: "FortiGate-5001E"
@@ -189,6 +213,7 @@ releases:
     discontinued: 2026-01-13
     lastServiceExtension: 2030-01-13
     eol: 2031-01-13
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_5000_series.pdf
 
   - releaseCycle: "fg-80e"
     releaseLabel: "FortiGate-80E"
@@ -196,6 +221,7 @@ releases:
     discontinued: 2021-08-17
     lastServiceExtension: 2025-08-17
     eol: 2026-08-17
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-80E.pdf
 
   - releaseCycle: "fg-81e"
     releaseLabel: "FortiGate-81E"
@@ -203,6 +229,7 @@ releases:
     discontinued: 2021-11-14
     lastServiceExtension: 2025-11-14
     eol: 2026-11-14
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-80E.pdf
 
   - releaseCycle: "fg-100e"
     releaseLabel: "FortiGate-100E"
@@ -210,6 +237,7 @@ releases:
     discontinued: 2021-08-17
     lastServiceExtension: 2025-08-17
     eol: 2026-08-17
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-100E.pdf
 
   - releaseCycle: "fg-100ef"
     releaseLabel: "FortiGate-100EF"
@@ -217,6 +245,7 @@ releases:
     discontinued: 2021-08-17
     lastServiceExtension: 2025-08-17
     eol: 2026-08-17
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-100E.pdf
 
   - releaseCycle: "fg-101e"
     releaseLabel: "FortiGate-101E"
@@ -224,6 +253,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-100E.pdf
 
   - releaseCycle: "fg-3980e"
     releaseLabel: "FortiGate-3980E"
@@ -231,6 +261,7 @@ releases:
     discontinued: 2022-04-16
     lastServiceExtension: 2026-04-16
     eol: 2027-04-16
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3900E_Series.pdf
 
   - releaseCycle: "fg-3960e"
     releaseLabel: "FortiGate-3960E"
@@ -238,6 +269,7 @@ releases:
     discontinued: 2023-12-29
     lastServiceExtension: 2027-12-29
     eol: 2028-12-29
+    link: https://cdn.blueally.com/avfirewalls/datasheets/fortigate/fortigate_3960e.pdf
 
   - releaseCycle: "fg-200e"
     releaseLabel: "FortiGate-200E"
@@ -245,6 +277,7 @@ releases:
     discontinued: 2025-10-13
     lastServiceExtension: 2029-10-13
     eol: 2030-10-13
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_200e_series.pdf
 
   - releaseCycle: "fg-201e"
     releaseLabel: "FortiGate-201E"
@@ -252,6 +285,7 @@ releases:
     discontinued: 2025-10-13
     lastServiceExtension: 2029-10-13
     eol: 2030-10-13
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_200e_series.pdf
 
   - releaseCycle: "fg-3800d"
     releaseLabel: "FortiGate-3800D"
@@ -259,6 +293,7 @@ releases:
     discontinued: 2021-01-14
     lastServiceExtension: 2025-01-14
     eol: 2026-01-14
+    link: http://fortilab.pl/wp-content/uploads/2018/10/FortiGate_3800D.pdf
 
   - releaseCycle: "fg-30e"
     releaseLabel: "FortiGate-30E"
@@ -266,6 +301,7 @@ releases:
     discontinued: 2022-03-31
     lastServiceExtension: 2026-03-31
     eol: 2027-03-31
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-30E.pdf
 
   - releaseCycle: "fwf-30e"
     releaseLabel: "FortiWifi-30E"
@@ -273,6 +309,7 @@ releases:
     discontinued: 2021-10-15
     lastServiceExtension: 2025-10-15
     eol: 2026-10-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-30E.pdf
 
   - releaseCycle: "fg-50e"
     releaseLabel: "FortiGate-50E"
@@ -280,6 +317,7 @@ releases:
     discontinued: 2022-03-31
     lastServiceExtension: 2026-03-31
     eol: 2027-03-31
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-50E.pdf
 
   - releaseCycle: "fg-51e"
     releaseLabel: "FortiGate-51E"
@@ -287,6 +325,7 @@ releases:
     discontinued: 2022-07-15
     lastServiceExtension: 2026-07-15
     eol: 2027-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-50E.pdf
 
   - releaseCycle: "fwf-50e"
     releaseLabel: "FortiWifi-50E"
@@ -294,6 +333,7 @@ releases:
     discontinued: 2022-07-15
     lastServiceExtension: 2026-07-15
     eol: 2027-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-50E.pdf
 
   - releaseCycle: "fwf-51e"
     releaseLabel: "FortiWifi-51E"
@@ -301,6 +341,7 @@ releases:
     discontinued: 2022-07-15
     lastServiceExtension: 2026-07-15
     eol: 2027-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-50E.pdf
 
   - releaseCycle: "fg-60e"
     releaseLabel: "FortiGate-60E"
@@ -308,6 +349,7 @@ releases:
     discontinued: 2021-12-29
     lastServiceExtension: 2025-12-29
     eol: 2026-12-29
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf
 
   - releaseCycle: "fg-61e"
     releaseLabel: "FortiGate-61E"
@@ -315,6 +357,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf
 
   - releaseCycle: "fwf-60e"
     releaseLabel: "FortiWifi-60E"
@@ -322,6 +365,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf
 
   - releaseCycle: "fwf-61e"
     releaseLabel: "FortiWifi-61E"
@@ -329,6 +373,7 @@ releases:
     discontinued: 2021-07-15
     lastServiceExtension: 2025-07-15
     eol: 2026-07-15
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf
 
   - releaseCycle: "fg-2000e"
     releaseLabel: "FortiGate-2000E"
@@ -336,6 +381,7 @@ releases:
     discontinued: 2025-05-02
     lastServiceExtension: 2029-05-02
     eol: 2030-05-02
+    link: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_2000E.pdf
   
   - releaseCycle: "fg-800d"
     releaseLabel: "FortiGate-800D"
@@ -343,6 +389,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-800D.pdf
 
   - releaseCycle: "fg-900d"
     releaseLabel: "FortiGate-900D"
@@ -350,6 +397,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-900D.pdf
 
   - releaseCycle: "fg-3000d"
     releaseLabel: "FortiGate-3000D"
@@ -357,6 +405,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://www.boll.ch/datasheets/FortiGate_3000D.pdf
 
   - releaseCycle: "fg-3100d"
     releaseLabel: "FortiGate-3100D"
@@ -364,6 +413,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://www.boll.ch/datasheets/FortiGate_3100D.pdf
 
   - releaseCycle: "fg-1000d"
     releaseLabel: "FortiGate-1000D"
@@ -371,6 +421,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://cdn.blueally.com/avfirewalls/datasheets/fortigate/fortigate-1000d.pdf
 
   - releaseCycle: "fg-1200d"
     releaseLabel: "FortiGate-1200D"
@@ -378,6 +429,7 @@ releases:
     discontinued: 2021-04-16
     lastServiceExtension: 2025-04-16
     eol: 2026-04-16
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate-1200d.pdf
 
   - releaseCycle: "fg-3200d"
     releaseLabel: "FortiGate-3200D"
@@ -385,6 +437,7 @@ releases:
     discontinued: 2023-04-16
     lastServiceExtension: 2027-04-16
     eol: 2028-04-16
+    link: https://www.boll.ch/datasheets/FortiGate_3200D.pdf
 
   - releaseCycle: "fg-1500d"
     releaseLabel: "FortiGate-1500D"
@@ -392,6 +445,7 @@ releases:
     discontinued: 2021-12-31
     lastServiceExtension: 2025-12-31
     eol: 2026-12-31
+    link: https://www.avfirewalls.co.uk/datasheets/fortigate/fortigate_1500dt.pdf
 
   - releaseCycle: "fg-3700d"
     releaseLabel: "FortiGate-3700D"
@@ -399,6 +453,7 @@ releases:
     discontinued: 2022-04-16
     lastServiceExtension: 2026-04-16
     eol: 2027-04-16
+    link: https://cdn.blueally.com/avfirewalls/datasheets/fortigate/fortigate_3700d.pdf
 
   
 
