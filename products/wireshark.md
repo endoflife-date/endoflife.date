@@ -29,7 +29,7 @@ identifiers:
 releases:
   - releaseCycle: "4.6"
     releaseDate: 2025-10-08
-    eoas: true
+    eoas: false # releaseDate(4.7)
     eol: false
     latest: "4.6.5"
     latestReleaseDate: 2026-04-29
