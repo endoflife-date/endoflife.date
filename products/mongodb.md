@@ -48,7 +48,7 @@ releases:
     eol: 2029-10-31
     latest: "8.3.1"
     latestReleaseDate: 2026-05-04
-    link: https://www.mongodb.com/docs/manual/release-notes/8.3/ # todo: check if this can be removed after 8.3 release
+    link: https://www.mongodb.com/docs/manual/release-notes/8.3/ # todo: check if this can be removed after 8.4 release
 
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
