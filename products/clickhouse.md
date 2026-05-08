@@ -25,15 +25,15 @@ releases:
   - releaseCycle: "26.4"
     releaseDate: 2026-05-05
     eol: false
-    latest: "26.4.1.1141"
-    latestReleaseDate: 2026-05-05
+    latest: "26.4.2.10"
+    latestReleaseDate: 2026-05-07
 
   - releaseCycle: "26.3"
     lts: true
     releaseDate: 2026-03-26
     eol: 2027-03-26
-    latest: "26.3.9.8"
-    latestReleaseDate: 2026-04-14
+    latest: "26.3.10.62"
+    latestReleaseDate: 2026-05-07
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27
