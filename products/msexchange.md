@@ -14,13 +14,13 @@ identifiers:
 
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU5"
+    releaseLabel: "Subscription Edition HU6"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.37"
-    latestReleaseDate: 2026-02-10
-    link: https://support.microsoft.com/help/5074992
+    latest: "15.2.2562.41"
+    latestReleaseDate: 2026-05-07
+    link: https://support.microsoft.com/help/5081755
 
   - releaseCycle: "2019"
     releaseLabel: "2019 CU15 SU7"
