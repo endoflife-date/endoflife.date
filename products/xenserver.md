@@ -12,6 +12,7 @@ alternate_urls:
 releasePolicyLink: https://www.xenserver.com/support
 eoasColumn: End of Maintenance
 eolColumn: End of Life
+latestColumn: false
 
 identifiers:
   - cpe: cpe:/a:citrix:hypervisor
