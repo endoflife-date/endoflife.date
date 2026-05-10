@@ -40,7 +40,7 @@ releases:
     supportedRubyVersion: "4.0"
     eol: false
     latest: "10.1.0.0"
-    latestReleaseDate: 2026-04-21
+    latestReleaseDate: 2026-04-20
 
   - releaseCycle: "10.0"
     releaseDate: 2025-04-14
@@ -89,7 +89,7 @@ releases:
     supportedRubyVersion: "2.2"
     eol: 2016-01-30
     latest: "9.0.5.0"
-    latestReleaseDate: 2016-01-30
+    latestReleaseDate: 2016-01-26
 
 ---
 

@@ -49,8 +49,8 @@ releases:
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.0/docs/deployment/java_compatibility/
     releaseDate: 2025-03-19
     eol: false
-    latest: "2.0.1"
-    latestReleaseDate: 2025-10-30
+    latest: "2.0.2"
+    latestReleaseDate: 2026-05-09
 
   - releaseCycle: "1.20"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/deployment/java_compatibility/
