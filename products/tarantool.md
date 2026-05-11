@@ -19,6 +19,12 @@ auto:
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-04-22
+    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    latest: "3.7.0"
+    latestReleaseDate: 2026-04-22
+
   - releaseCycle: "3.6"
     releaseDate: 2025-12-12
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
@@ -65,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.8"
-    latestReleaseDate: 2025-10-17
+    latest: "2.11.9"
+    latestReleaseDate: 2026-04-28
 
   - releaseCycle: "2.10"
     releaseDate: 2022-05-22

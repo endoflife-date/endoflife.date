@@ -30,6 +30,14 @@ auto:
 # Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
 # It seems there are no more active support phases since a few releases.
 releases:
+  - releaseCycle: "2.3"
+    releaseDate: 2026-04-30
+    lts: true
+    eoas: 2028-04-30
+    eol: 2028-04-30
+    latest: "2.3.0"
+    latestReleaseDate: 2026-04-30
+
   - releaseCycle: "2.2"
     releaseDate: 2025-11-05
     eoas: 2026-11-06
@@ -46,8 +54,9 @@ releases:
 
   - releaseCycle: "2.0"
     releaseDate: 2024-11-05
+    lts: true
     eoas: 2025-11-07
-    eol: 2025-11-07
+    eol: 2027-03-01
     latest: "2.0.8"
     latestReleaseDate: 2026-04-14
 

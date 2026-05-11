@@ -714,7 +714,7 @@ releases:
     releaseLabel: "Galaxy A23 5G"
     releaseDate: 2022-09-02
     eoas: 2025-09-02
-    eol: false
+    eol: false        # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
   - releaseCycle: "galaxy-z-fold4"
@@ -791,7 +791,7 @@ releases:
     releaseLabel: "Galaxy M33 5G"
     releaseDate: 2022-04-08
     eoas: 2025-04-08 # 3 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-M336BU/INS/doc.html
 
   - releaseCycle: "galaxy-m23-5g"
@@ -826,14 +826,14 @@ releases:
     releaseLabel: "Galaxy A23"
     releaseDate: 2022-03-25
     eoas: 2025-03-25
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-A235M/PET/doc.html
 
   - releaseCycle: "galaxy-a13"
     releaseLabel: "Galaxy A13"
     releaseDate: 2022-03-23
     eoas: 2025-03-23
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
   - releaseCycle: "galaxy-f23"

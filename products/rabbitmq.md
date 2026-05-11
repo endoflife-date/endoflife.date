@@ -26,10 +26,17 @@ auto:
         - '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
 
 releases:
-  - releaseCycle: "4.2"
-    releaseDate: 2025-10-27
+  - releaseCycle: "4.3"
+    releaseDate: 2026-04-23
     eol: false
     eoes: false
+    latest: "4.3.0"
+    latestReleaseDate: 2026-04-21
+
+  - releaseCycle: "4.2"
+    releaseDate: 2025-10-27
+    eol: 2026-01-31
+    eoes: 2030-06-30
     latest: "4.2.6"
     latestReleaseDate: 2026-04-20
 

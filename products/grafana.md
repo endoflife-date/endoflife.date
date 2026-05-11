@@ -4,7 +4,13 @@ addedAt: 2022-11-02
 category: server-app
 iconSlug: grafana
 permalink: /grafana
-versionCommand: grafana-server -v
+versionCommand: |-
+  # For Grafana >= 13
+  grafana --version
+
+  # For Grafana < 13
+  grafana-server -v
+
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 eoasColumn: true
 
@@ -33,9 +39,9 @@ auto:
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
   - releaseCycle: "13.0"
-    releaseDate: 2026-04-17 # 13.0.1 was the first version
+    releaseDate: 2026-04-14 # 13.0.1 was the first version
     eoas: false
-    eol: false
+    eol: 2027-01-09
     latest: "13.0.1"
     latestReleaseDate: 2026-04-17
 

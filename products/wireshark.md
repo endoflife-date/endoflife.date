@@ -27,19 +27,26 @@ identifiers:
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
 releases:
+  - releaseCycle: "4.6"
+    releaseDate: 2025-10-08
+    eoas: false # releaseDate(4.7)
+    eol: false
+    latest: "4.6.5"
+    latestReleaseDate: 2026-04-29
+
   - releaseCycle: "4.4"
     releaseDate: 2024-08-28
-    eoas: true
+    eoas: 2025-10-08
     eol: false
-    latest: "4.4.9"
-    latestReleaseDate: 2025-08-28
+    latest: "4.4.15"
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "4.2"
     releaseDate: 2023-11-15
     eoas: 2024-08-28
-    eol: false
-    latest: "4.2.13"
-    latestReleaseDate: 2025-08-28
+    eol: 2025-10-08
+    latest: "4.2.14"
+    latestReleaseDate: 2025-10-08
 
   - releaseCycle: "4.0"
     releaseDate: 2022-10-04
@@ -163,5 +170,6 @@ The latest two releases are supported and receive security and bug fixes. Each r
 supported for a minimum of 18 months, which can be extended to 24 or 30 months,
 e.g. for releases preceding a major change.
 
-- Wireshark 4.2 is the last release to support Windows 10, and macOS 10.14–10.15.
+- Wireshark 4.6 is the last release to support Windows 10, Red Hat Enterprise Linux 8, and Qt 5.
+- Wireshark 4.2 is the last release to support macOS 10.14–10.15.
 - Wireshark 4.0 is the last release to support Windows 8.1 and Windows Server 2012.

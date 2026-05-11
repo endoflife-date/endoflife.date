@@ -17,7 +17,7 @@ auto:
         - 'iOS\s+(?P<version>\d+)'
         - 'iOS\s+(?P<version>\d+(?:\.\d+)+)'
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
-
+# eol(x) = if cycle_EOLed ? latestReleaseDate : false 
 releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
@@ -43,7 +43,7 @@ releases:
   - releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: 2025-03-31
+    eol: 2026-03-11
     latest: "16.7.15"
     latestReleaseDate: 2026-03-11
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
@@ -51,14 +51,14 @@ releases:
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: 2025-03-31
+    eol: 2026-03-11
     latest: "15.8.7"
     latestReleaseDate: 2026-03-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
     eoas: 2021-09-20
-    eol: 2021-10-01
+    eol: 2021-10-26
     latest: "14.8.1"
     latestReleaseDate: 2021-10-26
 
@@ -73,7 +73,7 @@ releases:
   - releaseCycle: "12"
     releaseDate: 2018-09-17
     eoas: 2019-09-19
-    eol: 2023-01-23
+    eol: 2026-01-26
     latest: "12.5.8"
     latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
@@ -89,7 +89,7 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2016-09-13
     eoas: 2017-09-19
-    eol: 2017-09-26
+    eol: 2019-07-22
     latest: "10.3.4"
     latestReleaseDate: 2019-07-22
     link: https://support.apple.com/HT208011
@@ -97,7 +97,7 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2015-09-16
     eoas: 2016-09-13
-    eol: 2016-09-13
+    eol: 2019-07-22
     latest: "9.3.6"
     latestReleaseDate: 2019-07-22
     link: https://support.apple.com/HT208010
