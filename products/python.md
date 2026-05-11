@@ -79,6 +79,11 @@ identifiers:
   - purl: pkg:rpm/redhat/python
   - purl: pkg:rpm/redhat/python2
   - purl: pkg:rpm/redhat/python3
+  - purl: pkg:rpm/redhat/python27
+  - purl: pkg:rpm/redhat/python38
+  - purl: pkg:rpm/redhat/python39
+  - purl: pkg:rpm/redhat/python3.11
+  - purl: pkg:rpm/redhat/python3.12
   - purl: pkg:rpm/centos/python
   - purl: pkg:rpm/centos/python2
   - purl: pkg:rpm/centos/python3
