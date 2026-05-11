@@ -91,6 +91,3 @@ release date.
 Starting in October 2018, Dynamics NAV was succeeded by Dynamics 365 Business Central on-premises.
 Migration guidance is available on
 [Microsoft Learn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav).
-
-A community-maintained overview is also available on the
-[Incremental Group Dynamics blog](https://community.dynamics.com/blogs/post/?postid=90bcd6a1-dbfb-404f-b221-e08d49a85dd7).

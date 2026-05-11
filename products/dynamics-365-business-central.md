@@ -142,7 +142,3 @@ Business Central on-premises has two distinct policies:
   [Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern). Two release
   waves are published per year and each version is supported for roughly 18 months after release.
 
-To remain in support, on-premises customers must move to a newer release wave within the
-supported window. See the
-[lifecycle policy for on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/terms/lifecycle-policy-on-premises)
-for details on servicing requirements.

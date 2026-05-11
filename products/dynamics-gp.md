@@ -93,9 +93,3 @@ Security updates remain available until **2031-04-30**.
 
 After this date, Microsoft recommends migrating to
 [Dynamics 365 Business Central](/dynamics-365-business-central).
-
-Additional context is available in the
-[Business Central Service lifecycle update for Dynamics GP](https://community.dynamics.com/blogs/post/?postid=ab4bcf3c-fc2a-4ef7-99ed-3a557a7a28c3).
-
-Installing any compatible Dynamics GP tax release or hotfix on Dynamics GP 2018 or 2018 R2 brings
-the installation to version 18.5 or later, which then follows the Modern Lifecycle Policy.
