@@ -43,8 +43,8 @@ releases:
     eoas: 2025-11-19
     eol: 2026-11-28
     eoes: false
-    latest: "20.3.20"
-    latestReleaseDate: 2026-05-06
+    latest: "20.3.21"
+    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
