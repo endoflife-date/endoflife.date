@@ -19,9 +19,17 @@ auto:
     - git: https://github.com/roundcube/roundcubemail.git
 
 releases:
+  - releaseCycle: "1.7"
+    releaseDate: 2026-05-10
+    eoas: false
+    eol: false
+    latest: "1.7.0"
+    latestReleaseDate: 2026-05-10
+
   - releaseCycle: "1.6"
     releaseDate: 2022-07-25
-    eoas: false
+    lts: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
+    eoas: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     eol: false
     latest: "1.6.15"
     latestReleaseDate: 2026-03-29
@@ -29,8 +37,8 @@ releases:
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
     lts: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
-    eoas: false
-    eol: false
+    eoas: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
+    eol: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     latest: "1.5.15"
     latestReleaseDate: 2026-03-29
 
