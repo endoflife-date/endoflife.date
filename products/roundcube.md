@@ -83,6 +83,15 @@ releases:
 > application-like user interface. It provides full functionality you expect from an email client,
 > including MIME support, address book, folder manipulation, message searching and spell checking.
 
+{: .note-title }
+
+> Important Changes
+>
+> Starting with 1.70 cycle:
+> Dropped support for PHP < 8.1.
+> Dropped support for Internet Explorer.
+> Dropped support for MS SQL Server and Oracle.
+
 As of the last release, the project supports the last two release branches in an "LTS low-maintenance
 mode", which only includes important security updates only. Regular improvement updates are only
 available in the latest stable release.
