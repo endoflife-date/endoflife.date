@@ -88,8 +88,11 @@ releases:
 > Important Changes
 >
 > Starting with 1.70 cycle:
+> 
 > Dropped support for PHP < 8.1.
+> 
 > Dropped support for Internet Explorer.
+> 
 > Dropped support for MS SQL Server and Oracle.
 
 As of the last release, the project supports the last two release branches in an "LTS low-maintenance
