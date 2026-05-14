@@ -51,8 +51,8 @@ releases:
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.21"
-    latestReleaseDate: 2026-04-16
+    latest: "19.2.22"
+    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "18"
     releaseDate: 2024-05-22
