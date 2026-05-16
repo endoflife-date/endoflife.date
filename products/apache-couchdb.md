@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-05-05
     eol: false
-    latest: "3.5.1"
-    latestReleaseDate: 2025-11-09
+    latest: "3.5.2"
+    latestReleaseDate: 2026-05-14
 
   - releaseCycle: "3.4"
     releaseDate: 2024-09-20
