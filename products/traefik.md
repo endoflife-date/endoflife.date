@@ -82,7 +82,7 @@ releases:
   - releaseCycle: "3.2"
     releaseDate: 2024-10-28
     eoas: 2025-01-07
-    eol: 2025-01-06
+    eol: 2025-01-07
     latest: "3.2.5"
     latestReleaseDate: 2025-01-07
 
