@@ -30,10 +30,11 @@ identifiers:
   - cpe: cpe:2.3:a:postgis:postgis
 
 # todo: are these filled in automatically?
+# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "3.6"
     releaseDate: 2025-09-02
-    # todo: eol?
+    eol: false # releaseDate(3.7)
     latest: "3.6.3"
     latestReleaseDate: 2026-04-14
 
