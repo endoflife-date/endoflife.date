@@ -25,6 +25,12 @@ auto:
 # Release dates from https://www.atlassian.com/software/bitbucket/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+  - releaseCycle: "10.3"
+    releaseDate: 2026-05-12
+    eol: 2028-05-12
+    latest: "10.3.0"
+    latestReleaseDate: 2026-05-12
+
   - releaseCycle: "10.2"
     releaseDate: 2026-03-03
     lts: true
