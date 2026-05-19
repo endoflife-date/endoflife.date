@@ -15,6 +15,12 @@ auto:
     - git: https://github.com/postgis/postgis.git
       # ignores e.g. `…beta1` & `…rc1`
       regex: ^(?P<major>\d*).(?P<minor>\d+).(?P<patch>\d+)$
+    # todo: doesn't work yet, not sure how to make it work, the table is horizontal
+    - release_table: https://trac.osgeo.org/postgis/wiki/UsersWikiPostgreSQLPostGIS
+      fields:
+        # releaseCycle: "Version"
+        releaseDate: "PostGIS release date"
+        eol: "EOL"
 
 identifiers:
   - repology: postgis
@@ -22,6 +28,14 @@ identifiers:
   - purl: pkg:docker/postgis/postgis
   - purl: pkg:deb/ubuntu/postgis
   - cpe: cpe:2.3:a:postgis:postgis
+
+# todo: are these filled in automatically?
+releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2025-09-02
+    # todo: eol?
+    latest: "3.6.3"
+    latestReleaseDate: 2026-04-14
 
 ---
 
