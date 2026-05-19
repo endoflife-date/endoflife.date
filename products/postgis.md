@@ -1,5 +1,5 @@
 ---
-title: PostgGIS
+title: PostGIS
 addedAt: 2026-05-19
 category: database
 iconSlug: postgis
