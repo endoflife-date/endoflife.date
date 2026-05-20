@@ -20,6 +20,13 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.4"
+    releaseDate: 2026-04-30
+    eol: false
+    latest: "9.4.1"
+    latestReleaseDate: 2026-05-08
+    link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
+
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
