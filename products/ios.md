@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: 2025-09-15
-    eol: 2026-04-22
+    eol: false
     latest: "18.7.9"
     latestReleaseDate: 2026-05-11
 
@@ -43,7 +43,7 @@ releases:
   - releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: 2026-03-11
+    eol: false
     latest: "16.7.16"
     latestReleaseDate: 2026-05-11
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
@@ -51,7 +51,7 @@ releases:
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: 2026-03-11
+    eol: false
     latest: "15.8.8"
     latestReleaseDate: 2026-05-11
 
