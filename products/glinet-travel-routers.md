@@ -36,38 +36,14 @@ releases:
     latest: "4.8.7"
     openwrtBase: "MTK 21.02"
     link: https://dl.gl-inet.com/release/router/release/mt3600be/4.8.7
-
-  - releaseCycle: "gl-be3600"
+    
+ - releaseCycle: "gl-be3600"
     releaseLabel: "Slate 7 / GL-BE3600"
     releaseDate: 2025-03-07
     eol: false
     latest: "4.8.3"
     openwrtBase: "QSDK 23.05"
     link: https://dl.gl-inet.com/release/router/release/be3600/4.8.3
-    
-  - releaseCycle: "gl-mt3000"
-    releaseLabel: "Beryl AX / GL-MT3000"
-    releaseDate: 2022-12-05
-    eol: false
-    latest: "4.8.1 / 4.8.3-op24"
-    openwrtBase: "MTK 21.02 / Native OpenWrt 24.10"
-    link: https://dl.gl-inet.com/release/router/release/mt3000/4.8.1
-    
-  - releaseCycle: "gl-axt1800"
-    releaseLabel: "Slate AX / GL-AXT1800"
-    releaseDate: 2022-06-03
-    eol: false
-    latest: "4.8.3"
-    openwrtBase: "wlan-ap-v2.6.0 23.05"
-    link: https://dl.gl-inet.com/release/router/release/axt1800/4.8.3
-    
-  - releaseCycle: "gl-a1300"
-    releaseLabel: "Slate Plus / GL-A1300"
-    releaseDate: 2022-09-07
-    eol: false
-    latest: "4.5.22"
-    openwrtBase: "Native OpenWrt 21.02.2"
-    link: https://dl.gl-inet.com/release/router/release/a1300/4.5.22
     
   - releaseCycle: "gl-e750"
     releaseLabel: "Mudi / GL-E750, GL-E750V2"
@@ -76,14 +52,6 @@ releases:
     latest: "4.3.26"
     openwrtBase: "Native OpenWrt 22.03.4"
     link: https://dl.gl-inet.com/release/router/release/e750/4.3.26
-    
-  - releaseCycle: "gl-sft1200"
-    releaseLabel: "Opal / GL-SFT1200"
-    releaseDate: 2022-09-21
-    eol: false
-    latest: "4.3.25"
-    openwrtBase: "SiFlower 18.06"
-    link: https://dl.gl-inet.com/release/router/release/sft1200/4.3.25
     
   - releaseCycle: "gl-mt1300"
     releaseLabel: "Beryl / GL-MT1300"
@@ -108,6 +76,38 @@ releases:
     latest: "4.3.25"
     openwrtBase: "Native OpenWrt 22.03.4"
     link: https://dl.gl-inet.com/release/router/release/ar750s/4.3.25
+        
+  - releaseCycle: "gl-mt3000"
+    releaseLabel: "Beryl AX / GL-MT3000"
+    releaseDate: 2022-12-05
+    eol: false
+    latest: "4.8.1 / 4.8.3-op24"
+    openwrtBase: "MTK 21.02 / Native OpenWrt 24.10"
+    link: https://dl.gl-inet.com/release/router/release/mt3000/4.8.1
+
+  - releaseCycle: "gl-sft1200"
+    releaseLabel: "Opal / GL-SFT1200"
+    releaseDate: 2022-09-21
+    eol: false
+    latest: "4.3.25"
+    openwrtBase: "SiFlower 18.06"
+    link: https://dl.gl-inet.com/release/router/release/sft1200/4.3.25
+
+  - releaseCycle: "gl-a1300"
+    releaseLabel: "Slate Plus / GL-A1300"
+    releaseDate: 2022-09-07
+    eol: false
+    latest: "4.5.22"
+    openwrtBase: "Native OpenWrt 21.02.2"
+    link: https://dl.gl-inet.com/release/router/release/a1300/4.5.22
+    
+  - releaseCycle: "gl-axt1800"
+    releaseLabel: "Slate AX / GL-AXT1800"
+    releaseDate: 2022-06-03
+    eol: false
+    latest: "4.8.3"
+    openwrtBase: "wlan-ap-v2.6.0 23.05"
+    link: https://dl.gl-inet.com/release/router/release/axt1800/4.8.3
 
 ---
 
