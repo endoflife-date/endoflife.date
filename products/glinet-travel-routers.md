@@ -5,7 +5,7 @@ addedAt: 2026-05-21
 
 category: device
 
-tags: gl-inet openwrt router firmware
+tags: firmware gl-inet openwrt router
 
 permalink: /glinet-travel-routers
 
@@ -36,8 +36,8 @@ releases:
     latest: "4.8.7"
     openwrtBase: "MTK 21.02"
     link: https://dl.gl-inet.com/release/router/release/mt3600be/4.8.7
-    
- - releaseCycle: "gl-be3600"
+
+  - releaseCycle: "gl-be3600"
     releaseLabel: "Slate 7 / GL-BE3600"
     releaseDate: 2025-03-07
     eol: false
@@ -55,7 +55,7 @@ releases:
     
   - releaseCycle: "gl-mt1300"
     releaseLabel: "Beryl / GL-MT1300"
-    releaseDate: 	2023-09-13
+    releaseDate: 2023-09-13
     eol: false
     latest: "4.3.25"
     openwrtBase: "Native OpenWrt 22.03.4"
