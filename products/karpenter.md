@@ -28,9 +28,16 @@ customFields:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.12"
+    releaseDate: 2026-04-24
+    eol: false
+    latest: "1.12.0"
+    latestReleaseDate: 2026-04-24
+    supportedKubernetesVersion: "1.29 - 1.35"
+
   - releaseCycle: "1.11"
     releaseDate: 2026-04-06
-    eol: false
+    eol: 2026-04-24
     latest: "1.11.1"
     latestReleaseDate: 2026-04-09
     supportedKubernetesVersion: "1.29 - 1.35"
