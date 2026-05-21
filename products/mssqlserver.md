@@ -49,7 +49,7 @@ releases:
     latestGdr: "16.0.1175.1"
     latestGdrLink: https://support.microsoft.com/help/5084815
     latest: "16.0.4255.1 CU25"
-    latestReleaseDate: 2026-04-14
+    latestReleaseDate: 2026-05-20
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate25
 
   - releaseCycle: "13.0-sp3-acp"
