@@ -30,14 +30,14 @@ releases:
   - releaseCycle: "4"
     releaseDate: 2023-07-11
     eoas: 2026-05-13
-    eol: false
+    eol: false # not announced yet
     latest: "4.10.23"
     latestReleaseDate: 2026-05-06
 
   - releaseCycle: "3"
     releaseDate: 2021-08-18
     eoas: 2023-07-11
-    eol: false
+    eol: false # not announced yet
     latest: "3.10.6"
     latestReleaseDate: 2026-04-28
 
