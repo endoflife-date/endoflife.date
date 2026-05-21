@@ -21,18 +21,18 @@ releases:
     releaseDate: 2025-12-09
     eoas: false
     eol: false
-    latest: "Patch 3"
-    latestReleaseDate: 2026-04-14
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-3-release-date-april-14-2026
+    latest: "Patch 4"
+    latestReleaseDate: 2026-05-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-4-release-date-may-14-2026
 
   - releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.2patch8"
-    latestReleaseDate: 2026-02-10
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-8-release-date-february-10-2026
+    latest: "2022.2patch9"
+    latestReleaseDate: 2026-05-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-9-release-date-may-14-2026
 
   - releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
@@ -57,9 +57,9 @@ releases:
     releaseDate: 2021-05-25
     eoas: 2025-10-14
     eol: 2030-10-08
-    latest: "2020.1.2patch18"
-    latestReleaseDate: 2026-02-10
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-18-release-date-february-10-2026
+    latest: "2020.1.2patch19"
+    latestReleaseDate: 2026-05-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-19-release-date-may-14-2026
 
   - releaseCycle: "2020.0"
     releaseLabel: "2020"
@@ -75,9 +75,9 @@ releases:
     releaseDate: 2019-08-20
     eoas: 2024-04-09
     eol: 2029-04-10
-    latest: "2019.1.2patch12"
-    latestReleaseDate: 2026-02-10
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
+    latest: "2019.1.2patch13"
+    latestReleaseDate: 2026-05-14
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1?view=azure-devops#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
 
   - releaseCycle: "2019.0"
     releaseLabel: "2019"
