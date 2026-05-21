@@ -30,11 +30,11 @@ auto:
 releases:
   - releaseCycle: "26"
     releaseDate: 2026-05-05
-    lts: 2026-10-01
-    eoas: false # not announced yet
-    eol: false # not announced yet
-    latest: "26.1.0"
-    latestReleaseDate: 2026-05-07
+    lts: 2026-10-28
+    eoas: 2027-10-27
+    eol: 2029-04-30
+    latest: "26.2.0"
+    latestReleaseDate: 2026-05-20
 
   - releaseCycle: "25"
     releaseDate: 2025-10-15
