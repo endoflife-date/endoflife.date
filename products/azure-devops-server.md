@@ -77,7 +77,7 @@ releases:
     eol: 2029-04-10
     latest: "2019.1.2patch13"
     latestReleaseDate: 2026-05-14
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-12-release-date-february-10-2026
+    link: https://learn.microsoft.com/en-us/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-13-release-date-may-14-2026
 
   - releaseCycle: "2019.0"
     releaseLabel: "2019"
