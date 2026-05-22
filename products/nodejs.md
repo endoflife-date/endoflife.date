@@ -48,8 +48,8 @@ releases:
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.15.0"
-    latestReleaseDate: 2026-04-15
+    latest: "24.16.0"
+    latestReleaseDate: 2026-05-21
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
