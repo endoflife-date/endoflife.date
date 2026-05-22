@@ -46,6 +46,8 @@ releases:
     # technicalGuidance: 2028-06-01
     latest: "5.1.1"
     latestReleaseDate: 2024-03-26
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-5-2-and-earlier/5-1/vcf-release-notes/vmware-cloud-foundation-511-release-notes.html
+
 
   - releaseCycle: "5.0"
     releaseDate: 2023-06-01
@@ -53,20 +55,22 @@ releases:
     # technicalGuidance: 2028-06-01
     latest: "5.0.0.1"
     latestReleaseDate: 2023-09-29
-    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/5.0/rn/vmware-cloud-foundation-50-release-notes/index.html
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-5-2-and-earlier/5-0/vcf-release-notes/vmware-cloud-foundation-50-release-notes.html
 
   - releaseCycle: "4.5"
     releaseDate: 2022-10-11
     eol: 2025-05-31
     latest: "4.5.2"
     latestReleaseDate: 2023-08-17
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-5-2-and-earlier/4-5/vcf-release-notes/vmware-cloud-foundation-452-release-notes.html
+
 
   - releaseCycle: "3.11"
     releaseDate: 2022-02-14
     eol: 2023-04-30
     latest: "3.11.0.1"
     latestReleaseDate: 2022-04-07
-    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/3.11/rn/vmware-cloud-foundation-311-release-notes/index.html
+    link: https://web.archive.org/web/20250130132930/https://docs.vmware.com/en/VMware-Cloud-Foundation/3.11/rn/vmware-cloud-foundation-311-release-notes/index.html
 
   - releaseCycle: "4.4"
     releaseDate: 2022-02-10
@@ -91,7 +95,7 @@ releases:
     eol: 2022-02-10
     latest: "4.1.0"
     latestReleaseDate: 2020-10-06
-    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/4.1/rn/vmware-cloud-foundation-41-release-notes/index.html
+    link: https://web.archive.org/web/20220818043622/https://docs.vmware.com/en/VMware-Cloud-Foundation/4.1/rn/vmware-cloud-foundation-41-release-notes/index.html
 
   - releaseCycle: "3.10"
     releaseDate: 2020-05-26
