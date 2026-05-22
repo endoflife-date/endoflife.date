@@ -49,7 +49,7 @@ auto:
 releases:
   - releaseCycle: "1.30"
     releaseDate: 2026-05-18
-    eol: 2026-11-01
+    eol: 2026-11-30
     supportedKubernetesVersions: "1.32 - 1.36"
     latest: "1.30.0"
     latestReleaseDate: 2026-05-18

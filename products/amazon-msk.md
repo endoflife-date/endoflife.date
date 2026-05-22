@@ -52,7 +52,7 @@ releases:
 
   - releaseCycle: "3.7"
     releaseDate: 2024-05-29
-    eol: false
+    eol: 2026-09-01
     latest: "3.7.x"
     latestReleaseDate: 2024-05-29
 
