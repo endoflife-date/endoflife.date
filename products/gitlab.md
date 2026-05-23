@@ -25,6 +25,13 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
 releases:
+  - releaseCycle: "19.0"
+    releaseDate: 2026-05-21
+    eoas: 2026-06-18 # releaseDate(19.1)
+    eol: 2026-08-20 # releaseDate(19.3)
+    latest: "19.0.0"
+    latestReleaseDate: 2026-05-21
+
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
@@ -465,9 +472,9 @@ releases:
 > repository manager providing wiki, issue-tracking and continuous integration and deployment
 > pipeline features, using an open-source license, developed by GitLab Inc.
 
-GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning.
+GitLab has a [well-defined versioning policy](https://docs.gitlab.com/policy/maintenance/) based on Semantic Versioning.
 New releases are made monthly on the [third Thursday][release-day]
-and are announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
+and are announced on the [blog](https://about.gitlab.com/blog/).
 You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well.
 A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/) to track new features since a given version.
 
@@ -479,7 +486,7 @@ public Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 
 **Only the latest release is actively maintained.**
 The previous two minor (monthly) releases get security fixes.
-Critical bug fixes can rarely be backported based on [a set of criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
+Critical bug fixes can rarely be backported based on [a set of criteria](https://docs.gitlab.com/policy/maintenance/#backporting-to-older-releases).
 
 | Version Type | Description                                                                                                                                                         | Cadence                                                                                                                           |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
