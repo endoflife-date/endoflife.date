@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-08-05
     eol: false # no date yet available on https://pve.proxmox.com/wiki/FAQ
-    latest: "9.1"
-    latestReleaseDate: 2025-11-19
+    latest: "9.2"
+    latestReleaseDate: 2026-05-21
 
   - releaseCycle: "8"
     releaseDate: 2023-06-22

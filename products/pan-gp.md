@@ -33,8 +33,8 @@ releases:
     releaseDate: 2024-06-13
     eol: 2028-06-30
     eoas: 2028-06-30
-    latest: "6.3.3-c1011"
-    latestReleaseDate: 2026-05-15
+    latest: "6.3.3-c1016"
+    latestReleaseDate: 2026-05-20
     link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
 
   - releaseCycle: "6.2"
