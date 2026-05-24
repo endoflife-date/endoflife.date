@@ -34,8 +34,7 @@ auto:
         - { name: "2023.0.0", date: 2022-05-16 } # https://coldfusion.adobe.com/2023/05/coldfusion2023-release/
         - { name: "2025.0.0", date: 2025-02-25 } # https://community.adobe.com/t5/coldfusion-discussions/now-live-adobe-coldfusion-2025-release/td-p/15176421
 
-# When adding a cycle, remember to add its release note URL in
-# https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
+# When adding a cycle, remember to add its release note URL in https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
 # to benefit from auto-updates.
 releases:
   - releaseCycle: "2025"
