@@ -28,8 +28,8 @@ releases:
     lts: true
     releaseDate: 2025-10-09
     eol: 2027-09-01
-    latest: "cos-125-19216-395-4"
-    latestReleaseDate: 2026-05-08
+    latest: "cos-125-19216-395-7"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "cos-121"
     lts: true
@@ -42,15 +42,15 @@ releases:
     lts: true
     releaseDate: 2024-10-02
     eol: 2026-09-01
-    latest: "cos-117-18613-613-5"
-    latestReleaseDate: 2026-05-08
+    latest: "cos-117-18613-613-7"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-582-103"
-    latestReleaseDate: 2026-05-07
+    latest: "cos-113-18244-582-104"
+    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "cos-109"
     lts: true
