@@ -163,5 +163,5 @@ support, server/client/guest OS updates, new security patches or bug fixes unles
 {% include table.html
 labels="Release"
 fields="releaseCycle"
-types="raw,end-date"
+types="raw"
 rows=page.releases %}
