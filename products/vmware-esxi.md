@@ -34,7 +34,7 @@ releases:
     # No longer standalone release notes for ESX.
     
     
-- releaseCycle: "9.0"
+  - releaseCycle: "9.0"
     releaseDate: 2025-06-17
     eol: 2027-09-17
     # technicalGuidance: no longer providing technical guidance
