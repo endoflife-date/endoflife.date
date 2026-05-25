@@ -12,16 +12,16 @@ alternate_urls:
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 eolColumn: General Support
 
-customFields:
-  - name: technicalGuidance
-    display: api-only
-    label: Technical Guidance Ends
+# customFields:
+#  - name: technicalGuidance - Technical Guidance is no longer a thing, commenting out for now, likely to remove in the future.
+#    display: api-only
+#    label: Technical Guidance Ends
 
 releases:
   - releaseCycle: "9.1"
     releaseDate: 2026-05-12
     eol: 2028-08-12
-    # technicalGuidance: 
+    # technicalGuidance: ???
     latest: "9.1.0.0"
     latestReleaseDate: 2026-05-12
     link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/protection-and-recovery/9-1/release-notes/protection-and-recovery-91-release-notes.html
@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "9.0"
     releaseDate: 2024-03-19
     eol: 2027-09-17
-    # technicalGuidance: 
+    # technicalGuidance: ???
     latest: "9.0.5.1"
     latestReleaseDate: 2026-04-20
     link: https://techdocs.broadcom.com/us/en/vmware-cis/live-recovery/live-site-recovery/9-0/release-notes/vmware-live-site-recovery-90-release-notes.html
