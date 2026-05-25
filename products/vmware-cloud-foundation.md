@@ -12,7 +12,7 @@ alternate_urls:
   - /cloud-foundation
   - /vmware-cloudfoundation
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
-changelogTemplate: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/__LATEST__/release-notes/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes.html
+changelogTemplate: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/release-notes/vmware-cloud-foundation-{{"__LATEST__" | replace:'.','-'}}-release-notes.html
 eolColumn: General Support
 
 releases:
@@ -22,7 +22,6 @@ releases:
     # technicalGuidance: ???
     latest: "9.1.0.0"
     latestReleaseDate: 2026-05-12
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-0-0-release-notes.html
 
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
@@ -30,7 +29,6 @@ releases:
     # technicalGuidance: ???
     latest: "9.0.2.0"
     latestReleaseDate: 2026-01-20
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes.html
 
   - releaseCycle: "5.2"
     releaseDate: 2024-07-23
