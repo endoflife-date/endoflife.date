@@ -75,6 +75,7 @@ releases:
     technicalGuidance: 2022-03-12
     latest: "6.0 U3j"
     latestReleaseDate: 2019-09-12
+    link: https://web.archive.org/web/20220224150310/https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html
 
   - releaseCycle: "5.5"
     releaseDate: 2013-09-19
@@ -82,6 +83,7 @@ releases:
     technicalGuidance: 2020-09-19
     latest: "5.5 U3k"
     latestReleaseDate: 2018-09-14
+    link: https://web.archive.org/web/20210921075441/https://docs.vmware.com/en/VMware-vSphere/5.5/rn/vsphere-vcenter-server-55u3j-release-notes.html
 
   - releaseCycle: "5.1"
     releaseDate: 2012-08-13
