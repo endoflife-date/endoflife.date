@@ -120,18 +120,21 @@ releases:
     eol: 2020-10-24
     latest: "3.9.1"
     latestReleaseDate: 2020-01-14
+    link: https://web.archive.org/web/20200104170220/https://docs.vmware.com/en/VMware-Cloud-Foundation/3.9/rn/VMware-Cloud-Foundation-39-Release-Notes.html
 
   - releaseCycle: "3.8"
     releaseDate: 2019-07-18
     eol: 2020-07-18
     latest: "3.8.1"
     latestReleaseDate: 2019-09-03
+    link: https://web.archive.org/web/20200106141656mp_/https://docs.vmware.com/en/VMware-Cloud-Foundation/3.8.1/rn/VMware-Cloud-Foundation-381-Release-Notes.html
 
   - releaseCycle: "2.3"
     releaseDate: 2018-08-15
     eol: 2020-11-15
     latest: "2.3.2"
     latestReleaseDate: 2018-04-24
+    link: https://web.archive.org/web/20230429044053/https://docs.vmware.com/en/VMware-Cloud-Foundation/2.3/vcf-23x-doc.zip
 ---
 
 > [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-foundation.html), is a suite of
