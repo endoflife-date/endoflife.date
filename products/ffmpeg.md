@@ -100,6 +100,7 @@ releases:
 
   - releaseCycle: "4.2"
     codename: "Ada"
+    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2019-08-05
     eol: false
     latest: "4.2.11"

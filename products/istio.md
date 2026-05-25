@@ -47,6 +47,13 @@ auto:
 # Effective and approximate EOL dates as well as Supported Kubernetes Versions can be found on
 # https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases.
 releases:
+  - releaseCycle: "1.30"
+    releaseDate: 2026-05-18
+    eol: 2026-11-30
+    supportedKubernetesVersions: "1.32 - 1.36"
+    latest: "1.30.0"
+    latestReleaseDate: 2026-05-18
+
   - releaseCycle: "1.29"
     releaseDate: 2026-02-16
     eol: 2026-08-31
