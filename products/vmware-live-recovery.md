@@ -12,10 +12,12 @@ alternate_urls:
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 eolColumn: General Support
 
-# customFields:
-#  - name: technicalGuidance - Technical Guidance is no longer a thing, commenting out for now, likely to remove in the future.
-#    display: api-only
-#    label: Technical Guidance Ends
+customFields:
+  - name: technicalGuidance
+    display: api-only
+    label: Technical Guidance Ends
+
+
 
 releases:
   - releaseCycle: "9.1"
