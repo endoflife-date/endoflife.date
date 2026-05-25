@@ -59,7 +59,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.7 U3w"
     latestReleaseDate: 2024-10-28
-    link: https://knowledge.broadcom.com/external/article/380603
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/legacy/vmware-vsphere-6-7.pdf
 
   - releaseCycle: "6.5"
     releaseDate: 2016-11-15
@@ -67,7 +67,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.5 U3w"
     latestReleaseDate: 2024-07-04
-    link: https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-vcenter-server-65u3w-release-notes.html
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/legacy/vmware-vsphere-6-5.pdf
 
   - releaseCycle: "6.0"
     releaseDate: 2015-03-12
@@ -75,7 +75,6 @@ releases:
     technicalGuidance: 2022-03-12
     latest: "6.0 U3j"
     latestReleaseDate: 2019-09-12
-    link: https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html
 
   - releaseCycle: "5.5"
     releaseDate: 2013-09-19
