@@ -161,7 +161,7 @@ configurations only. During the Technical Guidance phase, VMware does not offer 
 support, server/client/guest OS updates, new security patches or bug fixes unless otherwise noted.
 
 {% include table.html
-labels="Release,Technical Guidance Ends"
-fields="releaseCycle,technicalGuidance"
+labels="Release"
+fields="releaseCycle"
 types="raw,end-date"
 rows=page.releases %}
