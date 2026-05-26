@@ -1,5 +1,6 @@
 ---
 title: HAProxy
+addedAt: 2021-12-19
 category: server-app
 tags: web-server
 permalink: /haproxy
@@ -9,119 +10,177 @@ changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGE
 
 auto:
   methods:
-  -   custom: haproxy
+    - haproxy: https://www.haproxy.org/download/
 
 identifiers:
--   repology: haproxy
--   purl: pkg:generic/haproxy
--   purl: pkg:deb/debian/haproxy
--   purl: pkg:deb/ubuntu/haproxy
--   purl: pkg:rpm/amzn/haproxy
--   purl: pkg:rpm/redhat/haproxy
--   purl: pkg:rpm/centos/haproxy
--   purl: pkg:apk/alpine/haproxy
+  - repology: haproxy
+  - purl: pkg:generic/haproxy
+  - purl: pkg:deb/debian/haproxy
+  - purl: pkg:deb/ubuntu/haproxy
+  - purl: pkg:rpm/amzn/haproxy
+  - purl: pkg:rpm/redhat/haproxy
+  - purl: pkg:rpm/centos/haproxy
+  - purl: pkg:apk/alpine/haproxy
+  - cpe: cpe:2.3:a:haproxy:haproxy
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
+# eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
--   releaseCycle: "3.1"
+  - releaseCycle: "3.3"
+    releaseDate: 2025-11-26
+    eol: 2027-01-01
+    latest: "3.3.10"
+    latestReleaseDate: 2026-05-11
+
+  - releaseCycle: "3.2"
+    releaseDate: 2025-05-28
+    lts: true
+    eol: 2030-04-01
+    latest: "3.2.19"
+    latestReleaseDate: 2026-05-11
+
+  - releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.7"
-    latestReleaseDate: 2025-04-17
+    latest: "3.1.17"
+    latestReleaseDate: 2026-03-19
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.10"
-    latestReleaseDate: 2025-04-22
+    latest: "3.0.23"
+    latestReleaseDate: 2026-05-11
 
--   releaseCycle: "2.9"
+  - releaseCycle: "2.9"
     releaseDate: 2023-12-05
-    eol: 2025-01-01
+    eol: 2025-03-21
     latest: "2.9.15"
     latestReleaseDate: 2025-03-21
 
--   releaseCycle: "2.8"
+  - releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.15"
-    latestReleaseDate: 2025-04-22
+    latest: "2.8.24"
+    latestReleaseDate: 2026-05-11
 
--   releaseCycle: "2.7"
+  - releaseCycle: "2.7"
     releaseDate: 2022-12-01
-    eol: 2024-01-01
+    eol: 2024-04-05
     latest: "2.7.12"
     latestReleaseDate: 2024-04-05
 
--   releaseCycle: "2.6"
+  - releaseCycle: "2.6"
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
-    latest: "2.6.22"
-    latestReleaseDate: 2025-04-22
+    latest: "2.6.29"
+    latestReleaseDate: 2026-05-11
 
--   releaseCycle: "2.5"
+  - releaseCycle: "2.5"
     releaseDate: 2021-11-23
-    eol: 2023-02-14
+    eol: 2023-05-02
     latest: "2.5.14"
     latestReleaseDate: 2023-05-02
 
--   releaseCycle: "2.4"
+  - releaseCycle: "2.4"
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
-    latest: "2.4.29"
-    latestReleaseDate: 2025-04-22
+    latest: "2.4.35"
+    latestReleaseDate: 2026-05-11
 
--   releaseCycle: "2.3"
+  - releaseCycle: "2.3"
     releaseDate: 2020-11-05
-    eol: 2022-01-01
+    eol: 2022-07-27
     latest: "2.3.21"
     latestReleaseDate: 2022-07-27
 
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     releaseDate: 2020-07-07
     lts: true
-    eol: 2025-04-01
+    eol: 2025-04-23
     latest: "2.2.34"
     latestReleaseDate: 2025-04-23
 
--   releaseCycle: "2.1"
+  - releaseCycle: "2.1"
     releaseDate: 2019-11-25
     eol: 2021-03-18
     latest: "2.1.12"
     latestReleaseDate: 2021-03-18
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseDate: 2019-06-16
-    eol: 2024-04-01
+    eol: 2024-04-05
     latest: "2.0.35"
     latestReleaseDate: 2024-04-05
 
--   releaseCycle: "1.9"
+  - releaseCycle: "1.9"
     releaseDate: 2018-12-19
     eol: 2020-07-31
     latest: "1.9.16"
     latestReleaseDate: 2020-07-31
 
--   releaseCycle: "1.8"
+  - releaseCycle: "1.8"
     releaseDate: 2017-11-26
-    eol: 2022-10-01
+    eol: 2022-12-09
     latest: "1.8.31"
     latestReleaseDate: 2022-12-09
 
--   releaseCycle: "1.7"
+  - releaseCycle: "1.7"
     releaseDate: 2016-11-25
     eol: 2021-10-01
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
 
+  - releaseCycle: "1.6"
+    releaseDate: 2015-10-13
+    eol: 2020-10-01
+    latest: "1.6.16"
+    latestReleaseDate: 2021-03-19
+
+  - releaseCycle: "1.5"
+    releaseDate: 2014-06-19
+    eol: 2020-01-10
+    latest: "1.5.19"
+    latestReleaseDate: 2016-12-25
+
+  - releaseCycle: "1.4"
+    releaseDate: 2010-02-26
+    eol: 2020-01-10
+    latest: "1.4.27"
+    latestReleaseDate: 2016-03-14
+
+  - releaseCycle: "1.3"
+    releaseDate: 2006-06-29
+    eol: 2016-03-14
+    latest: "1.3.28"
+    latestReleaseDate: 2016-03-14
+
+  - releaseCycle: "1.2"
+    releaseDate: 2003-11-09
+    eol: 2011-08-06
+    latest: "1.2.18"
+    latestReleaseDate: 2008-05-25
+
+  - releaseCycle: "1.1"
+    releaseDate: 2002-03-10
+    eol: 2006-01-29
+    latest: "1.1.34"
+    latestReleaseDate: 2006-01-29
+
+  - releaseCycle: "1.0"
+    releaseDate: 2001-12-16
+    eol: 2001-12-30
+    latest: "1.0.2"
+    latestReleaseDate: 2001-12-30
+    link: null
+
 ---
 
->[HAProxy](https://www.haproxy.org/) is a free, very fast and reliable reverse-proxy offering high
+> [HAProxy](https://www.haproxy.org/) is a free, fast, and reliable reverse-proxy offering high
 > availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly
 > suited for very high traffic websites and powers a significant portion of the world's most visited
 > ones.
@@ -148,7 +207,7 @@ prefer to upgrade often to benefit from modern features, and who are also able t
 of problems. These versions are maintained between 12 and 18 months. The duration is short and
 purposely not strict so that the maintenance cycle is decided with users based on feedback, and so
 that these versions do not end up in embedded products. It may happen that a few features are
-backported to these version if there is some reasonable demand and the operation is considered
+backported to these versions if there is some reasonable demand and the operation is considered
 riskless enough.
 
 EOL dates on [HAProxy](https://www.haproxy.org/) website are formatted as `YYYY-Qn`, with `YYYY`

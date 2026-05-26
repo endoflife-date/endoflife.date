@@ -1,156 +1,197 @@
 ---
 title: Artifactory
+addedAt: 2023-07-09
 category: server-app
 iconSlug: jfrog
 permalink: /artifactory
-changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
-releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
+changelogTemplate: https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases
+releasePolicyLink: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
 eolColumn: Support
 
 identifiers:
--   repology: artifactory
--   cpe: cpe:/a:jfrog:artifactory
--   cpe: cpe:2.3:a:jfrog:artifactory
+  - repology: artifactory
+  - cpe: cpe:/a:jfrog:artifactory
+  - cpe: cpe:2.3:a:jfrog:artifactory
 
 auto:
   methods:
-  -   custom: artifactory
+    - version_table: https://docs.jfrog.com/releases/docs/artifactory-end-of-life
+      name_column: "Version"
+      regex: '^(?P<version>\d+\.\d+\.\d+)$'
+      template: "{{version}}"
+      date_column: "Release Date"
 
-# EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
+# EOL documented on https://docs.jfrog.com/releases/docs/artifactory-end-of-life.
 releases:
--   releaseCycle: "7.98"
+  - releaseCycle: "7.146"
+    releaseDate: 2026-04-16
+    eol: 2027-10-16
+    latest: "7.146.12"
+    latestReleaseDate: 2026-05-14
+
+  - releaseCycle: "7.133"
+    releaseDate: 2025-10-30
+    eol: 2027-04-30
+    latest: "7.133.21"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.125"
+    releaseDate: 2025-10-30
+    eol: 2027-04-30
+    latest: "7.125.14"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.117"
+    releaseDate: 2025-07-14
+    eol: 2027-01-14
+    latest: "7.117.21"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.111"
+    releaseDate: 2025-04-23
+    eol: 2026-10-23
+    latest: "7.111.14"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.104"
+    releaseDate: 2025-01-29
+    eol: 2026-07-30
+    latest: "7.104.16"
+    latestReleaseDate: 2026-04-28
+
+  - releaseCycle: "7.98"
     releaseDate: 2024-10-29
     eol: 2026-04-29
-    latest: "7.98.14"
-    latestReleaseDate: 2025-01-21
+    latest: "7.98.19"
+    latestReleaseDate: 2025-05-12
 
--   releaseCycle: "7.90"
+  - releaseCycle: "7.90"
     releaseDate: 2024-07-25
     eol: 2026-01-25
-    latest: "7.90.17"
-    latestReleaseDate: 2024-11-25
+    latest: "7.90.19"
+    latestReleaseDate: 2025-03-27
 
--   releaseCycle: "7.84"
+  - releaseCycle: "7.84"
     releaseDate: 2024-05-12
     eol: 2025-11-12
-    latest: "7.84.21"
-    latestReleaseDate: 2024-08-26
+    latest: "7.84.23"
+    latestReleaseDate: 2025-02-02
 
--   releaseCycle: "7.77"
+  - releaseCycle: "7.77"
     releaseDate: 2024-01-24
     eol: 2025-07-24
-    latest: "7.77.16"
-    latestReleaseDate: 2024-11-13
+    latest: "7.77.17"
+    latestReleaseDate: 2025-02-02
 
--   releaseCycle: "7.71"
+  - releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
-    latest: "7.71.22"
-    latestReleaseDate: 2024-05-07
+    latest: "7.71.25"
+    latestReleaseDate: 2025-02-02
 
--   releaseCycle: "7.68"
+  - releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
     latest: "7.68.23"
     latestReleaseDate: 2025-02-02
 
--   releaseCycle: "7.63"
+  - releaseCycle: "7.63"
     releaseDate: 2023-07-12
     eol: 2025-01-12
     latest: "7.63.22"
     latestReleaseDate: 2024-08-05
 
--   releaseCycle: "7.59"
+  - releaseCycle: "7.59"
     releaseDate: 2023-05-28
     eol: 2024-11-28
     latest: "7.59.22"
     latestReleaseDate: 2024-05-01
 
--   releaseCycle: "7.55"
+  - releaseCycle: "7.55"
     releaseDate: 2023-02-28
     eol: 2024-08-28
     latest: "7.55.17"
     latestReleaseDate: 2024-05-01
 
--   releaseCycle: "7.49"
+  - releaseCycle: "7.49"
     releaseDate: 2022-12-29
     eol: 2024-06-29
     latest: "7.49.10"
     latestReleaseDate: 2023-03-07
 
--   releaseCycle: "7.47"
+  - releaseCycle: "7.47"
     releaseDate: 2022-12-01
     eol: 2024-06-01
     latest: "7.47.16"
     latestReleaseDate: 2023-01-30
 
--   releaseCycle: "7.46"
+  - releaseCycle: "7.46"
     releaseDate: 2022-10-11
     eol: 2024-04-11
     latest: "7.46.23"
     latestReleaseDate: 2023-01-31
 
--   releaseCycle: "7.41"
+  - releaseCycle: "7.41"
     releaseDate: 2022-07-11
     eol: 2024-01-11
     latest: "7.41.14"
     latestReleaseDate: 2022-10-11
 
--   releaseCycle: "7.39"
+  - releaseCycle: "7.39"
     releaseDate: 2022-06-20
     eol: 2023-12-20
     latest: "7.39.10"
     latestReleaseDate: 2022-08-03
 
--   releaseCycle: "7.38"
+  - releaseCycle: "7.38"
     releaseDate: 2022-05-08
     eol: 2023-11-08
     latest: "7.38.17"
     latestReleaseDate: 2022-08-11
 
--   releaseCycle: "7.37"
+  - releaseCycle: "7.37"
     releaseDate: 2022-04-14
     eol: 2023-10-14
     latest: "7.37.17"
     latestReleaseDate: 2022-08-04
 
--   releaseCycle: "7.35"
+  - releaseCycle: "7.35"
     releaseDate: 2022-03-01
     eol: 2023-09-01
     latest: "7.35.2"
     latestReleaseDate: 2022-03-09
 
--   releaseCycle: "7.33"
+  - releaseCycle: "7.33"
     releaseDate: 2022-02-03
     eol: 2023-08-03
     latest: "7.33.9"
     latestReleaseDate: 2022-02-07
 
--   releaseCycle: "7.31"
+  - releaseCycle: "7.31"
     releaseDate: 2022-01-10
     eol: 2023-07-10
     latest: "7.31.12"
     latestReleaseDate: 2022-01-25
 
--   releaseCycle: "7.29"
+  - releaseCycle: "7.29"
     releaseDate: 2021-12-05
     eol: 2023-06-05
     latest: "7.29.9"
     latestReleaseDate: 2022-01-11
 
--   releaseCycle: "7.27"
+  - releaseCycle: "7.27"
     releaseDate: 2021-09-30
     eol: 2023-03-30
     latest: "7.27.10"
     latestReleaseDate: 2021-11-07
 
--   releaseCycle: "7.25"
+  - releaseCycle: "7.25"
     releaseDate: 2021-09-02
     eol: 2023-03-02
     latest: "7.25.7"
     latestReleaseDate: 2021-09-10
 
--   releaseCycle: "7.24"
+  - releaseCycle: "7.24"
     releaseDate: 2021-08-11
     eol: 2023-02-11
     latest: "7.24.7"
@@ -168,5 +209,5 @@ self-hosted offering. Note that not all releases are made available to self-host
 the gaps between the release cycles.
 
 JFrog supports all versions of Artifactory from their date of release going forward 18 months. But
-looking at the [Artifactory End of Life page](https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life)
+looking at the [Artifactory End of Life page](https://docs.jfrog.com/releases/docs/artifactory-end-of-life)
 it looks like releases rarely see any updates after a few months.

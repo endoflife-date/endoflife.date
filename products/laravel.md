@@ -1,32 +1,33 @@
 ---
 title: Laravel
+addedAt: 2019-05-27
 category: framework
 tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
 customFields:
--   name: supportedPhpVersions
+  - name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
 
 identifiers:
--   purl: pkg:composer/laravel/laravel
--   purl: pkg:docker/bitnami/laravel
--   purl: pkg:github/laravel/framework
--   repology: php:laravel-framework
+  - purl: pkg:composer/laravel/framework
+  - purl: pkg:docker/bitnami/laravel
+  - purl: pkg:github/laravel/framework
+  - repology: php:laravel-framework
+  - cpe: cpe:2.3:a:laravel:laravel
 
 # Note that laravel/laravel is just a starter application.
 auto:
   methods:
-  -   git: https://github.com/laravel/framework.git
-  -   release_table: https://laravel.com/docs/master/releases
-      selector: "table"
+    - git: https://github.com/laravel/framework.git
+    - release_table: https://laravel.com/docs/master/releases
       fields:
         releaseCycle:
           column: "Version"
@@ -41,83 +42,90 @@ auto:
           template: "{{ month }} {{ day }}, {{ year }}"
         supportedPhpVersions: "PHP (*)"
 
-# Do not forget to update the regex_exclude pattern below when a new major version is released.
+# Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
+  - releaseCycle: "13"
+    releaseDate: 2026-03-17
+    eoas: 2027-09-30 #estimated, no dates yet on https://laravel.com/docs/13.x/releases#support-policy
+    eol: 2028-03-17
+    supportedPhpVersions: "8.3 - 8.5"
+    latest: "13.11.2"
+    latestReleaseDate: 2026-05-20
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2025-02-24
     eoas: 2026-08-16
     eol: 2027-02-24
-    supportedPhpVersions: '8.2 - 8.4'
-    latest: '12.15.0'
-    latestReleaseDate: 2025-05-20
+    supportedPhpVersions: "8.2 - 8.5"
+    latest: "12.60.2"
+    latestReleaseDate: 2026-05-20
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
-    supportedPhpVersions: '8.2 - 8.4'
-    latest: '11.45.0'
-    latestReleaseDate: 2025-05-20
+    supportedPhpVersions: "8.2 - 8.4"
+    latest: "11.53.1"
+    latestReleaseDate: 2026-05-20
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2023-02-14
     eoas: 2024-08-06
     eol: 2025-02-04
-    supportedPhpVersions: '8.1 - 8.3'
-    latest: '10.48.29'
-    latestReleaseDate: 2025-03-12
+    supportedPhpVersions: "8.1 - 8.3"
+    latest: "10.50.2"
+    latestReleaseDate: 2026-02-15
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2022-02-08
     eoas: 2023-08-08
     eol: 2024-02-06
-    supportedPhpVersions: '8.0 - 8.2'
-    latest: '9.52.20'
-    latestReleaseDate: 2025-01-31
+    supportedPhpVersions: "8.0 - 8.2"
+    latest: "9.52.21"
+    latestReleaseDate: 2025-09-30
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2020-09-08
     eoas: 2022-07-26
     eol: 2023-01-24
     supportedPhpVersions: 7.3 - 8.1
-    latest: '8.83.29'
+    latest: "8.83.29"
     latestReleaseDate: 2024-11-20
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2020-03-03
     eoas: 2020-10-06
     eol: 2021-03-03
     supportedPhpVersions: 7.2 - 8.0
-    latest: '7.30.7'
+    latest: "7.30.7"
     latestReleaseDate: 2024-11-12
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     lts: true
     releaseDate: 2019-09-03
     eoas: 2022-01-25
     eol: 2022-09-06
     supportedPhpVersions: 7.2 - 8.0
-    latest: '6.20.45'
+    latest: "6.20.45"
     latestReleaseDate: 2024-11-12
 
--   releaseCycle: "5.8"
+  - releaseCycle: "5.8"
     releaseDate: 2019-02-26
     eoas: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
     link: https://laravel.com/docs/5.8/releases
-    latest: '5.8.38'
+    latest: "5.8.38"
     latestReleaseDate: 2020-04-14
 
--   releaseCycle: "5.5"
+  - releaseCycle: "5.5"
     lts: true
     releaseDate: 2017-08-30
     eoas: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
     link: https://laravel.com/docs/5.5/releases
-    latest: '5.5.50'
+    latest: "5.5.50"
     latestReleaseDate: 2020-08-18
 
 ---
@@ -127,6 +135,7 @@ releases:
 > architectural pattern and based on Symfony.
 
 {: .warning }
+
 > This page is tracking the [Laravel framework](https://github.com/laravel/framework), not the
 > [Laravel application](https://github.com/laravel/laravel) which is just the starter application.
 

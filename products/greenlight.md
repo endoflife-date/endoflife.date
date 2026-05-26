@@ -1,24 +1,28 @@
 ---
 title: Greenlight
+addedAt: 2025-03-01
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
 changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
 
+identifiers:
+  - cpe: cpe:2.3:a:bigbluebutton:greenlight
+
 auto:
   methods:
-  -   git: https://github.com/bigbluebutton/greenlight.git
+    - git: https://github.com/bigbluebutton/greenlight.git
       regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # EOL dates can be found in SECURITY.md history (https://github.com/bigbluebutton/greenlight/commits/master/SECURITY.md)
 releases:
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2023-02-16
     eol: false
-    latest: "3.6.1"
-    latestReleaseDate: 2025-05-15
+    latest: "3.8.2"
+    latestReleaseDate: 2026-04-07
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2018-09-14
     eol: 2023-09-11 # https://github.com/bigbluebutton/greenlight/commit/f739387a304b7d8f8d28b5cf5d96e801f7f60546
     latest: "2.14.10"

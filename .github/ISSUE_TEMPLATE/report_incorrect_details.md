@@ -1,16 +1,14 @@
 ---
 name: Report Incorrect Details
 about: Report incorrect details of a product on endoflife.date
-title: ''
-labels: 'bug'
-assignees: ''
-
+title: ""
+labels: "bug"
+assignees: ""
 ---
 
 **Link to product page on endoflife.date**
 
 Let us know the URL of the product page on endoflife.date you found the incorrect details.
-
 
 **Details of incorrect and correct details you have found**
 
@@ -20,11 +18,9 @@ endoflife.date: 2021-02-02
 
 Product documentation: 2022-02-02
 
-
 **What is the source website for the product and for its version information?**
 
-For example: https://github.com/PowerShell/PowerShell/tags
-
+For example: <https://github.com/PowerShell/PowerShell/tags>
 
 **Additional context**
 

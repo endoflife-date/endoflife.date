@@ -1,8 +1,9 @@
 {%- assign product_icon_url = include.product.iconUrl %}
+{%- assign product_icon_category = include.product.category %}
 {%- assign product_icon_description = include.product.title %}
 {%- assign product_icon_size = include.size %}
 {%- unless product_icon_url %}
-  {%- assign product_icon_url = '/assets/default-product-logo.svg' | relative_url %}
-  {%- assign product_icon_description = 'No product' %}
+  {%- assign product_icon_url = '/assets/category-' | append: product_icon_category | append: '.svg' | relative_url %}
+  {%- assign product_icon_description = 'Icon for ' | append: product_icon_category %}
 {%- endunless %}
 <img class="product-logo" width="{{ product_icon_size }}" src="{{ product_icon_url }}" alt="{{ product_icon_description }} logo">

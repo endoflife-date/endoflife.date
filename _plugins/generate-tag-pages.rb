@@ -1,6 +1,7 @@
-# This script create product pages for the website.
+# This script create the tag (and categories, because they are also tags) pages for the website.
 
 require 'jekyll'
+require_relative 'end-of-life'
 
 module EndOfLife
 
@@ -52,11 +53,12 @@ module EndOfLife
 
       tags = products_by_tag.map { |tag, value| "#{tag}|#{value.size()}" }.sort
       @data = {
-        "title" => "Product tags",
+        "title" => "All tags",
         "layout" => "product-tags",
         "permalink" => "/tags/",
-        "tags" => tags,
-        "nav_exclude"=> true
+        "has_toc" => false,
+        "nav_order"=> 9999, # Ensure this page appears last in the navigation
+        "tags" => tags
       }
 
       self.process(@name)
@@ -70,12 +72,17 @@ module EndOfLife
         @dir = "tags"
         @name = "#{tag}.html"
 
+        is_category = is_category?(tag)
         @data = {
-          "title" => "Products tagged with '#{tag}'",
+          "id" => tag,
+          "title" => tag_title(tag),
           "layout" => "product-list",
           "permalink" => "/tags/#{tag}",
-          "products" => products.sort_by { |product| product.data['title'] },
-          "nav_exclude"=> true
+          "has_toc" => false,
+          "parent" => is_category ? nil: "All tags",
+          "nav_order"=> is_category ? category_index(tag) : nil, # Ensure category pages appears first in the navigation, order by their name
+          "is_category" => is_category,
+          "products" => products.sort_by { |product| product.data['title'] }
         }
 
         self.process(@name)

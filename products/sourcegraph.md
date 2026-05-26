@@ -1,5 +1,6 @@
 ---
 title: Sourcegraph
+addedAt: 2024-04-08
 category: server-app
 tags: java-runtime
 iconSlug: sourcegraph
@@ -9,31 +10,39 @@ changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/re
 eolColumn: Support
 
 identifiers:
--   purl: pkg:docker/sourcegraph/sg
+  - purl: pkg:docker/sourcegraph/sg
+  - cpe: cpe:2.3:a:sourcegraph:sourcegraph
 
 auto:
   methods:
-  # https://github.com/sourcegraph/sourcegraph-public-snapshot is no more updated, this repository
-  # seems up-to-date and aligned with what's documented on https://sourcegraph.com/docs/releases.
-  -   git: https://github.com/sourcegraph/deploy-sourcegraph-docker.git
+    # https://github.com/sourcegraph/sourcegraph-public-snapshot is no more updated, this repository
+    # seems up to date and aligned with what's documented on https://sourcegraph.com/docs/releases.
+    - git: https://github.com/sourcegraph/deploy-sourcegraph-docker.git
 
 # eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "6"
-    releaseDate: 2025-01-29
+  - releaseCycle: "7"
+    releaseDate: 2026-02-25
     eol: false
-    latest: "6.3.2692"
-    latestReleaseDate: 2025-05-14
+    latest: "7.3.0"
+    latestReleaseDate: 2026-05-18
     link: null
 
--   releaseCycle: "5"
+  - releaseCycle: "6"
+    releaseDate: 2025-01-29
+    eol: false
+    latest: "6.12.5040"
+    latestReleaseDate: 2026-02-10
+    link: null
+
+  - releaseCycle: "5"
     releaseDate: 2023-03-22
     eol: 2025-01-29
     latest: "5.11.6271"
     latestReleaseDate: 2025-01-23
     link: null
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2022-09-22
     eol: 2023-05-22
     latest: "4.5.1"

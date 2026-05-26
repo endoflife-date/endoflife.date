@@ -10,24 +10,25 @@ gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-timeago'
-  gem 'just-the-docs', '~> 0.10.1'
+  gem 'just-the-docs', '~> 0.12.0'
   gem 'jekyll-seo-tag'
   gem 'jekyll-last-modified-at'
   gem 'jemoji'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.2.0" if Gem.win_platform?
-
 gem "webrick", "~> 1.9"
 
-gem 'icalendar', '~> 2.11'
+gem 'icalendar', '~> 2.12'
 
 # Used in product-data-validator to check URLs
 gem "open-uri", "~> 0.5"
 
 # Used in purl-to-url to parse PURLs
 gem "packageurl-ruby", "~> 0.2.0"
+# Required on archlinux, see https://github.com/jekyll/jekyll/issues/9935
+gem "erb", "~> 6.0"

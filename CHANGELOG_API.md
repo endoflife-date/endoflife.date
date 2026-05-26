@@ -1,3 +1,21 @@
+# endoflife.date API Changelog
+
+## API v1.2.1
+
+- Declare `generated_at` in OpenAPI specification ([#9798](https://github.com/endoflife-date/endoflife.date/pull/9798)).
+  This field was always provided in responses, but was not declared in the OpenAPI specification.
+
+## API v1.2.0
+
+- Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))
+  to list known Identifiers for given Products. For instance, `/identifiers/purl` will return all known Package URLs
+  and the Products they correspond to.
+
+## API v1.1.0
+
+- Expose custom releases field values in the API (#7465). Such fields are grouped under the new `custom`
+  field in `ProductRelease`s.
+
 ## API v1.0.0
 
 ### Summary
@@ -6,7 +24,7 @@ API v1 is a major rework of the API v0 with a lot of breaking changes. Compared 
 v1:
 
 - feels more _Restful_ (#2431),
-- expose almost all product's data (#394, #759, #2062, #2595),
+- expose almost all products' data (#394, #759, #2062, #2595),
 - expose new metadata such as `schema version` (#2331), `total` (for lists), `generated_at` or
   `last modified` date,
 - is easier to consume thanks to:
@@ -17,14 +35,14 @@ v1:
     - `eol` -> `isEol` and `eolFrom`,
     - `discontinued` -> `isDiscontinued` and `discontinuedFrom`,
     - `extendedSupport` -> `isEoes` and `eoesFrom`.
-- provide new endpoints (#2078, #2160, #2530),
+- provides new endpoints (#2078, #2160, #2530),
 - is versioned using the `api/v1` prefix (#2066), making it easier to implement
   non-backward-compatible changes in the future,
 - is documented using [swagger-ui](https://github.com/swagger-api/swagger-ui) instead of [Stoplight Elements
   WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md) (#905),
 - but reverts #2425 due to incompatibilities in redirect rules.
 
-The API v1 is now generated using a Jekyll Generator (see https://jekyllrb.com/docs/plugins/generators/)
+The API v1 is now generated using a Jekyll Generator (see <https://jekyllrb.com/docs/plugins/generators/>)
 instead of a custom script.
 
 Note that the API v0 is still generated to give time to users to migrate to API v1. It will be
@@ -39,7 +57,7 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
 - Response has been changed from a simple array of strings to a JSON document.
   This made it possible to include additional metadata, such as the schema version and the number of
   products.
-- Response items has been changed from a simple string (the product name) to a JSON document (#2062).
+- Response items have been changed from a simple string (the product name) to a JSON document (#2062).
   This made it possible to include additional information about the product, such as its category
   and tags.
 - See <https://endoflife.date/docs/api/v1/#/default/get_products> for a detailed description of the
@@ -83,8 +101,6 @@ rule and [takes precedence](https://docs.netlify.com/routing/redirects/#rule-pro
 - `/api/v1/tags/<tag>`: Get a list of all products having the given tag.
 - `/api/v1/products/full`: Get a list of all products with all their details (including cycles).
   This endpoint provides a dump of nearly all the endoflife.date data.
-
-
 
 ## API v0
 
