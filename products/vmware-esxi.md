@@ -27,17 +27,16 @@ releases:
   - releaseCycle: "9.1"
     releaseDate: 2026-05-12
     eol: 2028-08-12
-    # technicalGuidance: no longer providing technical guidance
+    technicalGuidance: 2029-08-12
     latest: "9.1.0.0"
     latestReleaseDate: 2026-05-12
     link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-0-0-release-notes/what-s-new/whats-new-vsphere.html
-    # No longer standalone release notes for ESX.
-    
+    # No longer standalone release notes for ESX as of this release.    
     
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
     eol: 2027-09-17
-    # technicalGuidance: no longer providing technical guidance
+    technicalGuidance: 2028-09-17
     latest: "9.0.2.0"
     latestReleaseDate: 2026-01-20
     link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
@@ -130,7 +129,7 @@ configurations only. During the Technical Guidance phase, VMware does not offer 
 support, server/client/guest OS updates, new security patches or bug fixes unless otherwise noted.
 
 {% include table.html
-labels="Release"
-fields="releaseCycle"
-types="raw"
+labels="Release,Technical Guidance Ends"
+fields="releaseCycle,technicalGuidance"
+types="raw,end-date"
 rows=page.releases %}
