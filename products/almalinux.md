@@ -28,24 +28,24 @@ releases:
     releaseDate: 2025-05-27
     eoas: 2030-05-31
     eol: 2035-05-31
-    latest: "10.1"
-    latestReleaseDate: 2025-11-24
-    link: https://almalinux.org/blog/2025-11-24-almalinux_101_release/
+    latest: "10.2"
+    latestReleaseDate: 2026-05-26
+    link: https://almalinux.org/blog/2026-05-26-almalinux_98_and_102_stable/
 
   - releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
     eoas: 2027-05-31
     eol: 2032-05-31
-    latest: "9.7"
-    latestReleaseDate: 2025-11-17
-    link: https://almalinux.org/blog/2025-11-17-almalinux_97_release/
+    latest: "9.8"
+    latestReleaseDate: 2026-05-26
+    link: https://almalinux.org/blog/2026-05-26-almalinux_98_and_102_stable/
 
   - releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
     releaseDate: 2021-03-30
-    eoas: 2024-05-01
-    eol: 2029-03-01
+    eoas: 2024-05-31
+    eol: 2029-05-31
     latest: "8.10"
     latestReleaseDate: 2024-05-28
     link: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
@@ -59,7 +59,7 @@ releases:
 
 AlmaLinux OS attempts to release regular updates within 1 business day of RHEL.
 Each release, like RHEL, comes with a 10-year lifecycle.
-Major releases are typically available within a few days to a few weeks following a major RHEL release.
+Major releases are typically available within a few days to a couple weeks following a major RHEL release.
 
 ## Improvements and differences from RHEL
 
@@ -88,10 +88,15 @@ One example of this was with [CVE-2024-1086](https://almalinux.org/blog/2024-04-
 
 You can also see a full list of modified packages for each version of AlmaLinux OS on the [AlmaLinux Wiki](https://wiki.almalinux.org/development/Modified-packages.html).
 
+### Additional supported architectures
+
+AlmaLinux OS supports additional architectures beyond those provided by RHEL.
+See the [release notes](https://wiki.almalinux.org/release-notes/) for the full list of supported architectures for each release.
+
 ### Support
 
 The AlmaLinux community provides support for itself in the various places that the community gathers.
-Commercial and extended support is available through third party companies.
+Commercial support, Extended Life Cycle Support (ELS), and live kernel patching are available through third party providers.
 AlmaLinux provides a list of those companies who have also sponsored the project on the website's front page.
 
 *[RHEL]: Red Hat Enterprise Linux
