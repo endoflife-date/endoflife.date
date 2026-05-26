@@ -15,7 +15,7 @@ releases:
     releaseDate: 2024-03-26
     eol: 2028-11-30
     latest: "8.4"
-    latestReleaseDate: 2026-07-04
+    latestReleaseDate: 2024-03-26
     link: https://docs.xenserver.com/en-us/xenserver/8/whats-new.html
 
 -   releaseCycle: "8.2"
@@ -24,8 +24,8 @@ releases:
     releaseDate: 2020-06-25
     eol: 2025-06-25
     latest: "8.2 CU1"
-    latestReleaseDate: 2021-12-XX
-    link: https://docs.xenserver.com/de-de/citrix-hypervisor/whats-new.html
+    latestReleaseDate: 2021-12-13
+    link: https://docs.xenserver.com/en-us/xenserver/downloads/citrix-hypervisor-8-2.pdf
 ---
 
 > [XenServer](https://www.xenserver.com/) is a Type 1 hypervisor based
