@@ -59,7 +59,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.7 U3w"
     latestReleaseDate: 2024-10-28
-    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/legacy/vmware-vsphere-6-7.pdf
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-7-Release-Notes/vsphere-vcenter-server-67u3w-release-notes.pdf
 
   - releaseCycle: "6.5"
     releaseDate: 2016-11-15
@@ -67,7 +67,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.5 U3w"
     latestReleaseDate: 2024-07-04
-    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/legacy/vmware-vsphere-6-5.pdf
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-5-Release-Notes/vsphere-vcenter-server-65u3w-release-notes.pdf
 
   - releaseCycle: "6.0"
     releaseDate: 2015-03-12
@@ -91,6 +91,7 @@ releases:
     technicalGuidance: 2018-08-24
     latest: "5.1 U3d"
     latestReleaseDate: 2016-05-19
+    link: null
 
   - releaseCycle: "5.0"
     releaseDate: 2011-08-24
@@ -98,6 +99,7 @@ releases:
     technicalGuidance: 2018-08-24
     latest: "5.0 U3g"
     latestReleaseDate: 2016-05-19
+    link: null
 
   - releaseCycle: "4"
     releaseDate: 2009-05-21
@@ -105,6 +107,7 @@ releases:
     technicalGuidance: 2016-05-21
     latest: "4.1 U3a"
     latestReleaseDate: 2013-01-31
+    link: null
 ---
 
 > [VMware vCenter Server](https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview) is an advanced server
