@@ -24,10 +24,19 @@ identifiers:
   - cpe: cpe:/o:vmware:esxi
 
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2026-05-12
+    eol: 2028-08-12
+    technicalGuidance: 2029-08-12
+    latest: "9.1.0.0"
+    latestReleaseDate: 2026-05-12
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-0-0-release-notes/what-s-new/whats-new-vsphere.html
+    # No longer standalone release notes for ESX as of this release.    
+    
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
-    eol: false
-    technicalGuidance: 2032-06-17 # no source, calculated releaseDate(x)+7y
+    eol: 2027-09-17
+    technicalGuidance: 2028-09-17
     latest: "9.0.2.0"
     latestReleaseDate: 2026-01-20
     link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
