@@ -52,8 +52,8 @@ releases:
     releaseDate: 2026-04-27
     eoas: 2027-04-27
     eol: 2027-10-27
-    latest: "26.2.0"
-    latestReleaseDate: 2026-04-27
+    latest: "26.2.1"
+    latestReleaseDate: 2026-05-21
 
   - releaseCycle: "26.1"
     releaseDate: 2026-02-02
@@ -94,8 +94,8 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.32"
-    latestReleaseDate: 2026-04-22
+    latest: "24.3.33"
+    latestReleaseDate: 2026-05-20
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12
@@ -109,8 +109,8 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.28"
-    latestReleaseDate: 2026-04-21
+    latest: "24.1.29"
+    latestReleaseDate: 2026-05-08
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05

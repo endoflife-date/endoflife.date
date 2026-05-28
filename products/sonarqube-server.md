@@ -24,6 +24,13 @@ auto:
 # - eoas(x) = releaseDate(x) + 1y
 # - eol(x) = releaseDate(x) + 18m
 releases:
+  - releaseCycle: "2026.3"
+    releaseDate: 2026-05-21
+    eoas: 2026-07-20
+    eol: 2026-07-20
+    latest: "2026.3"
+    latestReleaseDate: 2026-05-21
+
   - releaseCycle: "2026.2"
     releaseDate: 2026-03-24 #https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
     eoas: 2026-05-18
@@ -37,9 +44,9 @@ releases:
     releaseDate: 2026-01-30 # https://community.sonarsource.com/t/sonarqube-server-2026-release-1-lta/177042
     eoas: 2027-01-30
     eol: 2027-08-02
-    latest: "2026.1.2"
-    latestReleaseDate: 2026-03-30
-    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-2/180529
+    latest: "2026.1.3"
+    latestReleaseDate: 2026-05-21
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-3-lta/182629
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802

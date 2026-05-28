@@ -13,7 +13,7 @@ eoesColumn: Extended Long Term Support
 
 customFields:
   - name: eoesProvider
-    display: before-latest-column
+    display: api-only
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 
@@ -38,8 +38,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "10.3.0"
-    latestReleaseDate: 2026-05-01
+    latest: "10.4.0"
+    latestReleaseDate: 2026-05-15
 
   - releaseCycle: "9"
     releaseDate: 2024-04-05
