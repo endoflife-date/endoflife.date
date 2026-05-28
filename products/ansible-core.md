@@ -51,6 +51,15 @@ auto:
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
 
+  - releaseCycle: "2.21"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1 - 7"
+    releaseDate: 2026-05-18
+    eol: 2027-11-30
+    latest: "2.21.0"
+    latestReleaseDate: 2026-05-18
+
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
