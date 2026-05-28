@@ -107,6 +107,7 @@ releases:
     lts: true
     eoas: 2022-01-11
     eol: 2027-01-12
+    eoes: 2030-01-12
     latest: 10.0.14393
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
