@@ -15,12 +15,6 @@ eolColumn: Recommended for use
 identifiers:
   - repology: ghc
   - repology: haskell:ghc
-  - purl: pkg:apk/alpine/ghc
-  - purl: pkg:deb/debian/ghc
-  - purl: pkg:deb/ubuntu/ghc
-  - purl: pkg:rpm/fedora/ghc
-  - purl: pkg:rpm/opensuse/ghc
-  - purl: pkg:alpm/arch/ghc
 
 auto:
   methods:

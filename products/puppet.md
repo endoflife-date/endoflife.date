@@ -13,12 +13,6 @@ eolColumn: Supported
 
 identifiers:
   - repology: puppet
-  - purl: pkg:github/puppetlabs/puppet
-  - purl: pkg:gem/puppet
-  - purl: pkg:deb/debian/puppet
-  - purl: pkg:deb/ubuntu/puppet
-  - purl: pkg:rpm/fedora/puppet
-  - purl: pkg:alpm/arch/puppet
   - cpe: cpe:/a:puppet:puppet
   - cpe: cpe:2.3:a:puppet:puppet
 

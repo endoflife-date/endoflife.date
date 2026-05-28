@@ -12,13 +12,6 @@ eolColumn: Critical bug fixes
 
 identifiers:
   - repology: blender
-  - purl: pkg:github/blender/blender
-  - purl: pkg:apk/alpine/blender
-  - purl: pkg:deb/debian/blender
-  - purl: pkg:deb/ubuntu/blender
-  - purl: pkg:rpm/fedora/blender
-  - purl: pkg:rpm/opensuse/blender
-  - purl: pkg:alpm/arch/blender
   - cpe: cpe:/a:blender:blender
   - cpe: cpe:2.3:a:blender:blender
 

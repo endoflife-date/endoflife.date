@@ -15,13 +15,6 @@ eolColumn: Maintenance Releases
 
 identifiers:
   - repology: scala
-  - purl: pkg:github/lampepfl/dotty
-  - purl: pkg:github/scala/scala
-  - purl: pkg:deb/debian/scala
-  - purl: pkg:deb/ubuntu/scala
-  - purl: pkg:rpm/centos/scala
-  - purl: pkg:rpm/fedora/scala
-  - purl: pkg:rpm/opensuse/scala
   - cpe: cpe:/a:scala-lang:scala
   - cpe: cpe:2.3:a:scala-lang:scala
 

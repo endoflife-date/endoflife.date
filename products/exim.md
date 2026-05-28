@@ -8,11 +8,6 @@ changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 
 identifiers:
   - repology: exim
-  - purl: pkg:github/exim/exim
-  - purl: pkg:apk/alpine/exim
-  - purl: pkg:rpm/fedora/exim
-  - purl: pkg:rpm/opensuse/exim
-  - purl: pkg:alpm/arch/exim
   - cpe: cpe:2.3:a:exim:exim
 
 auto:

@@ -10,9 +10,6 @@ changelogTemplate: https://github.com/LDAPAccountManager/lam/releases/tag/__LATE
 
 identifiers:
   - repology: ldap-account-manager
-  - purl: pkg:github/ldapaccountmanager/lam
-  - purl: pkg:deb/debian/ldap-account-manager
-  - purl: pkg:deb/ubuntu/ldap-account-manager
   - cpe: cpe:2.3:a:ldap-account-manager:ldap_account_manager
 
 auto:

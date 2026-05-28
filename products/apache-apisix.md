@@ -10,7 +10,6 @@ alternate_urls:
 changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
 
 identifiers:
-  - purl: pkg:github/apache/apisix
   - cpe: cpe:2.3:a:apache:apisix
 
 auto:

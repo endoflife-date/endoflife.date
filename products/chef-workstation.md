@@ -11,7 +11,6 @@ eoasColumn: true
 
 identifiers:
   - repology: chef-workstation
-  - purl: pkg:github/chef/chef-workstation
 
 auto:
   methods:

@@ -18,9 +18,6 @@ customFields:
     link: https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements
 
 identifiers:
-  - purl: pkg:github/shopware/shopware
-  - purl: pkg:github/shopware5/shopware
-  - purl: pkg:composer/shopware/platform
   - cpe: cpe:/a:shopware:shopware
   - cpe: cpe:2.3:a:shopware:shopware
 

@@ -13,16 +13,14 @@ releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
 changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
 eolColumn: Support
 
-identifiers:
-  - repology: fluxcd
-  - purl: pkg:github/fluxcd/flux2
-  - purl: pkg:alpm/arch/fluxcd
-  - cpe: cpe:2.3:a:fluxcd:flux2
-
 auto:
   methods:
     - git: https://github.com/fluxcd/flux2.git
     - git: https://github.com/fluxcd/flux.git
+
+identifiers:
+  - repology: fluxcd
+  - cpe: cpe:2.3:a:fluxcd:flux2
 
 # eol(X) = releaseDate(X+3)
 releases:

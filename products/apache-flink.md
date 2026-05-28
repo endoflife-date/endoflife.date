@@ -20,7 +20,6 @@ identifiers:
   - purl: pkg:github/apache/flink
   - purl: pkg:docker/library/flink
   - purl: pkg:docker/apache/flink
-  - purl: pkg:maven/org.apache.flink/flink-core
   - cpe: cpe:/a:apache:flink
   - cpe: cpe:2.3:a:apache:flink
 

@@ -14,10 +14,6 @@ versionCommand: packer --version
 
 identifiers:
   - repology: packer
-  - purl: pkg:github/hashicorp/packer
-  - purl: pkg:apk/alpine/packer
-  - purl: pkg:alpm/arch/packer
-  - purl: pkg:golang/github.com/hashicorp/packer
   - cpe: cpe:2.3:a:hashicorp:packer
 
 auto:

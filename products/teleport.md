@@ -9,9 +9,8 @@ changelogTemplate: https://github.com/gravitational/teleport/releases/tag/v__LAT
 eoasColumn: true
 
 identifiers:
-  - repology: teleport
   - purl: pkg:github/gravitational/teleport
-  - purl: pkg:rpm/opensuse/teleport
+  - repology: teleport
   - cpe: cpe:2.3:a:goteleport:teleport
 
 auto:

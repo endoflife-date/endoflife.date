@@ -13,17 +13,15 @@ eoasColumn: true
 eoesColumn: Commercial Support
 changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
 
+auto:
+  methods:
+    - npm: vue
+
 identifiers:
   - repology: vue.js
   - purl: pkg:npm/vue
   - purl: pkg:github/vuejs/vue
   - purl: pkg:github/vuejs/core
-  - purl: pkg:deb/debian/vue.js
-  - purl: pkg:deb/ubuntu/vue.js
-
-auto:
-  methods:
-    - npm: vue
 
 releases:
   - releaseCycle: "3.5"

@@ -17,7 +17,6 @@ identifiers:
   - repology: fonts:fontawesome
   - purl: pkg:github/fortawesome/font-awesome
   - purl: pkg:npm/%40fortawesome/fontawesome-svg-core
-  - purl: pkg:composer/fortawesome/font-awesome
   - cpe: cpe:2.3:a:fontawesome:font_awesome
 
 releases:

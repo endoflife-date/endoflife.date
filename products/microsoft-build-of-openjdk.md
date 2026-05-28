@@ -9,12 +9,6 @@ versionCommand: java -version
 releasePolicyLink: https://learn.microsoft.com/java/openjdk/support
 changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openjdk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 
-identifiers:
-  - purl: pkg:github/microsoft/openjdk-jdk11u
-  - purl: pkg:github/microsoft/openjdk-jdk17u
-  - purl: pkg:github/microsoft/openjdk-jdk21u
-  - purl: pkg:github/microsoft/openjdk-jdk25u
-
 # There is one repository for each major LTS release.
 auto:
   methods:

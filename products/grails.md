@@ -13,10 +13,9 @@ eoasColumn: Active Development
 eolColumn: Active Maintenance
 
 identifiers:
-  - purl: pkg:maven/org.apache.grails/grails
-  - purl: pkg:github/apache/grails-core
   - cpe: cpe:/a:apache:grails
   - cpe: cpe:2.3:a:apache:grails
+  - purl: pkg:maven/org.apache.grails/grails
   - cpe: cpe:/a:grails:grails
   - cpe: cpe:2.3:a:grails:grails
 

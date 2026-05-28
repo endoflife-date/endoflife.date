@@ -17,10 +17,6 @@ identifiers:
   - purl: pkg:rpm/redhat/squid
   - purl: pkg:rpm/centos/squid
   - purl: pkg:apk/alpine/squid
-  - purl: pkg:github/squid-cache/squid
-  - purl: pkg:rpm/fedora/squid
-  - purl: pkg:rpm/opensuse/squid
-  - purl: pkg:alpm/arch/squid
   - cpe: cpe:2.3:a:squid-cache:squid
 
 # v4+ has stable releases as major.minor

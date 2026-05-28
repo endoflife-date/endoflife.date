@@ -16,7 +16,6 @@ identifiers:
   - cpe: cpe:2.3:a:discourse:discourse
   - purl: pkg:docker/bitnami/discourse
   - purl: pkg:docker/discourse/base
-  - purl: pkg:github/discourse/discourse
 
 auto:
   methods:

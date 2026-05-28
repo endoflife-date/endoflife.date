@@ -13,10 +13,6 @@ changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__
 
 identifiers:
   - repology: kotlin
-  - purl: pkg:github/jetbrains/kotlin
-  - purl: pkg:deb/debian/kotlin
-  - purl: pkg:deb/ubuntu/kotlin
-  - purl: pkg:alpm/arch/kotlin
   - cpe: cpe:2.3:a:jetbrains:kotlin
 
 auto:

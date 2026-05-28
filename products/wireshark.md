@@ -10,25 +10,18 @@ changelogTemplate: "https://www.wireshark.org/docs/relnotes/wireshark-__LATEST__
 
 eoasColumn: true
 
-identifiers:
-  - repology: wireshark
-  - purl: pkg:docker/linuxserver/wireshark
-  - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
-  - purl: pkg:github/wireshark/wireshark
-  - purl: pkg:apk/alpine/wireshark
-  - purl: pkg:deb/debian/wireshark
-  - purl: pkg:deb/ubuntu/wireshark
-  - purl: pkg:rpm/centos/wireshark
-  - purl: pkg:rpm/fedora/wireshark
-  - purl: pkg:rpm/opensuse/wireshark
-  - cpe: cpe:2.3:a:wireshark:wireshark
-  - cpe: cpe:/a:wireshark:wireshark
-
 auto:
   methods:
     - git: https://github.com/wireshark/wireshark
       # https://regex101.com/r/fHvpY1/2
       regex: ^wireshark-(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
+
+identifiers:
+  - repology: wireshark
+  - purl: pkg:docker/linuxserver/wireshark
+  - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
+  - cpe: cpe:2.3:a:wireshark:wireshark
+  - cpe: cpe:/a:wireshark:wireshark
 
 # eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # eoas(x) = releaseDate(x+1)

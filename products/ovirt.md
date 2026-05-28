@@ -9,7 +9,6 @@ changelogTemplate: https://github.com/oVirt/ovirt-engine/releases/tag/ovirt-engi
 staleReleaseThresholdDays: 730 # looks like there are not much releases
 
 identifiers:
-  - purl: pkg:github/ovirt/ovirt-engine
   - cpe: cpe:2.3:a:ovirt:ovirt-engine
 
 auto:

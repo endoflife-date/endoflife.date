@@ -9,10 +9,6 @@ changelogTemplate: "https://www.sipwise.com/releases/{{'__RELEASE_DATE__'|split:
 
 identifiers:
   - repology: rtpengine
-  - purl: pkg:github/sipwise/rtpengine
-  - purl: pkg:apk/alpine/rtpengine
-  - purl: pkg:deb/debian/rtpengine
-  - purl: pkg:deb/ubuntu/rtpengine
 
 auto:
   methods:

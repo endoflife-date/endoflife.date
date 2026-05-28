@@ -6,9 +6,6 @@ permalink: /otobo
 releasePolicyLink: https://otobo.io/en/service-management-platform/otobo-download/
 changelogTemplate: https://github.com/RotherOSS/otobo/blob/rel-{{"__RELEASE_CYCLE__" | replace:'.','_'}}/CHANGES.md
 
-identifiers:
-  - purl: pkg:github/rotheross/otobo
-
 auto:
   methods:
     - git: https://github.com/RotherOSS/otobo.git

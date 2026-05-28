@@ -8,7 +8,6 @@ releasePolicyLink: https://bitcoincore.org/en/lifecycle/
 changelogTemplate: https://bitcoincore.org/en/releases/__LATEST__/
 
 identifiers:
-  - purl: pkg:github/bitcoin/bitcoin
   - cpe: cpe:2.3:a:bitcoin:bitcoin_core
 
 auto:

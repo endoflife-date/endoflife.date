@@ -13,13 +13,6 @@ eoesColumn: Extended Commercial Support
 
 identifiers:
   - repology: rabbitmq-server
-  - purl: pkg:github/rabbitmq/rabbitmq-server
-  - purl: pkg:docker/library/rabbitmq
-  - purl: pkg:apk/alpine/rabbitmq-server
-  - purl: pkg:deb/debian/rabbitmq-server
-  - purl: pkg:deb/ubuntu/rabbitmq-server
-  - purl: pkg:rpm/fedora/rabbitmq-server
-  - purl: pkg:rpm/opensuse/rabbitmq-server
   - cpe: cpe:/a:pivotal_software:rabbitmq
   - cpe: cpe:2.3:a:pivotal_software:rabbitmq
   - cpe: cpe:/a:vmware:rabbitmq

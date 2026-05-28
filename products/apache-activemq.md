@@ -17,9 +17,6 @@ identifiers:
   - cpe: cpe:/a:apache:activemq
   - cpe: cpe:2.3:a:apache:activemq
   - purl: pkg:maven/org.apache.activemq/activemq-broker
-  - purl: pkg:github/apache/activemq
-  - purl: pkg:deb/debian/activemq
-  - purl: pkg:deb/ubuntu/activemq
 
 auto:
   methods:

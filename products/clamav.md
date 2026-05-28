@@ -9,13 +9,6 @@ changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__
 
 identifiers:
   - repology: clamav
-  - purl: pkg:github/cisco-talos/clamav
-  - purl: pkg:apk/alpine/clamav
-  - purl: pkg:deb/debian/clamav
-  - purl: pkg:deb/ubuntu/clamav
-  - purl: pkg:rpm/fedora/clamav
-  - purl: pkg:rpm/opensuse/clamav
-  - purl: pkg:alpm/arch/clamav
   - cpe: cpe:2.3:a:clamav:clamav
   - cpe: cpe:/a:clamav:clamav
   - cpe: cpe:2.3:a:cisco:clam_antivirus

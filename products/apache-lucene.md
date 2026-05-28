@@ -11,7 +11,6 @@ releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 
 identifiers:
-  - purl: pkg:maven/org.apache.lucene/lucene-core
   - cpe: cpe:2.3:a:apache:lucene
 
 auto:

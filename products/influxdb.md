@@ -14,13 +14,6 @@ eoasColumn: false
 
 identifiers:
   - repology: influxdb
-  - purl: pkg:github/influxdata/influxdb
-  - purl: pkg:docker/library/influxdb
-  - purl: pkg:apk/alpine/influxdb
-  - purl: pkg:deb/debian/influxdb
-  - purl: pkg:deb/ubuntu/influxdb
-  - purl: pkg:rpm/opensuse/influxdb
-  - purl: pkg:alpm/arch/influxdb
   - cpe: cpe:2.3:a:influxdata:influxdb
 
 auto:

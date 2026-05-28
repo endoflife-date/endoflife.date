@@ -20,8 +20,6 @@ auto:
 
 identifiers:
   - repology: rocketchat-server
-  - purl: pkg:github/rocketchat/rocket.chat
-  - purl: pkg:docker/library/rocket.chat
 
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x) (there is no more an active support phase, kept for historical purpose)

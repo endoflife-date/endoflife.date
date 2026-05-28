@@ -23,10 +23,6 @@ identifiers:
   - purl: pkg:docker/alibabadragonwell/dragonwell
   # Alibaba Cloud Linux OS plus repository, but only for x86_64 architecture
   - purl: pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
-  - purl: pkg:github/dragonwell-project/dragonwell11
-  - purl: pkg:github/dragonwell-project/dragonwell17
-  - purl: pkg:github/dragonwell-project/dragonwell21
-  - purl: pkg:github/dragonwell-project/dragonwell8
 
 # There is one repository for each major LTS release.
 # And yes, tagging at Alibaba is a mess!

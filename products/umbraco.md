@@ -13,8 +13,6 @@ eoasColumn: Support
 eolColumn: Security
 
 identifiers:
-  - purl: pkg:github/umbraco/umbraco-cms
-  - purl: pkg:nuget/umbraco.cms
   - cpe: cpe:/a:umbraco:umbraco_cms
   - cpe: cpe:2.3:a:umbraco:umbraco_cms
 

@@ -24,7 +24,6 @@ customFields:
 
 identifiers:
   - repology: openzfs
-  - purl: pkg:github/openzfs/zfs
   - cpe: cpe:/a:openzfs:openzfs
   - cpe: cpe:2.3:a:openzfs:openzfs
 

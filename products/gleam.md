@@ -12,9 +12,6 @@ identifiers:
   - repology: gleam
   - purl: pkg:github/gleam-lang/gleam
   - purl: pkg:oci/gleam?repository_url=ghcr.io/gleam-lang
-  - purl: pkg:apk/alpine/gleam
-  - purl: pkg:rpm/opensuse/gleam
-  - purl: pkg:alpm/arch/gleam
 
 auto:
   methods:

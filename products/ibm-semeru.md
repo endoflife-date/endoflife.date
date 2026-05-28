@@ -12,16 +12,6 @@ versionCommand: java -version
 releasePolicyLink: https://www.ibm.com/support/pages/node/6451203
 eolColumn: End of Service (EOS)
 
-identifiers:
-  - purl: pkg:github/ibmruntimes/semeru11-binaries
-  - purl: pkg:github/ibmruntimes/semeru17-binaries
-  - purl: pkg:github/ibmruntimes/semeru21-binaries
-  - purl: pkg:github/ibmruntimes/semeru22-binaries
-  - purl: pkg:github/ibmruntimes/semeru23-binaries
-  - purl: pkg:github/ibmruntimes/semeru24-binaries
-  - purl: pkg:github/ibmruntimes/semeru25-binaries
-  - purl: pkg:github/ibmruntimes/semeru8-binaries
-
 # There is one repository for each major release (except for 15 and 16).
 auto:
   methods:

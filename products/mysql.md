@@ -11,16 +11,6 @@ changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/e
 eoasColumn: Premier Support
 eolColumn: Extended Support
 
-identifiers:
-  - repology: mysql
-  - purl: pkg:generic/mysql
-  - purl: pkg:docker/library/mysql
-  - purl: pkg:deb/ubuntu/mysql-server
-  - purl: pkg:deb/debian/mysql
-  - purl: pkg:github/mysql/mysql-server
-  - purl: pkg:rpm/centos/mysql
-  - cpe: cpe:2.3:a:oracle:mysql
-
 # Regexes take into account the first GA release in each cycle.
 # https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
 auto:
@@ -34,6 +24,14 @@ auto:
         - ^mysql-(?P<v>8\.[1-9]\.\d+)$
         - ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
       template: "{{v}}"
+
+identifiers:
+  - repology: mysql
+  - purl: pkg:generic/mysql
+  - purl: pkg:docker/library/mysql
+  - purl: pkg:deb/ubuntu/mysql-server
+  - purl: pkg:deb/debian/mysql
+  - cpe: cpe:2.3:a:oracle:mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)

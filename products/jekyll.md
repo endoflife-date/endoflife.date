@@ -18,8 +18,6 @@ customFields:
     link: https://jekyllrb.com/docs/installation/
 
 identifiers:
-  - purl: pkg:github/jekyll/jekyll
-  - purl: pkg:gem/jekyll
   - cpe: cpe:/a:jekyllrb:jekyll
   - cpe: cpe:2.3:a:jekyllrb:jekyll
   - repology: ruby:jekyll

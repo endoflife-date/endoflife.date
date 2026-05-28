@@ -14,12 +14,6 @@ identifiers:
   - repology: zabbix
   - purl: pkg:brew/zabbix
   - purl: pkg:github/zabbix/zabbix
-  - purl: pkg:apk/alpine/zabbix
-  - purl: pkg:deb/debian/zabbix
-  - purl: pkg:deb/ubuntu/zabbix
-  - purl: pkg:rpm/fedora/zabbix
-  - purl: pkg:rpm/opensuse/zabbix
-  - purl: pkg:alpm/arch/zabbix
   - cpe: cpe:2.3:a:zabbix:zabbix
   - cpe: cpe:/a:zabbix:zabbix
 

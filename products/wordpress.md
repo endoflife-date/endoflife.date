@@ -17,19 +17,6 @@ customFields:
     description: Supported PHP versions range
     link: https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 
-identifiers:
-  - repology: wordpress
-  - purl: pkg:docker/library/wordpress
-  - purl: pkg:docker/bitnami/wordpress
-  - purl: pkg:docker/bitnami/wordpress-nginx
-  - purl: pkg:github/wordpress/wordpress-develop
-  - purl: pkg:deb/debian/wordpress
-  - purl: pkg:deb/ubuntu/wordpress
-  - purl: pkg:rpm/fedora/wordpress
-  - purl: pkg:alpm/arch/wordpress
-  - cpe: cpe:2.3:a:wordpress:wordpress
-  - cpe: cpe:/a:wordpress:wordpress
-
 # This regex drops '.0' from versions because x.y.0 releases are always referred to as x.y.
 # The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
 # But note that this regex would not work if WordPress releases an x.y.0.t version.
@@ -39,6 +26,14 @@ auto:
   methods:
     - git: https://github.com/WordPress/wordpress-develop.git
       regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.?(?P<patch>[1-9][0-9.]*)?'
+
+identifiers:
+  - repology: wordpress
+  - purl: pkg:docker/library/wordpress
+  - purl: pkg:docker/bitnami/wordpress
+  - purl: pkg:docker/bitnami/wordpress-nginx
+  - cpe: cpe:2.3:a:wordpress:wordpress
+  - cpe: cpe:/a:wordpress:wordpress
 
 # eol(x) = releaseDate(x+1)
 # Support PHP version can be found on https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/

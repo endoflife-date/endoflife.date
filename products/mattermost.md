@@ -9,12 +9,6 @@ releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
-identifiers:
-  - repology: mattermost
-  - purl: pkg:github/mattermost/mattermost-server
-  - purl: pkg:alpm/arch/mattermost
-  - cpe: cpe:2.3:a:mattermost:mattermost_server
-
 auto:
   methods:
     - github_releases: mattermost/mattermost-server
@@ -29,6 +23,10 @@ auto:
         eol:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
+
+identifiers:
+  - repology: mattermost
+  - cpe: cpe:2.3:a:mattermost:mattermost_server
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
@@ -377,7 +375,7 @@ This page tracks only the self-hosted offerings as listed above. Mattermost Clou
 
 {: .warning }
 > Mattermost announced [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11
->
+> 
 > - Entry edition (earlier Free) now supports a maximum of 50 users, and a 10000 message history.
 > - Team Edition is now limited to a maximum of 250 users.
 > - GitLab SSO is removed from the Team edition.

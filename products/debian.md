@@ -12,7 +12,6 @@ eolColumn: Debian Security Support
 eoesColumn: Debian <abbr title="Long Term Support">LTS</abbr>
 
 identifiers:
-  - purl: pkg:docker/library/debian
   - cpe: cpe:2.3:o:debian:debian_linux
   - cpe: cpe:/o:debian:debian_linux
 

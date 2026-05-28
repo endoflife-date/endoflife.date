@@ -10,10 +10,6 @@ changelogTemplate: https://github.com/liquibase/liquibase/releases/tag/v__LATEST
 
 identifiers:
   - repology: liquibase
-  - purl: pkg:maven/org.liquibase/liquibase-core
-  - purl: pkg:docker/library/liquibase
-  - purl: pkg:apk/alpine/liquibase
-  - purl: pkg:github/liquibase/liquibase
   - cpe: cpe:2.3:a:liquibase:liquibase
 
 auto:

@@ -11,9 +11,6 @@ eolColumn: Supported
 
 identifiers:
   - repology: gstreamer
-  - purl: pkg:apk/alpine/gstreamer
-  - purl: pkg:rpm/opensuse/gstreamer
-  - purl: pkg:alpm/arch/gstreamer
   - cpe: cpe:/a:gstreamer:gstreamer
   - cpe: cpe:2.3:a:gstreamer:gstreamer
   - cpe: cpe:/a:gstreamer_project:gstreamer

@@ -13,7 +13,6 @@ identifiers:
   - purl: pkg:docker/projectcontour/contour
   - purl: pkg:docker/bitnami/contour
   - purl: pkg:oci/contour?repository_url=ghcr.io/projectcontour
-  - purl: pkg:golang/github.com/projectcontour/contour
   - cpe: cpe:2.3:a:projectcontour:contour
   - cpe: cpe:/a:projectcontour:contour
 

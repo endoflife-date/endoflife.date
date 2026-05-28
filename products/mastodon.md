@@ -17,8 +17,6 @@ identifiers:
   - purl: pkg:docker/bitnami/mastodon
   - purl: pkg:docker/tootsuite/mastodon
   - purl: pkg:docker/linuxserver/mastodon
-  - purl: pkg:github/mastodon/mastodon
-
 auto:
   methods:
     - git: https://github.com/mastodon/mastodon.git

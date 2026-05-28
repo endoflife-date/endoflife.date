@@ -23,7 +23,6 @@ identifiers:
   - purl: pkg:docker/bellsoft/liberica-openjre-debian
   - purl: pkg:docker/bellsoft/liberica-openjdk-centos
   - purl: pkg:docker/bellsoft/liberica-openjre-centos
-  - purl: pkg:github/bell-sw/liberica
 
   # Official Docker Images on GitHub Packages
   - purl: pkg:oci/liberica-openjdk-alpine?repository_url=ghcr.io/bell-sw

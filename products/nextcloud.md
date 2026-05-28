@@ -10,12 +10,6 @@ releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Rele
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
 identifiers:
-  - purl: pkg:github/nextcloud/server
-  - purl: pkg:docker/library/nextcloud
-  - purl: pkg:apk/alpine/nextcloud
-  - purl: pkg:rpm/fedora/nextcloud
-  - purl: pkg:rpm/opensuse/nextcloud
-  - purl: pkg:alpm/arch/nextcloud
   - cpe: cpe:2.3:a:nextcloud:nextcloud_server
 
 auto:

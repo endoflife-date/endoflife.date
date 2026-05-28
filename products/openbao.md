@@ -24,10 +24,6 @@ identifiers:
   - purl: pkg:oci/openbao?repository_url=quay.io/openbao
   - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
   - purl: pkg:brew/openbao
-  - purl: pkg:apk/alpine/openbao
-  - purl: pkg:rpm/fedora/openbao
-  - purl: pkg:rpm/opensuse/openbao
-  - purl: pkg:alpm/arch/openbao
   - cpe: cpe:2.3:a:openbao:openbao
 
 auto:

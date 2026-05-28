@@ -9,8 +9,6 @@ changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__REL
 
 identifiers:
   - repology: arangodb
-  - purl: pkg:github/arangodb/arangodb
-  - purl: pkg:docker/library/arangodb
   - cpe: cpe:/a:arangodb:arangodb
   - cpe: cpe:2.3:a:arangodb:arangodb
 

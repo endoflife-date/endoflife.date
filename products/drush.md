@@ -26,8 +26,6 @@ identifiers:
   - repology: drush
   - purl: pkg:composer/drush/drush
   - purl: pkg:github/drush-ops/drush
-  - purl: pkg:deb/ubuntu/drush
-  - purl: pkg:rpm/opensuse/drush
 
 auto:
   methods:

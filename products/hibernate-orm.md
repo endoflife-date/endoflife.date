@@ -24,11 +24,10 @@ customFields:
     link: https://hibernate.org/orm/releases/
 
 identifiers:
-  - purl: pkg:maven/org.hibernate.orm/hibernate-core
-  - purl: pkg:maven/org.hibernate/hibernate-core
-  - purl: pkg:github/hibernate/hibernate-orm
   - cpe: cpe:/a:hibernate:hibernate_orm
   - cpe: cpe:2.3:a:hibernate:hibernate_orm
+  - purl: pkg:maven/org.hibernate.orm/hibernate-core
+  - purl: pkg:maven/org.hibernate/hibernate-core
 
 auto:
   methods:

@@ -8,6 +8,10 @@ versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 
+auto:
+  methods:
+    - haproxy: https://www.haproxy.org/download/
+
 identifiers:
   - repology: haproxy
   - purl: pkg:generic/haproxy
@@ -17,15 +21,7 @@ identifiers:
   - purl: pkg:rpm/redhat/haproxy
   - purl: pkg:rpm/centos/haproxy
   - purl: pkg:apk/alpine/haproxy
-  - purl: pkg:docker/library/haproxy
-  - purl: pkg:rpm/fedora/haproxy
-  - purl: pkg:rpm/opensuse/haproxy
-  - purl: pkg:alpm/arch/haproxy
   - cpe: cpe:2.3:a:haproxy:haproxy
-
-auto:
-  methods:
-    - haproxy: https://www.haproxy.org/download/
 
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01

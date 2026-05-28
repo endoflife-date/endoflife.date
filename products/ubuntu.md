@@ -25,7 +25,6 @@ auto:
       template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
-  - purl: pkg:docker/library/ubuntu
   - cpe: cpe:2.3:o:canonical:ubuntu_linux
   - cpe: cpe:/o:canonical:ubuntu_linux
 

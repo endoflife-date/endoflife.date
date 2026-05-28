@@ -10,9 +10,6 @@ alternate_urls:
 changelogTemplate: "https://hop.apache.org/blog/{{'__LATEST_RELEASE_DATE__'|split:'-'|pop|join:'/'}}/hop-__LATEST__/"
 eolColumn: Support
 
-identifiers:
-  - purl: pkg:maven/org.apache.hop/hop-engine
-
 auto:
   methods:
     - maven: "org.apache.hop/hop-engine"

@@ -9,14 +9,10 @@ versionCommand: yarn --version
 changelogTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
 
 identifiers:
-  - repology: yarn
   - purl: pkg:github/yarnpkg/berry
   - purl: pkg:github/yarnpkg/yarn
   - purl: pkg:npm/yarn
-  - purl: pkg:npm/%40yarnpkg/cli
-  - purl: pkg:apk/alpine/yarn
-  - purl: pkg:rpm/opensuse/yarn
-  - purl: pkg:alpm/arch/yarn
+  - repology: yarn
   - cpe: cpe:2.3:a:yarnpkg:yarn
   - cpe: cpe:/a:yarnpkg:yarn
 

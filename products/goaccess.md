@@ -7,21 +7,13 @@ versionCommand: goaccess --version
 releasePolicyLink: https://github.com/allinurl/goaccess/blob/master/SECURITY.md
 changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 
-identifiers:
-  - repology: goaccess
-  - purl: pkg:docker/allinurl/goaccess
-  - purl: pkg:github/allinurl/goaccess
-  - purl: pkg:apk/alpine/goaccess
-  - purl: pkg:deb/debian/goaccess
-  - purl: pkg:deb/ubuntu/goaccess
-  - purl: pkg:rpm/fedora/goaccess
-  - purl: pkg:rpm/opensuse/goaccess
-  - purl: pkg:alpm/arch/goaccess
-
 auto:
   methods:
     - git: https://github.com/allinurl/goaccess
 
+identifiers:
+  - repology: goaccess
+  - purl: pkg:docker/allinurl/goaccess
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "1"

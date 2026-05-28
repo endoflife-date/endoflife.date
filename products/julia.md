@@ -13,14 +13,8 @@ changelogTemplate: "https://github.com/JuliaLang/julia/blob/v__LATEST__/NEWS.md"
 auto:
   methods:
     - git: https://github.com/JuliaLang/julia.git
-
 identifiers:
   - repology: julia
-  - purl: pkg:github/julialang/julia
-  - purl: pkg:docker/library/julia
-  - purl: pkg:rpm/fedora/julia
-  - purl: pkg:rpm/opensuse/julia
-  - purl: pkg:alpm/arch/julia
   - cpe: cpe:2.3:a:julialang:julia
 
 releases:

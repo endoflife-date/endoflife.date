@@ -20,7 +20,6 @@ eolColumn: Support
 
 identifiers:
   - repology: filebeat
-  - purl: pkg:github/elastic/beats
   - cpe: cpe:/a:elastic:filebeat
   - cpe: cpe:2.3:a:elastic:filebeat
 

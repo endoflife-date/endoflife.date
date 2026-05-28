@@ -14,8 +14,6 @@ changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
 eoasColumn: true
 
 identifiers:
-  - purl: pkg:github/craftcms/cms
-  - purl: pkg:composer/craftcms/cms
   - cpe: cpe:2.3:a:craftcms:craft_cms
   - cpe: cpe:/a:craftcms:craft_cms
 

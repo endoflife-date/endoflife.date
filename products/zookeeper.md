@@ -17,7 +17,6 @@ identifiers:
   - purl: pkg:github/apache/zookeeper
   - purl: pkg:docker/library/zookeeper
   - purl: pkg:deb/debian/zookeeper
-  - purl: pkg:deb/ubuntu/zookeeper
   - cpe: cpe:2.3:a:apache:zookeeper
   - cpe: cpe:/a:apache:zookeeper
 

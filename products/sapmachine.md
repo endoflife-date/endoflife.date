@@ -8,10 +8,6 @@ permalink: /sapmachine
 versionCommand: java -version
 releasePolicyLink: https://sapmachine.io/docs/maintenance-and-support
 
-identifiers:
-  - purl: pkg:github/sap/sapmachine
-  - purl: pkg:docker/library/sapmachine
-
 auto:
   methods:
     - github_releases: SAP/SapMachine

@@ -7,7 +7,6 @@ permalink: /greenlight
 changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
 
 identifiers:
-  - purl: pkg:github/bigbluebutton/greenlight
   - cpe: cpe:2.3:a:bigbluebutton:greenlight
 
 auto:

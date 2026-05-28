@@ -40,13 +40,6 @@ customFields:
 
 identifiers:
   - repology: gradle
-  - purl: pkg:github/gradle/gradle
-  - purl: pkg:docker/library/gradle
-  - purl: pkg:apk/alpine/gradle
-  - purl: pkg:deb/debian/gradle
-  - purl: pkg:deb/ubuntu/gradle
-  - purl: pkg:rpm/opensuse/gradle
-  - purl: pkg:alpm/arch/gradle
   - cpe: cpe:/a:gradle:gradle
   - cpe: cpe:2.3:a:gradle:gradle
 

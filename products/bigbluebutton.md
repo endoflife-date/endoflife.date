@@ -10,7 +10,6 @@ releasePolicyLink: https://github.com/bigbluebutton/bigbluebutton/security
 changelogTemplate: https://github.com/bigbluebutton/bigbluebutton/releases/tag/v__LATEST__
 
 identifiers:
-  - purl: pkg:github/bigbluebutton/bigbluebutton
   - cpe: cpe:2.3:a:bigbluebutton:bigbluebutton
 
 auto:

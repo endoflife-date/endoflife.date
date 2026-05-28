@@ -11,10 +11,6 @@ eoasColumn: Stable Support
 
 identifiers:
   - repology: proftpd
-  - purl: pkg:github/proftpd/proftpd
-  - purl: pkg:apk/alpine/proftpd
-  - purl: pkg:rpm/fedora/proftpd
-  - purl: pkg:rpm/opensuse/proftpd
   - cpe: cpe:2.3:a:proftpd:proftpd
 
 auto:

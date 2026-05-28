@@ -19,11 +19,6 @@ customFields:
 
 identifiers:
   - repology: eslint
-  - purl: pkg:npm/eslint
-  - purl: pkg:deb/debian/eslint
-  - purl: pkg:deb/ubuntu/eslint
-  - purl: pkg:alpm/arch/eslint
-  - purl: pkg:github/eslint/eslint
 
 auto:
   methods:

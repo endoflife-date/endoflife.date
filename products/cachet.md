@@ -7,10 +7,6 @@ iconSlug: cachet
 permalink: /cachet
 changelogTemplate: https://github.com/cachethq/cachet/releases/tag/v__LATEST__
 
-identifiers:
-  - purl: pkg:github/cachethq/cachet
-  - purl: pkg:composer/cachethq/cachet
-
 auto:
   methods:
     - git: https://github.com/cachethq/cachet.git

@@ -27,8 +27,6 @@ identifiers:
   - purl: pkg:oci/caddy?repository_url=quay.io/repository/caddy
   - purl: pkg:rpm/fedora/caddy
   - purl: pkg:scoop/caddy
-  - purl: pkg:rpm/opensuse/caddy
-  - purl: pkg:alpm/arch/caddy
   - cpe: cpe:/a:caddyserver:caddy
   - cpe: cpe:2.3:a:caddyserver:caddy
 

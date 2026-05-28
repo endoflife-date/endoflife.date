@@ -8,19 +8,13 @@ versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
 
-identifiers:
-  - repology: telegraf
-  - purl: pkg:github/influxdata/telegraf
-  - purl: pkg:docker/library/telegraf
-  - purl: pkg:apk/alpine/telegraf
-  - purl: pkg:deb/ubuntu/telegraf
-  - purl: pkg:rpm/opensuse/telegraf
-  - purl: pkg:golang/github.com/influxdata/telegraf
-  - cpe: cpe:2.3:a:influxdata:telegraf
-
 auto:
   methods:
     - git: https://github.com/influxdata/telegraf
+
+identifiers:
+  - repology: telegraf
+  - cpe: cpe:2.3:a:influxdata:telegraf
 
 # eol(x) = releaseDate(x+2)
 releases:

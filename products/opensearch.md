@@ -17,17 +17,6 @@ changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/
 eoasColumn: Active Development
 eolColumn: Maintenance Support
 
-identifiers:
-  - repology: opensearch
-  - purl: pkg:docker/opensearchproject/opensearch
-  - purl: pkg:github/opensearch-project/opensearch
-  - purl: pkg:deb/debian/opensearch
-  - purl: pkg:deb/ubuntu/opensearch
-  - purl: pkg:alpm/arch/opensearch
-  - purl: pkg:maven/org.opensearch/opensearch
-  - purl: pkg:maven/org.opensearch/opensearch-core
-  - cpe: cpe:2.3:a:amazon:opensearch
-
 auto:
   methods:
     - github_releases: opensearch-project/OpenSearch
@@ -46,6 +35,10 @@ auto:
           column: "Maintenance Window End"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
+identifiers:
+  - repology: opensearch
+  - purl: pkg:docker/opensearchproject/opensearch
+  - cpe: cpe:2.3:a:amazon:opensearch
 
 releases:
   - releaseCycle: "3"

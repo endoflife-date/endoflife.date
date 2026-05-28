@@ -6,15 +6,13 @@ tags: php-runtime
 permalink: /twig
 changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 
-identifiers:
-  - repology: php:twig
-  - purl: pkg:github/twigphp/twig
-  - purl: pkg:composer/twig/twig
-  - cpe: cpe:2.3:a:symfony:twig
-
 auto:
   methods:
     - git: https://github.com/twigphp/Twig.git
+
+identifiers:
+  - repology: php:twig
+  - cpe: cpe:2.3:a:symfony:twig
 
 releases:
   - releaseCycle: "3"

@@ -12,8 +12,6 @@ auto:
 
 identifiers:
   - repology: privatebin
-  - purl: pkg:github/privatebin/privatebin
-  - purl: pkg:composer/privatebin/privatebin
   - cpe: cpe:2.3:a:privatebin:privatebin
 
 # eol(x) = releaseDate(x+1)

@@ -12,8 +12,6 @@ eolColumn: Supported
 
 identifiers:
   - repology: jhipster
-  - purl: pkg:npm/generator-jhipster
-  - purl: pkg:github/jhipster/generator-jhipster
   - cpe: cpe:/a:jhipster:jhipster
   - cpe: cpe:2.3:a:jhipster:jhipster
 

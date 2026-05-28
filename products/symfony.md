@@ -12,8 +12,6 @@ eoasColumn: true
 
 identifiers:
   - repology: php:symfony
-  - purl: pkg:github/symfony/symfony
-  - purl: pkg:composer/symfony/symfony
   - cpe: cpe:/a:sensiolabs:symfony
   - cpe: cpe:2.3:a:sensiolabs:symfony
 

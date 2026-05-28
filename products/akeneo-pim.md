@@ -13,7 +13,6 @@ identifiers:
   - cpe: cpe:/a:akeneo:product_information_management
   - cpe: cpe:2.3:a:akeneo:product_information_management
   - purl: pkg:github/akeneo/pim-community-dev
-  - purl: pkg:composer/akeneo/pim-community-dev
 
 auto:
   methods:

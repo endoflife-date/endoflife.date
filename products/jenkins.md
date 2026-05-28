@@ -11,9 +11,6 @@ eolColumn: Support
 
 identifiers:
   - repology: jenkins
-  - purl: pkg:github/jenkinsci/jenkins
-  - purl: pkg:apk/alpine/jenkins
-  - purl: pkg:alpm/arch/jenkins
   - cpe: cpe:/a:jenkins:jenkins
   - cpe: cpe:2.3:a:jenkins:jenkins
 

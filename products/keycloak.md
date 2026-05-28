@@ -10,11 +10,9 @@ changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.htm
 eolColumn: Supported
 
 identifiers:
-  - repology: keycloak
   - purl: pkg:github/keycloak/keycloak
-  - purl: pkg:apk/alpine/keycloak
-  - purl: pkg:alpm/arch/keycloak
   - purl: pkg:maven/org.keycloak/keycloak-core
+  - repology: keycloak
   - cpe: cpe:2.3:a:redhat:keycloak
 
 auto:

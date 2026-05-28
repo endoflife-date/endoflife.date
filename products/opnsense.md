@@ -10,7 +10,6 @@ changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 identifiers:
-  - purl: pkg:github/opnsense/core
   - cpe: cpe:/a:opnsense:opnsense
   - cpe: cpe:2.3:a:opnsense:opnsense
 

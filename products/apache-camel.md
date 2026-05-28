@@ -24,7 +24,6 @@ identifiers:
   - purl: pkg:docker/apache/camel
   - purl: pkg:github/apache/camel
   - purl: pkg:maven/org.apache.camel/camel
-  - purl: pkg:maven/org.apache.camel/camel-core
 
 auto:
   methods:

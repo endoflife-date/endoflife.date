@@ -29,15 +29,6 @@ customFields:
 
 identifiers:
   - repology: ansible-core
-  - purl: pkg:github/ansible/ansible
-  - purl: pkg:apk/alpine/ansible-core
-  - purl: pkg:deb/debian/ansible-core
-  - purl: pkg:deb/ubuntu/ansible-core
-  - purl: pkg:rpm/centos/ansible-core
-  - purl: pkg:rpm/fedora/ansible-core
-  - purl: pkg:rpm/opensuse/ansible-core
-  - purl: pkg:alpm/arch/ansible-core
-  - purl: pkg:pypi/ansible-core
   - cpe: cpe:/a:redhat:ansible_engine
   - cpe: cpe:/a:ansible:ansible
   - cpe: cpe:/a:redhat:ansible

@@ -13,18 +13,6 @@ changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/relea
 eolColumn: CVE & Critical Support
 eoasColumn: true
 
-identifiers:
-  - repology: salt
-  - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
-  - purl: pkg:docker/saltstack/salt
-  - purl: pkg:github/saltstack/salt
-  - purl: pkg:apk/alpine/salt
-  - purl: pkg:deb/ubuntu/salt
-  - purl: pkg:rpm/fedora/salt
-  - purl: pkg:rpm/opensuse/salt
-  - purl: pkg:pypi/salt
-  - cpe: cpe:2.3:a:saltstack:salt
-
 auto:
   methods:
     - git: https://github.com/saltstack/salt.git
@@ -42,6 +30,12 @@ auto:
         releaseCycle: "Salt version"
         eoas: "Phase 2 support ends"
         eol: "Phase 3 support ends"
+
+identifiers:
+  - repology: salt
+  - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
+  - purl: pkg:docker/saltstack/salt
+  - cpe: cpe:2.3:a:saltstack:salt
 
 # link(x) =
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html

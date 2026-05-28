@@ -20,9 +20,6 @@ identifiers:
   - purl: pkg:apk/alpine/nginx
   - purl: pkg:rpm/opensuse/nginx
   - purl: pkg:github/nginx/nginx
-  - purl: pkg:docker/library/nginx
-  - purl: pkg:rpm/fedora/nginx
-  - purl: pkg:alpm/arch/nginx
   - cpe: cpe:2.3:a:f5:nginx
 
 auto:

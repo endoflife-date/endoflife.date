@@ -8,8 +8,6 @@ releasePolicyLink: https://backdropcms.org/releases
 changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
 identifiers:
-  - purl: pkg:github/backdrop/backdrop
-  - purl: pkg:docker/library/backdrop
   - cpe: cpe:2.3:a:backdropcms:backdrop_cms
   - cpe: cpe:2.3:a:backdropcms:backdrop
 

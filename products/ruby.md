@@ -10,19 +10,6 @@ changelogTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|rep
 # changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
 eolColumn: Support Status
 
-identifiers:
-  - repology: ruby
-  - purl: pkg:docker/library/ruby
-  - purl: pkg:generic/ruby
-  - purl: pkg:github/ruby/ruby
-  - purl: pkg:apk/alpine/ruby
-  - purl: pkg:rpm/centos/ruby
-  - purl: pkg:rpm/fedora/ruby
-  - purl: pkg:rpm/opensuse/ruby
-  - purl: pkg:alpm/arch/ruby
-  - cpe: cpe:2.3:a:ruby-lang:ruby
-
-
 # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
 auto:
   methods:
@@ -32,6 +19,12 @@ auto:
       # Starting with 4.0, the tags use dots instead of underscores
       regex: ^v(?P<major>\d+)(_|\.)(?P<minor>\d+)(_|\.)(?P<patch>\d{1,3})(_|\.)?(?P<tiny>\d+)?$
       template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}"
+
+identifiers:
+  - repology: ruby
+  - purl: pkg:docker/library/ruby
+  - purl: pkg:generic/ruby
+  - cpe: cpe:2.3:a:ruby-lang:ruby
 
 releases:
   - releaseCycle: "4.0"

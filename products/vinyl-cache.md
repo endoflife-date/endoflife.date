@@ -14,14 +14,6 @@ identifiers:
   - repology: varnish
   - purl: pkg:brew/varnish
   - purl: pkg:docker/library/varnish
-  - purl: pkg:github/varnishcache/varnish-cache
-  - purl: pkg:apk/alpine/varnish
-  - purl: pkg:deb/debian/varnish
-  - purl: pkg:deb/ubuntu/varnish
-  - purl: pkg:rpm/centos/varnish
-  - purl: pkg:rpm/fedora/varnish
-  - purl: pkg:rpm/opensuse/varnish
-  - purl: pkg:alpm/arch/varnish
   - cpe: cpe:2.3:a:varnish_cache_project:varnish_cache
   - cpe: cpe:/a:varnish_cache_project:varnish_cache
 

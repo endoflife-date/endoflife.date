@@ -10,15 +10,14 @@ changelogTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
 versionCommand: nvm --version
 eolColumn: Community Support
 
-identifiers:
-  - purl: pkg:github/nvm-sh/nvm
-  - purl: pkg:alpm/arch/nvm
-
 auto:
   methods:
     - git: https://github.com/nvm-sh/nvm.git
       regex: ^v(?P<version>\d+\.\d+\.\d+)$
       template: "{{version}}"
+
+identifiers:
+  - purl: pkg:github/nvm-sh/nvm
 
 # eol(x) = releaseDate(x+1)
 releases:

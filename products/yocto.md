@@ -12,15 +12,14 @@ changelogTemplate: https://docs.yoctoproject.org/migration-guides/migration-__RE
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 eolColumn: Support Status
 
-identifiers:
-  - purl: pkg:github/yoctoproject/poky
-  - cpe: cpe:2.3:a:linuxfoundation:yocto
-  - cpe: cpe:/a:linuxfoundation:yocto
-
 auto:
   methods:
     - git: https://github.com/yoctoproject/poky.git
       regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
+
+identifiers:
+  - cpe: cpe:2.3:a:linuxfoundation:yocto
+  - cpe: cpe:/a:linuxfoundation:yocto
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
 # eol(x) = releaseDate(x) + 7 month

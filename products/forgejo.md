@@ -8,14 +8,6 @@ versionCommand: forgejo --version
 releasePolicyLink: https://forgejo.org/docs/latest/admin/upgrade/#release-life-cycle
 changelogTemplate: https://codeberg.org/forgejo/forgejo/releases/tag/v__LATEST__
 
-identifiers:
-  - repology: forgejo
-  - purl: pkg:apk/alpine/forgejo
-  - purl: pkg:rpm/fedora/forgejo
-  - purl: pkg:rpm/opensuse/forgejo
-  - purl: pkg:alpm/arch/forgejo
-  - cpe: cpe:2.3:a:forgejo:forgejo
-
 auto:
   methods:
     - git: https://codeberg.org/forgejo/forgejo.git
@@ -29,6 +21,10 @@ auto:
           regex: ^(?P<value>\d+\.\d+).*$
         releaseDate: "Release Date"
         eol: "End Of Life"
+
+identifiers:
+  - repology: forgejo
+  - cpe: cpe:2.3:a:forgejo:forgejo
 
 # eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:

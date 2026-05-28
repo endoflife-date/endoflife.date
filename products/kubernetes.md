@@ -14,13 +14,8 @@ eoasColumn: true
 eolColumn: Maintenance Support
 
 identifiers:
-  - repology: kubernetes
   - purl: pkg:github/kubernetes/kubernetes
-  - purl: pkg:apk/alpine/kubernetes
-  - purl: pkg:deb/debian/kubernetes
-  - purl: pkg:rpm/fedora/kubernetes
-  - purl: pkg:rpm/opensuse/kubernetes
-  - purl: pkg:alpm/arch/kubernetes
+  - repology: kubernetes
   - cpe: cpe:2.3:a:kubernetes:kubernetes
 
 auto:

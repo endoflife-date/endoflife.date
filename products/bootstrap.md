@@ -17,7 +17,6 @@ identifiers:
   - purl: pkg:nuget/bootstrap
   - purl: pkg:gem/bootstrap
   - purl: pkg:composer/twbs/bootstrap
-  - purl: pkg:composer/twitter/bootstrap
   - purl: pkg:github/twbs/bootstrap
   - cpe: cpe:2.3:a:getbootstrap:bootstrap
 

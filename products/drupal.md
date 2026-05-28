@@ -17,7 +17,6 @@ identifiers:
   - purl: pkg:docker/bitnami/drupal
   - purl: pkg:docker/library/drupal
   - purl: pkg:github/drupal/core
-  - purl: pkg:github/drupal/drupal
   - cpe: cpe:2.3:a:drupal:drupal
   - cpe: cpe:/a:drupal:drupal
 

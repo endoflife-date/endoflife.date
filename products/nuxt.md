@@ -13,8 +13,6 @@ eolColumn: Maintenance Support
 eoesColumn: Commercial Support
 
 identifiers:
-  - purl: pkg:npm/nuxt
-  - purl: pkg:github/nuxt/nuxt
   - cpe: cpe:/a:nuxt:framework
   - cpe: cpe:2.3:a:nuxt:framework
   - purl: pkg:npm/nuxt

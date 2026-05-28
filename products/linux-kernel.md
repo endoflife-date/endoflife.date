@@ -22,7 +22,6 @@ auto:
     - github_tags: gregkh/linux
 
 identifiers:
-  - purl: pkg:github/gregkh/linux
   - cpe: cpe:/o:linux:linux_kernel
   - cpe: cpe:2.3:o:linux:linux_kernel
 

@@ -15,7 +15,6 @@ eolColumn: Limited Support
 
 identifiers:
   - purl: pkg:docker/rancher/rancher
-  - purl: pkg:github/rancher/rancher
   - repology: rancher
   - cpe: cpe:2.3:a:suse:rancher
 

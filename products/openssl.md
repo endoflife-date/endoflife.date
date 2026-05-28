@@ -12,14 +12,6 @@ eoesColumn: Premium support
 
 identifiers:
   - repology: openssl
-  - purl: pkg:github/openssl/openssl
-  - purl: pkg:apk/alpine/openssl
-  - purl: pkg:deb/debian/openssl
-  - purl: pkg:deb/ubuntu/openssl
-  - purl: pkg:rpm/centos/openssl
-  - purl: pkg:rpm/fedora/openssl
-  - purl: pkg:rpm/opensuse/openssl
-  - purl: pkg:alpm/arch/openssl
   - cpe: cpe:/a:openssl:openssl
   - cpe: cpe:2.3:a:openssl:openssl
 

@@ -13,7 +13,6 @@ eolColumn: Maintenance Support
 identifiers:
   - purl: pkg:github/cilium/cilium
   - purl: pkg:docker/cilium/cilium
-  - purl: pkg:golang/github.com/cilium/cilium
   - cpe: cpe:2.3:a:cilium:cilium
 
 auto:

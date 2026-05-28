@@ -10,11 +10,6 @@ eolColumn: Support Status
 
 identifiers:
   - repology: tarantool
-  - purl: pkg:github/tarantool/tarantool
-  - purl: pkg:deb/debian/tarantool
-  - purl: pkg:deb/ubuntu/tarantool
-  - purl: pkg:rpm/fedora/tarantool
-  - purl: pkg:alpm/arch/tarantool
   - cpe: cpe:/a:tarantool:tarantool
   - cpe: cpe:2.3:a:tarantool:tarantool
 

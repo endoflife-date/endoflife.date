@@ -10,7 +10,6 @@ eolColumn: OSS Support
 eoesColumn: Commercial Support
 
 identifiers:
-  - purl: pkg:github/centreon/centreon
   - cpe: cpe:2.3:a:centreon:centreon
 
 auto:

@@ -15,26 +15,16 @@ eolColumn: Support
 
 identifiers:
   - repology: maven
+  - cpe: cpe:/a:apache:maven
+  - cpe: cpe:2.3:a:apache:maven
   - repology: maven-shared-utils
+  - cpe: cpe:/a:apache:maven_shared_utils
+  - cpe: cpe:2.3:a:apache:maven_shared_utils
   - purl: pkg:deb/debian/maven
   - purl: pkg:deb/ubuntu/maven
   - purl: pkg:github/apache/maven
   - purl: pkg:maven/org.apache.maven/maven
   - purl: pkg:rpm/opensuse/maven
-  - purl: pkg:docker/library/maven
-  - purl: pkg:apk/alpine/maven
-  - purl: pkg:deb/debian/maven-shared-utils
-  - purl: pkg:deb/ubuntu/maven-shared-utils
-  - purl: pkg:rpm/centos/maven
-  - purl: pkg:rpm/centos/maven-shared-utils
-  - purl: pkg:rpm/fedora/maven
-  - purl: pkg:rpm/fedora/maven-shared-utils
-  - purl: pkg:rpm/opensuse/maven-shared-utils
-  - purl: pkg:alpm/arch/maven
-  - cpe: cpe:/a:apache:maven
-  - cpe: cpe:2.3:a:apache:maven
-  - cpe: cpe:/a:apache:maven_shared_utils
-  - cpe: cpe:2.3:a:apache:maven_shared_utils
 
 auto:
   methods:
@@ -111,5 +101,5 @@ releases:
 > Based on the concept of a project object model (POM), Maven can manage a project's build,
 > reporting and documentation from a central piece of information.
 
-Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains
+Apache Maven follows [semantic versioning](https://semver.org). The Apache Maven team maintains 
 the [two last minor versions](https://maven.apache.org/docs/history.html).

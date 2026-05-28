@@ -11,12 +11,6 @@ eolColumn: End-of-Life
 
 identifiers:
   - repology: mediawiki
-  - purl: pkg:github/wikimedia/mediawiki
-  - purl: pkg:docker/library/mediawiki
-  - purl: pkg:deb/debian/mediawiki
-  - purl: pkg:deb/ubuntu/mediawiki
-  - purl: pkg:rpm/fedora/mediawiki
-  - purl: pkg:alpm/arch/mediawiki
   - cpe: cpe:/a:mediawiki:mediawiki
   - cpe: cpe:2.3:a:mediawiki:mediawiki
 

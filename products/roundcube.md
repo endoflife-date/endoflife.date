@@ -12,9 +12,6 @@ eolColumn: Security Support
 
 identifiers:
   - repology: roundcube
-  - purl: pkg:github/roundcube/roundcubemail
-  - purl: pkg:deb/debian/roundcube
-  - purl: pkg:deb/ubuntu/roundcube
   - cpe: cpe:2.3:a:roundcube:webmail
 
 auto:

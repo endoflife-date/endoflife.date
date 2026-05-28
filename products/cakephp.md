@@ -22,10 +22,6 @@ customFields:
 
 identifiers:
   - repology: cakephp
-  - purl: pkg:github/cakephp/cakephp
-  - purl: pkg:composer/cakephp/cakephp
-  - purl: pkg:deb/debian/cakephp
-  - purl: pkg:deb/ubuntu/cakephp
   - cpe: cpe:/a:cakephp:cakephp
   - cpe: cpe:2.3:a:cakephp:cakephp
   - cpe: cpe:/a:cakefoundation:cakephp

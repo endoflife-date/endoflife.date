@@ -27,7 +27,6 @@ identifiers:
   - purl: pkg:github/corretto/corretto-17
   - purl: pkg:github/corretto/corretto-11
   - purl: pkg:github/corretto/corretto-8
-  - purl: pkg:github/corretto/corretto-jdk
 
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.

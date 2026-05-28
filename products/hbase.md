@@ -14,9 +14,6 @@ eolColumn: Service Status
 
 identifiers:
   - repology: hbase
-  - purl: pkg:github/apache/hbase
-  - purl: pkg:maven/org.apache.hbase/hbase
-  - purl: pkg:maven/org.apache.hbase/hbase-server
   - cpe: cpe:/a:apache:hbase
   - cpe: cpe:2.3:a:apache:hbase
 

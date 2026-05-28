@@ -23,8 +23,6 @@ identifiers:
   - purl: pkg:rpm/amzn/mongodb-enterprise-server
   - purl: pkg:rpm/redhat/mongodb-enterprise-server
   - purl: pkg:rpm/centos/mongodb-enterprise-server
-  - purl: pkg:github/mongodb/mongo
-  - purl: pkg:docker/library/mongo
   - repology: mongodb
   - cpe: cpe:2.3:a:mongodb:mongodb
   - cpe: cpe:2.3:a:mongodb-org-server:mongodb-org-server

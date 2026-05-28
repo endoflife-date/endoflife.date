@@ -7,15 +7,14 @@ permalink: /mandrel
 changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
 
-identifiers:
-  - repology: mandrel
-  - purl: pkg:github/graalvm/mandrel
-
 auto:
   methods:
     - github_releases: graalvm/mandrel
       regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
       template: "{{version}}"
+
+identifiers:
+  - repology: mandrel
 
 releases:
 

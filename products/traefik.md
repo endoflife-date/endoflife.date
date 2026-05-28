@@ -16,10 +16,6 @@ identifiers:
   - purl: pkg:brew/traefik
   - purl: pkg:github/traefik/traefik
   - purl: pkg:generic/traefik
-  - purl: pkg:docker/library/traefik
-  - purl: pkg:apk/alpine/traefik
-  - purl: pkg:rpm/opensuse/traefik
-  - purl: pkg:alpm/arch/traefik
   - cpe: cpe:2.3:a:traefik:traefik
 
 auto:

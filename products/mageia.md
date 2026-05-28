@@ -11,7 +11,6 @@ latestColumn: false
 eolColumn: Supported
 
 identifiers:
-  - purl: pkg:docker/library/mageia
   - cpe: cpe:/o:mageia:mageia
   - cpe: cpe:2.3:o:mageia:mageia
 

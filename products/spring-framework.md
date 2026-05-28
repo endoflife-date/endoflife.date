@@ -41,7 +41,6 @@ identifiers:
   - purl: pkg:maven/org.springframework/spring-web
   - purl: pkg:maven/org.springframework/spring-webmvc
   - purl: pkg:maven/org.springframework/spring-websocket
-  - purl: pkg:github/spring-projects/spring-framework
 
 auto:
   methods:

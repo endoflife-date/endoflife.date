@@ -15,10 +15,6 @@ versionCommand: vault --version
 
 identifiers:
   - repology: vault
-  - purl: pkg:github/hashicorp/vault
-  - purl: pkg:apk/alpine/vault
-  - purl: pkg:alpm/arch/vault
-  - purl: pkg:golang/github.com/hashicorp/vault
   - cpe: cpe:/a:hashicorp:vault
   - cpe: cpe:2.3:a:hashicorp:vault
 

@@ -15,11 +15,6 @@ identifiers:
   - purl: pkg:apk/alpine/firefox
   - purl: pkg:deb/debian/firefox-esr
   - purl: pkg:generic/firefox
-  - purl: pkg:deb/debian/firefox
-  - purl: pkg:deb/ubuntu/firefox
-  - purl: pkg:rpm/centos/firefox
-  - purl: pkg:rpm/fedora/firefox
-  - purl: pkg:alpm/arch/firefox
   - cpe: cpe:2.3:a:mozilla:firefox
 
 auto:

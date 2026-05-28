@@ -14,18 +14,16 @@ releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powe
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 eolColumn: Support Status
 
+identifiers:
+  - purl: pkg:github/powershell/powershell
+  - repology: powershell
+  - cpe: cpe:2.3:a:microsoft:powershell
+
 customFields:
   - name: dotnetVersion
     display: after-latest-column
     label: ".NET Version"
     description: Version of .NET that this PowerShell release is built on.
-
-identifiers:
-  - repology: powershell
-  - purl: pkg:github/powershell/powershell
-  - purl: pkg:nuget/powershell
-  - purl: pkg:apk/alpine/powershell
-  - cpe: cpe:2.3:a:microsoft:powershell
 
 auto:
   methods:

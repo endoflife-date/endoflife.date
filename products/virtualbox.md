@@ -15,10 +15,6 @@ eolColumn: Maintenance support
 
 identifiers:
   - repology: virtualbox
-  - purl: pkg:deb/debian/virtualbox
-  - purl: pkg:deb/ubuntu/virtualbox
-  - purl: pkg:rpm/opensuse/virtualbox
-  - purl: pkg:alpm/arch/virtualbox
   - cpe: cpe:/a:oracle:virtualbox
   - cpe: cpe:2.3:a:oracle:virtualbox
 

@@ -11,7 +11,6 @@ changelogTemplate: https://docs.dependencytrack.org/changelog/
 
 identifiers:
   - repology: dependency-track
-  - purl: pkg:github/dependencytrack/dependency-track
   - cpe: cpe:/a:owasp:dependency-track
   - cpe: cpe:2.3:a:owasp:dependency-track
 

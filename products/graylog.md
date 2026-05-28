@@ -17,8 +17,6 @@ eolColumn: Support
 
 identifiers:
   - repology: graylog
-  - purl: pkg:github/graylog2/graylog2-server
-  - purl: pkg:maven/org.graylog2/graylog2-server
   - cpe: cpe:/a:graylog:graylog
   - cpe: cpe:2.3:a:graylog:graylog
 

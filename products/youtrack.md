@@ -9,7 +9,6 @@ changelogTemplate: https://www.jetbrains.com/youtrack/whatsnew/{{"__RELEASE_CYCL
 
 identifiers:
   - repology: youtrack
-  - purl: pkg:docker/jetbrains/youtrack
 
 auto:
   methods:

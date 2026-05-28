@@ -13,7 +13,6 @@ eoesColumn: true
 
 identifiers:
   - purl: pkg:github/mautic/mautic/
-  - purl: pkg:composer/mautic/core
   - cpe: cpe:2.3:a:acquia:mautic
 
 auto:

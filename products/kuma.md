@@ -8,9 +8,6 @@ permalink: /kuma
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
 eolColumn: Support
 
-identifiers:
-  - purl: pkg:github/kumahq/kuma
-
 auto:
   methods:
     - git: https://github.com/kumahq/kuma.git # a few versions are missing from releases

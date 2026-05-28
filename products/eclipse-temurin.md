@@ -14,19 +14,6 @@ changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries
 identifiers:
   - repology: temurin-bin
   - repology: temurin-jre-bin
-  - purl: pkg:github/adoptium/temurin11-binaries
-  - purl: pkg:github/adoptium/temurin16-binaries
-  - purl: pkg:github/adoptium/temurin17-binaries
-  - purl: pkg:github/adoptium/temurin18-binaries
-  - purl: pkg:github/adoptium/temurin19-binaries
-  - purl: pkg:github/adoptium/temurin20-binaries
-  - purl: pkg:github/adoptium/temurin21-binaries
-  - purl: pkg:github/adoptium/temurin22-binaries
-  - purl: pkg:github/adoptium/temurin23-binaries
-  - purl: pkg:github/adoptium/temurin24-binaries
-  - purl: pkg:github/adoptium/temurin25-binaries
-  - purl: pkg:github/adoptium/temurin8-binaries
-  - purl: pkg:docker/library/eclipse-temurin
   - cpe: cpe:/a:eclipse:temurin
   - cpe: cpe:2.3:a:eclipse:temurin
 
