@@ -31,7 +31,7 @@ auto:
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
   - releaseCycle: "6.7"
-    supportedPhpVersions: 8.2 - 8.4 # https://github.com/shopware/shopware/blob/v6.7.0.0/composer.json#L64
+    supportedPhpVersions: 8.2 - 8.5 # https://github.com/shopware/shopware/blob/v6.7.10.1/composer.json#L69
     releaseDate: 2025-06-17
     eoas: false
     eol: false # still listed on https://developer.shopware.com/release-notes/
@@ -39,10 +39,10 @@ releases:
     latestReleaseDate: 2026-05-13
 
   - releaseCycle: "6.6"
-    supportedPhpVersions: 8.2 - 8.3
+    supportedPhpVersions: 8.2 - 8.5
     releaseDate: 2024-03-21
     eoas: 2025-06-17
-    eol: false # still listed on https://developer.shopware.com/release-notes/
+    eol: false # still listed on https://github.com/shopware/shopware/blob/v6.6.10.18/composer.json#L69
     latest: "6.6.10.18"
     latestReleaseDate: 2026-05-19
 
@@ -50,6 +50,7 @@ releases:
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
     eoas: 2024-03-28
+    staleReleaseThresholdDays: 500 # still listed on https://developer.shopware.com/release-notes/
     eol: false # still listed on https://developer.shopware.com/release-notes/
     latest: "6.5.8.18"
     latestReleaseDate: 2025-05-12

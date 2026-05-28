@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "4.2"
     releaseDate: 2025-10-27
-    eol: 2026-01-31
+    eol: 2026-07-31
     eoes: 2030-06-30
     latest: "4.2.7"
     latestReleaseDate: 2026-05-19
