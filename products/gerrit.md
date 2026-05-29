@@ -26,7 +26,7 @@ releases:
     latest: "3.14.0"
     latestReleaseDate: 2026-05-15
 
-- releaseCycle: "3.13"
+  - releaseCycle: "3.13"
     releaseDate: 2025-11-10
     eol: false
     latest: "3.13.6"
