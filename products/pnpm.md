@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2025-01-07
     eol: false
-    latest: "10.34.0"
+    latest: "10.34.1"
     latestReleaseDate: 2026-05-27
 
   - releaseCycle: "9"
