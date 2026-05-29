@@ -166,4 +166,4 @@ See [Spring Security Milestones page](https://github.com/spring-projects/spring-
 for upcoming releases and [Spring Security Support page](https://spring.io/projects/spring-security#support)
 for more details about the support roadmap.
 
-[HeroDevs](https://www.herodevs.com/support/spring-nes) provides additional commercial versions, extended support timelines, and full ecosystem support for Spring Boot.
+[HeroDevs](https://www.herodevs.com/support/spring-nes) provides additional commercial versions, extended support timelines, and full ecosystem support for Spring Security.
