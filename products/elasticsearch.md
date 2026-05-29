@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
     eol: false
-    latest: "9.3.4"
-    latestReleaseDate: 2026-04-22
+    latest: "9.3.5"
+    latestReleaseDate: 2026-05-25
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "9.2"
@@ -54,8 +54,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.15"
-    latestReleaseDate: 2026-04-28
+    latest: "8.19.16"
+    latestReleaseDate: 2026-05-25
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10

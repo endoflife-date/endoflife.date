@@ -106,7 +106,7 @@ releases:
     releaseDate: 2025-05-22
     eoas: 2026-04-14
     eol: 2026-06-15
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-4
 
   - releaseCycle: "claude-3-7-sonnet-20250219"
@@ -154,7 +154,7 @@ releases:
     releaseDate: 2024-03-04
     eoas: 2025-06-30
     eol: 2026-01-05
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-3-family
 
   - releaseCycle: "claude-3-sonnet-20240229"
@@ -170,7 +170,7 @@ releases:
     releaseDate: 2023-11-21
     eoas: 2025-01-21
     eol: 2025-07-21
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
   - releaseCycle: "claude-instant-1.2"
@@ -186,7 +186,7 @@ releases:
     releaseDate: 2023-07-11
     eoas: 2025-01-21
     eol: 2025-07-21
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-2
 
   - releaseCycle: "claude-1.3"
