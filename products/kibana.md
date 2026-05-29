@@ -20,11 +20,18 @@ auto:
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
+  - releaseCycle: "9.4"
+    releaseDate: 2026-04-30
+    eol: false
+    latest: "9.4.2"
+    latestReleaseDate: 2026-05-25
+    link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
+
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.3.4"
-    latestReleaseDate: 2026-04-22
+    latest: "9.3.5"
+    latestReleaseDate: 2026-05-22
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "9.2"
@@ -44,8 +51,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.15"
-    latestReleaseDate: 2026-04-28
+    latest: "8.19.16"
+    latestReleaseDate: 2026-05-22
 
   - releaseCycle: "9.0"
     releaseDate: 2025-04-10

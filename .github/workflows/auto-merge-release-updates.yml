@@ -7,9 +7,11 @@ permissions:
   contents: write
 
 jobs:
-  dependabot:
+  metadata:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
+    outputs:
+      dependency-names: ${{ steps.metadata.outputs.dependency-names }}
     steps:
       - id: metadata
         name: Dependabot metadata
@@ -17,6 +19,11 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
+  update-release-data:
+    needs: metadata
+    runs-on: ubuntu-latest
+    if: ${{ contains(needs.metadata.outputs.dependency-names, '_data/release-data') }}
+    steps:
       - name: Clone self repository
         uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
         with:
@@ -44,7 +51,6 @@ jobs:
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
       - name: Create PR
-        if: ${{ contains(steps.metadata.outputs.dependency-names, '_data/release-data') }}
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}

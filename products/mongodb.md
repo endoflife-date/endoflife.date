@@ -43,13 +43,19 @@ auto:
 # EOL dates can be found at https://www.mongodb.com/legal/support-policy/lifecycles
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 releases:
+  - releaseCycle: "8.3"
+    releaseDate: 2026-05-04
+    eol: 2029-10-31
+    latest: "8.3.1"
+    latestReleaseDate: 2026-05-04
+    link: https://www.mongodb.com/docs/manual/release-notes/8.3/ # todo: check if this can be removed after 8.4 release
+
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
     releaseDate: 2025-09-17
     eol: 2026-07-31
     latest: "8.2.6"
     latestReleaseDate: 2026-03-18
-    link: https://www.mongodb.com/docs/manual/release-notes/8.2/ # todo: check if this can be removed after 8.3 release
 
   - releaseCycle: "8.1"
     releaseLabel: "8.1 (Rapid Release)"

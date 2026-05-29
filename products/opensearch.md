@@ -47,14 +47,14 @@ releases:
     eol: false
     latest: "3.6.0"
     latestReleaseDate: 2026-04-07
-    link: https://opensearch.org/blog/opensearch-3-5-is-live/
+    link: https://opensearch.org/blog/introducing-opensearch-3-6/
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
     eoas: 2025-05-06
     eol: false
-    latest: "2.19.4"
-    latestReleaseDate: 2025-11-06
+    latest: "2.19.5"
+    latestReleaseDate: 2026-05-13
 
   - releaseCycle: "1"
     releaseDate: 2021-07-12
