@@ -65,6 +65,7 @@ auto:
 releases:
   - releaseCycle: "12.3"
     releaseDate: 2026-02-13
+    lts: true
     eol: 2029-06-30 #estimated https://mariadb.com/docs/release-notes/community-server/12.3/12.3.2
     latest: "12.3.2"
     latestReleaseDate: 2026-05-28
