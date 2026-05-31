@@ -69,12 +69,12 @@ releases:
     eol: 2029-06-30 #estimated https://mariadb.com/docs/release-notes/community-server/12.3/12.3.2
     latest: "12.3.2"
     latestReleaseDate: 2026-05-28
-    
+
   - releaseCycle: "12.2"
     releaseDate: 2026-02-13
     eol: 2026-05-13 #estimated
     latest: "12.2.2"
-    latestReleaseDate: 2026-02-13
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "12.1"
     releaseDate: 2025-11-18
