@@ -8,7 +8,7 @@ permalink: /cisco-nx-os
 releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/nx-os-software/guide_c07-658595.html
 eoasColumn: Maintenance Support
 eolColumn: Security Support
-latestColumn: false
+latestColumn: true
 
 # - eoas(x) = releaseDate(x) + 30 months (FCS + 12 months (EoL announcement) + 18 months (EoS))
 # - eol(x) = releaseDate(x) + 54 months (FCS + 12 months (EoL announcement) + 18 months (EoS) + 24 months)
@@ -16,21 +16,109 @@ releases:
   - releaseCycle: "16.2"
     releaseDate: 2026-03-23
     eoas: 2028-09-23
-    eol: 2031-03-23
+    eol: 2030-09-23
     latest: "16.2(2)"
     latestReleaseDate: 2026-05-05
     link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1622.html
 
-- releaseCycle: "16.1"
+  - releaseCycle: "16.1"
     releaseDate: 2025-10-10
-    eoas: 
-    eol: 
+    eoas: 2028-04-10
+    eol: 2030-04-10
     latest: "16.1(5)"
     latestReleaseDate: 2025-12-15
     link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1615.html
 
+  - releaseCycle: "16.0"
+    releaseDate: 2025-02-14
+    eoas: 2027-08-14
+    eol: 2029-08-14
+    latest: "16.0(9)"
+    latestReleaseDate: 2026-02-25
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1609.html
 
-> Cisco NX OS is a network operating system that is based on the Linux kernel.
+  - releaseCycle: "15.3"
+    releaseDate: 2025-02-06
+    eoas: 2027-08-06
+    eol: 2029-08-06
+    latest: "15.3(2)"
+    latestReleaseDate: 2025-02-06
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/5x/release-notes/cisco-aci-nx-os-release-notes-1532.html
+
+  - releaseCycle: "15.2"
+    releaseDate: 2025-02-14
+    eoas: 2027-08-14
+    eol: 2029-08-14
+    latest: "15.2(8)"
+    latestReleaseDate: 2025-10-12
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/5x/release-notes/cisco-aci-nx-os-release-notes-1528.html
+
+  - releaseCycle: "15.1"
+    releaseDate: 2025-02-14
+    eoas: 2027-08-14
+    eol: 2029-08-14
+    latest: "15.1(4)"
+    latestReleaseDate: 2025-02-14
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/5x/release-notes/cisco-aci-nx-os-release-notes-1514.html
+
+  - releaseCycle: "15.0"
+    releaseDate: 2025-02-14
+    eoas: 2027-08-14
+    eol: 2029-08-14
+    latest: "15.0(2)"
+    latestReleaseDate: 2025-02-14
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/5x/release-notes/cisco-aci-nx-os-release-notes-1502.html
+
+  - releaseCycle: "14.2"
+    releaseDate: 2025-01-14
+    eoas: 2027-07-14
+    eol: 2029-07-14
+    latest: "14.2(7)"
+    latestReleaseDate: 2025-02-14
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/4x/release-notes/cisco-aci-nx-os-release-notes-1427.html
+
+  - releaseCycle: "13.1"
+    releaseDate: 2026-03-31
+    eoas: 2028-09-30
+    eol: 2030-09-30
+    latest: "13.1(2)"
+    latestReleaseDate: 2026-03-31
+    link: https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/3-x/release_notes/aci_nxos_rn_1312.html
+
+  - releaseCycle: "10.6"
+    releaseDate: 2025-08-13
+    eoas: 2028-02-13
+    eol: 2030-02-13
+    latest: "10.6(3)"
+    latestReleaseDate: 2026-05-11
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/106x/release-notes/cisco-nexus-9000-nxos-release-notes-1063F.html
+
+  - releaseCycle: "10.5"
+    releaseDate: 2024-07-26
+    eoas: 2027-01-26
+    eol: 2029-01-26
+    latest: "10.5(5)"
+    latestReleaseDate: 2026-04-28
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/105x/release-notes/cisco-nexus-9000-nxos-release-notes-1055M.html
+
+  - releaseCycle: "10.4"
+    releaseDate: 2023-08-17
+    eoas: 2026-02-17
+    eol: 2028-02-17
+    latest: "10.4(7)"
+    latestReleaseDate: 2026-02-10
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/104x/release-notes/cisco-nexus-9000-nxos-release-notes-1047.html
+
+  - releaseCycle: "10.3"
+    releaseDate: 2022-08-19
+    eoas: 2025-02-19
+    eol: 2027-02-19
+    latest: "10.3(9)"
+    latestReleaseDate: 2026-05-12
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/103x/epld/nxos-n9k-epld-1039M.html
+
+
+> [Cisco NX-OS](https://www.cisco.com/c/en/us/products/networking-operating-systems/nx-os-software/index.html) is a network operating system that is based on the Linux kernel.
 > It is used on a variety of Cisco products, primarily Nexus switches, but also MDS storage switches.
 
 Releases are time-based, each with a fixed release date.
