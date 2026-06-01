@@ -25,6 +25,11 @@ auto:
         eol: "EOL date"
 
 releases:
+  - releaseCycle: "lyrical"
+    codename: "Lyrical Luth"
+    releaseDate: 2026-05-22
+    eol: 2031-05-31
+
   - releaseCycle: "kilted"
     codename: "Kilted Kaiju"
     releaseDate: 2025-05-23
