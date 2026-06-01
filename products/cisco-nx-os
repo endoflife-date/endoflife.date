@@ -1,0 +1,39 @@
+---
+title: Cisco NX-OS
+addedAt: 2025-11-08
+category: os
+tags: cisco
+iconSlug: cisco
+permalink: /cisco-nx-os
+releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/nx-os-software/guide_c07-658595.html
+eoasColumn: Maintenance Support
+eolColumn: Security Support
+latestColumn: false
+
+# - eoas(x) = releaseDate(x) + 30 months (FCS + 12 months (EoL announcement) + 18 months (EoS))
+# - eol(x) = releaseDate(x) + 54 months (FCS + 12 months (EoL announcement) + 18 months (EoS) + 24 months)
+releases:
+  - releaseCycle: "16.2"
+    releaseDate: 2026-03-23
+    eoas: 2028-09-23
+    eol: 2031-03-23
+    latest: "16.2(2)"
+    latestReleaseDate: 2026-05-05
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1622.html
+
+- releaseCycle: "16.1"
+    releaseDate: 2025-10-10
+    eoas: 
+    eol: 
+    latest: "16.1(5)"
+    latestReleaseDate: 2025-12-15
+    link: https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1615.html
+
+
+> Cisco NX OS is a network operating system that is based on the Linux kernel.
+> It is used on a variety of Cisco products, primarily Nexus switches, but also MDS storage switches.
+
+Releases are time-based, each with a fixed release date.
+The schedule specifies 3 minor releases per year at 4-month intervals, with a new major (e.g. 15.1, 15.2) release in Q3 of each calendar year.
+
+Every subsequent third release (e.g. 15.1(2), 15.1(3)...) receives support within the same timeframe as it's major release.
