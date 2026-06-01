@@ -117,6 +117,7 @@ releases:
     latestReleaseDate: 2026-05-12
     link: https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/103x/epld/nxos-n9k-epld-1039M.html
 
+---
 
 > [Cisco NX-OS](https://www.cisco.com/c/en/us/products/networking-operating-systems/nx-os-software/index.html) is a network operating system that is based on the Linux kernel.
 > It is used on a variety of Cisco products, primarily Nexus switches, but also MDS storage switches.
