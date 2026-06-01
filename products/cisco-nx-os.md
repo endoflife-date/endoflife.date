@@ -10,8 +10,14 @@ alternate_urls:
 releasePolicyLink: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/nx-os-software/guide_c07-658595.html
 eoasColumn: Maintenance Support
 eolColumn: Security Support
-eosColumn: Service Support
 latestColumn: true
+
+customFields:
+  - name: eos
+    display: api-only
+    label: Service Support Ends
+    display: after-release-column
+    description: Service Support (no more software updates) from Cisco
 
 releases:
   - releaseCycle: "16.2-aci"
