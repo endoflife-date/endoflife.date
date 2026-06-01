@@ -24,26 +24,6 @@ releases:
     latestReleaseDate: 2026-01-12
     link: "https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1622.html"
 
-  - releaseCycle: "16.1-aci"
-    releaseLabel: "16.1 (ACI mode)"
-    releaseDate: 2024-08-01
-    eoas: 2027-02-28
-    eol: 2029-02-28
-    eos: 2030-02-28
-    latest: "16.1(5e)M"
-    latestReleaseDate: 2025-09-01
-    link: "https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1615.html"
-
-  - releaseCycle: "16.0-aci"
-    releaseLabel: "16.0 (ACI mode)"
-    releaseDate: 2022-07-14
-    eoas: 2025-11-30
-    eol: 2027-02-28
-    eos: 2028-02-29
-    latest: "16.0(9e)M"
-    latestReleaseDate: 2025-08-08
-    link: "https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1609.html"
-
   - releaseCycle: "10.6-nxos"
     releaseLabel: "10.6 (NX-OS mode)"
     releaseDate: 2025-08-30
@@ -64,6 +44,16 @@ releases:
     latestReleaseDate: 2026-03-13
     link: "https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/105x/release-notes/cisco-nexus-9000-nxos-release-notes-1055M.html"
 
+  - releaseCycle: "16.1-aci"
+    releaseLabel: "16.1 (ACI mode)"
+    releaseDate: 2024-08-01
+    eoas: 2027-02-28
+    eol: 2029-02-28
+    eos: 2030-02-28
+    latest: "16.1(5e)M"
+    latestReleaseDate: 2025-09-01
+    link: "https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1615.html"
+
   - releaseCycle: "10.4-nxos"
     releaseLabel: "10.4 (NX-OS mode)"
     releaseDate: 2023-08-17
@@ -83,6 +73,16 @@ releases:
     latest: "10.3(8)M"
     latestReleaseDate: 2025-07-07
     link: "https://www.cisco.com/c/en/us/td/docs/dcn/nx-os/nexus9000/103x/release-notes/cisco-nexus-9000-nxos-release-notes-1038.html"
+
+  - releaseCycle: "16.0-aci"
+    releaseLabel: "16.0 (ACI mode)"
+    releaseDate: 2022-07-14
+    eoas: 2025-11-30
+    eol: 2027-02-28
+    eos: 2028-02-29
+    latest: "16.0(9e)M"
+    latestReleaseDate: 2025-08-08
+    link: "https://www.cisco.com/c/en/us/td/docs/dcn/aci/apic/6x/release-notes/cisco-aci-nx-os-release-notes-1609.html"
 
   - releaseCycle: "10.2-nxos"
     releaseLabel: "10.2 (NX-OS mode)"
