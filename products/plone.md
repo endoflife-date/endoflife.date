@@ -32,6 +32,14 @@ auto:
         eol: "End of security support"
 
 releases:
+  - releaseCycle: "6.2"
+    pythonVersions: "3.10-3.14"
+    releaseDate: 2026-05-19
+    eoas: false
+    eol: 2027-12-31
+    latest: "6.2.0"
+    latestReleaseDate: 2026-05-19
+
   - releaseCycle: "6.1"
     pythonVersions: "3.10-3.13"
     releaseDate: 2025-02-07
