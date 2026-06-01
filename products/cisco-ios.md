@@ -37,7 +37,7 @@ releases:
     eos: 2027-06-30
     latest: "15.8(3)M9"
     latestReleaseDate: 2022-09-12
-    link: "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-15-3m-t/15-9-3-m-software-release-eol.html"
+    link: "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-15-8m-t/15-8-3m-software-release-eol.html"
 
 ---
 
