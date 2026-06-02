@@ -87,12 +87,12 @@ releases:
     releaseDate: 2019-11-04
     eoas: 2025-02-28
     eol: 2030-01-08
-    latestGdr: "15.0.2165.1"
-    latestGdrLink: https://support.microsoft.com/help/5084817
-    latest: "15.0.4465.1 CU32+GDR"
-    latestReleaseDate: 2026-04-14
+    latestGdr: "15.0.2170.1"
+    latestGdrLink: https://support.microsoft.com/help/5090408
+    latest: "15.0.4470.1 CU32+GDR"
+    latestReleaseDate: 2026-05-12
     # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
-    link: https://support.microsoft.com/help/5084816 # GDR for CU32
+    link: https://support.microsoft.com/help/5090407 # GDR for CU32
 
   - releaseCycle: "12.0-sp3"
     codename: Hekaton
