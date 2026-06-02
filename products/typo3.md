@@ -25,16 +25,16 @@ releases:
     eoas: 2027-12-31
     eol: 2029-06-30
     eoes: 2032-06-30
-    latest: "14.3.1"
-    latestReleaseDate: 2026-05-12
+    latest: "14.3.2"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "13"
     releaseDate: 2024-01-30
     eoas: 2026-06-30
     eol: 2027-12-31
     eoes: 2030-12-31
-    latest: "13.4.29"
-    latestReleaseDate: 2026-05-12
+    latest: "13.4.30"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "12"
     releaseDate: 2022-10-04

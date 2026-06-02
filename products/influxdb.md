@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "3.9"
     releaseDate: 2026-04-02
     eol: false
-    latest: "3.9.2"
-    latestReleaseDate: 2026-05-01
+    latest: "3.9.3"
+    latestReleaseDate: 2026-05-29
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
 
   - releaseCycle: "3.8"

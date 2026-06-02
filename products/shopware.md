@@ -9,6 +9,7 @@ versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 eoasColumn: true
+eolColumn: Security Support
 
 customFields:
   - name: supportedPhpVersions
@@ -27,22 +28,24 @@ auto:
     - git: https://github.com/shopware5/shopware.git # Shopware 5
 
 # eoas(x) = releaseDate(x+1)
-# eol(x) = true or the EOL date of the major release if known (patch applied through the Shopware Security Plugin).
+# eol(x) = security_eol from
+# https://raw.githubusercontent.com/shopware/shopware/refs/heads/trunk/releases.json.
+# For collapsed Shopware 6 cycles, use the latest maintained minor branch.
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
   - releaseCycle: "6.7"
-    supportedPhpVersions: 8.2 - 8.4 # https://github.com/shopware/shopware/blob/v6.7.0.0/composer.json#L64
+    supportedPhpVersions: 8.2 - 8.5 # https://github.com/shopware/shopware/blob/v6.7.10.1/composer.json#L69
     releaseDate: 2025-06-17
     eoas: false
-    eol: false # still listed on https://developer.shopware.com/release-notes/
+    eol: 2028-02-28 # security_eol for 6.7.x
     latest: "6.7.10.1"
     latestReleaseDate: 2026-05-13
 
   - releaseCycle: "6.6"
-    supportedPhpVersions: 8.2 - 8.3
+    supportedPhpVersions: 8.2 - 8.5
     releaseDate: 2024-03-21
     eoas: 2025-06-17
-    eol: false # still listed on https://developer.shopware.com/release-notes/
+    eol: 2028-02-28 # security_eol for 6.6.10.x
     latest: "6.6.10.18"
     latestReleaseDate: 2026-05-19
 
@@ -50,7 +53,8 @@ releases:
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
     eoas: 2024-03-28
-    eol: false # still listed on https://developer.shopware.com/release-notes/
+    staleReleaseThresholdDays: 500 # still listed on https://developer.shopware.com/release-notes/
+    eol: 2027-02-28 # security_eol for 6.5.8.x
     latest: "6.5.8.18"
     latestReleaseDate: 2025-05-12
 
@@ -67,7 +71,7 @@ releases:
     supportedPhpVersions: 7.4 - 8.3
     releaseDate: 2021-05-04
     eoas: 2023-05-03
-    eol: true # not listed anymore on https://developer.shopware.com/release-notes/
+    eol: 2025-05-14 # security_eol for 6.4
     latest: "6.4.20.2"
     latestReleaseDate: 2023-05-05
 
@@ -158,11 +162,10 @@ releases:
     latest: "5.0.4"
     latestReleaseDate: 2015-09-16
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
-
 ---
 
 > [Shopware](https://shopware.com) is an MIT licensed e-commerce platform written in PHP and
-> developed by Shopware AG.
+> developed by shopware AG.
 
 Shopware follows [semantic versioning](https://developer.shopware.com/release-notes/#types-of-releases),
 but starting with Shopware 6 the versioning scheme has been changed to a four-digit version number:
@@ -174,8 +177,8 @@ only receive security fixes via the [Shopware Security Plugin](https://store.sho
 and not via direct patch update. Finally, the last minor version of a major cycle gets extended
 support with selective bug fixes and security updates.
 
-Shopware 5 [will be discontinued at the end of July 2024](https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life).
-After July 2024, commercial Long-Term Support can be purchased through [the third-party vendor
+Shopware 5 [was discontinued at the end of July 2024](https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life).
+Commercial Long-Term Support can be purchased through [the third-party vendor
 safefive](https://safefive.de/en/why-safefive/).
 
 ## [PHP Compatibility](https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements)
