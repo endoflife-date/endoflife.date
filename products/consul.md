@@ -31,13 +31,13 @@ releases:
 
   - releaseCycle: "1.22"
     releaseDate: 2025-10-27
-    eol: false # releaseDate(1.25)
+    eol: false # releaseDate(2.2)
     latest: "1.22.7"
     latestReleaseDate: 2026-04-22
 
   - releaseCycle: "1.21"
     releaseDate: 2025-05-06
-    eol: false # releaseDate(1.24)
+    eol: false # releaseDate(2.1)
     latest: "1.21.5"
     latestReleaseDate: 2025-09-21
 
