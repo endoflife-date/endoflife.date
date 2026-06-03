@@ -42,8 +42,8 @@ releases:
     releaseDate: 2026-04-14 # 13.0.1 was the first version
     eoas: false
     eol: 2027-01-09
-    latest: "13.0.1+security-01"
-    latestReleaseDate: 2026-05-12
+    latest: "13.0.2"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "12.4"
     releaseDate: 2026-02-24
