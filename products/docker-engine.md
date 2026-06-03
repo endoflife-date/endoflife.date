@@ -32,7 +32,7 @@ releases:
 
   - releaseCycle: "28"
     releaseDate: 2025-02-20
-    eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+    eol: 2026-05-13 # https://github.com/moby/moby/commit/941805303910a3749ed8fa9669d078015f6f268c
     latest: "28.5.2"
     latestReleaseDate: 2025-11-05
 
