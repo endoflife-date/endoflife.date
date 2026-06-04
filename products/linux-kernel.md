@@ -12,6 +12,7 @@ versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
+eoesColumn: CIP SLTS
 
 auto:
   methods:
@@ -88,6 +89,7 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2028-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
+    eoes: 2035-06-30 # CIP SLTS, "mid of 2035" per https://www.cip-project.org/blog/2025/05/26/cip-is-now-supporting-five-slts-kernels
     latest: "6.12.96"
     latestReleaseDate: 2026-07-18
 
@@ -156,6 +158,7 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
+    eoes: 2033-08-31 # CIP SLTS, "August 2033" per CIP maintenance schedule cited at https://en.wikipedia.org/wiki/Linux_kernel_version_history
     latest: "6.1.177"
     latestReleaseDate: 2026-07-04
 
@@ -224,6 +227,7 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eoes: 2031-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle
     latest: "5.10.260"
     latestReleaseDate: 2026-07-04
 
@@ -238,6 +242,7 @@ releases:
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120520-mashing-facing-6776@gregkh/
+    eoes: 2029-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle
     latest: "4.19.325"
     latestReleaseDate: 2024-12-05
 
@@ -254,7 +259,6 @@ releases:
     eol: 2023-01-07 # announced https://lore.kernel.org/lkml/Y7lbu6%2F0P7Q%2FP3oj@kroah.com/
     latest: "4.9.337"
     latestReleaseDate: 2023-01-07
-
 ---
 
 > The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating
@@ -284,3 +288,13 @@ The "projected EOL" dates are not set in stone. Each new long-term kernel usuall
 2-year projected EOL (as opposed to the 4 months of a non-LTS release) that can be extended further
 if there is enough interest from the industry at large to [help support it](http://www.kroah.com/log/blog/2021/02/03/helping-out-with-lts-kernel-releases)
 for a longer period of time.
+
+Selected LTS branches are then picked up by the [Civil Infrastructure Platform (CIP)](https://www.cip-project.org/),
+a Linux Foundation project that backports security fixes for approximately ten years from each
+branch's original release. CIP publishes sources (no binaries) under the `-cip` tag suffix on its
+[`linux-cip` Git tree](https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip.git/); see the
+[CIP kernel maintenance policy](https://wiki.linuxfoundation.org/civilinfrastructureplatform/cipkernelmaintenance)
+for scope. Branches covered by CIP show the extended date in the **CIP SLTS** column.
+
+_[CIP]: Civil Infrastructure Platform
+_[SLTS]: Super Long Term Support
