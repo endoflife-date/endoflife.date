@@ -19,7 +19,7 @@ releases:
   - releaseCycle: "2026.1"
     releaseDate: 2026-03-31
     eol: false
-    latest: "2026.1.13701"
+    latest: "2026.1.13712"
     latestReleaseDate: 2026-06-03
 
   - releaseCycle: "2025.3"
