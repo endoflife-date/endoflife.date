@@ -51,8 +51,6 @@ releases:
     eol: 2026-03-01
     latest: "cos-113-18244-582-104"
     latestReleaseDate: 2026-05-12
-    latest: "cos-113-18244-582-104"
-    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "cos-109"
     lts: true
