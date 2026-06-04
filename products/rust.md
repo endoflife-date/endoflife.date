@@ -23,9 +23,16 @@ identifiers:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.96"
+    releaseDate: 2026-05-28
+    eol: false
+    latest: "1.96.0"
+    latestReleaseDate: 2026-05-28
+    link: https://doc.rust-lang.org/stable/releases.html#version-1960-2026-05-28
+
   - releaseCycle: "1.95"
     releaseDate: 2026-04-16
-    eol: false
+    eol: 2026-05-28
     latest: "1.95.0"
     latestReleaseDate: 2026-04-16
     link: https://doc.rust-lang.org/stable/releases.html#version-1950-2026-04-16
