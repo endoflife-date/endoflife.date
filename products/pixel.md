@@ -110,7 +110,7 @@ releases:
     releaseDate: 2024-05-14
     eoas: 2031-05-01
     eol: 2031-05-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_8a
     supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8a-12937.php
 

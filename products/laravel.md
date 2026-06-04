@@ -49,8 +49,8 @@ releases:
     eoas: 2027-09-30 #estimated, no dates yet on https://laravel.com/docs/13.x/releases#support-policy
     eol: 2028-03-17
     supportedPhpVersions: "8.3 - 8.5"
-    latest: "13.12.0"
-    latestReleaseDate: 2026-05-26
+    latest: "13.13.0"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "12"
     releaseDate: 2025-02-24
@@ -59,12 +59,16 @@ releases:
     supportedPhpVersions: "8.2 - 8.5"
     latest: "12.61.0"
     latestReleaseDate: 2026-05-26
+    latest: "12.61.0"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
+    latest: "11.54.0"
+    latestReleaseDate: 2026-05-27
     latest: "11.54.0"
     latestReleaseDate: 2026-05-27
 

@@ -18,25 +18,25 @@ auto:
       regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)'
 
 releases:
--   releaseCycle: "0.16"
+  - releaseCycle: "0.16"
     releaseDate: 2026-05-20
     eol: false # releaseDate(0.17)
-    latest: "0.16.0"
-    latestReleaseDate: 2026-05-20
+    latest: "0.16.1"
+    latestReleaseDate: 2026-05-27
 
--   releaseCycle: "0.15"
+  - releaseCycle: "0.15"
     releaseDate: 2025-06-03
     eol: 2026-05-20
     latest: "0.15.3"
     latestReleaseDate: 2025-12-04
 
--   releaseCycle: "0.14"
+  - releaseCycle: "0.14"
     releaseDate: 2024-01-29
     eol: 2025-06-03
     latest: "0.14.9"
     latestReleaseDate: 2024-12-17
 
--   releaseCycle: "0.13"
+  - releaseCycle: "0.13"
     releaseDate: 2022-07-06
     eol: 2024-01-29
     latest: "0.13.12"
