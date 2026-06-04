@@ -89,7 +89,7 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2028-12-31 # Projected EOL from https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
-    eoes: 2035-06-30 # CIP SLTS, "mid of 2035" per https://www.cip-project.org/blog/2025/05/26/cip-is-now-supporting-five-slts-kernels
+    eoes: 2035-06-30 # CIP SLTS, "mid of 2035" per https://www.cip-project.org/blog/2025/05/26/cip-is-now-supporting-five-slts-kernels (6.12 is not yet in cip-kernel.yml)
     latest: "6.12.94"
     latestReleaseDate: 2026-06-19
 
@@ -158,7 +158,7 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
-    eoes: 2033-08-31 # CIP SLTS, "August 2033" per CIP maintenance schedule cited at https://en.wikipedia.org/wiki/Linux_kernel_version_history
+    eoes: 2033-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle/-/blob/master/cip-kernel.yml
     latest: "6.1.176"
     latestReleaseDate: 2026-06-19
 
@@ -227,7 +227,7 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    eoes: 2031-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle
+    eoes: 2031-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle/-/blob/master/cip-kernel.yml
     latest: "5.10.259"
     latestReleaseDate: 2026-06-19
 
@@ -242,7 +242,7 @@ releases:
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120520-mashing-facing-6776@gregkh/
-    eoes: 2029-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle
+    eoes: 2029-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle/-/blob/master/cip-kernel.yml
     latest: "4.19.325"
     latestReleaseDate: 2024-12-05
 
