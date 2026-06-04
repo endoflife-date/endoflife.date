@@ -13,6 +13,9 @@ changelogTemplate: https://learn.microsoft.com/lifecycle/products/internet-explo
 latestColumn: false
 eolColumn: Security and technical support
 
+identifiers:
+  - cpe: cpe:2.3:a:microsoft:internet_explorer
+
 releases:
   - releaseCycle: "11" # This applies to 99% of users
     releaseDate: 2013-11-13

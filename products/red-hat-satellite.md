@@ -19,6 +19,9 @@ releaseDateColumn: General availability
 eoasColumn: Full support
 eolColumn: Maintenance support
 
+identifiers:
+  - cpe: cpe:2.3:a:redhat:satellite
+
 auto:
   methods:
     - version_table: https://access.redhat.com/articles/1365633
@@ -38,6 +41,8 @@ releases:
 
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
+    eoas: 2026-05-06
+    eol: 2027-05-01 # Estimated
     eoas: 2026-05-06
     eol: 2027-05-01 # Estimated
     latest: "6.18.5"

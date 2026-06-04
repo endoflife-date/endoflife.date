@@ -62,11 +62,15 @@ releases:
     eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     latest: "10.4.10"
     latestReleaseDate: 2026-05-20
+    latest: "10.4.10"
+    latestReleaseDate: 2026-05-20
 
   - releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: 2025-06-18 # releaseDate(11.2)
     eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    latest: "11.1.10"
+    latestReleaseDate: 2026-05-20
     latest: "11.1.10"
     latestReleaseDate: 2026-05-20
 

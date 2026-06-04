@@ -38,6 +38,7 @@ releases:
   - releaseCycle: "1.11"
     releaseDate: 2026-04-06
     eol: 2026-04-24
+    eol: 2026-04-24
     latest: "1.11.1"
     latestReleaseDate: 2026-04-09
     supportedKubernetesVersion: "1.29 - 1.35"

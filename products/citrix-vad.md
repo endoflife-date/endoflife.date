@@ -17,6 +17,9 @@ LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 eoasColumn: true
 eoesColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:a:citrix:virtual_apps_and_desktops
+
 auto:
   methods:
     - citrix-vad-rss: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss

@@ -3,18 +3,21 @@ name: Lint
 on:
   workflow_dispatch: # Manually run workflow.
   push:
-    branches: ["master"]
+    branches: ["master", "release"]
   pull_request:
-    branches: ["master"]
+    branches: ["master", "release"]
+
+permissions:
+  contents: read
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
         with:
           node-version: 20
           cache: "npm"

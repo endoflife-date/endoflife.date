@@ -13,6 +13,9 @@ changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes
 eoasColumn: true
 eolColumn: Maintenance Support
 
+identifiers:
+  - cpe: cpe:2.3:a:google:kubernetes_engine
+
 auto:
   methods:
     - google-kubernetes-engine: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel

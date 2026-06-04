@@ -47,6 +47,9 @@ releases:
     latest: "2026.1.3"
     latestReleaseDate: 2026-05-21
     link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-3-lta/182629
+    latest: "2026.1.3"
+    latestReleaseDate: 2026-05-21
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-3-lta/182629
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802

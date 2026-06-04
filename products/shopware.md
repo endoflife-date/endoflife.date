@@ -35,6 +35,7 @@ auto:
 releases:
   - releaseCycle: "6.7"
     supportedPhpVersions: 8.2 - 8.5 # https://github.com/shopware/shopware/blob/v6.7.10.1/composer.json#L69
+    supportedPhpVersions: 8.2 - 8.5 # https://github.com/shopware/shopware/blob/v6.7.10.1/composer.json#L69
     releaseDate: 2025-06-17
     eoas: false
     eol: 2028-02-28 # security_eol for 6.7.x
@@ -42,6 +43,7 @@ releases:
     latestReleaseDate: 2026-05-28
 
   - releaseCycle: "6.6"
+    supportedPhpVersions: 8.2 - 8.5
     supportedPhpVersions: 8.2 - 8.5
     releaseDate: 2024-03-21
     eoas: 2025-06-17

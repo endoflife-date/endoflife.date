@@ -14,6 +14,9 @@ changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{
 eoasColumn: Standard Support
 eolColumn: Extended Support
 
+identifiers:
+  - cpe: cpe:2.3:a:mulesoft:mule_runtime
+
 auto:
   methods:
     - release_table: https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence

@@ -8,8 +8,8 @@ permalink: /watchos
 changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
 
 identifiers:
-  - cpe: cpe:/o:apple:watch_os
-  - cpe: cpe:2.3:o:apple:watch_os
+  - cpe: cpe:/o:apple:watchos
+  - cpe: cpe:2.3:o:apple:watchos
 
 auto:
   methods:

@@ -13,6 +13,7 @@ eoasColumn: true
 identifiers:
   - repology: erlang
   - cpe: cpe:2.3:a:erlang:erlang\/otp
+  - cpe: cpe:/a:erlang:erlang%2fotp
 
 auto:
   methods:
