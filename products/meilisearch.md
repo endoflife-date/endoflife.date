@@ -35,6 +35,7 @@ releases:
     eol: 2026-05-18
     latest: "1.43.1"
     latestReleaseDate: 2026-05-12
+
   - releaseCycle: "1.42"
     releaseDate: 2026-04-13
     eol: 2026-05-04
