@@ -42,21 +42,21 @@ releases:
     link: https://docs.bell-sw.com/liberica-nik/25.0.3b1-25.0.3b12/general/release-notes/
       
   - releaseCycle: "24"
-      releaseDate: 2024-03-19
-      eol: 2025-09-24       
-      latest: "24.2.2+1-24.0.2+13"
-      latestReleaseDate: 2025-07-18
-      eoes: 2026-05-30
-      link: https://docs.bell-sw.com/liberica-nik/24.2.2b1-24.0.2b13/general/release-notes/
+    releaseDate: 2024-03-19
+    eol: 2025-09-24       
+    latest: "24.2.2+1-24.0.2+13"
+    latestReleaseDate: 2025-07-18
+    eoes: 2026-05-30
+    link: https://docs.bell-sw.com/liberica-nik/24.2.2b1-24.0.2b13/general/release-notes/
   
-    - releaseCycle: "23"
-      lts: true
-      releaseDate: 2023-03-21
-      eol: false
-      latest: "23.1.11+1-21.0.11+12"  
-      latestReleaseDate: 2026-04-30
-      eoes: 2027-04-30    
-      link: https://docs.bell-sw.com/liberica-nik/23.1.11b1-21.0.11b12/general/release-notes/
+  - releaseCycle: "23"
+    lts: true
+    releaseDate: 2023-03-21
+    eol: false
+    latest: "23.1.11+1-21.0.11+12"  
+    latestReleaseDate: 2026-04-30
+    eoes: 2027-04-30    
+    link: https://docs.bell-sw.com/liberica-nik/23.1.11b1-21.0.11b12/general/release-notes/
 
 ---
 
