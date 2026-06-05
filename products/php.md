@@ -28,8 +28,8 @@ releases:
     releaseDate: 2025-11-20
     eoas: 2027-12-31
     eol: 2029-12-31
-    latest: "8.5.6"
-    latestReleaseDate: 2026-05-07
+    latest: "8.5.7"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "8.4"
     releaseDate: 2024-11-21
