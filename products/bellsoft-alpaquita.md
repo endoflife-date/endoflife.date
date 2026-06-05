@@ -9,7 +9,7 @@ alternate_urls:
   - /alpaquita-linux
 versionCommand: cat /etc/alpaquita-release
 releasePolicyLink: https://bell-sw.com/alpaquita-support/
-changelogTemplate: "https://docs.bell-sw.com/alpaquita-linux/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
+changelogTemplate: "https://docs.bell-sw.com/alpaquita-linux/__RELEASE_CYCLE__-lts/general/release-notes/"
 eolColumn: Commercial support
 
 identifiers:
