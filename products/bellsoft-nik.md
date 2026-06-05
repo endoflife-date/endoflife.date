@@ -37,6 +37,8 @@ releases:
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-24
+    eol: false
+    latestReleaseDate: 2026-04-30
     latest: "25.0.3+1-25.0.3+12"
     eoes: 2027-04-30
     link: https://docs.bell-sw.com/liberica-nik/25.0.3b1-25.0.3b12/general/release-notes/
