@@ -32,6 +32,7 @@ releases:
     eol: 2031-01-01
     latest: "25"
     latestReleaseDate: 2025-01-01
+    link: https://docs.bell-sw.com/alpaquita-linux/25-lts/general/release-notes/
 
   - releaseCycle: "23"
     lts: true
@@ -39,6 +40,7 @@ releases:
     eol: 2026-01-01
     latest: "23"
     latestReleaseDate: 2023-01-01
+    link: https://docs.bell-sw.com/alpaquita-linux/23-lts/general/release-notes/
 
 ---
 
