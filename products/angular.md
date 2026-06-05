@@ -30,6 +30,14 @@ auto:
         eol: "LTS ends"
 
 releases:
+  - releaseCycle: "22"
+    releaseDate: 2026-06-03
+    eoas: false # no date yet on https://angular.dev/reference/releases#actively-supported-versions
+    eol: false # no date yet on https://angular.dev/reference/releases#actively-supported-versions
+    eoes: false
+    latest: "22.0.0"
+    latestReleaseDate: 2026-06-03
+
   - releaseCycle: "21"
     releaseDate: 2025-11-19
     eoas: 2026-06-03
