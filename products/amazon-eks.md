@@ -31,6 +31,14 @@ auto:
         eoes: "End of extended support"
 
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-02
+    eol: 2027-08-02
+    eoes: 2028-08-02
+    latest: "1.36-eks-3"
+    latestReleaseDate: 2026-06-02
+    link: https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36/
+
   - releaseCycle: "1.35"
     releaseDate: 2026-01-28
     eol: 2027-03-27
