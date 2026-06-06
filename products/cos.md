@@ -26,7 +26,7 @@ auto:
 releases:
   - releaseCycle: "cos-129"
     lts: true
-    releaseDate: 2025-05-21
+    releaseDate: 2026-05-21
     eol: 2028-03-01
     latest: "cos-129-19506-224-7"
     latestReleaseDate: 2026-06-01
