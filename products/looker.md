@@ -34,7 +34,7 @@ auto:
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
   - releaseCycle: "26.10"
-    releaseDate: 2026-06-07
+    releaseDate: 2026-06-04
     eol: 2026-08-31
     link: https://docs.cloud.google.com/looker/docs/release-notes#June_04_2026
 
