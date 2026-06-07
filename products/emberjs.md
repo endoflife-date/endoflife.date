@@ -43,7 +43,7 @@ releases:
     releaseDate: 2026-05-29
     eoas: false
     eol: false
-    latest: "6.11.1"
+    latest: "7.0.0"
     latestReleaseDate: 2026-03-27
     link: https://blog.emberjs.com/ember-released-6-11/
   
@@ -52,7 +52,7 @@ releases:
     eoas: 2026-12-08
     eol: 2027-05-25
     lts: 2026-05-29
-    latest: "6.11.1"
+    latest: "6.12.0"
     latestReleaseDate: 2026-05-01
     link: https://blog.emberjs.com/ember-released-6-12/
     
