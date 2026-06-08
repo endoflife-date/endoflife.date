@@ -23,6 +23,13 @@ auto:
 
 # eoes(x) = eol(x) + 3 years
 releases:
+  - releaseCycle: "8.4"
+    releaseDate: 2024-04-30
+    eol: 2032-04-01
+    eoes: false
+    latest: "8.4.7"
+    latestReleaseDate: 2026-05-21
+    
   - releaseCycle: "8.0"
     releaseDate: 2022-04-15
     eol: 2028-04-30
