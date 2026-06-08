@@ -40,15 +40,15 @@ releases:
     releaseDate: 2026-04-28
     eol: 2026-11-03
     minK8sVersion: "1.34"
-    latest: "1.22.0"
-    latestReleaseDate: 2026-04-28
+    latest: "1.22.1"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "1.21"
     releaseDate: 2026-01-27
     eol: 2026-08-04
     minK8sVersion: "1.33"
-    latest: "1.21.2"
-    latestReleaseDate: 2026-03-24
+    latest: "1.21.3"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "1.20"
     releaseDate: 2025-10-21
