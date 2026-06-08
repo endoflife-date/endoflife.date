@@ -37,7 +37,6 @@ releases:
     eol: 2025-06-14
     latest: "0.8.7"
     latestReleaseDate: 2024-03-04
-
 ---
 
 > [Garage](https://garagehq.deuxfleurs.fr/) is a lightweight, open-source distributed object

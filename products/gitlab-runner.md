@@ -114,7 +114,6 @@ releases:
     eol: 2025-08-21 # releaseDate(18.3)
     latest: "18.0.0"
     latestReleaseDate: 2025-05-14
-
 ---
 
 > [GitLab Runner](https://docs.gitlab.com/runner/) is the open-source agent that runs CI/CD jobs

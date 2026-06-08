@@ -62,7 +62,6 @@ releases:
     eol: 2024-09-03
     latest: "2.5.0"
     latestReleaseDate: 2024-05-31
-
 ---
 
 > [Grafana Tempo](https://grafana.com/oss/tempo/) is an open-source, high-volume distributed

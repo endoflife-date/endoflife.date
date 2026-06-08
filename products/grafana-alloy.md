@@ -76,7 +76,6 @@ releases:
     eol: 2025-06-02
     latest: "1.8.3"
     latestReleaseDate: 2025-05-05
-
 ---
 
 > [Grafana Alloy](https://grafana.com/docs/alloy/latest/) is an open-source,

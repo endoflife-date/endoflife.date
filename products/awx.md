@@ -67,7 +67,6 @@ releases:
     eol: 2024-03-12
     latest: "23.9.0"
     latestReleaseDate: 2024-02-27
-
 ---
 
 > [AWX](https://github.com/ansible/awx) provides a web-based user interface, REST API, and task
@@ -78,5 +77,6 @@ AWX is a rolling-release project. Only the latest release is supported. Releases
 frequently and users are expected to upgrade to the latest version.
 
 {: .warning }
+
 > As of July 2024, AWX releases are **paused** during a large-scale architectural refactoring.
 > See the [AWX Forum](https://forum.ansible.com/tag/awx) for updates.
