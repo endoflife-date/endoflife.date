@@ -39,7 +39,7 @@ releases:
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
-    eol: false
+    eol: 2026-05-26
     latest: "9.3.5"
     latestReleaseDate: 2026-05-25
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
