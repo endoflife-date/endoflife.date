@@ -56,8 +56,8 @@ releases:
     minJavaVersion: "8"
     supportedRubyVersion: "3.1"
     eol: false
-    latest: "9.4.14.0"
-    latestReleaseDate: 2025-08-28
+    latest: "9.4.15.0"
+    latestReleaseDate: 2026-06-08
 
   - releaseCycle: "9.3"
     releaseDate: 2021-09-22
