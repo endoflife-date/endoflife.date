@@ -43,7 +43,7 @@ identifiers:
 releases:
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
-    eoas: 2026-07-31
+    eoas: 2026-06-30
     eol: 2026-07-31
     latest: "3007.14"
     latestReleaseDate: 2026-04-29
@@ -52,8 +52,8 @@ releases:
   - releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
-    eoas: 2026-07-31
-    eol: 2027-07-31
+    eoas: 2027-06-30
+    eol: 2028-06-30
     latest: "3006.25"
     latestReleaseDate: 2026-05-13
 
