@@ -29,6 +29,9 @@ auto:
     - git: https://github.com/elastic/elasticsearch.git
 
 # For EOL, see https://www.elastic.co/support/eol
+# eol(x.last-minor) = max(releaseDate+30m, releaseDate(x+y.0)+18m)
+# eol(x.not-last-minor) = latestReleaseDate(x.y)
+
 releases:
   - releaseCycle: "9.4"
     releaseDate: 2026-05-05
