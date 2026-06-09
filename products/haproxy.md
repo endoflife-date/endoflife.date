@@ -28,7 +28,7 @@ identifiers:
 # eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
   - releaseCycle: "3.4"
-    releaseDate: 2025-06-06
+    releaseDate: 2025-06-03
     lts: true
     eol: 2031-04-01
     latest: "3.4.0"
