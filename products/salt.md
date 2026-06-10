@@ -41,13 +41,13 @@ identifiers:
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 # - other: see changelogTemplate
 releases:
-  - releaseCycle: "3007"
+  - releaseCycle: "3008"
+    lts: true
     releaseDate: 2026-05-27
     eoas: 2027-06-30
-    eol: 2028-07-31
+    eol: 2028-06-30
     latest: "3008.0"
     latestReleaseDate: 2026-05-27
-    link: https://github.com/saltstack/salt/blob/3008.x/CHANGELOG.md
 
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
