@@ -23,26 +23,33 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))
 releases:
+  - releaseCycle: "29"
+    releaseDate: 2026-05-11
+    eoas: false
+    eol: 2029-05-11 # projected
+    latest: "29.0.1"
+    latestReleaseDate: 2026-05-26
+
   - releaseCycle: "28"
     releaseDate: 2025-05-20
-    eoas: false
+    eoas: 2026-05-11
     eol: 2028-05-20 # projected
-    latest: "28.5"
-    latestReleaseDate: 2026-04-23
+    latest: "28.5.0.1"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "27"
     releaseDate: 2024-05-17
     eoas: 2025-05-20
     eol: 2027-05-20 # projected
-    latest: "27.3.4.11"
-    latestReleaseDate: 2026-04-20
+    latest: "27.3.4.12"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: 2024-05-17
-    eol: 2026-05-15 # projected
-    latest: "26.2.5.20"
-    latestReleaseDate: 2026-04-20
+    eol: 2026-05-26
+    latest: "26.2.5.21"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "25"
     releaseDate: 2022-05-17
@@ -61,14 +68,14 @@ releases:
   - releaseCycle: "23"
     releaseDate: 2020-05-11
     eoas: 2021-05-10
-    eol: 2023-06-05
+    eol: 2024-03-14
     latest: "23.3.4.20"
     latestReleaseDate: 2024-03-14
 
   - releaseCycle: "22"
     releaseDate: 2019-05-10
     eoas: 2020-05-11
-    eol: 2022-05-10
+    eol: 2024-03-18
     latest: "22.3.4.27"
     latestReleaseDate: 2024-03-18
 

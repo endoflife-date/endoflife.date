@@ -20,19 +20,26 @@ identifiers:
   - purl: pkg:maven/io.micronaut/micronaut-core
 
 releases:
-  - releaseCycle: "4"
-    releaseDate: 2023-07-11
+  - releaseCycle: "5"
+    releaseDate: 2026-05-13
     eoas: false
     eol: false
-    latest: "4.10.23"
-    latestReleaseDate: 2026-05-06
+    latest: "5.0.2"
+    latestReleaseDate: 2026-06-03
+
+  - releaseCycle: "4"
+    releaseDate: 2023-07-11
+    eoas: 2026-05-13
+    eol: false # not announced yet
+    latest: "4.10.25"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "3"
     releaseDate: 2021-08-18
     eoas: 2023-07-11
-    eol: 2025-03-23 # latestReleaseDate + 1 year
-    latest: "3.10.6"
-    latestReleaseDate: 2026-04-28
+    eol: false # not announced yet
+    latest: "3.10.8"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "2"
     releaseDate: 2020-06-26

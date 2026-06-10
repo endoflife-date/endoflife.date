@@ -43,8 +43,8 @@ releases:
     releaseDate: 2026-03-16
     eol: false
     eoes: false
-    latest: "7.3.4"
-    latestReleaseDate: 2026-05-10
+    latest: "7.3.8"
+    latestReleaseDate: 2026-06-07
 
   - releaseCycle: "7.2"
     supportedJavaVersions: "17, 21 or 25"
@@ -52,8 +52,8 @@ releases:
     releaseDate: 2025-10-08
     eol: 2026-03-16
     eoes: false
-    latest: "7.2.14"
-    latestReleaseDate: 2026-05-10
+    latest: "7.2.19"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 25"
@@ -61,8 +61,8 @@ releases:
     releaseDate: 2025-08-08
     eol: 2025-10-08
     eoes: false
-    latest: "7.1.26"
-    latestReleaseDate: 2026-05-10
+    latest: "7.1.30"
+    latestReleaseDate: 2026-06-07
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"
@@ -79,8 +79,8 @@ releases:
     releaseDate: 2024-08-08
     eol: true
     eoes: false
-    latest: "6.6.50"
-    latestReleaseDate: 2026-05-03
+    latest: "6.6.53"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "6.5"
     supportedJavaVersions: "11, 17, 21, 22 or 23"

@@ -6,6 +6,7 @@ tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+eoasColumn: Minor Standard Support
 eoesColumn: Extended Support
 
 auto:
@@ -22,24 +23,138 @@ auto:
         eol: "RDS end of standard support date"
         eoes: "RDS end of Extended Support date"
 
-# eoes(x) = eol(x) + 3 years
 releases:
-  - releaseCycle: "8.4"
-    releaseDate: 2024-11-21
+  - releaseCycle: "8.4.9"
+    releaseDate: 2026-04-21
+    eoas: 2027-05-08
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.9"
+    latestReleaseDate: 2026-05-08
+
+  - releaseCycle: "8.0.46"
+    releaseDate: 2026-04-21
+    eoas: 2026-07-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.46"
+    latestReleaseDate: 2026-05-08
+
+  - releaseCycle: "8.4.8"
+    releaseDate: 2026-01-20
+    eoas: 2027-02-03
     eol: 2029-07-31
     eoes: 2032-07-31
     latest: "8.4.8"
     latestReleaseDate: 2026-02-03
 
-  - releaseCycle: "8.0"
-    releaseDate: 2018-10-23
+  - releaseCycle: "8.0.45"
+    releaseDate: 2026-01-20
+    eoas: 2026-07-31
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.45"
     latestReleaseDate: 2026-02-03
 
+  - releaseCycle: "8.4.7"
+    releaseDate: 2025-10-21
+    eoas: 2026-11-30
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.7"
+    latestReleaseDate: 2025-11-13
+
+  - releaseCycle: "8.0.44"
+    releaseDate: 2025-10-21
+    eoas: 2026-07-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.44"
+    latestReleaseDate: 2025-11-13
+
+  - releaseCycle: "8.4.6"
+    releaseDate: 2025-07-22
+    eoas: 2026-09-30
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.6"
+    latestReleaseDate: 2025-08-01
+
+  - releaseCycle: "8.0.43"
+    releaseDate: 2025-07-22
+    eoas: 2026-07-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.43"
+    latestReleaseDate: 2025-08-01
+
+  - releaseCycle: "8.4.5"
+    releaseDate: 2025-04-15
+    eoas: 2026-09-30
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.5"
+    latestReleaseDate: 2025-04-29
+
+  - releaseCycle: "8.0.42"
+    releaseDate: 2025-04-15
+    eoas: 2026-07-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.42"
+    latestReleaseDate: 2025-04-29
+
+  - releaseCycle: "8.4.4"
+    releaseDate: 2025-01-21
+    eoas: 2026-05-31
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.4"
+    latestReleaseDate: 2025-02-19
+
+  - releaseCycle: "8.0.41"
+    releaseDate: 2025-01-21
+    eoas: 2026-05-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.41"
+    latestReleaseDate: 2025-02-19
+
+  - releaseCycle: "8.4"
+    releaseDate: 2024-11-21
+    eoas: 2029-07-31
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.9"
+    latestReleaseDate: 2026-05-08
+
+  - releaseCycle: "8.4.3"
+    releaseDate: 2024-10-15
+    eoas: 2026-05-31
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.4.3"
+    latestReleaseDate: 2024-11-21
+
+  - releaseCycle: "8.0.40"
+    releaseDate: 2024-10-15
+    eoas: 2026-05-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.40"
+    latestReleaseDate: 2024-11-13
+
+  - releaseCycle: "8.0"
+    releaseDate: 2018-10-23
+    eoas: 2026-07-31
+    eol: 2026-07-31
+    eoes: 2029-07-31
+    latest: "8.0.46"
+    latestReleaseDate: 2026-05-08
+
   - releaseCycle: "5.7"
     releaseDate: 2016-02-22
+    eoas: 2024-02-29
     eol: 2024-02-29
     eoes: 2027-02-28
     latest: "5.7.44"
@@ -47,11 +162,11 @@ releases:
 
   - releaseCycle: "5.6"
     releaseDate: 2013-07-01
+    eoas: 2022-03-01
     eol: 2022-03-01
     eoes: true
     latest: "5.6"
     latestReleaseDate: 2013-07-01
-
 ---
 
 > [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for

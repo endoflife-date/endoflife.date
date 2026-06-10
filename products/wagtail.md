@@ -31,11 +31,11 @@ auto:
 releases:
   - releaseCycle: "7.4"
     lts: true
-    releaseDate: 2026-05-05
+    releaseDate: 2026-05-04
     eoas: 2027-11-02
     eol: 2027-11-02
-    latest: "7.4"
-    latestReleaseDate: 2026-05-05
+    latest: "7.4.1"
+    latestReleaseDate: 2026-05-19
 
   - releaseCycle: "7.3"
     releaseDate: 2026-02-02
@@ -319,7 +319,8 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 
 | Wagtail release | Compatible Django versions | Compatible Python versions |
 | --------------- | -------------------------- | -------------------------- |
-| 7.1             | 4.2, 5.1, 5.2              | 3.9-3.13                   |
+| 7.4 LTS         | 5.2, 6.0                   | 3.10-3.14                  |
+| 7.3             | 4.2, 5.2, 6.0              | 3.10-3.14                  |
 | 7.0 LTS         | 4.2, 5.1, 5.2              | 3.9-3.13                   |
 | 6.3 LTS         | 4.2, 5.0, 5.1, 5.2         | 3.9-3.12                   |
 

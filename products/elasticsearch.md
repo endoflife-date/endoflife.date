@@ -29,24 +29,34 @@ auto:
     - git: https://github.com/elastic/elasticsearch.git
 
 # For EOL, see https://www.elastic.co/support/eol
+# eol(x.last-minor) = max(releaseDate+30m, releaseDate(x+y.0)+18m)
+# eol(x.not-last-minor) = latestReleaseDate(x.y)
+
 releases:
+  - releaseCycle: "9.4"
+    releaseDate: 2026-05-05
+    eol: false
+    latest: "9.4.2"
+    latestReleaseDate: 2026-05-25
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
+
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
-    eol: false
-    latest: "9.3.4"
-    latestReleaseDate: 2026-04-22
+    eol: 2026-05-26
+    latest: "9.3.5"
+    latestReleaseDate: 2026-05-25
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
-    eol: false
+    eol: 2026-05-05
     latest: "9.2.8"
     latestReleaseDate: 2026-04-02
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
     releaseDate: 2025-07-23
-    eol: 2026-01-08
+    eol: 2026-02-03
     latest: "9.1.10"
     latestReleaseDate: 2026-01-08
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-__LATEST__-release-notes
@@ -54,8 +64,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-23
     eol: 2027-07-15
-    latest: "8.19.15"
-    latestReleaseDate: 2026-04-28
+    latest: "8.19.16"
+    latestReleaseDate: 2026-05-25
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-10
