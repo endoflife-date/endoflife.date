@@ -21,6 +21,22 @@ customFields:
 # All links can be found on https://support.apple.com/HT201471.
 # All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
 releases:
+  - releaseCycle: "air-8-11"
+    releaseLabel: "iPad Air 11-inch (M4)"
+    releaseDate: 2026-03-11
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/126471
+    supportedIpadOsVersions: "26"
+
+  - releaseCycle: "air-8-13"
+    releaseLabel: "iPad Air 13-inch (M4)"
+    releaseDate: 2026-03-11
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/126472
+    supportedIpadOsVersions: "26"
+
   - releaseCycle: "pro-8-11"
     releaseLabel: "iPad Pro 11-inch (M5)"
     releaseDate: 2025-10-22
