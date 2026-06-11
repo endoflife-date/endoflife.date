@@ -36,7 +36,7 @@ releases:
 
   - releaseCycle: "1.9"
     releaseDate: 2025-05-27
-    eol: 2026-12-27
+    eol: 2026-11-27
     latest: "1.9.2"
     latestReleaseDate: 2025-09-24
 
