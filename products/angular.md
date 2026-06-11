@@ -35,24 +35,24 @@ releases:
     eoas: false # no date yet on https://angular.dev/reference/releases#actively-supported-versions
     eol: false # no date yet on https://angular.dev/reference/releases#actively-supported-versions
     eoes: false
-    latest: "22.0.0"
-    latestReleaseDate: 2026-06-03
+    latest: "22.0.1"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "21"
     releaseDate: 2025-11-19
     eoas: 2026-06-03
     eol: 2027-05-19
     eoes: false
-    latest: "21.2.16"
-    latestReleaseDate: 2026-06-03
+    latest: "21.2.17"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "20"
     releaseDate: 2025-05-28
     eoas: 2025-11-19
     eol: 2026-11-28
     eoes: false
-    latest: "20.3.24"
-    latestReleaseDate: 2026-06-02
+    latest: "20.3.25"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
