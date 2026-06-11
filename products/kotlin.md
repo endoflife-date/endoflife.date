@@ -21,15 +21,21 @@ auto:
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
+  - releaseCycle: "2.4"
+    releaseDate: 2026-06-03
+    eol: false # releaseDate ( 2.5 )
+    latest: "2.4.0"
+    latestReleaseDate: 2026-06-03
+
   - releaseCycle: "2.3"
     releaseDate: 2025-12-16
-    eol: false
+    eol: 2026-06-03
     latest: "2.3.21"
     latestReleaseDate: 2026-04-23
 
   - releaseCycle: "2.2"
     releaseDate: 2025-06-23
-    eol: 2025-12-16 # releaseDate(2.3)
+    eol: 2025-12-16
     latest: "2.2.21"
     latestReleaseDate: 2025-10-23
 
@@ -52,40 +58,40 @@ releases:
     latestReleaseDate: 2024-07-19
 
   - releaseCycle: "1.8"
+    releaseDate: 2022-12-28
     eol: 2023-07-06
     latest: "1.8.22"
     latestReleaseDate: 2023-06-08
-    releaseDate: 2022-12-28
 
   - releaseCycle: "1.7"
+    releaseDate: 2022-06-09
     eol: 2022-12-28
     latest: "1.7.22"
     latestReleaseDate: 2022-11-28
-    releaseDate: 2022-06-09
 
   - releaseCycle: "1.6"
+    releaseDate: 2021-11-15
     eol: 2022-06-09
     latest: "1.6.21"
     latestReleaseDate: 2022-04-20
-    releaseDate: 2021-11-15
 
   - releaseCycle: "1.5"
+    releaseDate: 2021-04-26
     eol: 2021-11-29
     latest: "1.5.32"
     latestReleaseDate: 2021-11-29
-    releaseDate: 2021-04-26
 
   - releaseCycle: "1.4"
+    releaseDate: 2020-08-14
     eol: 2021-04-26
     latest: "1.4.32"
     latestReleaseDate: 2021-03-30
-    releaseDate: 2020-08-14
 
   - releaseCycle: "1.3"
+    releaseDate: 2018-10-29
     eol: 2020-08-14
     latest: "1.3.72"
     latestReleaseDate: 2020-04-15
-    releaseDate: 2018-10-29
 
 ---
 

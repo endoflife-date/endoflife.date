@@ -49,22 +49,22 @@ releases:
     releaseDate: 2026-02-24
     eoas: 2026-04-17
     eol: 2027-05-24
-    latest: "12.4.3+security-02"
-    latestReleaseDate: 2026-05-12
+    latest: "12.4.4"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "12.3"
     releaseDate: 2025-11-19
     eoas: 2026-02-24
     eol: 2026-08-19
-    latest: "12.3.6+security-04"
-    latestReleaseDate: 2026-05-12
+    latest: "12.3.7"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "12.2"
     releaseDate: 2025-09-23
     eoas: 2025-11-19
     eol: 2026-06-23
-    latest: "12.2.8+security-04"
-    latestReleaseDate: 2026-05-12
+    latest: "12.2.9"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "12.1"
     releaseDate: 2025-07-22
@@ -84,8 +84,8 @@ releases:
     releaseDate: 2025-03-25
     eoas: 2025-05-05
     eol: 2026-06-25
-    latest: "11.6.14+security-04"
-    latestReleaseDate: 2026-05-12
+    latest: "11.6.15"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "11.5"
     releaseDate: 2025-01-28
