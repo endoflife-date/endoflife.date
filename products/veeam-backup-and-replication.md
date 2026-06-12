@@ -32,8 +32,8 @@ releases:
     eoas: 2025-09-03
     eol: 2027-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.2.4465"
-    latestReleaseDate: 2026-03-12
+    latest: "12.3.2.4854"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "11"
     releaseDate: 2021-02-11

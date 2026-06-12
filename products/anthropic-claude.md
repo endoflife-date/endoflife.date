@@ -40,6 +40,13 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-opus-4-8"
+    releaseLabel: Claude Opus 4.8
+    releaseDate: 2026-05-28
+    eoas: false
+    eol: 2027-05-28
+    recommendedReplacement: "N/A"
+
   - releaseCycle: "claude-opus-4-7"
     releaseLabel: Claude Opus 4.7
     releaseDate: 2026-04-16
@@ -88,9 +95,9 @@ releases:
   - releaseCycle: "claude-opus-4-1-20250805"
     releaseLabel: Claude Opus 4.1
     releaseDate: 2025-08-05
-    eoas: false
+    eoas: 2026-06-05
     eol: 2026-08-05
-    recommendedReplacement: "N/A"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-opus-4-1
 
   - releaseCycle: "claude-sonnet-4-20250514"
