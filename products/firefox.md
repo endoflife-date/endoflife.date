@@ -29,14 +29,14 @@ auto:
 # The next ESR / LTS is not yet planned.
 releases:
   - releaseCycle: "152"
-    releaseDate: 2026-06-15
+    releaseDate: 2026-06-16
     eol: false
     latest: "152.0"
-    latestReleaseDate: 2026-06-15
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "151"
     releaseDate: 2026-05-18
-    eol: 2026-06-15
+    eol: 2026-06-16
     latest: "151.0.4"
     latestReleaseDate: 2026-06-09
 
