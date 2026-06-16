@@ -28,7 +28,7 @@ identifiers:
 releases:
   - releaseCycle: "17"
     apiVersion: "37"
-    codename: Cinnamon Bu
+    codename: Cinnamon Bun
     releaseDate: 2026-06-16
     eol: false
 
