@@ -23,14 +23,14 @@ identifiers:
 releases:
 -   releaseCycle: "2.5"
     releaseDate: 2026-04-28
-    eol: false
+    eol: 2028-04-28
     latest: "2.5"
     latestReleaseDate: 2026-04-28
     link: https://checkmk.com/product/latest-version
 
 -   releaseCycle: "2.4"
     releaseDate: 2025-05-06
-    eol: false
+    eol: 2027-11-06
     latest: "2.4"
     latestReleaseDate: 2025-05-06
     link: https://checkmk.com/company/newsroom/checkmk-24-integrates-opentelemetry-and-synthetic-testing

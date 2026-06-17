@@ -22,9 +22,15 @@ auto:
 # non-LTS : eol(x) = releaseDate(x+1)
 # LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
 releases:
+  - releaseCycle: "2.8"
+    releaseDate: 2026-05-22
+    eol: false
+    latest: "2.8.3"
+    latestReleaseDate: 2026-06-11
+
   - releaseCycle: "2.7"
     releaseDate: 2026-02-25
-    eol: false
+    eol: 2026-05-22
     latest: "2.7.14"
     latestReleaseDate: 2026-04-28
 

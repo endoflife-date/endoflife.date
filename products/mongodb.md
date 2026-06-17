@@ -32,6 +32,8 @@ auto:
     - git: https://github.com/mongodb/mongo.git
       regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
     - release_table: https://www.mongodb.com/legal/support-policy/lifecycles
+      render_javascript: true
+      render_javascript_wait_for: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:

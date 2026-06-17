@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2021-10-29
     eol: false
-    latest: "9.5.1"
-    latestReleaseDate: 2026-05-19
+    latest: "9.5.2"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "8"
     releaseDate: 2016-12-01
@@ -48,6 +48,7 @@ releases:
     latest: "5.6.4.0"
     latestReleaseDate: 2019-02-26
     link: "https://documentation.concretecms.org/9-x/developers/introduction/version-history/5640"
+
 
 
 

@@ -28,9 +28,9 @@ releases:
   - releaseCycle: "7"
     eol: false
     supportedPHPVersions: ">=7.2.5, <8.6"
-    latest: "7.10.5"
+    latest: "7.11.2"
     releaseDate: 2020-06-27
-    latestReleaseDate: 2026-05-27
+    latestReleaseDate: 2026-06-12
 
   - releaseCycle: "6"
     eol: 2023-10-31

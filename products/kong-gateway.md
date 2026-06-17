@@ -35,8 +35,8 @@ releases:
     releaseDate: 2024-12-12
     eol: false
     eoes: 2025-12-12
-    latest: "3.9.1"
-    latestReleaseDate: 2025-06-04
+    latest: "3.9.2"
+    latestReleaseDate: 2026-06-04
 
   - releaseCycle: "3.8"
     releaseDate: 2024-09-09
@@ -110,6 +110,7 @@ releases:
     eoes: 2025-03-01
     latest: "2.8.5"
     latestReleaseDate: 2024-06-24
+
 ---
 
 > [Kong Gateway](https://konghq.com/products/kong-gateway) (also known as _Kong_ or
