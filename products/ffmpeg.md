@@ -29,8 +29,8 @@ releases:
     codename: Hoare
     releaseDate: 2026-03-16
     eol: false
-    latest: "8.1.1"
-    latestReleaseDate: 2026-05-04
+    latest: "8.1.2"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "8.0"
     codename: Huffman

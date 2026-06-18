@@ -46,22 +46,22 @@ auto:
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 releases:
   - releaseCycle: "8.3"
-    releaseDate: 2026-05-04
+    releaseDate: 2026-05-31
     eol: 2029-10-31
-    latest: "8.3.1"
-    latestReleaseDate: 2026-05-04
+    latest: "8.3.4"
+    latestReleaseDate: 2026-06-15
     link: https://www.mongodb.com/docs/manual/release-notes/8.3/ # todo: check if this can be removed after 8.4 release
 
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
-    releaseDate: 2025-09-17
+    releaseDate: 2025-09-30
     eol: 2026-07-31
-    latest: "8.2.6"
-    latestReleaseDate: 2026-03-18
+    latest: "8.2.11"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "8.1"
     releaseLabel: "8.1 (Rapid Release)"
-    releaseDate: 2025-06-20
+    releaseDate: 2025-06-30
     eol: 2025-09-30
     latest: "8.1.3"
     latestReleaseDate: 2025-08-08
@@ -70,26 +70,26 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.21"
-    latestReleaseDate: 2026-04-29
+    latest: "8.0.26"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
-    releaseDate: 2024-03-27
-    eol: 2024-10-31
+    releaseDate: 2024-03-31
+    eol: 2024-10-02
     latest: "7.3.4"
     latestReleaseDate: 2024-08-14
 
   - releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
-    releaseDate: 2024-01-23
+    releaseDate: 2024-01-31
     eol: 2024-03-27
     latest: "7.2.2"
     latestReleaseDate: 2024-02-28
 
   - releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
-    releaseDate: 2023-10-18
+    releaseDate: 2023-10-31
     eol: 2024-01-23
     latest: "7.1.1"
     latestReleaseDate: 2023-11-16
@@ -97,12 +97,12 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.32"
-    latestReleaseDate: 2026-04-29
+    latest: "7.0.37"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
-    releaseDate: 2023-04-24
+    releaseDate: 2023-04-30
     eol: 2023-08-31
     latest: "6.3.2"
     latestReleaseDate: 2023-06-28
@@ -110,7 +110,7 @@ releases:
 
   - releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
-    releaseDate: 2023-02-09
+    releaseDate: 2023-02-28
     eol: 2023-04-24
     latest: "6.2.1"
     latestReleaseDate: 2023-02-28
@@ -118,7 +118,7 @@ releases:
 
   - releaseCycle: "6.1"
     releaseLabel: "6.1 (Rapid Release)"
-    releaseDate: 2022-10-12
+    releaseDate: 2022-10-31
     eol: 2023-02-09
     latest: "6.1.1"
     latestReleaseDate: 2023-01-03
@@ -127,20 +127,20 @@ releases:
   - releaseCycle: "6.0"
     releaseDate: 2022-07-31
     eol: 2025-07-31
-    latest: "6.0.27"
-    latestReleaseDate: 2025-12-23
+    latest: "6.0.29"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
-    releaseDate: 2022-03-23
-    eol: 2022-07-31
+    releaseDate: 2022-03-31
+    eol: 2022-07-19
     latest: "5.3.2"
     latestReleaseDate: 2022-06-15
     link: https://web.archive.org/web/20240117081126/http://www.mongodb.com/docs/manual/release-notes/5.3/
 
   - releaseCycle: "5.2"
     releaseLabel: "5.2 (Rapid Release)"
-    releaseDate: 2022-01-18
+    releaseDate: 2022-01-31
     eol: 2022-03-23
     latest: "5.2.1"
     latestReleaseDate: 2022-02-17
@@ -148,8 +148,8 @@ releases:
 
   - releaseCycle: "5.1"
     releaseLabel: "5.1 (Rapid Release)"
-    releaseDate: 2021-11-09
-    eol: 2022-01-18
+    releaseDate: 2021-11-30
+    eol: 2022-01-19
     latest: "5.1.1"
     latestReleaseDate: 2021-12-01
     link: https://web.archive.org/web/20240222034545/http://www.mongodb.com/docs/manual/release-notes/5.1/
@@ -157,8 +157,8 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2021-07-31
     eol: 2024-10-31
-    latest: "5.0.32"
-    latestReleaseDate: 2025-12-23
+    latest: "5.0.34"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "4.4"
     releaseDate: 2020-07-31
