@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
-    latest: "4.0.2"
-    latestReleaseDate: 2026-02-02
+    latest: "4.0.3"
+    latestReleaseDate: 2026-06-08
 
   - releaseCycle: "3.5"
     lts: true

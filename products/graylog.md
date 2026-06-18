@@ -34,7 +34,7 @@ auto:
 releases:
   - releaseCycle: "7.1"
     releaseDate: 2026-05-04
-    eol: false # releaseDate(7.3)
+    eol: 2027-05-04 # releaseDate(7.3)
     latest: "7.1.3"
     latestReleaseDate: 2026-06-03
 

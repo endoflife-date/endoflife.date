@@ -213,7 +213,7 @@ releases:
     releaseLabel: "iPad (7th generation)"
     releaseDate: 2019-09-25
     discontinued: 2020-09-15
-    eol: false
+    eol: 2026-05-11
     link: https://support.apple.com/kb/SP807
     supportedIpadOsVersions: "13 - 18"
 
@@ -261,7 +261,7 @@ releases:
     releaseLabel: "iPad (6th generation)"
     releaseDate: 2018-03-27
     discontinued: 2019-09-10
-    eol: false
+    eol: 2026-05-11
     link: https://support.apple.com/kb/SP774
     supportedIpadOsVersions: "11 - 17"
 
@@ -285,7 +285,7 @@ releases:
     releaseLabel: "iPad (5th generation)"
     releaseDate: 2017-03-24
     discontinued: 2018-03-27
-    eol: 2025-03-31
+    eol: 2026-05-11
     link: https://support.apple.com/kb/SP751
     supportedIpadOsVersions: "10 - 16"
 
