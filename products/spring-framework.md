@@ -164,6 +164,8 @@ for more details about the support roadmap.
 Extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
 
+[HeroDevs](https://www.herodevs.com/support/spring-nes) provides additional commercial versions, extended support timelines, and full ecosystem support for Spring Framework.
+
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
 {% include table.html
