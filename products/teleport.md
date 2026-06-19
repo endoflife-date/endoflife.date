@@ -24,15 +24,15 @@ releases:
     releaseDate: 2025-07-04
     eoas: false
     eol: false
-    latest: "18.8.3"
-    latestReleaseDate: 2026-06-04
+    latest: "18.9.0"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "17"
     releaseDate: 2024-11-15
     eoas: 2025-07-04
     eol: false
-    latest: "17.7.24"
-    latestReleaseDate: 2026-06-01
+    latest: "17.7.25"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "16"
     releaseDate: 2024-06-13

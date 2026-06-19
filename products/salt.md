@@ -41,6 +41,14 @@ identifiers:
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 # - other: see changelogTemplate
 releases:
+  - releaseCycle: "3008"
+    lts: true
+    releaseDate: 2026-05-27
+    eoas: 2027-06-30
+    eol: 2028-06-30
+    latest: "3008.1"
+    latestReleaseDate: 2026-06-11
+
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
     eoas: 2026-06-30
@@ -52,8 +60,8 @@ releases:
   - releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
-    eoas: 2027-06-30
-    eol: 2028-06-30
+    eoas: 2026-07-31
+    eol: 2027-06-30
     latest: "3006.25"
     latestReleaseDate: 2026-05-13
 
