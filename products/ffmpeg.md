@@ -36,8 +36,8 @@ releases:
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0.2"
-    latestReleaseDate: 2026-05-04
+    latest: "8.0.3"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "7.1"
     codename: Péter
