@@ -29,14 +29,14 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2026-05-05
     eol: false
-    latest: "3.4.3"
-    latestReleaseDate: 2026-05-28
+    latest: "3.4.4"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "3.3"
     releaseDate: 2026-02-02
     eol: false
-    latest: "3.3.11"
-    latestReleaseDate: 2026-05-28
+    latest: "3.3.12"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "3.2"
     releaseDate: 2025-11-04
