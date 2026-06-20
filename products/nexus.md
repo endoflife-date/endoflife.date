@@ -49,8 +49,8 @@ releases:
     releaseDate: 2026-06-04
     eoas: 2027-06-04
     eol: 2027-12-04
-    latest: "3.93.0-06"
-    latestReleaseDate: 2026-06-05
+    latest: "3.93.1-04"
+    latestReleaseDate: 2026-06-19
 
   - releaseCycle: "3.92"
     releaseDate: 2026-05-07
