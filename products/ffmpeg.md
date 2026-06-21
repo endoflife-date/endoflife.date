@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.4"
-    latestReleaseDate: 2026-05-05
+    latest: "7.1.5"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "7.0"
     codename: Dijkstra
