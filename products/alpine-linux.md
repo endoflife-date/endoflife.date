@@ -40,15 +40,15 @@ releases:
   - releaseCycle: "3.23"
     releaseDate: 2025-12-04
     eol: 2027-11-01
-    latest: "3.23.4"
-    latestReleaseDate: 2026-04-15
+    latest: "3.23.5"
+    latestReleaseDate: 2026-06-21
     link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
 
   - releaseCycle: "3.22"
     releaseDate: 2025-05-30
     eol: 2027-05-01
-    latest: "3.22.4"
-    latestReleaseDate: 2026-04-15
+    latest: "3.22.5"
+    latestReleaseDate: 2026-06-21
     link: https://alpinelinux.org/posts/Alpine-3.22.0-released.html
 
   - releaseCycle: "3.21"

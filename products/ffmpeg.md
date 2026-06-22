@@ -58,8 +58,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.5"
-    latestReleaseDate: 2026-05-05
+    latest: "6.1.6"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -73,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.9"
-    latestReleaseDate: 2026-05-05
+    latest: "5.1.10"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -87,8 +87,8 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.7"
-    latestReleaseDate: 2026-05-05
+    latest: "4.4.8"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "4.3"
     codename: "4:3"
