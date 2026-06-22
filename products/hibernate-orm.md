@@ -34,41 +34,50 @@ auto:
     - git: https://github.com/hibernate/hibernate-orm.git
 
 # Support level is documented on https://hibernate.org/orm/releases/.
-# Since 7 (may be more ?) : eol(x) = releaseDate(x+1), except if marked as stable on https://hibernate.org/orm/releases/.
+# eol(x) = max(releaseDate(x+1), latestReleaseDate(x)).
 # Supported Java/Jakarta EE versions available on https://hibernate.org/orm/releases/.
 releases:
+  - releaseCycle: "7.4"
+    supportedJavaVersions: "17, 21, 25 or 26"
+    supportedJakartaEEVersions: "11"
+    releaseDate: 2026-05-26
+    eol: false
+    eoes: false
+    latest: "7.4.2"
+    latestReleaseDate: 2026-06-21
+
   - releaseCycle: "7.3"
     supportedJavaVersions: "17, 21, 25 or 26"
     supportedJakartaEEVersions: "11"
     releaseDate: 2026-03-16
-    eol: false
+    eol: 2026-06-07
     eoes: false
-    latest: "7.3.8"
-    latestReleaseDate: 2026-06-07
+    latest: "7.3.9"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "7.2"
     supportedJavaVersions: "17, 21 or 25"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-10-08
-    eol: 2026-03-16
-    eoes: false
-    latest: "7.2.19"
-    latestReleaseDate: 2026-06-09
+    eol: 2026-06-09
+    eoes: true
+    latest: "7.2.20"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 25"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-08-08
-    eol: 2025-10-08
-    eoes: false
-    latest: "7.1.30"
-    latestReleaseDate: 2026-06-07
+    eol: 2026-06-07
+    eoes: true
+    latest: "7.1.31"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-05-20
-    eol: 2025-08-08
+    eol: 2025-08-10
     eoes: true
     latest: "7.0.10"
     latestReleaseDate: 2025-08-10
@@ -77,7 +86,7 @@ releases:
     supportedJavaVersions: "11, 17, 21 or 25"
     supportedJakartaEEVersions: "10"
     releaseDate: 2024-08-08
-    eol: true
+    eol: 2026-06-09
     eoes: false
     latest: "6.6.53"
     latestReleaseDate: 2026-06-09
@@ -86,7 +95,7 @@ releases:
     supportedJavaVersions: "11, 17, 21, 22 or 23"
     supportedJakartaEEVersions: "10"
     releaseDate: 2024-04-25
-    eol: true
+    eol: 2024-09-18
     eoes: true
     latest: "6.5.3"
     latestReleaseDate: 2024-09-18
@@ -95,7 +104,7 @@ releases:
     supportedJavaVersions: "11, 17 or 21"
     supportedJakartaEEVersions: "10"
     releaseDate: 2023-11-23
-    eol: true
+    eol: 2024-08-06
     eoes: true
     latest: "6.4.10"
     latestReleaseDate: 2024-08-06
@@ -104,7 +113,7 @@ releases:
     supportedJavaVersions: "11, 17, 20 or 21"
     supportedJakartaEEVersions: "10"
     releaseDate: 2023-09-01
-    eol: true
+    eol: 2023-11-23
     eoes: true
     latest: "6.3.2"
     latestReleaseDate: 2023-11-23
@@ -113,8 +122,8 @@ releases:
     supportedJavaVersions: "11, 17, 20 or 21"
     supportedJakartaEEVersions: "10"
     releaseDate: 2023-03-31
-    eol: true
-    eoes: false
+    eol: 2026-05-03
+    eoes: true
     latest: "6.2.52"
     latestReleaseDate: 2026-05-03
 
@@ -122,7 +131,7 @@ releases:
     supportedJavaVersions: "11, 17 or 18"
     supportedJakartaEEVersions: "10"
     releaseDate: 2022-06-07
-    eol: true
+    eol: 2023-03-31
     eoes: true
     latest: "6.1.7"
     latestReleaseDate: 2023-02-07
@@ -131,7 +140,7 @@ releases:
     supportedJavaVersions: "11, 17 or 18"
     supportedJakartaEEVersions: "10"
     releaseDate: 2022-04-01
-    eol: true
+    eol: 2022-06-07
     eoes: true
     latest: "6.0.2"
     latestReleaseDate: 2022-05-25
@@ -140,7 +149,7 @@ releases:
     supportedJavaVersions: "8, 11, 17 or 18"
     supportedJakartaEEVersions: "8"
     releaseDate: 2021-10-11
-    eol: true
+    eol: 2023-02-06
     eoes: true
     latest: "5.6.15"
     latestReleaseDate: 2023-02-06
@@ -149,7 +158,7 @@ releases:
     supportedJavaVersions: "8, 11 or 17"
     supportedJakartaEEVersions: "8"
     releaseDate: 2021-06-01
-    eol: true
+    eol: 2021-12-16
     eoes: true
     latest: "5.5.9"
     latestReleaseDate: 2021-12-16
@@ -158,7 +167,7 @@ releases:
     supportedJavaVersions: "8, 11 or 17"
     supportedJakartaEEVersions: "8"
     releaseDate: 2018-12-12
-    eol: true
+    eol: 2022-01-10
     eoes: true
     latest: "5.4.33"
     latestReleaseDate: 2022-01-10
@@ -167,8 +176,8 @@ releases:
     supportedJavaVersions: "8, 11 or 17"
     supportedJakartaEEVersions: "8"
     releaseDate: 2018-05-14
-    eol: true
-    eoes: false
+    eol: 2026-01-19
+    eoes: true
     latest: "5.3.38"
     latestReleaseDate: 2026-01-19
 

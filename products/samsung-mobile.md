@@ -52,7 +52,7 @@ releases:
     releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
     eoas: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
     eol: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
-    link: null # unknown
+    link: https://doc.samsungmobile.com/SM-A376B/XID/doc.html
 
   - releaseCycle: "galaxy-m17e-5g"
     releaseLabel: "Galaxy M17e 5G"

@@ -36,9 +36,9 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1115.1"
     latestGdrLink: https://support.microsoft.com/help/5091223
-    latest: "17.0.4045.5 CU5"
-    latestReleaseDate: 2026-05-20
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate5
+    latest: "17.0.4055.5 CU6"
+    latestReleaseDate: 2026-06-17
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate6
 
   - releaseCycle: "16.0"
     codename: Dallas

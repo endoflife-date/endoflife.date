@@ -22,6 +22,13 @@ auto:
         eoes: "End of RDS Extended Support date"
 
 releases:
+  - releaseCycle: "18"
+    releaseDate: 2026-02-26
+    eol: 2031-02-28
+    eoes: 2034-02-28
+    latest: "18.3"
+    latestReleaseDate: 2026-06-11
+
   - releaseCycle: "17"
     releaseDate: 2025-02-20
     eol: 2030-02-28

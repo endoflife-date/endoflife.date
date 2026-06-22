@@ -19,8 +19,8 @@ releases:
   - releaseCycle: "25.08"
     releaseDate: 2025-09-01
     eol: 2027-09-01
-    latest: "25.08.12"
-    latestReleaseDate: 2026-05-21
+    latest: "25.08.13"
+    latestReleaseDate: 2026-06-19
 
   - releaseCycle: "24.08"
     releaseDate: 2024-09-08
