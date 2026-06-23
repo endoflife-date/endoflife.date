@@ -42,7 +42,7 @@ auto:
 releases:
   - releaseCycle: "9.2"
     releaseDate: 2026-05-03
-    eol: 2027-03-03
+    eol: 2027-02-28
     latest: "9.2.0"
     latestReleaseDate: 2026-05-03
 
