@@ -11,6 +11,7 @@ eoesColumn: Extended Support
 
 identifiers:
   - repology: graalvm
+  - cpe: cpe:2.3:a:oracle:graalvm
 
 auto:
   methods:
