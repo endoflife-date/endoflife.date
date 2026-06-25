@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
     eol: 2026-05-08
-    latest: "9.3.5"
-    latestReleaseDate: 2026-05-23
+    latest: "9.3.6"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
@@ -49,8 +49,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-14
     eol: 2027-07-15
-    latest: "8.19.16"
-    latestReleaseDate: 2026-05-23
+    latest: "8.19.17"
+    latestReleaseDate: 2026-06-16
     link: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "8.18"
