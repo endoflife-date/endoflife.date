@@ -51,14 +51,23 @@ auto:
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
 
+  - releaseCycle: "2.21"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1 - 7"
+    releaseDate: 2026-05-31
+    eol: 2027-11-30
+    latest: "2.21.1"
+    latestReleaseDate: 2026-06-18
+
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-03
     eol: 2027-05-31
-    latest: "2.20.5"
-    latestReleaseDate: 2026-04-21
+    latest: "2.20.7"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -66,8 +75,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
     eol: 2026-11-30
-    latest: "2.19.9"
-    latestReleaseDate: 2026-04-21
+    latest: "2.19.11"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -75,8 +84,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-04
     eol: 2026-05-31
-    latest: "2.18.16"
-    latestReleaseDate: 2026-04-21
+    latest: "2.18.18"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -93,8 +102,8 @@ releases:
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
-    latest: "2.16.18"
-    latestReleaseDate: 2026-03-23
+    latest: "2.16.19"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"

@@ -44,26 +44,26 @@ releases:
   - releaseCycle: "1.38"
     releaseDate: 2026-04-23
     eol: 2027-04-23
-    latest: "1.38.0"
-    latestReleaseDate: 2026-04-24
+    latest: "1.38.3"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "1.37"
     releaseDate: 2026-01-13
     eol: 2027-01-13
-    latest: "1.37.2"
-    latestReleaseDate: 2026-04-10
+    latest: "1.37.5"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "1.36"
     releaseDate: 2025-10-14
     eol: 2026-10-14
-    latest: "1.36.6"
-    latestReleaseDate: 2026-04-10
+    latest: "1.36.9"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "1.35"
     releaseDate: 2025-07-23
     eol: 2026-07-23
-    latest: "1.35.10"
-    latestReleaseDate: 2026-04-10
+    latest: "1.35.13"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "1.34"
     releaseDate: 2025-04-15
