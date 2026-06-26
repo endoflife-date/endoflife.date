@@ -41,8 +41,8 @@ releases:
     lts: true
     eoas: false # releaseDate(x+1)
     eol: 2034-04-21 # estimated eol date
-    latest: "9.7.0"
-    latestReleaseDate: 2026-04-07
+    latest: "9.7.1"
+    latestReleaseDate: 2026-06-03
     link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
 
   - releaseCycle: "9.6"
@@ -105,8 +105,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: "8.4.9"
-    latestReleaseDate: 2026-04-07
+    latest: "8.4.10"
+    latestReleaseDate: 2026-06-03
 
   - releaseCycle: "8.3"
     releaseDate: 2023-12-14

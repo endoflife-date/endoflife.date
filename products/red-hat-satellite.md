@@ -29,26 +29,33 @@ auto:
 
 # eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
+  - releaseCycle: "6.19"
+    releaseDate: 2026-05-06
+    eoas: 2026-11-01 # Estimated
+    eol: 2027-11-01 # Estimated
+    latest: "6.19.1"
+    latestReleaseDate: 2026-06-01
+
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
-    eoas: false
-    eol: false
-    latest: "6.18.4"
-    latestReleaseDate: 2026-03-26
+    eoas: 2026-05-06
+    eol: 2027-05-01 # Estimated
+    latest: "6.18.5"
+    latestReleaseDate: 2026-05-07
 
   - releaseCycle: "6.17"
     releaseDate: 2025-05-06
     eoas: 2025-11-30
     eol: 2026-11-30 # estimated
-    latest: "6.17.7"
-    latestReleaseDate: 2026-03-26
+    latest: "6.17.8"
+    latestReleaseDate: 2026-05-07
 
   - releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
-    latest: "6.16.7"
-    latestReleaseDate: 2026-03-26
+    latest: "6.16.8"
+    latestReleaseDate: 2026-05-07
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23

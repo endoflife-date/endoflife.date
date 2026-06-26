@@ -16,27 +16,33 @@ auto:
     - git: https://github.com/longhorn/longhorn.git
 
 releases:
+  - releaseCycle: "1.12"
+    releaseDate: 2026-06-02
+    eol: 2027-12-02
+    latest: "1.12.0"
+    latestReleaseDate: 2026-06-02
+
   - releaseCycle: "1.11"
     releaseDate: 2026-01-29
-    eol: false
-    latest: "1.11.1"
-    latestReleaseDate: 2026-03-11
+    eol: 2027-07-29
+    latest: "1.11.2"
+    latestReleaseDate: 2026-05-04
 
   - releaseCycle: "1.10"
     releaseDate: 2025-09-25
-    eol: false
+    eol: 2027-03-25
     latest: "1.10.2"
     latestReleaseDate: 2026-01-28
 
   - releaseCycle: "1.9"
     releaseDate: 2025-05-27
-    eol: false
+    eol: 2026-11-27
     latest: "1.9.2"
     latestReleaseDate: 2025-09-24
 
   - releaseCycle: "1.8"
     releaseDate: 2025-01-22
-    eol: false
+    eol: 2026-07-22
     latest: "1.8.2"
     latestReleaseDate: 2025-06-09
 

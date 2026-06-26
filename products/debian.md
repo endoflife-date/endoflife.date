@@ -35,17 +35,17 @@ releases:
     eol: 2028-08-09
     eoes: 2030-06-30
     link: https://www.debian.org/News/2025/20250809
-    latest: "13.4"
-    latestReleaseDate: 2026-03-14
+    latest: "13.5"
+    latestReleaseDate: 2026-05-16
 
   - releaseCycle: "12"
     codename: "Bookworm"
     releaseDate: 2023-06-10
-    eol: 2026-06-10
+    eol: 2026-07-11
     eoes: 2028-06-30
-    link: https://www.debian.org/News/2025/20250517
-    latest: "12.13"
-    latestReleaseDate: 2026-01-10
+    link: https://www.debian.org/News/2026/2026051602
+    latest: "12.14"
+    latestReleaseDate: 2026-05-16
 
   - releaseCycle: "11"
     codename: "Bullseye"

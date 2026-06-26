@@ -23,7 +23,7 @@ identifiers:
 
 auto:
   methods:
-    - oracle-jdk: https://www.java.com/releases/
+    - oracle-jdk: https://ops.java/releases/
     - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
       render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
@@ -39,9 +39,8 @@ auto:
           column: "Extended Support Until"
           regex: '^(?P<value>\w+ \d+).*'
     # Fix the release date, as only month-year dates are provided in the previous table.
-    - release_table: https://www.java.com/releases/
-      render_javascript: true
-      selector: "table.releaselist"
+    - release_table: https://ops.java/releases/
+      user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
       header_selector: "tbody#released tr:nth-of-type(3)"
       rows_selector: "tbody#released tr"
       fields:
@@ -57,8 +56,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2026-03-17
     eol: 2026-09-18
-    latest: "26.0.0"
-    latestReleaseDate: 2026-03-17
+    latest: "26.0.1"
+    latestReleaseDate: 2026-04-21
     link: https://www.oracle.com/java/technologies/javase/26all-relnotes.html
 
   - releaseCycle: "25"
@@ -66,8 +65,8 @@ releases:
     releaseDate: 2025-09-16
     eol: 2030-09-30
     eoes: 2033-09-30
-    latest: "25.0.2"
-    latestReleaseDate: 2026-01-20
+    latest: "25.0.3"
+    latestReleaseDate: 2026-04-21
     link: https://www.oracle.com/java/technologies/javase/25all-relnotes.html
 
   - releaseCycle: "24"
@@ -95,8 +94,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     eoes: 2031-09-30
-    latest: "21.0.10"
-    latestReleaseDate: 2026-01-20
+    latest: "21.0.11"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -121,8 +120,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     eoes: 2029-09-30
-    latest: "17.0.18"
-    latestReleaseDate: 2026-01-20
+    latest: "17.0.19"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -159,8 +158,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     eoes: 2032-01-31
-    latest: "11.0.30"
-    latestReleaseDate: 2026-01-20
+    latest: "11.0.31"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -179,8 +178,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     eoes: 2030-12-31
-    latest: "8u481"
-    latestReleaseDate: 2026-01-20
+    latest: "8u491"
+    latestReleaseDate: 2026-04-21
 
   - releaseCycle: "7"
     lts: true

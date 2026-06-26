@@ -32,7 +32,7 @@ releases:
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/index.html
 
   - releaseCycle: "21"
     releaseLabel: "21c"

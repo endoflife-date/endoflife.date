@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-10-14
     eoas: 2028-10-17
     eol: 2029-10-16
-    latest: "6.1.0"
-    latestReleaseDate: 2026-04-14
+    latest: "6.1.1"
+    latestReleaseDate: 2026-05-19
     # check later for removal: the link with changelogTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5939-joomla-6-0-and-joomla-5-4-are-here.html
 

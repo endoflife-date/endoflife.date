@@ -22,16 +22,16 @@ releases:
     codename: "Variegata"
     releaseDate: 2026-03-09
     eol: false
-    latest: "1.5.2"
-    latestReleaseDate: 2026-04-13
+    latest: "1.5.4"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "1.4"
     codename: "Andium"
     lts: true
     releaseDate: 2025-09-16
     eol: 2026-09-16
-    latest: "1.4.4"
-    latestReleaseDate: 2026-01-26
+    latest: "1.4.5"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "1.3"
     codename: "Ossivalis"

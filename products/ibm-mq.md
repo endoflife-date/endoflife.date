@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "9.3"
     releaseLabel: "IBM MQ 9.3 LTS"
     releaseDate: 2022-06-23
-    eol: false
-    eoes: false
+    eol: 2027-09-30
+    eoes: 2031-09-30
 
   - releaseCycle: "9.2"
     releaseLabel: "IBM MQ 9.2 LTS"
@@ -99,6 +99,7 @@ releases:
     releaseDate: 2000-12-01
     eol: 2003-12-31
     link: https://public.dhe.ibm.com/software/integration/wmq/docs/V5.2/
+
 ---
 
 > [IBM MQ](https://www.ibm.com/products/mq) is a commercial messaging middleware that allows the exchange of information
