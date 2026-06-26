@@ -29,23 +29,23 @@ releases:
     codename: Hoare
     releaseDate: 2026-03-16
     eol: false
-    latest: "8.1.0"
-    latestReleaseDate: 2026-03-16
-    
+    latest: "8.1.2"
+    latestReleaseDate: 2026-06-17
+
   - releaseCycle: "8.0"
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0.1"
-    latestReleaseDate: 2025-11-20
+    latest: "8.0.3"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.3"
-    latestReleaseDate: 2025-11-21
+    latest: "7.1.5"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "7.0"
     codename: Dijkstra
@@ -58,8 +58,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.4"
-    latestReleaseDate: 2025-11-23
+    latest: "6.1.6"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -73,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.8"
-    latestReleaseDate: 2025-11-26
+    latest: "5.1.10"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -87,21 +87,20 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.6"
-    latestReleaseDate: 2025-05-17
+    latest: "4.4.8"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "4.3"
     codename: "4:3"
-    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2020-06-15
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "4.3.9"
     latestReleaseDate: 2025-03-12
 
   - releaseCycle: "4.2"
     codename: "Ada"
     releaseDate: 2019-08-05
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "4.2.11"
     latestReleaseDate: 2025-05-17
 
@@ -121,9 +120,8 @@ releases:
 
   - releaseCycle: "3.4"
     codename: "Cantor"
-    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2017-10-15
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "3.4.14"
     latestReleaseDate: 2025-03-12
 
@@ -157,9 +155,8 @@ releases:
 
   - releaseCycle: "2.8"
     codename: "Feynman"
-    staleReleaseThresholdDays: 1000 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2015-09-09
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "2.8.22"
     latestReleaseDate: 2023-10-29
 

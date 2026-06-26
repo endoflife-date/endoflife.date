@@ -33,6 +33,15 @@ auto:
 # eoes on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
 # PHP requirements on https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
 releases:
+  - releaseCycle: "2.4.9"
+    releaseDate: 2026-05-12 # https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions
+    eoas: false
+    eol: false
+    eoes: false # not yet on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
+    supportedPhpVersions: "8.5"
+    latest: "2.4.9"
+    latestReleaseDate: 2026-05-07
+
   - releaseCycle: "2.4.8"
     releaseDate: 2025-04-03
     eoas: false
@@ -214,6 +223,8 @@ releases:
     eol: 2010-03-01
     link: null
     latest: "1.0.0"
+
+
 ---
 
 > [Magento Open Source](https://business.adobe.com/products/magento/open-source.html), previously known as Magento Community Edition,

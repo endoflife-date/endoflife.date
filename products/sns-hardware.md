@@ -195,7 +195,7 @@ releases:
   - releaseCycle: "sni40"
     outOfOrder: true # because SN910 has been released after
     releaseDate: 2016-06-01
-    eoas: false
+    eoas: 2026-07-15
     eol: false
     lowestSNSVersion: "2.3.4"
 
@@ -261,6 +261,7 @@ releases:
     eol: 2021-09-30
     lowestSNSVersion: "1.0.0"
     highestSNSVersion: "3.7"
+
 
 ---
 

@@ -27,8 +27,8 @@ releases:
     releaseDate: 2025-11-09
     eoas: 2028-08-31
     eol: 2030-06-30
-    latest: "25.1"
-    latestReleaseDate: 2026-01-19
+    latest: "25.2"
+    latestReleaseDate: 2026-05-25
     link: https://mxlinux.org/blog/mx-25-infinity-isos-now-available/
 
   - releaseCycle: "23"

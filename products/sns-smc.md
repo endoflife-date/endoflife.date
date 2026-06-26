@@ -36,10 +36,17 @@ auto:
         - {name: "3.0", eoas: 2021-12-03, eol: 2021-12-03}
 
 releases:
+  - releaseCycle: "3.9"
+    releaseDate: 2026-04-22
+    eoas: false # not announced yet
+    eol: false # not announced yet
+    lowestSNSVersion: '4.3'
+    highestSNSVersion: '5.1'
+
   - releaseCycle: "3.8"
     releaseDate: 2025-06-10
-    eoas: 2026-07-08
-    eol: 2026-10-08
+    eoas: 2026-08-24
+    eol: 2026-11-23
     lowestSNSVersion: '4.3'
     highestSNSVersion: '4.8'
 
@@ -112,6 +119,7 @@ releases:
     eol: 2017-03-31
     lowestSNSVersion: "2.5.0"
     highestSNSVersion: "4.7"
+
 
 
 ---

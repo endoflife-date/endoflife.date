@@ -25,15 +25,14 @@ releases:
     releaseDate: 2025-02-03
     eoas: false
     eol: false
-    latest: "25.13.7"
-    latestReleaseDate: 2026-03-05
+    latest: "25.14.2"
+    latestReleaseDate: 2026-05-18
 
   - releaseCycle: "24"
     releaseLabel: "2024"
-    staleReleaseThresholdDays: 540 # Still listed on https://docs.chef.io/versions/#supported-commercial-distributions
     releaseDate: 2024-02-07
-    eoas: false
-    eol: false
+    eoas: 2026-04-30
+    eol: 2026-04-30
     latest: "24.12.1073"
     latestReleaseDate: 2024-12-16
 

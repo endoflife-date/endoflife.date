@@ -49,7 +49,7 @@ releases:
     latestReleaseDate: 2020-10-15
 
   - releaseCycle: "4.9"
-    staleReleaseThresholdDays: 1200 # https://www.phpmyadmin.net/downloads/#versions
+    staleReleaseThresholdDays: 1300 # https://www.phpmyadmin.net/downloads/#versions
     lts: true
     releaseDate: 2019-06-04
     eoas: 2019-12-31

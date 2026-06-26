@@ -33,19 +33,26 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+  - releaseCycle: "7.1"
+    releaseDate: 2026-06-09
+    eol: 2027-07-31
+    eoes: 2028-07-31
+    latest: "7.1.0"
+    latestReleaseDate: 2026-06-09
+
   - releaseCycle: "7.0"
     releaseDate: 2025-11-17
     eol: 2026-12-31
     eoes: 2027-12-31
-    latest: "7.0.5"
-    latestReleaseDate: 2026-04-20
+    latest: "7.0.6"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "6.5"
     releaseDate: 2025-05-19
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "6.5.10"
-    latestReleaseDate: 2026-04-20
+    latest: "6.5.11"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "6.4"
     releaseDate: 2024-11-18
@@ -123,6 +130,7 @@ releases:
     eoes: 2022-08-31
     latest: "5.3.13"
     latestReleaseDate: 2021-12-20
+    link: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__.RELEASE
 
   - releaseCycle: "5.2"
     releaseDate: 2019-10-01
@@ -130,6 +138,7 @@ releases:
     eoes: 2022-01-31
     latest: "5.2.15"
     latestReleaseDate: 2021-12-20
+    link: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__.RELEASE
 
   - releaseCycle: "5.1"
     releaseDate: 2018-10-31
@@ -137,6 +146,7 @@ releases:
     eoes: 2021-01-31
     latest: "5.1.13"
     latestReleaseDate: 2020-10-07
+    link: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__.RELEASE
 
   - releaseCycle: "5.0"
     releaseDate: 2018-03-31
@@ -144,6 +154,7 @@ releases:
     eoes: 2020-06-30
     latest: "5.0.19"
     latestReleaseDate: 2020-10-07
+    link: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__.RELEASE
 
   - releaseCycle: "4.2"
     releaseDate: 2017-01-31
@@ -151,6 +162,7 @@ releases:
     eoes: 2020-11-30
     latest: "4.2.20"
     latestReleaseDate: 2020-12-09
+    link: https://github.com/spring-projects/spring-security/releases/tag/__LATEST__.RELEASE
 
 ---
 
