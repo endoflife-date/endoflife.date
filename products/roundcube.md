@@ -19,18 +19,26 @@ auto:
     - git: https://github.com/roundcube/roundcubemail.git
 
 releases:
-  - releaseCycle: "1.6"
-    releaseDate: 2022-07-25
+  - releaseCycle: "1.7"
+    releaseDate: 2026-05-10
     eoas: false
     eol: false
-    latest: "1.6.15"
-    latestReleaseDate: 2026-03-29
+    latest: "1.7.1"
+    latestReleaseDate: 2026-05-24
+
+  - releaseCycle: "1.6"
+    releaseDate: 2022-07-25
+    lts: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
+    eoas: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
+    eol: false
+    latest: "1.6.16"
+    latestReleaseDate: 2026-05-24
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
     lts: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
-    eoas: false
-    eol: false
+    eoas: 2022-07-25 # https://github.com/roundcube/roundcubemail/releases/tag/1.6.0
+    eol: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     latest: "1.5.15"
     latestReleaseDate: 2026-03-29
 
@@ -74,6 +82,18 @@ releases:
 > [Roundcube Webmail](https://roundcube.net/) is a browser-based multilingual IMAP client with an
 > application-like user interface. It provides full functionality you expect from an email client,
 > including MIME support, address book, folder manipulation, message searching and spell checking.
+
+{: .note-title }
+
+> Important Changes
+>
+> Starting with 1.70 cycle:
+> 
+> Dropped support for PHP < 8.1.
+> 
+> Dropped support for Internet Explorer.
+> 
+> Dropped support for MS SQL Server and Oracle.
 
 As of the last release, the project supports the last two release branches in an "LTS low-maintenance
 mode", which only includes important security updates only. Regular improvement updates are only

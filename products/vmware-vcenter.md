@@ -8,7 +8,7 @@ permalink: /vcenter
 alternate_urls:
   - /vmwarevcenter
   - /vmware-vcenter
-releasePolicyLink: https://lifecycle.vmware.com
+releasePolicyLink: https://knowledge.broadcom.com/external/article/326316/build-numbers-and-versions-of-vmware-vce.html
 eolColumn: General Support
 
 customFields:
@@ -21,6 +21,22 @@ identifiers:
   - cpe: cpe:/a:vmware:vcenter_server
 
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2026-05-12
+    eol: 2028-08-12
+    technicalGuidance: 2029-08-12
+    latest: "9.1.0.0"
+    latestReleaseDate: 2026-05-12
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/release-notes/vcenter-server-appliance-photonos-security-patches.html
+    
+  - releaseCycle: "9.0"
+    releaseDate: 2025-06-17
+    eol: 2027-09-17
+    technicalGuidance: 2028-09-17
+    latest: "9.0.2.0"
+    latestReleaseDate: 2026-01-20
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/release-notes/vcenter-server-appliance-photonos-security-patches.html
+  
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
@@ -43,7 +59,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.7 U3w"
     latestReleaseDate: 2024-10-28
-    link: https://knowledge.broadcom.com/external/article/380603
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-7-Release-Notes/vsphere-vcenter-server-67u3w-release-notes.pdf
 
   - releaseCycle: "6.5"
     releaseDate: 2016-11-15
@@ -51,7 +67,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.5 U3w"
     latestReleaseDate: 2024-07-04
-    link: https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-vcenter-server-65u3w-release-notes.html
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-5-Release-Notes/vsphere-vcenter-server-65u3w-release-notes.pdf
 
   - releaseCycle: "6.0"
     releaseDate: 2015-03-12
@@ -59,7 +75,7 @@ releases:
     technicalGuidance: 2022-03-12
     latest: "6.0 U3j"
     latestReleaseDate: 2019-09-12
-    link: https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html
+    link: https://web.archive.org/web/20220224150310/https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html
 
   - releaseCycle: "5.5"
     releaseDate: 2013-09-19
@@ -67,6 +83,7 @@ releases:
     technicalGuidance: 2020-09-19
     latest: "5.5 U3k"
     latestReleaseDate: 2018-09-14
+    link: https://web.archive.org/web/20210921075441/https://docs.vmware.com/en/VMware-vSphere/5.5/rn/vsphere-vcenter-server-55u3j-release-notes.html
 
   - releaseCycle: "5.1"
     releaseDate: 2012-08-13
@@ -74,6 +91,7 @@ releases:
     technicalGuidance: 2018-08-24
     latest: "5.1 U3d"
     latestReleaseDate: 2016-05-19
+    link: null
 
   - releaseCycle: "5.0"
     releaseDate: 2011-08-24
@@ -81,6 +99,7 @@ releases:
     technicalGuidance: 2018-08-24
     latest: "5.0 U3g"
     latestReleaseDate: 2016-05-19
+    link: null
 
   - releaseCycle: "4"
     releaseDate: 2009-05-21
@@ -88,9 +107,10 @@ releases:
     technicalGuidance: 2016-05-21
     latest: "4.1 U3a"
     latestReleaseDate: 2013-01-31
+    link: null
 ---
 
-> [VMware vCenter Server](https://www.vmware.com/products/vcenter.html) is an advanced server
+> [VMware vCenter Server](https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview) is an advanced server
 > management software that provides a centralized platform for controlling vSphere environments for
 > visibility across hybrid clouds.
 
@@ -98,7 +118,7 @@ VMware typically supports vCenter for a duration of 7 years with 5 years of gene
 additional 2 years of technical guidance during which vCenter will no longer receive bug fixes and
 security updates.
 
-## [General Support](https://lifecycle.vmware.com/)
+## [General Support](https://support.broadcom.com/web/ecx/productlifecycle)
 
 The last date on which you can request support; the end of regular VMware maintenance updates and
 upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription

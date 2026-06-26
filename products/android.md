@@ -26,6 +26,12 @@ identifiers:
 
 # EOL is the latest security patch date for "Old version" on https://en.wikipedia.org/wiki/Android_version_history.
 releases:
+  - releaseCycle: "17"
+    apiVersion: "37"
+    codename: Cinnamon Bun
+    releaseDate: 2026-06-16
+    eol: false
+
   - releaseCycle: "16"
     apiVersion: "36"
     codename: Baklava

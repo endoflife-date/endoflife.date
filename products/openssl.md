@@ -35,30 +35,30 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2026-04-14
     eol: 2027-05-14
-    latest: "4.0.0"
-    latestReleaseDate: 2026-04-14
+    latest: "4.0.1"
+    latestReleaseDate: 2026-06-09
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-40
 
   - releaseCycle: "3.6"
     releaseDate: 2025-10-01
     eol: 2026-11-01
-    latest: "3.6.2"
-    latestReleaseDate: 2026-04-07
+    latest: "3.6.3"
+    latestReleaseDate: 2026-06-09
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-36
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
-    latest: "3.5.6"
-    latestReleaseDate: 2026-04-07
+    latest: "3.5.7"
+    latestReleaseDate: 2026-06-09
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
   - releaseCycle: "3.4"
     releaseDate: 2024-10-22
     eol: 2026-10-22
-    latest: "3.4.5"
-    latestReleaseDate: 2026-04-07
+    latest: "3.4.6"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "3.3"
     releaseDate: 2024-04-09
@@ -83,8 +83,8 @@ releases:
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.20"
-    latestReleaseDate: 2026-04-07
+    latest: "3.0.21"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "1.1.1"
     lts: true

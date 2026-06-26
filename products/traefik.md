@@ -16,6 +16,7 @@ identifiers:
   - purl: pkg:brew/traefik
   - purl: pkg:github/traefik/traefik
   - purl: pkg:generic/traefik
+  - purl: pkg:docker/library/traefik
   - cpe: cpe:2.3:a:traefik:traefik
 
 auto:
@@ -43,12 +44,19 @@ auto:
           regex: "^End(ed|s) (?P<value>.+)$"
 
 releases:
-  - releaseCycle: "3.6"
-    releaseDate: 2025-11-07
+  - releaseCycle: "3.7"
+    releaseDate: 2026-04-22
     eoas: false
     eol: false
-    latest: "3.6.14"
-    latestReleaseDate: 2026-04-22
+    latest: "3.7.5"
+    latestReleaseDate: 2026-06-10
+
+  - releaseCycle: "3.6"
+    releaseDate: 2025-11-07
+    eoas: 2026-05-11
+    eol: false
+    latest: "3.6.21"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "3.5"
     releaseDate: 2025-07-23
@@ -96,8 +104,8 @@ releases:
     releaseDate: 2024-02-12
     eoas: 2025-04-29
     eol: 2026-02-01
-    latest: "2.11.43"
-    latestReleaseDate: 2026-04-22
+    latest: "2.11.50"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "2.10"
     releaseDate: 2023-04-24

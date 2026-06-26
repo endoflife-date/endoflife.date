@@ -60,21 +60,29 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+  - releaseCycle: "4.1"
+    supportedJavaVersions: "17 - 26" # https://docs.spring.io/spring-boot/4.1/system-requirements.html
+    releaseDate: 2026-06-10
+    eol: 2027-07-31
+    eoes: 2028-07-31
+    latest: "4.1.0"
+    latestReleaseDate: 2026-06-10
+
   - releaseCycle: "4.0"
     supportedJavaVersions: "17 - 25" # https://docs.spring.io/spring-boot/4.0/system-requirements.html
     releaseDate: 2025-11-30
     eol: 2026-12-31
     eoes: 2027-12-31
-    latest: "4.0.6"
-    latestReleaseDate: 2026-04-23
+    latest: "4.0.7"
+    latestReleaseDate: 2026-06-10
 
   - releaseCycle: "3.5"
     supportedJavaVersions: "17 - 25" # https://docs.spring.io/spring-boot/3.5/system-requirements.html
     releaseDate: 2025-05-31
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "3.5.14"
-    latestReleaseDate: 2026-04-23
+    latest: "3.5.16"
+    latestReleaseDate: 2026-06-25
 
   - releaseCycle: "3.4"
     supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/3.4/system-requirements.html
@@ -204,7 +212,7 @@ upcoming releases and [Spring Boot Support page](https://spring.io/projects/spri
 more details about the support roadmap.
 
 A commercial offer for extended support is available
-[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+[from VMWare Tanzu](https://enterprise.spring.io/).
 
 ## Java Compatibility
 
