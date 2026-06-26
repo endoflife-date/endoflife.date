@@ -7,7 +7,9 @@ permalink: /coder
 versionCommand: coder version
 releasePolicyLink: https://coder.com/docs/install/releases
 changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
+LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eoasColumn: true
+eoesColumn: Extended Support
 
 identifiers:
   - repology: coder
@@ -58,9 +60,11 @@ releases:
     latestReleaseDate: 2026-05-18
 
   - releaseCycle: "2.29"
+    lts: true
     releaseDate: 2025-12-02
     eoas: 2026-02-23
     eol: 2026-04-14
+    eoes: 2026-12-02
     latest: "2.29.18"
     latestReleaseDate: 2026-06-17
 
@@ -93,9 +97,11 @@ releases:
     latestReleaseDate: 2025-10-01
 
   - releaseCycle: "2.24"
+    lts: true
     releaseDate: 2025-07-01
     eoas: 2025-09-03
     eol: 2025-10-07
+    eoes: 2026-07-01
     latest: "2.24.6"
     latestReleaseDate: 2026-05-18
 
@@ -217,7 +223,6 @@ releases:
     eol: 2024-04-03
     latest: "2.7.3"
     latestReleaseDate: 2024-03-04
-
 ---
 
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
@@ -226,3 +231,9 @@ releases:
 There is a new minor release of Coder on the first Tuesday of each month. Minor releases are
 supported for three months with bug and security fixes the first month, major bug and security
 fixes the second month, and only security fixes the third month.
+
+Coder also publishes Extended Support Releases (ESR) twice a year for customers who need a slower
+upgrade cadence. ESR releases receive critical bugfixes and security patches for 12 months from
+their release date as paid extended support. See the [Coder ESR announcement](https://coder.com/blog/esr)
+and [release channel documentation](https://coder.com/docs/install/releases#extended-support-release)
+for details.
