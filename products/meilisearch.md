@@ -2,7 +2,6 @@
 title: Meilisearch
 addedAt: 2024-01-14
 category: server-app
-tags: meilisearch
 iconSlug: meilisearch
 permalink: /meilisearch
 versionCommand: meilisearch --version
@@ -18,9 +17,21 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.48"
+    releaseDate: 2026-06-22
+    eol: false
+    latest: "1.48.2"
+    latestReleaseDate: 2026-06-24
+
+  - releaseCycle: "1.47"
+    releaseDate: 2026-06-15
+    eol: 2026-06-24
+    latest: "1.47.1"
+    latestReleaseDate: 2026-06-24
+
   - releaseCycle: "1.46"
     releaseDate: 2026-06-08
-    eol: false
+    eol: 2026-06-15
     latest: "1.46.1"
     latestReleaseDate: 2026-06-09
 
@@ -242,13 +253,13 @@ releases:
 
   - releaseCycle: "1.9"
     releaseDate: 2024-06-27
-    eol: 2024-08-26
+    eol: 2024-08-27
     latest: "1.9.1"
     latestReleaseDate: 2024-08-27
 
   - releaseCycle: "1.8"
     releaseDate: 2024-05-02
-    eol: 2024-06-27
+    eol: 2024-07-15
     latest: "1.8.4"
     latestReleaseDate: 2024-07-15
 
@@ -278,13 +289,13 @@ releases:
 
   - releaseCycle: "1.3"
     releaseDate: 2023-07-27
-    eol: 2023-09-11
+    eol: 2023-09-20
     latest: "1.3.5"
     latestReleaseDate: 2023-09-20
 
   - releaseCycle: "1.2"
     releaseDate: 2023-05-30
-    eol: 2023-07-27
+    eol: 2023-09-13
     latest: "1.2.1"
     latestReleaseDate: 2023-09-13
 
