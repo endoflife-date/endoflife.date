@@ -18,9 +18,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "6.0"
+    releaseDate: 2026-06-24
+    eol: false
+    latest: "6.0.0"
+    latestReleaseDate: 2026-06-24
+
   - releaseCycle: "5.8"
     releaseDate: 2026-02-12
-    eol: false
+    eol: 2026-09-26 # 6.0 cycle broke more than regular cycles so +3m eol time to 5.x
     latest: "5.8.4"
     latestReleaseDate: 2026-06-26
 
@@ -74,91 +80,91 @@ releases:
 
   - releaseCycle: "4.9"
     releaseDate: 2024-01-22
-    eol: true
+    eol: 2024-05-30
     latest: "4.9.5"
     latestReleaseDate: 2024-05-30
 
   - releaseCycle: "4.8"
     releaseDate: 2023-11-27
-    eol: true
+    eol: 024-01-03
     latest: "4.8.3"
     latestReleaseDate: 2024-01-03
 
   - releaseCycle: "4.7"
     releaseDate: 2023-09-27
-    eol: true
+    eol: 2023-10-31
     latest: "4.7.2"
     latestReleaseDate: 2023-10-31
 
   - releaseCycle: "4.6"
     releaseDate: 2023-07-20
-    eol: true
+    eol: 2023-08-28
     latest: "4.6.2"
     latestReleaseDate: 2023-08-28
 
   - releaseCycle: "4.5"
     releaseDate: 2023-04-14
-    eol: true
+    eol: 2023-05-26
     latest: "4.5.1"
     latestReleaseDate: 2023-05-26
 
   - releaseCycle: "4.4"
     releaseDate: 2023-02-01
-    eol: true
+    eol: 2023-03-27
     latest: "4.4.4"
     latestReleaseDate: 2023-03-27
 
   - releaseCycle: "4.3"
     releaseDate: 2022-10-18
-    eol: true
+    eol: 2022-11-10
     latest: "4.3.1"
     latestReleaseDate: 2022-11-10
 
   - releaseCycle: "4.2"
     releaseDate: 2022-08-10
-    eol: true
+    eol: 2022-09-06
     latest: "4.2.1"
     latestReleaseDate: 2022-09-06
 
   - releaseCycle: "4.1"
     releaseDate: 2022-05-05
-    eol: true
+    eol: 2022-06-14
     latest: "4.1.1"
     latestReleaseDate: 2022-06-14
 
   - releaseCycle: "4.0"
     releaseDate: 2022-02-17
-    eol: true
+    eol: 2022-04-01
     latest: "4.0.3"
     latestReleaseDate: 2022-04-01
 
   - releaseCycle: "3.4"
     releaseDate: 2021-09-30
-    eol: true
+    eol: 2022-04-20
     latest: "3.4.7"
     latestReleaseDate: 2022-04-20
 
   - releaseCycle: "3.3"
     releaseDate: 2021-08-20
-    eol: true
+    eol: 2021-08-30
     latest: "3.3.1"
     latestReleaseDate: 2021-08-30
 
   - releaseCycle: "3.2"
     releaseDate: 2021-06-03
-    eol: true
+    eol: 2021-07-16
     latest: "3.2.3"
     latestReleaseDate: 2021-07-16
 
   - releaseCycle: "3.1"
     releaseDate: 2021-03-29
-    eol: true
+    eol: 2021-04-21
     latest: "3.1.2"
     latestReleaseDate: 2021-04-21
 
   - releaseCycle: "3.0"
     releaseDate: 2021-02-11
-    eol: true
+    eol: 2022-05-16
     latest: "3.0.2"
     latestReleaseDate: 2022-05-16
 
