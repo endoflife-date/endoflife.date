@@ -86,7 +86,7 @@ releases:
 
   - releaseCycle: "4.8"
     releaseDate: 2023-11-27
-    eol: 024-01-03
+    eol: 2024-01-03
     latest: "4.8.3"
     latestReleaseDate: 2024-01-03
 
