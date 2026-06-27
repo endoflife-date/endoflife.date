@@ -44,8 +44,8 @@ releases:
     codename: Oakwood
     supportedSpringBootVersions: "4.0.x"
     releaseDate: 2025-11-24
-    eol: 2026-12-31
-    eoes: 2027-12-31
+    eol: 2027-07-31
+    eoes: 2028-07-31
     latest: "2025.1.2"
     latestReleaseDate: 2026-06-11
 

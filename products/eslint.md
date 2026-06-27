@@ -38,8 +38,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "10.5.0"
-    latestReleaseDate: 2026-06-12
+    latest: "10.6.0"
+    latestReleaseDate: 2026-06-26
 
   - releaseCycle: "9"
     releaseDate: 2024-04-05
