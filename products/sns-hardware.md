@@ -33,6 +33,12 @@ auto:
           regex: '^.*(?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "sni50"
+    releaseDate: 2026-06-25
+    eoas: false
+    eol: false
+    lowestSNSVersion: "4.8.17"
+
   - releaseCycle: "sni10"
     releaseDate: 2024-09-30
     eoas: false
@@ -193,6 +199,7 @@ releases:
     lowestSNSVersion: "1.5.0"
 
   - releaseCycle: "sni40"
+    staleReleaseThresholdDays: 4000
     outOfOrder: true # because SN910 has been released after
     releaseDate: 2016-06-01
     eoas: 2026-07-15
