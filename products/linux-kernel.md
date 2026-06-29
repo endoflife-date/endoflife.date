@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "7.0"
     releaseDate: 2026-04-12
-    eol: false
+    eol: 2026-06-27 # announced https://lore.kernel.org/all/2026062744-eject-breeder-4849@gregkh/
     latest: "7.0.14"
     latestReleaseDate: 2026-06-27
 
