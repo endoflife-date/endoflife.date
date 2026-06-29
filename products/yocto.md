@@ -24,6 +24,14 @@ identifiers:
 # for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
 # eol(x) = releaseDate(x) + 7 month
 releases:
+  - releaseCycle: "6.0"
+    codename: "Wrynose"
+    lts: true
+    releaseDate: 2026-05-13
+    eol: 2030-04-30
+    latest: "6.0.1"
+    latestReleaseDate: 2026-06-18
+
   - releaseCycle: "5.3"
     codename: "Whinlatter"
     releaseDate: 2025-12-15
