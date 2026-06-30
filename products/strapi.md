@@ -1,6 +1,6 @@
 ---
 title: Strapi
-addedAt: 2026-04-23
+addedAt: 2026-07-01
 category: framework
 tags: javascript-runtime
 iconSlug: strapi
@@ -25,21 +25,22 @@ auto:
 # - v4.x.x: GA since November 2021, active support ended October 2025,
 #            security-only fixes (high/critical) until April 2026
 # - v3.x.x: End of Life
+
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-09-18
     lts: true
     eoas: false
     eol: false
-    latest: "5.43.0"
-    latestReleaseDate: 2026-04-22
+    latest: "5.49.0"
+    latestReleaseDate: 2026-06-24
 
   - releaseCycle: "4"
     releaseDate: 2021-11-30
     eoas: 2025-10-01
-    eol: 2026-04-30
-    latest: "4.26.1"
-    latestReleaseDate: 2026-01-08
+    eol: 2026-06-09
+    latest: "4.26.2"
+    latestReleaseDate: 2026-06-09
 
   - releaseCycle: "3"
     releaseDate: 2020-05-26
