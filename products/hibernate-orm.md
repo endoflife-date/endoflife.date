@@ -178,8 +178,8 @@ releases:
     releaseDate: 2018-05-14
     eol: 2026-01-19
     eoes: true
-    latest: "5.3.38"
-    latestReleaseDate: 2026-01-19
+    latest: "5.3.39"
+    latestReleaseDate: 2026-06-29
 
 ---
 
