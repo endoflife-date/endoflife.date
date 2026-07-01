@@ -23,9 +23,15 @@ auto:
 # - Non-LTS : eol(x) = releaseDate(x + 1)
 # - LTS : eol(x) = releaseDate(next LTS)
 releases:
+  - releaseCycle: "7.23"
+    releaseDate: 2026-05-26
+    eol: false
+    latest: "7.23.1"
+    latestReleaseDate: 2026-06-03
+
   - releaseCycle: "7.22"
     releaseDate: 2026-03-10
-    eol: false
+    eol: 2026-05-26
     latest: "7.22.3"
     latestReleaseDate: 2026-05-08
 

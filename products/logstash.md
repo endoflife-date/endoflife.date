@@ -25,14 +25,14 @@ releases:
   - releaseCycle: "9.4"
     releaseDate: 2026-05-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.4.2"
-    latestReleaseDate: 2026-05-23
+    latest: "9.4.3"
+    latestReleaseDate: 2026-06-16
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
     eol: 2026-05-08
-    latest: "9.3.6"
-    latestReleaseDate: 2026-06-16
+    latest: "9.3.7"
+    latestReleaseDate: 2026-06-24
 
   - releaseCycle: "9.2"
     releaseDate: 2025-10-21
@@ -49,8 +49,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-14
     eol: 2027-07-15
-    latest: "8.19.17"
-    latestReleaseDate: 2026-06-16
+    latest: "8.19.18"
+    latestReleaseDate: 2026-06-24
     link: https://www.elastic.co/guide/en/logstash/8.19/logstash-{{'__LATEST__'|replace:'.','-'}}.html
 
   - releaseCycle: "8.18"

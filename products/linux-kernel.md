@@ -32,14 +32,14 @@ releases:
   - releaseCycle: "7.1"
     releaseDate: 2026-06-14
     eol: false
-    latest: "7.1.1"
-    latestReleaseDate: 2026-06-19
+    latest: "7.1.2"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "7.0"
     releaseDate: 2026-04-12
-    eol: false
-    latest: "7.0.13"
-    latestReleaseDate: 2026-06-19
+    eol: 2026-06-27 # announced https://lore.kernel.org/all/2026062744-eject-breeder-4849@gregkh/
+    latest: "7.0.14"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "6.19"
     releaseDate: 2026-02-08
@@ -51,8 +51,8 @@ releases:
     lts: true
     releaseDate: 2025-11-30
     eol: 2028-12-31 # announced https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
-    latest: "6.18.36"
-    latestReleaseDate: 2026-06-19
+    latest: "6.18.37"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
