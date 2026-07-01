@@ -230,7 +230,6 @@ releases:
     link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
     latestReleaseDate: 2015-07-09
-
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment
@@ -243,4 +242,4 @@ Production applications should only use Active LTS or Maintenance LTS releases.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
 Commercial support is available for some deprecated LTS versions of Node.js through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/) also provides commercial support for Node.js.
