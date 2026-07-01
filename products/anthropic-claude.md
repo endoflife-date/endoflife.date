@@ -46,7 +46,6 @@ releases:
     eoas: false
     eol: 2027-06-30
     recommendedReplacement: "N/A"
-    link: https://www.anthropic.com/news/claude-sonnet-5
 
   - releaseCycle: "claude-opus-4-8"
     releaseLabel: Claude Opus 4.8
