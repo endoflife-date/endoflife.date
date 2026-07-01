@@ -52,15 +52,15 @@ releases:
     releaseDate: 2025-08-29
     eoas: 2026-02-28
     eol: 2027-02-28
-    latest: "2.12.10"
-    latestReleaseDate: 2026-05-27
+    latest: "2.12.11"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "2.11"
     releaseDate: 2025-04-24
     eoas: 2025-10-24
     eol: 2026-10-24
-    latest: "2.11.14"
-    latestReleaseDate: 2026-05-27
+    latest: "2.11.15"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "2.10"
     releaseDate: 2024-12-19

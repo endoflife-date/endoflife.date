@@ -62,7 +62,7 @@ auto:
 releases:
   - releaseCycle: "4.1"
     supportedJavaVersions: "17 - 26" # https://docs.spring.io/spring-boot/4.1/system-requirements.html
-    releaseDate: 2026-06-10
+    releaseDate: 2026-06-30
     eol: 2027-07-31
     eoes: 2028-07-31
     latest: "4.1.0"
