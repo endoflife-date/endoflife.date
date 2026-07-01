@@ -28,10 +28,10 @@ auto:
 
 releases:
   - releaseCycle: "1.46"
-    releaseDate: 2026-05-31
-    eol: 2027-05-31
+    releaseDate: 2026-06-30
+    eol: 2027-07-31
     latest: "1.46.0"
-    latestReleaseDate: 2026-05-31
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "1.45"
     releaseDate: 2025-12-04

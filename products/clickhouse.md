@@ -81,8 +81,8 @@ releases:
     lts: true
     releaseDate: 2025-08-29
     eol: 2026-08-29
-    latest: "25.8.24.21"
-    latestReleaseDate: 2026-05-20
+    latest: "25.8.25.37"
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "25.7"
     releaseDate: 2025-07-29

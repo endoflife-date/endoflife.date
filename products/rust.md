@@ -26,8 +26,8 @@ releases:
   - releaseCycle: "1.96"
     releaseDate: 2026-05-28
     eol: false
-    latest: "1.96.0"
-    latestReleaseDate: 2026-05-28
+    latest: "1.96.1"
+    latestReleaseDate: 2026-06-30
     link: https://doc.rust-lang.org/stable/releases.html#version-1960-2026-05-28
 
   - releaseCycle: "1.95"
