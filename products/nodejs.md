@@ -241,5 +241,5 @@ LTS release status is "long-term support", which typically guarantees that criti
 Production applications should only use Active LTS or Maintenance LTS releases.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
-Commercial support is available for some deprecated LTS versions of Node.js through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/) also provides commercial support for Node.js.
+
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. Commercial support for Node.js is also available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/).
