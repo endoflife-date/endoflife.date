@@ -763,7 +763,7 @@ releases:
     releaseLabel: "Galaxy M13"
     releaseDate: 2022-07-01
     eoas: 2025-07-01
-    eol: 2026-07-01
+    eol: false
     link: https://doc.samsungmobile.com/SM-M135F/EUX/doc.html
 
   - releaseCycle: "galaxy-f13"
