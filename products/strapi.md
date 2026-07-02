@@ -46,8 +46,8 @@ releases:
     releaseDate: 2020-05-26
     eoas: 2022-02-16
     eol: 2022-02-16
-    latest: "3.6.9"
-    latestReleaseDate: 2022-02-16
+    latest: "3.6.11"
+    latestReleaseDate: 2022-11-22
 
 ---
 
