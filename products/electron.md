@@ -45,6 +45,14 @@ auto:
           regex: '^v(?P<value>\d+).+$'
 
 releases:
+  - releaseCycle: "43"
+    releaseDate: 2026-06-30
+    eol: 2027-01-05
+    latest: "43.0.0"
+    latestReleaseDate: 2026-06-30
+    chromeVersion: "M150"
+    nodeVersion: "24"
+
   - releaseCycle: "42"
     releaseDate: 2026-05-05
     eol: 2026-10-20
@@ -372,6 +380,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
 
 
 
