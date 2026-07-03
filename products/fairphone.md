@@ -40,13 +40,13 @@ releases:
 
   - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
-    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/en-us/articles/4405858220945-Fairphone-4-Release-Notes
+    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
     releaseDate: 2021-09-30
     discontinued: true
     eoas: true
-    eol: 2026-09-30
-    link: https://support.fairphone.com/hc/articles/4405858220945
-
+    eol:  2028-09-01
+    link: https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
+    
   - releaseCycle: "3+"
     releaseLabel: "Fairphone 3+"
     supportedAndroidVersions: 10 - 13
