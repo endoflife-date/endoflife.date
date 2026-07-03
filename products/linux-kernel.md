@@ -158,7 +158,7 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
-    eoes: 2033-01-01 # CIP SLTS phase2 end per https://gitlab.com/cip-project/cip-lifecycle/-/blob/master/cip-kernel.yml
+    eoes: 2033-08-01 # CIP SLTS phase2 end per https://wiki.linuxfoundation.org/civilinfrastructureplatform/start#kernel_maintainership (SLTS v6.1 EOL 2033-08); tracked upstream in https://gitlab.com/cip-project/cip-lifecycle/-/merge_requests/1
     latest: "6.1.177"
     latestReleaseDate: 2026-07-04
 
