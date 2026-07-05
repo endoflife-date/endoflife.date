@@ -36,7 +36,7 @@ releases:
     releaseDate: 2026-06-25
     eol: false
     latest: "2.3.0"
-    latestReleaseDate: 2026-06-25
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "2.2"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.2/docs/deployment/java_compatibility/
