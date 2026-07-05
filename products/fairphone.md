@@ -22,16 +22,16 @@ customFields:
 releases:
   - releaseCycle: "6"
     releaseLabel: "Fairphone 6"
-    supportedAndroidVersions: "15 - 16" # https://support.fairphone.com/hc/en-us/articles/24463713641234-The-Fairphone-Gen-6-Release-Notes
-    releaseDate: 2025-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    supportedAndroidVersions: "15 - 16" # https://support.fairphone.com/hc/articles/24463713641234-The-Fairphone-Gen-6-Release-Notes
+    releaseDate: 2025-06-25 # https://support.fairphone.com/hc/articles/24463093338898-The-Fairphone-Gen-6-FAQ
     discontinued: false
     eoas: false
-    eol: 2033-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
-    link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    eol: 2033-06-25 # https://support.fairphone.com/hc/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    link: https://support.fairphone.com/hc/articles/24463093338898-The-Fairphone-Gen-6-FAQ
     
   - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
-    supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
+    supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/articles/18682800465169-Fairphone-5-OS-Release-Notes
     releaseDate: 2023-09-14
     discontinued: 2026-01-12
     eoas: false
@@ -40,12 +40,12 @@ releases:
 
   - releaseCycle: "4"
     releaseLabel: "Fairphone 4"
-    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
+    supportedAndroidVersions: 11 - 15 # https://support.fairphone.com/hc/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
     releaseDate: 2021-09-30
     discontinued: true
     eoas: true
-    eol:  2028-09-01
-    link: https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
+    eol: 2028-09-01
+    link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
     
   - releaseCycle: "3+"
     releaseLabel: "Fairphone 3+"
