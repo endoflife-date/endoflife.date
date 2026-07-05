@@ -28,7 +28,7 @@ releases:
     eoas: false
     eol: 2033-06-25 # https://support.fairphone.com/hc/articles/24463093338898-The-Fairphone-Gen-6-FAQ
     link: https://support.fairphone.com/hc/articles/24463093338898-The-Fairphone-Gen-6-FAQ
-    
+
   - releaseCycle: "5"
     releaseLabel: "Fairphone 5"
     supportedAndroidVersions: "13 - 15" # https://support.fairphone.com/hc/articles/18682800465169-Fairphone-5-OS-Release-Notes
@@ -46,7 +46,7 @@ releases:
     eoas: true
     eol: 2028-09-01
     link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-s-Operating-System#h_01KG29XZ4H590M395710QR626C
-    
+
   - releaseCycle: "3+"
     releaseLabel: "Fairphone 3+"
     supportedAndroidVersions: 10 - 13
