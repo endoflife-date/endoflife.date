@@ -45,7 +45,7 @@ auto:
 
 releases:
   - releaseCycle: "3.7"
-    releaseDate: 2026-04-22
+    releaseDate: 2026-05-05
     eoas: false
     eol: false
     latest: "3.7.6"
@@ -53,8 +53,8 @@ releases:
 
   - releaseCycle: "3.6"
     releaseDate: 2025-11-07
-    eoas: 2026-05-11
-    eol: false
+    eoas: 2026-05-05
+    eol: 2026-05-05
     latest: "3.6.22"
     latestReleaseDate: 2026-06-30
 
