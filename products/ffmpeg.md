@@ -50,7 +50,7 @@ releases:
   - releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
-    eol: false
+    eol: 2026-06-22 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/a372718e3aabb9ad876eac037a359b305c3a360a
     latest: "7.0.3"
     latestReleaseDate: 2025-08-05
 
