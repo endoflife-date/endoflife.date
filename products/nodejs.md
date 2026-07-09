@@ -33,8 +33,8 @@ releases:
     lts: 2026-10-28
     eoas: 2027-10-27
     eol: 2029-04-30
-    latest: "26.4.0"
-    latestReleaseDate: 2026-06-25
+    latest: "26.5.0"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "25"
     releaseDate: 2025-10-15
@@ -242,5 +242,5 @@ LTS release status is "long-term support", which typically guarantees that criti
 Production applications should only use Active LTS or Maintenance LTS releases.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
-Commercial support is available for some deprecated LTS versions of Node.js through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
+
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. Commercial support for Node.js is also available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/).

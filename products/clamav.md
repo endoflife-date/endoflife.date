@@ -28,15 +28,15 @@ releases:
   - releaseCycle: "1.5"
     releaseDate: 2025-10-07
     eol: false # releaseCycle(1.7) + 4 months
-    latest: "1.5.2"
-    latestReleaseDate: 2026-03-04
+    latest: "1.5.3"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "1.4"
     releaseDate: 2024-08-15
     lts: true
     eol: 2027-08-15
-    latest: "1.4.4"
-    latestReleaseDate: 2026-03-04
+    latest: "1.4.5"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "1.3"
     releaseDate: 2024-02-07

@@ -25,6 +25,11 @@ auto:
         eol: "EOL date"
 
 releases:
+  - releaseCycle: "2026"
+    releaseDate: 2026-06-30 # https://www.claris.com/blog/2026/claris-filemaker-2026-is-now-available
+    eol: 2028-06-30
+    link: https://help.claris.com/en/server-release-notes/content/index.html
+
   - releaseCycle: "2025"
     releaseDate: 2025-07-31 # https://www.claris.com/blog/2025/announcing-the-2025-release-of-claris-filemaker
     eol: 2027-07-31
@@ -134,6 +139,7 @@ releases:
     releaseDate: 2004-03-01
     eol: 2008-09-26
     link: https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-7-product-family-1503692949742
+
 ---
 
 > FileMaker Platform is a cross-platform relational database application from Claris International.

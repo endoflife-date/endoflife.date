@@ -28,6 +28,7 @@ auto:
     # See release links for sources of release dates.
     - declare: azure-kubernetes-service
       releases:
+        - {name: "1.36", releaseDate: 2026-06-30}
         - {name: "1.35", releaseDate: 2026-03-05}
         - {name: "1.34", releaseDate: 2026-01-04}
         - {name: "1.33", releaseDate: 2025-06-17}
@@ -48,6 +49,12 @@ auto:
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 # Do not forget to update the release dates in the auto section above when adding a new release.
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-30
+    eol: 2027-06-30
+    eoes: 2028-06-30
+    link: https://github.com/Azure/AKS/releases/tag/2026-06-19
+
   - releaseCycle: "1.35"
     releaseDate: 2026-03-05
     eol: 2027-03-31

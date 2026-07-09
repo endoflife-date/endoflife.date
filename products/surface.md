@@ -203,7 +203,7 @@ releases:
     link: null
 
   - releaseCycle: "pro-x-sq2"
-    releaseLabel: "Surface Pro X SQ2"
+    releaseLabel: "Surface Pro X (SQ2)"
     releaseDate: 2020-10-13
     eol: 2025-08-10
     link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
@@ -227,7 +227,7 @@ releases:
     link: https://support.microsoft.com/surface/surface-go-2-specs-and-features-0fc6a657-2851-484f-6f82-bd3c589ed92c
 
   - releaseCycle: "pro-x-sq1"
-    releaseLabel: "Surface Pro X SQ1"
+    releaseLabel: "Surface Pro X (SQ1)"
     releaseDate: 2019-11-05
     eol: 2025-08-10
     link: https://support.microsoft.com/surface/surface-pro-x-features-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
@@ -375,6 +375,7 @@ releases:
     releaseDate: 2012-10-26
     eol: 2017-04-11
     link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
+
 ---
 
 > Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards

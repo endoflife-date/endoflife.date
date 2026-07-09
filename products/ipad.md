@@ -386,7 +386,7 @@ releases:
     supportedIpadOsVersions: "3 - 5"
 ---
 
-> The [iPad](https://www.apple.com/ipad/)is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
+> The [iPad](https://www.apple.com/ipad/) is a line of tablet-based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
 
 Apple maintains a list of supported iPad models [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
