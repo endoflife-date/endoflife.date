@@ -27,8 +27,8 @@ releases:
     releaseDate: 2025-06-30
     eoas: false # until 8.0 LTS
     eol: 2026-09-30 # Q3 2026
-    latest: "7.4.11"
-    latestReleaseDate: 2026-06-02
+    latest: "7.4.12"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "7.2"
     releaseDate: 2024-12-10
