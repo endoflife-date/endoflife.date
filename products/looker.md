@@ -60,7 +60,7 @@ releases:
     link: https://docs.cloud.google.com/looker/docs/release-notes#February_09_2026
 
   - releaseCycle: "26.0"
-    releaseDate: 2026-01-08
+    releaseDate: 2026-01-31
     lts: 2026-02-28
     eol: 2026-06-30
     link: https://docs.cloud.google.com/looker/docs/release-notes#January_08_2026
