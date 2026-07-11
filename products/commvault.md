@@ -14,9 +14,7 @@ auto:
   methods:
     - release_table: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
       fields:
-        releaseCycle:
-          column: "Release"
-          regex: '^.+ \(?(?P<value>\d+\.\d+)\)?$'
+        releaseCycle: "Release"
         releaseDate: "Initial release date"
         eol: "End-of-life date"
         latest: "Latest maintenance release"
