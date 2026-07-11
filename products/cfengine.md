@@ -31,7 +31,7 @@ releases:
   - releaseCycle: "3.27"
     releaseDate: 2026-01-09
     lts: true
-    eol: false
+    eol: 2029-01-09
     latest: "3.27.1"
     latestReleaseDate: 2026-05-08
 
