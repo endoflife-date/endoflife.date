@@ -34,15 +34,15 @@ releases:
     releaseDate: 2025-10-10
     eoas: 2025-10-10
     eol: false # releaseDate(33)
-    latest: "30.2"
-    latestReleaseDate: 2026-01-13
+    latest: "30.3"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "29"
     releaseDate: 2025-04-14
     eoas: 2025-10-10
     eol: false # releaseDate(32)
-    latest: "29.3"
-    latestReleaseDate: 2026-02-11
+    latest: "29.4"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
