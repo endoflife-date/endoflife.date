@@ -1,6 +1,6 @@
 ---
 title: Proxmox Backup Server
-addedAt: 2026-05-23
+addedAt: 2026-05-20
 category: server-app
 tags: proxmox
 iconSlug: proxmox

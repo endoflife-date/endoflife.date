@@ -1,6 +1,6 @@
 ---
 title: Proxmox Datacenter Manager
-addedAt: 2026-06-01
+addedAt: 2026-05-23
 category: server-app
 tags: proxmox
 iconSlug: proxmox
