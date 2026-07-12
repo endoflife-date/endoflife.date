@@ -29,9 +29,8 @@ auto:
       render_javascript_wait_for: "table"
       fields:
         releaseCycle:
-          column: "Major Release and Long-Term Stability Release versions"
+          column: "Software version or branch"
           regex: '^(?P<value>\d+\.\d+).x.*$'
-        releaseDate: "First customer ship"
         eoas: "End of Software Development"
         eol: "End of Technical Support"
     - version_table: https://my.f5.com/manage/s/article/K9412
