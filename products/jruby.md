@@ -1,6 +1,6 @@
 ---
 title: JRuby
-addedAt: 2026-04-29
+addedAt: 2026-05-08
 category: lang
 tags: java-runtime
 permalink: /jruby
