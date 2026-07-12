@@ -14,10 +14,6 @@ changelogTemplate: "https://pmg.proxmox.com/wiki/index.php/Roadmap"
 identifiers:
   - purl: pkg:github/proxmox/pmg-api
 
-auto:
-  methods:
-    - git: https://git.proxmox.com/git/pmg-api.git
-
 releases:
   - releaseCycle: "9"
     releaseDate: 2025-10-01
