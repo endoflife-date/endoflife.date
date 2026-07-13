@@ -33,8 +33,8 @@ releases:
     lts: 2026-10-28
     eoas: 2027-10-27
     eol: 2029-04-30
-    latest: "26.4.0"
-    latestReleaseDate: 2026-06-25
+    latest: "26.5.0"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "25"
     releaseDate: 2025-10-15
@@ -230,6 +230,7 @@ releases:
     link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
     latestReleaseDate: 2015-07-09
+
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment

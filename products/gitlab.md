@@ -18,7 +18,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://gitlab.com/gitlab-org/gitlab.git
+    - gitlab_tags: gitlab-org/gitlab
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 # eoas(x) = releaseDate(x+1)
@@ -29,22 +29,22 @@ releases:
     releaseDate: 2026-06-18
     eoas: 2026-07-16 # releaseDate(19.2)
     eol: 2026-09-17 # releaseDate(19.4)
-    latest: "19.1.1"
-    latestReleaseDate: 2026-06-23
+    latest: "19.1.2"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "19.0"
     releaseDate: 2026-05-21
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
-    latest: "19.0.3"
-    latestReleaseDate: 2026-06-23
+    latest: "19.0.4"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
-    latest: "18.11.6"
-    latestReleaseDate: 2026-06-23
+    latest: "18.11.7"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19

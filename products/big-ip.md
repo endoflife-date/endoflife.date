@@ -29,9 +29,8 @@ auto:
       render_javascript_wait_for: "table"
       fields:
         releaseCycle:
-          column: "Major Release and Long-Term Stability Release versions"
+          column: "Software version or branch"
           regex: '^(?P<value>\d+\.\d+).x.*$'
-        releaseDate: "First customer ship"
         eoas: "End of Software Development"
         eol: "End of Technical Support"
     - version_table: https://my.f5.com/manage/s/article/K9412
@@ -85,8 +84,8 @@ releases:
   - releaseCycle: "16.1"
     lts: true
     releaseDate: 2021-07-07
-    eoas: 2026-07-01
-    eol: 2026-07-01
+    eoas: 2025-07-31
+    eol: 2025-07-31
     latest: "16.1.6"
     latestReleaseDate: 2025-04-15
 
@@ -101,8 +100,8 @@ releases:
   - releaseCycle: "15.1"
     lts: true
     releaseDate: 2019-12-11
-    eoas: 2025-12-31
-    eol: 2025-12-31
+    eoas: 2024-12-31
+    eol: 2024-12-31
     latest: "15.1.10"
     latestReleaseDate: 2023-08-30
     link: null

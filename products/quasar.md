@@ -17,23 +17,14 @@ identifiers:
 auto:
   methods:
     - npm: quasar
-    - release_table: https://collected.press/github/quasarframework/quasar/ROADMAP.md
-      selector: "table:nth-of-type(1)"
-      fields:
-        releaseCycle:
-          column: "Version"
-          regex: '^(?P<value>\d+)\.x$'
-        releaseDate: "Released"
-        eoas: "Active support ends"
-        eol: "LTS support ends"
 
 releases:
   - releaseCycle: "2"
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.19.3"
-    latestReleaseDate: 2026-04-06
+    latest: "2.21.2"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1"
     releaseDate: 2019-03-07
