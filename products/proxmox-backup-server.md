@@ -36,15 +36,15 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2021-07-13
     eol: 2024-07-31
-    latest: "2.4"
-    latestReleaseDate: 2023-01-26
+    latest: "2.4.1"
+    latestReleaseDate: 2023-03-28
     link: https://www.proxmox.com/en/news/press-releases/proxmox-backup-server-2-4
 
   - releaseCycle: "1"
     releaseDate: 2020-11-11
     eol: 2022-09-30
-    latest: "1.1"
-    latestReleaseDate: 2021-02-22
+    latest: "1.1.10"
+    latestReleaseDate: 2021-06-16
     link: https://forum.proxmox.com/threads/proxmox-backup-server-1-1-released.83728/
 
 ---
