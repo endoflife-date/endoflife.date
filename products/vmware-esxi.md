@@ -28,9 +28,9 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     technicalGuidance: 2029-08-12
-    latest: "9.1.0.0100"
-    latestReleaseDate: 2026-06-05
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/patch-releases-9-1-0-x/vsphere/esx/esx-9-1-0-0100-release-notes.html
+    latest: "9.1.0.0200"
+    latestReleaseDate: 2026-07-13
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/patch-releases-9-1-0-x/vsphere/esx/esx-9-1-0-0200-release-notes.html
     # No longer standalone release notes for ESX as of this release.    
     
   - releaseCycle: "9.0"
