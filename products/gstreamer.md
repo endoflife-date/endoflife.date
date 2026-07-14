@@ -21,6 +21,7 @@ auto:
     - git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
       regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
+# eol(x) = true if latestReleaseDate is older than a year
 releases:
   - releaseCycle: "1.28"
     releaseDate: 2026-01-27
@@ -36,7 +37,7 @@ releases:
 
   - releaseCycle: "1.24"
     releaseDate: 2024-03-04
-    eol: false
+    eol: true
     latest: "1.24.13"
     latestReleaseDate: 2025-06-11
 
@@ -96,24 +97,21 @@ releases:
 
   - releaseCycle: "1.4"
     releaseDate: 2014-07-19
-    eol: true
-    # no known changelog for this version
+    eol: true # no known changelog for this version
     link: null
     latest: "1.4.5"
     latestReleaseDate: 2014-12-18
 
   - releaseCycle: "1.2"
     releaseDate: 2013-09-24
-    eol: true
-    # no known changelog for this version
+    eol: true # no known changelog for this version
     link: null
     latest: "1.2.4"
     latestReleaseDate: 2014-04-18
 
   - releaseCycle: "1.0"
     releaseDate: 2012-09-24
-    eol: true
-    # no known changelog for this version
+    eol: true # no known changelog for this version
     link: null
     latest: "1.0.10"
     latestReleaseDate: 2013-08-28
