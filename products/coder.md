@@ -26,8 +26,8 @@ releases:
     releaseDate: 2026-07-07 # 2.35.1 was the first 2.35 version
     eoas: false # releaseDate(2.37)
     eol: false # releaseDate(2.38)
-    latest: "2.35.1"
-    latestReleaseDate: 2026-07-07
+    latest: "2.35.2"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "2.34"
     releaseDate: 2026-06-02
