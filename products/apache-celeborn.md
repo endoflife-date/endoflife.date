@@ -32,13 +32,13 @@ releases:
 
   - releaseCycle: "0.5"
     releaseDate: 2024-07-09
-    eol: false
+    eol: 2025-07-07
     latest: "0.5.4"
     latestReleaseDate: 2025-03-13
 
   - releaseCycle: "0.4"
     releaseDate: 2024-05-22
-    eol: false
+    eol: 2025-07-07
     latest: "0.4.3"
     latestReleaseDate: 2024-12-10
 
@@ -48,14 +48,5 @@ releases:
 > and spilled data. It provides efficient management of intermediate data in distributed computing engines,
 > focusing primarily on shuffle data used by Apache Spark, Apache Flink, and Hadoop MapReduce.
 
-
-**Support Policy**: Apache Celeborn does not publish an official support lifecycle or EOL policy.
-Support status is inferred from [branch maintenance activity](https://github.com/apache/celeborn/branches)
-and availability on the [official downloads page](https://celeborn.apache.org/download/).
-
-The project currently maintains multiple concurrent release branches (0.4.x, 0.5.x, 0.6.x) with active
-backporting of fixes, following a pattern similar to other Apache projects that support the current
-and previous 2 major versions. Versions are considered EOL only when branch maintenance ceases entirely.
-
-The project follows semantic versioning and typically releases new minor versions every 4-12 months,
-with patch releases issued as needed for bug fixes and security updates.
+Apache Celeborn does not publish a formal support or EOL policy. Only the latest minor release is
+actively maintained; older branches stop receiving fixes once a newer minor is released.
