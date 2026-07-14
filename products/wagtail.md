@@ -23,7 +23,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^(?P<value>\d+\.\d+).*$'
+          regex: '^(?P<value>[1-9]\d*\.\d+).*$'
         releaseDate: "Release date"
         eoas: "Active support"
         eol: "Security support"
