@@ -20,11 +20,17 @@ auto:
       template: "{{version}}"
 
 # As per https://cloud.google.com/kubernetes-engine/docs/release-schedule:
-# - releaseDate is the availability date of the of the Regular release channel,
-# - eol is the End of standard support .
-#
-# eoas:last-date-in-month(eol - 2months)
+# - releaseDate = availability date of the of the Regular release channel,
+# - eoas = last-date-in-month(eol - 2months)
+# - eol = End of standard support
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-09
+    eoas: 2027-06-30
+    eol: 2027-08-09
+    latest: "1.36.2-gke.1346000"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "1.35"
     releaseDate: 2026-02-11
     eoas: 2027-02-28
