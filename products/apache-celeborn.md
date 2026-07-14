@@ -1,6 +1,6 @@
 ---
 title: Apache Celeborn
-addedAt: 2025-01-25
+addedAt: 2026-07-14
 category: server-app
 tags: apache java-runtime
 iconSlug: apache
@@ -19,8 +19,7 @@ identifiers:
 auto:
   methods:
     - github_releases: apache/celeborn
-      regex: '^v(?P<version>[\d\.]+)$'
-      regex_exclude: '^v.*-incubating$'
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Only stable releases (0.4.1+) are included. Incubating versions are excluded.
 # Support status based on versions available at https://celeborn.apache.org/download/
@@ -28,8 +27,8 @@ releases:
   - releaseCycle: "0.6"
     releaseDate: 2025-07-07
     eol: false
-    latest: "0.6.1"
-    latestReleaseDate: 2025-09-10
+    latest: "0.6.3"
+    latestReleaseDate: 2026-04-23
 
   - releaseCycle: "0.5"
     releaseDate: 2024-07-09
