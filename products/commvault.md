@@ -21,12 +21,19 @@ auto:
         latestReleaseDate: "Maintenance release date"
 
 releases:
+  - releaseCycle: "11.44"
+    releaseDate: 2026-06-15
+    eol: 2028-12-15
+    latest: "11.44.9"
+    latestReleaseDate: 2026-06-15
+    link: https://documentation.commvault.com/11.44/software/maintenance_release_in_11_44.html
+
   - releaseCycle: "11.42"
     releaseDate: 2025-07-14
     eol: 2028-06-15
     latest: "11.42.122"
     latestReleaseDate: 2026-06-15
-    link: https://documentation.commvault.com/11.42/software/list_of_innovation_update_releases_in_11_42.html
+    link: https://documentation.commvault.com/11.42/software/list_of_update_releases_in_11_42.html
 
   - releaseCycle: "11.40"
     lts: true
