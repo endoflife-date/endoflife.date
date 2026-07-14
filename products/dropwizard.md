@@ -2,7 +2,7 @@
 title: Dropwizard
 addedAt: 2026-01-30
 category: framework
-tags: java-runtime server-app web-server
+tags: java-runtime
 permalink: /dropwizard
 releasePolicyLink: https://github.com/dropwizard/dropwizard/security
 changelogTemplate: "https://github.com/dropwizard/dropwizard/releases/tag/v__LATEST__"
@@ -11,7 +11,6 @@ eolColumn: Support
 auto:
   methods:
     - git: https://github.com/dropwizard/dropwizard.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 identifiers:
   - purl: pkg:github/dropwizard/dropwizard
@@ -74,3 +73,6 @@ releases:
 ---
 
 > [Dropwizard](https://www.dropwizard.io/) is Java framework for developing ops-friendly, high-performance, RESTful web services.
+
+Dropwizard doesn't have a clearly defined release and support policy.
+In general, the currently stable and the previously stable major & minor versions are supported.
