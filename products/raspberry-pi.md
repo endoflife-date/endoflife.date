@@ -151,7 +151,7 @@ releases:
     releaseLabel: "2 Model B"
     # https://www.raspberrypi.com/news/raspberry-pi-2-on-sale/
     releaseDate: 2015-02-02
-    eol: false
+    eol: false # Due to revision 1.3 still supported ( 14/07/2026 )
     link: https://www.raspberrypi.com/products/raspberry-pi-2-model-b/
 
   - releaseCycle: "1-a+"
