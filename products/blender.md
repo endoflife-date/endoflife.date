@@ -32,7 +32,7 @@ releases:
     eoas: 2026-11-10 # planned 5.3 date, see https://projects.blender.org/blender/blender/milestone/34
     eol: 2028-07-14
     latest: "5.2.0"
-    latestReleaseDate: 2026-07-14
+    latestReleaseDate: 2026-07-13
 
   - releaseCycle: "5.1"
     releaseDate: 2026-03-17

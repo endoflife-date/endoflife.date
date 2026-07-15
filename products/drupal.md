@@ -32,8 +32,8 @@ releases:
     releaseDate: 2026-07-01
     eoas: 2027-01-01 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2027-07-07 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.4.2"
-    latestReleaseDate: 2026-07-10
+    latest: "11.4.3"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
