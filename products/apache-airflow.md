@@ -57,8 +57,8 @@ releases:
     releaseDate: 2025-04-22
     eoas: 2025-09-25
     eol: 2025-09-25
-    latest: "3.0.4"
-    latestReleaseDate: 2025-08-08
+    latest: "3.0.6"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "2"
     releaseDate: 2020-12-17
