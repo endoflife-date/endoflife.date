@@ -26,6 +26,12 @@ auto:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-07-14
+    eol: 2028-01-11 # estimated
+    latest: "4.2.0"
+    latestReleaseDate: 2026-07-14
+
   - releaseCycle: "4.1"
     releaseDate: 2025-12-11
     eol: 2027-06-11 # estimated
