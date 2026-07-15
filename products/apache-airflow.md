@@ -39,6 +39,27 @@ releases:
     latest: "3.3.0"
     latestReleaseDate: 2026-07-06
 
+  - releaseCycle: "3.2"
+    releaseDate: 2025-04-27
+    eoas: 2026-07-06
+    eol: 2026-07-06
+    latest: "3.2.2"
+    latestReleaseDate: 2026-05-29
+
+  - releaseCycle: "3.1"
+    releaseDate: 2025-09-25
+    eoas: 2026-04-07
+    eol: 2026-04-07
+    latest: "3.1.8"
+    latestReleaseDate: 2026-03-11
+
+  - releaseCycle: "3.0"
+    releaseDate: 2025-04-22
+    eoas: 2025-09-25
+    eol: 2025-09-25
+    latest: "3.0.4"
+    latestReleaseDate: 2025-08-08
+
   - releaseCycle: "2"
     releaseDate: 2020-12-17
     eoas: 2025-10-22
