@@ -32,8 +32,8 @@ auto:
         eol: "EOL/Terminated"
 
 releases:
-  - releaseCycle: "3"
-    releaseDate: 2025-04-22
+  - releaseCycle: "3.3"
+    releaseDate: 2026-07-06
     eoas: false
     eol: false
     latest: "3.3.0"
