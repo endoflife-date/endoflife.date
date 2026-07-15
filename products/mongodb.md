@@ -163,8 +163,8 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2020-07-31
     eol: 2024-02-29
-    latest: "4.4.30"
-    latestReleaseDate: 2025-12-23
+    latest: "4.4.31"
+    latestReleaseDate: 2026-06-24
 
   - releaseCycle: "4.2"
     releaseDate: 2019-08-31

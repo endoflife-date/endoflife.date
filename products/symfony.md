@@ -31,23 +31,23 @@ releases:
     releaseDate: 2026-05-29
     eoas: 2027-01-31
     eol: 2027-01-31
-    latest: "8.1.0"
-    latestReleaseDate: 2026-05-29
+    latest: "8.1.1"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "8.0"
     releaseDate: 2025-11-27
     eoas: 2026-07-31
     eol: 2026-07-31
-    latest: "8.0.13"
-    latestReleaseDate: 2026-05-27
+    latest: "8.0.14"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "7.4"
     lts: true
     releaseDate: 2025-11-27
     eoas: 2028-11-30
     eol: 2029-11-30
-    latest: "7.4.13"
-    latestReleaseDate: 2026-05-27
+    latest: "7.4.14"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "7.3"
     releaseDate: 2025-05-29
@@ -82,8 +82,8 @@ releases:
     releaseDate: 2023-11-29
     eoas: 2026-11-30
     eol: 2027-11-30
-    latest: "6.4.41"
-    latestReleaseDate: 2026-05-27
+    latest: "6.4.42"
+    latestReleaseDate: 2026-06-27
 
   - releaseCycle: "6.3"
     releaseDate: 2023-05-30

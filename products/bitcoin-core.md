@@ -27,22 +27,22 @@ releases:
     releaseDate: 2026-04-19
     eoas: 2026-04-20
     eol: false # releaseDate(34)
-    latest: "31.0"
-    latestReleaseDate: 2026-04-20
+    latest: "31.1"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "30"
     releaseDate: 2025-10-10
     eoas: 2025-10-10
     eol: false # releaseDate(33)
-    latest: "30.2"
-    latestReleaseDate: 2026-01-13
+    latest: "30.3"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "29"
     releaseDate: 2025-04-14
     eoas: 2025-10-10
     eol: false # releaseDate(32)
-    latest: "29.3"
-    latestReleaseDate: 2026-02-11
+    latest: "29.4"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02

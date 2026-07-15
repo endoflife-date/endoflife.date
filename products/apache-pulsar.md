@@ -38,8 +38,8 @@ releases:
     releaseDate: 2026-03-24
     eol: 2026-09-24
     eoes: 2026-09-24
-    latest: "4.2.2"
-    latestReleaseDate: 2026-06-08
+    latest: "4.2.3"
+    latestReleaseDate: 2026-07-06
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-08
@@ -53,8 +53,8 @@ releases:
     releaseDate: 2024-10-21
     eol: 2026-10-21
     eoes: 2027-10-21
-    latest: "4.0.11"
-    latestReleaseDate: 2026-06-08
+    latest: "4.0.12"
+    latestReleaseDate: 2026-07-06
 
   - releaseCycle: "3.3"
     releaseDate: 2024-06-05

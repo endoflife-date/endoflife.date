@@ -21,6 +21,12 @@ auto:
 # EOL(x) = releaseDate(x) + 2 year + 1 day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+  - releaseCycle: "2.5"
+    releaseDate: 2026-06-21
+    eol: 2028-06-22
+    latest: "2.5.1"
+    latestReleaseDate: 2026-07-04
+
   - releaseCycle: "2.4"
     releaseDate: 2025-12-20
     eol: 2027-12-21
@@ -145,10 +151,11 @@ which is also followed by other tooling in the Scientific Python Ecosystem.
 All minor versions of Python released 42 months prior, and at minimum the two latest minor versions
 are supported. Python support is only dropped in a major/minor version, and never on a patch release.
 
-| NumPy | Python   |
-| ----- | -------- |
-| 2.4   | 3.11-3.14|
-| 2.3   | 3.11-3.14|
-| 2.2   | 3.10-3.13|
-| 2.1   | 3.10-3.13|
-| 2.0   | 3.9-3.12 |
+| NumPy | Python      |
+| ----- | ----------- |
+| 2.5   | 3.12 - 3.14 |
+| 2.4   | 3.11 - 3.14 |
+| 2.3   | 3.11 - 3.14 |
+| 2.2   | 3.10 - 3.13 |
+| 2.1   | 3.10 - 3.13 |
+| 2.0   | 3.9  - 3.12 |

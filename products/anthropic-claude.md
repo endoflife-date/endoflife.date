@@ -40,6 +40,13 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-sonnet-5"
+    releaseLabel: Claude Sonnet 5
+    releaseDate: 2026-06-30
+    eoas: false
+    eol: 2027-06-30
+    recommendedReplacement: "N/A"
+
   - releaseCycle: "claude-opus-4-8"
     releaseLabel: Claude Opus 4.8
     releaseDate: 2026-05-28

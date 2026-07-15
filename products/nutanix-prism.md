@@ -24,15 +24,15 @@ releases:
     releaseDate: 2025-12-09
     eoas: 2027-02-28
     eol: 2027-11-30
-    latest: "pc.7.5.1.6"
-    latestReleaseDate: 2026-06-09
+    latest: "pc.7.5.1.8"
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "pc.7.3"
     releaseDate: 2025-06-24
     eoas: 2026-09-30
     eol: 2027-06-30
-    latest: "pc.7.3.1.10"
-    latestReleaseDate: 2026-05-28
+    latest: "pc.7.3.1.12"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "pc.2024.3"
     releaseDate: 2024-12-05

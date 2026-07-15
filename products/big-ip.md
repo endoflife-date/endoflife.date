@@ -29,9 +29,8 @@ auto:
       render_javascript_wait_for: "table"
       fields:
         releaseCycle:
-          column: "Major Release and Long-Term Stability Release versions"
+          column: "Software version or branch"
           regex: '^(?P<value>\d+\.\d+).x.*$'
-        releaseDate: "First customer ship"
         eoas: "End of Software Development"
         eol: "End of Technical Support"
     - version_table: https://my.f5.com/manage/s/article/K9412
@@ -85,8 +84,8 @@ releases:
   - releaseCycle: "16.1"
     lts: true
     releaseDate: 2021-07-07
-    eoas: 2026-07-01
-    eol: 2026-07-01
+    eoas: 2025-07-31
+    eol: 2025-07-31
     latest: "16.1.6"
     latestReleaseDate: 2025-04-15
 
@@ -96,16 +95,16 @@ releases:
     eol: 2021-10-07
     latest: "16.0.1.1"
     latestReleaseDate: 2021-10-02
-    link: null
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/relnote-supplement-bigip-16-0-1.html
 
   - releaseCycle: "15.1"
     lts: true
     releaseDate: 2019-12-11
-    eoas: 2025-12-31
-    eol: 2025-12-31
+    eoas: 2024-12-31
+    eol: 2024-12-31
     latest: "15.1.10"
     latestReleaseDate: 2023-08-30
-    link: null
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/relnote-supplement-bigip-15-1-10.html
 
   - releaseCycle: "15.0"
     releaseDate: 2019-05-23 # https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-0.html
@@ -113,7 +112,63 @@ releases:
     eol: 2020-08-23
     latest: "15.0.1"
     latestReleaseDate: 2019-08-08
-    link: null
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-1.html
+
+  - releaseCycle: '14.1'
+    releaseDate: 2018-12-11 # https://wtit.com/f5-big-ip-software-release-matrix/
+    eoas: 2023-12-31
+    eol: 2023-12-31
+    latest: "14.1.5"
+    latestReleaseDate: 2022-05-31
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/relnote-supplement-bigip-14-1-5.html
+
+  - releaseCycle: '14.0'
+    releaseDate: 2018-08-09 # https://wtit.com/f5-big-ip-software-release-matrix/
+    eoas: 2019-11-09
+    eol: 2019-11-09
+    latest: "14.0.1"
+    latestReleaseDate: 2019-08-22
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-14-0-1.html
+
+  - releaseCycle: '13.1'
+    releaseDate: 2017-12-19 # https://wtit.com/f5-big-ip-software-release-matrix/
+    eoas: 2022-12-31
+    eol: 2023-12-31
+    latest: "13.1.5"
+    latestReleaseDate: 2022-04-18
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-ve-13-1-5.html
+
+  - releaseCycle: '13.0'
+    releaseDate: 2017-02-22 # https://wtit.com/f5-big-ip-software-release-matrix/
+    eoas: 2018-05-22
+    eol: 2019-05-22
+    latest: "13.0.1"
+    latestReleaseDate: 2018-03-27
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-13-0-1.html
+
+  - releaseCycle: '12.1'
+    releaseDate: 2016-05-18 # https://wtit.com/f5-big-ip-software-release-matrix/
+    eoas: 2021-05-18
+    eol: 2022-05-18
+    latest: "12.1.6"
+    latestReleaseDate: 2021-04-06
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/relnote-supplement-bigip-12-1-6.html
+
+  - releaseCycle: '12.0'
+    releaseDate: 2015-09-02
+    eoas: 2016-12-02
+    eol: 2017-12-02
+    latest: "12.0.0"
+    latestReleaseDate: 2015-09-02
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-ltm-12-0-0.html
+
+  - releaseCycle: '11.6'
+    releaseDate: 2014-08-25
+    eoas: 2021-05-10
+    eol: 2022-05-10
+    latest: "11.6.5"
+    latestReleaseDate: 2019-08-22
+    link: https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-11-6-5.html
 
 ---
 

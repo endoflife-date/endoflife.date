@@ -24,6 +24,13 @@ auto:
 # eol = releaseDate(x+3)
 # eoas and eol on https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 releases:
+  - releaseCycle: "0.86"
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: false
+    latest: "0.86.0"
+    latestReleaseDate: 2026-06-09
+
   - releaseCycle: "0.85"
     releaseDate: 2026-04-07
     eoas: false
@@ -33,7 +40,7 @@ releases:
 
   - releaseCycle: "0.84"
     releaseDate: 2026-02-11
-    eoas: false
+    eoas: 2026-06-09
     eol: false
     latest: "0.84.1"
     latestReleaseDate: 2026-02-27
@@ -41,9 +48,9 @@ releases:
   - releaseCycle: "0.83"
     releaseDate: 2025-12-10
     eoas: 2026-04-07
-    eol: false
-    latest: "0.83.9"
-    latestReleaseDate: 2026-04-27
+    eol: 2026-06-09
+    latest: "0.83.10"
+    latestReleaseDate: 2026-06-25
 
   - releaseCycle: "0.82"
     releaseDate: 2025-10-08

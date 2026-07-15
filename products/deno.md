@@ -19,12 +19,17 @@ auto:
   methods:
     - git: https://github.com/denoland/deno.git
 
-# non-LTS : eol(x) = releaseDate(x+1)
-# LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.9"
+    releaseDate: 2026-06-25
+    eol: false
+    latest: "2.9.2"
+    latestReleaseDate: 2026-07-08
+
   - releaseCycle: "2.8"
     releaseDate: 2026-05-22
-    eol: false
+    eol: 2026-06-25
     latest: "2.8.3"
     latestReleaseDate: 2026-06-11
 
@@ -91,7 +96,7 @@ releases:
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
 > {: .warning }
-> [LTS support will be discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
+> [LTS support discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
 > there will be no LTS releases or maintenance beyond that date.
 
 Deno follows [SemVer](https://semver.org/).

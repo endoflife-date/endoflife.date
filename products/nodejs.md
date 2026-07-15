@@ -19,6 +19,8 @@ identifiers:
   - purl: pkg:docker/library/node
   - purl: pkg:docker/cimg/node
   - purl: pkg:docker/bitnami/node
+  - purl: pkg:rpm/redhat/nodejs
+  - purl: pkg:rpm/redhat/nodejs24
   - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
 
@@ -33,8 +35,8 @@ releases:
     lts: 2026-10-28
     eoas: 2027-10-27
     eol: 2029-04-30
-    latest: "26.3.1"
-    latestReleaseDate: 2026-06-18
+    latest: "26.5.0"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "25"
     releaseDate: 2025-10-15
@@ -48,8 +50,8 @@ releases:
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.17.0"
-    latestReleaseDate: 2026-06-18
+    latest: "24.18.0"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
@@ -64,8 +66,8 @@ releases:
     eoas: 2025-10-21
     eol: 2027-04-30
     eoes: false
-    latest: "22.23.0"
-    latestReleaseDate: 2026-06-18
+    latest: "22.23.1"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -242,5 +244,5 @@ LTS release status is "long-term support", which typically guarantees that criti
 Production applications should only use Active LTS or Maintenance LTS releases.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
-Commercial support is available for some deprecated LTS versions of Node.js through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
+
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. Commercial support for Node.js is also available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/).

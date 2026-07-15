@@ -45,18 +45,18 @@ auto:
 
 releases:
   - releaseCycle: "3.7"
-    releaseDate: 2026-04-22
+    releaseDate: 2026-05-05
     eoas: false
     eol: false
-    latest: "3.7.5"
-    latestReleaseDate: 2026-06-10
+    latest: "3.7.7"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "3.6"
     releaseDate: 2025-11-07
-    eoas: 2026-05-11
-    eol: false
-    latest: "3.6.21"
-    latestReleaseDate: 2026-06-10
+    eoas: 2026-05-05
+    eol: 2026-05-05
+    latest: "3.6.23"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "3.5"
     releaseDate: 2025-07-23
@@ -104,8 +104,8 @@ releases:
     releaseDate: 2024-02-12
     eoas: 2025-04-29
     eol: 2026-02-01
-    latest: "2.11.50"
-    latestReleaseDate: 2026-06-10
+    latest: "2.11.52"
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "2.10"
     releaseDate: 2023-04-24

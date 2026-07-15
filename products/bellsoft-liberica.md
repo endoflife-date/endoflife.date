@@ -369,7 +369,7 @@ releases:
     lts: true
     releaseDate: 2018-10-08
     eol: 2024-10-31
-    eoes: 2027-03-31
+    eoes: 2032-03-31
     latest: "11.0.31+11"
     latestReleaseDate: 2026-04-22
 
@@ -395,7 +395,7 @@ releases:
     lts: true
     releaseDate: 2011-07-11
     eol: 2022-07-31
-    eoes: 2026-03-31
+    eoes: 2028-03-31
     latest: "unknown"
     link: null
 
@@ -403,7 +403,7 @@ releases:
     lts: true
     releaseDate: 2006-12-12
     eol: 2018-12-31
-    eoes: 2026-03-31
+    eoes: 2028-03-31
     latest: "unknown"
     link: null
 
