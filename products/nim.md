@@ -19,6 +19,8 @@ identifiers:
   - purl: pkg:brew/nim
   - purl: pkg:github/nim-lang/Nim
   - purl: pkg:docker/nimlang/nim
+  - purl: pkg:deb/debian/nim
+  - purl: pkg:deb/ubuntu/nim
   - purl: pkg:rpm/fedora/nim
   - purl: pkg:rpm/opensuse/nim
   - cpe: cpe:2.3:a:nim-lang:nim
@@ -29,8 +31,8 @@ releases:
   - releaseCycle: "2.2"
     releaseDate: 2024-10-02
     eol: false
-    latest: "2.2.8"
-    latestReleaseDate: 2026-02-23
+    latest: "2.2.10"
+    latestReleaseDate: 2026-04-24
 
   - releaseCycle: "2.0"
     releaseDate: 2023-08-01
