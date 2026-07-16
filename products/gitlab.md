@@ -18,7 +18,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://gitlab.com/gitlab-org/gitlab.git
+    - gitlab_tags: gitlab-org/gitlab
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 # eoas(x) = releaseDate(x+1)

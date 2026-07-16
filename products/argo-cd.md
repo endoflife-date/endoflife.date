@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "3.4"
     releaseDate: 2026-05-05
     eol: false
-    latest: "3.4.4"
-    latestReleaseDate: 2026-06-18
+    latest: "3.4.5"
+    latestReleaseDate: 2026-07-09
 
   - releaseCycle: "3.3"
     releaseDate: 2026-02-02

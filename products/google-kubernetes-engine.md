@@ -23,52 +23,58 @@ auto:
       template: "{{version}}"
 
 # As per https://cloud.google.com/kubernetes-engine/docs/release-schedule:
-# - releaseDate is the availability date of the of the Regular release channel,
-# - eol is the End of standard support .
-#
-# eoas:last-date-in-month(eol - 2months)
+# - releaseDate = availability date of the of the Regular release channel,
+# - eoas = last-date-in-month(eol - 2months)
+# - eol = End of standard support
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-09
+    eoas: 2027-06-30
+    eol: 2027-08-09
+    latest: "1.36.2-gke.1346000"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "1.35"
     releaseDate: 2026-02-11
     eoas: 2027-02-28
     eol: 2027-04-11
-    latest: "1.35.6-gke.1049000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.35.6-gke.1250000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.34"
     releaseDate: 2025-09-30
     eoas: 2026-08-30
     eol: 2026-10-01
-    latest: "1.34.9-gke.1065000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.34.9-gke.1287000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.33"
     releaseDate: 2025-06-03
     eoas: 2026-06-30
     eol: 2026-08-03
-    latest: "1.33.12-gke.1270000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.33.13-gke.1101000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.32"
     releaseDate: 2025-02-11
     eoas: 2026-02-28
     eol: 2026-04-11
-    latest: "1.32.13-gke.1829000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.32.13-gke.1913000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eoas: 2025-11-30
     eol: 2026-01-16
-    latest: "1.31.14-gke.2157000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.31.14-gke.2233000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eoas: 2025-07-31
     eol: 2025-09-30
-    latest: "1.30.14-gke.2746000"
-    latestReleaseDate: 2026-06-29
+    latest: "1.30.14-gke.2816000"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-26

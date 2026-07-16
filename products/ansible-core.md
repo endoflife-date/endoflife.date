@@ -57,8 +57,8 @@ releases:
     powershellVersionsManagedNode: "5.1 - 7"
     releaseDate: 2026-05-31
     eol: 2027-11-30
-    latest: "2.21.1"
-    latestReleaseDate: 2026-06-18
+    latest: "2.21.2"
+    latestReleaseDate: 2026-07-13
 
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"

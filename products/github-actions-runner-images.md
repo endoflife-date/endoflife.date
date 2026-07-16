@@ -5,8 +5,8 @@ category: service
 tags: github
 iconSlug: githubactions
 permalink: /github-actions-runner-images
-eoasColumn: Deprecated
-eolColumn: Removed
+eoasColumn: Active support
+eolColumn: Deprecated support
 latestColumn: false
 staleReleaseThresholdDays: 720
 

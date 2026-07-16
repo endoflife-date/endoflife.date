@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "152"
     releaseDate: 2026-06-16
     eol: false
-    latest: "152.0.5"
-    latestReleaseDate: 2026-07-07
+    latest: "152.0.6"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "151"
     releaseDate: 2026-05-18
@@ -255,7 +255,7 @@ releases:
   - releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2026-08-28 # https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support
+    eol: 2027-03-31 # https://whattrainisitnow.com/release/?version=esr
     latest: "115.37.0"
     latestReleaseDate: 2026-06-16
 

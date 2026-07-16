@@ -32,12 +32,33 @@ auto:
         eol: "EOL/Terminated"
 
 releases:
-  - releaseCycle: "3"
-    releaseDate: 2025-04-22
+  - releaseCycle: "3.3"
+    releaseDate: 2026-07-06
     eoas: false
     eol: false
     latest: "3.3.0"
     latestReleaseDate: 2026-07-06
+
+  - releaseCycle: "3.2"
+    releaseDate: 2026-04-07
+    eoas: 2026-07-06
+    eol: 2026-07-06
+    latest: "3.2.2"
+    latestReleaseDate: 2026-05-29
+
+  - releaseCycle: "3.1"
+    releaseDate: 2025-09-25
+    eoas: 2026-04-07
+    eol: 2026-04-07
+    latest: "3.1.8"
+    latestReleaseDate: 2026-03-11
+
+  - releaseCycle: "3.0"
+    releaseDate: 2025-04-22
+    eoas: 2025-09-25
+    eol: 2025-09-25
+    latest: "3.0.6"
+    latestReleaseDate: 2025-08-29
 
   - releaseCycle: "2"
     releaseDate: 2020-12-17
