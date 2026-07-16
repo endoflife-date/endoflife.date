@@ -6,16 +6,12 @@ tags: linux-distribution
 permalink: /sailfish-os
 releasePolicyLink: https://docs.sailfishos.org/Support/Supported_Devices/
 changelogTemplate: "https://forum.sailfishos.org/tag/release-notes"
-releaseLabel: "Sailfish OS __RELEASE_CYCLE__"
-eolColumn: true
-eoasColumn: false
-latestColumn: true
-releaseDateColumn: true
-discontinuedColumn: false
-eoesColumn: false
+releaseLabel: "Sailfish OS __RELEASE_CYCLE__ (__CODENAME__)"
+
 identifiers:
   - repology: sailfishos
   - purl: pkg:github/sailfishos/platform
+
 releases:
   - releaseCycle: "5.1"
     codename: pispala
@@ -24,27 +20,28 @@ releases:
     latest: "5.1.0.11"
     latestReleaseDate: 2026-06-16
     link: https://forum.sailfishos.org/t/release-notes-pispala-5-1-0-11/29751
+
   - releaseCycle: "5.0"
     codename: tampella
     releaseDate: 2025-02-24
     eol: false
     latest: "5.0.0.71"
     latestReleaseDate: 2025-10-30
-    link: https://forum.sailfishos.org/tag/release-notes
+
   - releaseCycle: "4.6"
     codename: sauna
     releaseDate: 2024-05-20
-    eol: 2024-09-20
+    eol: 2025-02-24
     latest: "4.6.0.15"
     latestReleaseDate: 2024-09-20
-    link: https://forum.sailfishos.org/tag/release-notes
+
   - releaseCycle: "4.5"
     codename: struven-ketju
     releaseDate: 2023-02-02
-    eol: 2024-03-04
+    eol: 2024-05-20
     latest: "4.5.0.25"
     latestReleaseDate: 2024-03-04
-    link: https://forum.sailfishos.org/tag/release-notes
+
 ---
 
 > [Sailfish OS](https://sailfishos.org) is a privacy-focused, highly customisable Linux-based mobile operating system developed by Jolla. It offers full Linux capabilities, excellent compatibility with Android apps via the proprietary AppSupport layer (based on AOSP) and runs on phones, tablets, watches and community-ported devices.
