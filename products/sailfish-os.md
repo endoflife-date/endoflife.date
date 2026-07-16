@@ -2,7 +2,7 @@
 title: Sailfish OS
 addedAt: 2026-07-16
 category: os
-tags: [linux-distribution, mobile-os]
+tags: linux-distribution
 permalink: /sailfish-os
 releasePolicyLink: https://docs.sailfishos.org/Support/Supported_Devices/
 changelogTemplate: "https://forum.sailfishos.org/tag/release-notes"
@@ -13,8 +13,6 @@ latestColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 eoesColumn: false
-customFields: []
-auto: {}
 identifiers:
   - repology: sailfishos
   - purl: pkg:github/sailfishos/platform
@@ -51,7 +49,7 @@ releases:
 
 > [Sailfish OS](https://sailfishos.org) is a privacy-focused, highly customisable Linux-based mobile operating system developed by Jolla. It offers full Linux capabilities, excellent compatibility with Android apps via the proprietary AppSupport layer (based on AOSP) and runs on phones, tablets, watches and community-ported devices.
 
-Sailfish OS uses a continuous delivery model with major releases named after Finnish geographical features or heritage sites (e.g., 5.1 "Pispala" in June 2026). Security and feature updates are delivered to officially supported devices. There is no universal per-version EOL; support duration is device-specific. "Stop releases" mark the end of updates for particular hardware lines (examples: Jolla Phone ended at 3.4 in 2020; several older devices including Jolla C, Tablet, Xperia X and Gemini PDA ended at 4.6 Sauna in September 2024). 
+Sailfish OS uses a continuous delivery model with major releases named after Finnish geographical features or heritage sites (e.g., 5.1 "Pispala" in June 2026). Security and feature updates are delivered to officially supported devices. There is no universal per-version EOL; support duration is device-specific. "Stop releases" mark the end of updates for particular hardware lines (examples: Jolla Phone ended at 3.4 in 2020; several older devices including Jolla C, Tablet, Xperia X and Gemini PDA ended at 4.6 Sauna in September 2024).
 
 Newer devices receive extended support commitments: the Jolla C2 has guaranteed minimum 5 years of free updates and security fixes from last sale; the new Jolla Phone (2026 model, pre-orders fulfilled and shipping from July 2026) carries a similar minimum 5-year long-term OS support guarantee. Point releases continue within active major versions (e.g., ongoing updates in the 5.1 series as of mid-2026). Community ports exist but receive no official Jolla support or licensing.
 
