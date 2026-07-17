@@ -52,8 +52,8 @@ releases:
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2026-01-10
     eol: false
-    latest: "5.2.14"
-    latestReleaseDate: 2026-07-13
+    latest: "5.2.15"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "4.6"
     codename: "Strawberry"
@@ -71,8 +71,8 @@ releases:
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2025-03-30
     eol: false
-    latest: "5.1.8"
-    latestReleaseDate: 2026-07-13
+    latest: "5.1.10"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "4.5"
     codename: "Strawberry"
