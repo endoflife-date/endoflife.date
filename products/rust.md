@@ -26,9 +26,9 @@ releases:
   - releaseCycle: "1.97"
     releaseDate: 2026-07-09
     eol: false
-    latest: "1.97.0"
-    latestReleaseDate: 2026-07-09
-    
+    latest: "1.97.1"
+    latestReleaseDate: 2026-07-16
+
   - releaseCycle: "1.96"
     releaseDate: 2026-05-28
     eol: 2026-07-09
