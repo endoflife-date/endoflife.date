@@ -38,7 +38,7 @@ releases:
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.46"
-    latestReleaseDate: 2026-05-08
+    latestReleaseDate: 2026-07-15
 
   - releaseCycle: "8.4.8"
     releaseDate: 2026-01-20
@@ -150,7 +150,7 @@ releases:
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.46"
-    latestReleaseDate: 2026-05-08
+    latestReleaseDate: 2026-07-15
 
   - releaseCycle: "5.7"
     releaseDate: 2016-02-22
