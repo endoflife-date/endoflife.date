@@ -7,7 +7,7 @@ iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
+changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/tags/v__RELEASE_CYCLE__.0-ee
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -25,6 +25,13 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
 releases:
+  - releaseCycle: "19.2"
+    releaseDate: 2026-07-16
+    eoas: 2026-08-20 # releaseDate(19.3)
+    eol: 2026-10-20 # releaseDate(19.5)
+    latest: "19.2.0"
+    latestReleaseDate: 2026-07-16
+
   - releaseCycle: "19.1"
     releaseDate: 2026-06-18
     eoas: 2026-07-16 # releaseDate(19.2)
