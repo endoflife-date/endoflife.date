@@ -33,14 +33,14 @@ releases:
   - releaseCycle: "11.8"
     releaseDate: 2026-06-16
     eol: 2026-09-15
-    latest: "11.8.3"
-    latestReleaseDate: 2026-07-06
+    latest: "11.8.4"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "11.7"
     releaseDate: 2026-05-15
     eol: 2027-05-15
-    latest: "11.7.6"
-    latestReleaseDate: 2026-06-25
+    latest: "11.7.7"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "11.6"
     releaseDate: 2026-04-16
@@ -93,8 +93,8 @@ releases:
   - releaseCycle: "10.11"
     releaseDate: 2025-08-15
     eol: 2026-08-15
-    latest: "10.11.21"
-    latestReleaseDate: 2026-06-26
+    latest: "10.11.22"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "10.10"
     releaseDate: 2025-07-16
