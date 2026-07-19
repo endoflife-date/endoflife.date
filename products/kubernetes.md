@@ -63,14 +63,14 @@ releases:
   - releaseCycle: "1.31"
     releaseDate: 2024-08-13
     eoas: 2025-08-28
-    eol: 2025-10-28
+    eol: 2025-11-11
     latest: "1.31.14"
     latestReleaseDate: 2025-11-11
 
   - releaseCycle: "1.30"
     releaseDate: 2024-04-17
     eoas: 2025-04-28
-    eol: 2025-06-28
+    eol: 2025-07-15
     latest: "1.30.14"
     latestReleaseDate: 2025-06-17
 
