@@ -43,7 +43,7 @@ auto:
 releases:
   - releaseCycle: "1.39"
     releaseDate: 2026-07-14
-    eol: false # not announced on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule yet
+    eol: 2027-07-14
     latest: "1.39.0"
     latestReleaseDate: 2026-07-14
 
