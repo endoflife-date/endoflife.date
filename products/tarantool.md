@@ -23,7 +23,7 @@ releases:
     releaseDate: 2026-07-10
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
     latest: "3.8.0"
-    latestReleaseDate: 2026-07-10
+    latestReleaseDate: 2026-07-09
 
   - releaseCycle: "3.7"
     releaseDate: 2026-04-22
