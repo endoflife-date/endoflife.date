@@ -30,27 +30,27 @@ releases:
     releaseDate: 2026-07-14
     eol: 2028-01-11 # estimated
     latest: "4.2.0"
-    latestReleaseDate: 2026-07-14
+    latestReleaseDate: 2026-07-11
 
   - releaseCycle: "4.1"
     releaseDate: 2025-12-11
     eol: 2027-06-11 # estimated
-    latest: "4.1.2"
-    latestReleaseDate: 2026-05-16
+    latest: "4.1.3"
+    latestReleaseDate: 2026-07-11
     link: https://spark.apache.org/downloads.html
 
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
-    latest: "4.0.3"
-    latestReleaseDate: 2026-06-08
+    latest: "4.0.4"
+    latestReleaseDate: 2026-07-12
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2023-09-09
     eol: 2027-11-30 # https://spark.apache.org/versioning-policy.html - extended LTS to allow migrations
-    latest: "3.5.8"
-    latestReleaseDate: 2026-01-12
+    latest: "3.5.9"
+    latestReleaseDate: 2026-07-12
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07

@@ -31,7 +31,7 @@ releases:
     releaseDate: 2025-12-25
     eol: 2029-03-31
     latest: "4.0.6"
-    latestReleaseDate: 2026-07-14
+    latestReleaseDate: 2026-07-13
     link: https://github.com/ruby/ruby/releases/tag/v__LATEST__
 
   - releaseCycle: "3.4"
@@ -43,8 +43,8 @@ releases:
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.11"
-    latestReleaseDate: 2026-03-26
+    latest: "3.3.12"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25

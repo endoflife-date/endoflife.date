@@ -2,6 +2,7 @@
 title: Proxmox VE
 addedAt: 2022-12-26
 category: os
+tags: proxmox
 iconSlug: proxmox
 permalink: /proxmox-ve
 alternate_urls:
