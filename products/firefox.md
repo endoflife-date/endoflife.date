@@ -110,7 +110,7 @@ releases:
   - releaseCycle: "140"
     lts: true
     releaseDate: 2025-06-24
-    eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
+    eol: 2026-09-29
     latest: "140.12.0"
     latestReleaseDate: 2026-06-16
 
