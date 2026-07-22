@@ -40,6 +40,27 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-z-flip8"
+    releaseLabel: "Galaxy Z Flip8"
+    releaseDate: 2026-07-22 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 android upgrade
+    eol: 2033-07-31 # 7 years of security support
+    link: null # not found
+
+  - releaseCycle: "galaxy-z-fold8"
+    releaseLabel: "Galaxy Z Fold8"
+    releaseDate: 2026-07-22 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 android upgrade
+    eol: 2033-07-31 # 7 years of security support
+    link: null # not found
+
+  - releaseCycle: "galaxy-z-fold8-ultra"
+    releaseLabel: "Galaxy Z Fold8 Ultra"
+    releaseDate: 2026-07-22 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 android upgrade
+    eol: 2033-07-31 # 7 years of security support
+    link: null # not found
+
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
     releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
