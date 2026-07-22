@@ -37,7 +37,7 @@ releases:
     eol: false
     link: https://www.samsung.com/us/watches/galaxy-watch9/
 
-  -releaseCycle: "galaxy-watch8-classic"
+  - releaseCycle: "galaxy-watch8-classic"
     releaseLabel: "Galaxy Watch8 Classic"
     releaseDate: 2025-07-09
     eoas: false
