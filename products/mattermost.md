@@ -34,7 +34,7 @@ releases:
     releaseDate: 2026-07-16
     eol: 2026-10-15
     latest: "11.9.0"
-    latestReleaseDate: 2026-07-16
+    latestReleaseDate: 2026-07-08
 
   - releaseCycle: "11.8"
     releaseDate: 2026-06-16
