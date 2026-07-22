@@ -8,6 +8,9 @@ permalink: /netbackup-appliance-os
 releasePolicyLink: https://sort.veritas.com/eosl
 eolColumn: Primary Support
 
+identifiers:
+  - cpe: cpe:2.3:a:veritas:netbackup_appliance
+
 # - eol(x) = "Extended Support Starts" for "Appliance - Netbackup" on https://sort.veritas.com/eosl
 releases:
   - releaseCycle: "5.5"

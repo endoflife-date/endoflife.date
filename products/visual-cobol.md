@@ -8,6 +8,9 @@ changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'_
 latestColumn: false
 eolColumn: Support Status
 
+identifiers:
+  - cpe: cpe:2.3:a:microfocus:visual_cobol
+
 auto:
   disabled: true # too unstable
   methods:

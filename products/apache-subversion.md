@@ -14,6 +14,7 @@ staleReleaseThresholdDays: 730 # project is not very active anymore
 
 identifiers:
   - repology: subversion
+  - cpe: cpe:2.3:a:apache:subversion
 
 auto:
   methods:

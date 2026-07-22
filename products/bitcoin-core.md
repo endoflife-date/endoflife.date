@@ -7,6 +7,9 @@ permalink: /bitcoin-core
 releasePolicyLink: https://bitcoincore.org/en/lifecycle/
 changelogTemplate: https://bitcoincore.org/en/releases/__LATEST__/
 
+identifiers:
+  - cpe: cpe:2.3:a:bitcoin:bitcoin_core
+
 auto:
   methods:
     - github_releases: bitcoin/bitcoin
