@@ -48,10 +48,10 @@ releases:
     releaseDate: 2025-04-15
     eol: 2028-08-14
     lts: true
-    technicalGuidance: 2028-04-15
-    latest: "8.2503.1"
-    latestReleaseDate: 2025-08-14
-    link: https://docs.omnissa.com/bundle/horizon8-rnV2503.1/page/Horizon8-ReleaseNotes.html
+    technicalGuidance: 2029-04-15
+    latest: "8.2503.2"
+    latestReleaseDate: 2026-07-09
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2503.2/page/Horizon8-ReleaseNotes.html
 
   - releaseCycle: "8.2412"
     releaseDate: 2025-01-28
