@@ -111,8 +111,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-29
-    latest: "140.12.0"
-    latestReleaseDate: 2026-06-16
+    latest: "140.13.0"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -263,8 +263,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2027-03-31 # https://whattrainisitnow.com/release/?version=esr
-    latest: "115.37.0"
-    latestReleaseDate: 2026-06-16
+    latest: "115.38.0"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06

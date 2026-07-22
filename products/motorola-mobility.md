@@ -572,7 +572,7 @@ releases:
   - releaseCycle: "moto-g84-5g"
     releaseLabel: "Motorola Moto G84 5G"
     releaseDate: 2023-08-01
-    eol: 2026-09-30
+    eol: 2027-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11601
 
   - releaseCycle: "moto-g14"
