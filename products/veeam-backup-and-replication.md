@@ -21,7 +21,7 @@ auto:
 releases:
   - releaseCycle: "13"
     releaseDate: 2025-09-03
-    eoas: false # releaseDate(14)
+    eoas: 2028-11-01
     eol: 2028-11-01
     link: https://www.veeam.com/kb4738
     latest: "13.0.2.29"
