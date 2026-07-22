@@ -12,9 +12,13 @@ eolColumn: Supported
 
 identifiers:
   - repology: ffmpeg
+  - purl: pkg:brew/ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:rpm/fedora/ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
-  - purl: pkg:brew/ffmpeg
 
 auto:
   methods:
