@@ -23,6 +23,34 @@ staleReleaseThresholdDays: 1825 # devices have longer support periods
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-watch-ultra2"
+    releaseLabel: "Galaxy Watch Ultra2"
+    releaseDate: 2026-07-22
+    eoas: false
+    eol: false
+    link: https://www.samsung.com/watches/galaxy-watch-ultra2/
+
+  - releaseCycle: "galaxy-watch9"
+    releaseLabel: "Galaxy Watch9"
+    releaseDate: 2026-07-22
+    eoas: false
+    eol: false
+    link: https://www.samsung.com/us/watches/galaxy-watch9/
+
+   releaseCycle: "galaxy-watch8-classic"
+    releaseLabel: "Galaxy Watch8 Classic"
+    releaseDate: 2025-07-09
+    eoas: 2027-12-31
+    eol: false
+    link: https://www.samsung.com/us/watches/galaxy-watch8-classic/
+
+  - releaseCycle: "galaxy-watch8"
+    releaseLabel: "Galaxy Watch8"
+    releaseDate: 2025-07-09
+    eoas: false
+    eol: false
+    link: https://www.samsung.com/us/watches/galaxy-watch8/
+
   - releaseCycle: "galaxy-watch-ultra"
     releaseLabel: "Galaxy Watch Ultra"
     releaseDate: 2024-07-24
