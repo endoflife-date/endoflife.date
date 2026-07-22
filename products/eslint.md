@@ -19,6 +19,11 @@ customFields:
 
 identifiers:
   - repology: eslint
+  - purl: pkg:github/eslint/eslint
+  - purl: pkg:npm/eslint
+  - cpe: cpe:/a:openjsf:eslint
+  - cpe: cpe:2.3:a:openjsf:eslint
+
 
 auto:
   methods:
