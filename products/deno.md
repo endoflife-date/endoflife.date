@@ -10,9 +10,14 @@ releasePolicyLink: https://docs.deno.com/runtime/fundamentals/stability_and_rele
 changelogTemplate: https://github.com/denoland/deno/releases/tag/v__LATEST__
 
 identifiers:
+  - repology: deno
+  - purl: pkg:brew/deno
+  - purl: pkg:cargo/deno
   - purl: pkg:docker/denoland/deno
   - purl: pkg:github/denoland/deno
-  - repology: deno
+  - purl: pkg:npm/deno
+  - purl: pkg:oci/deno?repository_url=ghcr.io/denoland
+  - cpe: cpe:/a:deno:deno
   - cpe: cpe:2.3:a:deno:deno
 
 auto:
