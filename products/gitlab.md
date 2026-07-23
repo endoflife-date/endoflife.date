@@ -7,7 +7,7 @@ iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-changelogTemplate: "https://docs.gitlab.com/releases/{{ __RELEASE_CYCLE__ | split: '.' | first }}/gitlab-{{ __RELEASE_CYCLE__ | replace: '.', '-' }}-released/"
+changelogTemplate: "https://docs.gitlab.com/releases/{{ __RELEASE_CYCLE__ | split: '.' | first }}/gitlab-{{ __RELEASE_CYCLE__ | append: '' | replace: '.', '-' }}-released/"
 eoasColumn: true
 eolColumn: Maintenance Support
 
