@@ -24,8 +24,8 @@ releases:
     releaseDate: 2021-12-01
     eoas: false
     eol: false
-    latest: "2.261.0"
-    latestReleaseDate: 2026-07-02
+    latest: "2.262.0"
+    latestReleaseDate: 2026-07-22
 
 ---
 
