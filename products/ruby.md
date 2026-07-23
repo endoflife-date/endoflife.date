@@ -22,8 +22,14 @@ auto:
 
 identifiers:
   - repology: ruby
+  - purl: pkg:alpm/arch/ruby
+  - purl: pkg:brew/ruby
   - purl: pkg:docker/library/ruby
   - purl: pkg:generic/ruby
+  - purl: pkg:rpm/fedora/ruby
+  - purl: pkg:rpm/redhat/ruby
+  - purl: pkg:rpm/centos/ruby
+  - cpe: cpe:/a:ruby-lang:ruby
   - cpe: cpe:2.3:a:ruby-lang:ruby
 
 releases:
