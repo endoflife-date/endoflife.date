@@ -42,22 +42,22 @@ releases:
     supportedPHPVersions: "7.4 - 8.5"
     releaseDate: 2026-05-20
     eol: false
-    latest: "7.0.1"
-    latestReleaseDate: 2026-07-09
+    latest: "7.0.2"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "6.9"
     supportedPHPVersions: "7.2 - 8.5"
     releaseDate: 2025-12-02
     eol: 2026-05-20
-    latest: "6.9.4"
-    latestReleaseDate: 2026-03-11
+    latest: "6.9.5"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "6.8"
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2025-04-15
     eol: 2025-12-02
-    latest: "6.8.5"
-    latestReleaseDate: 2026-03-11
+    latest: "6.8.6"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "6.7"
     supportedPHPVersions: "7.2 - 8.4"

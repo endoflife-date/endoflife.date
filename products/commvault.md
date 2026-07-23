@@ -32,8 +32,8 @@ releases:
     lts: true
     releaseDate: 2026-06-15
     eol: 2028-12-15
-    latest: "11.44.9"
-    latestReleaseDate: 2026-06-15
+    latest: "11.44.12"
+    latestReleaseDate: 2026-07-16
     link: https://documentation.commvault.com/11.44/software/maintenance_release_in_11_44.html
 
   - releaseCycle: "11.42"
