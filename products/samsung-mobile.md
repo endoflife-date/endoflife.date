@@ -27,6 +27,9 @@ auto:
         - "^galaxy-m13-india$" # still available, according to https://www.gsmarena.com/samsung_galaxy_m13_(india)-11654.php
         - "^galaxy-a13-sm-a137$" # still available, according to https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
         - "^galaxy-a-quantum2$" # still available, according to https://www.gsmarena.com/samsung_galaxy_quantum_2-10850.php
+        - "^galaxy-z-flip8$" # just released, not yet listed
+        - "^galaxy-z-fold8$"  # just released, not yet listed
+        - "^galaxy-z-fold8-ultra$" # just released, not yet listed
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support
@@ -39,6 +42,9 @@ auto:
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
+# 
+# IMPORTANT: When adding a new model here, add it to the above regex exclude above
+# IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
   - releaseCycle: "galaxy-z-flip8"
     releaseLabel: "Galaxy Z Flip8"
