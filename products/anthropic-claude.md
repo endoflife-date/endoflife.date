@@ -40,6 +40,20 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-mythos-5"
+    releaseLabel: Claude Mythos 5
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: false
+    recommendedReplacement: "N/A"
+
+  - releaseCycle: "claude-fable-5"
+    releaseLabel: Claude Fable 5
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: 2027-06-09
+    recommendedReplacement: "N/A"
+
   - releaseCycle: "claude-sonnet-5"
     releaseLabel: Claude Sonnet 5
     releaseDate: 2026-06-30
@@ -271,5 +285,6 @@ Anthropic recommends moving workloads to active models to maintain the highest l
 
 Customers with active deployments receive at least 60 days notice before retirement for publicly released models.
 Anthropic recommends auditing API usage to discover model usage and testing replacement models before retirement.
+Claude Mythos 5 is is offered in limited availability to approved customers and does not have a published retirement date.
 
 Anthropic has committed to preserve the weights of publicly released models and may make past models available again in the future.
