@@ -1,39 +1,12 @@
 ---
-# Name of the product (mandatory).
 title: Duende IdentityServer
-
-# Category of the product (mandatory).
 category: framework
-
-# Tags of the product (optional).
-tags: csharp dotnet security
-
-# Simple Icons icon slug (optional).
-iconSlug: dotnet
-
-# Main URL for the page (mandatory).
 permalink: /duende-identityserver
-
-# Alternate URLs that will redirect to the permalink (optional).
 alternate_urls:
 -   /identityserver
-
-# The more information link (optional).
 releasePolicyLink: https://docs.duendesoftware.com/general/support-and-issues/
-
-# Template to be used to generate a link for the releases (optional).
 changelogTemplate: "https://docs.duendesoftware.com/identityserver/upgrades/"
 
-# The label that will be used alongside releases labelled with `lts: true`
-LTSLabel: "<abbr title='Long Term Support'>LTS</abbr>"
-
-# Whether the "End Of Life" column should be displayed (optional, default = true).
-eolColumn: Support End
-
-# Whether the "Released" column should be displayed (optional, default = true).
-releaseDateColumn: Released
-
-# Custom fields configuration (optional).
 customFields:
   - name: dotnetVersions
     display: after-release-column
@@ -41,7 +14,6 @@ customFields:
     description: Compatible .NET platform versions
     link: https://endoflife.date/dotnet
 
-# A list of releases, supported or not (mandatory).
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2026-06-02
@@ -97,6 +69,7 @@ releases:
     latest: "6.3"
     latestReleaseDate: 2023-11-08
     dotnetVersions: ".NET 6"
+    link: null
 
 -   releaseCycle: "6.2"
     releaseDate: 2023-04-25
@@ -104,6 +77,7 @@ releases:
     latest: "6.2"
     latestReleaseDate: 2023-04-25
     dotnetVersions: ".NET 6"
+    link: null
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-07-20
@@ -111,6 +85,7 @@ releases:
     latest: "6.1"
     latestReleaseDate: 2022-07-20
     dotnetVersions: ".NET 6"
+    link: null
 
 -   releaseCycle: "6.0"
     releaseDate: 2021-11-09
@@ -118,6 +93,7 @@ releases:
     latest: "6.0"
     latestReleaseDate: 2021-11-09
     dotnetVersions: ".NET 6"
+    link: null
 
 ---
 
