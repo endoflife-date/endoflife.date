@@ -11,8 +11,12 @@ changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
 eolColumn: Support
 
 identifiers:
-  - purl: pkg:npm/pnpm
   - repology: pnpm
+  - purl: pkg:brew/pnpm
+  - purl: pkg:github/pnpm/pnpm
+  - purl: pkg:npm/pnpm
+  - purl: pkg:oci/pnpm?repository_url=ghcr.io/pnpm
+  - cpe: cpe:/a:pnpm:pnpm
   - cpe: cpe:2.3:a:pnpm:pnpm
 
 auto:
