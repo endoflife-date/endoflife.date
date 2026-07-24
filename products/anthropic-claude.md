@@ -53,6 +53,7 @@ releases:
     eoas: false
     eol: false
     recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/news/claude-fable-5-mythos-5
 
   - releaseCycle: "claude-fable-5"
     releaseLabel: Claude Fable 5
@@ -60,6 +61,7 @@ releases:
     eoas: false
     eol: 2027-06-09
     recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/news/claude-fable-5-mythos-5
 
   - releaseCycle: "claude-opus-4-8"
     releaseLabel: Claude Opus 4.8
