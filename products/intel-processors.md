@@ -11,6 +11,13 @@ discontinuedColumn: true
 staleReleaseThresholdDays: 2555 # 7 years, processors has a very long support window
 
 releases:
+  - releaseCycle: "panther-lake"
+    releaseLabel: "Panther Lake"
+    releaseDate: 2025-10-14
+    discontinued: false
+    eol: false
+    link: https://www.intel.com/content/www/us/en/ark/products/codename/237132/products-formerly-panther-lake.html
+
   - releaseCycle: "arrow-lake"
     releaseLabel: "Arrow Lake"
     releaseDate: 2024-10-24
