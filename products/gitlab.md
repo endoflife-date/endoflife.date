@@ -7,7 +7,7 @@ iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-changelogTemplate: "https://docs.gitlab.com/releases/{{ __RELEASE_CYCLE__ | split: '.' | first }}/gitlab-{{ __RELEASE_CYCLE__ | replace: '.', '-' }}-released/"
+changelogTemplate: 'https://docs.gitlab.com/releases/{{ "__RELEASE_CYCLE__" | split: "." | first }}/gitlab-{{ "__RELEASE_CYCLE__" | replace: ".", "-" }}-released/'
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -59,7 +59,6 @@ releases:
     eol: 2026-06-18 # releaseDate(19.1)
     latest: "18.10.8"
     latestReleaseDate: 2026-06-10
-    link: https://docs.gitlab.com/releases/18/gitlab-18-10-released/
 
   - releaseCycle: "18.9"
     releaseDate: 2026-02-19
@@ -144,7 +143,6 @@ releases:
     eol: 2025-06-19 # releaseDate(18.1)
     latest: "17.10.8"
     latestReleaseDate: 2025-06-11
-    link: https://docs.gitlab.com/releases/17/gitlab-17-10-released/
 
   - releaseCycle: "17.9"
     releaseDate: 2025-02-19
@@ -229,7 +227,6 @@ releases:
     eol: 2024-06-20
     latest: "16.10.10"
     latestReleaseDate: 2024-09-19
-    link: https://docs.gitlab.com/releases/16/gitlab-16-10-released/
 
   - releaseCycle: "16.9"
     releaseDate: 2024-02-14
