@@ -8,24 +8,31 @@ releases:
   - releaseCycle: "22.0"
     releaseDate: 2025-12-09
     eol: false
+    latest: "22.0.2"
   - releaseCycle: "21.5"
     releaseDate: 2025-06-02
     eol: false
+    latest: "21.5.2"
   - releaseCycle: "21.0"
     releaseDate: 2024-10-17
     eol: false
+    latest: "21.0.2"
   - releaseCycle: "20.0"
     releaseDate: 2023-11-06
     eol: false
+    latest: "20.0.3"
   - releaseCycle: "19.5"
     releaseDate: 2022-11-17
     eol: 2025-04-30
+    latest: "19.5.4"
   - releaseCycle: "19.0"
     releaseDate: 2022-04-21
     eol: 2024-04-30
+    latest: "19.0.3"
   - releaseCycle: "18.5"
     releaseDate: 2020-11-18
     eol: 2025-04-30
+    latest: "18.5.5"
 ---
 
 > [Sophos Firewall OS (SFOS)](https://www.sophos.com/en-us/products/next-gen-firewall)
