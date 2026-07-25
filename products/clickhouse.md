@@ -16,7 +16,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/ClickHouse/ClickHouse.git
+    - github_releases: ClickHouse/ClickHouse
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.(?P<tiny>\d+)-(stable|lts)$
 
 # Non-LTS : eol(x) = releaseDate(x+3)
