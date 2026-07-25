@@ -37,12 +37,22 @@ auto:
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 # Supported PHP Versions are listed here: https://github.com/cakephp/cakephp/wiki#version-map
 releases:
+
+  - releaseCycle: "5.4"
+    codename: "Chiffon"
+    releaseDate: 2026-07-19
+    supportedPhpVersions: 8.2 - 8.5
+    eoas: false
+    eol: false # releaseDate(5.7)
+    latest: 5.4.0
+    latestReleaseDate: 2026-07-19
+
   - releaseCycle: "5.3"
     codename: "Chiffon"
     releaseDate: 2026-01-09
     supportedPhpVersions: 8.2 - 8.5
-    eoas: false
-    eol: false
+    eoas: 2026-07-20
+    eol: false # releaseDate(5.6)
     latest: "5.3.7"
     latestReleaseDate: 2026-07-13
 
@@ -51,7 +61,7 @@ releases:
     releaseDate: 2025-03-29
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2026-01-10
-    eol: false
+    eol: false # releaseDate(5.5)
     latest: "5.2.15"
     latestReleaseDate: 2026-07-16
 
@@ -60,7 +70,7 @@ releases:
     releaseDate: 2025-03-22
     supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-09-09
-    eol: 2026-09-09
+    eol: 2026-09-09 # Can be extended
     latest: "4.6.5"
     latestReleaseDate: 2026-07-14
 
@@ -70,7 +80,7 @@ releases:
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2025-03-30
-    eol: false
+    eol: 2026-07-19 # releaseDate(5.4)
     latest: "5.1.10"
     latestReleaseDate: 2026-07-16
 

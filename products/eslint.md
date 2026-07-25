@@ -19,6 +19,11 @@ customFields:
 
 identifiers:
   - repology: eslint
+  - purl: pkg:github/eslint/eslint
+  - purl: pkg:npm/eslint
+  - cpe: cpe:/a:openjsf:eslint
+  - cpe: cpe:2.3:a:openjsf:eslint
+
 
 auto:
   methods:
@@ -38,8 +43,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "10.7.0"
-    latestReleaseDate: 2026-07-10
+    latest: "10.8.0"
+    latestReleaseDate: 2026-07-24
 
   - releaseCycle: "9"
     releaseDate: 2024-04-05
