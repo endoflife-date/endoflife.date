@@ -37,6 +37,13 @@ auto:
 #   - false for the last 2 releases
 #   - releaseDate(R+2) for other releases (e.g. support(5.34) = releaseDate(5.36))
 releases:
+  - releaseCycle: "5.44"
+    releaseDate: 2026-07-15
+    eoas: false
+    eol: 2029-07-15
+    latest: "5.44.0"
+    latestReleaseDate: 2026-07-15
+
   - releaseCycle: "5.42"
     releaseDate: 2025-07-03
     eoas: false
@@ -46,7 +53,7 @@ releases:
 
   - releaseCycle: "5.40"
     releaseDate: 2024-06-09
-    eoas: false
+    eoas: 2026-07-15
     eol: 2027-06-09
     latest: "5.40.4"
     latestReleaseDate: 2026-03-29
