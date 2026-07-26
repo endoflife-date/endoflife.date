@@ -44,7 +44,7 @@ releases:
     supportedPhpVersions: 8.2 - 8.5
     eoas: false
     eol: false # releaseDate(5.7)
-    latest: 5.4.0
+    latest: "5.4.0"
     latestReleaseDate: 2026-07-19
 
   - releaseCycle: "5.3"
