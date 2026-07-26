@@ -1,6 +1,6 @@
 ---
 title: GitLab Runner
-addedAt: 2026-06-08
+addedAt: 2026-07-26
 category: server-app
 tags: gitlab
 iconSlug: gitlab
@@ -24,6 +24,13 @@ identifiers:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "19.2"
+    releaseDate: 2026-07-16
+    eoas: 2026-08-20 # releaseDate(19.3)
+    eol: 2026-10-20 # releaseDate(19.5)
+    latest: "19.2.0"
+    latestReleaseDate: 2026-07-15
+
   - releaseCycle: "19.1"
     releaseDate: 2026-06-18
     eoas: 2026-07-16 # releaseDate(19.2)
