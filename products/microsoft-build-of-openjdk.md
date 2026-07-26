@@ -12,16 +12,16 @@ changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openj
 # There is one repository for each major LTS release.
 auto:
   methods:
-    - git: "https://github.com/microsoft/openjdk-jdk11u.git"
+    - github_tags: "microsoft/openjdk-jdk11u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk17u.git"
+    - github_tags: "microsoft/openjdk-jdk17u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk21u.git"
+    - github_tags: "microsoft/openjdk-jdk21u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk25u.git"
+    - github_tags: "microsoft/openjdk-jdk25u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
     - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
