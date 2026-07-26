@@ -17,6 +17,12 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-edge-70-max
+    releaseLabel: "Motorola edge 70 Max"
+    releaseDate: 2026-06-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12897
+
   - releaseCycle: motorola-edge-2026
     releaseLabel: "Motorola edge 2026"
     releaseDate: 2026-06-01
