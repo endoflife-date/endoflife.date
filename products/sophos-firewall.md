@@ -1,5 +1,5 @@
 ---
-title: Sophos Firewall
+title: Sophos Firewall OS (SFOS)
 addedAt: 2026-07-24
 category: os
 permalink: /sophos-firewall
