@@ -20,6 +20,8 @@ auto:
   methods:
     - git: https://github.com/cockroachdb/cockroach.git
     - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#1
+      render_javascript: true
+      render_javascript_wait_until: networkidle
       fields:
         releaseCycle:
           column: "Major Version"
@@ -28,6 +30,8 @@ auto:
         eoas: "Maintenance Support ends"
         eol: "Assistance Support ends"
     - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#2
+      render_javascript: true
+      render_javascript_wait_until: networkidle
       fields:
         releaseCycle:
           column: "Major Version"
