@@ -43,28 +43,28 @@ releases:
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
     latest: "19.0.2"
-    latestReleaseDate: 2026-07-01
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
     latest: "18.11.4"
-    latestReleaseDate: 2026-06-30
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19
     eoas: 2026-04-16 # releaseDate(18.11)
     eol: 2026-06-18 # releaseDate(19.1)
     latest: "18.10.1"
-    latestReleaseDate: 2026-04-06
+    latestReleaseDate: 2026-04-05
 
   - releaseCycle: "18.9"
     releaseDate: 2026-02-19
     eoas: 2026-03-19 # releaseDate(18.10)
     eol: 2026-05-21 # releaseDate(19.0)
     latest: "18.9.0"
-    latestReleaseDate: 2026-02-20
+    latestReleaseDate: 2026-02-19
 
   - releaseCycle: "18.8"
     releaseDate: 2026-01-15
@@ -78,7 +78,7 @@ releases:
     eoas: 2026-01-15 # releaseDate(18.8)
     eol: 2026-03-19 # releaseDate(18.10)
     latest: "18.7.2"
-    latestReleaseDate: 2026-01-09
+    latestReleaseDate: 2026-01-08
 
   - releaseCycle: "18.6"
     releaseDate: 2025-11-20
@@ -92,7 +92,7 @@ releases:
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
     latest: "18.5.0"
-    latestReleaseDate: 2025-10-16
+    latestReleaseDate: 2025-10-17
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
@@ -105,29 +105,30 @@ releases:
     releaseDate: 2025-08-21
     eoas: 2025-09-18 # releaseDate(18.4)
     eol: 2025-11-20 # releaseDate(18.6)
-    latest: "18.3.0"
-    latestReleaseDate: 2025-08-21
+    latest: "18.3.1"
+    latestReleaseDate: 2025-09-04
 
   - releaseCycle: "18.2"
     releaseDate: 2025-07-16
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
-    latest: "18.2.0"
-    latestReleaseDate: 2025-07-16
+    latest: "18.2.2"
+    latestReleaseDate: 2025-08-20
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-16 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
-    latest: "18.1.0"
-    latestReleaseDate: 2025-06-18
+    latest: "18.1.3"
+    latestReleaseDate: 2025-07-29
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14
     eoas: 2025-06-18 # releaseDate(18.1)
     eol: 2025-08-21 # releaseDate(18.3)
-    latest: "18.0.0"
-    latestReleaseDate: 2025-05-14
+    latest: "18.0.5"
+    latestReleaseDate: 2025-07-29
+
 ---
 
 > [GitLab Runner](https://docs.gitlab.com/runner/) is the open-source agent that runs CI/CD jobs
