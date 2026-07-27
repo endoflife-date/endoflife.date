@@ -36,31 +36,29 @@ releases:
     latestReleaseDate: 2026-07-28
 
   - releaseCycle: "0.139"
-      releaseDate: 2026-07-02
-      eol: 2026-07-25
-      supportedPythonVersions: "3.12 - 3.14"
-      latest: "0.139.2"
-      latestReleaseDate: 2026-07-17
+    releaseDate: 2026-07-02
+    eol: 2026-07-25
+    supportedPythonVersions: "3.12 - 3.14"
+    latest: "0.139.2"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "0.138"
-        releaseDate: 2026-06-20
-        eol: 2026-07-02
-        supportedPythonVersions: "3.12 - 3.14"
-        latest: "0.138.1"
-        latestReleaseDate: 2026-06-26
-    
+    releaseDate: 2026-06-20
+    eol: 2026-07-02
+    supportedPythonVersions: "3.12 - 3.14"
+    latest: "0.138.1"
+    latestReleaseDate: 2026-06-26
+
   - releaseCycle: "0.137"
-        releaseDate: 2026-06-14
-        eol: 2026-06-20
-        supportedPythonVersions: "3.12 - 3.14"
-        latest: "0.137.2"
-        latestReleaseDate: 2026-06-18
-    
-  
+    releaseDate: 2026-06-14
+    eol: 2026-06-20
+    supportedPythonVersions: "3.12 - 3.14"
+    latest: "0.137.2"
+    latestReleaseDate: 2026-06-18
 ---
 
 > [FastAPI](https://github.com/fastapi/fastapi) is Python an easy to learn, fast to code,
 > (and high performance) ready for production framework, 
 
 
-Pnly the latest version is supported: see [supported versions policy](https://github.com/fastapi/fastapi?tab=security-ov-file#security-policy).
+Only the latest version is supported: see [supported versions policy](https://github.com/fastapi/fastapi?tab=security-ov-file#security-policy).
