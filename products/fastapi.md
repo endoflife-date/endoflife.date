@@ -7,15 +7,15 @@ iconSlug: fastapi
 permalink: /fastapi
 versionCommand: python -c "import fastapi; print(fastapi.__version__)"
 releasePolicyLink: https://github.com/fastapi/fastapi?tab=security-ov-file#versions
-#changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
+#changelogTemplate: https://github.com/fastapi/fastapi/releases/tag/__LATEST__
 #eoasColumn: true
 
-# customFields:
-#  - name: supportedPythonVersions
-#    display: after-release-column
-#    label: Python
-#    description: Supported Python versions
-#    link: https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
+customFields:
+  - name: supportedPythonVersions
+    display: after-release-column
+    label: Python
+    description: Supported Python versions
+    link: https://github.com/fastapi/fastapi/blob/master/pyproject.toml
 
 identifiers:
   - repology: python:fastapi
@@ -31,28 +31,28 @@ releases:
   - releaseCycle: "0.140"
     releaseDate: 2026-07-25
     eol: false
-    supportedPythonVersions: "3.12 - 3.14"
+    supportedPythonVersions: ">=3.10"
     latest: "0.140.6"
     latestReleaseDate: 2026-07-28
 
   - releaseCycle: "0.139"
     releaseDate: 2026-07-02
     eol: 2026-07-25
-    supportedPythonVersions: "3.12 - 3.14"
+    supportedPythonVersions: ">=3.10"
     latest: "0.139.2"
     latestReleaseDate: 2026-07-17
 
   - releaseCycle: "0.138"
     releaseDate: 2026-06-20
     eol: 2026-07-02
-    supportedPythonVersions: "3.12 - 3.14"
+    supportedPythonVersions: ">=3.10"
     latest: "0.138.1"
     latestReleaseDate: 2026-06-26
 
   - releaseCycle: "0.137"
     releaseDate: 2026-06-14
     eol: 2026-06-20
-    supportedPythonVersions: "3.12 - 3.14"
+    supportedPythonVersions: ">=3.10"
     latest: "0.137.2"
     latestReleaseDate: 2026-06-18
 ---
