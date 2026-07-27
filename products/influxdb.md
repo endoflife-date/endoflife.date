@@ -25,15 +25,15 @@ releases:
   - releaseCycle: "3.10"
     releaseDate: 2026-06-17
     eol: false
-    latest: "3.10.3"
-    latestReleaseDate: 2026-07-15
+    latest: "3.10.5"
+    latestReleaseDate: 2026-07-20
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3100
 
   - releaseCycle: "3.9"
     releaseDate: 2026-04-02
     eol: false
-    latest: "3.9.6"
-    latestReleaseDate: 2026-06-25
+    latest: "3.9.11"
+    latestReleaseDate: 2026-07-20
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
 
   - releaseCycle: "3.8"

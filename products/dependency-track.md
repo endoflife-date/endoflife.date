@@ -23,14 +23,14 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2026-06-09
     eol: false # releaseDate(5.1)
-    latest: "5.0.2"
-    latestReleaseDate: 2026-06-18
+    latest: "5.0.3"
+    latestReleaseDate: 2026-07-20
 
   - releaseCycle: "4.14"
     releaseDate: 2026-03-09
     eol: 2026-12-09 # estimated, as noted here: https://dependencytrack.org/news/dependency-track-5-0/#:~:text=What%20it%20means%20for%20existing%20v4%20users
-    latest: "4.14.2"
-    latestReleaseDate: 2026-05-07
+    latest: "4.14.3"
+    latestReleaseDate: 2026-07-20
 
   - releaseCycle: "4.13"
     releaseDate: 2025-04-07
