@@ -214,6 +214,8 @@ more details about the support roadmap.
 A commercial offer for extended support is available
 [from VMWare Tanzu](https://enterprise.spring.io/).
 
+[HeroDevs](https://www.herodevs.com/support/spring-nes) provides additional commercial versions, extended support timelines, and full ecosystem support for Spring Boot.
+
 ## Java Compatibility
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
