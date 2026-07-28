@@ -12,7 +12,7 @@ eolColumn: Security Support
 
 auto:
   methods:
-    - maven: org.jreleaser/jreleaser
+    - git: https://github.com/jreleaser/jreleaser.git
 
 releases:
   - releaseCycle: "1"
