@@ -37,17 +37,17 @@ releases:
     releaseDate: 2025-06-17
     eol: 2027-09-17
     technicalGuidance: 2028-09-17
-    latest: "9.0.2.0"
-    latestReleaseDate: 2026-01-20
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
+    latest: "9.0.2.0100"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/patch-releases-9-0-0-x/vsphere/esx/esx-9-0-2-0100-release-notes.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3j"
-    latestReleaseDate: 2026-05-27
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3j-release-notes.html
+    latest: "8.0 Update 3k"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3k-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02
