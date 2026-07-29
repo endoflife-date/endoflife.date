@@ -24,8 +24,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.groovy/groovy
-    - maven: org.codehaus.groovy/groovy
+    - git: https://github.com/apache/groovy.git
+      regex: ^GROOVY_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)$
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
