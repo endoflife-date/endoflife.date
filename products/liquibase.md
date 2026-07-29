@@ -14,7 +14,7 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.liquibase/liquibase-core
+    - github_releases: liquibase/liquibase
 
 # eol(x) = releaseDate(x+1)
 releases:
