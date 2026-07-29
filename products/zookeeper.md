@@ -22,7 +22,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.zookeeper/zookeeper
+    - git: https://github.com/apache/zookeeper.git
+      regex: ^release-(?P<major>\d+).(?P<minor>\d+).(?P<patch>\d{1,3})$
 
 # support(X) = releaseDate(X+2)
 # eol(X) ~= releaseDate(X+2)+6m, unless declared
