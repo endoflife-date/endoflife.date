@@ -41,7 +41,7 @@ auto:
     # Fix the release date, as only month-year dates are provided in the previous table.
     - release_table: https://ops.java/releases/
       user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
-      header_selector: "tbody#released tr:nth-of-type(3)"
+      header_selector: "tbody#released tr:nth-of-type(2)"
       rows_selector: "tbody#released tr"
       fields:
         releaseCycle:
