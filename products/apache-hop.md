@@ -12,7 +12,9 @@ eolColumn: Support
 
 auto:
   methods:
-    - maven: "org.apache.hop/hop-engine"
+    - version_table: https://hop.apache.org/download/
+      name_column: "Version"
+      date_column: "Date"
 
 # eol(x) = releaseDate(x+1)
 releases:
