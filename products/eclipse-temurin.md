@@ -78,8 +78,8 @@ releases:
     lts: false
     releaseDate: 2026-03-23
     eol: 2026-09-15 # expected 27 release date (see https://www.java.com/releases/)
-    latest: "26.0.1+8"
-    latestReleaseDate: 2026-04-29
+    latest: "26.0.2+10"
+    latestReleaseDate: 2026-07-28
 
   - releaseCycle: "25"
     lts: true
