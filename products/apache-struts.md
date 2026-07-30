@@ -19,9 +19,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: struts/struts
-    - maven: org.apache.struts/struts-core
-    - maven: org.apache.struts/struts2-core
+    - git: https://github.com/apache/struts.git
+      regex: '^STRUTS_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 # EOL as per announcements on https://struts.apache.org/.
 releases:
