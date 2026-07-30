@@ -11,14 +11,14 @@ changelogTemplate: https://gitlab.com/gitlab-org/gitlab-runner/-/releases/v__LAT
 eoasColumn: true
 eolColumn: Maintenance Support
 
-auto:
-  methods:
-    - docker_hub: gitlab/gitlab-runner
-      regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
-
 identifiers:
   - purl: pkg:docker/gitlab/gitlab-runner
   - cpe: cpe:2.3:a:gitlab:runner
+
+auto:
+  methods:
+    - gitlab_tags: gitlab-org/gitlab-runner
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)?$'
 
 # GitLab Runner follows the same versioning and support policy as GitLab.
 # eoas(x) = releaseDate(x+1)
