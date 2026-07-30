@@ -37,9 +37,16 @@ auto:
         eol: "EOL Date"
 
 releases:
+  - releaseCycle: "8.10"
+    releaseDate: 2026-07-29
+    eoas: false
+    eol: false
+    latest: "8.10.0"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "8.8"
     releaseDate: 2026-05-25
-    eoas: false
+    eoas: 2026-07-29
     eol: false
     latest: "8.8.1"
     latestReleaseDate: 2026-07-23
