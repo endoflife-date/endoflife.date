@@ -15,7 +15,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.lucene/lucene-core
+    - github_releases: apache/lucene
+      regex: '^releases/lucene/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "10"
