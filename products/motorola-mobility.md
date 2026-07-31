@@ -53,6 +53,12 @@ releases:
     eol: 2031-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12565
 
+  - releaseCycle: moto-g77-power
+    releaseLabel: "Moto G77 power"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12899
+
   - releaseCycle: moto-g87
     releaseLabel: "Moto G87"
     releaseDate: 2026-04-01
