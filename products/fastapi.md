@@ -12,7 +12,7 @@ changelogTemplate: "https://github.com/fastapi/fastapi/releases/tag/__LATEST__"
 customFields:
   - name: minSupportedPythonVersions
     display: after-release-column
-    label: Python
+    label: Min Python
     description: Minimum supported Python version
     link: https://github.com/fastapi/fastapi/blob/master/pyproject.toml
 
