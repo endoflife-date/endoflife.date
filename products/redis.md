@@ -5,7 +5,7 @@ category: database
 iconSlug: redis
 permalink: /redis
 versionCommand: redis-server --version
-releasePolicyLink: https://github.com/redis/redis/security
+releasePolicyLink: https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
 
@@ -29,14 +29,24 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/redis/redis.git
+    - release_table: https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^Redis (?P<value>\d+\.\d+)$'
+        eol: "EOL Date"
 
-# EOL documented on https://github.com/redis/redis/security, but as a rule of thumb:
-# - eoas(x) = release(x+1)
-# - eol(x) = release(x+3)
 releases:
+  - releaseCycle: "8.10"
+    releaseDate: 2026-07-29
+    eoas: false
+    eol: false
+    latest: "8.10.0"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "8.8"
     releaseDate: 2026-05-25
-    eoas: false
+    eoas: 2026-07-29
     eol: false
     latest: "8.8.1"
     latestReleaseDate: 2026-07-23
@@ -58,28 +68,28 @@ releases:
   - releaseCycle: "8.2"
     releaseDate: 2025-08-04
     eoas: 2025-11-18
-    eol: 2026-05-25
+    eol: 2030-09-01
     latest: "8.2.8"
     latestReleaseDate: 2026-07-23
 
   - releaseCycle: "8.0"
     releaseDate: 2025-05-02
     eoas: 2025-08-04
-    eol: 2026-02-11
+    eol: 2026-12-01
     latest: "8.0.6"
     latestReleaseDate: 2026-02-22
 
   - releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: 2025-05-02
-    eol: false # still supported according to https://github.com/redis/redis/security
+    eol: 2029-12-01
     latest: "7.4.10"
     latestReleaseDate: 2026-07-24
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
-    eol: false # still supported according to https://github.com/redis/redis/security
+    eol: 2029-12-01
     latest: "7.2.15"
     latestReleaseDate: 2026-07-24
 
@@ -93,7 +103,7 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2021-02-22
     eoas: 2022-04-27
-    eol: false # still supported according to https://github.com/redis/redis/security
+    eol: 2027-04-01
     latest: "6.2.23"
     latestReleaseDate: 2026-07-24
 
@@ -136,5 +146,3 @@ Open Source Redis releases are subject to the following licenses:
 - Version 7.2.x and prior releases are subject to BSDv3.
 - Versions 7.4.x to 7.8.x are subject to your choice of RSALv2 or SSPLv1; and
 - Version 8.0.x and subsequent releases are subject to the tri-license RSALv2/SSPLv1/AGPLv3 at your option.
-
-[Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisories.
