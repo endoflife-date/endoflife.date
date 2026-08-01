@@ -31,15 +31,15 @@ releases:
   - releaseCycle: "16.0"
     releaseDate: 2026-07-16
     eol: 2026-10-29
-    latest: "16.0.1"
-    latestReleaseDate: 2026-07-20
+    latest: "16.0.2"
+    latestReleaseDate: 2026-07-30
 
   - releaseCycle: "15.0"
     lts: true
     releaseDate: 2026-04-16
     eol: 2027-07-15
-    latest: "15.0.5"
-    latestReleaseDate: 2026-07-15
+    latest: "15.0.6"
+    latestReleaseDate: 2026-07-30
 
   - releaseCycle: "14.0"
     releaseDate: 2026-01-15

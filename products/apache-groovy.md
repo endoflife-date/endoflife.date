@@ -34,15 +34,15 @@ releases:
     releaseDate: 2025-08-21
     eol: false
     eoas: false
-    latest: "5.0.6"
-    latestReleaseDate: 2026-05-04
+    latest: "5.0.8"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eoas: 2025-08-21
     eol: false
-    latest: "4.0.32"
-    latestReleaseDate: 2026-05-04
+    latest: "4.0.33"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "3.0"
     staleReleaseThresholdDays: 500 # still listed on https://github.com/apache/groovy?tab=security-ov-file#readme
@@ -50,21 +50,21 @@ releases:
     eoas: 2022-01-25
     eol: false
     latest: "3.0.25"
-    latestReleaseDate: 2025-05-27
+    latestReleaseDate: 2025-05-24
 
   - releaseCycle: "2.5"
     releaseDate: 2018-05-30
     eoas: true
     eol: 2026-04-30 # https://github.com/apache/groovy/commit/614271b8e13132e4614bcfd7075122df6bb6e15e
     latest: "2.5.23"
-    latestReleaseDate: 2023-08-22
+    latestReleaseDate: 2023-08-19
 
   - releaseCycle: "2.4"
     releaseDate: 2015-01-21
     eoas: true
     eol: true
     latest: "2.4.21"
-    latestReleaseDate: 2020-12-03
+    latestReleaseDate: 2020-11-30
 
 ---
 
