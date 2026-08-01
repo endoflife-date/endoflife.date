@@ -21,7 +21,7 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.logging.log4j/log4j-core
+    - github_releases: apache/logging-log4j2
 
 releases:
   - releaseCycle: "2"
