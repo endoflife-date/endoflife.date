@@ -34,7 +34,7 @@ releases:
     releaseDate: 2024-11-05
     eol: 2025-01-16
     latest: "4.30.0"
-    latestReleaseDate: 2024-11-05
+    latestReleaseDate: 2025-01-06
 
   - releaseCycle: "4.29"
     releaseDate: 2024-07-25
@@ -82,7 +82,7 @@ releases:
     releaseDate: 2023-05-11
     eol: 2023-06-26
     latest: "4.22.0"
-    latestReleaseDate: 2023-05-11
+    latestReleaseDate: 2023-05-19
 
   - releaseCycle: "4.21"
     releaseDate: 2023-04-12
@@ -178,7 +178,7 @@ releases:
     releaseDate: 2021-11-04
     eol: 2022-01-10
     latest: "4.6.2"
-    latestReleaseDate: 2021-12-02
+    latestReleaseDate: 2021-12-01
 
   - releaseCycle: "4.5"
     releaseDate: 2021-09-27
@@ -190,7 +190,7 @@ releases:
     releaseDate: 2021-06-09
     eol: 2021-09-27
     latest: "4.4.3"
-    latestReleaseDate: 2021-08-05
+    latestReleaseDate: 2021-08-06
 
   - releaseCycle: "4.3"
     releaseDate: 2021-02-09
@@ -214,7 +214,8 @@ releases:
     releaseDate: 2020-07-13
     eol: 2020-09-28
     latest: "4.0.0"
-    latestReleaseDate: 2020-07-13
+    latestReleaseDate: 2020-07-14
+
 ---
 
 > [Liquibase](https://www.liquibase.org/) is an open-source database-independent library for

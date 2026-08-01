@@ -92,14 +92,14 @@ releases:
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
     latest: "18.5.0"
-    latestReleaseDate: 2025-10-17
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
     eoas: 2025-10-16 # releaseDate(18.5)
     eol: 2025-12-18 # releaseDate(18.7)
     latest: "18.4.0"
-    latestReleaseDate: 2025-09-18
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
@@ -113,21 +113,21 @@ releases:
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
     latest: "18.2.2"
-    latestReleaseDate: 2025-08-20
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-16 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
     latest: "18.1.3"
-    latestReleaseDate: 2025-07-29
+    latestReleaseDate: 2025-07-28
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14
     eoas: 2025-06-18 # releaseDate(18.1)
     eol: 2025-08-21 # releaseDate(18.3)
     latest: "18.0.5"
-    latestReleaseDate: 2025-07-29
+    latestReleaseDate: 2025-07-28
 
 ---
 
