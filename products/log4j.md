@@ -22,6 +22,7 @@ identifiers:
 auto:
   methods:
     - github_releases: apache/logging-log4j2
+      regex: '^rel/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "2"
