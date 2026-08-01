@@ -22,7 +22,12 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.ant/ant
+    - git: https://github.com/apache/ant.git
+      # tag dates for version 1.9.6 or before are wrong
+      regex:
+        - 'rel/(?P<major>1)\.(?P<minor>9)\.(?P<patch>([7-9]|\d{2,}))'
+        - 'rel/(?P<major>1)\.(?P<minor>\d{2,})\.(?P<patch>\d+)'
+        - 'rel/(?P<major>[2-9])\.(?P<minor>\d+)\.(?P<patch>\d+)'
 
 releases:
   - releaseCycle: "1.10"
