@@ -18,6 +18,23 @@ customFields:
     display: api-only
     label: Technical Guidance Ends
 
+auto:
+  methods:
+    - release_table: https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html
+      selector: "details:has(h3#horizon) table"
+      render_javascript: true
+      render_javascript_wait_for: "h3#horizon"
+      fields:
+        releaseCycle:
+          column: "Product Release"
+          regex: '^Horizon (?P<value>\d+[ .]\d+|\d+)$'
+          template: "{{value | replace: ' ', '.'}}"
+        releaseDate: "General Availability"
+        eol: "EOGS"
+        technicalGuidance:
+          column: "EOTG"
+          type: date
+
 releases:
   - releaseCycle: "8.2603"
     releaseDate: 2026-04-14
