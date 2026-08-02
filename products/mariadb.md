@@ -28,30 +28,31 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/MariaDB/server.git
-      # Drop any releases before the GA ones.
-      # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
-      # and Z a regex that only matches GA release patch numbers in that cycle.
+      regex: ^mariadb-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+      # Drop any releases before the GA ones in each cycle.
       # Note: This needs to be edited when a new release cycle (a new GA release) is added.
-      regex:
-        - ^mariadb-(?P<major>5)\.(?P<minor>1)\.(?P<patch>(4[2-9]|[5-9]\d))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>2)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>3)\.(?P<patch>([5-9]|\d{2}))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>12)\.(?P<minor>[0-3])\.(?P<patch>([2-9]|\d{2}))$
+      regex_exclude:
+        - ^mariadb-5\.1\.([0-9]|[1-3]\d|4[01])$
+        - ^mariadb-5\.2\.[0-2]$
+        - ^mariadb-5\.3\.[0-4]$
+        - ^mariadb-5\.5\.([0-9]|1\d|2[0-8])$
+        - ^mariadb-10\.0\.([0-9]|1[01])$
+        - ^mariadb-10\.1\.([0-9]|1[0-7])$
+        - ^mariadb-10\.2\.[0-5]$
+        - ^mariadb-10\.3\.[0-6]$
+        - ^mariadb-10\.4\.[0-5]$
+        - ^mariadb-10\.5\.[0-3]$
+        - ^mariadb-10\.6\.[0-2]$
+        - ^mariadb-10\.7\.[01]$
+        - ^mariadb-10\.8\.[0-2]$
+        - ^mariadb-10\.9\.[01]$
+        - ^mariadb-10\.10\.[01]$
+        - ^mariadb-10\.11\.[01]$
+        - ^mariadb-11\.[0-8]\.[01]$
+        - ^mariadb-12\.[0-3]\.[01]$
+        # Any future major/minor cycle not yet listed above: assume the same threshold
+        # (patch 0 and 1 are pre-GA) until the exact GA patch is confirmed and added above.
+        - ^mariadb-(1[1-9]|[2-9]\d)\.\d+\.[01]$
     - release_table: https://mariadb.org/about/#maintenance-policy
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -66,13 +67,13 @@ releases:
   - releaseCycle: "12.3"
     releaseDate: 2026-05-28
     lts: true
-    eol: 2029-06-30 #estimated https://mariadb.com/docs/release-notes/community-server/12.3/12.3.2
+    eol: false
     latest: "12.3.2"
     latestReleaseDate: 2026-05-28
 
   - releaseCycle: "12.2"
     releaseDate: 2026-02-13
-    eol: 2026-05-13 #estimated
+    eol: 2026-05-28
     latest: "12.2.2"
     latestReleaseDate: 2026-02-12
 
