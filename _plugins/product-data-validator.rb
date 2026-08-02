@@ -73,6 +73,7 @@ module EndOfLifeHooks
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
     'https://graylog.org/post': SUPPRESSED_BECAUSE_403,
     'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://hub.docker.com': SUPPRESSED_BECAUSE_403,
     'https://investors.broadcom.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://kernelnewbies.org': SUPPRESSED_BECAUSE_TIMEOUT,
