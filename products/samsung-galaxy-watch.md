@@ -2,7 +2,7 @@
 title: Samsung Galaxy Watch
 addedAt: 2025-05-09
 category: device
-tags: smartwatch
+tags: watch
 iconSlug: samsung
 permalink: /samsung-galaxy-watch
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
