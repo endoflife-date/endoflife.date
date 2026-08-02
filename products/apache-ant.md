@@ -35,13 +35,13 @@ releases:
     releaseDate: 2016-12-27
     eol: false
     latest: "1.10.17"
-    latestReleaseDate: 2026-04-06
+    latestReleaseDate: 2026-04-10
 
   - releaseCycle: "1.9"
     releaseDate: 2013-03-07
     eol: 2024-06-19
     latest: "1.9.16"
-    latestReleaseDate: 2021-07-10
+    latestReleaseDate: 2021-07-13
 
   - releaseCycle: "1.8"
     releaseDate: 2010-02-02
