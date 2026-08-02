@@ -32,9 +32,11 @@ releases:
     latestReleaseDate: 2026-07-27
 
   - releaseCycle: "2.34"
+    lts: true
     releaseDate: 2026-06-02
     eoas: false # releaseDate(2.36)
     eol: false # releaseDate(2.37)
+    eoes: 2027-06-02
     latest: "2.34.7"
     latestReleaseDate: 2026-07-28
 
