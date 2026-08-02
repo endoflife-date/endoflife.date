@@ -16,8 +16,7 @@ updates:
         - "_data/release-data"
 
   - package-ecosystem: "bundler"
-    vendor: true
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "weekly"
 
