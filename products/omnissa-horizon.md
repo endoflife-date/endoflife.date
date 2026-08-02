@@ -46,7 +46,7 @@ releases:
 
   - releaseCycle: "8.2503"
     releaseDate: 2025-04-15
-    eol: 2028-08-14
+    eol: 2028-04-15
     lts: true
     technicalGuidance: 2029-04-15
     latest: "8.2503.2"
@@ -62,11 +62,11 @@ releases:
     link: https://docs.omnissa.com/bundle/horizon8-rnV2412/page/Horizon8-ReleaseNotes.html
 
   - releaseCycle: "8.2406"
-    releaseDate: 2024-06-25
+    releaseDate: 2024-07-25
     eol: 2027-07-25
     technicalGuidance: 2028-07-25
     latest: "8.2406"
-    latestReleaseDate: 2024-06-25
+    latestReleaseDate: 2024-07-25
     link: https://docs.omnissa.com/bundle/horizon8-rnV2406/page/Horizon8-ReleaseNotes.html
 
   - releaseCycle: "8.2312"
@@ -189,8 +189,8 @@ releases:
   - releaseCycle: "7"
     releaseLabel: "7.X NonLTS branch"
     releaseDate: 2016-03-22
-    eol: 2022-10-15
-    technicalGuidance: 2023-03-23
+    eol: 2023-04-30
+    technicalGuidance: 2025-04-30
     latest: "7.13.2"
     latestReleaseDate: 2022-03-10
     link: https://docs.vmware.com/en/VMware-Horizon-7/7.13.2/rn/vmware-horizon-7-7132-release-notes/index.html
