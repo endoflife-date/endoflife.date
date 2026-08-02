@@ -383,3 +383,5 @@ releases:
 Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
 and they are supported for one year with security and important/critical bug fixes.
 Non-LTS releases don't receive any support.
+
+A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).
