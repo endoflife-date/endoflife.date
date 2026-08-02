@@ -32,7 +32,7 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
-    eol: false
+    eol: 2026-08-30
     latest: "9.4"
     latestReleaseDate: 2024-04-20
 
@@ -93,6 +93,7 @@ releases:
     latest: "1.6.2"
     latestReleaseDate: 2004-03-01
     link: null
+
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like
