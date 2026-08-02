@@ -2,7 +2,7 @@
 title: Apple watchOS
 addedAt: 2022-10-08
 category: os
-tags: apple smartwatch
+tags: apple
 iconSlug: apple
 permalink: /watchos
 changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes
@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "26"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.5"
-    latestReleaseDate: 2026-05-11
+    latest: "26.6"
+    latestReleaseDate: 2026-07-27
 
   - releaseCycle: "11"
     releaseDate: 2024-09-16

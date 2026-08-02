@@ -22,6 +22,27 @@ auto:
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
 # The release dates must be retrieved from announcement blog posts on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
+  - releaseCycle: "java17.al2023"
+    releaseLabel: Java 17 (AL2023)
+    releaseDate: 2026-07-31
+    eoas: false
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
+
+  - releaseCycle: "java11.al2023"
+    releaseLabel: Java 11 (AL2023)
+    releaseDate: 2026-07-31
+    eoas: false
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
+
+  - releaseCycle: "java8.al2023"
+    releaseLabel: Java 8 (AL2023)
+    releaseDate: 2026-07-31
+    eoas: false
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
+
   - releaseCycle: "ruby4.0"
     releaseLabel: "Ruby 4.0"
     releaseDate: 2026-04-30
@@ -66,7 +87,7 @@ releases:
 
   - releaseCycle: "dotnet9"
     releaseLabel: ".NET 9 (container only)"
-    staleReleaseThresholdDays: 600 # Still "not scheduled" on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
+    staleReleaseThresholdDays: 700 # eol still "not scheduled" on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
     releaseDate: 2024-12-09
     eoas: 2026-11-10
     eol: false

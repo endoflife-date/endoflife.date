@@ -12,9 +12,13 @@ eolColumn: Supported
 
 identifiers:
   - repology: ffmpeg
+  - purl: pkg:brew/ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:rpm/fedora/ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
-  - purl: pkg:brew/ffmpeg
 
 auto:
   methods:
@@ -50,7 +54,7 @@ releases:
   - releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
-    eol: false
+    eol: 2026-06-22 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/a372718e3aabb9ad876eac037a359b305c3a360a
     latest: "7.0.3"
     latestReleaseDate: 2025-08-05
 

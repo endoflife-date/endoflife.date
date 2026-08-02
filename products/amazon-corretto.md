@@ -80,8 +80,8 @@ releases:
     # Official release was on March: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
     releaseDate: 2026-03-17
     eol: 2026-10-31
-    latest: "26.0.1.8.1"
-    latestReleaseDate: 2026-04-22
+    latest: "26.0.2.10.1"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "25"
     lts: true
@@ -89,8 +89,8 @@ releases:
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-corretto-25-generally-available/
     releaseDate: 2025-09-16
     eol: 2032-10-31 # listed on https://aws.amazon.com/corretto/faqs/#topic-0
-    latest: "25.0.3.9.1"
-    latestReleaseDate: 2026-04-22
+    latest: "25.0.4.7.1"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "24"
     # The first non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
@@ -121,8 +121,8 @@ releases:
     # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
     eol: 2030-10-31
-    latest: "21.0.11.10.1"
-    latestReleaseDate: 2026-04-22
+    latest: "21.0.12.8.1"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -148,8 +148,8 @@ releases:
     lts: true
     releaseDate: 2021-08-24
     eol: 2029-10-31
-    latest: "17.0.19.10.1"
-    latestReleaseDate: 2026-04-22
+    latest: "17.0.20.8.1"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -169,16 +169,16 @@ releases:
     lts: true
     releaseDate: 2019-02-18
     eol: 2032-01-31
-    latest: "11.0.31.11.1"
-    latestReleaseDate: 2026-04-22
+    latest: "11.0.32.9.1"
+    latestReleaseDate: 2026-07-22
 
   # Note that the first release was 8.202.08.2.
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.492.09.2"
-    latestReleaseDate: 2026-05-07
+    latest: "8.502.07.1"
+    latestReleaseDate: 2026-07-22
 
 ---
 

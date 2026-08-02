@@ -12,16 +12,16 @@ changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openj
 # There is one repository for each major LTS release.
 auto:
   methods:
-    - git: "https://github.com/microsoft/openjdk-jdk11u.git"
+    - github_tags: "microsoft/openjdk-jdk11u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk17u.git"
+    - github_tags: "microsoft/openjdk-jdk17u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk21u.git"
+    - github_tags: "microsoft/openjdk-jdk21u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
-    - git: "https://github.com/microsoft/openjdk-jdk25u.git"
+    - github_tags: "microsoft/openjdk-jdk25u"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: "{{version}}"
     - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
@@ -37,30 +37,30 @@ releases:
     lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
-    latest: "25.0.3"
-    latestReleaseDate: 2026-04-17
+    latest: "25.0.4"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
-    latest: "21.0.11"
-    latestReleaseDate: 2026-04-17
+    latest: "21.0.12"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
-    latest: "17.0.19"
-    latestReleaseDate: 2026-04-17
+    latest: "17.0.20"
+    latestReleaseDate: 2026-07-21
 
   # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
   - releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
     eol: 2027-09-30
-    latest: "11.0.31"
-    latestReleaseDate: 2026-04-22
+    latest: "11.0.32"
+    latestReleaseDate: 2026-07-21
 
 ---
 

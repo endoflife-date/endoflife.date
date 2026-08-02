@@ -25,53 +25,60 @@ identifiers:
 # eoas(x) = releaseDate(x) (there is no more an active support phase, kept for historical purpose)
 # eol(x) can be found on https://docs.rocket.chat/docs/rocketchat-release-notes and https://docs.rocket.chat/docs/version-durability
 releases:
+  - releaseCycle: "8.6"
+    releaseDate: 2026-07-03
+    eoas: 2026-07-03
+    eol: 2027-01-31
+    latest: "8.6.1"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "8.5"
     lts: true
     releaseDate: 2026-06-10
     eoas: 2026-06-10
-    eol: 2027-06-10
-    latest: "8.5.1"
-    latestReleaseDate: 2026-06-15
+    eol: 2026-07-10
+    latest: "8.5.2"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8.4"
     releaseDate: 2026-04-30
     eoas: 2026-04-30
     eol: 2026-10-31
-    latest: "8.4.4"
-    latestReleaseDate: 2026-06-15
+    latest: "8.4.5"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8.3"
     releaseDate: 2026-04-07
     eoas: 2026-04-07
     eol: 2026-10-31
-    latest: "8.3.6"
-    latestReleaseDate: 2026-06-15
+    latest: "8.3.7"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8.2"
     releaseDate: 2026-03-02
     eoas: 2026-03-02
     eol: 2026-09-30
-    latest: "8.2.6"
-    latestReleaseDate: 2026-06-15
+    latest: "8.2.7"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8.1"
     releaseDate: 2026-02-10
     eoas: 2026-02-10
     eol: 2026-08-31
-    latest: "8.1.6"
-    latestReleaseDate: 2026-06-15
+    latest: "8.1.7"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8.0"
     releaseDate: 2026-01-12
     eoas: 2026-01-12
-    eol: 2026-06-30
-    latest: "8.0.7"
-    latestReleaseDate: 2026-06-15
+    eol: 2026-07-11
+    latest: "8.0.8"
+    latestReleaseDate: 2026-07-11
 
   - releaseCycle: "7.13"
     releaseDate: 2025-12-05
     eoas: 2025-12-05
-    eol: 2026-05-31
+    eol: 2026-06-15
     latest: "7.13.9"
     latestReleaseDate: 2026-06-15
 
@@ -85,7 +92,7 @@ releases:
   - releaseCycle: "7.11"
     releaseDate: 2025-10-17
     eoas: 2025-10-17
-    eol: 2026-03-31
+    eol: 2026-04-13
     latest: "7.11.7"
     latestReleaseDate: 2026-04-13
 
@@ -93,9 +100,9 @@ releases:
     lts: true
     releaseDate: 2025-09-04
     eoas: 2025-09-04
-    eol: 2026-06-30
-    latest: "7.10.13"
-    latestReleaseDate: 2026-06-15
+    eol: 2026-07-10
+    latest: "7.10.14"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "7.9"
     releaseDate: 2025-07-29
@@ -135,7 +142,7 @@ releases:
   - releaseCycle: "7.4"
     releaseDate: 2025-03-05
     eoas: 2025-03-05
-    eol: 2025-08-31
+    eol: 2025-09-23
     latest: "7.4.6"
     latestReleaseDate: 2025-09-23
 
@@ -219,14 +226,14 @@ releases:
   - releaseCycle: "6.6"
     releaseDate: 2024-02-07
     eoas: 2024-04-08
-    eol: 2024-08-31
+    eol: 2024-11-22
     latest: "6.6.13"
     latestReleaseDate: 2024-11-22
 
   - releaseCycle: "6.5"
     releaseDate: 2023-12-01
     eoas: 2024-02-07
-    eol: 2024-06-30
+    eol: 2024-11-22
     latest: "6.5.9"
     latestReleaseDate: 2024-11-22
 
@@ -240,7 +247,7 @@ releases:
   - releaseCycle: "6.3"
     releaseDate: 2023-08-02
     eoas: 2023-09-27
-    eol: 2024-02-29
+    eol: 2024-11-23
     latest: "6.3.13"
     latestReleaseDate: 2024-11-23
 
@@ -354,7 +361,7 @@ releases:
   - releaseCycle: "4.1"
     releaseDate: 2021-10-28
     eoas: 2021-11-30
-    eol: 2022-04-30
+    eol: 2022-06-02
     latest: "4.1.6"
     latestReleaseDate: 2022-06-02
 
@@ -369,7 +376,7 @@ releases:
     lts: true
     releaseDate: 2021-08-31
     eoas: 2021-10-01
-    eol: 2022-02-28
+    eol: 2022-05-30
     latest: "3.18.7"
     latestReleaseDate: 2022-05-30
 

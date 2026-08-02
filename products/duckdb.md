@@ -22,8 +22,8 @@ releases:
     codename: "Variegata"
     releaseDate: 2026-03-09
     eol: false
-    latest: "1.5.4"
-    latestReleaseDate: 2026-06-17
+    latest: "1.5.5"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "1.4"
     codename: "Andium"

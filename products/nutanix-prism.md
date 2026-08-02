@@ -20,19 +20,26 @@ auto:
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
+  - releaseCycle: "pc.7.6"
+    releaseDate: 2026-07-27
+    eoas: 2027-10-31
+    eol: 2028-07-31
+    latest: "pc.7.6"
+    latestReleaseDate: 2026-07-27
+
   - releaseCycle: "pc.7.5"
     releaseDate: 2025-12-09
     eoas: 2027-02-28
     eol: 2027-11-30
-    latest: "pc.7.5.1.8"
-    latestReleaseDate: 2026-06-30
+    latest: "pc.7.5.1.10"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "pc.7.3"
     releaseDate: 2025-06-24
     eoas: 2026-09-30
     eol: 2027-06-30
-    latest: "pc.7.3.1.10"
-    latestReleaseDate: 2026-05-28
+    latest: "pc.7.3.1.14"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "pc.2024.3"
     releaseDate: 2024-12-05

@@ -17,8 +17,8 @@ identifiers:
 releases:
   - releaseCycle: "10"
     releaseDate: 2024-12-12
-    eoas: 2030-01-01
-    eol: 2030-01-01
+    eoas: 2030-05-31
+    eol: 2030-05-31
     link: https://blog.centos.org/2024/12/introducing-centos-stream-10/
 
   - releaseCycle: "9"

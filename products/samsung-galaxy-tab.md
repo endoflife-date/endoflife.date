@@ -150,7 +150,7 @@ releases:
     releaseLabel: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     eoas: 2027-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
-    eol: false      # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
+    eol: 2028-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-s9-ultra"
