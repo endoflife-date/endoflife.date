@@ -37,7 +37,7 @@ auto:
 # eol dates as per upstream table
 releases:
   - releaseCycle: "1.23"
-    releaseDate: 2026-07-29
+    releaseDate: 2026-07-28
     eol: 2027-02-02
     minK8sVersion: "1.34"
     latest: "1.23.0"
