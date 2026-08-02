@@ -15,7 +15,9 @@ identifiers:
   - repology: coder
   - purl: pkg:github/coder/coder
   - purl: pkg:generic/coder
-  - cpe: cpe:2.3:a:coder:code-server
+  - purl: pkg:oci/coder?repository_url=ghcr.io/coder
+  - purl: pkg:winget/Coder.Coder
+  - cpe: cpe:2.3:a:coder:coder
 
 auto:
   methods:
