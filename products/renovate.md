@@ -27,7 +27,7 @@ releases:
   - releaseCycle: "44"
     releaseDate: 2026-07-29
     eol: false
-    latest: "44.7.0"
+    latest: "44.7.1"
     latestReleaseDate: 2026-08-02
 
   - releaseCycle: "43"
