@@ -36,10 +36,9 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1125.2"
     latestGdrLink: https://support.microsoft.com/help/5102333
-    latest: "17.0.4060.2 CU6"
-    latestReleaseDate: 2026-07-14
-    # CU6 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate6
-    link: https://support.microsoft.com/help/5101346
+    latest: "17.0.4065.4 CU7"
+    latestReleaseDate: 2026-07-16
+    link: https://support.microsoft.com/help/5096981
 
   - releaseCycle: "16.0"
     codename: Dallas
@@ -48,11 +47,10 @@ releases:
     eoas: 2028-01-11
     eol: 2033-01-11
     latestGdr: "16.0.1190.2"
-    latestGdrLink: https://support.microsoft.com/help/5091158
-    latest: "16.0.4262.2 CU25"
-    latestReleaseDate: 2026-07-14
-    # CU25 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate25
-    link: https://support.microsoft.com/help/5101347
+    latestGdrLink: https://support.microsoft.com/help/5102334
+    latest: "16.0.4265.3 CU26"
+    latestReleaseDate: 2026-07-16
+    link: https://support.microsoft.com/help/5093420
 
   - releaseCycle: "13.0-sp3-acp"
     codename: SQL16
@@ -90,10 +88,9 @@ releases:
     eoas: 2025-02-28
     eol: 2030-01-08
     latestGdr: "15.0.2180.2"
-    latestGdrLink: https://support.microsoft.com/help/5090408
+    latestGdrLink: https://support.microsoft.com/help/5102336
     latest: "15.0.4480.2 CU32+GDR"
     latestReleaseDate: 2026-07-14
-    # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
     link: https://support.microsoft.com/help/5102335 # GDR for CU32
 
   - releaseCycle: "12.0-sp3"
@@ -120,7 +117,7 @@ releases:
     latestGdr: "13.0.5108.50"
     latestGdrLink: https://support.microsoft.com/help/5014365
     latest: "13.0.5893.48 CU17+GDR"
-    latestReleaseDate: 2019-07-09
+    latestReleaseDate: 2022-06-14
     link: https://support.microsoft.com/help/5014351
 
   - releaseCycle: "11.0-sp4"
