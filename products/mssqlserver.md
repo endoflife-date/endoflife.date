@@ -35,7 +35,7 @@ releases:
     eoas: 2031-01-06
     eol: 2036-01-06
     latestGdr: "17.0.1125.2"
-    latestGdrLink: https://support.microsoft.com/help/5091223
+    latestGdrLink: https://support.microsoft.com/help/5102333
     latest: "17.0.4060.2 CU6"
     latestReleaseDate: 2026-07-14
     # CU6 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2025/cumulativeupdate6
