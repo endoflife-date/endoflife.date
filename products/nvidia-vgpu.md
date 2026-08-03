@@ -163,7 +163,7 @@ releases:
 
   - releaseCycle: "2"
     releaseLabel: "GRID 2"
-    releaseDate: 2017-02-01
+    releaseDate: 2016-02-01
     eol: 2018-08-31
     latest: "2.5"
     latestReleaseDate: 2017-03-01
