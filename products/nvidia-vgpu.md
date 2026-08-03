@@ -1,6 +1,6 @@
 ---
 title: NVIDIA vGPU
-addedAt: 2026-07-31
+addedAt: 2026-08-33
 category: app
 tags: nvidia
 iconSlug: nvidia
@@ -168,8 +168,8 @@ releases:
     latest: "2.5"
     latestReleaseDate: 2017-03-01
     link: https://docs.nvidia.com/grid/2.5/index.html
+
 ---
 
-> NVIDIA virtual GPU (vGPU) software enables multiple virtual machines (VMs) to have simultaneous, direct access
-> to a single physical GPU, using the same NVIDIA graphics drivers that are deployed on non-virtualized
-> operating systems. It was previously named GRID.
+> [NVIDIA virtual GPU (vGPU) software](https://docs.nvidia.com/vgpu/index.html) enables multiple virtual machines (VMs) to have simultaneous, direct access
+> to a single physical GPU, using the same NVIDIA graphics drivers that are deployed on non-virtualized operating systems. It was previously named GRID.
