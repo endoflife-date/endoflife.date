@@ -29,6 +29,13 @@ auto:
         eol: "End-of-Life Date"
 
 releases:
+  - releaseCycle: "12.2"
+    releaseDate: 2026-07-30
+    eol: false
+    latest: "12.2.2"
+    latestReleaseDate: 2026-07-30
+    link: https://docs.paloaltonetworks.com/ngfw/release-notes/12-2/pan-os-12-2-2-known-and-addressed-issues/pan-os-12-2-2-addressed-issues
+
   - releaseCycle: "12.1"
     releaseDate: 2025-08-28
     eol: 2028-08-28

@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.1.3)
+    activesupport (8.1.3.1)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
@@ -19,9 +19,9 @@ GEM
     base64 (0.3.0)
     bigdecimal (4.1.2)
     colorator (1.1.0)
-    concurrent-ruby (1.3.7)
+    concurrent-ruby (1.3.8)
     connection_pool (3.0.2)
-    csv (3.3.5)
+    csv (3.3.6)
     date (3.5.1)
     drb (2.2.3)
     em-websocket (0.5.3)
@@ -39,34 +39,34 @@ GEM
     ffi (1.17.4-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (4.34.1)
+    google-protobuf (4.35.1)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-aarch64-linux-gnu)
+    google-protobuf (4.35.1-aarch64-linux-gnu)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-aarch64-linux-musl)
+    google-protobuf (4.35.1-aarch64-linux-musl)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-arm64-darwin)
+    google-protobuf (4.35.1-arm64-darwin)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-x86_64-darwin)
+    google-protobuf (4.35.1-x86_64-darwin)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-x86_64-linux-gnu)
+    google-protobuf (4.35.1-x86_64-linux-gnu)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.34.1-x86_64-linux-musl)
+    google-protobuf (4.35.1-x86_64-linux-musl)
       bigdecimal
       rake (~> 13.3)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
     http_parser.rb (0.8.1)
-    i18n (1.14.8)
+    i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    icalendar (2.12.3)
+    icalendar (2.12.4)
       base64
       ice_cube (~> 0.16)
       logger
@@ -93,7 +93,7 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-include-cache (0.2.1)
+    jekyll-include-cache (0.2.2)
       jekyll (>= 3.7, < 5.0)
     jekyll-last-modified-at (1.3.2)
       jekyll (>= 3.7, < 5.0)
@@ -109,7 +109,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.19.9)
+    json (2.21.2)
     just-the-docs (0.12.0)
       jekyll (>= 3.8.5)
       jekyll-include-cache
@@ -127,7 +127,7 @@ GEM
     logger (1.7.0)
     mercenary (0.4.0)
     mini_i18n (1.1.0)
-    minitest (6.0.5)
+    minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
     nokogiri (1.19.4-aarch64-linux-gnu)
@@ -164,21 +164,21 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.99.0-aarch64-linux-gnu)
+    sass-embedded (1.102.0-aarch64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-aarch64-linux-musl)
+    sass-embedded (1.102.0-aarch64-linux-musl)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-arm-linux-gnueabihf)
+    sass-embedded (1.102.0-arm-linux-gnueabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-arm-linux-musleabihf)
+    sass-embedded (1.102.0-arm-linux-musleabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-arm64-darwin)
+    sass-embedded (1.102.0-arm64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-x86_64-darwin)
+    sass-embedded (1.102.0-x86_64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-x86_64-linux-gnu)
+    sass-embedded (1.102.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.99.0-x86_64-linux-musl)
+    sass-embedded (1.102.0-x86_64-linux-musl)
       google-protobuf (~> 4.31)
     securerandom (0.4.1)
     stringio (3.2.0)
@@ -220,14 +220,14 @@ DEPENDENCIES
   webrick (~> 1.9)
 
 CHECKSUMS
-  activesupport (8.1.3) sha256=21a5e0dfbd4c3ddd9e1317ec6a4d782fa226e7867dc70b0743acda81a1dca20e
+  activesupport (8.1.3.1) sha256=85458765f25ea48b9019c46b6bb3fa5683197bf4280d9f06710a6e8d7a831376
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bigdecimal (4.1.2) sha256=53d217666027eab4280346fba98e7d5b66baaae1b9c3c1c0ffe89d48188a3fbd
   colorator (1.1.0) sha256=e2f85daf57af47d740db2a32191d1bdfb0f6503a0dfbc8327d0c9154d5ddfc38
-  concurrent-ruby (1.3.7) sha256=4412caec3a5ea2e5fdc52076724c071a81f2c0593d83b2ac8cbb8ca63b3151b0
+  concurrent-ruby (1.3.8) sha256=b2f1be836e968ccc78ccfce277ea79c72a88633f22306782c16ff23fb415d1e1
   connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
-  csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
+  csv (3.3.6) sha256=aba61e7e507a66f03d45cb1f3c4b6359861c3504038b422962875dce099e4456
   date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
@@ -243,28 +243,28 @@ CHECKSUMS
   ffi (1.17.4-x86_64-linux-musl) sha256=3fdf9888483de005f8ef8d1cf2d3b20d86626af206cbf780f6a6a12439a9c49e
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   gemoji (4.1.0) sha256=734434020cbe964ea9d19086798797a47d23a170892de0ce55b74aa65d2ddc1a
-  google-protobuf (4.34.1) sha256=347181542b8d659c60f028fa3791c9cccce651a91ad27782dbc5c5e374796cdc
-  google-protobuf (4.34.1-aarch64-linux-gnu) sha256=f9c07607dc139c895f2792a7740fcd01cd94d4d7b0e0a939045b50d7999f0b1d
-  google-protobuf (4.34.1-aarch64-linux-musl) sha256=db58e5a4a492b43c6614486aea31b7fb86955b175d1d48f28ebf388f058d78a9
-  google-protobuf (4.34.1-arm64-darwin) sha256=2745061f973119e6e7f3c81a0c77025d291a3caa6585a2cd24a25bbc7bedb267
-  google-protobuf (4.34.1-x86_64-darwin) sha256=4dc498376e218871613589c4d872400d42ad9ae0c700bdb2606fe1c77a593075
-  google-protobuf (4.34.1-x86_64-linux-gnu) sha256=87088c9fd8e47b5b40ca498fc1195add6149e941ff7e81c532a5b0b8876d4cc9
-  google-protobuf (4.34.1-x86_64-linux-musl) sha256=8c0e91436fbe504ffc64f0bd621f2e69adbcce8ed2c58439d7a21117069cfdd7
+  google-protobuf (4.35.1) sha256=a3a6471331d918f58dfa4d014a8f6286f0af2cf4840216bde52fcf2ea3fe3726
+  google-protobuf (4.35.1-aarch64-linux-gnu) sha256=50ca44d0eeff3f8475e630a1accdd974256f3510694d574e2c9d6119ea8bc9e1
+  google-protobuf (4.35.1-aarch64-linux-musl) sha256=d5c65cef6bd6498a9e5ed5f88cf6cf7e341c10b0a005e32137d5d1a2b6e8c18a
+  google-protobuf (4.35.1-arm64-darwin) sha256=d9c957df04fa89c749fa9a72a7b383eb4296efc9b2303dc6fd6fbe39c698ad6b
+  google-protobuf (4.35.1-x86_64-darwin) sha256=66b62b4df00931018a692806df66393efa960d6d2b7da69735187249f950d3ee
+  google-protobuf (4.35.1-x86_64-linux-gnu) sha256=c786439087512a3fbd199e9897d265b855f951d4027e218ea55e858d45969edd
+  google-protobuf (4.35.1-x86_64-linux-musl) sha256=91890eb0002934a339fdb7d77a147c46b7474b6799db27872b747b905837f744
   html-pipeline (2.14.3) sha256=8a1d4d7128b2141913387cac0f8ba898bb6812557001acc0c2b46910f59413a0
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
-  i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
-  icalendar (2.12.3) sha256=37dea76c36f5b21dd745bcd3cb53e7bacfbb4ad0a8d9c2a1c0aa9d39af83c850
+  i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
+  icalendar (2.12.4) sha256=acf9b8b166dad4679b8be2cc3202260896c199ab7302f748c760c97e9d32e3a2
   ice_cube (0.17.0) sha256=32deb45dda4b4acc53505c2f581f6d32b5afc04d29b9004769944a0df5a5fcbe
   jekyll (4.4.1) sha256=4c1144d857a5b2b80d45b8cf5138289579a9f8136aadfa6dd684b31fe2bc18c1
   jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
-  jekyll-include-cache (0.2.1) sha256=c7d4b9e551732a27442cb2ce853ba36a2f69c66603694b8c1184c99ab1a1a205
+  jekyll-include-cache (0.2.2) sha256=fe31c75187c37b035fb3b62b689f1ca284f1871c3bb7f607a8bdf3cc439b0aa1
   jekyll-last-modified-at (1.3.2) sha256=c4c08f137453e9b40764a769450870d05970e0934651a1fd9ef081f4a6e9a815
   jekyll-sass-converter (3.1.0) sha256=83925d84f1d134410c11d0c6643b0093e82e3a3cf127e90757a85294a3862443
   jekyll-seo-tag (2.9.0) sha256=0260015a8e1df9bf195cdfb0c675b7b2883fd8cbf12556e1c1cbe36a831c6852
   jekyll-timeago (1.1.0) sha256=4bf1c5f4ed92a364ba7d328462189e9caf3de46d6767ce905d7a811abf2ddd8a
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   jemoji (0.13.0) sha256=5d4c3e8e2cbbb2b73997c31294f6f70c94e4d4fade039373e86835bcf5529e7c
-  json (2.19.9) sha256=9b9025b7cdddafa38d316eca0b2358488e42d417045c1b90d216a9fefe46b79a
+  json (2.21.2) sha256=1f1d3b7cf2b3ba1a69beca0bb6db13d5438b80bff3cd54cdaaa620b9b07c1c6a
   just-the-docs (0.12.0) sha256=15f2839ac9082898d60f33b978aa6f8e46fc50ba8fac20ae7a7f0e1fb295523e
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
@@ -273,7 +273,7 @@ CHECKSUMS
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mercenary (0.4.0) sha256=b25a1e4a59adca88665e08e24acf0af30da5b5d859f7d8f38fba52c28f405138
   mini_i18n (1.1.0) sha256=0f8c45ed83de2c1a4f16f35b58474c886987ee02490b145c7c529193441f128e
-  minitest (6.0.5) sha256=f007d7246bf4feea549502842cd7c6aba8851cdc9c90ba06de9c476c0d01155c
+  minitest (6.0.6) sha256=153ea36d1d987a62942382b61075745042a2b3123b1cd48f4c3675af9cc7d6f1
   nokogiri (1.19.4-aarch64-linux-gnu) sha256=1269fb644a6de405057a53dd5c762b1209b43ca7424f839454d3dbc677c31a8f
   nokogiri (1.19.4-aarch64-linux-musl) sha256=35c65b9ce72b3bb03207bdbe7067915019dc18c1b9b59139684bd6690fdd01af
   nokogiri (1.19.4-arm-linux-gnu) sha256=a301313e38bb065d68239e79734bcd6f56fb6efaacebde29e9abf2a4735340ca
@@ -295,14 +295,14 @@ CHECKSUMS
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
-  sass-embedded (1.99.0-aarch64-linux-gnu) sha256=a46615b0295ca7bd979b9ce79f6b9f1d26881736400188bd6fd5c4b7c9b46473
-  sass-embedded (1.99.0-aarch64-linux-musl) sha256=eaa6d56968909d1d54073c46e21c13fd5bbcb5af609d7e4fbe6b196426ca8e49
-  sass-embedded (1.99.0-arm-linux-gnueabihf) sha256=f5f0748934660cda6948917af6dc974caf4d36ea6121e450982153b7d9c49b55
-  sass-embedded (1.99.0-arm-linux-musleabihf) sha256=29a4056e76bc136025ba5d03e82d86ecdabfb6c07a473a4fdedcd72fb28dbbc4
-  sass-embedded (1.99.0-arm64-darwin) sha256=20773f2fb0e8f4d0194eb1874dab4c0ef60262ff6dafe29361e217beb2208629
-  sass-embedded (1.99.0-x86_64-darwin) sha256=371774c83b6dce8a2cb7b5ce5a0f918ff2735bf200b00e3bc7067366654fff13
-  sass-embedded (1.99.0-x86_64-linux-gnu) sha256=a4e2ae5e9951815cb8b3ab408cee8b800852491988a57de735f18d259c70d7c4
-  sass-embedded (1.99.0-x86_64-linux-musl) sha256=94be72a6f856c610e67b12303dc76a58412e64b24ce97bdf4912199b8145c8dd
+  sass-embedded (1.102.0-aarch64-linux-gnu) sha256=087f377fa4135a8f67f5f422781b59815e99b8fd3aec335935c50a47c2a205fd
+  sass-embedded (1.102.0-aarch64-linux-musl) sha256=12bb4091972499241c35304ca11ca2c314764badf1b9933a8d437ba62432b538
+  sass-embedded (1.102.0-arm-linux-gnueabihf) sha256=566b1188e4f923366f494a5d95e4e5e03864ae55bae5ea52beb2c30b1b9e2915
+  sass-embedded (1.102.0-arm-linux-musleabihf) sha256=1ca396610bf4f4aa8f849b67a9f2720f67d9f3b42651072eafee786aece314cf
+  sass-embedded (1.102.0-arm64-darwin) sha256=8e18b2dd94b232c2dd73984c579f77bbc1a066028f4675c8989ac34fa40d14dc
+  sass-embedded (1.102.0-x86_64-darwin) sha256=3e78c6ac5be0ba4236d075bd044a49d0f515d54799f7d6f253c71d325ffedac0
+  sass-embedded (1.102.0-x86_64-linux-gnu) sha256=9815b7604123a9a44a65d44d5e58e7af1c7005174b745cda83bad4c9e3760ab3
+  sass-embedded (1.102.0-x86_64-linux-musl) sha256=9e3c15eb5d83784adf3b946d4fc5d8a32aed25566a2fee939f25dd1e1d217ddf
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
   terminal-table (3.0.2) sha256=f951b6af5f3e00203fb290a669e0a85c5dd5b051b3b023392ccfd67ba5abae91

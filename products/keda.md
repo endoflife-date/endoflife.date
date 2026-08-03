@@ -32,8 +32,8 @@ releases:
     releaseDate: 2026-06-01
     eol: false
     supportedKubernetesVersions: 1.33 - 1.35
-    latest: "2.20.1"
-    latestReleaseDate: 2026-06-08
+    latest: "2.20.2"
+    latestReleaseDate: 2026-07-31
 
   - releaseCycle: "2.19"
     releaseDate: 2026-02-02

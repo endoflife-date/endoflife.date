@@ -7,7 +7,7 @@ permalink: /apache-camel
 alternate_urls:
   - /camel
   - /camel-lang
-releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
+releasePolicyLink: https://web.archive.org/web/20260216193908/https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
 eolColumn: Bug and Security Fixes
 
@@ -381,7 +381,7 @@ releases:
 > (or declarative Java domain-specific language) to configure routing and mediation rules.
 
 Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
-and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
-[don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
+and they are supported for one year with security and important/critical bug fixes.
+Non-LTS releases don't receive any support.
 
 A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).
