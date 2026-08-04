@@ -27,22 +27,22 @@ releases:
     releaseDate: 2026-05-11
     eoas: false
     eol: 2029-05-11 # projected
-    latest: "29.0.4"
-    latestReleaseDate: 2026-07-24
+    latest: "29.0.5"
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "28"
     releaseDate: 2025-05-20
     eoas: 2026-05-11
     eol: 2028-05-20 # projected
-    latest: "28.5.0.4"
-    latestReleaseDate: 2026-07-24
+    latest: "28.5.0.5"
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "27"
     releaseDate: 2024-05-17
     eoas: 2025-05-20
     eol: 2027-05-20 # projected
-    latest: "27.3.4.15"
-    latestReleaseDate: 2026-07-24
+    latest: "27.3.4.16"
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
