@@ -42,8 +42,8 @@ releases:
 
   - releaseCycle: "2026.2"
     releaseDate: 2026-03-24 #https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
-    eoas: 2026-05-19
-    eol: 2026-05-19
+    eoas: 2026-05-21
+    eol: 2026-05-21
     latest: "2026.2.1"
     latestReleaseDate: 2026-03-30
     link: https://community.sonarsource.com/t/sonarqube-server-2026-release-2-1/180528
