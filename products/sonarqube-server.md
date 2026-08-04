@@ -25,11 +25,11 @@ auto:
 # - eol(x) = releaseDate(x) + 18m
 releases:
   - releaseCycle: "2026.4"
-    releaseDate: 2026-07-22
+    releaseDate: 2026-07-23 # https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
     eoas: 2026-09-22
     eol: 2026-09-22
     latest: "2026.4"
-    latestReleaseDate: 2026-07-22
+    latestReleaseDate: 2026-07-23
     link: https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
 
   - releaseCycle: "2026.3"
