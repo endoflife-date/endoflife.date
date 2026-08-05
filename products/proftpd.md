@@ -27,11 +27,11 @@ releases:
     releaseDate: 2025-03-14
     eoas: false
     eol: false
-    latest: "1.3.9"
-    latestReleaseDate: 2025-03-14
+    latest: "1.3.9c"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "1.3.8"
-    staleReleaseThresholdDays: 500
+    staleReleaseThresholdDays: 600
     releaseDate: 2022-12-04
     eoas: 2025-03-14
     eol: false
