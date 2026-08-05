@@ -46,7 +46,7 @@ releases:
     eoas: true
     eol: 2027-08-03
     latest: '610.88'
-    latestReleaseDate: '2026-08-03'
+    latestReleaseDate: 2026-08-03
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
 
   - releaseCycle: "r610-linux"
@@ -55,7 +55,7 @@ releases:
     eoas: true
     eol: 2027-08-03
     latest: '610.57.04'
-    latestReleaseDate: '2026-08-03'
+    latestReleaseDate: 2026-08-03
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
 
   - releaseCycle: "r595-windows"
