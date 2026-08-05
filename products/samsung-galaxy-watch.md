@@ -25,14 +25,14 @@ staleReleaseThresholdDays: 1825 # devices have longer support periods
 releases:
   - releaseCycle: "galaxy-watch-ultra2"
     releaseLabel: "Galaxy Watch Ultra2"
-    releaseDate: 2026-07-22
+    releaseDate: 2026-08-07
     eoas: false
     eol: false
     link: https://www.samsung.com/watches/galaxy-watch-ultra2/
 
   - releaseCycle: "galaxy-watch9"
     releaseLabel: "Galaxy Watch9"
-    releaseDate: 2026-07-22
+    releaseDate: 2026-08-07
     eoas: false
     eol: false
     link: https://www.samsung.com/us/watches/galaxy-watch9/
