@@ -27,8 +27,8 @@ releases:
     releaseDate: 2025-03-14
     eoas: false
     eol: false
-    latest: "1.3.9c"
-    latestReleaseDate: 2026-07-07
+    latest: "1.3.9"
+    latestReleaseDate: 2025-03-14
 
   - releaseCycle: "1.3.8"
     staleReleaseThresholdDays: 600
@@ -58,6 +58,7 @@ releases:
     eol: 2020-07-20
     latest: "1.3.5e"
     latestReleaseDate: 2017-04-09
+
 ---
 
 > [ProFTPD](http://www.proftpd.org/) is a highly configurable GPL-licensed FTP daemon for Unix and

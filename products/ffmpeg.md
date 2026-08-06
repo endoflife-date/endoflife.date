@@ -34,7 +34,7 @@ releases:
     releaseDate: 2026-08-04
     eol: false
     latest: "9.0"
-    latestReleaseDate: 2026-08-04
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "8.1"
     codename: Hoare

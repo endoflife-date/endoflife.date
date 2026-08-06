@@ -23,8 +23,8 @@ releases:
     releaseDate: 2025-10-02
     eol: false
     lts: true
-    latest: "25.0.3.0"
-    latestReleaseDate: 2026-05-03
+    latest: "25.0.4.0"
+    latestReleaseDate: 2026-08-05
 
   - releaseCycle: "24.2"
     releaseLabel: "24.2 (JDK 24)"
@@ -52,8 +52,8 @@ releases:
     releaseDate: 2023-10-12
     eol: false
     lts: true
-    latest: "23.1.11.0"
-    latestReleaseDate: 2026-05-03
+    latest: "23.1.12.0"
+    latestReleaseDate: 2026-08-05
 
   - releaseCycle: "23.0"
     releaseLabel: "23.0 (JDK 17)"
