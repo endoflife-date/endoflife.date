@@ -39,7 +39,7 @@ releases:
 
   - releaseCycle: "2.568"
     releaseDate: 2026-06-10
-    lts: 2026-07-08
+    lts: 2026-07-09
     eol: false
     latest: "2.568.2"
     latestReleaseDate: 2026-08-05
