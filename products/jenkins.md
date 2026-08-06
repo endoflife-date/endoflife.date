@@ -37,10 +37,17 @@ releases:
     latest: "2.576"
     latestReleaseDate: 2026-08-03
 
+  - releaseCycle: "2.568"
+    releaseDate: 2026-06-08
+    lts: 2026-07-09
+    eol: false
+    latest: "2.568.2"
+    latestReleaseDate: 2026-08-03
+
   - releaseCycle: "2.555"
     releaseDate: 2026-03-18
     lts: 2026-04-15
-    eol: false
+    eol: 2026-07-09
     latest: "2.555.3"
     latestReleaseDate: 2026-06-08
 
