@@ -41,7 +41,7 @@ auto:
 # - releaseDate(x) + 3 years for LTS releases
 releases:
   - releaseCycle: "r610-windows"
-    releaseLabel: "R610-Windows"
+    releaseLabel: "R610-Windows (NFB)"
     releaseDate: 2026-08-03
     eoas: true
     eol: 2027-08-03
@@ -50,7 +50,7 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
 
   - releaseCycle: "r610-linux"
-    releaseLabel: "R610-Linux"
+    releaseLabel: "R610-Linux (NFB)"
     releaseDate: 2026-08-03
     eoas: true
     eol: 2027-08-03
@@ -59,7 +59,7 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
 
   - releaseCycle: "r595-windows"
-    releaseLabel: "R595-Windows"
+    releaseLabel: "R595-Windows (PB)"
     releaseDate: 2026-03-24
     eoas: 2027-03-24
     eol: 2027-03-24
@@ -68,7 +68,7 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
 
   - releaseCycle: "r595-linux"
-    releaseLabel: "R595-Linux"
+    releaseLabel: "R595-Linux (PB)"
     releaseDate: 2026-03-24
     eoas: 2027-03-24
     eol: 2027-03-24
@@ -77,18 +77,18 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
 
   - releaseCycle: "r590-windows"
-    releaseLabel: "R590-Windows"
+    releaseLabel: "R590-Windows (NFB)"
     releaseDate: 2025-12-22
-    eoas: 2026-12-22
+    eoas: false
     eol: 2026-12-22
     latest: "591.59"
     latestReleaseDate: 2025-12-22
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-590-48-01/index.html
 
   - releaseCycle: "r590-linux"
-    releaseLabel: "R590-Linux"
+    releaseLabel: "R590-Linux (NFB)"
     releaseDate: 2025-12-22
-    eoas: 2026-12-22
+    eoas: false
     eol: 2026-12-22
     latest: "590.48.01"
     latestReleaseDate: 2025-12-22
