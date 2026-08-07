@@ -30,12 +30,17 @@ auto:
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
+  - releaseCycle: "26.14"
+    releaseDate: 2026-08-06
+    eol: 2026-10-30
+    link: https://docs.cloud.google.com/looker/docs/release-notes#August_06_2026
+
   - releaseCycle: "26.12"
     releaseDate: 2026-07-09
+    lts: 2026-08-31
     eol: 2026-11-30
     link: https://docs.cloud.google.com/looker/docs/release-notes#July_09_2026
 
-    lts: 2026-08-31
   - releaseCycle: "26.10"
     releaseDate: 2026-06-04
     eol: 2026-08-31
