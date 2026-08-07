@@ -31,10 +31,10 @@ auto:
 # For major EOL, see https://www.elastic.co/support/eol.
 releases:
   - releaseCycle: "9.5"
-    releaseDate: 2026-07-29
+    releaseDate: 2026-08-04
     eol: false # releaseDate(9.7) until 10.0 is released
     latest: "9.5.0"
-    latestReleaseDate: 2026-07-29
+    latestReleaseDate: 2026-08-04
     link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.4"
@@ -46,7 +46,7 @@ releases:
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
-    eol: 2026-07-29
+    eol: 2026-08-04
     latest: "9.3.8"
     latestReleaseDate: 2026-07-21
     link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
