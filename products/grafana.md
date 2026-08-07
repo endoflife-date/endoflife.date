@@ -42,22 +42,22 @@ releases:
     releaseDate: 2026-06-22 # 13.0.1 was the first version
     eoas: false
     eol: 2027-03-20
-    latest: "13.1.2"
-    latestReleaseDate: 2026-08-04
+    latest: "13.1.3"
+    latestReleaseDate: 2026-08-07
 
   - releaseCycle: "13.0"
     releaseDate: 2026-04-14 # 13.0.1 was the first version
     eoas: 2026-06-22
     eol: 2027-01-09
-    latest: "13.0.5"
-    latestReleaseDate: 2026-08-04
+    latest: "13.0.6"
+    latestReleaseDate: 2026-08-07
 
   - releaseCycle: "12.4"
     releaseDate: 2026-02-24
     eoas: 2026-04-17
     eol: 2027-05-24
-    latest: "12.4.7"
-    latestReleaseDate: 2026-08-04
+    latest: "12.4.8"
+    latestReleaseDate: 2026-08-07
 
   - releaseCycle: "12.3"
     releaseDate: 2025-11-19

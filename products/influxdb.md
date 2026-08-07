@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "3.11"
     releaseDate: 2026-07-30
     eol: false
-    latest: "3.11.0"
-    latestReleaseDate: 2026-07-29
+    latest: "3.11.1"
+    latestReleaseDate: 2026-08-06
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3110
 
   - releaseCycle: "3.10"
