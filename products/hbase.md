@@ -76,7 +76,7 @@ releases:
 > millions of columns — atop clusters of commodity hardware.
 
 {: .note }
-> Starting from 3.0.0, It has moved up to JDK17 and JDK8 and JDK11 support have been dropped.
+> Starting with version 3.0.0, the requirement has been updated to JDK 17. Support for JDK 8 and JDK 11 has been dropped.
 
 You must pick a supported release of Hadoop as per the [compatibility matrix](https://hbase.apache.org/docs/configuration/basic-prerequisites#hadoop).
 
