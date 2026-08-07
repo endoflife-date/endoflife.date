@@ -22,10 +22,10 @@ auto:
 # For major EOL, see https://www.elastic.co/support/eol.
 releases:
   - releaseCycle: "9.5"
-    releaseDate: 2026-07-29
+    releaseDate: 2026-08-04
     eol: false # releaseDate(9.7) until 10.0 is released
     latest: "9.5.0"
-    latestReleaseDate: 2026-07-29
+    latestReleaseDate: 2026-08-04
 
   - releaseCycle: "9.4"
     releaseDate: 2026-05-05
@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
-    eol: 2026-07-29
+    eol: 2026-08-04
     latest: "9.3.8"
     latestReleaseDate: 2026-07-21
 
