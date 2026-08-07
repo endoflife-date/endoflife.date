@@ -26,19 +26,19 @@ auto:
 releases:
   - releaseCycle: "3.0"
     releaseDate: 2026-08-05
-    eol: false # still on the listed in https://hbase.apache.org/downloads
+    eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-08-05
     latest: "3.0.0"
 
   - releaseCycle: "2.6"
     releaseDate: 2024-05-17
-    eol: false # still on the listed in https://hbase.apache.org/downloads
+    eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-06-09
     latest: "2.6.6"
 
   - releaseCycle: "2.5"
     releaseDate: 2022-08-31
-    eol: false # still on the listed in https://hbase.apache.org/downloads
+    eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-06-09
     latest: "2.5.15"
 
