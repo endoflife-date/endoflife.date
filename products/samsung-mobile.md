@@ -46,22 +46,22 @@ releases:
   - releaseCycle: "galaxy-z-flip8"
     releaseLabel: "Galaxy Z Flip8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 android upgrade
-    eol: 2033-07-31 # 7 years of security support
+    eoas: 2033-07-31 # 7 https://sammyguru.com/galaxy-z-fold-8-fold-8-ultra-flip-8-software-updates/
+    eol: 2033-07-31 # https://security.samsungmobile.com/workScope.smsb
     link: null # not found
 
   - releaseCycle: "galaxy-z-fold8"
     releaseLabel: "Galaxy Z Fold8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 android upgrade
-    eol: 2033-07-31 # 7 years of security support
+    eoas: 2033-07-31 # https://sammyguru.com/galaxy-z-fold-8-fold-8-ultra-flip-8-software-updates/
+    eol: 2033-07-31 # https://security.samsungmobile.com/workScope.smsb
     link: null # not found
 
   - releaseCycle: "galaxy-z-fold8-ultra"
     releaseLabel: "Galaxy Z Fold8 Ultra"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 android upgrade
-    eol: 2033-07-31 # 7 years of security support
+    eoas: 2033-07-31 # https://sammyguru.com/galaxy-z-fold-8-fold-8-ultra-flip-8-software-updates/
+    eol: 2033-07-31 # https://security.samsungmobile.com/workScope.smsb
     link: null # not found
 
   - releaseCycle: "galaxy-a57-5g"
