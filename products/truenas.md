@@ -62,6 +62,6 @@ Releases of TrueNAS get a development codename ("Goldeye") and are versioned by 
 for example, TrueNAS 25.10 was released in Oct 2025.
 
 The support policy is not documented, but based on the
-[software status page](https://www.truenas.com/docs/softwarestatus/), only the three most recent releases
+[software status page](https://www.truenas.com/docs/softwarestatus/), only the two most recent releases
 are actively maintained. The policy is the same for both editions: the Enterprise edition adds features and
 a support SLA on top of the same releases.
