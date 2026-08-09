@@ -37,32 +37,42 @@ auto:
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 # Supported PHP Versions are listed here: https://github.com/cakephp/cakephp/wiki#version-map
 releases:
+
+  - releaseCycle: "5.4"
+    codename: "Chiffon"
+    releaseDate: 2026-07-19
+    supportedPhpVersions: 8.2 - 8.5
+    eoas: false
+    eol: false # releaseDate(5.7)
+    latest: "5.4.1"
+    latestReleaseDate: 2026-07-28
+
   - releaseCycle: "5.3"
     codename: "Chiffon"
     releaseDate: 2026-01-09
     supportedPhpVersions: 8.2 - 8.5
-    eoas: false
-    eol: false
-    latest: "5.3.4"
-    latestReleaseDate: 2026-04-17
+    eoas: 2026-07-20
+    eol: false # releaseDate(5.6)
+    latest: "5.3.7"
+    latestReleaseDate: 2026-07-13
 
   - releaseCycle: "5.2"
     codename: "Chiffon"
     releaseDate: 2025-03-29
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2026-01-10
-    eol: false
-    latest: "5.2.12"
-    latestReleaseDate: 2026-01-14
+    eol: false # releaseDate(5.5)
+    latest: "5.2.15"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "4.6"
     codename: "Strawberry"
     releaseDate: 2025-03-22
     supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-09-09
-    eol: 2026-09-09
-    latest: "4.6.3"
-    latestReleaseDate: 2025-12-01
+    eol: 2026-09-09 # Can be extended
+    latest: "4.6.5"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "5.1"
     codename: "Chiffon"
@@ -70,9 +80,9 @@ releases:
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2025-03-30
-    eol: false
-    latest: "5.1.6"
-    latestReleaseDate: 2025-02-23
+    eol: 2026-07-19 # releaseDate(5.4)
+    latest: "5.1.10"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "4.5"
     codename: "Strawberry"
@@ -80,8 +90,8 @@ releases:
     supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-03-23
     eol: 2026-09-09
-    latest: "4.5.10"
-    latestReleaseDate: 2025-03-21
+    latest: "4.5.12"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "5.0"
     codename: "Chiffon"

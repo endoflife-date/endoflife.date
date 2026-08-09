@@ -35,9 +35,9 @@ releases:
     codename: "Resolute Raccoon"
     lts: true
     releaseDate: 2026-04-23
-    eoas: 2031-05-31
-    eol: 2031-05-31
-    eoes: 2031-05-31
+    eoas: 2031-04-30
+    eol: 2031-04-30
+    eoes: 2036-04-30
     latest: "26.04"
     latestReleaseDate: 2026-04-23
     
@@ -464,7 +464,7 @@ This offer is only available for Ubuntu Pro paying customers.
 For package-specific support details, the following commands are available:
 
 - `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
-- [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
+- [`pro security-status`](https://manpages.ubuntu.com/manpages/resolute/man1/ubuntu-advantage.1.html) for ESM.
 
 ---
 

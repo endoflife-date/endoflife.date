@@ -30,29 +30,37 @@ auto:
         eol: "LTS ends"
 
 releases:
+  - releaseCycle: "22"
+    releaseDate: 2026-06-03
+    eoas: 2027-06-30 # no date yet on https://angular.dev/reference/releases#actively-supported-versions
+    eol: 2028-06-30 # no date yet on https://angular.dev/reference/releases#actively-supported-versions
+    eoes: false
+    latest: "22.1.1"
+    latestReleaseDate: 2026-08-07
+
   - releaseCycle: "21"
     releaseDate: 2025-11-19
-    eoas: 2026-05-19
-    eol: 2027-05-19
+    eoas: 2026-06-03
+    eol: 2027-06-30
     eoes: false
-    latest: "21.2.11"
-    latestReleaseDate: 2026-04-29
+    latest: "21.2.19"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "20"
     releaseDate: 2025-05-28
     eoas: 2025-11-19
     eol: 2026-11-28
     eoes: false
-    latest: "20.3.19"
-    latestReleaseDate: 2026-04-16
+    latest: "20.3.27"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "19"
     releaseDate: 2024-11-19
     eoas: 2025-05-28
     eol: 2026-05-19
     eoes: false
-    latest: "19.2.21"
-    latestReleaseDate: 2026-04-16
+    latest: "19.2.25"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "18"
     releaseDate: 2024-05-22

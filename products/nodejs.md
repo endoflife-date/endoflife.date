@@ -19,6 +19,8 @@ identifiers:
   - purl: pkg:docker/library/node
   - purl: pkg:docker/cimg/node
   - purl: pkg:docker/bitnami/node
+  - purl: pkg:rpm/redhat/nodejs
+  - purl: pkg:rpm/redhat/nodejs24
   - cpe: cpe:2.3:a:nodejs:node.js
   - repology: nodejs
 
@@ -28,6 +30,14 @@ auto:
 
 # See https://github.com/nodejs/release#release-schedule.
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-05-05
+    lts: 2026-10-28
+    eoas: 2027-10-27
+    eol: 2029-04-30
+    latest: "26.7.0"
+    latestReleaseDate: 2026-08-05
+
   - releaseCycle: "25"
     releaseDate: 2025-10-15
     eoas: 2026-04-01
@@ -40,8 +50,8 @@ releases:
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.15.0"
-    latestReleaseDate: 2026-04-15
+    latest: "24.19.0"
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16
@@ -56,8 +66,8 @@ releases:
     eoas: 2025-10-21
     eol: 2027-04-30
     eoes: false
-    latest: "22.22.2"
-    latestReleaseDate: 2026-03-24
+    latest: "22.23.2"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -229,13 +239,10 @@ releases:
 > built on Chrome's V8 JavaScript engine that executes JavaScript code outside a browser.
 
 Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them.
-After six months, odd-numbered releases (9, 11, etc.) become unsupported,
-and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use.
+After six months, releases after 26 move to Active LTS status and are ready for general use.
 LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months.
 Production applications should only use Active LTS or Maintenance LTS releases.
 
-If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
-
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
-Commercial support is available for some deprecated LTS versions of Node.js through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
+
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative. Commercial support for Node.js is also available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/nodejs-eol-support/).

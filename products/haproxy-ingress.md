@@ -35,16 +35,16 @@ releases:
     supportedKubernetesVersion: "1.21+"
     releaseDate: 2026-03-23
     eol: false
-    latest: "0.16.0"
-    latestReleaseDate: 2026-03-23
+    latest: "0.16.1"
+    latestReleaseDate: 2026-05-04
 
   - releaseCycle: "0.15"
     embeddedHAProxy: "2.6"
     supportedKubernetesVersion: "1.21+"
     releaseDate: 2025-10-15
     eol: false
-    latest: "0.15.3"
-    latestReleaseDate: 2026-03-25
+    latest: "0.15.4"
+    latestReleaseDate: 2026-05-04
 
   - releaseCycle: "0.14"
     embeddedHAProxy: "2.4"

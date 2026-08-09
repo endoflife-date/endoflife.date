@@ -39,6 +39,9 @@ auto:
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
+# 
+# IMPORTANT: When adding a new model here, add it to the above regex exclude above
+# IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
@@ -52,7 +55,7 @@ releases:
     releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
     eoas: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
     eol: 2032-04-10 # 6 years - https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
-    link: null # unknown
+    link: https://doc.samsungmobile.com/SM-A376B/XID/doc.html
 
   - releaseCycle: "galaxy-m17e-5g"
     releaseLabel: "Galaxy M17e 5G"
@@ -735,7 +738,7 @@ releases:
     releaseLabel: "Galaxy M13 5G"
     releaseDate: 2022-07-23
     eoas: false
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-M136B/INS/doc.html
 
   - releaseCycle: "galaxy-m13-india"
@@ -763,21 +766,21 @@ releases:
     releaseLabel: "Galaxy M13"
     releaseDate: 2022-07-01
     eoas: 2025-07-01
-    eol: 2026-07-01
+    eol: 2026-07-07
     link: https://doc.samsungmobile.com/SM-M135F/EUX/doc.html
 
   - releaseCycle: "galaxy-f13"
     releaseLabel: "Galaxy F13"
     releaseDate: 2022-06-29
     eoas: 2024-06-29
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
   - releaseCycle: "galaxy-m53-5g"
     releaseLabel: "Galaxy M53 5G"
     releaseDate: 2022-04-22 # https://news.samsung.com/in/samsung-launches-galaxy-m53-5g-with-segment-best-108-mp-quad-camera-segment-only-auto-data-switching-segment-leading-samoled-display-in-india
     eoas: 2024-04-22 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-06-03 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M536B/SER/doc.html
 
   - releaseCycle: "galaxy-a73-5g"
@@ -791,7 +794,7 @@ releases:
     releaseLabel: "Galaxy M33 5G"
     releaseDate: 2022-04-08
     eoas: 2025-04-08 # 3 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-M336BU/INS/doc.html
 
   - releaseCycle: "galaxy-m23-5g"
@@ -826,14 +829,14 @@ releases:
     releaseLabel: "Galaxy A23"
     releaseDate: 2022-03-25
     eoas: 2025-03-25
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-A235M/PET/doc.html
 
   - releaseCycle: "galaxy-a13"
     releaseLabel: "Galaxy A13"
     releaseDate: 2022-03-23
     eoas: 2025-03-23
-    eol: false
+    eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
   - releaseCycle: "galaxy-f23"

@@ -44,10 +44,10 @@ releases:
     codename: Oakwood
     supportedSpringBootVersions: "4.0.x"
     releaseDate: 2025-11-24
-    eol: 2026-12-31
-    eoes: 2027-12-31
-    latest: "2025.1.1"
-    latestReleaseDate: 2026-01-29
+    eol: 2027-07-31
+    eoes: 2028-07-31
+    latest: "2025.1.2"
+    latestReleaseDate: 2026-06-11
 
   - releaseCycle: "2025.0"
     codename: Northfields
@@ -55,8 +55,8 @@ releases:
     releaseDate: 2025-05-29
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "2025.0.2"
-    latestReleaseDate: 2026-04-02
+    latest: "2025.0.3"
+    latestReleaseDate: 2026-06-11
 
   - releaseCycle: "2024.0"
     codename: Moorgate

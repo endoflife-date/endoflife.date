@@ -18,6 +18,11 @@ identifiers:
   - cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+  - releaseCycle: "26.05"
+    codename: "Yarara"
+    releaseDate: 2026-05-30
+    eol: 2026-12-31
+
   - releaseCycle: "25.11"
     codename: "Xantusia"
     releaseDate: 2025-11-30

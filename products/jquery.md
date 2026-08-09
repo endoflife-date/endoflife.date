@@ -34,6 +34,7 @@ releases:
     staleReleaseThresholdDays: 1095 # see https://github.com/jquery/jquery?tab=security-ov-file#supported-versions
     releaseDate: 2016-06-09
     eol: false
+    eoes: false
     latest: "3.7.1"
     latestReleaseDate: 2023-08-28
 

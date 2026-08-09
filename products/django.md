@@ -55,13 +55,21 @@ auto:
           type: "range"
 
 releases:
+  - releaseCycle: "6.1"
+    releaseDate: 2026-08-05
+    eoas: 2027-04-30
+    eol: 2027-12-31
+    supportedPythonVersions: "3.12 - 3.14"
+    latest: "6.1"
+    latestReleaseDate: 2026-08-05
+
   - releaseCycle: "6.0"
     releaseDate: 2025-12-03
-    eoas: 2026-08-31
+    eoas: 2026-08-04
     eol: 2027-04-30
     supportedPythonVersions: "3.12 - 3.14"
-    latest: "6.0.4"
-    latestReleaseDate: 2026-04-07
+    latest: "6.0.8"
+    latestReleaseDate: 2026-08-04
 
   - releaseCycle: "5.2"
     lts: true
@@ -69,8 +77,8 @@ releases:
     eoas: 2025-12-03
     eol: 2028-04-30
     supportedPythonVersions: "3.10 - 3.14 (added in 5.2.8)"
-    latest: "5.2.13"
-    latestReleaseDate: 2026-04-07
+    latest: "5.2.17"
+    latestReleaseDate: 2026-08-04
 
   - releaseCycle: "5.1"
     releaseDate: 2024-08-07

@@ -40,6 +40,43 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-opus-5"
+    releaseLabel: Claude Opus 5
+    releaseDate: 2026-07-24
+    eoas: false
+    eol: 2027-07-24
+    recommendedReplacement: "N/A"
+
+  - releaseCycle: "claude-sonnet-5"
+    releaseLabel: Claude Sonnet 5
+    releaseDate: 2026-06-30
+    eoas: false
+    eol: 2027-06-30
+    recommendedReplacement: "N/A"
+
+  - releaseCycle: "claude-mythos-5"
+    releaseLabel: Claude Mythos 5
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: false
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+  - releaseCycle: "claude-fable-5"
+    releaseLabel: Claude Fable 5
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: 2027-06-09
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+  - releaseCycle: "claude-opus-4-8"
+    releaseLabel: Claude Opus 4.8
+    releaseDate: 2026-05-28
+    eoas: false
+    eol: 2027-05-28
+    recommendedReplacement: "N/A"
+
   - releaseCycle: "claude-opus-4-7"
     releaseLabel: Claude Opus 4.7
     releaseDate: 2026-04-16
@@ -88,9 +125,9 @@ releases:
   - releaseCycle: "claude-opus-4-1-20250805"
     releaseLabel: Claude Opus 4.1
     releaseDate: 2025-08-05
-    eoas: false
+    eoas: 2026-06-05
     eol: 2026-08-05
-    recommendedReplacement: "N/A"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-opus-4-1
 
   - releaseCycle: "claude-sonnet-4-20250514"
@@ -106,7 +143,7 @@ releases:
     releaseDate: 2025-05-22
     eoas: 2026-04-14
     eol: 2026-06-15
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-4
 
   - releaseCycle: "claude-3-7-sonnet-20250219"
@@ -154,7 +191,7 @@ releases:
     releaseDate: 2024-03-04
     eoas: 2025-06-30
     eol: 2026-01-05
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-3-family
 
   - releaseCycle: "claude-3-sonnet-20240229"
@@ -170,7 +207,7 @@ releases:
     releaseDate: 2023-11-21
     eoas: 2025-01-21
     eol: 2025-07-21
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models
 
   - releaseCycle: "claude-instant-1.2"
@@ -186,7 +223,7 @@ releases:
     releaseDate: 2023-07-11
     eoas: 2025-01-21
     eol: 2025-07-21
-    recommendedReplacement: "claude-opus-4-7"
+    recommendedReplacement: "claude-opus-4-8"
     link: https://www.anthropic.com/news/claude-2
 
   - releaseCycle: "claude-1.3"
@@ -257,5 +294,6 @@ Anthropic recommends moving workloads to active models to maintain the highest l
 
 Customers with active deployments receive at least 60 days notice before retirement for publicly released models.
 Anthropic recommends auditing API usage to discover model usage and testing replacement models before retirement.
+Claude Mythos 5 is is offered in limited availability to approved customers and does not have a published retirement date.
 
 Anthropic has committed to preserve the weights of publicly released models and may make past models available again in the future.

@@ -27,18 +27,25 @@ identifiers:
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
 # eol(x) = max(fuzzyDate(x), latestReleaseDate(x))
 releases:
+  - releaseCycle: "3.4"
+    releaseDate: 2026-06-03
+    lts: true
+    eol: 2031-04-01
+    latest: "3.4.3"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "3.3"
     releaseDate: 2025-11-26
     eol: 2027-01-01
-    latest: "3.3.8"
-    latestReleaseDate: 2026-04-30
+    latest: "3.3.13"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "3.2"
     releaseDate: 2025-05-28
     lts: true
     eol: 2030-04-01
-    latest: "3.2.17"
-    latestReleaseDate: 2026-04-30
+    latest: "3.2.22"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "3.1"
     releaseDate: 2024-11-26
@@ -50,8 +57,8 @@ releases:
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.21"
-    latestReleaseDate: 2026-04-30
+    latest: "3.0.26"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "2.9"
     releaseDate: 2023-12-05
@@ -63,8 +70,8 @@ releases:
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.22"
-    latestReleaseDate: 2026-04-30
+    latest: "2.8.27"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "2.7"
     releaseDate: 2022-12-01
@@ -76,8 +83,8 @@ releases:
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
-    latest: "2.6.27"
-    latestReleaseDate: 2026-04-30
+    latest: "2.6.32"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "2.5"
     releaseDate: 2021-11-23
@@ -89,8 +96,8 @@ releases:
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
-    latest: "2.4.33"
-    latestReleaseDate: 2026-04-30
+    latest: "2.4.36"
+    latestReleaseDate: 2026-07-03
 
   - releaseCycle: "2.3"
     releaseDate: 2020-11-05

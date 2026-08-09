@@ -8,7 +8,7 @@ permalink: /amazon-documentdb
 latestColumn: false
 eolColumn: End of Standard Support
 eoesColumn: End of Extended Support
-staleReleaseThresholdDays: 2000
+staleReleaseThresholdDays: 2200
 
 auto:
   methods:
@@ -23,7 +23,7 @@ auto:
 
 releases:
   - releaseCycle: "8.0"
-    releaseDate: 2025-11-30
+    releaseDate: 2025-11-14
     eol: false
     eoes: false
 
@@ -42,6 +42,7 @@ releases:
     releaseDate: 2019-01-09
     eol: 2026-03-30
     eoes: 2029-03-30
+
 ---
 
 > [Amazon DocumentDB](https://aws.amazon.com/documentdb/) is a MongoDB-compatible proprietary NoSQL database service managed by Amazon Web Services (AWS).

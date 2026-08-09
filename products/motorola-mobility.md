@@ -17,8 +17,116 @@ auto:
     - motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+  - releaseCycle: motorola-edge-70-max
+    releaseLabel: "Motorola edge 70 Max"
+    releaseDate: 2026-06-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12897
+
+  - releaseCycle: motorola-edge-2026
+    releaseLabel: "Motorola edge 2026"
+    releaseDate: 2026-06-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12570
+
+  - releaseCycle: motorola-razr+-2026
+    releaseLabel: "Motorola razr+ 2026"
+    releaseDate: 2026-05-01
+    eol: 2030-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12561
+
+  - releaseCycle: motorola-razr-70-plus
+    releaseLabel: "Motorola razr 70 Plus"
+    releaseDate: 2026-05-01
+    eol: 2030-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12558
+
+  - releaseCycle: motorola-edge-70-pro
+    releaseLabel: "Motorola edge 70 Pro"
+    releaseDate: 2026-04-01
+    eol: 2031-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12564
+
+  - releaseCycle: motorola-edge-70-pro+
+    releaseLabel: "Motorola edge 70 Pro+"
+    releaseDate: 2026-04-01
+    eol: 2031-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12565
+
+  - releaseCycle: moto-g77-power
+    releaseLabel: "Moto G77 power"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12899
+
+  - releaseCycle: moto-g87
+    releaseLabel: "Moto G87"
+    releaseDate: 2026-04-01
+    eol: 2030-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12536
+
+  - releaseCycle: moto-g47
+    releaseLabel: "Moto G47"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12567
+
+  - releaseCycle: moto-g37-power
+    releaseLabel: "Moto G37 Power"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12569
+
+  - releaseCycle: moto-g37
+    releaseLabel: "Moto G37"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12568
+
+  - releaseCycle: moto-g-stylus-2026
+    releaseLabel: "Moto G Stylus (2026)"
+    releaseDate: 2026-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12454
+
+  - releaseCycle: moto-g-max
+    releaseLabel: "Moto G Max"
+    releaseDate: 2026-04-01
+    eol: 2030-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12537
+
+  - releaseCycle: motorola-razr-2026
+    releaseLabel: "Motorola razr 2026"
+    releaseDate: 2026-03-01
+    eol: 2030-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12562
+
+  - releaseCycle: motorola-razr-70
+    releaseLabel: "Motorola razr 70"
+    releaseDate: 2026-03-01
+    eol: 2030-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12559
+
+  - releaseCycle: motorola-razr-70-ultra
+    releaseLabel: "Motorola razr 70 Ultra"
+    releaseDate: 2026-03-01
+    eol: 2030-02-28
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12557
+
+  - releaseCycle: motorola-razr-fold-2026
+    releaseLabel: "Motorola razr Fold 2026"
+    releaseDate: 2026-03-01
+    eol: 2030-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12556
+
+  - releaseCycle: motorola-razr-ultra-2026
+    releaseLabel: "Motorola razr Ultra 2026"
+    releaseDate: 2026-03-01
+    eol: 2030-02-28
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12560
+
   - releaseCycle: motorola-razr-fold
-    releaseLabel: "Motorola RAZR Fold"
+    releaseLabel: "Motorola razr Fold"
     releaseDate: 2026-03-01 # https://www.gsmarena.com/motorola_razr_fold_5g-14402.php
     eol: 2030-03-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12524
@@ -449,12 +557,6 @@ releases:
     eol: 2027-11-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11651
 
-  - releaseCycle: "moto-g84-5g"
-    releaseLabel: "Motorola Moto G84 5G"
-    releaseDate: 2023-09-01
-    eol: 2026-09-30
-    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11601
-
   - releaseCycle: "moto-g54-5g"
     releaseLabel: "Moto G54 5G"
     releaseDate: 2023-09-01
@@ -478,6 +580,12 @@ releases:
     releaseDate: 2023-09-01
     eol: 2027-09-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11592
+
+  - releaseCycle: "moto-g84-5g"
+    releaseLabel: "Motorola Moto G84 5G"
+    releaseDate: 2023-08-01
+    eol: 2027-08-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11601
 
   - releaseCycle: "moto-g14"
     releaseLabel: "Motorola Moto G14"

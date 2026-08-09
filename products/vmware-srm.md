@@ -15,14 +15,32 @@ customFields:
     display: api-only
     label: Technical Guidance Ends
 
+
+
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2026-05-12
+    eol: 2028-08-12
+    technicalGuidance: 2029-02-12
+    latest: "9.1.0.0"
+    latestReleaseDate: 2026-05-12
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/protection-and-recovery/9-1/release-notes/protection-and-recovery-91-release-notes.html
+  
+  - releaseCycle: "9.0"
+    releaseDate: 2024-03-19
+    eol: 2027-09-17
+    technicalGuidance: 2028-09-17
+    latest: "9.0.5.1"
+    latestReleaseDate: 2026-04-20
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/live-recovery/live-site-recovery/9-0/release-notes/vmware-live-site-recovery-90-release-notes.html
+    
   - releaseCycle: "8.8"
     releaseDate: 2023-09-21
     eol: 2025-10-11
     technicalGuidance: 2026-10-11
     latest: "8.8.0.3"
     latestReleaseDate: 2024-02-08
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.8/rn/vmware-site-recovery-manager-8802-release-notes/index.html
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/live-recovery/site-recovery-manager/8-8/release-notes/vmware-site-recovery-manager-8803-release-notes.html
 
   - releaseCycle: "8.7"
     releaseDate: 2023-04-18
@@ -30,7 +48,7 @@ releases:
     technicalGuidance: 2026-10-11
     latest: "8.7.0.4"
     latestReleaseDate: 2024-02-01
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.7/rn/vmware-site-recovery-manager-8704-release-notes/index.html
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/live-recovery/site-recovery-manager/8-7/release-notes/vmware-site-recovery-manager-8704-release-notes.html
 
   - releaseCycle: "8.6"
     releaseDate: 2022-10-11
@@ -38,7 +56,7 @@ releases:
     technicalGuidance: 2026-10-11
     latest: "8.6.0.2"
     latestReleaseDate: 2023-06-27
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.6/rn/vmware-site-recovery-manager-8602-release-notes/index.html
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/live-recovery/site-recovery-manager/8-6/release-notes/vmware-site-recovery-manager-8602-release-notes.html
 
   - releaseCycle: "8.5"
     releaseDate: 2021-10-05
@@ -54,7 +72,7 @@ releases:
     technicalGuidance: 2024-04-01
     latest: "8.4.0.5"
     latestReleaseDate: 2022-04-07
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.4/rn/srm-releasenotes-8-4-0-5.html
+    link: https://web.archive.org/web/20220410112051/https://docs.vmware.com/en/Site-Recovery-Manager/8.4/rn/srm-releasenotes-8-4-0-5.html
 
   - releaseCycle: "8.3"
     releaseDate: 2020-04-01
@@ -62,7 +80,7 @@ releases:
     technicalGuidance: 2024-04-01
     latest: "8.3.1.6"
     latestReleaseDate: 2022-06-23
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.3/rn/srm-releasenotes-8-3-1-6.html
+    link: https://web.archive.org/web/20230423021029/https://docs.vmware.com/en/Site-Recovery-Manager/8.3/rn/srm-releasenotes-8-3-1-6.html
 
   - releaseCycle: "8.2"
     releaseDate: 2019-05-09
@@ -121,7 +139,7 @@ releases:
     link: https://web.archive.org/web/20210925064144/https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/5.5/rn/srm-releasenotes-5-5-1.html
 ---
 
-> [VMware Site Recovery Manager](https://www.vmware.com/products/site-recovery-manager.html) allows
+> [VMware Live Recovery](https://www.vmware.com/products/cloud-infrastructure/advanced-services/live-recovery) allows
 > you to automate orchestration of failover and failback to minimize downtime and improve
 > availability of VMware hosted resources.
 

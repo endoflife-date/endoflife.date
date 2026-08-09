@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:github/oven-sh/bun
   - purl: pkg:brew/oven-sh/bun/bun
   - purl: pkg:npm/bun
+  - purl: pkg:scoop/bun
 
 auto:
   methods:
@@ -26,8 +27,8 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2023-09-07
     eol: false
-    latest: "1.3.13"
-    latestReleaseDate: 2026-04-19
+    latest: "1.3.14"
+    latestReleaseDate: 2026-05-12
 
 ---
 

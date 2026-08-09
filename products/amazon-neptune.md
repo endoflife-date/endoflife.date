@@ -32,9 +32,16 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+  - releaseCycle: "1.4.8.0"
+    releaseDate: 2026-07-27
+    upgradeVersion: "N/A"
+    eol: 2027-10-27
+    latest: "1.4.8.0"
+    latestReleaseDate: 2026-07-27
+
   - releaseCycle: "1.4.7.0"
     releaseDate: 2026-03-03
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.4.8.0"
     eol: 2027-06-03
     latest: "1.4.7.0"
     latestReleaseDate: 2026-03-03
@@ -133,7 +140,7 @@ releases:
   - releaseCycle: "1.2.1.2"
     releaseDate: 2024-08-05
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.1.2"
     latestReleaseDate: 2024-08-05
 
@@ -154,7 +161,7 @@ releases:
   - releaseCycle: "1.2.1.1"
     releaseDate: 2024-03-11
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.1.1"
     latestReleaseDate: 2024-03-11
 
@@ -175,35 +182,35 @@ releases:
   - releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.1.0.R7"
     latestReleaseDate: 2023-10-06
 
   - releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-20
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.0.2.R6"
     latestReleaseDate: 2023-09-12
 
   - releaseCycle: "1.2.0.1"
     releaseDate: 2022-10-26
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.0.1.R3"
     latestReleaseDate: 2023-09-27
 
   - releaseCycle: "1.2.0.0"
     releaseDate: 2022-07-21
     upgradeVersion: "1.3.0.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.2.0.0.R4"
     latestReleaseDate: 2023-09-29
 
   - releaseCycle: "1.1.1.0"
     releaseDate: 2022-04-19
     upgradeVersion: "1.2.1.0"
-    eol: 2026-06-30
+    eol: 2026-11-30
     latest: "1.1.1.0.R7"
     latestReleaseDate: 2023-01-23
 
