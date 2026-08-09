@@ -40,7 +40,7 @@ releases:
     link: https://www.truenas.com/docs/scale/24.04/gettingstarted/scalereleasenotes/
     latest: "24.04.2.5"
     latestReleaseDate: 2024-11-08
-  
+
   - releaseCycle: "23.10"
     codename: "Cobia"
     releaseDate: 2023-10-24
