@@ -48,10 +48,10 @@ releases:
     link: https://www.truenas.com/docs/scale/23.10/gettingstarted/scalereleasenotes/
     latest: "23.10.2"
     latestReleaseDate: 2024-02-22
-
 ---
+
 > [TrueNAS](https://www.truenas.com/) is a family of enterprise network-attached storage (NAS)
-> products developed by iXsystems Inc. based on Debian. TrueNAS is released in two editions: 
+> products developed by iXsystems Inc. based on Debian. TrueNAS is released in two editions:
 > Enterprise and Community Edition.
 
 Historically, iXsystems provides a FreeBSD-based TrueNAS Core but it's discontinued and entered into maintenance mode.
@@ -60,3 +60,8 @@ TrueNAS Scale, a Debian-based OS was released in 2022 and is the only actively m
 
 Releases of TrueNAS get a development codename ("Goldeye") and are versioned by the year and month of delivery —
 for example, TrueNAS 25.10 was released in Oct 2025.
+
+The support policy is not documented, but based on the
+[software status page](https://www.truenas.com/docs/softwarestatus/), only the three most recent releases
+are actively maintained. The policy is the same for both editions: the Enterprise edition adds features and
+a support SLA on top of the same releases.
