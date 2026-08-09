@@ -16,6 +16,10 @@ latestColumn: false # no public access to the latest patches
 
 # Releases are documented on https://mysupport.netapp.com/site/info/version-support.
 releases:
+  - releaseCycle: "9.19.1"
+    releaseDate: 2026-07-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    eol: 2029-07-30
+
   - releaseCycle: "9.18.1"
     releaseDate: 2026-02-04 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2028-09-30

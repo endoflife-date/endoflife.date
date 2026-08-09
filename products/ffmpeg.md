@@ -12,9 +12,13 @@ eolColumn: Supported
 
 identifiers:
   - repology: ffmpeg
+  - purl: pkg:brew/ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:rpm/fedora/ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
-  - purl: pkg:brew/ffmpeg
 
 auto:
   methods:
@@ -25,32 +29,39 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "9.0"
+    codename: Lei
+    releaseDate: 2026-08-04
+    eol: false
+    latest: "9.0"
+    latestReleaseDate: 2026-08-03
+
   - releaseCycle: "8.1"
     codename: Hoare
     releaseDate: 2026-03-16
     eol: false
-    latest: "8.1.1"
-    latestReleaseDate: 2026-05-04
+    latest: "8.1.2"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "8.0"
     codename: Huffman
     releaseDate: 2025-08-22
     eol: false
-    latest: "8.0.2"
-    latestReleaseDate: 2026-05-04
+    latest: "8.0.3"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "7.1"
     codename: Péter
     lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1.4"
-    latestReleaseDate: 2026-05-05
+    latest: "7.1.5"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
-    eol: false
+    eol: 2026-06-22 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/a372718e3aabb9ad876eac037a359b305c3a360a
     latest: "7.0.3"
     latestReleaseDate: 2025-08-05
 
@@ -58,8 +69,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.5"
-    latestReleaseDate: 2026-05-05
+    latest: "6.1.6"
+    latestReleaseDate: 2026-06-20
 
   - releaseCycle: "6.0"
     codename: Von Neumann
@@ -73,8 +84,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.9"
-    latestReleaseDate: 2026-05-05
+    latest: "5.1.10"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "5.0"
     codename: Lorentz
@@ -87,22 +98,20 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.7"
-    latestReleaseDate: 2026-05-05
+    latest: "4.4.8"
+    latestReleaseDate: 2026-06-21
 
   - releaseCycle: "4.3"
     codename: "4:3"
-    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2020-06-15
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "4.3.9"
     latestReleaseDate: 2025-03-12
 
   - releaseCycle: "4.2"
     codename: "Ada"
-    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2019-08-05
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "4.2.11"
     latestReleaseDate: 2025-05-17
 
@@ -122,9 +131,8 @@ releases:
 
   - releaseCycle: "3.4"
     codename: "Cantor"
-    staleReleaseThresholdDays: 500 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2017-10-15
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "3.4.14"
     latestReleaseDate: 2025-03-12
 
@@ -158,9 +166,8 @@ releases:
 
   - releaseCycle: "2.8"
     codename: "Feynman"
-    staleReleaseThresholdDays: 1000 # still listed on https://ffmpeg.org/download.html
     releaseDate: 2015-09-09
-    eol: false
+    eol: 2026-06-21 # https://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/b041718a05f807f4bc4c560c275f277d5e688be3
     latest: "2.8.22"
     latestReleaseDate: 2023-10-29
 

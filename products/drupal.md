@@ -28,33 +28,40 @@ auto:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+  - releaseCycle: "11.4"
+    releaseDate: 2026-07-01
+    eoas: 2027-01-01 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    eol: 2027-07-07 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
+    latest: "11.4.5"
+    latestReleaseDate: 2026-08-06
+
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
     eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.3.11"
-    latestReleaseDate: 2026-05-28
+    latest: "11.3.16"
+    latestReleaseDate: 2026-07-23
 
   - releaseCycle: "10.6"
     releaseDate: 2025-12-17
     eoas: 2026-06-16
     eol: 2026-12-16
-    latest: "10.6.10"
-    latestReleaseDate: 2026-05-28
+    latest: "10.6.15"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: 2026-06-17
-    latest: "11.2.13"
-    latestReleaseDate: 2026-05-28
+    latest: "11.2.14"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
     eoas: 2025-12-17
     eol: 2026-06-17
-    latest: "10.5.11"
-    latestReleaseDate: 2026-05-28
+    latest: "10.5.12"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "10.4"
     releaseDate: 2024-12-17

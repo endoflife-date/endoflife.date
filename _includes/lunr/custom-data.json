@@ -7,6 +7,6 @@
 {% endfor -%}
 "category": {{ include.page.category | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
 "tags": {{ include.page.tags | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
-"iconSlug": {{ include.page.search_terms | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"iconSlug": {{ include.page.iconSlug | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
 "alternate_urls": {{ include.page.alternate_urls | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
 "identifiers": {{  identifiers | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},

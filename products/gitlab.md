@@ -7,7 +7,7 @@ iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
+changelogTemplate: 'https://docs.gitlab.com/releases/{{ "__RELEASE_CYCLE__" | split: "." | first }}/gitlab-{{ "__RELEASE_CYCLE__" | replace: ".", "-" }}-released/'
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -18,26 +18,40 @@ identifiers:
 
 auto:
   methods:
-    - git: https://gitlab.com/gitlab-org/gitlab.git
+    - gitlab_tags: gitlab-org/gitlab
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
 releases:
+  - releaseCycle: "19.2"
+    releaseDate: 2026-07-16
+    eoas: 2026-08-20 # releaseDate(19.3)
+    eol: 2026-10-20 # releaseDate(19.5)
+    latest: "19.2.1"
+    latestReleaseDate: 2026-07-29
+
+  - releaseCycle: "19.1"
+    releaseDate: 2026-06-18
+    eoas: 2026-07-16 # releaseDate(19.2)
+    eol: 2026-09-17 # releaseDate(19.4)
+    latest: "19.1.3"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "19.0"
     releaseDate: 2026-05-21
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
-    latest: "19.0.2"
-    latestReleaseDate: 2026-06-10
+    latest: "19.0.5"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
-    latest: "18.11.5"
-    latestReleaseDate: 2026-06-10
+    latest: "18.11.9"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19
@@ -57,8 +71,8 @@ releases:
     releaseDate: 2026-01-15
     eoas: 2026-02-19 # releaseDate(18.9)
     eol: 2026-04-16 # releaseDate(18.11)
-    latest: "18.8.10"
-    latestReleaseDate: 2026-05-25
+    latest: "18.8.11"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "18.7"
     releaseDate: 2025-12-18
@@ -283,6 +297,7 @@ releases:
     eol: 2023-08-22
     latest: "16.0.10"
     latestReleaseDate: 2024-09-23
+    link: null
 
   - releaseCycle: "15.11"
     releaseDate: 2023-04-21
@@ -290,6 +305,7 @@ releases:
     eol: 2023-07-22
     latest: "15.11.13"
     latestReleaseDate: 2023-07-27
+    link: null
 
   - releaseCycle: "15.10"
     releaseDate: 2023-03-21
@@ -297,6 +313,7 @@ releases:
     eol: 2023-06-22
     latest: "15.10.8"
     latestReleaseDate: 2023-06-05
+    link: null
 
   - releaseCycle: "15.9"
     releaseDate: 2023-02-21
@@ -304,6 +321,7 @@ releases:
     eol: 2023-05-22
     latest: "15.9.8"
     latestReleaseDate: 2023-05-10
+    link: null
 
   - releaseCycle: "15.8"
     releaseDate: 2023-01-20
@@ -311,6 +329,7 @@ releases:
     eol: 2023-04-22
     latest: "15.8.6"
     latestReleaseDate: 2023-04-18
+    link: null
 
   - releaseCycle: "15.7"
     releaseDate: 2022-12-21
@@ -318,6 +337,7 @@ releases:
     eol: 2023-03-22
     latest: "15.7.9"
     latestReleaseDate: 2023-04-20
+    link: null
 
   - releaseCycle: "15.6"
     releaseDate: 2022-11-21
@@ -325,6 +345,7 @@ releases:
     eol: 2023-02-22
     latest: "15.6.8"
     latestReleaseDate: 2023-02-10
+    link: null
 
   - releaseCycle: "15.5"
     releaseDate: 2022-10-21
@@ -332,6 +353,7 @@ releases:
     eol: 2023-01-22
     latest: "15.5.9"
     latestReleaseDate: 2023-01-12
+    link: null
 
   - releaseCycle: "15.4"
     releaseDate: 2022-09-21
@@ -339,6 +361,7 @@ releases:
     eol: 2022-12-22
     latest: "15.4.6"
     latestReleaseDate: 2022-11-30
+    link: null
 
   - releaseCycle: "15.3"
     releaseDate: 2022-08-19
@@ -346,6 +369,7 @@ releases:
     eol: 2022-11-22
     latest: "15.3.5"
     latestReleaseDate: 2022-11-02
+    link: null
 
   - releaseCycle: "15.2"
     releaseDate: 2022-07-21
@@ -353,6 +377,7 @@ releases:
     eol: 2022-10-22
     latest: "15.2.5"
     latestReleaseDate: 2022-09-29
+    link: null
 
   - releaseCycle: "15.1"
     releaseDate: 2022-06-21
@@ -360,6 +385,7 @@ releases:
     eol: 2022-09-22
     latest: "15.1.6"
     latestReleaseDate: 2022-08-30
+    link: null
 
   - releaseCycle: "15.0"
     releaseDate: 2022-05-20
@@ -367,6 +393,7 @@ releases:
     eol: 2022-08-22
     latest: "15.0.5"
     latestReleaseDate: 2022-07-28
+    link: null
 
   - releaseCycle: "14.10"
     releaseDate: 2022-04-21
@@ -374,6 +401,7 @@ releases:
     eol: 2022-07-22
     latest: "14.10.5"
     latestReleaseDate: 2022-06-30
+    link: null
 
   - releaseCycle: "14.9"
     releaseDate: 2022-03-21
@@ -381,6 +409,7 @@ releases:
     eol: 2022-06-22
     latest: "14.9.5"
     latestReleaseDate: 2022-06-01
+    link: null
 
   - releaseCycle: "14.8"
     releaseDate: 2022-02-21
@@ -388,6 +417,7 @@ releases:
     eol: 2022-05-22
     latest: "14.8.6"
     latestReleaseDate: 2022-04-29
+    link: null
 
   - releaseCycle: "14.7"
     releaseDate: 2022-01-21
@@ -395,6 +425,7 @@ releases:
     eol: 2022-04-22
     latest: "14.7.7"
     latestReleaseDate: 2022-03-31
+    link: null
 
   - releaseCycle: "14.6"
     releaseDate: 2021-12-21
@@ -402,6 +433,7 @@ releases:
     eol: 2022-03-22
     latest: "14.6.7"
     latestReleaseDate: 2022-03-31
+    link: null
 
   - releaseCycle: "14.5"
     releaseDate: 2021-11-19
@@ -409,6 +441,7 @@ releases:
     eol: 2022-02-22
     latest: "14.5.4"
     latestReleaseDate: 2022-02-03
+    link: null
 
   - releaseCycle: "14.4"
     releaseDate: 2021-10-21
@@ -416,6 +449,7 @@ releases:
     eol: 2022-01-22
     latest: "14.4.5"
     latestReleaseDate: 2022-01-11
+    link: null
 
   - releaseCycle: "14.3"
     releaseDate: 2021-09-21
@@ -423,6 +457,7 @@ releases:
     eol: 2021-12-22
     latest: "14.3.6"
     latestReleaseDate: 2021-12-03
+    link: null
 
   - releaseCycle: "14.2"
     releaseDate: 2021-08-20
@@ -430,6 +465,7 @@ releases:
     eol: 2021-11-22
     latest: "14.2.7"
     latestReleaseDate: 2021-11-26
+    link: null
 
   - releaseCycle: "14.1"
     releaseDate: 2021-07-21
@@ -437,6 +473,7 @@ releases:
     eol: 2021-10-22
     latest: "14.1.8"
     latestReleaseDate: 2021-11-15
+    link: null
 
   - releaseCycle: "14.0"
     releaseDate: 2021-06-21
@@ -444,6 +481,7 @@ releases:
     eol: 2021-09-22
     latest: "14.0.12"
     latestReleaseDate: 2021-11-05
+    link: null
 
   - releaseCycle: "13.12"
     releaseDate: 2021-05-21
@@ -451,6 +489,7 @@ releases:
     eol: 2021-08-22
     latest: "13.12.15"
     latestReleaseDate: 2021-11-03
+    link: null
 
   - releaseCycle: "13.11"
     releaseDate: 2021-04-21
@@ -458,6 +497,7 @@ releases:
     eol: 2021-07-22
     latest: "13.11.7"
     latestReleaseDate: 2021-07-07
+    link: null
 
   - releaseCycle: "13.10"
     releaseDate: 2021-03-18
@@ -465,6 +505,7 @@ releases:
     eol: 2021-06-22
     latest: "13.10.5"
     latestReleaseDate: 2021-06-01
+    link: null
 
 ---
 

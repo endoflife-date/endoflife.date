@@ -47,7 +47,7 @@ releases:
     latestReleaseDate: 2025-09-11
 
   - releaseCycle: "9.8"
-    staleReleaseThresholdDays: 500 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
+    staleReleaseThresholdDays: 7300 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
     releaseDate: 2023-10-09
     eoas: true
     eol: false
@@ -55,7 +55,7 @@ releases:
     latestReleaseDate: 2024-12-02
 
   - releaseCycle: "9.6"
-    staleReleaseThresholdDays: 500 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
+    staleReleaseThresholdDays: 7300 # Still "suitable for use" on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
     releaseDate: 2023-03-10
     eoas: true
     eol: false
@@ -149,10 +149,10 @@ documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conv
 > Upcoming Change
 >
 > [Starting with GHC 9.14](https://www.haskell.org/ghc/blog/20250702-ghc-release-schedules.html)
-> (expected in August 2025), there will be preannounced major versions designated as LTS. The first
-> LTS release will be 9.14. LTS releases will have minimum two years of support from release, in the
-> form of bugfix minor version bumps. No new features will be backported to LTS releases. There will
-> be six months of support period overlap between subsequent LTS releases.
+> , there will be preannounced major versions designated as LTS. The first LTS release will be 9.14.
+> LTS releases will have minimum two years of support from release, in the form of bugfix minor version bumps.
+> No new features will be backported to LTS releases. There will be six months of support period
+> overlap between subsequent LTS releases.
 
 ## Terminology
 
