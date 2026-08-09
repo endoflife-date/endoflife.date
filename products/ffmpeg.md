@@ -29,6 +29,13 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "9.0"
+    codename: Lei
+    releaseDate: 2026-08-04
+    eol: false
+    latest: "9.0"
+    latestReleaseDate: 2026-08-03
+
   - releaseCycle: "8.1"
     codename: Hoare
     releaseDate: 2026-03-16

@@ -738,7 +738,7 @@ releases:
     releaseLabel: "Galaxy M13 5G"
     releaseDate: 2022-07-23
     eoas: false
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-M136B/INS/doc.html
 
   - releaseCycle: "galaxy-m13-india"
@@ -773,7 +773,7 @@ releases:
     releaseLabel: "Galaxy F13"
     releaseDate: 2022-06-29
     eoas: 2024-06-29
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
   - releaseCycle: "galaxy-m53-5g"

@@ -31,7 +31,7 @@ auto:
 releases:
   - releaseCycle: "12.2"
     releaseDate: 2026-07-30
-    eol: false
+    eol: 2029-07-30
     latest: "12.2.2"
     latestReleaseDate: 2026-07-30
     link: https://docs.paloaltonetworks.com/ngfw/release-notes/12-2/pan-os-12-2-2-known-and-addressed-issues/pan-os-12-2-2-addressed-issues
@@ -193,6 +193,7 @@ releases:
     releaseDate: 2007-11-15
     eol: 2008-11-20
     latest: ""
+
 ---
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [PAN-OS](https://docs.paloaltonetworks.com/pan-os)
