@@ -16,16 +16,16 @@ releases:
     releaseLabel: "vGPU 20"
     releaseDate: 2026-03-24
     eol: 2027-03-31
-    latest: "20.1"
-    latestReleaseDate: 2026-04-01
+    latest: "20.2"
+    latestReleaseDate: 2026-08-01
     link: https://docs.nvidia.com/vgpu/20.0/index.html
 
   - releaseCycle: "19"
     releaseLabel: "vGPU 19"
     releaseDate: 2025-08-06
     eol: 2028-07-31
-    latest: "19.5"
-    latestReleaseDate: 2026-04-01
+    latest: "19.6"
+    latestReleaseDate: 2026-08-01
     lts: true
     link: https://docs.nvidia.com/vgpu/19.0/index.html
 
@@ -49,7 +49,7 @@ releases:
     releaseLabel: "vGPU 16"
     releaseDate: 2023-07-01
     eol: 2026-07-31
-    latest: "16.4"
+    latest: "16.14"
     latestReleaseDate: 2026-04-20
     lts: true
     link: https://docs.nvidia.com/vgpu/16.0/index.html
@@ -100,7 +100,7 @@ releases:
     releaseLabel: "vGPU 10"
     releaseDate: 2019-12-01
     eol: 2020-12-31
-    latest: "12.4"
+    latest: "10.4"
     latestReleaseDate: 2020-09-29
     link: https://docs.nvidia.com/grid/10.0/index.html
 
