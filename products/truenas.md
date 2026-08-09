@@ -55,7 +55,7 @@ releases:
 > Enterprise and Community Edition.
 
 Historically, iXsystems provides a FreeBSD-based TrueNAS Core but it's discontinued and entered into maintenance mode.
-TrueNAS Scale, a Debian-based OS is released in 2022 and is the only actively maintained offering going forward. In January
+TrueNAS Scale, a Debian-based OS was released in 2022 and is the only actively maintained offering going forward. In January
 2025, iXsystems announced that TrueNAS Scale reached full feature parity with Core, and renamed TrueNAS Scale as "Community Edition"
 
 Releases of TrueNAS get a development codename ("Goldeye") and are versioned by the year and month of delivery —
