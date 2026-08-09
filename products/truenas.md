@@ -14,8 +14,8 @@ releases:
     releaseDate: 2025-10-28
     eol: false
     link: https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/
-    latest: "25.10.3"
-    latestReleaseDate: 2025-12-18
+    latest: "25.10.5"
+    latestReleaseDate: 2026-07-23
 
   - releaseCycle: "25.04"
     codename: "Fangtooth"
@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "24.10"
     codename: "Electric Eel"
     releaseDate: 2024-10-29
-    eol: false
+    eol: 2025-08-07
     link: https://www.truenas.com/docs/scale/24.10/gettingstarted/scalereleasenotes/
     latest: "24.10.2.4"
     latestReleaseDate: 2025-08-07
