@@ -37,15 +37,16 @@ auto:
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
   - releaseCycle: "4.22"
-    releaseDate: 2026-08-07
-    eol: false # releaseDate(4.23)
+    lts: true
+    releaseDate: 2026-08-11
+    eol: 2027-08-11
     supportedJavaVersions: "17, 21, 25"
     latest: "4.22.0"
-    latestReleaseDate: 2026-08-07
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "4.21"
     releaseDate: 2026-06-26
-    eol: false # releaseDate(4.22)
+    eol: 2026-08-07
     supportedJavaVersions: "17, 21, 25"
     latest: "4.21.0"
     latestReleaseDate: 2026-06-26
@@ -96,7 +97,7 @@ releases:
   - releaseCycle: "4.14"
     lts: true
     releaseDate: 2025-08-15
-    eol: 2026-08-20
+    eol: 2026-08-11 # releaseDate(4.22) see https://camel.apache.org/blog/2026/08/camel422-whatsnew/
     supportedJavaVersions: "17, 21"
     latest: "4.14.9"
     latestReleaseDate: 2026-08-09
