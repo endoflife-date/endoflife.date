@@ -38,8 +38,8 @@ releases:
     releaseDate: 2026-07-07 # 2.35.1 was the first 2.35 version
     eoas: false # releaseDate(2.37)
     eol: false # releaseDate(2.38)
-    latest: "2.35.3"
-    latestReleaseDate: 2026-07-27
+    latest: "2.35.4"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.34"
     lts: true
@@ -47,8 +47,8 @@ releases:
     eoas: 2026-08-04
     eol: false # releaseDate(2.37)
     eoes: 2027-06-02
-    latest: "2.34.7"
-    latestReleaseDate: 2026-07-28
+    latest: "2.34.8"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.33"
     releaseDate: 2026-05-06
@@ -242,6 +242,7 @@ releases:
     eol: 2024-04-03
     latest: "2.7.3"
     latestReleaseDate: 2024-03-04
+
 ---
 
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
