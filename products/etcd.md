@@ -12,6 +12,7 @@ changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 identifiers:
   - repology: etcd
   - purl: pkg:docker/bitnami/etcd
+  - purl: pkg:quay.io/coreos/etcd
   - purl: pkg:oci/etcd?repository_url=quay.io/repository/coreos
   - purl: pkg:oci/etcd?repository_url=gcr.io/etcd-development
   - purl: pkg:github/etcd-io/etcd
