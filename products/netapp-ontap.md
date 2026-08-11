@@ -22,7 +22,7 @@ releases:
 
   - releaseCycle: "9.18.1"
     releaseDate: 2026-02-04 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
-    eol: 2028-09-30
+    eol: 2029-01-31
 
   - releaseCycle: "9.17.1"
     releaseDate: 2026-01-15 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
