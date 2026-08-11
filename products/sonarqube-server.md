@@ -26,11 +26,11 @@ auto:
 releases:
   - releaseCycle: "2026.4"
     releaseDate: 2026-07-23 # https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
-    eoas: false
-    eol: false
+    eoas: 2026-09-23
+    eol: 2026-09-23
     latest: "2026.4.1"
     latestReleaseDate: 2026-08-07
-    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-4-1/187167
 
   - releaseCycle: "2026.3"
     releaseDate: 2026-05-21 # https://community.sonarsource.com/t/sonarqube-server-2026-release-3/182644
@@ -55,7 +55,7 @@ releases:
     eol: 2027-08-02
     latest: "2026.1.5"
     latestReleaseDate: 2026-08-07
-    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-4-lta/186558
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-5-lta/187164
 
   - releaseCycle: "2025.6"
     releaseDate: 2025-12-12 # https://community.sonarsource.com/t/sonarqube-server-2025-release-6/153802
