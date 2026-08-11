@@ -46,7 +46,7 @@ releases:
 
   - releaseCycle: "4.21"
     releaseDate: 2026-06-26
-    eol: 2026-08-07
+    eol: 2026-08-11
     supportedJavaVersions: "17, 21, 25"
     latest: "4.21.0"
     latestReleaseDate: 2026-06-26
