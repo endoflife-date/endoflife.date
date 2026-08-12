@@ -17,8 +17,8 @@ auto:
 releases:
   - releaseCycle: "5.4"
     releaseDate: 2026-08-10
-    eoas: # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
-    eol: # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
+    eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
+    eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     latest: "5.4.0"
     latestReleaseDate: 2026-08-10
 
