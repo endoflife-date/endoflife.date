@@ -15,20 +15,21 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.lucene/lucene-core
+    - github_releases: apache/lucene
+      regex: '^releases/lucene/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.4.0"
-    latestReleaseDate: 2026-02-25
+    latest: "10.5.0"
+    latestReleaseDate: 2026-06-25
 
   - releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
     latest: "9.12.3"
-    latestReleaseDate: 2025-09-27
+    latestReleaseDate: 2025-09-28
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13

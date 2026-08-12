@@ -31,6 +31,13 @@ auto:
 
 # Only releases listed on https://flink.apache.org/downloads/ are supported.
 releases:
+  - releaseCycle: "2.3"
+    recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.2/docs/deployment/java_compatibility/
+    releaseDate: 2026-06-25
+    eol: false
+    latest: "2.3.0"
+    latestReleaseDate: 2026-06-23
+
   - releaseCycle: "2.2"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.2/docs/deployment/java_compatibility/
     releaseDate: 2025-12-04
@@ -48,7 +55,7 @@ releases:
   - releaseCycle: "2.0"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.0/docs/deployment/java_compatibility/
     releaseDate: 2025-03-19
-    eol: false
+    eol: 2026-06-25
     latest: "2.0.2"
     latestReleaseDate: 2026-05-09
 
@@ -63,7 +70,7 @@ releases:
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/
     releaseDate: 2024-03-15
-    eol: false
+    eol: 2026-07-01 # last seen on https://web.archive.org/web/20260607210633/https://flink.apache.org/downloads/
     latest: "1.19.3"
     latestReleaseDate: 2025-07-07
 

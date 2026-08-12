@@ -21,6 +21,7 @@ identifiers:
   - cpe: cpe:2.3:a:apache:http_server
   - purl: pkg:github/apache/httpd
   - purl: pkg:rpm/fedora/httpd
+  - purl: pkg:rpm/redhat/httpd
 
 auto:
   methods:

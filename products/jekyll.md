@@ -37,7 +37,7 @@ releases:
     latestReleaseDate: 2025-01-29
 
   - releaseCycle: "3"
-    staleReleaseThresholdDays: 730 # still used on GitHub pages
+    staleReleaseThresholdDays: 1095 # still used on GitHub pages
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2015-10-26
     eoas: true

@@ -18,7 +18,14 @@ auto:
     - git: https://github.com/redmine/redmine.git
 
 # eol releases announced in new versions blog posts
+# https://www.redmine.org/projects/redmine/wiki/Download#Versions-status-and-releases-policy
 releases:
+  - releaseCycle: "7.0"
+    releaseDate: 2026-06-30
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2026-06-30
+
   - releaseCycle: "6.1"
     releaseDate: 2025-09-21
     eol: false
@@ -33,13 +40,13 @@ releases:
 
   - releaseCycle: "5.1"
     releaseDate: 2023-10-31
-    eol: false
+    eol: 2026-06-30
     latest: "5.1.13"
     latestReleaseDate: 2026-06-15
 
   - releaseCycle: "5.0"
     releaseDate: 2022-03-28
-    eol: 2025-09-21 # https://www.redmine.org/news/156
+    eol: 2025-09-21
     latest: "5.0.14"
     latestReleaseDate: 2025-09-21
 

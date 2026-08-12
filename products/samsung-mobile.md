@@ -39,6 +39,9 @@ auto:
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
+# 
+# IMPORTANT: When adding a new model here, add it to the above regex exclude above
+# IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
@@ -735,7 +738,7 @@ releases:
     releaseLabel: "Galaxy M13 5G"
     releaseDate: 2022-07-23
     eoas: false
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-M136B/INS/doc.html
 
   - releaseCycle: "galaxy-m13-india"
@@ -763,14 +766,14 @@ releases:
     releaseLabel: "Galaxy M13"
     releaseDate: 2022-07-01
     eoas: 2025-07-01
-    eol: 2026-07-01
+    eol: 2026-07-07
     link: https://doc.samsungmobile.com/SM-M135F/EUX/doc.html
 
   - releaseCycle: "galaxy-f13"
     releaseLabel: "Galaxy F13"
     releaseDate: 2022-06-29
     eoas: 2024-06-29
-    eol: false
+    eol: 2026-08-04
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
   - releaseCycle: "galaxy-m53-5g"

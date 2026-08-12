@@ -25,18 +25,24 @@ auto:
 # Release dates from https://www.atlassian.com/software/bitbucket/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+  - releaseCycle: "10.4"
+    releaseDate: 2026-05-12
+    eol: 2028-07-21
+    latest: "10.4.2"
+    latestReleaseDate: 2026-08-11
+
   - releaseCycle: "10.3"
     releaseDate: 2026-05-12
     eol: 2028-05-12
-    latest: "10.3.1"
-    latestReleaseDate: 2026-06-09
+    latest: "10.3.2"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "10.2"
     releaseDate: 2026-03-03
     lts: true
     eol: 2028-03-03
-    latest: "10.2.4"
-    latestReleaseDate: 2026-06-09
+    latest: "10.2.6"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "10.1"
     releaseDate: 2025-11-20
@@ -66,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2024-12-02
     eol: 2026-12-03
-    latest: "9.4.21"
-    latestReleaseDate: 2026-06-09
+    latest: "9.4.23"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "9.3"
     releaseDate: 2024-10-29

@@ -38,7 +38,7 @@ releases:
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.46"
-    latestReleaseDate: 2026-05-08
+    latestReleaseDate: 2026-07-15
 
   - releaseCycle: "8.4.8"
     releaseDate: 2026-01-20
@@ -125,8 +125,8 @@ releases:
     eoas: 2029-07-31
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.4.9"
-    latestReleaseDate: 2026-05-08
+    latest: "8.4.10"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "8.4.3"
     releaseDate: 2024-10-15
@@ -150,13 +150,13 @@ releases:
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.46"
-    latestReleaseDate: 2026-05-08
+    latestReleaseDate: 2026-07-15
 
   - releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eoas: 2024-02-29
     eol: 2024-02-29
-    eoes: 2027-02-28
+    eoes: 2029-06-30
     latest: "5.7.44"
     latestReleaseDate: 2025-02-13
 
@@ -167,6 +167,7 @@ releases:
     eoes: true
     latest: "5.6"
     latestReleaseDate: 2013-07-01
+
 ---
 
 > [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for

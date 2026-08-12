@@ -19,9 +19,8 @@ identifiers:
 
 auto:
   methods:
-    - maven: struts/struts
-    - maven: org.apache.struts/struts-core
-    - maven: org.apache.struts/struts2-core
+    - git: https://github.com/apache/struts.git
+      regex: '^STRUTS_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 # EOL as per announcements on https://struts.apache.org/.
 releases:
@@ -29,15 +28,15 @@ releases:
     releaseDate: 2024-12-11
     eol: false
     eoes: true
-    latest: "7.1.1"
-    latestReleaseDate: 2025-10-01
+    latest: "7.3.0"
+    latestReleaseDate: 2026-08-01
 
   - releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
     eoes: true
-    latest: "6.10.0"
-    latestReleaseDate: 2026-05-25
+    latest: "6.11.0"
+    latestReleaseDate: 2026-08-01
 
   - releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -58,21 +57,21 @@ releases:
     eol: true # no announcement, but 2.3 is EOL
     eoes: false
     latest: "2.2.3.1"
-    latestReleaseDate: 2011-09-05
+    latestReleaseDate: 2011-09-07
 
   - releaseCycle: "2.1"
     releaseDate: 2007-10-29
     eol: true # no announcement, but 2.3 is EOL
     eoes: false
     latest: "2.1.8.1"
-    latestReleaseDate: 2009-11-11
+    latestReleaseDate: 2009-10-02
 
   - releaseCycle: "2.0"
     releaseDate: 2006-09-24
     eol: true # no announcement, but 2.3 is EOL
     eoes: false
     latest: "2.0.14"
-    latestReleaseDate: 2008-11-22
+    latestReleaseDate: 2008-11-16
     link: https://cwiki.apache.org/confluence/display/WW/Release+Notes+__LATEST__
 
   - releaseCycle: "1.3"
@@ -91,6 +90,8 @@ releases:
     latestReleaseDate: 2006-03-23
     link: null
 # 1.0 and 1.1 are not listed on Maven Central.
+
+
 
 
 

@@ -1,9 +1,7 @@
 - [Development](#development)
-- [Build](#build)
 - [File and Directory structure](#file-and-directory-structure)
 - [Automation](#automation)
 - [API](#api)
-  - [API Documentation](#api-documentation)
 - [Contributing Workflow](#contributing-workflow)
 - [Deployment](#deployment)
 - [Analytics](#analytics)
@@ -16,8 +14,11 @@ Follow this guide if you are making layout, design, or code changes.
 
 ## Development
 
+### Local development
+
 First, you will need to install Ruby and Bundler.
-Follow [these instructions](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby, and then run the following commands:
+Follow [these instructions](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby.
+Then run the following commands:
 
 ```sh
 # Install bundler
@@ -30,17 +31,7 @@ cd endoflife.date
 # Install dependencies (_Note: You must use Bundler 2 or greater_):
 $ bundle install
 
-# All of the following commands should run successfully at this point:
-ruby --version
-bundle --version
-bundle exec jekyll --version
-```
-
-## Build
-
-Run the site locally:
-
-```sh
+# Run the site locally:
 bundle exec jekyll serve --host localhost --port 4000
 ```
 
@@ -50,6 +41,26 @@ or [ask a question in the Q&A category](https://github.com/endoflife-date/endofl
 
 Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the Jekyll website,
 along with the command options for the [build](https://jekyllrb.com/docs/configuration/options/#build-command-options) and [serve](https://jekyllrb.com/docs/configuration/options/#serve-command-options) commands.
+
+### Using Docker
+
+Alternatively, you can run the site inside a Docker container using the official [Jekyll image](https://hub.docker.com/r/jekyll/jekyll), without installing Ruby locally:
+
+```sh
+docker run --init --rm -u "$(id -u):$(id -g)" -e BUNDLE_PATH=/tmp/bundle -v "$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:latest sh -c "bundle install && exec bundle exec jekyll serve --host 0.0.0.0"
+```
+
+This command:
+
+- runs in the foreground and blocks the terminal; stop it with `Ctrl+C`,
+- removes the container automatically when it stops (`--rm`),
+- runs `tini` as PID 1 (`--init`) and `exec`s Jekyll in place of the shell, so `Ctrl+C` is forwarded to Jekyll and stops the container cleanly,
+- runs as your local user (`-u`) so files created in the workspace are not owned by root,
+- installs gems to `/tmp/bundle` inside the container (`BUNDLE_PATH`), since the image's default gem directory is not writable for non-root users,
+- mounts the current directory as `/srv/jekyll` (`-v`) and serves the site on port 4000,
+- binds Jekyll to `0.0.0.0` so the port is reachable from your browser.
+
+Browse to `http://localhost:4000` once the build finishes.
 
 ## File and Directory structure
 

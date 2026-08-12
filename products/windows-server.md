@@ -16,8 +16,8 @@ eoesColumn: Extended Security Updates
 releases:
   - releaseCycle: "2025"
     releaseDate: 2024-11-01
-    eoas: 2029-10-09
-    eol: 2034-10-10
+    eoas: 2029-11-13
+    eol: 2034-11-14
     latest: 10.0.26100
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info

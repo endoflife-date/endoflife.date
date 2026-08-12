@@ -17,6 +17,7 @@ versionCommand: DSPJOB OUTPUT(*PRINT)
 releasePolicyLink: https://www.ibm.com/support/pages/release-life-cycle # https://www.ibm.com/support/pages/ibm-i-release-support
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 eoesColumn: Extended Life Cycle Support
+staleReleaseThresholdDays: 730 # this product does not receive many updates
 
 auto:
   methods:
@@ -49,6 +50,7 @@ releases:
   - releaseCycle: "7.4"
     releaseDate: 2019-06-21
     eol: 2026-09-30
+    eoes: 2029-09-30
     latest: "7.4.0"
     latestReleaseDate: 2019-06-21
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-74
@@ -72,6 +74,7 @@ releases:
   - releaseCycle: "7.1"
     releaseDate: 2010-04-23
     eol: 2018-04-30
+    eoes: 2024-04-30
     latest: "7.1.0"
     latestReleaseDate: 2010-04-23
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-71

@@ -33,6 +33,15 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_10a
     supportedAndroidVersions: "16 - 17" # https://www.gsmarena.com/google_pixel_10a_5g-14474.php
 
+  - releaseCycle: "10profold"
+    releaseLabel: "Pixel 10 Pro Fold"
+    releaseDate: 2025-10-04
+    eoas: 2032-10-01
+    eol: 2032-10-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_10_Pro_Fold
+    supportedAndroidVersions: "16 - 17" # https://www.gsmarena.com/google_pixel_10_pro_fold-14014.php
+
   - releaseCycle: "10pro"
     releaseLabel: "Pixel 10 Pro"
     releaseDate: 2025-08-28
@@ -74,7 +83,7 @@ releases:
     releaseDate: 2024-09-04
     eoas: 2031-09-01
     eol: 2031-09-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro_Fold
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro_fold-13220.php
 

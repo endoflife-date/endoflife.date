@@ -22,9 +22,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "151"
+    releaseDate: 2026-07-28
+    eol: 2026-08-25 # Estimated, revise with releaseDate("152")
+
+  - releaseCycle: "150"
+    releaseDate: 2026-06-30
+    eol: 2026-07-28
+
   - releaseCycle: "149"
     releaseDate: 2026-06-02
-    eol: 2026-07-06 # Estimated, revise with releaseDate("150")
+    eol: 2026-06-30
     
   - releaseCycle: "148"
     releaseDate: 2026-05-05
