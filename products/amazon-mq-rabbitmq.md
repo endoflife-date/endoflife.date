@@ -1,6 +1,6 @@
 ---
 title: Amazon MQ for RabbitMQ
-addedAt: 2026-06-03
+addedAt: 2026-08-12
 category: service
 tags: amazon
 permalink: /amazon-mq-rabbitmq
