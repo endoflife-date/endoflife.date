@@ -48,7 +48,7 @@ auto:
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
   - releaseCycle: "2026.07"
-    releaseDate: 2026-07-30
+    releaseDate: 2026-08-05
     eol: false
     latest: "2026.07.1"
     latestReleaseDate: 2026-08-06

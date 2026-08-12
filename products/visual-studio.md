@@ -29,8 +29,8 @@ releases:
     codename: "2026"
     releaseDate: 2026-07-14
     eol: false # releaseDate(18.9)
-    latest: "18.8.2"
-    latestReleaseDate: 2026-07-28
+    latest: "18.8.3"
+    latestReleaseDate: 2026-08-11
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.7"
@@ -102,8 +102,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.36"
-    latestReleaseDate: 2026-07-14
+    latest: "17.14.38"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "17.13"
     codename: "2022"
@@ -214,8 +214,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.58"
-    latestReleaseDate: 2026-07-14
+    latest: "16.11.59"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "16.10"
     codename: "2019"
@@ -298,8 +298,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.81"
-    latestReleaseDate: 2026-07-14
+    latest: "15.9.82"
+    latestReleaseDate: 2026-08-11
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
   - releaseCycle: "15.8"

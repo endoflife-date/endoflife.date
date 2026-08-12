@@ -67,7 +67,7 @@ releases:
   - releaseCycle: "12.3"
     releaseDate: 2026-05-28
     lts: true
-    eol: false
+    eol: 2029-06-12
     latest: "12.3.2"
     latestReleaseDate: 2026-05-28
 
