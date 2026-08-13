@@ -33,8 +33,8 @@ releases:
     codename: Lei
     releaseDate: 2026-08-04
     eol: false
-    latest: "9.0"
-    latestReleaseDate: 2026-08-03
+    latest: "9.0.1"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "8.1"
     codename: Hoare
