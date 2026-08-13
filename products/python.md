@@ -127,8 +127,8 @@ releases:
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.13"
-    latestReleaseDate: 2026-03-03
+    latest: "3.12.14"
+    latestReleaseDate: 2026-08-12
     pep: PEP-0693
 
   - releaseCycle: "3.11"
