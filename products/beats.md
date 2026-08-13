@@ -33,15 +33,15 @@ releases:
   - releaseCycle: "9.5"
     releaseDate: 2026-08-04
     eol: false # releaseDate(9.7) until 10.0 is released
-    latest: "9.5.0"
-    latestReleaseDate: 2026-08-04
+    latest: "9.5.1"
+    latestReleaseDate: 2026-08-12
     link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.4"
     releaseDate: 2026-05-05
     eol: false # releaseDate(9.6) until 10.0 is released
-    latest: "9.4.4"
-    latestReleaseDate: 2026-07-23
+    latest: "9.4.5"
+    latestReleaseDate: 2026-08-12
     link: https://www.elastic.co/docs/release-notes/beats#beats-__LATEST__-release-notes
 
   - releaseCycle: "9.3"
@@ -68,8 +68,8 @@ releases:
   - releaseCycle: "8.19"
     releaseDate: 2025-07-29
     eol: 2027-07-15
-    latest: "8.19.19"
-    latestReleaseDate: 2026-07-21
+    latest: "8.19.20"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "8.18"
     releaseDate: 2025-04-15

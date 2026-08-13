@@ -23,8 +23,8 @@ releases:
     codename: "Xenial Xenops"
     releaseDate: 2026-07-15
     eol: false
-    latest: "26.7.1"
-    latestReleaseDate: 2026-07-21
+    latest: "26.7.2"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "26.1"
     codename: "Witty Woodpecker"
