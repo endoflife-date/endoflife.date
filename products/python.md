@@ -111,24 +111,24 @@ releases:
     releaseDate: 2025-10-07
     eoas: 2027-10-01
     eol: 2030-10-31
-    latest: "3.14.6"
-    latestReleaseDate: 2026-06-10
+    latest: "3.14.7"
+    latestReleaseDate: 2026-08-05
     pep: PEP-0745
 
   - releaseCycle: "3.13"
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.14"
-    latestReleaseDate: 2026-06-10
+    latest: "3.13.15"
+    latestReleaseDate: 2026-08-05
     pep: PEP-0719
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.13"
-    latestReleaseDate: 2026-03-03
+    latest: "3.12.14"
+    latestReleaseDate: 2026-08-12
     pep: PEP-0693
 
   - releaseCycle: "3.11"

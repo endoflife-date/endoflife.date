@@ -19,8 +19,8 @@ releases:
     releaseDate: 2026-01-30
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
-    latest: "5.3.0.2"
-    latestReleaseDate: 2026-06-02
+    latest: "5.3.0.3"
+    latestReleaseDate: 2026-07-17
 
   - releaseCycle: "5.2"
     releaseDate: 2025-07-30
