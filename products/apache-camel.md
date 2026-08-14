@@ -7,7 +7,7 @@ permalink: /apache-camel
 alternate_urls:
   - /camel
   - /camel-lang
-releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
+releasePolicyLink: https://web.archive.org/web/20260216193908/https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
 eolColumn: Bug and Security Fixes
 
@@ -36,9 +36,17 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
+  - releaseCycle: "4.22"
+    lts: true
+    releaseDate: 2026-08-11
+    eol: 2027-08-11
+    supportedJavaVersions: "17, 21, 25"
+    latest: "4.22.0"
+    latestReleaseDate: 2026-08-07
+
   - releaseCycle: "4.21"
     releaseDate: 2026-06-26
-    eol: false # releaseDate(4.22)
+    eol: 2026-08-11
     supportedJavaVersions: "17, 21, 25"
     latest: "4.21.0"
     latestReleaseDate: 2026-06-26
@@ -62,8 +70,8 @@ releases:
     releaseDate: 2026-02-17
     eol: 2027-02-17
     supportedJavaVersions: "17, 21"
-    latest: "4.18.3"
-    latestReleaseDate: 2026-06-28
+    latest: "4.18.4"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "4.17"
     releaseDate: 2026-01-12
@@ -89,10 +97,10 @@ releases:
   - releaseCycle: "4.14"
     lts: true
     releaseDate: 2025-08-15
-    eol: 2026-08-20
+    eol: 2026-08-11 # releaseDate(4.22) see https://camel.apache.org/blog/2026/08/camel422-whatsnew/
     supportedJavaVersions: "17, 21"
-    latest: "4.14.8"
-    latestReleaseDate: 2026-06-28
+    latest: "4.14.9"
+    latestReleaseDate: 2026-08-09
 
   - releaseCycle: "4.13"
     releaseDate: 2025-07-04
@@ -381,7 +389,7 @@ releases:
 > (or declarative Java domain-specific language) to configure routing and mediation rules.
 
 Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
-and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
-[don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
+and they are supported for one year with security and important/critical bug fixes.
+Non-LTS releases don't receive any support.
 
 A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).

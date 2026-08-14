@@ -22,9 +22,16 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
 releases:
+  - releaseCycle: "11"
+    releaseDate: 2026-07-30
+    eoas: false
+    eol: false
+    latest: "11.0"
+    latestReleaseDate: 2026-07-30
+
   - releaseCycle: "10"
     releaseDate: 2024-03-28
-    eoas: false
+    eoas: 2026-07-30
     eol: false
     latest: "10.1"
     latestReleaseDate: 2024-12-16
@@ -32,7 +39,7 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
-    eol: false
+    eol: 2026-08-30
     latest: "9.4"
     latestReleaseDate: 2024-04-20
 
@@ -93,6 +100,7 @@ releases:
     latest: "1.6.2"
     latestReleaseDate: 2004-03-01
     link: null
+
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like
