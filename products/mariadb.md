@@ -195,8 +195,8 @@ releases:
     releaseDate: 2021-07-06
     eol: 2026-07-06
     eoes: 2029-08-23
-    latest: "10.6.27"
-    latestReleaseDate: 2026-05-27
+    latest: "10.6.28"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "10.5"
     lts: true
