@@ -27,8 +27,8 @@ releases:
   - releaseCycle: "5.8"
     releaseDate: 2026-02-12
     eol: 2026-09-26 # 6.0 cycle broke more than regular cycles so +3m eol time to 5.x
-    latest: "5.8.5"
-    latestReleaseDate: 2026-07-08
+    latest: "5.8.6"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "5.7"
     releaseDate: 2025-11-11

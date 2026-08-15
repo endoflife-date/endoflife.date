@@ -116,7 +116,7 @@ releases:
   - releaseCycle: motorola-razr-fold-2026
     releaseLabel: "Motorola razr Fold 2026"
     releaseDate: 2026-03-01
-    eol: 2030-03-31
+    eol: 2033-03-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12556
 
   - releaseCycle: motorola-razr-ultra-2026
@@ -128,7 +128,7 @@ releases:
   - releaseCycle: motorola-razr-fold
     releaseLabel: "Motorola razr Fold"
     releaseDate: 2026-03-01 # https://www.gsmarena.com/motorola_razr_fold_5g-14402.php
-    eol: 2030-03-31
+    eol: 2033-03-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12524
 
   - releaseCycle: motorola-edge-70-fusion+
