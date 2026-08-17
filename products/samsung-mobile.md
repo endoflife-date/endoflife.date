@@ -47,21 +47,21 @@ releases:
     releaseLabel: "Galaxy Z Flip8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
     eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
-    eol: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
     link: null # not found
 
   - releaseCycle: "galaxy-z-fold8"
     releaseLabel: "Galaxy Z Fold8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
     eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
     link: null # not found
 
   - releaseCycle: "galaxy-z-fold8-ultra"
     releaseLabel: "Galaxy Z Fold8 Ultra"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
     eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
     link: null # not found
 
   - releaseCycle: "galaxy-a57-5g"
