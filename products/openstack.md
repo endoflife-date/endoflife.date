@@ -6,20 +6,9 @@ tags: cloud openstack
 iconSlug: openstack
 permalink: /openstack
 releasePolicyLink: https://releases.openstack.org/
+latestColumn: false
 
 releases:
-  - releaseCycle: "2027.1"
-    releaseLabel: "OpenStack 2027.1 Indri"
-    codename: indri
-    releaseDate: 2027-03-24
-    eol: false
-
-  - releaseCycle: "2026.2"
-    releaseLabel: "OpenStack 2026.2 Hibiscus"
-    codename: hibiscus
-    releaseDate: 2026-09-30
-    eol: false
-
   - releaseCycle: "2026.1"
     releaseLabel: "OpenStack 2026.1 Gazpacho"
     codename: gazpacho
@@ -204,19 +193,19 @@ releases:
     releaseLabel: "OpenStack Cactus"
     codename: cactus
     releaseDate: 2011-04-15
-    eol: false
+    eol: true
 
   - releaseCycle: "bexar"
     releaseLabel: "OpenStack Bexar"
     codename: bexar
     releaseDate: 2011-02-03
-    eol: false
+    eol: true
 
   - releaseCycle: "austin"
     releaseLabel: "OpenStack Austin"
     codename: austin
     releaseDate: 2010-10-21
-    eol: false
+    eol: true
 ---
 
 > [OpenStack](https://www.openstack.org/) is an open source cloud computing platform for building and managing public and private cloud infrastructure.
