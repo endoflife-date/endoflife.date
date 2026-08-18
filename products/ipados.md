@@ -22,15 +22,15 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "26.6"
-    latestReleaseDate: 2026-07-27
+    latest: "26.6.1"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.7.9"
-    latestReleaseDate: 2026-05-11
+    latest: "18.7.10"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -76,6 +76,7 @@ releases:
     latest: "12.5.8"
     latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
+
 ---
 
 > [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
