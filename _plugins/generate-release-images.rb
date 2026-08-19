@@ -27,7 +27,8 @@ module EndOfLife
     LEGEND_GAP          = 28  # vertical distance from chart bottom to legend icons
     LEGEND_ICON_SIZE    = 14  # width and height of legend colour swatches
     LEGEND_ICON_TEXT_GAP = 4  # gap between icon and label text
-    LEGEND_ITEM_SPACING = 240 # horizontal distance between legend item start positions
+    LEGEND_ITEM_SPACING = 240 # preferred horizontal distance between legend item start positions
+    LEGEND_MIN_ITEM_GAP = 32  # minimum horizontal gap between adjacent legend items when labels are long
     NO_END_DATE_LABEL   = "No end date published"
 
     # Release filtering & date range
@@ -60,6 +61,7 @@ module EndOfLife
     def build_svg_data(product)
       today = Date.today
       has_eoas_column = product.data['eoasColumn']
+      has_eoes_column = product.data['eoesColumn']
 
       releases = select_releases(product)
       return nil if releases.nil? || releases.empty?
@@ -68,9 +70,9 @@ module EndOfLife
       release_label_width = [longest_label_length * CHAR_WIDTH + LABEL_GAP, MAX_RELEASE_LABEL_WIDTH].min
       release_label_length = (release_label_width - LABEL_GAP) / CHAR_WIDTH
 
-      min_date, max_date, date_to_x_fn = build_timeline_scale(releases, today, release_label_width)
+      min_date, max_date, date_to_x_fn = build_timeline_scale(releases, today, release_label_width, has_eoes_column)
       today_x = date_to_x_fn.call(today)
-      rows = build_rows(releases, has_eoas_column, date_to_x_fn, max_date, release_label_length, today_x)
+      rows = build_rows(releases, has_eoas_column, has_eoes_column, date_to_x_fn, max_date, release_label_length, today_x)
       return nil if rows.empty?
 
       # One vertical tick per year within the date range.
@@ -83,12 +85,21 @@ module EndOfLife
       legend_items = []
       legend_items << { "icon_class" => "eoas",   "label" => product.data['eoasColumnLabel'] } if has_eoas_column
       legend_items << { "icon_class" => "eol",    "label" => product.data['eolColumnLabel'] }
+      legend_items << { "icon_class" => "eoes",   "label" => product.data['eoesColumnLabel'] } if has_eoes_column && rows.any? { |r| r["extended_width"] > 0 }
       legend_items << { "icon_class" => "no-end", "label" => NO_END_DATE_LABEL }               if rows.any? { |r| r["no_end_date"] }
-      legend_items.each_with_index { |item, i| item["x"] = i * LEGEND_ITEM_SPACING }
 
-      last_label_px    = legend_items.last["label"].to_s.length * CHAR_WIDTH
-      legend_width     = (legend_items.length - 1) * LEGEND_ITEM_SPACING + LEGEND_ICON_SIZE + LEGEND_ICON_TEXT_GAP + last_label_px
-      legend_dx        = ((SVG_WIDTH - legend_width) / 2.0).round
+      # Lay out legend items using LEGEND_ITEM_SPACING as the preferred spacing, expanding
+      # only when an item's icon+label would otherwise collide with the next item.
+      x_cursor = 0
+      legend_items.each do |item|
+        item["x"] = x_cursor
+        label_px = item["label"].to_s.length * CHAR_WIDTH
+        required = LEGEND_ICON_SIZE + LEGEND_ICON_TEXT_GAP + label_px + LEGEND_MIN_ITEM_GAP
+        x_cursor += [LEGEND_ITEM_SPACING, required].max
+      end
+      last_label_px = legend_items.last["label"].to_s.length * CHAR_WIDTH
+      legend_width  = legend_items.last["x"] + LEGEND_ICON_SIZE + LEGEND_ICON_TEXT_GAP + last_label_px
+      legend_dx     = ((SVG_WIDTH - legend_width) / 2.0).round
 
       {
         "svg_width"          => SVG_WIDTH,
@@ -124,12 +135,17 @@ module EndOfLife
       releases.first(last_non_eol + 1 + trailing_eol)
     end
 
-    def build_timeline_scale(releases, today, release_label_width)
+    def build_timeline_scale(releases, today, release_label_width, has_eoes_column = false)
       all_dates = [today]
       has_no_end_date = false
       releases.each do |release|
         all_dates << release['releaseDate'] if release['releaseDate'].is_a?(Date)
         all_dates << release['eol']         if release['eol'].is_a?(Date)
+        # Only extend the timeline to include eoes when the column is enabled and the
+        # row meets the same conditions required to draw an extended-support segment.
+        if has_eoes_column && release['eol'].is_a?(Date) && release['eoes'].is_a?(Date)
+          all_dates << release['eoes']
+        end
         has_no_end_date ||= (release['eol'] == false)
       end
 
@@ -156,16 +172,17 @@ module EndOfLife
       [min_date, max_date, date_to_x_fn]
     end
 
-    def build_rows(releases, has_eoas_column, date_to_x_fn, max_date, release_label_length, today_x)
+    def build_rows(releases, has_eoas_column, has_eoes_column, date_to_x_fn, max_date, release_label_length, today_x)
       max_x = date_to_x_fn.call(max_date)
 
       # Build one row per release (newest first = top of chart).
       releases.map do |release|
         row = {
-          "label"        => truncate_label(strip_html(release['label']), release_label_length),
-          "active_x"     => 0, "active_width"   => 0,
-          "security_x"   => 0, "security_width" => 0,
-          "no_end_date"  => false,
+          "label"          => truncate_label(strip_html(release['label']), release_label_length),
+          "active_x"       => 0, "active_width"   => 0,
+          "security_x"     => 0, "security_width" => 0,
+          "extended_x"     => 0, "extended_width" => 0,
+          "no_end_date"    => false,
         }
 
         start_x = date_to_x_fn.call(release['releaseDate'])
@@ -183,6 +200,15 @@ module EndOfLife
         elsif eol_x
           row["security_x"] = start_x
           row["security_width"] = [eol_x - start_x, 0].max
+        end
+
+        # Extended-support bar (eol -> eoes). Only drawn when both bounds are concrete dates,
+        # so unknown (eoes: true) or open-ended (eoes: false) extended support is not painted.
+        if has_eoes_column && release['eol'].is_a?(Date) && release['eoes'].is_a?(Date)
+          ext_start = date_to_x_fn.call(release['eol'])
+          ext_end   = date_to_x_fn.call(release['eoes'])
+          row["extended_x"]     = ext_start
+          row["extended_width"] = [ext_end - ext_start, 0].max
         end
 
         row["no_end_date"] = true if no_end_date
