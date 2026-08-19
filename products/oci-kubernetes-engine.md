@@ -16,12 +16,12 @@ eolColumn: End of Support
 
 auto:
   methods:
-    # Only the release date is fetched automatically: the end of support date is not a date in the
-    # source table as long as a version is supported (it is expressed as "1.36 is supported for 30 days
-    # after 1.39.1 OKE Release Date"), and the latest patch version cannot be extracted reliably, as
-    # each minor version spans several rows and the last one always wins.
-    # The selector is required, as the page also contains a table for planned versions that uses the
-    # same column names.
+    # The end of support date is not fetched automatically: it is not a date in the source table as
+    # long as a version is supported (it is expressed as "1.36 is supported for 30 days after 1.39.1
+    # OKE Release Date"), and the dates in that column are the end of life dates of individual patch
+    # versions, not of the minor version.
+    # The selector is required in both methods, as the page also contains a table for planned versions
+    # that uses the same column names.
     - release_table: https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm
       selector: "table[summary^='This table lists the current versions']"
       fields:
@@ -30,6 +30,15 @@ auto:
           column: "OKE Release Date"
           # Ignore preview releases, and the extra "(See Notes)" some cells have.
           regex: '^(?P<value>\d{4}-\d{2}-\d{2})(?!\s*\(Preview)'
+
+    # The latest patch version of each minor version. Note that rows whose release date has a comment
+    # appended to it, such as "2025-10-07 (See Notes)", are currently skipped along with the rest of
+    # the table (see https://github.com/endoflife-date/release-data/blob/main/src/version_table.py).
+    - version_table: https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm
+      selector: "table[summary^='This table lists the current versions']"
+      name_column: "Kubernetes Patch Version Supported by OKE"
+      date_column: "OKE Release Date"
+      regex_exclude: '^\d+\.\d+\.0$' # x.y.0 releases are preview releases
 
 releases:
   - releaseCycle: "1.36"
