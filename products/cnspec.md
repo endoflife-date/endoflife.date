@@ -26,7 +26,7 @@ releases:
     releaseDate: 2026-03-10
     eoas: false
     eol: false
-    latest: "13.34.0"
+    latest: "13.34.1"
     latestReleaseDate: 2026-08-17
 
   - releaseCycle: "12"
