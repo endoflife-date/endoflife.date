@@ -11,6 +11,7 @@ alternate_urls:
 releasePolicyLink: https://docs.sonarsource.com/sonarqube-community-build/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 changelogTemplate: https://github.com/SonarSource/sonarqube/releases/tag/__LATEST__
 eolColumn: Support
+latestColumn: false
 
 identifiers:
   - repology: sonarqube
@@ -22,51 +23,37 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "26"
+  - releaseCycle: "26.8.0.126808"
     releaseDate: 2026-01-06
-    eol: false
-    latest: "26.8.0.126808"
-    latestReleaseDate: 2026-08-05
+    eol: 2026-09-15
 
-  - releaseCycle: "25"
+  - releaseCycle: "25.12.0.117093"
     releaseDate: 2025-01-07
     eol: 2026-01-06
-    latest: "25.12.0.117093"
-    latestReleaseDate: 2025-12-23
 
-  - releaseCycle: "24"
+  - releaseCycle: "24.12.0.100206"
     releaseDate: 2024-12-02
     eol: 2025-01-07
-    latest: "24.12.0.100206"
-    latestReleaseDate: 2024-12-02
 
-  - releaseCycle: "10"
+  - releaseCycle: "10.7.0.96327"
     releaseDate: 2023-03-30
     eol: 2024-12-02
-    latest: "10.7.0.96327"
-    latestReleaseDate: 2024-09-30
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
-  - releaseCycle: "9"
+  - releaseCycle: "9.9.8.100196"
     releaseDate: 2021-07-05
     eol: 2025-01-20
-    latest: "9.9.8.100196"
-    latestReleaseDate: 2024-12-02
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
-  - releaseCycle: "8"
+  - releaseCycle: "8.9.10.61524"
     releaseDate: 2019-10-15
     eol: 2023-02-07
-    latest: "8.9.10.61524"
-    latestReleaseDate: 2022-10-21
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
 
-  - releaseCycle: "7"
+  - releaseCycle: "7.9.6"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
     releaseDate: 2018-02-02
     eol: 2021-05-04
-    latest: "7.9.6"
-    latestReleaseDate: 2021-03-30
     link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
 
 ---
