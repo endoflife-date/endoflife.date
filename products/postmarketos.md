@@ -5,7 +5,7 @@ category: os
 tags: linux-distribution
 permalink: /postmarketos
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
+releasePolicyLink: https://docs.postmarketos.org/pmaports/main/releases.html
 latestColumn: false
 
 auto:
