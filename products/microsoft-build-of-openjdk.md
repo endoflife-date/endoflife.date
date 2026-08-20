@@ -59,8 +59,8 @@ releases:
     lts: true
     releaseDate: 2019-01-21
     eol: 2027-09-30
-    latest: "11.0.32"
-    latestReleaseDate: 2026-07-21
+    latest: "11.0.32.1"
+    latestReleaseDate: 2026-08-19
 
 ---
 
