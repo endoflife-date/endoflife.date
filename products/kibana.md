@@ -16,86 +16,94 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/elastic/kibana.git
+    - github_releases: elastic/kibana
 
-# For EOL, see https://www.elastic.co/support/eol
+# Elastic provide Maintenance to the most recent two Minor Releases of the then-current Major Release, and the final Minor Release of the previous Major Release.
+# For major EOL, see https://www.elastic.co/support/eol.
 releases:
+  - releaseCycle: "9.5"
+    releaseDate: 2026-08-04
+    eol: false # releaseDate(9.7) until 10.0 is released
+    latest: "9.5.1"
+    latestReleaseDate: 2026-08-11
+    link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
+
   - releaseCycle: "9.4"
-    releaseDate: 2026-04-30
-    eol: false
-    latest: "9.4.4"
-    latestReleaseDate: 2026-07-15
+    releaseDate: 2026-05-05
+    eol: false # releaseDate(9.6) until 10.0 is released
+    latest: "9.4.5"
+    latestReleaseDate: 2026-08-11
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    eol: 2026-08-04
     latest: "9.3.8"
-    latestReleaseDate: 2026-07-15
+    latestReleaseDate: 2026-07-21
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "9.2"
-    releaseDate: 2025-10-21
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    releaseDate: 2025-10-23
+    eol: 2026-05-05
     latest: "9.2.8"
-    latestReleaseDate: 2026-04-02
+    latestReleaseDate: 2026-04-08
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "9.1"
-    releaseDate: 2025-07-23
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    releaseDate: 2025-07-29
+    eol: 2026-02-03
     latest: "9.1.10"
-    latestReleaseDate: 2026-01-08
+    latestReleaseDate: 2026-01-13
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "8.19"
-    releaseDate: 2025-07-23
+    releaseDate: 2025-07-29
     eol: 2027-07-15
-    latest: "8.19.19"
-    latestReleaseDate: 2026-07-15
+    latest: "8.19.20"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "9.0"
-    releaseDate: 2025-04-10
-    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    releaseDate: 2025-04-15
+    eol: 2025-10-23
     latest: "9.0.8"
-    latestReleaseDate: 2025-10-02
+    latestReleaseDate: 2025-10-06
     link: https://www.elastic.co/docs/release-notes/kibana#kibana-__LATEST__-release-notes
 
   - releaseCycle: "8.18"
-    releaseDate: 2025-04-10
+    releaseDate: 2025-04-15
     eol: 2025-10-21
     latest: "8.18.8"
-    latestReleaseDate: 2025-10-02
+    latestReleaseDate: 2025-10-06
 
   - releaseCycle: "8.17"
-    releaseDate: 2024-12-11
-    eol: false # Supposedly until 8.19 released, but they've released twice since
+    releaseDate: 2024-12-12
+    eol: 2025-08-12
     latest: "8.17.10"
-    latestReleaseDate: 2025-08-07
+    latestReleaseDate: 2025-08-12
 
   - releaseCycle: "8.16"
-    releaseDate: 2024-11-07
-    eol: true
+    releaseDate: 2024-11-12
+    eol: 2025-04-15
     latest: "8.16.6"
-    latestReleaseDate: 2025-03-19
+    latestReleaseDate: 2025-03-25
 
   - releaseCycle: "8.15"
-    releaseDate: 2024-08-03
-    eol: true
+    releaseDate: 2024-08-08
+    eol: 2024-12-12
     latest: "8.15.5"
-    latestReleaseDate: 2024-11-21
+    latestReleaseDate: 2024-11-26
 
   - releaseCycle: "8.14"
     releaseDate: 2024-06-05
-    eol: true
+    eol: 2024-11-12
     latest: "8.14.3"
-    latestReleaseDate: 2024-07-08
+    latestReleaseDate: 2024-07-11
 
   - releaseCycle: "7"
     releaseDate: 2019-04-10
     eol: 2026-01-15
     latest: "7.17.29"
-    latestReleaseDate: 2025-06-17
+    latestReleaseDate: 2025-06-24
 
   - releaseCycle: "6"
     releaseDate: 2017-11-14

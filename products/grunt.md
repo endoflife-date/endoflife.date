@@ -26,8 +26,8 @@ releases:
     staleReleaseThresholdDays: 1460 # https://github.com/gruntjs/grunt/issues/1700
     releaseDate: 2023-01-28
     eol: false
-    latest: "1.6.2"
-    latestReleaseDate: 2026-04-14
+    latest: "1.6.3"
+    latestReleaseDate: 2026-07-28
 
   - releaseCycle: "1.5"
     releaseDate: 2022-04-10

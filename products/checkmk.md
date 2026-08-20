@@ -2,7 +2,7 @@
 title: Checkmk
 
 # Added to endoflife.date
-addedAt: 2026-05-23
+addedAt: 2026-06-01
 category: server-app
 tags: monitoring
 iconSlug: checkmk
