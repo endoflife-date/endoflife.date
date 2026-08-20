@@ -29,15 +29,15 @@ releases:
     releaseDate: 2026-08-07
     eoas: 2026-08-07
     eol: 2027-01-31
-    latest: "8.7.0"
-    latestReleaseDate: 2026-08-07
+    latest: "8.7.1"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "8.6"
     releaseDate: 2026-07-03
     eoas: 2026-07-03
     eol: 2027-01-31
-    latest: "8.6.1"
-    latestReleaseDate: 2026-07-10
+    latest: "8.6.2"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "8.5"
     lts: true
