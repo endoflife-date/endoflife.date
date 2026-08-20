@@ -40,7 +40,7 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2025-08-21
     eol: false
-    eoas: 2026-08-12
+    eoas: 2026-08-15
     latest: "5.0.8"
     latestReleaseDate: 2026-07-29
 
