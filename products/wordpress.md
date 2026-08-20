@@ -45,7 +45,6 @@ releases:
     eoas: false
     latest: "7.1.0"
     latestReleaseDate: 2026-08-19
-    link: https://wordpress.org/documentation/wordpress-version/version-7-1/
 
   - releaseCycle: "7.0"
     supportedPHPVersions: "7.4 - 8.5"
@@ -54,7 +53,6 @@ releases:
     eoas: false
     latest: "7.0.4"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-7-0/
 
   - releaseCycle: "6.9"
     supportedPHPVersions: "7.2.24 - 8.5"
@@ -63,7 +61,6 @@ releases:
     eoas: false
     latest: "6.9.7"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-9/
 
   - releaseCycle: "6.8"
     supportedPHPVersions: "7.2.24 - 8.4"
@@ -72,7 +69,6 @@ releases:
     eoas: false
     latest: "6.8.8"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-8/
 
   - releaseCycle: "6.7"
     supportedPHPVersions: "7.2.24 - 8.4"
@@ -81,7 +77,6 @@ releases:
     eoas: false
     latest: "6.7.7"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-7/
 
   - releaseCycle: "6.6"
     supportedPHPVersions: "7.2.24 - 8.3"
@@ -90,7 +85,6 @@ releases:
     eoas: false
     latest: "6.6.7"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-6/
 
   - releaseCycle: "6.5"
     supportedPHPVersions: "7.0 - 8.3"
@@ -99,7 +93,6 @@ releases:
     eoas: false
     latest: "6.5.10"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-5/
 
   - releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
@@ -108,7 +101,6 @@ releases:
     eoas: false
     latest: "6.4.10"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-4/
 
   - releaseCycle: "6.3"
     supportedPHPVersions: "7.0 - 8.2"
@@ -117,7 +109,6 @@ releases:
     eoas: false
     latest: "6.3.10"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-3/
 
   - releaseCycle: "6.2"
     supportedPHPVersions: "5.6.20 - 8.2"
@@ -126,7 +117,6 @@ releases:
     eoas: false
     latest: "6.2.11"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-2/
 
   - releaseCycle: "6.1"
     supportedPHPVersions: "5.6.20 - 8.2"
@@ -135,7 +125,6 @@ releases:
     eoas: false
     latest: "6.1.12"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-1/
 
   - releaseCycle: "6.0"
     supportedPHPVersions: "5.6.20 - 8.1"
@@ -144,7 +133,6 @@ releases:
     eoas: false
     latest: "6.0.14"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-6-0/
 
   - releaseCycle: "5.9"
     supportedPHPVersions: "5.6.20 - 8.1"
@@ -153,7 +141,6 @@ releases:
     eoas: false
     latest: "5.9.16"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-9/
 
   - releaseCycle: "5.8"
     supportedPHPVersions: "5.6.20 - 8.0"
@@ -162,7 +149,6 @@ releases:
     eoas: false
     latest: "5.8.15"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-8/
 
   - releaseCycle: "5.7"
     supportedPHPVersions: "5.6.20 - 8.0"
@@ -171,7 +157,6 @@ releases:
     eoas: false
     latest: "5.7.17"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-7/
 
   - releaseCycle: "5.6"
     supportedPHPVersions: "5.6.20 - 8.0"
@@ -180,7 +165,6 @@ releases:
     eoas: false
     latest: "5.6.19"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-6/
 
   - releaseCycle: "5.5"
     supportedPHPVersions: "5.6.20 - 7.4"
@@ -189,7 +173,6 @@ releases:
     eoas: false
     latest: "5.5.20"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-5/
 
   - releaseCycle: "5.4"
     supportedPHPVersions: "5.6.20 - 7.4"
@@ -198,7 +181,6 @@ releases:
     eoas: false
     latest: "5.4.21"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-4/
 
   - releaseCycle: "5.3"
     supportedPHPVersions: "5.6.20 - 7.4"
@@ -207,7 +189,6 @@ releases:
     eoas: false
     latest: "5.3.23"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-3/
 
   - releaseCycle: "5.2"
     supportedPHPVersions: "5.6.20 - 7.3"
@@ -216,7 +197,6 @@ releases:
     eoas: false
     latest: "5.2.26"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-2/
 
   - releaseCycle: "5.1"
     supportedPHPVersions: "5.2.4 - 7.3"
@@ -225,7 +205,6 @@ releases:
     eoas: false
     latest: "5.1.24"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-1/
 
   - releaseCycle: "5.0"
     supportedPHPVersions: "5.2.4 - 7.3"
@@ -234,7 +213,6 @@ releases:
     eoas: false
     latest: "5.0.27"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-5-0/
 
   - releaseCycle: "4.9"
     supportedPHPVersions: "5.2.4 - 7.2"
@@ -243,7 +221,6 @@ releases:
     eoas: false
     latest: "4.9.31"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-4-9/
 
   - releaseCycle: "4.8"
     supportedPHPVersions: "5.2.4 - 7.1"
@@ -252,7 +229,6 @@ releases:
     eoas: false
     latest: "4.8.30"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-4-8/
 
   - releaseCycle: "4.7"
     supportedPHPVersions: "5.2.4 - 7.1"
@@ -261,7 +237,6 @@ releases:
     eoas: false
     latest: "4.7.35"
     latestReleaseDate: 2026-08-12
-    link: https://wordpress.org/documentation/wordpress-version/version-4-7/
 
   - releaseCycle: "4.6"
     supportedPHPVersions: "5.2.4+"
@@ -270,7 +245,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.6.30"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-6/
 
   - releaseCycle: "4.5"
     supportedPHPVersions: "5.2.4+"
@@ -279,7 +253,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.5.33"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-5/
 
   - releaseCycle: "4.4"
     supportedPHPVersions: "5.2.4+"
@@ -288,7 +261,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.4.34"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-4/
 
   - releaseCycle: "4.3"
     supportedPHPVersions: "5.2.4+"
@@ -297,7 +269,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.3.35"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-3/
 
   - releaseCycle: "4.2"
     supportedPHPVersions: "5.2.4+"
@@ -306,7 +277,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.2.39"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-2/
 
   - releaseCycle: "4.1"
     supportedPHPVersions: "5.2.4+"
@@ -315,7 +285,6 @@ releases:
     eoas: 2025-07-17
     latest: "4.1.42"
     latestReleaseDate: 2025-07-15
-    link: https://wordpress.org/documentation/wordpress-version/version-4-1/
 
   - releaseCycle: "4.0"
     supportedPHPVersions: "5.2.4+"
@@ -324,7 +293,6 @@ releases:
     eoas: 2022-12-01
     latest: "4.0.38"
     latestReleaseDate: 2022-11-30
-    link: https://wordpress.org/documentation/wordpress-version/version-4-0/
 
   - releaseCycle: "3.9"
     supportedPHPVersions: "5.2.4+"
@@ -333,7 +301,6 @@ releases:
     eoas: 2022-12-01
     latest: "3.9.40"
     latestReleaseDate: 2022-11-30
-    link: https://wordpress.org/documentation/wordpress-version/version-3-9/
 
   - releaseCycle: "3.8"
     supportedPHPVersions: "5.2.4+"
@@ -342,7 +309,6 @@ releases:
     eoas: 2022-12-01
     latest: "3.8.41"
     latestReleaseDate: 2022-11-30
-    link: https://wordpress.org/documentation/wordpress-version/version-3-8/
 
   - releaseCycle: "3.7"
     supportedPHPVersions: "5.2.4+"
@@ -351,7 +317,6 @@ releases:
     eoas: 2022-12-01
     latest: "3.7.41"
     latestReleaseDate: 2022-11-30
-    link: https://wordpress.org/documentation/wordpress-version/version-3-7/
 
   - releaseCycle: "3.6"
     supportedPHPVersions: "5.2.4+"
@@ -360,156 +325,161 @@ releases:
     eoas: 2022-12-01
     latest: "3.6.1"
     latestReleaseDate: 2013-09-11
-    link: https://wordpress.org/documentation/wordpress-version/version-3-6/
 
   - releaseCycle: "3.5"
     supportedPHPVersions: "5.2.4+"
     releaseDate: 2012-12-11
     eol: 2013-08-01 # releaseDate(3.6)
+    eoas: true
     latest: "3.5.2"
     latestReleaseDate: 2013-06-21
-    link: https://wordpress.org/documentation/wordpress-version/version-3-5/
 
   - releaseCycle: "3.4"
     supportedPHPVersions: "5.2.4+"
     releaseDate: 2012-06-13
     eol: 2012-12-11 # releaseDate(3.5)
+    eoas: true
     latest: "3.4.2"
     latestReleaseDate: 2012-09-06
-    link: https://wordpress.org/documentation/wordpress-version/version-3-4/
 
   - releaseCycle: "3.3"
     supportedPHPVersions: "5.2.4+"
     releaseDate: 2011-12-12
     eol: 2012-06-13 # releaseDate(3.4)
+    eoas: true
     latest: "3.3.3"
     latestReleaseDate: 2012-06-27
-    link: https://wordpress.org/documentation/wordpress-version/version-3-3/
 
   - releaseCycle: "3.2"
     supportedPHPVersions: "5.2.4+"
     releaseDate: 2011-07-04
     eol: 2011-12-12 # releaseDate(3.3)
+    eoas: true
     latest: "3.2.1"
     latestReleaseDate: 2011-07-12
-    link: https://wordpress.org/documentation/wordpress-version/version-3-2/
 
   - releaseCycle: "3.1"
     supportedPHPVersions: "4.3+"
     releaseDate: 2011-02-23
     eol: 2011-07-04 # releaseDate(3.2)
+    eoas: true
     latest: "3.1.4"
     latestReleaseDate: 2011-06-29
-    link: https://wordpress.org/documentation/wordpress-version/version-3-1/
 
   - releaseCycle: "3.0"
     supportedPHPVersions: "4.3+"
     releaseDate: 2010-06-17
     eol: 2011-02-23 # releaseDate(3.1)
+    eoas: true
     latest: "3.0.6"
     latestReleaseDate: 2011-04-26
-    link: https://wordpress.org/documentation/wordpress-version/version-3-0/
 
   - releaseCycle: "2.9"
     supportedPHPVersions: "4.3+"
     releaseDate: 2009-12-18
     eol: 2010-06-17 # releaseDate(3.0)
+    eoas: true
     latest: "2.9.2"
     latestReleaseDate: 2010-02-15
-    link: https://wordpress.org/documentation/wordpress-version/version-2-9/
 
   - releaseCycle: "2.8"
     supportedPHPVersions: "4.3+"
     releaseDate: 2009-09-10
     eol: 2009-12-18 # releaseDate(2.9)
+    eoas: true
     latest: "2.8.6"
     latestReleaseDate: 2009-11-12
-    link: https://wordpress.org/documentation/wordpress-version/version-2-8/
 
   - releaseCycle: "2.7"
     supportedPHPVersions: "4.3+"
     releaseDate: 2008-12-10
     eol: 2009-09-10 # releaseDate(2.8)
+    eoas: true
     latest: "2.7.1"
     latestReleaseDate: 2009-02-10
-    link: https://wordpress.org/documentation/wordpress-version/version-2-7/
 
   - releaseCycle: "2.6"
     supportedPHPVersions: "4.3+"
     releaseDate: 2008-07-14
     eol: 2008-12-10 # releaseDate(2.7)
+    eoas: true
     latest: "2.6.5"
     latestReleaseDate: 2008-11-25
-    link: https://wordpress.org/documentation/wordpress-version/version-2-6/
 
   - releaseCycle: "2.5"
     supportedPHPVersions: "4.3+"
     releaseDate: 2008-03-29
     eol: 2008-07-14 # releaseDate(2.6)
+    eoas: true
     latest: "2.5.1"
     latestReleaseDate: 2008-04-25
-    link: https://wordpress.org/documentation/wordpress-version/version-2-5/
 
   - releaseCycle: "2.3"
     supportedPHPVersions: "4.2+"
     releaseDate: 2007-09-24
     eol: 2008-03-29 # releaseDate(2.5)
+    eoas: true
     latest: "2.3.3"
     latestReleaseDate: 2008-02-05
-    link: https://wordpress.org/documentation/wordpress-version/version-2-3/
 
   - releaseCycle: "2.2"
     supportedPHPVersions: "4.2+"
     releaseDate: 2007-05-15
     eol: 2007-09-24 # releaseDate(2.3)
+    eoas: true
     latest: "2.2.3"
     latestReleaseDate: 2007-09-24
-    link: https://wordpress.org/documentation/wordpress-version/version-2-2/
 
   - releaseCycle: "2.1"
     supportedPHPVersions: "4.2+"
     releaseDate: 2007-01-22
     eol: 2007-09-24 # releaseDate(2.3)
+    eoas: true
     latest: "2.1.3"
     latestReleaseDate: 2007-09-24
-    link: https://wordpress.org/documentation/wordpress-version/version-2-1/
 
   - releaseCycle: "2.0"
     supportedPHPVersions: "4.2+"
     releaseDate: 2005-12-26
+    eol: true
+    eoas: true
     latest: "2.0.11"
     latestReleaseDate: 2007-08-05
-    link: https://wordpress.org/documentation/wordpress-version/version-2-0/
 
   - releaseCycle: "1.5"
     releaseDate: 2005-02-17
+    eol: true
+    eoas: true
     latest: "1.5.2"
     latestReleaseDate: 2005-08-14
-    link: https://wordpress.org/documentation/wordpress-version/version-1-5/
 
   - releaseCycle: "1.2"
     releaseDate: 2004-05-22
+    eol: true
+    eoas: true
     latest: "1.2.1"
     latestReleaseDate: 2004-10-06
-    link: https://wordpress.org/documentation/wordpress-version/version-1-2/
 
   - releaseCycle: "1.0"
     releaseDate: 2004-01-03
+    eol: true
+    eoas: true
     latest: "1.0.2"
     latestReleaseDate: 2004-03-11
-    link: https://wordpress.org/documentation/wordpress-version/version-1-0/
 
   - releaseCycle: "0.72"
     releaseDate: 2003-10-11
+    eol: true
+    eoas: true
     latest: "0.72"
     latestReleaseDate: 2003-10-11
-    link: https://wordpress.org/documentation/wordpress-version/version-0-72/
 
   - releaseCycle: "0.71"
     releaseDate: 2003-06-09
+    eol: true
+    eoas: true
     latest: "0.711"
     latestReleaseDate: 2003-06-25
-    link: https://wordpress.org/documentation/wordpress-version/version-0-71/
 
 ---
 
