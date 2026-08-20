@@ -23,7 +23,7 @@ auto:
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
-# Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
+# Upcoming release dates are available on https://handbook.gitlab.com/handbook/engineering/releases/monthly-releases/#monthly-release-schedule
 releases:
   - releaseCycle: "19.3"
     releaseDate: 2026-08-20
