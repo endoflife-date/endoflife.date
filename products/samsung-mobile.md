@@ -255,7 +255,7 @@ releases:
     releaseLabel: "Galaxy A56 5G"
     releaseDate: 2025-03-28 # https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
     eoas: 2031-03-28 # 6 android upgrade - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
-    eol: 2031-03-28 # 6 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eol: 2031-03-28 # 7 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
     link: https://doc.samsungmobile.com/SM-A5660/TGY/doc.html
 
   - releaseCycle: "galaxy-a36-5g"
