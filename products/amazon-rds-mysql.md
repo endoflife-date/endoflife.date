@@ -158,7 +158,7 @@ releases:
     eol: 2024-02-29
     eoes: 2029-06-30
     latest: "5.7.44"
-    latestReleaseDate: 2025-02-13
+    latestReleaseDate: 2025-03-12
 
   - releaseCycle: "5.6"
     releaseDate: 2013-07-01

@@ -29,8 +29,8 @@ releases:
     codename: "Tahoe"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.6.1"
-    latestReleaseDate: 2026-08-06
+    latest: "26.6.2"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "15"
     codename: "Sequoia"

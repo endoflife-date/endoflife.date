@@ -25,14 +25,14 @@ releases:
   - releaseCycle: "1.12"
     releaseDate: 2026-05-14
     eol: false # releaseDate(1.15)
-    latest: "1.12.5"
-    latestReleaseDate: 2026-07-21
+    latest: "1.12.6"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-09
     eol: false # releaseDate(1.14)
-    latest: "1.11.13"
-    latestReleaseDate: 2026-07-21
+    latest: "1.11.14"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-24

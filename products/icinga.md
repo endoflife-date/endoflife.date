@@ -32,15 +32,15 @@ releases:
     releaseDate: 2026-04-23
     eoas: false
     eol: false
-    latest: "2.16.4"
-    latestReleaseDate: 2026-07-14
+    latest: "2.16.5"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "2.15"
     releaseDate: 2025-06-17
     eoas: 2026-04-23
     eol: false
-    latest: "2.15.5"
-    latestReleaseDate: 2026-06-30
+    latest: "2.15.6"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "2.14"
     releaseDate: 2023-07-12
