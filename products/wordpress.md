@@ -478,7 +478,7 @@ releases:
     supportedPHPVersions: "4.2+"
     releaseDate: 2005-12-26
     latest: "2.0.11"
-    latestReleaseDate: 2007-09-24
+    latestReleaseDate: 2007-08-05
     link: https://wordpress.org/documentation/wordpress-version/version-2-0/
 
   - releaseCycle: "1.5"
