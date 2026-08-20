@@ -43,7 +43,7 @@ releases:
     lts: true
     releaseDate: 2026-06-10
     eoas: 2026-06-10
-    eol: 2026-07-10
+    eol: 2027-07-31
     latest: "8.5.2"
     latestReleaseDate: 2026-07-10
 
