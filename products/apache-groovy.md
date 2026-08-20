@@ -31,11 +31,11 @@ auto:
 # eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
   - releaseCycle: "5.1"
-    releaseDate: 2026-08-12
+    releaseDate: 2026-08-15
     eol: false
     eoas: false
     latest: "5.1.0"
-    latestReleaseDate: 2026-08-12
+    latestReleaseDate: 2026-08-15
 
   - releaseCycle: "5.0"
     releaseDate: 2025-08-21
