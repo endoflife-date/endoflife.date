@@ -368,6 +368,133 @@ releases:
     latestReleaseDate: 2013-06-21
     link: https://wordpress.org/documentation/wordpress-version/version-3-5/
 
+  - releaseCycle: "3.4"
+    releaseDate: 2012-06-13
+    eol: 2012-12-11 # releaseDate(3.5)
+    latest: "3.4.2"
+    latestReleaseDate: 2012-09-06
+    link: https://wordpress.org/documentation/wordpress-version/version-3-4/
+
+  - releaseCycle: "3.3"
+    releaseDate: 2011-12-12
+    eol: 2012-06-13 # releaseDate(3.4)
+    latest: "3.3.3"
+    latestReleaseDate: 2012-06-27
+    link: https://wordpress.org/documentation/wordpress-version/version-3-3/
+
+  - releaseCycle: "3.2"
+    releaseDate: 2011-07-04
+    eol: 2011-12-12 # releaseDate(3.3)
+    latest: "3.2.1"
+    latestReleaseDate: 2011-07-12
+    link: https://wordpress.org/documentation/wordpress-version/version-3-2/
+
+  - releaseCycle: "3.1"
+    releaseDate: 2011-02-23
+    eol: 2011-07-04 # releaseDate(3.2)
+    latest: "3.1.4"
+    latestReleaseDate: 2011-06-29
+    link: https://wordpress.org/documentation/wordpress-version/version-3-1/
+
+  - releaseCycle: "3.0"
+    releaseDate: 2010-06-17
+    eol: 2011-02-23 # releaseDate(3.1)
+    latest: "3.0.6"
+    latestReleaseDate: 2011-04-26
+    link: https://wordpress.org/documentation/wordpress-version/version-3-0/
+
+  - releaseCycle: "2.9"
+    releaseDate: 2009-12-18
+    eol: 2010-06-17 # releaseDate(3.0)
+    latest: "2.9.2"
+    latestReleaseDate: 2010-02-15
+    link: https://wordpress.org/documentation/wordpress-version/version-2-9/
+
+  - releaseCycle: "2.8"
+    releaseDate: 2009-09-10
+    eol: 2009-12-18 # releaseDate(2.9)
+    latest: "2.8.6"
+    latestReleaseDate: 2009-11-12
+    link: https://wordpress.org/documentation/wordpress-version/version-2-8/
+
+  - releaseCycle: "2.7"
+    releaseDate: 2008-12-10
+    eol: 2009-09-10 # releaseDate(2.8)
+    latest: "2.7.1"
+    latestReleaseDate: 2009-02-10
+    link: https://wordpress.org/documentation/wordpress-version/version-2-7/
+
+  - releaseCycle: "2.6"
+    releaseDate: 2008-07-14
+    eol: 2008-12-10 # releaseDate(2.7)
+    latest: "2.6.5"
+    latestReleaseDate: 2008-11-25
+    link: https://wordpress.org/documentation/wordpress-version/version-2-6/
+
+  - releaseCycle: "2.5"
+    releaseDate: 2008-03-29
+    eol: 2008-07-14 # releaseDate(2.6)
+    latest: "2.5.1"
+    latestReleaseDate: 2008-04-25
+    link: https://wordpress.org/documentation/wordpress-version/version-2-5/
+
+  - releaseCycle: "2.3"
+    releaseDate: 2007-09-24
+    eol: 2008-03-29 # releaseDate(2.5)
+    latest: "2.3.3"
+    latestReleaseDate: 2008-02-05
+    link: https://wordpress.org/documentation/wordpress-version/version-2-3/
+
+  - releaseCycle: "2.2"
+    releaseDate: 2007-05-15
+    eol: 2007-09-24 # releaseDate(2.3)
+    latest: "2.2.3"
+    latestReleaseDate: 2007-09-24
+    link: https://wordpress.org/documentation/wordpress-version/version-2-2/
+
+  - releaseCycle: "2.1"
+    releaseDate: 2007-01-22
+    eol: 2007-09-24 # releaseDate(2.3)
+    latest: "2.1.3"
+    latestReleaseDate: 2007-09-24
+    link: https://wordpress.org/documentation/wordpress-version/version-2-1/
+
+  - releaseCycle: "2.0"
+    releaseDate: 2005-12-26
+    latest: "2.0.11"
+    latestReleaseDate: 2007-09-24
+    link: https://wordpress.org/documentation/wordpress-version/version-2-0/
+
+  - releaseCycle: "1.5"
+    releaseDate: 2005-02-17
+    latest: "1.5.2"
+    latestReleaseDate: 2005-08-14
+    link: https://wordpress.org/documentation/wordpress-version/version-1-5/
+
+  - releaseCycle: "1.2"
+    releaseDate: 2004-05-22
+    latest: "1.2.1"
+    latestReleaseDate: 2004-10-06
+    link: https://wordpress.org/documentation/wordpress-version/version-1-2/
+
+  - releaseCycle: "1.0"
+    releaseDate: 2004-01-03
+    latest: "1.0.2"
+    latestReleaseDate: 2004-03-11
+    link: https://wordpress.org/documentation/wordpress-version/version-1-0/
+
+  - releaseCycle: "0.72"
+    releaseDate: 2003-10-11
+    latest: "0.72"
+    latestReleaseDate: 2003-10-11
+    link: https://wordpress.org/documentation/wordpress-version/version-0-72/
+
+  - releaseCycle: "0.71"
+    releaseDate: 2003-06-09
+    latest: "0.711"
+    latestReleaseDate: 2003-06-25
+    link: https://wordpress.org/documentation/wordpress-version/version-0-71/
+
 ---
 
 > [WordPress](https://wordpress.org/) is a free and open-source content management system (CMS)
