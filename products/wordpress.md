@@ -239,7 +239,7 @@ releases:
     latestReleaseDate: 2026-08-12
 
   - releaseCycle: "4.6"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 7.0"
     releaseDate: 2016-08-16
     eol: 2016-12-06 # releaseDate(4.7)
     eoas: 2025-07-17
@@ -247,7 +247,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.5"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 7.0"
     releaseDate: 2016-04-12
     eol: 2016-08-16 # releaseDate(4.6)
     eoas: 2025-07-17
@@ -255,7 +255,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.4"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 7.0"
     releaseDate: 2015-12-09
     eol: 2016-04-12 # releaseDate(4.5)
     eoas: 2025-07-17
@@ -263,7 +263,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.3"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.6"
     releaseDate: 2015-08-18
     eol: 2015-12-09 # releaseDate(4.4)
     eoas: 2025-07-17
@@ -271,7 +271,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.2"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.6"
     releaseDate: 2015-04-23
     eol: 2015-08-18 # releaseDate(4.3)
     eoas: 2025-07-17
@@ -279,7 +279,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.1"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.6"
     releaseDate: 2014-12-18
     eol: 2015-04-23 # releaseDate(4.2)
     eoas: 2025-07-17
@@ -287,7 +287,7 @@ releases:
     latestReleaseDate: 2025-07-15
 
   - releaseCycle: "4.0"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.5"
     releaseDate: 2014-09-04
     eol: 2014-12-18 # releaseDate(4.1)
     eoas: 2022-12-01
@@ -295,7 +295,7 @@ releases:
     latestReleaseDate: 2022-11-30
 
   - releaseCycle: "3.9"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.5"
     releaseDate: 2014-04-16
     eol: 2014-09-04 # releaseDate(4.0)
     eoas: 2022-12-01
@@ -303,7 +303,7 @@ releases:
     latestReleaseDate: 2022-11-30
 
   - releaseCycle: "3.8"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.5"
     releaseDate: 2013-12-12
     eol: 2014-04-16 # releaseDate(3.9)
     eoas: 2022-12-01
@@ -311,7 +311,7 @@ releases:
     latestReleaseDate: 2022-11-30
 
   - releaseCycle: "3.7"
-    supportedPHPVersions: "5.2.4+"
+    supportedPHPVersions: "5.2.4 - 5.5"
     releaseDate: 2013-10-24
     eol: 2013-12-12 # releaseDate(3.8)
     eoas: 2022-12-01
@@ -447,6 +447,7 @@ releases:
     latestReleaseDate: 2007-08-05
 
   - releaseCycle: "1.5"
+    supportedPHPVersions: "4.1+"
     releaseDate: 2005-02-17
     eol: true
     eoas: true
@@ -454,6 +455,7 @@ releases:
     latestReleaseDate: 2005-08-14
 
   - releaseCycle: "1.2"
+    supportedPHPVersions: "4.1+"
     releaseDate: 2004-05-22
     eol: true
     eoas: true
@@ -461,6 +463,7 @@ releases:
     latestReleaseDate: 2004-10-06
 
   - releaseCycle: "1.0"
+    supportedPHPVersions: "4.1+"
     releaseDate: 2004-01-03
     eol: true
     eoas: true
@@ -468,6 +471,7 @@ releases:
     latestReleaseDate: 2004-03-11
 
   - releaseCycle: "0.72"
+    supportedPHPVersions: "4.1+"
     releaseDate: 2003-10-11
     eol: true
     eoas: true
@@ -475,6 +479,7 @@ releases:
     latestReleaseDate: 2003-10-11
 
   - releaseCycle: "0.71"
+    supportedPHPVersions: "4.1+"
     releaseDate: 2003-06-09
     eol: true
     eoas: true
