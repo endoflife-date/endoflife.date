@@ -6,7 +6,7 @@ tags: gitlab
 iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
-releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
+releasePolicyLink: https://docs.gitlab.com/policy/maintenance/
 changelogTemplate: 'https://docs.gitlab.com/releases/{{ "__RELEASE_CYCLE__" | split: "." | first }}/gitlab-{{ "__RELEASE_CYCLE__" | replace: ".", "-" }}-released/'
 eoasColumn: true
 eolColumn: Maintenance Support
@@ -526,7 +526,7 @@ and are announced on the [blog](https://about.gitlab.com/blog/).
 You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well.
 A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/) to track new features since a given version.
 
-GitLab is distributed as [two distinct flavors](https://about.gitlab.com/install/ce-or-ee/)
+GitLab is distributed as [two distinct flavors](https://about.gitlab.com/install/)
 public Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 
 - [Community Edition (`CE`)](https://gitlab.com/rluna-gitlab/gitlab-ce) : [`gitlab/gitlab-ce`](https://hub.docker.com/r/gitlab/gitlab-ce/)
@@ -539,8 +539,8 @@ Critical bug fixes can rarely be backported based on [a set of criteria](https:/
 | Version Type | Description                                                                                                                                                         | Cadence                                                                                                                           |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
 | Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                                | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default.               |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.     | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/)). |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.     | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/). |
 | Patch        | For backward-compatible bug fixes that fix incorrect behavior. See GitLab's [Patch release](https://docs.gitlab.com/policy/maintenance/#patch-releases) definition. | Twice monthly, scheduled for the Wednesday the week before and the Wednesday the week after the monthly minor release.            |
 
 
-[release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
+[release-day]: https://about.gitlab.com/blog/gitlab-release-date-change/ "Release Date Change"
