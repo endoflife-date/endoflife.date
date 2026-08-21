@@ -63,11 +63,23 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # For eol / eoes see https://ionicframework.com/docs/reference/support#framework-maintenance-and-support-status.
 releases:
-  - releaseCycle: "8"
-    releaseDate: 2024-04-17
+  - releaseCycle: "9"
+    releaseDate: 2026-08-19
     eoas: false
     eol: false
     eoes: false
+    minAngularVersion: v18
+    maxAngularVersion: v22.x
+    supportedReactVersions: v18+
+    supportedVueVersions: v3.5+
+    latest: "9.0.0"
+    latestReleaseDate: 2026-08-19
+
+  - releaseCycle: "8"
+    releaseDate: 2024-04-17
+    eoas: 2026-08-19
+    eol: 2027-02-19
+    eoes: 2027-08-19
     minAngularVersion: v16
     maxAngularVersion: v20.x
     supportedReactVersions: v17+
