@@ -39,10 +39,31 @@ auto:
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
-# 
+#
 # IMPORTANT: When adding a new model here, add it to the above regex exclude above
 # IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
+  - releaseCycle: "galaxy-z-flip8"
+    releaseLabel: "Galaxy Z Flip8"
+    releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    link: null # not found
+
+  - releaseCycle: "galaxy-z-fold8"
+    releaseLabel: "Galaxy Z Fold8"
+    releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    link: null # not found
+
+  - releaseCycle: "galaxy-z-fold8-ultra"
+    releaseLabel: "Galaxy Z Fold8 Ultra"
+    releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
+    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    link: null # not found
+
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
     releaseDate: 2026-04-10 # https://news.samsung.com/global/samsung-unveils-galaxy-a57-5g-and-galaxy-a37-5g-packing-pro-level-features-at-awesome-price
@@ -234,7 +255,7 @@ releases:
     releaseLabel: "Galaxy A56 5G"
     releaseDate: 2025-03-28 # https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
     eoas: 2031-03-28 # 6 android upgrade - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
-    eol: 2031-03-28 # 6 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eol: 2031-03-28 # 7 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
     link: https://doc.samsungmobile.com/SM-A5660/TGY/doc.html
 
   - releaseCycle: "galaxy-a36-5g"

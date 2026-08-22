@@ -44,15 +44,15 @@ releases:
     releaseDate: 2026-02-23
     eoas: false
     eol: false
-    latest: "4.1.8"
-    latestReleaseDate: 2026-08-07
+    latest: "4.1.11"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "3"
     releaseDate: 2022-11-01
     eoas: 2026-07-27
     eol: 2027-07-27
-    latest: "3.13.1"
-    latestReleaseDate: 2026-08-07
+    latest: "3.13.2"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "2"
     releaseDate: 2019-07-23

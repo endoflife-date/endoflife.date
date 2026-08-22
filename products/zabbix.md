@@ -26,7 +26,7 @@ releases:
   - releaseCycle: "7.4"
     releaseDate: 2025-06-30
     eoas: false # until 8.0 LTS
-    eol: 2026-09-30 # Q3 2026
+    eol: 2026-12-31 # Q4 2026, https://www.zabbix.com/life_cycle_and_release_policy#:~:text=Currently%20Supported%20Zabbix%20Releases
     latest: "7.4.13"
     latestReleaseDate: 2026-07-29
 
