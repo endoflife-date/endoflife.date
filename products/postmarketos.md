@@ -5,7 +5,7 @@ category: os
 tags: linux-distribution
 permalink: /postmarketos
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
+releasePolicyLink: https://docs.postmarketos.org/pmaports/main/releases.html
 latestColumn: false
 
 auto:
@@ -18,9 +18,16 @@ auto:
 
 # eol(x) = releaseDate(x+1) + 1 month
 releases:
+  - releaseCycle: "26.06"
+    releaseDate: 2026-06-21
+    eol: 2027-01-31
+    latest: "26.06"
+    latestReleaseDate: 2026-06-21
+    link: https://postmarketos.org/blog/2026/06/21/v26.06-release/
+
   - releaseCycle: "25.12"
     releaseDate: 2025-12-23
-    eol: false
+    eol: 2026-07-31
     latest: "25.12"
     latestReleaseDate: 2025-12-23
     link: https://postmarketos.org/blog/2025/12/23/v25.12-release/
