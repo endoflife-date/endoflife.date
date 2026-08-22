@@ -17,7 +17,7 @@ staleReleaseThresholdDays: 1825 # devices have longer support periods
 # Useful information can be found on:
 # - https://news.samsung.com (releaseDate, eoas, eol - search on Google with "<model> site:news.samsung.com")
 # - https://www.gsmarena.com/ (releaseDate)
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol - domain is dead, archived snapshot)
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
