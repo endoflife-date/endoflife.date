@@ -170,7 +170,7 @@ releases:
 
   - releaseCycle: "cm1"
     releaseLabel: Compute Module 1
-    # https://www.raspberrypi.org/raspberry-pi-compute-module-new-product/
+    # https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/
     releaseDate: 2014-04-07
     eol: 2026-01-01
     link: https://www.raspberrypi.com/products/compute-module-1/
