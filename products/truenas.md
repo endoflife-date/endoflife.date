@@ -16,7 +16,6 @@ releases:
     releaseDate: 2025-10-28
     eol: false
     link: https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/
-    latest: "25.10.5"
     latest: "25.10.6"
     latestReleaseDate: 2026-08-12
 
