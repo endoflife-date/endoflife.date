@@ -4,8 +4,9 @@ addedAt: 2026-08-12
 category: service
 tags: amazon
 permalink: /amazon-mq-activemq
-releasePolicyLink: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-support.html
+releasePolicyLink: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html
 latestColumn: false
+staleReleaseThresholdDays: 1460 # 4 years
 
 releases:
   - releaseCycle: "5.19"
