@@ -6,6 +6,7 @@ tags: amazon
 permalink: /amazon-mq-rabbitmq
 releasePolicyLink: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html
 latestColumn: false
+staleReleaseThresholdDays: 1095 # 3 years
 
 releases:
   - releaseCycle: "4.2"
