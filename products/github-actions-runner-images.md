@@ -93,10 +93,9 @@ releases:
   - releaseCycle: "ubuntu-22.04"
     releaseLabel: "Ubuntu 22.04"
     releaseDate: 2022-08-09 # https://github.blog/changelog/2022-08-09-github-actions-ubuntu-22-04-is-now-generally-available-on-github-hosted-runners/
-    eoas: false
-    eol: false
+    eoas: 2026-09-17 # https://github.com/actions/runner-images/issues/14254
+    eol: 2027-04-17 # https://github.com/actions/runner-images/issues/14254
     link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
-    staleReleaseThresholdDays: 1825 # still not announced
 
   - releaseCycle: "macos-12"
     releaseLabel: "macOS 12"
