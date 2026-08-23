@@ -1,13 +1,15 @@
 ---
 title: TrueNAS
-addedAt: 2025-12-28
+addedAt: 2026-08-23
 category: os
 tags: linux-distribution
 iconSlug: truenas
 permalink: /truenas
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.truenas.com/docs/softwarestatus/
+releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 
+# versions listed on https://www.truenas.com/docs/softwarestatus/#release-schedule
 releases:
   - releaseCycle: "25.10"
     codename: "Goldeye"
@@ -15,7 +17,8 @@ releases:
     eol: false
     link: https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/
     latest: "25.10.5"
-    latestReleaseDate: 2026-07-23
+    latest: "25.10.6"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "25.04"
     codename: "Fangtooth"
