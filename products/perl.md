@@ -5,7 +5,6 @@ category: lang
 iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
-releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
@@ -38,19 +37,26 @@ auto:
 #   - false for the last 2 releases
 #   - releaseDate(R+2) for other releases (e.g. support(5.34) = releaseDate(5.36))
 releases:
+  - releaseCycle: "5.44"
+    releaseDate: 2026-07-15
+    eoas: false
+    eol: 2029-07-15
+    latest: "5.44.0"
+    latestReleaseDate: 2026-07-15
+
   - releaseCycle: "5.42"
     releaseDate: 2025-07-03
     eoas: false
     eol: 2028-07-03
-    latest: "5.42.0"
-    latestReleaseDate: 2025-07-03
+    latest: "5.42.3"
+    latestReleaseDate: 2026-08-02
 
   - releaseCycle: "5.40"
     releaseDate: 2024-06-09
-    eoas: false
+    eoas: 2026-07-15
     eol: 2027-06-09
-    latest: "5.40.3"
-    latestReleaseDate: 2025-08-03
+    latest: "5.40.5"
+    latestReleaseDate: 2026-08-02
 
   - releaseCycle: "5.38"
     releaseDate: 2023-07-02
@@ -100,6 +106,7 @@ releases:
     eol: 2020-05-30
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
+
 ---
 
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30

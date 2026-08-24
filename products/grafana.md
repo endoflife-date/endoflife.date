@@ -4,7 +4,13 @@ addedAt: 2022-11-02
 category: server-app
 iconSlug: grafana
 permalink: /grafana
-versionCommand: grafana-server -v
+versionCommand: |-
+  # For Grafana >= 13
+  grafana --version
+
+  # For Grafana < 13
+  grafana-server -v
+
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 eoasColumn: true
 
@@ -12,6 +18,7 @@ identifiers:
   - repology: grafana
   - purl: pkg:github/grafana/grafana
   - purl: pkg:golang/github.com/grafana/grafana
+  - cpe: cpe:2.3:a:grafana:grafana
 
 # See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
 # https://regex101.com/r/2GkIJ5/1
@@ -31,40 +38,68 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
+  - releaseCycle: "13.2"
+    releaseDate: 2026-08-18
+    eoas: false # releaseDate(13.3)
+    eol: 2027-05-18 # not listed on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support yet
+    latest: "13.2.0"
+    latestReleaseDate: 2026-08-18
+
+  - releaseCycle: "13.1"
+    releaseDate: 2026-06-23 # 13.0.1 was the first version
+    eoas: 2026-08-18
+    eol: 2027-03-20
+    latest: "13.1.4"
+    latestReleaseDate: 2026-08-18
+
+  - releaseCycle: "13.0"
+    releaseDate: 2026-04-14 # 13.0.1 was the first version
+    eoas: 2026-06-22
+    eol: 2027-01-09
+    latest: "13.0.7"
+    latestReleaseDate: 2026-08-18
+
+  - releaseCycle: "12.4"
+    releaseDate: 2026-02-24
+    eoas: 2026-04-17
+    eol: 2027-05-24
+    latest: "12.4.9"
+    latestReleaseDate: 2026-08-18
+
   - releaseCycle: "12.3"
-    releaseDate: 2025-11-18
+    releaseDate: 2025-11-19
     eoas: 2026-02-24
-    eol: 2026-08-18
-    latest: "12.3"
-    latestReleaseDate: 2025-11-18
-    
+    eol: 2026-08-19
+    latest: "12.3.11"
+    latestReleaseDate: 2026-08-18
+
   - releaseCycle: "12.2"
     releaseDate: 2025-09-23
     eoas: 2025-11-19
     eol: 2026-06-23
-    latest: "12.2.2"
-    latestReleaseDate: 2025-11-19
+    latest: "12.2.10"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "12.1"
     releaseDate: 2025-07-22
     eoas: 2025-09-23
     eol: 2026-04-22
-    latest: "12.1.4"
-    latestReleaseDate: 2025-11-19
+    latest: "12.1.10+security-01"
+    latestReleaseDate: 2026-03-25
 
   - releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: 2025-07-22
     eol: 2026-02-05
-    latest: "12.0.7"
-    latestReleaseDate: 2025-11-19
+    latest: "12.0.10"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "11.6"
     releaseDate: 2025-03-25
     eoas: 2025-05-05
     eol: 2026-06-25
-    latest: "11.6.8"
-    latestReleaseDate: 2025-11-19
+    latest: "11.6.16"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "11.5"
     releaseDate: 2025-01-28

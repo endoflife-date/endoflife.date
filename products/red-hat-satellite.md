@@ -13,7 +13,6 @@ versionCommand: |-
 
   # or, on older versions
   yum info satellite
-releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
@@ -30,33 +29,40 @@ auto:
 
 # eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
+  - releaseCycle: "6.19"
+    releaseDate: 2026-05-06
+    eoas: 2026-11-01 # Estimated
+    eol: 2027-11-01 # Estimated
+    latest: "6.19.3"
+    latestReleaseDate: 2026-08-04
+
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
-    eoas: false
-    eol: false
-    latest: "6.18.1"
-    latestReleaseDate: 2025-11-20
+    eoas: 2026-05-06
+    eol: 2027-05-01 # Estimated
+    latest: "6.18.7"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "6.17"
     releaseDate: 2025-05-06
     eoas: 2025-11-30
     eol: 2026-11-30 # estimated
-    latest: "6.17.6.1"
-    latestReleaseDate: 2025-11-20
+    latest: "6.17.9"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
-    latest: "6.16.5.6"
-    latestReleaseDate: 2025-11-20
+    latest: "6.16.10"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
-    latest: "6.15.5.7"
-    latestReleaseDate: 2025-11-20
+    latest: "6.15.5.8"
+    latestReleaseDate: 2025-12-02
 
   - releaseCycle: "6.14"
     releaseDate: 2023-11-08

@@ -12,11 +12,11 @@ eoesColumn: Support Life
 releases:
   - releaseCycle: "5.0"
     releaseDate: 2023-06-01
-    eol: 2026-06-01
-    eoes: 2028-10-30
-    latest: "5.0-20250731"
-    latestReleaseDate: 2025-07-31
-    link: https://docs.daocloud.io/en/dce/dce-rn/20240730.html
+    eol: 2029-01-31
+    eoes: 2031-01-31
+    latest: "5.0-20260131"
+    latestReleaseDate: 2026-01-31
+    link: https://docs.daocloud.io/en/dce/dce-rn/20260131/
 
   - releaseCycle: "4.0"
     releaseDate: 2020-03-31

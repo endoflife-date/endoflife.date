@@ -21,33 +21,39 @@ auto:
         eol: "RDS end of standard support date"
 
 releases:
+  - releaseCycle: "12.3"
+    releaseDate: 2026-08-07
+    eol: 2029-06-30
+    latest: "12.3.2"
+    latestReleaseDate: 2026-08-07
+
   - releaseCycle: "11.8"
     releaseDate: 2025-08-25
-    eol: 2030-06-30
-    latest: "11.8.5"
-    latestReleaseDate: 2025-11-20
+    eol: 2028-06-30
+    latest: "11.8.8"
+    latestReleaseDate: 2026-06-05
 
   - releaseCycle: "11.4"
     releaseDate: 2024-10-15
     eol: 2029-05-31
-    latest: "11.4.9"
-    latestReleaseDate: 2025-11-18
+    latest: "11.4.12"
+    latestReleaseDate: 2026-06-05
 
   - releaseCycle: "10.11"
     releaseDate: 2023-08-21
     eol: 2028-02-29
-    latest: "10.11.15"
-    latestReleaseDate: 2025-11-18
+    latest: "10.11.18"
+    latestReleaseDate: 2026-06-05
 
   - releaseCycle: "10.6"
     releaseDate: 2022-02-03
-    eol: 2026-07-31
-    latest: "10.6.24"
-    latestReleaseDate: 2025-11-18
+    eol: 2026-12-31
+    latest: "10.6.27"
+    latestReleaseDate: 2026-06-05
 
   - releaseCycle: "10.5"
     releaseDate: 2021-01-21
-    eol: 2026-05-31
+    eol: 2026-08-31
     latest: "10.5.29"
     latestReleaseDate: 2025-05-20
 

@@ -2,6 +2,7 @@
 title: Proxmox VE
 addedAt: 2022-12-26
 category: os
+tags: proxmox
 iconSlug: proxmox
 permalink: /proxmox-ve
 alternate_urls:
@@ -32,8 +33,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-08-05
     eol: false # no date yet available on https://pve.proxmox.com/wiki/FAQ
-    latest: "9.1"
-    latestReleaseDate: 2025-11-19
+    latest: "9.2"
+    latestReleaseDate: 2026-05-21
 
   - releaseCycle: "8"
     releaseDate: 2023-06-22
@@ -89,5 +90,5 @@ releases:
 > software server for virtualization management. It is a hosted hypervisor that can run operating
 > systems including Linux and Windows on x64 hardware.
 
-Proxmox VE versions are supported at least as long as the corresponding Debian Version is oldstable.
-Proxmox VE uses a rolling release model, and using the latest stable version is always recommended.
+Proxmox VE versions are supported at least as long as the corresponding Debian version, i.e. approximately 3 years after its initial release, see [Debian lifespan](https://www.debian.org/security/faq#lifespan).
+Proxmox VE uses a rolling release model and using the latest stable version is always recommended.

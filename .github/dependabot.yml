@@ -11,10 +11,12 @@ updates:
     schedule:
       interval: "cron"
       cronjob: "0 0 * * *" # every day at midnight UTC
+    cooldown:
+      exclude:
+        - "_data/release-data"
 
   - package-ecosystem: "bundler"
-    vendor: true
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "weekly"
 

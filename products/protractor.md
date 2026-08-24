@@ -80,7 +80,7 @@ releases:
 > interacting with it as a user would.
 
 Protractor was [deprecated](https://www.protractortest.org/#/project-status) on August 31, 2023
-after an [announcement from the Angular team](https://blog.angular.io/the-state-of-end-to-end-testing-with-angular-d175f751cb9c)
+after an [announcement from the Angular team](https://blog.angular.dev/the-state-of-end-to-end-testing-with-angular-d175f751cb9c)
 was made on August 10, 2022. The Protractor npm package is also marked as [deprecated on npm](https://www.npmjs.com/package/protractor).
 
 Beginning August 1, 2022, [commercial support for Protractor](https://www.herodevs.com/support/nes-protractor)

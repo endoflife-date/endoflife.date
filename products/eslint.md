@@ -13,12 +13,17 @@ eoesColumn: Extended Long Term Support
 
 customFields:
   - name: eoesProvider
-    display: before-latest-column
+    display: api-only
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 
 identifiers:
   - repology: eslint
+  - purl: pkg:github/eslint/eslint
+  - purl: pkg:npm/eslint
+  - cpe: cpe:/a:openjsf:eslint
+  - cpe: cpe:2.3:a:openjsf:eslint
+
 
 auto:
   methods:
@@ -32,14 +37,23 @@ auto:
         eol: "EOL Start"
 
 releases:
-  - releaseCycle: "9"
-    releaseDate: 2024-04-05
+  - releaseCycle: "10"
+    releaseDate: 2026-02-06
     eoas: false
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.39.1"
-    latestReleaseDate: 2025-11-03
+    latest: "10.9.0"
+    latestReleaseDate: 2026-08-21
+
+  - releaseCycle: "9"
+    releaseDate: 2024-04-05
+    eoas: false
+    eol: 2026-08-06
+    eoes: false
+    eoesProvider: Tidelift
+    latest: "9.39.5"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "8"
     releaseDate: 2021-10-09

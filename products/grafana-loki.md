@@ -19,20 +19,27 @@ identifiers:
   - purl: pkg:docker/ubuntu/loki
   - purl: pkg:docker/bitnami/grafana-loki
   - purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
+  - cpe: cpe:2.3:a:grafana:loki
 
 # eol(x) = releaseDate(x+2), except for the last minor of a major.
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-03-26
+    eol: false
+    latest: "3.7.6"
+    latestReleaseDate: 2026-08-05
+
   - releaseCycle: "3.6"
     releaseDate: 2025-11-17
     eol: false
-    latest: "3.6.3"
-    latestReleaseDate: 2025-12-11
+    latest: "3.6.15"
+    latestReleaseDate: 2026-08-05
 
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
-    eol: false
-    latest: "3.5.9"
-    latestReleaseDate: 2025-12-10
+    eol: 2026-03-26
+    latest: "3.5.12"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "3.4"
     releaseDate: 2025-02-12

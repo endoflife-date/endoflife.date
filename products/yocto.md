@@ -24,6 +24,21 @@ identifiers:
 # for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
 # eol(x) = releaseDate(x) + 7 month
 releases:
+  - releaseCycle: "6.0"
+    codename: "Wrynose"
+    lts: true
+    releaseDate: 2026-05-13
+    eol: 2030-04-30
+    latest: "6.0.1"
+    latestReleaseDate: 2026-06-18
+
+  - releaseCycle: "5.3"
+    codename: "Whinlatter"
+    releaseDate: 2025-12-15
+    eol: 2026-06-15
+    latest: "5.3"
+    latestReleaseDate: 2025-12-15
+
   - releaseCycle: "5.2"
     codename: "Walnascar"
     releaseDate: 2025-05-07
@@ -43,8 +58,8 @@ releases:
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.14"
-    latestReleaseDate: 2025-12-02
+    latest: "5.0.19"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "4.3"
     codename: "Nanbield"
@@ -72,8 +87,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.31"
-    latestReleaseDate: 2025-11-12
+    latest: "4.0.35"
+    latestReleaseDate: 2026-04-29
 
   - releaseCycle: "3.4"
     codename: "Honister"

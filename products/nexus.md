@@ -16,6 +16,7 @@ eolColumn: Extended Maintenance
 
 identifiers:
   - purl: pkg:github/sonatype/nexus-public
+  - cpe: cpe:2.3:a:sonatype:nexus_repository_manager
 
 auto:
   methods:
@@ -44,33 +45,89 @@ auto:
 # eol(x) = releaseDate(x) + 18 months
 # Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
+  - releaseCycle: "3.95"
+    releaseDate: 2026-08-05
+    eoas: 2027-08-05
+    eol: 2028-02-05
+    latest: "3.95.2-01"
+    latestReleaseDate: 2026-08-22
+
+  - releaseCycle: "3.94"
+    releaseDate: 2026-07-09
+    eoas: 2027-07-09
+    eol: 2028-01-09
+    latest: "3.94.1-06"
+    latestReleaseDate: 2026-07-24
+
+  - releaseCycle: "3.93"
+    releaseDate: 2026-06-04
+    eoas: 2027-06-04
+    eol: 2027-12-04
+    latest: "3.93.2-01"
+    latestReleaseDate: 2026-06-25
+
+  - releaseCycle: "3.92"
+    releaseDate: 2026-05-07
+    eoas: 2027-05-07
+    eol: 2027-11-07
+    latest: "3.92.3-01"
+    latestReleaseDate: 2026-05-27
+
+  - releaseCycle: "3.91"
+    releaseDate: 2026-04-07
+    eoas: 2027-04-07
+    eol: 2027-10-07
+    latest: "3.91.1-04"
+    latestReleaseDate: 2026-04-20
+
+  - releaseCycle: "3.90"
+    releaseDate: 2026-03-05
+    eoas: 2027-03-05
+    eol: 2027-09-05
+    latest: "3.90.5-01"
+    latestReleaseDate: 2026-08-17
+
+  - releaseCycle: "3.89"
+    releaseDate: 2026-02-03
+    eoas: 2027-02-03
+    eol: 2027-08-03
+    latest: "3.89.1-02"
+    latestReleaseDate: 2026-02-12
+
+  - releaseCycle: "3.88"
+    releaseDate: 2026-01-13
+    eoas: 2027-01-13
+    eol: 2027-07-13
+    latest: "3.88.0-08"
+    latestReleaseDate: 2026-01-13
+
   - releaseCycle: "3.87"
     releaseDate: 2025-12-02
     eoas: 2026-12-02
     eol: 2027-06-02
-    latest: "3.87.1-01"
-    latestReleaseDate: 2025-12-08
+    latest: "3.87.2-01"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "3.86"
     releaseDate: 2025-11-05
     eoas: 2026-11-05
     eol: 2027-05-05
-    latest: "3.86.2-01"
-    latestReleaseDate: 2025-11-13
+    latest: "3.86.3-01"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "3.85"
     releaseDate: 2025-10-07
     eoas: 2026-10-07
     eol: 2027-04-07
-    latest: "3.85.0-03"
-    latestReleaseDate: 2025-10-07
+    latest: "3.85.1-01"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "3.84"
     releaseDate: 2025-09-09
     eoas: 2026-09-09
     eol: 2027-03-09
-    latest: "3.84.1-01"
-    latestReleaseDate: 2025-09-17
+    latest: "3.84.2-01"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "3.83"
     releaseDate: 2025-08-12

@@ -4,6 +4,7 @@ addedAt: 2023-07-17
 category: server-app
 tags: linux-foundation
 iconSlug: prometheus
+versionCommand: prometheus --version
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
@@ -13,11 +14,11 @@ identifiers:
   - purl: pkg:docker/prom/prometheus
   - purl: pkg:docker/bitnami/prometheus
   - purl: pkg:docker/rapidfort/prometheus-official
-  - purl: pkg:docker/bitnami/prometheus
   - purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
   - purl: pkg:oci/prometheus?repository_url=cgr.dev/chainguard
   - purl: pkg:github/prometheus/prometheus
   - purl: pkg:golang/github.com/prometheus/prometheus
+  - cpe: cpe:2.3:a:prometheus:prometheus
 
 auto:
   methods:
@@ -34,11 +35,48 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+  - releaseCycle: "3.14"
+    releaseDate: 2026-08-17
+    eol: 2026-09-30
+    latest: "3.14.0"
+    latestReleaseDate: 2026-08-17
+
+  - releaseCycle: "3.13"
+    lts: true
+    releaseDate: 2026-07-01
+    eol: 2027-07-31
+    latest: "3.13.2"
+    latestReleaseDate: 2026-07-30
+
+  - releaseCycle: "3.12"
+    releaseDate: 2026-05-28
+    eol: 2026-07-09
+    latest: "3.12.0"
+    latestReleaseDate: 2026-05-28
+
+  - releaseCycle: "3.11"
+    releaseDate: 2026-04-02
+    eol: 2026-05-14
+    latest: "3.11.3"
+    latestReleaseDate: 2026-04-27
+
+  - releaseCycle: "3.10"
+    releaseDate: 2026-02-25
+    eol: 2026-04-08
+    latest: "3.10.0"
+    latestReleaseDate: 2026-02-25
+
+  - releaseCycle: "3.9"
+    releaseDate: 2026-01-06
+    eol: 2026-02-17
+    latest: "3.9.1"
+    latestReleaseDate: 2026-01-07
+
   - releaseCycle: "3.8"
     releaseDate: 2025-11-28
     eol: 2026-01-09
-    latest: "3.8.0"
-    latestReleaseDate: 2025-12-02
+    latest: "3.8.1"
+    latestReleaseDate: 2025-12-16
 
   - releaseCycle: "3.7"
     releaseDate: 2025-10-15
@@ -56,8 +94,8 @@ releases:
     lts: true
     releaseDate: 2025-07-14
     eol: 2026-07-31
-    latest: "3.5.0"
-    latestReleaseDate: 2025-07-14
+    latest: "3.5.5"
+    latestReleaseDate: 2026-07-09
 
   - releaseCycle: "3.4"
     releaseDate: 2025-05-17

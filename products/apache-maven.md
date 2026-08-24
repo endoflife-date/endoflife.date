@@ -20,18 +20,25 @@ identifiers:
   - repology: maven-shared-utils
   - cpe: cpe:/a:apache:maven_shared_utils
   - cpe: cpe:2.3:a:apache:maven_shared_utils
+  - purl: pkg:deb/debian/maven
+  - purl: pkg:deb/ubuntu/maven
+  - purl: pkg:github/apache/maven
+  - purl: pkg:maven/org.apache.maven/maven
+  - purl: pkg:rpm/opensuse/maven
 
 auto:
   methods:
-    - maven: org.apache.maven/maven-core
+    - github_releases: apache/maven
+      regex: '^maven-(?P<version>[\d\.]+)$'
+      template: "{{version}}"
 
 # See https://maven.apache.org/docs/history.html
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
-    latest: "3.9.11"
-    latestReleaseDate: 2025-07-12
+    latest: "3.9.16"
+    latestReleaseDate: 2026-05-17
 
   - releaseCycle: "3.8"
     releaseDate: 2021-03-30
@@ -87,6 +94,7 @@ releases:
     latest: "1.1"
     latestReleaseDate: 2007-06-25
     link: https://maven.apache.org/archives/maven-1.x/start/release-notes-LATEST.html
+
 ---
 
 > [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool.

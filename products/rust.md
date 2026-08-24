@@ -19,12 +19,57 @@ auto:
 
 identifiers:
   - repology: rust
+  - cpe: cpe:2.3:a:rust-lang:rust
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.98"
+    releaseDate: 2026-08-20
+    eol: false
+    latest: "1.98.0"
+    latestReleaseDate: 2026-08-20
+
+  - releaseCycle: "1.97"
+    releaseDate: 2026-07-09
+    eol: 2026-08-20
+    latest: "1.97.1"
+    latestReleaseDate: 2026-07-16
+
+  - releaseCycle: "1.96"
+    releaseDate: 2026-05-28
+    eol: 2026-07-09
+    latest: "1.96.1"
+    latestReleaseDate: 2026-06-30
+    link: https://doc.rust-lang.org/stable/releases.html#version-1961-2026-06-30
+
+  - releaseCycle: "1.95"
+    releaseDate: 2026-04-16
+    eol: 2026-05-28
+    latest: "1.95.0"
+    latestReleaseDate: 2026-04-16
+    link: https://doc.rust-lang.org/stable/releases.html#version-1950-2026-04-16
+
+  - releaseCycle: "1.94"
+    releaseDate: 2026-03-06
+    eol: 2026-04-16
+    latest: "1.94.1"
+    latestReleaseDate: 2026-03-26
+
+  - releaseCycle: "1.93"
+    releaseDate: 2026-01-22
+    eol: 2026-03-06
+    latest: "1.93.1"
+    latestReleaseDate: 2026-02-12
+
+  - releaseCycle: "1.92"
+    releaseDate: 2025-12-11
+    eol: 2026-01-22
+    latest: "1.92.0"
+    latestReleaseDate: 2025-12-11
+
   - releaseCycle: "1.91"
     releaseDate: 2025-10-30
-    eol: false
+    eol: 2025-12-11
     latest: "1.91.1"
     latestReleaseDate: 2025-11-10
 

@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
@@ -21,6 +21,7 @@ identifiers:
   - purl: pkg:docker/bitnami/laravel
   - purl: pkg:github/laravel/framework
   - repology: php:laravel-framework
+  - cpe: cpe:2.3:a:laravel:laravel
 
 # Note that laravel/laravel is just a starter application.
 auto:
@@ -43,37 +44,45 @@ auto:
 
 # Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
+  - releaseCycle: "13"
+    releaseDate: 2026-03-17
+    eoas: 2027-09-30 #estimated, no dates yet on https://laravel.com/docs/13.x/releases#support-policy
+    eol: 2028-03-17
+    supportedPhpVersions: "8.3 - 8.5"
+    latest: "13.26.1"
+    latestReleaseDate: 2026-08-18
+
   - releaseCycle: "12"
     releaseDate: 2025-02-24
     eoas: 2026-08-16
     eol: 2027-02-24
-    supportedPhpVersions: "8.2 - 8.4"
-    latest: "12.42.0"
-    latestReleaseDate: 2025-12-09
+    supportedPhpVersions: "8.2 - 8.5"
+    latest: "12.67.0"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "11.47.0"
-    latestReleaseDate: 2025-11-28
+    latest: "11.56.0"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "10"
     releaseDate: 2023-02-14
     eoas: 2024-08-06
     eol: 2025-02-04
     supportedPhpVersions: "8.1 - 8.3"
-    latest: "10.50.0"
-    latestReleaseDate: 2025-11-28
+    latest: "10.50.3"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "9"
     releaseDate: 2022-02-08
     eoas: 2023-08-08
     eol: 2024-02-06
     supportedPhpVersions: "8.0 - 8.2"
-    latest: "9.52.21"
-    latestReleaseDate: 2025-09-30
+    latest: "9.52.22"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "8"
     releaseDate: 2020-09-08

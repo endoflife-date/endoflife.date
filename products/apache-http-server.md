@@ -19,6 +19,9 @@ identifiers:
   - repology: apache
   - cpe: cpe:/a:apache:http_server
   - cpe: cpe:2.3:a:apache:http_server
+  - purl: pkg:github/apache/httpd
+  - purl: pkg:rpm/fedora/httpd
+  - purl: pkg:rpm/redhat/httpd
 
 auto:
   methods:
@@ -35,8 +38,8 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.66"
-    latestReleaseDate: 2025-12-04
+    latest: "2.4.68"
+    latestReleaseDate: 2026-06-08
     link: https://downloads.apache.org/httpd/CHANGES_2.4
 
   - releaseCycle: "2.2"

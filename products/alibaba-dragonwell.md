@@ -52,6 +52,12 @@ auto:
         - '^dragonwell-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
         - '^jdk-(?P<version>21[\d\.\+]+)-ga$'
       template: "{{version}}"
+    - git: "https://github.com/dragonwell-project/dragonwell25.git"
+      regex:
+        - '^dragonwell-standard-(?P<version>25[\d\.\+]+)_jdk.+-ga$'
+        - '^dragonwell-(?P<version>25[\d\.\+]+)_jdk.+-ga$'
+        - '^jdk-(?P<version>25[\d\.\+]+)-ga$'
+      template: "{{version}}"
     - release_table: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
       fields:
         releaseCycle: "Dragonwell Version"
@@ -62,33 +68,40 @@ auto:
 
 # Remember to update the "auto" configuration and the "releasePolicyLink" on each new major release.
 releases:
+  - releaseCycle: "25"
+    lts: true
+    releaseDate: 2025-09-24 # The first official release is 25.0.0.0.1.
+    eol: 2029-09-30 # expected, following Dragonwell's stated four-year minimum support window
+    latest: "25.0.4.0.4+7"
+    latestReleaseDate: 2026-08-06
+
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.
     eol: 2029-11-30
-    latest: "21.0.9.0.9+10"
-    latestReleaseDate: 2025-11-12
+    latest: "21.0.11.0.11+10"
+    latestReleaseDate: 2026-05-18
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # The first official release is 17.0.1.
     eol: 2027-09-30
-    latest: "17.0.17.0.18+9"
-    latestReleaseDate: 2025-11-05
+    latest: "17.0.19.0.20+10"
+    latestReleaseDate: 2026-05-06
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2020-07-20 # The first official release is 11.0.7.2.
     eol: 2027-09-30
-    latest: "11.0.29.25"
-    latestReleaseDate: 2025-11-21
+    latest: "11.0.31.27"
+    latestReleaseDate: 2026-05-15
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
-    latest: "8.27.26"
-    latestReleaseDate: 2025-11-21
+    latest: "8.29.28"
+    latestReleaseDate: 2026-05-15
     link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---

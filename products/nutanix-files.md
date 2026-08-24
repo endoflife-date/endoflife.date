@@ -15,19 +15,33 @@ auto:
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
-  - releaseCycle: "5.2"
-    releaseDate: 2025-07-30
+  - releaseCycle: "5.4"
+    releaseDate: 2026-08-10
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
-    latest: "5.2.1"
-    latestReleaseDate: 2025-10-29
+    latest: "5.4.0"
+    latestReleaseDate: 2026-08-10
+
+  - releaseCycle: "5.3"
+    releaseDate: 2026-01-30
+    eoas: 2026-11-30
+    eol: 2027-08-31
+    latest: "5.3.0.3"
+    latestReleaseDate: 2026-07-17
+
+  - releaseCycle: "5.2"
+    releaseDate: 2025-07-30
+    eoas: 2026-05-31
+    eol: 2027-01-31
+    latest: "5.2.1.2"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "5.1"
     releaseDate: 2024-12-16
     eoas: 2025-10-31
     eol: 2026-07-31
-    latest: "5.1.1.2"
-    latestReleaseDate: 2025-07-03
+    latest: "5.1.1.3"
+    latestReleaseDate: 2026-06-02
 
   - releaseCycle: "5.0"
     releaseDate: 2024-05-15

@@ -8,7 +8,6 @@ alternate_urls:
   - /silverstripe-cms
   - /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCw0ODdd/CMS-5.1-Support-Timeline-with-provisional-release-date.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
@@ -27,10 +26,17 @@ auto:
 # eoas, eol rounded to the end of month
 # When adding a new release, please also update the auto section above with the exact release date.
 releases:
+  - releaseCycle: "6.2"
+    releaseDate: 2026-04-17
+    eoas: 2026-10-31
+    eol: 2027-04-30
+    latest: "6.2.0"
+    latestReleaseDate: 2026-04-17
+
   - releaseCycle: "6.1"
     releaseDate: 2025-10-13
-    eoas: 2026-04-30
-    eol: 2026-10-31
+    eoas: 2026-04-17
+    eol: 2026-10-18
     latest: "6.1.0"
     latestReleaseDate: 2025-10-13
 

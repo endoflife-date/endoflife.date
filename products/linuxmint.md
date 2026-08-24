@@ -12,6 +12,9 @@ latestColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
+identifiers:
+  - cpe: cpe:2.3:o:linuxmint:linuxmint
+
 auto:
   methods:
     - release_table: https://linuxmint.com/download_all.php
@@ -22,6 +25,13 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+  - releaseCycle: "22.3"
+    codename: Zena
+    lts: true
+    releaseDate: 2026-01-11
+    eol: 2029-04-30
+    link: https://www.linuxmint.com/rel_zena.php
+
   - releaseCycle: "lmde7"
     releaseLabel: "LMDE 7 '__CODENAME__'"
     codename: Gigi

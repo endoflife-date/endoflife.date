@@ -7,7 +7,6 @@ iconSlug: bazel
 permalink: /bazel
 versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
-releaseImage: https://blog.bazel.build/assets/lts_timeline.png
 changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 eoasColumn: true
 
@@ -32,13 +31,21 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x) + 3 years
 releases:
+  - releaseCycle: "9"
+    lts: true
+    releaseDate: 2026-01-20
+    eoas: false # releaseDate(10)
+    eol: 2028-12-31
+    latest: "9.2.0"
+    latestReleaseDate: 2026-07-13
+
   - releaseCycle: "8"
     lts: true
     releaseDate: 2024-12-09
-    eoas: false # releaseDate(9)
+    eoas: 2026-01-20
     eol: 2027-12-31
-    latest: "8.5.0"
-    latestReleaseDate: 2025-12-11
+    latest: "8.7.0"
+    latestReleaseDate: 2026-05-06
 
   - releaseCycle: "7"
     lts: true
@@ -53,8 +60,8 @@ releases:
     releaseDate: 2022-12-19
     eoas: 2023-12-11 # releaseDate(7)
     eol: 2025-12-31
-    latest: "6.5.0"
-    latestReleaseDate: 2024-01-23
+    latest: "6.6.0"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "5"
     lts: true

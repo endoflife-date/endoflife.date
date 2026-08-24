@@ -22,31 +22,37 @@ auto:
     - git: https://github.com/mastodon/mastodon.git
 
 # EOL dates are either false if no information could be found, or the date found in
-# https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.
+# https://github.com/mastodon/mastodon/blob/main/SECURITY.md history.
 releases:
+  - releaseCycle: "4.6"
+    releaseDate: 2026-06-17
+    eol: false
+    latest: "4.6.6"
+    latestReleaseDate: 2026-08-13
+
   - releaseCycle: "4.5"
     releaseDate: 2025-11-06
     eol: false
-    latest: "4.5.3"
-    latestReleaseDate: 2025-12-08
+    latest: "4.5.16"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "4.4"
     releaseDate: 2025-07-08
-    eol: false
-    latest: "4.4.10"
-    latestReleaseDate: 2025-12-08
+    eol: 2026-12-17
+    latest: "4.4.23"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "4.3"
     releaseDate: 2024-10-08
-    eol: false
-    latest: "4.3.16"
-    latestReleaseDate: 2025-12-08
+    eol: 2026-05-06
+    latest: "4.3.23"
+    latestReleaseDate: 2026-05-20
 
   - releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: 2026-01-08
-    latest: "4.2.28"
-    latestReleaseDate: 2025-12-08
+    latest: "4.2.29"
+    latestReleaseDate: 2026-01-07
 
   - releaseCycle: "4.1"
     releaseDate: 2023-02-10

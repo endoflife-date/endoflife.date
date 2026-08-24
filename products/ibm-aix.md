@@ -36,7 +36,7 @@ releases:
     releaseDate: 2025-12-06
     eol: 2028-12-31
     latest: "7.3.4"
-    latestReleaseDate: 2025-12-06
+    latestReleaseDate: 2025-12-31
 
   - releaseCycle: "7.3.3"
     releaseDate: 2024-12-06
@@ -113,6 +113,7 @@ releases:
     latest: "6.1.9"
     latestReleaseDate: 2013-11-30
     link: https://www.ibm.com/docs/aix/6.1?topic=aix-older-versions
+
 ---
 
 > [IBM AIX](https://www.ibm.com/products/aix) is a Unix-based operating system created by IBM, used

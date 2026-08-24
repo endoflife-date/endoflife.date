@@ -17,7 +17,7 @@ customFields:
     display: after-latest-column
     label: Latest JDK
     description: Corresponding latest Java version
-    link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
+    link: https://docs.azul.com/core/detailed/versioning-and-naming
 
 identifiers:
   - repology: zulu-openjdk
@@ -33,7 +33,7 @@ identifiers:
 
 # Versions and dates are those from the CA builds (PSU Update Type).
 # Latest releases can be found on https://www.azul.com/downloads/?os=linux&architecture=x86-64-bit&package=jdk&show-old-builds=true#download-openjdk.
-# Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/zulu-openjdk/release-notes.html).
+# Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/release-notes).
 # EOL dates can be found on https://www.azul.com/products/azul-support-roadmap/.
 # Extended support is also documented on https://www.azul.com/products/azul-support-roadmap/ :
 # - LTS: EOL + 2 years
@@ -41,15 +41,23 @@ identifiers:
 # - STS: EOL + 6 months
 # - custom for Java 6/7
 releases:
+  - releaseCycle: "26"
+    releaseDate: 2026-03-17 # https://docs.azul.com/core/release/26-ga/release-notes/release-notes
+    eol: 2026-09-30
+    latest: "26.28.59"
+    latestJdkVersion: "26.0.0+35"
+    latestReleaseDate: 2026-03-17
+    link: https://docs.azul.com/core/release/26-ga/release-notes/release-notes
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes/release-notes
     eol: 2033-09-30
-    eoes: 2033-09-30
-    latest: "25.28.85"
-    latestJdkVersion: "25.0.0+36"
-    latestReleaseDate: 2025-09-16
-    link: https://docs.azul.com/core/release/25-ga/release-notes/release-notes
+    eoes: 2035-09-30
+    latest: "25.32.21"
+    latestJdkVersion: "25.0.2+10"
+    latestReleaseDate: 2026-01-30
+    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
 
   - releaseCycle: "24"
     releaseDate: 2025-03-18 # https://docs.azul.com/core/release/24-ga/release-notes/release-notes
@@ -80,17 +88,17 @@ releases:
 
   - releaseCycle: "21"
     lts: true
-    releaseDate: 2023-09-19 # https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
+    releaseDate: 2023-09-19 # https://docs.azul.com/core/release/21-ga/release-notes/release-notes
     eol: 2031-09-30
     eoes: 2033-09-30
-    latest: "21.44.17"
-    latestJdkVersion: "21.0.8+9"
-    latestReleaseDate: 2025-07-15
-    link: https://docs.azul.com/core/release/july-2025/release-notes.html
+    latest: "21.48.17"
+    latestJdkVersion: "21.0.10+7"
+    latestReleaseDate: 2026-01-30
+    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
 
   - releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2023-03-21 # https://docs.azul.com/core/zulu-openjdk/release-notes/20-ga
+    releaseDate: 2023-03-21 # https://docs.azul.com/core/release/20-ga/release-notes/release-notes
     eol: 2023-09-19
     eoes: 2024-03-31
     latest: "20.32.11"
@@ -100,7 +108,7 @@ releases:
 
   - releaseCycle: "19"
     releaseLabel: "19 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2022-09-20 # https://docs.azul.com/core/zulu-openjdk/release-notes/19-ga
+    releaseDate: 2022-09-20 # https://docs.azul.com/core/release/19-ga/release-notes/release-notes
     eol: 2023-03-31
     eoes: 2023-09-30
     latest: "19.32.13"
@@ -110,7 +118,7 @@ releases:
 
   - releaseCycle: "18"
     releaseLabel: "18 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2022-03-12 # https://docs.azul.com/core/zulu-openjdk/release-notes/18-ga
+    releaseDate: 2022-03-12 # https://docs.azul.com/core/release/18-ga/release-notes/release-notes
     eol: 2022-09-30
     eoes: 2023-03-31
     latest: "18.32.13"
@@ -120,17 +128,17 @@ releases:
 
   - releaseCycle: "17"
     lts: true
-    releaseDate: 2021-09-15 # https://docs.azul.com/core/zulu-openjdk/release-notes/17-ga
+    releaseDate: 2021-09-15 # https://docs.azul.com/core/release/17-ga/release-notes/release-notes
     eol: 2029-09-30
     eoes: 2031-09-30
-    latest: "17.60.17"
-    latestJdkVersion: "17.0.16+8"
-    latestReleaseDate: 2025-07-15
-    link: https://docs.azul.com/core/release/july-2025/release-notes.html
+    latest: "17.64.17"
+    latestJdkVersion: "17.0.18+8"
+    latestReleaseDate: 2026-01-30
+    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
 
   - releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2021-03-16 # https://docs.azul.com/core/zulu-release-notes/16-ga/ZuluReleaseNotes/Title.htm
+    releaseDate: 2021-03-16 # https://web.archive.org/web/20230602060015/https://docs.azul.com/core/zulu-release-notes/16-ga/ZuluReleaseNotes/Title.htm
     eol: 2021-09-30
     eoes: 2022-03-31
     latest: "16.32.15"
@@ -179,12 +187,12 @@ releases:
   - releaseCycle: "11"
     lts: true
     releaseDate: 2018-09-25
-    eol: 2026-09-30
-    eoes: 2028-09-30
-    latest: "11.82.19"
-    latestJdkVersion: "11.0.28+6"
-    latestReleaseDate: 2025-07-15
-    link: https://docs.azul.com/core/release/july-2025/release-notes.html
+    eol: 2032-01-31
+    eoes: 2034-01-31
+    latest: "11.86.21"
+    latestJdkVersion: "11.0.30+7"
+    latestReleaseDate: 2026-01-30
+    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
 
   - releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -210,10 +218,10 @@ releases:
     releaseDate: 2014-04-08 # https://www.azul.com/newsroom/azul-systems-extends-zulu-runtime-for-java-to-support-java-8/
     eol: 2030-12-31
     eoes: 2032-12-31
-    latest: "8.88.0.19"
-    latestJdkVersion: "8u462-b08"
-    latestReleaseDate: 2025-04-15
-    link: https://docs.azul.com/core/release/july-2025/release-notes.html
+    latest: "8.92.0.21"
+    latestJdkVersion: "8u482-b08"
+    latestReleaseDate: 2026-01-30
+    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
 
   - releaseCycle: "6"
     lts: true

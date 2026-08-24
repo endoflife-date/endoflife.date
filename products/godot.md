@@ -29,17 +29,31 @@ auto:
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
-  - releaseCycle: "4.5"
-    releaseDate: 2025-09-15
+  - releaseCycle: "4.7"
+    releaseDate: 2026-06-18
     eoas: false
     eol: false
-    latest: "4.5.1"
-    latestReleaseDate: 2025-10-13
+    latest: "4.7.2"
+    latestReleaseDate: 2026-08-16
+
+  - releaseCycle: "4.6"
+    releaseDate: 2026-01-26
+    eoas: false
+    eol: false
+    latest: "4.6.3"
+    latestReleaseDate: 2026-05-20
+
+  - releaseCycle: "4.5"
+    releaseDate: 2025-09-15
+    eoas: 2026-03-19 # https://github.com/godotengine/godot-docs/commit/00873c99a2d3131859cb121ffa31d33f6fafa6d8
+    eol: false
+    latest: "4.5.2"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "4.4"
     releaseDate: 2025-03-03
     eoas: 2025-10-23 # https://github.com/godotengine/godot-docs/commit/08f524c79b7b15ef91205599e38ed20205fec95a
-    eol: false
+    eol: 2026-03-26 # https://github.com/godotengine/godot-docs/commit/00873c99a2d3131859cb121ffa31d33f6fafa6d8
     latest: "4.4.1"
     latestReleaseDate: 2025-03-26
 
@@ -48,8 +62,8 @@ releases:
     lts: true
     eoas: false
     eol: false
-    latest: "3.6.2"
-    latestReleaseDate: 2025-10-22
+    latest: "3.6.3"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "4.3"
     releaseDate: 2024-08-15

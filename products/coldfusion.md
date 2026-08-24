@@ -34,48 +34,47 @@ auto:
         - { name: "2023.0.0", date: 2022-05-16 } # https://coldfusion.adobe.com/2023/05/coldfusion2023-release/
         - { name: "2025.0.0", date: 2025-02-25 } # https://community.adobe.com/t5/coldfusion-discussions/now-live-adobe-coldfusion-2025-release/td-p/15176421
 
-# When adding a cycle, remember to add its release note URL in
-# https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
+# When adding a cycle, remember to add its release note URL in https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
 # to benefit from auto-updates.
 releases:
   - releaseCycle: "2025"
     releaseDate: 2025-02-25
     eol: 2030-04-08
     eoes: 2031-04-08
-    latest: "2025.0.05.331552"
-    latestReleaseDate: 2025-12-09
+    latest: "2025.0.12.331922"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "2023"
     releaseDate: 2022-05-16
     eol: 2028-05-16
     eoes: 2029-05-16
-    latest: "2023.0.17.330864"
-    latestReleaseDate: 2025-12-09
+    latest: "2023.0.23.330940"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "2021"
     releaseDate: 2020-11-11
-    eol: 2025-11-10
+    eol: 2025-12-09
     eoes: 2026-11-10
     latest: "2021.0.23.330486"
     latestReleaseDate: 2025-12-09
 
   - releaseCycle: "2018"
     releaseDate: 2018-07-12
-    eol: 2023-07-13
+    eol: 2023-07-19
     eoes: 2024-07-13
     latest: "2018.0.19.330149"
     latestReleaseDate: 2023-07-19
 
   - releaseCycle: "2016"
     releaseDate: 2016-02-16
-    eol: 2021-02-17
+    eol: 2021-03-22
     eoes: 2022-02-17
     latest: "2016.0.17.325979"
     latestReleaseDate: 2021-03-22
 
   - releaseCycle: "11"
     releaseDate: 2014-04-29
-    eol: 2019-04-30
+    eol: 2019-06-11
     eoes: 2021-04-30
     latest: "11.0.19.314546"
     latestReleaseDate: 2019-06-11

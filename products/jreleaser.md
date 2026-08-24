@@ -12,15 +12,15 @@ eolColumn: Security Support
 
 auto:
   methods:
-    - maven: org.jreleaser/jreleaser
+    - git: https://github.com/jreleaser/jreleaser.git
 
 releases:
   - releaseCycle: "1"
     releaseDate: 2022-04-10
     eol: false
     eoas: false
-    latest: "1.18.0"
-    latestReleaseDate: 2025-04-30
+    latest: "1.25.0"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "0"
     releaseDate: 2021-04-10
@@ -28,6 +28,7 @@ releases:
     eoas: 2022-04-10
     latest: "0.10.0"
     latestReleaseDate: 2021-12-28
+
 ---
 
 > [JReleaser](https://jreleaser.org/) is a release automation tool for Java and non-Java projects.

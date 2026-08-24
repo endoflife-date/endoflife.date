@@ -17,14 +17,15 @@ auto:
 identifiers:
   - purl: pkg:npm/svelte
   - purl: pkg:github/sveltejs/svelte
+  - cpe: cpe:2.3:a:svelte:svelte
 
 releases:
   - releaseCycle: "5"
     releaseDate: 2024-10-19
     eoas: false
     eol: false
-    latest: "5.45.8"
-    latestReleaseDate: 2025-12-08
+    latest: "5.56.10"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "4"
     releaseDate: 2023-06-22

@@ -42,7 +42,7 @@ auto:
         releaseCycle: "Version"
         releaseDate:
           column: "Support"
-          regex: '^GA:\s+(?P<value>\d+ \w+ \d+).*$'
+          regex: '^GA:\s+(?P<value>(\d+ )?\w+ \d+).*$'
         eol:
           column: "End Of Life"
           regex: '^(EOL\s*)?(?P<value>.+)$'
@@ -51,14 +51,23 @@ auto:
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
 
+  - releaseCycle: "2.21"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1 - 7"
+    releaseDate: 2026-05-31
+    eol: 2027-11-30
+    latest: "2.21.3"
+    latestReleaseDate: 2026-08-10
+
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-03
     eol: 2027-05-31
-    latest: "2.20.1"
-    latestReleaseDate: 2025-12-09
+    latest: "2.20.8"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -66,8 +75,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
     eol: 2026-11-30
-    latest: "2.19.5"
-    latestReleaseDate: 2025-12-09
+    latest: "2.19.12"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -75,8 +84,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-04
     eol: 2026-05-31
-    latest: "2.18.12"
-    latestReleaseDate: 2025-12-09
+    latest: "2.18.19"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -93,8 +102,8 @@ releases:
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
-    latest: "2.16.15"
-    latestReleaseDate: 2025-12-09
+    latest: "2.16.19"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"

@@ -14,7 +14,9 @@ identifiers:
 
 auto:
   methods:
-    - chef-infra: https://docs.chef.io/release_notes_workstation/
+    - chef-versions: https://docs.chef.io/release_notes/workstation/
+      regex: '^Chef Workstation (?P<value>.+)$'
+      template: "{{value}}"
       repository: https://github.com/chef/chef-workstation.git
 
 releases:
@@ -23,14 +25,14 @@ releases:
     releaseDate: 2025-02-03
     eoas: false
     eol: false
-    latest: "25.9.1094"
-    latestReleaseDate: 2025-09-30
+    latest: "25.14.2"
+    latestReleaseDate: 2026-05-18
 
   - releaseCycle: "24"
     releaseLabel: "2024"
     releaseDate: 2024-02-07
-    eoas: false
-    eol: false
+    eoas: 2026-04-30
+    eol: 2026-04-30
     latest: "24.12.1073"
     latestReleaseDate: 2024-12-16
 

@@ -10,22 +10,26 @@ alternate_urls:
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 
+identifiers:
+  - cpe: cpe:2.3:a:apache:lucene
+
 auto:
   methods:
-    - maven: org.apache.lucene/lucene-core
+    - github_releases: apache/lucene
+      regex: '^releases/lucene/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.3.2"
-    latestReleaseDate: 2025-11-17
+    latest: "10.5.1"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
     latest: "9.12.3"
-    latestReleaseDate: 2025-09-27
+    latestReleaseDate: 2025-09-28
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13

@@ -24,21 +24,30 @@ identifiers:
   - cpe: cpe:/o:vmware:esxi
 
 releases:
+  - releaseCycle: "9.1"
+    releaseDate: 2026-05-12
+    eol: 2028-08-12
+    technicalGuidance: 2029-08-12
+    latest: "9.1.0.0200"
+    latestReleaseDate: 2026-07-13
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/patch-releases-9-1-0-x/vsphere/esx/esx-9-1-0-0200-release-notes.html
+    # No longer standalone release notes for ESX as of this release.    
+    
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
-    eol: false
-    technicalGuidance: 2032-06-17 # no source, calculated releaseDate(x)+7y
-    latest: "9.0.1.0"
-    latestReleaseDate: 2025-09-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-1-release-notes/esx-9-0-1-0000.html
+    eol: 2027-09-17
+    technicalGuidance: 2028-09-17
+    latest: "9.0.2.0100"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/patch-releases-9-0-0-x/vsphere/esx/esx-9-0-2-0100-release-notes.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3g"
-    latestReleaseDate: 2025-07-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html
+    latest: "8.0 Update 3k"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3k-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02

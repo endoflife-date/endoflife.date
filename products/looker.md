@@ -10,15 +10,15 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 latestColumn: false
 
+identifiers:
+  - cpe: cpe:2.3:a:google:looker
+
 # Used only for detecting new minor releases.
 auto:
   methods:
     - release_table: https://cloud.google.com/looker/docs/officially-supported-releases
       fields:
         releaseCycle: "Looker release version"
-        releaseDate:
-          column: "Standard release support period"
-          regex: '^(?P<value>\w+ \d{4}) -.+$'
         eol:
           column: "Standard release support period"
           regex: '^.+- (?P<value>\w+ \d{4})$'
@@ -30,6 +30,49 @@ auto:
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
+  - releaseCycle: "26.14"
+    releaseDate: 2026-08-06
+    eol: 2026-10-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#August_06_2026
+
+  - releaseCycle: "26.12"
+    releaseDate: 2026-07-09
+    lts: 2026-08-31
+    eol: 2026-11-30
+    link: https://docs.cloud.google.com/looker/docs/release-notes#July_09_2026
+
+  - releaseCycle: "26.10"
+    releaseDate: 2026-06-04
+    eol: 2026-08-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#June_04_2026
+
+  - releaseCycle: "26.8"
+    releaseDate: 2026-05-07
+    eol: 2026-07-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#May_07_2026
+
+  - releaseCycle: "26.6"
+    releaseDate: 2026-03-25
+    lts: 2026-05-31
+    eol: 2026-08-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#March_25_2026
+
+  - releaseCycle: "26.4"
+    releaseDate: 2026-03-05
+    eol: 2026-05-31
+    link: https://docs.cloud.google.com/looker/docs/release-notes#March_05_2026
+
+  - releaseCycle: "26.2"
+    releaseDate: 2026-02-09
+    eol: 2026-04-30
+    link: https://docs.cloud.google.com/looker/docs/release-notes#February_09_2026
+
+  - releaseCycle: "26.0"
+    releaseDate: 2026-01-08
+    lts: 2026-02-28
+    eol: 2026-06-30
+    link: https://docs.cloud.google.com/looker/docs/release-notes#January_08_2026
+
   - releaseCycle: "25.20"
     releaseDate: 2025-11-05
     eol: 2026-03-31
@@ -74,17 +117,17 @@ releases:
     link: https://discuss.google.dev/t/looker-25-6-release-notes/186433
 
   - releaseCycle: "25.4"
-    releaseDate: 2025-03-31
+    releaseDate: 2025-03-12
     eol: 2025-06-30
     link: https://discuss.google.dev/t/looker-25-4-release-notes/185240
 
   - releaseCycle: "25.2"
-    releaseDate: 2025-02-28
+    releaseDate: 2025-02-12
     eol: 2025-05-31
     link: https://discuss.google.dev/t/looker-25-2-release-notes/182687
 
   - releaseCycle: "25.0"
-    releaseDate: 2025-01-31
+    releaseDate: 2025-01-08
     lts: 2025-02-28
     eol: 2025-05-31
     link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290

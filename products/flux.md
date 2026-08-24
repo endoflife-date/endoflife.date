@@ -20,9 +20,22 @@ auto:
 
 identifiers:
   - repology: fluxcd
+  - cpe: cpe:2.3:a:fluxcd:flux2
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "2.9"
+    releaseDate: 2026-06-30
+    eol: false
+    latest: "2.9.4"
+    latestReleaseDate: 2026-08-07
+
+  - releaseCycle: "2.8"
+    releaseDate: 2026-02-24
+    eol: false
+    latest: "2.8.8"
+    latestReleaseDate: 2026-05-20
+
   - releaseCycle: "2.7"
     releaseDate: 2025-09-30
     eol: false
@@ -31,13 +44,13 @@ releases:
 
   - releaseCycle: "2.6"
     releaseDate: 2025-05-29
-    eol: false
+    eol: 2026-06-30
     latest: "2.6.4"
     latestReleaseDate: 2025-07-08
 
   - releaseCycle: "2.5"
     releaseDate: 2025-02-20
-    eol: false
+    eol: 2026-02-24
     latest: "2.5.1"
     latestReleaseDate: 2025-02-25
 

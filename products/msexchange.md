@@ -7,6 +7,7 @@ permalink: /msexchange
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 eoasColumn: true
+eoesColumn: Extended Security Updates
 
 identifiers:
   - cpe: cpe:/a:microsoft:exchange_server
@@ -14,31 +15,33 @@ identifiers:
 
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU4"
+    releaseLabel: "Subscription Edition SU9"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.35"
-    latestReleaseDate: 2025-12-09
-    link: https://support.microsoft.com/help/5071876
+    latest: "15.2.2562.46"
+    latestReleaseDate: 2026-08-11
+    link: https://support.microsoft.com/help/5121573
 
   - releaseCycle: "2019"
-    releaseLabel: "2019 CU15 SU6"
+    releaseLabel: "2019 CU15 SU5"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1748.42"
-    latestReleaseDate: 2025-12-09
-    link: https://support.microsoft.com/help/5071875
+    eoes: 2026-11-01 # https://techcommunity.microsoft.com/blog/exchange/announcing-period-2-exchange-20162019-extended-security-update-esu-program/4511603
+    latest: "15.2.1544.36"
+    latestReleaseDate: 2025-10-14
+    link: https://support.microsoft.com/help/5066367
 
   - releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU20"
+    releaseLabel: "2016 CU23 SU19"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.63"
-    latestReleaseDate: 2025-12-09
-    link: https://support.microsoft.com/help/5071873
+    eoes: 2026-11-01 # https://techcommunity.microsoft.com/blog/exchange/announcing-period-2-exchange-20162019-extended-security-update-esu-program/4511603
+    latest: "15.1.2507.61"
+    latestReleaseDate: 2025-10-14
+    link: https://support.microsoft.com/help/5066369
 
   - releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
@@ -118,3 +121,7 @@ UR: Update Rollup
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and
 SU updates will be available.
+
+## Extended Security Updates (ESU)
+
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://techcommunity.microsoft.com/blog/exchange/announcing-exchange-2016--2019-extended-security-update-program/4433495).

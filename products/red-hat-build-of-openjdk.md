@@ -40,6 +40,18 @@ identifiers:
   - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug
   - purl: pkg:rpm/redhat/java-11-openjdk-devel
   - purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
+  - purl: pkg:rpm/redhat/java-17-openjdk
+  - purl: pkg:rpm/redhat/java-17-openjdk-devel
+  - purl: pkg:rpm/redhat/java-17-openjdk-headless
+  - purl: pkg:rpm/redhat/java-17-openjdk-headless-devel
+  - purl: pkg:rpm/redhat/java-21-openjdk
+  - purl: pkg:rpm/redhat/java-21-openjdk-devel
+  - purl: pkg:rpm/redhat/java-21-openjdk-headless
+  - purl: pkg:rpm/redhat/java-21-openjdk-headless-devel
+  - purl: pkg:rpm/redhat/java-25-openjdk
+  - purl: pkg:rpm/redhat/java-25-openjdk-devel
+  - purl: pkg:rpm/redhat/java-25-openjdk-headless
+  - purl: pkg:rpm/redhat/java-25-openjdk-headless-devel
 
 auto:
   methods:
@@ -67,7 +79,7 @@ releases:
 
   - releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
-    eol: 2027-10-31
+    eol: 2027-12-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
     latest: "17.0.17.0.10-1"
     latestReleaseDate: 2025-10-16

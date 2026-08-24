@@ -17,6 +17,7 @@ identifiers:
   - repology: quarkus
   - cpe: cpe:/a:quarkus:quarkus
   - cpe: cpe:2.3:a:quarkus:quarkus
+  - purl: pkg:maven/io.quarkus.platform/quarkus-bom
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 # Tag and Maven release of new minor versions are usually created
@@ -29,15 +30,72 @@ auto:
       template: "{{version}}"
 
 # Note:
-# - eol(x) = releaseDate(x+1) for non-LTS
+# - eol(x) = releaseDate(x+1) for non-LTS OR releaseDate(X)+5w
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "3.38"
+    releaseDate: 2026-07-29
+    eol: false # releaseDate(3.39)
+    latest: "3.38.3"
+    latestReleaseDate: 2026-08-19
+    link: https://quarkus.io/blog/quarkus-3-38-released/
+
+  - releaseCycle: "3.37"
+    releaseDate: 2026-06-24
+    eol: 2026-07-29
+    latest: "3.37.4"
+    latestReleaseDate: 2026-07-23
+    link: https://quarkus.io/blog/quarkus-3-37-1-released/
+
+  - releaseCycle: "3.36"
+    releaseDate: 2026-05-27
+    eol: 2026-06-24
+    latest: "3.36.3"
+    latestReleaseDate: 2026-06-18
+    link: https://quarkus.io/blog/quarkus-3-36-1-released/
+
+  - releaseCycle: "3.35"
+    releaseDate: 2026-05-01
+    eol: 2026-05-27
+    latest: "3.35.4"
+    latestReleaseDate: 2026-05-20
+    link: https://quarkus.io/blog/quarkus-3-35-released/
+
+  - releaseCycle: "3.34"
+    releaseDate: 2026-03-25
+    eol: 2026-05-01
+    latest: "3.34.7"
+    latestReleaseDate: 2026-05-04
+    link: https://quarkus.io/blog/quarkus-3-34-released/
+
+  - releaseCycle: "3.33"
+    lts: true
+    releaseDate: 2026-03-25
+    eol: 2027-03-25
+    latest: "3.33.3.1"
+    latestReleaseDate: 2026-08-04
+    link: https://quarkus.io/blog/quarkus-3-33-released/
+
+  - releaseCycle: "3.32"
+    releaseDate: 2026-02-26
+    eol: 2026-03-25
+    latest: "3.32.4"
+    latestReleaseDate: 2026-03-18
+    link: https://quarkus.io/blog/quarkus-3-32-2-released/
+
+  - releaseCycle: "3.31"
+    releaseDate: 2026-01-28
+    eol: 2026-02-26
+    latest: "3.31.4"
+    latestReleaseDate: 2026-02-18
+    link: https://quarkus.io/blog/quarkus-3-31-released/
+
   - releaseCycle: "3.30"
     releaseDate: 2025-11-26
-    eol: false
-    latest: "3.30.3"
-    latestReleaseDate: 2025-12-10
+    eol: 2026-01-28
+    latest: "3.30.8"
+    latestReleaseDate: 2026-01-23
 
   - releaseCycle: "3.29"
     releaseDate: 2025-10-29
@@ -55,8 +113,9 @@ releases:
     lts: true
     releaseDate: 2025-09-24
     eol: 2026-09-24
-    latest: "3.27.1"
-    latestReleaseDate: 2025-11-19
+    eoes: false
+    latest: "3.27.5.1"
+    latestReleaseDate: 2026-08-04
 
   - releaseCycle: "3.26"
     releaseDate: 2025-08-28
@@ -98,9 +157,9 @@ releases:
     lts: true
     releaseDate: 2025-03-26
     eol: 2026-03-28
-    eoes: false
-    latest: "3.20.4"
-    latestReleaseDate: 2025-11-19
+    eoes: 2026-03-29
+    latest: "3.20.6.2"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "3.19"
     releaseDate: 2025-02-26
@@ -130,7 +189,7 @@ releases:
     lts: true
     releaseDate: 2024-09-25
     eol: 2025-09-25
-    eoes: false
+    eoes: 2025-09-26
     latest: "3.15.7"
     latestReleaseDate: 2025-09-24
 
@@ -174,7 +233,7 @@ releases:
     lts: true
     releaseDate: 2024-02-28
     eol: 2025-02-28
-    eoes: false
+    eoes: 2025-03-25
     latest: "3.8.6.1"
     latestReleaseDate: 2025-02-27
 
@@ -212,7 +271,7 @@ releases:
     lts: true
     releaseDate: 2023-07-05
     eol: 2024-07-05
-    eoes: false
+    eoes: 2024-08-28
     latest: "3.2.12"
     latestReleaseDate: 2024-04-16
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
@@ -375,7 +434,7 @@ releases:
 
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting the latest version every week in between.
 [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/), a new LTS version is also published every 6 months.
-For up-to-date release planning informations, see [dedicated page](https://github.com/quarkusio/quarkus/wiki/Release-Planning).
+For up-to-date release planning information, see [dedicated page](https://github.com/quarkusio/quarkus/wiki/Release-Planning).
 
 Quarkus releases an LTS (Long-Term Support) version every six months.
 LTS is designed for users who prioritize stability over new features.

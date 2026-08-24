@@ -13,6 +13,7 @@ staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#
 identifiers:
   - purl: pkg:github/facebook/react
   - purl: pkg:npm/react
+  - cpe: cpe:2.3:a:facebook:react
 
 # NPM dates are more accurate than git tag dates.
 auto:
@@ -24,8 +25,8 @@ releases:
     releaseDate: 2024-12-05
     eoas: false
     eol: false
-    latest: "19.2.1"
-    latestReleaseDate: 2025-12-03
+    latest: "19.2.8"
+    latestReleaseDate: 2026-07-21
 
   - releaseCycle: "18"
     releaseDate: 2022-03-29

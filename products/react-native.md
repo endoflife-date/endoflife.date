@@ -12,6 +12,7 @@ eoasColumn: true
 identifiers:
   - purl: pkg:github/facebook/react-native
   - purl: pkg:npm/react-native
+  - cpe: cpe:2.3:a:facebook:react-native
 
 # NPM dates are more accurate than git tag dates.
 auto:
@@ -23,26 +24,61 @@ auto:
 # eol = releaseDate(x+3)
 # eoas and eol on https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 releases:
-  - releaseCycle: "0.82"
-    releaseDate: 2025-10-08
+  - releaseCycle: "0.87"
+    releaseDate: 2026-08-11
     eoas: false
     eol: false
+    latest: "0.87.0"
+    latestReleaseDate: 2026-08-11
+
+  - releaseCycle: "0.86"
+    releaseDate: 2026-06-09
+    eoas: false
+    eol: false
+    latest: "0.86.2"
+    latestReleaseDate: 2026-07-27
+
+  - releaseCycle: "0.85"
+    releaseDate: 2026-04-07
+    eoas: 2026-08-11
+    eol: false
+    latest: "0.85.3"
+    latestReleaseDate: 2026-05-05
+
+  - releaseCycle: "0.84"
+    releaseDate: 2026-02-11
+    eoas: 2026-06-09
+    eol: 2026-08-11
+    latest: "0.84.1"
+    latestReleaseDate: 2026-02-27
+
+  - releaseCycle: "0.83"
+    releaseDate: 2025-12-10
+    eoas: 2026-04-07
+    eol: 2026-06-09
+    latest: "0.83.10"
+    latestReleaseDate: 2026-06-25
+
+  - releaseCycle: "0.82"
+    releaseDate: 2025-10-08
+    eoas: 2026-02-11
+    eol: 2026-04-07
     latest: "0.82.1"
     latestReleaseDate: 2025-10-20
 
   - releaseCycle: "0.81"
     releaseDate: 2025-08-12
-    eoas: false
-    eol: false
-    latest: "0.81.5"
-    latestReleaseDate: 2025-10-21
+    eoas: 2025-12-10
+    eol: 2026-02-11
+    latest: "0.81.6"
+    latestReleaseDate: 2026-02-05
 
   - releaseCycle: "0.80"
     releaseDate: 2025-06-12
-    eoas: false
-    eol: false
-    latest: "0.80.2"
-    latestReleaseDate: 2025-07-24
+    eoas: 2025-10-08
+    eol: 2025-12-10
+    latest: "0.80.3"
+    latestReleaseDate: 2026-01-26
 
   - releaseCycle: "0.79"
     releaseDate: 2025-04-08

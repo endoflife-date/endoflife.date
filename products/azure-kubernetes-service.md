@@ -8,7 +8,6 @@ alternate_urls:
   - /aks
 versionCommand: az aks show --resource-group myResourceGroup --name myAKSCluster
 releasePolicyLink: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions
-releaseImage: https://learn.microsoft.com/en-us/azure/aks/media/supported-kubernetes-versions/kubernetes-versions-gantt.png
 latestColumn: false
 eolColumn: Support
 eoesColumn: LTS Support
@@ -17,7 +16,7 @@ auto:
   methods:
     - release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
       fields:
-        releaseCycle: "K8s version"
+        releaseCycle: "Kubernetes version"
         releaseDate: "AKS GA"
         eol: "End of life"
         eoes: "LTS End of life"
@@ -26,6 +25,9 @@ auto:
     # See release links for sources of release dates.
     - declare: azure-kubernetes-service
       releases:
+        - {name: "1.36", releaseDate: 2026-06-30}
+        - {name: "1.35", releaseDate: 2026-03-05}
+        - {name: "1.34", releaseDate: 2026-01-04}
         - {name: "1.33", releaseDate: 2025-06-17}
         - {name: "1.32", releaseDate: 2025-04-06}
         - {name: "1.31", releaseDate: 2024-10-25}
@@ -44,10 +46,28 @@ auto:
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 # Do not forget to update the release dates in the auto section above when adding a new release.
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-30
+    eol: 2027-06-30
+    eoes: 2028-06-30
+    link: https://github.com/Azure/AKS/releases/tag/2026-06-19
+
+  - releaseCycle: "1.35"
+    releaseDate: 2026-03-05
+    eol: 2027-03-31
+    eoes: 2028-03-31
+    link: https://github.com/Azure/AKS/releases/tag/2026-03-05
+
+  - releaseCycle: "1.34"
+    releaseDate: 2026-01-04
+    eol: 2026-11-30
+    eoes: 2027-11-30
+    link: https://github.com/Azure/AKS/releases/tag/2026-01-04
+
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
-    eol: 2026-06-30
-    eoes: 2027-06-30
+    eol: 2026-07-31
+    eoes: 2027-07-31
     link: https://github.com/Azure/AKS/releases/tag/2025-06-17
 
   - releaseCycle: "1.32"
@@ -118,6 +138,8 @@ releases:
 # Not sure corresponding cycles will be added one day, but here are the announcements for:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
+
+
 
 ---
 
