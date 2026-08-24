@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="timeline-page">
+  <h1>{{ page.title }}</h1>
+
+  <nav class="timeline-nav" aria-label="Timeline months">
+    {% if page.more_months_before %}<span class="timeline-nav-more" aria-label="More months before" title="More months before">&hellip;</span>{% endif %}
+    {% for month in page.months %}
+      <a class="timeline-month timeline-month-{{ month.state }}{% if month.current %} timeline-nav-current{% endif %}" href="{{ month.url | relative_url }}"{% if month.current %} aria-current="page"{% endif %}>
+        <span class="timeline-month-year">{{ month.year }}</span>
+        <span class="timeline-month-name">{{ month.title }}</span>
+        <span class="timeline-month-count" aria-label="{{ month.event_count }} events this month" title="{{ month.event_count }} events this month"><strong>{{ month.event_count }}</strong><span class="sr-only"> events</span></span>
+      </a>
+    {% endfor %}
+    {% if page.more_months_after %}<span class="timeline-nav-more" aria-label="More months after" title="More months after">&hellip;</span>{% endif %}
+  </nav>
+
+  <p class="timeline-introduction"><strong>{{ page.title }}</strong> has <strong>{{ page.events.size }}</strong> events:{% for summary in page.event_summaries %} <strong>{{ summary.count }}</strong> {{ summary.label }}{% unless forloop.last %},{% endunless %}{% endfor %}.</p>
+
+  {% if page.events.size > 0 %}
+    <div class="timeline-events">
+      {% for event in page.events %}
+        <a class="timeline-event timeline-event-{{ event.field }}" href="{{ event.product.url | relative_url }}" title="View details for {{ event.product.title }}" aria-label="View details for {{ event.product.title }}">
+          <div class="timeline-event-date">
+            <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%b %-d" }}</time>
+            {% if event.days < 0 %}<span>{{ event.days | abs }} days ago</span>{% elsif event.days == 0 %}<span>Today</span>{% else %}<span>{{ event.days }} days left</span>{% endif %}
+          </div>
+          <div class="timeline-event-product">
+            {% include product-icon.html product=event.product size=40 %}
+            <p>{{ event.description }}</p>
+          </div>
+          <span class="timeline-event-link-icon" aria-hidden="true">&#8599;</span>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No release or support lifecycle events are recorded for this month.</p>
+  {% endif %}
+</div>

@@ -29,6 +29,203 @@ a {
   margin-right: .5em;
 }
 
+.timeline-nav {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  gap: .75rem;
+  margin: 1.5rem 0 2rem;
+  overflow-x: auto;
+  padding: .25rem 0;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.timeline-introduction {
+  margin: 1rem 0 0;
+  padding-bottom: 1rem;
+}
+
+.timeline-nav-more {
+  align-items: center;
+  color: #64748b;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  justify-content: center;
+  padding: 0 .15rem;
+}
+
+.timeline-years { display: grid; gap: 1.5rem; }
+.timeline-year {
+  border: 1px solid #d8dee9;
+  border-radius: .65rem;
+  padding: 1rem;
+  scroll-margin-top: 1rem;
+}
+.timeline-year h2 { margin: 0 0 1rem; }
+.timeline-year-months {
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.timeline-overview-month {
+  align-items: stretch;
+  border: 2px solid transparent;
+  border-radius: .45rem;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  min-width: 0;
+  padding: .5rem .25rem;
+  text-align: center;
+  text-decoration: none;
+}
+.timeline-overview-month:hover,
+.timeline-overview-month:focus,
+.timeline-month:hover,
+.timeline-month:focus {
+  border-color: #8ab4ff;
+}
+.timeline-overview-month-name { color: #64748b; font-size: .8rem; }
+.timeline-overview-month-count {
+  background: rgb(255 255 255 / .7);
+  border-radius: .25rem;
+  color: #475569;
+  font-size: .75rem;
+  padding: .15rem;
+}
+@media (max-width: 50em) {
+  .timeline-year-months { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+
+@media (max-width: 30em) {
+  .timeline-year-months { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.timeline-month {
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: .65rem;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 5.35rem;
+  padding: .7rem .4rem .55rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.timeline-month-past {
+  background-color: #f1f5f9;
+}
+
+.timeline-month-current {
+  background-color: #e0e7ff;
+}
+
+.timeline-month-future {
+  background-color: #ede9fe;
+}
+
+.timeline-month-year {
+  color: #818898;
+  font-size: .8rem;
+  line-height: 1;
+}
+
+.timeline-month-name {
+  color: #3468e8;
+  font-size: .95rem;
+  line-height: 1;
+}
+
+.timeline-month-count {
+  align-items: baseline;
+  background-color: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1;
+  margin-top: .35rem;
+  min-width: 1.5rem;
+  padding: .2rem .4rem;
+}
+
+.timeline-month-count strong {
+  color: #273142;
+  font-size: .6rem;
+}
+
+.timeline-event-releaseDate { background-color: #dbeafe; }
+.timeline-event-eoas { background-color: #fef3c7; }
+.timeline-event-eol { background-color: #fee2e2; }
+.timeline-event-eoes { background-color: #ede9fe; }
+
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.timeline-nav-current {
+  border-color: #5890ff;
+  font-weight: 400;
+}
+.timeline-events { display: grid; gap: 1rem; }
+.timeline-event {
+  align-items: center;
+  border: 1px solid #d8dee9;
+  border-radius: 0.35rem;
+  color: inherit;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 8rem 1fr auto;
+  padding: 1rem;
+  text-decoration: none;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+
+.timeline-event:hover,
+.timeline-event:focus {
+  box-shadow: 0 .2rem .6rem rgba(39, 49, 66, .16);
+  transform: translateY(-1px);
+}
+
+.timeline-event:focus {
+  outline: 2px solid #5890ff;
+  outline-offset: 2px;
+}
+
+.timeline-event-link-icon {
+  color: #3468e8;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.timeline-event-date { display: grid; gap: 0.25rem; }
+.timeline-event-date time { font-size: 1.1rem; font-weight: 600; }
+.timeline-event-date span { color: #5c596d; font-size: 0.85rem; }
+.timeline-event-product { align-items: center; display: flex; gap: 1rem; }
+.timeline-event-product p { margin: 0; }
+.timeline-event-product .product-logo { flex: 0 0 auto; max-height: 40px; max-width: 40px; }
+
+@media (max-width: 30em) {
+  .timeline-event { grid-template-columns: 1fr auto; gap: 0.75rem; }
+  .timeline-event-date { grid-column: 1 / -1; }
+  .timeline-event-product { grid-column: 1; }
+  .timeline-event-link-icon { grid-column: 2; grid-row: 2; }
+}
+
 .bg-light {
   background-color: #f8f9fa !important;
 }

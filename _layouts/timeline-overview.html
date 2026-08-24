@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="timeline-overview">
+  <h1>{{ page.title }}</h1>
+  <p>Browse release and support lifecycle events by month.</p>
+
+  <div class="timeline-years">
+    {% for year in page.years %}
+      <section class="timeline-year" aria-labelledby="timeline-year-{{ year.year }}"{% if year.current %} data-current-year{% endif %}>
+        <h2 id="timeline-year-{{ year.year }}">{{ year.year }}</h2>
+        <div class="timeline-year-months">
+          {% for month in year.months %}
+            {% if month.available %}<a{% else %}<span{% endif %} class="timeline-overview-month timeline-month-{{ month.state }}{% if month.state == 'current' %} timeline-nav-current{% endif %}"{% if month.available %} href="{{ month.url | relative_url }}"{% endif %}>
+              <span class="timeline-overview-month-name">{{ month.title }}</span>
+              <span class="timeline-overview-month-count">{{ month.event_count }}</span>
+            {% if month.available %}</a>{% else %}</span>{% endif %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+</div>
+<script src="{{ '/assets/timeline-overview.js' | relative_url }}" defer></script>
