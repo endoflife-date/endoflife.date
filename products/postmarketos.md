@@ -33,41 +33,57 @@ releases:
     eol: 2026-07-31
     link: https://postmarketos.org/blog/2025/12/23/v25.12-release/
 
+    latest: '25.12'
+    latestReleaseDate: 2025-12-23
   - releaseCycle: "25.06"
     releaseDate: 2025-06-22
     eol: 2026-01-23
     link: https://postmarketos.org/blog/2025/06/22/v25.06-release/
 
+    latest: '25.06'
+    latestReleaseDate: 2025-06-23
   - releaseCycle: "24.12"
     releaseDate: 2024-12-23
     eol: 2025-07-23
     link: https://postmarketos.org/blog/2024/12/23/v24.12-release/
 
+    latest: '24.12'
+    latestReleaseDate: 2024-12-23
   - releaseCycle: "24.06"
     releaseDate: 2024-06-16
     eol: 2025-01-23
     link: https://postmarketos.org/blog/2024/06/16/v24.06-release/
 
+    latest: '24.06'
+    latestReleaseDate: 2024-06-16
   - releaseCycle: "23.12"
     releaseDate: 2023-12-18
     eol: 2024-07-16
     link: https://postmarketos.org/blog/2023/12/18/v23.12-release/
 
+    latest: '23.12'
+    latestReleaseDate: 2023-12-19
   - releaseCycle: "23.06"
     releaseDate: 2023-06-07
     eol: 2024-01-18
     link: https://postmarketos.org/blog/2023/06/07/v23.06-release/
 
+    latest: '23.06'
+    latestReleaseDate: 2023-06-07
   - releaseCycle: "22.12"
     releaseDate: 2022-12-18
     eol: 2023-07-07
     link: https://postmarketos.org/blog/2022/12/18/v22.12-release/
 
+    latest: '22.12'
+    latestReleaseDate: 2022-12-18
   - releaseCycle: "22.06"
     releaseDate: 2022-06-12
     eol: 2023-01-18
     link: https://postmarketos.org/blog/2022/06/12/v22.06-release/
 
+    latest: '22.06'
+    latestReleaseDate: 2022-06-12
   - releaseCycle: "21.12"
     releaseDate: 2021-12-29
     eol: 2022-07-12
@@ -87,6 +103,7 @@ releases:
     releaseDate: 2020-05-31
     eol: 2021-04-30
     link: https://postmarketos.org/blog/2020/05/31/three-years/#stable-release-channel
+
 ---
 
 > [postmarketOS](https://postmarketos.org/) extends Alpine Linux
