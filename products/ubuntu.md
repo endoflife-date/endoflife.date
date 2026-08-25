@@ -35,9 +35,9 @@ releases:
     codename: "Resolute Raccoon"
     lts: true
     releaseDate: 2026-04-23
-    eoas: 2031-04-30
-    eol: 2031-04-30
-    eoes: 2036-04-30
+    eoas: 2031-05-29
+    eol: 2031-05-29
+    eoes: 2036-04-23
     latest: "26.04"
     latestReleaseDate: 2026-04-23
     
@@ -71,7 +71,7 @@ releases:
     releaseDate: 2024-04-25
     eoas: 2029-05-31
     eol: 2029-05-31
-    eoes: 2036-05-31
+    eoes: 2034-04-25
     latest: "24.04.4"
     latestReleaseDate: 2026-02-12
 
@@ -104,7 +104,7 @@ releases:
     lts: true
     releaseDate: 2022-04-21
     eoas: 2024-09-30
-    eol: 2027-04-01
+    eol: 2027-06-01
     eoes: 2032-04-09
     latest: "22.04.5"
     latestReleaseDate: 2024-09-12
@@ -139,7 +139,7 @@ releases:
     releaseDate: 2020-04-23
     eoas: 2022-10-01
     eol: 2025-05-31
-    eoes: 2030-04-02
+    eoes: 2030-04-23
     latest: "20.04.6"
     latestReleaseDate: 2023-03-23
 
@@ -173,7 +173,7 @@ releases:
     releaseDate: 2018-04-26
     eoas: 2023-05-31
     eol: 2023-05-31
-    eoes: 2028-04-01
+    eoes: 2028-04-26
     latest: "18.04.6"
     latestReleaseDate: 2021-09-17
 
