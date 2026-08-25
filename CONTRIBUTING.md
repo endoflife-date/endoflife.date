@@ -159,7 +159,7 @@ eoesColumn: Extended Support
 # - displayed in the release table,
 # - made available in API responses,
 # - used in table includes, such as in https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md
-#   (preferred this over release table when there are more than 2 or 3 custom fields),
+#   (prefer this over the release table when there are more than 2 or 3 custom fields),
 # - or even just used for internal documentation.
 # Search in the existing products source file to see how they are used.
 customFields:
@@ -213,7 +213,7 @@ auto:
 
       # Python-compatible regex that defines how the tags above should translate to versions (optional).
       # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
-      # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
+      # with an optional leading "v". Use named capturing groups to capture the version or version's parts.
       # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c.
       # It should also skip over any special releases (such as nightly, beta, pre, rc...).
       regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
@@ -258,7 +258,7 @@ auto:
     - maven: org.apache.tomcat/tomcat
 
     # Configuration for auto-update based on a custom script in the release-data repository.
-    # The value must be the script name in the release-data repository, without it's '.py' extension.
+    # The value must be the script name in the release-data repository, without its '.py' extension.
     - custom: script-name
 
 # A list of identifiers that can be used to detect this product as being used,
@@ -388,7 +388,7 @@ releases:
 
 # All the product information text should be under triple-dashes.
 
-> [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
+> [Time Turner](https://www.harrypotter.com/writing-by-jk-rowling/time-turner) is a device that powers short-term time travel.
 
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
@@ -436,7 +436,7 @@ Click all the links on the page you've changed and make sure they're not broken.
 ### Run endoflife.date locally
 
 Please read the [HACKING documentation](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md)
-for instructions on how to run the endoflife.date locally.
+for instructions on how to run endoflife.date locally.
 
 ### Testing API payload
 

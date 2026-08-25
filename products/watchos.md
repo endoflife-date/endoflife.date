@@ -2,7 +2,7 @@
 title: Apple watchOS
 addedAt: 2022-10-08
 category: os
-tags: apple smartwatch
+tags: apple
 iconSlug: apple
 permalink: /watchos
 changelogTemplate: https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes

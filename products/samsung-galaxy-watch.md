@@ -2,7 +2,7 @@
 title: Samsung Galaxy Watch
 addedAt: 2025-05-09
 category: device
-tags: smartwatch
+tags: watch
 iconSlug: samsung
 permalink: /samsung-galaxy-watch
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
@@ -17,7 +17,7 @@ staleReleaseThresholdDays: 1825 # devices have longer support periods
 # Useful information can be found on:
 # - https://news.samsung.com (releaseDate, eoas, eol - search on Google with "<model> site:news.samsung.com")
 # - https://www.gsmarena.com/ (releaseDate)
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol - domain is dead, archived snapshot)
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
@@ -25,14 +25,14 @@ staleReleaseThresholdDays: 1825 # devices have longer support periods
 releases:
   - releaseCycle: "galaxy-watch-ultra2"
     releaseLabel: "Galaxy Watch Ultra2"
-    releaseDate: 2026-07-22
+    releaseDate: 2026-08-07
     eoas: false
     eol: false
     link: https://www.samsung.com/watches/galaxy-watch-ultra2/
 
   - releaseCycle: "galaxy-watch9"
     releaseLabel: "Galaxy Watch9"
-    releaseDate: 2026-07-22
+    releaseDate: 2026-08-07
     eoas: false
     eol: false
     link: https://www.samsung.com/us/watches/galaxy-watch9/

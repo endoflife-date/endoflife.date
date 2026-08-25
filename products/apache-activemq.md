@@ -30,20 +30,20 @@ releases:
   - releaseCycle: "6.3"
     releaseDate: 2026-07-24
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "6.3.0"
-    latestReleaseDate: 2026-07-24
+    latest: "6.3.1"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "6.2.8"
-    latestReleaseDate: 2026-07-24
+    latest: "6.2.9"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "5.19.9"
-    latestReleaseDate: 2026-07-24
+    latest: "5.19.10"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "6.1"
     releaseDate: 2024-03-11

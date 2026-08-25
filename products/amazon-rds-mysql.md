@@ -125,8 +125,8 @@ releases:
     eoas: 2029-07-31
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.4.10"
-    latestReleaseDate: 2026-07-07
+    latest: "8.4.11"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "8.4.3"
     releaseDate: 2024-10-15
@@ -158,7 +158,7 @@ releases:
     eol: 2024-02-29
     eoes: 2029-06-30
     latest: "5.7.44"
-    latestReleaseDate: 2025-02-13
+    latestReleaseDate: 2025-03-12
 
   - releaseCycle: "5.6"
     releaseDate: 2013-07-01
