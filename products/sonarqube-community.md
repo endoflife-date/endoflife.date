@@ -22,11 +22,53 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "26"
-    releaseDate: 2026-01-06
+  - releaseCycle: "26.8"
+    releaseDate: 2026-08-05
     eol: false
     latest: "26.8.0.126808"
     latestReleaseDate: 2026-08-05
+
+  - releaseCycle: "26.7"
+    releaseDate: 2026-07-08
+    eol: 2026-08-05
+    latest: "26.7.0.124771"
+    latestReleaseDate: 2026-07-08
+
+  - releaseCycle: "26.6"
+    releaseDate: 2026-06-03
+    eol: 2026-07-08
+    latest: "26.6.0.123539"
+    latestReleaseDate: 2026-06-03
+
+  - releaseCycle: "26.5"
+    releaseDate: 2026-05-19
+    eol: 2026-06-03
+    latest: "26.5.0.122743"
+    latestReleaseDate: 2026-05-19
+
+  - releaseCycle: "26.4"
+    releaseDate: 2026-04-10
+    eol: 2026-05-19
+    latest: "26.4.0.121862"
+    latestReleaseDate: 2026-04-10
+
+  - releaseCycle: "26.3"
+    releaseDate: 2026-03-03
+    eol: 2026-04-10
+    latest: "26.3.0.120487"
+    latestReleaseDate: 2026-03-03
+
+  - releaseCycle: "26.2"
+    releaseDate: 2026-02-04
+    eol: 2026-03-03
+    latest: "26.2.0.119303"
+    latestReleaseDate: 2026-02-04
+
+  - releaseCycle: "26.1"
+    releaseDate: 2026-01-06
+    eol: 2026-02-04
+    latest: "26.1.0.118079"
+    latestReleaseDate: 2026-01-06
 
   - releaseCycle: "25"
     releaseDate: 2025-01-07
