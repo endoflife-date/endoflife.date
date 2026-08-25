@@ -105,7 +105,7 @@ releases:
     releaseDate: 2022-04-21
     eoas: 2024-09-30
     eol: 2027-06-01
-    eoes: 2032-04-09
+    eoes: 2032-04-21
     latest: "22.04.5"
     latestReleaseDate: 2024-09-12
 
@@ -445,17 +445,18 @@ or a [Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-bet
 Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories.
 Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in the `main` repository.
 
-Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com/blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
-to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Expanded Security Maintenance (ESM).
+Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com/blog/canonical-expands-total-coverage-for-ubuntu-lts-releases-to-15-years-with-legacy-add-on),
+to extend the support of Ubuntu LTS releases from 14.04 by another 5 years beyond Expanded Security Maintenance (ESM),
+for a total of 15 years.
 This offer is only available for Ubuntu Pro paying customers.
 
 ## Support Comparison
 
 | Feature/Plan                                                                                | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    | Legacy Support |
 | ------------------------------------------------------------------------------------------- | --------------- | ---------------------------- | ------------- | -------------- |
-| Main repository                                                                             | 5 years         | 10 years                     | 10 years      | 12 years       |
-| Restricted repository                                                                       | 5 years         | 10 years[^2]                 | 10 years [^2] | 12 years[^7]   |
-| Universe repository                                                                         | Best Effort[^6] | Best Effort                  | 10 years      | 12 years[^7]   |
+| Main repository                                                                             | 5 years         | 10 years                     | 10 years      | 15 years       |
+| Restricted repository                                                                       | 5 years         | 10 years[^2]                 | 10 years [^2] | 15 years[^7]   |
+| Universe repository                                                                         | Best Effort[^6] | Best Effort                  | 10 years      | 15 years[^7]   |
 | Phone/Ticket Support                                                                        | No              | Yes                          | Yes           | Yes            |
 | Kernel Live Patching                                                                        | No              | Yes                          | Yes           | Yes            |
 | [Security Certifications and Hardening](https://ubuntu.com/security/security-standards)[^3] | No              | Yes                          | Yes           | Yes            |
@@ -482,4 +483,4 @@ For package-specific support details, the following commands are available:
 
 [^7]: The announcement for Legacy Support does not clarify which repositories are supported, so this is an estimate.
 
-[^8]: [Ubuntu Landscape](https://ubuntu.com/landscape/docs/explanation/landscape/self-hosted-landscape/) can manage all versions of Ubuntu above 16.04, and Legacy Support is limited to 14.04 for now.
+[^8]: [Ubuntu Landscape](https://ubuntu.com/landscape/docs/explanation/landscape/self-hosted-landscape/) can manage all versions of Ubuntu above 16.04, and Legacy Support currently covers 14.04 and 16.04.
