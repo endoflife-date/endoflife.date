@@ -6,7 +6,7 @@ tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-cloud
 releasePolicyLink: https://spring.io/projects/spring-cloud#support
-changelogTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/__LATEST__
+changelogTemplate: https://github.com/spring-cloud/spring-cloud-release/releases/tag/v__LATEST__
 eolColumn: OSS support
 eoesColumn: Commercial Support
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -46,8 +46,8 @@ releases:
     releaseDate: 2025-11-24
     eol: 2027-07-31
     eoes: 2028-07-31
-    latest: "2025.1.2"
-    latestReleaseDate: 2026-06-11
+    latest: "2025.1.3"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "2025.0"
     codename: Northfields

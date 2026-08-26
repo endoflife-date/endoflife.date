@@ -55,6 +55,13 @@ releases:
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/macos/macos-15-Readme.md
 
+  - releaseCycle: "ubuntu-22.04-arm64"
+    releaseLabel: "Ubuntu 22.04 Arm64"
+    releaseDate: 2024-09-03 # https://github.blog/changelog/2024-09-03-github-actions-arm64-linux-and-windows-runners-are-now-generally-available/
+    eoas: 2026-09-17 # https://github.com/actions/runner-images/issues/14254
+    eol: 2027-04-17 # https://github.com/actions/runner-images/issues/14254
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Arm64-Readme.md
+
   - releaseCycle: "ubuntu-24.04"
     releaseLabel: "Ubuntu 24.04"
     releaseDate: 2024-05-14 # https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available/
@@ -86,10 +93,9 @@ releases:
   - releaseCycle: "ubuntu-22.04"
     releaseLabel: "Ubuntu 22.04"
     releaseDate: 2022-08-09 # https://github.blog/changelog/2022-08-09-github-actions-ubuntu-22-04-is-now-generally-available-on-github-hosted-runners/
-    eoas: false
-    eol: false
+    eoas: 2026-09-17 # https://github.com/actions/runner-images/issues/14254
+    eol: 2027-04-17 # https://github.com/actions/runner-images/issues/14254
     link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
-    staleReleaseThresholdDays: 1825 # still not announced
 
   - releaseCycle: "macos-12"
     releaseLabel: "macOS 12"
