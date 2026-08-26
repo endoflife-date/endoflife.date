@@ -103,7 +103,7 @@ releases:
   - releaseCycle: "2.11"
     releaseDate: 2024-02-12
     eoas: 2025-04-29
-    eol: 2026-02-01
+    eol: 2026-09-07
     latest: "2.11.55"
     latestReleaseDate: 2026-08-18
 

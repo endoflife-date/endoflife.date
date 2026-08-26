@@ -38,16 +38,16 @@ releases:
     releaseDate: 2025-06-17
     eoas: false
     eol: 2028-02-28 # security_eol for 6.7.x
-    latest: "6.7.13.0"
-    latestReleaseDate: 2026-08-05
+    latest: "6.7.13.1"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.5
     releaseDate: 2024-03-21
     eoas: 2025-06-17
     eol: 2028-02-28 # security_eol for 6.6.10.x
-    latest: "6.6.10.22"
-    latestReleaseDate: 2026-08-05
+    latest: "6.6.10.23"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
