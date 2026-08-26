@@ -78,8 +78,8 @@ releases:
     lts: false
     releaseDate: 2026-03-23
     eol: 2026-09-15 # expected 27 release date (see https://www.java.com/releases/)
-    latest: "26.0.2+10"
-    latestReleaseDate: 2026-07-28
+    latest: "26.0.2.1+1"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "25"
     lts: true
@@ -158,8 +158,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2030-12-31
-    latest: "8u502-b07"
-    latestReleaseDate: 2026-07-31
+    latest: "8u504-b01"
+    latestReleaseDate: 2026-08-25
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---
