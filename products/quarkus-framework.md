@@ -46,7 +46,7 @@ releases:
     eol: 2026-08-27
     latest: "3.38.3"
     latestReleaseDate: 2026-08-19
-    link: https://quarkus.io/blog/quarkus-3-38-released/
+    link: https://quarkus.io/blog/quarkus-3-38-3-released/
 
   - releaseCycle: "3.37"
     releaseDate: 2026-06-24
