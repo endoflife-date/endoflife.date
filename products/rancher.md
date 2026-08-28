@@ -45,15 +45,15 @@ releases:
     releaseDate: 2026-04-30
     eoas: 2026-10-30
     eol: 2027-10-10
-    latest: "2.14.4"
-    latestReleaseDate: 2026-07-30
+    latest: "2.14.5"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "2.13"
     releaseDate: 2025-12-17
     eoas: 2026-06-17
     eol: 2027-06-17
-    latest: "2.13.8"
-    latestReleaseDate: 2026-07-30
+    latest: "2.13.9"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "2.12"
     releaseDate: 2025-08-29
