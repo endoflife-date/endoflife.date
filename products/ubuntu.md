@@ -38,9 +38,9 @@ releases:
     eoas: 2031-04-30
     eol: 2031-04-30
     eoes: 2036-04-30
-    latest: "26.04"
-    latestReleaseDate: 2026-04-23
-    
+    latest: "26.04.1"
+    latestReleaseDate: 2026-08-28
+
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
