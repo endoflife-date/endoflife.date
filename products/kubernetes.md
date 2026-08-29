@@ -27,7 +27,7 @@ auto:
 releases:
   - releaseCycle: "1.37"
     releaseDate: 2026-08-26
-    eoas: 2027-04-28
+    eoas: 2027-08-28
     eol: 2027-10-28
     latest: "1.37.0"
     latestReleaseDate: 2026-08-26
