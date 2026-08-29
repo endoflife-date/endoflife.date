@@ -211,8 +211,8 @@ releases:
     releaseDate: 2016-03-22
     eol: 2023-04-30
     technicalGuidance: 2025-04-30
-    latest: "7.13.2"
-    latestReleaseDate: 2022-03-10
+    latest: "7.13.3"
+    latestReleaseDate: 2023-03-21
     link: null
 ---
 
