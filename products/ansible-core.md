@@ -37,7 +37,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ansible/ansible.git
-    - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+    - release_table: https://github.com/ansible/ansible-documentation/blob/devel/docs/docsite/rst/reference_appendices/release_and_maintenance.rst
       fields:
         releaseCycle: "Version"
         releaseDate:
@@ -50,7 +50,6 @@ auto:
 # EOL dates as well as Python / PowerShell versions can be found on
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
-
   - releaseCycle: "2.21"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
