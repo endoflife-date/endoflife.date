@@ -10,7 +10,9 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html
+      name_column: "PostgreSQL minor engine version"
+      date_column: "Aurora release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html

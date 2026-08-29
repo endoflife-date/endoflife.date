@@ -9,7 +9,9 @@ releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaD
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+      name_column: "MariaDB engine version"
+      date_column: "RDS release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html

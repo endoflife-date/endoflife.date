@@ -962,14 +962,14 @@ releases:
     releaseLabel: "Galaxy Z Fold3 5G"
     releaseDate: 2021-08-27
     eoas: 2025-08-27
-    eol: 2026-08-27
+    eol: false
     link: https://doc.samsungmobile.com/SM-F926B/SER/doc.html
 
   - releaseCycle: "galaxy-z-flip3-5g"
     releaseLabel: "Galaxy Z Flip3 5G"
     releaseDate: 2021-08-27
     eoas: 2025-08-27
-    eol: 2026-08-27
+    eol: false
     link: https://doc.samsungmobile.com/SM-F711B/SER/doc.html
 
   - releaseCycle: "galaxy-a03s"

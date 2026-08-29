@@ -27,8 +27,15 @@ auto:
     - git: https://github.com/kyverno/kyverno.git
 
 # eol(X) = releaseDate(X+3)
-# Kubernetes support is documented on https://kyverno.io/docs/installation/#compatibility-matrix.
+# Kubernetes support is documented on https://kyverno.io/docs/installation/releases/.
 releases:
+  - releaseCycle: "1.19"
+    releaseDate: 2026-08-20
+    eol: false
+    latest: "1.19.0"
+    latestReleaseDate: 2026-08-20
+    supportedK8sVersions: 1.33 - 1.35
+
   - releaseCycle: "1.18"
     releaseDate: 2026-04-29
     eol: false
@@ -45,7 +52,7 @@ releases:
 
   - releaseCycle: "1.16"
     releaseDate: 2025-11-10
-    eol: false
+    eol: 2026-08-20
     latest: "1.16.4"
     latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.31 - 1.34

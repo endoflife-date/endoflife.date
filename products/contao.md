@@ -17,15 +17,23 @@ auto:
   methods:
     - git: https://github.com/contao/contao.git
 
+# releaseDate is the tag date, the date on https://contao.org/release-plan is not (yet ?) used.
 # eoas and eol available on https://contao.org/release-plan.
 releases:
+  - releaseCycle: "6.0"
+    releaseDate: 2026-08-26
+    eoas: 2027-02-14
+    eol: 2027-02-14
+    latest: "6.0.0"
+    latestReleaseDate: 2026-08-26
+
   - releaseCycle: "5.7"
     lts: true
     releaseDate: 2026-02-18
     eoas: 2029-02-14
     eol: 2030-02-14
-    latest: "5.7.11"
-    latestReleaseDate: 2026-08-06
+    latest: "5.7.12"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "5.6"
     releaseDate: 2025-08-18
@@ -53,8 +61,8 @@ releases:
     releaseDate: 2024-02-16
     eoas: 2027-02-14
     eol: 2028-02-14
-    latest: "5.3.49"
-    latestReleaseDate: 2026-08-06
+    latest: "5.3.50"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "5.2"
     releaseDate: 2023-08-15

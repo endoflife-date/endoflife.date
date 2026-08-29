@@ -16,21 +16,29 @@ auto:
   methods:
     # There is no build history for versions 2015 and below.
     # This is not a big deal because there was no version for those releases in a very long time.
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-history
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-history
+      name_column: "Version"
+      date_column: "Release Date"
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
-# When adding a new major version (codename changes), remember to update URLS at auto:methods above also check https://github.com/endoflife-date/release-data/blob/main/src/visual-studio.py
+# When adding a new major version (codename changes), remember to update URLs at auto:methods above.
 releases:
   - releaseCycle: "18.9"
     codename: "2026"
     releaseDate: 2026-08-11
     eol: false # releaseDate(19.0 or 18.10)
-    latest: "18.9.1"
-    latestReleaseDate: 2026-08-18
+    latest: "18.9.2"
+    latestReleaseDate: 2026-08-25
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.8"
