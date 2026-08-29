@@ -50,8 +50,8 @@ releases:
     lts: true
     releaseDate: 2026-03-26
     eol: 2027-03-26
-    latest: "26.3.24.4"
-    latestReleaseDate: 2026-08-27
+    latest: "26.3.25.2"
+    latestReleaseDate: 2026-08-28
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27

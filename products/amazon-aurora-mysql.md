@@ -36,8 +36,8 @@ releases:
     releaseDate: 2021-11-23
     eol: 2028-04-30
     eoes: 2029-07-31
-    latest: "3.12"
-    latestReleaseDate: 2026-02-17
+    latest: "3.13"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "2"
     releaseLabel: "2 (MySQL 5.7)"
@@ -54,6 +54,7 @@ releases:
     eoes: true
     latest: "1.23.4"
     latestReleaseDate: 2022-08-11
+
 ---
 
 > [Amazon Aurora MySQL](https://aws.amazon.com/rds/aurora/) is a MySQL-compatible edition of Amazon
