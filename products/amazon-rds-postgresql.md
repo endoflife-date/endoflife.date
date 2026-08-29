@@ -10,7 +10,9 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+      name_column: "PostgreSQL minor engine version"
+      date_column: "RDS release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
