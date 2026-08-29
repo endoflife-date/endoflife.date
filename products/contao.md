@@ -17,6 +17,7 @@ auto:
   methods:
     - git: https://github.com/contao/contao.git
 
+# releaseDate is the tag date, the date on https://contao.org/release-plan is not (yet ?) used.
 # eoas and eol available on https://contao.org/release-plan.
 releases:
   - releaseCycle: "6.0"
