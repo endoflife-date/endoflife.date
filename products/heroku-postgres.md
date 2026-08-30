@@ -8,8 +8,8 @@ iconSlug: heroku
 versionCommand: heroku pg:info
 releasePolicyLink: https://devcenter.heroku.com/articles/heroku-postgres-version-support
 latestColumn: false
-eolColumn: Supported
-discontinuedColumn: Provisionable
+eoasColumn: Provisionable
+eolColumn: Forced upgrades
 
 auto:
   methods:
@@ -18,48 +18,63 @@ auto:
         releaseCycle: "Version"
         eol: "End-Of-Life Date"
 
+# EOAS is the date when database in this version is no longer provisionable. It is documented in deprecation notices visible on https://devcenter.heroku.com/changelog.
+# EOL documented on https://devcenter.heroku.com/articles/heroku-postgres-version-support
 releases:
+  - releaseCycle: '18'
+    releaseDate: 2026-08-04
+    eoas: false
+    eol: false
+    link: https://devcenter.heroku.com/changelog-items/3751
+
   - releaseCycle: '17'
     releaseDate: 2025-05-28
-    discontinued: false
+    eoas: false
     eol: false
+    link: https://devcenter.heroku.com/changelog-items/3236
 
   - releaseCycle: '16'
     releaseDate: 2024-04-29
-    discontinued: false
+    eoas: false
     eol: false
+    link: https://devcenter.heroku.com/changelog-items/2777
 
   - releaseCycle: '15'
     releaseDate: 2023-03-09
-    discontinued: false
-    eol: false
+    eoas: 2026-11-11 # https://devcenter.heroku.com/changelog-items/3750
+    eol: 2027-02-28
+    link: https://devcenter.heroku.com/changelog-items/2551
 
   - releaseCycle: '14'
     releaseDate: 2022-03-23
-    discontinued: 2025-08-28
-    eol: 2025-11-28
+    eoas: 2025-08-28 # https://devcenter.heroku.com/changelog-items/3237
+    eol: 2025-11-28 # https://devcenter.heroku.com/changelog-items/3493
+    link: https://devcenter.heroku.com/changelog-items/2372
 
   - releaseCycle: '13'
     releaseDate: 2021-02-03
-    discontinued: 2024-07-29
-    eol: 2024-10-29
+    eoas: 2024-07-29 # https://devcenter.heroku.com/changelog-items/2778
+    eol: 2024-10-29 # https://devcenter.heroku.com/changelog-items/2999
+    link: https://devcenter.heroku.com/changelog-items/2022
 
   - releaseCycle: '12'
     releaseDate: 2020-02-04
-    discontinued: 2024-02-29
-    eol: 2024-05-30
+    eoas: 2024-02-29 # https://devcenter.heroku.com/changelog-items/2723
+    eol: 2024-05-30 # https://devcenter.heroku.com/changelog-items/2894
+    link: https://www.heroku.com/blog/posgtresql-12/
 
   - releaseCycle: '11'
     releaseDate: 2019-03-21
-    discontinued: 2023-11-10
-    eol: 2023-11-10
+    eoas: 2023-11-10 # https://devcenter.heroku.com/changelog-items/2715
+    eol: 2024-01-10
+    link: https://www.heroku.com/blog/postgresql-11-general-availability/
 
 ---
 
 > [Heroku Postgres](https://www.heroku.com/postgres/) is the Cloud database (DBaaS) service for Heroku based on PostgreSQL.
 > Heroku Postgres provides features like continuous protection, rollback, and high availability; also forks, followers, and data clips.
 
-The [PostgreSQL](/postgresql) project releases new major releases on a yearly basis.
+The [PostgreSQL](/postgresql) project releases new major releases yearly.
 Heroku Postgres supports each major release after testing for compatibility with its platform.
 Major releases are supported for three years.
 
