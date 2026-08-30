@@ -29,12 +29,20 @@ auto:
         eol: "End of support date"
 
 releases:
+  - releaseCycle: "2026.4"
+    releaseLabel: "2026.4"
+    releaseDate: 2026-08-28
+    eol: false
+    latest: "2026.4"
+    latestReleaseDate: 2026-08-28
+
   - releaseCycle: "2026.3"
     releaseLabel: "2026.3"
     releaseDate: 2026-03-30
-    eol: false
+    eol: 2026-08-28
     latest: "2026.3"
     latestReleaseDate: 2026-03-30
+    link: https://github.com/akeneo/pim-community-dev/releases/tag/v2026.3
 
   - releaseCycle: "7.0"
     codename: "Sahara hare"
