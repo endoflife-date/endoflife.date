@@ -12,23 +12,28 @@ identifiers:
   - purl: pkg:github/apple/foundationdb
   - repology: foundationdb
 
-# Release and support dates from README "Latest Stable Releases" table.
-# eoas marks the point when a branch enters bug-fix-only support.
-# Recommended upgrade path: 6.2.X → 6.3.25 → 7.1.57 → 7.3.69
+auto:
+  methods:
+    - github_releases: apple/foundationdb
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+
+# Release and support dates from README "Latest Stable Releases" table on https://github.com/apple/foundationdb#latest-stable-releases.
+# eoas marks the point when a branch enters "Bug fixes" support.
+# eol marks the point when a branch becomes "Unsupported".
 releases:
   - releaseCycle: "7.3"
     releaseDate: 2023-05-23
     eoas: false
     eol: false
-    latest: "7.3.69"
-    latestReleaseDate: 2025-07-02
+    latest: "7.3.77"
+    latestReleaseDate: 2026-04-16
 
   - releaseCycle: "7.1"
     releaseDate: 2022-04-08
     eoas: 2023-05-23
     eol: false
-    latest: "7.1.57"
-    latestReleaseDate: 2024-02-18
+    latest: "7.1.61"
+    latestReleaseDate: 2024-05-15
 
   - releaseCycle: "6.3"
     releaseDate: 2020-05-24
