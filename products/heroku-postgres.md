@@ -1,6 +1,6 @@
 ---
 title: Heroku Postgres
-addedAt: 2025-10-27
+addedAt: 2026-08-30
 category: service
 tags: heroku database
 permalink: /heroku-postgres
@@ -73,6 +73,11 @@ releases:
 
 > [Heroku Postgres](https://www.heroku.com/postgres/) is the Cloud database (DBaaS) service for Heroku based on PostgreSQL.
 > Heroku Postgres provides features like continuous protection, rollback, and high availability; also forks, followers, and data clips.
+
+{: .warning }
+> On February 6, 2026, Heroku published [a blog post](https://www.heroku.com/blog/an-update-on-heroku/) announcing a transition to a "sustaining engineering model".
+> Enterprise Account contracts will no longer be offered to new customers.
+> Existing Enterprise subscriptions and support contracts will continue to be fully honored and may renew as usual.
 
 The [PostgreSQL](/postgresql) project releases new major releases yearly.
 Heroku Postgres supports each major release after testing for compatibility with its platform.
