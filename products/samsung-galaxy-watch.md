@@ -9,7 +9,7 @@ releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 latestColumn: false
 eoasColumn: Wear OS Upgrades
 eolColumn: Security Updates
-staleReleaseThresholdDays: 1825 # devices have longer support periods
+staleReleaseThresholdDays: 2190 # 6 years, devices have longer support periods
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support
