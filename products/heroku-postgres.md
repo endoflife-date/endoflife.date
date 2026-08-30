@@ -4,15 +4,19 @@ addedAt: 2025-10-27
 category: service
 tags: heroku database
 permalink: /heroku-postgres
-alternate_urls:
-  - /heroku-postgresql
-  - /heroku-pg
 iconSlug: heroku
 versionCommand: heroku pg:info
 releasePolicyLink: https://devcenter.heroku.com/articles/heroku-postgres-version-support
 latestColumn: false
 eolColumn: Supported
 discontinuedColumn: Provisionable
+
+auto:
+  methods:
+    - release_table: https://devcenter.heroku.com/articles/heroku-postgres-version-support
+      fields:
+        releaseCycle: "Version"
+        eol: "End-Of-Life Date"
 
 releases:
   - releaseCycle: '17'
@@ -52,17 +56,21 @@ releases:
 
 ---
 
-> [Heroku Postgres](https://www.heroku.com/postgres/) is a managed PostgreSQL database service that delivers the world’s most advanced open source database as a trusted, secure, and scalable service that is optimized for developers.
+> [Heroku Postgres](https://www.heroku.com/postgres/) is the Cloud database (DBaaS) service for Heroku based on PostgreSQL.
+> Heroku Postgres provides features like continuous protection, rollback, and high availability; also forks, followers, and data clips.
 
-Heroku Postgres supports each major version of [PostgreSQL](/postgresql) shortly after its release.
-Users can’t update the minor versions themselves - they are updated automatically.
-Heroku Postgres supports a major version for three years.
-Heroku deprecates these versions to ensure no databases run on an unsupported major version of Postgres.
+The [PostgreSQL](/postgresql) project releases new major releases on a yearly basis.
+Heroku Postgres supports each major release after testing for compatibility with its platform.
+Major releases are supported for three years.
 
-When Heroku Postgres release a new major version, they deprecate the third major version released before it.
+When a new major release is out, Heroku deprecates the third major release before it.
 
 - On the deprecation date, Heroku notifies customers via email about the deprecation process for their affected databases.
-- Three months after the deprecation date, Heroku prevents provisioning new databases on the deprecated version. Creating forks and followers of existing databases is allowed.
-- Five months after the deprecation date, Heroku schedules forced upgrades for databases that still run a deprecated version.
+- Three months after the deprecation date, Heroku prevents provisioning new databases on the deprecated release.
+  Creating forks and followers of existing databases is still allowed.
+- Five months after the deprecation date, Heroku schedules forced upgrades for databases that still run a deprecated release.
+- Six months after the deprecation date, the release becomes end-of-life.
 
-The end-of-life date of each version occurs six months after its deprecation date.
+Minor versions are released shortly after they’re available on Postgres.
+Users can’t update the minor versions themselves.
+If a new minor version is available and the database is on an older minor version, Heroku automatically updates the minor version after each database maintenance.
