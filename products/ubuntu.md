@@ -15,14 +15,26 @@ eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Expanded Security Maintenance
 
-# https://regex101.com/r/Fzt9US/1
-# We return v1 and v2 separated by newline in case 2 releases were marked
-# under the same headline
 auto:
   methods:
-    - distrowatch: ubuntu
-      regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
-      template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
+    - version_table: https://ubuntu.com/project/docs/release-team/list-of-releases/
+      name_column: Version
+      date_column: Release
+      regex: '^Ubuntu (?P<version>\d+\.\d+(?:\.\d+)?)(?: LTS)?$'
+      template: "{{version}}"
+    - release_table: https://ubuntu.com/project/docs/release-team/list-of-releases/
+      fields:
+        releaseCycle:
+          column: Version
+          regex: '^Ubuntu (?P<value>\d+\.\d+)(?: LTS)?$'
+        codename:
+          column: Code name
+          regex: '^(?P<value>\w+\ \w+).*$'
+        releaseDate: Release
+    - declare: null
+      releases:
+        # Lucid Lynx (Desktop) was mistakenly declared with 2012-02-16 on https://ubuntu.com/project/docs/release-team/list-of-releases/
+        - {name: "10.04", releaseDate: 2010-04-29}
 
 identifiers:
   - cpe: cpe:2.3:o:canonical:ubuntu_linux
@@ -40,7 +52,7 @@ releases:
     eoes: 2036-04-23
     latest: "26.04.1"
     latestReleaseDate: 2026-08-28
-    
+
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
     releaseDate: 2025-10-09
@@ -277,7 +289,7 @@ releases:
     eol: 2017-04-28
     eoes: 2019-04-26
     latest: "12.04.5"
-    latestReleaseDate: 2014-08-08
+    latestReleaseDate: 2014-08-07
 
   - releaseCycle: "11.10"
     codename: "Oneiric Ocelot"
@@ -344,7 +356,7 @@ releases:
     eoas: 2013-05-09
     eol: 2013-05-09
     latest: "8.04.4"
-    latestReleaseDate: 2010-01-29
+    latestReleaseDate: 2010-01-28
     link: null
 
   - releaseCycle: "7.10"
@@ -377,19 +389,19 @@ releases:
     codename: "Dapper Drake"
     lts: true
     eoas: 2011-06-01
-    releaseDate: 2006-08-10
+    releaseDate: 2006-06-01
     eol: 2011-06-01
     latest: "6.06.2"
-    latestReleaseDate: 2008-01-22
+    latestReleaseDate: 2008-01-21
     link: null
 
   - releaseCycle: "5.10"
     codename: "Breezy Badger"
-    releaseDate: 2005-10-13
+    releaseDate: 2005-10-12
     eoas: 2007-04-13
     eol: 2007-04-13
     latest: "5.10"
-    latestReleaseDate: 2005-10-13
+    latestReleaseDate: 2005-10-12
     link: null
 
   - releaseCycle: "5.04"
@@ -403,11 +415,11 @@ releases:
 
   - releaseCycle: "4.10"
     codename: "Warty Warthog"
-    releaseDate: 2004-10-20
+    releaseDate: 2004-10-26
     eoas: 2004-10-26
     eol: 2006-04-30
     latest: "4.10"
-    latestReleaseDate: 2004-10-20
+    latestReleaseDate: 2004-10-26
     link: null
 
 ---
