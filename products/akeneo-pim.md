@@ -35,6 +35,7 @@ releases:
     eol: false
     latest: "2026.4"
     latestReleaseDate: 2026-08-28
+    link: https://github.com/akeneo/pim-community-dev/releases/tag/v2026.4
 
   - releaseCycle: "2026.3"
     releaseLabel: "2026.3"
