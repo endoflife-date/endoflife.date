@@ -29,6 +29,7 @@ identifiers:
   - purl: pkg:docker/istio/proxyv2
   - purl: pkg:docker/istio/operator
   - purl: pkg:github/istio/istio
+  - cpe: cpe:2.3:a:istio:istio
 
 auto:
   methods:
@@ -46,19 +47,33 @@ auto:
 # Effective and approximate EOL dates as well as Supported Kubernetes Versions can be found on
 # https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases.
 releases:
+  - releaseCycle: "1.30"
+    releaseDate: 2026-05-18
+    eol: 2026-12-31
+    supportedKubernetesVersions: "1.32 - 1.36"
+    latest: "1.30.4"
+    latestReleaseDate: 2026-08-27
+
+  - releaseCycle: "1.29"
+    releaseDate: 2026-02-16
+    eol: 2026-10-31
+    supportedKubernetesVersions: "1.31 - 1.35"
+    latest: "1.29.7"
+    latestReleaseDate: 2026-08-27
+
   - releaseCycle: "1.28"
     releaseDate: 2025-11-05
-    eol: 2026-07-31
+    eol: 2026-07-01
     supportedKubernetesVersions: "1.30 - 1.34"
-    latest: "1.28.3"
-    latestReleaseDate: 2026-01-19
+    latest: "1.28.10"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "1.27"
     releaseDate: 2025-08-11
-    eol: 2026-04-30
+    eol: 2026-04-07
     supportedKubernetesVersions: "1.29 - 1.33"
-    latest: "1.27.5"
-    latestReleaseDate: 2025-12-22
+    latest: "1.27.9"
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "1.26"
     releaseDate: 2025-05-08

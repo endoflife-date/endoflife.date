@@ -101,7 +101,7 @@ releases:
 ---
 
 > Nano Server is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
-> It was initially intended as even smaller installation option compared to Windows Server Core.
+> It was initially intended as an even smaller installation option compared to Windows Server Core.
 > Starting with 1709 it was removed as installation option and going forward is only offered as Windows container base image.
 
 See [Windows Server Servicing channels](/windows-server#servicing-channels) for information on the servicing channels.

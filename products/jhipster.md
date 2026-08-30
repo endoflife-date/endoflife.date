@@ -21,9 +21,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "9"
+    releaseDate: 2026-03-11
+    eol: false
+    latest: "9.2.0"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "8"
     releaseDate: 2023-11-02
-    eol: false
+    eol: 2026-03-11
     latest: "8.11.0"
     latestReleaseDate: 2025-05-07
 
@@ -74,6 +80,7 @@ releases:
     eol: 2014-09-01
     latest: "0.18.1"
     latestReleaseDate: 2014-07-24
+
 ---
 
 > JHipster is a development platform to quickly generate, develop, and deploy modern

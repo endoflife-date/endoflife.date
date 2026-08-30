@@ -17,13 +17,17 @@ module EndOfLife
     def generate(site)
       @site = site
       start = Time.now
+      initial_page_count = site.pages.length
       Jekyll.logger.info TOPIC, "Generating..."
 
       site.pages.select { |page| page.data['layout'] == 'product' }.each do |product|
         site.pages << ProductFeed.new(site, product)
       end
 
-      Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
+      site.pages << NewProductsFeed.new(site)
+
+      generated_page_count = site.pages.length - initial_page_count
+      Jekyll.logger.info TOPIC, "Generated #{generated_page_count} pages in #{(Time.now - start).round(3)} seconds."
     end
   end
 
@@ -94,6 +98,35 @@ module EndOfLife
         "last_updated" => product.data['last_modified_at'],
         "events" => events.select { |event| event["occurred_at"] <= Time.now },
         "nav_exclude" => true
+      }
+
+      self.process(@name)
+    end
+  end
+
+  class NewProductsFeed < Jekyll::Page
+    def initialize(site)
+      @site = site
+      @base = site.source
+      @dir = ""
+      @name = "new-products.atom"
+
+      products = site.pages
+        .select { |p| p.data['layout'] == 'product' && p.data['addedAt'] }
+        .map { |p|
+          {
+            "title"    => p.data['title'],
+            "link"     => EndOfLife.site_url(site, p.data['permalink']),
+            "added_at" => p.data['addedAt'].to_datetime.beginning_of_day,
+          }
+        }
+        .sort_by { |p| p["added_at"] }
+        .reverse
+
+      @data = {
+        "layout"      => "new-products-feed",
+        "products"    => products,
+        "nav_exclude" => true,
       }
 
       self.process(@name)

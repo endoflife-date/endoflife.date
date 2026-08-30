@@ -4,6 +4,13 @@ addedAt: 2022-08-26
 category: database
 tags: amazon java-runtime linux-foundation
 iconSlug: opensearch
+versionCommand: |-
+  # Preferred method
+  curl -k -u 'user:password' https://opensearch_ip:port/
+
+  # CLI method (may use significant memory due to JVM)
+  # WARNING: large heap settings (e.g. Xmx = 50% RAM) may trigger extra allocation and OOM killer
+  opensearch --version 2>/dev/null
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
@@ -28,21 +35,26 @@ auto:
           column: "Maintenance Window End"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
+identifiers:
+  - repology: opensearch
+  - purl: pkg:docker/opensearchproject/opensearch
+  - cpe: cpe:2.3:a:amazon:opensearch
 
 releases:
   - releaseCycle: "3"
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.4.0"
-    latestReleaseDate: 2025-12-17
+    latest: "3.8.0"
+    latestReleaseDate: 2026-08-05
+    link: https://opensearch.org/blog/introducing-opensearch-3-6/
 
   - releaseCycle: "2"
     releaseDate: 2022-05-26
     eoas: 2025-05-06
     eol: false
-    latest: "2.19.4"
-    latestReleaseDate: 2025-11-06
+    latest: "2.19.6"
+    latestReleaseDate: 2026-07-06
 
   - releaseCycle: "1"
     releaseDate: 2021-07-12

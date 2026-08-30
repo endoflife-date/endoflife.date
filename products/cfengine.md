@@ -22,12 +22,18 @@ auto:
 # non-lts eol(x) = releaseDate(x+1)
 # lts eol(x) = releaseDate(x) + 3 years
 releases:
+  - releaseCycle: "3.28"
+    releaseDate: 2026-07-10
+    eol: false
+    latest: "3.28.0"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "3.27"
     releaseDate: 2026-01-09
     lts: true
-    eol: false
-    latest: "3.27.0"
-    latestReleaseDate: 2026-01-09
+    eol: 2029-01-09
+    latest: "3.27.1"
+    latestReleaseDate: 2026-05-08
 
   - releaseCycle: "3.26"
     releaseDate: 2025-05-20
@@ -47,8 +53,8 @@ releases:
     releaseDate: 2024-07-22
     lts: true
     eol: 2027-07-31
-    latest: "3.24.3"
-    latestReleaseDate: 2025-12-15
+    latest: "3.24.4"
+    latestReleaseDate: 2026-05-08
     link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.23"

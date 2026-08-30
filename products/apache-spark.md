@@ -17,6 +17,7 @@ identifiers:
   - repology: apache-spark
   - cpe: cpe:/a:apache:spark
   - cpe: cpe:2.3:a:apache:spark
+  - purl: pkg:github/apache/spark
 
 auto:
   methods:
@@ -25,24 +26,31 @@ auto:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-07-14
+    eol: 2028-01-11 # estimated
+    latest: "4.2.0"
+    latestReleaseDate: 2026-07-11
+
   - releaseCycle: "4.1"
     releaseDate: 2025-12-11
     eol: 2027-06-11 # estimated
-    latest: "4.1.1"
-    latestReleaseDate: 2026-01-02
+    latest: "4.1.3"
+    latestReleaseDate: 2026-07-11
+    link: https://spark.apache.org/downloads.html
 
   - releaseCycle: "4.0"
     releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
-    latest: "4.0.1"
-    latestReleaseDate: 2025-09-02
+    latest: "4.0.4"
+    latestReleaseDate: 2026-07-12
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2023-09-09
-    eol: 2026-04-12 # https://github.com/apache/spark-website/commit/f06babdb98c4d97163c405622b2cc06c9d3c5797
-    latest: "3.5.8"
-    latestReleaseDate: 2026-01-12
+    eol: 2027-11-30 # https://spark.apache.org/versioning-policy.html - extended LTS to allow migrations
+    latest: "3.5.9"
+    latestReleaseDate: 2026-07-12
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07
@@ -157,5 +165,9 @@ Apache Spark follows [semantic versioning](https://semver.org). Minor releases h
 
 The last minor release within a major release will typically be maintained for longer as an LTS
 release. For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
+
+As an exception, 3.5.x has an extended LTS period (security fixes only) ending November 2027 to
+allow time for migrations. This extension does not apply to Spark sub-projects with separate
+repositories (Spark Connect for Swift/Rust/Go, Spark Kubernetes Operator).
 
 *[LTS]: Long-Term Support

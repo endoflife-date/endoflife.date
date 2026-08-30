@@ -22,38 +22,45 @@ auto:
 
 identifiers:
   - repology: ruby
+  - purl: pkg:alpm/arch/ruby
+  - purl: pkg:brew/ruby
   - purl: pkg:docker/library/ruby
   - purl: pkg:generic/ruby
+  - purl: pkg:rpm/fedora/ruby
+  - purl: pkg:rpm/redhat/ruby
+  - purl: pkg:rpm/centos/ruby
+  - cpe: cpe:/a:ruby-lang:ruby
+  - cpe: cpe:2.3:a:ruby-lang:ruby
 
 releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-12-25
     eol: 2029-03-31
-    latest: "4.0.1"
-    latestReleaseDate: 2026-01-12
-    link: https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/
+    latest: "4.0.6"
+    latestReleaseDate: 2026-07-13
+    link: https://github.com/ruby/ruby/releases/tag/v__LATEST__
 
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.8"
-    latestReleaseDate: 2025-12-16
+    latest: "3.4.10"
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.10"
-    latestReleaseDate: 2025-10-23
+    latest: "3.3.12"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.10"
-    latestReleaseDate: 2026-01-14
+    latest: "3.2.11"
+    latestReleaseDate: 2026-03-27
 
   - releaseCycle: "3.1"
     releaseDate: 2021-12-25
-    eol: 2025-03-31
+    eol: 2025-03-26
     latest: "3.1.7"
     latestReleaseDate: 2025-03-26
 

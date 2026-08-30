@@ -46,6 +46,7 @@ releases:
     eol: 2031-06-19
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad-3
 
   - releaseCycle: "13t"
     releaseLabel: "13T"
@@ -54,6 +55,7 @@ releases:
     eol: 2031-04-24 # approximation "6 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "15 - 16"
+    link: https://www.opposhop.cn/cn/web/products/39296.html # Only available on chinese market's webpage on oppo
 
   - releaseCycle: "13r"
     releaseLabel: "13R"
@@ -77,6 +79,7 @@ releases:
     eol: 2028-07-16 # approximation "4 years of security updates"
     discontinued: false
     supportedOxygenOSVersions: "14 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad-2
 
   - releaseCycle: "12r"
     releaseLabel: "12R"
@@ -100,6 +103,7 @@ releases:
     eol: 2026-05-01 # Security updates end
     discontinued: true
     supportedOxygenOSVersions: "13 - 16"
+    link: https://www.oneplus.com/us/oneplus-pad
 
   - releaseCycle: "11r"
     releaseLabel: "11R"

@@ -10,29 +10,52 @@ releasePolicyLink: https://docs.deno.com/runtime/fundamentals/stability_and_rele
 changelogTemplate: https://github.com/denoland/deno/releases/tag/v__LATEST__
 
 identifiers:
+  - repology: deno
+  - purl: pkg:brew/deno
+  - purl: pkg:cargo/deno
   - purl: pkg:docker/denoland/deno
   - purl: pkg:github/denoland/deno
-  - repology: deno
+  - purl: pkg:npm/deno
+  - purl: pkg:oci/deno?repository_url=ghcr.io/denoland
+  - cpe: cpe:/a:deno:deno
+  - cpe: cpe:2.3:a:deno:deno
 
 auto:
   methods:
     - git: https://github.com/denoland/deno.git
 
-# non-LTS : eol(x) = releaseDate(x+1)
-# LTS data is listed on https://docs.deno.com/runtime/fundamentals/stability_and_releases/.
+# eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.9"
+    releaseDate: 2026-06-25
+    eol: false
+    latest: "2.9.6"
+    latestReleaseDate: 2026-08-27
+
+  - releaseCycle: "2.8"
+    releaseDate: 2026-05-22
+    eol: 2026-06-25
+    latest: "2.8.3"
+    latestReleaseDate: 2026-06-11
+
+  - releaseCycle: "2.7"
+    releaseDate: 2026-02-25
+    eol: 2026-05-22
+    latest: "2.7.14"
+    latestReleaseDate: 2026-04-28
+
   - releaseCycle: "2.6"
     releaseDate: 2025-12-10
-    eol: false
-    latest: "2.6.6"
-    latestReleaseDate: 2026-01-22
+    eol: 2026-02-25
+    latest: "2.6.10"
+    latestReleaseDate: 2026-02-17
 
   - releaseCycle: "2.5"
     releaseDate: 2025-09-10
     lts: 2025-11-01
     eol: 2026-04-30
-    latest: "2.5.6"
-    latestReleaseDate: 2025-10-29
+    latest: "2.5.7"
+    latestReleaseDate: 2026-01-27
 
   - releaseCycle: "2.4"
     releaseDate: 2025-07-01
@@ -78,7 +101,7 @@ releases:
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
 > {: .warning }
-> [LTS support will be discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
+> [LTS support discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
 > there will be no LTS releases or maintenance beyond that date.
 
 Deno follows [SemVer](https://semver.org/).

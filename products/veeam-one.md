@@ -22,16 +22,16 @@ releases:
     eoas: false # releaseDate(14)
     eol: false # not yet documented on https://www.veeam.com/product-lifecycle.html
     link: https://www.veeam.com/kb4762
-    latest: "13.0.1.6168"
-    latestReleaseDate: 2026-01-06
+    latest: "13.1.0.7233"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
     eoas: 2025-09-03
     eol: 2027-02-01
     link: https://www.veeam.com/kb4705
-    latest: "12.3.0.4670"
-    latestReleaseDate: 2024-12-03
+    latest: "12.3.0.7165"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "11"
     releaseDate: 2021-02-09
@@ -101,13 +101,13 @@ This page only covers the Enterprise edition.
 
 Support for Veeam ONE always requires an active maintenance contract and is divided into two phases.
 
-The first phase is ending with the end of fix date. During this phase, updates, patches, and hotfixes
+The first phase ends with the end of fix date. During this phase, updates, patches, and hotfixes
 are provided for the product.
 
-The second phase is ending with the end of support date. Updates, patches, and hotfixes may also be
+The second phase ends with the end of support date. Updates, patches, and hotfixes may also be
 provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
 in a later supported generally available version, an update to the later release is required.
 
-This page is using GA dates as release dates. RTM versions are more or less finalized versions
+This page uses GA dates as release dates. RTM versions are more or less finalized versions
 provided to manufacturers, whereas GA versions are fully tested and finalized versions available
 to all customers.

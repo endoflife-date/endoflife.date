@@ -8,6 +8,7 @@ permalink: /apache-activemq
 alternate_urls:
   - /activemq
 releasePolicyLink: https://activemq.apache.org/support.html
+changelogTemplate: https://github.com/apache/activemq/releases/tag/activemq-__LATEST__
 # https://activemq.apache.org/activemq-command-line-tools-reference.html
 versionCommand: activemq --version
 eolColumn: Support
@@ -23,25 +24,30 @@ auto:
     - git: https://github.com/apache/activemq.git
       regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
-# EOL status available on https://activemq.apache.org/components/classic/download/, should be close to eol(x) = releaseCycle(x+2)
+# EOL status available on https://activemq.apache.org/components/classic/download/,
+# should be close to eol(x) = releaseCycle(x+2)
 releases:
+  - releaseCycle: "6.3"
+    releaseDate: 2026-07-24
+    eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
+    latest: "6.3.2"
+    latestReleaseDate: 2026-08-29
+
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.2.0"
-    latestReleaseDate: 2025-11-09
-    link: https://activemq.apache.org/components/classic/download/classic-06-02-0{{'__LATEST__'|split:'.'|last}}
+    eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
+    latest: "6.2.9"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.19.1"
-    latestReleaseDate: 2025-10-08
-    link: https://activemq.apache.org/components/classic/download/classic-05-19-0{{'__LATEST__'|split:'.'|last}}
+    eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
+    latest: "5.19.10"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "6.1"
     releaseDate: 2024-03-11
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    eol: 2025-12-02 # https://github.com/apache/activemq-website/commit/35990cf87236404711732c94df3d9e2d3f1541c7
     latest: "6.1.8"
     latestReleaseDate: 2025-10-19
     link: https://activemq.apache.org/components/classic/download/classic-06-01-0{{'__LATEST__'|split:'.'|last}}
@@ -185,16 +191,17 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: https://activemq.apache.org/components/classic/download/classic-05-00-00
+
 ---
 
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that
 > supports a number of transport protocols, such as STOMP, MQTT, or AMQP.
 
-There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
-generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
-point).  
-This page tracks ActiveMQ "Classic" releases; information about the Artemis version can be found in
-its own [product page](/apache-activemq-artemis).
+{: .note }
+> There used to be two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
+generation broker code-named _Artemis_, which is [now called Apache Artemis](https://activemq.apache.org/news/artemis-tlp).
+> This page tracks ActiveMQ "Classic" releases.
+> Information about Apache Artemis version can be found [in its own product page](/apache-activemq-artemis).
 
 Apache ActiveMQ does not have a clearly defined release and support policy. But it seems that the
 last two minor releases are currently community-supported.

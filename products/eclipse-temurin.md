@@ -59,6 +59,9 @@ auto:
     - github_releases: adoptium/temurin25-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: "{{version}}"
+    - github_releases: adoptium/temurin26-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: "{{version}}"
     - release_table: https://adoptium.net/support/
       fields:
         releaseCycle:
@@ -71,12 +74,19 @@ auto:
 # Remember to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+  - releaseCycle: "26"
+    lts: false
+    releaseDate: 2026-03-23
+    eol: 2026-09-15 # expected 27 release date (see https://www.java.com/releases/)
+    latest: "26.0.2.1+1"
+    latestReleaseDate: 2026-08-25
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-22
     eol: 2031-09-30 # expected 28 release date (see https://www.java.com/releases/)
-    latest: "25.0.2+10"
-    latestReleaseDate: 2026-01-22
+    latest: "25.0.4.1+1"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "24"
     releaseDate: 2025-03-20
@@ -100,8 +110,8 @@ releases:
     lts: true
     releaseDate: 2023-10-10
     eol: 2029-12-31
-    latest: "21.0.10+7"
-    latestReleaseDate: 2026-01-21
+    latest: "21.0.12.1+1"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "20"
     releaseDate: 2023-03-23
@@ -125,16 +135,16 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.18+8"
-    latestReleaseDate: 2026-01-21
+    latest: "17.0.20.1+1"
+    latestReleaseDate: 2026-08-19
 
     # Note that the first release was 11.0.12+7
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
     eol: 2027-10-31
-    latest: "11.0.30+7"
-    latestReleaseDate: 2026-01-26
+    latest: "11.0.32.1+1"
+    latestReleaseDate: 2026-08-24
 
   # Note that the first and only 16 release is 16.0.2+7
   - releaseCycle: "16"
@@ -148,8 +158,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2030-12-31
-    latest: "8u482-b08"
-    latestReleaseDate: 2026-01-26
+    latest: "8u504-b01"
+    latestReleaseDate: 2026-08-25
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---

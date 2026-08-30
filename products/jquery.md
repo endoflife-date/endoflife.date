@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:nuget/jQuery
   - repology: jquery
   - repology: js-jquery
+  - cpe: cpe:2.3:a:jquery:jquery
 
 # NPM is also possible, but versions up to 1.10.2 and between 2.0.0 to 2.0.3 are not on
 # https://www.npmjs.com/package/jquery, so better it's better to keep git.
@@ -22,6 +23,7 @@ auto:
   methods:
     - git: https://github.com/jquery/jquery.git
 
+# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "4"
     releaseDate: 2026-01-17
@@ -30,9 +32,9 @@ releases:
     latestReleaseDate: 2026-01-17
 
   - releaseCycle: "3"
-    staleReleaseThresholdDays: 1095 # see https://github.com/jquery/jquery?tab=security-ov-file#supported-versions
     releaseDate: 2016-06-09
-    eol: false
+    eol: 2026-01-17
+    eoes: false
     latest: "3.7.1"
     latestReleaseDate: 2023-08-28
 

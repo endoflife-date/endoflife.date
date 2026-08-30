@@ -25,6 +25,7 @@ customFields:
     link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
 
 identifiers:
+  - purl: pkg:github/spring-projects/spring-framework
   - purl: pkg:maven/org.springframework/spring-core
   - purl: pkg:maven/org.springframework/spring-aop
   - purl: pkg:maven/org.springframework/spring-beans
@@ -61,10 +62,10 @@ releases:
     supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "11 - 12"
     releaseDate: 2025-11-30
-    eol: 2027-06-30
-    eoes: 2028-06-30
-    latest: "7.0.3"
-    latestReleaseDate: 2026-01-15
+    eol: 2027-07-31
+    eoes: 2028-07-31
+    latest: "7.0.9"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"
@@ -72,15 +73,15 @@ releases:
     releaseDate: 2024-11-30
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "6.2.15"
-    latestReleaseDate: 2025-12-11
+    latest: "6.2.19"
+    latestReleaseDate: 2026-06-08
 
   - releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-30
     eol: 2025-06-30
-    eoes: 2026-06-30
+    eoes: 2032-06-30
     latest: "6.1.21"
     latestReleaseDate: 2025-06-12
 
@@ -89,7 +90,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2022-11-30
     eol: 2024-06-30
-    eoes: 2025-08-31
+    eoes: 2032-06-30
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
@@ -108,7 +109,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2019-09-30
     eol: 2021-12-31
-    eoes: 2023-12-31
+    eoes: 2029-06-30
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
@@ -116,7 +117,7 @@ releases:
   - releaseCycle: "5.1"
     supportedJavaVersions: "8 - 11" # https://docs.spring.io/spring-framework/docs/5.1.20.RELEASE/spring-framework-reference/overview.html#overview
     supportedJakartaEEVersions: "N/A"
-    releaseDate: 2018-09-21
+    releaseDate: 2018-09-30
     eol: 2020-12-31
     eoes: 2022-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
@@ -156,8 +157,8 @@ releases:
 > programming and configuration model for modern Java-based enterprise applications — on any kind of
 > deployment platform.
 
-See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
-for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
+See [Spring Framework Milestones page](https://github.com/spring-projects/spring-framework/milestones)
+for upcoming releases and [Spring Framework Support page](https://spring.io/projects/spring-framework#support)
 for more details about the support roadmap.
 
 Extended support is available
@@ -168,5 +169,5 @@ Extended support is available
 {% include table.html
   labels="Release,JDK,Jakarta EE"
   fields="releaseCycle,supportedJavaVersions,supportedJakartaEEVersions"
-  types="string,string"
+  types="string,string,string"
   rows=page.releases %}

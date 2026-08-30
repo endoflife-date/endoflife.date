@@ -21,19 +21,51 @@ auto:
     - chrome-releases: https://chromiumdash.appspot.com/fetch_milestone_schedule
 
 # eol(x) = releaseDate(x+1)
-releases:  
+releases:
+  - releaseCycle: "152"
+    releaseDate: 2026-08-25
+    eol: 2026-09-08 # Estimated, revise with releaseDate("153") https://developer.chrome.com/blog/chrome-two-week-release?hl=en
+
+  - releaseCycle: "151"
+    releaseDate: 2026-07-28
+    eol: 2026-08-25 # Estimated, revise with releaseDate("152")
+
+  - releaseCycle: "150"
+    releaseDate: 2026-06-30
+    eol: 2026-07-28
+
+  - releaseCycle: "149"
+    releaseDate: 2026-06-02
+    eol: 2026-06-30
+    
+  - releaseCycle: "148"
+    releaseDate: 2026-05-05
+    eol: 2026-06-02
+
+  - releaseCycle: "147"
+    releaseDate: 2026-04-07
+    eol: 2026-05-05
+
+  - releaseCycle: "146"
+    releaseDate: 2026-03-10
+    eol: 2026-04-07
+
+  - releaseCycle: "145"
+    releaseDate: 2026-02-10
+    eol: 2026-03-10
+
   - releaseCycle: "144"
     releaseDate: 2026-01-13
-    eol: false
-    
+    eol: 2026-02-10
+
   - releaseCycle: "143"
     releaseDate: 2025-12-02
     eol: 2026-01-13
-  
+
   - releaseCycle: "142"
     releaseDate: 2025-10-28
     eol: 2025-12-02
- 
+
   - releaseCycle: "141"
     releaseDate: 2025-09-30
     eol: 2025-10-28

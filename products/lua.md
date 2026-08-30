@@ -5,7 +5,6 @@ category: lang
 iconSlug: lua
 permalink: /lua
 versionCommand: lua -v
-releaseImage: https://www.lua.org/images/timeline.png
 releasePolicyLink: https://www.lua.org/versions.html
 changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
 eolColumn: Support
@@ -27,14 +26,14 @@ releases:
   - releaseCycle: "5.5"
     releaseDate: 2025-12-22
     eol: false
-    latest: "5.5.0"
-    latestReleaseDate: 2025-12-22
+    latest: "5.5.1"
+    latestReleaseDate: 2026-08-03
 
   - releaseCycle: "5.4"
     releaseDate: 2020-06-29
     eol: false
-    latest: "5.4.8"
-    latestReleaseDate: 2025-06-04
+    latest: "5.4.9"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "5.3"
     releaseDate: 2015-01-12
@@ -113,6 +112,7 @@ releases:
     eol: 1995-02-07
     latest: "1.1"
     latestReleaseDate: 1994-07-08
+
 ---
 
 > [Lua](https://www.lua.org/) is a powerful, efficient, lightweight and embeddable scripting

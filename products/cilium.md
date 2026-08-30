@@ -13,7 +13,7 @@ eolColumn: Maintenance Support
 identifiers:
   - purl: pkg:github/cilium/cilium
   - purl: pkg:docker/cilium/cilium
-  - purl: pkg:docker/quay.io/cilium/cilium
+  - cpe: cpe:2.3:a:cilium:cilium
 
 auto:
   methods:
@@ -22,21 +22,33 @@ auto:
 
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "1.20"
+    releaseDate: 2026-07-29
+    eol: false
+    latest: "1.20.1"
+    latestReleaseDate: 2026-08-18
+
+  - releaseCycle: "1.19"
+    releaseDate: 2026-02-03
+    eol: false
+    latest: "1.19.7"
+    latestReleaseDate: 2026-08-18
+
   - releaseCycle: "1.18"
     releaseDate: 2025-07-29
     eol: false
-    latest: "1.18.6"
-    latestReleaseDate: 2026-01-13
+    latest: "1.18.13"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "1.17"
     releaseDate: 2025-02-04
-    eol: false
-    latest: "1.17.12"
-    latestReleaseDate: 2026-01-13
+    eol: 2026-07-29
+    latest: "1.17.18"
+    latestReleaseDate: 2026-07-16
 
   - releaseCycle: "1.16"
     releaseDate: 2024-07-24
-    eol: false
+    eol: 2026-02-03
     latest: "1.16.19"
     latestReleaseDate: 2026-01-13
 

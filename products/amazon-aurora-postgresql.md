@@ -10,7 +10,9 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html
+      name_column: "PostgreSQL minor engine version"
+      date_column: "Aurora release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html
@@ -22,33 +24,40 @@ auto:
         eoes: "End of RDS Extended Support date"
 
 releases:
+  - releaseCycle: "18"
+    releaseDate: 2026-02-26
+    eol: 2031-02-28
+    eoes: 2034-02-28
+    latest: "18.4"
+    latestReleaseDate: 2026-08-21
+
   - releaseCycle: "17"
     releaseDate: 2025-02-20
     eol: 2030-02-28
     eoes: 2033-02-28
-    latest: "17.7"
-    latestReleaseDate: 2025-12-18
+    latest: "17.10"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2029-02-28
     eoes: 2032-02-28
-    latest: "16.11"
-    latestReleaseDate: 2025-12-18
+    latest: "16.14"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "15"
     releaseDate: 2022-11-10
     eol: 2028-02-29
     eoes: 2031-02-28
-    latest: "15.15"
-    latestReleaseDate: 2025-12-18
+    latest: "15.18"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2027-02-28
     eoes: 2030-02-28
-    latest: "14.20"
-    latestReleaseDate: 2025-12-18
+    latest: "14.23"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24

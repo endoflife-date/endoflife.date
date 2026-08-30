@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:apk/alpine/nginx
   - purl: pkg:rpm/opensuse/nginx
   - purl: pkg:github/nginx/nginx
+  - cpe: cpe:2.3:a:f5:nginx
 
 auto:
   methods:
@@ -27,20 +28,32 @@ auto:
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
-
 releases:
-  - releaseCycle: "1.29"
-    releaseDate: 2025-06-24
+  - releaseCycle: "1.31"
+    releaseDate: 2026-05-13
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.29.4"
-    latestReleaseDate: 2025-12-09
+    latest: "1.31.4"
+    latestReleaseDate: 2026-08-19
+
+  - releaseCycle: "1.30"
+    releaseDate: 2026-04-14
+    eol: false
+    latest: "1.30.4"
+    latestReleaseDate: 2026-07-15
+
+  - releaseCycle: "1.29"
+    releaseDate: 2025-06-24
+    eol: 2026-05-13
+    link: https://nginx.org/en/CHANGES
+    latest: "1.29.8"
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "1.28"
     releaseDate: 2025-04-23
-    eol: false
-    latest: "1.28.1"
-    latestReleaseDate: 2025-12-23
+    eol: 2026-04-14
+    latest: "1.28.3"
+    latestReleaseDate: 2026-03-24
 
   - releaseCycle: "1.27"
     releaseDate: 2024-05-28

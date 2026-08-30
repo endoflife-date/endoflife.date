@@ -7,32 +7,48 @@ alternate_urls:
   - /commvault-backup
 releasePolicyLink: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
 
+identifiers:
+  - cpe: cpe:2.3:a:commvault:commvault
+
 auto:
   methods:
-    - release_table: https://documentation.commvault.com/v11/software/commvault_software_releases_release_types_and_release_tracks.html
+    - release_table: https://documentation.commvault.com/11.44/software/commvault_software_releases_release_types_and_release_tracks.html
       fields:
-        releaseCycle:
-          column: "Release"
-          regex: '^.+ \(?(?P<value>\d+\.\d+)\)?$'
+        releaseCycle: "Release"
         releaseDate: "Initial release date"
         eol: "End-of-life date"
         latest: "Latest maintenance release"
         latestReleaseDate: "Maintenance release date"
 
 releases:
+  - releaseCycle: "11.46"
+    releaseDate: 2026-07-15
+    eol: false # not announced on https://documentation.commvault.com/11.46/software/commvault_software_releases_release_types_and_release_tracks.html yet
+    latest: "11.46.20"
+    latestReleaseDate: 2026-08-14
+    link: https://documentation.commvault.com/11.46/software/innovation_update_release_in_11_46.html
+
+  - releaseCycle: "11.44"
+    lts: true
+    releaseDate: 2026-06-15
+    eol: 2028-12-15
+    latest: "11.44.16"
+    latestReleaseDate: 2026-08-11
+    link: https://documentation.commvault.com/11.44/software/maintenance_release_in_11_44.html
+
   - releaseCycle: "11.42"
     releaseDate: 2025-07-14
-    eol: 2026-07-15
-    latest: "11.42.60"
-    latestReleaseDate: 2025-01-12
-    link: https://documentation.commvault.com/11.42/software/list_of_innovation_update_releases_in_11_42.html
+    eol: 2028-06-15
+    latest: "11.42.122"
+    latestReleaseDate: 2026-06-15
+    link: https://documentation.commvault.com/11.42/software/list_of_update_releases_in_11_42.html
 
   - releaseCycle: "11.40"
     lts: true
     releaseDate: 2025-06-15
     eol: 2027-12-15
-    latest: "11.40.34"
-    latestReleaseDate: 2026-01-06
+    latest: "11.40.67"
+    latestReleaseDate: 2026-08-04
     link: https://documentation.commvault.com/11.40/essential/list_of_maintenance_releases_in_11_40.html
 
   - releaseCycle: "11.38"
@@ -40,15 +56,15 @@ releases:
     eol: 2025-07-18
     latest: "11.38.37"
     latestReleaseDate: 2025-06-17
-    link: https://documentation.commvault.com/11.38/software/list_of_innovation_update_releases_in_11_38.html
+    link: https://documentation.commvault.com/v11/software/list_of_innovation_update_releases_in_11_38.html
 
   - releaseCycle: "11.36"
     lts: true
     releaseLabel: "2024E"
     releaseDate: 2024-08-15
     eol: 2027-06-15
-    latest: "11.36.87"
-    latestReleaseDate: 2026-01-06
+    latest: "11.36.119"
+    latestReleaseDate: 2026-08-04
     link: https://documentation.commvault.com/2024e/essential/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
 
   - releaseCycle: "11.32"
@@ -56,8 +72,8 @@ releases:
     releaseLabel: "2023E"
     releaseDate: 2023-08-15
     eol: 2026-06-15
-    latest: "11.32.128"
-    latestReleaseDate: 2026-01-06
+    latest: "11.32.143"
+    latestReleaseDate: 2026-06-02
     link: https://documentation.commvault.com/v11/software/list_of_maintenance_releases_for_commvault_platform_release_2023e.html
 
 ---

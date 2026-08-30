@@ -79,6 +79,11 @@ identifiers:
   - purl: pkg:rpm/redhat/python
   - purl: pkg:rpm/redhat/python2
   - purl: pkg:rpm/redhat/python3
+  - purl: pkg:rpm/redhat/python27
+  - purl: pkg:rpm/redhat/python38
+  - purl: pkg:rpm/redhat/python39
+  - purl: pkg:rpm/redhat/python3.11
+  - purl: pkg:rpm/redhat/python3.12
   - purl: pkg:rpm/centos/python
   - purl: pkg:rpm/centos/python2
   - purl: pkg:rpm/centos/python3
@@ -106,40 +111,40 @@ releases:
     releaseDate: 2025-10-07
     eoas: 2027-10-01
     eol: 2030-10-31
-    latest: "3.14.2"
-    latestReleaseDate: 2025-12-05
+    latest: "3.14.7"
+    latestReleaseDate: 2026-08-05
     pep: PEP-0745
 
   - releaseCycle: "3.13"
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.11"
-    latestReleaseDate: 2025-12-05
+    latest: "3.13.15"
+    latestReleaseDate: 2026-08-05
     pep: PEP-0719
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.12"
-    latestReleaseDate: 2025-10-09
+    latest: "3.12.14"
+    latestReleaseDate: 2026-08-12
     pep: PEP-0693
 
   - releaseCycle: "3.11"
     releaseDate: 2022-10-24
     eoas: 2024-04-01
     eol: 2027-10-31
-    latest: "3.11.14"
-    latestReleaseDate: 2025-10-09
+    latest: "3.11.16"
+    latestReleaseDate: 2026-08-13
     pep: PEP-0664
 
   - releaseCycle: "3.10"
     releaseDate: 2021-10-04
     eoas: 2023-04-05
     eol: 2026-10-31
-    latest: "3.10.19"
-    latestReleaseDate: 2025-10-09
+    latest: "3.10.21"
+    latestReleaseDate: 2026-08-13
     pep: PEP-0619
 
   - releaseCycle: "3.9"

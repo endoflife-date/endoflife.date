@@ -20,52 +20,65 @@ auto:
       template: "{{version}}"
 
 # As per https://cloud.google.com/kubernetes-engine/docs/release-schedule:
-# - releaseDate is the availability date of the of the Regular release channel,
-# - eol is the End of standard support .
-#
-# eoas:last-date-in-month(eol - 2months)
+# - releaseDate = availability date of the of the Regular release channel,
+# - eoas = last-date-in-month(eol - 2months)
+# - eol = End of standard support
 releases:
+  - releaseCycle: "1.36"
+    releaseDate: 2026-06-09
+    eoas: 2027-06-30
+    eol: 2027-08-09
+    latest: "1.36.3-gke.1767000"
+    latestReleaseDate: 2026-08-26
+
+  - releaseCycle: "1.35"
+    releaseDate: 2026-02-11
+    eoas: 2027-02-28
+    eol: 2027-04-11
+    latest: "1.35.8-gke.1036000"
+    latestReleaseDate: 2026-08-26
+
   - releaseCycle: "1.34"
     releaseDate: 2025-09-30
     eoas: 2026-08-30
     eol: 2026-10-01
-    latest: "1.34.3-gke.1136000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.34.10-gke.1328000"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "1.33"
     releaseDate: 2025-06-03
     eoas: 2026-06-30
     eol: 2026-08-03
-    latest: "1.33.5-gke.2228000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.33.13-gke.1547000"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "1.32"
     releaseDate: 2025-02-11
     eoas: 2026-02-28
     eol: 2026-04-11
-    latest: "1.32.11-gke.1075000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.32.13-gke.2337000"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eoas: 2025-11-30
     eol: 2026-01-16
-    latest: "1.31.14-gke.1243000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.31.14-gke.2630000"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eoas: 2025-07-31
     eol: 2025-09-30
-    latest: "1.30.14-gke.1922000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.30.14-gke.2866000"
+    latestReleaseDate: 2026-07-30
 
   - releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-02-28
     eol: 2025-04-12
-    latest: "1.29.15-gke.2680000"
-    latestReleaseDate: 2026-01-21
+    latest: "1.29.15-gke.2725000"
+    latestReleaseDate: 2026-01-29
 
   - releaseCycle: "1.28"
     releaseDate: 2023-12-04

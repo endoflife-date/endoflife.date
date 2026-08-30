@@ -22,37 +22,37 @@ releases:
     releaseDate: 2025-09-15
     eoas: false
     eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    latest: "26.6.1"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.7.3"
-    latestReleaseDate: 2025-12-12
+    latest: "18.7.10"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
-    eoas: false
+    eoas: 2024-08-19
     eol: false
-    latest: "17.7.10"
-    latestReleaseDate: 2025-08-20
+    latest: "17.7.11"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "16"
     releaseDate: 2022-10-24
     eoas: 2023-09-18
-    eol: 2025-03-31
-    latest: "16.7.12"
-    latestReleaseDate: 2025-09-15
+    eol: false
+    latest: "16.7.16"
+    latestReleaseDate: 2026-05-11
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-10-24
-    eol: 2025-03-31
-    latest: "15.8.5"
-    latestReleaseDate: 2025-09-15
+    eol: false
+    latest: "15.8.8"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
@@ -63,16 +63,30 @@ releases:
 
   - releaseCycle: "13"
     releaseDate: 2019-09-24
-    eoas: 2020-09-16
-    eol: 2020-09-16
+    eoas: 2020-09-16 # releaseDate(14)
+    eol: 2020-09-16 # releaseDate(14)
     latest: "13.6"
     latestReleaseDate: 2020-07-15
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes
+
+  - releaseCycle: "12"
+    releaseDate: 2018-09-17
+    eoas: 2019-09-24 # releaseDate(13)
+    eol: 2019-09-24 # releaseDate(13)
+    latest: "12.5.8"
+    latestReleaseDate: 2026-01-26
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
 ---
 
 > [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
 > It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
+
+{: .warning }
+
+> As of May 2026, iPadOS 15, 16, 17, 18, and 26 appear to be receiving security fixes.
+> Apple occasionally backports critical security fixes to
+> [older iPadOS versions](https://support.apple.com/100100), but such fixes are not guaranteed.
 
 Major versions of iPadOS are released annually.
 

@@ -31,39 +31,46 @@ auto:
 
 # Only releases listed on https://flink.apache.org/downloads/ are supported.
 releases:
+  - releaseCycle: "2.3"
+    recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.2/docs/deployment/java_compatibility/
+    releaseDate: 2026-06-25
+    eol: false
+    latest: "2.3.0"
+    latestReleaseDate: 2026-06-23
+
   - releaseCycle: "2.2"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.2/docs/deployment/java_compatibility/
     releaseDate: 2025-12-04
     eol: false
-    latest: "2.2.0"
-    latestReleaseDate: 2025-12-03
+    latest: "2.2.1"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "2.1"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.1/docs/deployment/java_compatibility/
     releaseDate: 2025-07-29
     eol: false
-    latest: "2.1.1"
-    latestReleaseDate: 2025-10-30
+    latest: "2.1.3"
+    latestReleaseDate: 2026-06-11
 
   - releaseCycle: "2.0"
     recommendedJavaVersion: "17" # https://nightlies.apache.org/flink/flink-docs-release-2.0/docs/deployment/java_compatibility/
     releaseDate: 2025-03-19
-    eol: false
-    latest: "2.0.1"
-    latestReleaseDate: 2025-10-30
+    eol: 2026-06-25
+    latest: "2.0.2"
+    latestReleaseDate: 2026-05-09
 
   - releaseCycle: "1.20"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/deployment/java_compatibility/
     lts: true # See https://nightlies.apache.org/flink/flink-docs-lts/
     releaseDate: 2024-08-01
     eol: false
-    latest: "1.20.3"
-    latestReleaseDate: 2025-09-25
+    latest: "1.20.5"
+    latestReleaseDate: 2026-06-11
 
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/
     releaseDate: 2024-03-15
-    eol: false
+    eol: 2026-07-01 # last seen on https://web.archive.org/web/20260607210633/https://flink.apache.org/downloads/
     latest: "1.19.3"
     latestReleaseDate: 2025-07-07
 

@@ -20,6 +20,14 @@ customFields:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+  - releaseCycle: "17e"
+    releaseLabel: "17e"
+    releaseDate: 2026-03-11
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/en-us/126470
+    supportedIosVersions: "26"
+
   - releaseCycle: "17"
     releaseLabel: "17"
     releaseDate: 2025-09-19
@@ -264,7 +272,7 @@ releases:
     releaseLabel: "XR"
     releaseDate: 2018-10-26
     discontinued: 2021-09-07
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP781
     supportedIosVersions: "12 - 18"
 
@@ -272,7 +280,7 @@ releases:
     releaseLabel: "XS"
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP779
     supportedIosVersions: "12 - 18"
 
@@ -280,7 +288,7 @@ releases:
     releaseLabel: "XS Max"
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
-    eol: false
+    eol: 2026-04-22
     link: https://support.apple.com/kb/SP780
     supportedIosVersions: "12 - 18"
 

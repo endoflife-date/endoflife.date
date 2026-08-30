@@ -23,6 +23,12 @@ auto:
 # Dates as per https://fedorapeople.org/groups/schedule/
 # Latest release dates are not displayed but added automatically by auto-update.
 releases:
+  - releaseCycle: "44"
+    releaseDate: 2026-04-28
+    eol: 2027-06-02
+    latest: "44"
+    latestReleaseDate: 2026-04-28
+
   - releaseCycle: "43"
     releaseDate: 2025-10-28
     eol: 2026-12-09
@@ -33,7 +39,7 @@ releases:
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Adams"
     releaseDate: 2025-04-15
-    eol: 2026-05-13
+    eol: 2026-05-27
     latest: "42"
     latestReleaseDate: 2025-04-15
 

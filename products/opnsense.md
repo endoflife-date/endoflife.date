@@ -19,10 +19,24 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "26.7"
+    codename: "Xenial Xenops"
+    releaseDate: 2026-07-15
+    eol: false
+    latest: "26.7.3"
+    latestReleaseDate: 2026-08-27
+
+  - releaseCycle: "26.1"
+    codename: "Witty Woodpecker"
+    releaseDate: 2026-01-28
+    eol: 2026-07-15
+    latest: "26.1.11"
+    latestReleaseDate: 2026-07-01
+
   - releaseCycle: "25.7"
     codename: "Visionary Viper"
     releaseDate: 2025-07-22
-    eol: false
+    eol: 2026-01-28
     latest: "25.7.11"
     latestReleaseDate: 2026-01-15
 

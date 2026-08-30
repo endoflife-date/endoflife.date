@@ -16,6 +16,7 @@ eolColumn: Limited Support
 identifiers:
   - purl: pkg:docker/rancher/rancher
   - repology: rancher
+  - cpe: cpe:2.3:a:suse:rancher
 
 auto:
   methods:
@@ -30,35 +31,50 @@ auto:
         releaseDate: GA
         eoas: EOM
         eol: EOL
+
 # Support and EOL dates can be found on https://www.suse.com/lifecycle#suse-rancher-prime
 releases:
+  - releaseCycle: "2.15"
+    releaseDate: 2026-07-30
+    eoas: false
+    eol: false
+    latest: "2.15.1"
+    latestReleaseDate: 2026-08-27
+
+  - releaseCycle: "2.14"
+    releaseDate: 2026-04-30
+    eoas: 2026-10-30
+    eol: 2027-10-10
+    latest: "2.14.5"
+    latestReleaseDate: 2026-08-26
+
   - releaseCycle: "2.13"
     releaseDate: 2025-12-17
     eoas: 2026-06-17
     eol: 2027-06-17
-    latest: "2.13.1"
-    latestReleaseDate: 2025-12-18
+    latest: "2.13.9"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "2.12"
     releaseDate: 2025-08-29
     eoas: 2026-02-28
     eol: 2027-02-28
-    latest: "2.12.5"
-    latestReleaseDate: 2025-12-18
+    latest: "2.12.13"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "2.11"
     releaseDate: 2025-04-24
     eoas: 2025-10-24
     eol: 2026-10-24
-    latest: "2.11.9"
-    latestReleaseDate: 2025-12-18
+    latest: "2.11.17"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "2.10"
     releaseDate: 2024-12-19
     eoas: 2025-06-19
     eol: 2026-06-19
-    latest: "2.10.10"
-    latestReleaseDate: 2025-09-24
+    latest: "2.10.12"
+    latestReleaseDate: 2026-05-27
 
   - releaseCycle: "2.9"
     releaseDate: 2024-08-26

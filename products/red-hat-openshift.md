@@ -10,7 +10,6 @@ alternate_urls:
   - /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v4_0.png
 changelogTemplate: https://docs.redhat.com/en/documentation/openshift_container_platform/__RELEASE_CYCLE__/html/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes
 eoasColumn: Full Support
 eolColumn: Maintenance Support
@@ -27,72 +26,86 @@ auto:
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
+  - releaseCycle: "4.22"
+    releaseDate: 2026-06-09
+    eoas: 2026-12-31
+    eol: 2027-12-31
+    latest: "4.22.9"
+    latestReleaseDate: 2026-08-11
+
+  - releaseCycle: "4.21"
+    releaseDate: 2025-10-21
+    eoas: 2026-09-09
+    eol: 2027-08-03
+    latest: "4.21.29"
+    latestReleaseDate: 2026-08-18
+
   - releaseCycle: "4.20"
     releaseDate: 2025-10-21
-    eoas: false # 4.21 GA + 3 months
+    eoas: 2026-05-03
     eol: 2027-04-21
-    latest: "4.20.4"
-    latestReleaseDate: 2025-11-18
+    latest: "4.20.33"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "4.19"
     releaseDate: 2025-06-17
     eoas: 2026-01-21
     eol: 2026-12-17
-    latest: "4.19.18"
-    latestReleaseDate: 2025-11-05
+    latest: "4.19.42"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "4.18"
     releaseDate: 2025-02-25
     eoas: 2025-09-17
     eol: 2026-08-25
     eoes: 2027-02-25
-    latest: "4.18.28"
-    latestReleaseDate: 2025-11-12
+    latest: "4.18.52"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "4.17"
     releaseDate: 2024-10-01
     eoas: 2025-05-25
     eol: 2026-04-01
-    latest: "4.17.43"
-    latestReleaseDate: 2025-11-05
+    latest: "4.17.55"
+    latestReleaseDate: 2026-07-09
 
   - releaseCycle: "4.16"
     releaseDate: 2024-06-27
     eoas: 2025-01-01
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.52"
-    latestReleaseDate: 2025-11-12
+    latest: "4.16.68"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "4.15"
     releaseDate: 2024-02-27
     eoas: 2024-09-27
     eol: 2025-08-27
-    latest: "4.15.59"
-    latestReleaseDate: 2025-11-06
+    latest: "4.15.67"
+    latestReleaseDate: 2026-07-30
 
   - releaseCycle: "4.14"
     releaseDate: 2023-10-31
     eoas: 2024-05-27
     eol: 2025-05-01
     eoes: 2025-10-31
-    latest: "4.14.58"
-    latestReleaseDate: 2025-10-30
+    latest: "4.14.71"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "4.13"
     releaseDate: 2023-05-17
     eoas: 2024-01-31
     eol: 2024-11-17
-    latest: "4.13.61"
-    latestReleaseDate: 2025-09-18
+    latest: "4.13.69"
+    latestReleaseDate: 2026-07-23
 
   - releaseCycle: "4.12"
     releaseDate: 2023-01-17
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.82"
-    latestReleaseDate: 2025-11-13
+    latest: "4.12.95"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "4.11"
     releaseDate: 2022-08-10
@@ -195,7 +208,7 @@ Important Security Advisories (RHSAs) and Urgent and Selected High Priority Bug 
 ([RHEA][DEFINITION]) may be released at Red Hat’s discretion, but should not be expected.
 
 The **Extended Update Support** phase starts after the Full Support phase for even numbered minor
-releases (e.g. 4.8, 4.10, 4.12). Additionally, to the full support and maintenance support phases,
+releases (e.g. 4.8, 4.10, 4.12). In addition to the full support and maintenance support phases,
 which also apply to EUS releases, upgrades between EUS releases will cause fewer reboots of nodes.
 This was the only benefit of EUS releases before version 4.12. Starting from 4.12, Red Hat will
 additionally include a six-month EUS phase. The EUS phase will follow the maintenance phase for

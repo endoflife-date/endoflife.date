@@ -17,30 +17,39 @@ auto:
           column: "Version"
           regex: "^(?P<value>.+).x$"
         releaseDate: "Release Date"
-        eoas: "Maintenance End"
         eol: "End of Life"
 
+# There is no more a notion of "Active support", so:
+# eoas(x) = releaseDate(x)
+# eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "31"
+    releaseDate: 2026-04-19
+    eoas: 2026-04-20
+    eol: false # releaseDate(34)
+    latest: "31.1"
+    latestReleaseDate: 2026-07-08
+
   - releaseCycle: "30"
     releaseDate: 2025-10-10
-    eoas: false
-    eol: false
-    latest: "30.1"
-    latestReleaseDate: 2026-01-02
+    eoas: 2025-10-10
+    eol: false # releaseDate(33)
+    latest: "30.3"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "29"
     releaseDate: 2025-04-14
-    eoas: false
-    eol: false
-    latest: "29.2"
-    latestReleaseDate: 2025-10-14
+    eoas: 2025-10-10
+    eol: false # releaseDate(32)
+    latest: "29.4"
+    latestReleaseDate: 2026-07-10
 
   - releaseCycle: "28"
     releaseDate: 2024-10-02
     eoas: 2025-10-10
-    eol: false
-    latest: "28.3"
-    latestReleaseDate: 2025-10-30
+    eol: 2026-04-19
+    latest: "28.4"
+    latestReleaseDate: 2026-04-06
 
   - releaseCycle: "27"
     releaseDate: 2024-04-16
@@ -199,6 +208,6 @@ Bitcoin Core releases are versioned as follows: `MAJOR.MINOR` with:
 - `MAJOR` being incremented for major releases, which may include breaking changes.
 - `MINOR` being incremented for maintenance releases, which may include minor features and consensus rule updates.
 
-The last three major releases are maintained.
-The last two are actively maintained with minor features, consensus rule updates, as well as bug and security fixes.
-The release before that only receives critical security fixes.
+The last three major releases are maintained with minor features, consensus rule updates, as well as bug and security fixes.
+A new major release is made roughly every 6 months, leading to a 18-month support cycle.
+The threshold for backporting a change to an older major version increases as it ages.

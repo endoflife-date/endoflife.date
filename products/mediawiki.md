@@ -6,7 +6,6 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/hs5faq2k9b3pw5dm4fabgjwtjf2l8jw.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 eolColumn: End-of-Life
 
@@ -28,24 +27,30 @@ auto:
         eol: "End-of-life"
 
 releases:
+  - releaseCycle: "1.46"
+    releaseDate: 2026-06-30
+    eol: 2027-07-31
+    latest: "1.46.0"
+    latestReleaseDate: 2026-06-30
+
   - releaseCycle: "1.45"
     releaseDate: 2025-12-04
     eol: 2026-12-31
-    latest: "1.45.1"
-    latestReleaseDate: 2025-12-16
+    latest: "1.45.4"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "1.44"
     releaseDate: 2025-07-02
     eol: 2026-07-31
-    latest: "1.44.3"
-    latestReleaseDate: 2025-12-16
+    latest: "1.44.6"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "1.43"
     releaseDate: 2024-12-21
     lts: true
     eol: 2027-12-31
-    latest: "1.43.6"
-    latestReleaseDate: 2025-12-16
+    latest: "1.43.9"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "1.42"
     releaseDate: 2024-06-27
@@ -124,7 +129,7 @@ releases:
 
 ---
 
-> [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers
+> [MediaWiki](https://mediawiki.org) is a wiki engine and is mostly known as the software that powers
 > Wikipedia, but it is also frequently used for other wikis.
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2

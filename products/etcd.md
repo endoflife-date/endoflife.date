@@ -24,23 +24,29 @@ auto:
 # tentative rule:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x+2))
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-07-08
+    eol: false
+    latest: "3.7.1"
+    latestReleaseDate: 2026-07-23
+
   - releaseCycle: "3.6"
     releaseDate: 2025-05-15
     eol: false
-    latest: "3.6.7"
-    latestReleaseDate: 2025-12-18
+    latest: "3.6.14"
+    latestReleaseDate: 2026-07-23
 
   - releaseCycle: "3.5"
     releaseDate: 2021-06-15
-    eol: false
-    latest: "3.5.26"
-    latestReleaseDate: 2025-12-18
+    eol: 2027-07-08 # releaseDate(3.7) + 1y, see https://etcd.io/blog/2026/etcd-370-beta/
+    latest: "3.5.33"
+    latestReleaseDate: 2026-07-23
 
   - releaseCycle: "3.4"
     releaseDate: 2019-08-30
-    eol: 2025-05-15 # releaseDate(3.6)
-    latest: "3.4.40"
-    latestReleaseDate: 2025-12-18
+    eol: 2026-06-01 # exception https://etcd.io/blog/2026/june-patch-release/
+    latest: "3.4.45"
+    latestReleaseDate: 2026-06-01
 
   - releaseCycle: "3.3"
     releaseDate: 2018-02-01
