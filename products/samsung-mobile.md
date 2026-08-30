@@ -46,23 +46,37 @@ releases:
   - releaseCycle: "galaxy-z-flip8"
     releaseLabel: "Galaxy Z Flip8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    link: https://doc.samsungmobile.com/SM-F7760/039222260801/eng.html
 
   - releaseCycle: "galaxy-z-fold8"
     releaseLabel: "Galaxy Z Fold8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    link: https://doc.samsungmobile.com/SM-F971B/EUX/doc.html
 
   - releaseCycle: "galaxy-z-fold8-ultra"
     releaseLabel: "Galaxy Z Fold8 Ultra"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki  /Samsung_Galaxy_Z_Fold_8#Software
+    link: https://doc.samsungmobile.com/SM-F976B/EUX/doc.html
+
+  - releaseCycle: "galaxy-a27-5g"
+    releaseLabel: "Galaxy A27 5G"
+    releaseDate: 2026-07-14 # https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    eoas: 2032-07-14 # 6 Android upgrades - https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    eol: 2032-07-14 # 6 years of security updates - https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    link: https://doc.samsungmobile.com/SM-A276B/EUX/doc.html
+
+  - releaseCycle: "galaxy-m47-5g"
+    releaseLabel: "Galaxy M47 5G"
+    releaseDate: 2026-07-04 # https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    eoas: 2032-07-04 # 6 Android upgrades - https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    eol: 2032-07-04 # 6 years of security updates - https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    link: https://doc.samsungmobile.com/SM-M476B/INS/doc.html
 
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
@@ -214,7 +228,7 @@ releases:
     releaseDate: 2025-07-22 # https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eoas: 2031-07-22 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eol: 2031-07-22 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
-    link: null # not found on doc.samsungmobile.com as of 2025-08-06
+    link: https://doc.samsungmobile.com/SM-E366B/INS/doc.html
 
   - releaseCycle: "galaxy-m36-5g"
     releaseLabel: "Galaxy M36 5G"
