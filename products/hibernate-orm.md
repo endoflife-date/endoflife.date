@@ -43,8 +43,8 @@ releases:
     releaseDate: 2026-05-26
     eol: false
     eoes: false
-    latest: "7.4.6"
-    latestReleaseDate: 2026-08-23
+    latest: "7.4.7"
+    latestReleaseDate: 2026-08-30
 
   - releaseCycle: "7.3"
     supportedJavaVersions: "17, 21, 25 or 26"
