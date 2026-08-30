@@ -71,7 +71,7 @@ releases:
     link: https://www.ibm.com/docs/aix/7.3?topic=notes-aix-73-release
 
   - releaseCycle: "7.2.5"
-    staleReleaseThresholdDays: 2000 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
+    staleReleaseThresholdDays: 2365 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
     releaseDate: 2020-11-30
     eol: false
     latest: "7.2.5"
