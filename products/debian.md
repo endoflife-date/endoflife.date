@@ -106,7 +106,6 @@ releases:
     releaseDate: 2011-02-06
     eoas: 2014-05-31
     eol: 2016-02-29
-    eoes: false
     link: https://lists.debian.org/debian-announce/2011/msg00001.html
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
@@ -116,7 +115,6 @@ releases:
     releaseDate: 2009-02-14
     eoas: 2012-02-06
     eol: 2012-02-06
-    eoes: false
     link: https://lists.debian.org/debian-announce/2009/msg00002.html
     latest: "5.0.10"
     latestReleaseDate: 2012-03-10
@@ -126,7 +124,6 @@ releases:
     releaseDate: 2007-04-08
     eoas: 2010-02-15
     eol: 2010-02-15
-    eoes: false
     link: https://lists.debian.org/debian-announce/2007/msg00002.html
     latest: "4.0r9"
     latestReleaseDate: 2010-05-22
@@ -136,7 +133,6 @@ releases:
     releaseDate: 2005-06-06
     eoas: 2008-03-31
     eol: 2008-03-31
-    eoes: false
     link: https://lists.debian.org/debian-announce/2005/msg00003.html
     latest: "3.1r8"
     latestReleaseDate: 2008-04-13
@@ -146,7 +142,6 @@ releases:
     releaseDate: 2002-07-19
     eoas: 2006-06-30
     eol: 2006-06-30
-    eoes: false
     link: https://lists.debian.org/debian-announce/2002/msg00004.html
     latest: "3.0r6"
     latestReleaseDate: 2005-06-02
@@ -156,7 +151,6 @@ releases:
     releaseDate: 2000-08-15
     eoas: 2003-06-30
     eol: 2003-06-30
-    eoes: false
     link: https://lists.debian.org/debian-announce/2000/msg00009.html
     latest: "2.2r7"
     latestReleaseDate: 2002-07-13
@@ -166,7 +160,6 @@ releases:
     releaseDate: 1999-03-09
     eoas: 2000-09-30
     eol: 2000-10-30
-    eoes: false
     link: https://lists.debian.org/debian-announce/1999/msg00005.html
     latest: "2.1r5"
     latestReleaseDate: 2000-02-16
@@ -176,7 +169,6 @@ releases:
     releaseDate: 1998-07-24
     eoas: 1999-02-15
     eol: 1999-02-15
-    eoes: false
     link: https://lists.debian.org/debian-announce/1998/msg00015.html
     latest: "2.0r5"
     latestReleaseDate: 1999-02-17
@@ -186,7 +178,6 @@ releases:
     releaseDate: 1997-07-02
     eoas: 1998-12-08
     eol: 1998-12-08
-    eoes: false
     link: https://lists.debian.org/debian-announce/1997/msg00018.html
     latest: "1.3.1 r.6"
     latestReleaseDate: 1998-02-03
@@ -196,7 +187,6 @@ releases:
     releaseDate: 1996-12-12
     eoas: 1997-10-23
     eol: 1997-10-23
-    eoes: false
     link: https://lists.debian.org/debian-announce/1996/msg00026.html
     latest: "1.2"
     latestReleaseDate: 1996-12-12
@@ -206,7 +196,6 @@ releases:
     releaseDate: 1996-06-17
     eoas: 1996-12-12
     eol: 1996-12-12
-    eoes: false
     link: https://lists.debian.org/debian-announce/1996/msg00021.html
     latest: "1.1"
     latestReleaseDate: 1996-06-17
