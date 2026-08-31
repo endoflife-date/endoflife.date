@@ -80,6 +80,7 @@ releases:
     lts: true
     releaseDate: 2026-03-25
     eol: 2027-03-25
+    eoes: false
     latest: "3.33.3.1"
     latestReleaseDate: 2026-08-04
     link: https://quarkus.io/blog/quarkus-3-33-released/
