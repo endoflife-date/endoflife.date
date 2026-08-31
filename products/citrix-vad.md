@@ -56,9 +56,9 @@ releases:
     eoas: 2028-08-18
     eol: 2028-08-18
     eoes: 2033-08-18
-    latest: "2507 CU1 Update 4"
-    latestReleaseDate: 2026-04-20
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new/cumulative-update-1
+    latest: "2507 CU2"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2507-ltsr/whats-new/cumulative-update-2
 
   - releaseCycle: "2503"
     releaseDate: 2025-04-29
@@ -87,8 +87,8 @@ releases:
     eoas: 2029-04-15
     eol: 2029-04-15
     eoes: 2034-04-15
-    latest: "2402 CU4"
-    latestReleaseDate: 2026-05-08
+    latest: "2402 CU4 Update 1"
+    latestReleaseDate: 2026-08-07
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2402-ltsr/whats-new/cumulative-update-4.html
 
   - releaseCycle: "2311"
@@ -152,8 +152,8 @@ releases:
     eoas: 2027-03-23
     eol: 2027-03-23
     eoes: 2032-03-23
-    latest: "2203 CU7 Update 3"
-    latestReleaseDate: 2026-04-20
+    latest: "2203 CU7 Update 4"
+    latestReleaseDate: 2026-08-07
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-7
 
   - releaseCycle: "2112"

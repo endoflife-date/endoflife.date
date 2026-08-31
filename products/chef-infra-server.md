@@ -30,14 +30,13 @@ releases:
     releaseDate: 2022-06-13
     eoas: false
     eol: false
-    latest: "15.10.114"
-    latestReleaseDate: 2026-06-25
+    latest: "15.10.125"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "14"
-    staleReleaseThresholdDays: 1500 # deprecated, but no EOL on https://docs.chef.io/versions/
     releaseDate: 2020-06-08
     eoas: 2022-06-13
-    eol: false
+    eol: 2025-12-31 # https://web.archive.org/web/20260225151154/https://docs.chef.io/versions/
     latest: "14.16.19"
     latestReleaseDate: 2022-06-07
 

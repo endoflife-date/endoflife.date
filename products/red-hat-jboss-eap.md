@@ -18,9 +18,11 @@ eoesColumn: Extended Life Support 1
 
 auto:
   methods:
-    - red-hat-jboss-eap-7: https://access.redhat.com/articles/2332721
-    - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.0/maven-metadata.xml
-    - red-hat-jboss-eap-8: https://maven.repository.redhat.com/ga/org/jboss/eap/channels/eap-8.1/maven-metadata.xml
+    - version_table: https://downloads.redhat.com/redhat/jboss/eap/
+      header_selector: "tr:nth-of-type(1)"
+      name_column: "Name"
+      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\/$'
+      date_column: "Last modified"
     - redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
       regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
       fields:
@@ -38,16 +40,16 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.1.5"
-    latestReleaseDate: 2026-03-17
+    latest: "8.1.7"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
     eoes: 2027-10-31
-    latest: "7.4.23"
-    latestReleaseDate: 2025-07-14
+    latest: "7.4.25"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "6"
     releaseDate: 2012-06-01
@@ -63,7 +65,7 @@ releases:
     eol: 2016-11-30
     eoes: 2019-11-30
     latest: "5.2.0"
-    latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
+    latestReleaseDate: 2013-01-25
     link: https://web.archive.org/web/20230821184117/https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
   - releaseCycle: "4.3"

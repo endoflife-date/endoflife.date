@@ -22,10 +22,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "152"
+    releaseDate: 2026-08-25
+    eol: 2026-09-08 # Estimated, revise with releaseDate("153") https://developer.chrome.com/blog/chrome-two-week-release?hl=en
+
+  - releaseCycle: "151"
+    releaseDate: 2026-07-28
+    eol: 2026-08-25 # Estimated, revise with releaseDate("152")
 
   - releaseCycle: "150"
     releaseDate: 2026-06-30
-    eol: 2026-07-28 # Estimated, revise with releaseDate("151")
+    eol: 2026-07-28
 
   - releaseCycle: "149"
     releaseDate: 2026-06-02

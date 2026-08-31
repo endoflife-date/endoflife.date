@@ -21,15 +21,16 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.logging.log4j/log4j-core
+    - github_releases: apache/logging-log4j2
+      regex: '^rel/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "2"
     outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.26.0"
-    latestReleaseDate: 2026-05-02
+    latest: "2.26.1"
+    latestReleaseDate: 2026-07-02
 
   - releaseCycle: "2.12"
     releaseDate: 2019-06-26

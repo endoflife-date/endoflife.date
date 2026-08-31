@@ -1,6 +1,6 @@
 ---
 title: JRuby
-addedAt: 2026-04-29
+addedAt: 2026-05-08
 category: lang
 tags: java-runtime
 permalink: /jruby
@@ -39,8 +39,8 @@ releases:
     minJavaVersion: "21"
     supportedRubyVersion: "4.0"
     eol: false
-    latest: "10.1.0.0"
-    latestReleaseDate: 2026-04-20
+    latest: "10.1.1.0"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "10.0"
     releaseDate: 2025-04-14

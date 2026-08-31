@@ -19,7 +19,30 @@ auto:
           regex: '^(?P<value>.+)$'
         releaseLabel: "Image"
 
+# releaseDate is the GA release date.
+# Image status is documented on https://github.com/actions/runner-images/tree/main.
 releases:
+  - releaseCycle: "windows-11-vs2026-arm64"
+    releaseLabel: "Windows 11 Arm64 with Visual Studio 2026"
+    releaseDate: 2026-08-20 # https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/windows/Windows11-VS2026-Arm64-Readme.md
+
+  - releaseCycle: "windows-11-arm64"
+    releaseLabel: "Windows 11 Arm64"
+    releaseDate: 2026-08-20 # https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/windows/Windows11-Arm64-Readme.md
+
+  - releaseCycle: "windows-2025-vs2026"
+    releaseLabel: "Windows Server 2025"
+    releaseDate: 2026-05-07 # https://github.com/actions/runner-images/issues/14016
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/windows/Windows2025-VS2026-Readme.md
+
   - releaseCycle: "macos-26"
     releaseLabel: "macOS 26"
     releaseDate: 2026-02-26 # https://github.blog/changelog/2026-02-26-macos-26-is-now-generally-available-for-github-hosted-runners/
@@ -55,6 +78,20 @@ releases:
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/macos/macos-15-Readme.md
 
+  - releaseCycle: "ubuntu-22.04-arm64"
+    releaseLabel: "Ubuntu 22.04 Arm64"
+    releaseDate: 2024-09-03 # https://github.blog/changelog/2024-09-03-github-actions-arm64-linux-and-windows-runners-are-now-generally-available/
+    eoas: 2026-09-17 # https://github.com/actions/runner-images/issues/14254
+    eol: 2027-04-17 # https://github.com/actions/runner-images/issues/14254
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Arm64-Readme.md
+
+  - releaseCycle: "ubuntu-24.04-arm64"
+    releaseLabel: "Ubuntu 24.04 Arm64"
+    releaseDate: 2024-06-24 # https://github.blog/changelog/2024-06-24-github-actions-ubuntu-24-04-image-now-available-for-arm64-runners/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Arm64-Readme.md
+
   - releaseCycle: "ubuntu-24.04"
     releaseLabel: "Ubuntu 24.04"
     releaseDate: 2024-05-14 # https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available/
@@ -86,10 +123,9 @@ releases:
   - releaseCycle: "ubuntu-22.04"
     releaseLabel: "Ubuntu 22.04"
     releaseDate: 2022-08-09 # https://github.blog/changelog/2022-08-09-github-actions-ubuntu-22-04-is-now-generally-available-on-github-hosted-runners/
-    eoas: false
-    eol: false
+    eoas: 2026-09-17 # https://github.com/actions/runner-images/issues/14254
+    eol: 2027-04-17 # https://github.com/actions/runner-images/issues/14254
     link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
-    staleReleaseThresholdDays: 1825 # still not announced
 
   - releaseCycle: "macos-12"
     releaseLabel: "macOS 12"

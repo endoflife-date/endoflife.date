@@ -9,7 +9,9 @@ releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaD
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+      name_column: "MariaDB engine version"
+      date_column: "RDS release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
@@ -21,9 +23,15 @@ auto:
         eol: "RDS end of standard support date"
 
 releases:
+  - releaseCycle: "12.3"
+    releaseDate: 2026-08-07
+    eol: 2029-06-30
+    latest: "12.3.2"
+    latestReleaseDate: 2026-08-07
+
   - releaseCycle: "11.8"
     releaseDate: 2025-08-25
-    eol: 2030-06-30
+    eol: 2028-06-30
     latest: "11.8.8"
     latestReleaseDate: 2026-06-05
 
@@ -41,7 +49,7 @@ releases:
 
   - releaseCycle: "10.6"
     releaseDate: 2022-02-03
-    eol: 2026-11-30
+    eol: 2026-12-31
     latest: "10.6.27"
     latestReleaseDate: 2026-06-05
 

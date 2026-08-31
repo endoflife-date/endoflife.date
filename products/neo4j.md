@@ -47,9 +47,21 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+  - releaseCycle: "2026.07"
+    releaseDate: 2026-08-05
+    eol: false
+    latest: "2026.07.1"
+    latestReleaseDate: 2026-08-06
+
+  - releaseCycle: "2026.06"
+    releaseDate: 2026-07-08
+    eol: 2026-07-30
+    latest: "2026.06.0"
+    latestReleaseDate: 2026-07-02
+
   - releaseCycle: "2026.05"
     releaseDate: 2026-05-28
-    eol: false
+    eol: 2026-07-08
     latest: "2026.05.0"
     latestReleaseDate: 2026-05-26
 
@@ -153,8 +165,8 @@ releases:
     releaseDate: 2024-12-06
     eol: 2028-06-06 # https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
     lts: true
-    latest: "5.26.28"
-    latestReleaseDate: 2026-06-30
+    latest: "5.26.30"
+    latestReleaseDate: 2026-08-21
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"

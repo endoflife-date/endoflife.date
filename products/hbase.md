@@ -24,15 +24,21 @@ auto:
 
 # Supported releases are listed on https://hbase.apache.org/downloads
 releases:
+  - releaseCycle: "3.0"
+    releaseDate: 2026-08-05
+    eol: false # still listed on https://hbase.apache.org/downloads
+    latestReleaseDate: 2026-08-05
+    latest: "3.0.0"
+
   - releaseCycle: "2.6"
     releaseDate: 2024-05-17
-    eol: false
+    eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-06-09
     latest: "2.6.6"
 
   - releaseCycle: "2.5"
     releaseDate: 2022-08-31
-    eol: false
+    eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-06-09
     latest: "2.5.15"
 
@@ -68,6 +74,9 @@ releases:
 > modeled after Google's Bigtable and written in Java. It's useful for random, real-time read/write
 > access to Big Data. The project's goal is the hosting of huge tables — billions of rows X
 > millions of columns — atop clusters of commodity hardware.
+
+{: .note }
+> Starting with version 3.0.0, the requirement has been updated to JDK 17. Support for JDK 8 and JDK 11 has been dropped.
 
 You must pick a supported release of Hadoop as per the [compatibility matrix](https://hbase.apache.org/docs/configuration/basic-prerequisites#hadoop).
 

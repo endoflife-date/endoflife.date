@@ -22,9 +22,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.56"
+    releaseDate: 2026-08-27
+    eol: false
+    latest: "2.56.0"
+    latestReleaseDate: 2026-08-21
+
   - releaseCycle: "2.55"
     releaseDate: 2026-06-23
-    eol: false
+    eol: 2026-08-27
     latest: "2.55.0"
     latestReleaseDate: 2026-06-23
 
@@ -363,6 +369,7 @@ releases:
     eol: 2015-09-15
     latest: "1.0.0"
     latestReleaseDate: 2015-05-21
+
 ---
 
 > [Apache Artemis](https://artemis.apache.org/), formerly known as [Apache ActiveMQ Artemis](https://activemq.apache.org/news/artemis-tlp),

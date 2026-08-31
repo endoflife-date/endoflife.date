@@ -30,22 +30,29 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
-  - releaseCycle: "1.26"
-    releaseDate: 2026-02-11
+  - releaseCycle: "1.27"
+    releaseDate: 2026-08-19
     eol: false
-    latest: "1.26.5"
-    latestReleaseDate: 2026-07-07
+    latest: "1.27.0"
+    latestReleaseDate: 2026-08-19
+    link: https://go.dev/doc/go1.27
+
+  - releaseCycle: "1.26"
+    releaseDate: 2026-02-10
+    eol: false
+    latest: "1.26.7"
+    latestReleaseDate: 2026-08-19
     link: https://go.dev/doc/go1.26
 
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
-    eol: false
-    latest: "1.25.12"
-    latestReleaseDate: 2026-07-07
+    eol: 2026-08-19
+    latest: "1.25.14"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.24"
     releaseDate: 2025-02-11
-    eol: 2026-02-11
+    eol: 2026-02-10
     latest: "1.24.13"
     latestReleaseDate: 2026-02-04
 

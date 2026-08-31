@@ -25,12 +25,19 @@ identifiers:
 
 # EOL dates are documented on https://github.com/guzzle/guzzle?tab=readme-ov-file#version-guidance.
 releases:
+  - releaseCycle: "8"
+    eol: false
+    supportedPHPVersions: ">=7.4,<8.6"
+    latest: "8.1.0"
+    releaseDate: 2026-07-20
+    latestReleaseDate: 2026-08-24
+
   - releaseCycle: "7"
     eol: false
     supportedPHPVersions: ">=7.2.5, <8.6"
-    latest: "7.15.1"
+    latest: "7.15.5"
     releaseDate: 2020-06-27
-    latestReleaseDate: 2026-07-18
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "6"
     eol: 2023-10-31
