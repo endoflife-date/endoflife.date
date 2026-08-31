@@ -35,40 +35,40 @@ auto:
 releases:
   - releaseCycle: "0.63"
     releaseDate: 2026-07-07
-    eol: 2026-09-07
-    latest: "0.63.2.7"
-    latestReleaseDate: 2026-07-31
+    eol: 2026-10-01
+    latest: "0.63.15.6"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.62"
     releaseDate: 2026-06-01
     eol: 2026-09-01
-    latest: "0.62.7"
-    latestReleaseDate: 2026-07-29
+    latest: "0.62.18.5"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.61"
     releaseDate: 2026-04-30
     eol: 2026-09-01
-    latest: "0.61.9"
-    latestReleaseDate: 2026-07-27
+    latest: "0.61.20.2"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.60"
     releaseDate: 2026-03-26
     eol: 2026-09-01
-    latest: "0.60.15"
-    latestReleaseDate: 2026-07-27
+    latest: "0.60.26.2"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.59"
     releaseDate: 2026-02-12
     eol: 2026-09-01
-    latest: "0.59.19"
-    latestReleaseDate: 2026-07-27
+    latest: "0.59.30.2"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.58"
     releaseDate: 2025-12-17
     lts: true
     eol: 2027-02-17
-    latest: "0.58.22"
-    latestReleaseDate: 2026-07-27
+    latest: "0.58.31.2"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0.57"
     releaseDate: 2025-11-01
