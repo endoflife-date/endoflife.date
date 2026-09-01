@@ -28,6 +28,7 @@ auto:
         releaseDate: "Release date"
         eol: "End of support date"
 
+# eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "2026.4"
     releaseLabel: "2026.4"
@@ -44,6 +45,8 @@ releases:
     latest: "2026.3"
     latestReleaseDate: 2026-03-30
     link: https://github.com/akeneo/pim-community-dev/releases/tag/v2026.3
+
+  # 7.0 and below, use EOL date on https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 
   - releaseCycle: "7.0"
     codename: "Sahara hare"
@@ -168,7 +171,9 @@ releases:
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 
-Akeneo migrated to Calendar Versioning (vYYYY.Minor) in 2026. Breaking changes may be introduced in any release (e.g., from v2026.1 to v2026.2). It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
+Akeneo follows [Calendar Versioning](https://calver.org/) ([semver](https://semver.org) before 2026).
+Since v2026.1, breaking changes may be introduced in any release (e.g. from v2026.1 to v2026.2).
+It is recommended to lock your dependency (in `composer.json`) to a specific version instead of a range.
 
-All active releases, along with their EOL dates, are documented
-[on the help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
+The Community Edition is continuously being supported by Akeneo.
+This means only the latest release is supported with bug and security fixes.
