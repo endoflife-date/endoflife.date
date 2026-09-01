@@ -3,7 +3,7 @@ title: Amazon Elasticsearch
 addedAt: 2026-09-01
 category: service
 tags: amazon database
-iconSlug: elasticsearch
+iconSlug: amazonaws
 permalink: /amazon-elasticsearch
 alternate_urls:
   - /amazon-elasticsearch-service
@@ -12,7 +12,6 @@ releasePolicyLink: https://docs.aws.amazon.com/opensearch-service/latest/develop
 latestColumn: false
 eolColumn: Standard Support
 eoesColumn: Extended Support
-staleReleaseThresholdDays: 2000
 
 releases:
   - releaseCycle: "7.10"
@@ -111,24 +110,23 @@ releases:
     eoes: 2027-11-07
 ---
 
-> [Amazon Elasticsearch](https://aws.amazon.com/opensearch-service/) (now part of Amazon OpenSearch
-> Service) was a managed Elasticsearch offering from Amazon Web Services. It supports legacy
-> Elasticsearch OSS engine versions from 1.5 through 7.10.
+> [Amazon Elasticsearch](https://aws.amazon.com/opensearch-service/) (now part of Amazon OpenSearch Service) was a managed Elasticsearch offering from Amazon Web Services.
+> It supports legacy Elasticsearch OSS engine releases from 1.5 through 7.10.
 
 {: .note }
 
-> Amazon Elasticsearch Service was renamed to Amazon OpenSearch Service in September 2021. OpenSearch
-> engine versions are tracked at [Amazon OpenSearch](/amazon-opensearch). The self-hosted open-source
-> Elasticsearch is tracked at [Elasticsearch](/elasticsearch).
+> Amazon Elasticsearch Service was renamed to Amazon OpenSearch Service in September 2021.
+> This page only tracks Elasticsearch engine releases.
+> OpenSearch engine releases are tracked at [Amazon OpenSearch](/amazon-opensearch).
+> The upstream project is tracked at [Elasticsearch](/elasticsearch).
 
 Most Elasticsearch versions on this service have a standard support end date of November 7, 2025.
 Versions 6.8, 7.9, and 7.10 have standard support through November 7, 2027.
 
 Extended support provides critical security fixes for at least 12 months after standard support
 ends, at a flat fee per Normalized Instance Hour. Extended support ends on November 7, 2027 for
-versions 1.5, 2.3, 5.1-5.5, 6.0-6.7, and 7.1-7.8. Version 5.6 and 7.9 have extended support until
+versions 1.5, 2.3, 5.1–5.5, 6.0–6.7, and 7.1–7.8. Versions 5.6 and 7.9 have extended support until
 November 7, 2028. Versions 6.8 and 7.10 have extended support until November 7, 2030.
 
-Domains running Elasticsearch 6.x or 7.x can be upgraded in-place to OpenSearch 1.x. See
-[Upgrading domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html)
-for the supported upgrade paths.
+Domains running Elasticsearch 6.x or 7.x can be upgraded in-place to OpenSearch 1.x.
+See [Upgrading domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html) for the supported upgrade paths.
