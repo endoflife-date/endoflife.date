@@ -17,58 +17,58 @@ staleReleaseThresholdDays: 2000
 releases:
   - releaseCycle: "7.10"
     releaseDate: 2021-04-21
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2030-11-07
 
   - releaseCycle: "7.9"
     releaseDate: 2020-11-24
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2028-11-07
 
   - releaseCycle: "7.8"
     releaseDate: 2020-10-28
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "7.7"
     releaseDate: 2020-07-23
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "7.4"
     releaseDate: 2020-03-12
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.8"
-    releaseDate: 2019-10-03
-    eol: false
-    eoes: false
+    releaseDate: 2019-08-13
+    eol: 2027-11-07
+    eoes: 2030-11-07
 
   - releaseCycle: "7.1"
     releaseDate: 2019-08-13
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.7"
     releaseDate: 2019-05-29
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.5"
     releaseDate: 2019-04-08
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.4"
     releaseDate: 2019-01-23
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.3"
     releaseDate: 2018-08-14
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "5.6"
     releaseDate: 2018-08-14
@@ -78,37 +78,37 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2018-03-14
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "6.0"
     releaseDate: 2017-12-06
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "5.5"
     releaseDate: 2017-09-07
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "5.3"
     releaseDate: 2017-06-01
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "5.1"
     releaseDate: 2017-01-30
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "2.3"
     releaseDate: 2016-07-27
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "1.5"
     releaseDate: 2015-10-01
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 ---
 
 > [Amazon Elasticsearch](https://aws.amazon.com/opensearch-service/) (now part of Amazon OpenSearch
@@ -121,12 +121,13 @@ releases:
 > engine versions are tracked at [Amazon OpenSearch](/amazon-opensearch). The self-hosted open-source
 > Elasticsearch is tracked at [Elasticsearch](/elasticsearch).
 
-All Elasticsearch versions on this service share the same standard support end date of November 7,
-2025, except for versions 6.8, 7.9, and 7.10 which have no announced end date.
+Most Elasticsearch versions on this service have a standard support end date of November 7, 2025.
+Versions 6.8, 7.9, and 7.10 have standard support through November 7, 2027.
 
 Extended support provides critical security fixes for at least 12 months after standard support
-ends, at a flat fee per Normalized Instance Hour. Version 5.6 has an extended support window until
-November 7, 2028 (3 years vs. 1 year for other versions).
+ends, at a flat fee per Normalized Instance Hour. Extended support ends on November 7, 2027 for
+versions 1.5, 2.3, 5.1-5.5, 6.0-6.7, and 7.1-7.8. Version 5.6 and 7.9 have extended support until
+November 7, 2028. Versions 6.8 and 7.10 have extended support until November 7, 2030.
 
 Domains running Elasticsearch 6.x or 7.x can be upgraded in-place to OpenSearch 1.x. See
 [Upgrading domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html)
