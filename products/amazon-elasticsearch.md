@@ -1,6 +1,6 @@
 ---
 title: Amazon Elasticsearch
-addedAt: 2026-03-01
+addedAt: 2026-09-01
 category: service
 tags: amazon database
 iconSlug: elasticsearch
