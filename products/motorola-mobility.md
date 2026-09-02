@@ -93,7 +93,7 @@ releases:
     releaseLabel: "Moto G Max"
     releaseDate: 2026-04-01
     eol: 2030-06-30
-    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12537
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12566
 
   - releaseCycle: motorola-razr-2026
     releaseLabel: "Motorola razr 2026"

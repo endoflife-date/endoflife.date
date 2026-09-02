@@ -79,15 +79,15 @@ releases:
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.
     eol: 2029-11-30
-    latest: "21.0.11.0.11+10"
-    latestReleaseDate: 2026-05-18
+    latest: "21.0.12.0.12+8"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # The first official release is 17.0.1.
     eol: 2027-09-30
-    latest: "17.0.19.0.20+10"
-    latestReleaseDate: 2026-05-06
+    latest: "17.0.20.0.21+8"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "11"
     lts: true
