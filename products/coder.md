@@ -31,15 +31,15 @@ releases:
     releaseDate: 2026-08-04
     eoas: false # releaseDate(2.38)
     eol: false # releaseDate(2.39)
-    latest: "2.36.3"
-    latestReleaseDate: 2026-08-25
+    latest: "2.36.4"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "2.35"
     releaseDate: 2026-07-07 # 2.35.1 was the first 2.35 version
     eoas: false # releaseDate(2.37)
     eol: false # releaseDate(2.38)
-    latest: "2.35.6"
-    latestReleaseDate: 2026-08-25
+    latest: "2.35.7"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "2.34"
     lts: true
@@ -47,8 +47,8 @@ releases:
     eoas: 2026-08-04
     eol: false # releaseDate(2.37)
     eoes: 2027-06-02
-    latest: "2.34.8"
-    latestReleaseDate: 2026-08-10
+    latest: "2.34.9"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "2.33"
     releaseDate: 2026-05-06

@@ -42,29 +42,29 @@ releases:
     releaseDate: 2026-08-18
     eoas: false # releaseDate(13.3)
     eol: 2027-05-18 # not listed on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support yet
-    latest: "13.2.0"
-    latestReleaseDate: 2026-08-18
+    latest: "13.2.1"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "13.1"
     releaseDate: 2026-06-23 # 13.0.1 was the first version
     eoas: 2026-08-18
     eol: 2027-03-20
-    latest: "13.1.4"
-    latestReleaseDate: 2026-08-18
+    latest: "13.1.5"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "13.0"
     releaseDate: 2026-04-14 # 13.0.1 was the first version
     eoas: 2026-06-22
     eol: 2027-01-09
-    latest: "13.0.7"
-    latestReleaseDate: 2026-08-18
+    latest: "13.0.8"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "12.4"
     releaseDate: 2026-02-24
     eoas: 2026-04-17
     eol: 2027-05-24
-    latest: "12.4.9"
-    latestReleaseDate: 2026-08-18
+    latest: "12.4.10"
+    latestReleaseDate: 2026-09-01
 
   - releaseCycle: "12.3"
     releaseDate: 2025-11-19
