@@ -158,8 +158,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     eoes: 2032-01-31
-    latest: "11.0.32"
-    latestReleaseDate: 2026-07-21
+    latest: "11.0.32.1"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "10"
     releaseDate: 2018-03-20
