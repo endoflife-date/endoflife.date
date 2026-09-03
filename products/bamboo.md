@@ -29,8 +29,8 @@ releases:
     lts: true
     releaseDate: 2025-12-16
     eol: 2027-12-17
-    latest: "12.1.10"
-    latestReleaseDate: 2026-08-07
+    latest: "12.1.11"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "12.0"
     releaseDate: 2025-11-20
