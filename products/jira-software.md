@@ -135,8 +135,8 @@ releases:
     releaseDate: 2023-11-29
     eol: 2025-11-29
     lts: true
-    latest: "9.12.38"
-    latestReleaseDate: 2026-08-06
+    latest: "9.12.39"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "9.11"
     releaseDate: 2023-08-30
