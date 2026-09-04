@@ -17,6 +17,12 @@ auto:
     - git: https://github.com/kubernetes-sigs/external-dns.git
 
 releases:
+  - releaseCycle: "0.22"
+    releaseDate: 2026-08-20
+    eol: false
+    latest: "0.22.0"
+    latestReleaseDate: 2026-08-20
+
   - releaseCycle: "0.21"
     releaseDate: 2026-04-06
     eol: false
@@ -25,7 +31,7 @@ releases:
 
   - releaseCycle: "0.20"
     releaseDate: 2025-11-14
-    eol: false
+    eol: 2026-08-20
     latest: "0.20.0"
     latestReleaseDate: 2025-11-14
 
