@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "7.1"
     releaseDate: 2026-06-14
-    eol: false
+    eol: 2026-09-02 # announced https://lore.kernel.org/all/2026090223-evil-aneurism-8ffc@gregkh/
     latest: "7.1.13"
     latestReleaseDate: 2026-09-02
 
