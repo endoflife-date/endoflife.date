@@ -1,6 +1,6 @@
 ---
 title: Nim
-addedAt: 2026-03-15
+addedAt: 2026-09-05
 category: lang
 iconSlug: nim
 permalink: /nim
@@ -68,4 +68,4 @@ releases:
 
 > [Nim](https://nim-lang.org/) is a statically typed, compiled systems programming language. Its design incorporates features from Python, Ada, and Modula. It supports multiple compilation backends, including C, C++, and JavaScript.
 
-Nim follows a versioned release model. Each major or minor release receives maintenance and bug fixes until it is superseded by the next version.
+Nim publishes no formal support policy. Upstream describes a release cadence of three to six months, with rare and documented breaking changes.
