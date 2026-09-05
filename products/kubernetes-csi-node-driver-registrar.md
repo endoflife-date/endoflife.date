@@ -21,13 +21,25 @@ identifiers:
   - purl: pkg:github/kubernetes-csi/node-driver-registrar
   - purl: pkg:golang/github.com/kubernetes-csi/node-driver-registrar
 
-# eol(x) = releaseDate(x + 1)
+# eol(x) = releaseDate(x+1)
 # Supported versions are documented on https://kubernetes-csi.github.io/docs/node-driver-registrar.html#supported-versions,
 # but the page is never up-to-date.
 releases:
+  - releaseCycle: "2.18"
+    releaseDate: 2026-09-03
+    eol: false
+    latest: "2.18.0"
+    latestReleaseDate: 2026-09-03
+
+  - releaseCycle: "2.17"
+    releaseDate: 2026-05-21
+    eol: 2026-09-03
+    latest: "2.17.0"
+    latestReleaseDate: 2026-05-21
+
   - releaseCycle: "2.16"
     releaseDate: 2026-02-12
-    eol: false
+    eol: 2026-05-21
     latest: "2.16.0"
     latestReleaseDate: 2026-02-12
 
@@ -132,6 +144,7 @@ releases:
     eol: 2020-08-28
     latest: "1.2.0"
     latestReleaseDate: 2019-09-09
+
 ---
 
 > The node-driver-registrar is a sidecar container for Kubernetes
