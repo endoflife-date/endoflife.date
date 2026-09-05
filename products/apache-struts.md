@@ -27,14 +27,12 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2024-12-11
     eol: false
-    eoes: true
     latest: "7.3.0"
     latestReleaseDate: 2026-08-01
 
   - releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    eoes: true
     latest: "6.11.0"
     latestReleaseDate: 2026-08-01
 
