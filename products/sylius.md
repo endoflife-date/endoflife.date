@@ -24,22 +24,22 @@ auto:
 releases:
   - releaseCycle: "2.2"
     releaseDate: 2025-12-17
-    eoas: 2026-09-01
-    eol: 2027-03-01
+    eoas: 2026-11-30
+    eol: 2027-03-31
     latest: "2.2.9"
     latestReleaseDate: 2026-09-02
 
   - releaseCycle: "2.1"
     releaseDate: 2025-06-04
-    eoas: 2026-03-01
-    eol: 2026-09-01
+    eoas: 2026-03-31
+    eol: 2026-09-30
     latest: "2.1.16"
     latestReleaseDate: 2026-09-02
 
   - releaseCycle: "2.0"
     releaseDate: 2024-11-12
-    eoas: 2025-08-01
-    eol: 2026-02-01
+    eoas: 2025-08-31
+    eol: 2026-02-28
     latest: "2.0.18"
     latestReleaseDate: 2026-06-02
 
