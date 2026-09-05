@@ -3,7 +3,6 @@ title: Sylius
 addedAt: 2026-09-05
 category: framework
 tags: php-runtime
-iconSlug: sylius
 permalink: /sylius
 versionCommand: composer show sylius/sylius | grep versions
 releasePolicyLink: https://docs.sylius.com/public/open-source/release-cycle
