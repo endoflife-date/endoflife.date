@@ -87,6 +87,7 @@ releases:
 
   - releaseCycle: "ubuntu-24.04-arm64"
     releaseLabel: "Ubuntu 24.04 Arm64"
+    staleReleaseThresholdDays: 1085 # not yet deprecated on https://github.com/actions/runner-images/tree/main
     releaseDate: 2024-06-24 # https://github.blog/changelog/2024-06-24-github-actions-ubuntu-24-04-image-now-available-for-arm64-runners/
     eoas: false
     eol: false
@@ -94,6 +95,7 @@ releases:
 
   - releaseCycle: "ubuntu-24.04"
     releaseLabel: "Ubuntu 24.04"
+    staleReleaseThresholdDays: 1085 # not yet deprecated on https://github.com/actions/runner-images/tree/main
     releaseDate: 2024-05-14 # https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available/
     eoas: false
     eol: false
