@@ -16,7 +16,6 @@ module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
   VALID_CUSTOM_FIELD_DISPLAY = %w[none api-only after-release-column before-latest-column after-latest-column]
-
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
@@ -192,7 +191,7 @@ module EndOfLifeHooks
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
     error_if.undeclared_custom_field('releases')
-    error_if.custom_field_type_is_not_string('releases')
+    error_if.custom_field_type_is_invalid('releases')
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -431,18 +430,19 @@ module EndOfLifeHooks
       end
     end
 
-    def custom_field_type_is_not_string(property)
+    def custom_field_type_is_invalid(property)
       releases = @data[property]
 
-      custom_fields = @product["customFields"].map { |column| column["name"] }
+      custom_fields = @product["customFields"]
       releases.each do |release|
         release_cycle = release['releaseCycle']
 
-        for field in custom_fields
-          value = release[field]
+        custom_fields.each do |field|
+          value = release[field['name']]
           # string values may be parsed as Date, but ultimately they are String
-          if value != nil and !value.kind_of?(String) and !value.kind_of?(Date)
-            declare_error(field, release_cycle, "expecting a value of type String or Date, got #{value.class}")
+          valid = value.nil? || value.kind_of?(String) || value.kind_of?(Date) || value.kind_of?(Array)
+          unless valid
+            declare_error(field['name'], release_cycle, "expecting a string or array, got #{value.class}")
           end
         end
       end
