@@ -28,12 +28,14 @@ releases:
     link: https://devcenter.heroku.com/changelog-items/3751
 
   - releaseCycle: '17'
+    staleReleaseThresholdDays: 730
     releaseDate: 2025-05-28
     eoas: false
     eol: false
     link: https://devcenter.heroku.com/changelog-items/3236
 
   - releaseCycle: '16'
+    staleReleaseThresholdDays: 1095
     releaseDate: 2024-04-29
     eoas: false
     eol: false
