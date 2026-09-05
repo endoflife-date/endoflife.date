@@ -75,6 +75,7 @@ releases:
 
 > [ExternalDNS](https://kubernetes-sigs.github.io/external-dns) synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 
-ExternalDNS does not follow a fixed release schedule, releases happen whenever the maintainers decide it makes sense (see the [release process](https://github.com/kubernetes-sigs/external-dns/blob/master/docs/release.md)). It follows semantic versioning within the `0.x` range: patch releases contain bug fixes, minor releases add new features or providers, and breaking changes may occasionally land in a minor release since the project has not yet reached `1.0`.
+ExternalDNS does not follow a fixed release schedule, releases happen whenever the maintainers decide it makes sense (see the [release process](https://github.com/kubernetes-sigs/external-dns/blob/master/docs/release.md)).
+It follows semantic versioning within the `0.x` range: patch releases contain bug fixes, minor releases add new features or providers, and breaking changes may occasionally land in a minor release since the project has not yet reached `1.0`.
 
 There is no published end-of-life or long-term-support policy, older minor versions simply stop receiving fixes once newer ones are released.
