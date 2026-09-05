@@ -28,14 +28,14 @@ releases:
     link: https://devcenter.heroku.com/changelog-items/3751
 
   - releaseCycle: '17'
-    staleReleaseThresholdDays: 730
+    staleReleaseThresholdDays: 730 # no exact date on https://devcenter.heroku.com/articles/heroku-postgres-version-support
     releaseDate: 2025-05-28
     eoas: false
     eol: false
     link: https://devcenter.heroku.com/changelog-items/3236
 
   - releaseCycle: '16'
-    staleReleaseThresholdDays: 1095
+    staleReleaseThresholdDays: 1095 # no exact date on https://devcenter.heroku.com/articles/heroku-postgres-version-support
     releaseDate: 2024-04-29
     eoas: false
     eol: false
