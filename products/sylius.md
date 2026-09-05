@@ -1,19 +1,19 @@
 ---
 title: Sylius
-addedAt: 2026-03-16
+addedAt: 2026-09-05
 category: framework
 tags: php-runtime
 iconSlug: sylius
 permalink: /sylius
 versionCommand: composer show sylius/sylius | grep versions
 releasePolicyLink: https://docs.sylius.com/the-book/contributing/organization/release-process
-changelogTemplate: "https://github.com/Sylius/Sylius/releases/tag/v__LATEST__"
+changelogTemplate: https://github.com/Sylius/Sylius/releases/tag/v__LATEST__
 eoasColumn: true
 
-identifiers:                                                                                        
-  - cpe: cpe:2.3:a:sylius:sylius           
-  - cpe: cpe:/a:sylius:sylius                                                                         
-  - purl: pkg:composer/sylius/sylius                          
+identifiers:
+  - cpe: cpe:2.3:a:sylius:sylius
+  - cpe: cpe:/a:sylius:sylius
+  - purl: pkg:composer/sylius/sylius
   - purl: pkg:github/sylius/sylius
 
 auto:
@@ -107,13 +107,11 @@ releases:
 > It provides a flexible platform for building custom online stores and B2B/B2C commerce solutions.
 
 Sylius follows a time-based release model with a new minor version approximately every six months.
-
-There are two types of supported versions:
+There are two types of supported releases: Standard and Long-Term Support (LTS).
 
 | Version Type            | Bugs are fixed for                   | Security issues are fixed for |
 | :---------------------- | :----------------------------------- | :---------------------------- |
 | Standard                | Until next minor release + 2 months  | 6 months after active support |
 | Long-Term Support (LTS) | Extended maintenance                 | Extended maintenance          |
 
-The last minor version of the 1.x branch (1.14) is the LTS version, receiving extended support
-during the transition to Sylius 2.x.
+The last minor version of the 1.x branch (1.14) is the LTS version, receiving extended support during the transition to Sylius 2.x.
