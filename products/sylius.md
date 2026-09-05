@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: sylius
 permalink: /sylius
 versionCommand: composer show sylius/sylius | grep versions
-releasePolicyLink: https://docs.sylius.com/the-book/contributing/organization/release-process
+releasePolicyLink: https://docs.sylius.com/public/open-source/release-cycle
 changelogTemplate: https://github.com/Sylius/Sylius/releases/tag/v__LATEST__
 eoasColumn: true
 
