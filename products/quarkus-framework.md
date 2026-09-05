@@ -122,8 +122,8 @@ releases:
     releaseDate: 2025-09-24
     eol: 2026-09-24
     eoes: false
-    latest: "3.27.5.1"
-    latestReleaseDate: 2026-08-04
+    latest: "3.27.5.2"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "3.26"
     releaseDate: 2025-08-28

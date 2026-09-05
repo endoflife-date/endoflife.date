@@ -34,8 +34,8 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2026-03-31 # first version was 5.0.1
     eol: 2026-11-06
-    latest: "5.0.9"
-    latestReleaseDate: 2026-07-04
+    latest: "5.0.10"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "4.2"
     releaseDate: 2025-11-11
