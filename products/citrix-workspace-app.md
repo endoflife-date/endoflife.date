@@ -1,6 +1,6 @@
 ---
 title: Citrix Workspace App
-addedAt: 2026-05-05
+addedAt: 2026-09-05
 category: app
 tags: citrix
 iconSlug: citrix
@@ -8,13 +8,11 @@ permalink: /citrix-workspace-app
 alternate_urls:
   - /citrix-receiver
   - /citrix-workspace
-
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/workspace-app.html
-
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 
+# Current Releases are based on Citrix Workspace app for Windows
 releases:
-  # Current Releases (Windows)
   - releaseCycle: "2603"
     releaseDate: 2026-04-30
     eol: 2027-10-30
@@ -140,22 +138,15 @@ releases:
 > client software that provides users with secure, unified access to virtual
 > apps, desktops, and other resources from any device.
 
-Citrix Workspace App is available for Windows, macOS, Linux, ChromeOS, iOS,
-Android, and HTML5. All platforms share the same year-month (YYMM) version
-naming scheme, but each platform follows its own release cadence with its own
-GA and End-of-Life dates. The release table above reflects the **Windows**
-release stream, which is updated most frequently and is the only platform that
-offers a Long Term Service Release (LTSR) track. For platform-specific
-lifecycle dates for macOS and Linux, refer to the
-[Citrix Workspace App lifecycle page](https://www.citrix.com/support/product-lifecycle/workspace-app.html).
+Citrix Workspace App is available for Windows, macOS, Linux, ChromeOS, iOS, Android, and HTML5.
+All platforms share the same year-month (YYMM) version naming scheme, but each platform follows its own release cadence with its own GA and End-of-Life dates.
+The release table above reflects the **Windows** release stream, which is updated most frequently and is the only platform that offers a Long Term Service Release (LTSR) track.
+For platform-specific lifecycle dates for macOS and Linux, refer to the [Citrix Workspace App lifecycle page](https://www.citrix.com/support/product-lifecycle/workspace-app.html).
 
-Current Releases (CR) for Windows reach End of Maintenance (EOM) when the next
-CR ships, and End of Life (EOL) 18 months after their GA date. Long Term
-Service Releases have a three-year lifecycle, with a new LTSR designated
-approximately every 12 months and Cumulative Updates (CUs) shipped between
-LTSR baselines. Mac and Linux follow a Current Release model only, without
-LTSR. Mobile (iOS, Android) and ChromeOS clients are supported only on the
-latest version available in their respective vendor app stores.
+Current Releases (CR) for Windows reach End of Maintenance (EOM) when the next CR ships, and End of Life (EOL) 18 months after their GA date.
+Long Term Service Releases have a three-year lifecycle, with a new LTSR designated approximately every 12 months and Cumulative Updates (CUs) shipped between LTSR baselines.
+Mac and Linux follow a Current Release model only, without LTSR.
+Mobile (iOS, Android) and ChromeOS clients are supported only on the latest version available in their respective vendor app stores.
 
-Citrix Workspace App was previously known as Citrix Receiver and was rebranded
-in 2018; older Receiver releases are documented on the upstream lifecycle page.
+Citrix Workspace App was previously known as Citrix Receiver and was rebranded in 2018;
+older Receiver releases are documented on the upstream lifecycle page.
