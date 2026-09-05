@@ -5,7 +5,6 @@ category: framework
 tags: php-runtime
 permalink: /sylius
 versionCommand: composer show sylius/sylius | grep versions
-releasePolicyLink: https://docs.sylius.com/public/open-source/release-cycle
 changelogTemplate: https://github.com/Sylius/Sylius/releases/tag/v__LATEST__
 eoasColumn: true
 
@@ -97,12 +96,12 @@ releases:
 > [Sylius](https://sylius.com/) is an open-source e-commerce framework built on top of Symfony.
 > It provides a flexible platform for building custom online stores and B2B/B2C commerce solutions.
 
-Sylius follows a time-based release model with a new minor version approximately every six months.
-There are two types of supported releases: Standard and Long-Term Support (LTS).
+Sylius follows [semantic versioning](https://semver.org). Patch releases are typically published every
+3-6 weeks, minor releases every 3-6 months, and major releases every 2-3 years. The release cycle is
+loosely time-based, with release dates depending on the scope of the release and team capacity.
 
-| Version Type            | Bugs are fixed for                   | Security issues are fixed for |
-| :---------------------- | :----------------------------------- | :---------------------------- |
-| Standard                | Until next minor release + 2 months  | 6 months after active support |
-| Long-Term Support (LTS) | Extended maintenance                 | Extended maintenance          |
+There are two phases of support for each minor release:
+a maintenance phase, with bug fixes and security fixes, and a security phase, with only security fixes.
+New minor releases may drop support for unsupported PHP versions.
 
-The last minor version of the 1.x branch (1.14) is the LTS version, receiving extended support during the transition to Sylius 2.x.
+Support dates are documented [on the Sylius release cycle page](https://docs.sylius.com/public/open-source/release-cycle).
