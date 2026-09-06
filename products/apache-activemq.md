@@ -42,8 +42,8 @@ releases:
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "5.19.10"
-    latestReleaseDate: 2026-08-06
+    latest: "5.19.11"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "6.1"
     releaseDate: 2024-03-11

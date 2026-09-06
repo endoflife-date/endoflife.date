@@ -20,8 +20,8 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     # technicalGuidance: ???
-    latest: "9.1.0.0"
-    latestReleaseDate: 2026-05-12
+    latest: "9.1.1.0"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17

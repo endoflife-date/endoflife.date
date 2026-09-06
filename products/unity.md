@@ -17,12 +17,19 @@ auto:
 # For update release : eol(x) = releaseDate(x+1)
 # For LTS : eol(x) = releaseDate + 2 years
 releases:
+  - releaseCycle: "6000.6"
+    releaseLabel: "6.6"
+    releaseDate: 2026-08-31
+    eol: false
+    latest: "6000.6.0f1"
+    latestReleaseDate: 2026-08-31
+
   - releaseCycle: "6000.5"
     releaseLabel: "6.5"
     releaseDate: 2026-06-15
-    eol: false
-    latest: "6000.5.10f1"
-    latestReleaseDate: 2026-08-26
+    eol: 2026-08-31
+    latest: "6000.5.11f1"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "6000.4"
     releaseLabel: "6.4"
@@ -60,8 +67,8 @@ releases:
     lts: 2024-10-16
     eol: 2026-10-16
     eoes: 2027-10-16
-    latest: "6000.0.82f1"
-    latestReleaseDate: 2026-08-19
+    latest: "6000.0.83f1"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "2023.2"
     releaseDate: 2023-11-14

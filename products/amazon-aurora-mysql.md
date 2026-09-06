@@ -28,8 +28,8 @@ releases:
     releaseDate: 2026-05-21 # https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/
     eol: 2032-04-30
     eoes: false
-    latest: "8.4.7"
-    latestReleaseDate: 2026-05-21
+    latest: "8.4.8"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "3"
     releaseLabel: "3 (MySQL 8.0)"

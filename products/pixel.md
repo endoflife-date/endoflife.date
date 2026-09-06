@@ -128,7 +128,7 @@ releases:
     releaseDate: 2024-09-04
     eoas: 2031-09-01
     eol: 2031-09-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13218.php
 
@@ -137,7 +137,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro_XL
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro_xl-13217.php
 
@@ -146,7 +146,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13219.php
 

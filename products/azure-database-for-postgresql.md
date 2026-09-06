@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "14"
     releaseDate: 2022-06-29
-    eol: 2026-11-12
+    eol: 2026-12-11
 
   - releaseCycle: "13"
     releaseDate: 2021-05-25
@@ -51,6 +51,7 @@ releases:
   - releaseCycle: "11"
     releaseDate: 2019-07-24
     eol: 2026-07-31
+
 ---
 
 > [Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/products/postgresql/) is a fully managed

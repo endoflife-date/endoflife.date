@@ -34,15 +34,15 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.579"
-    latestReleaseDate: 2026-08-25
+    latest: "2.580"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "2.568"
     releaseDate: 2026-06-10
     lts: 2026-07-09
     eol: false
-    latest: "2.568.2"
-    latestReleaseDate: 2026-08-03
+    latest: "2.568.3"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "2.555"
     releaseDate: 2026-03-18
