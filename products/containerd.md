@@ -65,8 +65,8 @@ releases:
     lts: true
     eoas: 2025-05-05 # releaseDate(2.0) + 6 months
     eol: 2026-09-01 # only year and month are decided
-    latest: "1.7.34"
-    latestReleaseDate: 2026-07-09
+    latest: "1.7.35"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "1.6"
     releaseDate: 2022-02-15
