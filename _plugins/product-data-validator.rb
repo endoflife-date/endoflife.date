@@ -53,6 +53,7 @@ module EndOfLifeHooks
     'https://docs.couchdb.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://docs.gitlab.com': SUPPRESSED_BECAUSE_403,
     'https://docs.joomla.org': SUPPRESSED_BECAUSE_403,
+    'https://docs.omnissa.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://docs.redhat.com': SUPPRESSED_BECAUSE_403,
     'https://docs.rocket.chat': SUPPRESSED_BECAUSE_403,
