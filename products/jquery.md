@@ -5,7 +5,9 @@ category: framework
 tags: javascript-runtime linux-foundation
 iconSlug: jquery
 permalink: /jquery
+releasePolicyLink: https://jquery.com/support/
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
+eoasColumn: Active Support
 eoesColumn: Commercial Support
 
 identifiers:
@@ -23,23 +25,27 @@ auto:
   methods:
     - git: https://github.com/jquery/jquery.git
 
-# eol(x) = releaseDate(x+1)
+# eoas(x) = releaseDate(x+1)
+# eol(x) as per announcements
 releases:
   - releaseCycle: "4"
     releaseDate: 2026-01-17
+    eoas: false
     eol: false
     latest: "4.0.0"
     latestReleaseDate: 2026-01-17
 
   - releaseCycle: "3"
     releaseDate: 2016-06-09
-    eol: 2026-01-17
+    eoas: 2026-01-17
+    eol: false
     eoes: false
     latest: "3.7.1"
     latestReleaseDate: 2023-08-28
 
   - releaseCycle: "2"
     releaseDate: 2013-04-18
+    eoas: true
     eol: true
     eoes: false
     latest: "2.2.4"
@@ -48,6 +54,7 @@ releases:
 
   - releaseCycle: "1"
     releaseDate: 2006-08-31
+    eoas: true
     eol: true
     eoes: false
     latest: "1.12.4"
@@ -57,7 +64,9 @@ releases:
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.
 
-[Only the latest version in the current release cycle is supported](https://github.com/jquery/jquery?tab=security-ov-file#supported-versions).
+Only the two latest releases of jQuery are supported.
+The latest release has full support, while the preceding release receives only critical security patches and bug fixes.
+
 The 1.x and 2.x branches no longer receive patches,
 although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
 serious security patches have been backported and that they would consider it again in the future.
@@ -82,6 +91,6 @@ through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/jqu
 ### Mobile
 
 | Browser           | Support Versions               |
-| ------------------| ------------------------------ |
+| ----------------- | ------------------------------ |
 | Chrome on Android | Latest 2 major stable releases |
 | Safari            | Latest 3 major stable releases |
