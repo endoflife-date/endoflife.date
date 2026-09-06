@@ -46,7 +46,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^(?P<value>\d+)(\s+LTS)?$'
+          regex: '^(?:JDK\s+)?(?P<value>\d+)(?:\s+LTS(?:\s+.*)?)?$'
         releaseDate: "Date"
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
