@@ -19,16 +19,20 @@ eoesColumn: true
 
 auto:
   methods:
-    - citrix-vad-rss: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
-      regex:
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+ All Editions'
-      regex_exclude:
-        - "^.+Advanced Edition.+$"
-        - "^.+Premium Edition.+$"
-      template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
+    - xml_versions: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
+      selector: item
+      name:
+        selector: title
+        regex:
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+$'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
+        regex_exclude:
+          - "^.+Advanced Edition.+$"
+          - "^.+Premium Edition.+$"
+        template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
+      date: pubDate
 
 # For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html
 # For non-LTS:
