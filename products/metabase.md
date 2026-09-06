@@ -1,18 +1,20 @@
 ---
 title: Metabase
-addedAt: 2026-08-10
+addedAt: 2026-09-06
 category: server-app
 tags: java-runtime
 iconSlug: metabase
 permalink: /metabase
 versionCommand: java -jar metabase.jar version
 releasePolicyLink: https://www.metabase.com/version-support
+releaseLabel: "{{ '__RELEASE_CYCLE__' | split:'.' | last }}"
 changelogTemplate: https://github.com/metabase/metabase/releases/tag/v__LATEST__
 
 identifiers:
   - repology: metabase
   - purl: pkg:github/metabase/metabase
   - purl: pkg:docker/metabase/metabase
+  - cpe: cpe:/a:metabase:metabase
   - cpe: cpe:2.3:a:metabase:metabase
 
 # Release cycles are named after the open source edition (0.x), so that the version numbers reported
@@ -30,14 +32,14 @@ releases:
   - releaseCycle: "0.63"
     releaseDate: 2026-07-07
     eol: 2026-11-01
-    latest: "0.63.16.1"
-    latestReleaseDate: 2026-09-01
+    latest: "0.63.16.6"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "0.62"
     releaseDate: 2026-06-01
     eol: 2026-09-01
-    latest: "0.62.19.1"
-    latestReleaseDate: 2026-09-01
+    latest: "0.62.19.3"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "0.61"
     releaseDate: 2026-04-30
@@ -58,11 +60,11 @@ releases:
     latestReleaseDate: 2026-09-01
 
   - releaseCycle: "0.58"
-    releaseDate: 2025-12-17
     lts: true
+    releaseDate: 2025-12-17
     eol: 2027-02-17
-    latest: "0.58.32"
-    latestReleaseDate: 2026-09-01
+    latest: "0.58.32.2"
+    latestReleaseDate: 2026-09-04
 
   - releaseCycle: "0.57"
     releaseDate: 2025-11-01
@@ -357,24 +359,23 @@ releases:
     eol: true
     latest: "0.9.3"
     latestReleaseDate: 2015-07-07
+
 ---
 
 > [Metabase](https://www.metabase.com) is a business intelligence tool for querying, visualizing and sharing data.
 
-## Support Policy
-
 {: .warning }
+
+> This page mainly tracks the open source edition of Metabase.
+
+{: .note }
 
 > On Metabase Cloud, the hosted offering, upgrades are handled by Metabase.
 
-Every Metabase release receives bug fixes and security updates until its end of life date. Releases
-without Long Term Support (LTS) usually reach end of life about two months after their release,
+Metabase versions follow a `License.Major.Minor.Patch` scheme.
+The leading digit denotes the license: `0` for the open source edition, `1` for the source-available Enterprise Edition that ships with the Pro and Enterprise plans.
+Both editions share the same major version and are released together, so the dates on this page apply to both.
+
+Every Metabase release receives bug fixes and security updates until its end-of-life date.
+Releases without Long-Term Support (LTS) usually reach their end of life about two months after their release,
 while LTS releases are supported for 14 months.
-
-## Version Numbering
-
-Metabase versions follow a `License.Major.Minor.Patch` scheme. The leading digit denotes the
-license: `0` for the open source edition, `1` for the source-available Enterprise Edition that ships
-with the Pro and Enterprise plans. Both editions share the same major version and are released
-together, so the dates on this page apply to both. Release cycles on this page are named after the
-open source edition, so cycle `0.63` also covers `1.63`, and both are announced as Metabase 63.
