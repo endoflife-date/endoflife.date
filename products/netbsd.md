@@ -17,7 +17,17 @@ identifiers:
 
 auto:
   methods:
-    - netbsd: https://www.netbsd.org/releases/formal.html
+    - version_table: https://www.netbsd.org/releases/formal.html
+      name_column: "Version"
+      date_column: "Released"
+      regex: '^NetBSD (?P<version>\d+(?:\.\d+)*)'
+      template: "{{version}}"
+    - release_table: https://www.netbsd.org/releases/formal.html
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^NetBSD (?P<value>\d+)(?:\.\d+)*$'
+        eol: "End of support"
 
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
