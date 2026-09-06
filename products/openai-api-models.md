@@ -11,6 +11,7 @@ releasePolicyLink: https://developers.openai.com/api/docs/deprecations
 latestColumn: false
 eoasColumn: Active support
 eolColumn: Deprecated support
+staleReleaseThresholdDays: 1095 # llm may have longer support periods
 
 customFields:
   - name: aliases
