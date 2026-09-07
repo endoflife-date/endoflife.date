@@ -52,14 +52,14 @@ releases:
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    eol: 2026-06-17
+    eol: 2026-07-01 # security support ended with the 11.4.0 release on 2026-07-01 (schedule: "Drupal 11.4.0 released. End of security support for 11.2.x and 10.5.x.")
     latest: "11.2.14"
     latestReleaseDate: 2026-06-17
 
   - releaseCycle: "10.5"
     releaseDate: 2025-06-18
     eoas: 2025-12-17
-    eol: 2026-06-17
+    eol: 2026-07-01 # security support ended with the 11.4.0 release on 2026-07-01 (schedule: "Drupal 11.4.0 released. End of security support for 11.2.x and 10.5.x.")
     latest: "10.5.12"
     latestReleaseDate: 2026-06-17
 
