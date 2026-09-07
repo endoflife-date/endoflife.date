@@ -41,6 +41,7 @@ releases:
     eol: false
     eoes: false
     latest: "3.7.1"
+    staleReleaseThresholdDays: 1200 # still listed as supported on https://jquery.com/support/
     latestReleaseDate: 2023-08-28
 
   - releaseCycle: "2"
