@@ -55,10 +55,11 @@ releases:
 > Redis OSS-compatible in-memory data store from Amazon Web Services.
 
 {: .note }
-> This page only tracks the Elasticache Redis OSS offering, and not the Valkey variant. The highest
-> upgrade possible for Redis OSS is 7.1. 7.2 and higher versions are Valkey only. An upgrade from
-> Redis OSS to Valkey 7.2 is [supported](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/VersionManagement.HowTo.html#VersionManagement.HowTo.cross-engine-upgrade).
-> A downgrade from Valkey 7.2 to Redis OSS 7.1 is also supported.
+> This page only tracks the ElastiCache for Redis OSS engine. For the Valkey engine, see
+> [Amazon ElastiCache for Valkey](/amazon-elasticache-valkey). The highest supported Redis OSS
+> version is 7.1 — versions 7.2 and higher are Valkey only. Upgrades from Redis OSS to Valkey
+> are [supported](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/VersionManagement.HowTo.html#VersionManagement.HowTo.cross-engine-upgrade),
+> as are downgrades from Valkey back to Redis OSS.
 
 Amazon ElastiCache for Redis OSS does not follow the same support lifecycle as open-source Redis. 
 ElastiCache v7.1 is compatible with Redis OSS v7.0.
