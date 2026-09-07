@@ -8,7 +8,7 @@ permalink: /livewire
 versionCommand: composer show livewire/livewire|grep versions
 releasePolicyLink: https://livewire.laravel.com/docs/quickstart
 changelogTemplate: https://github.com/livewire/livewire/releases/tag/v__LATEST__
-eoasColumn: false
+eolColumn: Support
 
 customFields:
   - name: supportedPhpVersions
