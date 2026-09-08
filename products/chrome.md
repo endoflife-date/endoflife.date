@@ -22,13 +22,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "153"
+    releaseDate: 2026-09-08
+    eol: 2026-09-22 # Estimated, revise with releaseDate("154") 
+
   - releaseCycle: "152"
     releaseDate: 2026-08-25
-    eol: 2026-09-08 # Estimated, revise with releaseDate("153") https://developer.chrome.com/blog/chrome-two-week-release?hl=en
+    eol: 2026-09-08
 
   - releaseCycle: "151"
     releaseDate: 2026-07-28
-    eol: 2026-08-25 # Estimated, revise with releaseDate("152")
+    eol: 2026-08-25
 
   - releaseCycle: "150"
     releaseDate: 2026-06-30
@@ -722,8 +726,7 @@ releases:
 > [Google Chrome](https://www.google.com/chrome/) is a web browser developed by Google.
 > It is available for Windows, macOS, Android, iPhone & iPad, Linux, and ChromeOS.
 
-There is a new major Chrome release [every 4 weeks](https://blog.chromium.org/2021/03/speeding-up-release-cycle.html).
-Only the latest major release is supported with new features, bug and security fixes.
+Starting in September 2026, new major Chrome releases arrive [every 2 weeks](https://developer.chrome.com/blog/chrome-two-week-release), speeding up from the previous [4-week cycle](https://blog.chromium.org/2021/03/speeding-up-release-cycle.html). Only the latest major release is supported with new features, bug and security fixes.
 
 Enterprises that want a slower release cadence can use the [Extended stable release channel](https://support.google.com/chrome/a/answer/9027636),
 which is updated every 8 weeks. This channel is not available to regular Chrome users.
