@@ -181,7 +181,50 @@ a {
   border-color: #5890ff;
   font-weight: 400;
 }
+.timeline-filters { display: grid; gap: .6rem; grid-template-columns: 2fr 1fr; margin: .75rem 0; }
+.timeline-filter-box { border: 1px solid #d8dee9; border-radius: .35rem; margin: .75rem 0; padding: 0 .6rem .6rem; }
+.timeline-filter-box legend { color: #273142; font-size: .9rem; font-weight: 600; padding: 0 .35rem; }
+.timeline-filter { min-width: 0; position: relative; }
+.timeline-filter-toggle {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: .25rem;
+  color: #273142;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  min-width: 12rem;
+  padding: .35rem .5rem;
+  text-align: left;
+}
+.timeline-filter-tag { align-items: center; background: #e8efff; border-radius: 999px; color: #273142; display: inline-flex; font-size: .8rem; gap: .2rem; padding: .15rem .3rem .15rem .45rem; }
+.timeline-filter-tag-remove { background: transparent; border: 0; border-radius: 50%; color: #3468e8; cursor: pointer; font-size: .9rem; line-height: 1; padding: .1rem .25rem; }
+.timeline-filter-tag-remove:hover, .timeline-filter-tag-remove:focus { background: #cbdcff; }
+.timeline-filter-toggle[aria-expanded="true"] { border-color: #5890ff; box-shadow: 0 0 0 2px rgba(88, 144, 255, .2); }
+.timeline-filter-menu {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: .25rem;
+  box-shadow: 0 .35rem .8rem rgba(39, 49, 66, .16);
+  margin-top: .25rem;
+  min-width: 100%;
+  padding: .35rem;
+  position: absolute;
+  z-index: 2;
+}
+.timeline-filter-search { box-sizing: border-box; margin-bottom: .5rem; width: 100%; }
+.timeline-filter-options { max-height: 16rem; overflow-y: auto; }
+.timeline-filter-option { align-items: center; cursor: pointer; display: flex; font-weight: 400; gap: .4rem; padding: .25rem .2rem; }
+.timeline-filter-option[hidden] { display: none; }
+.timeline-filter-option:hover { background: #f1f5f9; }
+.timeline-no-results { margin-top: 1rem; }
 .timeline-events { display: grid; gap: 1rem; }
+.timeline-event[hidden] { display: none; }
+@media (max-width: 40em) {
+  .timeline-filters { grid-template-columns: 1fr; }
+}
 .timeline-event {
   align-items: center;
   border: 1px solid #d8dee9;
