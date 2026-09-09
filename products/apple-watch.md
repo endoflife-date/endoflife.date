@@ -22,13 +22,29 @@ customFields:
 # All links can be found on https://support.apple.com/en_US/specs/applewatch.
 # All supported watchOS versions can be found on https://en.wikipedia.org/wiki/Apple_Watch#Support.
 releases:
+  - releaseCycle: "series-12"
+    releaseLabel: "Series 12"
+    releaseDate: 2026-09-18
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/apple-watch-series-12/specs/
+    supportedWatchOsVersions: "27"
+
+  - releaseCycle: "ultra-4"
+    releaseLabel: "Ultra 4"
+    releaseDate: 2026-09-18
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/apple-watch-ultra-4/specs/
+    supportedWatchOsVersions: "27"
+
   - releaseCycle: "series-11"
     releaseLabel: "Series 11"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2026-09-09
     eol: false
     link: https://support.apple.com/en-us/125093
-    supportedWatchOsVersions: "26"
+    supportedWatchOsVersions: "26 - 27"
 
   - releaseCycle: "se-3"
     releaseLabel: "SE (3rd generation)"
@@ -36,15 +52,15 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/125094
-    supportedWatchOsVersions: "26"
+    supportedWatchOsVersions: "26 - 27"
 
   - releaseCycle: "ultra-3"
     releaseLabel: "Ultra 3"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2026-09-09
     eol: false
     link: https://support.apple.com/en-us/125095
-    supportedWatchOsVersions: "26"
+    supportedWatchOsVersions: "26 - 27"
 
   - releaseCycle: "series-10"
     releaseLabel: "Series 10"
@@ -52,7 +68,7 @@ releases:
     discontinued: 2025-09-19
     eol: false
     link: https://support.apple.com/en-us/121202
-    supportedWatchOsVersions: "11 - 26"
+    supportedWatchOsVersions: "11 - 27"
 
   - releaseCycle: "ultra-2"
     releaseLabel: "Ultra 2"
@@ -60,7 +76,7 @@ releases:
     discontinued: 2025-09-19
     eol: false
     link: https://support.apple.com/kb/SP906
-    supportedWatchOsVersions: "10 - 26"
+    supportedWatchOsVersions: "10 - 27"
 
   - releaseCycle: "series-9"
     releaseLabel: "Series 9"
@@ -68,7 +84,7 @@ releases:
     discontinued: 2024-09-12
     eol: false
     link: https://support.apple.com/kb/SP905
-    supportedWatchOsVersions: "10 - 26"
+    supportedWatchOsVersions: "10 - 27"
 
   - releaseCycle: "ultra-1"
     releaseLabel: "Ultra"
