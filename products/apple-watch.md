@@ -24,7 +24,7 @@ customFields:
 releases:
   - releaseCycle: "series-12"
     releaseLabel: "Series 12"
-    releaseDate: 2026-09-19
+    releaseDate: 2026-09-18
     discontinued: false
     eol: false
     link:
@@ -32,16 +32,16 @@ releases:
 
   - releaseCycle: "ultra-4"
     releaseLabel: "Ultra 4"
-    releaseDate: 2026-09-19
+    releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/125095
+    link:
     supportedWatchOsVersions: "27"
 
   - releaseCycle: "series-11"
     releaseLabel: "Series 11"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2026-09-18
     eol: false
     link: https://support.apple.com/en-us/125093
     supportedWatchOsVersions: "26 - 27"
@@ -57,7 +57,7 @@ releases:
   - releaseCycle: "ultra-3"
     releaseLabel: "Ultra 3"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2026-09-18
     eol: false
     link: https://support.apple.com/en-us/125095
     supportedWatchOsVersions: "26 - 27"
