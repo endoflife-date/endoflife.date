@@ -17,11 +17,18 @@ auto:
         - 'iOS\s+(?P<version>\d+)'
         - 'iOS\s+(?P<version>\d+(?:\.\d+)+)'
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
-# eol(x) = if cycle_EOLed ? latestReleaseDate : false 
+# eol(x) = if cycle_EOLed ? latestReleaseDate : false
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
+    eoas: false
+    eol: false
+    latest: "27"
+    latestReleaseDate: 2026-09-14
+
   - releaseCycle: "26"
     releaseDate: 2025-09-15
-    eoas: false
+    eoas: 2026-09-14
     eol: false
     latest: "26.6.1"
     latestReleaseDate: 2026-08-17
@@ -133,7 +140,6 @@ releases:
     latest: "5.1.1"
     latestReleaseDate: 2012-05-07
     link: https://support.apple.com/HT212597
-
 ---
 
 > [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
