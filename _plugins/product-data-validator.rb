@@ -16,7 +16,6 @@ module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
   VALID_CUSTOM_FIELD_DISPLAY = %w[none api-only after-release-column before-latest-column after-latest-column]
-
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
@@ -54,6 +53,7 @@ module EndOfLifeHooks
     'https://docs.couchdb.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://docs.gitlab.com': SUPPRESSED_BECAUSE_403,
     'https://docs.joomla.org': SUPPRESSED_BECAUSE_403,
+    'https://docs.omnissa.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://docs.redhat.com': SUPPRESSED_BECAUSE_403,
     'https://docs.rocket.chat': SUPPRESSED_BECAUSE_403,
@@ -192,7 +192,7 @@ module EndOfLifeHooks
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
     error_if.undeclared_custom_field('releases')
-    error_if.custom_field_type_is_not_string('releases')
+    error_if.custom_field_type_is_invalid('releases')
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -235,6 +235,9 @@ module EndOfLifeHooks
       error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn']
       error_if.is_not_before('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
       error_if.is_not_before('eol', 'eoes') if product.data['eoesColumn']
+      error_if.inconsistent_support_status('eoas', 'eol') if product.data['eoasColumn']
+      error_if.inconsistent_support_status('eol', 'eoes') if product.data['eoesColumn']
+      error_if.inconsistent_support_status('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
@@ -372,6 +375,17 @@ module EndOfLifeHooks
       end
     end
 
+    def inconsistent_support_status(earlier_support_phase, later_support_phase)
+      earlier_support_phase_value = @data[earlier_support_phase]
+      later_support_phase_value = @data[later_support_phase]
+      later_support_phase_reached = later_support_phase_value == true or (later_support_phase_value.respond_to?(:strftime) and later_support_phase_value < Date.today)
+      earlier_support_phase_pending = earlier_support_phase_value == false or (earlier_support_phase_value.respond_to?(:strftime) and earlier_support_phase_value > Date.today)
+
+      if later_support_phase_reached and earlier_support_phase_pending
+        declare_error(earlier_support_phase, earlier_support_phase_value, "expecting #{earlier_support_phase} to have been reached when #{later_support_phase} has been reached")
+      end
+    end
+
     def not_ordered_by_release_cycles(property)
       releases = @data[property]
 
@@ -431,18 +445,19 @@ module EndOfLifeHooks
       end
     end
 
-    def custom_field_type_is_not_string(property)
+    def custom_field_type_is_invalid(property)
       releases = @data[property]
 
-      custom_fields = @product["customFields"].map { |column| column["name"] }
+      custom_fields = @product["customFields"]
       releases.each do |release|
         release_cycle = release['releaseCycle']
 
-        for field in custom_fields
-          value = release[field]
+        custom_fields.each do |field|
+          value = release[field['name']]
           # string values may be parsed as Date, but ultimately they are String
-          if value != nil and !value.kind_of?(String) and !value.kind_of?(Date)
-            declare_error(field, release_cycle, "expecting a value of type String or Date, got #{value.class}")
+          valid = value.nil? || value.kind_of?(String) || value.kind_of?(Date) || value.kind_of?(Array)
+          unless valid
+            declare_error(field['name'], release_cycle, "expecting a string or array, got #{value.class}")
           end
         end
       end

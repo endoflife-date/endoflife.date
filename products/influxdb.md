@@ -25,22 +25,22 @@ releases:
   - releaseCycle: "3.11"
     releaseDate: 2026-07-30
     eol: false
-    latest: "3.11.2"
-    latestReleaseDate: 2026-08-20
+    latest: "3.11.4"
+    latestReleaseDate: 2026-09-04
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3110
 
   - releaseCycle: "3.10"
     releaseDate: 2026-06-17
     eol: false
-    latest: "3.10.5"
-    latestReleaseDate: 2026-07-20
+    latest: "3.10.6"
+    latestReleaseDate: 2026-09-04
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3100
 
   - releaseCycle: "3.9"
     releaseDate: 2026-04-02
     eol: 2026-07-30
-    latest: "3.9.11"
-    latestReleaseDate: 2026-07-20
+    latest: "3.9.13"
+    latestReleaseDate: 2026-09-04
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v390
 
   - releaseCycle: "3.8"

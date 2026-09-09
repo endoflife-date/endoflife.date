@@ -24,6 +24,7 @@ auto:
 
 releases:
   - releaseCycle: "8.4"
+    staleReleaseThresholdDays: 730 # no eol documented on https://learn.microsoft.com/azure/mysql/concepts-version-policy
     releaseDate: 2025-09-01
     eol: false
 

@@ -22,29 +22,42 @@ identifiers:
 
 auto:
   methods:
-    - citrix-vad-rss: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
-      regex:
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
-        - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+ All Editions'
-      regex_exclude:
-        - "^.+Advanced Edition.+$"
-        - "^.+Premium Edition.+$"
-      template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
+    - xml_versions: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
+      selector: item
+      name:
+        selector: title
+        regex:
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+$'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
+          - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
+        regex_exclude:
+          - "^.+Advanced Edition.+$"
+          - "^.+Premium Edition.+$"
+        template: "{{major}}{%if minor %} CU{{minor}}{%endif%}"
+      date: pubDate
 
 # For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html
 # For non-LTS:
 # eoas(x) = releaseDate(x) + 6 months
 # eol(x) = releaseDate(x) + 18 months
 releases:
+  - releaseCycle: "2607"
+    lts: true
+    releaseDate: 2026-08-18
+    eoas: 2029-08-17
+    eol: 2029-08-17
+    latest: "2607"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2607-ltsr/whats-new/whats-new-node
+
   - releaseCycle: "2603"
     releaseDate: 2026-04-30
-    eoas: 2026-10-30 # estimate releaseDate(x) + 6 months, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    eol: 2027-10-30 # estimate releaseDate(x) + 18 months, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eoas: 2026-10-30
+    eol: 2027-10-30
     latest: "2603"
     latestReleaseDate: 2026-04-30
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html
 
   - releaseCycle: "2511"
     releaseDate: 2025-12-29

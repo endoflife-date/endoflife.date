@@ -8,8 +8,9 @@ permalink: /debian
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-eolColumn: Debian Security Support
-eoesColumn: Debian <abbr title="Long Term Support">LTS</abbr>
+eoasColumn: Debian Security Support
+eolColumn: Debian <abbr title="Long Term Support">LTS</abbr>
+eoesColumn: <abbr title="Extended LTS">ELTS</abbr>
 
 identifiers:
   - cpe: cpe:2.3:o:debian:debian_linux
@@ -25,15 +26,17 @@ auto:
         releaseCycle: "Version"
         codename: "Code Name"
         releaseDate: "Release Date"
-        eol: "End of Life (EOL)"
-        eoes: "End of LTS"
+        eoas: "End of Life (EOL)"
+        eol: "End of LTS"
+        eoes: "End of ELTS"
 
 releases:
   - releaseCycle: "13"
     codename: "Trixie"
     releaseDate: 2025-08-09
-    eol: 2028-08-09
-    eoes: 2030-06-30
+    eoas: 2028-08-09
+    eol: 2030-06-30
+    eoes: 2035-06-30
     link: https://www.debian.org/News/2025/20250809
     latest: "13.6"
     latestReleaseDate: 2026-07-11
@@ -41,8 +44,9 @@ releases:
   - releaseCycle: "12"
     codename: "Bookworm"
     releaseDate: 2023-06-10
-    eol: 2026-07-11
-    eoes: 2028-06-30
+    eoas: 2026-07-11
+    eol: 2028-06-30
+    eoes: 2033-06-30
     link: https://www.debian.org/News/2026/2026051602
     latest: "12.15"
     latestReleaseDate: 2026-07-11
@@ -50,8 +54,9 @@ releases:
   - releaseCycle: "11"
     codename: "Bullseye"
     releaseDate: 2021-08-14
-    eol: 2024-08-14
-    eoes: 2026-08-31
+    eoas: 2024-08-14
+    eol: 2026-08-31
+    eoes: 2031-06-30
     link: https://lists.debian.org/debian-release/2024/06/msg00700.html
     latest: "11.11"
     latestReleaseDate: 2024-08-31
@@ -59,8 +64,9 @@ releases:
   - releaseCycle: "10"
     codename: "Buster"
     releaseDate: 2019-07-06
-    eol: 2022-09-10
-    eoes: 2024-06-30
+    eoas: 2022-09-10
+    eol: 2024-06-30
+    eoes: 2029-06-30
     link: https://www.debian.org/News/2022/20220910
     latest: "10.13"
     latestReleaseDate: 2022-09-10
@@ -68,8 +74,9 @@ releases:
   - releaseCycle: "9"
     codename: "Stretch"
     releaseDate: 2017-06-17
-    eol: 2020-07-18
-    eoes: 2022-07-01
+    eoas: 2020-07-18
+    eol: 2022-07-01
+    eoes: 2027-06-30
     link: https://lists.debian.org/debian-announce/2017/msg00003.html
     latest: "9.13"
     latestReleaseDate: 2020-07-18
@@ -77,8 +84,9 @@ releases:
   - releaseCycle: "8"
     codename: "Jessie"
     releaseDate: 2015-04-25
-    eol: 2018-06-17
-    eoes: 2020-06-30
+    eoas: 2018-06-17
+    eol: 2020-06-30
+    eoes: 2025-06-30
     link: https://lists.debian.org/debian-announce/2015/msg00001.html
     latest: "8.11"
     latestReleaseDate: 2018-06-23
@@ -86,8 +94,9 @@ releases:
   - releaseCycle: "7"
     codename: "Wheezy"
     releaseDate: 2013-05-04
-    eol: 2016-04-25
-    eoes: 2018-05-31
+    eoas: 2016-04-25
+    eol: 2018-05-31
+    eoes: 2020-06-30
     link: https://lists.debian.org/debian-announce/2013/msg00002.html
     latest: "7.11"
     latestReleaseDate: 2016-06-04
@@ -95,8 +104,8 @@ releases:
   - releaseCycle: "6"
     codename: "Squeeze"
     releaseDate: 2011-02-06
-    eol: 2014-05-31
-    eoes: 2016-02-29
+    eoas: 2014-05-31
+    eol: 2016-02-29
     link: https://lists.debian.org/debian-announce/2011/msg00001.html
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
@@ -104,8 +113,8 @@ releases:
   - releaseCycle: "5"
     codename: "Lenny"
     releaseDate: 2009-02-14
+    eoas: 2012-02-06
     eol: 2012-02-06
-    eoes: 2012-02-06
     link: https://lists.debian.org/debian-announce/2009/msg00002.html
     latest: "5.0.10"
     latestReleaseDate: 2012-03-10
@@ -113,8 +122,8 @@ releases:
   - releaseCycle: "4"
     codename: "Etch"
     releaseDate: 2007-04-08
+    eoas: 2010-02-15
     eol: 2010-02-15
-    eoes: 2010-02-15
     link: https://lists.debian.org/debian-announce/2007/msg00002.html
     latest: "4.0r9"
     latestReleaseDate: 2010-05-22
@@ -122,8 +131,8 @@ releases:
   - releaseCycle: "3.1"
     codename: "Sarge"
     releaseDate: 2005-06-06
+    eoas: 2008-03-31
     eol: 2008-03-31
-    eoes: 2008-03-31
     link: https://lists.debian.org/debian-announce/2005/msg00003.html
     latest: "3.1r8"
     latestReleaseDate: 2008-04-13
@@ -131,8 +140,8 @@ releases:
   - releaseCycle: "3.0"
     codename: "Woody"
     releaseDate: 2002-07-19
+    eoas: 2006-06-30
     eol: 2006-06-30
-    eoes: 2006-06-30
     link: https://lists.debian.org/debian-announce/2002/msg00004.html
     latest: "3.0r6"
     latestReleaseDate: 2005-06-02
@@ -140,8 +149,8 @@ releases:
   - releaseCycle: "2.2"
     codename: "Potato"
     releaseDate: 2000-08-15
+    eoas: 2003-06-30
     eol: 2003-06-30
-    eoes: 2003-06-30
     link: https://lists.debian.org/debian-announce/2000/msg00009.html
     latest: "2.2r7"
     latestReleaseDate: 2002-07-13
@@ -149,8 +158,8 @@ releases:
   - releaseCycle: "2.1"
     codename: "Slink"
     releaseDate: 1999-03-09
-    eol: 2000-09-30
-    eoes: 2000-10-30
+    eoas: 2000-09-30
+    eol: 2000-10-30
     link: https://lists.debian.org/debian-announce/1999/msg00005.html
     latest: "2.1r5"
     latestReleaseDate: 2000-02-16
@@ -158,8 +167,8 @@ releases:
   - releaseCycle: "2.0"
     codename: "Hamm"
     releaseDate: 1998-07-24
+    eoas: 1999-02-15
     eol: 1999-02-15
-    eoes: 1999-02-15
     link: https://lists.debian.org/debian-announce/1998/msg00015.html
     latest: "2.0r5"
     latestReleaseDate: 1999-02-17
@@ -167,8 +176,8 @@ releases:
   - releaseCycle: "1.3"
     codename: "Bo"
     releaseDate: 1997-07-02
+    eoas: 1998-12-08
     eol: 1998-12-08
-    eoes: 1998-12-08
     link: https://lists.debian.org/debian-announce/1997/msg00018.html
     latest: "1.3.1 r.6"
     latestReleaseDate: 1998-02-03
@@ -176,8 +185,8 @@ releases:
   - releaseCycle: "1.2"
     codename: "Rex"
     releaseDate: 1996-12-12
+    eoas: 1997-10-23
     eol: 1997-10-23
-    eoes: 1997-10-23
     link: https://lists.debian.org/debian-announce/1996/msg00026.html
     latest: "1.2"
     latestReleaseDate: 1996-12-12
@@ -185,8 +194,8 @@ releases:
   - releaseCycle: "1.1"
     codename: "Buzz"
     releaseDate: 1996-06-17
+    eoas: 1996-12-12
     eol: 1996-12-12
-    eoes: 1996-12-12
     link: https://lists.debian.org/debian-announce/1996/msg00021.html
     latest: "1.1"
     latestReleaseDate: 1996-06-17
