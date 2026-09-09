@@ -59,7 +59,7 @@ releases:
 > [Renovate (also known as the Renovate CLI)](https://docs.renovatebot.com) is an Open Source dependency update tool.
 > It is multi-platform, multi-language, and supports multiple Git forges
 > (GitHub, GitLab, Gitea, Forgejo, Gerrit and more).
-> Renovate was created by [Mend](https://mend.io) is an Open Source project maintained by [a mix of Mend employees and independent maintainers](https://docs.renovatebot.com/about-us/), and contributed to by the wider community.
+> Renovate was created by [Mend](https://www.mend.io) is an Open Source project maintained by [a mix of Mend employees and independent maintainers](https://docs.renovatebot.com/about-us/), and contributed to by the wider community.
 
 Only the latest major version is supported.
 
