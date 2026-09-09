@@ -57,7 +57,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-17/specs/
+    link: https://support.apple.com/en-us/125089
     supportedIosVersions: "26 - 27"
 
   - releaseCycle: "air"
@@ -65,7 +65,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-air/specs/
+    link: https://support.apple.com/en-us/125092
     supportedIosVersions: "26 - 27"
 
   - releaseCycle: "17-pro"
@@ -73,7 +73,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-17-pro/specs/
+    link: https://support.apple.com/en-us/125090
     supportedIosVersions: "26 - 27"
 
   - releaseCycle: "17-pro-max"
@@ -81,7 +81,7 @@ releases:
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-17-pro/specs/
+    link: https://support.apple.com/en-us/125091
     supportedIosVersions: "26 - 27"
 
   - releaseCycle: "16e"
@@ -89,7 +89,7 @@ releases:
     releaseDate: 2025-02-28
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/docs/iphone/301076
+    link: https://support.apple.com/en-us/122208
     supportedIosVersions: "18 - 27"
 
   - releaseCycle: "16"
