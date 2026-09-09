@@ -56,7 +56,7 @@ releases:
     eol: 2025-07-18
     latest: "11.38.37"
     latestReleaseDate: 2025-06-17
-    link: https://documentation.commvault.com/v11/software/list_of_innovation_update_releases_in_11_38.html
+    link: https://documentation.commvault.com/11.40/software/changes_in_innovation_release_11_38.html
 
   - releaseCycle: "11.36"
     lts: true
@@ -74,7 +74,7 @@ releases:
     eol: 2026-06-15
     latest: "11.32.143"
     latestReleaseDate: 2026-06-02
-    link: https://documentation.commvault.com/v11/software/list_of_maintenance_releases_for_commvault_platform_release_2023e.html
+    link: https://documentation.commvault.com/11.40/software/changes_in_commvault_platform_release_2023e.html
 
 ---
 
