@@ -22,26 +22,26 @@ customFields:
 releases:
   - releaseCycle: "duo"
     releaseLabel: "Duo"
-    releaseDate: 2026-09-19
+    releaseDate: 2026-10-23
     discontinued: false
     eol: false
-    link:
+    link: https://www.apple.com/iphone-duo/specs/
     supportedIosVersions: "27"
 
   - releaseCycle: "18-pro"
     releaseLabel: "18 Pro"
-    releaseDate: 2026-09-19
+    releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link:
+    link: https://www.apple.com/iphone-18-pro/specs/
     supportedIosVersions: "27"
 
   - releaseCycle: "18-pro-max"
     releaseLabel: "18 Pro Max"
-    releaseDate: 2026-09-19
+    releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link:
+    link: https://www.apple.com/iphone-18-pro/specs/
     supportedIosVersions: "27"
 
   - releaseCycle: "17e"
@@ -71,7 +71,7 @@ releases:
   - releaseCycle: "17-pro"
     releaseLabel: "17 Pro"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/125090
     supportedIosVersions: "26 - 27"
@@ -79,7 +79,7 @@ releases:
   - releaseCycle: "17-pro-max"
     releaseLabel: "17 Pro Max"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/125091
     supportedIosVersions: "26 - 27"
