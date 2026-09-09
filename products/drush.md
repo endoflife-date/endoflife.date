@@ -48,8 +48,8 @@ releases:
     eol: false
     supportedPhpVersions: "8.3+"
     supportedDrupalVersions: "10.2 - 11"
-    latest: "13.7.7"
-    latestReleaseDate: 2026-09-03
+    latest: "13.8.0"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "12"
     staleReleaseThresholdDays: 1095 # EOL is TBD on https://www.drush.org/13.x/install/#drupal-compatibility
