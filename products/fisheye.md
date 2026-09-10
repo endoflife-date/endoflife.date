@@ -14,11 +14,9 @@ identifiers:
   - cpe: cpe:/a:atlassian:fisheye
   - cpe: cpe:2.3:a:atlassian:fisheye
 
-auto:
-  methods:
-    - atlassian_versions: https://www.atlassian.com/software/fisheye/download-archives
-
 # Release dates from https://www.atlassian.com/software/fisheye/download-archives.
+# No auto configuration: since the product was discontinued that page no longer carries a version
+# list, so atlassian_versions finds nothing there. Crowd's equivalent page still lists 260 versions.
 # Atlassian discontinued new sales of FishEye and Crucible on 2025-05-13 and ends support for both on 2028-05-15,
 # which is the eol shown for the final release. No per-version EOL dates are published for these two products, so
 # earlier cycles use the two year window Atlassian applies to its other server products.
