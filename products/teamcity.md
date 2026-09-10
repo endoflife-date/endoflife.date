@@ -3,7 +3,7 @@ title: TeamCity
 addedAt: 2026-09-10
 category: server-app
 tags: jetbrains
-iconSlug: jetbrains
+iconSlug: teamcity
 permalink: /teamcity
 releasePolicyLink: https://www.jetbrains.com/help/teamcity/teamcity-release-cycle.html
 changelogTemplate: https://www.jetbrains.com/help/teamcity/teamcity-{{"__RELEASE_CYCLE__" | replace:'.','-'}}-release-notes.html
