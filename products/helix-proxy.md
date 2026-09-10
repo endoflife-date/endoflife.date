@@ -3,6 +3,7 @@ title: Helix Proxy
 addedAt: 2026-09-10
 category: server-app
 tags: perforce
+iconSlug: perforce
 permalink: /helix-proxy
 alternate_urls:
   - /p4p
