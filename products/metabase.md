@@ -32,14 +32,14 @@ releases:
   - releaseCycle: "0.63"
     releaseDate: 2026-07-07
     eol: 2026-11-01
-    latest: "0.63.16.7"
-    latestReleaseDate: 2026-09-07
+    latest: "0.63.16.9"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "0.62"
     releaseDate: 2026-06-01
     eol: 2026-09-01
-    latest: "0.62.19.3"
-    latestReleaseDate: 2026-09-04
+    latest: "0.62.19.4"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "0.61"
     releaseDate: 2026-04-30
@@ -63,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2025-12-17
     eol: 2027-02-17
-    latest: "0.58.32.2"
-    latestReleaseDate: 2026-09-04
+    latest: "0.58.33.1"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "0.57"
     releaseDate: 2025-11-01
