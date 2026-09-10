@@ -10,10 +10,15 @@ alternate_urls:
 releasePolicyLink: https://confluence.atlassian.com/bitbucketserver/bitbucket-mesh-compatibility-matrix-1127254859.html
 eolColumn: Support
 
-# Release dates from Atlassian's download feed for Mesh.
+# Release dates from Atlassian's download feed for Mesh. There is no download page of its own to read:
+# Mesh ships with Bitbucket, whose page lists Bitbucket versions.
 # Mesh ships alongside Bitbucket Data Center: since 3.0 every release has landed on the same day as the matching
 # Bitbucket release, 3.0 with Bitbucket 9.0 through 4.4 with Bitbucket 10.4, so it follows the same two year
 # support window as https://endoflife.date/bitbucket .
+auto:
+  methods:
+    - atlassian_feed: https://my.atlassian.com/download/feeds/current/mesh.json
+
 releases:
   - releaseCycle: "4.4"
     releaseDate: 2026-07-20
