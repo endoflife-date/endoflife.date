@@ -3,6 +3,7 @@ title: TestRail
 addedAt: 2026-09-10
 category: server-app
 tags: php-runtime
+iconSlug: testrail
 permalink: /testrail
 versionCommand: curl -s https://testrail.example.com/version.txt
 releasePolicyLink: https://support.testrail.com/hc/en-us/articles/14334287387796-TestRail-Server-supported-versions
