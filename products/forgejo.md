@@ -98,3 +98,6 @@ releases:
 Stable releases are released every quarter and receive support for three months.
 Long-term support releases are published in the first quarter of every year
 and receive critical bugfixes and security support for one year and three months.
+
+The Forgejo security team publishes advance notice of upcoming security
+releases on the [security-announcements issue tracker](https://codeberg.org/forgejo/security-announcements/issues).
