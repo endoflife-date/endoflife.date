@@ -425,8 +425,12 @@ is counted from each build, a release cycle stays supported for two years after 
 one.
 
 A version reaches TestRail Cloud first, and only some of those versions are then packaged for self-hosted
-installations. Versions 7.1, 7.2, 7.3, 7.6, 7.8, 9.7 and 10.8 shipped to Cloud but never got a Server package, and 7.7
-never left Early Access, which is why 7.5.3 is the last 7.x release available for self-hosted installations before 8.0.
-The releases listed here are the ones distributed as Server packages.
+installations. No Server package is known for 7.1, 7.2, 7.3, 7.6, 7.8, 9.7 or 10.8, and 7.7 never left Early Access,
+which is why 7.5.3 is the last 7.x release available for self-hosted installations before 8.0.
+
+Individual builds are not listed. A release cycle covers every build under it, so an installation reporting
+9.3.1.1020 is covered by the 9.3 row, whose latest names the newest build in that cycle. Bear in mind that TestRail
+moved its downloads to object storage during 2025 and stopped serving some packages that had shipped, so a build no
+longer being downloadable does not mean it is not still installed somewhere.
 
 A running instance reports its exact build at `/version.txt`, for example `10.7.1.1003`.
