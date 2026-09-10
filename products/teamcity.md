@@ -18,6 +18,10 @@ identifiers:
 # from that feed, so its date is taken from
 # https://www.jetbrains.com/help/teamcity/previous-releases-downloads.html .
 #
+# The feed only goes back to 7.0. Cycles 3.1 to 6.5 come from that same documentation page.
+# JetBrains gives no date for the bugfix builds of 3.1, 4.0, 4.5, 5.0, 5.1 and 6.0, only their
+# build numbers, so those cycles carry a latest without a latestReleaseDate.
+#
 # Per https://www.jetbrains.com/help/teamcity/teamcity-release-cycle.html , a major version stops receiving bugfix
 # updates at End of Sale, which is when the next major version ships, and reaches End of Support when the one after
 # that ships. So eoas(x) = releaseDate(x+1) and eol(x) = releaseDate(x+2).
@@ -242,6 +246,56 @@ releases:
     latest: "7.0.4"
     latestReleaseDate: 2012-07-12
     link: null
+
+  - releaseCycle: "6.5"
+    releaseDate: 2011-05-24
+    eoas: 2012-02-22
+    eol: 2012-08-07
+    latest: "6.5.6"
+    latestReleaseDate: 2011-12-09
+    link: null
+
+  - releaseCycle: "6.0"
+    releaseDate: 2010-11-30
+    eoas: 2011-05-24
+    eol: 2012-02-22
+    latest: "6.0.3"
+    link: null
+
+  - releaseCycle: "5.1"
+    releaseDate: 2010-04-21
+    eoas: 2010-11-30
+    eol: 2011-05-24
+    latest: "5.1.5"
+    link: null
+
+  - releaseCycle: "5.0"
+    releaseDate: 2009-12-02
+    eoas: 2010-04-21
+    eol: 2010-11-30
+    latest: "5.0.3"
+    link: null
+
+  - releaseCycle: "4.5"
+    releaseDate: 2009-04-23
+    eoas: 2009-12-02
+    eol: 2010-04-21
+    latest: "4.5.6"
+    link: null
+
+  - releaseCycle: "4.0"
+    releaseDate: 2008-12-10
+    eoas: 2009-04-23
+    eol: 2009-12-02
+    latest: "4.0.2"
+    link: null
+
+  - releaseCycle: "3.1"
+    releaseDate: 2008-03-04
+    eoas: 2008-12-10
+    eol: 2009-04-23
+    latest: "3.1.2"
+    link: null
 ---
 
 > [TeamCity](https://www.jetbrains.com/teamcity/) is a proprietary build management and continuous integration server
@@ -262,3 +316,7 @@ JetBrains recommends upgrading rather than relying on them.
 The version scheme has changed three times. Releases up to 10.0 used a plain `major.minor` number. From 2017.1 they
 were named after the year and the release within it. From 2022.04 through 2025.11 the second component was the month
 of release instead. Starting with 2026.1, it is once again the number of the release within the year.
+
+JetBrains documents releases back to 3.1, so that is where this page starts. For the bugfix builds of 3.1, 4.0, 4.5,
+5.0, 5.1 and 6.0 it publishes a build number but no date, which is why those release cycles list a latest version
+without a date for it.
