@@ -20,53 +20,77 @@ customFields:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+  - releaseCycle: "duo"
+    releaseLabel: "Duo"
+    releaseDate: 2026-10-23
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/iphone-duo/specs/
+    supportedIosVersions: "27"
+
+  - releaseCycle: "18-pro"
+    releaseLabel: "18 Pro"
+    releaseDate: 2026-09-18
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/iphone-18-pro/specs/
+    supportedIosVersions: "27"
+
+  - releaseCycle: "18-pro-max"
+    releaseLabel: "18 Pro Max"
+    releaseDate: 2026-09-18
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/iphone-18-pro/specs/
+    supportedIosVersions: "27"
+
   - releaseCycle: "17e"
     releaseLabel: "17e"
     releaseDate: 2026-03-11
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/126470
-    supportedIosVersions: "26"
+    supportedIosVersions: "26 - 27"
 
   - releaseCycle: "17"
     releaseLabel: "17"
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-17/specs/
-    supportedIosVersions: "26"
+    link: https://support.apple.com/en-us/125089
+    supportedIosVersions: "26 - 27"
 
   - releaseCycle: "air"
     releaseLabel: "17 Air"
     releaseDate: 2025-09-19
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-air/specs/
-    supportedIosVersions: "26"
+    link: https://support.apple.com/en-us/125092
+    supportedIosVersions: "26 - 27"
 
   - releaseCycle: "17-pro"
     releaseLabel: "17 Pro"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
-    link: https://www.apple.com/iphone-17-pro/specs/
-    supportedIosVersions: "26"
+    link: https://support.apple.com/en-us/125090
+    supportedIosVersions: "26 - 27"
 
   - releaseCycle: "17-pro-max"
     releaseLabel: "17 Pro Max"
     releaseDate: 2025-09-19
-    discontinued: false
+    discontinued: 2025-09-09
     eol: false
-    link: https://www.apple.com/iphone-17-pro/specs/
-    supportedIosVersions: "26"
+    link: https://support.apple.com/en-us/125091
+    supportedIosVersions: "26 - 27"
 
   - releaseCycle: "16e"
     releaseLabel: "16e"
     releaseDate: 2025-02-28
     discontinued: false
     eol: false
-    link: https://support.apple.com/en-us/docs/iphone/301076
-    supportedIosVersions: "18 - 26"
+    link: https://support.apple.com/en-us/122208
+    supportedIosVersions: "18 - 27"
 
   - releaseCycle: "16"
     releaseLabel: "16"
@@ -74,7 +98,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/121029
-    supportedIosVersions: "18 - 26"
+    supportedIosVersions: "18 - 27"
 
   - releaseCycle: "16-plus"
     releaseLabel: "16 Plus"
@@ -82,7 +106,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/en-us/121030
-    supportedIosVersions: "18 - 26"
+    supportedIosVersions: "18 - 27"
 
   - releaseCycle: "16-pro"
     releaseLabel: "16 Pro"
@@ -90,7 +114,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121031
-    supportedIosVersions: "18 - 26"
+    supportedIosVersions: "18 - 27"
 
   - releaseCycle: "16-pro-max"
     releaseLabel: "16 Pro Max"
@@ -98,7 +122,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/en-us/121032
-    supportedIosVersions: "18 - 26"
+    supportedIosVersions: "18 - 27"
 
   - releaseCycle: "15"
     releaseLabel: "15"
@@ -106,7 +130,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/kb/SP901
-    supportedIosVersions: "17 - 26"
+    supportedIosVersions: "17 - 27"
 
   - releaseCycle: "15-plus"
     releaseLabel: "15 Plus"
@@ -114,7 +138,7 @@ releases:
     discontinued: 2025-09-09
     eol: false
     link: https://support.apple.com/kb/SP902
-    supportedIosVersions: "17 - 26"
+    supportedIosVersions: "17 - 27"
 
   - releaseCycle: "15-pro"
     releaseLabel: "15 Pro"
@@ -122,7 +146,7 @@ releases:
     discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP903
-    supportedIosVersions: "17 - 26"
+    supportedIosVersions: "17 - 27"
 
   - releaseCycle: "15-pro-max"
     releaseLabel: "15 Pro Max"
@@ -130,7 +154,7 @@ releases:
     discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP904
-    supportedIosVersions: "17 - 26"
+    supportedIosVersions: "17 - 27"
 
   - releaseCycle: "14-plus"
     releaseLabel: "14 Plus"
@@ -138,7 +162,7 @@ releases:
     discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP874
-    supportedIosVersions: "16 - 26"
+    supportedIosVersions: "16 - 27"
 
   - releaseCycle: "14"
     releaseLabel: "14"
@@ -146,7 +170,7 @@ releases:
     discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP873
-    supportedIosVersions: "16 - 26"
+    supportedIosVersions: "16 - 27"
 
   - releaseCycle: "14-pro"
     releaseLabel: "14 Pro"
@@ -154,7 +178,7 @@ releases:
     discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP875
-    supportedIosVersions: "16 - 26"
+    supportedIosVersions: "16 - 27"
 
   - releaseCycle: "14-pro-max"
     releaseLabel: "14 Pro Max"
@@ -162,7 +186,7 @@ releases:
     discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP876
-    supportedIosVersions: "16 - 26"
+    supportedIosVersions: "16 - 27"
 
   - releaseCycle: "se-3"
     releaseLabel: "SE (3rd generation)"
@@ -170,7 +194,7 @@ releases:
     discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP867
-    supportedIosVersions: "15 - 26"
+    supportedIosVersions: "15 - 27"
 
   - releaseCycle: "13"
     releaseLabel: "13"
@@ -178,7 +202,7 @@ releases:
     discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP851
-    supportedIosVersions: "15 - 26"
+    supportedIosVersions: "15 - 27"
 
   - releaseCycle: "13-mini"
     releaseLabel: "13 Mini"
@@ -186,7 +210,7 @@ releases:
     discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP847
-    supportedIosVersions: "15 - 26"
+    supportedIosVersions: "15 - 27"
 
   - releaseCycle: "13-pro"
     releaseLabel: "13 Pro"
@@ -194,7 +218,7 @@ releases:
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP852
-    supportedIosVersions: "15 - 26"
+    supportedIosVersions: "15 - 27"
 
   - releaseCycle: "13-pro-max"
     releaseLabel: "13 Pro Max"
@@ -202,7 +226,7 @@ releases:
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP848
-    supportedIosVersions: "15 - 26"
+    supportedIosVersions: "15 - 27"
 
   - releaseCycle: "12-mini"
     releaseLabel: "12 Mini"
@@ -210,7 +234,7 @@ releases:
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP829
-    supportedIosVersions: "14 - 26"
+    supportedIosVersions: "14 - 27"
 
   - releaseCycle: "12-pro-max"
     releaseLabel: "12 Pro Max"
@@ -218,7 +242,7 @@ releases:
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP832
-    supportedIosVersions: "14 - 26"
+    supportedIosVersions: "14 - 27"
 
   - releaseCycle: "12"
     releaseLabel: "12"
@@ -226,7 +250,7 @@ releases:
     discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP830
-    supportedIosVersions: "14 - 26"
+    supportedIosVersions: "14 - 27"
 
   - releaseCycle: "12-pro"
     releaseLabel: "12 Pro"
@@ -234,7 +258,7 @@ releases:
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP831
-    supportedIosVersions: "14 - 26"
+    supportedIosVersions: "14 - 27"
 
   - releaseCycle: "se-2"
     releaseLabel: "SE (2nd generation)"
@@ -242,7 +266,7 @@ releases:
     discontinued: 2022-03-08
     eol: false
     link: https://support.apple.com/kb/SP820
-    supportedIosVersions: "13 - 26"
+    supportedIosVersions: "13 - 27"
 
   - releaseCycle: "11"
     releaseLabel: "11"
@@ -250,7 +274,7 @@ releases:
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP804
-    supportedIosVersions: "13 - 26"
+    supportedIosVersions: "13 - 27"
 
   - releaseCycle: "11-pro"
     releaseLabel: "11 Pro"
@@ -258,7 +282,7 @@ releases:
     discontinued: 2020-10-13
     eol: false
     link: https://support.apple.com/kb/SP805
-    supportedIosVersions: "13 - 26"
+    supportedIosVersions: "13 - 27"
 
   - releaseCycle: "11-pro-max"
     releaseLabel: "11 Pro Max"
@@ -266,7 +290,7 @@ releases:
     discontinued: 2020-10-13
     eol: false
     link: https://support.apple.com/kb/SP806
-    supportedIosVersions: "13 - 26"
+    supportedIosVersions: "13 - 27"
 
   - releaseCycle: "xr"
     releaseLabel: "XR"
