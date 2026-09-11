@@ -38,8 +38,8 @@ releases:
     releaseDate: 2026-08-04
     eoas: false # releaseDate(2.38)
     eol: false # releaseDate(2.39)
-    latest: "2.36.4"
-    latestReleaseDate: 2026-09-01
+    latest: "2.36.5"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "2.35"
     releaseDate: 2026-07-07 # 2.35.1 was the first 2.35 version
