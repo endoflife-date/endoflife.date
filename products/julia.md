@@ -18,6 +18,12 @@ identifiers:
   - cpe: cpe:2.3:a:julialang:julia
 
 releases:
+  - releaseCycle: "1.13"
+    releaseDate: 2026-09-10 # announcementLink: https://julialang.org/blog/2026/09/julia-1.13-highlights/
+    eol: false
+    latest: "1.13.0"
+    latestReleaseDate: 2026-09-10
+
   - releaseCycle: "1.12"
     releaseDate: 2025-10-08 # announcementLink: https://julialang.org/blog/2025/10/julia-1.12-highlights/
     eol: false
