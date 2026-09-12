@@ -48,14 +48,14 @@ auto:
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
   - releaseCycle: "2026.08"
-    releaseDate: 2026-08-25
+    releaseDate: 2026-09-10 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026-08-0/
     eol: false
     latest: "2026.08.1"
-    latestReleaseDate: 2026-09-07
+    latestReleaseDate: 2026-09-10 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026081/
     
   - releaseCycle: "2026.07"
     releaseDate: 2026-08-05
-    eol: 2026-08-25
+    eol: 2026-09-10 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026-08-0/
     latest: "2026.07.1"
     latestReleaseDate: 2026-08-06
 
