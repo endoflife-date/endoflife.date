@@ -90,12 +90,6 @@ releases:
     supportedLinux: "2.6.32 - 5.9"
     supportedFreeBSD: "N/A"
 
-
-
-
-
-
-
 ---
 
 > [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that
@@ -113,7 +107,7 @@ _OpenZFS current_ tracks the latest `MAJOR.MINOR` release.
 This branch receive active support for the latest OpenZFS features and recently releases kernels.
 
 _OpenZFS LTS_ tracks [the second latest](https://github.com/openzfs/zfs/issues/16945) `MAJOR.MINOR` release.
-This branch may get minor updates, but won't receive support for newer kernels or features. 
+This branch may get minor updates, but won't receive support for newer kernels or features.
 
 ## Officially supported distributions
 
