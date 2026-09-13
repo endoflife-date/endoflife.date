@@ -113,7 +113,7 @@ _OpenZFS current_ tracks the latest `MAJOR.MINOR` release.
 This branch receive active support for the latest OpenZFS features and recently releases kernels.
 
 _OpenZFS LTS_ tracks [the second latest](https://github.com/openzfs/zfs/issues/16945) `MAJOR.MINOR` release.
-This branch may get minor updates, but won't receive support for newer kernels or features. The [current LTS](https://github.com/openzfs/zfs/blob/master/RELEASES.md) release is OpenZFS 2.2
+This branch may get minor updates, but won't receive support for newer kernels or features. 
 
 ## Officially supported distributions
 
