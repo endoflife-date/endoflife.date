@@ -32,7 +32,7 @@ releases:
   - releaseCycle: "7.23"
     lts: true
     releaseDate: 2026-05-26
-    eol: false
+    eol: false # releaseDate( Next LTS cycle )
     latest: "7.23.5"
     latestReleaseDate: 2026-09-04
 
@@ -45,7 +45,7 @@ releases:
   - releaseCycle: "7.21"
     lts: true
     releaseDate: 2026-01-12
-    eol: 2026-09-03
+    eol: 2026-09-03 # releaseDate(7.23.4)
     latest: "7.21.5"
     latestReleaseDate: 2026-07-06
 
