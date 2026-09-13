@@ -20,14 +20,6 @@ customFields:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
-  - releaseCycle: "duo"
-    releaseLabel: "Duo"
-    releaseDate: 2026-10-23
-    discontinued: false
-    eol: false
-    link: https://www.apple.com/iphone-duo/specs/
-    supportedIosVersions: "27"
-
   - releaseCycle: "18-pro"
     releaseLabel: "18 Pro"
     releaseDate: 2026-09-18
