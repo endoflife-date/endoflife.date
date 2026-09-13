@@ -23,20 +23,29 @@ auto:
 # eoas(x) = Corresponding Debian eoas(x)
 # eol(x) = Corresponding Debian eol(x)
 releases:
+  - releaseCycle: "26"
+    codename: "Stephen Kapos" # Trixie
+    releaseDate: 2026-03-21
+    latest: "26"
+    latestReleaseDate: 2026-03-21
+    eoas: 2028-08-09
+    eol: 2030-07-30
+    link: https://antixlinux.com/antix-26-released/
+
   - releaseCycle: "23"
     codename: "Arditi del Popolo" # Bookworm
     releaseDate: 2023-08-28
     latest: "23"
     latestReleaseDate: 2023-08-28
-    eoas: 2026-06-10
-    eol: 2028-06-10
+    eoas: 2026-07-11
+    eol: 2028-06-30
     link: https://antixlinux.com/antix-23-released/
 
   - releaseCycle: "21"
     codename: "Grup Yorum" # Bullseye
     releaseDate: 2021-10-31
-    eoas: 2024-06-30
-    eol: 2026-06-30
+    eoas: 2024-08-14
+    eol: 2026-08-31
     latest: "22"
     latestReleaseDate: 2022-10-19
     link: https://antixlinux.com/antix-22-released/
