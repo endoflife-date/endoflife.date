@@ -1,6 +1,6 @@
 ---
 title: Kiali
-addedAt: 2025-10-07
+addedAt: 2026-09-14
 category: server-app
 permalink: /kiali
 versionCommand: kiali version
