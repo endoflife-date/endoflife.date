@@ -70,8 +70,8 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.30"
-    latestReleaseDate: 2026-09-08
+    latest: "8.0.32"
+    latestReleaseDate: 2026-09-11
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"

@@ -15,7 +15,7 @@ releases:
     releaseDate: 2021-11-02
     eoas: false
     eol: false
-    latest: "16.0.20326.20124"
+    latest: "16.0.20326.20136"
     latestReleaseDate: 2026-09-08
     link: https://support.microsoft.com/help/5002908
 

@@ -28,7 +28,7 @@ releases:
     releaseDate: 2026-08-07
     eoas: false
     eol: false
-    link: https://www.samsung.com/watches/galaxy-watch-ultra2/
+    link: https://www.samsung.com/us/watches/galaxy-watch-ultra2/
 
   - releaseCycle: "galaxy-watch9"
     releaseLabel: "Galaxy Watch9"
@@ -162,5 +162,4 @@ depending on the model and its age.
 
 Guaranteed Wear OS upgrades are provided for a limited period, which is usually less (but never more) than the device's security update period.
 How many Wear OS upgrades a device receives depends on the model.
-However, since Galaxy Watch 4, Samsung Galaxy Watches have been supported [for five years](https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/#Samsung_Update_Policy_For_Galaxy_Watches)
-– four Android version updates and five years of security patches.
+However, since Galaxy Watch 4, Samsung Galaxy Watches have been supported for five years – four Android version updates and five years of security patches.
