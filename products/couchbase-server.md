@@ -77,18 +77,21 @@ releases:
     eol: 2024-01-31
     latest: "7.1.6"
     latestReleaseDate: 2023-11-01
+    link: https://web.archive.org/web/20251008201114/https://docs.couchbase.com/server/7.1/release-notes/relnotes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2021-07-29
     eol: 2023-01-31
     latest: "7.0.5"
     latestReleaseDate: 2022-12-01
+    link: https://web.archive.org/web/20250916172610/https://docs.couchbase.com/server/7.0/release-notes/relnotes.html
 
   - releaseCycle: "6.6"
     releaseDate: 2020-08-12
     eol: 2023-01-31
     latest: "6.6.6"
     latestReleaseDate: 2023-01-15
+    link: https://web.archive.org/web/20230519153917/https://docs.couchbase.com/server/6.6/release-notes/relnotes.html
 
   - releaseCycle: "6.5"
     releaseDate: 2020-01-21
@@ -137,14 +140,14 @@ releases:
     eol: 2018-04-30
     latest: "4.5.1"
     latestReleaseDate: 2016-10-05
-    link: https://www.couchbase.com/blog/announcing-couchbase-server-4-5-1/
+    link: https://web.archive.org/web/20250803112322/https://www.couchbase.com/blog/announcing-couchbase-server-4-5-1/
 
   - releaseCycle: "4.1"
     releaseDate: 2015-12-10
     eol: 2018-04-30
     latest: "4.1.2"
     latestReleaseDate: 2016-08-15
-    link: https://www.couchbase.com/blog/announcing-couchbase-server-4-1-2/
+    link: https://web.archive.org/web/20250807032054/https://www.couchbase.com/blog/announcing-couchbase-server-4-1-2/
 
   - releaseCycle: "4.0"
     releaseDate: 2015-10-06
@@ -158,7 +161,7 @@ releases:
     eol: 2017-02-28
     latest: "3.1.3"
     latestReleaseDate: 2016-05-16
-    link: https://www.couchbase.com/blog/couchbase-3.1.3-ce-is-now-available/
+    link: https://web.archive.org/web/20250816123113/https://www.couchbase.com/blog/couchbase-3.1.3-ce-is-now-available/
 
   - releaseCycle: "3.0"
     releaseDate: 2014-12-17
