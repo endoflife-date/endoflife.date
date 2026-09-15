@@ -30,7 +30,7 @@ releases:
 
   - releaseCycle: "26"
     releaseDate: 2025-09-15
-    eol: false
+    eol: 2026-09-14
     latest: "26.6"
     latestReleaseDate: 2026-07-27
 
