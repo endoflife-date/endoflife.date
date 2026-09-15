@@ -20,6 +20,7 @@ auto:
 releases:
   - releaseCycle: "4.14.7"
     releaseDate: 2026-07-29
+    eol: false
     latest: "4.14.7"
     link: https://documentation.wazuh.com/current/release-notes/release-4-14-7.html
 
@@ -28,6 +29,12 @@ releases:
     eol: 2026-07-28
     latest: "4.14.6"
     link: https://documentation.wazuh.com/current/release-notes/release-4-14-6.html
+
+  - releaseCycle: "4.10.4"
+    releaseDate: 2026-05-21
+    eol: false
+    latest: "4.10.4"
+    link: https://documentation.wazuh.com/current/release-notes/release-4-10-4.html
 
   - releaseCycle: "4.14.5"
     releaseDate: 2026-04-23
@@ -77,6 +84,18 @@ releases:
     latest: "4.13.0"
     link: https://documentation.wazuh.com/current/release-notes/release-4-13-0.html
 
+  - releaseCycle: "4.10.3"
+    releaseDate: 2025-08-19
+    eol: 2026-05-20
+    latest: "4.10.3"
+    link: https://documentation.wazuh.com/current/release-notes/release-4-10-3.html
+
+  - releaseCycle: "4.10.2"
+    releaseDate: 2025-05-22
+    eol: 2025-09-18
+    latest: "4.10.2"
+    link: https://documentation.wazuh.com/current/release-notes/release-4-10-2.html
+
   - releaseCycle: "4.12.0"
     releaseDate: 2025-05-07
     eol: 2025-09-17
@@ -100,23 +119,6 @@ releases:
     eol: 2025-03-11
     latest: "4.11.0"
     link: https://documentation.wazuh.com/current/release-notes/release-4-11-0.html
-
-  - releaseCycle: "4.10.4"
-    releaseDate: 2026-05-21
-    latest: "4.10.4"
-    link: https://documentation.wazuh.com/current/release-notes/release-4-10-4.html
-
-  - releaseCycle: "4.10.3"
-    releaseDate: 2025-08-19
-    eol: 2026-05-20
-    latest: "4.10.3"
-    link: https://documentation.wazuh.com/current/release-notes/release-4-10-3.html
-
-  - releaseCycle: "4.10.2"
-    releaseDate: 2025-05-22
-    eol: 2025-09-18
-    latest: "4.10.2"
-    link: https://documentation.wazuh.com/current/release-notes/release-4-10-2.html
 
   - releaseCycle: "4.10.1"
     releaseDate: 2025-01-16
