@@ -20,25 +20,25 @@ identifiers:
 
 releases:
   - releaseCycle: "4.24"
-    releaseDate: 2026-03
+    releaseDate: 2026-03-01 # estimated day of the release
     eoas: false
-    eol: 2027-09
+    eol: 2027-09-01 # estimated day of the eol
     latest: "4.24.7"
     latestReleaseDate: 2026-09-09
     link: https://www.samba.org/samba/latest_news.html#4.24.7
   
   - releaseCycle: "4.23"
     releaseDate: 2025-12-09
-    eoas: 2026-09
-    eol: 2027-03
+    eoas: 2026-09-01 # estimated day of the eoas
+    eol: 2027-03-01 # estimated day of the eol
     latest: "4.23.12"
     latestReleaseDate: 2026-09-01
     link: https://www.samba.org/samba/latest_news.html#4.23.12
 
   - releaseCycle: "4.22"
     releaseDate: 2025-03-06
-    eoas: 2026-03
-    eol: 2026-09
+    eoas: 2026-03-01 # estimated day of the eoas
+    eol: 2026-09-01 # estimated day of the eol
     latest: "4.22.11"
     latestReleaseDate: 2026-07-23
     link: https://www.samba.org/samba/latest_news.html#4.22.11
