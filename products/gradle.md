@@ -177,6 +177,26 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 - The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
 - The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.
 
+## Security Subscription
+
+Gradle's [end-of-life policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support)
+limits open source security fixes to the latest minor release of the current and previous major
+version, delivered on a best-effort basis.
+
+The [Gradle Security Subscription](https://gradle.org/security-subscription) extends coverage for
+organizations that cannot move to the latest release right away, or that need contractual
+guarantees:
+
+- Prioritized fixes under an SLA: critical vulnerabilities within 7 days, high-severity within 30
+  days.
+- Extended security maintenance: high-severity and critical (CVSS ≥ 7) fixes for every minor
+  released in the last 12 months across the current and previous major version, plus the latest
+  minor of the two prior major versions.
+- Advance, confidential notice of newly discovered vulnerabilities ahead of public disclosure.
+
+The subscription does not change the open source end-of-life policy or the fixes available to the
+community.
+
 ## [Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 
 Gradle itself is tested with the following versions:
