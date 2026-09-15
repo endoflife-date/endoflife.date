@@ -14,6 +14,9 @@ auto:
   methods:
     - unity: https://services.api.unity.com/unity/editor/release/v1/releases
 
+identifiers:
+  - purl: pkg:chocolatey/unity
+
 # For update release : eol(x) = releaseDate(x+1)
 # For LTS : eol(x) = releaseDate + 2 years
 releases:

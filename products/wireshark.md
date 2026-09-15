@@ -20,6 +20,8 @@ identifiers:
   - repology: wireshark
   - purl: pkg:docker/linuxserver/wireshark
   - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
+  - purl: pkg:winget/WiresharkFoundation.Wireshark
+  - purl: pkg:chocolatey/wireshark
   - cpe: cpe:2.3:a:wireshark:wireshark
   - cpe: cpe:/a:wireshark:wireshark
 
