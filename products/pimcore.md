@@ -52,26 +52,26 @@ releases:
 
   - releaseCycle: "2026.1"
     releaseDate: 2026-04-08
-    eol: "2026-06-29"
+    eol: 2026-06-29
     latest: "2026.1.7"
     latestReleaseDate: 2026-07-02
 
   - releaseCycle: "12"
     releaseDate: 2025-04-30
-    eol: "2026-04-08"
+    eol: 2026-04-08
     latest: "12.3.12.1"
     latestReleaseDate: 2026-08-07
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2023-05-16
-    eol: "2025-04-30"
+    eol: 2025-04-30
     latest: "11.5.14.1"
     latestReleaseDate: 2026-01-16
 
   - releaseCycle: "10"
     releaseDate: 2021-05-11
-    eol: "2023-05-16"
+    eol: 2023-05-16
     latest: "10.6.9"
     latestReleaseDate: 2023-08-21
 
