@@ -37,8 +37,8 @@ releases:
   - releaseCycle: "4.14"
     releaseDate: 2026-03-09
     eol: 2026-12-09 # estimated, as noted here: https://dependencytrack.org/news/dependency-track-5-0/#:~:text=What%20it%20means%20for%20existing%20v4%20users
-    latest: "4.14.3"
-    latestReleaseDate: 2026-07-20
+    latest: "4.14.4"
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "4.13"
     releaseDate: 2025-04-07
@@ -81,6 +81,7 @@ releases:
     eol: 2023-04-18
     latest: "4.7.1"
     latestReleaseDate: 2023-01-31
+
 ---
 
 > [OWASP Dependency-Track](https://dependencytrack.org/) is an intelligent API-first Component
