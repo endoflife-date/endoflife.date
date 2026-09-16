@@ -49,15 +49,15 @@ releases:
     releaseDate: 2026-09-01
     eoas: 2027-09-01
     eol: 2028-03-01
-    latest: "3.96.0-09"
-    latestReleaseDate: 2026-09-01
+    latest: "3.96.1-01"
+    latestReleaseDate: 2026-09-12
 
   - releaseCycle: "3.95"
     releaseDate: 2026-08-05
     eoas: 2027-08-05
     eol: 2028-02-05
-    latest: "3.95.3-02"
-    latestReleaseDate: 2026-08-27
+    latest: "3.95.4-01"
+    latestReleaseDate: 2026-09-12
 
   - releaseCycle: "3.94"
     releaseDate: 2026-07-09

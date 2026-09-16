@@ -6,8 +6,8 @@ tags: amazon database
 iconSlug: amazondocumentdb
 permalink: /amazon-documentdb
 latestColumn: false
-eolColumn: End of Standard Support
-eoesColumn: End of Extended Support
+eolColumn: Standard Support
+eoesColumn: Extended Support
 staleReleaseThresholdDays: 2200
 
 auto:

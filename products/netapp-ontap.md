@@ -64,7 +64,7 @@ releases:
     eol: 2024-06-30
 ---
 
-> [NetApp ONTAP](https://www.netapp.com/data-storage/ontap/) is a storage operating system designed for managing and
+> [NetApp ONTAP](https://docs.netapp.com/us-en/netapp-solutions-containers/openshift/os-netapp-ontap.html#netapp-platforms) is a storage operating system designed for managing and
 > protecting data across hybrid cloud environments. It offers features like data protection, storage efficiency,
 > and seamless scalability.
 

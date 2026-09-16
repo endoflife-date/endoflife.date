@@ -30,7 +30,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/126471
-    supportedIpadOsVersions: "26"
+    supportedIpadOsVersions: "26 - 27"
 
   - releaseCycle: "air-8-13"
     releaseLabel: "iPad Air 13-inch (M4)"
@@ -38,7 +38,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/126472
-    supportedIpadOsVersions: "26"
+    supportedIpadOsVersions: "26 - 27"
 
   - releaseCycle: "pro-8-11"
     releaseLabel: "iPad Pro 11-inch (M5)"
@@ -46,7 +46,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/125406
-    supportedIpadOsVersions: "26"
+    supportedIpadOsVersions: "26 - 27"
 
   - releaseCycle: "pro-8-13"
     releaseLabel: "iPad Pro 13-inch (M5)"
@@ -54,7 +54,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/125407
-    supportedIpadOsVersions: "26"
+    supportedIpadOsVersions: "26 - 27"
 
   - releaseCycle: "11"
     releaseLabel: "iPad (A16)"
@@ -62,7 +62,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/122240
-    supportedIpadOsVersions: "18 - 26"
+    supportedIpadOsVersions: "18 - 27"
 
   - releaseCycle: "air-7-11"
     releaseLabel: "iPad Air 11-inch (M3)"
@@ -70,7 +70,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/122241
-    supportedIpadOsVersions: "18 - 26"
+    supportedIpadOsVersions: "18 - 27"
 
   - releaseCycle: "air-7-13"
     releaseLabel: "iPad Air 13-inch (M3)"
@@ -78,7 +78,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/122242
-    supportedIpadOsVersions: "18 - 26"
+    supportedIpadOsVersions: "18 - 27"
 
 
   - releaseCycle: "mini-7"
@@ -87,7 +87,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/121456
-    supportedIpadOsVersions: "18 - 26"
+    supportedIpadOsVersions: "18 - 27"
 
   - releaseCycle: "pro-7-11"
     releaseLabel: "iPad Pro 11-inch (M4)"
@@ -95,7 +95,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/119892
-    supportedIpadOsVersions: "17 - 26"
+    supportedIpadOsVersions: "17 - 27"
 
   - releaseCycle: "pro-7-13"
     releaseLabel: "iPad Pro 13-inch (M4)"
@@ -103,7 +103,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/119891
-    supportedIpadOsVersions: "17 - 26"
+    supportedIpadOsVersions: "17 - 27"
 
   - releaseCycle: "air-6-11"
     releaseLabel: "iPad Air 11-inch (M2)"
@@ -111,7 +111,7 @@ releases:
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
     link: https://support.apple.com/119894
-    supportedIpadOsVersions: "17 - 26"
+    supportedIpadOsVersions: "17 - 27"
 
   - releaseCycle: "air-6-13"
     releaseLabel: "iPad Air 13-inch (M2)"
@@ -119,7 +119,7 @@ releases:
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_Air_(M2)
     eol: false
     link: https://support.apple.com/119893
-    supportedIpadOsVersions: "17 - 26"
+    supportedIpadOsVersions: "17 - 27"
 
   - releaseCycle: "10"
     releaseLabel: "iPad (10th generation)"
@@ -127,7 +127,7 @@ releases:
     discontinued: 2025-03-04 # https://en.wikipedia.org/wiki/IPad_(10th_generation)
     eol: false
     link: https://support.apple.com/kb/SP884
-    supportedIpadOsVersions: "16 - 26"
+    supportedIpadOsVersions: "16 - 27"
 
   - releaseCycle: "pro-6"
     releaseLabel: "iPad Pro (6th generation)"
@@ -135,7 +135,7 @@ releases:
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_Pro_(6th_generation)
     eol: false
     link: https://support.apple.com/kb/SP844
-    supportedIpadOsVersions: "16 - 26"
+    supportedIpadOsVersions: "16 - 27"
 
   - releaseCycle: "air-5"
     releaseLabel: "iPad Air (5th generation)"
@@ -143,7 +143,7 @@ releases:
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_Air_(5th_generation)
     eol: false
     link: https://support.apple.com/kb/SP866
-    supportedIpadOsVersions: "15 - 26"
+    supportedIpadOsVersions: "15 - 27"
 
   - releaseCycle: "9"
     releaseLabel: "iPad (9th generation)"
@@ -151,7 +151,7 @@ releases:
     discontinued: 2024-05-07 # https://en.wikipedia.org/wiki/IPad_(9th_generation)
     eol: false
     link: https://support.apple.com/kb/SP849
-    supportedIpadOsVersions: "15 - 26"
+    supportedIpadOsVersions: "15 - 27"
 
   - releaseCycle: "mini-6"
     releaseLabel: "iPad Mini (6th generation)"
@@ -159,7 +159,7 @@ releases:
     discontinued: 2024-10-15 # https://en.wikipedia.org/wiki/IPad_Mini_(6th_generation)
     eol: false
     link: https://support.apple.com/kb/SP850
-    supportedIpadOsVersions: "15 - 26"
+    supportedIpadOsVersions: "15 - 27"
 
   - releaseCycle: "pro-5-12"
     releaseLabel: "iPad Pro 12.9-inch (5th generation)"
@@ -167,7 +167,7 @@ releases:
     discontinued: 2022-10-18
     eol: false
     link: https://support.apple.com/kb/SP844
-    supportedIpadOsVersions: "14 - 26"
+    supportedIpadOsVersions: "14 - 27"
 
   - releaseCycle: "air-4"
     releaseLabel: "iPad Air (4th generation)"
@@ -175,7 +175,7 @@ releases:
     discontinued: 2022-03-08
     eol: 2027-09-15 # 3-year support expected
     link: https://support.apple.com/kb/SP828
-    supportedIpadOsVersions: "14 - 26"
+    supportedIpadOsVersions: "14 - 27"
 
   - releaseCycle: "8"
     releaseLabel: "iPad (8th generation)"
@@ -191,7 +191,7 @@ releases:
     discontinued: 2021-04-20
     eol: false
     link: https://support.apple.com/kb/SP815
-    supportedIpadOsVersions: "13 - 26"
+    supportedIpadOsVersions: "13 - 27"
 
   - releaseCycle: "pro-4-11"
     releaseLabel: "iPad Pro 11-inch (4th generation)"
@@ -199,7 +199,7 @@ releases:
     discontinued: 2021-04-20
     eol: false
     link: https://support.apple.com/111842
-    supportedIpadOsVersions: "13 - 26"
+    supportedIpadOsVersions: "13 - 27"
 
   - releaseCycle: "pro-2-11"
     releaseLabel: "iPad Pro 11-inch (2nd generation)"
@@ -207,7 +207,7 @@ releases:
     discontinued: 2021-04-01
     eol: false
     link: https://support.apple.com/en-us/118452
-    supportedIpadOsVersions: "10 - 26"
+    supportedIpadOsVersions: "10 - 27"
 
   - releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
@@ -239,7 +239,7 @@ releases:
     discontinued: 2020-03-18
     eol: false
     link: https://support.apple.com/111897
-    supportedIpadOsVersions: "12 - 26"
+    supportedIpadOsVersions: "12 - 27"
 
   - releaseCycle: "pro-3-12"
     releaseLabel: "iPad Pro 12.9-inch (3rd generation)"
