@@ -37,7 +37,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ansible/ansible.git
-    - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+    - release_table: https://github.com/ansible/ansible-documentation/blob/devel/docs/docsite/rst/reference_appendices/release_and_maintenance.rst
       fields:
         releaseCycle: "Version"
         releaseDate:
@@ -50,15 +50,14 @@ auto:
 # EOL dates as well as Python / PowerShell versions can be found on
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
-
   - releaseCycle: "2.21"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
     powershellVersionsManagedNode: "5.1 - 7"
     releaseDate: 2026-05-31
     eol: 2027-11-30
-    latest: "2.21.3"
-    latestReleaseDate: 2026-08-10
+    latest: "2.21.4"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"
@@ -66,8 +65,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-03
     eol: 2027-05-31
-    latest: "2.20.8"
-    latestReleaseDate: 2026-08-10
+    latest: "2.20.9"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -75,8 +74,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
     eol: 2026-11-30
-    latest: "2.19.12"
-    latestReleaseDate: 2026-08-10
+    latest: "2.19.13"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"

@@ -110,6 +110,6 @@ releases:
 > are certified (ANSSI, CCN) firmwares that run
 > on [Stormshield firewalls](https://www.stormshield.com/products-services/products/network-security/product-range-sns/).
 
-Maintenance is guaranteed on release branches with an LTSB label for at least 12 months after they are designated as such. LTSB branches receieve
-only only functional or security patches. A minimum 6-month overlap is expected between each LTSB release branch,
+Maintenance is guaranteed on release branches with an LTSB label for at least 12 months after they are designated as such. LTSB branches receive
+only functional or security patches. A minimum 6-month overlap is expected between each LTSB release branch,
 to allow clients to migrate their installations to the next LTSB branch.

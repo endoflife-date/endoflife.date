@@ -25,9 +25,9 @@ releases:
   - releaseCycle: "2.35"
     releaseDate: 2026-07-13
     eol: false # releaseDate(2.36)
-    latest: "2.35.1"
-    latestReleaseDate: 2026-07-14
-  
+    latest: "2.35.2"
+    latestReleaseDate: 2026-08-13
+
   - releaseCycle: "2.34"
     releaseDate: 2026-02-27
     eol: 2026-07-13

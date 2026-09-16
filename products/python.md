@@ -135,16 +135,16 @@ releases:
     releaseDate: 2022-10-24
     eoas: 2024-04-01
     eol: 2027-10-31
-    latest: "3.11.15"
-    latestReleaseDate: 2026-03-03
+    latest: "3.11.16"
+    latestReleaseDate: 2026-08-13
     pep: PEP-0664
 
   - releaseCycle: "3.10"
     releaseDate: 2021-10-04
     eoas: 2023-04-05
     eol: 2026-10-31
-    latest: "3.10.20"
-    latestReleaseDate: 2026-03-03
+    latest: "3.10.21"
+    latestReleaseDate: 2026-08-13
     pep: PEP-0619
 
   - releaseCycle: "3.9"

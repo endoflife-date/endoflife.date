@@ -3,6 +3,7 @@ title: Longhorn
 addedAt: 2026-03-05
 category: server-app
 tags: cncf
+iconSlug: longhorn
 permalink: /longhorn
 releasePolicyLink: https://github.com/longhorn/longhorn/wiki/Release-Schedule-&-Support
 changelogTemplate: https://github.com/longhorn/longhorn/releases/tag/v__LATEST__
@@ -10,6 +11,8 @@ eolColumn: Support
 
 identifiers:
   - purl: pkg:github/longhorn/longhorn
+  - cpe: cpe:/a:linuxfoundation:longhorn
+  - cpe: cpe:2.3:a:linuxfoundation:longhorn
 
 auto:
   methods:
@@ -19,8 +22,8 @@ releases:
   - releaseCycle: "1.12"
     releaseDate: 2026-06-02
     eol: 2027-12-02
-    latest: "1.12.0"
-    latestReleaseDate: 2026-06-02
+    latest: "1.12.1"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.11"
     releaseDate: 2026-01-29

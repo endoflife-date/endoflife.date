@@ -51,6 +51,14 @@ auto:
 # Versions taken from https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 # EOL dates from https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html.
 releases:
+  - releaseCycle: "6.0"
+    sparkVersion: "4.1.1"
+    pythonVersion: "3.13"
+    javaVersion: '17'
+    releaseDate: 2026-08-21
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3/
+
   - releaseCycle: "5.1"
     sparkVersion: "3.5.6"
     pythonVersion: "3.11"

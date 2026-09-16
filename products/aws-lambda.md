@@ -25,22 +25,22 @@ releases:
   - releaseCycle: "java17.al2023"
     releaseLabel: Java 17 (AL2023)
     releaseDate: 2026-07-31
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
 
   - releaseCycle: "java11.al2023"
     releaseLabel: Java 11 (AL2023)
     releaseDate: 2026-07-31
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
 
   - releaseCycle: "java8.al2023"
     releaseLabel: Java 8 (AL2023)
     releaseDate: 2026-07-31
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/
 
   - releaseCycle: "ruby4.0"

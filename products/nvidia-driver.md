@@ -40,6 +40,24 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r615-windows"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "616.92"
+    latestReleaseDate: 2026-09-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-09/index.html
+
+  - releaseCycle: "r615-linux"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "615.71.09"
+    latestReleaseDate: 2026-09-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-09/index.html
+
   - releaseCycle: "r610-windows"
     releaseLabel: "R610-Windows (NFB)"
     releaseDate: 2026-08-03
