@@ -167,7 +167,7 @@ customFields:
   # Name of the custom field (mandatory, unique).
   # If the release cycle does not declare this field, the label 'N/A' will be displayed instead.
   # Custom fields follow the camel-case syntax for naming.
-  # Values must always be a string.
+  # Values are strings or arrays. Arrays are joined when exposed by the API or table.
   - name: supportedIosVersions
 
     # Where the custom field should be displayed (mandatory). Allowed values are:
@@ -388,7 +388,7 @@ releases:
 
 # All the product information text should be under triple-dashes.
 
-> [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
+> [Time Turner](https://www.harrypotter.com/writing-by-jk-rowling/time-turner) is a device that powers short-term time travel.
 
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```

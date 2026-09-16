@@ -16,11 +16,17 @@ auto:
 
 # eol(r) = releaseDate(r) + 2 years
 releases:
+  - releaseCycle: "26.08"
+    releaseDate: 2026-09-01
+    eol: 2028-09-01
+    latest: "26.08.1"
+    latestReleaseDate: 2026-09-15
+
   - releaseCycle: "25.08"
     releaseDate: 2025-09-01
     eol: 2027-09-01
-    latest: "25.08.16"
-    latestReleaseDate: 2026-08-16
+    latest: "25.08.17"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "24.08"
     releaseDate: 2024-09-08

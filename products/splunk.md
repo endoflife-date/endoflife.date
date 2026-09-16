@@ -70,13 +70,13 @@ releases:
 
   - releaseCycle: "8.2"
     releaseDate: 2021-05-12
-    eol: 2023-05-12
+    eol: 2023-09-30
     latest: "8.2.12"
     latestReleaseDate: 2023-08-30
     link: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
 
   - releaseCycle: "8.1"
-    releaseDate: 2020-10-20
+    releaseDate: 2020-10-19
     eol: 2023-04-19
     latest: "8.1.14"
     latestReleaseDate: 2023-06-01
