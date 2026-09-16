@@ -19,7 +19,7 @@ releases:
     releaseDate: 2026-09-14
     eol: false
     latest: "27"
-    latestReleaseDate: 2026-08-17
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "26"
     releaseDate: 2025-09-15

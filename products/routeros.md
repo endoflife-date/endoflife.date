@@ -33,8 +33,8 @@ releases:
     lts: true
     releaseDate: 2026-05-26
     eol: false # releaseDate( Next LTS cycle )
-    latest: "7.23.5"
-    latestReleaseDate: 2026-09-04
+    latest: "7.23.6"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "7.22"
     releaseDate: 2026-03-10
