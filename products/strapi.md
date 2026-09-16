@@ -32,8 +32,8 @@ releases:
     lts: true
     eoas: false
     eol: false
-    latest: "5.52.0"
-    latestReleaseDate: 2026-08-12
+    latest: "5.53.0"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "4"
     releaseDate: 2021-11-30

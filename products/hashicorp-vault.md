@@ -23,11 +23,17 @@ auto:
     - git: https://github.com/hashicorp/vault.git
 
 # eol(x) = releaseDate(x+1)
-# eoes(x) = releaseDate(x+6)
+# eoes(x) = releaseDate(x+6) / https://developer.hashicorp.com/vault/docs/enterprise/support#coverage-for-existing-lts-versions
 releases:
+  - releaseCycle: "2.1"
+    releaseDate: 2026-08-31
+    eol: false
+    latest: "2.1.0"
+    latestReleaseDate: 2026-08-31
+
   - releaseCycle: "2.0"
     releaseDate: 2026-04-13
-    eol: false
+    eol: 2026-08-31
     latest: "2.0.4"
     latestReleaseDate: 2026-08-03
 

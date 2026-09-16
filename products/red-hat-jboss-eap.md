@@ -47,7 +47,7 @@ releases:
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
-    eoes: 2027-10-31
+    eoes: 2030-12-31
     latest: "7.4.25"
     latestReleaseDate: 2026-08-11
 

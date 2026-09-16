@@ -24,6 +24,42 @@ customFields:
 # Discontinued dates come from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
+  - releaseCycle: "11profold"
+    releaseLabel: "Pixel 11 Pro Fold"
+    releaseDate: 2026-08-20
+    eoas: 2033-08-01
+    eol: 2033-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_11_Pro_Fold
+    supportedAndroidVersions: "17" # https://www.gsmarena.com/google_pixel_11_pro_fold-14874.php
+
+  - releaseCycle: "11pro"
+    releaseLabel: "Pixel 11 Pro"
+    releaseDate: 2026-08-20
+    eoas: 2033-08-01
+    eol: 2033-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_11_Pro
+    supportedAndroidVersions: "17" # https://www.gsmarena.com/google_pixel_11_pro_5g-14801.php
+
+  - releaseCycle: "11proxl"
+    releaseLabel: "Pixel 11 Pro XL"
+    releaseDate: 2026-08-20
+    eoas: 2033-08-01
+    eol: 2033-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_11_Pro_XL
+    supportedAndroidVersions: "17" # https://www.gsmarena.com/google_pixel_11_pro_xl_5g-14800.php
+
+  - releaseCycle: "11"
+    releaseLabel: "Pixel 11"
+    releaseDate: 2026-08-20
+    eoas: 2033-08-01
+    eol: 2033-08-01
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_11
+    supportedAndroidVersions: "17" # https://www.gsmarena.com/google_pixel_11_5g-14799.php
+
   - releaseCycle: "10a"
     releaseLabel: "Pixel 10a"
     releaseDate: 2026-03-05
@@ -92,7 +128,7 @@ releases:
     releaseDate: 2024-09-04
     eoas: 2031-09-01
     eol: 2031-09-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13218.php
 
@@ -101,7 +137,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro_XL
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro_xl-13217.php
 
@@ -110,7 +146,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13219.php
 
@@ -155,7 +191,7 @@ releases:
     releaseDate: 2023-06-20
     eoas: 2028-06-01
     eol: 2028-06-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
     supportedAndroidVersions: "13 - 17" # https://www.gsmarena.com/google_pixel_tablet-11905.php
 
