@@ -69,7 +69,7 @@ releases:
     releaseDate: 2026-09-15
     eol: 2026-12-31
     latest: "13.0.2"
-    latestReleaseDate: 2026-09-15
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "12.3"
     releaseDate: 2026-05-28
