@@ -24,14 +24,14 @@ releases:
   - releaseCycle: "9.5"
     releaseDate: 2026-08-04
     eol: false # releaseDate(9.7) until 10.0 is released
-    latest: "9.5.3"
-    latestReleaseDate: 2026-09-03
+    latest: "9.5.4"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "9.4"
     releaseDate: 2026-05-05
     eol: false # releaseDate(9.6) until 10.0 is released
-    latest: "9.4.6"
-    latestReleaseDate: 2026-09-01
+    latest: "9.4.7"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "9.3"
     releaseDate: 2026-02-03
