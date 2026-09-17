@@ -57,6 +57,7 @@ module EndOfLife
           month_events,
           navigation_months,
           event_summaries,
+          products,
           navigation_first > first_month,
           navigation_last < last_month
         )
@@ -177,7 +178,7 @@ module EndOfLife
   end
 
   class TimelinePage < Jekyll::Page
-    def initialize(site, month, events, months, event_summaries, more_before, more_after)
+    def initialize(site, month, events, months, event_summaries, products, more_before, more_after)
       @site = site
       @base = site.source
       @dir = TimelinePagesGenerator.timeline_path(month)
@@ -189,6 +190,7 @@ module EndOfLife
         'permalink' => TimelinePagesGenerator.timeline_url(month),
         'events' => events,
         'event_summaries' => event_summaries,
+        'products' => products.sort_by { |product| product.data['title'].to_s.downcase },
         'more_months_before' => more_before,
         'more_months_after' => more_after,
         'months' => months,
