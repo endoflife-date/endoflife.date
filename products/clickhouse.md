@@ -26,20 +26,20 @@ releases:
     lts: true
     releaseDate: 2026-08-27
     eol: 2027-08-27
-    latest: "26.8.4.11"
-    latestReleaseDate: 2026-09-14
+    latest: "26.8.6.5"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "26.7"
     releaseDate: 2026-07-22
     eol: false
-    latest: "26.7.8.15"
-    latestReleaseDate: 2026-09-14
+    latest: "26.7.10.6"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "26.6"
     releaseDate: 2026-06-25
     eol: false
-    latest: "26.6.6.15"
-    latestReleaseDate: 2026-09-14
+    latest: "26.6.8.7"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "26.5"
     releaseDate: 2026-05-21

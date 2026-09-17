@@ -36,8 +36,8 @@ releases:
   - releaseCycle: "9.0"
     releaseDate: 2026-03-16
     eol: 2027-03-16
-    latest: "9.0.1"
-    latestReleaseDate: 2026-05-18
+    latest: "9.0.2"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "8.0"
     releaseDate: 2025-09-15

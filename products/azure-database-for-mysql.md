@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "5.7"
     releaseDate: 2018-03-20
-    eol: 2026-07-31
+    eol: 2026-09-30
     eoes: 2029-03-31
 
 ---
