@@ -48,3 +48,5 @@ releases:
 > [Samba](https://www.samba.org/) is a service to share files and printers across networks.
 
 The regular Samba release cycle intends a new release series every six months, with each series being maintained for a period of approximately 18 months. The maintenance policy consists of six months fully supported, another six months in the maintenance mode, six months in the security fixes only mode.
+
+Samba also offers a module allowing him to become a domain controller: Samba4-AD. [Samba4-AD](https://wiki.samba.org/index.php/Setting_up_Samba_as_an_Active_Directory_Domain_Controller) is an open-source implementation of the Active Directory protocol, allowing for domain controller functionality on non-Windows systems.
