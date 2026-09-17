@@ -28,7 +28,7 @@ identifiers:
 releases:
   - releaseCycle: "18.0.81"
     releaseDate: 2026-09-15
-    eol: 2026-12-15
+    eol: 2026-12-08
     latest: "18.0.81"
     latestReleaseDate: 2026-09-15
 
