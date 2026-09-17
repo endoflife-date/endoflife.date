@@ -49,7 +49,7 @@ releases:
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
-    eol: false
+    eol: 2026-09-14
     latest: "14.8.9"
     latestReleaseDate: 2026-08-06
 
