@@ -103,7 +103,10 @@ releases:
 
 {: .note }
 
-> This page tracks the AWS managed service. The upstream open-source project is tracked at [OpenSearch](/opensearch).
+> Amazon Elasticsearch Service was renamed to Amazon OpenSearch Service in September 2021.
+> This page only tracks OpenSearch engine releases.
+> Elasticsearch engine releases are tracked at [Amazon Elasticsearch](/amazon-elasticsearch).
+> The upstream project is tracked at [OpenSearch](/opensearch).
 
 New OpenSearch versions typically become available on the managed service within a few months of their open-source general availability.
 

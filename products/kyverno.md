@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "1.19"
     releaseDate: 2026-08-20
     eol: false
-    latest: "1.19.0"
-    latestReleaseDate: 2026-08-20
+    latest: "1.19.1"
+    latestReleaseDate: 2026-09-10
     supportedK8sVersions: 1.33 - 1.35
 
   - releaseCycle: "1.18"

@@ -18,10 +18,39 @@ layout: default
 
   <p class="timeline-introduction"><strong>{{ page.title }}</strong> has <strong>{{ page.events.size }}</strong> events:{% for summary in page.event_summaries %} <strong>{{ summary.count }}</strong> {{ summary.label }}{% unless forloop.last %},{% endunless %}{% endfor %}.</p>
 
+  <fieldset class="timeline-filter-box">
+    <legend>Filters</legend>
+    <form class="timeline-filters" data-timeline-filters>
+    <div class="timeline-filter" data-timeline-filter="product">
+      <span class="sr-only" id="timeline-product-filter">Products</span>
+      <div class="timeline-filter-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="timeline-product-options" aria-labelledby="timeline-product-filter" data-timeline-filter-toggle>All products</div>
+      <div class="timeline-filter-menu" id="timeline-product-options" hidden data-timeline-filter-menu>
+        <input class="timeline-filter-search" type="search" placeholder="Search products" aria-label="Search products" data-timeline-filter-search>
+        <div class="timeline-filter-options" role="group" aria-labelledby="timeline-product-filter">
+          {% for product in page.products %}<label class="timeline-filter-option" data-label="{{ product.title | downcase }}"><input type="checkbox" value="{{ product.url | relative_url | remove_first: '/' }}"> {{ product.title }}</label>{% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="timeline-filter" data-timeline-filter="event">
+      <span class="sr-only" id="timeline-event-filter">Event types</span>
+      <div class="timeline-filter-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="timeline-event-options" aria-labelledby="timeline-event-filter" data-timeline-filter-toggle>All event types</div>
+      <div class="timeline-filter-menu" id="timeline-event-options" hidden data-timeline-filter-menu>
+        <input class="timeline-filter-search" type="search" placeholder="Search event types" aria-label="Search event types" data-timeline-filter-search>
+        <div class="timeline-filter-options" role="group" aria-labelledby="timeline-event-filter">
+          <label class="timeline-filter-option" data-label="releases"><input type="checkbox" value="releaseDate"> Releases</label>
+          <label class="timeline-filter-option" data-label="ends of active support"><input type="checkbox" value="eoas"> Ends of active support</label>
+          <label class="timeline-filter-option" data-label="ends of life"><input type="checkbox" value="eol"> Ends of life</label>
+          <label class="timeline-filter-option" data-label="ends of extended support"><input type="checkbox" value="eoes"> Ends of extended support</label>
+        </div>
+      </div>
+    </div>
+    </form>
+  </fieldset>
+
   {% if page.events.size > 0 %}
     <div class="timeline-events">
       {% for event in page.events %}
-        <a class="timeline-event timeline-event-{{ event.field }}" href="{{ event.product.url | relative_url }}" title="View details for {{ event.product.title }}" aria-label="View details for {{ event.product.title }}">
+        <a class="timeline-event timeline-event-{{ event.field }}" data-product="{{ event.product.url | relative_url | remove_first: '/' }}" data-event="{{ event.field }}" href="{{ event.product.url | relative_url }}" title="View details for {{ event.product.title }}" aria-label="View details for {{ event.product.title }}">
           <div class="timeline-event-date">
             <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%b %-d" }}</time>
             {% if event.days < 0 %}<span>{{ event.days | abs }} days ago</span>{% elsif event.days == 0 %}<span>Today</span>{% else %}<span>{{ event.days }} days left</span>{% endif %}
@@ -34,7 +63,9 @@ layout: default
         </a>
       {% endfor %}
     </div>
+    <p class="timeline-no-results" data-timeline-no-results hidden>No events match the selected filters.</p>
   {% else %}
     <p>No release or support lifecycle events are recorded for this month.</p>
   {% endif %}
 </div>
+<script src="{{ '/assets/timeline.js' | relative_url }}" defer></script>

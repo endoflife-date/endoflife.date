@@ -336,7 +336,10 @@ module ApiV1
 
       def custom_fields(product, release)
         json = {}
-        product.data['customFields'].map { |column| column['name'] }.map { |name| json[name] = release[name] }
+        product.data['customFields'].each do |column|
+          value = release[column['name']]
+          json[column['name']] = value.kind_of?(Array) ? value.join(', ') : value
+        end
         json
       end
     end

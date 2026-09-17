@@ -22,21 +22,15 @@ customFields:
 
 auto:
   methods:
-    - release_table: https://docs.omnissa.com/bundle/Product-Lifecycle-Matrix/page/lifecyclematrix.html
-      selector: "details:has(h3#horizon) table"
-      render_javascript: true
-      render_javascript_wait_for: "h3#horizon"
+    - release_table: https://docs.omnissa.com/Product-Lifecycle-Matrix/lifecyclematrix
+      selector: "details:has(> summary h3) > table"
       fields:
         releaseCycle:
           column: "Product Release"
           regex: '^Horizon (?P<value>\d+[ .]\d+|\d+)$'
           template: "{{value | replace: ' ', '.'}}"
-        releaseDate:
-          column: "General Availability"
-          type: date
-        eol:
-          column: "EOGS"
-          type: date
+        releaseDate: "General Availability"
+        eol: "EOGS"
         technicalGuidance:
           column: "EOTG"
           type: date

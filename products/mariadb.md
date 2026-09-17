@@ -50,6 +50,7 @@ auto:
         - ^mariadb-10\.11\.[01]$
         - ^mariadb-11\.[0-8]\.[01]$
         - ^mariadb-12\.[0-3]\.[01]$
+        - ^mariadb-13\.0\.[01]$
         # Any future major/minor cycle not yet listed above: assume the same threshold
         # (patch 0 and 1 are pre-GA) until the exact GA patch is confirmed and added above.
         - ^mariadb-(1[1-9]|[2-9]\d)\.\d+\.[01]$
@@ -64,6 +65,12 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+  - releaseCycle: "13.0"
+    releaseDate: 2026-09-15
+    eol: 2026-12-31
+    latest: "13.0.2"
+    latestReleaseDate: 2026-09-14
+
   - releaseCycle: "12.3"
     releaseDate: 2026-05-28
     lts: true

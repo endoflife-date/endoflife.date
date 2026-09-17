@@ -18,16 +18,23 @@ auto:
         - 'iPadOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
-  - releaseCycle: "26"
-    releaseDate: 2025-09-15
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
     eoas: false
     eol: false
-    latest: "26.6.1"
-    latestReleaseDate: 2026-08-17
+    latest: "27"
+    latestReleaseDate: 2026-09-14
+
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: 2026-09-14
+    eol: false
+    latest: "26.7"
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
-    eoas: false
+    eoas: 2025-09-15
     eol: false
     latest: "18.7.10"
     latestReleaseDate: 2026-08-17

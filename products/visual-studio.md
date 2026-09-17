@@ -33,12 +33,20 @@ auto:
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
 # When adding a new major version (codename changes), remember to update URLs at auto:methods above.
 releases:
+  - releaseCycle: "18.10"
+    codename: "2026"
+    releaseDate: 2026-09-08
+    eol: false # releaseDate(19.0 or 18.11)
+    latest: "18.10.1"
+    latestReleaseDate: 2026-09-15
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
   - releaseCycle: "18.9"
     codename: "2026"
     releaseDate: 2026-08-11
-    eol: false # releaseDate(19.0 or 18.10)
-    latest: "18.9.2"
-    latestReleaseDate: 2026-08-25
+    eol: 2026-09-08
+    latest: "18.9.3"
+    latestReleaseDate: 2026-09-08
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.8"
@@ -118,8 +126,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.38"
-    latestReleaseDate: 2026-08-11
+    latest: "17.14.40"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "17.13"
     codename: "2022"
@@ -230,8 +238,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.59"
-    latestReleaseDate: 2026-08-11
+    latest: "16.11.60"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "16.10"
     codename: "2019"
@@ -314,8 +322,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.82"
-    latestReleaseDate: 2026-08-11
+    latest: "15.9.83"
+    latestReleaseDate: 2026-09-08
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
   - releaseCycle: "15.8"
