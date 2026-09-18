@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-08-17
     eol: false
     latest: "7.24.4"
-    latestReleaseDate: 2026-09-18
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "7.23"
     lts: true
