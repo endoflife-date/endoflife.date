@@ -191,7 +191,7 @@ releases:
     releaseDate: 2023-06-20
     eoas: 2028-06-01
     eol: 2028-06-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
     supportedAndroidVersions: "13 - 17" # https://www.gsmarena.com/google_pixel_tablet-11905.php
 
