@@ -5,6 +5,7 @@ category: server-app
 permalink: /samba
 versionCommand: samba --version
 releasePolicyLink: https://wiki.samba.org/index.php/Samba_Release_Planning
+changelogTemplate: https://www.samba.org/samba/latest_news.html#__LATEST__
 eoasColumn: true
 eolColumn: Security Support
 
@@ -26,7 +27,6 @@ releases:
     eol: false #      releaseDate( 4.25 ) + 1y
     latest: "4.24.7"
     latestReleaseDate: 2026-09-09
-    link: https://www.samba.org/samba/latest_news.html#4.24.7
   
   - releaseCycle: "4.23"
     releaseDate: 2025-12-09
@@ -34,7 +34,6 @@ releases:
     eol: 2027-03-01 #  releaseDate( 4.24 ) + 1y
     latest: "4.23.12"
     latestReleaseDate: 2026-09-01
-    link: https://www.samba.org/samba/latest_news.html#4.23.12
 
   - releaseCycle: "4.22"
     releaseDate: 2025-03-06
@@ -42,7 +41,6 @@ releases:
     eol: 2026-12-09  #  releaseDate( 4.23 ) + 1y
     latest: "4.22.11"
     latestReleaseDate: 2026-07-23
-    link: https://www.samba.org/samba/latest_news.html#4.22.11
 
 ---
 
