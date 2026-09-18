@@ -5,7 +5,7 @@ category: server-app
 permalink: /samba
 versionCommand: samba --version
 releasePolicyLink: https://wiki.samba.org/index.php/Samba_Release_Planning
-changelogTemplate: https://www.samba.org/samba/latest_news.html#__LATEST__
+changelogTemplate: https://www.samba.org/samba/history/samba-__LATEST__.html
 eoasColumn: true
 eolColumn: Security Support
 
