@@ -33,7 +33,7 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2026-09-16
     eoas: 2027-05-15
-    eol: 2027-05-15
+    eol: 2027-05-16
     latest: "2.4.0"
     latestReleaseDate: 2026-09-16
 
