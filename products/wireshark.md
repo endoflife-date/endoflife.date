@@ -14,7 +14,7 @@ auto:
   methods:
     - git: https://github.com/wireshark/wireshark
       # https://regex101.com/r/fHvpY1/2
-      regex: ^wireshark-(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
+      regex: ^(wireshark-|v)(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
 
 identifiers:
   - repology: wireshark
