@@ -75,7 +75,7 @@ releases:
     eoas: 2023-08-31
     latest: "5.2.13-c418"
     latestReleaseDate: 2023-07-11
-    link: https://docs.paloaltonetworks.com/globalprotect/5-2/globalprotect-app-release-notes/globalprotect-known-and-addressed-issues/globalprotect-addressed-issues
+    link: https://web.archive.org/web/20260413143114/https://docs.paloaltonetworks.com/globalprotect/5-2/globalprotect-app-release-notes/globalprotect-known-and-addressed-issues/globalprotect-addressed-issues
 
   - releaseCycle: "5.1"
     releaseDate: 2019-12-12
@@ -83,7 +83,7 @@ releases:
     eoas: 2021-03-12
     latest: "5.1.12"
     latestReleaseDate: 2024-02-12
-    link: https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-release-notes
+    link: https://web.archive.org/web/20230605234121/https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-release-notes
 
   - releaseCycle: "5.0"
     releaseDate: 2019-02-12

@@ -97,4 +97,4 @@ The Extended Phase starts after the Primary Phase and lasts for 1 to 2 years.
 During this phase no new bug fixes are provided, but customers can still access existing patches and receive technical support.
 
 The Sustaining Phase follows the Extended Phase and can last from 1 to 6 years.
-It is similar to the Extended Phase, but with a focus on on addressing severe service restoration or data retrieval issues.
+It is similar to the Extended Phase, but with a focus on addressing severe service restoration or data retrieval issues.

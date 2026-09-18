@@ -40,7 +40,7 @@ releases:
     link: https://www.ibm.com/docs/i/7.6.0
 
   - releaseCycle: "7.5"
-    staleReleaseThresholdDays: 1500 # see https://www.ibm.com/support/pages/release-life-cycle
+    staleReleaseThresholdDays: 1825 # see https://www.ibm.com/support/pages/release-life-cycle
     releaseDate: 2022-05-10
     eol: false
     latest: "7.5.0"

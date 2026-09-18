@@ -11,7 +11,9 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+    - version_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+      name_column: "MySQL engine version"
+      date_column: "RDS release date"
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
     - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
@@ -125,8 +127,8 @@ releases:
     eoas: 2029-07-31
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.4.10"
-    latestReleaseDate: 2026-07-07
+    latest: "8.4.11"
+    latestReleaseDate: 2026-08-21
 
   - releaseCycle: "8.4.3"
     releaseDate: 2024-10-15

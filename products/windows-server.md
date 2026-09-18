@@ -25,10 +25,10 @@ releases:
   - releaseCycle: "23h2-ac"
     releaseLabel: "Windows Server 23H2 AC"
     releaseDate: 2023-10-24
-    eoas: 2025-04-24
-    eol: 2025-10-24
+    eoas: 2026-05-12
+    eol: 2026-05-12
     latest: 10.0.25398
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-annual-channel
+    link: https://support.microsoft.com/servicing/os/windows-server/2026/05/end-of-updates-statement
 
   - releaseCycle: "2022"
     releaseDate: 2021-08-18

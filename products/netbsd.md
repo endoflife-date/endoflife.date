@@ -17,7 +17,17 @@ identifiers:
 
 auto:
   methods:
-    - netbsd: https://www.netbsd.org/releases/formal.html
+    - version_table: https://www.netbsd.org/releases/formal.html
+      name_column: "Version"
+      date_column: "Released"
+      regex: '^NetBSD (?P<version>\d+(?:\.\d+)*)'
+      template: "{{version}}"
+    - release_table: https://www.netbsd.org/releases/formal.html
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^NetBSD (?P<value>\d+)(?:\.\d+)*$'
+        eol: "End of support"
 
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
@@ -39,9 +49,9 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
-    eol: 2026-08-30
-    latest: "9.4"
-    latestReleaseDate: 2024-04-20
+    eol: 2026-08-31
+    latest: "9.5"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "8"
     releaseDate: 2018-07-17

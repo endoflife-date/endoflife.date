@@ -22,9 +22,9 @@ releases:
     releaseDate: 2025-05-19
     eoas: 2028-05-19
     eol: 2030-05-19
-    latest: "9.0.22.050"
-    latestReleaseDate: 2025-10-15
-    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-9-0-22-050-Release-Notes/
+    latest: "9.0.22.100"
+    latestReleaseDate: 2026-06-17
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-Server-9-0-22-100-Release-Notes/
     
   - releaseCycle: "9.0.21"
     releaseDate: 2022-09-08

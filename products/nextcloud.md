@@ -23,23 +23,29 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "35"
+    releaseDate: 2026-09-16
+    eol: 2027-09-30
+    latest: "35.0.0"
+    latestReleaseDate: 2026-09-15
+
   - releaseCycle: "34"
     releaseDate: 2026-06-09
     eol: 2027-06-30
-    latest: "34.0.3"
-    latestReleaseDate: 2026-08-13
+    latest: "34.0.4"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "33"
     releaseDate: 2026-02-18
     eol: 2027-02-28
-    latest: "33.0.8"
-    latestReleaseDate: 2026-08-13
+    latest: "33.0.9"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "32"
     releaseDate: 2025-09-27
     eol: 2026-09-30
-    latest: "32.0.14"
-    latestReleaseDate: 2026-08-13
+    latest: "32.0.15"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "31"
     releaseDate: 2025-02-25
