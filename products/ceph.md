@@ -16,7 +16,8 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ceph/ceph.git
-      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>[0-9]+)\.(?P<patch>[0-9]+)$
+      # Ignore development and release candidate versions
+      regex_exclude: ^v\d+\.[01]\.\d+$
     - release_table: https://docs.ceph.com/en/latest/releases/#active-releases
       selector: "#active-releases table"
       fields:
@@ -40,49 +41,49 @@ releases:
   - releaseCycle: "20"
     codename: "Tentacle"
     releaseDate: 2025-11-18
-    eol: 2027-11-18
+    eol: 2027-06-01
     latest: "20.3.0"
     latestReleaseDate: 2025-04-28
 
   - releaseCycle: "19"
     codename: "Squid"
     releaseDate: 2024-09-26
-    eol: 2026-09-26
+    eol: 2026-10-31
     latest: "19.3.0"
     latestReleaseDate: 2024-08-26
 
   - releaseCycle: "18"
     codename: "Reef"
     releaseDate: 2023-08-07
-    eol: 2025-08-07
+    eol: 2025-03-20
     latest: "18.2.8"
     latestReleaseDate: 2026-03-11
 
   - releaseCycle: "17"
     codename: "Quincy"
     releaseDate: 2022-04-19
-    eol: 2024-12-01
+    eol: 2025-01-13
     latest: "17.2.9"
     latestReleaseDate: 2025-05-20
 
   - releaseCycle: "16"
     codename: "Pacific"
-    releaseDate: 2021-03-01
-    eol: 2023-10-01
+    releaseDate: 2021-03-31
+    eol: 2024-03-04
     latest: "16.2.15"
     latestReleaseDate: 2024-02-26
 
   - releaseCycle: "15"
     codename: "Octopus"
-    releaseDate: 2020-03-01
-    eol: 2022-07-01
+    releaseDate: 2020-03-23
+    eol: 2022-08-09
     latest: "15.2.17"
     latestReleaseDate: 2022-08-09
 
   - releaseCycle: "14"
     codename: "Nautilus"
     releaseDate: 2019-03-19
-    eol: 2021-06-01
+    eol: 2021-06-30
     latest: "14.2.22"
     latestReleaseDate: 2021-06-29
 
