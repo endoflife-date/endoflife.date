@@ -1,7 +1,7 @@
 ---
 title: Ceph
+addedAt: 2026-09-19
 category: server-app
-tags: distributed-storage storage
 iconSlug: ceph
 permalink: /ceph
 releasePolicyLink: https://docs.ceph.com/en/latest/releases/general/
@@ -17,6 +17,24 @@ auto:
   methods:
     - git: https://github.com/ceph/ceph.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>[0-9]+)\.(?P<patch>[0-9]+)$
+    - release_table: https://docs.ceph.com/en/latest/releases/#active-releases
+      selector: "#active-releases table"
+      fields:
+        releaseCycle:
+          column: "Latest"
+          regex: '^(?P<value>\d+)\.\d+\.\d+$'
+        codename: "Name"
+        releaseDate: "Initial release"
+        eol: "End of life (estimated)"
+    - release_table: https://docs.ceph.com/en/latest/releases/#archived-releases
+      selector: "#archived-releases table"
+      fields:
+        releaseCycle:
+          column: "Latest"
+          regex: '^(?P<value>\d+)\.\d+\.\d+$'
+        codename: "Name"
+        releaseDate: "Initial release"
+        eol: "End of life"
 
 releases:
   - releaseCycle: "20"
@@ -68,29 +86,54 @@ releases:
     latest: "14.2.22"
     latestReleaseDate: 2021-06-29
 
+  - releaseCycle: "13"
+    codename: "Mimic"
+    releaseDate: 2018-06-01
+    eol: 2020-07-22
+    latest: '13.2.10'
+    latestReleaseDate: 2020-04-23
+
+  - releaseCycle: "12"
+    codename: "Luminous"
+    releaseDate: 2017-08-01
+    eol: 2020-03-01
+    latest: '12.2.14'
+    latestReleaseDate: 2021-12-15
+
+  - releaseCycle: "11"
+    codename: "Kraken"
+    releaseDate: 2017-01-01
+    eol: 2017-08-01
+    latest: '11.2.1'
+    latestReleaseDate: 2017-08-08
+
+  - releaseCycle: "10"
+    codename: "Jewel"
+    releaseDate: 2016-04-01
+    eol: 2018-07-01
+    latest: '10.2.11'
+    latestReleaseDate: 2018-07-09
+
+  - releaseCycle: "9"
+    codename: "Infernalis"
+    releaseDate: 2015-11-01
+    eol: 2016-04-01
+    latest: '9.2.1'
+    latestReleaseDate: 2016-02-24
+
 ---
 
 > [Ceph](https://ceph.io/) is a unified, distributed storage system designed for excellent performance, reliability and scalability.
 
-Ceph follows an annual release cycle, with new stable releases targeting March each year since the Nautilus release (14.2.0). Each stable release is supported for approximately 24 months, providing bug fix backports for 2 full release cycles.
-
-## Release Cycle
-
-Ceph releases are named after cephalopod species and follow a predictable versioning scheme:
+Ceph follows an annual release cycle, with new stable releases targeting March each year since the Nautilus release (14.2.0).
+Releases are named after cephalopod species and follow a predictable versioning scheme:
 
 - **x.0.z** - Development versions
 - **x.1.z** - Release candidates
 - **x.2.z** - Stable/bugfix releases
 
-Stable point releases are cut every 4-6 weeks, while release candidates are issued every 1-2 weeks during the development cycle.
+Each stable release is supported for approximately 24 months, providing bug fix backports every 4–6 weeks.
+Rolling upgrades are supported from the last two stable releases.
+End of life occurs shortly after a new major release becomes available.
 
-## Support Policy
-
-- Each stable release receives **24 months of support** from its initial release date
-- Bug fixes are backported to the current and previous stable releases
-- Rolling upgrades are supported from the last two stable releases
-- End of life occurs shortly after a new major release becomes available
-
-## Extended Support
-
-Red Hat Ceph Storage offers extended commercial support with 36-month production support cycles and optional Extended Lifecycle Support (ELS) for enterprise customers.
+[Red Hat Ceph Storage](https://www.redhat.com/en/technologies/storage/ceph) offers extended commercial support with 36-month production support cycles and optional Extended Lifecycle Support (ELS) for enterprise customers.
