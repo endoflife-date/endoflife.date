@@ -21,14 +21,14 @@ releases:
   - releaseCycle: "chromecast-google-tv-hd"
     releaseLabel: "Chromecast w/Google TV (HD)"
     releaseDate: 2022-09-22
-    discontinued: 2025-02-21
+    discontinued: 2025-02-21 # US sales discontinued
     eol: false
     latest: "UTTC.250917.004"
 
   - releaseCycle: "chromecast-google-tv-4k"
     releaseLabel: "Chromecast w/Google TV (4K)"
     releaseDate: 2020-09-30
-    discontinued: 2025-02-21
+    discontinued: 2025-02-21 # US sales discontinued
     eol: false
     latest: "UTTC.250917.004"
 
@@ -55,7 +55,7 @@ releases:
 
   - releaseCycle: "chromecast-2"
     releaseLabel: "Chromecast (2nd gen)"
-    releaseDate: 2015-09-25
+    releaseDate: 2015-09-29
     discontinued: 2018-10-10
     eol: false
     latest: "1.56.467165"
@@ -64,7 +64,7 @@ releases:
     releaseLabel: "Chromecast (1st gen)"
     releaseDate: 2013-07-24
     discontinued: 2015-09-29
-    eol: 2024-08-06
+    eol: 2023-05-31
     latest: "1.36.159268"
 
 ---
@@ -73,5 +73,5 @@ releases:
 
 For more information on the latest software release notes visit: [Chromecast & Google TV Streamer firmware versions and release notes](https://support.google.com/chromecast/answer/7124014?hl=en#zippy=%2Ccurrent-production-firmware-version)
 
-Per Google's documenation, Chromecast devices are supported at [least 5 years from their release date](https://support.google.com/product-documentation/answer/10231940).
-So far Chromecast's have received software updates beyond that period.
+Per Google's documentation, Chromecast devices are supported at [least 5 years from their release date](https://support.google.com/product-documentation/answer/10231940).
+So far Chromecasts have received software updates beyond that period.
