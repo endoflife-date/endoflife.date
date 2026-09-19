@@ -23,7 +23,7 @@ identifiers:
   - cpe: cpe:2.3:a:wireshark:wireshark
   - cpe: cpe:/a:wireshark:wireshark
 
-# eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
+# eol(x) = eol(x.y+4) or see EOS here https://www.wireshark.org/docs/wsug_html/#ChIntroEndOfSupportPlanning
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
 releases:
