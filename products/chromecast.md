@@ -73,6 +73,10 @@ releases:
 
 > [Google Chromecast](https://en.wikipedia.org/wiki/Chromecast) is a product line of digital media streaming devices developed by Google from 2013 to 2024.
 
+{: .warning }
+
+> In August 2024, Google [announced that it was ending production of Chromecast](https://blog.google/products-and-platforms/devices/google-nest/chromecast-history/).
+
 Chromecast devices are supported for [at least 5 years from their release date](https://support.google.com/product-documentation/answer/10231940).
 
 More information on the latest software release notes is available in [Chromecast & Google TV Streamer firmware versions and release notes](https://support.google.com/chromecast/answer/7124014?hl=en#zippy=%2Ccurrent-production-firmware-version).
