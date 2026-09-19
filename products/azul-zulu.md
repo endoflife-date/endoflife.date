@@ -41,23 +41,31 @@ identifiers:
 # - STS: EOL + 6 months
 # - custom for Java 6/7
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-15 # https://docs.azul.com/core/release/27-ga/release-notes/release-notes
+    eol: 2027-03-31
+    latest: "27.28.101"
+    latestJdkVersion: "27.0.0+35"
+    latestReleaseDate: 2026-09-15
+    link: https://docs.azul.com/core/release/27-ga/release-notes/release-notes
+
   - releaseCycle: "26"
     releaseDate: 2026-03-17 # https://docs.azul.com/core/release/26-ga/release-notes/release-notes
     eol: 2026-09-30
-    latest: "26.28.59"
-    latestJdkVersion: "26.0.0+35"
-    latestReleaseDate: 2026-03-17
-    link: https://docs.azul.com/core/release/26-ga/release-notes/release-notes
+    latest: "26.32.203"
+    latestJdkVersion: "26.0.2.1+1"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes/release-notes
     eol: 2033-09-30
     eoes: 2035-09-30
-    latest: "25.32.21"
-    latestJdkVersion: "25.0.2+10"
-    latestReleaseDate: 2026-01-30
-    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
+    latest: "25.36.205"
+    latestJdkVersion: "25.0.4.1+1"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "24"
     releaseDate: 2025-03-18 # https://docs.azul.com/core/release/24-ga/release-notes/release-notes
@@ -91,10 +99,10 @@ releases:
     releaseDate: 2023-09-19 # https://docs.azul.com/core/release/21-ga/release-notes/release-notes
     eol: 2031-09-30
     eoes: 2033-09-30
-    latest: "21.48.17"
-    latestJdkVersion: "21.0.10+7"
-    latestReleaseDate: 2026-01-30
-    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
+    latest: "21.52.203"
+    latestJdkVersion: "21.0.12.1+1"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -131,10 +139,10 @@ releases:
     releaseDate: 2021-09-15 # https://docs.azul.com/core/release/17-ga/release-notes/release-notes
     eol: 2029-09-30
     eoes: 2031-09-30
-    latest: "17.64.17"
-    latestJdkVersion: "17.0.18+8"
-    latestReleaseDate: 2026-01-30
-    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
+    latest: "17.68.203"
+    latestJdkVersion: "17.0.20.1+1"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -189,10 +197,10 @@ releases:
     releaseDate: 2018-09-25
     eol: 2032-01-31
     eoes: 2034-01-31
-    latest: "11.86.21"
-    latestJdkVersion: "11.0.30+7"
-    latestReleaseDate: 2026-01-30
-    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
+    latest: "11.90.205"
+    latestJdkVersion: "11.0.32.1+1"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -218,16 +226,16 @@ releases:
     releaseDate: 2014-04-08 # https://www.azul.com/newsroom/azul-systems-extends-zulu-runtime-for-java-to-support-java-8/
     eol: 2030-12-31
     eoes: 2032-12-31
-    latest: "8.92.0.21"
-    latestJdkVersion: "8u482-b08"
-    latestReleaseDate: 2026-01-30
-    link: https://docs.azul.com/core/release/january-2026-respin/release-notes
+    latest: "8.96.0.205"
+    latestJdkVersion: "8u504-b01"
+    latestReleaseDate: 2026-08-18
+    link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "6"
     lts: true
     releaseDate: 2014-01-21 # 6 was probably released after 7, see https://www.azul.com/newsroom/azul-systems-extends-zulu-to-support-java-6-and-major-linux-distributions/
     eol: 2018-12-31
-    eoes: 2027-12-31
+    eoes: 2029-12-31
     latest: "N/A" # could not find the exact version
     latestJdkVersion: "6u211" # the latest public Oracle JDK 7
     latestReleaseDate: 2018-10-16
@@ -236,7 +244,7 @@ releases:
     lts: true
     releaseDate: 2013-09-25 # http://web.archive.org/web/20131006021330/http://msopentech.com/blog/2013/09/25/azul-systems-releases-zulu-an-openjdk-build-for-windows-azure-in-partnership-with-ms-open-tech/
     eol: 2022-07-31
-    eoes: 2027-12-31
+    eoes: 2029-12-31
     latest: "7.56"
     latestJdkVersion: "7u352-b01"
     latestReleaseDate: 2022-07-19

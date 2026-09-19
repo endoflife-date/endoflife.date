@@ -14,16 +14,18 @@ auto:
   methods:
     - git: https://github.com/wireshark/wireshark
       # https://regex101.com/r/fHvpY1/2
-      regex: ^wireshark-(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
+      regex: ^(wireshark-|v)(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
 
 identifiers:
   - repology: wireshark
   - purl: pkg:docker/linuxserver/wireshark
   - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
+  - purl: pkg:winget/WiresharkFoundation.Wireshark
+  - purl: pkg:chocolatey/wireshark
   - cpe: cpe:2.3:a:wireshark:wireshark
   - cpe: cpe:/a:wireshark:wireshark
 
-# eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
+# eol(x) = eol(x.y+4) or see EOS here https://www.wireshark.org/docs/wsug_html/#ChIntroEndOfSupportPlanning
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
 releases:
