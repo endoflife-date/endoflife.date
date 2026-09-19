@@ -10,8 +10,8 @@ discontinuedColumn: true
 identifiers:
   - cpe: cpe:2.3:h:google:chromecast
 
-# Current production firmware versions: https://support.google.com/chromecast/answer/7124014
-# Google updates this table after staged rollouts reach all devices.
+# Device status can be found on https://support.google.com/product-documentation/answer/10231940 and https://en.wikipedia.org/wiki/Chromecast
+# Current production firmware versions can be found on https://support.google.com/chromecast/answer/7124014
 releases:
   - releaseCycle: "chromecast-google-tv-streamer"
     releaseLabel: "Google TV Streamer (4K)"
