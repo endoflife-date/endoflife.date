@@ -30,7 +30,7 @@ releases:
     eoas: 2026-10-15 # releaseDate(19.5)
     eol: 2026-12-17 # releaseDate(19.7)
     latest: "19.4.0"
-    latestReleaseDate: 2026-09-17
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "19.3"
     releaseDate: 2026-08-20
