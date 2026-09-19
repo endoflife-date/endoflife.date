@@ -43,6 +43,13 @@ auto:
 # IMPORTANT: When adding a new model here, add it to the above regex exclude above
 # IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
+  - releaseCycle: "galaxy-s26-fe"
+    releaseLabel: "Galaxy S26 FE"
+    releaseDate: 2026-09-04 # https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    eoas: 2033-09-04 # 7 years - https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    eol: 2033-09-04 # 7 years - https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    link: https://doc.samsungmobile.com/SM-S741B/INS/doc.html
+
   - releaseCycle: "galaxy-z-flip8"
     releaseLabel: "Galaxy Z Flip8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
@@ -63,6 +70,13 @@ releases:
     eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
     eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki  /Samsung_Galaxy_Z_Fold_8#Software
     link: https://doc.samsungmobile.com/SM-F976B/EUX/doc.html
+
+  - releaseCycle: "galaxy-f70-pro-5g"
+    releaseLabel: "Galaxy F70 Pro 5G"
+    releaseDate: 2026-08-03 # https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    eoas: 2032-07-31 # 6 generations of OS upgrades - https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    eol: 2032-07-31 # 6 years of security updates - https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    link: https://doc.samsungmobile.com/SM-E476B/INS/doc.html
 
   - releaseCycle: "galaxy-a27-5g"
     releaseLabel: "Galaxy A27 5G"
