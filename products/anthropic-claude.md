@@ -34,6 +34,7 @@ auto:
         releaseCycle:
           column: "API Model Name"
           regex: "^(?P<value>.+)$"
+          regex_exclude: '^claude-mythos-preview$'
         eoas: "Deprecated"
         eol:
           column: "Tentative Retirement Date"
