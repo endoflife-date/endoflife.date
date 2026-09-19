@@ -16,8 +16,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ceph/ceph.git
-      # Ignore development and release candidate versions
-      regex_exclude: ^v\d+\.[01]\.\d+$
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>2)\.(?P<patch>\d+)$
     - release_table: https://docs.ceph.com/en/latest/releases/#active-releases
       selector: "#active-releases table"
       fields:
@@ -42,15 +41,15 @@ releases:
     codename: "Tentacle"
     releaseDate: 2025-11-18
     eol: 2027-06-01
-    latest: "20.3.0"
-    latestReleaseDate: 2025-04-28
+    latest: "20.2.4"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "19"
     codename: "Squid"
     releaseDate: 2024-09-26
     eol: 2026-10-31
-    latest: "19.3.0"
-    latestReleaseDate: 2024-08-26
+    latest: "19.2.6"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "18"
     codename: "Reef"
