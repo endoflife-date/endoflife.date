@@ -10,13 +10,15 @@ discontinuedColumn: true
 identifiers:
   - cpe: cpe:2.3:h:google:chromecast
 
+# Current production firmware versions: https://support.google.com/chromecast/answer/7124014
+# Google updates this table after staged rollouts reach all devices.
 releases:
   - releaseCycle: "chromecast-google-tv-streamer"
     releaseLabel: "Google TV Streamer (4K)"
     releaseDate: 2024-09-24
     discontinued: false
     eol: false
-    latest: "UTTK.250729.004"
+    latest: "UTTK.260317.003"
 
   - releaseCycle: "chromecast-google-tv-hd"
     releaseLabel: "Chromecast w/Google TV (HD)"
