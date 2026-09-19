@@ -1,6 +1,6 @@
 ---
 title: Google Chromecast
-addedAt: 2026-01-02
+addedAt: 2026-09-19
 category: device
 tags: google
 iconSlug: googlecast
@@ -8,6 +8,7 @@ permalink: /chromecast
 discontinuedColumn: true
 
 identifiers:
+  - cpe: cpe:/h:google:chromecast
   - cpe: cpe:2.3:h:google:chromecast
 
 # Device status can be found on https://support.google.com/product-documentation/answer/10231940 and https://en.wikipedia.org/wiki/Chromecast
