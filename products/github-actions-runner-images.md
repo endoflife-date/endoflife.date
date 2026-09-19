@@ -24,7 +24,6 @@ auto:
 releases:
   - releaseCycle: "ubuntu-26.04-arm64"
     releaseLabel: "Ubuntu 26.04 Arm64"
-    staleReleaseThresholdDays: 1085 # not yet deprecated on https://github.com/actions/runner-images/tree/main
     releaseDate: 2026-09-17 # https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/
     eoas: false
     eol: false
@@ -32,7 +31,6 @@ releases:
 
   - releaseCycle: "ubuntu-26.04"
     releaseLabel: "Ubuntu 26.04"
-    staleReleaseThresholdDays: 1085 # not yet deprecated on https://github.com/actions/runner-images/tree/main
     releaseDate: 2026-09-17 # https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/
     eoas: false
     eol: false
