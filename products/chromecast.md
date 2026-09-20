@@ -6,6 +6,7 @@ tags: google
 iconSlug: googlecast
 permalink: /chromecast
 discontinuedColumn: true
+staleReleaseThresholdDays: 5475 # no latestReleaseDate and long support
 
 identifiers:
   - cpe: cpe:/h:google:chromecast
