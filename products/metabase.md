@@ -25,8 +25,18 @@ auto:
     - git: https://github.com/metabase/metabase.git
       regex: ^v(?P<version>0\.\d+(?:\.\d+){1,2})$
       template: "{{version}}"
-    - metabase: https://static.metabase.com/version-info.json
-      template: "0.{{major}}"
+    - json_releases: https://static.metabase.com/version-info.json
+      selector: '$.major_version_support[*]'
+      fields:
+        releaseCycle:
+          selector: '$.major'
+          regex: '^(?P<major>\d+)$'
+          template: '0.{{major}}'
+        releaseDate: '$.released'
+        eol: '$.eol'
+        lts:
+          selector: '$.lts'
+          regex: '(?i)^(?P<value>true)$'
 
 releases:
   - releaseCycle: "0.63"
