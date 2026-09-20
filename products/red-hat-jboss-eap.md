@@ -23,13 +23,17 @@ auto:
       name_column: "Name"
       regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\/$'
       date_column: "Last modified"
-    - redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
-      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
+    - json_releases: "https://access.redhat.com/product-life-cycles/api/v1/products?name=Red%20Hat%20JBoss%20Enterprise%20Application%20Platform"
+      selector: '$.data[0].versions[*]'
       fields:
-        releaseDate: General availability
-        eoas: Full support
-        eol: Maintenance support
-        eoes: Extended life cycle support (ELS) 1
+        releaseCycle:
+          selector: '$.name'
+          regex: '^(?P<value>\d+(?:\.\d+)?)(?:\.x)?$'
+          template: '{{value}}'
+        releaseDate: "$.phases[?(@.name == 'General availability')].date"
+        eoas: "$.phases[?(@.name == 'Full support')].date"
+        eol: "$.phases[?(@.name == 'Maintenance support')].date"
+        eoes: "$.phases[?(@.name == 'Extended life cycle support (ELS) 1')].date"
 
 # Latest releases with their date can be found in each cycles release notes.date.
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
