@@ -13,7 +13,6 @@ identifiers:
 auto:
   methods:
     - git: https://gitlab.isc.org/isc-projects/bind9.git
-      regex: '^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$'
 
 releases:
   - releaseCycle: "9.21"
