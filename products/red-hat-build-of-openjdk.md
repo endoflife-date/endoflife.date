@@ -55,11 +55,15 @@ identifiers:
 
 auto:
   methods:
-    - redhat_lifecycles: Red Hat build of OpenJDK
-      regex: '^OpenJDK (?P<major>\d+).*$'
+    - json_releases: "https://access.redhat.com/product-life-cycles/api/v1/products?name=Red%20Hat%20build%20of%20OpenJDK"
+      selector: '$.data[0].versions[*]'
       fields:
-        releaseDate: General availability
-        eol: Full support
+        releaseCycle:
+          selector: '$.name'
+          regex: '^OpenJDK (?P<major>\d+).*$'
+          template: '{{major}}'
+        releaseDate: "$.phases[?(@.name == 'General availability')].date"
+        eol: "$.phases[?(@.name == 'Full support')].date"
 
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:

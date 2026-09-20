@@ -22,14 +22,14 @@ identifiers:
 
 auto:
   methods:
-    #-   rhel: https://access.redhat.com/articles/3078 # Deprecated, use redhat_lifecycles instead
-    - redhat_lifecycles: Red Hat Enterprise Linux
-      regex: '^(?P<major>\d+)$'
+    - json_releases: "https://access.redhat.com/product-life-cycles/api/v1/products?name=Red%20Hat%20Enterprise%20Linux"
+      selector: '$.data[0].versions[*]'
       fields:
-        releaseDate: General availability
-        eoas: Full support
-        eol: Maintenance support
-        eoes: Extended life cycle support (ELS) add-on
+        releaseCycle: '$.name'
+        releaseDate: "$.phases[?(@.name == 'General availability')].date"
+        eoas: "$.phases[?(@.name == 'Full support')].date"
+        eol: "$.phases[?(@.name == 'Maintenance support')].date"
+        eoes: "$.phases[?(@.name == 'Extended life cycle support (ELS) add-on')].date"
 
 releases:
   - releaseCycle: "10"
