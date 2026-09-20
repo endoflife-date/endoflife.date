@@ -14,8 +14,15 @@ auto:
   methods:
     - git: https://github.com/sipwise/rtpengine.git
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
-    - rtpengine-releases: https://www.sipwise.com/releases/releases.json
-      regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)$'
+    - json_releases: https://www.sipwise.com/releases/releases.json
+      selector: '$[*]'
+      fields:
+        releaseCycle:
+          selector: id
+          regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)$'
+          template: '{{major}}.{{minor}}'
+        releaseDate: start
+        eol: end
 
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:

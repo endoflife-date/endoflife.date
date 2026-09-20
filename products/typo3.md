@@ -18,7 +18,7 @@ identifiers:
 auto:
   methods:
     - json_versions: https://get.typo3.org/api/v1/release/
-      selector: ''
+      selector: '$[*]'
       name: 'version'
       date: 'date'
 
