@@ -17,7 +17,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/bamboo/download-archives
+    - json_versions: https://my.atlassian.com/download/feeds/current/bamboo.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
+    - json_versions: https://my.atlassian.com/download/feeds/archived/bamboo.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-Bamboo
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
