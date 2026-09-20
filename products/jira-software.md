@@ -19,7 +19,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/jira/download-archives
+    - json_versions: https://my.atlassian.com/download/feeds/current/jira-software.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
+    - json_versions: https://my.atlassian.com/download/feeds/archived/jira-software.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-JiraSoftware
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
