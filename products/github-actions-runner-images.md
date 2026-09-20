@@ -22,6 +22,20 @@ auto:
 # releaseDate is the GA release date.
 # Image status is documented on https://github.com/actions/runner-images/tree/main.
 releases:
+  - releaseCycle: "ubuntu-26.04-arm64"
+    releaseLabel: "Ubuntu 26.04 Arm64"
+    releaseDate: 2026-09-17 # https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2604-Arm64-Readme.md
+
+  - releaseCycle: "ubuntu-26.04"
+    releaseLabel: "Ubuntu 26.04"
+    releaseDate: 2026-09-17 # https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2604-Readme.md
+
   - releaseCycle: "windows-11-vs2026-arm64"
     releaseLabel: "Windows 11 Arm64 with Visual Studio 2026"
     releaseDate: 2026-08-20 # https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available/

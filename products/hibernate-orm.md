@@ -51,7 +51,7 @@ releases:
     supportedJakartaEEVersions: "11"
     releaseDate: 2026-03-16
     eol: 2026-06-07
-    eoes: false
+    eoes: true
     latest: "7.3.13"
     latestReleaseDate: 2026-08-02
 
@@ -60,7 +60,7 @@ releases:
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-10-08
     eol: 2026-06-09
-    eoes: true
+    eoes: false
     latest: "7.2.25"
     latestReleaseDate: 2026-09-17
 
