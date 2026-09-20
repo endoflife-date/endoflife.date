@@ -18,7 +18,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/confluence/download-archives
+    - json_versions: https://my.atlassian.com/download/feeds/current/confluence.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
+    - json_versions: https://my.atlassian.com/download/feeds/archived/confluence.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
     # Cannot locate confluence releases because there is no more properly formatted title to locate them
     #- atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
     #  selector: AtlassianEndofSupportPolicy-Confluence
