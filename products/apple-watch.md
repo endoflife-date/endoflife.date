@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link: https://www.apple.com/apple-watch-series-12/specs/
+    link: https://support.apple.com/en-us/148589
     supportedWatchOsVersions: "27"
 
   - releaseCycle: "ultra-4"
@@ -35,7 +35,7 @@ releases:
     releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link: https://www.apple.com/apple-watch-ultra-4/specs/
+    link: https://support.apple.com/en-us/148758
     supportedWatchOsVersions: "27"
 
   - releaseCycle: "series-11"
