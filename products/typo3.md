@@ -17,7 +17,10 @@ identifiers:
 
 auto:
   methods:
-    - typo3: https://get.typo3.org/api/v1/release/
+    - json_versions: https://get.typo3.org/api/v1/release/
+      selector: '$[*]'
+      name: 'version'
+      date: 'date'
 
 releases:
   - releaseCycle: "14"

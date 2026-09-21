@@ -12,7 +12,10 @@ eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: NOS
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=NOS
+      selector: '$.contents[*]'
+      name: '$.version'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:

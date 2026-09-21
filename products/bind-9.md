@@ -13,22 +13,21 @@ identifiers:
 auto:
   methods:
     - git: https://gitlab.isc.org/isc-projects/bind9.git
-      regex: '^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$'
 
 releases:
   - releaseCycle: "9.21"
     releaseLabel: "9.21 (Development)"
     releaseDate: 2024-08-13
     eol: false
-    latest: "9.21.25"
-    latestReleaseDate: 2026-08-05
+    latest: "9.21.26"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "9.20"
     releaseLabel: "9.20 (Stable)"
     releaseDate: 2024-07-08
     eol: 2028-07-08
-    latest: "9.20.27"
-    latestReleaseDate: 2026-08-05
+    latest: "9.20.29"
+    latestReleaseDate: 2026-09-11
     lts: true
 
   - releaseCycle: "9.18"
@@ -45,6 +44,7 @@ releases:
     latest: "9.16.50"
     latestReleaseDate: 2024-04-03
     lts: true
+
 ---
 
 > [BIND 9](https://www.isc.org/bind/) is an open source DNS server from

@@ -22,9 +22,23 @@ identifiers:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "5.0"
+    releaseDate: 2026-09-16
+    eoas: false
+    eol: false
+    latest: "5.0.0"
+    latestReleaseDate: 2026-09-16
+
+  - releaseCycle: "4.4"
+    releaseDate: 2026-09-16
+    eoas: 2026-09-16
+    eol: false
+    latest: "4.4.0"
+    latestReleaseDate: 2026-09-16
+
   - releaseCycle: "4.3"
     releaseDate: 2026-03-13
-    eoas: false
+    eoas: 2026-09-16
     eol: false
     latest: "4.3.19"
     latestReleaseDate: 2026-09-12
@@ -32,7 +46,7 @@ releases:
   - releaseCycle: "4.2"
     releaseDate: 2025-09-18
     eoas: 2026-03-13
-    eol: false
+    eol: 2026-09-16
     latest: "4.2.26"
     latestReleaseDate: 2026-06-13
 
