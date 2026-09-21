@@ -6,7 +6,7 @@ iconSlug: ceph
 permalink: /ceph
 releasePolicyLink: https://docs.ceph.com/en/latest/releases/general/
 changelogTemplate: https://github.com/ceph/ceph/releases/tag/v__LATEST__
-releaseLabel: "Ceph __CODENAME__ (__RELEASE_CYCLE__.x)"
+releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 versionCommand: ceph --version
 
 identifiers:

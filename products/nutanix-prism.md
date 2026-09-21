@@ -16,7 +16,12 @@ eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: PC
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=PC
+      selector: '$.contents[*]'
+      name:
+        selector: '$.version'
+        regex: '^(?P<value>(pc\.)?[1-9]\d*(\.\d+){0,3})$'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
