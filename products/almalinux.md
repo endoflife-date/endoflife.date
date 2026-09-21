@@ -19,36 +19,52 @@ identifiers:
 
 auto:
   methods:
-    - distrowatch: alma
-      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d+)$'
+    - version_table: https://wiki.almalinux.org/release-notes/
+      name_column: "Release"
+      date_column: "Release Date"
+      regex: '^(?P<version>\d+\.\d+)$'
+      template: "{{version}}"
+    - release_table: https://wiki.almalinux.org/release-notes/
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)\.0$'
+        releaseDate: "Release Date"
+    - xml_releases: https://wiki.almalinux.org/release-notes/
+      selector: "h3 + p"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^Version (?P<value>\d+).+$'
+        eoas:
+          selector: ":scope"
+          regex: '^.+will have active support until (?P<value>\d+ \w+ \d+).+$'
+        eol:
+          selector: ":scope"
+          regex: '^.+security support until (?P<value>\d+ \w+ \d+).+$'
 
 releases:
   - releaseCycle: "10"
-    releaseLabel: "AlmaLinux OS 10"
     releaseDate: 2025-05-27
     eoas: 2030-05-31
     eol: 2035-05-31
     latest: "10.2"
     latestReleaseDate: 2026-05-26
-    link: https://almalinux.org/blog/2026-05-26-almalinux_98_and_102_stable/
 
   - releaseCycle: "9"
-    releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
     eoas: 2027-05-31
     eol: 2032-05-31
     latest: "9.8"
     latestReleaseDate: 2026-05-26
-    link: https://almalinux.org/blog/2026-05-26-almalinux_98_and_102_stable/
 
   - releaseCycle: "8"
-    releaseLabel: "AlmaLinux OS 8"
     releaseDate: 2021-03-30
     eoas: 2024-05-31
     eol: 2029-05-31
     latest: "8.10"
     latestReleaseDate: 2024-05-28
-    link: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
+
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open source, community-owned and governed, forever-free enterprise Linux distribution.
