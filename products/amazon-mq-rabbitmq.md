@@ -9,6 +9,10 @@ latestColumn: false
 staleReleaseThresholdDays: 1095 # 3 years
 
 releases:
+  - releaseCycle: "4.3"
+    releaseDate: 2026-09-09
+    eol: false
+
   - releaseCycle: "4.2"
     releaseDate: 2025-10-27
     eol: false
@@ -27,6 +31,6 @@ releases:
 
 The Amazon MQ version support calendar indicates when a broker engine version reaches end of support. After that date, Amazon MQ automatically upgrades brokers to the next supported version during a scheduled maintenance window, within 45 days of the end-of-support date. Amazon MQ provides at least 90 days notice before a version reaches end of support, and new brokers cannot be created on versions that are within 30 days of end of support.
 
-Amazon MQ currently supports RabbitMQ 4 and RabbitMQ 3 release series. RabbitMQ 4.2 is the recommended version, and Amazon MQ supports it only on the `mq.m7g` instance type across supported sizes. RabbitMQ 3.13 is supported on `mq.t3`, `mq.m5`, and `mq.m7g` instance types. Amazon MQ supports in-place upgrades from RabbitMQ 3.13 to RabbitMQ 4.2.
+Amazon MQ currently supports RabbitMQ 4 and RabbitMQ 3 release series. RabbitMQ 4.2 is the recommended version, and Amazon MQ supports it only on the `mq.m7g` instance type across supported sizes. RabbitMQ 3.13 is supported on `mq.t3`, `mq.m5`, and `mq.m7g` instance types. Amazon MQ supports in-place upgrades from RabbitMQ 3.13 to RabbitMQ 4.2, and from RabbitMQ 4.2 to 4.3.
 
 On Amazon MQ for RabbitMQ 4.2, the default queue type is `quorum` when no queue type argument is specified. Amazon MQ recommends using quorum queues for durability-sensitive workloads.

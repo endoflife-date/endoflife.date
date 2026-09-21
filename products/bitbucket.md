@@ -17,7 +17,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/bitbucket/download-archives
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/stash/current
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.version.date'
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/stash/archived
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.version.date'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-Bitbucket
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
