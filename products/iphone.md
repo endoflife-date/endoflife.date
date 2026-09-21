@@ -25,7 +25,7 @@ releases:
     releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-18-pro/specs/
+    link: https://support.apple.com/en-us/148590
     supportedIosVersions: "27"
 
   - releaseCycle: "18-pro-max"
@@ -33,7 +33,7 @@ releases:
     releaseDate: 2026-09-18
     discontinued: false
     eol: false
-    link: https://www.apple.com/iphone-18-pro/specs/
+    link: https://support.apple.com/en-us/148591
     supportedIosVersions: "27"
 
   - releaseCycle: "17e"
