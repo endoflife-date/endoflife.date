@@ -29,14 +29,14 @@ releases:
   - releaseCycle: "18.0.81"
     releaseDate: 2026-09-15
     eol: 2026-12-08
-    latest: "18.0.81"
-    latestReleaseDate: 2026-09-15
+    latest: "18.0.81.1"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "18.0.80"
     releaseDate: 2026-08-04
     eol: 2026-10-27
-    latest: "18.0.80.7"
-    latestReleaseDate: 2026-09-10
+    latest: "18.0.80.8"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "18.0.79"
     releaseDate: 2026-06-23
