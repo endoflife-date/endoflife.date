@@ -174,8 +174,8 @@ releases:
     lts: true
     releaseDate: 2021-10-06
     eol: false
-    latest: "6.49.21"
-    latestReleaseDate: 2026-09-03
+    latest: "6.49.22"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "6.48"
     releaseDate: 2020-12-22
