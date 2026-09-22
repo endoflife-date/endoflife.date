@@ -54,7 +54,7 @@ releases:
   - releaseCycle: "18"
     codename: "Reef"
     releaseDate: 2023-08-07
-    eol: 2025-03-20
+    eol: 2026-03-20
     latest: "18.2.8"
     latestReleaseDate: 2026-03-11
 
