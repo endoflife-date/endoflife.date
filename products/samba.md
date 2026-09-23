@@ -22,7 +22,7 @@ identifiers:
 # eol(x) ~= max(releaseDate(x+1) + 1y , latestReleaseDate(x)) 
 releases:
   - releaseCycle: "4.24"
-    releaseDate: 2026-03-01 # estimated day of the release
+    releaseDate: 2026-03-18
     eoas: false #     releaseDate( 4.26 )
     eol: false #      releaseDate( 4.25 ) + 1y
     latest: "4.24.7"
