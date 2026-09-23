@@ -1,13 +1,12 @@
 ---
 title: Jira Service Management
-addedAt: 2026-09-10
+addedAt: 2026-09-20
 category: server-app
 tags: atlassian java-runtime
 iconSlug: jira
 permalink: /jira-service-management
 alternate_urls:
   - /jira-service-desk
-  - /jira-servicedesk
   - /jsm
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
@@ -15,15 +14,24 @@ eolColumn: Support
 identifiers:
   - cpe: cpe:/a:atlassian:jira_service_desk
   - cpe: cpe:2.3:a:atlassian:jira_service_desk
+  - cpe: cpe:/a:atlassian:jira_service_management
+  - cpe: cpe:2.3:a:atlassian:jira_service_management
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/jira/service-management/download-archives
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk/current
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.dateAdded'
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk/archived
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.dateAdded'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-JiraServiceManagement
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
 
-# Release dates from https://www.atlassian.com/software/jira/service-management/download-archives.
+# Release dates from https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk.
 # EOL dates are published on
 # https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html for 5.15 and later.
 # Earlier cycles use the two year window every dated release on that page follows.
@@ -462,13 +470,18 @@ releases:
 > [Jira Service Management](https://www.atlassian.com/software/jira/service-management), called Jira Service Desk
 > until 2020, is a proprietary IT service management product developed by Atlassian, built on the Jira platform.
 
-This page is about the self-hosted Data Center edition. Jira Service Management Cloud is updated continuously and
-carries no version-specific end-of-life dates.
+{: .warning }
+
+> This page is about the self-hosted Data Center edition.
+> Jira Service Management Cloud is updated continuously and carries no version-specific end-of-life dates.
 
 The product was split out of Jira in October 2015 and numbered separately from then on, starting at 3.0 to match the
 Jira 7 platform it shipped against. That numbering ran to 5.17 in June 2024, after which Atlassian aligned the whole
 Jira family: 10.0 was released on the same day as Jira Software 10.0, and the two have shared version numbers and
 release dates since.
 
-There is approximately one Enterprise release per year, marked LTS here, which receives bug and security fixes for
-two years. Other releases are supported for two years from their own release date.
+Jira Service Management has both LTS and non-LTS releases. There is approximately one LTS release per year, marked
+here with the LTS flag, which receives bug and security fixes for 2 years. Non-LTS releases carry the same two year
+end-of-support date, counted from their own release date, but receive only critical security fixes after the first
+6 months. More information can be found in
+[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
