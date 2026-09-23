@@ -5,8 +5,8 @@ category: server-app
 iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
-releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
-changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
+releasePolicyLink: https://docs.mattermost.com/about/release-policy
+changelogTemplate: https://docs.mattermost.com/upgrade/version-archive
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
 auto:
@@ -386,12 +386,12 @@ releases:
 > companies.
 
 Mattermost backports high-severity or high-impact security fixes to the previous three monthly
-releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release.html).
+releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release).
 A new ESR release is made when a significant number of new features and improvements have been added
 to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
 
-Mattermost's self-hosted offering is distributed in the following [editions](https://docs.mattermost.com/product-overview/editions-and-offerings.html):
+Mattermost's self-hosted offering is distributed in the following [editions](https://docs.mattermost.com/product-overview/editions-and-offerings):
 
 1. **Enterprise** is the primary commercial offering. It comes with 24x7 support.
 1. **Enterprise Advanced** is same as the Enterprise Edition, but with a few extra compliance features.
@@ -401,7 +401,7 @@ Mattermost's self-hosted offering is distributed in the following [editions](htt
 1. **Team** is the limited open-source offering: The AGPL source code is built and distributed as MIT licensed binaries.
    This is also offered via GitLab in the GitLab Omnibus package.
 
-This page tracks only the self-hosted offerings as listed above. Mattermost Cloud has different [security guarantees](https://docs.mattermost.com/product-overview/cloud-subscriptions.html#who-is-responsible-for-server-maintenance-and-upgrades) and is not tracked here.
+This page tracks only the self-hosted offerings as listed above. Mattermost Cloud has different [security guarantees](https://docs.mattermost.com/product-overview/cloud-subscriptions#who-is-responsible-for-server-maintenance-and-upgrades) and is not tracked here.
 
 {: .warning }
 > Mattermost announced [Major Changes in Free Offerings](https://forum.mattermost.com/t/mattermost-v11-changes-in-free-offerings/25126) from v11

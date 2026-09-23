@@ -5,7 +5,7 @@ category: server-app
 tags: google
 iconSlug: looker
 permalink: /looker
-releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
+releasePolicyLink: https://docs.cloud.google.com/looker/docs/release-overview
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 latestColumn: false
@@ -27,7 +27,7 @@ auto:
       regex: 'Looker\s+(?P<version>\d+\.\d+)'
       template: "{{version}}"
 
-# eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
+# eol/esr dates on https://docs.cloud.google.com/looker/docs/officially-supported-releases or https://cloud.google.com/looker/docs/release-notes
 # Link on https://discuss.google.dev/search?q=Looker%20release%20notes
 releases:
   - releaseCycle: "26.16"
@@ -135,12 +135,12 @@ releases:
     releaseDate: 2025-01-08
     lts: 2025-02-28
     eol: 2025-05-31
-    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290
+    link: https://discuss.google.dev/t/looker-25-0-release-notes/178765/1
 
   - releaseCycle: "24.20"
     releaseDate: 2024-11-30
     eol: 2025-03-31
-    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-20-Release-Notes/m-p/831705
+    link: https://discuss.google.dev/t/looker-24-20-release-notes/172666/1
 
   - releaseCycle: "24.18"
     releaseDate: 2024-10-31
@@ -385,10 +385,10 @@ releases:
 
 ---
 
-> [Looker](https://www.looker.com/) is a data exploration and business intelligence platform that
+> [Looker](https://cloud.google.com/looker) is a data exploration and business intelligence platform that
 > offers a wide variety of tools for relational database work, business intelligence, and other
 > related services. It operates as a part of Google Cloud Platform. It is available as both a
-> managed service (Looker-hosted), and a [self-hosted](https://cloud.google.com/looker/docs/looker-hosted-installation-steps)
+> managed service (Looker-hosted), and a [self-hosted](https://docs.cloud.google.com/looker/docs/looker-hosted-installation-steps)
 > installation.
 
 ## Looker-hosted services
@@ -420,13 +420,13 @@ All users are able to opt in to release notes from the Account Settings section 
 Additionally, anyone listed as a Technical Contact within a Looker instance (Admin →
 General Settings) will receive release notifications.
 
-A list of officially supported releases is [published](https://cloud.google.com/looker/docs/officially-supported-releases)
+A list of officially supported releases is [published](https://docs.cloud.google.com/looker/docs/officially-supported-releases)
 as well, along with a ["Legacy feature schedule"][lfs] which provides a timeline that shows when
 current legacy features have been or will be formally removed.
 
-[self-hosted]: https://cloud.google.com/looker/docs/managing-customer-hosted-deployment "Managing a customer-hosted deployment"
-[esr]: https://cloud.google.com/looker/docs/standard-extended-support-release-program-overview "Standard extended support release program overview"
-[emails]: https://cloud.google.com/looker/docs/release-deployment-emails "Release deployment emails"
-[schedule]: https://cloud.google.com/looker/docs/google-maintenance-policy-for-looker-hosted-services "Google maintenance policy for Looker-hosted services"
-[best-practices]: https://cloud.google.com/looker/docs/updating-your-looker-instance "Best Practices when Updating your Looker Instance"
-[lfs]: https://cloud.google.com/looker/docs/legacy-feature-schedule#legacy_feature_schedule "Legacy feature schedule"
+[self-hosted]: https://docs.cloud.google.com/looker/docs/managing-customer-hosted-deployment "Managing a customer-hosted deployment"
+[esr]: https://docs.cloud.google.com/looker/docs/standard-extended-support-release-program-overview "Standard extended support release program overview"
+[emails]: https://docs.cloud.google.com/looker/docs/release-deployment-emails "Release deployment emails"
+[schedule]: https://docs.cloud.google.com/looker/docs/google-maintenance-policy-for-looker-hosted-services "Google maintenance policy for Looker-hosted services"
+[best-practices]: https://docs.cloud.google.com/looker/docs/updating-your-looker-instance "Best Practices when Updating your Looker Instance"
+[lfs]: https://docs.cloud.google.com/looker/docs/legacy-feature-schedule#legacy_feature_schedule "Legacy feature schedule"

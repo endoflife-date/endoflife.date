@@ -538,7 +538,7 @@ Only the latest minor version is supported.
 A LTS release is supported until a separate published End-of-Life date.
 
 This page tracks End-of-Life as per the Neo4j Enterprise Edition.
-Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/).
+Support or fixes are [not guaranteed for the Community Edition](https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions).
 AuraDB, the hosted offering by Neo4j, is automatically updated, and support is available depending on the plan.
 
 A high-level overview of different Neo4j editions:
@@ -557,7 +557,7 @@ Each minor release is supported for 18 months from the GA date, except for the f
 
 ## References
 
-- [Neo4j Supported Versions](https://neo4j.com/developer/kb/neo4j-supported-versions/)
+- [Neo4j Supported Versions](https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions)
 - [Features in various AuraDB Editions](https://neo4j.com/docs/aura/auradb/)
 - [Support differences in AuraDB Editions](https://neo4j.com/docs/aura/auradb/support/)
 - [Calendar Versioning](https://neo4j.com/docs/upgrade-migration-guide/current/#_version_numbers)

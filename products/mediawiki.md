@@ -129,7 +129,7 @@ releases:
 
 ---
 
-> [MediaWiki](https://mediawiki.org) is a wiki engine and is mostly known as the software that powers
+> [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) is a wiki engine and is mostly known as the software that powers
 > Wikipedia, but it is also frequently used for other wikis.
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2

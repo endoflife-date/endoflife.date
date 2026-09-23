@@ -292,7 +292,7 @@ releases:
     eoas: 2019-10-08
     eol: 2019-10-08
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    link: https://techcommunity.microsoft.com/blog/windows-itpro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/903715
 
   - releaseCycle: "10-1703-w"
     releaseLabel: "10 1703 (W)"
@@ -300,7 +300,7 @@ releases:
     eoas: 2018-10-09
     eol: 2018-10-09
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    link: https://techcommunity.microsoft.com/blog/windows-itpro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/903715
 
   - releaseCycle: "10-1607-e-lts"
     releaseLabel: "10 1607 (E)"

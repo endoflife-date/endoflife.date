@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: mautic
 permalink: /mautic
 versionCommand: bin/console --version
-releasePolicyLink: https://www.mautic.org/mautic-releases
+releasePolicyLink: https://mautic.org/releases/
 changelogTemplate: https://github.com/mautic/mautic/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: true

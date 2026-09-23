@@ -5,7 +5,7 @@ category: server-app
 tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
-releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
+releasePolicyLink: "https://www.nutanix.com/support-services/support-policies-and-faqs"
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 

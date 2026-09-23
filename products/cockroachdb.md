@@ -8,8 +8,8 @@ alternate_urls:
   - /cockroach
   - /crdb
 versionCommand: cockroach version
-releasePolicyLink: https://www.cockroachlabs.com/docs/releases/release-support-policy
-changelogTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
+releasePolicyLink: https://docs.cockroachlabs.com/docs/releases/release-support-policy
+changelogTemplate: https://docs.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 
@@ -231,9 +231,9 @@ releases:
 {: .warning }
 
 > This page tracks the CockroachDB Self-Hosted releases — the Cloud and Serverless releases have their own
-> [support and upgrade policy](https://www.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
+> [support and upgrade policy](https://docs.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
 
-CockroachDB follows a three-component [calendar versioning scheme](https://www.cockroachlabs.com/docs/releases/#release-naming).
+CockroachDB follows a three-component [calendar versioning scheme](https://docs.cockroachlabs.com/docs/releases/#release-naming).
 A major version of CockroachDB is released once per quarter, alternating between
 a Regular release or an Innovation release. New releases are made available for CockroachDB Cloud clusters
 for two weeks before binaries are published for Self-Hosted downloads.
@@ -254,5 +254,5 @@ Each release cycle can be in one of two support levels:
 
 ## Reference
 
-- A list of all [Production Releases](https://www.cockroachlabs.com/docs/releases#production-releases) includes
+- A list of all [Production Releases](https://docs.cockroachlabs.com/docs/releases#production-releases) includes
   the first LTS release in each release cycle.
