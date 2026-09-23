@@ -208,4 +208,4 @@ and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build
 
 The Keycloak team keeps tagging backport commits on older release branches after a new minor ships
 — e.g. `26.6.5` / `26.6.6` are present in git even after the `26.7.0` release, though no public images
-are built for them. Phase Two [builds and ships these backport versions unmodified](https://phasetwo.io/blog/keycloak-lts-backport-images/).
+are built for them. Phase Two builds and ships these backport versions unmodified.
