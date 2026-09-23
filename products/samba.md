@@ -29,7 +29,7 @@ releases:
     latestReleaseDate: 2026-09-09
   
   - releaseCycle: "4.23"
-    releaseDate: 2025-12-09
+    releaseDate: 2025-09-12
     eoas: false #      releaseDate( 4.25 )
     eol: 2027-03-01 #  releaseDate( 4.24 ) + 1y
     latest: "4.23.12"
