@@ -33,6 +33,16 @@ identifiers:
 # exception is 2007.2, capped by an archived copy of the release notes that names it as current on
 # 2007-06-13.
 #
+# Five of those approximations are replaced by an observed date. Perforce binaries carry the release
+# and the build date they were made from, as "@(#)P4D/LINUX26X86_64/2011.1/747877" followed by the
+# date, and 847 archived binaries were read to find the earliest build of each release. A release
+# cannot ship before its own binary was built, so where that build predates the approximation, the
+# approximation was wrong: 98.1, 99.1, 2002.1, 2004.2 and 2014.1 now carry the build date instead.
+# The method was checked against the only releases whose archived directory listings still hold real
+# modification times, and the build date runs 0 to 3 days ahead of the file appearing on the host.
+# For the other releases the earliest surviving binary is a patch, so it says nothing about GA and
+# the approximation stands.
+#
 # The release list itself is exact: it is the union of the releases named in
 # https://filehost.perforce.com/perforce/r20.2/doc/user/relnotes.txt and the release directories on
 # https://filehost.perforce.com/perforce/ .
@@ -195,7 +205,7 @@ releases:
     latest: "2014.2"
 
   - releaseCycle: "2014.1"
-    releaseDate: 2014-05-01
+    releaseDate: 2014-04-08
     eoas: true
     eol: true
     latest: "2014.1"
@@ -339,7 +349,7 @@ releases:
     latest: "2005.1"
 
   - releaseCycle: "2004.2"
-    releaseDate: 2004-11-01
+    releaseDate: 2004-10-04
     eoas: true
     eol: true
     latest: "2004.2"
@@ -369,7 +379,7 @@ releases:
     latest: "2002.2"
 
   - releaseCycle: "2002.1"
-    releaseDate: 2002-05-01
+    releaseDate: 2002-04-12
     eoas: true
     eol: true
     latest: "2002.1"
@@ -405,7 +415,7 @@ releases:
     latest: "99.2"
 
   - releaseCycle: "99.1"
-    releaseDate: 1999-05-01
+    releaseDate: 1999-02-24
     eoas: true
     eol: true
     latest: "99.1"
@@ -417,7 +427,7 @@ releases:
     latest: "98.2"
 
   - releaseCycle: "98.1"
-    releaseDate: 1998-05-01
+    releaseDate: 1998-02-17
     eoas: true
     eol: true
     latest: "98.1"
