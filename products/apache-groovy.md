@@ -30,10 +30,17 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
+  - releaseCycle: "6.0"
+    releaseDate: 2026-09-19
+    eol: false
+    eoas: false
+    latest: "6.0.0"
+    latestReleaseDate: 2026-09-19
+
   - releaseCycle: "5.1"
     releaseDate: 2026-08-15
     eol: false
-    eoas: false
+    eoas: 2026-09-19
     latest: "5.1.3"
     latestReleaseDate: 2026-09-19
 
