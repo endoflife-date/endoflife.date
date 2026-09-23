@@ -12,7 +12,10 @@ eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: NOS
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=NOS
+      selector: '$.contents[*]'
+      name: '$.version'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
@@ -20,22 +23,22 @@ releases:
     releaseDate: 2026-07-27
     eoas: 2027-10-31
     eol: 2028-07-31
-    latest: "7.6"
-    latestReleaseDate: 2026-07-27
+    latest: "7.6.0.6"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "7.5"
     releaseDate: 2025-12-08
     eoas: 2027-03-31
     eol: 2027-12-31
-    latest: "7.5.1.10"
-    latestReleaseDate: 2026-07-28
+    latest: "7.5.1.13"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "7.3"
     releaseDate: 2025-06-24
     eoas: 2026-09-30
     eol: 2027-06-30
-    latest: "7.3.1.14"
-    latestReleaseDate: 2026-07-28
+    latest: "7.3.1.16"
+    latestReleaseDate: 2026-09-07
 
   - releaseCycle: "7.0"
     releaseDate: 2024-12-04

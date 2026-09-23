@@ -23,19 +23,26 @@ auto:
 # eol(x) = releaseDate(x) + 1 year
 # See https://docs.getdbt.com/docs/dbt-versions/core
 releases:
+  - releaseCycle: "2.0"
+    releaseDate: 2026-09-14
+    eoas: false
+    eol: 2027-09-14
+    latest: "2.0.5"
+    latestReleaseDate: 2026-09-18
+
   - releaseCycle: "1.12"
     releaseDate: 2026-07-16
-    eoas: false
+    eoas: 2026-09-14
     eol: 2027-07-16
-    latest: "1.12.2"
-    latestReleaseDate: 2026-08-12
+    latest: "1.12.5"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-19
     eoas: 2026-07-16
     eol: 2026-12-19
-    latest: "1.11.14"
-    latestReleaseDate: 2026-08-20
+    latest: "1.11.15"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-16

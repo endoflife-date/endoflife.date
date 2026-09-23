@@ -20,23 +20,22 @@ auto:
   methods:
     - git: https://github.com/opentofu/opentofu.git
 
-# eol(x) = releaseDate(x+3)
 releases:
   - releaseCycle: "1.12"
     releaseDate: 2026-05-14
-    eol: false # releaseDate(1.15)
+    eol: 2027-02-01
     latest: "1.12.6"
     latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-09
-    eol: false # releaseDate(1.14)
+    eol: 2026-08-19
     latest: "1.11.14"
     latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-24
-    eol: false # releaseDate(1.13)
+    eol: false # releaseDate(1.13), following previous support policy
     latest: "1.10.10"
     latestReleaseDate: 2026-05-11
 
@@ -68,7 +67,4 @@ releases:
 
 > [OpenTofu](https://opentofu.org/) is a fork of Terraform that is open-source, community-driven, and managed by the Linux Foundation.
 
-In their 2024-01-22 meeting, the OpenTofu Technical Steering Committee (TSC) [decided to adopt
-the same support policy as Terraform](https://github.com/opentofu/opentofu/blob/v1.10.3/TSC_SUMMARY.md#2024-01-22-async):
-patches for the most recent major release, as well as up to two prior ones. So up to three releases
-will be supported at any given point in time.
+From OpenTofu v1.11 onwards the project's security support period is aligned to the release cycle of the Go programming language, with each minor release series of OpenTofu associated with one major release series of Go throughout its life. The expected end of life date for each release series is recorded at top of its changelog document.

@@ -12,6 +12,16 @@ auto:
   methods:
     - distrowatch: devuan
       regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
+    - release_table: https://www.devuan.org/os/releases
+      header_selector: "table:nth-of-type(1) tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Devuan release"
+          regex: '^\w+ (?P<value>\d+)$'
+        codename:
+          column: "Devuan release"
+          regex: '^(?P<value>\w+) \d+$'
+        releaseDate: Released
 
 # lts(x) = eol(corresponding Debian version)
 # eol(x) = eoes(corresponding Debian version)
@@ -27,7 +37,7 @@ releases:
 
   - releaseCycle: "5"
     codename: "Daedalus"
-    releaseDate: 2023-08-15
+    releaseDate: 2023-08-14
     lts: 2026-06-10
     eol: 2028-06-10
     latest: "5.0.0"
@@ -45,7 +55,7 @@ releases:
 
   - releaseCycle: "3"
     codename: "Beowulf"
-    releaseDate: 2020-06-02
+    releaseDate: 2020-06-01
     lts: 2022-07-01
     eol: 2024-06-01
     latest: "3.1.0"
@@ -54,7 +64,7 @@ releases:
 
   - releaseCycle: "2"
     codename: "ASCII"
-    releaseDate: 2018-06-09
+    releaseDate: 2018-06-08
     lts: 2020-06-06
     eol: 2022-06-30
     latest: "2.1"

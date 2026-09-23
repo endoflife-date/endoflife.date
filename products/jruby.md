@@ -39,8 +39,8 @@ releases:
     minJavaVersion: "21"
     supportedRubyVersion: "4.0"
     eol: false
-    latest: "10.1.1.0"
-    latestReleaseDate: 2026-07-22
+    latest: "10.1.2.0"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "10.0"
     releaseDate: 2025-04-14
@@ -48,8 +48,8 @@ releases:
     minJavaVersion: "21"
     supportedRubyVersion: "3.4"
     eol: 2028-04-01 # source : https://www.jruby.org/2026/04/21/jruby-10-1-0-0.html
-    latest: "10.0.6.0"
-    latestReleaseDate: 2026-06-11
+    latest: "10.0.7.0"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "9.4"
     releaseDate: 2022-11-23

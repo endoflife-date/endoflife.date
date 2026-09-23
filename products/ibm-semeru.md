@@ -16,13 +16,19 @@ eolColumn: End of Service (EOS)
 auto:
   methods:
     - github_releases: ibmruntimes/semeru8-binaries
-      regex: '^jdk(?P<version>8u[\d]+(-[a-z]\d+))_openj9-[\d\.]+$'
+      regex:
+        - '^jdk-(?P<version>[\d\.+]+)$'
+        - '^jdk(?P<version>8u[\d]+(-[a-z]\d+))_openj9-[\d\.]+$'
       template: "{{version}}"
     - github_releases: ibmruntimes/semeru11-binaries
-      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      regex:
+        - '^jdk-(?P<version>[\d\.+]+)$'
+        - '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
     - github_releases: ibmruntimes/semeru17-binaries
-      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      regex:
+        - '^jdk-(?P<version>[\d\.+]+)$'
+        - '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
     - github_releases: ibmruntimes/semeru21-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
@@ -37,10 +43,17 @@ auto:
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
     - github_releases: ibmruntimes/semeru25-binaries
-      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      regex:
+        - '^jdk-(?P<version>[\d\.+]+)$'
+        - '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: "{{version}}"
     - github_releases: ibmruntimes/semeru26-binaries
-      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      regex:
+        - '^jdk-(?P<version>[\d\.+]+)$'
+        - '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: "{{version}}"
+    - github_releases: ibmruntimes/semeru27-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: "{{version}}"
     - release_table: https://www.ibm.com/support/pages/node/6451203
       fields:
@@ -50,18 +63,24 @@ auto:
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-16
+    eol: 2027-03-31
+    latest: "27.0.0.0"
+    latestReleaseDate: 2026-09-16
+
   - releaseCycle: "26"
     releaseDate: 2026-03-18
     eol: 2026-09-30
-    latest: "26+35"
-    latestReleaseDate: 2026-03-18
+    latest: "26.0.2.10"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-25
-    eol: 2030-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
-    latest: "25.0.2+10.1"
-    latestReleaseDate: 2026-02-25
+    eol: 2031-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
+    latest: "25.0.4.10"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31
@@ -92,22 +111,22 @@ releases:
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.18+8.1"
-    latestReleaseDate: 2026-02-26
+    latest: "17.0.20.10"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: "11.0.30+7.1"
-    latestReleaseDate: 2026-02-25
+    latest: "11.0.32.10"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2030-12-31
-    latest: "8u482-b08"
-    latestReleaseDate: 2026-01-30
+    latest: "8.0.504.0"
+    latestReleaseDate: 2026-08-27
 
 ---
 

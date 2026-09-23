@@ -109,7 +109,7 @@ SUSE Multi-Linux Manager Proxy follows the same lifecycle as SUSE Multi-Linux Ma
 
 ## [Long Term Support](https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.3/index.html#_suse_manager_4_3_lts)
 
-There is no additional LTS offering available, as Multi-Linux Manager can be seamingless upgraded.
+There is no additional LTS offering available, as Multi-Linux Manager can be seamlessly upgraded.
 
 An exception is in place for SUSE Multi-Linux Manager version 4.3 (formerly named SUSE Manager 4.3), 
 which continued to receive critical bug fixes and security fixes for an additional year for customers with an active LTS subscription. 

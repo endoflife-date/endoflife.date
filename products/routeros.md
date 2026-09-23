@@ -26,14 +26,15 @@ releases:
   - releaseCycle: "7.24"
     releaseDate: 2026-08-17
     eol: false
-    latest: "7.24"
-    latestReleaseDate: 2026-08-17
+    latest: "7.24.4"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "7.23"
+    lts: true
     releaseDate: 2026-05-26
-    eol: 2026-08-17
-    latest: "7.23.3"
-    latestReleaseDate: 2026-08-03
+    eol: false # releaseDate( Next LTS cycle )
+    latest: "7.23.7"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "7.22"
     releaseDate: 2026-03-10
@@ -44,7 +45,7 @@ releases:
   - releaseCycle: "7.21"
     lts: true
     releaseDate: 2026-01-12
-    eol: false # releaseDate( Next LTS cycle )
+    eol: 2026-05-26 # releaseDate(7.23)
     latest: "7.21.5"
     latestReleaseDate: 2026-07-06
 
@@ -173,8 +174,8 @@ releases:
     lts: true
     releaseDate: 2021-10-06
     eol: false
-    latest: "6.49.20"
-    latestReleaseDate: 2026-07-06
+    latest: "6.49.22"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "6.48"
     releaseDate: 2020-12-22

@@ -20,17 +20,25 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "5.1"
+    releaseDate: 2026-08-27
+    eol: false # releaseDate(5.2)
+    latest: "5.1.1"
+    latestReleaseDate: 2026-09-20
+    link: https://github.com/DependencyTrack/dependency-track/releases/tag/__LATEST__
+
   - releaseCycle: "5.0"
     releaseDate: 2026-06-09
-    eol: false # releaseDate(5.1)
-    latest: "5.0.4"
-    latestReleaseDate: 2026-07-30
+    eol: 2026-08-27
+    latest: "5.0.5"
+    latestReleaseDate: 2026-08-24
+    link: https://github.com/DependencyTrack/dependency-track/releases/tag/__LATEST__
 
   - releaseCycle: "4.14"
     releaseDate: 2026-03-09
     eol: 2026-12-09 # estimated, as noted here: https://dependencytrack.org/news/dependency-track-5-0/#:~:text=What%20it%20means%20for%20existing%20v4%20users
-    latest: "4.14.3"
-    latestReleaseDate: 2026-07-20
+    latest: "4.14.4"
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "4.13"
     releaseDate: 2025-04-07

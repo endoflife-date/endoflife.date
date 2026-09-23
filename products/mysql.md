@@ -31,6 +31,8 @@ identifiers:
   - purl: pkg:docker/library/mysql
   - purl: pkg:deb/ubuntu/mysql-server
   - purl: pkg:deb/debian/mysql
+  - purl: pkg:winget/Oracle.MySQL
+  - purl: pkg:chocolatey/mysql
   - cpe: cpe:2.3:a:oracle:mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf

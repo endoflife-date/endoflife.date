@@ -11,7 +11,7 @@ releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 latestColumn: false
 eoasColumn: Android Upgrades
 eolColumn: Security Updates
-staleReleaseThresholdDays: 1825 # devices have longer support periods
+staleReleaseThresholdDays: 2190 # 6 years, devices have longer support periods
 
 auto:
   cumulative: true
@@ -34,7 +34,7 @@ auto:
 # Useful information can be found on:
 # - https://news.samsung.com (releaseDate, eoas, eol - search on Google with "<model> site:news.samsung.com")
 # - https://www.gsmarena.com/ (releaseDate)
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol - domain is dead, archived snapshot)
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
 # - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
@@ -43,26 +43,54 @@ auto:
 # IMPORTANT: When adding a new model here, add it to the above regex exclude above
 # IF it is not listed at https://security.samsungmobile.com/workScope.smsb
 releases:
+  - releaseCycle: "galaxy-s26-fe"
+    releaseLabel: "Galaxy S26 FE"
+    releaseDate: 2026-09-04 # https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    eoas: 2033-09-04 # 7 years - https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    eol: 2033-09-04 # 7 years - https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/
+    link: https://doc.samsungmobile.com/SM-S741B/INS/doc.html
+
   - releaseCycle: "galaxy-z-flip8"
     releaseLabel: "Galaxy Z Flip8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8#Software
+    link: https://doc.samsungmobile.com/SM-F7760/039222260801/eng.html
 
   - releaseCycle: "galaxy-z-fold8"
     releaseLabel: "Galaxy Z Fold8"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    link: https://doc.samsungmobile.com/SM-F971B/EUX/doc.html
 
   - releaseCycle: "galaxy-z-fold8-ultra"
     releaseLabel: "Galaxy Z Fold8 Ultra"
     releaseDate: 2026-08-07 # https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living
-    eoas: 2033-07-31 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    eol: false      # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
-    link: null # not found
+    eoas: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8#Software
+    eol: 2033-08-07 # 7 years - https://en.wikipedia.org/wiki  /Samsung_Galaxy_Z_Fold_8#Software
+    link: https://doc.samsungmobile.com/SM-F976B/EUX/doc.html
+
+  - releaseCycle: "galaxy-f70-pro-5g"
+    releaseLabel: "Galaxy F70 Pro 5G"
+    releaseDate: 2026-08-03 # https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    eoas: 2032-07-31 # 6 generations of OS upgrades - https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    eol: 2032-07-31 # 6 years of security updates - https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f70-pro-5g-alpha-black-128gb-sm-e476bzkbins/
+    link: https://doc.samsungmobile.com/SM-E476B/INS/doc.html
+
+  - releaseCycle: "galaxy-a27-5g"
+    releaseLabel: "Galaxy A27 5G"
+    releaseDate: 2026-07-14 # https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    eoas: 2032-07-14 # 6 Android upgrades - https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    eol: 2032-07-14 # 6 years of security updates - https://news.samsung.com/us/samsung-galaxy-a27-5g-immersive-display-awesome-intelligence-more-users/
+    link: https://doc.samsungmobile.com/SM-A276B/EUX/doc.html
+
+  - releaseCycle: "galaxy-m47-5g"
+    releaseLabel: "Galaxy M47 5G"
+    releaseDate: 2026-07-04 # https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    eoas: 2032-07-04 # 6 Android upgrades - https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    eol: 2032-07-04 # 6 years of security updates - https://www.gsmarena.com/samsung_galaxy_m47_5g-14749.php
+    link: https://doc.samsungmobile.com/SM-M476B/INS/doc.html
 
   - releaseCycle: "galaxy-a57-5g"
     releaseLabel: "Galaxy A57 5G"
@@ -214,7 +242,7 @@ releases:
     releaseDate: 2025-07-22 # https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eoas: 2031-07-22 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eol: 2031-07-22 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
-    link: null # not found on doc.samsungmobile.com as of 2025-08-06
+    link: https://doc.samsungmobile.com/SM-E366B/INS/doc.html
 
   - releaseCycle: "galaxy-m36-5g"
     releaseLabel: "Galaxy M36 5G"
@@ -359,8 +387,8 @@ releases:
   - releaseCycle: "galaxy-z-fold-special-edition"
     releaseLabel: "Galaxy Z Fold Special Edition"
     releaseDate: 2024-10-24 # https://www.gsmarena.com/samsung_galaxy_z_fold_special-13452.php
-    eoas: 2031-10-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-10-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2031-10-24 # 7 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-10-24 # 7 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F958N/KOO/doc.html
 
   - releaseCycle: "galaxy-s24-fe"
@@ -387,8 +415,8 @@ releases:
   - releaseCycle: "galaxy-m05"
     releaseLabel: "Galaxy M05"
     releaseDate: 2024-09-12 # https://news.samsung.com/in/samsung-unveils-galaxy-m05-with-50mp-dual-camera-and-stunning-display-in-india
-    eoas: 2026-09-12 # 2 android upgrade - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-09-12      # 4 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2026-09-12 # 2 android upgrade - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2028-09-12      # 4 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M055F/BKD/doc.html
 
   - releaseCycle: "galaxy-f14"
@@ -408,22 +436,22 @@ releases:
   - releaseCycle: "galaxy-z-fold6"
     releaseLabel: "Galaxy Z Fold6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php
-    eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24      # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2031-07-24 # 7 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-07-24      # 7 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F956W/ESK/doc.html
 
   - releaseCycle: "galaxy-z-flip6"
     releaseLabel: "Galaxy Z Flip6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php
-    eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24  # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2031-07-24 # 7 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-07-24  # 7 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
 
   - releaseCycle: "galaxy-m35-5g"
     releaseLabel: "Galaxy M35 5G"
     releaseDate: 2024-07-17 # https://news.samsung.com/in/samsung-unveils-galaxy-m35-5g-with-segment-leading-monster-features-in-india
-    eoas: 2028-07-17 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2028-07-17 # 4 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M356B/NPB/doc.html
 
   - releaseCycle: "galaxy-f55-5g"
@@ -576,15 +604,15 @@ releases:
   - releaseCycle: "galaxy-z-fold5"
     releaseLabel: "Galaxy Z Fold5"
     releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_5
-    eoas: 2027-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-08-11      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2027-08-11 # 4 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2028-08-11      # 5 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F946B/ZTO/doc.html
 
   - releaseCycle: "galaxy-z-flip5"
     releaseLabel: "Galaxy Z Flip5"
     releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_5
-    eoas: 2027-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2028-08-11      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2027-08-11 # 4 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2028-08-11      # 5 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F731B/ZTO/doc.html
 
   - releaseCycle: "galaxy-f34-5g"
@@ -597,8 +625,8 @@ releases:
   - releaseCycle: "galaxy-m34-5g"
     releaseLabel: "Galaxy M34 5G"
     releaseDate: 2023-07-07 # https://news.samsung.com/in/samsung-launches-galaxy-m34-5g-in-india-with-monster-display-camera-and-battery-at-just-inr-16999
-    eoas: 2027-07-07 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false      # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2027-07-07 # 4 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 5 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M346B1/XID/doc.html
 
   - releaseCycle: "galaxy-f54-5g"
@@ -800,8 +828,8 @@ releases:
   - releaseCycle: "galaxy-m53-5g"
     releaseLabel: "Galaxy M53 5G"
     releaseDate: 2022-04-22 # https://news.samsung.com/in/samsung-launches-galaxy-m53-5g-with-segment-best-108-mp-quad-camera-segment-only-auto-data-switching-segment-leading-samoled-display-in-india
-    eoas: 2024-04-22 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2026-06-03 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2024-04-22 # 2 android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-06-03 # 3 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M536B/SER/doc.html
 
   - releaseCycle: "galaxy-a73-5g"
@@ -814,7 +842,7 @@ releases:
   - releaseCycle: "galaxy-m33-5g"
     releaseLabel: "Galaxy M33 5G"
     releaseDate: 2022-04-08
-    eoas: 2025-04-08 # 3 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2025-04-08 # 3 Android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2026-05-06
     link: https://doc.samsungmobile.com/SM-M336BU/INS/doc.html
 
@@ -926,7 +954,7 @@ releases:
   - releaseCycle: "galaxy-m22"
     releaseLabel: "Galaxy M22"
     releaseDate: 2021-10-13 # https://www.gsmarena.com/samsung_galaxy_m22-11011.php
-    eoas: 2023-10-13 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-10-13 # 2 android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2025-11-04
     link: https://doc.samsungmobile.com/sm-m225fv/zto/doc.html
 
@@ -940,8 +968,8 @@ releases:
   - releaseCycle: "galaxy-m52-5g"
     releaseLabel: "Galaxy M52 5G"
     releaseDate: 2021-10-03
-    eoas: 2023-10-03 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2025-11-04 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-10-03 # 2 android updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2025-11-04 # 3 years of security updates - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M526BR/ITV/doc.html
 
   - releaseCycle: "galaxy-m32-5g"
@@ -962,14 +990,14 @@ releases:
     releaseLabel: "Galaxy Z Fold3 5G"
     releaseDate: 2021-08-27
     eoas: 2025-08-27
-    eol: 2026-08-27
+    eol: 2026-09-08
     link: https://doc.samsungmobile.com/SM-F926B/SER/doc.html
 
   - releaseCycle: "galaxy-z-flip3-5g"
     releaseLabel: "Galaxy Z Flip3 5G"
     releaseDate: 2021-08-27
     eoas: 2025-08-27
-    eol: 2026-08-27
+    eol: 2026-09-08
     link: https://doc.samsungmobile.com/SM-F711B/SER/doc.html
 
   - releaseCycle: "galaxy-a03s"
