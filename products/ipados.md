@@ -87,7 +87,6 @@ releases:
     latest: "12.5.8"
     latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
-
 ---
 
 > [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
