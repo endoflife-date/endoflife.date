@@ -21,9 +21,9 @@ releases:
   - releaseCycle: "4.14"
     releaseDate: 2025-01-09 # dateOf ( 4.14.0 )
     eol: false
-    latest: "4.14.7"
-    latestReleaseDate: 2026-07-29
-    link: https://documentation.wazuh.com/current/release-notes/release-4-14-7.html
+    latest: "4.14.8"
+    latestReleaseDate: 2026-09-23
+    link: https://documentation.wazuh.com/current/release-notes/release-4-14-8.html
 
 ---
 
