@@ -134,7 +134,7 @@ releases:
 > but `26ai` kept `23` for the first number of the release.
 
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
-[various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
+[various support stages](https://www.oracle.com/support/lifetime-support/#software "Lifetime Support for Oracle software")
 (such as Premier, Extended, Sustaining, or Custom Market Driven). Depending on these, release dates
 may vary. This page documents Premier and Extended support dates for Oracle Database On-Premises
 Server Releases for Linux x86-64.

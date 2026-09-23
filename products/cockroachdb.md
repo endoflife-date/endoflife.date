@@ -225,7 +225,7 @@ releases:
 
 ---
 
-> [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and
+> [CockroachDB](https://www.cockroachlabs.com) is a distributed SQL database built on a transactional and
 > strongly-consistent key-value store, developed by Cockroach Labs.
 
 {: .warning }

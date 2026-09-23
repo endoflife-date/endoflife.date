@@ -6,7 +6,7 @@ tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
 versionCommand: firefox --version
-releasePolicyLink: https://www.mozilla.org/firefox/
+releasePolicyLink: https://www.firefox.com/
 changelogTemplate: https://www.firefox.com/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
@@ -379,7 +379,7 @@ releases:
 
 ---
 
-> [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser
+> [Firefox](https://www.firefox.com/), is a free and open-source web browser
 > developed by the Mozilla. Firefox is available for
 > [Windows](https://support.mozilla.org/kb/how-install-firefox-windows),
 > [macOS](https://support.mozilla.org/kb/how-download-and-install-firefox-mac),
