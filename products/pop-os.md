@@ -9,6 +9,7 @@ alternate_urls:
   - /popos
   - /pop_os
 versionCommand: cat /etc/os-release
+releasePolicyLink: https://pop-os.github.io/docs/introduction/pop-development-roadmap.html#does-pop_os-offer-an-lts-version
 latestColumn: false
 eolColumn: General Support
 
