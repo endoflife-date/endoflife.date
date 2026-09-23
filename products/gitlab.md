@@ -57,15 +57,15 @@ releases:
     releaseDate: 2026-05-21
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
-    latest: "19.0.8"
-    latestReleaseDate: 2026-08-14
+    latest: "19.0.9"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
-    latest: "18.11.11"
-    latestReleaseDate: 2026-08-14
+    latest: "18.11.12"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19
