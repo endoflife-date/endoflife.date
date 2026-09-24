@@ -37,6 +37,7 @@ auto:
         releaseCycle:
           column: "Drush Version"
           regex: '^Drush (?P<value>\d+).*$'
+          regex_exclude: '^Drush 14.*$' # not yet released
         supportedPhpVersions: "PHP Version" # release_table does not support the retrieval of Drupal versions
         eol: "End Of Life"
 
