@@ -30,6 +30,28 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6-sol"
+    releaseLabel: "GPT-6 Sol"
+    aliases:
+      - gpt-6-sol
+      - gpt-6-sol
+    releaseDate: 2026-09-22 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-sol"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-6-luna"
+    releaseLabel: "GPT-6 Luna"
+    aliases:
+      - gpt-6-luna
+      - gpt-6-luna
+    releaseDate: 2026-09-22 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    recommendedReplacement: N/A
+
   - releaseCycle: "gpt-image-2.5-sunburst"
     releaseLabel: "GPT-Image-2.5 Sunburst"
     aliases:
