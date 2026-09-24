@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
-releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
+releasePolicyLink: https://kyverno.io/docs/installation/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
 
@@ -14,7 +14,7 @@ customFields:
     display: after-release-column
     label: Kubernetes Version
     description: Supported Kubernetes versions
-    link: https://kyverno.io/docs/installation/#compatibility-matrix
+    link: https://kyverno.io/docs/installation/installation/#compatibility-matrix
 
 identifiers:
   - purl: pkg:github/kyverno/kyverno

@@ -350,7 +350,7 @@ releases:
 > follows the model–view–controller (MVC) approach and is written in PHP, modeled after the
 > concepts of Ruby on Rails.
 
-CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
+CakePHP follows [Semantic Versioning](https://book.cakephp.org/4.x/release-policy.html). From 3.x
 onward, major versions have a codename:
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"codename"," - " %}

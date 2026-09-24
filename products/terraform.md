@@ -24,8 +24,8 @@ releases:
   - releaseCycle: "1.16"
     releaseDate: 2026-08-26
     eol: false # releaseDate(1.18)
-    latest: "1.16.3"
-    latestReleaseDate: 2026-09-16
+    latest: "1.16.4"
+    latestReleaseDate: 2026-09-23
 
   - releaseCycle: "1.15"
     releaseDate: 2026-04-29
@@ -125,7 +125,7 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
+> [Hashicorp Terraform](https://developer.hashicorp.com/terraform) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
 > infrastructure as code software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years.

@@ -23,6 +23,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '(?P<value>\d+\.\d+).*'
+          regex_exclude: '.*milestone.*' # milestone (pre-)releases, such as 5.0.0-M1, are not GA releases
         releaseDate:
           column: "Released"
           regex: '.*\((?P<value>.+)\)'

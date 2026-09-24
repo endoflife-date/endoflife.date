@@ -223,4 +223,4 @@ Users can always upgrade sooner by choosing the beta channel, which typically tr
 [stable]: https://nextcloud.com/install/
 [enterprise]: https://nextcloud.com/enterprise/ "Nextcloud Enterprise"
 [beta]: https://download.nextcloud.com/server/prereleases/ "Beta releases"
-[channels]: https://nextcloud.com/release-channels/
+[channels]: https://nextcloud.com/blog/nextcloud-release-channels-and-how-to-track-them/

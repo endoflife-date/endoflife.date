@@ -8,7 +8,7 @@ permalink: /dbt-core
 alternate_urls:
   - /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
-changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/dbt-labs/dbt/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Critical Support
 
@@ -126,7 +126,7 @@ releases:
 > [dbt Core](https://getdbt.com/) is an open-source data transformation tool that enables data
 > teams to transform data using analytics engineering best practices. It is written in Python and
 > uses a SQL-first approach. dbt Core can be installed and used on the command line, or it can be
-> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt-cloud).
+> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt).
 
 dbt Core follows [SemVer](https://semver.org/). A new minor version is released approximately every
 three months and is supported for one year. The support period is divided into two phases: the active

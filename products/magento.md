@@ -228,7 +228,7 @@ releases:
 ---
 
 > [Magento Open Source](https://business.adobe.com/products/magento/open-source.html), previously known as Magento Community Edition,
-> is an [Open Software License (OSL 3.0)](https://opensource.org/licenses/osl-3.0.php) e-commerce platform written in PHP.
+> is an [Open Software License (OSL 3.0)](https://opensource.org/license/OSL-3.0) e-commerce platform written in PHP.
 > The project has been [under the Adobe umbrella since 2018](https://business.adobe.com/blog/the-latest/magento-is-now-part-of-adobe).
 
 Magento Open Source follows [semantic versioning](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/versioning-policy.html).

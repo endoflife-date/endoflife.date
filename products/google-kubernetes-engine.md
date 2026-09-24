@@ -8,8 +8,8 @@ permalink: /google-kubernetes-engine
 alternate_urls:
   - /gke
 versionCommand: kubectl version
-releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
-changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
+releasePolicyLink: https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule
+changelogTemplate: https://docs.cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -174,7 +174,7 @@ releases:
 > Releases only present in the _Rapid_ channel are not considered stable
 > because they are excluded from [GKE SLA](https://cloud.google.com/kubernetes-engine/sla).
 
-GKE offers [two modes of operations](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison):
+GKE offers [two modes of operations](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison):
 
 - **Standard**: Users manage the cluster's underlying infrastructure.
   Node auto-upgrade is configurable but is enabled by default.
@@ -184,7 +184,7 @@ GKE offers [two modes of operations](https://cloud.google.com/kubernetes-engine/
 GKE performs automatic upgrades of your cluster control plane, regardless of whether your cluster is enrolled in a release channel or not.
 Control plane upgrades cannot be disabled.
 
-[GKE provides a total of 14 months of support](https://cloud.google.com/kubernetes-engine/versioning) for each Kubernetes minor version
+[GKE provides a total of 14 months of support](https://docs.cloud.google.com/kubernetes-engine/versioning) for each Kubernetes minor version
 once the version has been made available in the Regular channel.
 Nodes and node pool versions can be up to two minor versions older than the control plane
 as per the [Kubernetes version skew policy](https://kubernetes.io/releases/version-skew-policy/).
@@ -195,7 +195,7 @@ Autopilot clusters are enrolled in a release channel (defaults to standard) inst
 
 ## Release Channels
 
-GKE offers [3 release channels](https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels): Rapid, Regular (default), and Stable.
+GKE offers [3 release channels](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/release-channels): Rapid, Regular (default), and Stable.
 GKE automatically manages the version and upgrade cadence for a cluster and its node pools if it is enrolled in a release channel.
 All channels offer supported releases of GKE and are considered generally available (GA).
 The End-of-life dates for a specific release will match the above, regardless.
@@ -206,9 +206,9 @@ Clusters with a static GKE version are not enrolled in a release channel.
 Users are responsible for managing their upgrade strategy in this case.
 They must still adhere to the Kubernetes version and version skew support policy and use supported GKE versions.
 
-Google may automatically [upgrade your nodes for security and compatibility purposes](https://cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility) in select cases.
+Google may automatically [upgrade your nodes for security and compatibility purposes](https://docs.cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility) in select cases.
 
-[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins)
-are published along with an [RSS Feed](https://cloud.google.com/feeds/anthos-gke-security-bulletins.xml).
-Please consult the [upgrade guide](https://cloud.google.com/kubernetes-engine/upgrades) before upgrading.
-[Upgrade notifications](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-notifications) are available over Pub/Sub as well.
+[Security bulletins for GKE](https://docs.cloud.google.com/kubernetes-engine/security-bulletins)
+are published along with an [RSS Feed](https://docs.cloud.google.com/static/feeds/gke-security-bulletins.xml).
+Please consult the [upgrade guide](https://docs.cloud.google.com/kubernetes-engine/upgrades) before upgrading.
+[Upgrade notifications](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-notifications) are available over Pub/Sub as well.

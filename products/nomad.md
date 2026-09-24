@@ -106,7 +106,7 @@ releases:
 
 ---
 
-> [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to
+> [Hashicorp Nomad](https://developer.hashicorp.com/nomad) is a simple and flexible workload orchestrator to
 > deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible

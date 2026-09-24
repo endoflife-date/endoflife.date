@@ -6,7 +6,7 @@ iconSlug: hibernate
 permalink: /hibernate-orm
 alternate_urls:
   - /hibernate
-releasePolicyLink: https://hibernate.org/community/maintenance-policy/
+releasePolicyLink: https://hibernate.org/support/maintenance-policy/
 changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/__LATEST__
 eolColumn: Stable support
 eoesColumn: Limited support
@@ -191,6 +191,6 @@ A `{major}.{minor}` combination (6.0, 6.1, 6.2, e.g.) is called a series, and ma
 
 Series labeled _stable_, usually only the latest, are fully maintained with improvements, bug and security fixes.
 Series labeled _limited-support_ [only receive updates that are requested by Red Hat customers](https://discourse.hibernate.org/t/which-version-is-long-term-support-version-for-hibernate-orm-version-5-5-3-or-5-6/9881/3),
-and are not guaranteed to be available, except through [their commercial support offering](https://hibernate.org/orm/support/).
+and are not guaranteed to be available, except through [their commercial support offering](https://hibernate.org/support/).
 
 Supported series, as well as their support level, are documented on the [Hibernate ORM releases page](https://hibernate.org/orm/releases/).

@@ -75,7 +75,7 @@ releases:
 {: .warning }
 
 > Calico Cloud and Calico Enterprise are separate versions maintained by
-> [Tigera](https://www.tigera.io/tigera-products), and may have separate support
+> [Tigera](https://www.tigera.io/tigera-products/compare-products/), and may have separate support
 > options.
 
 Looking at prior GitHub releases, it seems that security and bug fixes are
