@@ -32,9 +32,15 @@ auto:
 # eol(x) = releaseDate(x+1)
 
 releases:
+  - releaseCycle: "2.7"
+    releaseDate: 2026-09-23
+    eol: false
+    latest: "2.7.0"
+    latestReleaseDate: 2026-09-23
+
   - releaseCycle: "2.6"
     releaseDate: 2026-07-14
-    eol: false
+    eol: 2026-09-23
     latest: "2.6.3"
     latestReleaseDate: 2026-09-23
 
@@ -73,7 +79,6 @@ releases:
     eol: 2024-11-30
     latest: "2.0.3"
     latestReleaseDate: 2024-11-15
-
 ---
 
 > [OpenBao](https://openbao.org/) is an open source, community-driven fork of [Hashicorp Vault](/hashicorp-vault) managed by the Linux Foundation.
