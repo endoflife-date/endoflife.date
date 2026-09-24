@@ -77,8 +77,8 @@ releases:
     releaseDate: 2025-11-03
     eoas: 2026-11-03
     eol: 2027-05-03
-    latest: "25.4.16"
-    latestReleaseDate: 2026-09-02
+    latest: "25.4.17"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
@@ -91,8 +91,8 @@ releases:
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.23"
-    latestReleaseDate: 2026-08-24
+    latest: "25.2.24"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
