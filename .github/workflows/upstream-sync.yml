@@ -1,0 +1,30 @@
+name: Sync from Upstream
+
+on:
+  workflow_dispatch: # Manually run workflow
+  schedule:
+    - cron: "0 0 * * 3" # Run weekly on Wednesday at 00:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Github token
+        id: generate_token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+
+      - name: Sync fork with upstream
+        uses: tgymnich/fork-sync@e905b254d56ebb367514cd05fa96bf7516bd2a5a # v2.0.10
+        with:
+          owner: vuls-saas
+          repo: endoflife.date
+          base: master
+          head: master
+          auto_merge: false
+          token: ${{ steps.generate_token.outputs.token }}

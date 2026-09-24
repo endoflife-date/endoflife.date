@@ -11,6 +11,7 @@ eolColumn: Support
 identifiers:
   - repology: dhcp
   - purl: pkg:docker/networkboot/dhcpd
+  - cpe: cpe:2.3:a:isc:dhcp
 
 releases:
   - releaseCycle: "4.4"

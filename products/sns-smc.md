@@ -16,6 +16,9 @@ customFields:
     display: after-release-column
     label: Highest SNS supported versions
 
+identifiers:
+  - cpe: cpe:2.3:a:stormshield:stormshield_management_center
+
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_SMC.htm

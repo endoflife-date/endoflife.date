@@ -10,6 +10,9 @@ latestColumn: false
 eoasColumn: Standard Support
 eolColumn: Deprecated Support
 
+identifiers:
+  - cpe: cpe:2.3:a:amazon:aws_lambda
+
 auto:
   methods:
     - aws-lambda: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html

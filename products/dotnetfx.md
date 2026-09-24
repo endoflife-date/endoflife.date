@@ -15,6 +15,9 @@ latestColumn: false
 eolColumn: Support Status
 staleReleaseThresholdDays: 3650 # linked to their corresponding Windows version
 
+identifiers:
+  - cpe: cpe:2.3:a:microsoft:.net_framework
+
 auto:
   methods:
     - release_table: https://dotnet.microsoft.com/en-us/download/dotnet-framework

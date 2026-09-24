@@ -15,6 +15,9 @@ releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccou
 changelogTemplate: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/release-notes/vmware-cloud-foundation-{{"__LATEST__" | replace:'.','-'}}-release-notes.html
 eolColumn: General Support
 
+identifiers:
+  - cpe: cpe:2.3:a:vmware:cloud_foundation
+
 releases:
   - releaseCycle: "9.1"
     releaseDate: 2026-05-12

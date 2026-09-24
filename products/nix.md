@@ -12,6 +12,7 @@ changelogTemplate: https://nix.dev/manual/nix/latest/release-notes/rl-__RELEASE_
 
 identifiers:
   - repology: nix
+  - cpe: cpe:2.3:a:nixos:nix
 
 auto:
   methods:

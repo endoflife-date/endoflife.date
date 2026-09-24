@@ -35,6 +35,9 @@ auto:
           column: "EOTG"
           type: date
 
+identifiers:
+  - cpe: cpe:2.3:a:vmware:horizon
+
 releases:
   - releaseCycle: "8.2606"
     releaseDate: 2026-08-24

@@ -17,6 +17,7 @@ identifiers:
   - purl: pkg:deb/debian/openvpn
   - purl: pkg:deb/ubuntu/openvpn
   - purl: pkg:github/openvpn/openvpn
+  - cpe: cpe:2.3:a:openvpn:openvpn
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:

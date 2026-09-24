@@ -13,6 +13,7 @@ changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__
 
 identifiers:
   - repology: kotlin
+  - cpe: cpe:2.3:a:jetbrains:kotlin
 
 auto:
   methods:

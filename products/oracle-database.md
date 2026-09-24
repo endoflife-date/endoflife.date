@@ -12,6 +12,9 @@ latestColumn: false
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
+identifiers:
+  - cpe: cpe:2.3:a:oracle:database_server
+
 auto:
   disabled: true # https://support.oracle.com now requires an account
   methods:

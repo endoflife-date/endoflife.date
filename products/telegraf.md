@@ -14,6 +14,7 @@ auto:
 
 identifiers:
   - repology: telegraf
+  - cpe: cpe:2.3:a:influxdata:telegraf
 
 # eol(x) = releaseDate(x+2)
 releases:
