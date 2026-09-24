@@ -212,7 +212,7 @@ releases:
 > [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through
 > logs. It provides a query language, a processing pipeline for data transformation, alerting
 > abilities, and much more. It is extensible through a REST API or add-ons that can be downloaded
-> from [the Graylog marketplace](https://marketplace.graylog.org/).
+> from [the Graylog marketplace](https://community.graylog.org/c/marketplace/31).
 
 {: .warning }
 

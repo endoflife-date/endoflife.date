@@ -48,7 +48,7 @@ releases:
 > [Amazon DocumentDB](https://aws.amazon.com/documentdb/) is a MongoDB-compatible proprietary NoSQL database service managed by Amazon Web Services (AWS).
 
 Amazon DocumentDB does not follow the same support lifecycles as MongoDB and MongoDB's end-of-life schedule does not apply to Amazon DocumentDB.
-Supported releases are documented in [Amazon DocumentDB documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-version-support-dates.html).
+Supported releases are documented in [Amazon DocumentDB documentation](https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-version-support-dates.html).
 
 You can continue running a version past its end of standard support date for an Extended Support fee.
-For more information, see [Amazon DocumentDB Extended Support documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/extended-support.html).
+For more information, see [Amazon DocumentDB Extended Support documentation](https://docs.aws.amazon.com/documentdb/latest/devguide/extended-support.html).

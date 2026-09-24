@@ -136,6 +136,6 @@ before the corresponding major stable release. A [Roadmap](https://wiki.squid-ca
 is maintained for planned features.
 
 [Security Advisories](https://github.com/squid-cache/squid/security/advisories)
-are published on GitHub and can be [subscribed](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository)
+are published on GitHub and can be [subscribed](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository)
 with a GitHub account or via the [squid-announce](http://www.squid-cache.org/Support/mailing-lists.html#squid-announce)
 mailing list. Commercial support is available from [various companies](http://www.squid-cache.org/Support/services.html).

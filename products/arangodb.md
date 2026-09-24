@@ -5,7 +5,7 @@ category: database
 iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
-changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
+changelogTemplate: "https://docs.arango.ai/arangodb/stable/release-notes/version-__RELEASE_CYCLE__/"
 
 identifiers:
   - repology: arangodb
@@ -110,4 +110,4 @@ releases:
 > key/value) with one database core and a unified query language AQL (ArangoDB Query Language).
 
 Major releases are supported for at least 18 months. Minor releases for at least 12 months from
-their general availability. End-of-life notices are announced on <https://arangodb.com/subscriptions/end-of-life-notice/>.
+their general availability. End-of-life notices are announced on <https://arango.ai/arangodb-product-support-end-of-life-announcements/>.

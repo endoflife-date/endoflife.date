@@ -133,7 +133,7 @@ releases:
 
 ---
 
-> [Hashicorp Consul](https://www.consul.io/) automates networking for simple and secure application
+> [Hashicorp Consul](https://developer.hashicorp.com/consul) automates networking for simple and secure application
 > delivery.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible

@@ -9,7 +9,7 @@ alternate_urls:
   - /google-cos
   - /container-optimized-os
 versionCommand: cat /etc/os-release /etc/lsb-release
-releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
+releasePolicyLink: https://docs.cloud.google.com/container-optimized-os/docs/resources/support-policy
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
 releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 eolColumn: Support Status
@@ -138,7 +138,7 @@ releases:
 
 ---
 
-> [Google Container-Optimized OS (COS)](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
+> [Google Container-Optimized OS (COS)](https://docs.cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
 > is an operating system image for [GCP Compute Engine VMs](https://cloud.google.com/compute) which
 > is optimized for running Docker containers. It is maintained by Google and is based on the open
 > source [Chromium OS](https://www.chromium.org/chromium-os) project.
@@ -152,7 +152,7 @@ project.
 
 Container-Optimized OS image support is available for Long-Term Supported (LTS) family of images in
 the `cos-cloud` project. A description of available image families is available at the
-[Versioning Scheme](https://cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
+[Versioning Scheme](https://docs.cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
 doc. The following support commitment applies only to the LTS family of images.
 
 ## Support duration
@@ -169,23 +169,23 @@ During this support window:
 - New releases containing medium and low-priority bug and security fixes are released every 3
   months.
 - To maintain stability, no new breaking features are introduced.
-- All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes)
+- All changes in the image are documented on a dedicated [release notes](https://docs.cloud.google.com/container-optimized-os/docs/release-notes)
   page.
 
 ## Deprecation
 
 At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-lts` and
-`cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://cloud.google.com/compute/docs/reference/rest/v1/images/deprecate)
+`cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/deprecate)
 is set on images in that milestone and those images stop appearing in the active list of images in
 the `cos-cloud` project.
 
 {: .warning}
 
-> Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
+> Any [Image Family API](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
 > references to the deprecated image family will return errors and break any workflows depending on
 > it. You should not use this API to create production instances.
 
 Deprecated images are still accessible and usable when accessed directly by name using the
-[`images get API`](https://cloud.google.com/compute/docs/reference/rest/v1/images/get).
+[`images get API`](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/get).
 However, any issues with those images might not be fixed or will only be fixed in newer milestones.
 Issues reported against deprecated images may be fixed only in newer image milestones.

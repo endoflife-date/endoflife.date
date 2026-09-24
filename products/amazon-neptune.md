@@ -293,7 +293,7 @@ releases:
 
 ---
 
-> [Amazon Neptune](https://docs.aws.amazon.com/neptune/index.html) is a fast, reliable, fully
+> [Amazon Neptune](https://docs.aws.amazon.com/neptune/) is a fast, reliable, fully
 > managed graph database service that makes it easy to build and run applications that work with
 > highly connected datasets. It supports multiple property-graph query languages: Apache TinkerPop,
 > Gremlin, openCypher, and SPARQL. Neptune powers graph use cases such as recommendation engines,

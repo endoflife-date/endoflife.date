@@ -454,7 +454,7 @@ For each LTS, micro-releases will occur every two months (e.g., 3.20.1, 3.20.2).
 Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161).
 LTS releases are supported for 12 months with critical bug fixes and security patches.
 
-Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus/), with a longer support timeline.
+Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/red-hat-build-quarkus/), with a longer support timeline.
 The code base used for this build is the same as the one used for the community version,
 but it comes with support, a [slower release cadence](https://access.redhat.com/support/policy/updates/jboss_notes#p_quarkus)
 and [certified builds of Quarkus and its dependencies](https://code.quarkus.redhat.com/).

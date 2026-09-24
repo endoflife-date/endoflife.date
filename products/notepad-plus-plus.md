@@ -80,4 +80,4 @@ releases:
 > [Notepad++](https://notepad-plus-plus.org) (sometimes npp or NPP) is a text and source code for use with Microsoft Windows.
 
 Notepad++ does not have a documented release policy.
-According to [this comment](https://community.notepad-plus-plus.org/post/88471), only the latest release is maintained.
+According to [this comment](https://community.notepad-plus-plus.org/topic/24801/end-of-version-support-dates/2), only the latest release is maintained.

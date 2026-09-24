@@ -121,7 +121,7 @@ releases:
 
 ---
 
-> [Hashicorp Vault](https://www.vaultproject.io/) is a tool for securely accessing secrets. It
+> [Hashicorp Vault](https://developer.hashicorp.com/vault) is a tool for securely accessing secrets. It
 > provides a unified interface to any secret, while providing tight access control and recording a
 > detailed audit log.
 
@@ -129,7 +129,7 @@ releases:
   end when the next release occurs. While the [Enterprise versions](https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy)
   have extended support.
 
-- [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/lts)
+- [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/support)
   releases offer extended maintenance through minor releases for select,
   major **Vault Enterprise** releases. The latest 2 LTS releases are supported at any given time,
   following an N-1 policy.

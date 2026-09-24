@@ -162,4 +162,4 @@ months from the first release, extended to 24 months for LTS major releases. It 
 major releases. At the end of the Security phase, major releases are considered End Of Life (EOL).
 
 A full list of releases with their release notes can be found on
-[Umbraco All Releases page](https://our.umbraco.com/download/releases).
+[Umbraco All Releases page](https://releases.umbraco.com/).

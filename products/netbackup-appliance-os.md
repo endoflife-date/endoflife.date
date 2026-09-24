@@ -79,7 +79,7 @@ releases:
     latestReleaseDate: 2016-06-05
 ---
 
-> [Veritas NetBackup Appliance OS](https://www.veritas.com/protection/netbackup) is an operating system designed by Veritas Technologies
+> [Veritas NetBackup Appliance OS](https://www.cohesity.com/platform/netbackup/) is an operating system designed by Veritas Technologies
 > specifically for their NetBackup Appliance hardware.
 
 {: .note }

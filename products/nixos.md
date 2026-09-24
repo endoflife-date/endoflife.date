@@ -8,7 +8,7 @@ permalink: /nixos
 alternate_urls:
   - /nixoslinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://nixos.org/blog/announcements.html
+releasePolicyLink: https://nixos.org/blog/announcements/
 changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false

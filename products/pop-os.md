@@ -18,13 +18,13 @@ releases:
     releaseDate: 2025-12-11
     lts: true
     eol: 2029-05-31
-    link: https://blog.system76.com/post/pop-os-letter-from-our-founder
+    link: https://system76.com/blog/post/pop-os-letter-from-our-founder
 
   - releaseCycle: "22.04"
     releaseDate: 2022-04-25
     lts: true
     eol: 2027-04-25
-    link: https://blog.system76.com/post/popos-2204-lts-has-landed
+    link: https://system76.com/blog/post/popos-2204-lts-has-landed
 
   - releaseCycle: "21.10"
     releaseDate: 2021-12-14
@@ -34,7 +34,7 @@ releases:
   - releaseCycle: "21.04"
     releaseDate: 2021-06-29
     eol: 2022-03-13
-    link: https://blog.system76.com/post/popos-2104-a-release-of-cosmic-proportions
+    link: https://system76.com/blog/post/popos-2104-a-release-of-cosmic-proportions
 
   - releaseCycle: "20.10"
     releaseDate: 2020-10-23
@@ -74,7 +74,7 @@ releases:
     link: https://www.tumblr.com/system76/165833795278/why-system76-is-making-popos
 ---
 
-> [Pop!\_OS](https://pop.system76.com) is a free and open-source Linux distribution based on Ubuntu.
+> [Pop!\_OS](https://system76.com/pop) is a free and open-source Linux distribution based on Ubuntu.
 
 The release schedule of Pop!\_OS is the same as Ubuntu, with new releases every six months in April and October.
 Long-term support releases are made every two years, in April of even-numbered years.

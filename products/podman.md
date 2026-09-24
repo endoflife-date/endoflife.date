@@ -6,7 +6,7 @@ tags: cncf linux-foundation
 iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
-changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/podman-container-tools/podman/releases/tag/v__LATEST__"
 
 identifiers:
   - repology: podman

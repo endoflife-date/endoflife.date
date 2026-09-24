@@ -6,8 +6,8 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/releases#support-policy
-changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
+releasePolicyLink: https://laravel.com/framework/docs/releases#support-policy
+changelogTemplate: https://laravel.com/framework/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
 customFields:
@@ -114,7 +114,7 @@ releases:
     eoas: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
-    link: https://laravel.com/docs/5.8/releases
+    link: https://laravel.com/framework/docs/5.8/releases
     latest: "5.8.38"
     latestReleaseDate: 2020-04-14
 
@@ -124,7 +124,7 @@ releases:
     eoas: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
-    link: https://laravel.com/docs/5.5/releases
+    link: https://laravel.com/framework/docs/5.5/releases
     latest: "5.5.50"
     latestReleaseDate: 2020-08-18
 
