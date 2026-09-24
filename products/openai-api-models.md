@@ -465,7 +465,7 @@ releases:
     eoas: 2026-03-24
     eol: 2026-09-24
     link: "https://developers.openai.com/api/docs/models/sora-2"
-    recommendedReplacement: N/A
+    recommendedReplacement: —
 
   - releaseCycle: "sora-2-pro"
     releaseLabel: "Sora 2 Pro"
@@ -476,7 +476,7 @@ releases:
     eoas: 2026-03-24
     eol: 2026-09-24
     link: "https://developers.openai.com/api/docs/models/sora-2-pro"
-    recommendedReplacement: N/A
+    recommendedReplacement: —
 
   - releaseCycle: "gpt-5-codex"
     releaseLabel: "GPT-5-Codex"
