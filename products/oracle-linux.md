@@ -67,7 +67,7 @@ releases:
 > [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle
 > to be a 100% application binary compatible alternative to Red Hat Enterprise Linux.
 
-## [Support Tiers](https://www.oracle.com/us/support/library/enterprise-linux-support-policies-069172.pdf)
+## [Support Tiers](https://www.oracle.com/contracts/docs/enterprise_linux_support_policies_069172.pdf)
 
 - **Basic Support**: Available for 10 years for versions 5–9 from date of release.
   Includes access to patches, fixes, security patches and security alerts.
