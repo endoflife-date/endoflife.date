@@ -175,13 +175,6 @@ releases:
     latest: "8.2012"
     latestReleaseDate: 2021-01-07
 
-  - releaseCycle: "8.2006"
-    releaseDate: 2020-08-11
-    eol: 2025-08-11
-    technicalGuidance: 2027-08-11
-    latest: "8.2006"
-    latestReleaseDate: 2020-08-11
-
   - releaseCycle: "7.13"
     releaseDate: 2020-10-15
     eol: 2023-04-30
@@ -189,6 +182,13 @@ releases:
     latest: "7.13.3"
     latestReleaseDate: 2023-03-21
     link: null
+
+  - releaseCycle: "8.2006"
+    releaseDate: 2020-08-11
+    eol: 2025-08-11
+    technicalGuidance: 2027-08-11
+    latest: "8.2006"
+    latestReleaseDate: 2020-08-11
 
   - releaseCycle: "7.10"
     releaseDate: 2019-09-17
