@@ -392,7 +392,7 @@ releases:
     releaseDate: 2009-04-29
     eoas: 2012-04-10
     eol: 2017-04-11
-    latest: 6.0.6200
+    latest: 6.0.6002
     link: https://learn.microsoft.com/lifecycle/products/windows-vista
 
   - releaseCycle: "5-sp3"
