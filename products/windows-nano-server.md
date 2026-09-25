@@ -94,10 +94,10 @@ releases:
 
   - releaseCycle: "1607"
     releaseDate: 2016-10-15
-    eoas: 2018-09-10
-    eol: 2018-09-10
+    eoas: 2018-10-09
+    eol: 2018-10-09
     latest: 10.0.14393
-    link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2016-nano-server-installation-option
 ---
 
 > Nano Server is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
