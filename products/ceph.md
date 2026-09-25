@@ -31,7 +31,7 @@ auto:
       fields:
         releaseCycle:
           column: "Latest"
-          regex: '^(?P<value>\d+)\.\d+\.\d+$'
+          regex: '^(?P<value>[1-9]\d*)\.\d+\.\d+$'
         codename: "Name"
         releaseDate: "Initial release"
         eol: "End of life"
