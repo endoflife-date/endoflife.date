@@ -69,9 +69,9 @@ releases:
 
 ## [Support Tiers](https://www.oracle.com/us/support/library/enterprise-linux-support-policies-069172.pdf)
 
-- **Basic Support**: Available for 10 years for versions 5–9 from date of release.
+- **Basic Support**: Available for 10 years from the general availability of each major release.
   Includes access to patches, fixes, security patches and security alerts.
-- **Premier Support**: Available for 10 years for versions 5–9 from date of release.
+- **Premier Support**: Available for 10 years from the general availability of each major release.
   Includes access to patches, fixes, security patches and security alerts.
   Additionally, includes live kernel patching (Certain security patches that may be applied without a reboot).
 - **Extended Support**: Available for a limited time, after Premier Support ends, as per agreement with Oracle.
