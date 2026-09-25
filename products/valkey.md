@@ -24,8 +24,8 @@ auto:
 releases:
   - releaseCycle: "9.1"
     releaseDate: 2026-05-19
-    eoas: false # not announced yet on https://valkey.io/topics/releases/
-    eol: false # not announced yet on https://valkey.io/topics/releases/
+    eoas: 2029-05-19
+    eol: 2031-05-19
     latest: "9.1.2"
     latestReleaseDate: 2026-08-31
 
