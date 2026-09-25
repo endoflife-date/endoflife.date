@@ -10,6 +10,12 @@ eolColumn: Primary Support
 
 # - eol(x) = "Extended Support Starts" for "Appliance - Netbackup" on https://sort.veritas.com/eosl
 releases:
+  - releaseCycle: "6.1"
+    releaseDate: 2026-01-14
+    eol: false
+    latest: "6.1.0.2 MR1"
+    latestReleaseDate: 2026-08-31
+
   - releaseCycle: "5.5"
     releaseDate: 2025-07-31
     eol: false
