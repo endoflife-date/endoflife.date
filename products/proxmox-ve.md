@@ -79,7 +79,7 @@ releases:
     latestReleaseDate: 2013-03-04
 
   - releaseCycle: "1"
-    releaseDate: 2011-09-13
+    releaseDate: 2008-10-29
     eol: 2013-01-31
     latest: "1.9"
     latestReleaseDate: 2011-09-13
