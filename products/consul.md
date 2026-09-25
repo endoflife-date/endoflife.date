@@ -6,7 +6,7 @@ tags: hashicorp
 iconSlug: consul
 permalink: /consul
 versionCommand: consul --version
-releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
+releasePolicyLink: https://developer.hashicorp.com/consul/docs/enterprise/support
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 
 identifiers:
@@ -21,23 +21,25 @@ auto:
   methods:
     - git: https://github.com/hashicorp/consul.git
 
-# eol(x) = releaseDate(x+3)
+# eol(x) = "Planned end of support" on https://developer.hashicorp.com/consul/docs/enterprise/support when listed,
+# otherwise releaseDate(x+3).
 releases:
   - releaseCycle: "2.0"
     releaseDate: 2026-05-24
-    eol: false # releaseDate(2.3)
+    eol: 2028-04-30
     latest: "2.0.4"
     latestReleaseDate: 2026-09-09
 
   - releaseCycle: "1.22"
     releaseDate: 2025-10-27
-    eol: false # releaseDate(2.2)
+    eol: 2026-10-31
     latest: "1.22.7"
     latestReleaseDate: 2026-04-22
 
   - releaseCycle: "1.21"
+    lts: true
     releaseDate: 2025-05-06
-    eol: false # releaseDate(2.1)
+    eol: 2027-04-30
     latest: "1.21.5"
     latestReleaseDate: 2025-09-21
 
@@ -54,8 +56,9 @@ releases:
     latestReleaseDate: 2024-08-27
 
   - releaseCycle: "1.18"
+    lts: true
     releaseDate: 2024-02-26
-    eol: 2025-05-06
+    eol: 2026-04-30
     latest: "1.18.2"
     latestReleaseDate: 2024-05-16
 
@@ -72,8 +75,9 @@ releases:
     latest: "1.16.7"
 
   - releaseCycle: "1.15"
+    lts: true
     releaseDate: 2023-02-23
-    eol: 2024-02-27
+    eol: 2025-04-30
     latestReleaseDate: 2024-03-26
     latest: "1.15.11"
 
