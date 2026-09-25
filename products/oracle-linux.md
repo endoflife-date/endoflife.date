@@ -29,8 +29,8 @@ identifiers:
 releases:
   - releaseCycle: "10"
     releaseDate: 2025-06-26
-    eol: false
-    eoes: false
+    eol: 2035-06-30
+    eoes: 2038-06-30
     latest: "10.1"
     latestReleaseDate: 2025-12-06
 
