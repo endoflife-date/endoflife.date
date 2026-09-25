@@ -22,19 +22,20 @@ auto:
   methods:
     - cos: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
 
-# For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
+# For EOL dates, see the "End of support" column on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
+# (month-only dates are recorded as the first day of that month).
 releases:
   - releaseCycle: "cos-129"
     lts: true
     releaseDate: 2026-05-21
-    eol: 2028-03-01
+    eol: 2028-07-01 # "July 2028" on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
     latest: "cos-129-19506-448-36"
     latestReleaseDate: 2026-09-17
 
   - releaseCycle: "cos-125"
     lts: true
     releaseDate: 2025-10-09
-    eol: 2027-09-01
+    eol: 2028-02-01 # "Feb 2028" on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
     latest: "cos-125-19216-655-28"
     latestReleaseDate: 2026-09-17
 
