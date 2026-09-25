@@ -18,7 +18,7 @@ identifiers:
 auto:
   methods:
     - distrowatch: antix
-      regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
+      regex: '^Distribution Release: antiX (?P<major>\d+)\.(?P<minor>\d+)$'
 
 # eoas(x) = Corresponding Debian eoas(x)
 # eol(x) = Corresponding Debian eol(x)
@@ -35,8 +35,8 @@ releases:
   - releaseCycle: "23"
     codename: "Arditi del Popolo" # Bookworm
     releaseDate: 2023-08-28
-    latest: "23"
-    latestReleaseDate: 2023-08-28
+    latest: "23.2"
+    latestReleaseDate: 2024-10-07
     eoas: 2026-07-11
     eol: 2028-06-30
     link: https://antixlinux.com/antix-23-released/
