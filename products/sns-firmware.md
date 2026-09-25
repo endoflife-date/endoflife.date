@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "4.8"
     releaseDate: 2024-07-02
     lts: true
-    eoas: false
-    eol: false
+    eoas: 2029-12-31
+    eol: 2030-03-31
 
   - releaseCycle: "4.7"
     releaseDate: 2023-10-31
