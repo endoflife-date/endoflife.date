@@ -35,7 +35,7 @@ releases:
   - releaseCycle: "6.2"
     pythonVersions: "3.10-3.14"
     releaseDate: 2026-05-19
-    eoas: false
+    eoas: 2027-06-30 # estimated, based on current Release Schedule
     eol: 2028-06-30
     latest: "6.2.2"
     latestReleaseDate: 2026-09-10
