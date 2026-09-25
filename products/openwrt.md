@@ -32,7 +32,7 @@ releases:
   - releaseCycle: "24.10"
     releaseDate: 2025-02-04
     eoas: 2026-03-05
-    eol: 2026-09-05
+    eol: 2026-09-30 # still "Security Maintenance", EoL projected "2026, September" on https://openwrt.org/docs/guide-developer/security#support_status
     latest: "24.10.8"
     latestReleaseDate: 2026-07-25
 
