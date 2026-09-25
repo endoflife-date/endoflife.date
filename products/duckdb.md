@@ -5,7 +5,7 @@ category: database
 iconSlug: duckdb
 permalink: /duckdb
 versionCommand: duckdb -version
-releasePolicyLink: https://ducklabs.com/community_support_policy/
+releasePolicyLink: https://duckdb.org/community_support
 changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/v__LATEST__
 eolColumn: Support Status
 
@@ -21,7 +21,7 @@ releases:
   - releaseCycle: "1.5"
     codename: "Variegata"
     releaseDate: 2026-03-09
-    eol: false
+    eol: 2026-11-01
     latest: "1.5.5"
     latestReleaseDate: 2026-07-22
 
@@ -29,7 +29,7 @@ releases:
     codename: "Andium"
     lts: true
     releaseDate: 2025-09-16
-    eol: 2026-09-16
+    eol: 2026-11-17
     latest: "1.4.5"
     latestReleaseDate: 2026-06-17
 
