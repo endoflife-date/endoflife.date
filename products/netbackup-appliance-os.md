@@ -8,7 +8,26 @@ permalink: /netbackup-appliance-os
 releasePolicyLink: https://sort.veritas.com/eosl
 eolColumn: Primary Support
 
-# - eol(x) = "Extended Support Starts" for "Appliance - Netbackup" on https://sort.veritas.com/eosl
+auto:
+  methods:
+    - version_table: https://sort.veritas.com/eosl?prod=58991
+      render_javascript: true
+      render_javascript_wait_for: "#eosl_tbl tbody tr"
+      name_column: "Version"
+      date_column: "Release Date(GA)"
+      regex: '^(?P<value>\d+(?:\.\d+){1,3}(?: MR\d+)?)$'
+      template: "{{value}}"
+    - release_table: https://sort.veritas.com/eosl?prod=58991
+      render_javascript: true
+      render_javascript_wait_for: "#eosl_tbl tbody tr"
+      selector: "#eosl_tbl"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<major>\d+)(?:\.(?P<minor>\d+))?.*$'
+          template: "{{major}}{% if minor %}.{{minor}}{% endif %}"
+        eol: "Extended Support Starts"
+
 releases:
   - releaseCycle: "6.1"
     releaseDate: 2026-01-14
@@ -19,15 +38,15 @@ releases:
   - releaseCycle: "5.5"
     releaseDate: 2025-07-31
     eol: false
-    latest: "5.5.0.1 MR1"
-    latestReleaseDate: 2025-07-31
+    latest: "5.5.0.1 MR2"
+    latestReleaseDate: 2026-06-08
 
   - releaseCycle: "5.3"
     staleReleaseThresholdDays: 730 # still supported according to https://sort.veritas.com/eosl
     releaseDate: 2023-11-27
     eol: false
-    latest: "5.3.0.1 MR4"
-    latestReleaseDate: 2025-01-27
+    latest: "5.3.0.1 MR5"
+    latestReleaseDate: 2025-12-05
 
   - releaseCycle: "5.1"
     releaseDate: 2023-02-08
@@ -83,6 +102,7 @@ releases:
     eol: 2020-10-01
     latest: "2.7.3"
     latestReleaseDate: 2016-06-05
+
 ---
 
 > [Veritas NetBackup Appliance OS](https://www.cohesity.com/platform/netbackup/) is an operating system designed by Veritas Technologies
