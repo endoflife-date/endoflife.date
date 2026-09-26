@@ -14,51 +14,71 @@ changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-
 eolColumn: Full Support
 latestColumn: false # no public access to the latest patches
 
-# Releases are documented on https://mysupport.netapp.com/site/info/version-support.
+# The source table uses a rowspan for the product name, so the first row has the
+# expected columns while subsequent rows are shifted left under the same headers.
+# Note that https://mysupport.netapp.com/site/info/version-support was not used because it's harder to parse.
+auto:
+  methods:
+    - release_table: https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/What_are_the_ONTAP_Software_Version_Support_dates
+      rows_selector: "tbody tr:first-child"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>9\.\d+(?:\.1)?)$'
+        eol: "End of Full Support"
+    - release_table: https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/What_are_the_ONTAP_Software_Version_Support_dates
+      rows_selector: "tbody tr:not(:first-child)"
+      fields:
+        releaseCycle:
+          column: "Product"
+          regex: '^(?P<value>9\.\d+(?:\.1)?)$'
+        eol: "Version"
+
 releases:
   - releaseCycle: "9.19.1"
-    releaseDate: 2026-07-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
-    eol: 2029-07-30
+    releaseDate: 2026-07-01
+    eol: 2029-07-31
 
   - releaseCycle: "9.18.1"
-    releaseDate: 2026-02-04 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2026-02-04
     eol: 2029-01-31
 
   - releaseCycle: "9.17.1"
-    releaseDate: 2026-01-15 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2026-01-15
     eol: 2028-09-30
 
   - releaseCycle: "9.16.1"
-    releaseDate: 2025-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2025-01-01
     eol: 2028-02-26 # "26-Feb-2028" on https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/What_are_the_ONTAP_Software_Version_Support_dates
 
   - releaseCycle: "9.15.1"
-    releaseDate: 2024-05-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2024-05-01
     eol: 2027-07-31
 
   - releaseCycle: "9.14.1"
-    releaseDate: 2024-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2024-01-01
     eol: 2027-01-31
 
   - releaseCycle: "9.13.1"
-    releaseDate: 2023-06-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2023-06-01
     eol: 2026-06-30
 
   - releaseCycle: "9.12.1"
-    releaseDate: 2023-02-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2023-02-01
     eol: 2026-02-28
 
   - releaseCycle: "9.11.1"
-    releaseDate: 2022-07-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2022-07-01
     eol: 2025-07-31
 
   - releaseCycle: "9.10.1"
-    releaseDate: 2022-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2022-01-01
     eol: 2025-01-31
 
   - releaseCycle: "9.9.1"
-    releaseDate: 2021-06-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
+    releaseDate: 2021-06-01
     eol: 2024-06-30
+
 ---
 
 > [NetApp ONTAP](https://docs.netapp.com/us-en/netapp-solutions-containers/openshift/os-netapp-ontap.html#netapp-platforms) is a storage operating system designed for managing and
