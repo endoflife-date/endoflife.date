@@ -84,7 +84,7 @@ releases:
     eol: 2020-10-30
 
   - releaseCycle: "19.09"
-    codename: "Lori"
+    codename: "Loris"
     releaseDate: 2019-10-09
     eol: 2020-04-30
 
