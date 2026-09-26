@@ -17,6 +17,12 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/hashicorp/nomad.git
+    - release_table: https://developer.hashicorp.com/nomad/docs/ce-license-support
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)\.x.*$'
+        eol: "Base Support End"
 
 # eol(x) = "Base Support End" on https://developer.hashicorp.com/nomad/docs/ce-license-support when listed,
 # otherwise releaseDate(x+3).
