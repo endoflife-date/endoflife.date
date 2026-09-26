@@ -1,6 +1,6 @@
 ---
 title: Samba
-addedAt: 2026-09-15
+addedAt: 2026-09-26
 category: server-app
 permalink: /samba
 versionCommand: samba --version
