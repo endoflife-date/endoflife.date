@@ -20,6 +20,7 @@ identifiers:
   - purl: pkg:github/openwrt/openwrt
 
 # eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
+# Once listed, eol(x) = last day of the "EoL (Projected)" month on https://openwrt.org/docs/guide-developer/security#support_status
 # eoas(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "25.12"
@@ -46,12 +47,12 @@ releases:
   - releaseCycle: "22.03"
     releaseDate: 2022-09-03
     eoas: 2023-10-11
-    eol: 2024-04-11
+    eol: 2024-07-31
     latest: "22.03.7"
     latestReleaseDate: 2024-07-23
 
   - releaseCycle: "21.02"
-    eol: 2023-04-30
+    eol: 2023-05-31
     eoas: 2022-09-03
     releaseDate: 2021-09-01
     latestReleaseDate: 2023-04-27
@@ -65,14 +66,14 @@ releases:
     latest: "19.07.10"
 
   - releaseCycle: "18.06"
-    eol: 2021-07-01
+    eol: 2020-12-31
     eoas: 2020-01-06
     releaseDate: 2018-07-30
     latestReleaseDate: 2020-11-17
     latest: "18.06.9"
 
   - releaseCycle: "17.01"
-    eol: 2019-02-01
+    eol: 2019-06-30
     eoas: 2018-07-30
     releaseDate: 2017-02-20
     latestReleaseDate: 2019-06-21
