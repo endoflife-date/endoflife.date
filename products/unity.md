@@ -24,8 +24,8 @@ releases:
     releaseLabel: "6.6"
     releaseDate: 2026-08-31
     eol: false
-    latest: "6000.6.2f1"
-    latestReleaseDate: 2026-09-18
+    latest: "6000.6.3f1"
+    latestReleaseDate: 2026-09-24
 
   - releaseCycle: "6000.5"
     releaseLabel: "6.5"
@@ -47,8 +47,8 @@ releases:
     releaseDate: 2025-12-04
     eol: 2027-12-04
     eoes: 2028-12-04
-    latest: "6000.3.24f1"
-    latestReleaseDate: 2026-09-10
+    latest: "6000.3.25f1"
+    latestReleaseDate: 2026-09-24
 
   - releaseCycle: "6000.2"
     releaseLabel: "6.2"
