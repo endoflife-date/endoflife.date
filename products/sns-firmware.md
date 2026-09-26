@@ -11,17 +11,22 @@ eolColumn: Lifecycle Support
 staleReleaseThresholdDays: 1825 # devices have longer support periods
 releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
+
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
       render_javascript: true
       ignore_empty_releases: true
       fields:
-        releaseCycle: "SNS version"
+        releaseCycle:
+          column: "SNS version"
+          regex: '^(?P<value>\d+(?:\.\d+)?)(?:\.?x|\s+(?:LTSB|QS)\*)?$'
         eol:
           column: "End of Life"
-          regex: '^.*(?P<value>\w+ \d+).*$'
-        releaseDate: "Available as of"
+          regex: '^.*(?P<value>(\d{2}/\d{2}/\d{4}|\w+ \d+)).*$'
+        releaseDate:
+          column: "Available as of"
+          regex: '^.*(?P<value>(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2})).*$'
         eoas: "End of Maintenance"
 
 releases:
