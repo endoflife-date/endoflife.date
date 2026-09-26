@@ -30,7 +30,7 @@ releases:
 
   - releaseCycle: "9.16.1"
     releaseDate: 2025-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
-    eol: 2028-01-31
+    eol: 2028-02-26 # "26-Feb-2028" on https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/What_are_the_ONTAP_Software_Version_Support_dates
 
   - releaseCycle: "9.15.1"
     releaseDate: 2024-05-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
