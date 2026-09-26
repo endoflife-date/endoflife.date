@@ -16,8 +16,8 @@ releases:
     releaseDate: 2025-10-28
     eol: false
     link: https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/
-    latest: "25.10.6"
-    latestReleaseDate: 2026-08-12
+    latest: "25.10.7"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "25.04"
     codename: "Fangtooth"
