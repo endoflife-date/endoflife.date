@@ -12,40 +12,44 @@ releasePolicyLink: https://openwrt.org/docs/guide-developer/security#support_sta
 changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
 eoasColumn: true
 
-auto:
-  methods:
-    - git: https://github.com/openwrt/openwrt.git
-
 identifiers:
   - purl: pkg:github/openwrt/openwrt
 
-# eol(x) = MAX(releaseDate(x+1)+6m, releaseDate(x)+1y)
-# Once listed, eol(x) = last day of the "EoL (Projected)" month on https://openwrt.org/docs/guide-developer/security#support_status
+auto:
+  methods:
+    - git: https://github.com/openwrt/openwrt.git
+    - release_table: https://openwrt.org/docs/guide-developer/security#support_status
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Initial Release"
+        eol: "EoL (Projected)"
+
 # eoas(x) = releaseDate(x+1)
+# eol(x) from https://openwrt.org/docs/guide-developer/security#support_status
 releases:
   - releaseCycle: "25.12"
-    releaseDate: 2026-03-05
+    releaseDate: 2026-03-06
     eoas: false
     eol: false
     latest: "25.12.5"
     latestReleaseDate: 2026-06-30
 
   - releaseCycle: "24.10"
-    releaseDate: 2025-02-04
+    releaseDate: 2025-02-06
     eoas: 2026-03-05
-    eol: 2026-09-30 # still "Security Maintenance", EoL projected "2026, September" on https://openwrt.org/docs/guide-developer/security#support_status
+    eol: 2026-09-30
     latest: "24.10.8"
     latestReleaseDate: 2026-07-25
 
   - releaseCycle: "23.05"
-    releaseDate: 2023-10-11
+    releaseDate: 2023-10-13
     eoas: 2025-02-04
-    eol: 2025-08-16
+    eol: 2025-08-31
     latest: "23.05.6"
     latestReleaseDate: 2025-08-16
 
   - releaseCycle: "22.03"
-    releaseDate: 2022-09-03
+    releaseDate: 2022-09-06
     eoas: 2023-10-11
     eol: 2024-07-31
     latest: "22.03.7"
@@ -54,7 +58,7 @@ releases:
   - releaseCycle: "21.02"
     eol: 2023-05-31
     eoas: 2022-09-03
-    releaseDate: 2021-09-01
+    releaseDate: 2021-09-04
     latestReleaseDate: 2023-04-27
     latest: "21.02.7"
 
@@ -68,16 +72,17 @@ releases:
   - releaseCycle: "18.06"
     eol: 2020-12-31
     eoas: 2020-01-06
-    releaseDate: 2018-07-30
+    releaseDate: 2018-07-31
     latestReleaseDate: 2020-11-17
     latest: "18.06.9"
 
   - releaseCycle: "17.01"
     eol: 2019-06-30
     eoas: 2018-07-30
-    releaseDate: 2017-02-20
+    releaseDate: 2017-02-22
     latestReleaseDate: 2019-06-21
     latest: "17.01.7"
+
 
 
 
