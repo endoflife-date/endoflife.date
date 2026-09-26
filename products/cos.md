@@ -21,6 +21,28 @@ identifiers:
 auto:
   methods:
     - cos: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
+    - release_table: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/#Current
+      selector: "#Current ~ table"
+      fields:
+        releaseCycle:
+          column: "OS version"
+          regex: '^COS (?P<value>\d+) LTS$'
+          template: "cos-{{value}}"
+        eol:
+          column: "End of support"
+          regex: '^(?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{month}} 1 {{year}}"
+    - release_table: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/#Archived
+      selector: "#Archived ~ table"
+      fields:
+        releaseCycle:
+          column: "OS version"
+          regex: '^COS (?P<value>\d+) LTS$'
+          template: "cos-{{value}}"
+        eol:
+          column: "Deprecation date"
+          regex: '^(?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{month}} 1 {{year}}"
 
 # For EOL dates, see the "End of support" column on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
 # (month-only dates are recorded as the first day of that month).
@@ -56,42 +78,42 @@ releases:
   - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
-    eol: 2026-05-12
+    eol: 2026-03-01
     latest: "cos-113-18244-582-104"
     latestReleaseDate: 2026-05-12
 
   - releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
-    eol: 2025-09-24
+    eol: 2025-09-01
     latest: "cos-109-17800-570-50"
     latestReleaseDate: 2025-09-24
 
   - releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
-    eol: 2025-04-01
+    eol: 2025-03-01
     latest: "cos-105-17412-535-98"
     latestReleaseDate: 2025-03-31
 
   - releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
-    eol: 2024-10-21
+    eol: 2024-10-01
     latest: "cos-101-17162-528-64"
     latestReleaseDate: 2024-10-21
 
   - releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
-    eol: 2024-03-27
+    eol: 2024-04-01
     latest: "cos-97-16919-450-41"
     latestReleaseDate: 2024-03-27
 
   - releaseCycle: "cos-93"
     lts: true
     releaseDate: 2021-10-18
-    eol: 2023-10-24
+    eol: 2023-10-01
     latest: "cos-93-16623-461-42"
     latestReleaseDate: 2023-10-24
 
@@ -126,7 +148,7 @@ releases:
   - releaseCycle: "cos-73"
     lts: true
     releaseDate: 2019-03-25
-    eol: 2020-09-05
+    eol: 2020-06-01
     latest: "cos-73-11647-656-0"
     latestReleaseDate: 2020-09-05
 
