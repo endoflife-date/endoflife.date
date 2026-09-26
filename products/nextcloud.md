@@ -26,8 +26,8 @@ releases:
   - releaseCycle: "35"
     releaseDate: 2026-09-16
     eol: 2027-09-30
-    latest: "35.0.0"
-    latestReleaseDate: 2026-09-15
+    latest: "35.0.1"
+    latestReleaseDate: 2026-09-24
 
   - releaseCycle: "34"
     releaseDate: 2026-06-09

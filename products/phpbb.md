@@ -23,8 +23,8 @@ releases:
     staleReleaseThresholdDays: 500
     eoas: false
     eol: false
-    latest: "3.3.18"
-    latestReleaseDate: 2026-09-20
+    latest: "3.3.19"
+    latestReleaseDate: 2026-09-24
     link: https://www.phpbb.com/community/viewtopic.php?t=2661607
 
   - releaseCycle: "3.2"

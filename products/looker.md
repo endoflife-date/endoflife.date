@@ -32,12 +32,13 @@ auto:
 releases:
   - releaseCycle: "26.18"
     releaseDate: 2026-09-17
-    eol: false # not yet listed on https://cloud.google.com/looker/docs/officially-supported-releases
+    eol: 2027-02-28 # not yet listed on https://cloud.google.com/looker/docs/officially-supported-releases
     link: https://docs.cloud.google.com/looker/docs/release-notes#September_17_2026
 
+    lts: 2026-11-30
   - releaseCycle: "26.16"
     releaseDate: 2026-09-04
-    eol: 2026-12-31
+    eol: 2026-10-31
     link: https://docs.cloud.google.com/looker/docs/release-notes#September_04_2026
 
   - releaseCycle: "26.14"
