@@ -26,6 +26,7 @@ auto:
         releaseCycle:
           column: "Release"
           regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
+          regex_exclude: '^V2R1\.1$' # V2R1.1 is a point release, not a release cycle
           template: "{{major}}.{{minor}}"
         releaseDate: "GA date*"
         eol: "Change in Service Level*"
