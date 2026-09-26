@@ -303,7 +303,7 @@ as well as 17.5.x). Each release is supported during a single [Standard Support]
 phase, which begins with its first customer ship date:
 
 - Major Releases are supported for 15 months up to and including BIG-IP 17.0.0,
-  and for 9 months for Major Releases beyond BIG-IP 21.0.0.
+  and for 9 months for Major Releases from BIG-IP 21.0.0 onward.
 - Long-Term Stability Releases are supported for five years for versions prior to 16.1.0,
   four years for 16.1.0 to 17.5.x, and three years for 21.1.0 and subsequent x.1.0 releases.
   During that time, only the latest maintenance release (x.1.latest) receives software development.
