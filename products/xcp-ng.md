@@ -13,13 +13,15 @@ eolColumn: Support
 auto:
   methods:
     - git: https://github.com/xcp-ng/xcp-ng-release.git
-    - release_table: https://xcp-ng.org/docs/releases.html#lts-releases
+    - release_table: https://docs.xcp-ng.org/releases/#lts-releases
       fields:
         releaseCycle:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Released"
-        eol: "Support until"
+        eol:
+          column: "Support until"
+          regex: '.*(?P<value>\d{4}-\d{2}-\d{2}).*'
 
 releases:
   - releaseCycle: "8.3"
