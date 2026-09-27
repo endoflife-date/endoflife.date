@@ -30,7 +30,7 @@ auto:
     - git: https://github.com/magento/magento2.git
 
 # eol on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
-# eoes on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
+# eoes is the end of extended support on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
 # PHP requirements on https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
 releases:
   - releaseCycle: "2.4.9"
