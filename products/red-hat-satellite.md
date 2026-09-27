@@ -8,16 +8,15 @@ permalink: /redhat-satellite
 alternate_urls:
   - /rhsat
   - /red-hat-satellite
-versionCommand: |-
-  dnf info satellite
-
-  # or, on older versions
-  yum info satellite
+versionCommand: dnf info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+changelogTemplate: "https://docs.redhat.com/en/documentation/red_hat_satellite/__RELEASE_CYCLE__"
+releaseLabel: "Red Hat Satellite __RELEASE_CYCLE__"
 releaseDateColumn: General availability
+LTSLabel: "<abbr title='Extended Update Support'>EUS</abbr>"
 eoasColumn: Full support
 eolColumn: Maintenance support
+eoesColumn: Extended Update Support
 
 auto:
   methods:
@@ -35,6 +34,8 @@ releases:
     eol: 2027-11-01 # Estimated
     latest: "6.19.4"
     latestReleaseDate: 2026-09-03
+    lts: true
+    eoes: 2028-11-01 # Estimated
 
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
@@ -56,6 +57,8 @@ releases:
     eol: 2026-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
+    lts: true
+    eoes: 2027-05-31
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
