@@ -56,10 +56,11 @@ releases:
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
+    eoes: 2027-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
     lts: true
-    eoes: 2027-05-31
+    
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
