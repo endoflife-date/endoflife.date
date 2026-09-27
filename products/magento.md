@@ -55,7 +55,7 @@ releases:
     releaseDate: 2024-04-04
     eoas: false
     eol: false
-    eoes: 2028-05-31 # end of extended support, per https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy
+    eoes: 2028-05-31
     supportedPhpVersions: "8.2, 8.3"
     latest: "2.4.7"
     latestReleaseDate: 2024-04-04
@@ -64,7 +64,7 @@ releases:
     releaseDate: 2023-02-28
     eoas: false
     eol: false
-    eoes: 2027-08-31 # end of extended support, per https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy
+    eoes: 2027-08-31
     supportedPhpVersions: "8.1, 8.2"
     latest: "2.4.6"
     latestReleaseDate: 2023-02-28
@@ -73,7 +73,7 @@ releases:
     releaseDate: 2022-08-01
     eoas: 2024-11-25
     eol: 2024-11-25
-    eoes: 2026-08-11 # end of extended support, per https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy
+    eoes: 2026-08-11
     supportedPhpVersions: "8.1"
     latest: "2.4.5"
     latestReleaseDate: 2022-08-01
@@ -82,7 +82,7 @@ releases:
     releaseDate: 2022-03-30
     eoas: 2024-11-25
     eol: 2024-11-25
-    eoes: 2026-04-14 # end of extended support, per https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy
+    eoes: 2026-04-14
     supportedPhpVersions: "8.1"
     latest: "2.4.4"
     latestReleaseDate: 2022-03-30
