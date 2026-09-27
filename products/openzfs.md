@@ -57,7 +57,7 @@ releases:
   - releaseCycle: "2.2"
     releaseDate: 2023-07-27
     eoas: 2025-01-13
-    eol: 2025-12-18
+    eol: false # still the latest LTS on https://github.com/openzfs/zfs/blob/master/RELEASES.md
     latest: "2.2.11"
     latestReleaseDate: 2026-08-21
     supportedLinux: "4.18 - 6.15"
@@ -89,12 +89,6 @@ releases:
     latestReleaseDate: 2020-12-14
     supportedLinux: "2.6.32 - 5.9"
     supportedFreeBSD: "N/A"
-
-
-
-
-
-
 
 ---
 

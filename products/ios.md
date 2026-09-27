@@ -8,6 +8,10 @@ permalink: /ios
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:/o:apple:iphone_os
+  - cpe: cpe:2.3:o:apple:iphone_os
+
 auto:
   methods:
     - apple: ios
@@ -17,14 +21,21 @@ auto:
         - 'iOS\s+(?P<version>\d+)'
         - 'iOS\s+(?P<version>\d+(?:\.\d+)+)'
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
-# eol(x) = if cycle_EOLed ? latestReleaseDate : false 
+# eol(x) = if cycle_EOLed ? latestReleaseDate : false
 releases:
-  - releaseCycle: "26"
-    releaseDate: 2025-09-15
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
     eoas: false
     eol: false
-    latest: "26.6.1"
-    latestReleaseDate: 2026-08-17
+    latest: "27.0"
+    latestReleaseDate: 2026-09-14
+
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: 2026-09-14
+    eol: false
+    latest: "26.7"
+    latestReleaseDate: 2026-09-14
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
@@ -84,7 +95,7 @@ releases:
     eol: 2018-10-08
     latest: "11.4.1"
     latestReleaseDate: 2018-07-09
-    link: https://support.apple.com/HT208067
+    link: https://support.apple.com/102991
 
   - releaseCycle: "10"
     releaseDate: 2016-09-13
@@ -92,7 +103,7 @@ releases:
     eol: 2019-07-22
     latest: "10.3.4"
     latestReleaseDate: 2019-07-22
-    link: https://support.apple.com/HT208011
+    link: https://support.apple.com/102990
 
   - releaseCycle: "9"
     releaseDate: 2015-09-16
@@ -100,7 +111,7 @@ releases:
     eol: 2019-07-22
     latest: "9.3.6"
     latestReleaseDate: 2019-07-22
-    link: https://support.apple.com/HT208010
+    link: https://support.apple.com/103834
 
   - releaseCycle: "8"
     releaseDate: 2014-09-17
@@ -108,7 +119,7 @@ releases:
     eol: 2015-09-30
     latest: "8.4.1"
     latestReleaseDate: 2015-08-13
-    link: https://support.apple.com/HT208000
+    link: https://support.apple.com/102782
 
   - releaseCycle: "7"
     releaseDate: 2013-09-18
@@ -116,7 +127,7 @@ releases:
     eol: 2014-10-20
     latest: "7.1.2"
     latestReleaseDate: 2014-06-30
-    link: https://support.apple.com/HT207979
+    link: https://support.apple.com/102996
 
   - releaseCycle: "6"
     releaseDate: 2012-09-19
@@ -124,7 +135,7 @@ releases:
     eol: 2013-09-26
     latest: "6.1.6"
     latestReleaseDate: 2014-02-21
-    link: https://support.apple.com/HT212584
+    link: https://support.apple.com/102995
 
   - releaseCycle: "5"
     releaseDate: 2011-10-12
@@ -132,11 +143,10 @@ releases:
     eol: 2012-11-01
     latest: "5.1.1"
     latestReleaseDate: 2012-05-07
-    link: https://support.apple.com/HT212597
-
+    link: https://support.apple.com/102998
 ---
 
-> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
+> [iOS](https://www.apple.com/os/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
 > It is the world's second-most widely installed operating system, after Android.
 
 {: .warning }

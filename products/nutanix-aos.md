@@ -6,13 +6,16 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version
-releasePolicyLink: https://www.nutanix.com/support-services/product-support/support-policies-and-faqs
+releasePolicyLink: https://www.nutanix.com/support-services/support-policies-and-faqs
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: NOS
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=NOS
+      selector: '$.contents[*]'
+      name: '$.version'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
@@ -35,7 +38,7 @@ releases:
     eoas: 2026-09-30
     eol: 2027-06-30
     latest: "7.3.1.16"
-    latestReleaseDate: 2026-09-01
+    latestReleaseDate: 2026-09-07
 
   - releaseCycle: "7.0"
     releaseDate: 2024-12-04

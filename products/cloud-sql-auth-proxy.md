@@ -34,7 +34,7 @@ releases:
 
 ---
 
-> [Cloud SQL Auth Proxy](https://cloud.google.com/sql/docs/mysql/sql-proxy) enables secure, short-lived connections to Cloud SQL databases without exposing them to the public internet.
+> [Cloud SQL Auth Proxy](https://docs.cloud.google.com/sql/docs/mysql/sql-proxy) enables secure, short-lived connections to Cloud SQL databases without exposing them to the public internet.
 
 Cloud SQL Auth Proxy follows [semantic versioning](https://semver.org/). Each major version has two support phases:
 

@@ -6,8 +6,8 @@ tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
 versionCommand: firefox --version
-releasePolicyLink: https://www.mozilla.org/firefox/
-changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+releasePolicyLink: https://www.firefox.com/
+changelogTemplate: https://www.firefox.com/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
 identifiers:
@@ -28,9 +28,15 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "156"
+    releaseDate: 2026-09-15
+    eol: false
+    latest: "156.0.1"
+    latestReleaseDate: 2026-09-22
+
   - releaseCycle: "155"
     releaseDate: 2026-09-01
-    eol: false
+    eol: 2026-09-15
     latest: "155.0.1"
     latestReleaseDate: 2026-09-04
 
@@ -44,8 +50,8 @@ releases:
     lts: true
     releaseDate: 2026-07-21
     eol: false
-    latest: "153.2.0"
-    latestReleaseDate: 2026-09-01
+    latest: "153.3.0"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "152"
     releaseDate: 2026-06-16
@@ -123,8 +129,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-29
-    latest: "140.15.0"
-    latestReleaseDate: 2026-09-01
+    latest: "140.16.0"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -373,7 +379,7 @@ releases:
 
 ---
 
-> [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser
+> [Firefox](https://www.firefox.com/), is a free and open-source web browser
 > developed by the Mozilla. Firefox is available for
 > [Windows](https://support.mozilla.org/kb/how-install-firefox-windows),
 > [macOS](https://support.mozilla.org/kb/how-download-and-install-firefox-mac),

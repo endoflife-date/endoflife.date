@@ -31,7 +31,7 @@ releases:
     link: https://apple.github.io/foundationdb/release-notes/release-notes-730.html
 
   - releaseCycle: "7.1"
-    staleReleaseThresholdDays: 730 # still "bug fixes" on https://github.com/apple/foundationdb#latest-stable-releases
+    staleReleaseThresholdDays: 1095 # still "bug fixes" on https://github.com/apple/foundationdb#latest-stable-releases
     releaseDate: 2022-09-19 # with 7.1.22
     eoas: 2024-05-20
     eol: false

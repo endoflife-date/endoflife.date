@@ -8,7 +8,7 @@ permalink: /dbt-core
 alternate_urls:
   - /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
-changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/dbt-labs/dbt/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Critical Support
 
@@ -23,19 +23,26 @@ auto:
 # eol(x) = releaseDate(x) + 1 year
 # See https://docs.getdbt.com/docs/dbt-versions/core
 releases:
+  - releaseCycle: "2.0"
+    releaseDate: 2026-09-14
+    eoas: false
+    eol: 2027-09-14
+    latest: "2.0.5"
+    latestReleaseDate: 2026-09-18
+
   - releaseCycle: "1.12"
     releaseDate: 2026-07-16
-    eoas: false
+    eoas: 2026-09-14
     eol: 2027-07-16
-    latest: "1.12.3"
-    latestReleaseDate: 2026-08-20
+    latest: "1.12.5"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-19
     eoas: 2026-07-16
     eol: 2026-12-19
-    latest: "1.11.14"
-    latestReleaseDate: 2026-08-20
+    latest: "1.11.15"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-16
@@ -119,7 +126,7 @@ releases:
 > [dbt Core](https://getdbt.com/) is an open-source data transformation tool that enables data
 > teams to transform data using analytics engineering best practices. It is written in Python and
 > uses a SQL-first approach. dbt Core can be installed and used on the command line, or it can be
-> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt-cloud).
+> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt).
 
 dbt Core follows [SemVer](https://semver.org/). A new minor version is released approximately every
 three months and is supported for one year. The support period is divided into two phases: the active

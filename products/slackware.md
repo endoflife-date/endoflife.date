@@ -25,8 +25,6 @@ auto:
 
 releases:
   - releaseCycle: "15.0"
-    codename: "stable"
-    releaseLabel: "15.0 (Stable)"
     releaseDate: 2022-02-03
     eol: false
     latest: "15.0"

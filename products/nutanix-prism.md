@@ -10,13 +10,18 @@ alternate_urls:
   - /prism
   - /prismcentral
 versionCommand: ncli cluster version
-releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
+releasePolicyLink: "https://www.nutanix.com/support-services/support-policies-and-faqs"
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: PC
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=PC
+      selector: '$.contents[*]'
+      name:
+        selector: '$.version'
+        regex: '^(?P<value>(pc\.)?[1-9]\d*(\.\d+){0,3})$'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:

@@ -17,6 +17,12 @@ auto:
 # LTS: EOL dates can be found on https://sapmachine.io/docs/maintenance-and-support
 # non-LTS : eol(x) = releaseDate(x+1) (future release dates follow the OpenJDK release cadence)
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-15
+    eol: 2027-03-31
+    latest: "27"
+    latestReleaseDate: 2026-09-15
+
   - releaseCycle: "26"
     releaseDate: 2026-03-18
     eol: 2026-09-15

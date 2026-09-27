@@ -30,13 +30,14 @@ releases:
 
   - releaseCycle: "8.0"
     releaseDate: 2019-12-11
-    eol: 2026-12-31
+    eol: 2027-01-31
     eoes: 2029-05-31
 
   - releaseCycle: "5.7"
     releaseDate: 2018-03-20
-    eol: 2026-07-31
+    eol: 2026-09-30
     eoes: 2029-03-31
+
 ---
 
 > [Azure Database for MySQL](https://azure.microsoft.com/products/mysql/) is a fully managed

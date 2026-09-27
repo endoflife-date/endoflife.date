@@ -235,6 +235,9 @@ module EndOfLifeHooks
       error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn']
       error_if.is_not_before('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
       error_if.is_not_before('eol', 'eoes') if product.data['eoesColumn']
+      error_if.inconsistent_support_status('eoas', 'eol') if product.data['eoasColumn']
+      error_if.inconsistent_support_status('eol', 'eoes') if product.data['eoesColumn']
+      error_if.inconsistent_support_status('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
@@ -369,6 +372,17 @@ module EndOfLifeHooks
 
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
+      end
+    end
+
+    def inconsistent_support_status(earlier_support_phase, later_support_phase)
+      earlier_support_phase_value = @data[earlier_support_phase]
+      later_support_phase_value = @data[later_support_phase]
+      later_support_phase_reached = later_support_phase_value == true or (later_support_phase_value.respond_to?(:strftime) and later_support_phase_value < Date.today)
+      earlier_support_phase_pending = earlier_support_phase_value == false or (earlier_support_phase_value.respond_to?(:strftime) and earlier_support_phase_value > Date.today)
+
+      if later_support_phase_reached and earlier_support_phase_pending
+        declare_error(earlier_support_phase, earlier_support_phase_value, "expecting #{earlier_support_phase} to have been reached when #{later_support_phase} has been reached")
       end
     end
 
