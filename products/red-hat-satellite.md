@@ -22,7 +22,7 @@ auto:
   methods:
     - version_table: https://access.redhat.com/articles/1365633
       name_column: "Release/Update"
-      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease| Update)$'
+      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease|( EUS)? Update)$'
       template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
       date_column: "General Availability Date"
 
@@ -32,10 +32,11 @@ releases:
     releaseDate: 2026-05-06
     eoas: 2026-11-01 # Estimated
     eol: 2027-11-01 # Estimated
+    eoes: 2028-11-01 # Estimated
     latest: "6.19.4"
     latestReleaseDate: 2026-09-03
     lts: true
-    eoes: 2028-11-01 # Estimated
+    
 
   - releaseCycle: "6.18"
     releaseDate: 2025-11-04
