@@ -29,16 +29,8 @@ auto:
       selector: AtlassianEndofSupportPolicy-Bamboo
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
 
-# Release dates from https://my.atlassian.com/download/feeds/{current,archived}/bamboo.json.
-# EOL dates are the ones Atlassian published on its support end-of-life policy page. That page only
-# lists the currently supported cycles, so older entries were read from archived copies of it:
-#   2.0 to 5.9   https://confluence.atlassian.com/display/Support/Atlassian+Support+End+of+Life+Policy
-#                (the pre-2015 page, which listed EOL dates in a per-product table)
-#   5.10 to 12.1 https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-# Where a date was revised, the latest published value is used: Atlassian extended 3.3 and 3.4 from
-# 2013-11-15 to 2014-05-17, which is why both outlive 4.0.
-# Only 0.9 to 1.2 keep eol: true. They reached end of life before the policy page was first archived
-# in 2010, and Atlassian publishes no dates for them.
+# Release dates from https://www.atlassian.com/software/bamboo/download-archives.
+# LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
   - releaseCycle: "12.1"
     lts: true
