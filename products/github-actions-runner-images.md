@@ -71,6 +71,13 @@ releases:
     eol: false
     link: https://github.com/actions/runner-images/blob/main/images/macos/macos-26-arm64-Readme.md
 
+  - releaseCycle: "ubuntu-slim"
+    releaseLabel: "Ubuntu Slim"
+    releaseDate: 2026-01-22 # https://github.blog/changelog/2026-01-22-1-vcpu-linux-runner-now-generally-available-in-github-actions/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/ubuntu-slim/ubuntu-slim-Readme.md
+
   - releaseCycle: "windows-2025"
     releaseLabel: "Windows Server 2025"
     releaseDate: 2025-04-10 # https://github.blog/changelog/2025-04-10-github-actions-macos-15-and-windows-2025-images-are-now-generally-available/

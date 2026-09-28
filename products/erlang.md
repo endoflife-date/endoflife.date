@@ -6,7 +6,7 @@ iconSlug: erlang
 permalink: /erlang
 alternate_urls:
   - /erlang-otp
-releasePolicyLink: https://www.erlang.org/doc/system_principles/misc.html
+releasePolicyLink: https://www.erlang.org/doc/system/misc.html
 changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
 
@@ -130,12 +130,12 @@ of its principles with a two to four parts version number, `<Major>.<Minor>.<Pat
 - `<Patch>` (optional) increments when there are pure bug fixes,
 - `<X>` (optional) is a part used for partially ordered versions.
 
-More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system_principles/versions#version-scheme).
+More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system/versions.html#version-scheme).
 
 The release policy is not documented, but looking at the latest releases, it seems that a new major
 version is released every year in May and supported for approximately 3 years.
 
-According to [Erlang/OTP's support policy](https://www.erlang.org/doc/system_principles/misc.html),
+According to [Erlang/OTP's support policy](https://www.erlang.org/doc/system/misc.html),
 bugs are in general only fixed on the latest release, and new features are introduced in the
 upcoming release. In practice, small improvements are regularly added to the latest release, and
 major bug and security fixes are backported to the supported previous releases.

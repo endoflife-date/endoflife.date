@@ -183,9 +183,8 @@ details.
 
 ## Amazon Linux 2
 
-[Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until
-June 30, 2026_[^2]. User-space Application Binary Interface (ABI) compatibility is guaranteed for
-[specific packages][al2-faq]. It only seems to receive critical bug fixes and security patches.
+[Amazon Linux 2][al2] [reached its end of support on June 30, 2026][al2-faq][^2] and
+is no longer receiving standard security updates. AWS recommends migrating to Amazon Linux 2023.
 
 ## Amazon Linux 2023
 

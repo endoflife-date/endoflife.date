@@ -64,7 +64,7 @@ releases:
     eol: 2016-10-31
     supportedPHPVersions: ">=5.3.3, <7.0"
     latest: "3.8.1"
-    releaseDate: 2014-01-28
+    releaseDate: 2012-10-15
     latestReleaseDate: 2014-01-28
 
 ---

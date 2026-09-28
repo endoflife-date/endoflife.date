@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-11-02
     lts: 2028-08-09
     eol: 2030-06-30
-    latest: "6.0.0"
-    latestReleaseDate: 2025-11-03
+    latest: "6.1.1"
+    latestReleaseDate: 2026-04-25
     link: https://www.devuan.org/os/announce/excalibur-release-announce-2025-11-02
 
   - releaseCycle: "5"

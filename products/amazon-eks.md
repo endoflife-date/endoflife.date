@@ -184,7 +184,7 @@ given time. Standard support is provided by Amazon for as long as the upstream K
 is supported (14 months from the Kubernetes GA date). Following the standard support period, Amazon
 provides extended support for up to 12 months.
 
-You can subscribe to upgrade notices on your [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/).
+You can subscribe to upgrade notices on your [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/aws-health/).
 The notice includes the end of support date, which is at least 60 days from the date of the notice.
 
 Starting from version 1.23, Amazon EKS clusters running on an EOL version will automatically enter

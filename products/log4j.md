@@ -8,7 +8,7 @@ permalink: /log4j
 alternate_urls:
   - /apache_log4j
   - /apache-log4j
-releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
+releasePolicyLink: https://logging.apache.org/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
 eolColumn: Supported
 
@@ -51,7 +51,7 @@ releases:
     eol: 2015-10-15
     latest: "1.2.17"
     latestReleaseDate: 2012-05-06
-    link: https://logging.apache.org/log4j/1.2/changes-report.html#a1.2.17
+    link: https://logging.apache.org/log4j/1.x/changes-report.html#a1.2.17
 
 ---
 

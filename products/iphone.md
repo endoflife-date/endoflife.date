@@ -105,7 +105,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2025-09-09
     eol: false
-    link: https://support.apple.com/kb/SP901
+    link: https://support.apple.com/111831
     supportedIosVersions: "17 - 26"
 
   - releaseCycle: "15-plus"
@@ -113,7 +113,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2025-09-09
     eol: false
-    link: https://support.apple.com/kb/SP902
+    link: https://support.apple.com/111830
     supportedIosVersions: "17 - 26"
 
   - releaseCycle: "15-pro"
@@ -121,7 +121,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2024-09-09
     eol: false
-    link: https://support.apple.com/kb/SP903
+    link: https://support.apple.com/111829
     supportedIosVersions: "17 - 26"
 
   - releaseCycle: "15-pro-max"
@@ -129,7 +129,7 @@ releases:
     releaseDate: 2023-09-22
     discontinued: 2024-09-09
     eol: false
-    link: https://support.apple.com/kb/SP904
+    link: https://support.apple.com/111828
     supportedIosVersions: "17 - 26"
 
   - releaseCycle: "14-plus"
@@ -137,7 +137,7 @@ releases:
     releaseDate: 2022-10-07
     discontinued: 2025-02-19
     eol: false
-    link: https://support.apple.com/kb/SP874
+    link: https://support.apple.com/111854
     supportedIosVersions: "16 - 26"
 
   - releaseCycle: "14"
@@ -145,7 +145,7 @@ releases:
     releaseDate: 2022-09-16
     discontinued: 2025-02-19
     eol: false
-    link: https://support.apple.com/kb/SP873
+    link: https://support.apple.com/111850
     supportedIosVersions: "16 - 26"
 
   - releaseCycle: "14-pro"
@@ -153,7 +153,7 @@ releases:
     releaseDate: 2022-09-16
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP875
+    link: https://support.apple.com/111849
     supportedIosVersions: "16 - 26"
 
   - releaseCycle: "14-pro-max"
@@ -161,7 +161,7 @@ releases:
     releaseDate: 2022-09-16
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP876
+    link: https://support.apple.com/111846
     supportedIosVersions: "16 - 26"
 
   - releaseCycle: "se-3"
@@ -169,7 +169,7 @@ releases:
     releaseDate: 2022-03-18
     discontinued: 2025-02-19
     eol: false
-    link: https://support.apple.com/kb/SP867
+    link: https://support.apple.com/111866
     supportedIosVersions: "15 - 26"
 
   - releaseCycle: "13"
@@ -177,7 +177,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2024-09-09
     eol: false
-    link: https://support.apple.com/kb/SP851
+    link: https://support.apple.com/111872
     supportedIosVersions: "15 - 26"
 
   - releaseCycle: "13-mini"
@@ -185,7 +185,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP847
+    link: https://support.apple.com/111873
     supportedIosVersions: "15 - 26"
 
   - releaseCycle: "13-pro"
@@ -193,7 +193,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2022-09-07
     eol: false
-    link: https://support.apple.com/kb/SP852
+    link: https://support.apple.com/111871
     supportedIosVersions: "15 - 26"
 
   - releaseCycle: "13-pro-max"
@@ -201,7 +201,7 @@ releases:
     releaseDate: 2021-09-24
     discontinued: 2022-09-07
     eol: false
-    link: https://support.apple.com/kb/SP848
+    link: https://support.apple.com/111870
     supportedIosVersions: "15 - 26"
 
   - releaseCycle: "12-mini"
@@ -209,7 +209,7 @@ releases:
     releaseDate: 2020-11-13
     discontinued: 2022-09-07
     eol: false
-    link: https://support.apple.com/kb/SP829
+    link: https://support.apple.com/111877
     supportedIosVersions: "14 - 26"
 
   - releaseCycle: "12-pro-max"
@@ -217,7 +217,7 @@ releases:
     releaseDate: 2020-11-13
     discontinued: 2021-09-14
     eol: false
-    link: https://support.apple.com/kb/SP832
+    link: https://support.apple.com/111874
     supportedIosVersions: "14 - 26"
 
   - releaseCycle: "12"
@@ -225,7 +225,7 @@ releases:
     releaseDate: 2020-10-23
     discontinued: 2023-09-12
     eol: false
-    link: https://support.apple.com/kb/SP830
+    link: https://support.apple.com/111876
     supportedIosVersions: "14 - 26"
 
   - releaseCycle: "12-pro"
@@ -233,7 +233,7 @@ releases:
     releaseDate: 2020-10-23
     discontinued: 2021-09-14
     eol: false
-    link: https://support.apple.com/kb/SP831
+    link: https://support.apple.com/111875
     supportedIosVersions: "14 - 26"
 
   - releaseCycle: "se-2"
@@ -241,7 +241,7 @@ releases:
     releaseDate: 2020-04-24
     discontinued: 2022-03-08
     eol: false
-    link: https://support.apple.com/kb/SP820
+    link: https://support.apple.com/111882
     supportedIosVersions: "13 - 26"
 
   - releaseCycle: "11"
@@ -249,7 +249,7 @@ releases:
     releaseDate: 2019-09-20
     discontinued: 2022-09-07
     eol: false
-    link: https://support.apple.com/kb/SP804
+    link: https://support.apple.com/111865
     supportedIosVersions: "13 - 26"
 
   - releaseCycle: "11-pro"
@@ -257,7 +257,7 @@ releases:
     releaseDate: 2019-09-20
     discontinued: 2020-10-13
     eol: false
-    link: https://support.apple.com/kb/SP805
+    link: https://support.apple.com/111879
     supportedIosVersions: "13 - 26"
 
   - releaseCycle: "11-pro-max"
@@ -265,7 +265,7 @@ releases:
     releaseDate: 2019-09-20
     discontinued: 2020-10-13
     eol: false
-    link: https://support.apple.com/kb/SP806
+    link: https://support.apple.com/111878
     supportedIosVersions: "13 - 26"
 
   - releaseCycle: "xr"
@@ -273,7 +273,7 @@ releases:
     releaseDate: 2018-10-26
     discontinued: 2021-09-07
     eol: 2026-04-22
-    link: https://support.apple.com/kb/SP781
+    link: https://support.apple.com/111868
     supportedIosVersions: "12 - 18"
 
   - releaseCycle: "xs"
@@ -281,7 +281,7 @@ releases:
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
     eol: 2026-04-22
-    link: https://support.apple.com/kb/SP779
+    link: https://support.apple.com/111881
     supportedIosVersions: "12 - 18"
 
   - releaseCycle: "xs-max"
@@ -289,7 +289,7 @@ releases:
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
     eol: 2026-04-22
-    link: https://support.apple.com/kb/SP780
+    link: https://support.apple.com/111880
     supportedIosVersions: "12 - 18"
 
   - releaseCycle: "8"
@@ -297,7 +297,7 @@ releases:
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP767
+    link: https://support.apple.com/111976
     supportedIosVersions: "11 - 16"
 
   - releaseCycle: "8-plus"
@@ -305,7 +305,7 @@ releases:
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP768
+    link: https://support.apple.com/111950
     supportedIosVersions: "11 - 16"
 
   - releaseCycle: "x"
@@ -313,7 +313,7 @@ releases:
     releaseDate: 2017-09-12
     discontinued: 2018-09-12
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP770
+    link: https://support.apple.com/111864
     supportedIosVersions: "11 - 16"
 
   - releaseCycle: "7"
@@ -321,7 +321,7 @@ releases:
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP743
+    link: https://support.apple.com/111943
     supportedIosVersions: "10 - 15"
 
   - releaseCycle: "7-plus"
@@ -329,7 +329,7 @@ releases:
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP744
+    link: https://support.apple.com/111953
     supportedIosVersions: "10 - 15"
 
   - releaseCycle: "se-1"
@@ -337,7 +337,7 @@ releases:
     releaseDate: 2016-03-31
     discontinued: 2018-09-12
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP738
+    link: https://support.apple.com/112005
     supportedIosVersions: "9 - 15"
 
   - releaseCycle: "6s"
@@ -345,7 +345,7 @@ releases:
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP726
+    link: https://support.apple.com/111952
     supportedIosVersions: "9 - 15"
 
   - releaseCycle: "6s-plus"
@@ -353,7 +353,7 @@ releases:
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
     eol: 2025-03-31
-    link: https://support.apple.com/kb/SP727
+    link: https://support.apple.com/111996
     supportedIosVersions: "9 - 15"
 
   - releaseCycle: "6"
@@ -361,7 +361,7 @@ releases:
     releaseDate: 2014-09-25
     discontinued: 2016-09-07
     eol: 2023-01-23
-    link: https://support.apple.com/kb/SP705
+    link: https://support.apple.com/111954
     supportedIosVersions: "8 - 12"
 
     # iOS 12.5.7 was released on 23rd Jan 2023
@@ -371,7 +371,7 @@ releases:
     releaseDate: 2014-09-25
     discontinued: 2016-09-07
     eol: 2023-01-23
-    link: https://support.apple.com/kb/SP706
+    link: https://support.apple.com/111940
     supportedIosVersions: "8 - 12"
 
   - releaseCycle: "5c"
@@ -379,7 +379,7 @@ releases:
     releaseDate: 2013-09-20
     discontinued: 2015-09-09
     eol: 2017-09-19
-    link: https://support.apple.com/kb/SP684
+    link: https://support.apple.com/111917
     supportedIosVersions: "7 - 10"
 
   - releaseCycle: "5s"
@@ -387,7 +387,7 @@ releases:
     releaseDate: 2013-09-20
     discontinued: 2016-03-21
     eol: 2023-01-23
-    link: https://support.apple.com/kb/SP685
+    link: https://support.apple.com/111973
     supportedIosVersions: "7 - 12"
 
   - releaseCycle: "5"
@@ -395,7 +395,7 @@ releases:
     releaseDate: 2012-09-21
     discontinued: 2013-09-10
     eol: 2019-07-22
-    link: https://support.apple.com/kb/SP655
+    link: https://support.apple.com/112016
     supportedIosVersions: "6 - 10"
 
   - releaseCycle: "4s"
@@ -403,7 +403,7 @@ releases:
     releaseDate: 2011-10-14
     discontinued: 2014-09-09
     eol: 2019-07-22
-    link: https://support.apple.com/kb/SP643
+    link: https://support.apple.com/112004
     supportedIosVersions: "5 - 9"
 
   - releaseCycle: "4"
@@ -411,7 +411,7 @@ releases:
     releaseDate: 2010-06-24
     discontinued: 2013-09-10
     eol: 2014-09-17
-    link: https://support.apple.com/kb/SP587
+    link: https://support.apple.com/112562
     supportedIosVersions: "4 - 7"
 
   - releaseCycle: "3gs"
@@ -419,7 +419,7 @@ releases:
     releaseDate: 2009-06-19
     discontinued: 2012-09-12
     eol: 2014-02-21
-    link: https://support.apple.com/kb/SP565
+    link: https://support.apple.com/112307
     supportedIosVersions: "3 - 6"
 
   - releaseCycle: "3g"
@@ -427,7 +427,7 @@ releases:
     releaseDate: 2008-07-11
     discontinued: 2010-08-09
     eol: 2011-03-03
-    link: https://support.apple.com/kb/SP495
+    link: https://support.apple.com/112496
     supportedIosVersions: "2 - 4"
 
   - releaseCycle: "1"
@@ -445,7 +445,7 @@ releases:
 Most likely, new iPhone models will come out in September every year (with a few possible
 exceptions). iPhone support (supported devices get the latest iOS updates) is quite long. Apple
 occasionally releases security updates for many older devices, such as
-[this security fix in iOS 12.5.6](https://support.apple.com/HT213428) which was pushed to iPhone 6
+[this security fix in iOS 12.5.6](https://support.apple.com/103004) which was pushed to iPhone 6
 and iPhone 5S.
 
 On new iOS releases, the [previous iOS version is supported for a few months](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/)
