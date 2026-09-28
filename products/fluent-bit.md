@@ -158,10 +158,10 @@ releases:
     latestReleaseDate: 2018-12-07
 
   - releaseCycle: "0.13"
-    releaseDate: 2018-08-18
+    releaseDate: 2018-04-30
     eol: true
     latest: "0.13.8"
-    latestReleaseDate: 2018-04-30
+    latestReleaseDate: 2018-08-18
 
   - releaseCycle: "0.12"
     releaseDate: 2017-08-17

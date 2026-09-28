@@ -5,7 +5,7 @@ category: database
 iconSlug: clickhouse
 permalink: /clickhouse
 versionCommand: clickhouse-client --version
-releasePolicyLink: https://clickhouse.com/docs/faq/operations/production#how-to-choose-between-clickhouse-releases
+releasePolicyLink: https://clickhouse.com/docs/resources/support-center/knowledge-base/setup-installation/production#how-to-choose-between-clickhouse-releases
 changelogTemplate: https://github.com/ClickHouse/ClickHouse/blob/master/CHANGELOG.md
 eolColumn: Support
 
@@ -22,22 +22,28 @@ auto:
 # Non-LTS : eol(x) = releaseDate(x+3)
 # LTS : eol(x) = releaseDate(x) + 1 year
 releases:
+  - releaseCycle: "26.9"
+    releaseDate: 2026-09-21
+    eol: false
+    latest: "26.9.4.3"
+    latestReleaseDate: 2026-09-27
+
   - releaseCycle: "26.8"
     lts: true
     releaseDate: 2026-08-27
     eol: 2027-08-27
-    latest: "26.8.10.6"
-    latestReleaseDate: 2026-09-21
+    latest: "26.8.13.2"
+    latestReleaseDate: 2026-09-27
 
   - releaseCycle: "26.7"
     releaseDate: 2026-07-22
     eol: false
-    latest: "26.7.14.3"
-    latestReleaseDate: 2026-09-21
+    latest: "26.7.15.52"
+    latestReleaseDate: 2026-09-26
 
   - releaseCycle: "26.6"
     releaseDate: 2026-06-25
-    eol: false
+    eol: 2026-09-21
     latest: "26.6.8.7"
     latestReleaseDate: 2026-09-16
 
@@ -57,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2026-03-26
     eol: 2027-03-26
-    latest: "26.3.33.24"
-    latestReleaseDate: 2026-09-09
+    latest: "26.3.34.136"
+    latestReleaseDate: 2026-09-26
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27

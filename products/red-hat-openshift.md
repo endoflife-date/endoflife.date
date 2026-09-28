@@ -215,4 +215,4 @@ additionally include a six-month EUS phase. The EUS phase will follow the mainte
 the given release (18 months from GA date). This results in a total support time of 24 months for
 EUS releases.
 
-[DEFINITION]: https://access.redhat.com/articles/2130961
+[DEFINITION]: https://access.redhat.com/articles/explaining_redhat_errata

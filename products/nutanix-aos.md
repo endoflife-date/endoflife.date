@@ -6,7 +6,7 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version
-releasePolicyLink: https://www.nutanix.com/support-services/product-support/support-policies-and-faqs
+releasePolicyLink: https://www.nutanix.com/support-services/support-policies-and-faqs
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 

@@ -48,6 +48,13 @@ releases:
     eol: 2027-09-28
     recommendedReplacement: "N/A"
     link: https://www.anthropic.com/claude-sonnet-5-5
+  - releaseCycle: "claude-opus-5-5"
+    releaseLabel: Claude Opus 5.5
+    releaseDate: 2026-09-22
+    eoas: false
+    eol: 2027-09-22
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-opus-5-5
 
   - releaseCycle: "claude-mythos-5-1"
     releaseLabel: Claude Mythos 5.1

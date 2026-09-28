@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "27"
     releaseDate: 2026-09-14
     eol: false
-    latest: "27"
-    latestReleaseDate: 2026-09-14
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-23
 
   - releaseCycle: "26"
     releaseDate: 2025-09-15
@@ -81,18 +81,18 @@ releases:
     eol: 2018-09-17
     latest: "4.3.2"
     latestReleaseDate: 2018-07-09
-    link: https://support.apple.com/HT208071
+    link: https://support.apple.com/111739
 
   - releaseCycle: "3"
     releaseDate: 2016-09-13
     eol: 2017-09-19
     latest: "3.2.3"
     latestReleaseDate: 2017-07-19
-    link: https://support.apple.com/kb/DL1894
+    link: https://support.apple.com/106644
 
 ---
 
-> [watchOS](https://www.apple.com/watchos/) is Apple's mobile operating system for its Apple Watches.
+> [watchOS](https://www.apple.com/os/watchos/) is Apple's mobile operating system for its Apple Watches.
 > It is based on iOS, and introduced in 2015.
 
 Major versions of watchOS are released annually, with the previous major version losing support.

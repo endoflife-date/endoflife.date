@@ -4,7 +4,7 @@ addedAt: 2026-04-06
 category: server-app
 tags: kubernetes
 permalink: /haproxy-ingress
-changelogTemplate: https://github.com/jcmoraisjr/haproxy-ingress/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/n42-gateway/n42-gateway/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:
@@ -20,12 +20,12 @@ customFields:
     display: after-release-column
     label: Embedded HAProxy
     description: Version of the embedded HAProxy
-    link: https://github.com/jcmoraisjr/haproxy-ingress/blob/master/README.md#use-haproxy-ingress
+    link: https://github.com/n42-gateway/n42-gateway/blob/master/README.md#use-n42-gateway
   - name: supportedKubernetesVersion
     display: after-release-column
     label: Kubernetes Compatibility
     description: Supported Kubernetes Versions
-    link: https://github.com/jcmoraisjr/haproxy-ingress/blob/master/README.md#use-haproxy-ingress
+    link: https://github.com/n42-gateway/n42-gateway/blob/master/README.md#use-n42-gateway
 
 # Supported releases documented on https://github.com/jcmoraisjr/haproxy-ingress/blob/master/README.md#use-haproxy-ingress.
 # See history for EOL dates.
@@ -76,4 +76,4 @@ releases:
 > uses HAProxy as the load balancer to route external traffic to internal services, either
 > through an embedded HAProxy or an external HAProxy instance.
 
-Supported versions are documented on [the project's README](https://github.com/jcmoraisjr/haproxy-ingress/blob/master/README.md#use-haproxy-ingress).
+Supported versions are documented on [the project's README](https://github.com/n42-gateway/n42-gateway/blob/master/README.md#use-n42-gateway).

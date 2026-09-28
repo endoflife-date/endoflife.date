@@ -35,7 +35,7 @@ releases:
 
   - releaseCycle: "6"
     releaseDate: 2025-01-29
-    eol: false
+    eol: 2026-02-25
     latest: "6.12.5040"
     latestReleaseDate: 2026-02-10
 
