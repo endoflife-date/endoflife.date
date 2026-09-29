@@ -136,6 +136,7 @@ releases:
     lts: true
     eoas: 2027-01-12
     eol: 2027-01-12
+    eoes: 2030-01-12
     latest: 10.0.19044
     link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
 
@@ -308,6 +309,7 @@ releases:
     lts: true
     eoas: 2021-10-12
     eol: 2026-10-13
+    eoes: 2029-10-13
     latest: 10.0.14393
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
