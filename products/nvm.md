@@ -269,4 +269,4 @@ nvm supports the latest major/minor release line.
 
 The nvm team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP)
 and have announced that [commercial support for deprecated versions of nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#enterprise-support)
-is now available through [HeroDevs](https://www.herodevs.com/support/).
+is now available through [HeroDevs](https://www.herodevs.com/never-ending-support).

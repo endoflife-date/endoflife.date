@@ -80,5 +80,5 @@ Maintenance Support includes bug and security fixes.
 
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
 
-Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative.
+Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/never-ending-support) initiative.
 For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.

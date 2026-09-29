@@ -48,7 +48,7 @@ releases:
 
   - releaseCycle: "9"
     releaseDate: 2024-04-05
-    eoas: false
+    eoas: 2025-11-14
     eol: 2026-08-06
     eoes: false
     eoesProvider: Tidelift

@@ -7,6 +7,7 @@ iconSlug: apachehadoop
 permalink: /apache-hadoop
 alternate_urls:
   - /hadoop
+releasePolicyLink: https://cwiki.apache.org/confluence/spaces/HADOOP/pages/89071895/Hadoop+Active+Release+Lines
 changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236

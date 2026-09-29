@@ -35,7 +35,7 @@ releases:
     eoas: 2028-06-30
     latest: "6.3.3-c1121"
     latestReleaseDate: 2026-08-12
-    link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
+    link: https://docs.paloaltonetworks.com/globalprotect/release-notes/6-3/globalprotect-addressed-issues
 
   - releaseCycle: "6.2"
     releaseDate: 2023-05-23
@@ -43,7 +43,7 @@ releases:
     eoas: 2027-06-30
     latest: "6.2.8-c1045"
     latestReleaseDate: 2026-08-12
-    link: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes/globalprotect-addressed-issues
+    link: https://docs.paloaltonetworks.com/globalprotect/release-notes/6-2/globalprotect-addressed-issues
 
   - releaseCycle: "6.1"
     releaseDate: 2022-09-01
@@ -51,7 +51,7 @@ releases:
     eoas: 2025-03-01
     latest: "6.1.5"
     latestReleaseDate: 2024-06-20
-    link: https://docs.paloaltonetworks.com/globalprotect/6-1/globalprotect-app-release-notes//globalprotect-addressed-issues
+    link: https://docs.paloaltonetworks.com/globalprotect/release-notes/6-1/globalprotect-addressed-issues
 
   - releaseCycle: "6.0"
     releaseDate: 2022-02-22
@@ -59,7 +59,7 @@ releases:
     eoas: 2025-12-31
     latest: "6.0.13"
     latestReleaseDate: 2026-05-12
-    link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes/globalprotect-addressed-issues
+    link: https://docs.paloaltonetworks.com/globalprotect/release-notes/6-0/globalprotect-addressed-issues
 
   - releaseCycle: "5.3"
     releaseDate: 2021-06-01
