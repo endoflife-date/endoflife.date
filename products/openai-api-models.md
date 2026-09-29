@@ -364,7 +364,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1.5"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-5.2"
     releaseLabel: "GPT-5.2"
@@ -464,7 +464,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-realtime-mini"
     releaseLabel: "GPT-Realtime Mini"
@@ -668,7 +668,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/chatgpt-image-latest"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-image-1"
     releaseLabel: "GPT-Image-1"
@@ -678,7 +678,7 @@ releases:
     eoas: 2026-04-22
     eol: 2026-10-23
     link: "https://developers.openai.com/api/docs/models/gpt-image-1"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-4o-mini-transcribe"
     releaseLabel: "GPT-4o Mini Transcribe"
