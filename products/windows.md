@@ -14,12 +14,28 @@ identifiers:
   - cpe: cpe:/o:microsoft:windows
 
 releases:
+  - releaseCycle: "11-26h2-e"
+    releaseLabel: "11 26H2 (E)"
+    releaseDate: 2026-09-29
+    eoas: 2029-10-09
+    eol: 2029-10-09
+    latest: 10.0.26300
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+  - releaseCycle: "11-26h2-w"
+    releaseLabel: "11 26H2 (W)"
+    releaseDate: 2026-09-29
+    eoas: 2028-10-10
+    eol: 2028-10-10
+    latest: 10.0.28000
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
   - releaseCycle: "11-26h1-e"
     releaseLabel: "11 26H1 (E)"
     releaseDate: 2026-02-10
     eoas: 2029-03-13
     eol: 2029-03-13
-    latest: 10.0.28000
+    latest: 10.0.26300
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-26h1-w"
