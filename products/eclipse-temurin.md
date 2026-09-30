@@ -92,7 +92,7 @@ releases:
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-22
-    eol: 2027-03-23 # expected 28 release date (see https://www.java.com/releases/)
+    eol: 2031-09-30
     latest: "25.0.4.1+1"
     latestReleaseDate: 2026-08-19
 
