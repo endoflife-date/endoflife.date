@@ -20,8 +20,8 @@ releases:
   - releaseCycle: "1.54"
     releaseDate: 2026-09-21
     eol: false
-    latest: "1.54.1"
-    latestReleaseDate: 2026-09-28
+    latest: "1.54.2"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "1.53"
     releaseDate: 2026-08-10
