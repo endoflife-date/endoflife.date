@@ -41,6 +41,13 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-sonnet-5-5"
+    releaseLabel: Claude Sonnet 5.5
+    releaseDate: 2026-09-28
+    eoas: false
+    eol: 2027-09-28
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-sonnet-5-5
   - releaseCycle: "claude-opus-5-5"
     releaseLabel: Claude Opus 5.5
     releaseDate: 2026-09-22
