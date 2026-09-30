@@ -23,19 +23,29 @@ auto:
 # eol(x) ~= releaseDate(x+1) (estimation = releaseDate(x) + 6 months)
 # eoes(x) =
 # - releaseDate(x) + 1 year for non-LTS
-# - releaseDate(x) + 3 years for LTS
+# - releaseDate(x) + 5 years for LTS (before 6.8 it was +3 years ) 
+#
+# Every 2 years there will be a new LTS version.
 # See also https://wiki.qt.io/QtReleasing.
 releases:
+  - releaseCycle: "6.12"
+    lts: true
+    releaseDate: 2026-09-30
+    eol: 2027-04-01 # estimated
+    eoes: 2031-10-01 # estimated
+    latest: "6.12.0"
+    latestReleaseDate: 2026-09-30
+
   - releaseCycle: "6.11"
     releaseDate: 2026-03-23
-    eol: 2026-09-22 # estimated releaseDate(6.12)
+    eol: 2026-09-30
     eoes: 2027-03-23 # estimated
     latest: "6.11.2"
     latestReleaseDate: 2026-08-18
 
   - releaseCycle: "6.10"
     releaseDate: 2025-10-07
-    eol: 2026-04-07 # estimated, 2025-10-07 + 6 months
+    eol: 2026-04-07 # estimated
     eoes: 2026-10-07 # estimated
     latest: "6.10.3"
     latestReleaseDate: 2026-04-02
@@ -72,7 +82,7 @@ releases:
   - releaseCycle: "6.5"
     lts: true
     releaseDate: 2023-03-31
-    eol: 2023-10-09
+    eol: 2023-12-13
     eoes: 2026-03-31
     latest: "6.5.8"
     latestReleaseDate: 2023-12-13
