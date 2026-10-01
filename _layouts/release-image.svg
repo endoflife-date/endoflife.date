@@ -44,6 +44,9 @@
       {% if row.security_width > 0 %}
       <rect class="bar eol" x="{{ row.security_x }}" y="0" width="{{ row.security_width }}" height="{{ page.row_height }}"/>
       {% endif %}
+      {% if row.extended_width > 0 %}
+      <rect class="bar eoes" x="{{ row.extended_x }}" y="0" width="{{ row.extended_width }}" height="{{ page.row_height }}"/>
+      {% endif %}
       {% if row.no_end_date %}
       <rect class="bar no-end-badge no-end" x="{{ page.today_x }}" y="0" height="{{ page.row_height }}"/>
       <text class="no-end-plus" x="{{ page.no_end_badge_width | divided_by: 2 | plus: page.today_x }}" y="{{ page.text_y_offset }}" text-anchor="middle">+</text>
