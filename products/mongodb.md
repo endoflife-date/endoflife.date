@@ -46,7 +46,7 @@ auto:
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 releases:
   - releaseCycle: "9.0"
-    releaseDate: 2026-09-28
+    releaseDate: 2026-09-30
     eol: 2031-10-31
     latest: "9.0.2"
     latestReleaseDate: 2026-09-28
