@@ -9,11 +9,18 @@ releasePolicyLink: https://releases.openstack.org/
 latestColumn: false
 
 releases:
+  - releaseCycle: "2026.2"
+    releaseLabel: "OpenStack 2026.2 Hibiscus"
+    codename: hibiscus
+    releaseDate: 2026-09-30
+    eol: 2028-04-26
+
   - releaseCycle: "2026.1"
     releaseLabel: "OpenStack 2026.1 Gazpacho"
     codename: gazpacho
     releaseDate: 2026-04-01
-    eol: 2027-10-27
+    eoas: 2027-10-27
+    eol: false
 
   - releaseCycle: "2025.2"
     releaseLabel: "OpenStack 2025.2 Flamingo"
@@ -25,7 +32,8 @@ releases:
     releaseLabel: "OpenStack 2025.1 Epoxy"
     codename: epoxy
     releaseDate: 2025-04-02
-    eol: 2026-10-02
+    eoas: 2026-10-02
+    eol: false
 
   - releaseCycle: "2024.2"
     releaseLabel: "OpenStack 2024.2 Dalmatian"
