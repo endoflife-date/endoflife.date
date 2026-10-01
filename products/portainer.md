@@ -18,8 +18,9 @@ identifiers:
   - cpe: cpe:2.3:a:portainer:portainer
 
 # Portainer has two release streams: STS (monthly, supported until the next
-# release) and LTS (every 6 months, supported ~9 months). The lifecycle policy
-# applies to both Business Edition and Community Edition.
+# release) and LTS (every 4 months, supported until the next LTS plus a 3 month
+# migration window, up to 9 months). The lifecycle policy applies to both
+# Business Edition and Community Edition.
 # EOL dates are given per month in the policy, so last-date-in-month is used.
 releases:
   - releaseCycle: "2.45"
@@ -160,5 +161,6 @@ releases:
 > Kubernetes and Podman, available as Community Edition (CE) and Business Edition (BE).
 
 Portainer publishes two release streams. STS releases are published monthly and are maintained
-until the next release. LTS releases are published every six months and are maintained for about
-nine months. Both editions follow the same lifecycle.
+until the next release. LTS releases are published every four months and are maintained until the
+next LTS release plus a three month migration window, for up to nine months. Both editions follow
+the same lifecycle.
