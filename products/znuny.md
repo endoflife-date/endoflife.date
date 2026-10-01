@@ -12,14 +12,14 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/znuny/Znuny.git
-      regex: '^rel-(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)$'
+      regex: '^rel-(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)$'
       template: "{{major}}.{{minor}}.{{patch}}"
 
 releases:
   - releaseCycle: "7.3"
     releaseDate: 2026-03-25
     eol: false
-    latest: "7.3.6"
+    latest: "7.3.7"
 
   - releaseCycle: "7.2"
     releaseDate: 2025-08-20
@@ -40,7 +40,17 @@ releases:
     releaseDate: 2023-03-29
     lts: true
     eol: false
-    latest: "6.5.24"
+    latest: "6.5.25"
+
+  - releaseCycle: "6.4"
+    releaseDate: 2022-07-27
+    eol: 2023-03-28
+    latest: "6.4.5"
+
+  - releaseCycle: "6.3"
+    releaseDate: 2022-03-09
+    eol: 2022-07-26
+    latest: "6.3.4"
 
   - releaseCycle: "6.0"
     releaseDate: 2021-01-27
