@@ -19,9 +19,9 @@ identifiers:
   - purl: pkg:docker/grafana/mimir
   - cpe: cpe:2.3:a:grafana:mimir
 
-# eol(x) = releaseDate(x+2), same policy as Grafana Loki, Alloy and Tempo.
-# RELEASE.md: the new version and the latest two minor versions are maintained;
-# older release branches are maintained on a best effort basis.
+# eol(x) = releaseDate(x+2), except for the last minor of a major (same as
+# Grafana Loki). RELEASE.md: the latest two minor versions are maintained, plus
+# any older major version kept in renovate.json5 (release-2.17 as of 2026-10).
 releases:
   - releaseCycle: "3.2"
     releaseDate: 2026-08-19
@@ -43,7 +43,7 @@ releases:
 
   - releaseCycle: "2.17"
     releaseDate: 2025-08-15
-    eol: 2026-06-02
+    eol: false
     latest: "2.17.11"
     latestReleaseDate: 2026-05-15
 
@@ -153,5 +153,5 @@ releases:
 > [Grafana Mimir](https://grafana.com/oss/mimir/) is an open source, horizontally scalable,
 > highly available, multi-tenant TSDB for long-term storage for [Prometheus](/prometheus).
 
-Grafana Mimir maintains the latest release and the two most recent minor versions.
-Older release branches are maintained on a best effort basis.
+Grafana Mimir maintains the two most recent minor versions, plus the last minor version of the
+previous major version. Older release branches are maintained on a best effort basis.
