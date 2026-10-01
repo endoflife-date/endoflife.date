@@ -19,7 +19,14 @@ identifiers:
 
 auto:
   methods:
-    - ibm-aix: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+    - version_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+      header_selector: "tbody tr:nth-of-type(1)"
+      name_column: "TL"
+      date_column: "Release date"
+      render_javascript: true
+      render_javascript_wait_for: "table"
+      regex: 'AIX (?P<major>\d+)\.(?P<minor>\d+) TL(?P<patch>\d+)'
+      template: "{{major}}.{{minor}}.{{patch}}"
     - release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -36,7 +43,7 @@ releases:
     releaseDate: 2025-12-06
     eol: 2028-12-31
     latest: "7.3.4"
-    latestReleaseDate: 2025-12-06
+    latestReleaseDate: 2025-12-31
 
   - releaseCycle: "7.3.3"
     releaseDate: 2024-12-06
@@ -64,7 +71,7 @@ releases:
     link: https://www.ibm.com/docs/aix/7.3?topic=notes-aix-73-release
 
   - releaseCycle: "7.2.5"
-    staleReleaseThresholdDays: 2000 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
+    staleReleaseThresholdDays: 2365 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
     releaseDate: 2020-11-30
     eol: false
     latest: "7.2.5"
@@ -113,6 +120,7 @@ releases:
     latest: "6.1.9"
     latestReleaseDate: 2013-11-30
     link: https://www.ibm.com/docs/aix/6.1?topic=aix-older-versions
+
 ---
 
 > [IBM AIX](https://www.ibm.com/products/aix) is a Unix-based operating system created by IBM, used

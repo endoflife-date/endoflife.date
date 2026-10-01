@@ -19,20 +19,27 @@ identifiers:
   - purl: pkg:docker/ubuntu/loki
   - purl: pkg:docker/bitnami/grafana-loki
   - purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
+  - cpe: cpe:2.3:a:grafana:loki
 
 # eol(x) = releaseDate(x+2), except for the last minor of a major.
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-03-26
+    eol: false
+    latest: "3.7.8"
+    latestReleaseDate: 2026-09-17
+
   - releaseCycle: "3.6"
     releaseDate: 2025-11-17
     eol: false
-    latest: "3.6.3"
-    latestReleaseDate: 2025-12-11
+    latest: "3.6.17"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
-    eol: false
-    latest: "3.5.9"
-    latestReleaseDate: 2025-12-10
+    eol: 2026-03-26
+    latest: "3.5.12"
+    latestReleaseDate: 2026-03-11
 
   - releaseCycle: "3.4"
     releaseDate: 2025-02-12
@@ -173,7 +180,7 @@ releases:
 
 {: .warning }
 
-> Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
+> Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/platform/security-and-account-management/account-management/support/).
 
 According to [this comment](https://github.com/grafana/loki/issues/18484#issuecomment-3098532391),
 Grafana provides security patches for the last two minor releases of the

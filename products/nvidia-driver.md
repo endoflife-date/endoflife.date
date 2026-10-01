@@ -8,7 +8,7 @@ permalink: /nvidia
 alternate_urls:
   - /nvidia-driver
 versionCommand: nvidia-smi
-releasePolicyLink: https://www.nvidia.com/Download/index.aspx
+releasePolicyLink: https://www.nvidia.com/drivers/
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
 
@@ -40,15 +40,87 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r615-windows"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "616.92"
+    latestReleaseDate: 2026-09-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-09/index.html
+
+  - releaseCycle: "r615-linux"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "615.71.09"
+    latestReleaseDate: 2026-09-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-09/index.html
+
+  - releaseCycle: "r610-windows"
+    releaseLabel: "R610-Windows (NFB)"
+    releaseDate: 2026-08-03
+    eoas: true
+    eol: 2027-08-03
+    latest: "610.88"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
+
+  - releaseCycle: "r610-linux"
+    releaseLabel: "R610-Linux (NFB)"
+    releaseDate: 2026-08-03
+    eoas: true
+    eol: 2027-08-03
+    latest: "610.57.04"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-610-57-04/index.html
+
+  - releaseCycle: "r595-windows"
+    releaseLabel: "R595-Windows (PB)"
+    releaseDate: 2026-03-24
+    eoas: 2027-03-24
+    eol: 2027-03-24
+    latest: "596.86"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
+
+  - releaseCycle: "r595-linux"
+    releaseLabel: "R595-Linux (PB)"
+    releaseDate: 2026-03-24
+    eoas: 2027-03-24
+    eol: 2027-03-24
+    latest: "595.91.07"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
+
+  - releaseCycle: "r590-windows"
+    releaseLabel: "R590-Windows (NFB)"
+    releaseDate: 2025-12-22
+    eoas: false
+    eol: 2026-12-22
+    latest: "591.59"
+    latestReleaseDate: 2025-12-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-590-48-01/index.html
+
+  - releaseCycle: "r590-linux"
+    releaseLabel: "R590-Linux (NFB)"
+    releaseDate: 2025-12-22
+    eoas: false
+    eol: 2026-12-22
+    latest: "590.48.01"
+    latestReleaseDate: 2025-12-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-590-48-01/index.html
+
   - releaseCycle: "r580-linux"
     releaseLabel: "R580-Linux"
     lts: true
     releaseDate: 2025-08-04
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "580.105.08"
-    latestReleaseDate: 2025-11-06
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-105-08/index.html
+    latest: "580.178.04"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-178-04/index.html
 
   - releaseCycle: "r580-windows"
     releaseLabel: "R580-Windows"
@@ -56,9 +128,9 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "581.80"
-    latestReleaseDate: 2025-11-06
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-105-08/index.html
+    latest: "582.78"
+    latestReleaseDate: 2026-08-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-178-04/index.html
 
   - releaseCycle: "r575-linux"
     releaseLabel: "R575-Linux (NFB)"
@@ -83,9 +155,9 @@ releases:
     releaseDate: 2025-01-27
     eoas: 2026-01-27
     eol: 2026-01-27
-    latest: "570.195.03"
-    latestReleaseDate: 2025-09-30
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-195-03/index.html
+    latest: "570.211.01"
+    latestReleaseDate: 2026-01-13
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-211-01/index.html
 
   - releaseCycle: "r570-windows"
     releaseLabel: "R570-Windows (PB)"
@@ -192,9 +264,9 @@ releases:
     releaseDate: 2023-06-14
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "535.274.02"
-    latestReleaseDate: 2025-09-30
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-274-02/index.html
+    latest: "535.309.01"
+    latestReleaseDate: 2026-04-28
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-309-01/index.html
 
   - releaseCycle: "r535-windows"
     releaseLabel: "R535-Windows"
@@ -202,9 +274,9 @@ releases:
     releaseDate: 2023-05-30
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "539.56"
-    latestReleaseDate: 2025-09-30
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-274-02/index.html
+    latest: "539.72"
+    latestReleaseDate: 2026-04-28
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-309-01/index.html
 
   - releaseCycle: "r530-linux"
     releaseLabel: "R530-Linux (NFB)"
@@ -417,13 +489,13 @@ releases:
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well
 > as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks
 > Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows,
-> Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
+> Linux, Solaris, and FreeBSD](https://www.nvidia.com/drivers/).
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
 - 32-bit operating systems are [no longer supported.](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
   32-bit applications running on x86_64 are still supported.
-- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
+- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
 Since LTSB branches are also production branches, it may be listed as a production branch in driver
@@ -447,7 +519,7 @@ GPUs supported by any given branch are dependent on the operating system.
 
 ## Cadence
 
-The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
+The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle):
 
 |                       | New Feature Branch (NFB)                         | Production Branch (PB)                               | Long Term Support Branch                                                                                  |
 | --------------------- | ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |

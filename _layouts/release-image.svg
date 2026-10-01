@@ -1,0 +1,65 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ page.svg_width }} {{ page.svg_height }}" role="img"
+     aria-label="{{ page.title | xml_escape }} Release Schedule">
+  <title>{{ page.title | xml_escape }} Release Schedule</title>
+
+  <style>
+    text { font-family: sans-serif; fill: #333; }
+    .label { font-size: 12px; }
+    .tick { font-size: 11px; fill: #888; }
+    .grid { stroke: #e8e8e8; stroke-width: 1; }
+    .today { stroke: #cc4444; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    .bar { rx: 2; ry: 2; }
+    .eoas { fill: #0A2472; }
+    .eol { fill: #1E96FC; }
+    .eoes { fill: #CDEBFF; }
+    .no-end { fill: #C8C8C8; }
+    .no-end-badge { width: {{ page.no_end_badge_width }}px; stroke: #ccc; stroke-width: 1; stroke-dasharray: 2,3; }
+    .no-end-plus { font-size: 14px; font-weight: bold; fill: white; }
+    .legend-icon { width: 14px; height: 14px; rx: 2; ry: 2; }
+  </style>
+
+  <!-- Background -->
+  <rect width="{{ page.svg_width }}" height="{{ page.svg_height }}" fill="white"/>
+
+  <!-- Chart area -->
+  <g transform="translate(0, {{ page.top_padding }})">
+
+    <!-- Year grid lines and labels -->
+    {% for tick in page.year_ticks %}
+    <line class="grid" x1="{{ tick.x }}" y1="0" x2="{{ tick.x }}" y2="{{ page.chart_height }}"/>
+    <text class="tick" x="{{ tick.x }}" y="{{ page.year_label_y }}" text-anchor="middle">{{ tick.year }}</text>
+    {% endfor %}
+
+    <!-- Release rows -->
+    {% for row in page.rows %}
+    {% assign y = forloop.index0 | times: page.row_stride %}
+    <g transform="translate(0, {{ y }})">
+      <text class="label" x="{{ page.label_x }}" y="{{ page.text_y_offset }}" text-anchor="end">{{ row.label | xml_escape }}</text>
+      {% if row.active_width > 0 %}
+      <rect class="bar eoas" x="{{ row.active_x }}" y="0" width="{{ row.active_width }}" height="{{ page.row_height }}"/>
+      {% endif %}
+      {% if row.security_width > 0 %}
+      <rect class="bar eol" x="{{ row.security_x }}" y="0" width="{{ row.security_width }}" height="{{ page.row_height }}"/>
+      {% endif %}
+      {% if row.no_end_date %}
+      <rect class="bar no-end-badge no-end" x="{{ page.today_x }}" y="0" height="{{ page.row_height }}"/>
+      <text class="no-end-plus" x="{{ page.no_end_badge_width | divided_by: 2 | plus: page.today_x }}" y="{{ page.text_y_offset }}" text-anchor="middle">+</text>
+      {% endif %}
+    </g>
+    {% endfor %}
+
+    <!-- Today marker -->
+    <line class="today" x1="{{ page.today_x }}" y1="0" x2="{{ page.today_x }}" y2="{{ page.chart_height }}"/>
+
+    <!-- Legend -->
+    <g transform="translate({{ page.legend_dx }}, {{ page.legend_y }})">
+      {% for item in page.legend_items %}
+      <rect class="legend-icon {{ item.icon_class }}" x="{{ item.x }}" y="0"/>
+      <text class="label" x="{{ item.x | plus: 18 }}" y="11">{{ item.label | xml_escape }}</text>
+      {% endfor %}
+    </g>
+  </g>
+</svg>

@@ -4,6 +4,7 @@ addedAt: 2025-09-12
 category: server-app
 tags: linux-foundation
 permalink: /openbao
+iconSlug: openbao
 alternate_urls:
   - /open-bao
   - /bao
@@ -22,6 +23,7 @@ identifiers:
   - purl: pkg:oci/openbao-ubi?repository_url=ghcr.io/openbao
   - purl: pkg:oci/openbao?repository_url=quay.io/openbao
   - purl: pkg:oci/openbao-ubi?repository_url=quay.io/openbao
+  - purl: pkg:brew/openbao
 
 auto:
   methods:
@@ -30,9 +32,27 @@ auto:
 # eol(x) = releaseDate(x+1)
 
 releases:
+  - releaseCycle: "2.7"
+    releaseDate: 2026-09-23
+    eol: false
+    latest: "2.7.0"
+    latestReleaseDate: 2026-09-23
+
+  - releaseCycle: "2.6"
+    releaseDate: 2026-07-14
+    eol: 2026-09-23
+    latest: "2.6.3"
+    latestReleaseDate: 2026-09-23
+
+  - releaseCycle: "2.5"
+    releaseDate: 2026-02-05
+    eol: 2026-07-14
+    latest: "2.5.5"
+    latestReleaseDate: 2026-06-17
+
   - releaseCycle: "2.4"
     releaseDate: 2025-08-28
-    eol: false
+    eol: 2026-02-05
     latest: "2.4.4"
     latestReleaseDate: 2025-11-24
 
@@ -59,7 +79,6 @@ releases:
     eol: 2024-11-30
     latest: "2.0.3"
     latestReleaseDate: 2024-11-15
-
 ---
 
 > [OpenBao](https://openbao.org/) is an open source, community-driven fork of [Hashicorp Vault](/hashicorp-vault) managed by the Linux Foundation.

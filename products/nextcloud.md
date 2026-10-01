@@ -9,6 +9,9 @@ versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
+identifiers:
+  - cpe: cpe:2.3:a:nextcloud:nextcloud_server
+
 auto:
   methods:
     - git: https://github.com/nextcloud/server.git
@@ -20,17 +23,35 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "35"
+    releaseDate: 2026-09-16
+    eol: 2027-09-30
+    latest: "35.0.1"
+    latestReleaseDate: 2026-09-24
+
+  - releaseCycle: "34"
+    releaseDate: 2026-06-09
+    eol: 2027-06-30
+    latest: "34.0.4"
+    latestReleaseDate: 2026-09-10
+
+  - releaseCycle: "33"
+    releaseDate: 2026-02-18
+    eol: 2027-02-28
+    latest: "33.0.9"
+    latestReleaseDate: 2026-09-10
+
   - releaseCycle: "32"
     releaseDate: 2025-09-27
     eol: 2026-09-30
-    latest: "32.0.3"
-    latestReleaseDate: 2025-12-11
+    latest: "32.0.15"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "31"
     releaseDate: 2025-02-25
     eol: 2026-02-28
-    latest: "31.0.12"
-    latestReleaseDate: 2025-12-11
+    latest: "31.0.14"
+    latestReleaseDate: 2026-02-12
 
   - releaseCycle: "30"
     releaseDate: 2024-09-11
@@ -202,4 +223,4 @@ Users can always upgrade sooner by choosing the beta channel, which typically tr
 [stable]: https://nextcloud.com/install/
 [enterprise]: https://nextcloud.com/enterprise/ "Nextcloud Enterprise"
 [beta]: https://download.nextcloud.com/server/prereleases/ "Beta releases"
-[channels]: https://nextcloud.com/release-channels/
+[channels]: https://nextcloud.com/blog/nextcloud-release-channels-and-how-to-track-them/

@@ -6,7 +6,7 @@ tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
-releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
+releasePolicyLink: https://docs.ansible.com/projects/ansible-core/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 eolColumn: Supported
 
@@ -15,17 +15,17 @@ customFields:
     display: api-only
     label: Control node Python
     description: Control node Python support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: pythonVersionsManagedNode
     display: api-only
     label: Managed node Python
     description: Managed node Python support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
   - name: powershellVersionsManagedNode
     display: api-only
     label: Managed node PowerShell
     description: Managed node PowerShell support
-    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+    link: https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 
 identifiers:
   - repology: ansible-core
@@ -37,19 +37,27 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/ansible/ansible.git
-    - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+    - release_table: https://github.com/ansible/ansible-documentation/blob/devel/docs/docsite/rst/reference_appendices/release_and_maintenance.rst
       fields:
         releaseCycle: "Version"
         releaseDate:
           column: "Support"
-          regex: '^GA:\s+(?P<value>\d+ \w+ \d+).*$'
+          regex: '^GA:\s+(?P<value>(\d+ )?\w+ \d+).*$'
         eol:
           column: "End Of Life"
           regex: '^(EOL\s*)?(?P<value>.+)$'
 
 # EOL dates as well as Python / PowerShell versions can be found on
-# https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+# https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
+  - releaseCycle: "2.21"
+    pythonVersionsControlNode: "3.12 - 3.14"
+    pythonVersionsManagedNode: "3.9 - 3.14"
+    powershellVersionsManagedNode: "5.1 - 7"
+    releaseDate: 2026-05-31
+    eol: 2027-11-30
+    latest: "2.21.4"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.20"
     pythonVersionsControlNode: "3.12 - 3.14"
@@ -57,8 +65,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-11-03
     eol: 2027-05-31
-    latest: "2.20.1"
-    latestReleaseDate: 2025-12-09
+    latest: "2.20.9"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -66,8 +74,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2025-07-21
     eol: 2026-11-30
-    latest: "2.19.5"
-    latestReleaseDate: 2025-12-09
+    latest: "2.19.13"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
@@ -75,8 +83,8 @@ releases:
     powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-04
     eol: 2026-05-31
-    latest: "2.18.12"
-    latestReleaseDate: 2025-12-09
+    latest: "2.18.19"
+    latestReleaseDate: 2026-08-10
 
   - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
@@ -93,8 +101,8 @@ releases:
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
-    latest: "2.16.15"
-    latestReleaseDate: 2025-12-09
+    latest: "2.16.19"
+    latestReleaseDate: 2026-06-18
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
@@ -166,12 +174,12 @@ releases:
 > Unix-like systems, and can configure both Unix-like systems and Microsoft Windows.
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major
-releases. For detailed information, see Ansible [Releases and maintenance](https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html).
+releases. For detailed information, see Ansible [Releases and maintenance](https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html).
 
-See the [ansible-core Roadmap](https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)
+See the [ansible-core Roadmap](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)
 for upcoming release details.
 
-## [Compatibility](https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life)
+## [Compatibility](https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html#support-life)
 
 {% include table.html
 labels="ansible-core,Control node Python,Managed node Python,Managed node PowerShell"

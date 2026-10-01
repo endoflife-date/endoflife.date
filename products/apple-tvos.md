@@ -7,7 +7,6 @@ iconSlug: apple
 permalink: /tvos
 alternate_urls:
   - /apple-tvos
-releasePolicyLink: https://en.wikipedia.org/wiki/TvOS#Version_history
 changelogTemplate: https://developer.apple.com/documentation/tvos-release-notes/tvos-__RELEASE_CYCLE__-release-notes
 eolColumn: Service Status
 
@@ -24,11 +23,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
+    eol: false
+    latest: "27.0"
+    latestReleaseDate: 2026-09-14
+
   - releaseCycle: "26"
     releaseDate: 2025-09-15
-    eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    eol: 2026-09-14
+    latest: "26.6"
+    latestReleaseDate: 2026-07-27
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
@@ -102,3 +107,5 @@ releases:
 Major versions of tvOS are released annually, with the previous major version losing support.
 
 A [Compatibility Table](https://en.wikipedia.org/wiki/TvOS#Supported_OS_releases) for supported combinations of tvOS and Apple TV generations is available.
+
+A detailed version history can be found on [Wikipedia](https://wikipedia.org/wiki/TvOS#Version_history).

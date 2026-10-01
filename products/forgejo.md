@@ -24,13 +24,34 @@ auto:
 
 identifiers:
   - repology: forgejo
+  - cpe: cpe:2.3:a:forgejo:forgejo
 
+# eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:
+  - releaseCycle: "16.0"
+    releaseDate: 2026-07-16
+    eol: 2026-10-29
+    latest: "16.0.5"
+    latestReleaseDate: 2026-09-17
+
+  - releaseCycle: "15.0"
+    lts: true
+    releaseDate: 2026-04-16
+    eol: 2027-07-15
+    latest: "15.0.9"
+    latestReleaseDate: 2026-09-17
+
+  - releaseCycle: "14.0"
+    releaseDate: 2026-01-15
+    eol: 2026-04-30
+    latest: "14.0.5"
+    latestReleaseDate: 2026-04-29
+
   - releaseCycle: "13.0"
     releaseDate: 2025-10-16
-    eol: 2026-01-15
-    latest: "13.0.3"
-    latestReleaseDate: 2025-11-21
+    eol: 2026-01-29
+    latest: "13.0.5"
+    latestReleaseDate: 2026-01-16
 
   - releaseCycle: "12.0"
     releaseDate: 2025-07-17
@@ -42,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2025-04-16
     eol: 2026-07-16
-    latest: "11.0.8"
-    latestReleaseDate: 2025-11-21
+    latest: "11.0.16"
+    latestReleaseDate: 2026-07-09
 
   - releaseCycle: "10.0"
     releaseDate: 2025-01-16
@@ -77,3 +98,6 @@ releases:
 Stable releases are released every quarter and receive support for three months.
 Long-term support releases are published in the first quarter of every year
 and receive critical bugfixes and security support for one year and three months.
+
+The Forgejo security team publishes advance notice of upcoming security
+releases on the [security-announcements issue tracker](https://codeberg.org/forgejo/security-announcements/issues).

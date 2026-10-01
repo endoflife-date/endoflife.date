@@ -9,7 +9,7 @@ alternate_urls:
   - /google-cos
   - /container-optimized-os
 versionCommand: cat /etc/os-release /etc/lsb-release
-releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
+releasePolicyLink: https://docs.cloud.google.com/container-optimized-os/docs/resources/support-policy
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
 releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 eolColumn: Support Status
@@ -21,36 +21,66 @@ identifiers:
 auto:
   methods:
     - cos: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
+    - release_table: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/#Current
+      selector: "#Current ~ table"
+      fields:
+        releaseCycle:
+          column: "OS version"
+          regex: '^COS (?P<value>\d+) LTS$'
+          template: "cos-{{value}}"
+        eol:
+          column: "End of support"
+          regex: '^(?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{month}} 1 {{year}}"
+    - release_table: https://docs.cloud.google.com/container-optimized-os/docs/release-notes/#Archived
+      selector: "#Archived ~ table"
+      fields:
+        releaseCycle:
+          column: "OS version"
+          regex: '^COS (?P<value>\d+) LTS$'
+          template: "cos-{{value}}"
+        eol:
+          column: "Deprecation date"
+          regex: '^(?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{month}} 1 {{year}}"
 
-# For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
+# For EOL dates, see the "End of support" column on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
+# (month-only dates are recorded as the first day of that month).
 releases:
+  - releaseCycle: "cos-129"
+    lts: true
+    releaseDate: 2026-05-21
+    eol: 2028-07-01
+    latest: "cos-129-19506-505-8"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "cos-125"
     lts: true
     releaseDate: 2025-10-09
-    eol: 2027-09-01
-    latest: "cos-125-19216-104-74"
-    latestReleaseDate: 2025-12-16
+    eol: 2028-02-01
+    latest: "cos-125-19216-700-7"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "cos-121"
     lts: true
     releaseDate: 2025-04-14
     eol: 2027-03-01
-    latest: "cos-121-18867-294-68"
-    latestReleaseDate: 2025-12-16
+    latest: "cos-121-18867-624-2"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "cos-117"
     lts: true
     releaseDate: 2024-10-02
     eol: 2026-09-01
-    latest: "cos-117-18613-439-72"
-    latestReleaseDate: 2025-12-16
+    latest: "cos-117-18613-767-2"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-521-56"
-    latestReleaseDate: 2025-12-16
+    latest: "cos-113-18244-582-104"
+    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "cos-109"
     lts: true
@@ -62,21 +92,21 @@ releases:
   - releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
-    eol: 2025-04-01
+    eol: 2025-03-01
     latest: "cos-105-17412-535-98"
     latestReleaseDate: 2025-03-31
 
   - releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
-    eol: 2024-09-01
+    eol: 2024-10-01
     latest: "cos-101-17162-528-64"
     latestReleaseDate: 2024-10-21
 
   - releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
-    eol: 2024-03-01
+    eol: 2024-04-01
     latest: "cos-97-16919-450-41"
     latestReleaseDate: 2024-03-27
 
@@ -104,7 +134,7 @@ releases:
   - releaseCycle: "cos-81"
     lts: true
     releaseDate: 2020-03-27
-    eol: 2021-09-01
+    eol: 2022-01-10
     latest: "cos-81-12871-1317-8"
     latestReleaseDate: 2022-01-10
 
@@ -131,7 +161,7 @@ releases:
 
 ---
 
-> [Google Container-Optimized OS (COS)](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
+> [Google Container-Optimized OS (COS)](https://docs.cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
 > is an operating system image for [GCP Compute Engine VMs](https://cloud.google.com/compute) which
 > is optimized for running Docker containers. It is maintained by Google and is based on the open
 > source [Chromium OS](https://www.chromium.org/chromium-os) project.
@@ -145,7 +175,7 @@ project.
 
 Container-Optimized OS image support is available for Long-Term Supported (LTS) family of images in
 the `cos-cloud` project. A description of available image families is available at the
-[Versioning Scheme](https://cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
+[Versioning Scheme](https://docs.cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
 doc. The following support commitment applies only to the LTS family of images.
 
 ## Support duration
@@ -162,23 +192,23 @@ During this support window:
 - New releases containing medium and low-priority bug and security fixes are released every 3
   months.
 - To maintain stability, no new breaking features are introduced.
-- All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes)
+- All changes in the image are documented on a dedicated [release notes](https://docs.cloud.google.com/container-optimized-os/docs/release-notes)
   page.
 
 ## Deprecation
 
 At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-lts` and
-`cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://cloud.google.com/compute/docs/reference/rest/v1/images/deprecate)
+`cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/deprecate)
 is set on images in that milestone and those images stop appearing in the active list of images in
 the `cos-cloud` project.
 
 {: .warning}
 
-> Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
+> Any [Image Family API](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
 > references to the deprecated image family will return errors and break any workflows depending on
 > it. You should not use this API to create production instances.
 
 Deprecated images are still accessible and usable when accessed directly by name using the
-[`images get API`](https://cloud.google.com/compute/docs/reference/rest/v1/images/get).
+[`images get API`](https://docs.cloud.google.com/compute/docs/reference/rest/v1/images/get).
 However, any issues with those images might not be fixed or will only be fixed in newer milestones.
 Issues reported against deprecated images may be fixed only in newer image milestones.

@@ -12,6 +12,7 @@ eolColumn: Support Status
 
 identifiers:
   - purl: pkg:github/neo4j/neo4j
+  - cpe: cpe:2.3:a:neo4j:neo4j
 
 auto:
   methods:
@@ -46,9 +47,75 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+  - releaseCycle: "2026.09"
+    releaseDate: 2026-09-21 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026-09-0/
+    eol: false
+    latest: "2026.09.0"
+    latestReleaseDate: 2026-09-16
+
+  - releaseCycle: "2026.08"
+    releaseDate: 2026-09-10 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026-08-0/
+    eol: 2026-09-21
+    latest: "2026.08.1"
+    latestReleaseDate: 2026-09-07 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026081/
+
+  - releaseCycle: "2026.07"
+    releaseDate: 2026-08-05
+    eol: 2026-09-10 # used announcement date instead of tagging date https://neo4j.com/release-notes/database/neo4j-2026-08-0/
+    latest: "2026.07.1"
+    latestReleaseDate: 2026-08-06
+
+  - releaseCycle: "2026.06"
+    releaseDate: 2026-07-08
+    eol: 2026-07-30
+    latest: "2026.06.0"
+    latestReleaseDate: 2026-07-02
+
+  - releaseCycle: "2026.05"
+    releaseDate: 2026-05-28
+    eol: 2026-07-08
+    latest: "2026.05.0"
+    latestReleaseDate: 2026-05-26
+
+  - releaseCycle: "2026.04"
+    releaseDate: 2026-04-23
+    eol: 2026-05-28
+    latest: "2026.04.0"
+    latestReleaseDate: 2026-04-22
+
+  - releaseCycle: "2026.03"
+    releaseDate: 2026-04-02
+    eol: 2026-04-23
+    latest: "2026.03.1"
+    latestReleaseDate: 2026-04-01
+
+  - releaseCycle: "2026.02"
+    releaseDate: 2026-03-20
+    eol: 2026-04-02
+    latest: "2026.02.3"
+    latestReleaseDate: 2026-03-18
+
+  - releaseCycle: "2026.01"
+    releaseDate: 2026-02-10
+    eol: 2026-03-06
+    latest: "2026.01.4"
+    latestReleaseDate: 2026-02-04
+
+  - releaseCycle: "2025.12"
+    releaseDate: 2026-01-16
+    eol: 2026-02-03
+    latest: "2025.12.1"
+    latestReleaseDate: 2026-01-14
+
+  - releaseCycle: "2025.11"
+    releaseDate: 2025-12-19
+    eol: 2026-01-16
+    latest: "2025.11.2"
+    latestReleaseDate: 2025-12-18
+
   - releaseCycle: "2025.10"
     releaseDate: 2025-10-30
-    eol: false
+    eol: 2025-12-19
     latest: "2025.10.1"
     latestReleaseDate: 2025-10-23
 
@@ -108,10 +175,10 @@ releases:
 
   - releaseCycle: "5.26"
     releaseDate: 2024-12-06
-    eol: false # releaseDate(5.27)
+    eol: 2028-06-06 # https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
     lts: true
-    latest: "5.26.19"
-    latestReleaseDate: 2025-12-17
+    latest: "5.26.31"
+    latestReleaseDate: 2026-09-21
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"
@@ -292,9 +359,9 @@ releases:
   - releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.46"
+    latest: "4.4.48"
     lts: true
-    latestReleaseDate: 2025-09-30
+    latestReleaseDate: 2026-02-03
     link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
   - releaseCycle: "4.3"
@@ -478,7 +545,7 @@ Only the latest minor version is supported.
 A LTS release is supported until a separate published End-of-Life date.
 
 This page tracks End-of-Life as per the Neo4j Enterprise Edition.
-Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/).
+Support or fixes are [not guaranteed for the Community Edition](https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions).
 AuraDB, the hosted offering by Neo4j, is automatically updated, and support is available depending on the plan.
 
 A high-level overview of different Neo4j editions:
@@ -497,7 +564,7 @@ Each minor release is supported for 18 months from the GA date, except for the f
 
 ## References
 
-- [Neo4j Supported Versions](https://neo4j.com/developer/kb/neo4j-supported-versions/)
+- [Neo4j Supported Versions](https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions)
 - [Features in various AuraDB Editions](https://neo4j.com/docs/aura/auradb/)
 - [Support differences in AuraDB Editions](https://neo4j.com/docs/aura/auradb/support/)
 - [Calendar Versioning](https://neo4j.com/docs/upgrade-migration-guide/current/#_version_numbers)

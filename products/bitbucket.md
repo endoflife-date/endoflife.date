@@ -17,7 +17,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/bitbucket/download-archives
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/stash/current
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.version.date'
+    - json_versions: https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/stash/archived
+      selector: '$[*]'
+      name: '$.version.name'
+      date: '$.version.date'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-Bitbucket
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
@@ -25,11 +32,30 @@ auto:
 # Release dates from https://www.atlassian.com/software/bitbucket/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+  - releaseCycle: "10.4"
+    releaseDate: 2026-05-12
+    eol: 2028-07-21
+    latest: "10.4.3"
+    latestReleaseDate: 2026-09-07
+
+  - releaseCycle: "10.3"
+    releaseDate: 2026-05-12
+    eol: 2028-05-12
+    latest: "10.3.2"
+    latestReleaseDate: 2026-07-14
+
+  - releaseCycle: "10.2"
+    releaseDate: 2026-03-03
+    lts: true
+    eol: 2028-03-03
+    latest: "10.2.7"
+    latestReleaseDate: 2026-09-06
+
   - releaseCycle: "10.1"
     releaseDate: 2025-11-20
     eol: 2027-11-20
-    latest: "10.1.3"
-    latestReleaseDate: 2025-12-09
+    latest: "10.1.5"
+    latestReleaseDate: 2026-02-10
 
   - releaseCycle: "10.0"
     releaseDate: 2025-09-07
@@ -53,8 +79,8 @@ releases:
     lts: true
     releaseDate: 2024-12-02
     eol: 2026-12-03
-    latest: "9.4.15"
-    latestReleaseDate: 2025-12-09
+    latest: "9.4.24"
+    latestReleaseDate: 2026-09-06
 
   - releaseCycle: "9.3"
     releaseDate: 2024-10-29
@@ -84,8 +110,8 @@ releases:
     lts: true
     releaseDate: 2024-03-12
     eol: 2026-03-12
-    latest: "8.19.26"
-    latestReleaseDate: 2025-12-04
+    latest: "8.19.29"
+    latestReleaseDate: 2026-03-10
 
   - releaseCycle: "8.18"
     releaseDate: 2024-02-06

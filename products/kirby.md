@@ -32,8 +32,8 @@ releases:
     releaseDate: 2025-06-24
     eol: false
     supportedPhpVersions: 8.2 - 8.4
-    latest: "5.2.1"
-    latestReleaseDate: 2025-12-16
+    latest: "5.6.0"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
@@ -46,10 +46,10 @@ releases:
   - releaseCycle: "4"
     codename: "A new era"
     releaseDate: 2023-11-28
-    eol: 2027-06-23
+    eol: 2026-11-28
     supportedPhpVersions: 8.1 - 8.4
-    latest: "4.8.0"
-    latestReleaseDate: 2025-06-03
+    latest: "4.9.6"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "3.9"
     codename: "Brookesia"

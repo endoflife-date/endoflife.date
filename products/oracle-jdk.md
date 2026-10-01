@@ -23,7 +23,7 @@ identifiers:
 
 auto:
   methods:
-    - oracle-jdk: https://www.java.com/releases/
+    - oracle-jdk: https://ops.java/releases/
     - release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
       render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
@@ -39,28 +39,41 @@ auto:
           column: "Extended Support Until"
           regex: '^(?P<value>\w+ \d+).*'
     # Fix the release date, as only month-year dates are provided in the previous table.
-    - release_table: https://www.java.com/releases/
-      render_javascript: true
-      selector: "table.releaselist"
-      header_selector: "tbody#released tr:nth-of-type(3)"
+    - release_table: https://ops.java/releases/
+      user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+      header_selector: "tbody#released tr:nth-of-type(2)"
       rows_selector: "tbody#released tr"
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^(?P<value>\d+)(\s+LTS)?$'
+          regex: '^(?:JDK\s+)?(?P<value>\d+)(?:\s+LTS(?:\s+.*)?)?$'
         releaseDate: "Date"
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
 # LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
 # for non-LTS, eol(x) = releaseDate(x+1).
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-15
+    eol: 2027-03-31
+    latest: "27"
+    latestReleaseDate: 2026-09-15
+    link: https://www.oracle.com/java/technologies/javase/27all-relnotes.html
+
+  - releaseCycle: "26"
+    releaseDate: 2026-03-17
+    eol: 2026-09-18
+    latest: "26.0.2.1"
+    latestReleaseDate: 2026-08-18
+    link: https://www.oracle.com/java/technologies/javase/26all-relnotes.html
+
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-16
     eol: 2030-09-30
     eoes: 2033-09-30
-    latest: "25.0.1"
-    latestReleaseDate: 2025-10-21
+    latest: "25.0.4.1"
+    latestReleaseDate: 2026-08-18
     link: https://www.oracle.com/java/technologies/javase/25all-relnotes.html
 
   - releaseCycle: "24"
@@ -88,8 +101,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     eoes: 2031-09-30
-    latest: "21.0.9"
-    latestReleaseDate: 2025-10-21
+    latest: "21.0.12.1"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -114,8 +127,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     eoes: 2029-09-30
-    latest: "17.0.17"
-    latestReleaseDate: 2025-10-21
+    latest: "17.0.20.1"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -152,8 +165,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     eoes: 2032-01-31
-    latest: "11.0.29"
-    latestReleaseDate: 2025-10-21
+    latest: "11.0.32.1"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -172,15 +185,15 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     eoes: 2030-12-31
-    latest: "8u471"
-    latestReleaseDate: 2025-10-21
+    latest: "8u503"
+    latestReleaseDate: 2026-08-18
 
   - releaseCycle: "7"
     lts: true
     releaseDate: 2011-07-11
     eol: 2019-07-31
     eoes: 2022-07-19
-    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361
+    link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_351
     latest: "7u351"
     latestReleaseDate: 2022-07-19
 

@@ -5,9 +5,12 @@ category: os
 tags: apple
 iconSlug: ios
 permalink: /ios
-releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
+
+identifiers:
+  - cpe: cpe:/o:apple:iphone_os
+  - cpe: cpe:2.3:o:apple:iphone_os
 
 auto:
   methods:
@@ -18,48 +21,55 @@ auto:
         - 'iOS\s+(?P<version>\d+)'
         - 'iOS\s+(?P<version>\d+(?:\.\d+)+)'
         - 'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
-
+# eol(x) = if cycle_EOLed ? latestReleaseDate : false
 releases:
-  - releaseCycle: "26"
-    releaseDate: 2025-09-15
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
     eoas: false
     eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-28
+
+  - releaseCycle: "26"
+    releaseDate: 2025-09-15
+    eoas: 2026-09-14
+    eol: false
+    latest: "26.7.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
-    eoas: false
+    eoas: 2025-09-15
     eol: false
-    latest: "18.7.3"
-    latestReleaseDate: 2025-12-12
+    latest: "18.7.10"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: 2024-09-16
-    eol: 2024-11-19
-    latest: "17.7.2"
-    latestReleaseDate: 2024-11-19
+    eol: 2025-05-13
+    latest: "17.7.7"
+    latestReleaseDate: 2025-05-13
 
   - releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: 2025-03-31
-    latest: "16.7.12"
-    latestReleaseDate: 2025-09-15
+    eol: false
+    latest: "16.7.16"
+    latestReleaseDate: 2026-05-11
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-16-release-notes
 
   - releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: 2025-03-31
-    latest: "15.8.5"
-    latestReleaseDate: 2025-09-15
+    eol: false
+    latest: "15.8.8"
+    latestReleaseDate: 2026-05-11
 
   - releaseCycle: "14"
     releaseDate: 2020-09-16
     eoas: 2021-09-20
-    eol: 2021-10-01
+    eol: 2021-10-26
     latest: "14.8.1"
     latestReleaseDate: 2021-10-26
 
@@ -74,9 +84,9 @@ releases:
   - releaseCycle: "12"
     releaseDate: 2018-09-17
     eoas: 2019-09-19
-    eol: 2023-01-23
-    latest: "12.5.7"
-    latestReleaseDate: 2023-01-23
+    eol: 2026-01-26
+    latest: "12.5.8"
+    latestReleaseDate: 2026-01-26
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-12-release-notes
 
   - releaseCycle: "11"
@@ -85,23 +95,23 @@ releases:
     eol: 2018-10-08
     latest: "11.4.1"
     latestReleaseDate: 2018-07-09
-    link: https://support.apple.com/HT208067
+    link: https://support.apple.com/102991
 
   - releaseCycle: "10"
     releaseDate: 2016-09-13
     eoas: 2017-09-19
-    eol: 2017-09-26
+    eol: 2019-07-22
     latest: "10.3.4"
     latestReleaseDate: 2019-07-22
-    link: https://support.apple.com/HT208011
+    link: https://support.apple.com/102990
 
   - releaseCycle: "9"
     releaseDate: 2015-09-16
     eoas: 2016-09-13
-    eol: 2016-09-13
+    eol: 2019-07-22
     latest: "9.3.6"
     latestReleaseDate: 2019-07-22
-    link: https://support.apple.com/HT208010
+    link: https://support.apple.com/103834
 
   - releaseCycle: "8"
     releaseDate: 2014-09-17
@@ -109,7 +119,7 @@ releases:
     eol: 2015-09-30
     latest: "8.4.1"
     latestReleaseDate: 2015-08-13
-    link: https://support.apple.com/HT208000
+    link: https://support.apple.com/102782
 
   - releaseCycle: "7"
     releaseDate: 2013-09-18
@@ -117,7 +127,7 @@ releases:
     eol: 2014-10-20
     latest: "7.1.2"
     latestReleaseDate: 2014-06-30
-    link: https://support.apple.com/HT207979
+    link: https://support.apple.com/102996
 
   - releaseCycle: "6"
     releaseDate: 2012-09-19
@@ -125,7 +135,7 @@ releases:
     eol: 2013-09-26
     latest: "6.1.6"
     latestReleaseDate: 2014-02-21
-    link: https://support.apple.com/HT212584
+    link: https://support.apple.com/102995
 
   - releaseCycle: "5"
     releaseDate: 2011-10-12
@@ -133,19 +143,23 @@ releases:
     eol: 2012-11-01
     latest: "5.1.1"
     latestReleaseDate: 2012-05-07
-    link: https://support.apple.com/HT212597
+    link: https://support.apple.com/102998
 
 ---
 
-> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
+> [iOS](https://www.apple.com/os/ios/) is a mobile operating system created by Apple and used in the company's mobile devices, including the iPhone.
 > It is the world's second-most widely installed operating system, after Android.
+
+{: .warning }
+
+> As of May 2026 iOS 15, 16, 18 and 26 appears to be receiving security fixes. Usually, only the latest iOS release is supported by Apple.
+> Apple occasionally backported critical security fixes to
+> [older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/) but such fixes
+> are not guaranteed.
 
 Major versions of iOS are released annually.
 Apple significantly extended the cycle of updates for iOS-supported devices over the years.
-Usually, only the latest iOS release is supported by Apple.
-Around iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/) **for a short period of time**.
-
-Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/) but such fixes are not guaranteed.
-As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices is available at [/iphone](/iphone).
+
+A detailed overview of iOS versions can be found on [Wikipedia](https://wikipedia.org/wiki/IOS_version_history#Overview).

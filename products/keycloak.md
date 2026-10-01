@@ -11,7 +11,9 @@ eolColumn: Supported
 
 identifiers:
   - purl: pkg:github/keycloak/keycloak
+  - purl: pkg:maven/org.keycloak/keycloak-core
   - repology: keycloak
+  - cpe: cpe:2.3:a:redhat:keycloak
 
 auto:
   methods:
@@ -19,9 +21,27 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+  - releaseCycle: "26.7"
+    releaseDate: 2026-07-09
+    eol: false
+    latest: "26.7.5"
+    latestReleaseDate: 2026-09-30
+
+  - releaseCycle: "26.6"
+    releaseDate: 2026-04-08
+    eol: 2026-07-09
+    latest: "26.6.4"
+    latestReleaseDate: 2026-06-26
+
+  - releaseCycle: "26.5"
+    releaseDate: 2026-01-06
+    eol: 2026-04-08
+    latest: "26.5.7"
+    latestReleaseDate: 2026-04-02
+
   - releaseCycle: "26.4"
     releaseDate: 2025-09-30
-    eol: false
+    eol: 2026-01-06
     latest: "26.4.7"
     latestReleaseDate: 2025-12-01
 
@@ -183,5 +203,5 @@ and now follows its own release policy. It will continue to be backwards compati
 supported releases of the Keycloak server, and deviation from this will be considered a breaking change.
 
 Commercial offerings with long-term support of specific versions of Keycloak are provided by Red Hat
-with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)
-and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak).
+with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/single-sign-on/)
+and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-keycloak/).

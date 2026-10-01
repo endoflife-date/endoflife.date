@@ -7,6 +7,7 @@ iconSlug: apachehadoop
 permalink: /apache-hadoop
 alternate_urls:
   - /hadoop
+releasePolicyLink: https://cwiki.apache.org/confluence/spaces/HADOOP/pages/89071895/Hadoop+Active+Release+Lines
 changelogTemplate: https://hadoop.apache.org/release/__LATEST__.html
 eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
@@ -18,6 +19,9 @@ identifiers:
   - cpe: cpe:2.3:a:apache:hadoop
   - cpe: cpe:/a:cloudera:hadoop
   - cpe: cpe:2.3:a:cloudera:hadoop
+  - purl: pkg:docker/apache/hadoop
+  - purl: pkg:github/apache/hadoop
+  - purl: pkg:maven/org.apache.hadoop/hadoop-core
 
 auto:
   methods:
@@ -27,21 +31,27 @@ auto:
 # eol(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
 releases:
+  - releaseCycle: "3.5"
+    releaseDate: 2026-04-02
+    eol: false
+    latest: "3.5.0"
+    latestReleaseDate: 2026-04-01
+
   - releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
-    latest: "3.4.2"
-    latestReleaseDate: 2025-08-29
+    latest: "3.4.3"
+    latestReleaseDate: 2026-02-24
 
   - releaseCycle: "3.3"
-    staleReleaseThresholdDays: 1000 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
+    staleReleaseThresholdDays: 1500 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
     releaseDate: 2020-07-15
     eol: false
     latest: "3.3.6"
     latestReleaseDate: 2023-06-26
 
   - releaseCycle: "2.10"
-    staleReleaseThresholdDays: 1500 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
+    staleReleaseThresholdDays: 2000 # still on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines
     releaseDate: 2019-10-29
     eol: false
     latest: "2.10.2"

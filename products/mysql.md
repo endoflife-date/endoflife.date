@@ -7,7 +7,6 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Premier Support
 eolColumn: Extended Support
@@ -32,88 +31,113 @@ identifiers:
   - purl: pkg:docker/library/mysql
   - purl: pkg:deb/ubuntu/mysql-server
   - purl: pkg:deb/debian/mysql
+  - purl: pkg:winget/Oracle.MySQL
+  - purl: pkg:chocolatey/mysql
+  - cpe: cpe:2.3:a:oracle:mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "9.7"
+    releaseDate: 2026-04-21
+    lts: true
+    eoas: 2031-04-30
+    eol: 2034-04-30
+    latest: "9.7.2"
+    latestReleaseDate: 2026-07-28
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
+
+  - releaseCycle: "9.6"
+    releaseDate: 2026-01-20
+    eoas: 2026-04-21
+    eol: 2026-04-21
+    latest: "9.6.1"
+    latestReleaseDate: 2026-01-16
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-6-0.html
+
   - releaseCycle: "9.5"
     releaseDate: 2025-10-21
-    eoas: false # releaseDate(x+1)
-    eol: false # releaseDate(x+1)
-    latest: "9.5.0"
-    latestReleaseDate: 2025-09-23
+    eoas: 2026-01-20
+    eol: 2026-01-20
+    latest: "9.5.2"
+    latestReleaseDate: 2025-11-20
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-5-0.html
 
   - releaseCycle: "9.4"
-    releaseDate: 2025-07-09
+    releaseDate: 2025-07-22
     eoas: 2025-10-21
     eol: 2025-10-21
-    latest: "9.4.0"
-    latestReleaseDate: 2025-07-09
+    latest: "9.4.2"
+    latestReleaseDate: 2025-09-04
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-4-0.html
 
   - releaseCycle: "9.3"
-    releaseDate: 2025-03-31
+    releaseDate: 2025-04-15
     eoas: 2025-07-22
     eol: 2025-07-22
-    latest: "9.3.0"
-    latestReleaseDate: 2025-03-31
+    latest: "9.3.2"
+    latestReleaseDate: 2025-06-10
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-3-0.html
 
   - releaseCycle: "9.2"
-    releaseDate: 2024-12-15
+    releaseDate: 2025-01-21
     eoas: 2025-04-15
     eol: 2025-04-15
-    latest: "9.2.0"
-    latestReleaseDate: 2024-12-15
+    latest: "9.2.2"
+    latestReleaseDate: 2025-02-21
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-2-0.html
 
   - releaseCycle: "9.1"
-    releaseDate: 2024-09-24
+    releaseDate: 2024-10-15
     eoas: 2025-01-21
     eol: 2025-01-21
-    latest: "9.1.0"
-    latestReleaseDate: 2024-09-24
+    latest: "9.1.2"
+    latestReleaseDate: 2024-11-26
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-1-0.html
 
   - releaseCycle: "9.0"
-    releaseDate: 2024-06-07
+    releaseDate: 2024-07-01
     eoas: 2024-10-15
     eol: 2024-10-15
     latest: "9.0.1"
     latestReleaseDate: 2024-07-12
 
   - releaseCycle: "8.4"
-    releaseDate: 2024-04-10
+    releaseDate: 2024-04-30
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: "8.4.7"
-    latestReleaseDate: 2025-09-24
+    latest: "8.4.11"
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "8.3"
-    releaseDate: 2023-12-14
-    eoas: 2024-04-10
-    eol: 2024-04-10
+    releaseDate: 2024-01-16
+    eoas: 2024-04-30
+    eol: 2024-04-30
     latest: "8.3.0"
     latestReleaseDate: 2023-12-14
 
   - releaseCycle: "8.2"
-    releaseDate: 2023-10-12
-    eoas: 2023-12-14
-    eol: 2023-12-14
+    releaseDate: 2023-10-25
+    eoas: 2024-01-16
+    eol: 2024-01-16
     latest: "8.2.0"
     latestReleaseDate: 2023-10-12
 
   - releaseCycle: "8.1"
-    releaseDate: 2023-06-21
+    releaseDate: 2023-07-18
     eoas: 2023-10-25
     eol: 2023-10-25
     latest: "8.1.0"
     latestReleaseDate: 2023-06-21
 
   - releaseCycle: "8.0"
-    releaseDate: 2018-04-08
+    releaseDate: 2018-04-19
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: "8.0.44"
-    latestReleaseDate: 2025-09-24
+    latest: "8.0.46"
+    latestReleaseDate: 2026-04-07
 
   - releaseCycle: "5.7"
     releaseDate: 2015-10-09
@@ -157,10 +181,8 @@ LTS releases have a 5-year premier and 3-year extended support, the same as the 
 The last version of a major release cycle will be designated as LTS (except for 8.0).
 Features can be removed (& added) only in the first LTS release (e.g., 8.4.0 LTS) but not later.
 
-8.1 is the first Innovation release,
-and 8.0.34+ (LTS) has transitioned to only bug fixes until 8.0 End-Of-Life (EOL)
-in April 2026. Around July 2024, the last 8.x release will eventually become LTS to
-let users migrate from 8.0.x to the 8.x LTS version.
+8.1 was the first Innovation release, and 8.0.34+ (LTS) only received bug fixes until 8.0 End-Of-Life (EOL)
+in April 2026. 8.4 is the LTS release of the 8.x series, and 9.7 is the LTS release of the 9.x series.
 
 ## Release Cadence
 

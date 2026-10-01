@@ -8,7 +8,7 @@ permalink: /nixos
 alternate_urls:
   - /nixoslinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://nixos.org/blog/announcements.html
+releasePolicyLink: https://nixos.org/blog/announcements/
 changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 latestColumn: false
@@ -18,6 +18,11 @@ identifiers:
   - cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+  - releaseCycle: "26.05"
+    codename: "Yarara"
+    releaseDate: 2026-05-30
+    eol: 2026-12-31
+
   - releaseCycle: "25.11"
     codename: "Xantusia"
     releaseDate: 2025-11-30
@@ -79,7 +84,7 @@ releases:
     eol: 2020-10-30
 
   - releaseCycle: "19.09"
-    codename: "Lori"
+    codename: "Loris"
     releaseDate: 2019-10-09
     eol: 2020-04-30
 
@@ -144,4 +149,4 @@ releases:
 
 There is also the Unstable release that is always supported and receives updates most frequently.
 
-**If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**.
+**If you're looking for nix, the package manager NixOS is based on, [click here](/nix)**.

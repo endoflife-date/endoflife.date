@@ -13,6 +13,9 @@ auto:
     - git: https://github.com/oVirt/ovirt-engine
       regex: ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
 
+identifiers:
+  - purl: pkg:github/ovirt/ovirt-engine
+
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "4.5"
@@ -61,6 +64,6 @@ releases:
 
 > [oVirt](https://www.ovirt.org/) is an open-source
 > software for centralized virtualization management. It is a hosted hypervisor
-> that can run operating systems including Linux and Windows
+> that can run operating systems including Linux and Windows.
 
 oVirt versions are supported until the new one is available.

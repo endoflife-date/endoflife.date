@@ -14,8 +14,30 @@ changelogTemplate: "https://docs.aws.amazon.com/msk/latest/developerguide/suppor
 eolColumn: Support
 staleReleaseThresholdDays: 1000 # confirmed on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html
 
+auto:
+  methods:
+    - release_table: https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html
+      fields:
+        releaseCycle:
+          column: "Apache Kafka version"
+          regex: '^(?P<value>\d+\.\d+)\.x.*$'
+        releaseDate: "MSK release date"
+        eol: "End of support date"
+
 # eol are documented on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html.
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-07-15
+    eol: false
+    latest: "4.2.x"
+    latestReleaseDate: 2026-07-15
+
+  - releaseCycle: "4.1"
+    releaseDate: 2025-10-15
+    eol: false
+    latest: "4.1.x"
+    latestReleaseDate: 2025-10-15
+
   - releaseCycle: "4.0"
     releaseDate: 2025-05-16
     eol: false
@@ -36,13 +58,13 @@ releases:
 
   - releaseCycle: "3.7"
     releaseDate: 2024-05-29
-    eol: false
+    eol: 2026-09-01
     latest: "3.7.x"
     latestReleaseDate: 2024-05-29
 
   - releaseCycle: "3.6"
     releaseDate: 2023-11-16
-    eol: false
+    eol: 2026-06-01
     latest: "3.6.0"
     latestReleaseDate: 2023-11-16
 
@@ -117,6 +139,7 @@ releases:
     eol: 2024-06-08
     latest: "2.2.1"
     latestReleaseDate: 2019-07-31
+
 ---
 
 > [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](https://aws.amazon.com/msk/) is a streaming data service
@@ -133,4 +156,4 @@ Automatic upgrades can happen at any time after the end of support date. No noti
 are sent before the upgrade.
 
 Cluster creation for EOL versions is phased out gradually, but no timelines are provided. Patch releases are not
-always documented by AWS, such as `3.5.2`.
+always documented by AWS, such as `3.5.2`. Clusters running 4.0 and above do not support Zookeeper.

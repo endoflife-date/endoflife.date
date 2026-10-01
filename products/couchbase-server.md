@@ -23,7 +23,9 @@ auto:
     - couchbase-server: https://docs.couchbase.com/server
       regex: '^Release (?P<version>\d+\.\d+(\.\d+)?) \((?P<date>.+)\)$'
     - release_table: https://www.couchbase.com/support-policy/EOL/
-      user_agent: "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"
+      disabled: true  # script does not work in headless mode, must be run manually
+      render_javascript: true
+      render_javascript_headless: false
       fields:
         releaseCycle:
           column: "Release"
@@ -54,39 +56,42 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2025-10-21
     eol: 2028-10-31
-    latest: "8.0.0"
-    latestReleaseDate: 2025-10-01
+    latest: "8.0.3"
+    latestReleaseDate: 2026-09-01
     link: https://www.couchbase.com/blog/couchbase-8-hyperscale-ai/
 
   - releaseCycle: "7.6"
     releaseDate: 2024-03-25
     eol: 2027-03-31
-    latest: "7.6.8"
-    latestReleaseDate: 2025-11-01
+    latest: "7.6.12"
+    latestReleaseDate: 2026-07-01
 
   - releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
-    latest: "7.2.8"
-    latestReleaseDate: 2025-08-01
+    latest: "7.2.9"
+    latestReleaseDate: 2026-01-01
 
   - releaseCycle: "7.1"
     releaseDate: 2022-05-10
     eol: 2024-01-31
     latest: "7.1.6"
     latestReleaseDate: 2023-11-01
+    link: https://web.archive.org/web/20251008201114/https://docs.couchbase.com/server/7.1/release-notes/relnotes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2021-07-29
     eol: 2023-01-31
     latest: "7.0.5"
     latestReleaseDate: 2022-12-01
+    link: https://web.archive.org/web/20250916172610/https://docs.couchbase.com/server/7.0/release-notes/relnotes.html
 
   - releaseCycle: "6.6"
     releaseDate: 2020-08-12
     eol: 2023-01-31
     latest: "6.6.6"
     latestReleaseDate: 2023-01-15
+    link: https://web.archive.org/web/20230519153917/https://docs.couchbase.com/server/6.6/release-notes/relnotes.html
 
   - releaseCycle: "6.5"
     releaseDate: 2020-01-21
@@ -135,14 +140,14 @@ releases:
     eol: 2018-04-30
     latest: "4.5.1"
     latestReleaseDate: 2016-10-05
-    link: https://www.couchbase.com/blog/announcing-couchbase-server-4-5-1/
+    link: https://web.archive.org/web/20250803112322/https://www.couchbase.com/blog/announcing-couchbase-server-4-5-1/
 
   - releaseCycle: "4.1"
     releaseDate: 2015-12-10
     eol: 2018-04-30
     latest: "4.1.2"
     latestReleaseDate: 2016-08-15
-    link: https://www.couchbase.com/blog/announcing-couchbase-server-4-1-2/
+    link: https://web.archive.org/web/20250807032054/https://www.couchbase.com/blog/announcing-couchbase-server-4-1-2/
 
   - releaseCycle: "4.0"
     releaseDate: 2015-10-06
@@ -156,7 +161,7 @@ releases:
     eol: 2017-02-28
     latest: "3.1.3"
     latestReleaseDate: 2016-05-16
-    link: https://www.couchbase.com/blog/couchbase-3.1.3-ce-is-now-available/
+    link: https://web.archive.org/web/20250816123113/https://www.couchbase.com/blog/couchbase-3.1.3-ce-is-now-available/
 
   - releaseCycle: "3.0"
     releaseDate: 2014-12-17

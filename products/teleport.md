@@ -11,6 +11,7 @@ eoasColumn: true
 identifiers:
   - purl: pkg:github/gravitational/teleport
   - repology: teleport
+  - cpe: cpe:2.3:a:goteleport:teleport
 
 auto:
   methods:
@@ -23,15 +24,15 @@ releases:
     releaseDate: 2025-07-04
     eoas: false
     eol: false
-    latest: "18.5.1"
-    latestReleaseDate: 2025-12-12
+    latest: "18.11.1"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "17"
     releaseDate: 2024-11-15
     eoas: 2025-07-04
     eol: false
-    latest: "17.7.12"
-    latestReleaseDate: 2025-12-16
+    latest: "17.7.29"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "16"
     releaseDate: 2024-06-13

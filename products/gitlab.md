@@ -6,8 +6,8 @@ tags: gitlab
 iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
-releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
-changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
+releasePolicyLink: https://docs.gitlab.com/policy/maintenance/
+changelogTemplate: 'https://docs.gitlab.com/releases/{{ "__RELEASE_CYCLE__" | split: "." | first }}/gitlab-{{ "__RELEASE_CYCLE__" | replace: ".", "-" }}-released/'
 eoasColumn: true
 eolColumn: Maintenance Support
 
@@ -18,33 +18,96 @@ identifiers:
 
 auto:
   methods:
-    - git: https://gitlab.com/gitlab-org/gitlab.git
+    - gitlab_tags: gitlab-org/gitlab
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
-# Upcoming release dates are available on https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/
+# Upcoming release dates are available on https://handbook.gitlab.com/handbook/engineering/releases/monthly-releases/#monthly-release-schedule
 releases:
+  - releaseCycle: "19.4"
+    releaseDate: 2026-09-17
+    eoas: 2026-10-15 # releaseDate(19.5)
+    eol: 2026-12-17 # releaseDate(19.7)
+    latest: "19.4.1"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "19.3"
+    releaseDate: 2026-08-20
+    eoas: 2026-09-17 # releaseDate(19.4)
+    eol: 2026-11-19 # releaseDate(19.6)
+    latest: "19.3.3"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "19.2"
+    releaseDate: 2026-07-16
+    eoas: 2026-08-20 # releaseDate(19.3)
+    eol: 2026-10-15 # releaseDate(19.5)
+    latest: "19.2.7"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "19.1"
+    releaseDate: 2026-06-18
+    eoas: 2026-07-16 # releaseDate(19.2)
+    eol: 2026-09-17 # releaseDate(19.4)
+    latest: "19.1.8"
+    latestReleaseDate: 2026-09-10
+
+  - releaseCycle: "19.0"
+    releaseDate: 2026-05-21
+    eoas: 2026-06-18 # releaseDate(19.1)
+    eol: 2026-08-20 # releaseDate(19.3)
+    latest: "19.0.9"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "18.11"
+    releaseDate: 2026-04-16
+    eoas: 2026-05-21 # releaseDate(19.0)
+    eol: 2026-07-16 # releaseDate(19.2)
+    latest: "18.11.12"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "18.10"
+    releaseDate: 2026-03-19
+    eoas: 2026-04-16 # releaseDate(18.11)
+    eol: 2026-06-18 # releaseDate(19.1)
+    latest: "18.10.8"
+    latestReleaseDate: 2026-06-10
+
+  - releaseCycle: "18.9"
+    releaseDate: 2026-02-19
+    eoas: 2026-03-19 # releaseDate(18.10)
+    eol: 2026-05-21 # releaseDate(19.0)
+    latest: "18.9.8"
+    latestReleaseDate: 2026-05-25
+
+  - releaseCycle: "18.8"
+    releaseDate: 2026-01-15
+    eoas: 2026-02-19 # releaseDate(18.9)
+    eol: 2026-04-16 # releaseDate(18.11)
+    latest: "18.8.11"
+    latestReleaseDate: 2026-06-29
+
   - releaseCycle: "18.7"
     releaseDate: 2025-12-18
     eoas: 2026-01-15 # releaseDate(18.8)
     eol: 2026-03-19 # releaseDate(18.10)
-    latest: "18.7.0"
-    latestReleaseDate: 2025-12-17
+    latest: "18.7.7"
+    latestReleaseDate: 2026-05-25
 
   - releaseCycle: "18.6"
     releaseDate: 2025-11-20
     eoas: 2025-12-18 # releaseDate(18.7)
     eol: 2026-02-19 # releaseDate(18.9)
-    latest: "18.6.2"
-    latestReleaseDate: 2025-12-10
+    latest: "18.6.8"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "18.5"
     releaseDate: 2025-10-16
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
-    latest: "18.5.4"
-    latestReleaseDate: 2025-12-10
+    latest: "18.5.7"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
@@ -248,6 +311,7 @@ releases:
     eol: 2023-08-22
     latest: "16.0.10"
     latestReleaseDate: 2024-09-23
+    link: null
 
   - releaseCycle: "15.11"
     releaseDate: 2023-04-21
@@ -255,6 +319,7 @@ releases:
     eol: 2023-07-22
     latest: "15.11.13"
     latestReleaseDate: 2023-07-27
+    link: null
 
   - releaseCycle: "15.10"
     releaseDate: 2023-03-21
@@ -262,6 +327,7 @@ releases:
     eol: 2023-06-22
     latest: "15.10.8"
     latestReleaseDate: 2023-06-05
+    link: null
 
   - releaseCycle: "15.9"
     releaseDate: 2023-02-21
@@ -269,6 +335,7 @@ releases:
     eol: 2023-05-22
     latest: "15.9.8"
     latestReleaseDate: 2023-05-10
+    link: null
 
   - releaseCycle: "15.8"
     releaseDate: 2023-01-20
@@ -276,6 +343,7 @@ releases:
     eol: 2023-04-22
     latest: "15.8.6"
     latestReleaseDate: 2023-04-18
+    link: null
 
   - releaseCycle: "15.7"
     releaseDate: 2022-12-21
@@ -283,6 +351,7 @@ releases:
     eol: 2023-03-22
     latest: "15.7.9"
     latestReleaseDate: 2023-04-20
+    link: null
 
   - releaseCycle: "15.6"
     releaseDate: 2022-11-21
@@ -290,6 +359,7 @@ releases:
     eol: 2023-02-22
     latest: "15.6.8"
     latestReleaseDate: 2023-02-10
+    link: null
 
   - releaseCycle: "15.5"
     releaseDate: 2022-10-21
@@ -297,6 +367,7 @@ releases:
     eol: 2023-01-22
     latest: "15.5.9"
     latestReleaseDate: 2023-01-12
+    link: null
 
   - releaseCycle: "15.4"
     releaseDate: 2022-09-21
@@ -304,6 +375,7 @@ releases:
     eol: 2022-12-22
     latest: "15.4.6"
     latestReleaseDate: 2022-11-30
+    link: null
 
   - releaseCycle: "15.3"
     releaseDate: 2022-08-19
@@ -311,6 +383,7 @@ releases:
     eol: 2022-11-22
     latest: "15.3.5"
     latestReleaseDate: 2022-11-02
+    link: null
 
   - releaseCycle: "15.2"
     releaseDate: 2022-07-21
@@ -318,6 +391,7 @@ releases:
     eol: 2022-10-22
     latest: "15.2.5"
     latestReleaseDate: 2022-09-29
+    link: null
 
   - releaseCycle: "15.1"
     releaseDate: 2022-06-21
@@ -325,6 +399,7 @@ releases:
     eol: 2022-09-22
     latest: "15.1.6"
     latestReleaseDate: 2022-08-30
+    link: null
 
   - releaseCycle: "15.0"
     releaseDate: 2022-05-20
@@ -332,6 +407,7 @@ releases:
     eol: 2022-08-22
     latest: "15.0.5"
     latestReleaseDate: 2022-07-28
+    link: null
 
   - releaseCycle: "14.10"
     releaseDate: 2022-04-21
@@ -339,6 +415,7 @@ releases:
     eol: 2022-07-22
     latest: "14.10.5"
     latestReleaseDate: 2022-06-30
+    link: null
 
   - releaseCycle: "14.9"
     releaseDate: 2022-03-21
@@ -346,6 +423,7 @@ releases:
     eol: 2022-06-22
     latest: "14.9.5"
     latestReleaseDate: 2022-06-01
+    link: null
 
   - releaseCycle: "14.8"
     releaseDate: 2022-02-21
@@ -353,6 +431,7 @@ releases:
     eol: 2022-05-22
     latest: "14.8.6"
     latestReleaseDate: 2022-04-29
+    link: null
 
   - releaseCycle: "14.7"
     releaseDate: 2022-01-21
@@ -360,6 +439,7 @@ releases:
     eol: 2022-04-22
     latest: "14.7.7"
     latestReleaseDate: 2022-03-31
+    link: null
 
   - releaseCycle: "14.6"
     releaseDate: 2021-12-21
@@ -367,6 +447,7 @@ releases:
     eol: 2022-03-22
     latest: "14.6.7"
     latestReleaseDate: 2022-03-31
+    link: null
 
   - releaseCycle: "14.5"
     releaseDate: 2021-11-19
@@ -374,6 +455,7 @@ releases:
     eol: 2022-02-22
     latest: "14.5.4"
     latestReleaseDate: 2022-02-03
+    link: null
 
   - releaseCycle: "14.4"
     releaseDate: 2021-10-21
@@ -381,6 +463,7 @@ releases:
     eol: 2022-01-22
     latest: "14.4.5"
     latestReleaseDate: 2022-01-11
+    link: null
 
   - releaseCycle: "14.3"
     releaseDate: 2021-09-21
@@ -388,6 +471,7 @@ releases:
     eol: 2021-12-22
     latest: "14.3.6"
     latestReleaseDate: 2021-12-03
+    link: null
 
   - releaseCycle: "14.2"
     releaseDate: 2021-08-20
@@ -395,6 +479,7 @@ releases:
     eol: 2021-11-22
     latest: "14.2.7"
     latestReleaseDate: 2021-11-26
+    link: null
 
   - releaseCycle: "14.1"
     releaseDate: 2021-07-21
@@ -402,6 +487,7 @@ releases:
     eol: 2021-10-22
     latest: "14.1.8"
     latestReleaseDate: 2021-11-15
+    link: null
 
   - releaseCycle: "14.0"
     releaseDate: 2021-06-21
@@ -409,6 +495,7 @@ releases:
     eol: 2021-09-22
     latest: "14.0.12"
     latestReleaseDate: 2021-11-05
+    link: null
 
   - releaseCycle: "13.12"
     releaseDate: 2021-05-21
@@ -416,6 +503,7 @@ releases:
     eol: 2021-08-22
     latest: "13.12.15"
     latestReleaseDate: 2021-11-03
+    link: null
 
   - releaseCycle: "13.11"
     releaseDate: 2021-04-21
@@ -423,6 +511,7 @@ releases:
     eol: 2021-07-22
     latest: "13.11.7"
     latestReleaseDate: 2021-07-07
+    link: null
 
   - releaseCycle: "13.10"
     releaseDate: 2021-03-18
@@ -430,6 +519,7 @@ releases:
     eol: 2021-06-22
     latest: "13.10.5"
     latestReleaseDate: 2021-06-01
+    link: null
 
 ---
 
@@ -437,13 +527,13 @@ releases:
 > repository manager providing wiki, issue-tracking and continuous integration and deployment
 > pipeline features, using an open-source license, developed by GitLab Inc.
 
-GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning.
+GitLab has a [well-defined versioning policy](https://docs.gitlab.com/policy/maintenance/) based on Semantic Versioning.
 New releases are made monthly on the [third Thursday][release-day]
-and are announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
+and are announced on the [blog](https://about.gitlab.com/blog/).
 You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well.
 A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/) to track new features since a given version.
 
-GitLab is distributed as [two distinct flavors](https://about.gitlab.com/install/ce-or-ee/)
+GitLab is distributed as [two distinct flavors](https://about.gitlab.com/install/)
 public Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 
 - [Community Edition (`CE`)](https://gitlab.com/rluna-gitlab/gitlab-ce) : [`gitlab/gitlab-ce`](https://hub.docker.com/r/gitlab/gitlab-ce/)
@@ -451,13 +541,13 @@ public Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 
 **Only the latest release is actively maintained.**
 The previous two minor (monthly) releases get security fixes.
-Critical bug fixes can rarely be backported based on [a set of criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
+Critical bug fixes can rarely be backported based on [a set of criteria](https://docs.gitlab.com/policy/maintenance/#backporting-to-older-releases).
 
 | Version Type | Description                                                                                                                                                         | Cadence                                                                                                                           |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
 | Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                                | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default.               |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.     | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/managers/)). |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.     | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://handbook.gitlab.com/handbook/engineering/releases/monthly-releases/#monthly-release-schedule). |
 | Patch        | For backward-compatible bug fixes that fix incorrect behavior. See GitLab's [Patch release](https://docs.gitlab.com/policy/maintenance/#patch-releases) definition. | Twice monthly, scheduled for the Wednesday the week before and the Wednesday the week after the monthly minor release.            |
 
 
-[release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
+[release-day]: https://about.gitlab.com/blog/gitlab-release-date-change/ "Release Date Change"

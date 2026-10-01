@@ -35,26 +35,35 @@ identifiers:
   - repology: salt
   - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
   - purl: pkg:docker/saltstack/salt
+  - cpe: cpe:2.3:a:saltstack:salt
 
 # link(x) =
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 # - other: see changelogTemplate
 releases:
+  - releaseCycle: "3008"
+    lts: true
+    releaseDate: 2026-05-27
+    eoas: 2027-06-30
+    eol: 2028-06-30
+    latest: "3008.3"
+    latestReleaseDate: 2026-09-30
+
   - releaseCycle: "3007"
     releaseDate: 2024-03-06
-    eoas: 2026-01-31
-    eol: 2026-01-31
-    latest: "3007.10"
-    latestReleaseDate: 2025-12-18
+    eoas: 2026-06-30
+    eol: 2026-07-31
+    latest: "3007.15"
+    latestReleaseDate: 2026-09-30
     link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
 
   - releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
-    eoas: 2026-01-31
-    eol: 2027-01-31
-    latest: "3006.18"
-    latestReleaseDate: 2025-12-18
+    eoas: 2026-07-31
+    eol: 2027-06-30
+    latest: "3006.28"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "3005"
     releaseDate: 2022-08-22

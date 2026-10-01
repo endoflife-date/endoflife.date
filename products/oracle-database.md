@@ -6,15 +6,16 @@ tags: oracle
 iconSlug: oracle
 permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;
-releasePolicyLink: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+releasePolicyLink: https://support.oracle.com/knowledgefs?docId=742060
 LTSLabel: <abbr title="Long Term Release">LTR</abbr>
 latestColumn: false
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
 auto:
+  disabled: true # https://support.oracle.com now requires an account
   methods:
-    - release_table: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+    - release_table: https://support.oracle.com/knowledgefs?docId=742060
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
@@ -26,12 +27,12 @@ auto:
 
 releases:
   - releaseCycle: "23"
-    releaseLabel: "23ai"
+    releaseLabel: "26ai" # see https://mikedietrichde.com/2025/10/14/oracle-ai-database-26ai-replaces-oracle-database-23ai/
     releaseDate: 2023-09-19
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/index.html
 
   - releaseCycle: "21"
     releaseLabel: "21c"
@@ -128,16 +129,17 @@ releases:
 
 {: .note}
 
-> Because of the importance of the breakthrough AI technology in the latest 23 release, it was
-> renamed from `23c` to `23ai`.
+> Because of the importance of the breakthrough AI technology in the 23 release, it was renamed from `23c` to `23ai`.
+> Moreover the [`23ai` release was later replaced by `26ai`](https://mikedietrichde.com/2025/10/14/oracle-ai-database-26ai-replaces-oracle-database-23ai/),
+> but `26ai` kept `23` for the first number of the release.
 
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
-[various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
+[various support stages](https://www.oracle.com/support/lifetime-support/#software "Lifetime Support for Oracle software")
 (such as Premier, Extended, Sustaining, or Custom Market Driven). Depending on these, release dates
 may vary. This page documents Premier and Extended support dates for Oracle Database On-Premises
 Server Releases for Linux x86-64.
 
-According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)
+According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledgefs?docId=742060)
 there are two types of Oracle Database releases:
 
 - Long-Term Releases (LTR), which are supported for 5 years with Premier Support, followed by 3 years
@@ -151,5 +153,5 @@ The version and patch policy is also complex and changing, but some guidance can
 - [Oracle Database - Wikipedia](https://wikipedia.org/wiki/Oracle_Database#Patch_updates_and_security_alerts),
 - [All You Need to Know about Oracle Database Patching — GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
 - [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) — support.oracle.com](https://web.archive.org/web/20230326170525/https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
-- [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/161818_1.html)
+- [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledgefs?docId=161818)
   (requires an Oracle account with appropriate permissions).

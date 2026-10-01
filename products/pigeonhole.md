@@ -10,6 +10,7 @@ changelogTemplate: https://github.com/dovecot/pigeonhole/releases/tag/__LATEST__
 
 identifiers:
   - repology: dovecot-pigeonhole
+  - cpe: cpe:2.3:a:dovecot:pigeonhole
 
 auto:
   methods:
@@ -21,11 +22,11 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2025-01-24
     eol: false
-    latest: "2.4.2"
-    latestReleaseDate: 2025-10-28
+    latest: "2.4.5"
+    latestReleaseDate: 2026-08-28
 
   - releaseCycle: "0.5"
-    staleReleaseThresholdDays: 730 # Dovecot 2.3 still receive security support
+    staleReleaseThresholdDays: 1095 # Dovecot 2.3 still receives critical security fixes per https://dovecot.org/mailman3/archives/list/dovecot-news@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/
     releaseDate: 2017-12-24
     eol: false
     latest: "0.5.21.1"

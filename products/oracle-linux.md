@@ -17,7 +17,7 @@ eoesColumn: Extended Support
 auto:
   methods:
     - distrowatch: oracle
-      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.| Update )?(?P<minor>\d+)?$'
+      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d+)(-U|\.| Update )?(?P<minor>\d+)?$'
 
 identifiers:
   - cpe: cpe:/o:oracle:linux
@@ -29,17 +29,17 @@ identifiers:
 releases:
   - releaseCycle: "10"
     releaseDate: 2025-06-26
-    eol: false
-    eoes: false
-    latest: "10.0"
-    latestReleaseDate: 2025-06-26
+    eol: 2035-06-30
+    eoes: 2038-06-30
+    latest: "10.1"
+    latestReleaseDate: 2025-12-06
 
   - releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
     eoes: 2035-06-30
-    latest: "9.6"
-    latestReleaseDate: 2025-06-03
+    latest: "9.8"
+    latestReleaseDate: 2026-06-23
 
   - releaseCycle: "8"
     releaseDate: 2019-07-19
@@ -51,7 +51,7 @@ releases:
   - releaseCycle: "7"
     releaseDate: 2014-07-23
     eol: 2024-12-31
-    eoes: 2028-06-30
+    eoes: 2029-07-31
     latest: "7.9"
     latestReleaseDate: 2020-10-08
 
@@ -61,16 +61,17 @@ releases:
     eoes: 2024-12-31
     latest: "6.10"
     latestReleaseDate: 2018-07-02
+
 ---
 
 > [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle
 > to be a 100% application binary compatible alternative to Red Hat Enterprise Linux.
 
-## [Support Tiers](https://www.oracle.com/us/support/library/enterprise-linux-support-policies-069172.pdf)
+## [Support Tiers](https://www.oracle.com/contracts/docs/enterprise_linux_support_policies_069172.pdf)
 
-- **Basic Support**: Available for 10 years for versions 5–9 from date of release.
+- **Basic Support**: Available for 10 years from the general availability of each major release.
   Includes access to patches, fixes, security patches and security alerts.
-- **Premier Support**: Available for 10 years for versions 5–9 from date of release.
+- **Premier Support**: Available for 10 years from the general availability of each major release.
   Includes access to patches, fixes, security patches and security alerts.
   Additionally, includes live kernel patching (Certain security patches that may be applied without a reboot).
 - **Extended Support**: Available for a limited time, after Premier Support ends, as per agreement with Oracle.

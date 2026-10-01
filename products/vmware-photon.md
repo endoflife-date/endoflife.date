@@ -9,7 +9,7 @@ alternate_urls:
   - /vmware-photon
   - /vmwarephoton
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
+releasePolicyLink: https://blogs.vmware.com/cloud-foundation/2023/05/02/announcing-photon-os-5-0-general-availability/
 latestColumn: false
 eolColumn: Security Support
 staleReleaseThresholdDays: 1460 # oses have longer support periods
@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2023-05-02
     eol: false
-    link: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
+    link: https://blogs.vmware.com/cloud-foundation/2023/05/02/announcing-photon-os-5-0-general-availability/
     kernelVersion: "6.1"
 
   - releaseCycle: "4.0"
@@ -59,7 +59,7 @@ releases:
 > VMWare [Photon OS](https://vmware.github.io/photon/) is an open source Linux container host
 > optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
-The EOL dates for the 3.0 and 4.0 release cyles are aligned with vSphere 
+The EOL dates for the 3.0 and 4.0 release cycles are aligned with vSphere 
 [7.x/8.x support timelines](https://endoflife.date/vcenter) on this page
 [as per VMWare employees](https://github.com/endoflife-date/endoflife.date/pull/9025), but is not yet documented
 on the Photon OS website.

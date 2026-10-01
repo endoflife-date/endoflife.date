@@ -16,6 +16,7 @@ identifiers:
   - purl: pkg:generic/sqlite
   - purl: pkg:apk/alpine/sqlite
   - purl: pkg:github/sqlite/sqlite
+  - cpe: cpe:2.3:a:sqlite:sqlite
 
 # This git mirror only contains versions from 3.6.10.
 auto:
@@ -28,8 +29,8 @@ releases:
     # 3.0.7 release date, because it is the first stable release in the 3.x line
     releaseDate: 2004-09-18
     eol: false
-    latest: "3.51.1"
-    latestReleaseDate: 2025-11-28
+    latest: "3.53.4"
+    latestReleaseDate: 2026-07-24
 
   - releaseCycle: "2"
     releaseDate: 2001-09-28

@@ -24,47 +24,61 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.groovy/groovy
-    - maven: org.codehaus.groovy/groovy
+    - git: https://github.com/apache/groovy.git
+      regex: ^GROOVY_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)$
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://github.com/apache/groovy?tab=security-ov-file#readme
 releases:
+  - releaseCycle: "6.0"
+    releaseDate: 2026-09-19
+    eol: false
+    eoas: false
+    latest: "6.0.0"
+    latestReleaseDate: 2026-09-19
+
+  - releaseCycle: "5.1"
+    releaseDate: 2026-08-15
+    eol: false
+    eoas: 2026-09-19
+    latest: "5.1.3"
+    latestReleaseDate: 2026-09-19
+
   - releaseCycle: "5.0"
     releaseDate: 2025-08-21
     eol: false
-    eoas: false
-    latest: "5.0.3"
-    latestReleaseDate: 2025-11-30
+    eoas: 2026-08-15
+    latest: "5.0.8"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eoas: 2025-08-21
     eol: false
-    latest: "4.0.29"
-    latestReleaseDate: 2025-10-15
+    latest: "4.0.33"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "3.0"
+    staleReleaseThresholdDays: 500 # still listed on https://github.com/apache/groovy?tab=security-ov-file#readme
     releaseDate: 2020-02-10
     eoas: 2022-01-25
     eol: false
     latest: "3.0.25"
-    latestReleaseDate: 2025-05-27
+    latestReleaseDate: 2025-05-24
 
   - releaseCycle: "2.5"
-    staleReleaseThresholdDays: 1000 # still listed on https://groovy.apache.org/download.html
     releaseDate: 2018-05-30
     eoas: true
-    eol: false
+    eol: 2026-04-30 # https://github.com/apache/groovy/commit/614271b8e13132e4614bcfd7075122df6bb6e15e
     latest: "2.5.23"
-    latestReleaseDate: 2023-08-22
+    latestReleaseDate: 2023-08-19
 
   - releaseCycle: "2.4"
     releaseDate: 2015-01-21
     eoas: true
     eol: true
     latest: "2.4.21"
-    latestReleaseDate: 2020-12-03
+    latestReleaseDate: 2020-11-30
 
 ---
 
@@ -88,6 +102,7 @@ Groovy releases have [the following JVM requirements](https://groovy.apache.org/
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
 | ------ | :---------------------- | ------------------- |
+| 6.0    | N/A                     | 17+                 |
 | 5.0    | N/A                     | 11+                 |
 | 4.0    | N/A                     | 8+                  |
 | 3.0    | 8+                      | 8+                  |

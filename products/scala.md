@@ -9,7 +9,7 @@ alternate_urls:
   - /scala-lang
 versionCommand: scalac -version
 releasePolicyLink: https://www.scala-lang.org/download/all.html
-changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
+changelogTemplate: "https://github.com/scala/scala3/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
 
@@ -27,10 +27,25 @@ auto:
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "3.7"
-    releaseDate: 2025-05-07
+  - releaseCycle: "3.9"
+    lts: true
+    releaseDate: 2026-09-03
     eoas: false
     eol: false
+    latest: "3.9.0"
+    latestReleaseDate: 2026-09-03
+
+  - releaseCycle: "3.8"
+    releaseDate: 2026-01-22
+    eoas: 2026-09-03
+    eol: 2026-09-03
+    latest: "3.8.4"
+    latestReleaseDate: 2026-06-05
+
+  - releaseCycle: "3.7"
+    releaseDate: 2025-05-07
+    eoas: 2026-01-22
+    eol: 2026-01-22
     latest: "3.7.4"
     latestReleaseDate: 2025-11-11
 
@@ -60,8 +75,8 @@ releases:
     releaseDate: 2023-05-23
     eoas: false
     eol: false
-    latest: "3.3.7"
-    latestReleaseDate: 2025-10-13
+    latest: "3.3.8"
+    latestReleaseDate: 2026-06-11
 
   - releaseCycle: "3.2"
     releaseDate: 2022-08-31

@@ -23,13 +23,25 @@ auto:
     - git: https://github.com/hashicorp/vault.git
 
 # eol(x) = releaseDate(x+1)
-# eoes(x) = releaseDate(x+6)
+# eoes(x) = releaseDate(x+6) / https://developer.hashicorp.com/vault/docs/enterprise/support#coverage-for-existing-lts-versions
 releases:
+  - releaseCycle: "2.1"
+    releaseDate: 2026-08-31
+    eol: false
+    latest: "2.1.1"
+    latestReleaseDate: 2026-09-15
+
+  - releaseCycle: "2.0"
+    releaseDate: 2026-04-13
+    eol: 2026-08-31
+    latest: "2.0.4"
+    latestReleaseDate: 2026-08-03
+
   - releaseCycle: "1.21"
     releaseDate: 2025-10-21
-    eol: false # releaseDate(1.22)
-    latest: "1.21.1"
-    latestReleaseDate: 2025-11-18
+    eol: 2026-04-13
+    latest: "1.21.4"
+    latestReleaseDate: 2026-03-04
 
   - releaseCycle: "1.20"
     releaseDate: 2025-06-23
@@ -109,7 +121,7 @@ releases:
 
 ---
 
-> [Hashicorp Vault](https://www.vaultproject.io/) is a tool for securely accessing secrets. It
+> [Hashicorp Vault](https://developer.hashicorp.com/vault) is a tool for securely accessing secrets. It
 > provides a unified interface to any secret, while providing tight access control and recording a
 > detailed audit log.
 
@@ -117,7 +129,7 @@ releases:
   end when the next release occurs. While the [Enterprise versions](https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy)
   have extended support.
 
-- [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/lts)
+- [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/support)
   releases offer extended maintenance through minor releases for select,
   major **Vault Enterprise** releases. The latest 2 LTS releases are supported at any given time,
   following an N-1 policy.

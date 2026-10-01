@@ -6,12 +6,13 @@ iconSlug: erlang
 permalink: /erlang
 alternate_urls:
   - /erlang-otp
-releasePolicyLink: https://www.erlang.org/doc/system_principles/misc.html
+releasePolicyLink: https://www.erlang.org/doc/system/misc.html
 changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
 
 identifiers:
   - repology: erlang
+  - cpe: cpe:2.3:a:erlang:erlang\/otp
 
 auto:
   methods:
@@ -22,26 +23,33 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))
 releases:
+  - releaseCycle: "29"
+    releaseDate: 2026-05-11
+    eoas: false
+    eol: 2029-05-11 # projected
+    latest: "29.1.1"
+    latestReleaseDate: 2026-09-21
+
   - releaseCycle: "28"
     releaseDate: 2025-05-20
-    eoas: false
+    eoas: 2026-05-11
     eol: 2028-05-20 # projected
-    latest: "28.3"
-    latestReleaseDate: 2025-12-10
+    latest: "28.5.0.7"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "27"
     releaseDate: 2024-05-17
     eoas: 2025-05-20
     eol: 2027-05-20 # projected
-    latest: "27.3.4.6"
-    latestReleaseDate: 2025-11-13
+    latest: "27.3.4.18"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: 2024-05-17
-    eol: 2026-05-15 # projected
-    latest: "26.2.5.16"
-    latestReleaseDate: 2025-11-06
+    eol: 2026-05-26
+    latest: "26.2.5.21"
+    latestReleaseDate: 2026-05-26
 
   - releaseCycle: "25"
     releaseDate: 2022-05-17
@@ -60,14 +68,14 @@ releases:
   - releaseCycle: "23"
     releaseDate: 2020-05-11
     eoas: 2021-05-10
-    eol: 2023-06-05
+    eol: 2024-03-14
     latest: "23.3.4.20"
     latestReleaseDate: 2024-03-14
 
   - releaseCycle: "22"
     releaseDate: 2019-05-10
     eoas: 2020-05-11
-    eol: 2022-05-10
+    eol: 2024-03-18
     latest: "22.3.4.27"
     latestReleaseDate: 2024-03-18
 
@@ -122,12 +130,12 @@ of its principles with a two to four parts version number, `<Major>.<Minor>.<Pat
 - `<Patch>` (optional) increments when there are pure bug fixes,
 - `<X>` (optional) is a part used for partially ordered versions.
 
-More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system_principles/versions#version-scheme).
+More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system/versions.html#version-scheme).
 
 The release policy is not documented, but looking at the latest releases, it seems that a new major
 version is released every year in May and supported for approximately 3 years.
 
-According to [Erlang/OTP's support policy](https://www.erlang.org/doc/system_principles/misc.html),
+According to [Erlang/OTP's support policy](https://www.erlang.org/doc/system/misc.html),
 bugs are in general only fixed on the latest release, and new features are introduced in the
 upcoming release. In practice, small improvements are regularly added to the latest release, and
 major bug and security fixes are backported to the supported previous releases.

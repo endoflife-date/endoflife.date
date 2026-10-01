@@ -40,12 +40,19 @@ auto:
           template: "{{month}} {{day}} {{year}}"
 
 releases:
-  - releaseCycle: "3"
-    releaseDate: 2022-11-01
+  - releaseCycle: "4"
+    releaseDate: 2026-02-23
     eoas: false
     eol: false
-    latest: "3.11.4"
-    latestReleaseDate: 2025-12-16
+    latest: "4.2.3"
+    latestReleaseDate: 2026-09-30
+
+  - releaseCycle: "3"
+    releaseDate: 2022-11-01
+    eoas: 2026-07-27
+    eol: 2027-07-27
+    latest: "3.13.5"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "2"
     releaseDate: 2019-07-23

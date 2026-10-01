@@ -5,7 +5,7 @@ category: app
 permalink: /cfengine
 versionCommand: cf-agent --version
 releasePolicyLink: https://cfengine.com
-changelogTemplate: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
+changelogTemplate: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes/whatsnew/changelog-core/
 eolColumn: Supported
 
 identifiers:
@@ -22,36 +22,54 @@ auto:
 # non-lts eol(x) = releaseDate(x+1)
 # lts eol(x) = releaseDate(x) + 3 years
 releases:
+  - releaseCycle: "3.28"
+    releaseDate: 2026-07-10
+    eol: false
+    latest: "3.28.0"
+    latestReleaseDate: 2026-07-10
+
+  - releaseCycle: "3.27"
+    releaseDate: 2026-01-09
+    lts: true
+    eol: 2029-01-09
+    latest: "3.27.1"
+    latestReleaseDate: 2026-05-08
+
   - releaseCycle: "3.26"
     releaseDate: 2025-05-20
-    eol: false
+    eol: 2026-01-09
     latest: "3.26.0"
     latestReleaseDate: 2025-05-20
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.25"
     releaseDate: 2025-01-06
     eol: 2025-05-20
     latest: "3.25.0"
     latestReleaseDate: 2025-01-06
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.24"
     releaseDate: 2024-07-22
     lts: true
     eol: 2027-07-31
-    latest: "3.24.3"
-    latestReleaseDate: 2025-12-15
+    latest: "3.24.4"
+    latestReleaseDate: 2026-05-08
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.23"
     releaseDate: 2023-12-05
     eol: 2024-07-22
     latest: "3.23.0"
     latestReleaseDate: 2023-12-05
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.22"
     releaseDate: 2023-06-16
     eol: 2023-12-05
     latest: "3.22.0"
     latestReleaseDate: 2023-06-16
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.21"
     releaseDate: 2022-12-21
@@ -59,6 +77,7 @@ releases:
     eol: 2025-12-31
     latest: "3.21.8"
     latestReleaseDate: 2025-12-15
+    link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 
   - releaseCycle: "3.20"
     releaseDate: 2022-07-01

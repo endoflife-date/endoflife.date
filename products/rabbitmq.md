@@ -26,19 +26,26 @@ auto:
         - '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
 
 releases:
-  - releaseCycle: "4.2"
-    releaseDate: 2025-10-27
+  - releaseCycle: "4.3"
+    releaseDate: 2026-04-23
     eol: false
     eoes: false
-    latest: "4.2.2"
-    latestReleaseDate: 2025-12-15
+    latest: "4.3.6"
+    latestReleaseDate: 2026-09-14
+
+  - releaseCycle: "4.2"
+    releaseDate: 2025-10-27
+    eol: 2026-07-31
+    eoes: 2030-06-30
+    latest: "4.2.9"
+    latestReleaseDate: 2026-07-19
 
   - releaseCycle: "4.1"
     releaseDate: 2025-04-15
     eol: 2026-01-30
     eoes: 2028-04-29
-    latest: "4.1.7"
-    latestReleaseDate: 2025-12-10
+    latest: "4.1.8"
+    latestReleaseDate: 2026-01-21
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
@@ -158,7 +165,7 @@ releases:
 > supports multiple messaging protocols.
 
 - **Community Support**: includes regular patch releases. Was earlier called "General Support", but
-  renamed to avoid confusion with [VMware terminology](https://tanzu.vmware.com/support/lifecycle_policy)
+  renamed to avoid confusion with [VMware terminology](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/release-announcements/CA-Support-Policies/6933)
   related to support lifecycle policy.
-- **[Extended Commercial Support](https://tanzu.vmware.com/rabbitmq)**: is available from VMWare. It includes
+- **[Extended Commercial Support](https://www.vmware.com/products/app-platform/tanzu-data-intelligence/rabbitmq)**: is available from VMWare. It includes
   security patches, and fixes for high-severity issues reported by users with a commercial license.

@@ -8,7 +8,7 @@ permalink: /log4j
 alternate_urls:
   - /apache_log4j
   - /apache-log4j
-releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
+releasePolicyLink: https://logging.apache.org/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
 eolColumn: Supported
 
@@ -21,15 +21,16 @@ identifiers:
 
 auto:
   methods:
-    - maven: org.apache.logging.log4j/log4j-core
+    - github_releases: apache/logging-log4j2
+      regex: '^rel/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
   - releaseCycle: "2"
     outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.25.3"
-    latestReleaseDate: 2025-12-15
+    latest: "2.26.1"
+    latestReleaseDate: 2026-07-02
 
   - releaseCycle: "2.12"
     releaseDate: 2019-06-26
@@ -50,7 +51,7 @@ releases:
     eol: 2015-10-15
     latest: "1.2.17"
     latestReleaseDate: 2012-05-06
-    link: https://logging.apache.org/log4j/1.2/changes-report.html#a1.2.17
+    link: https://logging.apache.org/log4j/1.x/changes-report.html#a1.2.17
 
 ---
 

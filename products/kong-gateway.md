@@ -18,6 +18,7 @@ auto:
 
 identifiers:
   - purl: pkg:github/Kong/kong
+  - cpe: cpe:2.3:a:konghq:kong_gateway
 
 # Policy is not clear, maybe a more precise answer will be available someday on
 # https://discuss.konghq.com/t/question-about-the-support-policy-on-kong-community/11891.
@@ -34,8 +35,8 @@ releases:
     releaseDate: 2024-12-12
     eol: false
     eoes: 2025-12-12
-    latest: "3.9.1"
-    latestReleaseDate: 2025-06-04
+    latest: "3.9.3"
+    latestReleaseDate: 2026-06-17
 
   - releaseCycle: "3.8"
     releaseDate: 2024-09-09
@@ -109,6 +110,7 @@ releases:
     eoes: 2025-03-01
     latest: "2.8.5"
     latestReleaseDate: 2024-06-24
+
 ---
 
 > [Kong Gateway](https://konghq.com/products/kong-gateway) (also known as _Kong_ or
@@ -126,7 +128,7 @@ The Community Edition does not have a clearly defined release policy but, lookin
 recent history, minor versions are released every 10 weeks and supported until the next minor
 release. Some minor versions are also designated LTS and supported much longer.
 
-Extended support by Kong Inc. is also available with [Kong Gateway Enterprise Edition](https://docs.konghq.com/gateway/latest/support-policy/).
+Extended support by Kong Inc. is also available with [Kong Gateway Enterprise Edition](https://developer.konghq.com/gateway/version-support-policy/).
 With this edition there is 1 year of support for minor versions and 3 years for LTS versions.
-This edition also follows a [different versioning scheme](https://docs.konghq.com/gateway/latest/support-policy/#semantic-versioning)
+This edition also follows a [different versioning scheme](https://developer.konghq.com/gateway/version-support-policy/#semantic-versioning)
 with a fourth number called _Enterprise Patch Version_ (`{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`).

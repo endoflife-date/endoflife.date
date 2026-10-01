@@ -24,20 +24,26 @@ auto:
 # EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 # or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
 releases:
+  - releaseCycle: "26.1"
+    # https://blogs.oracle.com/apex/announcing-oracle-apex-261
+    releaseDate: 2026-05-14
+    eol: 2027-11-30
+    link: https://docs.oracle.com/en/database/oracle/apex/26.1/htmrn/about-release-notes.html
+
   - releaseCycle: "24.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-242
     releaseDate: 2025-01-15
-    eol: 2027-04-30
+    eol: 2027-07-31
 
   - releaseCycle: "24.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-241
     releaseDate: 2024-06-17
-    eol: 2026-09-30
+    eol: 2026-12-31
 
   - releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2026-02-28
+    eol: 2026-05-31
 
   - releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
@@ -117,6 +123,6 @@ installation, and announcements for new patches are made on
 release, visit the [Known Issues](http://apex.oracle.com/known-issues) page.
 
 Support timeframes for versions < 19.1 are available in the [Lifetime Support Policy: Oracle
-Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html).
+Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/#resources).
 The [Roadmap](https://apex.oracle.com/sod) reveals planned features and explains release plans and
 naming convention.

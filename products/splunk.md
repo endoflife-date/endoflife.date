@@ -11,6 +11,7 @@ changelogTemplate: https://help.splunk.com/en/splunk-enterprise/release-notes-an
 
 identifiers:
   - repology: splunk
+  - cpe: cpe:2.3:a:splunk:splunk
 
 auto:
   disabled: true # there are anti-bot protection measures on https://docs.splunk.com
@@ -19,29 +20,41 @@ auto:
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
+  - releaseCycle: "10.4"
+    releaseDate: 2026-05-18
+    eol: 2028-05-18
+    latest: "10.4.0"
+    latestReleaseDate: 2026-05-18
+
+  - releaseCycle: "10.2"
+    releaseDate: 2026-01-15
+    eol: 2028-01-15
+    latest: "10.2.4"
+    latestReleaseDate: 2026-05-29
+
   - releaseCycle: "10.0"
     releaseDate: 2025-07-28
     eol: 2027-07-28
-    latest: "10.0.2"
-    latestReleaseDate: 2025-11-14
+    latest: "10.0.7"
+    latestReleaseDate: 2026-05-29
 
   - releaseCycle: "9.4"
     releaseDate: 2024-12-16
     eol: 2026-12-16
-    latest: "9.4.7"
-    latestReleaseDate: 2025-11-26
+    latest: "9.4.12"
+    latestReleaseDate: 2026-05-29
 
   - releaseCycle: "9.3"
     releaseDate: 2024-07-24
     eol: 2026-07-24
-    latest: "9.3.8"
-    latestReleaseDate: 2025-11-14
+    latest: "9.3.13"
+    latestReleaseDate: 2026-05-29
 
   - releaseCycle: "9.2"
     releaseDate: 2024-01-31
     eol: 2026-01-31
-    latest: "9.2.11"
-    latestReleaseDate: 2025-11-26
+    latest: "9.2.12"
+    latestReleaseDate: 2026-01-28
 
   - releaseCycle: "9.1"
     releaseDate: 2023-06-28
@@ -57,13 +70,13 @@ releases:
 
   - releaseCycle: "8.2"
     releaseDate: 2021-05-12
-    eol: 2023-05-12
+    eol: 2023-09-30
     latest: "8.2.12"
     latestReleaseDate: 2023-08-30
     link: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
 
   - releaseCycle: "8.1"
-    releaseDate: 2020-10-20
+    releaseDate: 2020-10-19
     eol: 2023-04-19
     latest: "8.1.14"
     latestReleaseDate: 2023-06-01

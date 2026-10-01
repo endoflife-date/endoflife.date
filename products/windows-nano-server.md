@@ -90,18 +90,18 @@ releases:
     eoas: 2019-04-09
     eol: 2019-04-09
     latest: 10.0.16299
-    link: https://techcommunity.microsoft.com/t5/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/m-p/379766
+    link: https://techcommunity.microsoft.com/discussions/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/379766
 
   - releaseCycle: "1607"
     releaseDate: 2016-10-15
-    eoas: 2018-09-10
-    eol: 2018-09-10
+    eoas: 2018-10-09
+    eol: 2018-10-09
     latest: 10.0.14393
-    link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2016-nano-server-installation-option
 ---
 
 > Nano Server is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
-> It was initially intended as even smaller installation option compared to Windows Server Core.
+> It was initially intended as an even smaller installation option compared to Windows Server Core.
 > Starting with 1709 it was removed as installation option and going forward is only offered as Windows container base image.
 
 See [Windows Server Servicing channels](/windows-server#servicing-channels) for information on the servicing channels.

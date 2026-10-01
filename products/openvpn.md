@@ -14,15 +14,25 @@ auto:
 
 identifiers:
   - repology: openvpn
+  - purl: pkg:deb/debian/openvpn
+  - purl: pkg:deb/ubuntu/openvpn
+  - purl: pkg:github/openvpn/openvpn
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:
-  - releaseCycle: "2.6"
-    releaseDate: 2023-01-25
+  - releaseCycle: "2.7"
+    releaseDate: 2026-02-11
     eoas: false
     eol: false
-    latest: "2.6.17"
-    latestReleaseDate: 2025-11-28
+    latest: "2.7.7"
+    latestReleaseDate: 2026-09-03
+
+  - releaseCycle: "2.6"
+    releaseDate: 2023-01-25
+    eoas: 2026-08-31
+    eol: 2028-08-31
+    latest: "2.6.23"
+    latestReleaseDate: 2026-09-23
 
   - releaseCycle: "2.5"
     releaseDate: 2020-10-27

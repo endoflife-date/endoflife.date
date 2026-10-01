@@ -14,6 +14,7 @@ latestColumn: false
 eolColumn: End Of Life
 
 auto:
+  disabled: true # there are anti-bot protection measures on https://docs.ros.org
   methods:
     - release_table: https://docs.ros.org/en/rolling/Releases.html
       fields:
@@ -25,6 +26,11 @@ auto:
         eol: "EOL date"
 
 releases:
+  - releaseCycle: "lyrical"
+    codename: "Lyrical Luth"
+    releaseDate: 2026-05-22
+    eol: 2031-05-31
+
   - releaseCycle: "kilted"
     codename: "Kilted Kaiju"
     releaseDate: 2025-05-23

@@ -25,26 +25,33 @@ auto:
         - '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "27"
+    codename: "Golden Gate"
+    releaseDate: 2026-09-14
+    eol: false
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "26"
     codename: "Tahoe"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.2"
-    latestReleaseDate: 2025-12-12
+    latest: "26.7.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.7.3"
-    latestReleaseDate: 2025-12-12
+    latest: "15.8.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
-    eol: false
-    latest: "14.8.3"
-    latestReleaseDate: 2025-12-12
+    eol: 2026-09-14
+    latest: "14.8.9"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "13"
     codename: "Ventura"
@@ -64,17 +71,17 @@ releases:
   - releaseCycle: "11"
     codename: "Big Sur"
     releaseDate: 2020-11-12
-    eol: 2023-09-26
-    latest: "11.7.10"
-    latestReleaseDate: 2023-09-11
+    eol: 2026-02-02
+    latest: "11.7.11"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_0_1-release-notes
 
   - releaseCycle: "10.15"
     codename: "Catalina"
     releaseDate: 2019-10-07
-    eol: 2022-09-12
-    latest: "10.15.7"
-    latestReleaseDate: 2020-09-24
+    eol: 2026-02-02
+    latest: "10.15.8"
+    latestReleaseDate: 2026-02-02
     link: https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes
 
   - releaseCycle: "10.14"

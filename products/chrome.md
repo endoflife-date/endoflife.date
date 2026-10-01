@@ -22,14 +22,58 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "154"
+    releaseDate: 2026-09-22
+    eol: 2026-10-06 # Estimated, revise with releaseDate("155")
+
+  - releaseCycle: "153"
+    releaseDate: 2026-09-08
+    eol: 2026-09-22
+
+  - releaseCycle: "152"
+    releaseDate: 2026-08-25
+    eol: 2026-09-08
+
+  - releaseCycle: "151"
+    releaseDate: 2026-07-28
+    eol: 2026-08-25
+
+  - releaseCycle: "150"
+    releaseDate: 2026-06-30
+    eol: 2026-07-28
+
+  - releaseCycle: "149"
+    releaseDate: 2026-06-02
+    eol: 2026-06-30
+    
+  - releaseCycle: "148"
+    releaseDate: 2026-05-05
+    eol: 2026-06-02
+
+  - releaseCycle: "147"
+    releaseDate: 2026-04-07
+    eol: 2026-05-05
+
+  - releaseCycle: "146"
+    releaseDate: 2026-03-10
+    eol: 2026-04-07
+
+  - releaseCycle: "145"
+    releaseDate: 2026-02-10
+    eol: 2026-03-10
+
+  - releaseCycle: "144"
+    releaseDate: 2026-01-13
+    eol: 2026-02-10
+
   - releaseCycle: "143"
     releaseDate: 2025-12-02
-    eol: false
-  
+    eol: 2026-01-13
+
   - releaseCycle: "142"
     releaseDate: 2025-10-28
     eol: 2025-12-02
- 
+
   - releaseCycle: "141"
     releaseDate: 2025-09-30
     eol: 2025-10-28
@@ -686,8 +730,7 @@ releases:
 > [Google Chrome](https://www.google.com/chrome/) is a web browser developed by Google.
 > It is available for Windows, macOS, Android, iPhone & iPad, Linux, and ChromeOS.
 
-There is a new major Chrome release [every 4 weeks](https://blog.chromium.org/2021/03/speeding-up-release-cycle.html).
-Only the latest major release is supported with new features, bug and security fixes.
+Starting in September 2026, new major Chrome releases arrive [every 2 weeks](https://developer.chrome.com/blog/chrome-two-week-release), speeding up from the previous [4-week cycle](https://blog.chromium.org/2021/03/speeding-up-release-cycle.html). Only the latest major release is supported with new features, bug and security fixes.
 
 Enterprises that want a slower release cadence can use the [Extended stable release channel](https://support.google.com/chrome/a/answer/9027636),
 which is updated every 8 weeks. This channel is not available to regular Chrome users.

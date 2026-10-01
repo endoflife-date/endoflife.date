@@ -35,7 +35,7 @@ Licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-endoflife.date is relying on various amazing software and components :
+endoflife.date relies on various amazing software and components:
 
 - [GitHub](https://github.com/), an Internet hosting service for software development and version control.
 - [Jekyll](https://jekyllrb.com/), a static site generator.

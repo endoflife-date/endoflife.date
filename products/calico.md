@@ -18,17 +18,23 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.32"
+    releaseDate: 2026-04-30
+    eol: false
+    latest: "3.32.2"
+    latestReleaseDate: 2026-08-30
+
   - releaseCycle: "3.31"
     releaseDate: 2025-10-21
     eol: false
-    latest: "3.31.3"
-    latestReleaseDate: 2025-12-18
+    latest: "3.31.7"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "3.30"
     releaseDate: 2025-05-05
-    eol: false
-    latest: "3.30.5"
-    latestReleaseDate: 2025-11-26
+    eol: 2026-04-30
+    latest: "3.30.7"
+    latestReleaseDate: 2026-03-18
 
   - releaseCycle: "3.29"
     releaseDate: 2024-10-29
@@ -69,7 +75,7 @@ releases:
 {: .warning }
 
 > Calico Cloud and Calico Enterprise are separate versions maintained by
-> [Tigera](https://www.tigera.io/tigera-products), and may have separate support
+> [Tigera](https://www.tigera.io/tigera-products/compare-products/), and may have separate support
 > options.
 
 Looking at prior GitHub releases, it seems that security and bug fixes are

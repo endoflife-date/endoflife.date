@@ -6,8 +6,7 @@ iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
-releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
-changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/mariadb-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-series/mariadb-__LATEST__-release-notes"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/changelogs/__RELEASE_CYCLE__/__LATEST__"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
@@ -24,34 +23,37 @@ identifiers:
   - purl: pkg:rpm/redhat/mariadb-server
   - purl: pkg:rpm/centos/mariadb-server
   - purl: pkg:rpm/opensuse/mariadb
+  - cpe: cpe:2.3:a:mariadb:mariadb
 
 auto:
   methods:
     - git: https://github.com/MariaDB/server.git
-      # Drop any releases before the GA ones.
-      # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
-      # and Z a regex that only matches GA release patch numbers in that cycle.
+      regex: ^mariadb-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+      # Drop any releases before the GA ones in each cycle.
       # Note: This needs to be edited when a new release cycle (a new GA release) is added.
-      regex:
-        - ^mariadb-(?P<major>5)\.(?P<minor>1)\.(?P<patch>(4[2-9]|[5-9]\d))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>2)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>3)\.(?P<patch>([5-9]|\d{2}))$
-        - ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
-        - ^mariadb-(?P<major>12)\.(?P<minor>[0-1])\.(?P<patch>([2-9]|\d{2}))$
+      regex_exclude:
+        - ^mariadb-5\.1\.([0-9]|[1-3]\d|4[01])$
+        - ^mariadb-5\.2\.[0-2]$
+        - ^mariadb-5\.3\.[0-4]$
+        - ^mariadb-5\.5\.([0-9]|1\d|2[0-8])$
+        - ^mariadb-10\.0\.([0-9]|1[01])$
+        - ^mariadb-10\.1\.([0-9]|1[0-7])$
+        - ^mariadb-10\.2\.[0-5]$
+        - ^mariadb-10\.3\.[0-6]$
+        - ^mariadb-10\.4\.[0-5]$
+        - ^mariadb-10\.5\.[0-3]$
+        - ^mariadb-10\.6\.[0-2]$
+        - ^mariadb-10\.7\.[01]$
+        - ^mariadb-10\.8\.[0-2]$
+        - ^mariadb-10\.9\.[01]$
+        - ^mariadb-10\.10\.[01]$
+        - ^mariadb-10\.11\.[01]$
+        - ^mariadb-11\.[0-8]\.[01]$
+        - ^mariadb-12\.[0-3]\.[01]$
+        - ^mariadb-13\.0\.[01]$
+        # Any future major/minor cycle not yet listed above: assume the same threshold
+        # (patch 0 and 1 are pre-GA) until the exact GA patch is confirmed and added above.
+        - ^mariadb-(1[1-9]|[2-9]\d)\.\d+\.[01]$
     - release_table: https://mariadb.org/about/#maintenance-policy
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -63,27 +65,44 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+  - releaseCycle: "13.0"
+    releaseDate: 2026-09-15
+    eol: 2026-12-31
+    latest: "13.0.2"
+    latestReleaseDate: 2026-09-14
+
+  - releaseCycle: "12.3"
+    releaseDate: 2026-05-28
+    lts: true
+    eol: 2029-06-12
+    latest: "12.3.3"
+    latestReleaseDate: 2026-08-24
+
+  - releaseCycle: "12.2"
+    releaseDate: 2026-02-13
+    eol: 2026-05-28
+    latest: "12.2.2"
+    latestReleaseDate: 2026-02-12
+
   - releaseCycle: "12.1"
     releaseDate: 2025-11-18
-    eol: 2026-02-18 #estimated 
+    eol: 2026-02-13
     latest: "12.1.2"
     latestReleaseDate: 2025-11-18
-    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "12.0"
     releaseDate: 2025-08-07
     eol: 2025-11-18
     latest: "12.0.2"
     latestReleaseDate: 2025-08-07
-    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
   - releaseCycle: "11.8"
     lts: true
     releaseDate: 2025-06-04
     eol: 2028-06-04
-    eoes: 2033-10-15
-    latest: "11.8.5"
-    latestReleaseDate: 2025-11-14
+    eoes: 2033-10-22
+    latest: "11.8.9"
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -111,8 +130,8 @@ releases:
     releaseDate: 2024-05-29
     eol: 2029-05-29
     eoes: 2033-01-16
-    latest: "11.4.9"
-    latestReleaseDate: 2025-11-06
+    latest: "11.4.13"
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -147,8 +166,8 @@ releases:
     releaseDate: 2023-02-16
     eol: 2028-02-16
     eoes: 2028-02-16
-    latest: "10.11.15"
-    latestReleaseDate: 2025-11-06
+    latest: "10.11.19"
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07
@@ -183,8 +202,8 @@ releases:
     releaseDate: 2021-07-06
     eol: 2026-07-06
     eoes: 2029-08-23
-    latest: "10.6.24"
-    latestReleaseDate: 2025-11-06
+    latest: "10.6.28"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "10.5"
     lts: true
@@ -218,7 +237,7 @@ releases:
     eoes: 2022-05-23
     latest: "10.2.44"
     latestReleaseDate: 2022-05-20
-    link: https://mariadb.com/kb/en/mariadb-10244-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/10.2/10.2.44
 
   - releaseCycle: "10.1"
     releaseDate: 2015-10-17
@@ -226,7 +245,7 @@ releases:
     eoes: 2020-10-17
     latest: "10.1.48"
     latestReleaseDate: 2020-10-30
-    link: https://mariadb.com/kb/en/mariadb-10148-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/10.1/10.1.48
 
   - releaseCycle: "10.0"
     releaseDate: 2014-03-31
@@ -234,7 +253,7 @@ releases:
     eoes: 2019-03-31
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
-    link: https://mariadb.com/kb/en/mariadb-10038-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/10.0/10.0.38
 
   - releaseCycle: "5.5"
     lts: true
@@ -243,7 +262,7 @@ releases:
     eoes: 2020-04-11
     latest: "5.5.68"
     latestReleaseDate: 2020-05-06
-    link: https://mariadb.com/kb/en/mariadb-5568-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/5.5/5.5.68
 
   - releaseCycle: "5.3"
     releaseDate: 2012-02-29
@@ -251,7 +270,7 @@ releases:
     eoes: 2017-03-01
     latest: "5.3.12"
     latestReleaseDate: 2013-01-28
-    link: https://mariadb.com/kb/en/mariadb-5312-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/5.3/5.3.12
 
   - releaseCycle: "5.2"
     releaseDate: 2010-11-10
@@ -259,7 +278,7 @@ releases:
     eoes: 2015-11-10
     latest: "5.2.14"
     latestReleaseDate: 2013-01-28
-    link: https://mariadb.com/kb/en/mariadb-5214-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/5.2/5.2.14
 
   - releaseCycle: "5.1"
     releaseDate: 2010-02-01
@@ -267,7 +286,7 @@ releases:
     eoes: 2015-02-01
     latest: "5.1.67"
     latestReleaseDate: 2013-01-25
-    link: https://mariadb.com/kb/en/mariadb-5167-release-notes/
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/5.1/5.1.67
 
 ---
 

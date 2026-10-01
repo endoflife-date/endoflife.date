@@ -16,6 +16,7 @@ customFields:
     description: Supported Android versions
 
 auto:
+  disabled: true # Don't work in headless mode, probably due to anti-bot measures ?
   methods:
     - release_table: https://www.sony.co.uk/electronics/support/articles/SX243901
       render_javascript: true

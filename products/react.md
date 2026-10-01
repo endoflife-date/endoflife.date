@@ -6,13 +6,14 @@ tags: meta javascript-runtime
 iconSlug: react
 permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
-changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/react/react/releases/tag/v__LATEST__
 eoasColumn: true
 staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#stable-releases
 
 identifiers:
   - purl: pkg:github/facebook/react
   - purl: pkg:npm/react
+  - cpe: cpe:2.3:a:facebook:react
 
 # NPM dates are more accurate than git tag dates.
 auto:
@@ -24,8 +25,8 @@ releases:
     releaseDate: 2024-12-05
     eoas: false
     eol: false
-    latest: "19.2.3"
-    latestReleaseDate: 2025-12-11
+    latest: "19.3.0"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "18"
     releaseDate: 2022-03-29

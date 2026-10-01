@@ -29,17 +29,24 @@ auto:
 # Useful information can be found on:
 # - https://news.samsung.com (releaseDate, eoas, eol - search on Google with "<model> site:news.samsung.com")
 # - https://www.gsmarena.com/ (releaseDate)
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol - domain is dead, archived snapshot)
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+  - releaseCycle: "galaxy-tab-a11+"
+    releaseLabel: "Galaxy Tab A11+"
+    releaseDate: 2025-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    eoas: 2031-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    eol: 2031-12-30 # https://news.samsung.com/us/samsung-welcomes-galaxy-a17-5g-galaxy-tab-a11-galaxy-ecosystem/
+    link: null # unknown
+
   - releaseCycle: "galaxy-tab-a11"
     releaseLabel: "Galaxy Tab A11"
     releaseDate: 2025-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
     eoas: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
     eol: 2032-09-29 # https://news.samsung.com/fr/galaxy_tab_a11
-    link: null # unknown
+    link: https://doc.samsungmobile.com/SM-X133/XSP/doc.html
 
   - releaseCycle: "galaxy-tab-s11-ultra"
     releaseLabel: "Galaxy Tab S11 Ultra"
@@ -66,7 +73,7 @@ releases:
     releaseLabel: "Galaxy Tab A9+(2025)"
     releaseDate: 2025-08-01 # approximate, first detected in https://github.com/endoflife-date/endoflife.date/pull/8028
     eoas: 2031-08-01 # 6 android update - https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
-    eol: 2032-06-01 # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
+    eol: false      # https://www.samsung.com/be_fr/tablets/galaxy-tab-a/galaxy-tab-a9-plus-5g-2025-graphite-256gb-sm-x216rzapeub/
     link: null # unknown model number
 
   - releaseCycle: "galaxy-tab-active5-pro"
@@ -80,56 +87,56 @@ releases:
     releaseLabel: "Galaxy Tab S10 FE+"
     releaseDate: 2025-04-03 # https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design
     eoas: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
-    eol: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
+    eol: false      # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
     link: https://doc.samsungmobile.com/SM-X520/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-s10-fe"
     releaseLabel: "Galaxy Tab S10 FE"
     releaseDate: 2025-04-03 # https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design
     eoas: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
-    eol: 2032-04-03 # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
+    eol: false      # https://samlover.com/2025/04/07/samsung-support-seven-years-of-support-for-galaxy-tab-s10-fe/
     link: https://doc.samsungmobile.com/SM-X520/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-s10-ultra"
     releaseLabel: "Galaxy Tab S10 Ultra"
     releaseDate: 2024-10-03 # https://news.samsung.com/global/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet
-    eoas: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2031-10-03 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X920/XAC/doc.html
 
   - releaseCycle: "galaxy-tab-s10+"
     releaseLabel: "Galaxy Tab S10+"
     releaseDate: 2024-10-03 # https://news.samsung.com/global/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet
-    eoas: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-10-03 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2031-10-03 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-10-03 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X820/XSP/doc.html
 
   - releaseCycle: "galaxy-tab-s6-lite-2024"
     releaseLabel: "Galaxy Tab S6 Lite (2024)"
     releaseDate: 2024-03-28 # https://news.samsung.com/global/samsung-galaxy-tab-s6-lite-2024-style-and-function-in-a-compact-package
-    eoas: 2027-03-28 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2027-03-28 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: false
     link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-active5"
     releaseLabel: "Galaxy Tab Active5"
     releaseDate: 2024-01-23 # https://www.gsmarena.com/samsung_galaxy_tab_active5-12785.php
-    eoas: 2028-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2029-01-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2028-01-23 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2029-01-23 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
 
   - releaseCycle: "galaxy-tab-a9+"
     releaseLabel: "Galaxy Tab A9+"
     releaseDate: 2023-10-23 # https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone
-    eoas: 2026-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2027-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2026-10-23 # https://rmupdate.com/2024/03/04/how-many-software-updates-will-samsung-galaxy-tab-a9-and-a9-get/
+    eol: 2027-10-23 # https://rmupdate.com/2024/03/04/how-many-software-updates-will-samsung-galaxy-tab-a9-and-a9-get/
     link: https://doc.samsungmobile.com/SM-X210/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-a9"
     releaseLabel: "Galaxy Tab A9"
     releaseDate: 2023-10-23 # https://news.samsung.com/global/samsung-galaxy-tab-a9-and-galaxy-tab-a9-entertainment-and-productivity-engineered-for-everyone
-    eoas: 2026-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2027-10-23 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2026-10-23 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2027-10-23 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-X115/SKZ/doc.html
 
   - releaseCycle: "galaxy-tab-s9-fe+"
@@ -143,21 +150,21 @@ releases:
     releaseLabel: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     eoas: 2027-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
-    eol: 2028-10-04 # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
+    eol: false      # https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users
     link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
 
   - releaseCycle: "galaxy-tab-s9-ultra"
     releaseLabel: "Galaxy Tab S9 Ultra"
     releaseDate: 2023-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     eoas: 2027-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
-    eol: 2028-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
+    eol: false      # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
   - releaseCycle: "galaxy-tab-s9+"
     releaseLabel: "Galaxy Tab S9+"
     releaseDate: 2023-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     eoas: 2027-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
-    eol: 2028-08-11 # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
+    eol: false      # https://news.samsung.com/us/samsung-galaxy-tab-s9-sets-new-standard-to-bring-galaxys-premium-experience-to-tablet-unpacked-2023/
     link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
 
   - releaseCycle: "galaxy-tab-s9"
@@ -170,7 +177,7 @@ releases:
   - releaseCycle: "galaxy-tab-a7-10.4-2022"
     releaseLabel: "Galaxy Tab A7 10.4 (2022)"
     releaseDate: 2022-11-21 # https://www.gsmarena.com/samsung_galaxy_tab_a7_10_4_(2022)-11988.php
-    eoas: 2024-11-21 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2024-11-21 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: false
     link: https://doc.samsungmobile.com/SM-T509/ITV/doc.html
 
@@ -184,7 +191,7 @@ releases:
   - releaseCycle: "galaxy-tab-s6-lite"
     releaseLabel: "Galaxy Tab S6 Lite"
     releaseDate: 2022-05-23 # https://www.gsmarena.com/samsung_galaxy_tab_s6_lite_(2022)-11524.php
-    eoas: 2025-05-25 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2025-05-25 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2025-06-04
     link: https://doc.samsungmobile.com/SM-P619/ATO/doc.html
 
@@ -199,7 +206,7 @@ releases:
     releaseLabel: "Galaxy Tab S8+"
     releaseDate: 2022-04-14 # https://www.gsmarena.com/samsung_galaxy_tab_s8+-11342.php
     eoas: 2026-04-14 # https://news.samsung.com/us/galaxy-tab8-unpacked/
-    eol: 2027-04-14 # https://news.samsung.com/us/galaxy-tab8-unpacked/
+    eol: false      # https://news.samsung.com/us/galaxy-tab8-unpacked/
     link: https://doc.samsungmobile.com/SM-X806B/XXV/doc.html
 
   - releaseCycle: "galaxy-tab-s8"
@@ -212,70 +219,70 @@ releases:
   - releaseCycle: "galaxy-tab-a8"
     releaseLabel: "Galaxy Tab A8"
     releaseDate: 2022-01-17 # https://www.gsmarena.com/samsung_galaxy_tab_a8_10_5_(2021)-11265.php
-    eoas: 2025-01-17 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eoas: 2025-01-17 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-02-21
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
   - releaseCycle: "galaxy-tab-a7-lite"
     releaseLabel: "Galaxy Tab A7 Lite"
     releaseDate: 2021-05-27 # https://news.samsung.com/global/introducing-the-newest-members-of-the-samsung-galaxy-tab-portfolio-galaxy-tab-s7-fe-and-galaxy-tab-a7-lite
-    eoas: 2024-05-27 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2024-05-27 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2025-06-04
     link: https://doc.samsungmobile.com/SM-T220/CHN/doc.html
 
   - releaseCycle: "galaxy-tab-s7-fe"
     releaseLabel: "Galaxy Tab S7 FE"
     releaseDate: 2021-05-27 # https://news.samsung.com/global/introducing-the-newest-members-of-the-samsung-galaxy-tab-portfolio-galaxy-tab-s7-fe-and-galaxy-tab-a7-lite
-    eoas: 2024-05-27 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2024-05-27 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2025-07-08
     link: https://doc.samsungmobile.com/SM-T730/KOO/doc.html
 
   - releaseCycle: "galaxy-tab-active3"
     releaseLabel: "Galaxy Tab Active3"
     releaseDate: 2020-09-28 # https://news.samsung.com/global/samsung-announces-the-galaxy-tab-active3-a-smart-new-tablet-built-for-demanding-environments
-    eoas: 2022-09-28 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2022-09-28 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2025-11-04 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T575/XEF/doc.html
 
   - releaseCycle: "galaxy-tab-a7-10.4-2020"
     releaseLabel: "Galaxy Tab A7 10.4 (2020)"
     releaseDate: 2020-08-10 # https://news.samsung.com/us/galaxy-tab-a7-availability/
-    eoas: 2022-08-10 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2022-08-10 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-08-10 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T505/BTU/doc.html
 
   - releaseCycle: "galaxy-tab-s7+"
     releaseLabel: "Galaxy Tab S7+"
     releaseDate: 2020-08-05 # https://news.samsung.com/global/meet-galaxy-tab-s7-and-s7-plus-your-perfect-companion-to-work-play-and-more
-    eoas: 2023-08-05 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-08-05 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-08-05 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T970/XAR/doc.html
 
   - releaseCycle: "galaxy-tab-s7"
     releaseLabel: "Galaxy Tab S7"
     releaseDate: 2020-08-05 # https://news.samsung.com/global/meet-galaxy-tab-s7-and-s7-plus-your-perfect-companion-to-work-play-and-more
-    eoas: 2023-08-05 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-08-05 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-08-05 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T875/DBT/doc.html
 
   - releaseCycle: "galaxy-tab-s6-lite-2020"
     releaseLabel: "Galaxy Tab S6 Lite (2020)"
     releaseDate: 2020-03-26 # https://news.samsung.com/global/samsung-galaxy-tab-s6-lite-2024-style-and-function-in-a-compact-package
-    eoas: 2023-03-26 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-03-26 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-03-26 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-P610/XEH/doc.html
 
   - releaseCycle: "galaxy-tab-a-8.4-2020"
     releaseLabel: "Galaxy Tab A 8.4 (2020)"
     releaseDate: 2020-03-25 # https://www.gsmarena.com/samsung_galaxy_tab_a_8_4_(2020)-10483.php
-    eoas: 2022-03-25 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2022-03-25 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-03-25 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/sm-t307u/glw/doc.html
 
   - releaseCycle: "galaxy-tab-s6-5g"
     releaseLabel: "Galaxy Tab S6 5G"
     releaseDate: 2020-01-30 # https://www.gsmarena.com/samsung_galaxy_tab_s6_5g-10004.php
-    eoas: 2023-01-30 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2023-01-30 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2024-01-30 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/sm-t866n/koo/doc.html
 
@@ -289,7 +296,7 @@ releases:
   - releaseCycle: "galaxy-tab-s6"
     releaseLabel: "Galaxy Tab S6"
     releaseDate: 2019-07-31 # https://news.samsung.com/us/samsung-galaxy-tab-s6-new-tablet-enhances-creativity-and-productivity/
-    eoas: 2022-07-31 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2022-07-31 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2023-07-31 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T860/XAR/doc.html
 
@@ -303,7 +310,7 @@ releases:
   - releaseCycle: "galaxy-tab-s5e"
     releaseLabel: "Galaxy Tab S5e"
     releaseDate: 2019-04-01 # https://www.gsmarena.com/samsung_galaxy_tab_s5e-9581.php
-    eoas: 2021-04-01 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eoas: 2021-04-01 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2023-04-01 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T725/XEO/doc.html
 
