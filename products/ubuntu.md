@@ -85,7 +85,7 @@ releases:
     eol: 2029-05-31
     eoes: 2034-04-25
     latest: "24.04.5"
-    latestReleaseDate: 2026-09-10
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "23.10"
     codename: "Mantic Minotaur"
