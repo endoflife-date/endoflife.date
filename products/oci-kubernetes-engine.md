@@ -56,12 +56,12 @@ releases:
   - releaseCycle: "1.34"
     releaseDate: 2025-10-07
     eol: false
-    latest: "1.34.2"
-    latestReleaseDate: 2026-02-03
+    latest: "1.34.10"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "1.33"
     releaseDate: 2025-06-17
-    eol: 2026-08-10 # planned date, as published in the release calendar
+    eol: 2026-08-10
     latest: "1.33.10"
     latestReleaseDate: 2026-05-06
 
