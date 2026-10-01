@@ -7,7 +7,7 @@ permalink: /zookeeper
 alternate_urls:
   - /apache_zookeeper
   - /apache-zookeeper
-releasePolicyLink: https://zookeeper.apache.org/releases.html
+releasePolicyLink: https://zookeeper.apache.org/releases/
 changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
 eoasColumn: true
 

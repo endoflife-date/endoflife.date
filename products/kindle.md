@@ -17,64 +17,64 @@ releases:
     releaseLabel: "Kindle Scribe (3rd Generation)"
     releaseDate: 2025-09-30
     eol: 2030-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindleScribe3GenerationNotes
 
   - releaseCycle: "kindle-scribe-colorsoft-1"
     releaseLabel: "Kindle Scribe Colorsoft (1st Generation)"
     releaseDate: 2025-09-30
     eol: 2030-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindleScribeColorsoft1GenerationNotes
 
   - releaseCycle: "kindle-scribe-2024"
     releaseLabel: "Kindle Scribe - 2024 Release"
     releaseDate: 2024-12-04
     eol: 2029-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindleScribe2024Notes
 
   - releaseCycle: "kindle-colorsoft-1"
     releaseLabel: "Kindle Colorsoft (1st Generation)"
     releaseDate: 2024-10-30
     eol: 2030-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindleColorsoft-2024-Notes
 
   - releaseCycle: "paperwhite-12"
     releaseLabel: "Kindle Paperwhite (12th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: 2030-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindlePaperwhite12-2024-Notes
 
   - releaseCycle: "kindle-11-2024"
     releaseLabel: "Kindle (11th Generation) - 2024 Release"
     releaseDate: 2024-10-16
     eol: 2030-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.2.0.1"
+    latestReleaseDate: 2026-04-01
     link: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "kindle-scribe-2022"
     releaseLabel: "Kindle Scribe - 2022 Release"
     releaseDate: 2022-11-30
     eol: 2029-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.6"
+    latestReleaseDate: 2026-07-01
     link: https://www.amazon.com/KindleScribeNotes
 
   - releaseCycle: "kindle-11-2022"
     releaseLabel: "Kindle (11th Generation) - 2022 Release"
     releaseDate: 2022-09-13
     eol: 2028-12-31
-    latest: "5.19.2"
-    latestReleaseDate: 2026-02-01
+    latest: "5.19.2.0.1"
+    latestReleaseDate: 2026-04-01
     link: https://www.amazon.com/Kindle11Notes
 
   - releaseCycle: "paperwhite-11"

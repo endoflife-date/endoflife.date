@@ -34,17 +34,33 @@ auto:
         releaseCycle:
           column: "API Model Name"
           regex: "^(?P<value>.+)$"
+          regex_exclude: '^claude-mythos-preview$'
         eoas: "Deprecated"
         eol:
           column: "Tentative Retirement Date"
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-sonnet-5-5"
+    releaseLabel: Claude Sonnet 5.5
+    releaseDate: 2026-09-28
+    eoas: false
+    eol: 2027-09-28
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-sonnet-5-5
+  - releaseCycle: "claude-opus-5-5"
+    releaseLabel: Claude Opus 5.5
+    releaseDate: 2026-09-22
+    eoas: false
+    eol: 2027-09-22
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-opus-5-5
+
   - releaseCycle: "claude-mythos-5-1"
     releaseLabel: Claude Mythos 5.1
     releaseDate: 2026-09-01
     eoas: false
-    eol: false
+    eol: 2027-09-01
     recommendedReplacement: "N/A"
     link: https://www.anthropic.com/claude-fable-and-mythos-5-1
 
@@ -74,7 +90,7 @@ releases:
     releaseLabel: Claude Mythos 5
     releaseDate: 2026-06-09
     eoas: false
-    eol: false
+    eol: 2027-06-09
     recommendedReplacement: "N/A"
     link: https://www.anthropic.com/news/claude-fable-5-mythos-5
 
@@ -133,9 +149,9 @@ releases:
   - releaseCycle: "claude-sonnet-4-5-20250929"
     releaseLabel: Claude Sonnet 4.5
     releaseDate: 2025-09-29
-    eoas: false
-    eol: 2026-09-29
-    recommendedReplacement: "N/A"
+    eoas: 2026-09-30
+    eol: 2026-11-30
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://platform.claude.com/docs/en/about-claude/model-deprecations
 
   - releaseCycle: "claude-opus-4-1-20250805"

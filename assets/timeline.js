@@ -23,17 +23,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterFor = (name) => filters.querySelector(`[data-timeline-filter="${name}"]`);
   const productFilter = filterFor('product');
   const eventFilter = filterFor('event');
+  const tagFilter = filterFor('tag');
 
   const readFilters = () => {
     const params = new URLSearchParams(window.location.search);
     return {
       product: new Set(params.getAll('product').map((value) => value.replace(/^\//, ''))),
-      event: new Set(params.getAll('event'))
+      event: new Set(params.getAll('event')),
+      tag: new Set(params.getAll('tag'))
     };
   };
   const writeFilters = () => {
     const params = new URLSearchParams(window.location.search);
-    ['product', 'event'].forEach((name) => {
+    ['product', 'event', 'tag'].forEach((name) => {
       params.delete(name);
       selectedValues(filterFor(name)).forEach((value) => params.append(name, value));
     });
@@ -67,8 +69,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const applyFilters = () => {
     const products = selectedValues(productFilter);
     const eventTypes = selectedValues(eventFilter);
+    const tags = selectedValues(tagFilter);
     const matches = (event) => (products.size === 0 || products.has(event.dataset.product)) &&
-      (eventTypes.size === 0 || eventTypes.has(event.dataset.event));
+      (eventTypes.size === 0 || eventTypes.has(event.dataset.event)) &&
+      (tags.size === 0 || (event.dataset.tags || '').split(' ').some((tag) => tags.has(tag)));
     events.forEach((event) => { event.hidden = !matches(event); });
     if (noResults) noResults.hidden = events.some(matches);
   };
@@ -77,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     applyFilters();
     updateTags(productFilter, 'All products');
     updateTags(eventFilter, 'All event types');
+    updateTags(tagFilter, 'All tags');
   };
 
   const current = readFilters();
@@ -118,4 +123,5 @@ document.addEventListener('DOMContentLoaded', () => {
   applyFilters();
   updateTags(productFilter, 'All products');
   updateTags(eventFilter, 'All event types');
+  updateTags(tagFilter, 'All tags');
 });

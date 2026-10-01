@@ -44,13 +44,23 @@ layout: default
         </div>
       </div>
     </div>
+    <div class="timeline-filter" data-timeline-filter="tag">
+      <span class="sr-only" id="timeline-tag-filter">Tags</span>
+      <div class="timeline-filter-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="timeline-tag-options" aria-labelledby="timeline-tag-filter" data-timeline-filter-toggle>All tags</div>
+      <div class="timeline-filter-menu" id="timeline-tag-options" hidden data-timeline-filter-menu>
+        <input class="timeline-filter-search" type="search" placeholder="Search tags" aria-label="Search tags" data-timeline-filter-search>
+        <div class="timeline-filter-options" role="group" aria-labelledby="timeline-tag-filter">
+          {% for tag in page.tags %}<label class="timeline-filter-option" data-label="{{ tag | downcase }}"><input type="checkbox" value="{{ tag }}"> {{ tag }}</label>{% endfor %}
+        </div>
+      </div>
+    </div>
     </form>
   </fieldset>
 
   {% if page.events.size > 0 %}
     <div class="timeline-events">
       {% for event in page.events %}
-        <a class="timeline-event timeline-event-{{ event.field }}" data-product="{{ event.product.url | relative_url | remove_first: '/' }}" data-event="{{ event.field }}" href="{{ event.product.url | relative_url }}" title="View details for {{ event.product.title }}" aria-label="View details for {{ event.product.title }}">
+        <a class="timeline-event timeline-event-{{ event.field }}" data-product="{{ event.product.url | relative_url | remove_first: '/' }}" data-event="{{ event.field }}" data-tags="{{ event.product.tags | join: ' ' }}" href="{{ event.product.url | relative_url }}" title="View details for {{ event.product.title }}" aria-label="View details for {{ event.product.title }}">
           <div class="timeline-event-date">
             <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%b %-d" }}</time>
             {% if event.days < 0 %}<span>{{ event.days | abs }} days ago</span>{% elsif event.days == 0 %}<span>Today</span>{% else %}<span>{{ event.days }} days left</span>{% endif %}

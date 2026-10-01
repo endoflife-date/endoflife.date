@@ -5,13 +5,16 @@ category: server-app
 tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
-releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
+releasePolicyLink: "https://www.nutanix.com/support-services/support-policies-and-faqs"
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 
 auto:
   methods:
-    - nutanix: FILES
+    - json_versions: https://portal.nutanix.com/api/v1/eol/find?type=FILES
+      selector: '$.contents[*]'
+      name: '$.version'
+      date: '$.GENERAL_AVAILABILITY'
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:

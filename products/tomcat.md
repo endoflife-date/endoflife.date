@@ -71,7 +71,7 @@ releases:
     latestReleaseDate: 2018-06-29
 
   - releaseCycle: "7"
-    releaseDate: 2013-01-10
+    releaseDate: 2010-06-13
     eol: 2021-03-31 # https://tomcat.apache.org/tomcat-70-eol.html
     minJavaVersion: "6"
     latest: "7.0.109"

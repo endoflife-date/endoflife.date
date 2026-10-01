@@ -181,19 +181,19 @@ a {
   border-color: #5890ff;
   font-weight: 400;
 }
-.timeline-filters { display: grid; gap: .6rem; grid-template-columns: 2fr 1fr; margin: .75rem 0; }
+.timeline-filters { display: grid; gap: .6rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: .75rem 0; }
 .timeline-filter-box { border: 1px solid #d8dee9; border-radius: .35rem; margin: .75rem 0; padding: 0 .6rem .6rem; }
 .timeline-filter-box legend { color: #273142; font-size: .9rem; font-weight: 600; padding: 0 .35rem; }
 .timeline-filter { min-width: 0; position: relative; }
 .timeline-filter-toggle {
-  align-items: center;
+  align-items: flex-start;
   background: #fff;
   border: 1px solid #cbd5e1;
   border-radius: .25rem;
   color: #273142;
   cursor: pointer;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: .35rem;
   min-width: 12rem;
   padding: .35rem .5rem;

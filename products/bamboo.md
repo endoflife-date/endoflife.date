@@ -17,7 +17,14 @@ identifiers:
 
 auto:
   methods:
-    - atlassian_versions: https://www.atlassian.com/software/bamboo/download-archives
+    - json_versions: https://my.atlassian.com/download/feeds/current/bamboo.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
+    - json_versions: https://my.atlassian.com/download/feeds/archived/bamboo.json
+      selector: '$[*]'
+      name: '$.version'
+      date: '$.released'
     - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
       selector: AtlassianEndofSupportPolicy-Bamboo
       regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
@@ -99,31 +106,31 @@ releases:
     releaseDate: 2022-12-14
     eol: 2023-06-15
     latest: "9.1.3"
-    latestReleaseDate: 2023-06-05
+    latestReleaseDate: 2023-06-04
 
   - releaseCycle: "9.0"
     releaseDate: 2022-08-25
     eol: 2023-05-16
     latest: "9.0.4"
-    latestReleaseDate: 2023-05-16
+    latestReleaseDate: 2023-05-15
 
   - releaseCycle: "8.2"
     releaseDate: 2022-04-09
     eol: 2023-05-15
     latest: "8.2.9"
-    latestReleaseDate: 2023-05-15
+    latestReleaseDate: 2023-05-14
 
   - releaseCycle: "8.1"
     releaseDate: 2021-12-14
     eol: 2023-03-28
     latest: "8.1.12"
-    latestReleaseDate: 2023-03-28
+    latestReleaseDate: 2023-03-27
 
   - releaseCycle: "8.0"
     releaseDate: 2021-07-29
     eol: 2023-03-28
     latest: "8.0.13"
-    latestReleaseDate: 2023-03-28
+    latestReleaseDate: 2023-03-27
 
 ---
 

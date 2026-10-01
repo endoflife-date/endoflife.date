@@ -21,6 +21,12 @@ auto:
     - git: https://github.com/opentofu/opentofu.git
 
 releases:
+  - releaseCycle: "1.13"
+    releaseDate: 2026-09-30
+    eol: 2027-08-01
+    latest: "1.13.0"
+    latestReleaseDate: 2026-09-30
+
   - releaseCycle: "1.12"
     releaseDate: 2026-05-14
     eol: 2027-02-01
@@ -35,7 +41,7 @@ releases:
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-24
-    eol: false # releaseDate(1.13), following previous support policy
+    eol: 2026-09-30
     latest: "1.10.10"
     latestReleaseDate: 2026-05-11
 
