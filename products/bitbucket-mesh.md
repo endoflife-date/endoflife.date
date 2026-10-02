@@ -12,9 +12,8 @@ eolColumn: Support
 
 # Release dates from Atlassian's download feed for Mesh. There is no download page of its own to read:
 # Mesh ships with Bitbucket, whose page lists Bitbucket versions.
-# Mesh ships alongside Bitbucket Data Center: since 3.0 every release has landed on the same day as the matching
-# Bitbucket release, 3.0 with Bitbucket 9.0 through 4.4 with Bitbucket 10.4, so it follows the same two year
-# support window as https://endoflife.date/bitbucket .
+# Atlassian publishes no end-of-support dates for Mesh: the policy page has no Mesh section. EOL here assumes the
+# same two year window as https://endoflife.date/bitbucket , counted from each Mesh release.
 auto:
   methods:
     - json_versions: https://my.atlassian.com/download/feeds/current/mesh.json
@@ -27,6 +26,12 @@ auto:
       date: '$.released'
 
 releases:
+  - releaseCycle: "4.6"
+    releaseDate: 2026-09-28
+    eol: 2028-09-28
+    latest: "4.6.0"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "4.4"
     releaseDate: 2026-07-20
     eol: 2028-07-20
@@ -176,5 +181,12 @@ releases:
 > distributed, replicated Git repository storage service for Bitbucket Data Center, developed by Atlassian.
 
 Mesh is not installed on its own. It ships alongside Bitbucket Data Center, and since Mesh 3.0 every release has
-landed on the same day as the matching Bitbucket release, 3.0 with Bitbucket 9.0 through 4.4 with Bitbucket 10.4.
-It follows the same two year support window as [Bitbucket](/bitbucket).
+landed on the same day as the matching Bitbucket release, 3.0 with Bitbucket 9.0 through 4.6 with Bitbucket 10.5.
+Atlassian's [compatibility matrix](https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Mesh+compatibility+matrix)
+says which Mesh version goes with which Bitbucket version.
+
+{: .warning }
+
+> Atlassian publishes no end-of-support dates for Mesh. The dates shown assume the same two year window as
+> [Bitbucket](/bitbucket), counted from each Mesh release. Check the support status of the Bitbucket version you
+> run alongside it.
