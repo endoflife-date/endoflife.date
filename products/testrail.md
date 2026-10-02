@@ -142,7 +142,7 @@ releases:
     latestReleaseDate: 2025-04-02
 
   - releaseCycle: "8.1"
-    releaseDate: 2025-02-04
+    releaseDate: 2025-02-13
     eoas: 2026-03-06
     eol: 2027-03-06
     latest: "8.1.0.6186"
