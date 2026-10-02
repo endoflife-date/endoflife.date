@@ -29,7 +29,7 @@ auto:
   methods:
     - git: https://github.com/openbao/openbao.git
 
-# eol(x) = releaseDate(x+1)
+# eol(x) = max( latestReleaseDate(x), releaseDate(x+1) ) 
 
 releases:
   - releaseCycle: "2.7"
