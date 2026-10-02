@@ -13,6 +13,13 @@ identifiers:
   - cpe: cpe:/a:jetbrains:teamcity
   - cpe: cpe:2.3:a:jetbrains:teamcity
 
+auto:
+  methods:
+    - json_versions: https://data.services.jetbrains.com/products/releases?code=TC&latest=false&type=release
+      selector: '$.TC[*]'
+      name: '$.version'
+      date: '$.date'
+
 # Release dates come from https://data.services.jetbrains.com/products/releases?code=TC&latest=false&type=release ,
 # which is the data behind https://www.jetbrains.com/teamcity/download/other/ . The 10.0 release itself is missing
 # from that feed, so its date is taken from
@@ -24,9 +31,10 @@ identifiers:
 #
 # Per https://www.jetbrains.com/help/teamcity/teamcity-release-cycle.html , a major version stops receiving bugfix
 # updates at End of Sale, which is when the next major version ships, and reaches End of Support when the one after
-# that ships. So eoas(x) = releaseDate(x+1) and eol(x) = releaseDate(x+2).
+# that ships. So eoas(x) = releaseDate(x+1) and eol(x) = releaseDate(x+2). The auto method only tracks versions, so
+# when a new major ships, set eoas on the previous cycle and eol on the one before it.
 #
-# Release notes moved to their current URL scheme with 2021.2, so earlier cycles have no changelog link.
+# Release notes use the current URL scheme from 2020.2 on, so earlier cycles have no changelog link.
 releases:
   - releaseCycle: "2026.2"
     releaseDate: 2026-09-02
@@ -125,7 +133,6 @@ releases:
     eol: 2022-04-28
     latest: "2021.1.4"
     latestReleaseDate: 2021-10-08
-    link: null
 
   - releaseCycle: "2020.2"
     releaseDate: 2020-11-23
@@ -133,7 +140,6 @@ releases:
     eol: 2021-10-25
     latest: "2020.2.4"
     latestReleaseDate: 2021-04-15
-    link: null
 
   - releaseCycle: "2020.1"
     releaseDate: 2020-05-18
@@ -304,9 +310,10 @@ releases:
 This page is about TeamCity On-Premises, the self-hosted edition. TeamCity Cloud is a managed service that JetBrains
 updates continuously and that carries no version-specific end-of-life dates.
 
-JetBrains ships two major versions a year, each followed by several bugfix updates. A major version receives those
-updates until **End of Sale**, which is when the next major version is released. It then reaches **End of Support**
-once the version after that is released, so a major version is supported for roughly a year.
+JetBrains ships three major versions a year, roughly every four months, each followed by several bugfix updates.
+Until 2023 it was two a year. A major version receives those updates until **End of Sale**, which is when the next
+major version is released. It then reaches **End of Support** once the version after that is released, so a major
+version is supported for eight to ten months, against about a year under the old cadence.
 
 Critical security fixes are sometimes an exception to this. When a severe vulnerability is found, JetBrains has both
 backported fixes to versions that were already past End of Support and published a security patch plugin covering
