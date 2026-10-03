@@ -183,13 +183,12 @@ releases:
 > [both commercial licenses and open-source](https://www.qt.io/development/qt-framework/qt-licensing "Licensing page on the Qt Website")
 > GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
-Releases follow [Semantic Versioning](https://semver.org/). There is a new minor release
-[approximately every six months](https://wiki.qt.io/QtReleasing), which is supported with bug and
-security fixes until the next minor release.
 
-Some releases are designated as Long-Term Support (LTS) releases. Those are supported for three
-years but [only for commercial license holders](https://www.qt.io/blog/qt-offering-changes-2020).
-For open source users, they are the same as regular releases.
+> From Qt 6.8 onwards, every 4th minor release is designated as a Long-Term Support (LTS) release,
+> issued every 2 years and [maintained for 5 years](https://www.qt.io/development/qt-framework/qt-lts) exclusively for commercial license holders.
+> Open-source (Community Edition) users do not receive LTS benefits and are expected to update to
+> every new minor release approximately [every 6 months](https://www.qt.io/development/qt-framework/maintenance-periods).
+> For versions prior to Qt 6.8, LTS releases were supported for 3 years under commercial licenses.
 
 Extended support beyond EOL is available as a [commercial offering](https://www.qt.io/qt-support/)
 from The Qt Company.
