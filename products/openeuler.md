@@ -76,17 +76,17 @@ releases:
     releaseDate: 2024-06-04
     eol: 2026-05-31
 
-  - releaseCycle: "20.03-lts-sp4"
-    releaseLabel: "20.03 LTS SP4"
-    lts: true
-    releaseDate: 2023-12-12
-    eol: 2025-11-30
-
   - releaseCycle: "22.03-lts-sp3"
     releaseLabel: "22.03 LTS SP3"
     lts: true
     releaseDate: 2023-12-31
     eol: 2025-12-31
+
+  - releaseCycle: "20.03-lts-sp4"
+    releaseLabel: "20.03 LTS SP4"
+    lts: true
+    releaseDate: 2023-12-12
+    eol: 2025-11-30
 
   - releaseCycle: "23.09"
     releaseLabel: "23.09"
