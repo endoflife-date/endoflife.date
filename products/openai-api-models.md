@@ -30,12 +30,21 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.1-sol"
+    releaseLabel: "GPT-6.1 Sol"
+    aliases:
+      - gpt-6.1-sol
+    releaseDate: 2026-09-29 # https://openai.com/index/introducing-gpt-6-1-sol/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+
   - releaseCycle: "gpt-6-sol"
     releaseLabel: "GPT-6 Sol"
     aliases:
       - gpt-6-sol
       - gpt-6-sol
-    releaseDate: 2026-09-22 # https://developers.openai.com/api/docs/changelog
+    releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false
     eol: false
     link: "https://developers.openai.com/api/docs/models/gpt-6-sol"
@@ -46,7 +55,7 @@ releases:
     aliases:
       - gpt-6-luna
       - gpt-6-luna
-    releaseDate: 2026-09-22 # https://developers.openai.com/api/docs/changelog
+    releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false
     eol: false
     link: "https://developers.openai.com/api/docs/models/gpt-6-luna"
@@ -938,6 +947,7 @@ releases:
     recommendedReplacement: omni-moderation
 
   - releaseCycle: "text-embedding-ada-002"
+    staleReleaseThresholdDays: 1460 # not listed on https://developers.openai.com/api/docs/deprecations
     releaseLabel: "text-embedding-ada-002"
     aliases:
       - text-embedding-ada-002
