@@ -260,10 +260,10 @@ releases:
     aliases:
       - gpt-5.4-nano-2026-03-17
     releaseDate: 2026-03-17 # https://aireleasetracker.com/model/openai/gpt-5.4-nano
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-5.4"
     releaseLabel: "GPT-5.4"
@@ -320,10 +320,10 @@ releases:
     aliases:
       - gpt-5.3-codex
     releaseDate: 2026-02-05 # https://openai.com/index/introducing-gpt-5-3-codex/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-sol
 
   - releaseCycle: "gpt-audio"
     releaseLabel: "GPT-Audio"
@@ -431,10 +431,10 @@ releases:
     aliases:
       - gpt-5.1-2025-11-13
     releaseDate: 2025-11-12 # https://openai.com/index/gpt-5-1/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.1"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-sol
 
   - releaseCycle: "gpt-5.1-chat-latest"
     releaseLabel: "GPT-5.1 Chat"
@@ -697,10 +697,10 @@ releases:
       - gpt-4o-mini-tts-2025-03-20
       - gpt-4o-mini-tts-2025-12-15
     releaseDate: 2025-03-20 # https://openai.com/index/introducing-our-next-generation-audio-models/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "gpt-4o-transcribe"
     releaseLabel: "GPT-4o Transcribe"
@@ -849,20 +849,20 @@ releases:
     aliases:
       - tts-1
     releaseDate: 2023-11-06 # https://openai.com/index/new-models-and-developer-products-announced-at-devday/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/tts-1"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "tts-1-hd"
     releaseLabel: "TTS-1 HD"
     aliases:
       - tts-1-hd
     releaseDate: 2023-11-06 # https://openai.com/index/new-models-and-developer-products-announced-at-devday/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/tts-1-hd"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "babbage-002"
     releaseLabel: "babbage-002"
