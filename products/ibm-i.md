@@ -26,6 +26,7 @@ auto:
         releaseCycle:
           column: "Release"
           regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
+          regex_exclude: '^V2R1\.1$' # V2R1.1 is a point release, not a release cycle
           template: "{{major}}.{{minor}}"
         releaseDate: "GA date*"
         eol: "Change in Service Level*"
@@ -190,7 +191,7 @@ releases:
     latestReleaseDate: 1992-09-18
 
   - releaseCycle: "2.1"
-    releaseDate: 1992-03-06
+    releaseDate: 1991-05-24
     eol: 1994-06-30
     latest: "2.1.1"
     latestReleaseDate: 1992-03-06
@@ -206,17 +207,15 @@ releases:
 End of program support date will be announced with at least a 12-month notice prior to the effective
 termination date.
 
-IBM i 7.3 Service Extension Offering starts on October 1, 2023. For details regarding support coverage
-for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+IBM i 7.4 Service Extension Offering will start on October 1, 2026 and will end on September 30, 2029.
+For details regarding support coverage for the various products in the IBM i portfolio, see
+[Service Extension for IBM i 7.4, 7.3, and 7.2](https://www.ibm.com/support/pages/system/files/inline-files/IBMiandLPPsforIBMi_02_26_2026.pdf).
 
-IBM i 7.2 Service Extension Offering started on May 1, 2021. For details regarding support coverage
-for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+IBM i 7.3 Service Extension Offering started on October 1, 2023 and ends on September 30, 2026.
+IBM i 7.3 extended Service Extension starts on October 1, 2026 and goes through September 30, 2028.
 
-IBM i 7.1 extended Service Extension started on May 1, 2021. The duration of IBM i 7.1 extended
-Service Extension is dependent on the Power hardware generation. The extended Service Extension
-coverage is usage and known defect support, and there are some exceptions of products and functions
-which are not supported. For notes regarding extended Service Extension duration and support
-coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+The initial IBM i 7.2 Service Extension Offering started on May 1, 2021 and ended on April 30, 2024.
+IBM i 7.2 extended Service Extension started on May 1, 2024 and goes through April 30, 2026.
 
 For 6.1, it includes both Machine Code Level V6R1M0 and V6R1M1.
 

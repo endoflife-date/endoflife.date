@@ -273,7 +273,7 @@ releases:
 > Nvidia designs Graphics Processing Unit (GPUs) for the gaming and professional markets, as well
 > as System on a Chip units (SoCs) for the mobile computing and automotive market. This page tracks
 > Nvidia GPUs, which provide support for their various GPU lineups and are [available for Windows,
-> Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
+> Linux, Solaris, and FreeBSD](https://www.nvidia.com/drivers/).
 
 ## Naming scheme
 

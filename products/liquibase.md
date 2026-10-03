@@ -32,7 +32,7 @@ releases:
 
 ---
 
-> [Liquibase](https://www.liquibase.org/) is an open-source database-independent library for
+> [Liquibase](https://www.liquibase.com/community) is an open-source database-independent library for
 > tracking, managing and applying database schema changes.
 
 Liquibase OSS is published under the Apache License 2.0;

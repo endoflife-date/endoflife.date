@@ -14,6 +14,7 @@ class TimelinePagesGeneratorTest < Minitest::Test
   def test_all_events_includes_each_lifecycle_field_in_past_current_and_future
     product = Product.new({
       'title' => 'Example',
+      'tags' => %w[example runtime],
       'releases' => [
         {
           'releaseCycle' => '1.0',
@@ -35,6 +36,7 @@ class TimelinePagesGeneratorTest < Minitest::Test
       'Example 1.0 will reach its end of extended support.'
     ], events.map { |event| event['description'] }
     assert_equal [-1, 0, 1, 2], events.map { |event| event['days'] }
+    assert_equal %w[example runtime], events.first['product'].data['tags']
   end
 
   def test_all_events_ignores_missing_and_non_date_values

@@ -5,7 +5,7 @@ category: server-app
 tags: sonarsource java-runtime
 iconSlug: sonarqubeserver
 permalink: /sonarqube-server
-releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/latest/server-upgrade-and-maintenance/upgrade/release-cycle-model/
+releasePolicyLink: https://docs.sonarsource.com/sonarqube-server/server-update-and-maintenance/update/release-cycle-model
 eoasColumn: true
 
 identifiers:
@@ -17,6 +17,7 @@ auto:
       regex:
         - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+)$'
         - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)( LTA)?$'
+        - '^SonarQube Server (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?( LTA)?$'
 
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
@@ -24,10 +25,19 @@ auto:
 # - eoas(x) = releaseDate(x) + 1y
 # - eol(x) = releaseDate(x) + 18m
 releases:
+  - releaseCycle: "2026.5"
+    lts: true
+    releaseDate: 2026-09-29 # https://community.sonarsource.com/t/sonarqube-server-2026-5-lta/189075
+    eoas: 2027-10-01
+    eol: 2028-03-01
+    latest: "2026.5.0"
+    latestReleaseDate: 2026-09-29
+    link: https://community.sonarsource.com/t/sonarqube-server-2026-5-lta/189075
+
   - releaseCycle: "2026.4"
     releaseDate: 2026-07-23 # https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
-    eoas: false
-    eol: false
+    eoas: 2026-09-29
+    eol: 2026-09-29
     latest: "2026.4.1"
     latestReleaseDate: 2026-08-07
     link: https://community.sonarsource.com/t/sonarqube-server-2026-release-4/186483
@@ -53,8 +63,8 @@ releases:
     releaseDate: 2026-01-30 # https://community.sonarsource.com/t/sonarqube-server-2026-release-1-lta/177042
     eoas: 2027-01-30
     eol: 2027-08-02
-    latest: "2026.1.5"
-    latestReleaseDate: 2026-08-07
+    latest: "2026.1.6"
+    latestReleaseDate: 2026-09-23
     link: https://community.sonarsource.com/t/sonarqube-server-2026-release-1-4-lta/186558
 
   - releaseCycle: "2025.6"
@@ -78,8 +88,8 @@ releases:
     releaseDate: 2025-07-30 # https://community.sonarsource.com/t/sonarqube-server-2025-4-error/145463
     eoas: 2026-07-30
     eol: 2027-01-30
-    latest: "2025.4.8"
-    latestReleaseDate: 2026-07-26
+    latest: "2025.4.9"
+    latestReleaseDate: 2026-09-23
     link: https://community.sonarsource.com/t/sonarqube-server-2025-release-4-8-lta/186559
 
   - releaseCycle: "2025.3"
@@ -161,10 +171,10 @@ and `PatchReleaseNumber` being the patch version for that release.
 A new version of SonarQube Server is released every two months.
 It is supported with new features, enhancements, patches until the next release.
 
-The first release of a year is always a Long-Term Active (LTA) release (previously known as LTS).
-After its standard support phase, it is supported with blocker bug and security fixes until the next LTA release.
+Two releases per year are Long-Term Active (LTA) releases (previously known as LTS).
+Starting with 2026.5, LTA releases receive patches for 12 months from their release date for the Developer,
+Enterprise and Data Center editions, and for 18 months for Enterprise and Data Center edition customers with Enterprise Support.
 
 Technical support is provided for two months (for non-LTA releases) or 6 months (for LTA releases) after EOL.
-The support policy is the same for the Developer, Enterprise and Data Center editions.
 
 New releases and EOL are announced on the [community.sonarsource.com](https://community.sonarsource.com/c/sq/releases/24).
