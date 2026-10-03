@@ -22,9 +22,10 @@ auto:
     - release_table: https://www.debian.org/releases/index.en.html
       header_selector: "tr:nth-of-type(1)"
       remove_if_undefined: "releaseDate"
-      regex_exclude: '^0\.9'
       fields:
-        releaseCycle: "Version"
+        releaseCycle:
+          column: "Version"
+          regex_exclude: '^0\.9'
         codename: "Code Name"
         releaseDate: "Release Date"
         eoas: "End of Life (EOL)"
