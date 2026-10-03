@@ -298,6 +298,15 @@ releases:
 > [BIG-IP](https://www.f5.com/products/big-ip) is a family of hardware and software products from F5 Networks, designed
 > for load balancing, traffic management, and application security.
 
-F5 Networks typically provides a major release of BIG-IP every 12–18 months, with regular maintenance updates to address
-security and performance issues. Each version of BIG-IP is generally supported for up to 5 years, including Full Support
-for the first 3 years and Limited Support for the remaining 2 years.
+Starting with BIG-IP 12.0.0, F5 alternates Major Releases (x.0.0) and Long-Term Stability Releases (x.1.0 onwards,
+as well as 17.5.x). Each release is supported during a single [Standard Support](https://my.f5.com/manage/s/article/K5903)
+phase, which begins with its first customer ship date:
+
+- Major Releases are supported for 15 months up to and including BIG-IP 17.0.0,
+  and for 9 months for Major Releases from BIG-IP 21.0.0 onward.
+- Long-Term Stability Releases are supported for five years for versions prior to 16.1.0,
+  four years for 16.1.0 to 17.5.x, and three years for 21.1.0 and subsequent x.1.0 releases.
+  During that time, only the latest maintenance release (x.1.latest) receives software development.
+
+At the end of Standard Support, a release reaches both its End of Software Development (EoSD) and
+End of Technical Support (EoTS) milestones, after which F5 no longer provides software fixes (hotfixes).

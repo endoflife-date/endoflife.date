@@ -71,4 +71,4 @@ releases:
 - Rocky Linux doesn't support [Extended Life Cycle](https://www.redhat.com/en/resources/els-datasheet),
   resulting in a shorter support cycle compared to upstream RHEL.
 
-Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/).
+Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/support-providers).

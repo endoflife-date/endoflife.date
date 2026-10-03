@@ -8,7 +8,7 @@ alternate_urls:
   - /bmccontrolm
   - /ctrlm
 versionCommand: ctm -v
-releasePolicyLink: http://www.bmc.com/support/product-support-policy.html
+releasePolicyLink: https://www.bmc.com/support/resources/bmc-product-support-policy.html
 eolColumn: Limited Support
 eoasColumn: Full Support
 

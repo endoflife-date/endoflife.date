@@ -5,7 +5,7 @@ category: server-app
 iconSlug: icinga
 permalink: /icinga
 versionCommand: icinga2 -V
-releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
+releasePolicyLink: https://icinga.com/products/product-support-lifecycle/
 changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
 

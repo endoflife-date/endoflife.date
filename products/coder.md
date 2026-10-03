@@ -31,8 +31,8 @@ releases:
     releaseDate: 2026-09-01
     eoas: false # releaseDate(2.39)
     eol: false # releaseDate(2.40)
-    latest: "2.37.2"
-    latestReleaseDate: 2026-09-18
+    latest: "2.37.3"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "2.36"
     releaseDate: 2026-08-04
@@ -54,8 +54,8 @@ releases:
     eoas: 2026-08-04
     eol: 2026-09-01
     eoes: 2027-06-02
-    latest: "2.34.11"
-    latestReleaseDate: 2026-09-16
+    latest: "2.34.12"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "2.33"
     releaseDate: 2026-05-06

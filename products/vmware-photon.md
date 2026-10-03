@@ -9,7 +9,7 @@ alternate_urls:
   - /vmware-photon
   - /vmwarephoton
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
+releasePolicyLink: https://blogs.vmware.com/cloud-foundation/2023/05/02/announcing-photon-os-5-0-general-availability/
 latestColumn: false
 eolColumn: Security Support
 staleReleaseThresholdDays: 1460 # oses have longer support periods
@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2023-05-02
     eol: false
-    link: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
+    link: https://blogs.vmware.com/cloud-foundation/2023/05/02/announcing-photon-os-5-0-general-availability/
     kernelVersion: "6.1"
 
   - releaseCycle: "4.0"

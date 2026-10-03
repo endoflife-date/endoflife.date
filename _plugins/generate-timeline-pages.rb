@@ -191,6 +191,7 @@ module EndOfLife
         'events' => events,
         'event_summaries' => event_summaries,
         'products' => products.sort_by { |product| product.data['title'].to_s.downcase },
+        'tags' => products.flat_map { |product| product.data['tags'] || [] }.uniq.sort,
         'more_months_before' => more_before,
         'more_months_after' => more_after,
         'months' => months,

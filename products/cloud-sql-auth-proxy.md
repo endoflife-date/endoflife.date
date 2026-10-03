@@ -22,8 +22,8 @@ releases:
     releaseDate: 2023-01-17
     eoas: 2026-04-28
     eol: false
-    latest: "2.25.4"
-    latestReleaseDate: 2026-08-28
+    latest: "2.26.0"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "1"
     releaseDate: 2020-01-01
@@ -34,7 +34,7 @@ releases:
 
 ---
 
-> [Cloud SQL Auth Proxy](https://cloud.google.com/sql/docs/mysql/sql-proxy) enables secure, short-lived connections to Cloud SQL databases without exposing them to the public internet.
+> [Cloud SQL Auth Proxy](https://docs.cloud.google.com/sql/docs/mysql/sql-proxy) enables secure, short-lived connections to Cloud SQL databases without exposing them to the public internet.
 
 Cloud SQL Auth Proxy follows [semantic versioning](https://semver.org/). Each major version has two support phases:
 
