@@ -11,6 +11,14 @@ eoasColumn: true
 auto:
   methods:
     - git: https://github.com/Behat/Behat.git
+    - release_table: https://docs.behat.org/en/latest/releases.html
+      fields:
+        releaseCycle:
+          column: "Major"
+          regex: '^v?(?P<value>\d+)\.x$'
+          template: "{{value}}"
+        eoas: "Bugfix EOL"
+        eol: "Security EOL"
 
 identifiers:
   - purl: pkg:composer/behat/behat
