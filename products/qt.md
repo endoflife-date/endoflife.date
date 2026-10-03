@@ -184,11 +184,11 @@ releases:
 > GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
 
-> From Qt 6.8 onwards, every 4th minor release is designated as a Long-Term Support (LTS) release,
-> issued every 2 years and [maintained for 5 years](https://www.qt.io/development/qt-framework/qt-lts) exclusively for commercial license holders.
-> Open-source (Community Edition) users do not receive LTS benefits and are expected to update to
-> every new minor release approximately [every 6 months](https://www.qt.io/development/qt-framework/maintenance-periods).
-> For versions prior to Qt 6.8, LTS releases were supported for 3 years under commercial licenses.
+From Qt 6.8 onwards, every 4th minor release is designated as a Long-Term Support (LTS) release,
+issued every 2 years and [maintained for 5 years](https://www.qt.io/development/qt-framework/qt-lts) exclusively for commercial license holders.
+Open-source (Community Edition) users do not receive LTS benefits and are expected to update to
+every new minor release approximately [every 6 months](https://www.qt.io/development/qt-framework/maintenance-periods).
+For versions prior to Qt 6.8, LTS releases were supported for 3 years under commercial licenses.
 
 Extended support beyond EOL is available as a [commercial offering](https://www.qt.io/qt-support/)
 from The Qt Company.
