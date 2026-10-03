@@ -440,7 +440,7 @@ releases:
 
   - releaseCycle: "5.0"
     releaseDate: 2013-02-19
-    eol: true
+    eol: 2014-07-01
     latest: "5.0.3"
     latestReleaseDate: 2013-03-18
 
