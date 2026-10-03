@@ -502,7 +502,7 @@ releases:
 
   - releaseCycle: "5.0"
     releaseDate: 2012-02-22
-    eol: 2012-07-01
+    eol: 2014-07-01
     latest: "5.0.7"
     latestReleaseDate: 2012-07-01
     link: https://confluence.atlassian.com/jira063/jira-5-0-7-release-notes-683542076.html
