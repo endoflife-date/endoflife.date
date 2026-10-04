@@ -277,7 +277,7 @@ releases:
 
   - releaseCycle: "8.13"
     releaseDate: 2020-10-06
-    eol: 2022-10-08
+    eol: 2022-11-08
     lts: true
     latest: "8.13.27"
     latestReleaseDate: 2022-10-24
@@ -409,7 +409,7 @@ releases:
   - releaseCycle: "7.6"
     releaseDate: 2017-11-15
     lts: true
-    eol: 2019-11-14
+    eol: 2019-11-16
     latest: "7.6.17"
     latestReleaseDate: 2019-11-03
 
@@ -488,14 +488,14 @@ releases:
 
   - releaseCycle: "5.2"
     releaseDate: 2012-11-11
-    eol: true
+    eol: 2015-04-18
     latest: "5.2.11"
     latestReleaseDate: 2013-04-18
     link: https://confluence.atlassian.com/jira063/jira-5-2-11-release-notes-683542112.html
 
   - releaseCycle: "5.1"
     releaseDate: 2012-07-09
-    eol: true
+    eol: 2014-10-31
     latest: "5.1.8"
     latestReleaseDate: 2012-10-31
     link: https://confluence.atlassian.com/jira063/jira-5-1-8-release-notes-683542060.html
@@ -553,21 +553,21 @@ releases:
   # latest release dates and eol dates are mostly unknown.
   - releaseCycle: "3.12"
     releaseDate: 2007-12-07
-    eol: true
+    eol: 2010-04-30
     latest: "3.12.3"
     latestReleaseDate: 2008-04-30
     link: https://confluence.atlassian.com/jira063/jira-3-12-3-release-notes-683541916.html
 
   - releaseCycle: "3.11"
     releaseDate: 2007-09-25
-    eol: true
+    eol: 2009-09-25
     latest: "3.11.0"
     latestReleaseDate: 2007-09-25
     link: https://confluence.atlassian.com/jira063/jira-3-11-release-notes-683541982.html
 
   - releaseCycle: "3.10"
     releaseDate: 2007-07-09
-    eol: true
+    eol: 2009-08-20
     latest: "3.10.2"
     link: https://confluence.atlassian.com/jira063/jira-3-10-2-release-notes-683541819.html
 
