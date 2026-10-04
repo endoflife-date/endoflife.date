@@ -1,17 +1,21 @@
 ---
 title: Dapr
-addedAt: 2025-10-28
+addedAt: 2026-10-04
 category: server-app
 iconSlug: dapr
 permalink: /dapr
-releasePolicyLink: https://github.com/dapr/community/blob/master/release-process.md
+releasePolicyLink: https://docs.dapr.io/operations/support/support-release-policy/
 changelogTemplate: "https://github.com/dapr/dapr/releases/tag/v__LATEST__"
 releaseLabel: "Dapr Runtime __RELEASE_CYCLE__"
 eolColumn: Security Support
 latestColumn: Latest
 releaseDateColumn: Released
 
-# eol = releaseDate( x + 3 )
+auto:
+  methods:
+    - github_releases: dapr/dapr
+    
+# eol(x) = releaseDate(x+3)
 releases:
 -   releaseCycle: "1.16"
     releaseDate: 2025-09-16
@@ -51,6 +55,9 @@ releases:
 
 ---
 
-> [Dapr](https://dapr.io) provides APIs for communication, state, workflow, and agentic AI.
+> [Dapr](https://dapr.io) is a durable execution engine for workflows and AI agents.
+> It provides durable, verifiable execution so your workflows and AI agents survive failure and keep running to completion.
 
-From the 1.8.0 release onwards three (3) versions of Dapr are supported; the current and previous two (2) versions. Typically these are MINOR release updates. The Dapr project aims to release four updates in a yearly time period, typically one in each quarter (every 3 months).
+Dapr uses [semantic versioning](https://docs.dapr.io/operations/support/support-release-policy/#introduction) for its runtime releases.
+The current minor release and the previous two minor releases are supported with critical and security fixes.
+Dapr typically publishes four minor releases per year, approximately one per quarter.
