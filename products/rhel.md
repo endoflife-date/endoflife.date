@@ -30,6 +30,14 @@ auto:
         eoas: "$.phases[?(@.name == 'Full support')].date"
         eol: "$.phases[?(@.name == 'Maintenance support')].date"
         eoes: "$.phases[?(@.name == 'Extended life cycle support (ELS) add-on')].date"
+    - release_table: https://access.redhat.com/articles/red-hat-enterprise-linux-release-dates
+      fields:
+        releaseCycle:
+          column: Release
+          regex: '^RHEL (?P<major>\d+)(?:\.\s*(?P<minor>\d+)(?: GA)?|\s+GA)?$'
+          template: '{{major}}{% if minor %}.{{minor}}{% else %}.0{% endif %}'
+        releaseDate: General Availability Date
+        latestReleaseDate: General Availability Date
 
 # Minor release rows are listed under their major version rather than in strict
 # release date order, so they are flagged as outOfOrder to opt out of the
