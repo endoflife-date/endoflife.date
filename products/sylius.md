@@ -20,6 +20,13 @@ auto:
 
 # releaseDate, eoas and eol documented on https://docs.sylius.com/public/open-source/release-cycle
 releases:
+  - releaseCycle: "2.3"
+    releaseDate: 2026-09-28
+    eoas: false
+    eol: false
+    latest: "2.3.0"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "2.2"
     releaseDate: 2025-12-17
     eoas: 2026-11-30
