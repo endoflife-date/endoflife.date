@@ -543,8 +543,8 @@ releases:
   - releaseCycle: "2.1"
     releaseDate: 2005-12-20
     eol: true
-    latest: "2.1.5a"
-    latestReleaseDate: 2006-03-17
+    latest: "2.1.5"
+    latestReleaseDate: 2006-03-16
 
   - releaseCycle: "2.0"
     releaseDate: 2005-11-17
@@ -581,6 +581,7 @@ releases:
     eol: true
     latest: "1.0.3a"
     latestReleaseDate: 2004-05-05
+
 ---
 
 > [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki developed by Atlassian.
