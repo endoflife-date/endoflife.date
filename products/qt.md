@@ -5,7 +5,7 @@ category: framework
 iconSlug: qt
 permalink: /qt
 versionCommand: qmake --version
-releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
+releasePolicyLink: https://www.qt.io/development/qt-framework/maintenance-periods
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 eolColumn: OSS support
 eoesColumn: Commercial support
@@ -183,6 +183,9 @@ releases:
 > [both commercial licenses and open-source](https://www.qt.io/development/qt-framework/qt-licensing "Licensing page on the Qt Website")
 > GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
+Releases follow [Semantic Versioning](https://semver.org/). There is a new minor release
+[approximately every six months](https://wiki.qt.io/QtReleasing), which is supported with bug and
+security fixes until the next minor release.
 
 From Qt 6.8 onwards, every 4th minor release is designated as a Long-Term Support (LTS) release,
 issued every 2 years and [maintained for 5 years](https://www.qt.io/development/qt-framework/qt-lts) exclusively for commercial license holders.
