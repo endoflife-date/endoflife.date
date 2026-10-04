@@ -17,6 +17,15 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/Sylius/Sylius.git
+    # oddly Supported versions are rendered as an html table, so reading the markdown as an HTML works
+    - release_table: https://docs.sylius.com/public/open-source/release-cycle.md
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)(?: \(LTS\))?$'
+        releaseDate: "Release date"
+        eoas: "End of maintenance"
+        eol: "End of support"
 
 # releaseDate, eoas and eol documented on https://docs.sylius.com/public/open-source/release-cycle
 releases:
