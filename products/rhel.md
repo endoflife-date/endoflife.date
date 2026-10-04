@@ -42,6 +42,9 @@ auto:
 # Minor release rows are listed under their major version rather than in strict
 # release date order, so they are flagged as outOfOrder to opt out of the
 # chronological ordering check. Only the major version rows take part in it.
+# Minor release rows also need an explicit link: changelogTemplate puts the
+# release cycle in the URL path, but the release notes are published under the
+# major version (e.g. /9/html/9.4_release_notes).
 releases:
   - releaseCycle: "10"
     releaseDate: 2025-05-20
@@ -60,6 +63,7 @@ releases:
     eoes: false
     latest: "10.2"
     latestReleaseDate: 2026-05-19
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/10.2_release_notes/index
 
   - releaseCycle: "10.1"
     outOfOrder: true
@@ -68,6 +72,7 @@ releases:
     eol: 2026-05-19
     latest: "10.1"
     latestReleaseDate: 2025-11-11
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/10.1_release_notes/index
 
   - releaseCycle: "10.0"
     outOfOrder: true
@@ -78,6 +83,7 @@ releases:
     eoes: 2029-05-31
     latest: "10.0"
     latestReleaseDate: 2025-05-20
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/10.0_release_notes/index
 
   - releaseCycle: "9"
     releaseDate: 2022-05-18
@@ -96,6 +102,7 @@ releases:
     eoes: false
     latest: "9.8"
     latestReleaseDate: 2026-05-19
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.8_release_notes/index
 
   - releaseCycle: "9.7"
     outOfOrder: true
@@ -104,6 +111,7 @@ releases:
     eol: 2026-05-19
     latest: "9.7"
     latestReleaseDate: 2025-11-11
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.7_release_notes/index
 
   - releaseCycle: "9.6"
     outOfOrder: true
@@ -114,6 +122,7 @@ releases:
     eoes: 2029-05-31
     latest: "9.6"
     latestReleaseDate: 2025-05-20
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.6_release_notes/index
 
   - releaseCycle: "9.5"
     outOfOrder: true
@@ -122,6 +131,7 @@ releases:
     eol: 2025-05-20
     latest: "9.5"
     latestReleaseDate: 2024-11-12
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.5_release_notes/index
 
   - releaseCycle: "9.4"
     outOfOrder: true
@@ -132,6 +142,7 @@ releases:
     eoes: 2028-04-30
     latest: "9.4"
     latestReleaseDate: 2024-04-30
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.4_release_notes/index
 
   - releaseCycle: "9.3"
     outOfOrder: true
@@ -140,6 +151,7 @@ releases:
     eol: 2024-04-30
     latest: "9.3"
     latestReleaseDate: 2023-11-07
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.3_release_notes/index
 
   - releaseCycle: "9.2"
     outOfOrder: true
@@ -150,6 +162,7 @@ releases:
     eoes: 2027-05-31
     latest: "9.2"
     latestReleaseDate: 2023-05-10
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.2_release_notes/index
 
   - releaseCycle: "9.1"
     outOfOrder: true
@@ -158,6 +171,7 @@ releases:
     eol: 2023-05-31
     latest: "9.1"
     latestReleaseDate: 2022-11-15
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.1_release_notes/index
 
   - releaseCycle: "9.0"
     outOfOrder: true
@@ -168,6 +182,7 @@ releases:
     eoes: 2026-05-31
     latest: "9.0"
     latestReleaseDate: 2022-05-17
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.0_release_notes/index
 
   - releaseCycle: "8"
     releaseDate: 2019-05-07
@@ -186,6 +201,7 @@ releases:
     eoes: 2033-05-31
     latest: "8.10"
     latestReleaseDate: 2024-05-22
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.10_release_notes/index
 
   - releaseCycle: "8.9"
     outOfOrder: true
@@ -194,6 +210,7 @@ releases:
     eol: 2024-05-31
     latest: "8.9"
     latestReleaseDate: 2023-11-14
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.9_release_notes/index
 
   - releaseCycle: "8.8"
     outOfOrder: true
@@ -204,6 +221,7 @@ releases:
     eoes: 2027-05-31
     latest: "8.8"
     latestReleaseDate: 2023-05-16
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.8_release_notes/index
 
   - releaseCycle: "8.7"
     outOfOrder: true
@@ -212,6 +230,7 @@ releases:
     eol: 2023-05-31
     latest: "8.7"
     latestReleaseDate: 2022-11-09
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.7_release_notes/index
 
   - releaseCycle: "8.6"
     outOfOrder: true
@@ -222,6 +241,7 @@ releases:
     eoes: 2026-05-31
     latest: "8.6"
     latestReleaseDate: 2022-05-10
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.6_release_notes/index
 
   - releaseCycle: "8.5"
     outOfOrder: true
@@ -230,6 +250,7 @@ releases:
     eol: 2022-05-31
     latest: "8.5"
     latestReleaseDate: 2021-11-09
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.5_release_notes/index
 
   - releaseCycle: "8.4"
     outOfOrder: true
@@ -239,6 +260,7 @@ releases:
     eol: 2023-05-31
     latest: "8.4"
     latestReleaseDate: 2021-05-18
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.4_release_notes/index
 
   - releaseCycle: "8.3"
     outOfOrder: true
@@ -247,6 +269,7 @@ releases:
     eol: 2021-05-31
     latest: "8.3"
     latestReleaseDate: 2020-11-03
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.3_release_notes/index
 
   - releaseCycle: "8.2"
     outOfOrder: true
@@ -257,6 +280,7 @@ releases:
     eoes: 2024-04-30
     latest: "8.2"
     latestReleaseDate: 2020-04-28
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.2_release_notes/index
 
   - releaseCycle: "8.1"
     outOfOrder: true
@@ -267,6 +291,7 @@ releases:
     eoes: 2023-11-30
     latest: "8.1"
     latestReleaseDate: 2019-11-05
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.1_release_notes/index
 
   - releaseCycle: "8.0"
     outOfOrder: true
@@ -275,6 +300,7 @@ releases:
     eol: 2019-11-05
     latest: "8.0"
     latestReleaseDate: 2019-05-07
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/8.0_release_notes/index
 
   - releaseCycle: "7"
     releaseDate: 2014-06-10
@@ -293,6 +319,7 @@ releases:
     eoes: 2029-05-31
     latest: "7.9"
     latestReleaseDate: 2020-09-29
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.9_release_notes/index
 
   - releaseCycle: "7.8"
     outOfOrder: true
@@ -301,6 +328,7 @@ releases:
     eol: 2020-09-30
     latest: "7.8"
     latestReleaseDate: 2020-03-31
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.8_release_notes/index
 
   - releaseCycle: "7.7"
     outOfOrder: true
@@ -310,6 +338,7 @@ releases:
     eol: 2021-08-30
     latest: "7.7"
     latestReleaseDate: 2019-08-06
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.7_release_notes/index
 
   - releaseCycle: "7.6"
     outOfOrder: true
@@ -320,6 +349,7 @@ releases:
     eoes: 2022-10-31
     latest: "7.6"
     latestReleaseDate: 2018-10-30
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.6_release_notes/index
 
   - releaseCycle: "7.5"
     outOfOrder: true
@@ -329,6 +359,7 @@ releases:
     eol: 2020-04-30
     latest: "7.5"
     latestReleaseDate: 2018-04-10
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.5_release_notes/index
 
   - releaseCycle: "7.4"
     outOfOrder: true
@@ -339,6 +370,7 @@ releases:
     eoes: 2021-08-31
     latest: "7.4"
     latestReleaseDate: 2017-07-31
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.4_release_notes/index
 
   - releaseCycle: "7.3"
     outOfOrder: true
@@ -349,6 +381,7 @@ releases:
     eoes: 2020-11-30
     latest: "7.3"
     latestReleaseDate: 2016-11-03
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.3_release_notes/index
 
   - releaseCycle: "7.2"
     outOfOrder: true
@@ -359,6 +392,7 @@ releases:
     eoes: 2019-11-30
     latest: "7.2"
     latestReleaseDate: 2015-11-19
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.2_release_notes/index
 
   - releaseCycle: "7.1"
     outOfOrder: true
@@ -368,6 +402,7 @@ releases:
     eol: 2017-03-31
     latest: "7.1"
     latestReleaseDate: 2015-03-05
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.1_release_notes/index
 
   - releaseCycle: "7.0"
     outOfOrder: true
@@ -376,6 +411,7 @@ releases:
     eol: 2015-03-05
     latest: "7.0"
     latestReleaseDate: 2014-06-09
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/7.0_release_notes/index
 
   - releaseCycle: "6"
     releaseDate: 2010-11-10
@@ -394,6 +430,7 @@ releases:
     eoes: 2024-06-30
     latest: "6.10"
     latestReleaseDate: 2018-06-19
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.10_release_notes/index
 
   - releaseCycle: "6.9"
     outOfOrder: true
@@ -402,6 +439,7 @@ releases:
     eol: 2018-06-19
     latest: "6.9"
     latestReleaseDate: 2017-03-21
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.9_release_notes/index
 
   - releaseCycle: "6.8"
     outOfOrder: true
@@ -410,6 +448,7 @@ releases:
     eol: 2017-03-21
     latest: "6.8"
     latestReleaseDate: 2016-05-10
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.8_release_notes/index
 
   - releaseCycle: "6.7"
     outOfOrder: true
@@ -419,6 +458,7 @@ releases:
     eol: 2018-12-31
     latest: "6.7"
     latestReleaseDate: 2015-07-22
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.7_release_notes/index
 
   - releaseCycle: "6.6"
     outOfOrder: true
@@ -428,6 +468,7 @@ releases:
     eol: 2016-10-31
     latest: "6.6"
     latestReleaseDate: 2014-10-14
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.6_release_notes/index
 
   - releaseCycle: "6.5"
     outOfOrder: true
@@ -437,6 +478,7 @@ releases:
     eol: 2015-11-30
     latest: "6.5"
     latestReleaseDate: 2013-11-21
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.5_release_notes/index
 
   - releaseCycle: "6.4"
     outOfOrder: true
@@ -446,6 +488,7 @@ releases:
     eol: 2015-03-03
     latest: "6.4"
     latestReleaseDate: 2013-02-21
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.4_release_notes/index
 
   - releaseCycle: "6.3"
     outOfOrder: true
@@ -455,6 +498,7 @@ releases:
     eol: 2014-06-30
     latest: "6.3"
     latestReleaseDate: 2012-06-20
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.3_release_notes/index
 
   - releaseCycle: "6.2"
     outOfOrder: true
@@ -464,6 +508,7 @@ releases:
     eol: 2014-01-07
     latest: "6.2"
     latestReleaseDate: 2011-12-06
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.2_release_notes/index
 
   - releaseCycle: "6.1"
     outOfOrder: true
@@ -473,6 +518,7 @@ releases:
     eol: 2013-05-31
     latest: "6.1"
     latestReleaseDate: 2011-05-19
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.1_release_notes/index
 
   - releaseCycle: "6.0"
     outOfOrder: true
@@ -482,6 +528,7 @@ releases:
     eol: 2012-11-30
     latest: "6.0"
     latestReleaseDate: 2010-11-09
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/6.0_release_notes/index
 
   - releaseCycle: "5"
     releaseDate: 2007-03-15
@@ -500,6 +547,7 @@ releases:
     eoes: 2020-11-30
     latest: "5.11"
     latestReleaseDate: 2014-09-16
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.11_release_notes/index
 
   - releaseCycle: "5.10"
     outOfOrder: true
@@ -508,6 +556,7 @@ releases:
     eol: 2014-09-16
     latest: "5.10"
     latestReleaseDate: 2013-10-01
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.10_release_notes/index
 
   - releaseCycle: "5.9"
     outOfOrder: true
@@ -517,6 +566,7 @@ releases:
     eol: 2015-03-31
     latest: "5.9"
     latestReleaseDate: 2013-01-07
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.9_release_notes/index
 
   - releaseCycle: "5.8"
     outOfOrder: true
@@ -525,6 +575,7 @@ releases:
     eol: 2013-01-07
     latest: "5.8"
     latestReleaseDate: 2012-02-20
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.8_release_notes/index
 
   - releaseCycle: "5.7"
     outOfOrder: true
@@ -533,6 +584,7 @@ releases:
     eol: 2012-02-20
     latest: "5.7"
     latestReleaseDate: 2011-07-21
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.7_release_notes/index
 
   - releaseCycle: "5.6"
     outOfOrder: true
@@ -542,6 +594,7 @@ releases:
     eol: 2013-07-31
     latest: "5.6"
     latestReleaseDate: 2011-01-13
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.6_release_notes/index
 
   - releaseCycle: "5.5"
     outOfOrder: true
@@ -550,6 +603,7 @@ releases:
     eol: 2011-01-13
     latest: "5.5"
     latestReleaseDate: 2010-03-30
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.5_release_notes/index
 
   - releaseCycle: "5.4"
     outOfOrder: true
@@ -559,6 +613,7 @@ releases:
     eol: 2011-07-31
     latest: "5.4"
     latestReleaseDate: 2009-09-02
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.4_release_notes/index
 
   - releaseCycle: "5.3"
     outOfOrder: true
@@ -568,6 +623,7 @@ releases:
     eol: 2010-11-30
     latest: "5.3"
     latestReleaseDate: 2009-01-20
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.3_release_notes/index
 
   - releaseCycle: "5.2"
     outOfOrder: true
@@ -577,6 +633,7 @@ releases:
     eol: 2010-03-31
     latest: "5.2"
     latestReleaseDate: 2008-05-21
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.2_release_notes/index
 
   - releaseCycle: "5.1"
     outOfOrder: true
@@ -585,6 +642,7 @@ releases:
     eol: 2008-05-21
     latest: "5.1"
     latestReleaseDate: 2007-11-07
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.1_release_notes/index
 
   - releaseCycle: "5.0"
     outOfOrder: true
@@ -593,6 +651,7 @@ releases:
     eol: 2007-11-07
     latest: "5.0"
     latestReleaseDate: 2007-03-15
+    link: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/5/html/5.0_release_notes/index
 
   - releaseCycle: "4"
     releaseDate: 2005-02-15
