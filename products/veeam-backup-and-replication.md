@@ -24,8 +24,8 @@ releases:
     eoas: 2028-11-01
     eol: 2028-11-01
     link: https://www.veeam.com/kb4738
-    latest: "13.1.0.411"
-    latestReleaseDate: 2026-07-29
+    latest: "13.1.1.18"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30

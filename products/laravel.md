@@ -6,8 +6,8 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/releases#support-policy
-changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
+releasePolicyLink: https://laravel.com/framework/docs/releases#support-policy
+changelogTemplate: https://laravel.com/framework/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
 customFields:
@@ -49,40 +49,40 @@ releases:
     eoas: 2027-09-30 #estimated, no dates yet on https://laravel.com/docs/13.x/releases#support-policy
     eol: 2028-03-17
     supportedPhpVersions: "8.3 - 8.5"
-    latest: "13.24.0"
-    latestReleaseDate: 2026-08-04
+    latest: "13.34.0"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "12"
     releaseDate: 2025-02-24
-    eoas: 2026-08-16
+    eoas: 2026-08-13
     eol: 2027-02-24
     supportedPhpVersions: "8.2 - 8.5"
-    latest: "12.65.0"
-    latestReleaseDate: 2026-08-05
+    latest: "12.69.3"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: "8.2 - 8.4"
-    latest: "11.55.0"
-    latestReleaseDate: 2026-07-14
+    latest: "11.57.0"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "10"
     releaseDate: 2023-02-14
     eoas: 2024-08-06
     eol: 2025-02-04
     supportedPhpVersions: "8.1 - 8.3"
-    latest: "10.50.2"
-    latestReleaseDate: 2026-02-15
+    latest: "10.50.3"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "9"
     releaseDate: 2022-02-08
     eoas: 2023-08-08
     eol: 2024-02-06
     supportedPhpVersions: "8.0 - 8.2"
-    latest: "9.52.21"
-    latestReleaseDate: 2025-09-30
+    latest: "9.52.22"
+    latestReleaseDate: 2026-08-11
 
   - releaseCycle: "8"
     releaseDate: 2020-09-08
@@ -114,7 +114,7 @@ releases:
     eoas: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
-    link: https://laravel.com/docs/5.8/releases
+    link: https://laravel.com/framework/docs/5.8/releases
     latest: "5.8.38"
     latestReleaseDate: 2020-04-14
 
@@ -124,7 +124,7 @@ releases:
     eoas: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
-    link: https://laravel.com/docs/5.5/releases
+    link: https://laravel.com/framework/docs/5.5/releases
     latest: "5.5.50"
     latestReleaseDate: 2020-08-18
 

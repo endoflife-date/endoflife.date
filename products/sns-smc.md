@@ -124,7 +124,7 @@ releases:
 
 ---
 
-> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/stormshield-management-center/)
+> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/smc/)
 > provides centralized and secure administration of Stormshield Network Security firewalls.
 > It is compatible with hypervisors such as VMware ESXi, Microsoft Hyper-V or KVM,
 > as well as with cloud environments like Amazon Web Services (AWS) or 3DS OUTSCALE or Microsoft Azure.

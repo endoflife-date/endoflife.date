@@ -8,7 +8,7 @@ permalink: /dbt-core
 alternate_urls:
   - /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
-changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/dbt-labs/dbt/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Critical Support
 
@@ -23,89 +23,96 @@ auto:
 # eol(x) = releaseDate(x) + 1 year
 # See https://docs.getdbt.com/docs/dbt-versions/core
 releases:
+  - releaseCycle: "2.0"
+    releaseDate: 2026-09-14
+    eoas: false
+    eol: 2027-09-14
+    latest: "2.0.5"
+    latestReleaseDate: 2026-09-18
+
   - releaseCycle: "1.12"
     releaseDate: 2026-07-16
-    eoas: false
+    eoas: 2026-09-14
     eol: 2027-07-16
-    latest: "1.12.0"
-    latestReleaseDate: 2026-07-16
+    latest: "1.12.5"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-19
     eoas: 2026-07-16
     eol: 2026-12-19
-    latest: "1.11.12"
-    latestReleaseDate: 2026-07-01
+    latest: "1.11.15"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-16
     eoas: 2025-12-19
     eol: 2026-06-16
-    latest: "1.10.22"
-    latestReleaseDate: 2026-05-20
+    latest: "1.10.23"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "1.9"
     releaseDate: 2024-12-09
     eoas: 2025-06-16
     eol: 2025-12-09
-    latest: "1.9.10"
-    latestReleaseDate: 2025-08-29
+    latest: "1.9.11"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "1.8"
     releaseDate: 2024-05-09
     eoas: 2024-12-09
     eol: 2025-05-09
-    latest: "1.8.9"
-    latestReleaseDate: 2024-11-21
+    latest: "1.8.10"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.7"
     releaseDate: 2023-11-02
     eoas: 2024-05-09
     eol: 2024-11-02
-    latest: "1.7.19"
-    latestReleaseDate: 2024-12-02
+    latest: "1.7.20"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.6"
     releaseDate: 2023-07-31
     eoas: 2023-11-02
     eol: 2024-07-30
-    latest: "1.6.18"
-    latestReleaseDate: 2024-08-07
+    latest: "1.6.19"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.5"
     releaseDate: 2023-04-27
     eoas: 2023-07-31
     eol: 2024-04-27
-    latest: "1.5.11"
-    latestReleaseDate: 2024-03-28
+    latest: "1.5.12"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.4"
     releaseDate: 2023-01-25
     eoas: 2023-04-27
     eol: 2024-01-25
-    latest: "1.4.9"
-    latestReleaseDate: 2023-10-11
+    latest: "1.4.10"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.3"
     releaseDate: 2022-10-11
     eoas: 2023-01-25
     eol: 2023-10-12
-    latest: "1.3.7"
-    latestReleaseDate: 2023-10-11
+    latest: "1.3.8"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.2"
     releaseDate: 2022-07-26
     eoas: 2022-10-12
     eol: 2023-07-26
-    latest: "1.2.6"
-    latestReleaseDate: 2023-04-19
+    latest: "1.2.7"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.1"
     releaseDate: 2022-04-28
     eoas: 2022-07-26
     eol: 2023-04-28
-    latest: "1.1.5"
-    latestReleaseDate: 2023-04-19
+    latest: "1.1.6"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "1.0"
     releaseDate: 2021-12-03
@@ -119,7 +126,7 @@ releases:
 > [dbt Core](https://getdbt.com/) is an open-source data transformation tool that enables data
 > teams to transform data using analytics engineering best practices. It is written in Python and
 > uses a SQL-first approach. dbt Core can be installed and used on the command line, or it can be
-> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt-cloud).
+> integrated with a cloud-based platform such as [dbt Cloud](https://www.getdbt.com/product/dbt).
 
 dbt Core follows [SemVer](https://semver.org/). A new minor version is released approximately every
 three months and is supported for one year. The support period is divided into two phases: the active

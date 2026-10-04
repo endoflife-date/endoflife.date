@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "1.16"
     releaseDate: 2026-07-24
     eol: false
-    latest: "1.16.0"
-    latestReleaseDate: 2026-07-24
+    latest: "1.16.1"
+    latestReleaseDate: 2026-09-18
 
   - releaseCycle: "1.15"
     releaseDate: 2026-02-04
@@ -78,7 +78,7 @@ releases:
 
 ---
 
-> [Hashicorp Packer](https://www.packer.io/) is a community tool for creating identical machine images for multiple platforms from a single source configuration.
+> [Hashicorp Packer](https://developer.hashicorp.com/packer) is a community tool for creating identical machine images for multiple platforms from a single source configuration.
 
 **Generally Available (GA)** releases of active products are supported under standard maintenance approximately
 for a year. The standard support period and end-of-life policy covers "N−2" versions,

@@ -162,10 +162,10 @@ If you think they are important to your users, mark them extremely well in the t
 Many times, your support/EoL policies are relative. Common examples:
 
 1. The last major release becomes unsupported 90 days after a new major release.
-2. Bug fixes on previous releases will be made till the latest releases gets the first point release.
+2. Bug fixes on previous releases will be made till the latest release gets the first point release.
 
 However, your end-users shouldn't have to do the math.
-Make sure that all your releases always have a clear dates (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided.
+Make sure that all your releases always have a clear date (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided.
 You doing the math once will save your users much more time.
 
 ### Bad - no clear dates
@@ -186,7 +186,7 @@ Some projects will often put a note instead of documenting absolute dates:
 | 2.1     | 3rd March 2021 |
 | 2.0     | 1st March 2020 |
 
-Release are supported for 2 years from the release date.
+Releases are supported for 2 years from the release date.
 
 ### Good
 

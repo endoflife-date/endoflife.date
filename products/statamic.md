@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: statamic
 permalink: /statamic
 versionCommand: php please --version
-releasePolicyLink: https://statamic.dev/release-schedule-support-policy/
+releasePolicyLink: https://statamic.dev/knowledge-base/release-schedule-support-policy
 changelogTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.md"
 eoasColumn: true
 
@@ -15,12 +15,12 @@ customFields:
     display: api-only
     label: Laravel
     description: Supported Laravel versions
-    link: https://statamic.dev/release-schedule-support-policy
+    link: https://statamic.dev/knowledge-base/release-schedule-support-policy
   - name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
-    link: https://statamic.dev/release-schedule-support-policy
+    link: https://statamic.dev/knowledge-base/release-schedule-support-policy
 
 identifiers:
   - purl: pkg:composer/statamic/cms
@@ -57,8 +57,8 @@ releases:
     eol: 2027-12-31
     supportedLaravelVersions: "12-13"
     supportedPhpVersions: "8.3-8.5"
-    latest: "6.27.1"
-    latestReleaseDate: 2026-08-07
+    latest: "6.35.0"
+    latestReleaseDate: 2026-10-01
 
   - releaseCycle: "5"
     releaseDate: 2024-05-09
@@ -66,8 +66,8 @@ releases:
     eol: 2026-12-31
     supportedLaravelVersions: "10-12"
     supportedPhpVersions: "8.2-8.4"
-    latest: "5.74.3"
-    latestReleaseDate: 2026-07-08
+    latest: "5.74.4"
+    latestReleaseDate: 2026-08-12
 
   - releaseCycle: "4"
     releaseDate: 2023-05-09

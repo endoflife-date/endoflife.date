@@ -11,18 +11,33 @@ eoasColumn: true
 auto:
   methods:
     - git: https://github.com/Behat/Behat.git
+    - release_table: https://docs.behat.org/en/latest/releases.html
+      fields:
+        releaseCycle:
+          column: "Major"
+          regex: '^v?(?P<value>\d+)\.x$'
+          template: "{{value}}"
+        eoas: "Bugfix EOL"
+        eol: "Security EOL"
 
 identifiers:
   - purl: pkg:composer/behat/behat
   - purl: pkg:github/behat/behat
 
 releases:
-  - releaseCycle: "3"
-    releaseDate: 2014-04-20
+  - releaseCycle: "4"
+    releaseDate: 2026-09-28
     eoas: false
     eol: false
-    latest: "3.32.0"
-    latestReleaseDate: 2026-06-20
+    latest: "4.0.0"
+    latestReleaseDate: 2026-09-28
+
+  - releaseCycle: "3"
+    releaseDate: 2014-04-20
+    eoas: 2027-09-30
+    eol: 2028-09-30
+    latest: "3.34.0"
+    latestReleaseDate: 2026-09-27
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01

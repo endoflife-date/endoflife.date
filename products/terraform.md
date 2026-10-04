@@ -21,15 +21,21 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.16"
+    releaseDate: 2026-08-26
+    eol: false # releaseDate(1.18)
+    latest: "1.16.5"
+    latestReleaseDate: 2026-09-30
+
   - releaseCycle: "1.15"
     releaseDate: 2026-04-29
     eol: false # releaseDate(1.17)
-    latest: "1.15.8"
-    latestReleaseDate: 2026-07-08
+    latest: "1.15.9"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.14"
     releaseDate: 2025-11-19
-    eol: false # releaseDate(1.16)
+    eol: 2026-08-26
     latest: "1.14.9"
     latestReleaseDate: 2026-04-20
 
@@ -119,7 +125,7 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
+> [Hashicorp Terraform](https://developer.hashicorp.com/terraform) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
 > infrastructure as code software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years.

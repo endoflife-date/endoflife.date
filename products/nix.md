@@ -7,7 +7,7 @@ permalink: /nix
 alternate_urls:
   - /nixlang
 versionCommand: nix --version
-releasePolicyLink: https://nixos.org/blog/announcements.html
+releasePolicyLink: https://nixos.org/blog/announcements/
 changelogTemplate: https://nix.dev/manual/nix/latest/release-notes/rl-__RELEASE_CYCLE__
 
 identifiers:
@@ -25,9 +25,9 @@ releases:
   - releaseCycle: "2.35"
     releaseDate: 2026-07-13
     eol: false # releaseDate(2.36)
-    latest: "2.35.1"
-    latestReleaseDate: 2026-07-14
-  
+    latest: "2.35.2"
+    latestReleaseDate: 2026-08-13
+
   - releaseCycle: "2.34"
     releaseDate: 2026-02-27
     eol: 2026-07-13
