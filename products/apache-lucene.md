@@ -26,6 +26,7 @@ releases:
     latestReleaseDate: 2026-08-12
 
   - releaseCycle: "9"
+    staleReleaseThresholdDays: 730 # still listed on https://lucene.apache.org/core/downloads.html
     releaseDate: 2021-12-07
     eol: false
     latest: "9.12.3"
