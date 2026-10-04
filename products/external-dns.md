@@ -1,6 +1,6 @@
 ---
 title: ExternalDNS
-addedAt: 2026-01-30
+addedAt: 2026-10-04
 category: server-app
 tags: cncf kubernetes
 iconSlug: kubernetes
@@ -17,7 +17,7 @@ auto:
     - git: https://github.com/kubernetes-sigs/external-dns.git
 
 releases:
-  - releaseCycle: "0.23"
+  - releaseCycle: "0"
     releaseDate: 2026-09-18
     eol: false
     latest: "0.23.0"
