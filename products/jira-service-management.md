@@ -1,6 +1,6 @@
 ---
 title: Jira Service Management
-addedAt: 2026-09-20
+addedAt: 2026-10-04
 category: server-app
 tags: atlassian java-runtime
 iconSlug: jira
@@ -465,22 +465,20 @@ releases:
     latestReleaseDate: 2016-09-13
 ---
 
-> [Jira Service Management](https://www.atlassian.com/software/jira/service-management), called Jira Service Desk
-> until 2020, is a proprietary IT service management product developed by Atlassian, built on the Jira platform.
+> [Jira Service Management](https://www.atlassian.com/software/jira/service-management), called Jira Service Desk until 2020, 
+> is a proprietary IT service management product developed by Atlassian, built on the Jira platform.
 
 {: .warning }
 
 > This page is about the self-hosted Data Center edition.
 > Jira Service Management Cloud is updated continuously and carries no version-specific end-of-life dates.
 
-The product was split out of Jira in October 2015 and numbered separately from then on, starting at 3.0 to match the
-Jira 7 platform it shipped against. That numbering ran to 5.17 in June 2024, after which Atlassian aligned the whole
-Jira family: 10.0 was released on the same day as Jira Software 10.0, and the two have shared version numbers and
-release dates since.
+The product was split out of Jira in October 2015 and numbered separately from then on, starting at 3.0 to match the Jira 7 platform it shipped against.
+That numbering ran to 5.17 in June 2024, after which Atlassian aligned the whole Jira family.
+10.0 was released on the same day as Jira Software 10.0, and the two have shared version numbers and release dates since.
 
-Jira Service Management has both LTS and non-LTS releases. There is approximately one LTS release per year, marked
-here with the LTS flag, which receives bug and security fixes for 2 years. Non-LTS releases also reach end of support about two
-years after their own release date, but receive only critical security fixes after the first 6 months. Atlassian
-publishes the exact date for every release, and has extended LTS releases more than once: 5.4, 4.20 and 4.13 were all
-supported past their original dates. More information can be found in
-[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
+Jira Service Management has both LTS and non-LTS releases.
+There is approximately one LTS release per year which receives bug and security fixes for 2 years.
+Non-LTS releases also reach end of support about two years after their own release date, but receive only critical security fixes after the first 6 months.
+Atlassian publishes the exact date for every release, and has extended LTS releases more than once: 5.4, 4.20 and 4.13 were all supported past their original dates.
+More information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
