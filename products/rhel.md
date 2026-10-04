@@ -698,13 +698,14 @@ selected urgent priority bug fixes, and troubleshooting for the last minor relea
 
 In addition to major versions, this page lists individual minor releases (point releases).
 Under a standard Red Hat Enterprise Linux subscription, a minor release only receives
-errata until the next minor release becomes available, so most minor releases reach their
-end of life roughly six months after their general availability.
+errata until Red Hat retires it, which is usually when the next minor release becomes
+available, so most minor releases reach their end of life roughly six months after their
+general availability.
 
 For a minor release row:
 
-- **Full Support** is the date the next minor release became available, after which the
-  release no longer receives standard errata.
+- **Full Support** is the date Red Hat retired the minor release from standard errata,
+  which is usually when the next minor release became available.
 - **Maintenance Support** is the end of the extended stream for that specific minor release
   (Extended Update Support), or the same date as Full Support when no such stream exists.
 - **Extended Life Cycle Support** is the end of Enhanced EUS or Update Services for SAP
