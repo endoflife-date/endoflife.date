@@ -5,10 +5,10 @@ category: lang
 iconSlug: elixir
 permalink: /elixir
 versionCommand: elixir --version
-releasePolicyLink: https://hexdocs.pm/elixir/compatibility-and-deprecations.html
+releasePolicyLink: https://elixir.hexdocs.pm/compatibility-and-deprecations.html
 changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__/CHANGELOG.md
 eoasColumn: true
-staleReleaseThresholdDays: 1000 # expected given https://hexdocs.pm/elixir/compatibility-and-deprecations.html
+staleReleaseThresholdDays: 1000 # expected given https://elixir.hexdocs.pm/compatibility-and-deprecations.html
 
 identifiers:
   - repology: elixir

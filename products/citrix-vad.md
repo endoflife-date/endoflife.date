@@ -256,7 +256,7 @@ releases:
 
 ---
 
-> [Citrix Virtual Apps and Desktops](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/)
+> [Citrix Virtual Apps and Desktops](https://www.citrix.com/platform/citrix-app-and-desktop-virtualization/)
 > (CVAD) provides virtualization solutions that give IT control of virtual machines, applications,
 > and security while providing anywhere access for any device.
 

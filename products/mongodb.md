@@ -45,12 +45,17 @@ auto:
 # EOL dates can be found at https://www.mongodb.com/legal/support-policy/lifecycles
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 releases:
+  - releaseCycle: "9.0"
+    releaseDate: 2026-09-30
+    eol: 2031-10-31
+    latest: "9.0.2"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "8.3"
     releaseDate: 2026-05-31
     eol: 2029-10-31
-    latest: "8.3.8"
-    latestReleaseDate: 2026-08-11
-    link: https://www.mongodb.com/docs/manual/release-notes/8.3/ # todo: check if this can be removed after 8.4 release
+    latest: "8.3.11"
+    latestReleaseDate: 2026-09-11
 
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
@@ -70,8 +75,8 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.29"
-    latestReleaseDate: 2026-08-11
+    latest: "8.0.32"
+    latestReleaseDate: 2026-09-11
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
@@ -79,6 +84,7 @@ releases:
     eol: 2024-10-02
     latest: "7.3.4"
     latestReleaseDate: 2024-08-14
+    link: https://web.archive.org/web/20250113235154/https://www.mongodb.com/docs/v7.3/release-notes/7.3/
 
   - releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
@@ -86,6 +92,7 @@ releases:
     eol: 2024-03-27
     latest: "7.2.2"
     latestReleaseDate: 2024-02-28
+    link: https://web.archive.org/web/20241213063317/https://www.mongodb.com/docs/v7.2/release-notes/7.2/
 
   - releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
@@ -93,12 +100,13 @@ releases:
     eol: 2024-01-23
     latest: "7.1.1"
     latestReleaseDate: 2023-11-16
+    link: https://web.archive.org/web/20241103085639/https://www.mongodb.com/docs/v7.1/release-notes/7.1/
 
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.40"
-    latestReleaseDate: 2026-08-11
+    latest: "7.0.43"
+    latestReleaseDate: 2026-09-11
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"

@@ -6,7 +6,7 @@ tags: cncf linux-foundation
 iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
-changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST__"
+changelogTemplate: "https://github.com/podman-container-tools/podman/releases/tag/v__LATEST__"
 
 identifiers:
   - repology: podman
@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "6.1"
     releaseDate: 2026-08-12
     eol: false
-    latest: "6.1.1"
-    latestReleaseDate: 2026-09-02
+    latest: "6.1.3"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "6.0"
     releaseDate: 2026-06-24
@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "5.8"
     releaseDate: 2026-02-12
     eol: 2026-09-26 # 6.0 cycle broke more than regular cycles so +3m eol time to 5.x
-    latest: "5.8.6"
-    latestReleaseDate: 2026-08-13
+    latest: "5.8.8"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "5.7"
     releaseDate: 2025-11-11

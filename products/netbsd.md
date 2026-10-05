@@ -49,13 +49,13 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
-    eol: 2026-08-30
-    latest: "9.4"
-    latestReleaseDate: 2024-04-20
+    eol: 2026-08-31
+    latest: "9.5"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "8"
     releaseDate: 2018-07-17
-    eoas: 2022-02-14
+    eoas: 2020-02-14
     eol: 2024-05-04
     latest: "8.3"
     latestReleaseDate: 2024-05-04
