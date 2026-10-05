@@ -19,16 +19,23 @@ auto:
     - git: https://github.com/kubernetes-sigs/aws-load-balancer-controller.git
 
 releases:
+  - releaseCycle: "3.5"
+    releaseDate: 2026-08-03
+    eol: false
+    eoas: false
+    latest: "3.5.0"
+    latestReleaseDate: 2026-08-03
+
   - releaseCycle: "3.4"
     releaseDate: 2026-06-03
     eol: false
-    eoas: false
-    latest: "3.4.0"
-    latestReleaseDate: 2026-06-03
+    eoas: 2026-08-03
+    latest: "3.4.3"
+    latestReleaseDate: 2026-07-29
 
   - releaseCycle: "3.3"
     releaseDate: 2026-05-05
-    eol: false
+    eol: 2026-08-03
     eoas: 2026-06-03
     latest: "3.3.0"
     latestReleaseDate: 2026-05-05
@@ -137,7 +144,6 @@ releases:
     eoas: 2024-02-01
     latest: "2.6.2"
     latestReleaseDate: 2023-10-28
-
 ---
 
 > `AWS Load Balancer Controller` is a controller to help manage `Elastic Load Balancers` for a `Kubernetes` cluster.
@@ -150,8 +156,11 @@ This project was formerly known as `AWS ALB Ingress Controller`.
 
 - It satisfies `Kubernetes` [Service resources](https://kubernetes.io/docs/concepts/services-networking/service/) by provisioning [Network Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html).
 
-- It satisfies `Kubernetes` [Gateway resources](https://gateway-api.sigs.k8s.io/) by provisioning [Network Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) and [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
+- It satisfies `Kubernetes` [Gateway resources](https://gateway-api.sigs.k8s.io/) by provisioning
+  [Network Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) and
+  [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
 
 ## Support Policy
 
-Currently, AWS provides security updates and bug fixes to the latest available minor versions of AWS LBC. For other ad-hoc supports on older versions, please reach out through AWS support ticket.
+Currently, AWS provides security updates and bug fixes to the latest available minor versions of AWS LBC.
+For other ad-hoc supports on older versions, please reach out through AWS support ticket.
