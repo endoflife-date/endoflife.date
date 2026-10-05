@@ -35,7 +35,7 @@ releases:
     latestReleaseDate: 2024-12-16
 
   - releaseCycle: "5"
-    staleReleaseThresholdDays: 1875 # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
+    staleReleaseThresholdDays: 2000 # still listed on https://fontawesome.com/versions with "This version will continue to receive patch releases"
     lts: true
     releaseDate: 2018-02-05
     eol: false

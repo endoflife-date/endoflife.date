@@ -35,20 +35,20 @@ releases:
   - releaseCycle: "7.1"
     releaseDate: 2026-05-04
     eol: 2027-05-04 # releaseDate(7.3)
-    latest: "7.1.6"
-    latestReleaseDate: 2026-07-23
+    latest: "7.1.9"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "7.0"
     releaseDate: 2025-11-03
     eol: 2026-11-03
-    latest: "7.0.11"
-    latestReleaseDate: 2026-07-23
+    latest: "7.0.13"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "6.3"
     releaseDate: 2025-06-30
     eol: 2026-06-30
-    latest: "6.3.14"
-    latestReleaseDate: 2026-07-01
+    latest: "6.3.15"
+    latestReleaseDate: 2026-08-05
 
   - releaseCycle: "6.2"
     releaseDate: 2025-04-28
@@ -212,7 +212,7 @@ releases:
 > [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through
 > logs. It provides a query language, a processing pipeline for data transformation, alerting
 > abilities, and much more. It is extensible through a REST API or add-ons that can be downloaded
-> from [the Graylog marketplace](https://marketplace.graylog.org/).
+> from [the Graylog marketplace](https://community.graylog.org/c/marketplace/31).
 
 {: .warning }
 

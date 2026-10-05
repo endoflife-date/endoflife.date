@@ -14,6 +14,7 @@ module EndOfLife
     def generate(site)
       @site = site
       start = Time.now
+      initial_page_count = site.pages.length
       Jekyll.logger.info TOPIC, "Generating..."
 
       products = site.pages.select { |page| page.data['layout'] == 'product' }
@@ -24,7 +25,8 @@ module EndOfLife
         site.pages << TagPage.new(site, tag, products_for_tag)
       end
 
-      Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
+      generated_page_count = site.pages.length - initial_page_count
+      Jekyll.logger.info TOPIC, "Generated #{generated_page_count} pages in #{(Time.now - start).round(3)} seconds."
     end
 
     def products_by_tag(products)

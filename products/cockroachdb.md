@@ -8,8 +8,8 @@ alternate_urls:
   - /cockroach
   - /crdb
 versionCommand: cockroach version
-releasePolicyLink: https://www.cockroachlabs.com/docs/releases/release-support-policy
-changelogTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
+releasePolicyLink: https://docs.cockroachlabs.com/docs/releases/release-support-policy
+changelogTemplate: https://docs.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 
@@ -39,6 +39,28 @@ auto:
         releaseDate: "Initial Release"
         eoas: "Maintenance Support ended"
         eol: "Assistance Support ended"
+    # LTS rows (e.g. "24.1.6+") share their "Major Version" with the GA rows, so they are processed last to override
+    # eoas and eol, and to record when LTS started.
+    - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#3
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Patch Versions"
+          regex: '^v?(?P<value>\d+\.\d+)\.[1-9]\d*\+$'
+        lts: "Initial Release"
+        eoas: "Maintenance Support ends"
+        eol: "Assistance Support ends"
+    - release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy#4
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Patch Versions"
+          regex: '^v?(?P<value>\d+\.\d+)\.[1-9]\d*\+$'
+        lts: "Initial Release"
+        eoas: "Maintenance Support ended"
+        eol: "Assistance Support ended"
 
 # For LTS Releases
 # eoas(x) = lts(x)+1y
@@ -52,12 +74,20 @@ auto:
 # eoas(x) = releaseDate(x) + 6m
 # eol(x) = eoas(x)
 releases:
+  - releaseCycle: "26.3"
+    releaseDate: 2026-08-19
+    eoas: 2027-02-19
+    eol: 2027-02-19
+    latest: "26.3.0"
+    latestReleaseDate: 2026-08-24
+
   - releaseCycle: "26.2"
     releaseDate: 2026-04-27
-    eoas: 2027-04-27
-    eol: 2027-10-27
-    latest: "26.2.4"
-    latestReleaseDate: 2026-07-14
+    lts: 2026-09-23
+    eoas: 2027-09-23
+    eol: 2028-09-23
+    latest: "26.2.7"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "26.1"
     releaseDate: 2026-02-02
@@ -68,10 +98,11 @@ releases:
 
   - releaseCycle: "25.4"
     releaseDate: 2025-11-03
-    eoas: 2026-11-03
-    eol: 2027-05-03
-    latest: "25.4.14"
-    latestReleaseDate: 2026-07-17
+    lts: 2026-05-03
+    eoas: 2027-05-03
+    eol: 2028-05-03
+    latest: "25.4.17"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "25.3"
     releaseDate: 2025-08-04
@@ -82,24 +113,26 @@ releases:
 
   - releaseCycle: "25.2"
     releaseDate: 2025-05-09
-    eoas: 2026-05-12
-    eol: 2026-11-12
-    latest: "25.2.22"
-    latestReleaseDate: 2026-07-17
+    lts: 2025-12-17
+    eoas: 2026-12-17
+    eol: 2027-12-17
+    latest: "25.2.24"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "25.1"
     releaseDate: 2025-02-18
     eoas: 2025-08-18
-    eol: false
+    eol: 2025-08-18
     latest: "25.1.10"
     latestReleaseDate: 2025-07-31
 
   - releaseCycle: "24.3"
     releaseDate: 2024-11-18
-    eoas: 2025-11-18
-    eol: 2026-05-18
-    latest: "24.3.34"
-    latestReleaseDate: 2026-06-25
+    lts: 2025-05-05
+    eoas: 2026-05-05
+    eol: 2027-05-05
+    latest: "24.3.36"
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "24.2"
     releaseDate: 2024-08-12
@@ -110,25 +143,25 @@ releases:
 
   - releaseCycle: "24.1"
     releaseDate: 2024-05-20
-    lts: 2026-10-21
-    eoas: 2025-05-20
-    eol: 2025-11-20
-    latest: "24.1.32"
-    latestReleaseDate: 2026-07-22
+    lts: 2024-10-21
+    eoas: 2025-10-21
+    eol: 2026-10-21
+    latest: "24.1.33"
+    latestReleaseDate: 2026-08-24
 
   - releaseCycle: "23.2"
     releaseDate: 2024-02-05
-    lts: 2026-07-08 # v23.2.7
-    eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
+    lts: 2024-07-08
+    eoas: 2025-07-08
+    eol: 2026-07-08
     latest: "23.2.31"
     latestReleaseDate: 2026-06-24
 
   - releaseCycle: "23.1"
     releaseDate: 2023-05-15
-    lts: 2023-11-13 # v23.1.12
-    eoas: 2024-05-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
-    eol: 2024-11-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
+    lts: 2023-11-13
+    eoas: 2024-11-13
+    eol: 2025-11-13
     latest: "23.1.30"
     latestReleaseDate: 2024-11-19
 
@@ -218,15 +251,15 @@ releases:
 
 ---
 
-> [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and
+> [CockroachDB](https://www.cockroachlabs.com) is a distributed SQL database built on a transactional and
 > strongly-consistent key-value store, developed by Cockroach Labs.
 
 {: .warning }
 
 > This page tracks the CockroachDB Self-Hosted releases — the Cloud and Serverless releases have their own
-> [support and upgrade policy](https://www.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
+> [support and upgrade policy](https://docs.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
 
-CockroachDB follows a three-component [calendar versioning scheme](https://www.cockroachlabs.com/docs/releases/#release-naming).
+CockroachDB follows a three-component [calendar versioning scheme](https://docs.cockroachlabs.com/docs/releases/#release-naming).
 A major version of CockroachDB is released once per quarter, alternating between
 a Regular release or an Innovation release. New releases are made available for CockroachDB Cloud clusters
 for two weeks before binaries are published for Self-Hosted downloads.
@@ -247,5 +280,5 @@ Each release cycle can be in one of two support levels:
 
 ## Reference
 
-- A list of all [Production Releases](https://www.cockroachlabs.com/docs/releases#production-releases) includes
+- A list of all [Production Releases](https://docs.cockroachlabs.com/docs/releases#production-releases) includes
   the first LTS release in each release cycle.

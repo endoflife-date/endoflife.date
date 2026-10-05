@@ -7,6 +7,10 @@ iconSlug: apple
 permalink: /visionos
 changelogTemplate: https://developer.apple.com/documentation/visionos-release-notes/visionos-__RELEASE_CYCLE__-release-notes
 
+identifiers:
+  - cpe: cpe:/o:apple:visionos
+  - cpe: cpe:2.3:o:apple:visionos
+
 auto:
   methods:
     - apple: visionos
@@ -15,11 +19,17 @@ auto:
         - 'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-14
+    eol: false
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "26"
     releaseDate: 2025-09-15
-    eol: false
-    latest: "26.6"
-    latestReleaseDate: 2026-07-27
+    eol: 2026-09-14
+    latest: "26.6.1"
+    latestReleaseDate: 2026-08-17
 
   - releaseCycle: "2"
     releaseDate: 2024-09-16
@@ -36,7 +46,7 @@ releases:
 
 ---
 
-> Apple [visionOS](https://www.apple.com/visionos) is an operating system specifically designed for Apple's spatial computing device, the Apple Vision Pro.
+> Apple [visionOS](https://www.apple.com/os/visionos/) is an operating system specifically designed for Apple's spatial computing device, the Apple Vision Pro.
 > It integrates elements from iOS, iPadOS, and macOS, enabling users to interact with digital content in a mixed reality environment.
 > VisionOS supports new interaction paradigms such as eye-tracking, gesture control, and voice input.
 

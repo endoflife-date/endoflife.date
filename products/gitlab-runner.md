@@ -24,19 +24,33 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 releases:
+  - releaseCycle: "19.4"
+    releaseDate: 2026-09-17
+    eoas: 2026-10-15 # releaseDate(19.5)
+    eol: 2026-12-17 # releaseDate(19.7)
+    latest: "19.4.1"
+    latestReleaseDate: 2026-09-24
+
+  - releaseCycle: "19.3"
+    releaseDate: 2026-08-20
+    eoas: 2026-09-17 # releaseDate(19.4)
+    eol: 2026-11-19 # releaseDate(19.6)
+    latest: "19.3.3"
+    latestReleaseDate: 2026-09-15
+
   - releaseCycle: "19.2"
     releaseDate: 2026-07-16
     eoas: 2026-08-20 # releaseDate(19.3)
-    eol: 2026-10-20 # releaseDate(19.5)
-    latest: "19.2.1"
-    latestReleaseDate: 2026-07-28
+    eol: 2026-10-15 # releaseDate(19.5)
+    latest: "19.2.6"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "19.1"
     releaseDate: 2026-06-18
     eoas: 2026-07-16 # releaseDate(19.2)
     eol: 2026-09-17 # releaseDate(19.4)
-    latest: "19.1.2"
-    latestReleaseDate: 2026-07-28
+    latest: "19.1.5"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "19.0"
     releaseDate: 2026-05-21
@@ -92,14 +106,14 @@ releases:
     eoas: 2025-11-20 # releaseDate(18.6)
     eol: 2026-01-15 # releaseDate(18.8)
     latest: "18.5.0"
-    latestReleaseDate: 2025-10-17
+    latestReleaseDate: 2025-10-13
 
   - releaseCycle: "18.4"
     releaseDate: 2025-09-18
     eoas: 2025-10-16 # releaseDate(18.5)
     eol: 2025-12-18 # releaseDate(18.7)
     latest: "18.4.0"
-    latestReleaseDate: 2025-09-18
+    latestReleaseDate: 2025-09-12
 
   - releaseCycle: "18.3"
     releaseDate: 2025-08-21
@@ -113,21 +127,21 @@ releases:
     eoas: 2025-08-21 # releaseDate(18.3)
     eol: 2025-10-16 # releaseDate(18.5)
     latest: "18.2.2"
-    latestReleaseDate: 2025-08-20
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "18.1"
     releaseDate: 2025-06-18
     eoas: 2025-07-16 # releaseDate(18.2)
     eol: 2025-09-18 # releaseDate(18.4)
     latest: "18.1.3"
-    latestReleaseDate: 2025-07-29
+    latestReleaseDate: 2025-07-28
 
   - releaseCycle: "18.0"
     releaseDate: 2025-05-14
     eoas: 2025-06-18 # releaseDate(18.1)
     eol: 2025-08-21 # releaseDate(18.3)
     latest: "18.0.5"
-    latestReleaseDate: 2025-07-29
+    latestReleaseDate: 2025-07-28
 
 ---
 
@@ -139,6 +153,6 @@ GitLab Runner uses the same versioning scheme as GitLab (`major.minor.patch`), w
 version released on the 3rd Thursday of each month. For compatibility, it is recommended to use
 a runner version no more than one major version behind the GitLab instance.
 
-GitLab Runner follows GitLab's [maintenance policy](https://docs.gitlab.com/policy/maintenance.html):
+GitLab Runner follows GitLab's [maintenance policy](https://docs.gitlab.com/policy/maintenance/):
 the current minor version and the two previous minor versions receive security and bug fixes
 (three supported versions at any time).

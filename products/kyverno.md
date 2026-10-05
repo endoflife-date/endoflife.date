@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
-releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
+releasePolicyLink: https://kyverno.io/docs/installation/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
 
@@ -14,7 +14,7 @@ customFields:
     display: after-release-column
     label: Kubernetes Version
     description: Supported Kubernetes versions
-    link: https://kyverno.io/docs/installation/#compatibility-matrix
+    link: https://kyverno.io/docs/installation/installation/#compatibility-matrix
 
 identifiers:
   - purl: pkg:github/kyverno/kyverno
@@ -27,8 +27,15 @@ auto:
     - git: https://github.com/kyverno/kyverno.git
 
 # eol(X) = releaseDate(X+3)
-# Kubernetes support is documented on https://kyverno.io/docs/installation/#compatibility-matrix.
+# Kubernetes support is documented on https://kyverno.io/docs/installation/releases/.
 releases:
+  - releaseCycle: "1.19"
+    releaseDate: 2026-08-20
+    eol: false
+    latest: "1.19.1"
+    latestReleaseDate: 2026-09-10
+    supportedK8sVersions: 1.33 - 1.35
+
   - releaseCycle: "1.18"
     releaseDate: 2026-04-29
     eol: false
@@ -45,7 +52,7 @@ releases:
 
   - releaseCycle: "1.16"
     releaseDate: 2025-11-10
-    eol: false
+    eol: 2026-08-20
     latest: "1.16.4"
     latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.31 - 1.34

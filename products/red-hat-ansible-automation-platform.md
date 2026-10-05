@@ -126,4 +126,4 @@ rows=page.releases %}
 
 The latest version for each component can be found in the release notes under the _Patch releases_ section.
 
-[DEFINITION]: https://access.redhat.com/articles/2130961
+[DEFINITION]: https://access.redhat.com/articles/explaining_redhat_errata
