@@ -25,26 +25,33 @@ auto:
         - '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+  - releaseCycle: "27"
+    codename: "Golden Gate"
+    releaseDate: 2026-09-14
+    eol: false
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "26"
     codename: "Tahoe"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.5.1"
-    latestReleaseDate: 2026-06-01
+    latest: "26.7.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.7.7"
-    latestReleaseDate: 2026-05-11
+    latest: "15.8.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
-    eol: false
-    latest: "14.8.7"
-    latestReleaseDate: 2026-05-11
+    eol: 2026-09-14
+    latest: "14.8.9"
+    latestReleaseDate: 2026-08-06
 
   - releaseCycle: "13"
     codename: "Ventura"

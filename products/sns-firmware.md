@@ -11,17 +11,22 @@ eolColumn: Lifecycle Support
 staleReleaseThresholdDays: 1825 # devices have longer support periods
 releasePolicyLink: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
+
 auto:
   methods:
     - release_table: https://documentation.stormshield.eu/PLC/SNS/en/Content/SNS_Product_Life_Cycle/Matrices_firmwares.htm
       render_javascript: true
       ignore_empty_releases: true
       fields:
-        releaseCycle: "SNS version"
+        releaseCycle:
+          column: "SNS version"
+          regex: '^(?P<value>\d+(?:\.\d+)?)(?:\.?x|\s+(?:LTSB|QS)\*)?$'
         eol:
           column: "End of Life"
-          regex: '^.*(?P<value>\w+ \d+).*$'
-        releaseDate: "Available as of"
+          regex: '^.*(?P<value>(\d{2}/\d{2}/\d{4}|\w+ \d+)).*$'
+        releaseDate:
+          column: "Available as of"
+          regex: '^.*(?P<value>(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2})).*$'
         eoas: "End of Maintenance"
 
 releases:
@@ -33,8 +38,8 @@ releases:
   - releaseCycle: "4.8"
     releaseDate: 2024-07-02
     lts: true
-    eoas: false
-    eol: false
+    eoas: 2029-12-31
+    eol: 2030-03-31
 
   - releaseCycle: "4.7"
     releaseDate: 2023-10-31
@@ -110,6 +115,6 @@ releases:
 > are certified (ANSSI, CCN) firmwares that run
 > on [Stormshield firewalls](https://www.stormshield.com/products-services/products/network-security/product-range-sns/).
 
-Maintenance is guaranteed on release branches with an LTSB label for at least 12 months after they are designated as such. LTSB branches receieve
-only only functional or security patches. A minimum 6-month overlap is expected between each LTSB release branch,
+Maintenance is guaranteed on release branches with an LTSB label for at least 12 months after they are designated as such. LTSB branches receive
+only functional or security patches. A minimum 6-month overlap is expected between each LTSB release branch,
 to allow clients to migrate their installations to the next LTSB branch.

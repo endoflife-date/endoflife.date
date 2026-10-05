@@ -28,29 +28,29 @@ auto:
 
 releases:
   - releaseCycle: "1.46"
-    releaseDate: 2026-05-31
-    eol: 2027-05-31
-    latest: "1.46.0"
-    latestReleaseDate: 2026-05-31
+    releaseDate: 2026-06-30
+    eol: 2027-07-31
+    latest: "1.46.2"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "1.45"
     releaseDate: 2025-12-04
     eol: 2026-12-31
-    latest: "1.45.3"
-    latestReleaseDate: 2026-04-01
+    latest: "1.45.6"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "1.44"
     releaseDate: 2025-07-02
     eol: 2026-07-31
-    latest: "1.44.5"
-    latestReleaseDate: 2026-04-01
+    latest: "1.44.6"
+    latestReleaseDate: 2026-06-29
 
   - releaseCycle: "1.43"
     releaseDate: 2024-12-21
     lts: true
     eol: 2027-12-31
-    latest: "1.43.8"
-    latestReleaseDate: 2026-04-01
+    latest: "1.43.11"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "1.42"
     releaseDate: 2024-06-27
@@ -129,7 +129,7 @@ releases:
 
 ---
 
-> [MediaWiki](https://mediawiki.org) is a wiki engine and is mostly known as the software that powers
+> [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) is a wiki engine and is mostly known as the software that powers
 > Wikipedia, but it is also frequently used for other wikis.
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2

@@ -26,6 +26,7 @@ auto:
 
 releases:
   - releaseCycle: "5"
+    staleReleaseThresholdDays: 730 # git repository still active on https://github.com/twbs/bootstrap
     releaseDate: 2021-05-05
     lts: 2022-07-19
     eoas: false

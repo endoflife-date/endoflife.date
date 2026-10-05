@@ -31,9 +31,23 @@ module Jekyll
   class ProductDataEnricher
     class << self
 
-      TOPIC = "EndOfLife Product Data Enricher:"
+      TOPIC = "Product Enricher:"
+      @@processed_product_count = 0
+      @@start_time = nil
+
+      def start_processing
+        @@processed_product_count = 0
+        @@start_time = Time.now
+        Jekyll.logger.info TOPIC, "Starting product enrichment..."
+      end
+
+      def finish_processing
+        duration = (Time.now - @@start_time).round(3)
+        Jekyll.logger.info TOPIC, "Finished product enrichment: processed #{@@processed_product_count} products in #{duration} seconds."
+      end
 
       def enrich(page)
+        @@processed_product_count += 1
         Jekyll.logger.debug TOPIC, "Enriching #{page.name}"
 
         set_id(page)
@@ -358,6 +372,14 @@ module Jekyll
   end
 end
 
+Jekyll::Hooks.register :site, :after_init do
+  Jekyll::ProductDataEnricher.start_processing
+end
+
 Jekyll::Hooks.register [:pages], :post_init, priority: Jekyll::Hooks::PRIORITY_MAP[:normal] do |page|
   Jekyll::ProductDataEnricher.enrich(page) if Jekyll::ProductDataEnricher.is_product?(page)
+end
+
+Jekyll::Hooks.register :site, :post_read, priority: Jekyll::Hooks::PRIORITY_MAP[:low] do
+  Jekyll::ProductDataEnricher.finish_processing
 end

@@ -65,7 +65,7 @@ paths:
           name: product
           in: path
           required: true
-          description: Product URL as per the canonical URL on the endofife.date website.
+          description: Product URL as per the canonical URL on the endoflife.date website.
   "/api/{product}/{cycle}.json":
     get:
       summary: Single cycle details
@@ -100,7 +100,7 @@ paths:
           name: product
           in: path
           required: true
-          description: Product URL as per the canonical URL on the endofife.date website.
+          description: Product URL as per the canonical URL on the endoflife.date website.
         - schema:
             type: string
           name: cycle

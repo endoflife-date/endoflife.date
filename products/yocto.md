@@ -14,7 +14,7 @@ eolColumn: Support Status
 
 auto:
   methods:
-    - git: https://github.com/yoctoproject/poky.git
+    - git: https://github.com/yoctoproject/meta-yocto.git
       regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 identifiers:
@@ -24,12 +24,20 @@ identifiers:
 # for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
 # eol(x) = releaseDate(x) + 7 month
 releases:
+  - releaseCycle: "6.0"
+    codename: "Wrynose"
+    lts: true
+    releaseDate: 2026-05-13
+    eol: 2030-04-30
+    latest: "6.0.3"
+    latestReleaseDate: 2026-09-03
+
   - releaseCycle: "5.3"
     codename: "Whinlatter"
     releaseDate: 2025-12-15
     eol: 2026-06-15
-    latest: "5.3"
-    latestReleaseDate: 2025-12-15
+    latest: "5.3.4"
+    latestReleaseDate: 2026-05-12
 
   - releaseCycle: "5.2"
     codename: "Walnascar"
@@ -50,8 +58,8 @@ releases:
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.18"
-    latestReleaseDate: 2026-06-02
+    latest: "5.0.20"
+    latestReleaseDate: 2026-09-15
 
   - releaseCycle: "4.3"
     codename: "Nanbield"

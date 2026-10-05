@@ -6,7 +6,7 @@ tags: hashicorp
 iconSlug: nomad
 permalink: /nomad
 versionCommand: nomad --version
-releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
+releasePolicyLink: https://developer.hashicorp.com/nomad/docs/ce-license-support
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 
 identifiers:
@@ -17,24 +17,32 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/hashicorp/nomad.git
+    - release_table: https://developer.hashicorp.com/nomad/docs/ce-license-support
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)\.x.*$'
+        eol: "Base Support End"
 
-# eol(x) = releaseDate(x+3)
+# eol(x) = "Base Support End" on https://developer.hashicorp.com/nomad/docs/ce-license-support when listed,
+# otherwise releaseDate(x+3).
 releases:
   - releaseCycle: "2.0"
     releaseDate: 2026-04-21
-    eol: false
-    latest: "2.0.3"
-    latestReleaseDate: 2026-06-09
+    eol: 2028-04-30
+    latest: "2.0.7"
+    latestReleaseDate: 2026-09-17
 
   - releaseCycle: "1.11"
     releaseDate: 2025-11-11
-    eol: false
+    eol: 2026-10-31
     latest: "1.11.3"
     latestReleaseDate: 2026-03-11
 
   - releaseCycle: "1.10"
+    lts: true
     releaseDate: 2025-04-09
-    eol: false
+    eol: 2027-04-30
     latest: "1.10.5"
     latestReleaseDate: 2025-09-09
 
@@ -45,8 +53,9 @@ releases:
     latestReleaseDate: 2025-03-11
 
   - releaseCycle: "1.8"
+    lts: true
     releaseDate: 2024-05-28
-    eol: 2025-11-11 # releaseDate(1.11)
+    eol: 2026-04-30
     latest: "1.8.4"
     latestReleaseDate: 2024-09-17
 
@@ -106,7 +115,7 @@ releases:
 
 ---
 
-> [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to
+> [Hashicorp Nomad](https://developer.hashicorp.com/nomad) is a simple and flexible workload orchestrator to
 > deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible

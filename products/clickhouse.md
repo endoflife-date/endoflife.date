@@ -5,7 +5,7 @@ category: database
 iconSlug: clickhouse
 permalink: /clickhouse
 versionCommand: clickhouse-client --version
-releasePolicyLink: https://clickhouse.com/docs/faq/operations/production#how-to-choose-between-clickhouse-releases
+releasePolicyLink: https://clickhouse.com/docs/resources/support-center/knowledge-base/setup-installation/production#how-to-choose-between-clickhouse-releases
 changelogTemplate: https://github.com/ClickHouse/ClickHouse/blob/master/CHANGELOG.md
 eolColumn: Support
 
@@ -16,30 +16,55 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/ClickHouse/ClickHouse.git
+    - github_releases: ClickHouse/ClickHouse
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\.(?P<tiny>\d+)-(stable|lts)$
 
 # Non-LTS : eol(x) = releaseDate(x+3)
 # LTS : eol(x) = releaseDate(x) + 1 year
 releases:
+  - releaseCycle: "26.9"
+    releaseDate: 2026-09-21
+    eol: false
+    latest: "26.9.10.4"
+    latestReleaseDate: 2026-10-04
+
+  - releaseCycle: "26.8"
+    lts: true
+    releaseDate: 2026-08-27
+    eol: 2027-08-27
+    latest: "26.8.17.4"
+    latestReleaseDate: 2026-10-04
+
+  - releaseCycle: "26.7"
+    releaseDate: 2026-07-22
+    eol: false
+    latest: "26.7.21.2"
+    latestReleaseDate: 2026-10-04
+
+  - releaseCycle: "26.6"
+    releaseDate: 2026-06-25
+    eol: 2026-09-21
+    latest: "26.6.8.7"
+    latestReleaseDate: 2026-09-16
+
   - releaseCycle: "26.5"
     releaseDate: 2026-05-21
-    eol: false
-    latest: "26.5.3.52"
-    latestReleaseDate: 2026-06-22
+    eol: 2026-08-27
+    latest: "26.5.7.64"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "26.4"
     releaseDate: 2026-05-05
-    eol: false
-    latest: "26.4.4.38"
-    latestReleaseDate: 2026-06-08
+    eol: 2026-07-22
+    latest: "26.4.5.143"
+    latestReleaseDate: 2026-07-22
 
   - releaseCycle: "26.3"
     lts: true
     releaseDate: 2026-03-26
     eol: 2027-03-26
-    latest: "26.3.15.4"
-    latestReleaseDate: 2026-06-23
+    latest: "26.3.41.4"
+    latestReleaseDate: 2026-10-04
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27
@@ -81,8 +106,8 @@ releases:
     lts: true
     releaseDate: 2025-08-29
     eol: 2026-08-29
-    latest: "25.8.24.21"
-    latestReleaseDate: 2026-05-20
+    latest: "25.8.33.6"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "25.7"
     releaseDate: 2025-07-29

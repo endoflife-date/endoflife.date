@@ -12,9 +12,13 @@ eolColumn: Supported
 
 identifiers:
   - repology: ffmpeg
+  - purl: pkg:brew/ffmpeg
+  - purl: pkg:deb/debian/ffmpeg
+  - purl: pkg:deb/ubuntu/ffmpeg
+  - purl: pkg:github/ffmpeg/ffmpeg
+  - purl: pkg:rpm/fedora/ffmpeg
   - cpe: cpe:/a:ffmpeg:ffmpeg
   - cpe: cpe:2.3:a:ffmpeg:ffmpeg
-  - purl: pkg:brew/ffmpeg
 
 auto:
   methods:
@@ -25,12 +29,19 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "9.0"
+    codename: Lei
+    releaseDate: 2026-08-04
+    eol: false
+    latest: "9.0.2"
+    latestReleaseDate: 2026-09-18
+
   - releaseCycle: "8.1"
     codename: Hoare
     releaseDate: 2026-03-16
     eol: false
-    latest: "8.1.2"
-    latestReleaseDate: 2026-06-17
+    latest: "8.1.3"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "8.0"
     codename: Huffman
@@ -50,7 +61,7 @@ releases:
   - releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
-    eol: false
+    eol: 2026-06-22 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/a372718e3aabb9ad876eac037a359b305c3a360a
     latest: "7.0.3"
     latestReleaseDate: 2025-08-05
 

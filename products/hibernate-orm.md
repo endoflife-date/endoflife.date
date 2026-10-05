@@ -6,7 +6,7 @@ iconSlug: hibernate
 permalink: /hibernate-orm
 alternate_urls:
   - /hibernate
-releasePolicyLink: https://hibernate.org/community/maintenance-policy/
+releasePolicyLink: https://hibernate.org/support/maintenance-policy/
 changelogTemplate: https://github.com/hibernate/hibernate-orm/releases/tag/__LATEST__
 eolColumn: Stable support
 eoesColumn: Limited support
@@ -43,26 +43,26 @@ releases:
     releaseDate: 2026-05-26
     eol: false
     eoes: false
-    latest: "7.4.2"
-    latestReleaseDate: 2026-06-21
+    latest: "7.4.12"
+    latestReleaseDate: 2026-10-04
 
   - releaseCycle: "7.3"
     supportedJavaVersions: "17, 21, 25 or 26"
     supportedJakartaEEVersions: "11"
     releaseDate: 2026-03-16
     eol: 2026-06-07
-    eoes: false
-    latest: "7.3.9"
-    latestReleaseDate: 2026-06-21
+    eoes: true
+    latest: "7.3.13"
+    latestReleaseDate: 2026-08-02
 
   - releaseCycle: "7.2"
     supportedJavaVersions: "17, 21 or 25"
     supportedJakartaEEVersions: "11"
     releaseDate: 2025-10-08
     eol: 2026-06-09
-    eoes: true
-    latest: "7.2.20"
-    latestReleaseDate: 2026-06-21
+    eoes: false
+    latest: "7.2.25"
+    latestReleaseDate: 2026-09-17
 
   - releaseCycle: "7.1"
     supportedJavaVersions: "17, 21 or 25"
@@ -70,8 +70,8 @@ releases:
     releaseDate: 2025-08-08
     eol: 2026-06-07
     eoes: true
-    latest: "7.1.31"
-    latestReleaseDate: 2026-06-21
+    latest: "7.1.36"
+    latestReleaseDate: 2026-09-17
 
   - releaseCycle: "7.0"
     supportedJavaVersions: "17, 21 or 23"
@@ -88,8 +88,8 @@ releases:
     releaseDate: 2024-08-08
     eol: 2026-06-09
     eoes: false
-    latest: "6.6.53"
-    latestReleaseDate: 2026-06-09
+    latest: "6.6.58"
+    latestReleaseDate: 2026-09-20
 
   - releaseCycle: "6.5"
     supportedJavaVersions: "11, 17, 21, 22 or 23"
@@ -178,8 +178,8 @@ releases:
     releaseDate: 2018-05-14
     eol: 2026-01-19
     eoes: true
-    latest: "5.3.38"
-    latestReleaseDate: 2026-01-19
+    latest: "5.3.39"
+    latestReleaseDate: 2026-06-29
 
 ---
 
@@ -191,6 +191,6 @@ A `{major}.{minor}` combination (6.0, 6.1, 6.2, e.g.) is called a series, and ma
 
 Series labeled _stable_, usually only the latest, are fully maintained with improvements, bug and security fixes.
 Series labeled _limited-support_ [only receive updates that are requested by Red Hat customers](https://discourse.hibernate.org/t/which-version-is-long-term-support-version-for-hibernate-orm-version-5-5-3-or-5-6/9881/3),
-and are not guaranteed to be available, except through [their commercial support offering](https://hibernate.org/orm/support/).
+and are not guaranteed to be available, except through [their commercial support offering](https://hibernate.org/support/).
 
 Supported series, as well as their support level, are documented on the [Hibernate ORM releases page](https://hibernate.org/orm/releases/).

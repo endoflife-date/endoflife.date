@@ -22,10 +22,16 @@ auto:
 # non-lts eol(x) = releaseDate(x+1)
 # lts eol(x) = releaseDate(x) + 3 years
 releases:
+  - releaseCycle: "3.28"
+    releaseDate: 2026-07-10
+    eol: false
+    latest: "3.28.0"
+    latestReleaseDate: 2026-07-10
+
   - releaseCycle: "3.27"
     releaseDate: 2026-01-09
     lts: true
-    eol: false
+    eol: 2029-01-09
     latest: "3.27.1"
     latestReleaseDate: 2026-05-08
 

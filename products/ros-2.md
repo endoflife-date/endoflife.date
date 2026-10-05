@@ -14,6 +14,7 @@ latestColumn: false
 eolColumn: End Of Life
 
 auto:
+  disabled: true # there are anti-bot protection measures on https://docs.ros.org
   methods:
     - release_table: https://docs.ros.org/en/rolling/Releases.html
       fields:
