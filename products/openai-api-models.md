@@ -34,6 +34,7 @@ releases:
     releaseLabel: "GPT-6.1 Sol"
     aliases:
       - gpt-6.1-sol
+      - gpt-6.1-sol
     releaseDate: 2026-09-29 # https://openai.com/index/introducing-gpt-6-1-sol/
     eoas: false
     eol: false
