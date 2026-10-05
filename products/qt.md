@@ -5,7 +5,7 @@ category: framework
 iconSlug: qt
 permalink: /qt
 versionCommand: qmake --version
-releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
+releasePolicyLink: https://www.qt.io/development/qt-framework/maintenance-periods
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 eolColumn: OSS support
 eoesColumn: Commercial support
@@ -23,19 +23,29 @@ auto:
 # eol(x) ~= releaseDate(x+1) (estimation = releaseDate(x) + 6 months)
 # eoes(x) =
 # - releaseDate(x) + 1 year for non-LTS
-# - releaseDate(x) + 3 years for LTS
+# - releaseDate(x) + 5 years for LTS (before 6.8 it was +3 years ) 
+#
+# Every 2 years there will be a new LTS version.
 # See also https://wiki.qt.io/QtReleasing.
 releases:
+  - releaseCycle: "6.12"
+    lts: true
+    releaseDate: 2026-09-30
+    eol: 2027-04-01 # estimated
+    eoes: 2031-10-01 # estimated
+    latest: "6.12.0"
+    latestReleaseDate: 2026-09-30
+
   - releaseCycle: "6.11"
     releaseDate: 2026-03-23
-    eol: 2026-09-22 # estimated releaseDate(6.12)
+    eol: 2026-09-30
     eoes: 2027-03-23 # estimated
     latest: "6.11.2"
     latestReleaseDate: 2026-08-18
 
   - releaseCycle: "6.10"
     releaseDate: 2025-10-07
-    eol: 2026-04-07 # estimated, 2025-10-07 + 6 months
+    eol: 2026-04-07 # estimated
     eoes: 2026-10-07 # estimated
     latest: "6.10.3"
     latestReleaseDate: 2026-04-02
@@ -72,7 +82,7 @@ releases:
   - releaseCycle: "6.5"
     lts: true
     releaseDate: 2023-03-31
-    eol: 2023-10-09
+    eol: 2023-12-13
     eoes: 2026-03-31
     latest: "6.5.8"
     latestReleaseDate: 2023-12-13
@@ -177,9 +187,11 @@ Releases follow [Semantic Versioning](https://semver.org/). There is a new minor
 [approximately every six months](https://wiki.qt.io/QtReleasing), which is supported with bug and
 security fixes until the next minor release.
 
-Some releases are designated as Long-Term Support (LTS) releases. Those are supported for three
-years but [only for commercial license holders](https://www.qt.io/blog/qt-offering-changes-2020).
-For open source users, they are the same as regular releases.
+From Qt 6.8 onwards, every 4th minor release is designated as a Long-Term Support (LTS) release,
+issued every 2 years and [maintained for 5 years](https://www.qt.io/development/qt-framework/qt-lts) exclusively for commercial license holders.
+Open-source (Community Edition) users do not receive LTS benefits and are expected to update to
+every new minor release approximately [every 6 months](https://www.qt.io/development/qt-framework/maintenance-periods).
+For versions prior to Qt 6.8, LTS releases were supported for 3 years under commercial licenses.
 
 Extended support beyond EOL is available as a [commercial offering](https://www.qt.io/qt-support/)
 from The Qt Company.
