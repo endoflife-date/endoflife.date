@@ -19,6 +19,12 @@ auto:
     - git: https://github.com/actions/actions-runner-controller.git
 
 releases:
+  - releaseCycle: "0.15"
+    releaseDate: 2026-10-01
+    eol: false
+    latest: "0.15.0"
+    latestReleaseDate: 2026-10-01
+
   - releaseCycle: "0.14"
     releaseDate: 2026-03-19
     eol: false
@@ -27,7 +33,7 @@ releases:
 
   - releaseCycle: "0.13"
     releaseDate: 2025-10-16
-    eol: false
+    eol: 2026-10-01
     latest: "0.13.1"
     latestReleaseDate: 2025-12-23
 
@@ -48,7 +54,6 @@ releases:
     eol: 2025-06-13
     latest: "0.10.1"
     latestReleaseDate: 2024-12-18
-
 ---
 
 > `Actions Runner Controller` (ARC) is a `Kubernetes` operator that orchestrates and scales self-hosted runners for GitHub Actions.
