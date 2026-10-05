@@ -86,7 +86,10 @@ releases:
     releaseLabel: "20.03 LTS SP4"
     lts: true
     releaseDate: 2023-12-12
-    eol: 2025-11-30
+    # The download page still says 2025/11, but the TC decided to keep maintaining 20.03 LTS SP4 with no end date:
+    # https://mailweb.openeuler.org/hyperkitty/list/tc@openeuler.org/thread/YDKVODDKGSS35THZQOUYZTW4SWXFRNMQ/
+    # https://gitee.com/openeuler/release-management/issues/I52M1X
+    eol: false
 
   - releaseCycle: "23.09"
     releaseLabel: "23.09"
@@ -110,6 +113,11 @@ releases:
     releaseDate: 2022-12-29
     eol: 2024-12-31
 
+  - releaseCycle: "22.09"
+    releaseLabel: "22.09"
+    releaseDate: 2022-09-30
+    eol: 2023-03-31
+
   - releaseCycle: "22.03-lts"
     releaseLabel: "22.03 LTS"
     lts: true
@@ -122,17 +130,32 @@ releases:
     releaseDate: 2021-12-31
     eol: 2023-12-31
 
+  - releaseCycle: "21.09"
+    releaseLabel: "21.09"
+    releaseDate: 2021-09-30
+    eol: 2022-03-31
+
   - releaseCycle: "20.03-lts-sp2"
     releaseLabel: "20.03 LTS SP2"
     lts: true
     releaseDate: 2021-07-14
     eol: 2022-04-30
 
+  - releaseCycle: "21.03"
+    releaseLabel: "21.03"
+    releaseDate: 2021-03-31
+    eol: 2021-09-30
+
   - releaseCycle: "20.03-lts-sp1"
     releaseLabel: "20.03 LTS SP1"
     lts: true
     releaseDate: 2020-12-31
     eol: 2022-12-31
+
+  - releaseCycle: "20.09"
+    releaseLabel: "20.09"
+    releaseDate: 2020-09-29
+    eol: 2021-03-31
 
   - releaseCycle: "20.03-lts"
     releaseLabel: "20.03 LTS"
