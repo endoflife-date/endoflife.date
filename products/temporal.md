@@ -37,10 +37,34 @@ releases:
     eol: false
     latest: "1.30.7"
     latestReleaseDate: 2026-09-18
+
+  - releaseCycle: "1.29"
+    releaseDate: 2025-10-03
+    eol: 2026-09-11
+    latest: "1.29.7"
+    latestReleaseDate: 2026-06-12
+
+  - releaseCycle: "1.28"
+    releaseDate: 2025-06-27
+    eol: 2026-04-29
+    latest: "1.28.4"
+    latestReleaseDate: 2026-04-10
+
+  - releaseCycle: "1.27"
+    releaseDate: 2025-02-26
+    eol: 2026-03-02
+    latest: "1.27.4"
+    latestReleaseDate: 2025-12-30
 ---
 
 > [Temporal](https://temporal.io/) is a durable execution platform for running reliable, long-running
-> workflows. This page tracks the self-hosted Temporal Server.
+> workflows.
+
+{: .warning }
+
+> This page tracks the self-hosted [Temporal Server](https://github.com/temporalio/temporal) releases.
+> [Temporal Cloud](https://docs.temporal.io/cloud) is a fully managed service upgraded by Temporal
+> Technologies, and is not covered here.
 
 Temporal Server follows semantic versioning, with a new minor version released every few months.
 The last three minor versions receive maintenance support: critical bug fixes related to security,
