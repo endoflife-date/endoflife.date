@@ -11,7 +11,6 @@ alternate_urls:
 versionCommand: dnf info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://docs.redhat.com/en/documentation/red_hat_satellite/__RELEASE_CYCLE__"
-releaseLabel: "Red Hat Satellite __RELEASE_CYCLE__"
 releaseDateColumn: General availability
 LTSLabel: "<abbr title='Extended Update Support'>EUS</abbr>"
 eoasColumn: Full support
