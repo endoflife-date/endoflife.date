@@ -24,21 +24,30 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "44"
+    releaseDate: 2026-07-29
+    eol: false
+    latest: "44.133.0"
+    latestReleaseDate: 2026-10-04
+
   - releaseCycle: "43"
     releaseDate: 2026-01-29
-    eol: false
-    latest: "43.243.1"
-    latestReleaseDate: 2026-06-25
+    eol: 2026-07-29
+    latest: "43.288.0"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "42"
     releaseDate: 2025-08-14
     eol: 2026-01-29
     latest: "42.99.0"
     latestReleaseDate: 2026-02-12
+
   - releaseCycle: "41"
     releaseDate: 2025-04-30
     eol: 2025-08-14
     latest: "41.173.1"
     latestReleaseDate: 2025-11-06
+
   - releaseCycle: "40"
     releaseDate: 2025-02-22
     eol: 2025-08-14
@@ -50,7 +59,7 @@ releases:
 > [Renovate (also known as the Renovate CLI)](https://docs.renovatebot.com) is an Open Source dependency update tool.
 > It is multi-platform, multi-language, and supports multiple Git forges
 > (GitHub, GitLab, Gitea, Forgejo, Gerrit and more).
-> Renovate was created by [Mend](https://mend.io) is an Open Source project maintained by [a mix of Mend employees and independent maintainers](https://docs.renovatebot.com/about-us/), and contributed to by the wider community.
+> Renovate was created by [Mend](https://www.mend.io) is an Open Source project maintained by [a mix of Mend employees and independent maintainers](https://docs.renovatebot.com/about-us/), and contributed to by the wider community.
 
 Only the latest major version is supported.
 

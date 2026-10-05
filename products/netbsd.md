@@ -17,14 +17,31 @@ identifiers:
 
 auto:
   methods:
-    - netbsd: https://www.netbsd.org/releases/formal.html
+    - version_table: https://www.netbsd.org/releases/formal.html
+      name_column: "Version"
+      date_column: "Released"
+      regex: '^NetBSD (?P<version>\d+(?:\.\d+)*)'
+      template: "{{version}}"
+    - release_table: https://www.netbsd.org/releases/formal.html
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^NetBSD (?P<value>\d+)(?:\.\d+)*$'
+        eol: "End of support"
 
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
 releases:
+  - releaseCycle: "11"
+    releaseDate: 2026-07-30
+    eoas: false
+    eol: false
+    latest: "11.0"
+    latestReleaseDate: 2026-07-30
+
   - releaseCycle: "10"
     releaseDate: 2024-03-28
-    eoas: false
+    eoas: 2026-07-30
     eol: false
     latest: "10.1"
     latestReleaseDate: 2024-12-16
@@ -32,13 +49,13 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2020-02-14
     eoas: 2024-03-28
-    eol: false
-    latest: "9.4"
-    latestReleaseDate: 2024-04-20
+    eol: 2026-08-31
+    latest: "9.5"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "8"
     releaseDate: 2018-07-17
-    eoas: 2022-02-14
+    eoas: 2020-02-14
     eol: 2024-05-04
     latest: "8.3"
     latestReleaseDate: 2024-05-04
@@ -93,6 +110,7 @@ releases:
     latest: "1.6.2"
     latestReleaseDate: 2004-03-01
     link: null
+
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like

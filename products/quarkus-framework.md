@@ -34,9 +34,38 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "3.40"
+    releaseDate: 2026-09-30
+    lts: true
+    eol: 2027-09-30
+    latest: "3.40.1"
+    latestReleaseDate: 2026-09-30
+    link: https://quarkus.io/blog/quarkus-3-40-released/
+
+  - releaseCycle: "3.39"
+    releaseDate: 2026-08-27
+    eol: 2026-09-30 # Releasedate 3.40
+    latest: "3.39.5"
+    latestReleaseDate: 2026-09-23
+    link: https://quarkus.io/blog/quarkus-3-39-released/
+
+  - releaseCycle: "3.38"
+    releaseDate: 2026-07-29
+    eol: 2026-08-27
+    latest: "3.38.3"
+    latestReleaseDate: 2026-08-19
+    link: https://quarkus.io/blog/quarkus-3-38-3-released/
+
+  - releaseCycle: "3.37"
+    releaseDate: 2026-06-24
+    eol: 2026-07-29
+    latest: "3.37.4"
+    latestReleaseDate: 2026-07-23
+    link: https://quarkus.io/blog/quarkus-3-37-1-released/
+
   - releaseCycle: "3.36"
     releaseDate: 2026-05-27
-    eol: false # releaseDate( 3.37 )
+    eol: 2026-06-24
     latest: "3.36.3"
     latestReleaseDate: 2026-06-18
     link: https://quarkus.io/blog/quarkus-3-36-1-released/
@@ -59,8 +88,9 @@ releases:
     lts: true
     releaseDate: 2026-03-25
     eol: 2027-03-25
-    latest: "3.33.2.1"
-    latestReleaseDate: 2026-06-17
+    eoes: false
+    latest: "3.33.4"
+    latestReleaseDate: 2026-09-30
     link: https://quarkus.io/blog/quarkus-3-33-released/
 
   - releaseCycle: "3.32"
@@ -100,8 +130,8 @@ releases:
     releaseDate: 2025-09-24
     eol: 2026-09-24
     eoes: false
-    latest: "3.27.4.1"
-    latestReleaseDate: 2026-06-17
+    latest: "3.27.6"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "3.26"
     releaseDate: 2025-08-28
@@ -420,7 +450,7 @@ releases:
 
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting the latest version every week in between.
 [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/), a new LTS version is also published every 6 months.
-For up-to-date release planning informations, see [dedicated page](https://github.com/quarkusio/quarkus/wiki/Release-Planning).
+For up-to-date release planning information, see [dedicated page](https://github.com/quarkusio/quarkus/wiki/Release-Planning).
 
 Quarkus releases an LTS (Long-Term Support) version every six months.
 LTS is designed for users who prioritize stability over new features.
@@ -432,7 +462,7 @@ For each LTS, micro-releases will occur every two months (e.g., 3.20.1, 3.20.2).
 Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161).
 LTS releases are supported for 12 months with critical bug fixes and security patches.
 
-Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus/), with a longer support timeline.
+Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/red-hat-build-quarkus/), with a longer support timeline.
 The code base used for this build is the same as the one used for the community version,
 but it comes with support, a [slower release cadence](https://access.redhat.com/support/policy/updates/jboss_notes#p_quarkus)
 and [certified builds of Quarkus and its dependencies](https://code.quarkus.redhat.com/).

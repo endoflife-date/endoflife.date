@@ -14,16 +14,18 @@ auto:
   methods:
     - git: https://github.com/wireshark/wireshark
       # https://regex101.com/r/fHvpY1/2
-      regex: ^wireshark-(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
+      regex: ^(wireshark-|v)(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
 
 identifiers:
   - repology: wireshark
   - purl: pkg:docker/linuxserver/wireshark
   - purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
+  - purl: pkg:winget/WiresharkFoundation.Wireshark
+  - purl: pkg:chocolatey/wireshark
   - cpe: cpe:2.3:a:wireshark:wireshark
   - cpe: cpe:/a:wireshark:wireshark
 
-# eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
+# eol(x) = eol(x.y+4) or see EOS here https://www.wireshark.org/docs/wsug_html/#ChIntroEndOfSupportPlanning
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
 releases:
@@ -31,15 +33,15 @@ releases:
     releaseDate: 2025-10-08
     eoas: false # releaseDate(4.7)
     eol: false
-    latest: "4.6.5"
-    latestReleaseDate: 2026-04-29
+    latest: "4.6.16"
+    latestReleaseDate: 2026-05-19
 
   - releaseCycle: "4.4"
     releaseDate: 2024-08-28
     eoas: 2025-10-08
     eol: false
-    latest: "4.4.15"
-    latestReleaseDate: 2026-04-29
+    latest: "4.4.19"
+    latestReleaseDate: 2026-09-23
 
   - releaseCycle: "4.2"
     releaseDate: 2023-11-15

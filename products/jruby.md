@@ -1,6 +1,6 @@
 ---
 title: JRuby
-addedAt: 2026-04-29
+addedAt: 2026-05-08
 category: lang
 tags: java-runtime
 permalink: /jruby
@@ -39,8 +39,8 @@ releases:
     minJavaVersion: "21"
     supportedRubyVersion: "4.0"
     eol: false
-    latest: "10.1.0.0"
-    latestReleaseDate: 2026-04-20
+    latest: "10.1.2.0"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "10.0"
     releaseDate: 2025-04-14
@@ -48,8 +48,8 @@ releases:
     minJavaVersion: "21"
     supportedRubyVersion: "3.4"
     eol: 2028-04-01 # source : https://www.jruby.org/2026/04/21/jruby-10-1-0-0.html
-    latest: "10.0.6.0"
-    latestReleaseDate: 2026-06-11
+    latest: "10.0.7.0"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "9.4"
     releaseDate: 2022-11-23
@@ -93,21 +93,10 @@ releases:
 
 ---
 
-> [JRuby](https://www.jruby.org/) is a high-performance, stable, fully threaded Java implementation
-> of the Ruby programming language.
+> [JRuby](https://www.jruby.org/) is a high-performance, stable, fully threaded Java implementation of the Ruby programming language.
 
-JRuby does not publish a formal end-of-life policy. In practice, the JRuby team typically focuses
-maintenance on the most recent major release line, with occasional patch releases for the previous
-line while users migrate. Each major JRuby version targets a specific
-[MRI Ruby language level](https://www.jruby.org/download):
+JRuby does not publish a formal end-of-life policy.
+In practice, the JRuby team typically focuses maintenance on the most recent major release line,
+with occasional patch releases for the previous line while users migrate.
 
-| JRuby | Ruby compatibility | Minimum Java |
-| ----- | ------------------ | ------------ |
-| 10.1  | 4.0                | 21           |
-| 10.0  | 3.4                | 21           |
-| 9.4   | 3.1                | 8            |
-| 9.3   | 2.6                | 8            |
-| 9.2   | 2.5                | 8            |
-| 9.1   | 2.3                | 7            |
-| 9.0   | 2.2                | 7            |
-| 1.7   | 1.9 / 2.0 / 2.1    | 6            |
+Each major JRuby version targets a specific [Ruby MRI language level](https://www.jruby.org/download) documented in the table above.

@@ -151,7 +151,7 @@ releases:
     releaseLabel: "2 Model B"
     # https://www.raspberrypi.com/news/raspberry-pi-2-on-sale/
     releaseDate: 2015-02-02
-    eol: 2026-01-01
+    eol: false # Due to revision 1.3 still supported ( 14/07/2026 )
     link: https://www.raspberrypi.com/products/raspberry-pi-2-model-b/
 
   - releaseCycle: "1-a+"
@@ -170,7 +170,7 @@ releases:
 
   - releaseCycle: "cm1"
     releaseLabel: Compute Module 1
-    # https://www.raspberrypi.org/raspberry-pi-compute-module-new-product/
+    # https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/
     releaseDate: 2014-04-07
     eol: 2026-01-01
     link: https://www.raspberrypi.com/products/compute-module-1/
