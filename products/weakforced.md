@@ -19,9 +19,15 @@ identifiers:
   - repology: weakforced
 
 releases:
+  - releaseCycle: "3.2"
+    releaseDate: 2026-08-20
+    eol: false
+    latest: "3.2.0"
+    latestReleaseDate: 2026-08-20
+
   - releaseCycle: "3.0"
     releaseDate: 2025-08-20
-    eol: false
+    eol: 2026-08-20
     latest: "3.0.1"
     latestReleaseDate: 2026-04-27
 
@@ -33,7 +39,7 @@ releases:
 
   - releaseCycle: "2.10"
     releaseDate: 2023-12-05
-    eol: 2024-08-23
+    eol: 2025-11-05
     latest: "2.10.3"
     latestReleaseDate: 2025-11-05
 

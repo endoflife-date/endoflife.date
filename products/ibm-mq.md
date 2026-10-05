@@ -27,6 +27,12 @@ auto:
 # EOL dates from https://www.techzert.com/ibm-mq-end-of-support
 # or https://www.ibm.com/support/pages/space/product-lifecycle/ibm_product_lifecycle_list.csv.
 releases:
+  - releaseCycle: "10.0"
+    releaseLabel: "IBM MQ 10.0 LTS"
+    releaseDate: 2026-06-16
+    eol: false
+    eoes: false
+
   - releaseCycle: "9.4"
     releaseLabel: "IBM MQ 9.4 LTS"
     releaseDate: 2024-06-18

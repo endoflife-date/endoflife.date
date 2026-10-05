@@ -31,58 +31,65 @@ auto:
         eoes: "End of extended support"
 
 releases:
+  - releaseCycle: "1.37"
+    releaseDate: 2026-10-01
+    eol: 2027-12-01
+    eoes: 2028-12-01
+    latest: "1.37-eks-4"
+    latestReleaseDate: 2026-10-01
+
   - releaseCycle: "1.36"
     releaseDate: 2026-06-02
     eol: 2027-08-02
     eoes: 2028-08-02
-    latest: "1.36-eks-3"
-    latestReleaseDate: 2026-06-02
+    latest: "1.36-eks-13"
+    latestReleaseDate: 2026-09-16
     link: https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36/
 
   - releaseCycle: "1.35"
     releaseDate: 2026-01-28
     eol: 2027-03-27
     eoes: 2028-03-27
-    latest: "1.35-eks-13"
-    latestReleaseDate: 2026-05-19
+    latest: "1.35-eks-23"
+    latestReleaseDate: 2026-09-16
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35/
 
   - releaseCycle: "1.34"
     releaseDate: 2025-10-06
     eol: 2026-12-02
     eoes: 2027-12-02
-    latest: "1.34-eks-23"
-    latestReleaseDate: 2026-05-19
+    latest: "1.34-eks-33"
+    latestReleaseDate: 2026-09-16
     link: https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-distro-kubernetes-version-1-34/
 
   - releaseCycle: "1.33"
     releaseDate: 2025-05-28
     eol: 2026-07-29
     eoes: 2027-07-29
-    latest: "1.33-eks-37"
-    latestReleaseDate: 2026-05-19
+    latest: "1.33-eks-47"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "1.32"
     releaseDate: 2025-01-25
     eol: 2026-03-23
     eoes: 2027-03-23
-    latest: "1.32-eks-44"
-    latestReleaseDate: 2026-05-19
+    latest: "1.32-eks-54"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "1.31"
     releaseDate: 2024-09-26
     eol: 2025-11-26
     eoes: 2026-11-26
-    latest: "1.31-eks-60"
-    latestReleaseDate: 2026-05-19
+    latest: "1.31-eks-70"
+    latestReleaseDate: 2026-09-16
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-eks-distro-kubernetes-version-1-31/
 
   - releaseCycle: "1.30"
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: "1.30-eks-68"
-    latestReleaseDate: 2026-05-19
+    latest: "1.30-eks-76"
+    latestReleaseDate: 2026-08-17
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
   - releaseCycle: "1.29"
@@ -184,7 +191,7 @@ given time. Standard support is provided by Amazon for as long as the upstream K
 is supported (14 months from the Kubernetes GA date). Following the standard support period, Amazon
 provides extended support for up to 12 months.
 
-You can subscribe to upgrade notices on your [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/).
+You can subscribe to upgrade notices on your [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/aws-health/).
 The notice includes the end of support date, which is at least 60 days from the date of the notice.
 
 Starting from version 1.23, Amazon EKS clusters running on an EOL version will automatically enter

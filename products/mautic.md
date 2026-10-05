@@ -6,7 +6,7 @@ tags: php-runtime
 iconSlug: mautic
 permalink: /mautic
 versionCommand: bin/console --version
-releasePolicyLink: https://www.mautic.org/mautic-releases
+releasePolicyLink: https://mautic.org/releases/
 changelogTemplate: https://github.com/mautic/mautic/releases/tag/__LATEST__
 eoasColumn: true
 eoesColumn: true
@@ -41,13 +41,21 @@ auto:
           template: "{{day}} {{month}} {{year}}"
 
 releases:
+  - releaseCycle: "7.2"
+    releaseDate: 2026-09-02
+    eoas: 2026-09-30
+    eol: 2026-09-30
+    eoes: false
+    latest: "7.2.1"
+    latestReleaseDate: 2026-09-23
+
   - releaseCycle: "7.1"
     releaseDate: 2026-04-14
     eoas: 2026-06-30
     eol: 2026-06-30
     eoes: false
-    latest: "7.1.2"
-    latestReleaseDate: 2026-05-28
+    latest: "7.1.3"
+    latestReleaseDate: 2026-07-07
 
   - releaseCycle: "7.0"
     releaseDate: 2026-01-20

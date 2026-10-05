@@ -11,8 +11,12 @@ changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
 eolColumn: Support
 
 identifiers:
-  - purl: pkg:npm/pnpm
   - repology: pnpm
+  - purl: pkg:brew/pnpm
+  - purl: pkg:github/pnpm/pnpm
+  - purl: pkg:npm/pnpm
+  - purl: pkg:oci/pnpm?repository_url=ghcr.io/pnpm
+  - cpe: cpe:/a:pnpm:pnpm
   - cpe: cpe:2.3:a:pnpm:pnpm
 
 auto:
@@ -20,17 +24,23 @@ auto:
     - npm: pnpm
 
 releases:
+  - releaseCycle: "12"
+    releaseDate: 2026-08-26
+    eol: false
+    latest: "12.9.1"
+    latestReleaseDate: 2026-10-03
+
   - releaseCycle: "11"
     releaseDate: 2026-04-28
-    eol: false
-    latest: "11.9.0"
-    latestReleaseDate: 2026-06-23
+    eol: 2027-04-30
+    latest: "11.28.4"
+    latestReleaseDate: 2026-10-03
 
   - releaseCycle: "10"
     releaseDate: 2025-01-07
-    eol: false
-    latest: "10.34.4"
-    latestReleaseDate: 2026-06-18
+    eol: 2027-04-30
+    latest: "10.34.6"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "9"
     releaseDate: 2024-04-16

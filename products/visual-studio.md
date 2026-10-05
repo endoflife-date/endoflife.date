@@ -16,21 +16,53 @@ auto:
   methods:
     # There is no build history for versions 2015 and below.
     # This is not a big deal because there was no version for those releases in a very long time.
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
-    - visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-history
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
+      name_column: "Version"
+      date_column: "Release Date"
+    - version_table: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-history
+      name_column: "Version"
+      date_column: "Release Date"
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
-# When adding a new major version (codename changes), remember to update URLS at auto:methods above also check https://github.com/endoflife-date/release-data/blob/main/src/visual-studio.py
+# When adding a new major version (codename changes), remember to update URLs at auto:methods above.
 releases:
+  - releaseCycle: "18.10"
+    codename: "2026"
+    releaseDate: 2026-09-08
+    eol: false # releaseDate(19.0 or 18.11)
+    latest: "18.10.3"
+    latestReleaseDate: 2026-09-29
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
+  - releaseCycle: "18.9"
+    codename: "2026"
+    releaseDate: 2026-08-11
+    eol: 2026-09-08
+    latest: "18.9.3"
+    latestReleaseDate: 2026-09-08
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
+  - releaseCycle: "18.8"
+    codename: "2026"
+    releaseDate: 2026-07-14
+    eol: 2026-08-11
+    latest: "18.8.3"
+    latestReleaseDate: 2026-08-11
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
   - releaseCycle: "18.7"
     codename: "2026"
     releaseDate: 2026-06-09
-    eol: false # releaseDate(18.8)
-    latest: "18.7.2"
-    latestReleaseDate: 2026-06-23
+    eol: 2026-07-14
+    latest: "18.7.4"
+    latestReleaseDate: 2026-07-14
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
 
   - releaseCycle: "18.6"
@@ -94,8 +126,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.34"
-    latestReleaseDate: 2026-06-09
+    latest: "17.14.40"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "17.13"
     codename: "2022"
@@ -109,8 +141,8 @@ releases:
     lts: true
     releaseDate: 2024-11-12
     eol: 2026-07-14
-    latest: "17.12.21"
-    latestReleaseDate: 2026-06-09
+    latest: "17.12.22"
+    latestReleaseDate: 2026-07-14
 
   - releaseCycle: "17.11"
     codename: "2022"
@@ -206,8 +238,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.57"
-    latestReleaseDate: 2026-06-09
+    latest: "16.11.60"
+    latestReleaseDate: 2026-09-08
 
   - releaseCycle: "16.10"
     codename: "2019"
@@ -290,9 +322,9 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.80"
-    latestReleaseDate: 2026-06-09
-    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
+    latest: "15.9.83"
+    latestReleaseDate: 2026-09-08
+    link: https://learn.microsoft.com/visualstudio/releases/2017/vs2017-relnotes#15.9.58
 
   - releaseCycle: "15.8"
     codename: "2017"

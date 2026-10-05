@@ -5,7 +5,7 @@ category: server-app
 iconSlug: icinga
 permalink: /icinga
 versionCommand: icinga2 -V
-releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
+releasePolicyLink: https://icinga.com/products/product-support-lifecycle/
 changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
 
@@ -15,6 +15,7 @@ identifiers:
   - purl: pkg:docker/icinga/icinga2
   - purl: pkg:github/Icinga/icinga2
   - purl: pkg:github/Icinga/icinga-core
+  - purl: pkg:chocolatey/icinga2
   - cpe: cpe:2.3:a:icinga:icinga
 
 auto:
@@ -32,22 +33,22 @@ releases:
     releaseDate: 2026-04-23
     eoas: false
     eol: false
-    latest: "2.16.1"
-    latestReleaseDate: 2026-05-21
+    latest: "2.16.5"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "2.15"
     releaseDate: 2025-06-17
     eoas: 2026-04-23
     eol: false
-    latest: "2.15.3"
-    latestReleaseDate: 2026-04-22
+    latest: "2.15.6"
+    latestReleaseDate: 2026-08-14
 
   - releaseCycle: "2.14"
     releaseDate: 2023-07-12
     eoas: 2025-06-17
     eol: 2026-04-23
-    latest: "2.14.8"
-    latestReleaseDate: 2026-01-29
+    latest: "2.14.10"
+    latestReleaseDate: 2026-06-30
 
   - releaseCycle: "2.13"
     releaseDate: 2021-08-02

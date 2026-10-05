@@ -38,8 +38,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false # releaseDate(11)
-    latest: "9.10.1"
-    latestReleaseDate: 2026-01-20
+    latest: "9.11.0"
+    latestReleaseDate: 2026-10-04
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13

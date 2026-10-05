@@ -16,8 +16,8 @@ eoesColumn: Extended Security Updates
 releases:
   - releaseCycle: "2025"
     releaseDate: 2024-11-01
-    eoas: 2029-10-09
-    eol: 2034-10-10
+    eoas: 2029-11-13
+    eol: 2034-11-14
     latest: 10.0.26100
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
@@ -25,10 +25,10 @@ releases:
   - releaseCycle: "23h2-ac"
     releaseLabel: "Windows Server 23H2 AC"
     releaseDate: 2023-10-24
-    eoas: 2025-04-24
-    eol: 2025-10-24
+    eoas: 2026-05-12
+    eol: 2026-05-12
     latest: 10.0.25398
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-annual-channel
+    link: https://support.microsoft.com/servicing/os/windows-server/2026/05/end-of-updates-statement
 
   - releaseCycle: "2022"
     releaseDate: 2021-08-18
@@ -100,7 +100,7 @@ releases:
     eoas: 2019-04-09
     eol: 2019-04-09
     latest: 10.0.16299
-    link: https://techcommunity.microsoft.com/t5/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/m-p/379766
+    link: https://techcommunity.microsoft.com/discussions/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/379766
 
   - releaseCycle: "2016"
     releaseDate: 2016-10-15

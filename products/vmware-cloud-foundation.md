@@ -20,8 +20,8 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     # technicalGuidance: ???
-    latest: "9.1.0.0"
-    latestReleaseDate: 2026-05-12
+    latest: "9.1.1.0"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
@@ -136,7 +136,7 @@ releases:
     link: https://web.archive.org/web/20230429044053/https://docs.vmware.com/en/VMware-Cloud-Foundation/2.3/vcf-23x-doc.zip
 ---
 
-> [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-foundation.html), is a suite of
+> [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-infrastructure/vmware-cloud-foundation), is a suite of
 > software-defined data center (SDDC) technologies consisting of vSphere, NSX, and vSAN. It is
 > available in multiple editions — Starter, Standard, Advanced, and Enterprise.
 
