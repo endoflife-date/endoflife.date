@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.5.1"
-    latestReleaseDate: 2026-08-12
+    latest: "10.5.2"
+    latestReleaseDate: 2026-10-04
 
   - releaseCycle: "9"
     staleReleaseThresholdDays: 730 # still listed on https://lucene.apache.org/core/downloads.html
