@@ -47,6 +47,13 @@ auto:
 # For EOL dates, see the "End of support" column on https://docs.cloud.google.com/container-optimized-os/docs/release-notes/
 # (month-only dates are recorded as the first day of that month).
 releases:
+  - releaseCycle: "cos-133"
+    lts: true
+    releaseDate: 2026-09-28
+    eol: 2028-11-01
+    latest: "cos-133-19999-44-85"
+    latestReleaseDate: 2026-09-28
+
   - releaseCycle: "cos-129"
     lts: true
     releaseDate: 2026-05-21
