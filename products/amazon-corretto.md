@@ -174,8 +174,8 @@ releases:
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.504.01.1"
-    latestReleaseDate: 2026-08-18
+    latest: "8.504.04.1"
+    latestReleaseDate: 2026-10-01
 
 ---
 

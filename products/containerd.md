@@ -71,7 +71,7 @@ releases:
     releaseDate: 2023-03-10
     lts: true
     eoas: 2025-05-05 # releaseDate(2.0) + 6 months
-    eol: 2026-09-01 # only year and month are decided
+    eol: 2026-09-30 # only year and month are decided
     latest: "1.7.36"
     latestReleaseDate: 2026-09-24
 
