@@ -29,12 +29,12 @@ auto:
 releases:
   - releaseCycle: "6.19"
     releaseDate: 2026-05-06
+    lts: true
     eoas: 2026-11-01 # Estimated
     eol: 2027-11-01 # Estimated
     eoes: 2028-11-01 # Estimated
     latest: "6.19.4"
     latestReleaseDate: 2026-09-03
-    lts: true
     
 
   - releaseCycle: "6.18"
@@ -52,13 +52,13 @@ releases:
     latestReleaseDate: 2026-09-03
 
   - releaseCycle: "6.16"
+    lts: true
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
     eoes: 2027-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
-    lts: true
     
 
   - releaseCycle: "6.15"
