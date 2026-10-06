@@ -23,7 +23,9 @@ auto:
       header_selector: "tr:nth-of-type(1)"
       remove_if_undefined: "releaseDate"
       fields:
-        releaseCycle: "Version"
+        releaseCycle:
+          column: "Version"
+          regex_exclude: '^0\.9'
         codename: "Code Name"
         releaseDate: "Release Date"
         eoas: "End of Life (EOL)"
