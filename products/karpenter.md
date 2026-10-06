@@ -26,11 +26,14 @@ customFields:
     description: Supported Kubernetes Versions
     link: https://karpenter.sh/docs/upgrading/compatibility
 
-# eol(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+1), except LTS cycles (every ~6 months one minor is
+# designated LTS with 12 months of support, per
+# https://github.com/aws/karpenter-provider-aws/blob/main/SUPPORT.md)
 releases:
   - releaseCycle: "1.14"
     releaseDate: 2026-07-11
-    eol: false
+    lts: true
+    eol: 2027-07-11
     latest: "1.14.1"
     latestReleaseDate: 2026-08-21
     supportedKubernetesVersion: "1.29 - 1.36"
@@ -65,7 +68,8 @@ releases:
 
   - releaseCycle: "1.9"
     releaseDate: 2026-02-06
-    eol: 2026-03-20
+    lts: true
+    eol: 2027-02-06
     latest: "1.9.1"
     latestReleaseDate: 2026-07-08
     supportedKubernetesVersion: "1.29 - 1.35"
