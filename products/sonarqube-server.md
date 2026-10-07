@@ -30,8 +30,8 @@ releases:
     releaseDate: 2026-09-29 # https://community.sonarsource.com/t/sonarqube-server-2026-5-lta/189075
     eoas: 2027-10-01
     eol: 2028-03-01
-    latest: "2026.5.0"
-    latestReleaseDate: 2026-09-29
+    latest: "2026.5.2"
+    latestReleaseDate: 2026-10-06
     link: https://community.sonarsource.com/t/sonarqube-server-2026-5-lta/189075
 
   - releaseCycle: "2026.4"

@@ -35,8 +35,8 @@ releases:
   - releaseCycle: "10.5"
     releaseDate: 2026-09-28
     eol: false
-    latest: "10.5.0"
-    latestReleaseDate: 2026-09-28
+    latest: "10.5.1"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "10.4"
     releaseDate: 2026-05-12
@@ -54,8 +54,8 @@ releases:
     releaseDate: 2026-03-03
     lts: true
     eol: 2028-03-03
-    latest: "10.2.7"
-    latestReleaseDate: 2026-09-06
+    latest: "10.2.8"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "10.1"
     releaseDate: 2025-11-20
@@ -85,8 +85,8 @@ releases:
     lts: true
     releaseDate: 2024-12-02
     eol: 2026-12-03
-    latest: "9.4.24"
-    latestReleaseDate: 2026-09-06
+    latest: "9.4.26"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "9.3"
     releaseDate: 2024-10-29
