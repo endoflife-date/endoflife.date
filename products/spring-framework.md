@@ -2,7 +2,7 @@
 title: Spring Framework
 addedAt: 2021-03-10
 category: framework
-tags: java-runtime vmware
+tags: herodevs java-runtime vmware
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
@@ -163,6 +163,8 @@ for more details about the support roadmap.
 
 Extended support is available
 [from VMWare](https://blogs.vmware.com/tanzu/vmware-spring-runtime-extended-support/).
+Commercial support for some EOL versions of Spring Framework is also available through the
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/spring-nes) initiative.
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
