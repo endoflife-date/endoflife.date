@@ -2,7 +2,7 @@
 title: Spring Boot
 addedAt: 2022-11-09
 category: framework
-tags: java-runtime vmware
+tags: herodevs java-runtime vmware
 iconSlug: springboot
 permalink: /spring-boot
 alternate_urls:
@@ -211,8 +211,8 @@ See [Spring Boot Milestones page](https://github.com/spring-projects/spring-boot
 upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-boot#support) for
 more details about the support roadmap.
 
-A commercial offer for extended support is available
-[from VMWare Tanzu](https://enterprise.spring.io/).
+A commercial offer for extended support is available from [VMWare Tanzu](https://enterprise.spring.io/)
+and [HeroDevs Never-Ending Support](https://www.herodevs.com/resources/spring-eol-hub).
 
 ## Java Compatibility
 
