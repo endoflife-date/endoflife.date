@@ -39,8 +39,8 @@ releases:
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: "11"
-    latest: "10.1.60"
-    latestReleaseDate: 2026-09-09
+    latest: "10.1.61"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "10.0"
     releaseDate: 2020-12-03
@@ -53,8 +53,8 @@ releases:
     releaseDate: 2017-09-27
     eol: 2027-03-31 # https://tomcat.apache.org/tomcat-9.0.x-eos.html
     minJavaVersion: "8"
-    latest: "9.0.122"
-    latestReleaseDate: 2026-09-10
+    latest: "9.0.123"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "8.5"
     releaseDate: 2016-03-17
