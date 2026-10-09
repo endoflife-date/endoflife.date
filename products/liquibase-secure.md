@@ -1,6 +1,6 @@
 ---
 title: Liquibase Secure
-addedAt: 2026-10-01
+addedAt: 2026-10-09
 category: framework
 tags: java-runtime
 iconSlug: liquibase
