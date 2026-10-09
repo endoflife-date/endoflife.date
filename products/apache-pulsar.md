@@ -23,6 +23,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '(?P<value>\d+\.\d+).*'
+          regex_exclude: '.*milestone.*' # milestone (pre-)releases, such as 5.0.0-M1, are not GA releases
         releaseDate:
           column: "Released"
           regex: '.*\((?P<value>.+)\)'
@@ -34,12 +35,20 @@ auto:
           regex: '.*\((?P<value>.+)\)'
 
 releases:
+  - releaseCycle: "5.0"
+    lts: true
+    releaseDate: 2026-10-05
+    eol: 2028-10-05
+    eoes: 2029-10-05
+    latest: "5.0.0"
+    latestReleaseDate: 2026-10-05
+
   - releaseCycle: "4.2"
     releaseDate: 2026-03-24
     eol: 2026-09-24
     eoes: 2026-09-24
-    latest: "4.2.4"
-    latestReleaseDate: 2026-08-03
+    latest: "4.2.5"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-08
@@ -53,8 +62,8 @@ releases:
     releaseDate: 2024-10-21
     eol: 2026-10-21
     eoes: 2027-10-21
-    latest: "4.0.13"
-    latestReleaseDate: 2026-08-03
+    latest: "4.0.14"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "3.3"
     releaseDate: 2024-06-05

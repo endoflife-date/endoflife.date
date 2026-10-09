@@ -25,15 +25,25 @@ auto:
     - git: https://github.com/metabase/metabase.git
       regex: ^v(?P<version>0\.\d+(?:\.\d+){1,2})$
       template: "{{version}}"
-    - metabase: https://static.metabase.com/version-info.json
-      template: "0.{{major}}"
+    - json_releases: https://static.metabase.com/version-info.json
+      selector: '$.major_version_support[*]'
+      fields:
+        releaseCycle:
+          selector: '$.major'
+          regex: '^(?P<major>\d+)$'
+          template: '0.{{major}}'
+        releaseDate: '$.released'
+        eol: '$.eol'
+        lts:
+          selector: '$.lts'
+          regex: '(?i)^(?P<value>true)$'
 
 releases:
   - releaseCycle: "0.63"
     releaseDate: 2026-07-07
     eol: 2026-11-01
-    latest: "0.63.18"
-    latestReleaseDate: 2026-09-15
+    latest: "0.63.19.5"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "0.62"
     releaseDate: 2026-06-01
@@ -56,15 +66,15 @@ releases:
   - releaseCycle: "0.59"
     releaseDate: 2026-02-12
     eol: 2026-09-01
-    latest: "0.59.31"
-    latestReleaseDate: 2026-09-01
+    latest: "0.59.31.1"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "0.58"
     lts: true
     releaseDate: 2025-12-17
     eol: 2027-02-17
-    latest: "0.58.34"
-    latestReleaseDate: 2026-09-14
+    latest: "0.58.35"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "0.57"
     releaseDate: 2025-11-01

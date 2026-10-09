@@ -52,20 +52,20 @@ releases:
   - releaseCycle: "2.15"
     releaseDate: 2026-03-20
     eol: false
-    latest: "2.15.2"
-    latestReleaseDate: 2026-07-02
+    latest: "2.15.3"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "2.14"
     releaseDate: 2025-09-17
     eol: false
-    latest: "2.14.4"
-    latestReleaseDate: 2026-05-11
+    latest: "2.14.5"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "2.13"
     releaseDate: 2025-04-09
     eol: false
-    latest: "2.13.5"
-    latestReleaseDate: 2026-03-10
+    latest: "2.13.6"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "2.12"
     releaseDate: 2024-11-05

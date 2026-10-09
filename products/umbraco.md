@@ -40,16 +40,16 @@ releases:
     releaseDate: 2026-06-25
     eoas: 2027-03-25
     eol: 2027-06-25
-    latest: "18.1.1"
-    latestReleaseDate: 2026-08-18
+    latest: "18.2.1"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2025-11-27
     eoas: 2027-11-27
     eol: 2028-11-27
-    latest: "17.6.2"
-    latestReleaseDate: 2026-08-18
+    latest: "17.7.1"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "16"
     releaseDate: 2025-06-12
@@ -162,4 +162,4 @@ months from the first release, extended to 24 months for LTS major releases. It 
 major releases. At the end of the Security phase, major releases are considered End Of Life (EOL).
 
 A full list of releases with their release notes can be found on
-[Umbraco All Releases page](https://our.umbraco.com/download/releases).
+[Umbraco All Releases page](https://releases.umbraco.com/).
