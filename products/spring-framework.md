@@ -2,7 +2,7 @@
 title: Spring Framework
 addedAt: 2021-03-10
 category: framework
-tags: herodevs java-runtime vmware
+tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
