@@ -41,6 +41,14 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-haiku-5-5"
+    releaseLabel: Claude Haiku 5.5
+    releaseDate: 2026-10-07
+    eoas: false
+    eol: 2027-10-07
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-haiku-5-5
+
   - releaseCycle: "claude-sonnet-5-5"
     releaseLabel: Claude Sonnet 5.5
     releaseDate: 2026-09-28
@@ -48,6 +56,7 @@ releases:
     eol: 2027-09-28
     recommendedReplacement: "N/A"
     link: https://www.anthropic.com/claude-sonnet-5-5
+
   - releaseCycle: "claude-opus-5-5"
     releaseLabel: Claude Opus 5.5
     releaseDate: 2026-09-22
