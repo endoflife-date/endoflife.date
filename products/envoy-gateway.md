@@ -20,11 +20,17 @@ identifiers:
 # A minor release is supported for 6 months following its release date.
 # See https://gateway.envoyproxy.io/news/releases/
 releases:
+  - releaseCycle: "1.9"
+    releaseDate: 2026-08-14
+    eol: 2027-02-14
+    latest: "1.9.2"
+    latestReleaseDate: 2026-09-29
+
   - releaseCycle: "1.8"
-    releaseDate: 2026-05-13
-    eol: 2026-11-08
-    latest: "1.8.3"
-    latestReleaseDate: 2026-07-22
+    releaseDate: 2026-05-14
+    eol: 2026-11-14
+    latest: "1.8.5"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "1.7"
     releaseDate: 2026-02-05
