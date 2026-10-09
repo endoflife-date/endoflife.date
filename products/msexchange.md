@@ -19,9 +19,9 @@ releases:
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.46"
-    latestReleaseDate: 2026-08-11
-    link: https://support.microsoft.com/help/5121573
+    latest: "15.2.2562.49"
+    latestReleaseDate: 2026-09-08
+    link: https://support.microsoft.com/help/5121608
 
   - releaseCycle: "2019"
     releaseLabel: "2019 CU15 SU5"

@@ -10,6 +10,20 @@ changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATES
 eoasColumn: true
 eolColumn: Security Support
 
+identifiers:
+  - repology: jreleaser
+  - purl: pkg:apk/alpine/jreleaser
+  - purl: pkg:brew/jreleaser
+  - purl: pkg:chocolatey/jreleaser
+  - purl: pkg:github/jreleaser/jreleaser
+  - purl: pkg:docker/jreleaser/jreleaser-alpine
+  - purl: pkg:docker/jreleaser/jreleaser-slim
+  - purl: pkg:docker/jreleaser/jreleaser-ubi
+  - purl: pkg:maven/org.jreleaser/jreleaser
+  - purl: pkg:rpm/fedora/jreleaser
+  - purl: pkg:scoop/jreleaser
+  - purl: pkg:winget/JReleaser.jreleaser
+
 auto:
   methods:
     - git: https://github.com/jreleaser/jreleaser.git
@@ -19,8 +33,8 @@ releases:
     releaseDate: 2022-04-10
     eol: false
     eoas: false
-    latest: "1.25.0"
-    latestReleaseDate: 2026-06-29
+    latest: "1.26.0"
+    latestReleaseDate: 2026-08-31
 
   - releaseCycle: "0"
     releaseDate: 2021-04-10

@@ -128,7 +128,7 @@ releases:
     releaseDate: 2024-09-04
     eoas: 2031-09-01
     eol: 2031-09-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13218.php
 
@@ -137,7 +137,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9_Pro_XL
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro_xl-13217.php
 
@@ -146,7 +146,7 @@ releases:
     releaseDate: 2024-08-22
     eoas: 2031-08-01
     eol: 2031-08-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_9
     supportedAndroidVersions: "14 - 17" # https://www.gsmarena.com/google_pixel_9_pro-13219.php
 
@@ -191,7 +191,7 @@ releases:
     releaseDate: 2023-06-20
     eoas: 2028-06-01
     eol: 2028-06-01
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
     supportedAndroidVersions: "13 - 17" # https://www.gsmarena.com/google_pixel_tablet-11905.php
 
@@ -384,7 +384,7 @@ of Pixel 6 in 2021, Pixel phones have been supported with guaranteed Android ver
 for three years and security updates for five years.
 
 In October 2023, it was
-[announced](https://blog.google/products/pixel/software-support-pixel-8-pixel-8-pro/) that
+[announced](https://blog.google/products-and-platforms/devices/pixel/software-support-pixel-8-pixel-8-pro/) that
 Pixel 8 and Pixel 8 Pro will be guaranteed both Android version updates and security updates for
 seven years, offering full support until October 2030.
 

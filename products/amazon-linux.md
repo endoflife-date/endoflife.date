@@ -29,16 +29,16 @@ releases:
     releaseDate: 2023-03-01
     eoas: 2027-06-30
     eol: 2029-06-30
-    latest: "2023.12.20260817.0"
-    latestReleaseDate: 2026-08-20
+    latest: "2023.12.20260930.0"
+    latestReleaseDate: 2026-10-05
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
   - releaseCycle: "2"
     releaseDate: 2018-06-26
     eoas: 2026-06-30
     eol: 2026-06-30
-    latest: "2.0.20260817.0"
-    latestReleaseDate: 2026-08-20
+    latest: "2.0.20260930.0"
+    latestReleaseDate: 2026-10-05
     link: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
   - releaseCycle: "2018.03"
@@ -183,9 +183,8 @@ details.
 
 ## Amazon Linux 2
 
-[Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until
-June 30, 2026_[^2]. User-space Application Binary Interface (ABI) compatibility is guaranteed for
-[specific packages][al2-faq]. It only seems to receive critical bug fixes and security patches.
+[Amazon Linux 2][al2] [reached its end of support on June 30, 2026][al2-faq][^2] and
+is no longer receiving standard security updates. AWS recommends migrating to Amazon Linux 2023.
 
 ## Amazon Linux 2023
 

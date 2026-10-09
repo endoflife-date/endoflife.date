@@ -43,12 +43,12 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "10.9.1"
-    latestReleaseDate: 2026-08-24
+    latest: "10.12.0"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "9"
     releaseDate: 2024-04-05
-    eoas: false
+    eoas: 2025-11-14
     eol: 2026-08-06
     eoes: false
     eoesProvider: Tidelift
@@ -123,5 +123,5 @@ ESLint only actively supports the latest version with new features, bug fixes, a
 version is released, the previous major version enters in a maintenance phase and only receives critical bug and
 security fixes for 6 months.
 
-Commercial support is available for both current and previous versions through ESLint's partners, [Tidelift](https://tidelift.com/funding/github/npm/eslint)
-and [HeroDevs](https://www.herodevs.com/support/eslint-nes).
+Commercial support is available for current versions through ESLint's partner [Tidelift](https://tidelift.com/funding/github/npm/eslint) and EOL release lines
+through ESLint's partner [HeroDevs](https://www.herodevs.com/support/eslint-nes).

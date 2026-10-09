@@ -8,7 +8,7 @@ permalink: /icinga-web
 alternate_urls:
   - /icingaweb
 versionCommand: icingacli version
-releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
+releasePolicyLink: https://icinga.com/products/product-support-lifecycle/
 changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
 eoasColumn: true
 

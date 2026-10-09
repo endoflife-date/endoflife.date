@@ -6,7 +6,7 @@ tags: meta javascript-runtime
 iconSlug: react
 permalink: /react-native
 releasePolicyLink: https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
-changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/react/react-native/releases/tag/v__LATEST__
 eoasColumn: true
 
 identifiers:
@@ -28,8 +28,8 @@ releases:
     releaseDate: 2026-08-11
     eoas: false
     eol: false
-    latest: "0.87.0"
-    latestReleaseDate: 2026-08-11
+    latest: "0.87.1"
+    latestReleaseDate: 2026-08-26
 
   - releaseCycle: "0.86"
     releaseDate: 2026-06-09

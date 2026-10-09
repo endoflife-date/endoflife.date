@@ -13,25 +13,28 @@ eolColumn: Support
 auto:
   methods:
     - git: https://github.com/xcp-ng/xcp-ng-release.git
-    - release_table: https://xcp-ng.org/docs/releases.html#lts-releases
+    - release_table: https://docs.xcp-ng.org/releases/#lts-releases
       fields:
         releaseCycle:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Released"
-        eol: "Support until"
+        eol:
+          column: "Support until"
+          regex: '.*(?P<value>\d{4}-\d{2}-\d{2}).*'
 
 releases:
   - releaseCycle: "8.3"
     releaseDate: 2024-10-07
     eol: 2028-11-30
+    lts: true
     latest: "8.3.0"
     latestReleaseDate: 2024-08-23
     link: https://docs.xcp-ng.org/releases/release-8-3/
 
   - releaseCycle: "8.2"
-    releaseDate: 2020-11-13
-    eol: 2025-06-25
+    releaseDate: 2020-11-18
+    eol: 2025-09-16
     lts: true
     latest: "8.2.1"
     latestReleaseDate: 2022-01-03

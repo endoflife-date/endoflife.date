@@ -33,15 +33,15 @@ releases:
   - releaseCycle: "1.27"
     releaseDate: 2026-08-19
     eol: false
-    latest: "1.27.0"
-    latestReleaseDate: 2026-08-19
+    latest: "1.27.2"
+    latestReleaseDate: 2026-10-08
     link: https://go.dev/doc/go1.27
 
   - releaseCycle: "1.26"
     releaseDate: 2026-02-10
     eol: false
-    latest: "1.26.7"
-    latestReleaseDate: 2026-08-19
+    latest: "1.26.9"
+    latestReleaseDate: 2026-10-08
     link: https://go.dev/doc/go1.26
 
   - releaseCycle: "1.25"
@@ -149,4 +149,4 @@ Each major Go release is supported until there are two newer major releases. For
 supported until the Go 1.7 release, and Go 1.6 was supported until the Go 1.8 release. It fixes
 critical problems, including critical security problems, in supported releases as needed by issuing
 minor revisions (for example, Go 1.6.1, Go 1.6.2, and so on). The security policy can be found at
-<https://go.dev/security/>.
+<https://go.dev/doc/security/>.

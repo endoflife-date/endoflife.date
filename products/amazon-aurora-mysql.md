@@ -28,16 +28,16 @@ releases:
     releaseDate: 2026-05-21 # https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/
     eol: 2032-04-30
     eoes: false
-    latest: "8.4.7"
-    latestReleaseDate: 2026-05-21
+    latest: "8.4.8"
+    latestReleaseDate: 2026-09-03
 
   - releaseCycle: "3"
     releaseLabel: "3 (MySQL 8.0)"
     releaseDate: 2021-11-23
     eol: 2028-04-30
     eoes: 2029-07-31
-    latest: "3.12"
-    latestReleaseDate: 2026-02-17
+    latest: "3.13"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "2"
     releaseLabel: "2 (MySQL 5.7)"
@@ -54,6 +54,7 @@ releases:
     eoes: true
     latest: "1.23.4"
     latestReleaseDate: 2022-08-11
+
 ---
 
 > [Amazon Aurora MySQL](https://aws.amazon.com/rds/aurora/) is a MySQL-compatible edition of Amazon

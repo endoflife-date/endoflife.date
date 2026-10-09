@@ -44,8 +44,8 @@ releases:
     supportedPhpVersions: 8.2 - 8.5
     eoas: false
     eol: false # releaseDate(5.7)
-    latest: "5.4.1"
-    latestReleaseDate: 2026-07-28
+    latest: "5.4.3"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "5.3"
     codename: "Chiffon"
@@ -350,7 +350,7 @@ releases:
 > follows the model–view–controller (MVC) approach and is written in PHP, modeled after the
 > concepts of Ruby on Rails.
 
-CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
+CakePHP follows [Semantic Versioning](https://book.cakephp.org/4.x/release-policy.html). From 3.x
 onward, major versions have a codename:
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"codename"," - " %}
