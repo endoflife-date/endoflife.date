@@ -5,7 +5,6 @@ tags: linux-distribution
 permalink: /apertis
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.apertis.org/policies/release-flow/
-releaseImage: https://www.apertis.org/images/fully_combined_release_roadmap.svg
 
 identifiers:
 -   cpe: cpe:2.3:o:collabora:apertis
