@@ -176,7 +176,7 @@ releases:
     releaseDate: 2025-05-22
     eoas: 2026-04-14
     eol: 2026-06-15
-    recommendedReplacement: "claude-sonnet-4-6"
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://www.anthropic.com/news/claude-4
 
   - releaseCycle: "claude-opus-4-20250514"
@@ -192,7 +192,7 @@ releases:
     releaseDate: 2025-02-24
     eoas: 2025-10-28
     eol: 2026-02-19
-    recommendedReplacement: "claude-sonnet-4-6"
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://www.anthropic.com/news/claude-3-7-sonnet
 
   - releaseCycle: "claude-3-5-haiku-20241022"
@@ -208,7 +208,7 @@ releases:
     releaseDate: 2024-10-22
     eoas: 2025-08-13
     eol: 2025-10-28
-    recommendedReplacement: "claude-sonnet-4-6"
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://www.anthropic.com/news/3-5-models-and-computer-use
 
   - releaseCycle: "claude-3-5-sonnet-20240620"
@@ -216,7 +216,7 @@ releases:
     releaseDate: 2024-06-21
     eoas: 2025-08-13
     eol: 2025-10-28
-    recommendedReplacement: "claude-sonnet-4-6"
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://www.anthropic.com/news/claude-3-5-sonnet
 
   - releaseCycle: "claude-3-haiku-20240307"
@@ -240,7 +240,7 @@ releases:
     releaseDate: 2024-03-04
     eoas: 2025-01-21
     eol: 2025-07-21
-    recommendedReplacement: "claude-sonnet-4-6"
+    recommendedReplacement: "claude-sonnet-5-5"
     link: https://www.anthropic.com/news/claude-3-family
 
   - releaseCycle: "claude-2.1"
