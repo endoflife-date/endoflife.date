@@ -21,8 +21,8 @@ auto:
 releases:
   - releaseCycle: "13"
     releaseDate: 2025-09-03
-    eoas: 2028-11-01
-    eol: 2028-11-01
+    eoas: 2028-11-30
+    eol: 2028-11-30
     link: https://www.veeam.com/kb4738
     latest: "13.1.1.18"
     latestReleaseDate: 2026-08-13
@@ -30,7 +30,7 @@ releases:
   - releaseCycle: "12"
     releaseDate: 2023-01-30
     eoas: 2025-09-03
-    eol: 2027-02-01
+    eol: 2027-02-28
     link: "https://www.veeam.com/kb4420"
     latest: "12.3.2.4934"
     latestReleaseDate: 2026-09-29
