@@ -12,11 +12,10 @@ identifiers:
 -   cpe: cpe:/o:collabora:apertis
 
 # Releases list: https://www.apertis.org/release/
-# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "v2026"
-    releaseDate: 2025-03-06
-    eol: 2026-12-31
+    releaseDate: 2026-03-03
+    eol: 2027-12-31
     latest: "v2026.2"
     latestReleaseDate: 2026-09-02
 
