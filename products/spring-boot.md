@@ -213,6 +213,7 @@ more details about the support roadmap.
 
 A commercial offer for extended support is available from [VMWare Tanzu](https://enterprise.spring.io/)
 and [HeroDevs Never-Ending Support](https://www.herodevs.com/resources/spring-eol-hub).
+The commercial support documented above is the one from VMWare.
 
 ## Java Compatibility
 
