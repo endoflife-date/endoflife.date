@@ -68,6 +68,18 @@ releases:
     latest: "4.0.9"
     latestReleaseDate: 2021-04-26
 
+  - releaseCycle: "3.4"
+    releaseDate: 2017-07-02
+    eol: 2020-04-06
+    latest: "3.4.13"
+    latestReleaseDate: 2019-12-20
+
+  - releaseCycle: "3.3"
+    releaseDate: 2016-06-19
+    eol: 2019-11-18
+    latest: "3.3.10"
+    latestReleaseDate: 2019-11-18
+
 ---
 
 > [Redmine](https://www.redmine.org/) is an open-source project management tool written using the Ruby
