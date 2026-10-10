@@ -91,8 +91,8 @@ releases:
     eoas: 2026-02-23
     eol: 2026-04-14
     eoes: 2026-12-02
-    latest: "2.29.19"
-    latestReleaseDate: 2026-06-27
+    latest: "2.29.21"
+    latestReleaseDate: 2026-10-09
 
   - releaseCycle: "2.28"
     releaseDate: 2025-11-04
