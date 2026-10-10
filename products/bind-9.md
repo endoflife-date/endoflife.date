@@ -1,6 +1,6 @@
 ---
 title: BIND 9
-addedAt: 2026-09-10
+addedAt: 2026-09-14
 category: server-app
 permalink: /bind-9
 releasePolicyLink: https://kb.isc.org/docs/aa-00896
