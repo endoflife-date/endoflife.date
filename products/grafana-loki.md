@@ -2,8 +2,8 @@
 title: Grafana Loki
 addedAt: 2024-08-04
 category: server-app
+tags: grafana-labs
 iconSlug: grafana
-tags: grafana
 permalink: /grafana-loki
 alternate_urls:
   - /loki

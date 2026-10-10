@@ -2,8 +2,8 @@
 title: Grafana Tempo
 addedAt: 2026-06-08
 category: server-app
+tags: grafana-labs
 iconSlug: grafana
-tags: grafana
 permalink: /grafana-tempo
 alternate_urls:
   - /tempo
@@ -18,26 +18,31 @@ identifiers:
   - purl: pkg:github/grafana/tempo
   - purl: pkg:docker/grafana/tempo
 
-# eol(x) = releaseDate(x+2), same policy as Grafana Loki and Alloy.
-# The two most recent minor versions are actively maintained.
+# eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.1"
+    releaseDate: 2026-09-29
+    eol: false
+    latest: "3.1.0"
+    latestReleaseDate: 2026-09-29
+
   - releaseCycle: "3.0"
     releaseDate: 2026-05-28
     eol: false
-    latest: "3.0.0"
-    latestReleaseDate: 2026-05-28
+    latest: "3.0.3"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "2.10"
     releaseDate: 2026-01-26
     eol: false
-    latest: "2.10.5"
-    latestReleaseDate: 2026-04-23
+    latest: "2.10.8"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "2.9"
     releaseDate: 2025-10-13
-    eol: 2026-01-26
-    latest: "2.9.2"
-    latestReleaseDate: 2026-04-23
+    eol: 2026-12-31 # https://grafana.com/docs/tempo/latest/release-notes/version-2/v2-9/
+    latest: "2.9.5"
+    latestReleaseDate: 2026-08-13
 
   - releaseCycle: "2.8"
     releaseDate: 2025-06-10

@@ -2,8 +2,8 @@
 title: Grafana Alloy
 addedAt: 2026-06-08
 category: server-app
+tags: grafana-labs
 iconSlug: grafana
-tags: grafana
 permalink: /grafana-alloy
 alternate_urls:
   - /alloy
@@ -20,20 +20,43 @@ identifiers:
   - purl: pkg:docker/grafana/alloy
   - cpe: cpe:2.3:a:grafana:alloy
 
-# eol(x) = releaseDate(x+2), same policy as Grafana Loki and Tempo.
-# The two most recent minor versions are actively maintained.
+# eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.20"
+    releaseDate: 2026-09-25
+    eol: false
+    latest: "1.20.1"
+    latestReleaseDate: 2026-09-28
+
+  - releaseCycle: "1.19"
+    releaseDate: 2026-08-24
+    eol: false
+    latest: "1.19.2"
+    latestReleaseDate: 2026-08-26
+
+  - releaseCycle: "1.18"
+    releaseDate: 2026-07-20
+    eol: 2026-08-24
+    latest: "1.18.1"
+    latestReleaseDate: 2026-08-06
+
+  - releaseCycle: "1.17"
+    releaseDate: 2026-06-12
+    eol: 2026-07-20
+    latest: "1.17.1"
+    latestReleaseDate: 2026-06-29
+
   - releaseCycle: "1.16"
     releaseDate: 2026-04-23
     eol: false
-    latest: "1.16.2"
-    latestReleaseDate: 2026-06-02
+    latest: "1.16.3"
+    latestReleaseDate: 2026-06-08
 
   - releaseCycle: "1.15"
     releaseDate: 2026-03-30
     eol: false
     latest: "1.15.1"
-    latestReleaseDate: 2026-04-14
+    latestReleaseDate: 2026-04-13
 
   - releaseCycle: "1.14"
     releaseDate: 2026-03-09
@@ -63,7 +86,7 @@ releases:
     releaseDate: 2025-07-16
     eol: 2025-09-30
     latest: "1.10.2"
-    latestReleaseDate: 2025-08-20
+    latestReleaseDate: 2025-08-19
 
   - releaseCycle: "1.9"
     releaseDate: 2025-06-02
@@ -76,6 +99,7 @@ releases:
     eol: 2025-06-02
     latest: "1.8.3"
     latestReleaseDate: 2025-05-05
+
 ---
 
 > [Grafana Alloy](https://grafana.com/docs/alloy/latest/) is an open-source,

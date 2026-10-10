@@ -2,9 +2,9 @@
 title: Grafana
 addedAt: 2022-11-02
 category: server-app
+tags: grafana-labs
 iconSlug: grafana
 permalink: /grafana
-tags: grafana
 versionCommand: |-
   # For Grafana >= 13
   grafana --version
