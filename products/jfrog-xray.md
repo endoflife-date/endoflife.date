@@ -1,6 +1,6 @@
 ---
 title: JFrog Xray
-addedAt: 2026-06-08
+addedAt: 2026-10-10
 category: server-app
 iconSlug: jfrog
 permalink: /jfrog-xray
@@ -13,26 +13,31 @@ eolColumn: Support
 
 auto:
   methods:
-    - git: https://github.com/jfrog/charts.git
-      regex: '^xray-103\.(?P<minor>\d+)\.(?P<patch>\d+)$'
-      template: '3.{{minor}}.{{patch}}'
+    - version_table: https://docs.jfrog.com/releases/docs/security-end-of-life
+      name_column: "Version"
+      regex: '^(?P<version>\d+\.\d+\.\d+)$'
+      template: "{{version}}"
+      date_column: "Release Date"
 
 # EOL documented on https://docs.jfrog.com/releases/docs/security-end-of-life.
-# New release cycles (~quarterly) must be added manually from
-# https://docs.jfrog.com/releases/docs/security-self-managed-releases.
-# Patch versions are tracked automatically via the jfrog/charts git tags.
 releases:
+  - releaseCycle: "3.150"
+    releaseDate: 2026-07-29
+    eol: 2028-01-29
+    latest: "3.150.17"
+    latestReleaseDate: 2026-07-29
+
   - releaseCycle: "3.143"
     releaseDate: 2026-04-28
     eol: 2027-10-28
-    latest: "3.143.20"
-    latestReleaseDate: 2026-05-24
+    latest: "3.143.28"
+    latestReleaseDate: 2026-06-28
 
   - releaseCycle: "3.137"
     releaseDate: 2026-02-03
     eol: 2027-08-03
-    latest: "3.137.31"
-    latestReleaseDate: 2026-05-06
+    latest: "3.137.36"
+    latestReleaseDate: 2026-07-05
 
   - releaseCycle: "3.131"
     releaseDate: 2025-11-09
