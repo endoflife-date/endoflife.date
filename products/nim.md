@@ -26,7 +26,7 @@ identifiers:
   - cpe: cpe:2.3:a:nim-lang:nim
   - cpe: cpe:/a:nim-lang:nim
 
-# eol(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
   - releaseCycle: "2.2"
     releaseDate: 2024-10-02
