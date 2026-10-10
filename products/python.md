@@ -109,6 +109,7 @@ auto:
         releaseDate: "First release"
         eol: "End of life"
 
+# eoas(x) = releaseDate(x) + 2 years
 releases:
   - releaseCycle: "3.15"
     releaseDate: 2026-10-09
