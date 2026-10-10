@@ -22,22 +22,21 @@ releases:
     releaseDate: 2026-08-20
     eol: false
     latest: "4.100.1"
-    latestReleaseDate: 2026-09-18
+    latestReleaseDate: 2026-09-14
     link: https://code.exim.org/exim/exim/releases/tag/exim-4.100.1
 
   - releaseCycle: "4.99"
     releaseDate: 2025-10-28
     eol: 2026-08-20
-    latest: "4.99.3"
-    latestReleaseDate: 2026-05-09
-    link: https://code.exim.org/exim/exim/releases/tag/exim-4.99.3
+    latest: "4.99.5"
+    latestReleaseDate: 2026-07-14
+    link: https://code.exim.org/exim/exim/releases/tag/exim-4.99.5
 
   - releaseCycle: "4.98"
     releaseDate: 2024-07-10
     eol: 2025-10-28
     latest: "4.98.2"
     latestReleaseDate: 2025-03-21
-    
   - releaseCycle: "4.97"
     releaseDate: 2023-11-04
     eol: 2024-07-10
