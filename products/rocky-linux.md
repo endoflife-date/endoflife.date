@@ -21,7 +21,11 @@ identifiers:
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
-    - rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/refs/heads/main/include/releng/version_table.md
+    - version_table: https://docs.rockylinux.org/releases/
+      name_column: "Release Number"
+      date_column: "General Availability Date"
+      regex: '^(?P<version>\d+\.\d+)$'
+      template: "{{version}}"
     - release_table: https://docs.rockylinux.org/releases/
       fields:
         releaseCycle:
