@@ -22,7 +22,7 @@ identifiers:
 auto:
   methods:
     - rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/refs/heads/main/include/releng/version_table.md
-    - release_table: https://wiki.rockylinux.org/rocky/version/
+    - release_table: https://docs.rockylinux.org/releases/
       fields:
         releaseCycle:
           column: "Release"
