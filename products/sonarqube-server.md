@@ -13,11 +13,16 @@ identifiers:
 
 auto:
   methods:
-    - discourse: https://community.sonarsource.com/c/sq/releases/24
-      regex:
-        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+)$'
-        - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)( LTA)?$'
-        - '^SonarQube Server (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?( LTA)?$'
+    - xml_versions: https://community.sonarsource.com/c/sq/releases/24.rss
+      selector: item
+      name:
+        selector: title
+        regex:
+          - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+)$'
+          - '^SonarQube Server (?P<major>\d+) Release (?P<minor>\d+).(?P<patch>\d+)( LTA)?$'
+          - '^SonarQube Server (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?( LTA)?$'
+        template: '{{major}}.{{minor}}{% if patch %}.{{patch}}{% endif %}'
+      date: pubDate
 
 # Release dates available on https://community.sonarsource.com/c/sq/releases/24.
 # For non-LTA releases: eoas(x) = eol(x) = releaseDate(x+1)
