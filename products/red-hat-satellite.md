@@ -8,22 +8,20 @@ permalink: /redhat-satellite
 alternate_urls:
   - /rhsat
   - /red-hat-satellite
-versionCommand: |-
-  dnf info satellite
-
-  # or, on older versions
-  yum info satellite
+versionCommand: dnf info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+changelogTemplate: "https://docs.redhat.com/en/documentation/red_hat_satellite/__RELEASE_CYCLE__"
 releaseDateColumn: General availability
+LTSLabel: "<abbr title='Extended Update Support'>EUS</abbr>"
 eoasColumn: Full support
 eolColumn: Maintenance support
+eoesColumn: Extended Update Support
 
 auto:
   methods:
     - version_table: https://access.redhat.com/articles/1365633
       name_column: "Release/Update"
-      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease| Update)$'
+      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease|( EUS)? Update)$'
       template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
       date_column: "General Availability Date"
 
@@ -31,8 +29,10 @@ auto:
 releases:
   - releaseCycle: "6.19"
     releaseDate: 2026-05-06
+    lts: true
     eoas: 2026-11-01 # Estimated
     eol: 2027-11-01 # Estimated
+    eoes: 2028-11-01 # Estimated
     latest: "6.19.5"
     latestReleaseDate: 2026-09-30
 
@@ -51,11 +51,14 @@ releases:
     latestReleaseDate: 2026-09-30
 
   - releaseCycle: "6.16"
+    lts: true
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
+    eoes: 2027-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
+    
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
