@@ -22,7 +22,14 @@ customFields:
 
 auto:
   methods:
-    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
+    - json_versions: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
+      selector: "$..contents[*]"
+      name:
+        selector: "$.title"
+        regex: '^(?:Maintenance )?[Rr]elease:? (?P<value>.+) \(\d{4}-\d{2}-\d{2}\)$'
+      date:
+        selector: "$.title"
+        regex: '^(?:Maintenance )?[Rr]elease:? .+ \((?P<value>\d{4}-\d{2}-\d{2})\)$'
     - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       fields:
         releaseCycle:
