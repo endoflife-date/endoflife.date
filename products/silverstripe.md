@@ -20,7 +20,13 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/silverstripe/silverstripe-installer.git
-    - silverstripe: https://raw.githubusercontent.com/silverstripe/roadmap/refs/heads/main/data.json
+    - json_releases: https://raw.githubusercontent.com/silverstripe/roadmap/refs/heads/main/data.json
+      selector: "$.data[*]"
+      fields:
+        releaseCycle: version
+        releaseDate: releaseDate
+        eoas: partialSupport
+        eol: supportEnds
 
 # releaseDate, eoas and eol on https://www.silverstripe.org/software/roadmap/
 # eoas, eol rounded to the end of month
@@ -146,7 +152,6 @@ releases:
     latest: "2.3.13"
     latestReleaseDate: 2011-10-18
     link: null
-
 ---
 
 > [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS

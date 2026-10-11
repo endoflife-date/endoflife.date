@@ -24,6 +24,7 @@ customFields:
 identifiers:
   - purl: pkg:generic/python
   - purl: pkg:deb/ubuntu/python
+  - purl: pkg:deb/ubuntu/python3.15
   - purl: pkg:deb/ubuntu/python3.14
   - purl: pkg:deb/ubuntu/python3.13
   - purl: pkg:deb/ubuntu/python3.12
@@ -47,6 +48,7 @@ identifiers:
   - purl: pkg:deb/ubuntu/python2.2
   - purl: pkg:deb/ubuntu/python2.1
   - purl: pkg:deb/debian/python
+  - purl: pkg:deb/debian/python3.15
   - purl: pkg:deb/debian/python3.14
   - purl: pkg:deb/debian/python3.13
   - purl: pkg:deb/debian/python3.11
@@ -64,6 +66,7 @@ identifiers:
   - purl: pkg:deb/debian/python2.2
   - purl: pkg:deb/debian/python2.1
   - purl: pkg:deb/debian/python1.5
+  - purl: pkg:rpm/fedora/python3.15
   - purl: pkg:rpm/fedora/python3.14
   - purl: pkg:rpm/fedora/python3.13
   - purl: pkg:rpm/fedora/python3.12
@@ -106,45 +109,54 @@ auto:
         releaseDate: "First release"
         eol: "End of life"
 
+# eoas(x) = releaseDate(x) + 2 years
 releases:
+  - releaseCycle: "3.15"
+    releaseDate: 2026-10-09
+    eoas: 2028-10-09
+    eol: 2031-10-31
+    latest: "3.15.0"
+    latestReleaseDate: 2026-10-09
+    pep: PEP-0790
+
   - releaseCycle: "3.14"
     releaseDate: 2025-10-07
     eoas: 2027-10-01
     eol: 2030-10-31
-    latest: "3.14.7"
-    latestReleaseDate: 2026-08-05
+    latest: "3.14.8"
+    latestReleaseDate: 2026-09-30
     pep: PEP-0745
 
   - releaseCycle: "3.13"
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.15"
-    latestReleaseDate: 2026-08-05
+    latest: "3.13.16"
+    latestReleaseDate: 2026-09-30
     pep: PEP-0719
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.14"
-    latestReleaseDate: 2026-08-12
+    latest: "3.12.15"
+    latestReleaseDate: 2026-10-01
     pep: PEP-0693
 
   - releaseCycle: "3.11"
     releaseDate: 2022-10-24
     eoas: 2024-04-01
     eol: 2027-10-31
-    latest: "3.11.16"
-    latestReleaseDate: 2026-08-13
+    latest: "3.11.17"
+    latestReleaseDate: 2026-10-01
     pep: PEP-0664
 
   - releaseCycle: "3.10"
     releaseDate: 2021-10-04
     eoas: 2023-04-05
-    eol: 2026-10-31
-    latest: "3.10.21"
-    latestReleaseDate: 2026-08-13
+    eol: 2026-10-01
+    latest: "3.10.22"
+    latestReleaseDate: 2026-10-01
     pep: PEP-0619
 
   - releaseCycle: "3.9"

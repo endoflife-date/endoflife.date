@@ -710,7 +710,7 @@ releases:
   - releaseCycle: "thinkphone-by-motorola"
     releaseLabel: "ThinkPhone by Motorola"
     releaseDate: 2023-01-01
-    eol: 2027-01-31
+    eol: 2028-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11418
 
   - releaseCycle: "moto-g72"

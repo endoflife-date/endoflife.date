@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "5.1"
     releaseDate: 2026-08-27
     eol: false # releaseDate(5.2)
-    latest: "5.1.0"
-    latestReleaseDate: 2026-08-27
+    latest: "5.1.2"
+    latestReleaseDate: 2026-10-05
     link: https://github.com/DependencyTrack/dependency-track/releases/tag/__LATEST__
 
   - releaseCycle: "5.0"
@@ -37,8 +37,8 @@ releases:
   - releaseCycle: "4.14"
     releaseDate: 2026-03-09
     eol: 2026-12-09 # estimated, as noted here: https://dependencytrack.org/news/dependency-track-5-0/#:~:text=What%20it%20means%20for%20existing%20v4%20users
-    latest: "4.14.4"
-    latestReleaseDate: 2026-09-14
+    latest: "4.14.5"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "4.13"
     releaseDate: 2025-04-07

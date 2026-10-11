@@ -8,6 +8,10 @@ permalink: /ipados
 changelogTemplate: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-__RELEASE_CYCLE__-release-notes
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:/o:apple:ipados
+  - cpe: cpe:2.3:o:apple:ipados
+
 auto:
   methods:
     - apple: ipados
@@ -22,19 +26,19 @@ releases:
     releaseDate: 2026-09-14
     eoas: false
     eol: false
-    latest: "27"
-    latestReleaseDate: 2026-09-14
+    latest: "27.0.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "26"
     releaseDate: 2025-09-15
-    eoas: false
+    eoas: 2026-09-14
     eol: false
-    latest: "26.7"
-    latestReleaseDate: 2026-09-14
+    latest: "26.7.1"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "18"
     releaseDate: 2024-09-16
-    eoas: false
+    eoas: 2025-09-15
     eol: false
     latest: "18.7.10"
     latestReleaseDate: 2026-08-17
@@ -86,7 +90,7 @@ releases:
 
 ---
 
-> [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
+> [iPadOS](https://www.apple.com/os/ipados/) is a mobile operating system created by Apple for its iPad line of devices.
 > It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
 
 {: .warning }

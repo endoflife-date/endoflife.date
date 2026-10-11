@@ -51,7 +51,7 @@ releases:
     eol: 2031-05-29
     eoes: 2036-04-23
     latest: "26.04.1"
-    latestReleaseDate: 2026-08-31
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "25.10"
     codename: "Questing Quokka"
@@ -84,8 +84,8 @@ releases:
     eoas: 2029-05-31
     eol: 2029-05-31
     eoes: 2034-04-25
-    latest: "24.04.4"
-    latestReleaseDate: 2026-02-12
+    latest: "24.04.5"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "23.10"
     codename: "Mantic Minotaur"

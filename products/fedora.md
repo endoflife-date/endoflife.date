@@ -19,6 +19,12 @@ auto:
     - distrowatch: fedora
       regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
       template: "{{version}}"
+    - release_table: https://docs.fedoraproject.org/en-US/releases/eol/index.html
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^Fedora (?:Linux|Core) (?P<value>\d+).*$'
+        eol: "EOL since"
 
 # Dates as per https://fedorapeople.org/groups/schedule/
 # Latest release dates are not displayed but added automatically by auto-update.

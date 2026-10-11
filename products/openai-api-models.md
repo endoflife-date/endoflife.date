@@ -30,6 +30,60 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.1-sol"
+    releaseLabel: "GPT-6.1 Sol"
+    aliases:
+      - gpt-6.1-sol
+      - gpt-6.1-sol
+    releaseDate: 2026-09-29 # https://openai.com/index/introducing-gpt-6-1-sol/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+
+  - releaseCycle: "gpt-6-sol"
+    releaseLabel: "GPT-6 Sol"
+    aliases:
+      - gpt-6-sol
+      - gpt-6-sol
+    releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-sol"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-6-luna"
+    releaseLabel: "GPT-6 Luna"
+    aliases:
+      - gpt-6-luna
+      - gpt-6-luna
+    releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-image-2.5-sunburst"
+    releaseLabel: "GPT-Image-2.5 Sunburst"
+    aliases:
+      - gpt-image-2.5-sunburst
+      - gpt-image-2.5-sunburst-2026-09-08
+    releaseDate: 2026-09-08 # https://openai.com/index/introducing-chatgpt-images-2-5/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-image-2.5-flare"
+    releaseLabel: "GPT-Image-2.5 Flare"
+    aliases:
+      - gpt-image-2.5-flare
+      - gpt-image-2.5-flare-2026-09-08
+    releaseDate: 2026-09-03 # https://openai.com/index/introducing-chatgpt-images-2-5/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+    recommendedReplacement: N/A
+
   - releaseCycle: "gpt-6-astra"
     releaseLabel: "GPT-6 Astra"
     aliases:
@@ -98,6 +152,17 @@ releases:
     eoas: false
     eol: false
     link: "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-live-1"
+    releaseLabel: "GPT-Live 1"
+    aliases:
+      - gpt-live-1
+      - gpt-live-1
+    releaseDate: 2026-07-08 # https://openai.com/index/introducing-gpt-live/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-live-1"
     recommendedReplacement: N/A
 
   - releaseCycle: "gpt-realtime-2.1"
@@ -205,10 +270,10 @@ releases:
     aliases:
       - gpt-5.4-nano-2026-03-17
     releaseDate: 2026-03-17 # https://aireleasetracker.com/model/openai/gpt-5.4-nano
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-5.4"
     releaseLabel: "GPT-5.4"
@@ -265,10 +330,10 @@ releases:
     aliases:
       - gpt-5.3-codex
     releaseDate: 2026-02-05 # https://openai.com/index/introducing-gpt-5-3-codex/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-sol
 
   - releaseCycle: "gpt-audio"
     releaseLabel: "GPT-Audio"
@@ -309,7 +374,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1.5"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-5.2"
     releaseLabel: "GPT-5.2"
@@ -376,10 +441,10 @@ releases:
     aliases:
       - gpt-5.1-2025-11-13
     releaseDate: 2025-11-12 # https://openai.com/index/gpt-5-1/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-04-01
     link: "https://developers.openai.com/api/docs/models/gpt-5.1"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-sol
 
   - releaseCycle: "gpt-5.1-chat-latest"
     releaseLabel: "GPT-5.1 Chat"
@@ -409,7 +474,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-realtime-mini"
     releaseLabel: "GPT-Realtime Mini"
@@ -432,7 +497,7 @@ releases:
     eoas: 2026-03-24
     eol: 2026-09-24
     link: "https://developers.openai.com/api/docs/models/sora-2"
-    recommendedReplacement: N/A
+    recommendedReplacement: —
 
   - releaseCycle: "sora-2-pro"
     releaseLabel: "Sora 2 Pro"
@@ -443,7 +508,7 @@ releases:
     eoas: 2026-03-24
     eol: 2026-09-24
     link: "https://developers.openai.com/api/docs/models/sora-2-pro"
-    recommendedReplacement: N/A
+    recommendedReplacement: —
 
   - releaseCycle: "gpt-5-codex"
     releaseLabel: "GPT-5-Codex"
@@ -613,7 +678,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/chatgpt-image-latest"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-image-1"
     releaseLabel: "GPT-Image-1"
@@ -623,7 +688,7 @@ releases:
     eoas: 2026-04-22
     eol: 2026-10-23
     link: "https://developers.openai.com/api/docs/models/gpt-image-1"
-    recommendedReplacement: gpt-image-2
+    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
 
   - releaseCycle: "gpt-4o-mini-transcribe"
     releaseLabel: "GPT-4o Mini Transcribe"
@@ -642,10 +707,10 @@ releases:
       - gpt-4o-mini-tts-2025-03-20
       - gpt-4o-mini-tts-2025-12-15
     releaseDate: 2025-03-20 # https://openai.com/index/introducing-our-next-generation-audio-models/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "gpt-4o-transcribe"
     releaseLabel: "GPT-4o Transcribe"
@@ -794,20 +859,20 @@ releases:
     aliases:
       - tts-1
     releaseDate: 2023-11-06 # https://openai.com/index/new-models-and-developer-products-announced-at-devday/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/tts-1"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "tts-1-hd"
     releaseLabel: "TTS-1 HD"
     aliases:
       - tts-1-hd
     releaseDate: 2023-11-06 # https://openai.com/index/new-models-and-developer-products-announced-at-devday/
-    eoas: false
-    eol: false
+    eoas: 2026-10-01
+    eol: 2027-01-06
     link: "https://developers.openai.com/api/docs/models/tts-1-hd"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-realtime-2.1-mini
 
   - releaseCycle: "babbage-002"
     releaseLabel: "babbage-002"
@@ -883,6 +948,7 @@ releases:
     recommendedReplacement: omni-moderation
 
   - releaseCycle: "text-embedding-ada-002"
+    staleReleaseThresholdDays: 1460 # not listed on https://developers.openai.com/api/docs/deprecations
     releaseLabel: "text-embedding-ada-002"
     aliases:
       - text-embedding-ada-002

@@ -24,8 +24,8 @@ releases:
   - releaseCycle: "0.40"
     releaseDate: 2024-07-30
     eol: false
-    latest: "0.40.7"
-    latestReleaseDate: 2026-08-17
+    latest: "0.40.8"
+    latestReleaseDate: 2026-09-21
 
   - releaseCycle: "0.39"
     releaseDate: 2021-10-07
@@ -269,4 +269,4 @@ nvm supports the latest major/minor release line.
 
 The nvm team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP)
 and have announced that [commercial support for deprecated versions of nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#enterprise-support)
-is now available through [HeroDevs](https://www.herodevs.com/support/).
+is now available through [HeroDevs](https://www.herodevs.com/never-ending-support).

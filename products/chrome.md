@@ -9,7 +9,7 @@ alternate_urls:
   - /google-chrome
 versionCommand: google-chrome --version
 releasePolicyLink: https://developer.chrome.com/docs/web-platform/chrome-release-channels
-changelogTemplate: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
+changelogTemplate: https://chromestatus.com/release-notes/__RELEASE_CYCLE__
 latestColumn: false
 
 identifiers:
@@ -22,9 +22,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "155"
+    releaseDate: 2026-10-06
+    eol: 2026-10-20 # Estimated, revise with releaseDate("156")
+
+  - releaseCycle: "154"
+    releaseDate: 2026-09-22
+    eol: 2026-10-06
+
   - releaseCycle: "153"
     releaseDate: 2026-09-08
-    eol: 2026-09-22 # Estimated, revise with releaseDate("154") 
+    eol: 2026-09-22
 
   - releaseCycle: "152"
     releaseDate: 2026-08-25
