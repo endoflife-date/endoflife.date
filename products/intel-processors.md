@@ -92,7 +92,7 @@ releases:
     releaseLabel: "Ice Lake"
     releaseDate: 2019-09-01
     discontinued: false
-    eol: false
+    eol: 2026-12-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/74979/products-formerly-ice-lake.html
 
   - releaseCycle: "comet-lake"

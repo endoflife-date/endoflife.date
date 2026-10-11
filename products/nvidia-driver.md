@@ -8,7 +8,7 @@ permalink: /nvidia
 alternate_urls:
   - /nvidia-driver
 versionCommand: nvidia-smi
-releasePolicyLink: https://www.nvidia.com/Download/index.aspx
+releasePolicyLink: https://www.nvidia.com/drivers/
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
 
@@ -489,13 +489,13 @@ releases:
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well
 > as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks
 > Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows,
-> Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
+> Linux, Solaris, and FreeBSD](https://www.nvidia.com/drivers/).
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
 - 32-bit operating systems are [no longer supported.](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
   32-bit applications running on x86_64 are still supported.
-- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
+- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
 Since LTSB branches are also production branches, it may be listed as a production branch in driver
@@ -519,7 +519,7 @@ GPUs supported by any given branch are dependent on the operating system.
 
 ## Cadence
 
-The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
+The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle):
 
 |                       | New Feature Branch (NFB)                         | Production Branch (PB)                               | Long Term Support Branch                                                                                  |
 | --------------------- | ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |

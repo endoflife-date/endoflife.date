@@ -12,7 +12,7 @@ versionCommand: |-
   # WARNING: large heap settings (e.g. Xmx = 50% RAM) may trigger extra allocation and OOM killer
   opensearch --version 2>/dev/null
 permalink: /opensearch
-releasePolicyLink: https://www.opensearch.org/releases.html
+releasePolicyLink: https://opensearch.org/releases/
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 eoasColumn: Active Development
 eolColumn: Maintenance Support
@@ -45,8 +45,8 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.8.0"
-    latestReleaseDate: 2026-08-05
+    latest: "3.9.0"
+    latestReleaseDate: 2026-09-29
     link: https://opensearch.org/blog/introducing-opensearch-3-6/
 
   - releaseCycle: "2"
@@ -105,6 +105,6 @@ cause the client or tool to not work with OpenSearch. An [Upgrade Guide](https:/
 is available. All future OpenSearch 1.x releases will be backwards compatible with Elasticsearch
 7.10.
 
-[Compatibility Matrices](https://opensearch.org/docs/latest/clients/agents-and-ingestion-tools/index/#compatibility-matrices)
+[Compatibility Matrices](https://docs.opensearch.org/latest/clients/agents-and-ingestion-tools/index/#compatibility-matrices)
 are provided for compatibility with Beats and Logstash. Beats version >= 7.13 does not support
 OpenSearch.

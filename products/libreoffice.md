@@ -26,8 +26,8 @@ releases:
   - releaseCycle: "26.8"
     releaseDate: 2026-08-26 # https://blog.documentfoundation.org/blog/2026/08/26/libreoffice-26-8/
     eol: 2027-06-13
-    latest: "26.8.0"
-    latestReleaseDate: 2026-08-26
+    latest: "26.8.1"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-04 # https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/

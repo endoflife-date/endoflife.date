@@ -9,15 +9,24 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.truenas.com/docs/softwarestatus/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 
-# versions listed on https://www.truenas.com/docs/softwarestatus/#release-schedule
+auto:
+  methods:
+    - xml_versions: https://www.truenas.com/docs/softwarestatus/
+      features: html5lib
+      selector: "div.major-version-content.truenas-downloads-major-version-content dt"
+      name:
+        selector: "a.gdoc-props__title"
+        regex: '^(?P<value>\d+\.\d+(?:\.\d+){0,2})$'
+      date: "span.gdoc-props__tag:not(.note)"
+
 releases:
   - releaseCycle: "25.10"
     codename: "Goldeye"
     releaseDate: 2025-10-28
     eol: false
     link: https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/
-    latest: "25.10.6"
-    latestReleaseDate: 2026-08-12
+    latest: "25.10.7"
+    latestReleaseDate: 2026-09-02
 
   - releaseCycle: "25.04"
     codename: "Fangtooth"

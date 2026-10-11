@@ -3,7 +3,7 @@ title: Visual COBOL
 addedAt: 2022-12-05
 category: lang
 permalink: /visual-cobol
-releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
+releasePolicyLink: "https://www.microfocus.com/lifecycle/"
 changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
 latestColumn: false
 eolColumn: Support Status
@@ -90,7 +90,7 @@ releases:
 
 {: .warning }
 This page is using dates for Visual COBOL for Visual Studio documented on the
-[Product Support Lifecycle](https://www.microfocus.com/productlifecycle/) page.
+[Product Support Lifecycle](https://www.microfocus.com/lifecycle/) page.
 
 Visual COBOL is developed, maintained and commercialized by OpenText (formerly Micro Focus).
 Extended Support for two years is available for an additional fee.

@@ -37,7 +37,7 @@ releases:
     releaseLabel: "Surface Laptop for Business 13-inch 1st Edition (Intel)"
     releaseDate: 2026-05-19
     eol: 2032-05-19
-    link: https://support.microsoft.com/surface/surface-laptop-13-inch-features-177367f3-4bde-4ba2-8453-88d36a9cb720
+    link: https://support.microsoft.com/surface/models/surface-laptop-13-inch-features
 
   - releaseCycle: "laptop-for-business-8th-edition-intel"
     releaseLabel: "Surface Laptop for Business 8th Edition (Intel)"
@@ -61,25 +61,25 @@ releases:
     releaseLabel: "Surface Pro 12-inch 1st Edition (Snapdragon)"
     releaseDate: 2025-05-20
     eol: 2031-05-20
-    link: https://support.microsoft.com/surface/surface-pro-12-inch-features-f1ec3085-a88a-4c52-abfb-cd75f8c4e736
+    link: https://support.microsoft.com/surface/models/surface-pro-12-inch-features
 
   - releaseCycle: "laptop-13-inch-1st-edition-snapdragon"
     releaseLabel: "Surface Laptop 13-inch 1st Edition (Snapdragon)"
     releaseDate: 2025-05-20
     eol: 2031-05-20
-    link: https://support.microsoft.com/surface/surface-laptop-13-inch-features-177367f3-4bde-4ba2-8453-88d36a9cb720
+    link: https://support.microsoft.com/surface/models/surface-laptop-13-inch-features
 
   - releaseCycle: "pro-for-business-11th-edition-intel"
     releaseLabel: "Surface Pro for Business 11th Edition (Intel)"
     releaseDate: 2025-02-18
     eol: 2031-02-18
-    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+    link: https://support.microsoft.com/surface/models/surface-pro-11th-edition-features
 
   - releaseCycle: "laptop-for-business-7th-edition-intel"
     releaseLabel: "Surface Laptop for Business 7th Edition (Intel)"
     releaseDate: 2025-02-18
     eol: 2031-02-18
-    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+    link: https://support.microsoft.com/surface/models/surface-laptop-7th-edition-features
 
   - releaseCycle: "pro-10-with-5g-for-business"
     releaseLabel: "Surface Pro 10 with 5G for Business"
@@ -91,25 +91,25 @@ releases:
     releaseLabel: "Surface Pro with 5G 11th Edition (Snapdragon)"
     releaseDate: 2024-09-03
     eol: 2030-09-26
-    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+    link: https://support.microsoft.com/surface/models/surface-pro-11th-edition-features
 
   - releaseCycle: "pro-11th-edition-snapdragon"
     releaseLabel: "Surface Pro 11th Edition (Snapdragon)"
     releaseDate: 2024-06-18
     eol: 2030-09-10
-    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+    link: https://support.microsoft.com/surface/models/surface-pro-11th-edition-features
 
   - releaseCycle: "laptop-7th-edition-snapdragon"
     releaseLabel: "Surface Laptop 7th Edition (Snapdragon)"
     releaseDate: 2024-06-18
     eol: 2030-09-10
-    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+    link: https://support.microsoft.com/surface/models/surface-laptop-7th-edition-features
 
   - releaseCycle: "laptop-6-for-business"
     releaseLabel: "Surface Laptop 6 for Business"
     releaseDate: 2024-04-09
     eol: 2030-04-09
-    link: https://support.microsoft.com/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
+    link: https://support.microsoft.com/surface/models/surface-laptop-6-for-business-features
 
   - releaseCycle: "pro-10-for-business"
     releaseLabel: "Surface Pro 10 for Business"
@@ -121,85 +121,85 @@ releases:
     releaseLabel: "Surface Laptop Studio 2"
     releaseDate: 2023-10-03
     eol: 2029-10-03
-    link: https://support.microsoft.com/surface/surface-laptop-studio-2-features-70268b43-8c31-4a35-bb8f-9898461e4942
+    link: https://support.microsoft.com/surface/models/surface-laptop-studio-2-features
 
   - releaseCycle: "laptop-go-3"
     releaseLabel: "Surface Laptop Go 3"
     releaseDate: 2023-10-03
     eol: 2029-10-03
-    link: https://support.microsoft.com/surface/surface-laptop-go-3-features-d8baf45b-00ba-4b73-a9c8-21a6f26bba02
+    link: https://support.microsoft.com/surface/models/surface-laptop-go-3-features
 
   - releaseCycle: "go-4"
     releaseLabel: "Surface Go 4"
     releaseDate: 2023-09-21
     eol: 2029-09-21
-    link: https://support.microsoft.com/surface/surface-go-4-features-522e227b-24d6-41c6-b48e-db7a053989cb
+    link: https://support.microsoft.com/surface/models/surface-go-4-features
 
   - releaseCycle: "studio-2+"
     releaseLabel: "Surface Studio 2+"
     releaseDate: 2022-10-25
     eol: 2028-10-02
-    link: https://support.microsoft.com/surface/surface-studio-2-features-53cfae12-28fd-483d-9c4d-6e8f943c05a0
+    link: https://support.microsoft.com/surface/models/surface-studio-2-features
 
   - releaseCycle: "laptop-5"
     releaseLabel: "Surface Laptop 5"
     releaseDate: 2022-10-25
     eol: 2028-10-25
-    link: https://support.microsoft.com/surface/surface-laptop-5-specs-and-features-0816e45e-6a4c-4c9e-8365-ef755a2e34d2
+    link: https://support.microsoft.com/surface/models/surface-laptop-5-specs-and-features
 
   - releaseCycle: "pro-9"
     releaseLabel: "Surface Pro 9"
     releaseDate: 2022-10-25
     eol: 2028-10-25
-    link: https://support.microsoft.com/surface/surface-pro-9-features-and-specs-f3f523e6-4f0e-487d-a95c-6115ab55477d
+    link: https://support.microsoft.com/surface/models/surface-pro-9-features-and-specs
 
   - releaseCycle: "laptop-go-2"
     releaseLabel: "Surface Laptop Go 2"
     releaseDate: 2022-06-07
     eol: 2028-06-07
-    link: https://support.microsoft.com/surface/surface-laptop-go-2-features-2eff8979-464a-442a-8848-856b2e237c11
+    link: https://support.microsoft.com/surface/models/surface-laptop-go-2-features
 
   - releaseCycle: "laptop-se"
     releaseLabel: "Surface Laptop SE"
     releaseDate: 2022-01-11
     eol: 2028-01-11
-    link: https://support.microsoft.com/surface/surface-laptop-se-features-2674627b-d92f-4a88-b85c-f649552f3625
+    link: https://support.microsoft.com/surface/models/surface-laptop-se-features
 
   - releaseCycle: "pro-x-wi-fi"
     releaseLabel: "Surface Pro X Wi-Fi"
     releaseDate: 2021-10-05
     eol: 2027-10-05
-    link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
+    link: https://support.microsoft.com/surface/models/surface-pro-x-features-and-specs
 
   - releaseCycle: "pro-8"
     releaseLabel: "Surface Pro 8"
     releaseDate: 2021-10-05
     eol: 2027-10-05
-    link: https://support.microsoft.com/surface/surface-pro-8-features-80d10ad3-52c1-4ded-a3be-ede236b9de93
+    link: https://support.microsoft.com/surface/models/surface-pro-8-features-and-specs
 
   - releaseCycle: "laptop-studio"
     releaseLabel: "Surface Laptop Studio"
     releaseDate: 2021-10-05
     eol: 2027-10-05
-    link: https://support.microsoft.com/surface/surface-laptop-studio-features-2f496a27-a453-4883-9bc0-c32be7fe2f30
+    link: https://support.microsoft.com/surface/models/surface-laptop-studio-features
 
   - releaseCycle: "go-3"
     releaseLabel: "Surface Go 3"
     releaseDate: 2021-10-05
     eol: 2027-10-05
-    link: https://support.microsoft.com/surface/surface-go-3-features-1ef2c926-4de1-46c9-a159-9fcb13992509
+    link: https://support.microsoft.com/surface/models/surface-go-3-features
 
   - releaseCycle: "laptop-4"
     releaseLabel: "Surface Laptop 4"
     releaseDate: 2021-04-15
     eol: 2027-04-15
-    link: https://support.microsoft.com/surface/surface-laptop-4-features-e4fbd527-8ded-424c-9ccb-f2dd76b0f4dd
+    link: https://support.microsoft.com/surface/models/surface-laptop-4-features
 
   - releaseCycle: "pro-7+"
     releaseLabel: "Surface Pro 7+"
     releaseDate: 2021-01-15
     eol: 2027-01-15
-    link: https://support.microsoft.com/surface/surface-pro-7-features-b21cbd38-6f47-42da-bbd2-c75ca02ea17a
+    link: https://support.microsoft.com/surface/models/surface-pro-7-features-and-specs
 
   - releaseCycle: "hub-2s-85"
     releaseLabel: "Surface Hub 2S 85"
@@ -211,43 +211,43 @@ releases:
     releaseLabel: "Surface Pro X (SQ2)"
     releaseDate: 2020-10-13
     eol: 2025-08-10
-    link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
+    link: https://support.microsoft.com/surface/models/surface-pro-x-features-and-specs
 
   - releaseCycle: "laptop-go"
     releaseLabel: "Surface Laptop Go"
     releaseDate: 2020-10-13
     eol: 2024-10-13
-    link: https://support.microsoft.com/topic/surface-laptop-go-1st-gen-specs-and-features-962fdfc3-9771-e5d0-e86e-8e9c2119b411
+    link: https://support.microsoft.com/surface/models/surface-laptop-go-1st-gen-specs-and-features
 
   - releaseCycle: "book-3"
     releaseLabel: "Surface Book 3"
     releaseDate: 2020-05-26
     eol: 2025-04-01
-    link: https://support.microsoft.com/surface/surface-book-3-specs-and-features-261d4bb1-2851-d9d5-2020-283429f6cd8c
+    link: https://support.microsoft.com/surface/models/surface-book-3-specs-and-features
 
   - releaseCycle: "go-2"
     releaseLabel: "Surface Go 2"
     releaseDate: 2020-05-06
     eol: 2024-12-30
-    link: https://support.microsoft.com/surface/surface-go-2-specs-and-features-0fc6a657-2851-484f-6f82-bd3c589ed92c
+    link: https://support.microsoft.com/surface/models/surface-go-2-specs-and-features
 
   - releaseCycle: "pro-x-sq1"
     releaseLabel: "Surface Pro X (SQ1)"
     releaseDate: 2019-11-05
     eol: 2025-08-10
-    link: https://support.microsoft.com/surface/surface-pro-x-features-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
+    link: https://support.microsoft.com/surface/models/surface-pro-x-features-and-specs
 
   - releaseCycle: "laptop-3"
     releaseLabel: "Surface Laptop 3"
     releaseDate: 2019-10-22
     eol: 2024-07-30
-    link: https://support.microsoft.com/surface/surface-laptop-3-specs-and-features-75315c06-5d74-07fe-55d5-a8c5cb626849
+    link: https://support.microsoft.com/surface/models/surface-laptop-3-specs-and-features
 
   - releaseCycle: "pro-7"
     releaseLabel: "Surface Pro 7"
     releaseDate: 2019-10-22
     eol: 2025-10-30
-    link: https://support.microsoft.com/surface/surface-pro-7-specs-and-features-8254894d-bb80-77ef-daae-612ea713e310
+    link: https://support.microsoft.com/surface/models/surface-pro-7-specs-and-features
 
   - releaseCycle: "hub-2s"
     releaseLabel: "Surface Hub 2S"
@@ -265,7 +265,7 @@ releases:
     releaseLabel: "Surface Pro 6"
     releaseDate: 2018-10-16
     eol: 2023-06-30
-    link: https://support.microsoft.com/surface/surface-pro-6-specs-and-features-ade5cfc2-e99a-6fd1-abbe-c0e8a8a3942d
+    link: https://support.microsoft.com/surface/models/surface-pro-6-specs-and-features
 
   - releaseCycle: "laptop-2"
     releaseLabel: "Surface Laptop 2"
@@ -283,7 +283,7 @@ releases:
     releaseLabel: "Surface Go"
     releaseDate: 2018-08-02
     eol: 2022-08-02
-    link: https://support.microsoft.com/surface/surface-go-1st-gen-specs-and-features-d5f9e6f4-1b01-f61a-6dac-ad4f963ddba5
+    link: https://support.microsoft.com/surface/models/surface-go-1st-gen-specs-and-features
 
   - releaseCycle: "pro-with-lte-advanced-5th-gen"
     releaseLabel: "Surface Pro with LTE Advanced (5th gen)"
@@ -301,7 +301,7 @@ releases:
     releaseLabel: "Surface Pro (5th gen)"
     releaseDate: 2017-06-15
     eol: 2024-01-15
-    link: https://support.microsoft.com/surface/surface-pro-5th-gen-specs-and-features-42d321e4-52d6-dcb1-e014-9ffc76fbca14
+    link: https://support.microsoft.com/surface/models/surface-pro-5th-gen-specs-and-features
 
   - releaseCycle: "laptop-1st-gen"
     releaseLabel: "Surface Laptop (1st gen)"
@@ -313,7 +313,7 @@ releases:
     releaseLabel: "Surface Studio (1st gen)"
     releaseDate: 2016-12-15
     eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-studio-1st-gen-diagrams-and-tech-specs-ee58a743-6463-2557-e66e-4dc4b3207881
+    link: https://support.microsoft.com/surface/models/surface-studio-1st-gen-diagrams-and-tech-specs
 
   - releaseCycle: "book-with-performance-base"
     releaseLabel: "Surface Book with Performance Base"
@@ -331,7 +331,7 @@ releases:
     releaseLabel: "Surface Pro 4"
     releaseDate: 2015-10-26
     eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-pro-4-specs-and-features-e3a8ac71-4cee-9107-23bc-7bd08d47cf75
+    link: https://support.microsoft.com/surface/models/surface-pro-4-specs-and-features
 
   - releaseCycle: "hub-55"
     releaseLabel: "Surface Hub 55"
@@ -355,7 +355,7 @@ releases:
     releaseLabel: "Surface Pro 3"
     releaseDate: 2014-06-20
     eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-pro-3-specs-and-features-4c142a41-134f-f22b-0142-a5cf073b56ee
+    link: https://support.microsoft.com/surface/models/surface-pro-3-specs-and-features
 
   - releaseCycle: "2"
     releaseLabel: "Surface 2"
@@ -373,7 +373,7 @@ releases:
     releaseLabel: "Surface Pro"
     releaseDate: 2013-02-09
     eol: 2017-04-11
-    link: https://support.microsoft.com/surface/surface-pro-1st-gen-specifications-f0e31ddb-b03b-e450-bf83-0e23cf6cbdce
+    link: https://support.microsoft.com/surface/models/surface-pro-1st-gen-specifications
 
   - releaseCycle: "rt"
     releaseLabel: "Surface RT"
@@ -390,6 +390,6 @@ Microsoft defines a supported Surface Device as one receiving driver and firmwar
 with a supported Windows OS version. Surface devices will receive driver and firmware updates for
 Windows versions released in the prior 30 months.
 
-Microsoft publishes the [minimum supported Windows version](https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1).
+Microsoft publishes the [minimum supported Windows version](https://learn.microsoft.com/surface/surface-supported-operating-systems).
 Once the device support period is concluded, devices will continue to receive Windows OS feature and
 security updates.

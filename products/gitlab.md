@@ -25,19 +25,26 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://handbook.gitlab.com/handbook/engineering/releases/monthly-releases/#monthly-release-schedule
 releases:
+  - releaseCycle: "19.4"
+    releaseDate: 2026-09-17
+    eoas: 2026-10-15 # releaseDate(19.5)
+    eol: 2026-12-17 # releaseDate(19.7)
+    latest: "19.4.1"
+    latestReleaseDate: 2026-09-22
+
   - releaseCycle: "19.3"
     releaseDate: 2026-08-20
     eoas: 2026-09-17 # releaseDate(19.4)
     eol: 2026-11-19 # releaseDate(19.6)
-    latest: "19.3.2"
-    latestReleaseDate: 2026-09-10
+    latest: "19.3.3"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "19.2"
     releaseDate: 2026-07-16
     eoas: 2026-08-20 # releaseDate(19.3)
     eol: 2026-10-15 # releaseDate(19.5)
-    latest: "19.2.6"
-    latestReleaseDate: 2026-09-10
+    latest: "19.2.7"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "19.1"
     releaseDate: 2026-06-18
@@ -50,15 +57,15 @@ releases:
     releaseDate: 2026-05-21
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
-    latest: "19.0.8"
-    latestReleaseDate: 2026-08-14
+    latest: "19.0.9"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
-    latest: "18.11.11"
-    latestReleaseDate: 2026-08-14
+    latest: "18.11.12"
+    latestReleaseDate: 2026-09-22
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19
