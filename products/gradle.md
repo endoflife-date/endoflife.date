@@ -54,16 +54,16 @@ auto:
 releases:
   - releaseCycle: "9"
     releaseDate: 2025-07-31
-    # Supported versions see https://docs.gradle.org/9.5.0/userguide/compatibility.html
+    # Supported versions see https://docs.gradle.org/9.7.0/userguide/compatibility.html
     runningJavaVersions: "17 - 26"
     testedJavaVersions: "8 - 26"
-    testedKotlinVersions: "2.0.0 - 2.3.20"
+    testedKotlinVersions: "2.0.0 - 2.4.20-Beta1"
     testedGroovyVersions: "1.5.8 - 5.0.2"
-    testedAndroidVersions: "8.4 - 9.2.0-alpha05"
+    testedAndroidVersions: "9.0 - 9.4.0-alpha03"
     eoas: false
     eol: false
-    latest: "9.6.1"
-    latestReleaseDate: 2026-06-26
+    latest: "9.8.1"
+    latestReleaseDate: 2026-10-07
 
   - releaseCycle: "8"
     releaseDate: 2023-02-10
@@ -75,8 +75,8 @@ releases:
     testedAndroidVersions: "7.3 - 8.9"
     eoas: 2025-07-31
     eol: false
-    latest: "8.14.5"
-    latestReleaseDate: 2026-05-07
+    latest: "8.14.6"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "7"
     releaseDate: 2021-04-09

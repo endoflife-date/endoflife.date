@@ -31,13 +31,21 @@ auto:
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
 # Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
+  - releaseCycle: "4.12"
+    releaseLabel: '4.12 Edge'
+    releaseDate: 2026-06-30
+    eoas: 2026-11-30
+    eol: 2027-02-28
+    latest: "4.12.1"
+    latestReleaseDate: 2026-07-15 # approximation
+
   - releaseCycle: "4.11"
     releaseLabel: '4.11 Edge'
     releaseDate: 2026-02-28
     eoas: 2026-07-31
     eol: 2026-10-31
-    latest: "4.11.2"
-    latestReleaseDate: 2026-04-15 # approximation
+    latest: "4.11.6"
+    latestReleaseDate: 2026-07-15 # approximation
 
   - releaseCycle: "4.10"
     releaseLabel: '4.10 Edge'
@@ -46,6 +54,7 @@ releases:
     eol: 2026-06-30
     latest: "4.10.5"
     latestReleaseDate: 2026-03-15 # approximation
+    link: https://archive.docs.mulesoft.com/mule-runtime/4.10/
 
   - releaseCycle: "4.9-lts"
     releaseLabel: '4.9 LTS'
@@ -71,6 +80,7 @@ releases:
     eol: 2025-06-30
     latest: "4.8.6"
     latestReleaseDate: 2025-06-03
+    link: https://archive.docs.mulesoft.com/mule-runtime/4.8/
 
   - releaseCycle: "4.7"
     releaseLabel: '4.7 Edge'
@@ -79,6 +89,7 @@ releases:
     eol: 2025-02-28
     latest: "4.7.4"
     latestReleaseDate: 2024-10-05
+    link: https://archive.docs.mulesoft.com/mule-runtime/4.7/
 
   - releaseCycle: "4.6-lts"
     releaseLabel: "4.6 LTS"
@@ -103,6 +114,7 @@ releases:
     eol: 2024-06-30
     latest: "4.5.3"
     latestReleaseDate: 2024-02-22
+    link: https://archive.docs.mulesoft.com/mule-runtime/4.5/
 
   - releaseCycle: "4.4"
     releaseDate: 2021-09-07

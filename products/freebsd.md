@@ -16,7 +16,20 @@ identifiers:
 
 auto:
   methods:
-    - freebsd-releases: https://www.freebsd.org/releases/
+    - xml_releases: https://www.freebsd.org/releases/
+      features: html5lib
+      selector: "#contentwrap .ulist li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?:Release )?(?P<value>\d+\.\d+)\s*\(\w+ \d+, \d+\).+$'
+        releaseLabel:
+          selector: ":scope"
+          regex: '^(?:Release )?(?P<value>\d+\.\d+)\s*\(\w+ \d+, \d+\).+$'
+          template: "releng/{{value}}"
+        releaseDate:
+          selector: ":scope"
+          regex: '^(?:Release )?\d+\.\d+\s*\((?P<value>\w+ \d+, \d+)\).+$'
     - release_table: https://www.freebsd.org/security/unsupported/
       fields:
         releaseCycle:
@@ -32,6 +45,11 @@ auto:
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 # See also https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html
 releases:
+  - releaseCycle: "14.5"
+    releaseLabel: "releng/14.5"
+    releaseDate: 2026-09-08
+    eol: 2027-06-30
+
   - releaseCycle: "15.1"
     releaseLabel: "releng/15.1"
     releaseDate: 2026-06-16
@@ -42,16 +60,16 @@ releases:
     releaseDate: 2026-03-10
     eol: 2026-12-31
 
+  - releaseCycle: "15.0"
+    releaseLabel: "releng/15.0"
+    releaseDate: 2025-12-02
+    eol: 2026-09-30
+
   - releaseCycle: "15"
     releaseLabel: "stable/15"
     releaseDate: 2025-12-02
     eol: 2029-12-31
     link: null
-
-  - releaseCycle: "15.0"
-    releaseLabel: "releng/15.0"
-    releaseDate: 2025-12-02
-    eol: 2026-09-30
 
   - releaseCycle: "14.3"
     releaseLabel: "releng/14.3"

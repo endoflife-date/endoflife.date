@@ -28,8 +28,8 @@ releases:
     releaseDate: 2025-10-16 # first version was 7.0.95
     eoas: false
     eol: false
-    latest: "7.1.7"
-    latestReleaseDate: 2026-05-08
+    latest: "7.2.1"
+    latestReleaseDate: 2026-08-07
 
   - releaseCycle: "6"
     staleReleaseThresholdDays: 730 # still supported according to https://docs.chef.io/versions/

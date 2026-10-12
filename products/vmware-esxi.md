@@ -28,26 +28,26 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     technicalGuidance: 2029-08-12
-    latest: "9.1.0.0"
-    latestReleaseDate: 2026-05-12
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-0-0-release-notes/what-s-new/whats-new-vsphere.html
+    latest: "9.1.1.0"
+    latestReleaseDate: 2026-09-03
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-1-0-release-notes/esx-9-1-1-0-release-notes.html
     # No longer standalone release notes for ESX as of this release.    
     
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
     eol: 2027-09-17
     technicalGuidance: 2028-09-17
-    latest: "9.0.2.0"
-    latestReleaseDate: 2026-01-20
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/vmware-cloud-foundation-9-0-2-release-notes/esx-9-0-2-0000.html
+    latest: "9.0.2.0100"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/patch-releases-9-0-0-x/vsphere/esx/esx-9-0-2-0100-release-notes.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3j"
-    latestReleaseDate: 2026-05-27
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3j-release-notes.html
+    latest: "8.0 Update 3k"
+    latestReleaseDate: 2026-07-29
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3k-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02
@@ -107,7 +107,7 @@ releases:
     link: https://web.archive.org/web/20190923125449/https://pubs.vmware.com/Release_Notes/en/vsphere/50/vsp_vc50_u3g_rel_notes.html
 ---
 
-> [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that
+> [VMware ESXi](https://www.vmware.com/products/cloud-infrastructure/vsphere) is a bare-metal hypervisor that
 > installs directly onto your physical server.
 
 VMware typically supports ESXi for a duration of 7 years with 5 years of general support and an

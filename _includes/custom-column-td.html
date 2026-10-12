@@ -9,4 +9,4 @@ Parameters:
 {%- assign release = include.release %}
 {%- assign name = include.column.name %}
 {%- assign cssClasses = include.cssClasses | default:'' %}
-<td class="{{ cssClasses }}">{{ release[name] | default: 'N/A' }}</td>
+<td class="{{ cssClasses }}">{% if release[name] == nil %}N/A{% else %}{{ release[name] | join: ', ' }}{% endif %}</td>

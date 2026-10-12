@@ -17,6 +17,7 @@ module EndOfLife
     def generate(site)
       @site = site
       start = Time.now
+      initial_page_count = site.pages.length
       Jekyll.logger.info TOPIC, "Generating..."
 
       site.pages.select { |page| page.data['layout'] == 'product' }.each do |product|
@@ -25,7 +26,8 @@ module EndOfLife
 
       site.pages << NewProductsFeed.new(site)
 
-      Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
+      generated_page_count = site.pages.length - initial_page_count
+      Jekyll.logger.info TOPIC, "Generated #{generated_page_count} pages in #{(Time.now - start).round(3)} seconds."
     end
   end
 

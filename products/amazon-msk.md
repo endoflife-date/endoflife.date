@@ -26,6 +26,12 @@ auto:
 
 # eol are documented on https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html.
 releases:
+  - releaseCycle: "4.2"
+    releaseDate: 2026-07-15
+    eol: false
+    latest: "4.2.x"
+    latestReleaseDate: 2026-07-15
+
   - releaseCycle: "4.1"
     releaseDate: 2025-10-15
     eol: false
@@ -150,4 +156,4 @@ Automatic upgrades can happen at any time after the end of support date. No noti
 are sent before the upgrade.
 
 Cluster creation for EOL versions is phased out gradually, but no timelines are provided. Patch releases are not
-always documented by AWS, such as `3.5.2`.
+always documented by AWS, such as `3.5.2`. Clusters running 4.0 and above do not support Zookeeper.

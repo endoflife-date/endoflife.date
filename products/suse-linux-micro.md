@@ -32,6 +32,7 @@ releases:
   - releaseCycle: "6.2"
     releaseDate: 2025-11-04
     eol: 2029-11-30
+    link: https://documentation.suse.com/releasenotes/sle-micro/html/releasenotes_sle-micro_6.2/
 
   - releaseCycle: "6.1"
     releaseDate: 2024-11-26

@@ -70,7 +70,7 @@ releases:
   - releaseCycle: "1.19"
     recommendedJavaVersion: "11" # https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/
     releaseDate: 2024-03-15
-    eol: false
+    eol: 2026-07-01 # last seen on https://web.archive.org/web/20260607210633/https://flink.apache.org/downloads/
     latest: "1.19.3"
     latestReleaseDate: 2025-07-07
 

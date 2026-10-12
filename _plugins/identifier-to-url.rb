@@ -137,7 +137,7 @@ class IdentifierToUrl
   end
 
   def _build_winget_url(purl)
-    return "https://winget.run/pkg/#{purl.name}"
+    return "https://winstall.app/apps/#{purl.name}"
   end
 
   def _build_maven_url(purl)

@@ -29,7 +29,7 @@ releases:
 
   - releaseCycle: "23.0"
     releaseDate: 2025-10-11
-    eol: true
+    eol: 2026-02-28 # https://review.lineageos.org/c/LineageOS/hudson/+/474995
     link: https://lineageos.org/Changelog-30/
     androidVersion: "16"
 
@@ -42,7 +42,7 @@ releases:
   # Changed back to minor versions due to changes in upstream development (Quarterly Platform Releases). Read Changelog 29 (LineageOS 22[.1]) for more information.
   - releaseCycle: "22.1"
     releaseDate: 2024-12-31 # https://review.lineageos.org/c/LineageOS/hudson/+/424685/37
-    eol: true
+    eol: 2025-05-13 # https://review.lineageos.org/c/LineageOS/hudson/+/429695
     link: https://lineageos.org/Changelog-29/
     androidVersion: "15"
 
@@ -54,7 +54,7 @@ releases:
 
   - releaseCycle: "20"
     releaseDate: 2022-12-31
-    eol: true
+    eol: 2024-12-31 # https://review.lineageos.org/c/LineageOS/hudson/+/412291
     link: https://lineageos.org/Changelog-27/
     androidVersion: "13"
 
@@ -86,19 +86,19 @@ releases:
 
   - releaseCycle: "15.1"
     releaseDate: 2018-02-25
-    eol: true
+    eol: 2020-02-28 # https://review.lineageos.org/c/LineageOS/hudson/+/269773
     link: https://lineageos.org/Changelog-16/
     androidVersion: "8.1"
 
   - releaseCycle: "14.1"
     releaseDate: 2017-01-22 # https://en.wikipedia.org/wiki/LineageOS#Version_history
-    eol: true
+    eol: 2019-02-25 # https://review.lineageos.org/c/LineageOS/hudson/+/242408
     link: https://www.lineageoslog.com/14.1
     androidVersion: "7.1.2"
 
   - releaseCycle: "13.0"
     releaseDate: 2017-01-22 # https://en.wikipedia.org/wiki/LineageOS#Version_history
-    eol: true
+    eol: 2018-02-12 # https://review.lineageos.org/c/LineageOS/hudson/+/206008
     link: https://www.lineageoslog.com/13.0
     androidVersion: "6.0.1"
 ---

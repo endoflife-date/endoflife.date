@@ -55,8 +55,8 @@ releases:
     powershellVersionsManagedNode: "5.1 - 7"
     releaseDate: 2026-06-02
     eol: false
-    latest: "14.1.0"
-    latestReleaseDate: 2026-06-18
+    latest: "14.5.0"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "13"
     ansibleCoreVersion: "2.20"

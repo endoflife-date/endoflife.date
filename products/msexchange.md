@@ -7,38 +7,53 @@ permalink: /msexchange
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 eoasColumn: true
+eoesColumn: Extended Security Updates
 
 identifiers:
   - cpe: cpe:/a:microsoft:exchange_server
   - cpe: cpe:2.3:a:microsoft:exchange_server
 
+auto:
+  methods:
+    - spreadsheet_releases: https://download.microsoft.com/download/a0c60d25-38e1-4d44-91e3-76c6d4c71275/product-lifecycle-data-new.xlsx
+      fields:
+        releaseCycle:
+          selector: Product Listing Name
+          regex: '^Exchange Server (?P<value>20\d{2})$'
+          template: '{{value}}'
+        releaseDate: Start Date
+        eoas: Mainstream End Date
+        eol: Extended End Date
+
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU7"
+    releaseLabel: "Subscription Edition SU9"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.43"
-    latestReleaseDate: 2026-06-09
-    link: https://support.microsoft.com/help/5094139
+    latest: "15.2.2562.49"
+    latestReleaseDate: 2026-09-08
+    link: https://support.microsoft.com/help/5121608
 
   - releaseCycle: "2019"
-    releaseLabel: "2019 CU15 SU8"
+    releaseLabel: "2019 CU15 SU5"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1748.46"
-    latestReleaseDate: 2026-06-09
-    link: https://support.microsoft.com/help/5094140
+    eoes: 2026-11-01 # https://techcommunity.microsoft.com/blog/exchange/announcing-period-2-exchange-20162019-extended-security-update-esu-program/4511603
+    latest: "15.2.1544.36"
+    latestReleaseDate: 2025-10-14
+    link: https://support.microsoft.com/help/5066367
 
   - releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU22"
+    releaseLabel: "2016 CU23 SU19"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.69"
-    latestReleaseDate: 2026-06-09
-    link: https://support.microsoft.com/help/5094144
+    eoes: 2026-11-01 # https://techcommunity.microsoft.com/blog/exchange/announcing-period-2-exchange-20162019-extended-security-update-esu-program/4511603
+    latest: "15.1.2507.61"
+    latestReleaseDate: 2025-10-14
+    link: https://support.microsoft.com/help/5066369
 
   - releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
@@ -104,6 +119,7 @@ releases:
     eol: true
     latest: "4.0.996"
     latestReleaseDate: 1998-05-05
+
 ---
 
 > [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail
@@ -118,3 +134,7 @@ UR: Update Rollup
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and
 SU updates will be available.
+
+## Extended Security Updates (ESU)
+
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://techcommunity.microsoft.com/blog/exchange/announcing-exchange-2016--2019-extended-security-update-program/4433495).

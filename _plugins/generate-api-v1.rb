@@ -58,6 +58,7 @@ module ApiV1
     def generate(site)
       @site = site
       start = Time.now
+      initial_page_count = site.pages.length
       Jekyll.logger.info TOPIC, "Generating..."
 
       product_pages = site.pages.select { |page| page.data['layout'] == 'product' }
@@ -67,7 +68,8 @@ module ApiV1
       add_tags_related_pages(site, product_pages)
       add_identifiers_related_pages(site, product_pages)
 
-      Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
+      generated_page_count = site.pages.length - initial_page_count
+      Jekyll.logger.info TOPIC, "Generated #{generated_page_count} pages in #{(Time.now - start).round(3)} seconds."
     end
 
     private
@@ -334,7 +336,10 @@ module ApiV1
 
       def custom_fields(product, release)
         json = {}
-        product.data['customFields'].map { |column| column['name'] }.map { |name| json[name] = release[name] }
+        product.data['customFields'].each do |column|
+          value = release[column['name']]
+          json[column['name']] = value.kind_of?(Array) ? value.join(', ') : value
+        end
         json
       end
     end

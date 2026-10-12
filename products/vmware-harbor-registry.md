@@ -5,7 +5,7 @@ category: server-app
 tags: cncf
 iconSlug: harbor
 permalink: /vmware-harbor-registry
-changelogTemplate: https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-release-notes.html#v__LATEST__
+changelogTemplate: https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/harbor-registry/services/harbor/release-notes.html#v__LATEST__
 eolColumn: End of general support
 
 releases:
@@ -88,7 +88,7 @@ releases:
     latestReleaseDate: 2020-01-08
 ---
 
-> [VMware Harbor Registry](https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-index.html)
+> [VMware Harbor Registry](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/harbor-registry/services/harbor/index.html)
 > is an enterprise-class registry server that stores and distributes container images. Harbor
 > allows you to store and manage images for use with VMware Tanzu Kubernetes Grid Integrated
 > Edition (TKGI).
@@ -98,4 +98,4 @@ releases:
 > This page tracks the VMWare Harbor Registry, which is a VMWare product based on the [open-source Harbor project](/harbor).
 
 New major versions are usually maintained for approximately 1 year.
-More information about releases is available on the [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).
+More information about releases is available on the [VMWare website](https://web.archive.org/web/20240416034959/https://network.pivotal.io/products/harbor-container-registry/releases).

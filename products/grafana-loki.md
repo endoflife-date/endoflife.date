@@ -21,19 +21,19 @@ identifiers:
   - purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
   - cpe: cpe:2.3:a:grafana:loki
 
-# eol(x) = releaseDate(x+2), except for the last minor of a major.
+# eol(x) = releaseDate(x+2), except for the last minor of a major which may be supported a bit more.
 releases:
   - releaseCycle: "3.7"
     releaseDate: 2026-03-26
     eol: false
-    latest: "3.7.3"
-    latestReleaseDate: 2026-06-24
+    latest: "3.7.8"
+    latestReleaseDate: 2026-09-17
 
   - releaseCycle: "3.6"
     releaseDate: 2025-11-17
     eol: false
-    latest: "3.6.12"
-    latestReleaseDate: 2026-06-24
+    latest: "3.6.17"
+    latestReleaseDate: 2026-09-09
 
   - releaseCycle: "3.5"
     releaseDate: 2025-04-17
@@ -73,7 +73,7 @@ releases:
 
   - releaseCycle: "2.9"
     releaseDate: 2023-09-06
-    eol: false
+    eol: 2025-11-07 # last 2.x, supported a bit more
     latest: "2.9.17"
     latestReleaseDate: 2025-11-07
 
@@ -180,9 +180,8 @@ releases:
 
 {: .warning }
 
-> Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
+> Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/platform/security-and-account-management/account-management/support/).
 
 According to [this comment](https://github.com/grafana/loki/issues/18484#issuecomment-3098532391),
-Grafana provides security patches for the last two minor releases of the
-current major version, plus the last minor release of the previous major
-version.
+Grafana provides security patches for the last two minor releases of the current major version,
+plus the last minor release of the previous major version.

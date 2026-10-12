@@ -2,7 +2,7 @@
 title: Checkmk
 
 # Added to endoflife.date
-addedAt: 2026-05-23
+addedAt: 2026-06-01
 category: server-app
 tags: monitoring
 iconSlug: checkmk
@@ -48,6 +48,20 @@ releases:
     latest: "2.2"
     latestReleaseDate: 2023-05-23
     link: https://checkmk.com/product/latest-version
+
+-   releaseCycle: "2.1"
+    releaseDate: 2022-05-24
+    eol: 2024-11-24
+    latest: "2.1"
+    latestReleaseDate: 2022-05-24
+    link: https://docs.checkmk.com/2.1.0/en/cmk_versions.html
+
+-   releaseCycle: "2.0"
+    releaseDate: 2021-03-09
+    eol: 2023-09-09
+    latest: "2.0"
+    latestReleaseDate: 2021-03-09
+    link: https://docs.checkmk.com/2.1.0/en/cmk_versions.html
 ---
 
 > [Checkmk](https://checkmk.com/) is an infrastructure and application monitoring platform for monitoring servers, networks, cloud environments, containers, applications, and services.

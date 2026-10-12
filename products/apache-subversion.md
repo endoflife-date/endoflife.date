@@ -17,8 +17,14 @@ identifiers:
 
 auto:
   methods:
-    - apache-subversion: https://subversion.apache.org/docs/release-notes/release-history.html
-      regex: '^Subversion\s(?P<version>[1-9]\d*.\d+\.\d+)\s*\((?P<date>\w+, \d+ \w+ \d{4}).*$'
+    - xml_versions: https://subversion.apache.org/docs/release-notes/release-history.html
+      selector: li
+      name:
+        selector: b
+        regex: '^Subversion\s+(?P<value>[1-9]\d*\.\d+\.\d+)$'
+      date:
+        selector: ":scope"
+        regex: 'Subversion.+\((?P<value>\w+, \d+ \w+ \d{4}).*$'
 
 # Cycles documented in https://subversion.apache.org/docs/release-notes
 # EOL documented on https://subversion.apache.org/roadmap.html

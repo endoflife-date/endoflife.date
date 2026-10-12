@@ -1,5 +1,8 @@
 name: Dependabot auto-merge release-updates
-on: pull_request
+on:
+  pull_request:
+    paths:
+      - '_data/release-data'
 
 # Based on https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions#enable-auto-merge-on-a-pull-request
 permissions:
@@ -7,22 +10,9 @@ permissions:
   contents: write
 
 jobs:
-  metadata:
+  update-release-data:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
-    outputs:
-      dependency-names: ${{ steps.metadata.outputs.dependency-names }}
-    steps:
-      - id: metadata
-        name: Dependabot metadata
-        uses: dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98 # v3.1.0
-        with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-
-  update-release-data:
-    needs: metadata
-    runs-on: ubuntu-latest
-    if: ${{ contains(needs.metadata.outputs.dependency-names, '_data/release-data') }}
     steps:
       - name: Clone self repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v6
@@ -31,7 +21,7 @@ jobs:
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
 
