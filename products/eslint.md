@@ -123,5 +123,5 @@ ESLint only actively supports the latest version with new features, bug fixes, a
 version is released, the previous major version enters in a maintenance phase and only receives critical bug and
 security fixes for 6 months.
 
-Commercial support is available for both current and previous versions through ESLint's partners, [Tidelift](https://tidelift.com/funding/github/npm/eslint)
-and [HeroDevs](https://www.herodevs.com/support/eslint-nes).
+Commercial support is available for current versions through ESLint's partner [Tidelift](https://tidelift.com/funding/github/npm/eslint) and EOL release lines
+through ESLint's partner [HeroDevs](https://www.herodevs.com/support/eslint-nes).

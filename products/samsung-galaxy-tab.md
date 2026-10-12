@@ -116,7 +116,7 @@ releases:
     releaseDate: 2024-03-28 # https://news.samsung.com/global/samsung-galaxy-tab-s6-lite-2024-style-and-function-in-a-compact-package
     eoas: 2027-03-28 # https://web.archive.org/web/20250516053227/https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: false
-    link: https://doc.samsungmobile.com/SM-X300/EUX/doc.html
+    link: https://doc.samsungmobile.com/SM-P620/BRI/doc.html
 
   - releaseCycle: "galaxy-tab-active5"
     releaseLabel: "Galaxy Tab Active5"
