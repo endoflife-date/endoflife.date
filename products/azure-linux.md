@@ -27,22 +27,22 @@ releases:
     releaseLabel: Azure Linux 3.0
     releaseDate: 2024-08-01
     eol: 2027-08-31
-    latest: "3.0.20260616"
-    latestReleaseDate: 2026-06-24
+    latest: "3.0.20260923"
+    latestReleaseDate: 2026-09-23
 
   - releaseCycle: "2.0"
     releaseLabel: Azure Linux 2.0
     releaseDate: 2022-05-25
     eol: 2025-07-31
     latest: "2.0.20260331"
-    latestReleaseDate: 2026-04-14
+    latestReleaseDate: 2026-03-31
 
   - releaseCycle: "1.0"
     releaseLabel: CBL-Mariner 1.0
     releaseDate: 2020-09-16
     eol: true
     latest: "1.0.20230811"
-    latestReleaseDate: 2023-08-15
+    latestReleaseDate: 2023-08-11
 ---
 
 > [Azure Linux](https://github.com/microsoft/azurelinux) is an open-source Linux distribution built and maintained by Microsoft.
