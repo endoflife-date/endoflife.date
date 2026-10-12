@@ -299,16 +299,7 @@ Releases of MariaDB are published regularly. New releases are either long-term r
 releases. The support for each release depends on the release type.
 
 Long-term releases (LTS) are released yearly and supported for 3 years with bug and security fixes (was 5 years up to
-11.4).
-
-{: .note-title }
-
-> Upcoming Change
->
-> [Starting with MariaDB 12.3](https://mariadb.org/11-8-is-lts/#:~:text=MariaDB%2012%3A%20Slightly%20adjusted%20numbering%20scheme)
-> (expected in Q2 2026), the `.3` release for each Major version will be LTS.
-> For the MariaDB 12 series, the first three releases, 12.0, 12.1, and 12.2, will be rolling GA releases.
-> The fourth and final release - MariaDB 12.3 - will become the following LTS release.
+11.4). [Starting with MariaDB 12.3](https://mariadb.org/11-8-is-lts/#:~:text=MariaDB%2012%3A%20Slightly%20adjusted%20numbering%20scheme), the `.3` release for each Major version will be LTS.
 
 ## Support Lifecycle
 
