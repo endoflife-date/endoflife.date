@@ -9,7 +9,7 @@ alternate_urls:
   - /cbl-mariner
   - /mariner
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://learn.microsoft.com/azure/azure-linux/release-cadence-lifecycle
+releasePolicyLink: https://learn.microsoft.com/azure/azure-linux/aks-support-cycle
 changelogTemplate: https://github.com/microsoft/azurelinux/releases/tag/__LATEST__-__RELEASE_CYCLE__
 
 identifiers:
@@ -40,7 +40,7 @@ releases:
   - releaseCycle: "1.0"
     releaseLabel: CBL-Mariner 1.0
     releaseDate: 2020-09-16
-    eol: 2023-08-31
+    eol: true
     latest: "1.0.20230811"
     latestReleaseDate: 2023-08-15
 ---
@@ -50,14 +50,15 @@ releases:
 > and is used to power services across Azure and Azure Kubernetes Service (AKS).
 
 Azure Linux was formerly known as CBL-Mariner (Common Base Linux Mariner) and was renamed with the `2.0.20240301` release.
-A new major version is released roughly every three years,
-and Microsoft currently supports each major version for three years after it becomes generally available.
 Each supported release receives monthly image updates that backport medium, high, and critical CVE fixes,
 while critical and high severity vulnerabilities are fast-tracked outside the monthly cycle.
 
-Azure Linux 2.0 reached EOL in July 2025.
-Azure Linux 3.0 became generally available in August 2024 and is expected to reach EOL in summer 2027.
-The dates above are based on the [release cadence and lifecycle policy](https://learn.microsoft.com/azure/azure-linux/release-cadence-lifecycle)
-and the [Azure Linux 3.0 migration announcement](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcement-of-migrating-to-azure-linux-3-0-for-azure-cli/4419582).
+Azure Linux 2.0 reached EOL in July 2025 (AKS support ended on 2025-11-30).
+Azure Linux 3.0 became generally available in August 2024. Microsoft has only announced that it will be supported
+until "summer 2027" ([announcement](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcement-of-migrating-to-azure-linux-3-0-for-azure-cli/4419582)),
+so the end of August 2027 is used as an approximation.
+The [AKS support lifecycle](https://learn.microsoft.com/azure/azure-linux/aks-support-cycle) states that 3.0
+will be supported for roughly three years after the AKS 1.32 release.
+No official end-of-life date was published for CBL-Mariner 1.0; its last release was made in August 2023.
 
 Azure Linux 4.0, based on Fedora Linux, is currently in preview and is not yet recommended for production use, so it is not listed above.
