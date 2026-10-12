@@ -36,7 +36,7 @@ releases:
 
   - releaseCycle: "157"
     releaseDate: 2026-09-29
-    eol: false
+    eol: 2026-10-13
     latest: "157.0.1"
     latestReleaseDate: 2026-10-06
 
