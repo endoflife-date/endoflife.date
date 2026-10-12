@@ -53,7 +53,7 @@ Azure Linux was formerly known as CBL-Mariner (Common Base Linux Mariner) and wa
 Each supported release receives monthly image updates that backport medium, high, and critical CVE fixes,
 while critical and high severity vulnerabilities are fast-tracked outside the monthly cycle.
 
-Azure Linux 2.0 reached EOL in July 2025 (AKS support ended on 2025-11-30).
+Azure Linux 2.0 reached EOL on [2025-07-31](https://techcommunity.microsoft.com/blog/azurearcblog/eol-of-azure-linux-2-0-on-azure-kubernetes-service-enabled-by-azure-arc/4434242) (AKS support ended on 2025-11-30).
 Azure Linux 3.0 became generally available in August 2024. Microsoft has only announced that it will be supported
 until "summer 2027" ([announcement](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcement-of-migrating-to-azure-linux-3-0-for-azure-cli/4419582)),
 so the end of August 2027 is used as an approximation.
