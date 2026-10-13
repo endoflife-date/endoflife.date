@@ -58,7 +58,6 @@ releases:
     eoes: 2027-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
-    
 
   - releaseCycle: "6.15"
     releaseDate: 2024-04-23
