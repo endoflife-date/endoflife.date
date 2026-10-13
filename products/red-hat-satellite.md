@@ -182,3 +182,6 @@ releases:
 A new release is made approximately every 6 months. Each release is actively supported for six
 months and followed by one year of maintenance support. Release Dates are published on the
 [Red Hat Customer Portal](https://access.redhat.com/articles/1365633).
+
+The Red Hat Satellite Extended Update Support (EUS) offering provides extended maintenance and critical updates beyond the standard 18-month Satellite product lifecycle. This publicly available subscription add-on is designed for enterprise customers who face complex integration challenges or strict compliance requirements that make frequent upgrades disruptive.  
+More information about the Red Hat Satellite Extended Update Support Subscription is available at [Red Hat Satellite Extended Update Support (EUS) Offering Overview + FAQ](https://access.redhat.com/articles/7136152).
