@@ -25,7 +25,7 @@ auto:
       template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
       date_column: "General Availability Date"
 
-# eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
+# eoas, eol and eoes can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
   - releaseCycle: "6.19"
     releaseDate: 2026-05-06
