@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "7.2"
     releaseDate: 2026-08-16
     eol: false
-    latest: "7.2.9"
-    latestReleaseDate: 2026-10-03
+    latest: "7.2.10"
+    latestReleaseDate: 2026-10-11
 
   - releaseCycle: "7.1"
     releaseDate: 2026-06-14
@@ -57,8 +57,8 @@ releases:
     lts: true
     releaseDate: 2025-11-30
     eol: 2028-12-31 # announced https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698
-    latest: "6.18.55"
-    latestReleaseDate: 2026-10-03
+    latest: "6.18.56"
+    latestReleaseDate: 2026-10-11
 
   - releaseCycle: "6.17"
     releaseDate: 2025-09-28
