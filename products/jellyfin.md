@@ -13,6 +13,9 @@ identifiers:
   - cpe: cpe:/a:jellyfin:jellyfin
   - cpe: cpe:2.3:a:jellyfin:jellyfin
   - repology: jellyfin
+  - purl: pkg:alpm/arch/jellyfin-server
+  - purl: pkg:docker/jellyfin/jellyfin
+  - purl: pkg:github/jellyfin/jellyfin
 
 auto:
   methods:
