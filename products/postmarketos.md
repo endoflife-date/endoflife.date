@@ -2,13 +2,14 @@
 title: postmarketOS
 addedAt: 2024-04-10
 category: os
-tags: linux-distribution
+tags: discontinued linux-distribution
 permalink: /postmarketos
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://docs.postmarketos.org/pmaports/main/releases.html
 latestColumn: false
 
 auto:
+  disabled: true # the product was renamed to Nura
   methods:
     - release_table: https://docs.postmarketos.org/pmaports/main/releases.html#active-and-planned table
       remove_if_undefined: releaseDate
@@ -108,6 +109,10 @@ releases:
 
 > [postmarketOS](https://postmarketos.org/) extends Alpine Linux
 > to run on smartphones and other mobile devices.
+
+{: .warning }
+> postmarketOS was [renamed to Nura](https://nura.eco/blog/2026/09/27/nura-rename/) in September 2026.
+> This page is no longer updated, see [Nura](/nura) for current releases.
 
 Releases are created roughly every six months, following the release cycle of Alpine Linux.
 The release branches receive security updates as necessary (from both Alpine and postmarketOS).
