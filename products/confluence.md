@@ -44,7 +44,7 @@ releases:
     releaseDate: 2026-10-09
     eol: 2028-10-08
     latest: "11.0.0"
-    latestReleaseDate: 2026-10-09
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "10.2"
     lts: true
