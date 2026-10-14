@@ -48,7 +48,7 @@ releases:
     releaseDate: 2021-10-07
     eol: 2023-04-13
     latest: "6.21"
-    latestReleaseDate: 2023-03-09
+    latestReleaseDate: 2023-03-15
 
   - releaseCycle: "5"
     releaseDate: 2021-02-25
@@ -72,13 +72,14 @@ releases:
     releaseDate: 2017-10-05
     eol: 2018-04-13
     latest: "2.1"
-    latestReleaseDate: 2018-01-11
+    latestReleaseDate: 2018-01-10
 
   - releaseCycle: "1"
     releaseDate: 2016-09-27
     eol: 2017-10-05
     latest: "1.6"
     latestReleaseDate: 2017-07-11
+
 ---
 
 > [pgAdmin](https://www.pgadmin.org/) is an open source administration and development platform for PostgreSQL,
