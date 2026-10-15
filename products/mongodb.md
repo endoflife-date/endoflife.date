@@ -48,8 +48,8 @@ releases:
   - releaseCycle: "9.0"
     releaseDate: 2026-09-30
     eol: 2031-10-31
-    latest: "9.0.2"
-    latestReleaseDate: 2026-09-28
+    latest: "9.0.4"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "8.3"
     releaseDate: 2026-05-31

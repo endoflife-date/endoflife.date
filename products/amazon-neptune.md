@@ -41,10 +41,10 @@ auto:
 releases:
   - releaseCycle: "1.4.8.1"
     releaseDate: 2026-09-30
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.5.0.0"
     eol: 2027-10-27
     latest: "1.4.8.1"
-    latestReleaseDate: 2026-09-30
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "1.4.7.1"
     releaseDate: 2026-09-16
