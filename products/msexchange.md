@@ -27,13 +27,13 @@ auto:
 
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU9"
+    releaseLabel: "Subscription Edition SU11"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.49"
-    latestReleaseDate: 2026-09-08
-    link: https://support.microsoft.com/help/5121608
+    latest: "15.2.2562.56"
+    latestReleaseDate: 2026-10-13
+    link: https://support.microsoft.com/help/5128895
 
   - releaseCycle: "2019"
     releaseLabel: "2019 CU15 SU5"
