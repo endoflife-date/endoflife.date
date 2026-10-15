@@ -9,7 +9,12 @@ changelogTemplate: "https://zammad.com/en/releases/{{'__LATEST__'|replace:'.','-
 
 identifiers:
   - repology: zammad
+  - purl: pkg:docker/zammad/zammad
   - purl: pkg:github/zammad/zammad
+  - purl: pkg:rpm/centos/zammad
+  - purl: pkg:rpm/opensuse/zammad
+  - cpe: cpe:/a:zammad:zammad
+  - cpe: cpe:2.3:a:zammad:zammad
 
 auto:
   methods:
