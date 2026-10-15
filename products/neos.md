@@ -22,6 +22,13 @@ auto:
 
 # Dates available at https://www.neos.io/features/release-process.html.
 releases:
+  - releaseCycle: "9.2"
+    releaseDate: 2026-10-09
+    eoas: 2027-10-01
+    eol: 2028-10-01
+    latest: "9.2.0"
+    latestReleaseDate: 2026-10-09
+
   - releaseCycle: "9.1"
     releaseDate: 2025-12-17
     eoas: 2027-04-01

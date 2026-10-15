@@ -25,9 +25,16 @@ auto:
       selector: '$[*]'
       name: '$.version.name'
       date: '$.version.date'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-Bitbucket
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-Bitbucket + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/bitbucket/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html

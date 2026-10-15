@@ -9,7 +9,7 @@ alternate_urls:
   - /google-chrome
 versionCommand: google-chrome --version
 releasePolicyLink: https://developer.chrome.com/docs/web-platform/chrome-release-channels
-changelogTemplate: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
+changelogTemplate: https://chromestatus.com/release-notes/__RELEASE_CYCLE__
 latestColumn: false
 
 identifiers:

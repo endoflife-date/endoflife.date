@@ -35,8 +35,8 @@ releases:
     lts: 2026-10-28
     eoas: 2027-10-27
     eol: 2029-04-30
-    latest: "26.11.0"
-    latestReleaseDate: 2026-10-07
+    latest: "26.12.0"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "25"
     releaseDate: 2025-10-15
@@ -50,8 +50,8 @@ releases:
     lts: 2025-10-28
     eoas: 2026-10-20
     eol: 2028-04-30
-    latest: "24.21.0"
-    latestReleaseDate: 2026-09-08
+    latest: "24.22.0"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "23"
     releaseDate: 2024-10-16

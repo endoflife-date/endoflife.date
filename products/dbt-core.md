@@ -28,22 +28,22 @@ releases:
     releaseDate: 2026-09-14
     eoas: false
     eol: 2027-09-14
-    latest: "2.0.5"
-    latestReleaseDate: 2026-09-18
+    latest: "2.0.8"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "1.12"
     releaseDate: 2026-07-16
     eoas: 2026-09-14
     eol: 2027-07-16
-    latest: "1.12.5"
-    latestReleaseDate: 2026-09-15
+    latest: "1.12.6"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "1.11"
     releaseDate: 2025-12-19
     eoas: 2026-07-16
     eol: 2026-12-19
-    latest: "1.11.15"
-    latestReleaseDate: 2026-09-08
+    latest: "1.11.16"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "1.10"
     releaseDate: 2025-06-16

@@ -26,14 +26,26 @@ auto:
       selector: '$[*]'
       name: '$.version'
       date: '$.released'
-    # Cannot locate confluence releases because there is no more properly formatted title to locate them
-    #- atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-    #  selector: AtlassianEndofSupportPolicy-Confluence
-    #  regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: 'span:-soup-contains("Confluence") + ul li'
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/confluence/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
+  - releaseCycle: "11.0"
+    releaseDate: 2026-10-09
+    eol: 2028-10-08
+    latest: "11.0.0"
+    latestReleaseDate: 2026-10-08
+
   - releaseCycle: "10.2"
     lts: true
     releaseDate: 2025-12-02

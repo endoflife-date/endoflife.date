@@ -31,15 +31,15 @@ releases:
     releaseDate: 2023-07-11
     eoas: 2026-05-13
     eol: false # not announced yet
-    latest: "4.10.30"
-    latestReleaseDate: 2026-09-30
+    latest: "4.10.31"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "3"
     releaseDate: 2021-08-18
     eoas: 2023-07-11
     eol: false # not announced yet
-    latest: "3.10.14"
-    latestReleaseDate: 2026-10-02
+    latest: "3.10.15"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "2"
     releaseDate: 2020-06-26

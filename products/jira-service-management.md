@@ -27,9 +27,16 @@ auto:
       selector: '$[*]'
       name: '$.version.name'
       date: '$.dateAdded'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-JiraServiceManagement
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-JiraServiceManagement + p + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk.
 # EOL dates from https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html

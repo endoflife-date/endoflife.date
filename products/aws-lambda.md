@@ -100,7 +100,7 @@ releases:
     releaseLabel: Node.js 22
     releaseDate: 2024-11-22
     eoas: 2027-04-30
-    eol: 2027-07-01
+    eol: 2027-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-nodejs-22/
 
   - releaseCycle: "python3.13"

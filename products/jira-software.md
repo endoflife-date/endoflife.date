@@ -27,9 +27,16 @@ auto:
       selector: '$[*]'
       name: '$.version'
       date: '$.released'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-JiraSoftware
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-JiraSoftware + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/jira/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
@@ -88,7 +95,7 @@ releases:
     eol: 2026-12-05
     lts: true
     latest: "10.3.26"
-    latestReleaseDate: 2026-10-02
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "10.2"
     releaseDate: 2024-11-20
@@ -143,7 +150,7 @@ releases:
     eol: 2025-11-29
     lts: true
     latest: "9.12.40"
-    latestReleaseDate: 2026-10-02
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "9.11"
     releaseDate: 2023-08-30
