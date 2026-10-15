@@ -2,7 +2,6 @@
 title: Gorilla Toolkit
 addedAt: 2022-12-15
 category: framework
-tags: discontinued
 iconSlug: go
 permalink: /gorilla
 releasePolicyLink: https://github.com/gorilla/
@@ -48,7 +47,7 @@ identifiers:
 releases:
   - releaseCycle: "1"
     releaseDate: 2016-04-28
-    eol: true
+    eol: false
     latest: 1.5.0
     latestReleaseDate: 2022-01-04
     link: https://github.com/gorilla#gorilla-toolkit
