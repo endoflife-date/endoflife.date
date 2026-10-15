@@ -14,6 +14,7 @@ identifiers:
   - cpe: cpe:/a:pgadmin:pgadmin_4
   - cpe: cpe:2.3:a:pgadmin:pgadmin_4
   - repology: pgadmin4
+  - purl: pkg:pypi/pgadmin4
 
 auto:
   methods:
