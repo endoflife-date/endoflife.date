@@ -20,6 +20,7 @@ auto:
 releases:
   - releaseCycle: "1.5"
     codename: "Variegata"
+    lts: true
     releaseDate: 2026-03-09
     eol: 2027-03-01
     latest: "1.5.6"
