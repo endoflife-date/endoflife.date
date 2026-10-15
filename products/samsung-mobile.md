@@ -759,14 +759,14 @@ releases:
     releaseLabel: "Galaxy A04s"
     releaseDate: 2022-09-22
     eoas: false
-    eol: false
+    eol: 2026-10-06
     link: https://doc.samsungmobile.com/SM-A047F/XXV/doc.html
 
   - releaseCycle: "galaxy-a23-5g"
     releaseLabel: "Galaxy A23 5G"
     releaseDate: 2022-09-02
     eoas: 2025-09-02
-    eol: false        # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
+    eol: 2026-10-06   # 4 years of security updates -  https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
   - releaseCycle: "galaxy-z-fold4"

@@ -10,6 +10,20 @@ changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATES
 eoasColumn: true
 eolColumn: Security Support
 
+identifiers:
+  - repology: jreleaser
+  - purl: pkg:apk/alpine/jreleaser
+  - purl: pkg:brew/jreleaser
+  - purl: pkg:chocolatey/jreleaser
+  - purl: pkg:github/jreleaser/jreleaser
+  - purl: pkg:docker/jreleaser/jreleaser-alpine
+  - purl: pkg:docker/jreleaser/jreleaser-slim
+  - purl: pkg:docker/jreleaser/jreleaser-ubi
+  - purl: pkg:maven/org.jreleaser/jreleaser
+  - purl: pkg:rpm/fedora/jreleaser
+  - purl: pkg:scoop/jreleaser
+  - purl: pkg:winget/JReleaser.jreleaser
+
 auto:
   methods:
     - git: https://github.com/jreleaser/jreleaser.git

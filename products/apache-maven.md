@@ -34,6 +34,12 @@ auto:
 
 # See https://maven.apache.org/docs/history.html
 releases:
+  - releaseCycle: "3.10"
+    releaseDate: 2026-09-27
+    eol: false
+    latest: "3.10.0"
+    latestReleaseDate: 2026-10-01
+
   - releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false

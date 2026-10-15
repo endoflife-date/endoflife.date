@@ -46,200 +46,200 @@ releases:
     releaseDate: 2026-08-19
     eoas: false # releaseDate(x+1)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "7.1.2"
-    latestReleaseDate: 2026-09-22
+    latest: "7.1.3"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "7.0"
     supportedPHPVersions: "7.4 - 8.5"
     releaseDate: 2026-05-20
     eoas: 2026-08-19
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "7.0.6"
-    latestReleaseDate: 2026-09-22
+    latest: "7.0.7"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.9"
     supportedPHPVersions: "7.2.24 - 8.5"
     releaseDate: 2025-12-02
     eoas: 2026-05-20
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.9.9"
-    latestReleaseDate: 2026-09-22
+    latest: "6.9.10"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.8"
     supportedPHPVersions: "7.2.24 - 8.4"
     releaseDate: 2025-04-15
     eoas: 2025-12-02
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.8.10"
-    latestReleaseDate: 2026-09-22
+    latest: "6.8.11"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.7"
     supportedPHPVersions: "7.2.24 - 8.4"
     releaseDate: 2024-11-12
     eoas: 2025-04-15
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.7.9"
-    latestReleaseDate: 2026-09-22
+    latest: "6.7.10"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.6"
     supportedPHPVersions: "7.2.24 - 8.3"
     releaseDate: 2024-07-16
     eoas: 2024-11-12 # releaseDate(6.7)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.6.9"
-    latestReleaseDate: 2026-09-22
+    latest: "6.6.10"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.5"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2024-04-02
     eoas: 2024-07-16 # releaseDate(6.6)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.5.12"
-    latestReleaseDate: 2026-09-22
+    latest: "6.5.13"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2023-11-07
     eoas: 2024-04-02 # releaseDate(6.5)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.4.12"
-    latestReleaseDate: 2026-09-22
+    latest: "6.4.13"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.3"
     supportedPHPVersions: "7.0 - 8.2"
     releaseDate: 2023-08-08
     eoas: 2023-11-07 # releaseDate(6.4)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.3.12"
-    latestReleaseDate: 2026-09-22
+    latest: "6.3.13"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.2"
     supportedPHPVersions: "5.6.20 - 8.2"
     releaseDate: 2023-03-29
     eoas: 2023-08-08 # releaseDate(6.3)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.2.13"
-    latestReleaseDate: 2026-09-22
+    latest: "6.2.14"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.1"
     supportedPHPVersions: "5.6.20 - 8.2"
     releaseDate: 2022-11-02
     eoas: 2023-03-29 # releaseDate(6.2)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.1.14"
-    latestReleaseDate: 2026-09-22
+    latest: "6.1.15"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "6.0"
     supportedPHPVersions: "5.6.20 - 8.1"
     releaseDate: 2022-05-24
     eoas: 2022-11-01 # releaseDate(6.1)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "6.0.16"
-    latestReleaseDate: 2026-09-22
+    latest: "6.0.17"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.9"
     supportedPHPVersions: "5.6.20 - 8.1"
     releaseDate: 2022-01-25
     eoas: 2022-05-24 # releaseDate(6.0)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.9.18"
-    latestReleaseDate: 2026-09-22
+    latest: "5.9.19"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.8"
     supportedPHPVersions: "5.6.20 - 8.0"
     releaseDate: 2021-07-20
     eoas: 2022-01-25 # releaseDate(5.9)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.8.17"
-    latestReleaseDate: 2026-09-22
+    latest: "5.8.18"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.7"
     supportedPHPVersions: "5.6.20 - 8.0"
     releaseDate: 2021-03-09
     eoas: 2021-07-20 # releaseDate(5.8)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.7.19"
-    latestReleaseDate: 2026-09-22
+    latest: "5.7.20"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.6"
     supportedPHPVersions: "5.6.20 - 8.0"
     releaseDate: 2020-12-08
     eoas: 2021-03-09 # releaseDate(5.7)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.6.21"
-    latestReleaseDate: 2026-09-22
+    latest: "5.6.22"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.5"
     supportedPHPVersions: "5.6.20 - 7.4"
     releaseDate: 2020-08-11
     eoas: 2020-12-08 # releaseDate(5.6)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.5.22"
-    latestReleaseDate: 2026-09-22
+    latest: "5.5.23"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.4"
     supportedPHPVersions: "5.6.20 - 7.4"
     releaseDate: 2020-03-31
     eoas: 2020-08-11 # releaseDate(5.5)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.4.23"
-    latestReleaseDate: 2026-09-22
+    latest: "5.4.24"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.3"
     supportedPHPVersions: "5.6.20 - 7.4"
     releaseDate: 2019-11-12
     eoas: 2020-03-31 # releaseDate(5.4)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.3.25"
-    latestReleaseDate: 2026-09-22
+    latest: "5.3.26"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.2"
     supportedPHPVersions: "5.6.20 - 7.3"
     releaseDate: 2019-05-07
     eoas: 2019-11-12 # releaseDate(5.3)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.2.28"
-    latestReleaseDate: 2026-09-22
+    latest: "5.2.29"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.1"
     supportedPHPVersions: "5.2.4 - 7.3"
     releaseDate: 2019-02-21
     eoas: 2019-05-07 # releaseDate(5.2)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.1.26"
-    latestReleaseDate: 2026-09-22
+    latest: "5.1.27"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "5.0"
     supportedPHPVersions: "5.2.4 - 7.3"
     releaseDate: 2018-12-06
     eoas: 2019-02-21 # releaseDate(5.1)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "5.0.29"
-    latestReleaseDate: 2026-09-22
+    latest: "5.0.30"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "4.9"
     supportedPHPVersions: "5.2.4 - 7.2"
     releaseDate: 2017-11-16
     eoas: 2018-12-06 # releaseDate(5.0)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "4.9.33"
-    latestReleaseDate: 2026-09-22
+    latest: "4.9.34"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "4.8"
     supportedPHPVersions: "5.2.4 - 7.1"
     releaseDate: 2017-06-08
     eoas: 2017-11-16 # releaseDate(4.9)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "4.8.32"
-    latestReleaseDate: 2026-09-22
+    latest: "4.8.33"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "4.7"
     supportedPHPVersions: "5.2.4 - 7.1"
     releaseDate: 2016-12-06
     eoas: 2017-06-08 # releaseDate(4.8)
     eol: false # until announced at https://make.wordpress.org/security/
-    latest: "4.7.37"
-    latestReleaseDate: 2026-09-22
+    latest: "4.7.38"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "4.6"
     supportedPHPVersions: "5.2.4 - 7.0"

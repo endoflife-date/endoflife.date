@@ -21,6 +21,12 @@ identifiers:
   - cpe: cpe:2.3:o:lineageos:lineageos
 
 releases:
+  - releaseCycle: "24.0"
+    releaseDate: 2026-10-11
+    eol: false
+    link: https://lineageos.org/Changelog-32/
+    androidVersion: "17"
+
   - releaseCycle: "23.2"
     releaseDate: 2026-02-08
     eol: false

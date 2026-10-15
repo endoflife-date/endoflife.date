@@ -45,8 +45,8 @@ releases:
     releaseDate: 2025-05-06
     eoas: false
     eol: false
-    latest: "3.8.0"
-    latestReleaseDate: 2026-08-05
+    latest: "3.9.0"
+    latestReleaseDate: 2026-09-29
     link: https://opensearch.org/blog/introducing-opensearch-3-6/
 
   - releaseCycle: "2"

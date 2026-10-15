@@ -21,14 +21,14 @@ releases:
   - releaseCycle: "3.12"
     releaseDate: 2024-03-21
     eol: false
-    latest: "3.12.12"
-    latestReleaseDate: 2026-09-21
+    latest: "3.12.12.1"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "3.11"
     releaseDate: 2023-05-23
     eol: 2025-05-30 # https://arango.ai/arangodb-product-support-end-of-life-announcements/
-    latest: "3.11.14.5"
-    latestReleaseDate: 2026-08-11
+    latest: "3.11.14.6"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "3.10"
     releaseDate: 2022-09-29

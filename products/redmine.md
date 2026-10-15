@@ -23,14 +23,14 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2026-06-30
     eol: false
-    latest: "7.0.1"
-    latestReleaseDate: 2026-08-26
+    latest: "7.0.2"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "6.1"
     releaseDate: 2025-09-21
     eol: false
-    latest: "6.1.4"
-    latestReleaseDate: 2026-08-26
+    latest: "6.1.5"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "6.0"
     releaseDate: 2024-11-10
@@ -67,6 +67,18 @@ releases:
     eol: 2021-04-26
     latest: "4.0.9"
     latestReleaseDate: 2021-04-26
+
+  - releaseCycle: "3.4"
+    releaseDate: 2017-07-02
+    eol: 2020-04-06
+    latest: "3.4.13"
+    latestReleaseDate: 2019-12-20
+
+  - releaseCycle: "3.3"
+    releaseDate: 2016-06-19
+    eol: 2019-11-18
+    latest: "3.3.10"
+    latestReleaseDate: 2019-11-18
 
 ---
 
