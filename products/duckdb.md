@@ -17,10 +17,11 @@ auto:
   methods:
     - github_releases: duckdb/duckdb
 
+# lts see https://duckdb.org/release_calendar#lts-releases
+# eol see https://duckdb.org/release_calendar#past-releases
 releases:
   - releaseCycle: "1.5"
     codename: "Variegata"
-    lts: true
     releaseDate: 2026-03-09
     eol: 2027-03-01
     latest: "1.5.6"
