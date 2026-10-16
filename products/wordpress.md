@@ -431,7 +431,7 @@ releases:
     eoas: 2007-09-24 # releaseDate(2.3)
     eol: 2007-09-24 # releaseDate(2.3)
     latest: "2.2.3"
-    latestReleaseDate: 2007-09-24
+    latestReleaseDate: 2007-09-07
 
   - releaseCycle: "2.1"
     supportedPHPVersions: "4.2+"
@@ -439,7 +439,7 @@ releases:
     eoas: 2007-09-24 # releaseDate(2.3)
     eol: 2007-09-24 # releaseDate(2.3)
     latest: "2.1.3"
-    latestReleaseDate: 2007-09-24
+    latestReleaseDate: 2007-04-03
 
   - releaseCycle: "2.0"
     supportedPHPVersions: "4.2+"
@@ -455,7 +455,7 @@ releases:
     eoas: 2005-12-26 # releaseDate(2.0)
     eol: 2005-12-26 # releaseDate(2.0)
     latest: "1.5.2"
-    latestReleaseDate: 2005-08-14
+    latestReleaseDate: 2005-08-20
 
   - releaseCycle: "1.2"
     supportedPHPVersions: "4.1+"
