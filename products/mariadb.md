@@ -63,7 +63,7 @@ auto:
         eoes: "Extended"
 
 # When adding a new Major, remember to review regexes in the section above.
-# Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
+# LTS/Rolling release details are available on https://mariadb.org/about/#maintenance-policy
 releases:
   - releaseCycle: "13.0"
     releaseDate: 2026-09-15
