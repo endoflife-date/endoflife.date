@@ -118,8 +118,8 @@ releases:
     releaseDate: 2021-11-29
     eoas: 2024-11-30
     eol: 2029-02-28
-    latest: "5.4.53"
-    latestReleaseDate: 2026-05-27
+    latest: "5.4.54"
+    latestReleaseDate: 2026-10-15
 
   - releaseCycle: "5.3"
     releaseDate: 2021-05-31
