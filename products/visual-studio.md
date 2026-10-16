@@ -33,10 +33,18 @@ auto:
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
 # When adding a new major version (codename changes), remember to update URLs at auto:methods above.
 releases:
+  - releaseCycle: "18.11"
+    codename: "2026"
+    releaseDate: 2026-10-13
+    eol: false # releaseDate(19.0 or 18.12)
+    latest: "18.11.0"
+    latestReleaseDate: 2026-10-13
+    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+
   - releaseCycle: "18.10"
     codename: "2026"
     releaseDate: 2026-09-08
-    eol: false # releaseDate(19.0 or 18.11)
+    eol: 2026-10-13
     latest: "18.10.4"
     latestReleaseDate: 2026-10-13
     link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
