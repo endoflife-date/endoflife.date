@@ -70,7 +70,7 @@ releases:
     releaseDate: 2025-03-22
     supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-09-09
-    eol: 2026-09-09 # Can be extended
+    eol: false # releaseDate(6.0)
     latest: "4.6.5"
     latestReleaseDate: 2026-07-14
 
