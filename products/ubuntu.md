@@ -43,6 +43,14 @@ identifiers:
 # Support and EOL dates available on https://ubuntu.com/project/docs/release-team/list-of-releases/.
 # Exact day for some dates is not available, in this case use the same day as the release date.
 releases:
+  - releaseCycle: "26.10"
+    codename: "Stonking Stingray"
+    releaseDate: 2026-10-15
+    eoas: 2027-07-01
+    eol: 2027-07-01
+    latest: "26.10"
+    latestReleaseDate: 2026-10-15
+
   - releaseCycle: "26.04"
     codename: "Resolute Raccoon"
     lts: true
