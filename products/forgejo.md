@@ -28,6 +28,12 @@ identifiers:
 
 # eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:
+  - releaseCycle: "17.0"
+    releaseDate: 2026-10-15
+    eol: 2027-01-28
+    latest: "17.0.0"
+    latestReleaseDate: 2026-10-15
+
   - releaseCycle: "16.0"
     releaseDate: 2026-07-16
     eol: 2026-10-29
