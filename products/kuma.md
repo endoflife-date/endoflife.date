@@ -16,6 +16,12 @@ auto:
 
 # EOL dates can be found on https://github.com/kumahq/kuma/blob/master/versions.yml
 releases:
+  - releaseCycle: "3.0"
+    releaseDate: 2026-10-15
+    eol: 2027-10-15
+    latest: "3.0.0"
+    latestReleaseDate: 2026-10-15
+
   - releaseCycle: "2.14"
     releaseDate: 2026-06-12
     eol: 2027-06-12
