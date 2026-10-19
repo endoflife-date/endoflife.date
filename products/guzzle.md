@@ -28,16 +28,16 @@ releases:
   - releaseCycle: "8"
     eol: false
     supportedPHPVersions: ">=7.4,<8.6"
-    latest: "8.2.0"
+    latest: "8.3.0"
     releaseDate: 2026-07-20
-    latestReleaseDate: 2026-09-06
+    latestReleaseDate: 2026-10-18
 
   - releaseCycle: "7"
     eol: false
     supportedPHPVersions: ">=7.2.5, <8.6"
-    latest: "7.15.5"
+    latest: "7.16.0"
     releaseDate: 2020-06-27
-    latestReleaseDate: 2026-08-24
+    latestReleaseDate: 2026-10-18
 
   - releaseCycle: "6"
     eol: 2023-10-31
