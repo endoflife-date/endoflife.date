@@ -20,10 +20,11 @@ auto:
 # lts see https://duckdb.org/release_calendar#lts-releases
 # eol see https://duckdb.org/release_calendar#past-releases
 releases:
+
   - releaseCycle: "2.0"
     codename: "Cinnamon Teal"
     lts: true
-    releaseDate: 2026-10-22
+    releaseDate: 2026-10-21
     eol: 2027-10-21
     latest: "2.0.0"
     latestReleaseDate: 2027-10-21
