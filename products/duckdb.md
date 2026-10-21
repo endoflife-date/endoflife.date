@@ -22,7 +22,7 @@ auto:
 releases:
   - releaseCycle: "2.0"
     codename: "Cinnamon Teal"
-    lts:true
+    lts: true
     releaseDate: 2026-10-22
     eol: 2027-10-21
     latest: "2.0.0"
