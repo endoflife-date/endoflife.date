@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "158"
     releaseDate: 2026-10-13
     eol: 2026-10-27
-    latest: "158.0"
-    latestReleaseDate: 2026-10-13
+    latest: "158.0.1"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "157"
     releaseDate: 2026-09-29
@@ -62,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2026-07-21
     eol: false
-    latest: "153.5.0"
-    latestReleaseDate: 2026-10-13
+    latest: "153.5.1"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "152"
     releaseDate: 2026-06-16
