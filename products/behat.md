@@ -41,8 +41,8 @@ releases:
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01
-    eoas: 2015-06-01
-    eol: 2015-06-01
+    eoas: 2015-06-30
+    eol: 2015-06-30
     latest: "2.5.5"
     latestReleaseDate: 2015-06-01
 

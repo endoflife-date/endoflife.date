@@ -28,11 +28,17 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "158"
+    releaseDate: 2026-10-13
+    eol: 2026-10-27
+    latest: "158.0.1"
+    latestReleaseDate: 2026-10-20
+
   - releaseCycle: "157"
     releaseDate: 2026-09-29
-    eol: false
-    latest: "157.0"
-    latestReleaseDate: 2026-09-29
+    eol: 2026-10-13
+    latest: "157.0.1"
+    latestReleaseDate: 2026-10-06
 
   - releaseCycle: "156"
     releaseDate: 2026-09-15
@@ -56,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2026-07-21
     eol: false
-    latest: "153.4.0"
-    latestReleaseDate: 2026-09-29
+    latest: "153.5.1"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "152"
     releaseDate: 2026-06-16

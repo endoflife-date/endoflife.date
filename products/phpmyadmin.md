@@ -28,6 +28,7 @@ identifiers:
 
 releases:
   - releaseCycle: "5.2"
+    staleReleaseThresholdDays: 545 # https://www.phpmyadmin.net/downloads/#versions
     releaseDate: 2022-05-11
     eoas: false
     eol: false

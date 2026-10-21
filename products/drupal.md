@@ -32,22 +32,22 @@ releases:
     releaseDate: 2026-07-01
     eoas: 2027-01-01 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2027-07-07 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.4.8"
-    latestReleaseDate: 2026-09-26
+    latest: "11.4.10"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
     eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.3.18"
-    latestReleaseDate: 2026-09-28
+    latest: "11.3.19"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "10.6"
     releaseDate: 2025-12-17
     eoas: 2026-06-16
     eol: 2026-12-16
-    latest: "10.6.18"
-    latestReleaseDate: 2026-09-26
+    latest: "10.6.19"
+    latestReleaseDate: 2026-10-14
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18

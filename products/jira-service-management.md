@@ -27,9 +27,16 @@ auto:
       selector: '$[*]'
       name: '$.version.name'
       date: '$.dateAdded'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-JiraServiceManagement
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-JiraServiceManagement + p + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk.
 # EOL dates from https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
@@ -38,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2025-12-03
     eol: 2027-12-03
-    latest: "11.3.11"
-    latestReleaseDate: 2026-09-02
+    latest: "11.3.12"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "11.2"
     releaseDate: 2025-11-06
@@ -87,8 +94,8 @@ releases:
     lts: true
     releaseDate: 2024-12-05
     eol: 2026-12-05
-    latest: "10.3.25"
-    latestReleaseDate: 2026-09-01
+    latest: "10.3.26"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "10.2"
     releaseDate: 2024-11-20
@@ -142,8 +149,8 @@ releases:
     lts: true
     releaseDate: 2023-11-29
     eol: 2025-11-29
-    latest: "5.12.39"
-    latestReleaseDate: 2026-09-03
+    latest: "5.12.40"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "5.11"
     releaseDate: 2023-08-30
@@ -155,7 +162,7 @@ releases:
     releaseDate: 2023-07-11
     eol: 2025-07-11
     latest: "5.10.2"
-    latestReleaseDate: 2023-09-19
+    latestReleaseDate: 2023-09-20
 
   - releaseCycle: "5.9"
     releaseDate: 2023-06-02
@@ -173,7 +180,7 @@ releases:
     releaseDate: 2023-03-20
     eol: 2025-03-20
     latest: "5.7.2"
-    latestReleaseDate: 2023-08-30
+    latestReleaseDate: 2023-08-31
 
   - releaseCycle: "5.6"
     releaseDate: 2023-01-24
@@ -327,7 +334,7 @@ releases:
     releaseDate: 2019-10-21
     eol: 2021-10-21
     latest: "4.5.19"
-    latestReleaseDate: 2021-09-13
+    latestReleaseDate: 2021-09-14
 
   - releaseCycle: "4.4"
     releaseDate: 2019-09-08
@@ -365,7 +372,7 @@ releases:
     releaseDate: 2018-11-27
     eol: 2020-11-28
     latest: "3.16.18"
-    latestReleaseDate: 2020-10-11
+    latestReleaseDate: 2020-10-12
 
   - releaseCycle: "3.15"
     releaseDate: 2018-08-26
@@ -408,7 +415,7 @@ releases:
     releaseDate: 2017-11-15
     eol: 2019-11-16
     latest: "3.9.17"
-    latestReleaseDate: 2019-11-03
+    latestReleaseDate: 2019-11-04
 
   - releaseCycle: "3.8"
     releaseDate: 2017-09-05
@@ -463,6 +470,7 @@ releases:
     eol: 2017-10-06
     latest: "3.0.11"
     latestReleaseDate: 2016-09-13
+
 ---
 
 > [Jira Service Management](https://www.atlassian.com/software/jira/service-management), called Jira Service Desk until 2020, 

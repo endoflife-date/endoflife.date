@@ -24,6 +24,7 @@ customFields:
 identifiers:
   - purl: pkg:generic/python
   - purl: pkg:deb/ubuntu/python
+  - purl: pkg:deb/ubuntu/python3.15
   - purl: pkg:deb/ubuntu/python3.14
   - purl: pkg:deb/ubuntu/python3.13
   - purl: pkg:deb/ubuntu/python3.12
@@ -47,6 +48,7 @@ identifiers:
   - purl: pkg:deb/ubuntu/python2.2
   - purl: pkg:deb/ubuntu/python2.1
   - purl: pkg:deb/debian/python
+  - purl: pkg:deb/debian/python3.15
   - purl: pkg:deb/debian/python3.14
   - purl: pkg:deb/debian/python3.13
   - purl: pkg:deb/debian/python3.11
@@ -64,6 +66,7 @@ identifiers:
   - purl: pkg:deb/debian/python2.2
   - purl: pkg:deb/debian/python2.1
   - purl: pkg:deb/debian/python1.5
+  - purl: pkg:rpm/fedora/python3.15
   - purl: pkg:rpm/fedora/python3.14
   - purl: pkg:rpm/fedora/python3.13
   - purl: pkg:rpm/fedora/python3.12
@@ -106,7 +109,16 @@ auto:
         releaseDate: "First release"
         eol: "End of life"
 
+# eoas(x) = releaseDate(x) + 2 years
 releases:
+  - releaseCycle: "3.15"
+    releaseDate: 2026-10-09
+    eoas: 2028-10-09
+    eol: 2031-10-31
+    latest: "3.15.0"
+    latestReleaseDate: 2026-10-09
+    pep: PEP-0790
+
   - releaseCycle: "3.14"
     releaseDate: 2025-10-07
     eoas: 2027-10-01
