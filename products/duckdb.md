@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-10-21
     eol: 2027-10-21
     latest: "2.0.0"
-    latestReleaseDate: 2027-10-21
+    latestReleaseDate: 2026-10-21
     
   - releaseCycle: "1.5"
     codename: "Variegata"
