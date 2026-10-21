@@ -33,15 +33,15 @@ releases:
   - releaseCycle: "1.27"
     releaseDate: 2026-08-19
     eol: false
-    latest: "1.27.2"
-    latestReleaseDate: 2026-10-08
+    latest: "1.27.3"
+    latestReleaseDate: 2026-10-19
     link: https://go.dev/doc/go1.27
 
   - releaseCycle: "1.26"
     releaseDate: 2026-02-10
     eol: false
-    latest: "1.26.9"
-    latestReleaseDate: 2026-10-08
+    latest: "1.26.10"
+    latestReleaseDate: 2026-10-19
     link: https://go.dev/doc/go1.26
 
   - releaseCycle: "1.25"
