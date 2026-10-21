@@ -2,7 +2,6 @@
 title: GNU Compiler Collection
 addedAt: 2025-12-16
 category: app
-tags: gnu gcc
 iconSlug: gnu
 permalink: /gcc
 alternate_urls:
@@ -23,35 +22,41 @@ identifiers:
   - purl: pkg:rpm/opensuse/gcc
   - purl: pkg:github/gcc/gcc
   - purl: pkg:brew/gcc
-  
+
+auto:
+  methods:
+    - github_tags: gcc-mirror/gcc
+      # Matches releases/gcc-X.Y.0 tags only. Before GCC 5 the third number was the patch level.
+      regex: '^releases/gcc-(?P<major>[5-9]|[1-9]\d)\.(?P<minor>\d+)\.0$'
+
 releases:
 
   - releaseCycle: "16"
-    releaseDate: 2026-05-03
+    releaseDate: 2026-04-30
     eol: false
-    latest: "16.1"
-    latestReleaseDate: 2026-05-03
+    latest: "16.2"
+    latestReleaseDate: 2026-08-07
     link: https://gcc.gnu.org/gcc-16/
     
   - releaseCycle: "15"
     releaseDate: 2025-04-17
     eol: false
-    latest: "15.2"
-    latestReleaseDate: 2025-08-08
+    latest: "15.3"
+    latestReleaseDate: 2026-06-12
     link: https://gcc.gnu.org/gcc-15
 
   - releaseCycle: "14"
     releaseDate: 2024-05-07 
     eol: false
-    latest: "14.3"
-    latestReleaseDate: 2025-05-23
+    latest: "14.4"
+    latestReleaseDate: 2026-06-26
     link: https://gcc.gnu.org/gcc-14
     
   - releaseCycle: "13"
     releaseDate: 2023-04-26
-    eol: false
-    latest: "13.4"
-    latestReleaseDate: 2025-06-25 
+    eol: 2026-09-11
+    latest: "13.5"
+    latestReleaseDate: 2026-09-11
     link: https://gcc.gnu.org/gcc-13
 
   - releaseCycle: "12"
