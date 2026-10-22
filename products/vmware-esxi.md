@@ -107,7 +107,7 @@ releases:
     link: https://web.archive.org/web/20190923125449/https://pubs.vmware.com/Release_Notes/en/vsphere/50/vsp_vc50_u3g_rel_notes.html
 ---
 
-> [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that
+> [VMware ESXi](https://www.vmware.com/products/cloud-infrastructure/vsphere) is a bare-metal hypervisor that
 > installs directly onto your physical server.
 
 VMware typically supports ESXi for a duration of 7 years with 5 years of general support and an

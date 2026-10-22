@@ -14,6 +14,22 @@ identifiers:
   - cpe: cpe:/o:microsoft:windows
 
 releases:
+  - releaseCycle: "11-26h2-e"
+    releaseLabel: "11 26H2 (E)"
+    releaseDate: 2026-09-29
+    eoas: 2029-10-09
+    eol: 2029-10-09
+    latest: 10.0.26300
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+  - releaseCycle: "11-26h2-w"
+    releaseLabel: "11 26H2 (W)"
+    releaseDate: 2026-09-29
+    eoas: 2028-10-10
+    eol: 2028-10-10
+    latest: 10.0.26300
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
   - releaseCycle: "11-26h1-e"
     releaseLabel: "11 26H1 (E)"
     releaseDate: 2026-02-10
@@ -136,6 +152,7 @@ releases:
     lts: true
     eoas: 2027-01-12
     eol: 2027-01-12
+    eoes: 2030-01-12
     latest: 10.0.19044
     link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
 
@@ -292,7 +309,7 @@ releases:
     eoas: 2019-10-08
     eol: 2019-10-08
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    link: https://techcommunity.microsoft.com/blog/windows-itpro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/903715
 
   - releaseCycle: "10-1703-w"
     releaseLabel: "10 1703 (W)"
@@ -300,7 +317,7 @@ releases:
     eoas: 2018-10-09
     eol: 2018-10-09
     latest: 10.0.15063
-    link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
+    link: https://techcommunity.microsoft.com/blog/windows-itpro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/903715
 
   - releaseCycle: "10-1607-e-lts"
     releaseLabel: "10 1607 (E)"
@@ -308,6 +325,7 @@ releases:
     lts: true
     eoas: 2021-10-12
     eol: 2026-10-13
+    eoes: 2029-10-13
     latest: 10.0.14393
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
@@ -392,7 +410,7 @@ releases:
     releaseDate: 2009-04-29
     eoas: 2012-04-10
     eol: 2017-04-11
-    latest: 6.0.6200
+    latest: 6.0.6002
     link: https://learn.microsoft.com/lifecycle/products/windows-vista
 
   - releaseCycle: "5-sp3"

@@ -5,7 +5,7 @@ category: database
 iconSlug: duckdb
 permalink: /duckdb
 versionCommand: duckdb -version
-releasePolicyLink: https://duckdblabs.com/community_support_policy/
+releasePolicyLink: https://duckdb.org/community_support
 changelogTemplate: https://github.com/duckdb/duckdb/releases/tag/v__LATEST__
 eolColumn: Support Status
 
@@ -17,19 +17,31 @@ auto:
   methods:
     - github_releases: duckdb/duckdb
 
+# lts see https://duckdb.org/release_calendar#lts-releases
+# eol see https://duckdb.org/release_calendar#past-releases
 releases:
+
+  - releaseCycle: "2.0"
+    codename: "Cinnamon Teal"
+    lts: true
+    releaseDate: 2026-10-21
+    eol: 2027-10-21
+    latest: "2.0.0"
+    latestReleaseDate: 2026-10-21
+    
   - releaseCycle: "1.5"
     codename: "Variegata"
+    lts: true
     releaseDate: 2026-03-09
-    eol: false
-    latest: "1.5.5"
-    latestReleaseDate: 2026-07-22
+    eol: 2027-03-01
+    latest: "1.5.6"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "1.4"
     codename: "Andium"
     lts: true
     releaseDate: 2025-09-16
-    eol: 2026-09-16
+    eol: 2026-11-17
     latest: "1.4.5"
     latestReleaseDate: 2026-06-17
 
@@ -69,4 +81,4 @@ Starting with 1.4, every other DuckDB version is a Long-Term Support (LTS) relea
 LTS releases are supported for one year.
 Non-LTS releases become end-of-life once a newer release (LTS or not) is available.
 
-[Commercial support by DuckDB Labs](https://duckdblabs.com/) is also available for older LTS releases after their community support has expired.
+[Commercial support by DuckDB Labs](https://ducklabs.com/) is also available for older LTS releases after their community support has expired.

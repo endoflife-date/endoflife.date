@@ -21,8 +21,12 @@ identifiers:
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
-    - rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/refs/heads/main/include/releng/version_table.md
-    - release_table: https://wiki.rockylinux.org/rocky/version/
+    - version_table: https://docs.rockylinux.org/releases/
+      name_column: "Release Number"
+      date_column: "General Availability Date"
+      regex: '^(?P<version>\d+\.\d+)$'
+      template: "{{version}}"
+    - release_table: https://docs.rockylinux.org/releases/
       fields:
         releaseCycle:
           column: "Release"
@@ -71,4 +75,4 @@ releases:
 - Rocky Linux doesn't support [Extended Life Cycle](https://www.redhat.com/en/resources/els-datasheet),
   resulting in a shorter support cycle compared to upstream RHEL.
 
-Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/).
+Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/support-providers).

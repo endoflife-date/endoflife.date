@@ -18,9 +18,9 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-10-01
     eol: false
-    latest: "9.0"
-    latestReleaseDate: 2025-10-01
-    link: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-mail-gateway-9-0
+    latest: "9.1"
+    latestReleaseDate: 2026-06-11
+    link: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-mail-gateway-9-1
 
   - releaseCycle: "8"
     releaseDate: 2023-06-29

@@ -4,7 +4,7 @@ addedAt: 2026-01-06
 category: server-app
 iconSlug: authentik
 permalink: /authentik
-releasePolicyLink: https://docs.goauthentik.io/enterprise/entsupport/#product-version-support
+releasePolicyLink: https://docs.goauthentik.io/enterprise/enterprise-support/#product-version-support
 changelogTemplate: "https://docs.goauthentik.io/releases/__RELEASE_CYCLE__/#fixed-in-{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Supported
 releaseDateColumn: true
@@ -26,14 +26,14 @@ releases:
   - releaseCycle: "2026.8"
     releaseDate: 2026-08-18
     eol: false
-    latest: "2026.8.2"
-    latestReleaseDate: 2026-09-09
+    latest: "2026.8.5"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "2026.5"
     releaseDate: 2026-05-22
     eol: false
-    latest: "2026.5.7"
-    latestReleaseDate: 2026-09-09
+    latest: "2026.5.8"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "2026.2"
     releaseDate: 2026-02-24

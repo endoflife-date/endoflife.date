@@ -40,6 +40,7 @@ releases:
     latestReleaseDate: 2026-03-27
 
   - releaseCycle: "9.10"
+    staleReleaseThresholdDays: 730 # Still "suitable for use" with 9.10.4 planned on https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
     releaseDate: 2024-05-10
     eoas: false
     eol: false

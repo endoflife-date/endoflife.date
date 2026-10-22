@@ -13,6 +13,7 @@ eolColumn: Critical security patches
 identifiers:
   - purl: pkg:apk/alpine/perl
   - purl: pkg:deb/debian/perl
+  - purl: pkg:deb/debian/perl-base
   - purl: pkg:generic/perl
   - repology: perl
   - cpe: cpe:2.3:a:perl:perl

@@ -21,9 +21,9 @@ releases:
     releaseDate: 2025-12-09
     eoas: false
     eol: false
-    latest: "Patch 7"
-    latestReleaseDate: 2026-08-11
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-7-release-date-august-11-2026
+    latest: "Patch 9"
+    latestReleaseDate: 2026-10-13
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevopsserver#azure-devops-server-patch-9-release-date-october-13-2026
 
   - releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
