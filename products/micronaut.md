@@ -24,8 +24,8 @@ releases:
     releaseDate: 2026-05-13
     eoas: false
     eol: false
-    latest: "5.2.17"
-    latestReleaseDate: 2026-10-20
+    latest: "5.2.18"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "4"
     releaseDate: 2023-07-11
@@ -38,8 +38,8 @@ releases:
     releaseDate: 2021-08-18
     eoas: 2023-07-11
     eol: false # not announced yet
-    latest: "3.10.16"
-    latestReleaseDate: 2026-10-20
+    latest: "3.10.17"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "2"
     releaseDate: 2020-06-26
