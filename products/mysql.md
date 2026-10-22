@@ -52,8 +52,8 @@ releases:
     lts: true
     eoas: 2031-04-30
     eol: 2034-04-30
-    latest: "9.7.2"
-    latestReleaseDate: 2026-07-28
+    latest: "9.7.4"
+    latestReleaseDate: 2026-10-20
     link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
 
   - releaseCycle: "9.6"

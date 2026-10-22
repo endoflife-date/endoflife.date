@@ -19,15 +19,15 @@ releases:
     releaseLabel: "9.21 (Development)"
     releaseDate: 2024-08-13
     eol: false
-    latest: "9.21.26"
-    latestReleaseDate: 2026-09-03
+    latest: "9.21.27"
+    latestReleaseDate: 2026-10-09
 
   - releaseCycle: "9.20"
     releaseLabel: "9.20 (Stable)"
     releaseDate: 2024-07-08
     eol: 2028-07-08
-    latest: "9.20.29"
-    latestReleaseDate: 2026-09-11
+    latest: "9.20.30"
+    latestReleaseDate: 2026-10-12
     lts: true
 
   - releaseCycle: "9.18"
