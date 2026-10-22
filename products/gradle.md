@@ -184,7 +184,11 @@ Gradle's [end-of-life policy](https://docs.gradle.org/current/userguide/feature_
 
 ### Security Subscription
 
-Gradle provides commercial security support through its [Gradle Security Subscription](https://gradle.org/security-subscription), offering prioritized fixes under an SLA, advance confidential notification of newly discovered vulnerabilities, and extended security maintenance. Extended maintenance covers high-severity and critical (CVSS ≥ 7) fixes for the latest minor release of the most recent end-of-life major version, as well as for minor releases of the last two major versions that were released within the last 12 months.
+Gradle provides commercial security support through its [Gradle Security Subscription](https://gradle.org/security-subscription),
+offering prioritized fixes under an SLA, advance confidential notification of newly discovered vulnerabilities,
+and extended security maintenance. Extended maintenance covers high-severity and critical (CVSS ≥ 7) fixes for
+the latest minor release of the most recent end-of-life major version, as well as for minor releases of the last
+two major versions that were released within the last 12 months.
 
 ## [Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 
