@@ -36,10 +36,9 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1145.4"
     latestGdrLink: https://support.microsoft.com/help/5128492
-    latest: "17.0.5015.4 CU9+GDR"
-    latestReleaseDate: 2026-10-13
-    # CU9 link: https://support.microsoft.com/help/5122048
-    link: https://support.microsoft.com/help/5126967 # GDR for CU9
+    latest: "17.0.5035.5 CU10"
+    latestReleaseDate: 2026-10-22
+    link: https://support.microsoft.com/help/5125471
 
   - releaseCycle: "16.0"
     codename: Dallas
