@@ -42,8 +42,8 @@ releases:
     lts: true
     releaseDate: 2026-03-18
     eol: 2028-11-14
-    latest: "7.6.7"
-    latestReleaseDate: 2026-10-13
+    latest: "7.6.8"
+    latestReleaseDate: 2026-10-22
     dotnetVersion: ".NET 10.0"
 
   - releaseCycle: "7.5"
@@ -112,6 +112,7 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
     dotnetVersion: ".NET Core 2.0"
+
 
 
 
