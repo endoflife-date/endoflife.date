@@ -46,8 +46,8 @@ releases:
     releaseDate: 2025-11-24
     eol: 2027-07-31
     eoes: 2028-07-31
-    latest: "2025.1.3"
-    latestReleaseDate: 2026-08-20
+    latest: "2025.1.4"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "2025.0"
     codename: Northfields

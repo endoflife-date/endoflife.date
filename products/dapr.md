@@ -17,13 +17,13 @@ releases:
   - releaseCycle: "1.18"
     releaseDate: 2026-06-10
     eol: false
-    latest: "1.18.8"
+    latest: "1.18.9"
     latestReleaseDate: 2026-10-21
 
   - releaseCycle: "1.17"
     releaseDate: 2026-02-27
     eol: false
-    latest: "1.17.17"
+    latest: "1.17.18"
     latestReleaseDate: 2026-10-21
 
   - releaseCycle: "1.16"
