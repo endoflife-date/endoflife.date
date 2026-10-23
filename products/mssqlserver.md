@@ -36,7 +36,7 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1145.4"
     latestGdrLink: https://support.microsoft.com/help/5128492
-    latest: "17.0.5015.4 CU10"
+    latest: "17.0.5035.5 CU10"
     latestReleaseDate: 2026-10-22
     link: https://support.microsoft.com/help/5125471
 
