@@ -12,6 +12,7 @@ alternate_urls:
   - /amazon-kinesis-data-analytics
 releasePolicyLink: https://docs.aws.amazon.com/managed-flink/latest/java/release-version-list.html
 latestColumn: false
+eolColumn: Support
 
 # Supported and deprecated versions are documented on
 # https://docs.aws.amazon.com/managed-flink/latest/java/release-version-list.html.
