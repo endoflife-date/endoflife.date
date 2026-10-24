@@ -10,6 +10,7 @@ alternate_urls:
   - /aws-mwaa
   - /managed-workflows-for-apache-airflow
 releasePolicyLink: https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html
+eolColumn: Support
 
 # Dates are documented on https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html.
 # releaseDate is the "Amazon MWAA availability date" of the first version of each cycle,
