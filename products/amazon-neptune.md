@@ -22,7 +22,14 @@ customFields:
 
 auto:
   methods:
-    - amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
+    - json_versions: https://docs.aws.amazon.com/neptune/latest/userguide/toc-contents.json
+      selector: "$..contents[*]"
+      name:
+        selector: "$.title"
+        regex: '^(?:Maintenance )?[Rr]elease:? (?P<value>.+) \(\d{4}-\d{2}-\d{2}\)$'
+      date:
+        selector: "$.title"
+        regex: '^(?:Maintenance )?[Rr]elease:? .+ \((?P<value>\d{4}-\d{2}-\d{2})\)$'
     - release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       fields:
         releaseCycle:
@@ -32,6 +39,20 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+  - releaseCycle: "1.5.0.0"
+    releaseDate: 2026-10-13
+    upgradeVersion: "N/A"
+    eol: false # not announced yet at https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
+    latest: "1.5.0.0"
+    latestReleaseDate: 2026-10-13
+
+  - releaseCycle: "1.4.8.1"
+    releaseDate: 2026-09-30
+    upgradeVersion: "1.5.0.0"
+    eol: 2027-10-27
+    latest: "1.4.8.1"
+    latestReleaseDate: 2026-10-06
+
   - releaseCycle: "1.4.7.1"
     releaseDate: 2026-09-16
     upgradeVersion: "1.4.8.0"
@@ -41,7 +62,7 @@ releases:
 
   - releaseCycle: "1.4.8.0"
     releaseDate: 2026-07-27
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.4.8.1"
     eol: 2027-10-27
     latest: "1.4.8.0"
     latestReleaseDate: 2026-07-27

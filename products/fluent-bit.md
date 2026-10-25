@@ -28,14 +28,14 @@ releases:
   - releaseCycle: "5.1"
     releaseDate: 2026-08-06
     eol: false # releaseDate(5.2 + 3 months)
-    latest: "5.1.3"
-    latestReleaseDate: 2026-10-01
+    latest: "5.1.5"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "5.0"
     releaseDate: 2026-03-31 # first version was 5.0.1
     eol: 2026-11-06
-    latest: "5.0.10"
-    latestReleaseDate: 2026-09-04
+    latest: "5.0.11"
+    latestReleaseDate: 2026-10-09
 
   - releaseCycle: "4.2"
     releaseDate: 2025-11-11

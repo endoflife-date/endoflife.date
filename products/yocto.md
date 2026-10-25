@@ -29,8 +29,8 @@ releases:
     lts: true
     releaseDate: 2026-05-13
     eol: 2030-04-30
-    latest: "6.0.3"
-    latestReleaseDate: 2026-09-03
+    latest: "6.0.4"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "5.3"
     codename: "Whinlatter"

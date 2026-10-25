@@ -15,13 +15,14 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/kubernetes-sigs/external-dns.git
+      regex: ^v?(?P<major>0)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 releases:
   - releaseCycle: "0"
     releaseDate: 2026-09-18
     eol: false
-    latest: "0.23.0"
-    latestReleaseDate: 2026-09-18
+    latest: "0.24.0"
+    latestReleaseDate: 2026-10-23
 
 ---
 

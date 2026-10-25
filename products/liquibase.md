@@ -35,11 +35,12 @@ releases:
 > [Liquibase](https://www.liquibase.com/community) is an open-source database-independent library for
 > tracking, managing and applying database schema changes.
 
-Liquibase OSS is published under the Apache License 2.0;
-Liquibase Pro is a commercial extended version of Liquibase.
+Liquibase OSS is published under the Apache License 2.0.
+Its commercial edition, Liquibase Secure (formerly Liquibase Pro), has its own release cycles and
+support policy, documented on the [Liquibase Secure](/liquibase-secure) page.
 
-Both follow the same release cycle running a loosely semantic versioning scheme (breaking changes
-may happen in minor releases).
+Liquibase runs a loosely semantic versioning scheme (breaking changes may happen in minor
+releases).
 
 The support policy is not documented, but based on the releases' history, only the latest release is
 actively maintained.
