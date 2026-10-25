@@ -37,14 +37,22 @@ identifiers:
   - cpe: cpe:2.3:a:oracle:mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
+# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1), unless documented otherwise.
 releases:
+  - releaseCycle: "26.10"
+    releaseDate: 2026-10-20
+    eoas: 2027-03-31 # OCI deprecation date
+    eol: 2027-04-30 # OCI unavailable date
+    latest: "26.10.0"
+    latestReleaseDate: 2026-10-20
+    link: https://dev.mysql.com/doc/relnotes/mysql/26.10/en/news-26-10-0.html
+
   - releaseCycle: "26.7"
     releaseDate: 2026-07-28
-    eoas: false # releaseDate(x+1)
-    eol: false # releaseDate(x+1)
-    latest: "26.7.0"
-    latestReleaseDate: 2026-07-28
+    eoas: 2026-10-20
+    eol: 2026-10-20
+    latest: "26.7.1"
+    latestReleaseDate: 2026-08-18
     link: https://dev.mysql.com/doc/relnotes/mysql/26.7/en/news-26-7-0.html
 
   - releaseCycle: "9.7"
@@ -170,7 +178,6 @@ releases:
     latest: "5.5.63"
     latestReleaseDate: 2018-12-21
     link: null
-
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its
