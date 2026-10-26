@@ -5,14 +5,14 @@ category: database
 tags: oracle
 iconSlug: mysql
 permalink: /mysql
-versionCommand: mysqld --version
+versionCommand: mysqld --version # or mysqld --version-with-update since 26.10; https://dev.mysql.com/worklog/task/?id=17318
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
-# https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
+# https://dev.mysql.com/doc/refman/26.10/en/faqs-general.html#faq-mysql-version-ga
 auto:
   methods:
     - git: https://github.com/mysql/mysql-server.git
@@ -23,7 +23,7 @@ auto:
         - ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
         - ^mysql-(?P<v>8\.[1-9]\.\d+)$
         - ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
-        - ^mysql-(?P<v>26\.[0-9]\.[0-9]+)$
+        - ^mysql-(?P<v>26\.[1-9][0-9]?\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
@@ -37,12 +37,12 @@ identifiers:
   - cpe: cpe:2.3:a:oracle:mysql
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1), unless documented otherwise.
+# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "26.10"
     releaseDate: 2026-10-20
-    eoas: 2027-03-31 # OCI deprecation date
-    eol: 2027-04-30 # OCI unavailable date
+    eoas: false
+    eol: false
     latest: "26.10.0"
     latestReleaseDate: 2026-10-20
     link: https://dev.mysql.com/doc/relnotes/mysql/26.10/en/news-26-10-0.html
