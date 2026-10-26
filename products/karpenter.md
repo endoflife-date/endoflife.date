@@ -31,15 +31,15 @@ releases:
   - releaseCycle: "1.15"
     releaseDate: 2026-10-10
     eol: false
-    latest: "1.15.0"
-    latestReleaseDate: 2026-10-10
+    latest: "1.15.1"
+    latestReleaseDate: 2026-10-23
     supportedKubernetesVersion: "1.37"
 
   - releaseCycle: "1.14"
     releaseDate: 2026-07-11
     eol: 2026-10-10
-    latest: "1.14.2"
-    latestReleaseDate: 2026-10-16
+    latest: "1.14.3"
+    latestReleaseDate: 2026-10-23
     supportedKubernetesVersion: "1.29 - 1.36"
 
   - releaseCycle: "1.13"
@@ -139,6 +139,7 @@ releases:
     latest: "1.0.9"
     latestReleaseDate: 2026-07-08
     supportedKubernetesVersion: "1.29 - 1.31"
+
 
 
 

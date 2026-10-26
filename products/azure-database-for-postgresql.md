@@ -38,7 +38,7 @@ releases:
 
   - releaseCycle: "14"
     releaseDate: 2022-06-29
-    eol: 2026-12-11
+    eol: 2027-01-31
 
   - releaseCycle: "13"
     releaseDate: 2021-05-25
