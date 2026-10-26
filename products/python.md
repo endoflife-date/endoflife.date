@@ -131,16 +131,16 @@ releases:
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.17"
-    latestReleaseDate: 2026-10-21
+    latest: "3.13.18"
+    latestReleaseDate: 2026-10-25
     pep: PEP-0719
 
   - releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.15"
-    latestReleaseDate: 2026-10-01
+    latest: "3.12.16"
+    latestReleaseDate: 2026-10-25
     pep: PEP-0693
 
   - releaseCycle: "3.11"
