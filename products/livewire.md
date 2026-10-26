@@ -37,16 +37,16 @@ releases:
     eol: false
     supportedPhpVersions: "8.1 - 8.5"
     supportedLaravelVersions: "10 - 13"
-    latest: "4.4.7"
-    latestReleaseDate: 2026-09-28
+    latest: "4.4.8"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "3"
     releaseDate: 2023-08-20
     eol: false
     supportedPhpVersions: "8.1 - 8.5"
     supportedLaravelVersions: "10 - 13"
-    latest: "3.8.10"
-    latestReleaseDate: 2026-09-28
+    latest: "3.8.11"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "2"
     releaseDate: 2020-09-08
