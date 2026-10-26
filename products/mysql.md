@@ -12,7 +12,7 @@ eoasColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
-# https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
+# https://dev.mysql.com/doc/refman/26.10/en/faqs-general.html#faq-mysql-version-ga
 auto:
   methods:
     - git: https://github.com/mysql/mysql-server.git
@@ -23,7 +23,7 @@ auto:
         - ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
         - ^mysql-(?P<v>8\.[1-9]\.\d+)$
         - ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
-        - ^mysql-(?P<v>26\.[0-9]\.[0-9]+)$
+        - ^mysql-(?P<v>26\.[1-9][0-9]?\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
@@ -39,12 +39,20 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "26.7"
-    releaseDate: 2026-07-28
+  - releaseCycle: "26.10"
+    releaseDate: 2026-10-20
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
-    latest: "26.7.0"
-    latestReleaseDate: 2026-07-28
+    latest: "26.10.0"
+    latestReleaseDate: 2026-10-20
+    link: https://dev.mysql.com/doc/relnotes/mysql/26.10/en/news-26-10-0.html
+
+  - releaseCycle: "26.7"
+    releaseDate: 2026-07-28
+    eoas: 2026-10-20
+    eol: 2026-10-20
+    latest: "26.7.1"
+    latestReleaseDate: 2026-08-18
     link: https://dev.mysql.com/doc/relnotes/mysql/26.7/en/news-26-7-0.html
 
   - releaseCycle: "9.7"
@@ -170,7 +178,6 @@ releases:
     latest: "5.5.63"
     latestReleaseDate: 2018-12-21
     link: null
-
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its
