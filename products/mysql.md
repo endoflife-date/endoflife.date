@@ -41,8 +41,8 @@ identifiers:
 releases:
   - releaseCycle: "26.10"
     releaseDate: 2026-10-20
-    eoas: false
-    eol: false
+    eoas: false # releaseDate(x+1)
+    eol: false # releaseDate(x+1)
     latest: "26.10.0"
     latestReleaseDate: 2026-10-20
     link: https://dev.mysql.com/doc/relnotes/mysql/26.10/en/news-26-10-0.html
