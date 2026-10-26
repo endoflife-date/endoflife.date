@@ -7,7 +7,7 @@ iconSlug: git
 permalink: /git
 versionCommand: git --version
 releasePolicyLink: https://git-scm.com/
-changelogTemplate: https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/__LATEST__.txt
+changelogTemplate: https://raw.githubusercontent.com/git/git/refs/heads/master/Documentation/RelNotes/__LATEST__.adoc
 eoasColumn: Active Support
 eolColumn: Security Support
 
