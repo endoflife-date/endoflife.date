@@ -67,4 +67,70 @@ releases:
     latest: "2.51.2"
     latestReleaseDate: 2025-10-29
 
-  - releaseC
+  - releaseCycle: "2.50"
+    releaseDate: 2025-06-16
+    eoas: 2025-08-18 # releaseDate(2.51)
+    eol: false
+    latest: "2.50.1"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.49"
+    releaseDate: 2025-03-14
+    eoas: 2025-06-16 # releaseDate(2.50)
+    eol: false
+    latest: "2.49.1"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.48"
+    releaseDate: 2025-01-10
+    eoas: 2025-03-14 # releaseDate(2.49)
+    eol: false
+    latest: "2.48.2"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.47"
+    releaseDate: 2024-10-07
+    eoas: 2025-01-10 # releaseDate(2.48)
+    eol: 2025-10-15
+    latest: "2.47.3"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.46"
+    releaseDate: 2024-07-29
+    eoas: 2024-10-07 # releaseDate(2.47)
+    eol: 2025-07-08
+    latest: "2.46.4"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.45"
+    releaseDate: 2024-04-29
+    eoas: 2024-07-29 # releaseDate(2.46)
+    eol: 2025-07-08
+    latest: "2.45.4"
+    latestReleaseDate: 2025-07-08
+
+  - releaseCycle: "2.44"
+    releaseDate: 2024-02-23
+    eoas: 2024-04-29 # releaseDate(2.45)
+    eol: 2025-01-14
+    latest: "2.44.3"
+    latestReleaseDate: 2025-01-14
+
+  - releaseCycle: "2.43"
+    releaseDate: 2023-11-20
+    eoas: 2024-02-23 # releaseDate(2.44)
+    eol: 2025-01-14
+    latest: "2.43.6"
+    latestReleaseDate: 2025-01-14
+
+---
+
+> [Git](https://git-scm.com/) is a free and open source distributed version control system designed
+> to handle everything from small to very large projects with speed and efficiency.
+
+Git follows a time-based release cadence, shipping a new feature version (`2.x.0`) roughly every **10 to 12 weeks** (~quarterly).
+
+### Support Policy
+
+* **Active Support (EOAS):** Only the latest release cycle actively receives routine non-security bug fixes. Whenever a new minor version is released, the preceding version exits active support.
+* **Security Support (EOL):** Git does not designate LTS (Long Term Support) branches. For security advisories and CVEs, patches are backported to all active and recent branches (typically spanning releases made over the previous ~12 months).
