@@ -5,7 +5,7 @@ category: database
 tags: oracle
 iconSlug: mysql
 permalink: /mysql
-versionCommand: mysqld --version # or mysqld --version-with-update since 26.10; https://dev.mysql.com/worklog/task/?id=17318
+versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Premier Support
