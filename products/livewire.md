@@ -1,6 +1,6 @@
 ---
 title: Livewire
-addedAt: 2026-09-07
+addedAt: 2026-10-26
 category: framework
 tags: php-runtime
 iconSlug: livewire
