@@ -34,7 +34,6 @@ releases:
     releaseLabel: "GPT-6.1 Sol"
     aliases:
       - gpt-6.1-sol
-      - gpt-6.1-sol
     releaseDate: 2026-09-29 # https://openai.com/index/introducing-gpt-6-1-sol/
     eoas: false
     eol: false
@@ -43,7 +42,6 @@ releases:
   - releaseCycle: "gpt-6-sol"
     releaseLabel: "GPT-6 Sol"
     aliases:
-      - gpt-6-sol
       - gpt-6-sol
     releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false
@@ -54,7 +52,6 @@ releases:
   - releaseCycle: "gpt-6-luna"
     releaseLabel: "GPT-6 Luna"
     aliases:
-      - gpt-6-luna
       - gpt-6-luna
     releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false

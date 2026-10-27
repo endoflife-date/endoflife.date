@@ -32,7 +32,7 @@ auto:
 releases:
   - releaseCycle: "26.22"
     releaseDate: 2026-10-22
-    eol: false # Not announced yet
+    eol: 2027-01-31 # Not announced yet
     link: https://docs.cloud.google.com/looker/docs/release-notes#October_22_2026
 
   - releaseCycle: "26.20"
