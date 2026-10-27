@@ -26,21 +26,21 @@ releases:
   - releaseCycle: "2026.9"
     releaseDate: 2026-09-22
     eol: 2026-11-24 # planned on https://releases.discourse.org/, to be updated once known
-    latest: "2026.9.0"
-    latestReleaseDate: 2026-09-22
+    latest: "2026.9.1"
+    latestReleaseDate: 2026-10-23
 
   - releaseCycle: "2026.8"
     releaseDate: 2026-08-25
     eol: 2026-10-27 # planned on https://releases.discourse.org/, to be updated once known
-    latest: "2026.8.1"
-    latestReleaseDate: 2026-09-22
+    latest: "2026.8.2"
+    latestReleaseDate: 2026-10-23
 
   - releaseCycle: "2026.7"
     lts: true
     releaseDate: 2026-07-28
     eol: 2027-03-30 # planned on https://releases.discourse.org/, to be updated once known
-    latest: "2026.7.3"
-    latestReleaseDate: 2026-09-22
+    latest: "2026.7.4"
+    latestReleaseDate: 2026-10-23
 
   - releaseCycle: "2026.6"
     releaseDate: 2026-06-30

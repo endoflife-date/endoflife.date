@@ -32,6 +32,13 @@ auto:
 # In essence that means an LTS will be released every April in odd-numbered years
 # Non-LTS releases after 3.5 will be full supported for 13 months
 releases:
+  - releaseCycle: "4.1"
+    releaseDate: 2026-10-23
+    eol: 2027-11-30 # estimated date
+    latest: "4.1.0"
+    latestReleaseDate: 2026-10-23
+    link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-41
+
   - releaseCycle: "4.0"
     releaseDate: 2026-04-14
     eol: 2027-05-14
