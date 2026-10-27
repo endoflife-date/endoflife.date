@@ -1,5 +1,5 @@
 ---
-title: PCI-DSS
+title: PCI DSS
 addedAt: 2022-10-10
 category: standard
 permalink: /pci-dss
@@ -36,15 +36,16 @@ releases:
     eol: 2016-10-31
 ---
 
-> [PCI DSS](https://www.pcisecuritystandards.org) is an information security standard for
-> organizations that handle branded credit cards from the major card schemes.
+> [PCI DSS](https://www.pcisecuritystandards.org) PCI DSS is intended for all entities that store, process, or transmit cardholder data (CHD) and/or
+> sensitive authentication data (SAD) or could impact the security of the cardholder data and/or sensitive authentication data. This includes all entities
+> involved in payment account processing —including merchants, processors, acquirers, issuers, and other service providers.
 
 {: .note }
 
 > The period for which an entity's PCI DSS assessment result is valid does not change
 > if the standard against which the entity was assessed has been retired[^1].
 
-- Future-dated new requirements introduced in v4.0 will become effective on 31st March 2025.
+- Future-dated new requirements in v4.0.1 became mandatory from 31st March 2025 and must be fully considered thereafter.
 - PCI DSS v3.2.1 was retired on 31st March 2024. Changes from v3.2.1 to v4 are documented in the
   [Summary of Changes](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r2.pdf)
 - PCI DSS v3.2 remained valid till 31 December 2018 and was retired on 1 January 2019.
