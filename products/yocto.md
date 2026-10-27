@@ -22,8 +22,15 @@ identifiers:
   - cpe: cpe:/a:linuxfoundation:yocto
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
-# eol(x) = releaseDate(x) + 7 month
+# eol(x) = releaseDate(x) + 6 month
 releases:
+  - releaseCycle: "6.1"
+    codename: "Blacksail"
+    releaseDate: 2026-10-20
+    eol: 2027-04-30
+    latest: "6.1.4"
+    latestReleaseDate: 2026-10-20
+
   - releaseCycle: "6.0"
     codename: "Wrynose"
     lts: true
