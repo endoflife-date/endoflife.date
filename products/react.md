@@ -8,7 +8,7 @@ permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/react/react/releases/tag/v__LATEST__
 eoasColumn: true
-staleReleaseThresholdDays: 2190 # https://react.dev/community/versioning-policy#stable-releases
+staleReleaseThresholdDays: 2370 # https://react.dev/community/versioning-policy#stable-releases
 
 identifiers:
   - purl: pkg:github/facebook/react
