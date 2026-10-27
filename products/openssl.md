@@ -34,7 +34,7 @@ auto:
 releases:
   - releaseCycle: "4.1"
     releaseDate: 2026-10-23
-    eol: 2028-01-01 # estimated date
+    eol: 2027-11-30 # estimated date
     latest: "4.1.0"
     latestReleaseDate: 2026-10-23
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-41
