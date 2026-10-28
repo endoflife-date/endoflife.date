@@ -31,7 +31,7 @@ releases:
   - releaseCycle: "15"
     lts: true
     releaseDate: 2024-10-21
-    eol: false
+    eol: 2027-01-31
     latest: "15.5.28"
     latestReleaseDate: 2026-10-14
 
