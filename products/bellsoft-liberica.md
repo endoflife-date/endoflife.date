@@ -334,8 +334,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     eoes: 2030-03-31
-    latest: "17.0.21.0.3+5"
-    latestReleaseDate: 2026-10-26
+    latest: "17.0.21.0.3+6"
+    latestReleaseDate: 2026-10-27
     link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
   - releaseCycle: "16"
@@ -375,8 +375,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     eoes: 2032-03-31
-    latest: "11.0.33.0.2+5"
-    latestReleaseDate: 2026-10-23
+    latest: "11.0.33.0.3+7"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -393,8 +393,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2026-11-30
     eoes: 2031-03-31
-    latest: "8u513+5"
-    latestReleaseDate: 2026-10-23
+    latest: "8u513+9"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "7"
     lts: true
