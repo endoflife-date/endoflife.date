@@ -1,6 +1,6 @@
 ---
 title: Git
-addedAt: 2026-10-26
+addedAt: 2026-10-29
 category: app
 tags: vcs developer-tool
 iconSlug: git
