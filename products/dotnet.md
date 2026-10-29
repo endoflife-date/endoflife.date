@@ -11,6 +11,7 @@ versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 eolColumn: Support Status
+eoesColumn: Commercial Support
 
 identifiers:
   - repology: dotnet
@@ -66,6 +67,7 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-11-10
+    eoes: false
     latest: "9.0.21"
     latestReleaseDate: 2026-10-13
 
@@ -73,6 +75,7 @@ releases:
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
+    eoes: false
     latest: "8.0.32"
     latestReleaseDate: 2026-10-13
 
@@ -86,6 +89,7 @@ releases:
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
+    eoes: false
     latest: "6.0.36"
     latestReleaseDate: 2024-11-12
 
