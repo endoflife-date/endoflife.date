@@ -24,6 +24,12 @@ auto:
 # eol(x) = "Planned end of support" on https://developer.hashicorp.com/consul/docs/enterprise/support when listed,
 # otherwise releaseDate(x+3).
 releases:
+  - releaseCycle: "2.1"
+    releaseDate: 2026-10-21
+    eol: false
+    latest: "2.1.0"
+    latestReleaseDate: 2026-10-21
+
   - releaseCycle: "2.0"
     releaseDate: 2026-05-24
     eol: 2028-04-30
