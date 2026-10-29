@@ -41,9 +41,9 @@ releases:
   - releaseCycle: "13.3"
     releaseDate: 2026-10-20
     eoas: false # releaseDate(13.4)
-    eol: 2027-07-20 
+    eol: 2027-07-20
     latest: "13.3.0"
-    latestReleaseDate: 2026-10-20
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "13.2"
     releaseDate: 2026-08-18
