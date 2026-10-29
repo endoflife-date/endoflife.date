@@ -16,6 +16,11 @@ staleReleaseThresholdDays: 1000
 
 # EOL can be found on https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#end-of-support
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-07-30 # https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/
+    eol: false
+    eoes: false
+
   - releaseCycle: "3.5"
     releaseDate: 2026-03-18 # https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/
     eol: false

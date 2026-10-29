@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "3.24"
     releaseDate: 2026-06-09
     eol: 2028-06-01
-    latest: "3.24.2"
-    latestReleaseDate: 2026-09-17
+    latest: "3.24.3"
+    latestReleaseDate: 2026-10-21
     link: https://alpinelinux.org/posts/Alpine-3.24.0-released.html
 
   - releaseCycle: "3.23"

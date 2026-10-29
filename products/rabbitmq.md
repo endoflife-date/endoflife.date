@@ -26,10 +26,17 @@ auto:
         - '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
 
 releases:
+  - releaseCycle: "4.4"
+    releaseDate: 2026-10-20
+    eol: 2027-07-31
+    eoes: 2028-10-31
+    latest: "4.4.0"
+    latestReleaseDate: 2026-10-16
+
   - releaseCycle: "4.3"
     releaseDate: 2026-04-23
-    eol: false
-    eoes: false
+    eol: 2027-01-31
+    eoes: 2028-04-30
     latest: "4.3.7"
     latestReleaseDate: 2026-10-19
 
@@ -43,28 +50,28 @@ releases:
   - releaseCycle: "4.1"
     releaseDate: 2025-04-15
     eol: 2026-01-30
-    eoes: 2028-04-29
+    eoes: 2027-04-30
     latest: "4.1.8"
     latestReleaseDate: 2026-01-21
 
   - releaseCycle: "4.0"
     releaseDate: 2024-09-18
-    eol: 2025-04-15
-    eoes: 2027-09-29
+    eol: 2025-04-30
+    eoes: 2026-09-29
     latest: "4.0.9"
     latestReleaseDate: 2025-04-14
 
   - releaseCycle: "3.13"
     releaseDate: 2024-02-22
-    eol: 2024-09-17
-    eoes: 2027-12-30
+    eol: 2024-09-30
+    eoes: 2029-12-31
     latest: "3.13.7"
     latestReleaseDate: 2024-08-26
 
   - releaseCycle: "3.12"
     releaseDate: 2023-06-01
-    eol: 2024-02-21
-    eoes: 2025-06-29
+    eol: 2024-02-29
+    eoes: 2025-06-30
     latest: "3.12.14"
     latestReleaseDate: 2024-05-05
 
