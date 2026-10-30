@@ -176,3 +176,5 @@ releases:
   related to support lifecycle policy.
 - **[Extended Commercial Support](https://www.vmware.com/products/app-platform/tanzu-data-intelligence/rabbitmq)**: is available from VMWare. It includes
   security patches, and fixes for high-severity issues reported by users with a commercial license.
+
+- **Third-party extended support**: [OSSeva](https://www.osseva.io/technologies/rabbitmq) provides RabbitMQ support, including patched builds for selected community end-of-life versions, CVE remediation, signed artifacts, and Erlang/OTP compatibility support.
