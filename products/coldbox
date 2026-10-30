@@ -1,0 +1,76 @@
+---
+title: ColdBox HMVC Framework
+category: framework
+tags: cfml cfml-runtime coldfusion boxlang
+permalink: /coldbox
+versionCommand: getColdBoxSetting( "version" );
+releasePolicyLink: https://coldbox.ortusbooks.com/readme/release-history
+changelogTemplate: https://coldbox.ortusbooks.com/readme/release-history/whats-new-with-__RELEASE_CYCLE__
+eolColumn: Updates
+releaseColumn: Version
+releaseDateColumn: Release
+extendedSupportColumn: Security Fixes
+
+auto:
+  methods:
+  -   custom: coldfusion
+
+# When adding a cycle, don't forget to add its release note URL in
+# https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
+# to benefit from auto-updates.
+releases:
+
+-   releaseCycle: "7.0"
+    releaseDate: 2023-05-15
+    eol: 2026-05-15
+    extendedSupport: 2026-05-15
+    latest: "7.3.0"
+    latestReleaseDate: 2024-05-13
+
+-   releaseCycle: "6.0"
+    releaseDate: 2020-05-15
+    eol: 2025-05-15
+    extendedSupport: 2025-05-15
+    latest: "6.10.0"
+    latestReleaseDate: 2024-05-13
+
+-   releaseCycle: "5.0"
+    releaseDate: 2018-04-18
+    eol: 2021-07-01
+    extendedSupport: 2021-07-01
+    latest: "5.6.0"
+    latestReleaseDate: 2019-09-10
+
+-   releaseCycle: "4.0"
+    releaseDate: 2015-01-23
+    eol: 2020-01-01
+    extendedSupport: 2020-01-01
+    latest: "4.3.0"
+    latestReleaseDate: 2016-10-19
+
+-   releaseCycle: "3.0"
+    releaseDate: 2011-03-01
+    eol: 2013-03-01
+    extendedSupport: 2013-03-01
+    latest: "3.0"
+    latestReleaseDate: 2011-03-01
+
+-   releaseCycle: "2.0"
+    releaseDate: 2007-04-01
+    eol: 2010-04-01
+    extendedSupport: 2010-04-01
+    latest: "2.0"
+    latestReleaseDate: 2007-04-01
+
+-   releaseCycle: "1.0"
+    releaseDate: 2006-06-01
+    eol: 2009-06-01
+    extendedSupport: 2009-06-01
+    latest: "21.0"
+    latestReleaseDate: 2006-06-01
+
+---
+
+> [ColdBox HMVC](https://coldbox.org) is a modern, open-source, fully-featured web application framework for ColdFusion (CFML, ColdFusion Markup Language) and BoxLang. One of its core design principles is the adoption of HMVC (Hierarchical Model-View-Controller), a pattern that brings additional flexibility and modularity to the architecture of web applications.
+
+[Ortus Solutions](https://coldbox.org) also offers Professional Support for ColdBox, CFML, BoxLang, and related web technologies.
