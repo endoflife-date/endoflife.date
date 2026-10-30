@@ -25,9 +25,15 @@ auto:
 # eol(x) = releaseDate(x+1)
 # eoes(x) = releaseDate(x+6) / https://developer.hashicorp.com/vault/docs/enterprise/support#coverage-for-existing-lts-versions
 releases:
+  - releaseCycle: "2.2"
+    releaseDate: 2026-10-14
+    eol: false
+    latest: "2.2.1"
+    latestReleaseDate: 2026-10-22
+
   - releaseCycle: "2.1"
     releaseDate: 2026-08-31
-    eol: false
+    eol: 2026-10-14
     latest: "2.1.2"
     latestReleaseDate: 2026-10-06
 
