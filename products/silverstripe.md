@@ -34,8 +34,8 @@ auto:
 releases:
   - releaseCycle: "6.2"
     releaseDate: 2026-04-17
-    eoas: 2026-10-31
-    eol: 2027-04-30
+    eoas: 2026-10-28
+    eol: 2027-04-29
     latest: "6.2.0"
     latestReleaseDate: 2026-04-17
 
@@ -152,6 +152,7 @@ releases:
     latest: "2.3.13"
     latestReleaseDate: 2011-10-18
     link: null
+
 ---
 
 > [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS

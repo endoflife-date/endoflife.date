@@ -102,7 +102,7 @@ releases:
   - releaseCycle: "6.0"
     lts: true
     releaseDate: 2018-03-15
-    eol: false
+    eol: 2027-04-15
     latest: "6.0.18"
     latestReleaseDate: 2026-05-18
 
