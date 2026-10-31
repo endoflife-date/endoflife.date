@@ -2,11 +2,9 @@
 title: Git
 addedAt: 2026-10-29
 category: app
-tags: vcs developer-tool
 iconSlug: git
 permalink: /git
 versionCommand: git --version
-releasePolicyLink: https://git-scm.com/
 changelogTemplate: https://raw.githubusercontent.com/git/git/refs/heads/master/Documentation/RelNotes/__LATEST__.adoc
 eoasColumn: Active Support
 eolColumn: Security Support
@@ -18,8 +16,7 @@ identifiers:
 
 auto:
   methods:
-    - git_tags: https://github.com/git/git.git
-      regex: '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)(?:\.(?P<patch>\d+))?$'
+    - git: https://github.com/git/git.git
 
 # Git releases a new feature release approximately every 10–12 weeks.
 # Active bugfix support ends when the next minor version is published.
