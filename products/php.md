@@ -143,19 +143,19 @@ releases:
     latest: "5.1.6"
     latestReleaseDate: 2006-08-24
 
-  - releaseCycle: "5.0"
-    releaseDate: 2004-07-13
-    eoas: 2005-09-05
-    eol: 2005-09-05
-    latest: "5.0.5"
-    latestReleaseDate: 2005-09-05
-
   - releaseCycle: "4.4"
     releaseDate: 2005-07-11
     eoas: 2007-12-31
     eol: 2008-08-07
     latest: "4.4.9"
     latestReleaseDate: 2008-08-07
+
+  - releaseCycle: "5.0"
+    releaseDate: 2004-07-13
+    eoas: 2005-09-05
+    eol: 2005-09-05
+    latest: "5.0.5"
+    latestReleaseDate: 2005-09-05
 
   - releaseCycle: "4.3"
     releaseDate: 2002-12-27
@@ -184,7 +184,6 @@ releases:
     eol: 2001-06-23
     latest: "4.0.6"
     latestReleaseDate: 2001-06-23
-
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose
