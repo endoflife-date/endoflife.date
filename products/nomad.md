@@ -27,6 +27,12 @@ auto:
 # eol(x) = "Base Support End" on https://developer.hashicorp.com/nomad/docs/ce-license-support when listed,
 # otherwise releaseDate(x+3).
 releases:
+  - releaseCycle: "2.1"
+    releaseDate: 2026-10-27
+    eol: false
+    latest: "2.1.1"
+    latestReleaseDate: 2026-10-29
+
   - releaseCycle: "2.0"
     releaseDate: 2026-04-21
     eol: 2028-04-30
