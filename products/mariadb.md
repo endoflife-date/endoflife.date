@@ -55,7 +55,7 @@ auto:
         # (patch 0 and 1 are pre-GA) until the exact GA patch is confirmed and added above.
         - ^mariadb-(1[1-9]|[2-9]\d)\.\d+\.[01]$
     - release_table: https://mariadb.org/about/#maintenance-policy
-      header_selector: "tbody tr:nth-of-type(1)"
+      header_selector: "thead tr:nth-of-type(2)"
       fields:
         releaseCycle: "Release"
         releaseDate: "GA release date"
