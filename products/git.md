@@ -2,11 +2,9 @@
 title: Git
 addedAt: 2026-10-29
 category: app
-tags: vcs developer-tool
 iconSlug: git
 permalink: /git
 versionCommand: git --version
-releasePolicyLink: https://git-scm.com/
 changelogTemplate: https://raw.githubusercontent.com/git/git/refs/heads/master/Documentation/RelNotes/__LATEST__.adoc
 eoasColumn: Active Support
 eolColumn: Security Support
@@ -18,8 +16,7 @@ identifiers:
 
 auto:
   methods:
-    - git_tags: https://github.com/git/git.git
-      regex: '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)(?:\.(?P<patch>\d+))?$'
+    - git: https://github.com/git/git.git
 
 # Git releases a new feature release approximately every 10–12 weeks.
 # Active bugfix support ends when the next minor version is published.
@@ -30,7 +27,7 @@ releases:
     eoas: false
     eol: false
     latest: "2.56.0"
-    latestReleaseDate: 2026-09-28
+    latestReleaseDate: 2026-09-27
 
   - releaseCycle: "2.55"
     releaseDate: 2026-06-29
@@ -44,14 +41,14 @@ releases:
     eoas: 2026-06-29 # releaseDate(2.55)
     eol: false
     latest: "2.54.0"
-    latestReleaseDate: 2026-04-20
+    latestReleaseDate: 2026-04-19
 
   - releaseCycle: "2.53"
     releaseDate: 2026-02-02
     eoas: 2026-04-20 # releaseDate(2.54)
     eol: false
     latest: "2.53.0"
-    latestReleaseDate: 2026-02-02
+    latestReleaseDate: 2026-02-01
 
   - releaseCycle: "2.52"
     releaseDate: 2025-11-17
@@ -65,63 +62,63 @@ releases:
     eoas: 2025-11-17 # releaseDate(2.52)
     eol: false
     latest: "2.51.2"
-    latestReleaseDate: 2025-10-29
+    latestReleaseDate: 2025-10-26
 
   - releaseCycle: "2.50"
     releaseDate: 2025-06-16
     eoas: 2025-08-18 # releaseDate(2.51)
     eol: false
     latest: "2.50.1"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-15
 
   - releaseCycle: "2.49"
     releaseDate: 2025-03-14
     eoas: 2025-06-16 # releaseDate(2.50)
     eol: false
     latest: "2.49.1"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.48"
     releaseDate: 2025-01-10
     eoas: 2025-03-14 # releaseDate(2.49)
     eol: false
     latest: "2.48.2"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.47"
     releaseDate: 2024-10-07
     eoas: 2025-01-10 # releaseDate(2.48)
     eol: 2025-10-15
     latest: "2.47.3"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.46"
     releaseDate: 2024-07-29
     eoas: 2024-10-07 # releaseDate(2.47)
     eol: 2025-07-08
     latest: "2.46.4"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.45"
     releaseDate: 2024-04-29
     eoas: 2024-07-29 # releaseDate(2.46)
     eol: 2025-07-08
     latest: "2.45.4"
-    latestReleaseDate: 2025-07-08
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.44"
     releaseDate: 2024-02-23
     eoas: 2024-04-29 # releaseDate(2.45)
     eol: 2025-01-14
-    latest: "2.44.3"
-    latestReleaseDate: 2025-01-14
+    latest: "2.44.4"
+    latestReleaseDate: 2025-06-13
 
   - releaseCycle: "2.43"
     releaseDate: 2023-11-20
     eoas: 2024-02-23 # releaseDate(2.44)
     eol: 2025-01-14
-    latest: "2.43.6"
-    latestReleaseDate: 2025-01-14
+    latest: "2.43.7"
+    latestReleaseDate: 2025-06-13
 
 ---
 
