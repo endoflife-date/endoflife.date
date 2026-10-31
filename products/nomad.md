@@ -29,7 +29,7 @@ auto:
 releases:
   - releaseCycle: "2.1"
     releaseDate: 2026-10-27
-    eol: false # releaseDate(2.4)
+    eol: false
     latest: "2.1.1"
     latestReleaseDate: 2026-10-29
 
