@@ -16,41 +16,48 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/tarantool/tarantool.git
+    - release_table: https://www.tarantool.io/en/doc/latest/release/#release-table
+      fields:
+        releaseCycle: "Series"
+        releaseDate: "First release date"
+        eol:
+          column: "End of life"
+          regex: '^(?P<value>[A-Z][a-z]+ \d{1,2}, \d{4})$'
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
   - releaseCycle: "3.9"
     releaseDate: 2026-10-23
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    eol: false
     latest: "3.9.0"
     latestReleaseDate: 2026-10-23
 
   - releaseCycle: "3.8"
     releaseDate: 2026-07-10
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    eol: false
     latest: "3.8.2"
     latestReleaseDate: 2026-10-23
 
   - releaseCycle: "3.7"
     releaseDate: 2026-04-22
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    eol: false
     latest: "3.7.2"
     latestReleaseDate: 2026-10-23
 
   - releaseCycle: "3.6"
     releaseDate: 2025-12-12
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    eol: false
     latest: "3.6.4"
     latestReleaseDate: 2026-07-09
 
   - releaseCycle: "3.5"
     releaseDate: 2025-08-27
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    eol: false
     latest: "3.5.2"
     latestReleaseDate: 2026-05-25
 
   - releaseCycle: "3.4"
-    releaseDate: 2025-04-15
+    releaseDate: 2025-04-14
     eol: 2027-04-14
     latest: "3.4.2"
     latestReleaseDate: 2025-11-21
