@@ -9,6 +9,28 @@ changelogTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
 auto:
   methods:
     - git: https://github.com/notepad-plus-plus/notepad-plus-plus
+    # Tags before v6.7.6 were created on 2015-03-27, when the SVN history was imported,
+    # and v5, v6 and v6.2.3_-_End_of_World_Edition do not match the default regex.
+    # Dates below are those of the tagged commits.
+    - declare: notepad-plus-plus
+      versions:
+        - { name: "5.0.3", date: 2008-08-03 }
+        - { name: "5.1.4", date: 2009-01-12 }
+        - { name: "5.2", date: 2009-02-08 }
+        - { name: "5.3.1", date: 2009-03-29 }
+        - { name: "5.4.5", date: 2009-07-14 }
+        - { name: "5.5.1", date: 2009-10-09 }
+        - { name: "5.6.8", date: 2010-03-04 }
+        - { name: "5.7", date: 2010-07-05 }
+        - { name: "5.8.7", date: 2011-01-31 }
+        - { name: "5.9.8", date: 2012-01-05 }
+        - { name: "6.0", date: 2012-03-25 }
+        - { name: "6.1.8", date: 2012-09-16 }
+        - { name: "6.2.3", date: 2012-12-16 }
+        - { name: "6.3.3", date: 2013-05-05 }
+        - { name: "6.4.5", date: 2013-08-09 }
+        - { name: "6.5.5", date: 2014-03-06 }
+        - { name: "6.6.9", date: 2014-09-07 }
 
 identifiers:
   - repology: notepad%2B%2B
@@ -147,6 +169,113 @@ releases:
     latest: "6.8.9"
     latestReleaseDate: 2016-01-13
 
+  - releaseCycle: "6.7"
+    releaseDate: 2014-12-14
+    eol: 2015-07-21
+    latest: "6.7.9.2"
+    latestReleaseDate: 2015-06-23
+
+  - releaseCycle: "6.6"
+    releaseDate: 2014-05-01
+    eol: 2014-12-14
+    latest: "6.6.9"
+    latestReleaseDate: 2014-09-07
+
+  - releaseCycle: "6.5"
+    releaseDate: 2013-09-29
+    eol: 2014-05-01
+    latest: "6.5.5"
+    latestReleaseDate: 2014-03-06
+
+  - releaseCycle: "6.4"
+    releaseDate: 2013-06-29
+    eol: 2013-09-29
+    latest: "6.4.5"
+    latestReleaseDate: 2013-08-09
+
+  - releaseCycle: "6.3"
+    releaseDate: 2013-02-03
+    eol: 2013-06-29
+    latest: "6.3.3"
+    latestReleaseDate: 2013-05-05
+
+  - releaseCycle: "6.2"
+    releaseDate: 2012-10-09
+    eol: 2013-02-03
+    latest: "6.2.3"
+    latestReleaseDate: 2012-12-16
+
+  - releaseCycle: "6.1"
+    releaseDate: 2012-04-09
+    eol: 2012-10-09
+    latest: "6.1.8"
+    latestReleaseDate: 2012-09-16
+
+  - releaseCycle: "6.0"
+    releaseDate: 2012-03-25
+    eol: 2012-04-09
+    latest: "6.0"
+    latestReleaseDate: 2012-03-25
+
+  - releaseCycle: "5.9"
+    releaseDate: 2011-03-31
+    eol: 2012-03-25
+    latest: "5.9.8"
+    latestReleaseDate: 2012-01-05
+
+  - releaseCycle: "5.8"
+    releaseDate: 2010-09-19
+    eol: 2011-03-31
+    latest: "5.8.7"
+    latestReleaseDate: 2011-01-31
+
+  - releaseCycle: "5.7"
+    releaseDate: 2010-07-05
+    eol: 2010-09-19
+    latest: "5.7"
+    latestReleaseDate: 2010-07-05
+
+  - releaseCycle: "5.6"
+    releaseDate: 2009-11-30
+    eol: 2010-07-05
+    latest: "5.6.8"
+    latestReleaseDate: 2010-03-04
+
+  - releaseCycle: "5.5"
+    releaseDate: 2009-09-21
+    eol: 2009-11-30
+    latest: "5.5.1"
+    latestReleaseDate: 2009-10-09
+
+  - releaseCycle: "5.4"
+    releaseDate: 2009-05-25
+    eol: 2009-09-21
+    latest: "5.4.5"
+    latestReleaseDate: 2009-07-14
+
+  - releaseCycle: "5.3"
+    releaseDate: 2009-03-20
+    eol: 2009-05-25
+    latest: "5.3.1"
+    latestReleaseDate: 2009-03-29
+
+  - releaseCycle: "5.2"
+    releaseDate: 2009-02-08
+    eol: 2009-03-20
+    latest: "5.2"
+    latestReleaseDate: 2009-02-08
+
+  - releaseCycle: "5.1"
+    releaseDate: 2008-10-26
+    eol: 2009-02-08
+    latest: "5.1.4"
+    latestReleaseDate: 2009-01-12
+
+  - releaseCycle: "5.0"
+    releaseDate: 2008-07-06
+    eol: 2008-10-26
+    latest: "5.0.3"
+    latestReleaseDate: 2008-08-03
 ---
 
 > [Notepad++](https://notepad-plus-plus.org) (sometimes npp or NPP) is a text and source code for use with Microsoft Windows.
