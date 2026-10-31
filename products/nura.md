@@ -1,6 +1,6 @@
 ---
 title: Nura
-addedAt: 2026-10-14
+addedAt: 2026-10-15
 category: os
 tags: linux-distribution
 permalink: /nura
