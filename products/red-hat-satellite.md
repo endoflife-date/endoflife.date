@@ -8,31 +8,31 @@ permalink: /redhat-satellite
 alternate_urls:
   - /rhsat
   - /red-hat-satellite
-versionCommand: |-
-  dnf info satellite
-
-  # or, on older versions
-  yum info satellite
+versionCommand: dnf info satellite
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+changelogTemplate: "https://docs.redhat.com/en/documentation/red_hat_satellite/__RELEASE_CYCLE__"
 releaseDateColumn: General availability
+LTSLabel: "<abbr title='Extended Update Support'>EUS</abbr>"
 eoasColumn: Full support
 eolColumn: Maintenance support
+eoesColumn: Extended Update Support
 
 auto:
   methods:
     - version_table: https://access.redhat.com/articles/1365633
       name_column: "Release/Update"
-      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease| Update)$'
+      regex: '^Satellite (?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+)((\.|-)(?P<tiny>\d+))?)?( GA [rR]elease|( EUS)? Update)$'
       template: "{{major}}.{{minor}}.{% if patch %}{{patch}}{% else %}0{% endif %}{% if tiny %}.{{tiny}}{% endif %}"
       date_column: "General Availability Date"
 
-# eoas and eol can be found on https://access.redhat.com/support/policy/updates/satellite.
+# eoas, eol and eoes can be found on https://access.redhat.com/support/policy/updates/satellite.
 releases:
   - releaseCycle: "6.19"
     releaseDate: 2026-05-06
+    lts: true
     eoas: 2026-11-01 # Estimated
     eol: 2027-11-01 # Estimated
+    eoes: 2028-11-01 # Estimated
     latest: "6.19.5"
     latestReleaseDate: 2026-09-30
 
@@ -51,9 +51,11 @@ releases:
     latestReleaseDate: 2026-09-30
 
   - releaseCycle: "6.16"
+    lts: true
     releaseDate: 2024-11-05
     eoas: 2025-05-31
     eol: 2026-05-31
+    eoes: 2027-05-31
     latest: "6.16.10"
     latestReleaseDate: 2026-07-01
 
@@ -180,3 +182,6 @@ releases:
 A new release is made approximately every 6 months. Each release is actively supported for six
 months and followed by one year of maintenance support. Release Dates are published on the
 [Red Hat Customer Portal](https://access.redhat.com/articles/1365633).
+
+The Red Hat Satellite Extended Update Support (EUS) offering provides extended maintenance and critical updates beyond the standard 18-month Satellite product lifecycle. This publicly available subscription add-on is designed for enterprise customers who face complex integration challenges or strict compliance requirements that make frequent upgrades disruptive.  
+More information about the Red Hat Satellite Extended Update Support Subscription is available at [Red Hat Satellite Extended Update Support (EUS) Offering Overview + FAQ](https://access.redhat.com/articles/7136152).
