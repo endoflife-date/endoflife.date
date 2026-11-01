@@ -112,6 +112,6 @@ releases:
 
 A new minor version is released every 6 months.
 
-A list of security vulnerabilities is [available here](https://varnish-cache.org/security/index.html).
-You can also subscribe to the [varnish-announce](https://varnish-cache.org/lists/mailman/listinfo/varnish-announce)
+A list of security vulnerabilities is [available here](https://vinyl-cache.org/security/index.html).
+You can also subscribe to the [vinyl-announce](https://vinyl-cache.org/lists/mailman/listinfo/vinyl-announce)
 mailing list.
