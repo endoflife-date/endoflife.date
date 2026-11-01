@@ -22,9 +22,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.11"
+    releaseDate: 2026-10-29
+    eol: false
+    latest: "2.11.1"
+    latestReleaseDate: 2026-10-30
+
   - releaseCycle: "2.10"
     releaseDate: 2026-05-28
-    eol: false
+    eol: 2026-10-29
     latest: "2.10.3"
     latestReleaseDate: 2026-08-27
 
@@ -94,7 +100,6 @@ releases:
     eol: 2026-05-30
     latest: "1.10.28"
     latestReleaseDate: 2026-05-13
-
 ---
 
 > [Composer](https://getcomposer.org/) is a package manager commonly used to manage
