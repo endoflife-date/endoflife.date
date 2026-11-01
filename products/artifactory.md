@@ -23,6 +23,12 @@ auto:
 
 # EOL documented on https://docs.jfrog.com/releases/docs/artifactory-end-of-life.
 releases:
+  - releaseCycle: "7.173"
+    releaseDate: 2026-10-26
+    eol: 2028-01-27
+    latest: "7.173.10"
+    latestReleaseDate: 2026-10-27
+
   - releaseCycle: "7.161"
     releaseDate: 2026-07-27
     eol: 2028-01-27
