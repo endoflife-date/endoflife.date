@@ -37,6 +37,13 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "21"
+    codename: "Umbrella"
+    releaseDate: 2026-10-28
+    eol: 2028-10-28
+    latest: "21.2.0"
+    latestReleaseDate: 2026-10-28
+
   - releaseCycle: "20"
     codename: "Tentacle"
     releaseDate: 2025-11-18
