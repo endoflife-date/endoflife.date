@@ -20,9 +20,16 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "5.2"
+    releaseDate: 2026-10-08
+    eol: false
+    latest: "5.2.1"
+    latestReleaseDate: 2026-10-25
+    link: https://github.com/DependencyTrack/dependency-track/releases/tag/__LATEST__
+
   - releaseCycle: "5.1"
     releaseDate: 2026-08-27
-    eol: false # releaseDate(5.2)
+    eol: 2026-10-08
     latest: "5.1.2"
     latestReleaseDate: 2026-10-05
     link: https://github.com/DependencyTrack/dependency-track/releases/tag/__LATEST__
