@@ -39,6 +39,12 @@ auto:
           regex: '(?i)^(?P<value>true)$'
 
 releases:
+  - releaseCycle: "0.65"
+    releaseDate: 2026-10-12
+    eol: 2027-01-01
+    latest: "0.65.2.5"
+    latestReleaseDate: 2026-10-31
+
   - releaseCycle: "0.64"
     lts: true
     releaseDate: 2026-09-16
