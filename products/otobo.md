@@ -17,6 +17,12 @@ auto:
 
 # EOL documented on https://otobo.io/en/service-management-platform/otobo-download/
 releases:
+  - releaseCycle: "11.1"
+    releaseDate: 2026-10-26
+    eol: false
+    latest: "11.1.1"
+    latestReleaseDate: 2026-10-26
+
   - releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eol: false
@@ -25,7 +31,7 @@ releases:
 
   - releaseCycle: "10.1"
     releaseDate: 2022-03-02
-    eol: false
+    eol: 2027-05-01
     latest: "10.1.19"
     latestReleaseDate: 2026-09-16
 
