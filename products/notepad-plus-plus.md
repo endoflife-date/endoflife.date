@@ -9,28 +9,11 @@ changelogTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
 auto:
   methods:
     - git: https://github.com/notepad-plus-plus/notepad-plus-plus
-    # Tags before v6.7.6 were created on 2015-03-27, when the SVN history was imported,
-    # and v5, v6 and v6.2.3_-_End_of_World_Edition do not match the default regex.
-    # Dates below are those of the tagged commits.
-    - declare: notepad-plus-plus
-      versions:
-        - { name: "5.0.3", date: 2008-08-03 }
-        - { name: "5.1.4", date: 2009-01-12 }
-        - { name: "5.2", date: 2009-02-08 }
-        - { name: "5.3.1", date: 2009-03-29 }
-        - { name: "5.4.5", date: 2009-07-14 }
-        - { name: "5.5.1", date: 2009-10-09 }
-        - { name: "5.6.8", date: 2010-03-04 }
-        - { name: "5.7", date: 2010-07-05 }
-        - { name: "5.8.7", date: 2011-01-31 }
-        - { name: "5.9.8", date: 2012-01-05 }
-        - { name: "6.0", date: 2012-03-25 }
-        - { name: "6.1.8", date: 2012-09-16 }
-        - { name: "6.2.3", date: 2012-12-16 }
-        - { name: "6.3.3", date: 2013-05-05 }
-        - { name: "6.4.5", date: 2013-08-09 }
-        - { name: "6.5.5", date: 2014-03-06 }
-        - { name: "6.6.9", date: 2014-09-07 }
+      # Tags before v6.7.6 were created on 2015-03-27, when the SVN history was imported.
+      regex_exclude:
+        - '^v5\.'
+        - '^v6\.[0-6]\.'
+        - '^v6\.7\.[0-5]'
 
 identifiers:
   - repology: notepad%2B%2B
