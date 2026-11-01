@@ -23,9 +23,14 @@ identifiers:
   - cpe: cpe:/a:plesk:plesk
   - cpe: cpe:2.3:a:plesk:plesk
 
-
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+  - releaseCycle: "18.0.82"
+    releaseDate: 2026-10-27
+    eol: 2027-01-19
+    latest: "18.0.82.1"
+    latestReleaseDate: 2026-10-28
+
   - releaseCycle: "18.0.81"
     releaseDate: 2026-09-15
     eol: 2026-12-08
@@ -230,7 +235,6 @@ releases:
     latest: "17.8.11.95"
     latestReleaseDate: 2021-01-25
     link: https://docs.plesk.com/release-notes/onyx/change-log/
-
 ---
 
 > [Plesk](https://www.plesk.com/) is a proprietary hosting control panel developed by
