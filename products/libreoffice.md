@@ -201,19 +201,20 @@ releases:
     releaseDate: 2012-02-14 # https://blog.documentfoundation.org/blog/2012/02/14/the-document-foundation-announces-libreoffice-3-5-the-best-free-office-suite-ever/
     eol: 2012-11-08
     latest: "3.5.7.2"
-    latestReleaseDate: 2012-10-18 # https://blog.documentfoundation.org/blog/2012/10/18/the-document-foundation-announces-libreoffice-3-5-7/
+    latestReleaseDate: 2012-11-03 # https://blog.documentfoundation.org/blog/2012/10/18/the-document-foundation-announces-libreoffice-3-5-7/
 
   - releaseCycle: "3.4"
     releaseDate: 2011-06-03 # https://blog.documentfoundation.org/blog/2011/06/03/the-document-foundation-announces-libreoffice-3-4-0/
     eol: 2012-04-19
     latest: "3.4.6.2"
-    latestReleaseDate: 2012-03-22 # https://blog.documentfoundation.org/blog/2012/03/22/tdf-announces-libreoffice-3-4-6/
+    latestReleaseDate: 2012-05-12 # https://blog.documentfoundation.org/blog/2012/03/22/tdf-announces-libreoffice-3-4-6/
 
   - releaseCycle: "3.3"
     releaseDate: 2011-01-25 # https://blog.documentfoundation.org/blog/2011/01/25/the-document-foundation-launches-libreoffice-3-3/
     eol: 2011-09-17
     latest: "3.3.4.1"
-    latestReleaseDate: 2011-08-17 # https://blog.documentfoundation.org/blog/2011/08/17/libreoffice-3-3-4-is-ready-for-download/
+    latestReleaseDate: 2012-05-12 # https://blog.documentfoundation.org/blog/2011/08/17/libreoffice-3-3-4-is-ready-for-download/
+
 
 ---
 
