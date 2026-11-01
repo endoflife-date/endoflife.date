@@ -22,6 +22,13 @@ auto:
 # releaseDate is the GA release date.
 # Image status is documented on https://github.com/actions/runner-images/tree/main.
 releases:
+  - releaseCycle: "xcode-27"
+    releaseLabel: "Xcode 27"
+    releaseDate: 2026-10-15 # https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available/
+    eoas: false
+    eol: false
+    link: https://github.com/actions/runner-images/blob/main/images/macos/xcode-27-arm64-Readme.md
+
   - releaseCycle: "ubuntu-26.04-arm64"
     releaseLabel: "Ubuntu 26.04 Arm64"
     releaseDate: 2026-09-17 # https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/
