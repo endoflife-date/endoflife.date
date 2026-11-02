@@ -31,6 +31,14 @@ auto:
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
 # Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
+  - releaseCycle: "4.13"
+    releaseLabel: '4.13 Edge'
+    releaseDate: 2026-10-06
+    eoas: 2027-03-06
+    eol: 2027-06-06
+    latest: "4.13.1"
+    latestReleaseDate: 2026-10-25 # approximation
+
   - releaseCycle: "4.12"
     releaseLabel: '4.12 Edge'
     releaseDate: 2026-06-30
