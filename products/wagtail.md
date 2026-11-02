@@ -48,6 +48,15 @@ auto:
         supportedPythonVersions: "Compatible Python versions"
 
 releases:
+  - releaseCycle: "8.1"
+    supportedDjangoVersions: "5.2, 6.0, 6.1"
+    supportedPythonVersions: "3.11, 3.12, 3.13, 3.14, 3.15"
+    releaseDate: 2026-11-02
+    eoas: 2027-02-02
+    eol: 2027-05-04
+    latest: "8.1"
+    latestReleaseDate: 2026-11-02
+
   - releaseCycle: "8.0"
     supportedDjangoVersions: "5.2, 6.0, 6.1"
     supportedPythonVersions: "3.10, 3.11, 3.12, 3.13, 3.14"
