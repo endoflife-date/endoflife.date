@@ -13,7 +13,18 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/Alfresco/alfresco-community-repo.git
+      # Git tags for releases follow the format {cycle}.{patch}.{build} (e.g. 26.3.0.91 or 26.2.5.1).
+      # The regex ignores non-release tags like tas-restapi-* or staging tags (-TEST*).
+      regex: '^(?P<version>\d+\.\d+(\.\d+)+)$'
 
+# Alfresco versioning:
+# Starting in late 2023, Alfresco switched from 7.x to year-based release cycles (23.x, 25.x, 26.x).
+# Each releaseCycle "YY.N" groups tags formatted as YY.N.Z.B where YY.N is the cycle,
+# Z is the patch level and B is the release build number (e.g. 26.3.0.91).
+#
+# Support lifecycle:
+# Alfresco Community Edition follows a rolling release schedule without commercial vendor support.
+# Only the latest release cycle is actively maintained; each cycle reaches EOL upon the release of the next.
 # eol(x) = releaseDate(x+1)
 releases:
   - releaseCycle: "26.3"
