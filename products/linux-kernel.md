@@ -37,7 +37,7 @@ releases:
 
   - releaseCycle: "7.2"
     releaseDate: 2026-08-16
-    eol: false # To be determined
+    eol: 2026-11-01 # announced https://lore.kernel.org/all/2026110111-hypnotic-release-9a2c@gregkh/
     latest: "7.2.15"
     latestReleaseDate: 2026-11-01
 
