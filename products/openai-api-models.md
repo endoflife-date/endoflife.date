@@ -30,6 +30,15 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.1-terra"
+    releaseLabel: "GPT-6.1 Terra"
+    aliases:
+      - gpt-6.1-terra
+    releaseDate: 2026-10-26 # https://openai.com/index/introducing-gpt-6-1-terra/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+
   - releaseCycle: "gpt-6.1-sol"
     releaseLabel: "GPT-6.1 Sol"
     aliases:
