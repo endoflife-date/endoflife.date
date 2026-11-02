@@ -10,6 +10,8 @@ eoasColumn: true
 
 identifiers:
   - repology: portainer
+  - purl: pkg:docker/portainer/portainer-ce
+  - purl: pkg:docker/portainer/portainer-ee
   - cpe: cpe:2.3:a:portainer:portainer
   - cpe: cpe:/a:portainer:portainer
 
