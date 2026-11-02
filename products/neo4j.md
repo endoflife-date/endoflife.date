@@ -55,7 +55,7 @@ releases:
 
   - releaseCycle: "2026.09"
     releaseDate: 2026-09-21 # https://neo4j.com/release-notes/database/neo4j-2026-09-0/
-    eol: false
+    eol: 2026-10-20
     latest: "2026.09.0"
     latestReleaseDate: 2026-09-16
 
