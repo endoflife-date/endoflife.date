@@ -41,7 +41,7 @@ releases:
     eol: 2027-05-04
     minK8sVersion: "1.35"
     latest: "1.24.0"
-    latestReleaseDate: 2026-10-27
+    latestReleaseDate: 2026-10-26
 
   - releaseCycle: "1.23"
     releaseDate: 2026-07-28

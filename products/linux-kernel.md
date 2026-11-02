@@ -38,8 +38,8 @@ releases:
   - releaseCycle: "7.2"
     releaseDate: 2026-08-16
     eol: false # To be determined
-    latest: "7.2.14"
-    latestReleaseDate: 2026-10-30
+    latest: "7.2.15"
+    latestReleaseDate: 2026-11-01
 
   - releaseCycle: "7.1"
     releaseDate: 2026-06-14
