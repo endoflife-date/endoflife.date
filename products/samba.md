@@ -36,22 +36,22 @@ releases:
     releaseDate: 2026-09-24
     eoas: 2027-09-30
     eol: 2028-03-31
-    latest: "4.25.0"
-    latestReleaseDate: 2026-09-24
+    latest: "4.25.1"
+    latestReleaseDate: 2026-10-23
 
   - releaseCycle: "4.24"
     releaseDate: 2026-03-18
     eoas: 2027-03-31
     eol: 2027-09-30
-    latest: "4.24.7"
-    latestReleaseDate: 2026-09-09
+    latest: "4.24.8"
+    latestReleaseDate: 2026-10-12
 
   - releaseCycle: "4.23"
     releaseDate: 2025-09-12
     eoas: 2026-09-30
     eol: 2027-03-31
-    latest: "4.23.12"
-    latestReleaseDate: 2026-09-01
+    latest: "4.23.13"
+    latestReleaseDate: 2026-10-01
 
   - releaseCycle: "4.22"
     releaseDate: 2025-03-06

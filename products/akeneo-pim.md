@@ -30,10 +30,18 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2026.5"
+    releaseLabel: "2026.5"
+    releaseDate: 2026-10-30
+    eol: false
+    latest: "2026.5"
+    latestReleaseDate: 2026-10-30
+    link: https://github.com/akeneo/pim-community-dev/releases/tag/v2026.5
+
   - releaseCycle: "2026.4"
     releaseLabel: "2026.4"
     releaseDate: 2026-08-28
-    eol: false
+    eol: 2026-10-30
     latest: "2026.4"
     latestReleaseDate: 2026-08-28
     link: https://github.com/akeneo/pim-community-dev/releases/tag/v2026.4
@@ -159,7 +167,6 @@ releases:
     link: null
     latest: "1.1.3"
     latestReleaseDate: 2014-07-22
-
 ---
 
 > [Akeneo PIM](https://www.akeneo.com/akeneo-pim-community-edition/) is a Product Information

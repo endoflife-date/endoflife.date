@@ -32,14 +32,14 @@ releases:
   - releaseCycle: "10"
     releaseDate: 2026-03-03
     eol: false # releaseDate(12)
-    latest: "10.0.0"
-    latestReleaseDate: 2026-03-03
+    latest: "10.1.0"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false # releaseDate(11)
-    latest: "9.10.1"
-    latestReleaseDate: 2026-01-20
+    latest: "9.11.0"
+    latestReleaseDate: 2026-10-04
 
   - releaseCycle: "8"
     releaseDate: 2019-03-13

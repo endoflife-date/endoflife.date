@@ -66,8 +66,8 @@ releases:
   - releaseCycle: "27"
     releaseDate: 2026-09-16
     eol: 2027-03-31
-    latest: "27.0.0.0"
-    latestReleaseDate: 2026-09-16
+    latest: "27.0.1.0"
+    latestReleaseDate: 2026-10-29
 
   - releaseCycle: "26"
     releaseDate: 2026-03-18
@@ -79,8 +79,8 @@ releases:
     lts: true
     releaseDate: 2025-09-25
     eol: 2031-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
-    latest: "25.0.4.15"
-    latestReleaseDate: 2026-09-24
+    latest: "25.0.5.0"
+    latestReleaseDate: 2026-10-28
 
   - releaseCycle: "24"
     releaseDate: 2025-03-31
@@ -111,8 +111,8 @@ releases:
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: "17.0.20.15"
-    latestReleaseDate: 2026-09-24
+    latest: "17.0.21.0"
+    latestReleaseDate: 2026-10-28
 
   - releaseCycle: "11"
     lts: true

@@ -27,7 +27,7 @@ releases:
     releaseDate: 2026-09-29
     eoas: 2028-10-10
     eol: 2028-10-10
-    latest: 10.0.28000
+    latest: 10.0.26300
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-26h1-e"
@@ -35,7 +35,7 @@ releases:
     releaseDate: 2026-02-10
     eoas: 2029-03-13
     eol: 2029-03-13
-    latest: 10.0.26300
+    latest: 10.0.28000
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
   - releaseCycle: "11-26h1-w"

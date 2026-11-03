@@ -21,6 +21,24 @@ auto:
         eol: "End-of-servicing date for firmware & drivers"
 
 releases:
+  - releaseCycle: "laptop-ultra"
+    releaseLabel: "Surface Laptop Ultra"
+    releaseDate: 2026-10-16
+    eol: 2032-10-16
+    link: https://support.microsoft.com/en-us/surface/models/surface-laptop-ultra-features
+
+  - releaseCycle: "pro-12-inch-2nd-edition-snapdragon"
+    releaseLabel: "Surface Pro 12-inch 2nd Edition (Snapdragon)"
+    releaseDate: 2026-10-13
+    eol: 2032-10-13
+    link: https://support.microsoft.com/en-us/surface/models/surface-pro-12-inch-2nd-edition-features
+
+  - releaseCycle: "laptop-13-inch-2nd-edition-snapdragon"
+    releaseLabel: "Surface Laptop 13-inch 2nd Edition (Snapdragon)"
+    releaseDate: 2026-10-13
+    eol: 2032-10-13
+    link: https://support.microsoft.com/en-us/surface/models/surface-laptop-13-inch-2nd-edition-features
+
   - releaseCycle: "pro-12th-edition-snapdragon"
     releaseLabel: "Surface Pro 12th Edition (Snapdragon)"
     releaseDate: 2026-06-16
@@ -380,7 +398,6 @@ releases:
     releaseDate: 2012-10-26
     eol: 2017-04-11
     link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
-
 ---
 
 > Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards

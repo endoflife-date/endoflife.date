@@ -8,7 +8,7 @@ gem "jekyll", "~> 4.4.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.17'
+  gem 'jekyll-feed', '~> 0.18'
   gem 'jekyll-timeago'
   gem 'just-the-docs', '~> 0.12.0'
   gem 'jekyll-seo-tag'
@@ -23,7 +23,7 @@ gem "tzinfo-data", platforms: [:windows, :jruby]
 gem "wdm", "~> 0.2.0" if Gem.win_platform?
 gem "webrick", "~> 1.9"
 
-gem 'icalendar', '~> 2.12'
+gem 'icalendar', '~> 2.13'
 
 # Used in product-data-validator to check URLs
 gem "open-uri", "~> 0.5"

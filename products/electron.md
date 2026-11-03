@@ -45,27 +45,35 @@ auto:
           regex: '^v(?P<value>\d+).+$'
 
 releases:
+  - releaseCycle: "45"
+    releaseDate: 2026-10-20
+    eol: 2027-04-27
+    latest: "45.2.1"
+    latestReleaseDate: 2026-10-31
+    chromeVersion: "M156"
+    nodeVersion: "24"
+
   - releaseCycle: "44"
-    releaseDate: 2026-08-25
+    releaseDate: 2026-08-24
     eol: 2027-03-02
-    latest: "44.5.0"
-    latestReleaseDate: 2026-09-29
+    latest: "44.10.1"
+    latestReleaseDate: 2026-10-31
     chromeVersion: "M152"
     nodeVersion: "24"
 
   - releaseCycle: "43"
-    releaseDate: 2026-06-30
+    releaseDate: 2026-06-29
     eol: 2027-01-05
-    latest: "43.7.6"
-    latestReleaseDate: 2026-09-29
+    latest: "43.8.6"
+    latestReleaseDate: 2026-10-31
     chromeVersion: "M150"
     nodeVersion: "24"
 
   - releaseCycle: "42"
     releaseDate: 2026-05-05
     eol: 2026-10-20
-    latest: "42.11.9"
-    latestReleaseDate: 2026-09-29
+    latest: "42.11.18"
+    latestReleaseDate: 2026-10-21
     chromeVersion: "M148"
     nodeVersion: "24"
 
@@ -388,6 +396,18 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

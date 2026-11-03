@@ -22,8 +22,8 @@ releases:
   - releaseCycle: "4"
     releaseDate: 2025-08-06
     eol: false
-    latest: "4.2"
-    latestReleaseDate: 2026-04-29
+    latest: "4.2.8"
+    latestReleaseDate: 2026-10-02
     link: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-backup-server-4-2
 
   - releaseCycle: "3"

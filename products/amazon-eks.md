@@ -31,6 +31,13 @@ auto:
         eoes: "End of extended support"
 
 releases:
+  - releaseCycle: "1.37"
+    releaseDate: 2026-10-01
+    eol: 2027-12-01
+    eoes: 2028-12-01
+    latest: "1.37-eks-4"
+    latestReleaseDate: 2026-10-01
+
   - releaseCycle: "1.36"
     releaseDate: 2026-06-02
     eol: 2027-08-02

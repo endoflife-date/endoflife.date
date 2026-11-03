@@ -17,22 +17,38 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/Sylius/Sylius.git
+    # oddly Supported versions are rendered as an html table, so reading the markdown as an HTML works
+    - release_table: https://docs.sylius.com/public/open-source/release-cycle.md
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)(?: \(LTS\))?$'
+        releaseDate: "Release date"
+        eoas: "End of maintenance"
+        eol: "End of support"
 
 # releaseDate, eoas and eol documented on https://docs.sylius.com/public/open-source/release-cycle
 releases:
+  - releaseCycle: "2.3"
+    releaseDate: 2026-09-28
+    eoas: false
+    eol: false
+    latest: "2.3.2"
+    latestReleaseDate: 2026-10-22
+
   - releaseCycle: "2.2"
     releaseDate: 2025-12-17
     eoas: 2026-11-30
     eol: 2027-03-31
-    latest: "2.2.10"
-    latestReleaseDate: 2026-09-28
+    latest: "2.2.12"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "2.1"
     releaseDate: 2025-06-04
     eoas: 2026-03-31
     eol: 2026-09-30
-    latest: "2.1.16"
-    latestReleaseDate: 2026-09-02
+    latest: "2.1.17"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "2.0"
     releaseDate: 2024-11-12
@@ -46,8 +62,8 @@ releases:
     releaseDate: 2024-11-12
     eoas: 2025-12-31
     eol: 2026-12-31
-    latest: "1.14.20"
-    latestReleaseDate: 2026-09-02
+    latest: "1.14.21"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "1.13"
     releaseDate: 2024-04-23
