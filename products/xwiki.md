@@ -13,7 +13,7 @@ customFields:
     display: after-release-column
     label: Java
     description: Supported Java versions
-    link: https://dev.xwiki.org/xwiki/bin/view/Community/JavaSupportStrategy
+    link: https://dev.xwiki.org/xwiki/bin/view/Community/SupportStrategy/JavaSupportStrategy/
 
 identifiers:
   - purl: pkg:docker/library/xwiki
@@ -30,7 +30,7 @@ auto:
 # - Cycle LTS is established at N.10 (e.g. 17.10) and supported until the next Cycle LTS: eoas = false until next LTS, eol = releaseDate(next Cycle LTS).
 # - Intermediate LTS is established at N.4 (e.g. 18.4) and supported until the Cycle LTS of that year: eoas = false until Cycle LTS, eol = releaseDate(Cycle LTS).
 # - Monthly stable releases (N.0..N.3, N.5..N.9) are maintained until the next monthly release: eol(x) = releaseDate(x+1).
-# Java support is documented on https://dev.xwiki.org/xwiki/bin/view/Community/JavaSupportStrategy.
+# Java support is documented on https://dev.xwiki.org/xwiki/bin/view/Community/SupportStrategy/JavaSupportStrategy/.
 releases:
   - releaseCycle: "18.9"
     releaseDate: 2026-10-26
