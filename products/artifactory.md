@@ -26,20 +26,20 @@ releases:
   - releaseCycle: "7.173"
     releaseDate: 2026-10-26
     eol: 2028-01-27
-    latest: "7.173.10"
-    latestReleaseDate: 2026-10-27
+    latest: "7.173.17"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "7.161"
     releaseDate: 2026-07-27
     eol: 2028-01-27
-    latest: "7.161.32"
-    latestReleaseDate: 2026-10-06
+    latest: "7.161.40"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "7.146"
     releaseDate: 2026-04-16
     eol: 2027-10-16
-    latest: "7.146.43"
-    latestReleaseDate: 2026-10-06
+    latest: "7.146.45"
+    latestReleaseDate: 2026-10-26
 
   - releaseCycle: "7.133"
     releaseDate: 2025-10-30

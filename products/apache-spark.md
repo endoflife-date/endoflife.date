@@ -30,7 +30,7 @@ releases:
     releaseDate: 2026-10-30
     eol: 2028-04-30 # estimated
     latest: "4.3.0"
-    latestReleaseDate: 2026-10-30
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "4.2"
     releaseDate: 2026-07-14

@@ -101,8 +101,8 @@ releases:
     powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
-    latest: "2.16.19"
-    latestReleaseDate: 2026-06-18
+    latest: "2.16.20"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
