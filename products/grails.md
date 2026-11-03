@@ -24,6 +24,13 @@ auto:
     - git: https://github.com/apache/grails-core.git
 
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2026-10-04
+    eoas: false
+    eol: false
+    latest: "8.0.0"
+    latestReleaseDate: 2026-10-04
+
   - releaseCycle: "7"
     releaseDate: 2025-10-19
     eoas: false

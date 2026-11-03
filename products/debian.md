@@ -215,7 +215,7 @@ recommended for production use.
 
 [Debian Long-Term Support (LTS)](https://wiki.debian.org/LTS) is a project to extend the lifetime of
 all Debian stable releases to (at least) 5 years on [a limited set of
-architectures](https://lts-team.pages.debian.net/wiki/FAQ.html#what-architectures-are-supported).
+architectures](https://wiki.debian.org/LTS/FAQ#What_architectures_are_supported.3F).
 Debian LTS will not be handled by the Debian security team but by a separate group of volunteers
 and companies. Not all packages of the Debian archive are supported by LTS, the
 [debian-security-support](https://wiki.debian.org/LTS/Using#Check_for_unsupported_packages) package

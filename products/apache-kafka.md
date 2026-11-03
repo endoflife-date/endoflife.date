@@ -32,11 +32,18 @@ auto:
 
 # Supported releases are listed in the "Supported releases" on https://kafka.apache.org/community/downloads/
 releases:
+  - releaseCycle: "4.4"
+    releaseDate: 2026-10-13
+    eol: false
+    eoes: 2028-10-27
+    latest: "4.4.0"
+    latestReleaseDate: 2026-10-13
+
   - releaseCycle: "4.3"
     releaseDate: 2026-05-20
     eol: false
-    latest: "4.3.1"
-    latestReleaseDate: 2026-06-23
+    latest: "4.3.2"
+    latestReleaseDate: 2026-10-20
 
     eoes: 2028-06-17
   - releaseCycle: "4.2"

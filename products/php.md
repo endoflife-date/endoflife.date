@@ -28,29 +28,29 @@ releases:
     releaseDate: 2025-11-20
     eoas: 2027-12-31
     eol: 2029-12-31
-    latest: "8.5.11"
-    latestReleaseDate: 2026-09-24
+    latest: "8.5.12"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
-    latest: "8.4.26"
-    latestReleaseDate: 2026-09-24
+    latest: "8.4.27"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.35"
-    latestReleaseDate: 2026-09-24
+    latest: "8.3.36"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
-    latest: "8.2.34"
-    latestReleaseDate: 2026-09-24
+    latest: "8.2.35"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "8.1"
     releaseDate: 2021-11-25
@@ -143,6 +143,13 @@ releases:
     latest: "5.1.6"
     latestReleaseDate: 2006-08-24
 
+  - releaseCycle: "4.4"
+    releaseDate: 2005-07-11
+    eoas: 2007-12-31
+    eol: 2008-08-07
+    latest: "4.4.9"
+    latestReleaseDate: 2008-08-07
+
   - releaseCycle: "5.0"
     releaseDate: 2004-07-13
     eoas: 2005-09-05
@@ -150,6 +157,33 @@ releases:
     latest: "5.0.5"
     latestReleaseDate: 2005-09-05
 
+  - releaseCycle: "4.3"
+    releaseDate: 2002-12-27
+    eoas: 2005-03-31
+    eol: 2005-03-31
+    latest: "4.3.11"
+    latestReleaseDate: 2005-03-31
+
+  - releaseCycle: "4.2"
+    releaseDate: 2002-04-22
+    eoas: 2002-09-06
+    eol: 2002-09-06
+    latest: "4.2.3"
+    latestReleaseDate: 2002-09-06
+
+  - releaseCycle: "4.1"
+    releaseDate: 2001-12-10
+    eoas: 2002-03-12
+    eol: 2002-03-12
+    latest: "4.1.2"
+    latestReleaseDate: 2002-03-12
+
+  - releaseCycle: "4.0"
+    releaseDate: 2000-05-22
+    eoas: 2001-06-23
+    eol: 2001-06-23
+    latest: "4.0.6"
+    latestReleaseDate: 2001-06-23
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose

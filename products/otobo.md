@@ -6,6 +6,10 @@ permalink: /otobo
 releasePolicyLink: https://otobo.io/en/service-management-platform/otobo-download/
 changelogTemplate: https://github.com/RotherOSS/otobo/blob/rel-{{"__RELEASE_CYCLE__" | replace:'.','_'}}/CHANGES.md
 
+identifiers:
+  - purl: pkg:docker/rotheross/otobo
+  - purl: pkg:github/rotheross/otobo
+
 auto:
   methods:
     - git: https://github.com/RotherOSS/otobo.git
@@ -13,6 +17,12 @@ auto:
 
 # EOL documented on https://otobo.io/en/service-management-platform/otobo-download/
 releases:
+  - releaseCycle: "11.1"
+    releaseDate: 2026-10-26
+    eol: false
+    latest: "11.1.1"
+    latestReleaseDate: 2026-10-26
+
   - releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eol: false
@@ -21,7 +31,7 @@ releases:
 
   - releaseCycle: "10.1"
     releaseDate: 2022-03-02
-    eol: false
+    eol: 2027-05-01
     latest: "10.1.19"
     latestReleaseDate: 2026-09-16
 
@@ -34,7 +44,7 @@ releases:
 ---
 
 > [OTOBO](https://otobo.io/) is a free and open-source ticketing system forked from OTRS Community
-> Edition.  
+> Edition.
 > It is mainly targeted at IT and departmental services, such as customer service, HR, and facility
 > management.
 

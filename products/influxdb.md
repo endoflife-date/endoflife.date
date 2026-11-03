@@ -22,11 +22,18 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "3.12"
+    releaseDate: 2026-10-02
+    eol: false
+    latest: "3.12.2"
+    latestReleaseDate: 2026-10-29
+    link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3120
+
   - releaseCycle: "3.11"
     releaseDate: 2026-07-30
     eol: false
-    latest: "3.11.5"
-    latestReleaseDate: 2026-09-17
+    latest: "3.11.8"
+    latestReleaseDate: 2026-10-29
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3110
 
   - releaseCycle: "3.10"
@@ -105,14 +112,14 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
-    latest: "2.9.1"
-    latestReleaseDate: 2026-05-11
+    latest: "2.10.0"
+    latestReleaseDate: 2026-10-15
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07
     eol: false # only for paying customer: https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103
-    latest: "1.13.1"
-    latestReleaseDate: 2026-08-20
+    latest: "1.13.2"
+    latestReleaseDate: 2026-10-29
 
 ---
 

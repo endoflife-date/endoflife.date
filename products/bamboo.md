@@ -25,9 +25,16 @@ auto:
       selector: '$[*]'
       name: '$.version'
       date: '$.released'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-Bamboo
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-Bamboo + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/bamboo/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
@@ -36,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2025-12-16
     eol: 2027-12-17
-    latest: "12.1.11"
-    latestReleaseDate: 2026-09-02
+    latest: "12.1.12"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "12.0"
     releaseDate: 2025-11-20
@@ -55,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2024-12-19
     eol: 2026-12-20
-    latest: "10.2.23"
-    latestReleaseDate: 2026-09-03
+    latest: "10.2.24"
+    latestReleaseDate: 2026-10-05
 
   - releaseCycle: "10.1"
     releaseDate: 2024-11-19
@@ -443,6 +450,7 @@ releases:
     eol: true
     latest: "0.9.1"
     latestReleaseDate: 2006-12-21
+
 ---
 
 > [Bamboo](https://www.atlassian.com/software/bamboo) is a continuous delivery pipeline developed by Atlassian. It is

@@ -30,10 +30,18 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.1-terra"
+    releaseLabel: "GPT-6.1 Terra"
+    aliases:
+      - gpt-6.1-terra
+    releaseDate: 2026-10-26 # https://openai.com/index/introducing-gpt-6-1-terra/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+
   - releaseCycle: "gpt-6.1-sol"
     releaseLabel: "GPT-6.1 Sol"
     aliases:
-      - gpt-6.1-sol
       - gpt-6.1-sol
     releaseDate: 2026-09-29 # https://openai.com/index/introducing-gpt-6-1-sol/
     eoas: false
@@ -44,7 +52,6 @@ releases:
     releaseLabel: "GPT-6 Sol"
     aliases:
       - gpt-6-sol
-      - gpt-6-sol
     releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false
     eol: false
@@ -54,7 +61,6 @@ releases:
   - releaseCycle: "gpt-6-luna"
     releaseLabel: "GPT-6 Luna"
     aliases:
-      - gpt-6-luna
       - gpt-6-luna
     releaseDate: 2026-09-22 # https://openai.com/index/introducing-gpt-6-sol-and-luna/
     eoas: false
@@ -645,20 +651,20 @@ releases:
     aliases:
       - gpt-4.1-2025-04-14
     releaseDate: 2025-04-14 # https://openai.com/index/gpt-4-1/
-    eoas: false
-    eol: false
+    eoas: 2026-10-14
+    eol: 2027-01-14
     link: "https://developers.openai.com/api/docs/models/gpt-4.1"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-4.1-mini"
     releaseLabel: "GPT-4.1 Mini"
     aliases:
       - gpt-4.1-mini-2025-04-14
     releaseDate: 2025-04-14 # https://openai.com/index/gpt-4-1/
-    eoas: false
-    eol: false
+    eoas: 2026-10-14
+    eol: 2027-01-14
     link: "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-4.1-nano"
     releaseLabel: "GPT-4.1 nano"
@@ -807,10 +813,10 @@ releases:
     aliases:
       - gpt-4o-mini-2024-07-18
     releaseDate: 2024-07-18 # https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
-    eoas: false
-    eol: false
+    eoas: 2026-10-14
+    eol: 2027-01-14
     link: "https://developers.openai.com/api/docs/models/gpt-4o-mini"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-4o"
     releaseLabel: "GPT-4o"
@@ -819,10 +825,10 @@ releases:
       - gpt-4o-2024-08-06
       - gpt-4o-2024-05-13
     releaseDate: 2024-05-13 # https://openai.com/index/hello-gpt-4o/
-    eoas: 2026-04-22
-    eol: 2026-10-23
+    eoas: 2026-10-14
+    eol: 2027-01-14
     link: "https://developers.openai.com/api/docs/models/gpt-4o"
-    recommendedReplacement: gpt-5.6-sol
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "text-embedding-3-large"
     releaseLabel: "text-embedding-3-large"

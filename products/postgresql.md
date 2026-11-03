@@ -207,6 +207,24 @@ releases:
     latest: "6.3.2"
     latestReleaseDate: 1998-04-18
 
+  - releaseCycle: "6.2"
+    releaseDate: 1997-10-02
+    eol: true
+    latest: "6.2.1"
+    latestReleaseDate: 1997-10-18
+
+  - releaseCycle: "6.1"
+    releaseDate: 1997-06-08
+    eol: true
+    latest: "6.1.1"
+    latestReleaseDate: 1997-07-21
+
+  - releaseCycle: "6.0"
+    releaseDate: 1997-01-29
+    eol: true
+    latest: "6.0"
+    latestReleaseDate: 1997-01-29
+
 ---
 
 > [PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source

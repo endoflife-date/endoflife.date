@@ -37,6 +37,13 @@ auto:
         eol: "End of life"
 
 releases:
+  - releaseCycle: "21"
+    codename: "Umbrella"
+    releaseDate: 2026-10-28
+    eol: 2028-10-28
+    latest: "21.2.0"
+    latestReleaseDate: 2026-10-28
+
   - releaseCycle: "20"
     codename: "Tentacle"
     releaseDate: 2025-11-18
@@ -48,8 +55,8 @@ releases:
     codename: "Squid"
     releaseDate: 2024-09-26
     eol: 2026-10-31
-    latest: "19.2.6"
-    latestReleaseDate: 2026-08-18
+    latest: "19.2.7"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "18"
     codename: "Reef"
