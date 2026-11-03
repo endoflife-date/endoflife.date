@@ -33,9 +33,9 @@ auto:
 releases:
   - releaseCycle: "4.13"
     releaseLabel: '4.13 Edge'
-    releaseDate: 2026-10-06
-    eoas: 2027-03-06
-    eol: 2027-06-06
+    releaseDate: 2026-10-31
+    eoas: 2027-03-31
+    eol: 2027-06-30
     latest: "4.13.1"
     latestReleaseDate: 2026-10-25 # approximation
 
