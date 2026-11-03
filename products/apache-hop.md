@@ -18,9 +18,16 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.20"
+    releaseDate: 2026-11-02
+    eol: false
+    latest: "2.20.0"
+    latestReleaseDate: 2026-11-02
+    link: https://hop.apache.org/blog/2026/11/hop-2.20.0/
+
   - releaseCycle: "2.19"
     releaseDate: 2026-08-17
-    eol: false
+    eol: 2026-11-02
     latest: "2.19.0"
     latestReleaseDate: 2026-08-17
     link: https://hop.apache.org/blog/2026/08/hop-2.19.0/
