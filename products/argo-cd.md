@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "3.6"
     releaseDate: 2026-11-04
     eol: false
-    latest: "3.6.0"
+    latest: "3.6.1"
     latestReleaseDate: 2026-11-04
     link: https://blog.argoproj.io/argo-cd-v3-6-rc1-is-here-c0b562dc78d1
     
