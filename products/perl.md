@@ -31,6 +31,9 @@ auto:
         # But considering those are not listed on https://endoflife.date/perl, it's an acceptable inconvenient.
         # See https://regex101.com/r/wGccaP/1.
         - '^perl-(?P<major>\d+)\.(?P<minor>\d+)([._](?P<patch>\d?\w+))?$'
+      regex_exclude:
+        # The perl-5.10.0 and perl-5.10.1 tags carry dates from 2011 and 2019, years after those releases.
+        - '^perl-5\.10\.'
 
 # Development releases are not listed here, and:
 # - eol dates are always releaseDate + 3 YEARS
@@ -107,6 +110,72 @@ releases:
     eol: 2020-05-30
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
+
+  - releaseCycle: "5.24"
+    releaseDate: 2016-05-09
+    eoas: 2018-06-22
+    eol: 2019-05-09
+    latest: "5.24.4"
+    latestReleaseDate: 2018-04-14
+
+  - releaseCycle: "5.22"
+    releaseDate: 2015-06-01
+    eoas: 2017-05-30
+    eol: 2018-06-01
+    latest: "5.22.4"
+    latestReleaseDate: 2017-07-15
+
+  - releaseCycle: "5.20"
+    releaseDate: 2014-05-27
+    eoas: 2016-05-09
+    eol: 2017-05-27
+    latest: "5.20.3"
+    latestReleaseDate: 2015-09-12
+
+  - releaseCycle: "5.18"
+    releaseDate: 2013-05-18
+    eoas: 2015-06-01
+    eol: 2016-05-18
+    latest: "5.18.4"
+    latestReleaseDate: 2014-10-01
+
+  - releaseCycle: "5.16"
+    releaseDate: 2012-05-20
+    eoas: 2014-05-27
+    eol: 2015-05-20
+    latest: "5.16.3"
+    latestReleaseDate: 2013-03-11
+
+  - releaseCycle: "5.14"
+    releaseDate: 2011-05-14
+    eoas: 2013-05-18
+    eol: 2014-05-14
+    latest: "5.14.4"
+    latestReleaseDate: 2013-03-10
+
+  - releaseCycle: "5.12"
+    releaseDate: 2010-04-12
+    eoas: 2012-05-20
+    eol: 2013-04-12
+    latest: "5.12.5"
+    latestReleaseDate: 2012-11-10
+
+  # perlpolicy's maintenance section first appeared in 5.14.0, which ended support for 5.10:
+  # https://perldoc.perl.org/5.14.0/perlpolicy#MAINTENANCE-AND-SUPPORT
+  - releaseCycle: "5.10"
+    releaseDate: 2007-12-18
+    eoas: 2011-05-14
+    eol: 2011-05-14
+    latest: "5.10.1"
+    latestReleaseDate: 2009-08-22
+
+  # 5.8 predates perlpolicy; it ends with its last release, 5.8.9.
+  - releaseCycle: "5.8"
+    releaseDate: 2002-07-18
+    eoas: 2008-12-14
+    eol: 2008-12-14
+    latest: "5.8.9"
+    latestReleaseDate: 2008-12-14
 
 ---
 
