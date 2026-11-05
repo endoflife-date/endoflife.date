@@ -11,9 +11,9 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://ubuntu.com/project/docs/release-team/list-of-releases/
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
-eoasColumn: Hardware & Maintenance
-eolColumn: Maintenance & Security Support
-eoesColumn: Expanded Security Maintenance
+eoasColumn: End of Standard Support
+eolColumn: End of Life (Ubuntu Pro / ESM)
+eoesColumn: End of Life (Legacy Support)
 
 auto:
   methods:
