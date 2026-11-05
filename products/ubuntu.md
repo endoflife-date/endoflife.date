@@ -227,7 +227,7 @@ releases:
     releaseDate: 2016-04-21
     eoas: 2021-04-02
     eol: 2021-04-02
-    eoes: 2026-04-02
+    eoes: 2031-05-31
     latest: "16.04.7"
     latestReleaseDate: 2020-08-13
 
@@ -261,7 +261,7 @@ releases:
     releaseDate: 2014-04-17
     eoas: 2019-04-02
     eol: 2019-04-02
-    eoes: 2024-04-02
+    eoes: 2029-05-31
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
 
