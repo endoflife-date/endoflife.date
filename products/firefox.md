@@ -395,6 +395,69 @@ releases:
     latest: "78.15.0"
     latestReleaseDate: 2021-10-05
 
+  - releaseCycle: "68"
+    lts: true
+    releaseDate: 2019-07-09
+    eol: 2020-09-22
+    latest: "68.12.0"
+    latestReleaseDate: 2020-08-25
+
+  - releaseCycle: "60"
+    lts: true
+    releaseDate: 2018-05-09
+    eol: 2019-10-22
+    latest: "60.9.0"
+    latestReleaseDate: 2019-09-03
+
+  - releaseCycle: "52"
+    lts: true
+    releaseDate: 2017-03-07
+    eol: 2018-09-05
+    latest: "52.9.0"
+    latestReleaseDate: 2018-06-26
+
+  - releaseCycle: "45"
+    lts: true
+    releaseDate: 2016-03-08
+    eol: 2017-06-13
+    latest: "45.9.0"
+    latestReleaseDate: 2017-04-19
+
+  - releaseCycle: "38"
+    lts: true
+    releaseDate: 2015-05-12
+    eol: 2016-06-07
+    latest: "38.8.0"
+    latestReleaseDate: 2016-04-26
+
+  - releaseCycle: "31"
+    lts: true
+    releaseDate: 2014-07-22
+    eol: 2015-08-11
+    latest: "31.8.0"
+    latestReleaseDate: 2015-07-02
+
+  - releaseCycle: "24"
+    lts: true
+    releaseDate: 2013-09-17
+    eol: 2014-10-14
+    latest: "24.8.1"
+    latestReleaseDate: 2014-09-24
+
+  - releaseCycle: "17"
+    lts: true
+    releaseDate: 2012-11-20
+    eol: 2013-12-10
+    latest: "17.0.11"
+    latestReleaseDate: 2013-11-15
+
+  - releaseCycle: "10"
+    lts: true
+    releaseDate: 2012-01-31
+    eol: 2013-02-19
+    latest: "10.0.12"
+    latestReleaseDate: 2013-01-08
+
 ---
 
 > [Firefox](https://www.firefox.com/), is a free and open-source web browser
