@@ -42,7 +42,7 @@ releases:
     releaseDate: 2026-10-28
     eol: 2028-10-28
     latest: "21.2.0"
-    latestReleaseDate: 2026-10-28
+    latestReleaseDate: 2026-10-26
 
   - releaseCycle: "20"
     codename: "Tentacle"
