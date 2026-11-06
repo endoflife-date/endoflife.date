@@ -9,7 +9,7 @@ alternate_urls:
   - /rocky
   - /rockylinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
+releasePolicyLink: https://docs.rockylinux.org/releases/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
 
@@ -18,7 +18,7 @@ identifiers:
   - cpe: cpe:2.3:o:rocky:rocky
 
 # distrowatch misses a few releases,
-# so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
+# so we track https://docs.rockylinux.org/releases/#current-supported-releases
 auto:
   methods:
     - version_table: https://docs.rockylinux.org/releases/
