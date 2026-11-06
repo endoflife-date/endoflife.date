@@ -11,9 +11,9 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://ubuntu.com/project/docs/release-team/list-of-releases/
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
-eoasColumn: Hardware & Maintenance
-eolColumn: Maintenance & Security Support
-eoesColumn: Expanded Security Maintenance
+eoasColumn: End of Standard Support
+eolColumn: End of Life (Ubuntu Pro / ESM)
+eoesColumn: End of Life (Legacy Support)
 
 auto:
   methods:
@@ -57,7 +57,7 @@ releases:
     releaseDate: 2026-04-23
     eoas: 2031-05-29
     eol: 2031-05-29
-    eoes: 2036-04-23
+    eoes: 2041-05-31
     latest: "26.04.1"
     latestReleaseDate: 2026-08-27
 
@@ -91,7 +91,7 @@ releases:
     releaseDate: 2024-04-25
     eoas: 2029-05-31
     eol: 2029-05-31
-    eoes: 2034-04-25
+    eoes: 2039-05-31
     latest: "24.04.5"
     latestReleaseDate: 2026-09-10
 
@@ -125,7 +125,7 @@ releases:
     releaseDate: 2022-04-21
     eoas: 2024-09-30
     eol: 2027-06-01
-    eoes: 2032-04-21
+    eoes: 2037-05-31
     latest: "22.04.5"
     latestReleaseDate: 2024-09-12
 
@@ -159,7 +159,7 @@ releases:
     releaseDate: 2020-04-23
     eoas: 2022-10-01
     eol: 2025-05-31
-    eoes: 2030-04-23
+    eoes: 2035-05-31
     latest: "20.04.6"
     latestReleaseDate: 2023-03-23
 
@@ -193,7 +193,7 @@ releases:
     releaseDate: 2018-04-26
     eoas: 2023-05-31
     eol: 2023-05-31
-    eoes: 2028-04-26
+    eoes: 2033-05-31
     latest: "18.04.6"
     latestReleaseDate: 2021-09-17
 
@@ -227,7 +227,7 @@ releases:
     releaseDate: 2016-04-21
     eoas: 2021-04-02
     eol: 2021-04-02
-    eoes: 2026-04-02
+    eoes: 2031-05-31
     latest: "16.04.7"
     latestReleaseDate: 2020-08-13
 
@@ -261,7 +261,7 @@ releases:
     releaseDate: 2014-04-17
     eoas: 2019-04-02
     eol: 2019-04-02
-    eoes: 2024-04-02
+    eoes: 2029-05-31
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
 

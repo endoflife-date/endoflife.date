@@ -27,7 +27,7 @@ module EndOfLife
     LEGEND_GAP          = 28  # vertical distance from chart bottom to legend icons
     LEGEND_ICON_SIZE    = 14  # width and height of legend colour swatches
     LEGEND_ICON_TEXT_GAP = 4  # gap between icon and label text
-    LEGEND_ITEM_SPACING = 240 # horizontal distance between legend item start positions
+    LEGEND_ITEM_SPACING = 20  # horizontal gap between legend items
     NO_END_DATE_LABEL   = "No end date published"
 
     # Release filtering & date range
@@ -62,6 +62,7 @@ module EndOfLife
     def build_svg_data(product)
       today = Date.today
       has_eoas_column = product.data['eoasColumn']
+      has_eoes_column = product.data['eoesColumn']
 
       releases = select_releases(product)
       return nil if releases.nil? || releases.empty?
@@ -72,7 +73,7 @@ module EndOfLife
 
       min_date, max_date, date_to_x_fn = build_timeline_scale(releases, today, release_label_width)
       today_x = date_to_x_fn.call(today)
-      rows = build_rows(releases, has_eoas_column, date_to_x_fn, max_date, release_label_length, today_x)
+      rows = build_rows(releases, has_eoas_column, has_eoes_column, date_to_x_fn, max_date, release_label_length, today_x)
       return nil if rows.empty?
 
       # One vertical tick per year within the date range.
@@ -85,12 +86,16 @@ module EndOfLife
       legend_items = []
       legend_items << { "icon_class" => "eoas",   "label" => product.data['eoasColumnLabel'] } if has_eoas_column
       legend_items << { "icon_class" => "eol",    "label" => product.data['eolColumnLabel'] }
+      legend_items << { "icon_class" => "eoes",   "label" => product.data['eoesColumnLabel'] } if has_eoes_column
       legend_items << { "icon_class" => "no-end", "label" => NO_END_DATE_LABEL }               if rows.any? { |r| r["no_end_date"] }
-      legend_items.each_with_index { |item, i| item["x"] = i * LEGEND_ITEM_SPACING }
 
-      last_label_px    = legend_items.last["label"].to_s.length * CHAR_WIDTH
-      legend_width     = (legend_items.length - 1) * LEGEND_ITEM_SPACING + LEGEND_ICON_SIZE + LEGEND_ICON_TEXT_GAP + last_label_px
-      legend_dx        = ((SVG_WIDTH - legend_width) / 2.0).round
+      legend_items.each_with_index do |item, i|
+        previous_item = legend_items[i - 1] if i.positive?
+        item["x"] = previous_item ? previous_item["x"] + previous_item["width"] + LEGEND_ITEM_SPACING : 0
+        item["width"] = LEGEND_ICON_SIZE + LEGEND_ICON_TEXT_GAP + item["label"].to_s.length * CHAR_WIDTH
+      end
+      legend_width = legend_items.last["x"] + legend_items.last["width"]
+      legend_dx = ((SVG_WIDTH - legend_width) / 2.0).round
 
       {
         "svg_width"          => SVG_WIDTH,
@@ -132,6 +137,7 @@ module EndOfLife
       releases.each do |release|
         all_dates << release['releaseDate'] if release['releaseDate'].is_a?(Date)
         all_dates << release['eol']         if release['eol'].is_a?(Date)
+        all_dates << release['eoes']        if release['eoes'].is_a?(Date)
         has_no_end_date ||= (release['eol'] == false)
       end
 
@@ -158,7 +164,7 @@ module EndOfLife
       [min_date, max_date, date_to_x_fn]
     end
 
-    def build_rows(releases, has_eoas_column, date_to_x_fn, max_date, release_label_length, today_x)
+    def build_rows(releases, has_eoas_column, has_eoes_column, date_to_x_fn, max_date, release_label_length, today_x)
       max_x = date_to_x_fn.call(max_date)
 
       # Build one row per release (newest first = top of chart).
@@ -167,6 +173,7 @@ module EndOfLife
           "label"        => truncate_label(strip_html(release['label']), release_label_length),
           "active_x"     => 0, "active_width"   => 0,
           "security_x"   => 0, "security_width" => 0,
+          "extended_x"   => 0, "extended_width" => 0,
           "no_end_date"  => false,
         }
 
@@ -174,6 +181,7 @@ module EndOfLife
         no_end_date = release['eol'] == false
         eol_x  = no_end_date ? today_x : resolve_value_to_x(release['eol'], date_to_x_fn, max_x)
         eoas_x = has_eoas_column ? resolve_value_to_x(release['eoas'], date_to_x_fn, eol_x || max_x) : nil
+        eoes_x = has_eoes_column ? resolve_value_to_x(release['eoes'], date_to_x_fn, max_x) : nil
         if eoas_x
           row["active_x"] = start_x
           row["active_width"] = [eoas_x - start_x, 0].max
@@ -185,6 +193,11 @@ module EndOfLife
         elsif eol_x
           row["security_x"] = start_x
           row["security_width"] = [eol_x - start_x, 0].max
+        end
+
+        if release['eoes'].is_a?(Date) && eol_x && eoes_x
+          row["extended_x"] = eol_x
+          row["extended_width"] = [eoes_x - eol_x, 0].max
         end
 
         row["no_end_date"] = true if no_end_date
