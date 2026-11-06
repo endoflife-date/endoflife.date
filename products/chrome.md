@@ -24,7 +24,7 @@ auto:
 releases:
   - releaseCycle: "157"
     releaseDate: 2026-11-03
-    eol: 2026-11-17 # Estimated, revise with releaseDate("157")
+    eol: 2026-11-17
 
   - releaseCycle: "156"
     releaseDate: 2026-10-20
