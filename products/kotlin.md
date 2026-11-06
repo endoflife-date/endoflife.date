@@ -12,7 +12,10 @@ releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 identifiers:
+  - purl: pkg:maven/org.jetbrains.kotlin/kotlin-stdlib
+  - purl: pkg:github/JetBrains/kotlin
   - repology: kotlin
+  - cpe: cpe:2.3:a:jetbrains:kotlin
 
 auto:
   methods:
