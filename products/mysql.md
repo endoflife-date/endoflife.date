@@ -178,6 +178,46 @@ releases:
     latest: "5.5.63"
     latestReleaseDate: 2018-12-21
     link: null
+
+  - releaseCycle: "5.1"
+    releaseDate: 2008-12-08
+    eoas: 2013-12-31
+    eol: 2013-12-31
+    latest: "5.1.73"
+    latestReleaseDate: 2013-11-01
+    link: null
+
+  - releaseCycle: "5.0"
+    releaseDate: 2005-10-24
+    eoas: 2011-12-31
+    eol: 2011-12-31
+    latest: "5.0.96"
+    latestReleaseDate: 2012-03-02
+    link: null
+
+  - releaseCycle: "4.1"
+    releaseDate: 2004-10-23
+    eoas: 2006-12-31
+    eol: 2009-12-31
+    latest: "4.1.24"
+    latestReleaseDate: 2008-03-17
+    link: null
+
+  - releaseCycle: "4.0"
+    releaseDate: 2003-03-15
+    eoas: 2006-09-30
+    eol: 2008-09-30
+    latest: "4.0.30"
+    latestReleaseDate: 2007-02-16
+    link: null
+
+  - releaseCycle: "3.23"
+    releaseDate: 2001-01-17
+    eoas: 2006-07-31
+    eol: 2006-12-31
+    latest: "3.23.58"
+    latestReleaseDate: 2003-09-11
+    link: null
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its

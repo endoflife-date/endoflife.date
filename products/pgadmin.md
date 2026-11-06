@@ -1,6 +1,6 @@
 ---
 title: pgAdmin
-addedAt: 2026-10-03
+addedAt: 2026-10-12
 category: server-app
 tags: python-runtime
 permalink: /pgadmin
@@ -29,8 +29,8 @@ releases:
   - releaseCycle: "9"
     releaseDate: 2025-02-06
     eol: false
-    latest: "9.18"
-    latestReleaseDate: 2026-09-17
+    latest: "9.19"
+    latestReleaseDate: 2026-11-04
 
   - releaseCycle: "8"
     releaseDate: 2023-11-23

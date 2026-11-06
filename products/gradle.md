@@ -171,11 +171,24 @@ releases:
 > any platform, Gradle offers a flexible model that can support the entire development lifecycle
 > from compiling and packaging code to publishing websites.
 
-Gradle follows [Semantic Versioning](https://semver.org/). The
-[support and EOL policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support) states that each major release causes:
+## Support Lifecycle
 
-- The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
-- The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.
+Gradle follows [Semantic Versioning](https://semver.org/).
+
+### End-of-life Policy
+
+Gradle's [end-of-life policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support):
+
+- The previous major version enters maintenance only: it receives critical bug fixes and security fixes, but nothing else.
+- The major version before that is fully end-of-life: that release line receives no further fixes at all.
+
+### Security Subscription
+
+Gradle provides commercial security support through its [Gradle Security Subscription](https://gradle.org/security-subscription),
+offering prioritized fixes under an SLA, advance confidential notification of newly discovered vulnerabilities,
+and extended security maintenance. Extended maintenance covers high-severity and critical (CVSS ≥ 7) fixes for
+the latest minor release of the most recent end-of-life major version, as well as for minor releases of the last
+two major versions that were released within the last 12 months.
 
 ## [Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 

@@ -30,6 +30,15 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.1-terra"
+    releaseLabel: "GPT-6.1 Terra"
+    aliases:
+      - gpt-6.1-terra
+    releaseDate: 2026-10-26 # https://openai.com/index/introducing-gpt-6-1-terra/
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+
   - releaseCycle: "gpt-6.1-sol"
     releaseLabel: "GPT-6.1 Sol"
     aliases:
@@ -371,7 +380,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1.5"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-5.2"
     releaseLabel: "GPT-5.2"
@@ -471,7 +480,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-realtime-mini"
     releaseLabel: "GPT-Realtime Mini"
@@ -675,7 +684,7 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/chatgpt-image-latest"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-image-1"
     releaseLabel: "GPT-Image-1"

@@ -5,7 +5,7 @@ category: server-app
 tags: cncf kubernetes linux-foundation
 permalink: /kyverno
 versionCommand: kyverno version
-releasePolicyLink: https://kyverno.io/docs/installation/installation/#compatibility-matrix
+releasePolicyLink: https://kyverno.io/docs/installation/releases/
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
 
@@ -14,7 +14,7 @@ customFields:
     display: after-release-column
     label: Kubernetes Version
     description: Supported Kubernetes versions
-    link: https://kyverno.io/docs/installation/installation/#compatibility-matrix
+    link: https://kyverno.io/docs/installation/releases/
 
 identifiers:
   - purl: pkg:github/kyverno/kyverno
@@ -26,7 +26,8 @@ auto:
   methods:
     - git: https://github.com/kyverno/kyverno.git
 
-# eol(X) = releaseDate(X+3)
+# eol(x) = releaseDate(x+1)
+# eol(x<=1.15) = releaseDate(x+3)
 # Kubernetes support is documented on https://kyverno.io/docs/installation/releases/.
 releases:
   - releaseCycle: "1.19"
@@ -38,21 +39,21 @@ releases:
 
   - releaseCycle: "1.18"
     releaseDate: 2026-04-29
-    eol: false
+    eol: 2026-08-20
     latest: "1.18.2"
     latestReleaseDate: 2026-07-10
     supportedK8sVersions: 1.33 - 1.35
 
   - releaseCycle: "1.17"
     releaseDate: 2026-02-02
-    eol: false
+    eol: 2026-04-29
     latest: "1.17.2"
     latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.32 - 1.35
 
   - releaseCycle: "1.16"
     releaseDate: 2025-11-10
-    eol: 2026-08-20
+    eol: 2026-04-29
     latest: "1.16.4"
     latestReleaseDate: 2026-04-23
     supportedK8sVersions: 1.31 - 1.34
@@ -119,5 +120,9 @@ releases:
 > specific configurations independently of workload configurations and enforce configuration best
 > practices for their clusters.
 
-Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support policy as Kubernetes
-— the 3 most recent minor versions receive security and bug fixes.
+Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. A new minor version is released
+roughly every 3 months.
+
+Only the latest minor version receives community patch support, until the next minor version is
+released (approximately 3 months). Patches are strictly limited to fixes for critical bugs and
+critical-to-high severity security vulnerabilities.

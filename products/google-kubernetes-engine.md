@@ -24,6 +24,13 @@ auto:
 # - eoas = last-date-in-month(eol - 2months)
 # - eol = End of standard support
 releases:
+  - releaseCycle: "1.37"
+    releaseDate: 2026-10-22
+    eoas: 2027-10-31
+    eol: 2027-12-22
+    latest: "1.37.1-gke.3020000"
+    latestReleaseDate: 2026-10-27
+
   - releaseCycle: "1.36"
     releaseDate: 2026-06-09
     eoas: 2027-06-30
