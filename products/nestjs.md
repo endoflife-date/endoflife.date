@@ -7,6 +7,7 @@ iconSlug: nestjs
 permalink: /nestjs
 alternate_urls:
   - /nest
+versionCommand: npm list @nestjs/core
 changelogTemplate: https://github.com/nestjs/nest/releases/tag/v__LATEST__
 eoasColumn: true
 
@@ -29,7 +30,7 @@ releases:
     latestReleaseDate: 2026-11-04
 
   - releaseCycle: "11"
-    releaseDate: 2025-01-20
+    releaseDate: 2025-01-16
     eoas: 2026-08-27
     eol: false
     latest: "11.2.8"
@@ -37,7 +38,7 @@ releases:
 
   - releaseCycle: "10"
     releaseDate: 2023-06-15
-    eoas: 2025-01-20
+    eoas: 2025-01-16
     eol: true
     latest: "10.4.22"
     latestReleaseDate: 2026-01-10
@@ -62,6 +63,13 @@ releases:
     eol: true
     latest: "7.6.18"
     latestReleaseDate: 2021-06-17
+
+  - releaseCycle: "6"
+    releaseDate: 2019-03-16
+    eoas: 2020-03-13
+    eol: true
+    latest: "6.11.11"
+    latestReleaseDate: 2020-03-03
 
 ---
 
