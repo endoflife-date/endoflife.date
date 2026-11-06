@@ -91,6 +91,13 @@ releases:
     latest: "5.5.36"
     latestReleaseDate: 2012-10-10
 
+  - releaseCycle: "4"
+    releaseDate: 2001-09-18
+    eol: 2009-06-25 # https://www.mail-archive.com/announce@apache.org/msg00716.html
+    minJavaVersion: "1.3"
+    latest: "4.1.40"
+    latestReleaseDate: 2009-06-25
+
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It
