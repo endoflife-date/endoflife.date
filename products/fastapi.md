@@ -27,33 +27,12 @@ auto:
 
 # The latest versions of the project are supported.
 releases:
-  - releaseCycle: "0.140"
-    releaseDate: 2026-07-25
-    eol: false
-    minSupportedPythonVersions: "3.10"
-    latest: "0.140.6"
-    latestReleaseDate: 2026-07-28
-
-  - releaseCycle: "0.139"
-    releaseDate: 2026-07-02
-    eol: 2026-07-25
-    minSupportedPythonVersions: "3.10"
-    latest: "0.139.2"
-    latestReleaseDate: 2026-07-17
-
-  - releaseCycle: "0.138"
-    releaseDate: 2026-06-20
-    eol: 2026-07-02
-    minSupportedPythonVersions: "3.10"
-    latest: "0.138.1"
-    latestReleaseDate: 2026-06-26
-
-  - releaseCycle: "0.137"
+  - releaseCycle: "0"
     releaseDate: 2026-06-14
     eol: 2026-06-20
     minSupportedPythonVersions: "3.10"
-    latest: "0.137.2"
-    latestReleaseDate: 2026-06-18
+    latest: "0.140.6"
+    latestReleaseDate: 2026-07-28
 ---
 
 > [FastAPI](https://github.com/fastapi/fastapi)  is a modern, high-performance Python framework
