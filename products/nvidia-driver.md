@@ -117,7 +117,7 @@ releases:
   - releaseCycle: "r590-windows"
     releaseLabel: "R590-Windows (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "591.59"
     latestReleaseDate: 2025-12-22
@@ -126,7 +126,7 @@ releases:
   - releaseCycle: "r590-linux"
     releaseLabel: "R590-Linux (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "590.48.01"
     latestReleaseDate: 2025-12-22
