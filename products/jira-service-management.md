@@ -27,9 +27,16 @@ auto:
       selector: '$[*]'
       name: '$.version.name'
       date: '$.dateAdded'
-    - atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-      selector: AtlassianEndofSupportPolicy-JiraServiceManagement
-      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
+    - xml_releases: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      features: html5lib
+      selector: "h2#AtlassianEndofSupportPolicy-JiraServiceManagement + p + ul li"
+      fields:
+        releaseCycle:
+          selector: ":scope"
+          regex: '^(?P<value>\d+(?:\.\d+)+) \(EOS date:.*$'
+        eol:
+          selector: ":scope"
+          regex: '^.*\(EOS date: (?P<value>[^)]+)\).*$'
 
 # Release dates from https://api.atlassian.com/hams/1.0/public/downloads/binaryDownloads/jira-servicedesk.
 # EOL dates from https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
@@ -38,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2025-12-03
     eol: 2027-12-03
-    latest: "11.3.11"
-    latestReleaseDate: 2026-09-02
+    latest: "11.3.12"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "11.2"
     releaseDate: 2025-11-06
@@ -87,8 +94,8 @@ releases:
     lts: true
     releaseDate: 2024-12-05
     eol: 2026-12-05
-    latest: "10.3.25"
-    latestReleaseDate: 2026-09-01
+    latest: "10.3.26"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "10.2"
     releaseDate: 2024-11-20
@@ -142,8 +149,8 @@ releases:
     lts: true
     releaseDate: 2023-11-29
     eol: 2025-11-29
-    latest: "5.12.39"
-    latestReleaseDate: 2026-09-03
+    latest: "5.12.40"
+    latestReleaseDate: 2026-10-02
 
   - releaseCycle: "5.11"
     releaseDate: 2023-08-30

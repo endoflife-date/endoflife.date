@@ -13,15 +13,27 @@ identifiers:
   - cpe: cpe:/a:microsoft:exchange_server
   - cpe: cpe:2.3:a:microsoft:exchange_server
 
+auto:
+  methods:
+    - spreadsheet_releases: https://download.microsoft.com/download/a0c60d25-38e1-4d44-91e3-76c6d4c71275/product-lifecycle-data-new.xlsx
+      fields:
+        releaseCycle:
+          selector: Product Listing Name
+          regex: '^Exchange Server (?P<value>20\d{2})$'
+          template: '{{value}}'
+        releaseDate: Start Date
+        eoas: Mainstream End Date
+        eol: Extended End Date
+
 releases:
   - releaseCycle: "subscription"
-    releaseLabel: "Subscription Edition SU9"
+    releaseLabel: "Subscription Edition SU11"
     releaseDate: 2025-07-01
     eoas: false
     eol: false
-    latest: "15.2.2562.49"
-    latestReleaseDate: 2026-09-08
-    link: https://support.microsoft.com/help/5121608
+    latest: "15.2.2562.56"
+    latestReleaseDate: 2026-10-13
+    link: https://support.microsoft.com/help/5128895
 
   - releaseCycle: "2019"
     releaseLabel: "2019 CU15 SU5"
@@ -107,6 +119,7 @@ releases:
     eol: true
     latest: "4.0.996"
     latestReleaseDate: 1998-05-05
+
 ---
 
 > [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail

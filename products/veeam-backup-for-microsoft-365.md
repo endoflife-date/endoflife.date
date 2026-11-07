@@ -21,8 +21,8 @@ releases:
     releaseDate: 2024-09-03
     eoas: false # 9.0 GA date
     eol: 2026-09-03 # https://www.veeam.com/product-lifecycle.html
-    latest: "8.6.0.1102"
-    latestReleaseDate: 2026-09-14
+    latest: "8.6.0.5011"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "7"
     releaseDate: 2023-02-28

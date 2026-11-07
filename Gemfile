@@ -23,7 +23,7 @@ gem "tzinfo-data", platforms: [:windows, :jruby]
 gem "wdm", "~> 0.2.0" if Gem.win_platform?
 gem "webrick", "~> 1.9"
 
-gem 'icalendar', '~> 2.12'
+gem 'icalendar', '~> 2.13'
 
 # Used in product-data-validator to check URLs
 gem "open-uri", "~> 0.5"

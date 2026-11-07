@@ -27,20 +27,20 @@ releases:
   - releaseCycle: "3.7"
     releaseDate: 2026-07-08
     eol: false
-    latest: "3.7.2"
-    latestReleaseDate: 2026-09-22
+    latest: "3.7.3"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "3.6"
     releaseDate: 2025-05-15
     eol: false
-    latest: "3.6.15"
-    latestReleaseDate: 2026-09-22
+    latest: "3.6.16"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: 2027-07-08 # releaseDate(3.7) + 1y, see https://etcd.io/blog/2026/etcd-370-beta/
-    latest: "3.5.34"
-    latestReleaseDate: 2026-09-22
+    latest: "3.5.35"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "3.4"
     releaseDate: 2019-08-30

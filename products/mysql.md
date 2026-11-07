@@ -12,7 +12,7 @@ eoasColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
-# https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
+# https://dev.mysql.com/doc/refman/26.10/en/faqs-general.html#faq-mysql-version-ga
 auto:
   methods:
     - git: https://github.com/mysql/mysql-server.git
@@ -23,6 +23,7 @@ auto:
         - ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
         - ^mysql-(?P<v>8\.[1-9]\.\d+)$
         - ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
+        - ^mysql-(?P<v>26\.[1-9][0-9]?\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
@@ -38,13 +39,29 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "26.10"
+    releaseDate: 2026-10-20
+    eoas: false # releaseDate(x+1)
+    eol: false # releaseDate(x+1)
+    latest: "26.10.0"
+    latestReleaseDate: 2026-10-20
+    link: https://dev.mysql.com/doc/relnotes/mysql/26.10/en/news-26-10-0.html
+
+  - releaseCycle: "26.7"
+    releaseDate: 2026-07-28
+    eoas: 2026-10-20
+    eol: 2026-10-20
+    latest: "26.7.1"
+    latestReleaseDate: 2026-08-18
+    link: https://dev.mysql.com/doc/relnotes/mysql/26.7/en/news-26-7-0.html
+
   - releaseCycle: "9.7"
     releaseDate: 2026-04-21
     lts: true
     eoas: 2031-04-30
     eol: 2034-04-30
-    latest: "9.7.2"
-    latestReleaseDate: 2026-07-28
+    latest: "9.7.4"
+    latestReleaseDate: 2026-10-20
     link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
 
   - releaseCycle: "9.6"
@@ -107,8 +124,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: "8.4.11"
-    latestReleaseDate: 2026-06-30
+    latest: "8.4.13"
+    latestReleaseDate: 2026-09-30
 
   - releaseCycle: "8.3"
     releaseDate: 2024-01-16
@@ -162,6 +179,45 @@ releases:
     latestReleaseDate: 2018-12-21
     link: null
 
+  - releaseCycle: "5.1"
+    releaseDate: 2008-12-08
+    eoas: 2013-12-31
+    eol: 2013-12-31
+    latest: "5.1.73"
+    latestReleaseDate: 2013-11-01
+    link: null
+
+  - releaseCycle: "5.0"
+    releaseDate: 2005-10-24
+    eoas: 2011-12-31
+    eol: 2011-12-31
+    latest: "5.0.96"
+    latestReleaseDate: 2012-03-02
+    link: null
+
+  - releaseCycle: "4.1"
+    releaseDate: 2004-10-23
+    eoas: 2006-12-31
+    eol: 2009-12-31
+    latest: "4.1.24"
+    latestReleaseDate: 2008-03-17
+    link: null
+
+  - releaseCycle: "4.0"
+    releaseDate: 2003-03-15
+    eoas: 2006-09-30
+    eol: 2008-09-30
+    latest: "4.0.30"
+    latestReleaseDate: 2007-02-16
+    link: null
+
+  - releaseCycle: "3.23"
+    releaseDate: 2001-01-17
+    eoas: 2006-07-31
+    eol: 2006-12-31
+    latest: "3.23.58"
+    latestReleaseDate: 2003-09-11
+    link: null
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its

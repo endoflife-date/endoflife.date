@@ -27,11 +27,17 @@ auto:
 # EOL status available on https://activemq.apache.org/components/classic/download/,
 # should be close to eol(x) = releaseCycle(x+2)
 releases:
+  - releaseCycle: "6.4"
+    releaseDate: 2026-10-22
+    eol: false # listed as Active on https://activemq.apache.org/components/classic/download/
+    latest: "6.4.0"
+    latestReleaseDate: 2026-10-22
+
   - releaseCycle: "6.3"
     releaseDate: 2026-07-24
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "6.3.2"
-    latestReleaseDate: 2026-08-29
+    latest: "6.3.3"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "6.2"
     releaseDate: 2025-11-09
@@ -42,8 +48,8 @@ releases:
   - releaseCycle: "5.19"
     releaseDate: 2025-03-07
     eol: false # still listed on https://github.com/apache/activemq-website/blame/main/src/_data/current_releases.yml
-    latest: "5.19.11"
-    latestReleaseDate: 2026-09-02
+    latest: "5.19.12"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "6.1"
     releaseDate: 2024-03-11

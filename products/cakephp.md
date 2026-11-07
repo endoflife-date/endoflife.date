@@ -44,8 +44,8 @@ releases:
     supportedPhpVersions: 8.2 - 8.5
     eoas: false
     eol: false # releaseDate(5.7)
-    latest: "5.4.3"
-    latestReleaseDate: 2026-10-02
+    latest: "5.4.4"
+    latestReleaseDate: 2026-10-31
 
   - releaseCycle: "5.3"
     codename: "Chiffon"
@@ -53,8 +53,8 @@ releases:
     supportedPhpVersions: 8.2 - 8.5
     eoas: 2026-07-20
     eol: false # releaseDate(5.6)
-    latest: "5.3.7"
-    latestReleaseDate: 2026-07-13
+    latest: "5.3.8"
+    latestReleaseDate: 2026-10-31
 
   - releaseCycle: "5.2"
     codename: "Chiffon"
@@ -62,17 +62,17 @@ releases:
     supportedPhpVersions: 8.1 - 8.5
     eoas: 2026-01-10
     eol: false # releaseDate(5.5)
-    latest: "5.2.15"
-    latestReleaseDate: 2026-07-16
+    latest: "5.2.16"
+    latestReleaseDate: 2026-10-31
 
   - releaseCycle: "4.6"
     codename: "Strawberry"
     releaseDate: 2025-03-22
     supportedPhpVersions: 7.4 - 8.3
     eoas: 2025-09-09
-    eol: 2026-09-09 # Can be extended
-    latest: "4.6.5"
-    latestReleaseDate: 2026-07-14
+    eol: false # releaseDate(6.0)
+    latest: "4.6.6"
+    latestReleaseDate: 2026-10-31
 
   - releaseCycle: "5.1"
     codename: "Chiffon"

@@ -48,14 +48,23 @@ auto:
         supportedPythonVersions: "Compatible Python versions"
 
 releases:
+  - releaseCycle: "8.1"
+    supportedDjangoVersions: "5.2, 6.0, 6.1"
+    supportedPythonVersions: "3.11, 3.12, 3.13, 3.14, 3.15"
+    releaseDate: 2026-11-02
+    eoas: 2027-02-02
+    eol: 2027-05-04
+    latest: "8.1"
+    latestReleaseDate: 2026-11-02
+
   - releaseCycle: "8.0"
     supportedDjangoVersions: "5.2, 6.0, 6.1"
     supportedPythonVersions: "3.10, 3.11, 3.12, 3.13, 3.14"
     releaseDate: 2026-08-25
     eoas: 2026-11-03
     eol: 2027-02-02
-    latest: "8.0"
-    latestReleaseDate: 2026-08-25
+    latest: "8.0.1"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "7.4"
     supportedDjangoVersions: "5.2, 6.0"
@@ -64,8 +73,8 @@ releases:
     releaseDate: 2026-05-04
     eoas: 2027-11-02
     eol: 2027-11-02
-    latest: "7.4.3"
-    latestReleaseDate: 2026-08-20
+    latest: "7.4.4"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "7.3"
     supportedDjangoVersions: "4.2, 5.2, 6.0"
@@ -101,8 +110,8 @@ releases:
     releaseDate: 2025-05-06
     eoas: 2026-11-02
     eol: 2026-11-02
-    latest: "7.0.9"
-    latestReleaseDate: 2026-08-20
+    latest: "7.0.10"
+    latestReleaseDate: 2026-10-20
 
   - releaseCycle: "6.4"
     supportedDjangoVersions: "4.2, 5.0, 5.1, 5.2"
@@ -511,6 +520,7 @@ releases:
     eol: 2016-03-31
     latest: "0.8.10"
     latestReleaseDate: 2015-09-16
+
 ---
 
 > [Wagtail](https://wagtail.org/) is an open source content management system built on Django, with

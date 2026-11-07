@@ -32,7 +32,7 @@ auto:
 
 releases:
   - releaseCycle: "8"
-    ubuntuVersion: "22.04"
+    ubuntuVersion: "24.04"
     releaseDate: 2024-02-29
     eol: false
     eoes: 2027-04-30
@@ -78,6 +78,7 @@ releases:
     releaseDate: 2011-09-30
     eol: 2012-09-01
     eoes: 2014-09-30
+
 ---
 
 > [Zentyal](https://zentyal.com) is an easy Linux alternative to Windows Server offering native

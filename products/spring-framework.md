@@ -64,8 +64,8 @@ releases:
     releaseDate: 2025-11-30
     eol: 2027-07-31
     eoes: 2028-07-31
-    latest: "7.0.9"
-    latestReleaseDate: 2026-08-20
+    latest: "7.0.10"
+    latestReleaseDate: 2026-10-22
 
   - releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"
@@ -162,7 +162,9 @@ for upcoming releases and [Spring Framework Support page](https://spring.io/proj
 for more details about the support roadmap.
 
 Extended support is available
-[from VMWare](https://blogs.vmware.com/tanzu/vmware-spring-runtime-extended-support/).
+[from VMWare](https://blogs.vmware.com/tanzu/vmware-spring-runtime-extended-support/) and
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/spring-nes).
+The commercial support documented above is the one from VMWare.
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 

@@ -26,23 +26,30 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+  - releaseCycle: "3.6"
+    releaseDate: 2026-11-04
+    eol: false
+    latest: "3.6.1"
+    latestReleaseDate: 2026-11-04
+    link: https://blog.argoproj.io/argo-cd-v3-6-rc1-is-here-c0b562dc78d1
+    
   - releaseCycle: "3.5"
     releaseDate: 2026-08-04
     eol: false
-    latest: "3.5.3"
-    latestReleaseDate: 2026-09-14
+    latest: "3.5.7"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "3.4"
     releaseDate: 2026-05-05
     eol: false
-    latest: "3.4.9"
-    latestReleaseDate: 2026-09-14
+    latest: "3.4.13"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "3.3"
     releaseDate: 2026-02-02
-    eol: false
-    latest: "3.3.14"
-    latestReleaseDate: 2026-08-12
+    eol: 2026-11-04
+    latest: "3.3.19"
+    latestReleaseDate: 2026-11-02
 
   - releaseCycle: "3.2"
     releaseDate: 2025-11-04
