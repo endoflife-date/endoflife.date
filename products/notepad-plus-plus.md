@@ -23,8 +23,8 @@ releases:
   - releaseCycle: "8.9"
     releaseDate: 2025-12-27
     eol: false
-    latest: "8.9.8.1"
-    latestReleaseDate: 2026-09-24
+    latest: "8.9.9"
+    latestReleaseDate: 2026-11-06
 
   - releaseCycle: "8.8"
     releaseDate: 2025-04-28
@@ -259,6 +259,7 @@ releases:
     eol: 2008-10-26
     latest: "5.0.3"
     latestReleaseDate: 2008-08-03
+
 ---
 
 > [Notepad++](https://notepad-plus-plus.org) (sometimes npp or NPP) is a text and source code for use with Microsoft Windows.
