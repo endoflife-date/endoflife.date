@@ -29,7 +29,7 @@ auto:
 releases:
   - releaseCycle: "0"
     releaseDate: 2026-06-14
-    eol: 2026-06-20
+    eol: false
     minSupportedPythonVersions: "3.10"
     latest: "0.140.6"
     latestReleaseDate: 2026-07-28
