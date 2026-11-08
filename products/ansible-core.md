@@ -50,6 +50,15 @@ auto:
 # EOL dates as well as Python / PowerShell versions can be found on
 # https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
+  - releaseCycle: "2.22"
+    pythonVersionsControlNode: "3.13 - 3.15"
+    pythonVersionsManagedNode: "3.9 - 3.15"
+    powershellVersionsManagedNode: "5.1 - 7"
+    releaseDate: 2026-11-02
+    eol: 2028-05-31
+    latest: "2.22.0"
+    latestReleaseDate: 2026-11-02
+
   - releaseCycle: "2.21"
     pythonVersionsControlNode: "3.12 - 3.14"
     pythonVersionsManagedNode: "3.9 - 3.14"
@@ -98,7 +107,7 @@ releases:
   - releaseCycle: "2.16"
     pythonVersionsControlNode: "3.10 - 3.12"
     pythonVersionsManagedNode: "2.7 / 3.6 - 3.12"
-    powershellVersionsManagedNode: "3 - 5.1"
+    powershellVersionsManagedNode: "5.1"
     releaseDate: 2023-11-06
     eol: 2025-07-31
     latest: "2.16.20"

@@ -40,6 +40,26 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r620-linux"
+    releaseLabel: "R620-Linux"
+    lts: true
+    releaseDate: 2026-11-04
+    eoas: 2027-11-04
+    eol: 2029-11-04
+    latest: "620.70.06"
+    latestReleaseDate: 2026-11-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-620-70-06/index.html
+
+  - releaseCycle: "r620-windows"
+    releaseLabel: "R620-Windows"
+    lts: true
+    releaseDate: 2026-11-04
+    eoas: 2027-11-04
+    eol: 2029-11-04
+    latest: "621.14"
+    latestReleaseDate: 2026-11-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-620-70-06/index.html
+
   - releaseCycle: "r615-windows"
     releaseLabel: "R615-Windows (NFB)"
     releaseDate: 2026-09-09
@@ -97,7 +117,7 @@ releases:
   - releaseCycle: "r590-windows"
     releaseLabel: "R590-Windows (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "591.59"
     latestReleaseDate: 2025-12-22
@@ -106,7 +126,7 @@ releases:
   - releaseCycle: "r590-linux"
     releaseLabel: "R590-Linux (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "590.48.01"
     latestReleaseDate: 2025-12-22

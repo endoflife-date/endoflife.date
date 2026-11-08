@@ -4,7 +4,7 @@ addedAt: 2024-01-05
 category: database
 iconSlug: arangodb
 permalink: /arangodb
-releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
+releasePolicyLink: https://arango.ai/arangodb-product-support-end-of-life-announcements/
 changelogTemplate: "https://docs.arango.ai/arangodb/stable/release-notes/version-__RELEASE_CYCLE__/"
 
 identifiers:
