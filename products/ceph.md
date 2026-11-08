@@ -40,7 +40,7 @@ releases:
   - releaseCycle: "21"
     codename: "Umbrella"
     releaseDate: 2026-10-28
-    eol: 2028-10-28
+    eol: 2028-06-01
     latest: "21.2.0"
     latestReleaseDate: 2026-10-26
 
@@ -54,7 +54,7 @@ releases:
   - releaseCycle: "19"
     codename: "Squid"
     releaseDate: 2024-09-26
-    eol: 2026-10-31
+    eol: 2026-12-02
     latest: "19.2.7"
     latestReleaseDate: 2026-10-08
 
