@@ -41,6 +41,22 @@ auto:
           regex: "^(Not sooner than )?(?P<value>.+)$"
 
 releases:
+  - releaseCycle: "claude-mythos-5-2"
+    releaseLabel: Claude Mythos 5.2
+    releaseDate: 2026-11-09
+    eoas: false
+    eol: 2027-11-09
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-fable-and-mythos-5-2
+
+  - releaseCycle: "claude-fable-5-2"
+    releaseLabel: Claude Fable 5.2
+    releaseDate: 2026-11-09
+    eoas: false
+    eol: 2027-11-09
+    recommendedReplacement: "N/A"
+    link: https://www.anthropic.com/claude-fable-and-mythos-5-2
+
   - releaseCycle: "claude-haiku-5-5"
     releaseLabel: Claude Haiku 5.5
     releaseDate: 2026-10-07
