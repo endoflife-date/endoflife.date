@@ -128,6 +128,14 @@ releases:
     latestReleaseDate: 2014-11-13
     link: null
 
+  - releaseCycle: "1.8"
+    releaseDate: 2003-08-04
+    eol: 2013-06-30
+    # Keep this pinned
+    latest: "1.8.7p374"
+    latestReleaseDate: 2013-06-27
+    link: null
+
 ---
 
 > [Ruby](https://www.ruby-lang.org/) is a dynamic, open-source programming language with a focus on
