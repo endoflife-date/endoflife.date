@@ -29,7 +29,7 @@ identifiers:
 # accurate dates (in the bundles/latest endpoint).
 # Moreover:
 # - releases have a latestJdkVersion that must be updated whenever the latest is updated,
-# - changelog links are not predictable (see https://docs.azul.com/core/release-notes/release-notes).
+# - changelog links are not predictable (see https://docs.azul.com/core/release-notes).
 
 # Versions and dates are those from the CA builds (PSU Update Type).
 # Latest releases can be found on https://www.azul.com/downloads/?os=linux&architecture=x86-64-bit&package=jdk&show-old-builds=true#download-openjdk.
@@ -42,15 +42,15 @@ identifiers:
 # - custom for Java 6/7
 releases:
   - releaseCycle: "27"
-    releaseDate: 2026-09-15 # https://docs.azul.com/core/release/27-ga/release-notes/release-notes
+    releaseDate: 2026-09-15 # https://docs.azul.com/core/release/27-ga/release-notes
     eol: 2027-03-31
     latest: "27.28.101"
     latestJdkVersion: "27.0.0+35"
     latestReleaseDate: 2026-09-15
-    link: https://docs.azul.com/core/release/27-ga/release-notes/release-notes
+    link: https://docs.azul.com/core/release/27-ga/release-notes
 
   - releaseCycle: "26"
-    releaseDate: 2026-03-17 # https://docs.azul.com/core/release/26-ga/release-notes/release-notes
+    releaseDate: 2026-03-17 # https://docs.azul.com/core/release/26-ga/release-notes
     eol: 2026-09-30
     latest: "26.32.203"
     latestJdkVersion: "26.0.2.1+1"
@@ -59,7 +59,7 @@ releases:
 
   - releaseCycle: "25"
     lts: true
-    releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes/release-notes
+    releaseDate: 2025-09-16 # https://docs.azul.com/core/release/25-ga/release-notes
     eol: 2033-09-30
     eoes: 2035-09-30
     latest: "25.36.205"
@@ -68,7 +68,7 @@ releases:
     link: https://docs.azul.com/core/release/august-2026/release-notes
 
   - releaseCycle: "24"
-    releaseDate: 2025-03-18 # https://docs.azul.com/core/release/24-ga/release-notes/release-notes
+    releaseDate: 2025-03-18 # https://docs.azul.com/core/release/24-ga/release-notes
     eol: 2025-09-16
     eoes: 2025-09-16
     latest: "24.32.13"
@@ -77,7 +77,7 @@ releases:
     link: https://docs.azul.com/core/release/july-2025/release-notes.html
 
   - releaseCycle: "23"
-    releaseDate: 2024-09-17 # https://docs.azul.com/core/release/23-ga/release-notes/release-notes
+    releaseDate: 2024-09-17 # https://docs.azul.com/core/release/23-ga/release-notes
     eol: 2025-03-18
     eoes: 2025-03-18
     latest: "23.32.11"
@@ -86,17 +86,17 @@ releases:
     link: https://docs.azul.com/core/release/january-2025/release-notes
 
   - releaseCycle: "22"
-    releaseDate: 2024-03-19 # https://docs.azul.com/core/release/22-ga/release-notes/release-notes
+    releaseDate: 2024-03-19 # https://docs.azul.com/core/release/22-ga/release-notes
     eol: 2024-09-17
     eoes: 2025-03-17
     latest: "22.32.15"
     latestJdkVersion: "22.0.2+9"
     latestReleaseDate: 2024-07-16
-    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
+    link: https://docs.azul.com/core/release/july-2024/release-notes
 
   - releaseCycle: "21"
     lts: true
-    releaseDate: 2023-09-19 # https://docs.azul.com/core/release/21-ga/release-notes/release-notes
+    releaseDate: 2023-09-19 # https://docs.azul.com/core/release/21-ga/release-notes
     eol: 2031-09-30
     eoes: 2033-09-30
     latest: "21.52.203"
@@ -106,37 +106,37 @@ releases:
 
   - releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2023-03-21 # https://docs.azul.com/core/release/20-ga/release-notes/release-notes
+    releaseDate: 2023-03-21 # https://docs.azul.com/core/release/20-ga/release-notes
     eol: 2023-09-19
     eoes: 2024-03-31
     latest: "20.32.11"
     latestJdkVersion: "20.0.2+9"
     latestReleaseDate: 2023-07-18
-    link: https://docs.azul.com/core/release/july-2023/release-notes/release-notes
+    link: https://docs.azul.com/core/release/july-2023/release-notes
 
   - releaseCycle: "19"
     releaseLabel: "19 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2022-09-20 # https://docs.azul.com/core/release/19-ga/release-notes/release-notes
+    releaseDate: 2022-09-20 # https://docs.azul.com/core/release/19-ga/release-notes
     eol: 2023-03-31
     eoes: 2023-09-30
     latest: "19.32.13"
     latestJdkVersion: "19.0.2+7"
     latestReleaseDate: 2023-01-17
-    link: https://docs.azul.com/core/release/january-2023/release-notes/release-notes
+    link: https://docs.azul.com/core/release/january-2023/release-notes
 
   - releaseCycle: "18"
     releaseLabel: "18 (<abbr title='Short Term Support'>STS</abbr>)"
-    releaseDate: 2022-03-12 # https://docs.azul.com/core/release/18-ga/release-notes/release-notes
+    releaseDate: 2022-03-12 # https://docs.azul.com/core/release/18-ga/release-notes
     eol: 2022-09-30
     eoes: 2023-03-31
     latest: "18.32.13"
     latestJdkVersion: "18.0.2.1+1"
     latestReleaseDate: 2022-08-22
-    link: https://docs.azul.com/core/release/august-2022-11.58-17.36-18.32/release-notes/release-notes
+    link: https://docs.azul.com/core/release/august-2022-11.58-17.36-18.32/release-notes
 
   - releaseCycle: "17"
     lts: true
-    releaseDate: 2021-09-15 # https://docs.azul.com/core/release/17-ga/release-notes/release-notes
+    releaseDate: 2021-09-15 # https://docs.azul.com/core/release/17-ga/release-notes
     eol: 2029-09-30
     eoes: 2031-09-30
     latest: "17.68.203"
@@ -152,7 +152,7 @@ releases:
     latest: "16.32.15"
     latestJdkVersion: "16.0.2+7"
     latestReleaseDate: 2021-07-24
-    link: https://docs.azul.com/core/release/july-2021/release-notes/release-notes
+    link: https://docs.azul.com/core/release/july-2021/release-notes
 
   - releaseCycle: "15"
     releaseLabel: "15 (<abbr title='Medium-Term Support'>MTS</abbr>)"
@@ -162,7 +162,7 @@ releases:
     latest: "15.46.17"
     latestJdkVersion: "15.0.10+5"
     latestReleaseDate: 2023-01-17
-    link: https://docs.azul.com/core/release/january-2023/release-notes/release-notes
+    link: https://docs.azul.com/core/release/january-2023/release-notes
 
   - releaseCycle: "14"
     releaseLabel: "14 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -181,7 +181,7 @@ releases:
     latest: "13.54.17"
     latestJdkVersion: "13.0.14+5"
     latestReleaseDate: 2023-01-17
-    link: https://docs.azul.com/core/release/january-2023/release-notes/release-notes
+    link: https://docs.azul.com/core/release/january-2023/release-notes
 
   - releaseCycle: "12"
     releaseLabel: "12 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -248,12 +248,12 @@ releases:
     latest: "7.56"
     latestJdkVersion: "7u352-b01"
     latestReleaseDate: 2022-07-19
-    link: https://docs.azul.com/core/release/july-2022/release-notes/release-notes
+    link: https://docs.azul.com/core/release/july-2022/release-notes
 ---
 
 > [Azul Zulu](https://docs.azul.com/core/), also known as Azul Zulu Build of OpenJDK, is an open
 > source, TCK-tested and certified build of OpenJDK. Azul Zulu is available for
-> [a wide range](https://docs.azul.com/core/release-notes/supported-platforms) of hardware platforms
+> [a wide range](https://docs.azul.com/core/supported-platforms) of hardware platforms
 > and operating systems. Additionally, Azul provides builds for special requirements, such as
 > stripped down JREs and builds including OpenJFX.
 
