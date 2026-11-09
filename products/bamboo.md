@@ -462,7 +462,7 @@ releases:
 > [Bamboo](https://www.atlassian.com/software/bamboo) is a continuous delivery pipeline developed by Atlassian. It is
 > used to build, test and deploy applications automatically as per requirements and helps speed up the release process.
  
-{: .info }
+{: .note }
 > Java 25 is the minimum required version
 > Starting from Bamboo 13, the minimum required Java version is 25. Support for Java 21 has been removed.
 
