@@ -464,6 +464,7 @@ releases:
  
 {: .note }
 > Java 25 is the minimum required version
+> 
 > Starting from Bamboo 13, the minimum required Java version is 25. Support for Java 21 has been removed.
 
 {: .warning }
