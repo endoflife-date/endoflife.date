@@ -26,33 +26,40 @@ auto:
 # - for non-LTS: releaseDate(x+1)
 # Dates can be found on https://projects.blender.org/blender/blender/milestones.
 releases:
+  - releaseCycle: "5.3"
+    releaseDate: 2026-11-10
+    eoas: false # releaseDate(5.4) , https://projects.blender.org/blender/blender/milestone/35
+    eol: false # releaseDate(5.4) , https://projects.blender.org/blender/blender/milestone/35
+    latest: "5.3.0"
+    latestReleaseDate: 2026-11-10
+
   - releaseCycle: "5.2"
     lts: true
     releaseDate: 2026-07-14
-    eoas: 2026-11-10 # planned 5.3 date, see https://projects.blender.org/blender/blender/milestone/34
+    eoas: 2026-11-10
     eol: 2028-07-14
     latest: "5.2.3"
     latestReleaseDate: 2026-10-21
 
   - releaseCycle: "5.1"
     releaseDate: 2026-03-17
-    eoas: 2026-07-14 # planned 5.2 date, see https://projects.blender.org/blender/blender/milestone/33
-    eol: 2026-07-14 # planned 5.2 date, see https://projects.blender.org/blender/blender/milestone/33
+    eoas: 2026-07-14
+    eol: 2026-07-14
     latest: "5.1.2"
     latestReleaseDate: 2026-05-18
 
   - releaseCycle: "5.0"
     releaseDate: 2025-11-18
-    eoas: 2026-03-17 # planned 5.1 date, see https://projects.blender.org/blender/blender/milestone/32
-    eol: 2026-03-17 # planned 5.1 date, see https://projects.blender.org/blender/blender/milestone/32
+    eoas: 2026-03-17
+    eol: 2026-03-17
     latest: "5.0.1"
     latestReleaseDate: 2025-12-15
 
   - releaseCycle: "4.5"
     lts: true
     releaseDate: 2025-07-14
-    eoas: 2025-11-11 # planned 5.0 date, see https://projects.blender.org/blender/blender/milestone/20
-    eol: 2027-07-14 # see https://projects.blender.org/blender/blender/milestone/25
+    eoas: 2025-11-18
+    eol: 2027-07-14
     latest: "4.5.15"
     latestReleaseDate: 2026-10-21
 
