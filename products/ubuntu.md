@@ -449,7 +449,7 @@ LTS releases are in "General Support" for 5 years and "Expanded Security Mainten
 Ubuntu breaks General Support into "Hardware and Maintenance updates" (2 years) followed by "Maintenance Updates" for another 3 years[^5].
 Interim releases (non-LTS) are supported for 9 months.
 Packages in `main` and `restricted` are supported for 5 years in long-term support (LTS) releases.
-Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
+Ubuntu [Flavors](https://ubuntu.com/desktop/flavors) generally support their packages for 3 years in LTS releases but there are exceptions.
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance.
 Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive,
