@@ -35,11 +35,12 @@ auto:
 releases:
   - releaseCycle: "18.11"
     codename: "2026"
+    lts: true
     releaseDate: 2026-10-13
-    eol: false # releaseDate(19.0 or 18.12)
+    eol: 2028-11-14
     latest: "18.11.4"
     latestReleaseDate: 2026-11-10
-    link: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes#__LATEST__
+    link: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-v18.11
 
   - releaseCycle: "18.10"
     codename: "2026"
