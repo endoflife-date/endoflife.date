@@ -12,6 +12,9 @@ releasePolicyLink: https://www.nvidia.com/drivers/
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
 
+identifiers:
+  - cpe: cpe:2.3:a:nvidia:gpu_display_driver
+
 auto:
   methods:
     - nvidia-releases: https://docs.nvidia.com/datacenter/tesla/drivers/releases.json

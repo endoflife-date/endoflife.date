@@ -19,7 +19,11 @@ auto:
     - git: https://github.com/RocketChat/Rocket.Chat.git
 
 identifiers:
+  - purl: pkg:docker/library/rocket.chat
+  - purl: pkg:docker/rocketchat/rocket.chat
+  - purl: pkg:github/RocketChat/Rocket.Chat
   - repology: rocketchat-server
+  - cpe: cpe:2.3:a:rocket.chat:rocket.chat
 
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x) (there is no more an active support phase, kept for historical purpose)
