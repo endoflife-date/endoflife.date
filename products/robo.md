@@ -39,8 +39,8 @@ releases:
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "5.1.1"
-    latestReleaseDate: 2025-11-14
+    latest: "5.2.0"
+    latestReleaseDate: 2022-12-07
 
   - releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
