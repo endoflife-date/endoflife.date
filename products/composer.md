@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "2.11"
     releaseDate: 2026-10-29
     eol: false
-    latest: "2.11.1"
-    latestReleaseDate: 2026-10-30
+    latest: "2.11.2"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "2.10"
     releaseDate: 2026-05-28
@@ -80,8 +80,8 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: 2026-12-31
-    latest: "2.2.31"
-    latestReleaseDate: 2026-10-29
+    latest: "2.2.32"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "2.1"
     releaseDate: 2021-06-03
@@ -100,6 +100,7 @@ releases:
     eol: 2026-05-30
     latest: "1.10.28"
     latestReleaseDate: 2026-05-13
+
 ---
 
 > [Composer](https://getcomposer.org/) is a package manager commonly used to manage
