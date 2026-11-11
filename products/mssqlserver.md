@@ -91,7 +91,7 @@ releases:
     eol: 2030-01-08
     latestGdr: "15.0.2210.4"
     latestGdrLink: https://support.microsoft.com/help/5132751
-    latest: "15.0.4500.2 CU32+GDR"
+    latest: "15.0.4510.2 CU32+GDR"
     latestReleaseDate: 2026-11-10
     # CU32 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
     link: https://support.microsoft.com/help/5132745 # GDR for CU32
