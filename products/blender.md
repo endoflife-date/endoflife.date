@@ -31,7 +31,7 @@ releases:
     eoas: false # releaseDate(5.4) , https://projects.blender.org/blender/blender/milestone/35
     eol: false # releaseDate(5.4) , https://projects.blender.org/blender/blender/milestone/35
     latest: "5.3.0"
-    latestReleaseDate: 2026-11-10
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "5.2"
     lts: true
@@ -60,8 +60,8 @@ releases:
     releaseDate: 2025-07-14
     eoas: 2025-11-18
     eol: 2027-07-14
-    latest: "4.5.15"
-    latestReleaseDate: 2026-10-21
+    latest: "4.5.16"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "4.4"
     releaseDate: 2025-03-17
