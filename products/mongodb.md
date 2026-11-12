@@ -48,14 +48,14 @@ releases:
   - releaseCycle: "9.0"
     releaseDate: 2026-09-30
     eol: 2031-10-31
-    latest: "9.0.4"
-    latestReleaseDate: 2026-10-14
+    latest: "9.0.8"
+    latestReleaseDate: 2026-11-11
 
   - releaseCycle: "8.3"
     releaseDate: 2026-05-31
     eol: 2029-10-31
-    latest: "8.3.13"
-    latestReleaseDate: 2026-10-13
+    latest: "8.3.17"
+    latestReleaseDate: 2026-11-11
 
   - releaseCycle: "8.2"
     releaseLabel: "8.2 (Rapid Release)"
@@ -75,8 +75,8 @@ releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-10-31
     eol: 2029-10-31
-    latest: "8.0.34"
-    latestReleaseDate: 2026-10-13
+    latest: "8.0.38"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
@@ -105,8 +105,8 @@ releases:
   - releaseCycle: "7.0"
     releaseDate: 2023-08-31
     eol: 2027-08-31
-    latest: "7.0.45"
-    latestReleaseDate: 2026-10-13
+    latest: "7.0.48"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -135,8 +135,8 @@ releases:
   - releaseCycle: "6.0"
     releaseDate: 2022-07-31
     eol: 2025-07-31
-    latest: "6.0.29"
-    latestReleaseDate: 2026-06-16
+    latest: "6.0.30"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -165,14 +165,14 @@ releases:
   - releaseCycle: "5.0"
     releaseDate: 2021-07-31
     eol: 2024-10-31
-    latest: "5.0.34"
-    latestReleaseDate: 2026-06-16
+    latest: "5.0.35"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "4.4"
     releaseDate: 2020-07-31
     eol: 2024-02-29
-    latest: "4.4.31"
-    latestReleaseDate: 2026-06-24
+    latest: "4.4.32"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "4.2"
     releaseDate: 2019-08-31
