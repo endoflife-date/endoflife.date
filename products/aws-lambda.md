@@ -90,13 +90,13 @@ releases:
     staleReleaseThresholdDays: 700 # eol still "not scheduled" on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
     releaseDate: 2024-12-09
     eoas: 2026-11-10
-    eol: false
+    eol: true
     link: https://github.com/aws/aws-lambda-dotnet/blob/master/CHANGELOG.md#release-2024-12-09
 
   - releaseCycle: "nodejs22.x"
     releaseLabel: Node.js 22
     releaseDate: 2024-11-22
-    eoas: 2027-04-30
+    eoas: 2027-05-30
     eol: 2027-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-nodejs-22/
 
