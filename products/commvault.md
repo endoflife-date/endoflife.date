@@ -11,6 +11,7 @@ identifiers:
   - cpe: cpe:2.3:a:commvault:commvault
 
 auto:
+  disabled: true # product is fetching versions from future, disable until 2026-12-01
   methods:
     - release_table: https://documentation.commvault.com/11.44/software/commvault_software_releases_release_types_and_release_tracks.html
       fields:
