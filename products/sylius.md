@@ -31,8 +31,8 @@ auto:
 releases:
   - releaseCycle: "2.3"
     releaseDate: 2026-09-28
-    eoas: false
-    eol: false
+    eoas: 2027-06-30
+    eol: 2027-12-31
     latest: "2.3.2"
     latestReleaseDate: 2026-10-22
 

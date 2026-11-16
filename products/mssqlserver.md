@@ -36,10 +36,9 @@ releases:
     eol: 2036-01-06
     latestGdr: "17.0.1155.3"
     latestGdrLink: https://support.microsoft.com/help/5132748
-    latest: "17.0.5045.3 CU10+GDR"
-    latestReleaseDate: 2026-11-10
-    # CU10 link: https://support.microsoft.com/help/5125471
-    link: https://support.microsoft.com/help/5129299 # GDR for CU10
+    latest: "17.0.5065.9 CU11"
+    latestReleaseDate: 2026-11-12
+    link: https://support.microsoft.com/help/5129223
 
   - releaseCycle: "16.0"
     codename: Dallas
@@ -49,10 +48,9 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1220.3"
     latestGdrLink: https://support.microsoft.com/help/5132747
-    latest: "16.0.4315.2 CU27+GDR"
-    latestReleaseDate: 2026-11-10
-    # CU27 link: https://support.microsoft.com/help/5104824
-    link: https://support.microsoft.com/help/5129300 # GDR for CU27
+    latest: "16.0.4325.4 CU28"
+    latestReleaseDate: 2026-11-12
+    link: https://support.microsoft.com/help/5125472
 
   - releaseCycle: "13.0-sp3-acp"
     codename: SQL16
