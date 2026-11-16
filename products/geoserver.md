@@ -10,6 +10,7 @@ eoasColumn: true
 
 identifiers:
   - repology: geoserver
+  - purl: pkg:github/geoserver/geoserver
 
 auto:
   methods:
@@ -59,6 +60,55 @@ releases:
     eol: 2024-09-18
     latest: "2.24.5"
     latestReleaseDate: 2024-08-21
+
+  - releaseCycle: "2.23"
+    releaseDate: 2023-04-04
+    eoas: 2023-10-15
+    eol: 2024-03-19
+    latest: "2.23.6"
+    latestReleaseDate: 2024-06-14
+
+  - releaseCycle: "2.22"
+    releaseDate: 2022-11-17
+    eoas: 2023-04-04
+    eol: 2023-10-15
+    latest: "2.22.6"
+    latestReleaseDate: 2025-03-13
+
+  - releaseCycle: "2.21"
+    releaseDate: 2022-05-22
+    eoas: 2022-11-17
+    eol: 2023-04-04
+    latest: "2.21.5"
+    latestReleaseDate: 2023-05-05
+
+  - releaseCycle: "2.20"
+    releaseDate: 2021-10-13
+    eoas: 2022-05-22
+    eol: 2022-11-17
+    latest: "2.20.7"
+    latestReleaseDate: 2023-02-20
+
+  - releaseCycle: "2.19"
+    releaseDate: 2021-03-18
+    eoas: 2021-10-13
+    eol: 2022-05-22
+    latest: "2.19.7"
+    latestReleaseDate: 2023-02-20
+
+  - releaseCycle: "2.18"
+    releaseDate: 2020-09-21
+    eoas: 2021-03-18
+    eol: 2021-10-13
+    latest: "2.18.7"
+    latestReleaseDate: 2023-02-20
+
+  - releaseCycle: "2.17"
+    releaseDate: 2020-04-19
+    eoas: 2020-09-21
+    eol: 2021-03-18
+    latest: "2.17.5"
+    latestReleaseDate: 2021-02-19
 
 ---
 
