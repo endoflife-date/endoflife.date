@@ -115,7 +115,6 @@ releases:
   - releaseCycle: "2.0.0"
     releaseDate: 2013-02-24
     eol: 2016-02-24
-    # Keep this pinned
     latest: "2.0.0p648"
     latestReleaseDate: 2015-12-16
     link: null
