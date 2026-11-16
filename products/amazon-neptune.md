@@ -41,7 +41,7 @@ auto:
 releases:
   - releaseCycle: "1.5.0.0"
     releaseDate: 2026-10-13
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.5.0.1"
     eol: false # not announced yet at https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
     latest: "1.5.0.0"
     latestReleaseDate: 2026-10-13
