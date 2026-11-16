@@ -10,7 +10,7 @@ alternate_urls:
   - /xdr
   - /pan-cortex-xdr
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-changelogTemplate: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/__RELEASE_CYCLE__/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-__RELEASE_CYCLE__-Release-Information
+changelogTemplate: https://cortex-docs.paloaltonetworks.com/agent-release-notes
 LTSLabel: CE
 iconSlug: paloaltonetworks
 latestColumn: false
@@ -38,103 +38,118 @@ auto:
           template: "{{month}} {{day}} {{year}}"
 
 # EOL dates can be found on https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary#traps-esm-and-cortex
-# Latest can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
+# Latest can be found on https://cortex-docs.paloaltonetworks.com/agent-release-notes
 releases:
   - releaseCycle: "9.3"
     releaseDate: 2026-07-26
     eol: 2027-05-16
     latest: "9.3.0"
     latestReleaseDate: 2026-07-26
+    link: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.3/release-information
 
   - releaseCycle: "9.2"
     releaseDate: 2026-05-03
     eol: 2027-02-28
     latest: "9.2.0"
     latestReleaseDate: 2026-05-03
+    link: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.2/release-information
 
   - releaseCycle: "9.1"
     releaseDate: 2026-01-25
     eol: 2026-11-22
     latest: "9.1.0"
     latestReleaseDate: 2026-01-25
+    link: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.1/cortex-xdr-agent-release-information
 
   - releaseCycle: "9.0"
     releaseDate: 2025-11-09
     eol: 2026-08-23
     latest: "9.0.0"
     latestReleaseDate: 2025-11-09
+    link: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.0/cortex-xdr-agent-release-information
 
   - releaseCycle: "8.9"
     releaseDate: 2025-07-21
     eol: 2026-05-10
     latest: "8.9"
     latestReleaseDate: 2025-07-21
+    link: https://cortex-docs.paloaltonetworks.com/8.x/cortex-xdr-agent-8.9-release-information
 
   - releaseCycle: "8.8"
     releaseDate: 2025-04-28
     eol: 2026-02-18
     latest: "8.8"
     latestReleaseDate: 2025-04-28
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.8-eol/cortex-xdr-agent-8.8-release-information
 
   - releaseCycle: "8.7"
     releaseDate: 2025-02-02
     eol: 2025-11-23
     latest: "8.7"
     latestReleaseDate: 2025-02-02
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.7-eol/cortex-xdr-agent-8.7-release-information
 
   - releaseCycle: "7.9.103-ce"
     releaseDate: 2024-11-11
     eol: 2026-12-31
     latest: "7.9.103-CE"
     latestReleaseDate: 2024-11-11
+    link: https://cortex-docs.paloaltonetworks.com/7.x/cortex-xdr-agent-7.9-ce-release-information
 
   - releaseCycle: "8.6"
     releaseDate: 2024-09-30
     eol: 2025-07-13
     latest: "8.6.1"
     latestReleaseDate: 2024-12-03 # used Linux/Mac date
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.6-eol/cortex-xdr-agent-8.6-release-information
 
   - releaseCycle: "8.5"
     releaseDate: 2024-06-30
     eol: 2025-04-21
     latest: "8.5.2"
     latestReleaseDate: 2025-02-24
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.5-eol/cortex-xdr-agent-8.5-release-information
 
   - releaseCycle: "8.3-ce"
     releaseDate: 2024-05-21
     eol: 2026-05-21
     latest: "8.3.101-CE"
     latestReleaseDate: 2025-01-13 # used Linux date
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.3ce/cortex-xdr-agent-8.3-ce-release-information
 
   - releaseCycle: "8.4"
     releaseDate: 2024-04-14
     eol: 2025-02-05
     latest: "8.4"
     latestReleaseDate: 2024-04-14
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.4-eol/cortex-xdr-agent-8.4-release-information
 
   - releaseCycle: "8.3"
     releaseDate: 2024-02-11
     eol: 2024-11-25
     latest: "8.3"
     latestReleaseDate: 2024-02-11
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.3-eol/cortex-xdr-agent-8.3-release-information
 
   - releaseCycle: "8.2"
     releaseDate: 2023-10-29
     eol: 2024-08-12
     latest: "8.2.1"
     latestReleaseDate: 2024-01-09
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.2-eol/cortex-xdr-agent-8.2-release-information
 
   - releaseCycle: "8.1"
     releaseDate: 2023-06-25
     eol: 2024-04-09
     latest: "8.1.2"
     latestReleaseDate: 2023-11-27
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.1-eol/cortex-xdr-agent-8.1-release-information
 
   - releaseCycle: "7.9-ce"
     lts: true
     releaseDate: 2023-03-19
     eol: 2025-03-19
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
+    link: https://cortex-docs.paloaltonetworks.com/7.x/cortex-xdr-agent-7.9-ce-release-information
     latest: "7.9-ce"
     latestReleaseDate: 2023-03-19
 
@@ -143,24 +158,28 @@ releases:
     eol: 2023-12-19
     latest: "8.0.2"
     latestReleaseDate: 2023-07-19
+    link: https://cortex-docs.paloaltonetworks.com/8.x/8.0-eol/cortex-xdr-agent-8.0-release-information
 
   - releaseCycle: "7.9"
     releaseDate: 2022-12-04
     eol: 2023-09-11
     latest: "7.9.101-ce"
     latestReleaseDate: 2023-07-10
+    link: https://cortex-docs.paloaltonetworks.com/7.x/7.9-eol/cortex-xdr-agent-7.9-release-information
 
   - releaseCycle: "7.8"
     releaseDate: 2022-07-24
     eol: 2023-04-24
     latest: "7.8.2-HF2"
     latestReleaseDate: 2023-02-27
+    link: https://cortex-docs.paloaltonetworks.com/7.x/7.8-eol/cortex-xdr-agent-7.8-release-information
 
   - releaseCycle: "7.7"
     releaseDate: 2022-03-27
     eol: 2022-12-27
     latest: "7.7.2-HF"
     latestReleaseDate: 2022-07-27
+    link: https://cortex-docs.paloaltonetworks.com/7.x/7.7-eol/cortex-xdr-agent-7.7-release-information
 
   - releaseCycle: "7.5-ce"
     lts: true
@@ -168,7 +187,7 @@ releases:
     eol: 2024-03-06
     latest: "7.5.102-ce"
     latestReleaseDate: 2023-01-24
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
+    link: https://cortex-docs.paloaltonetworks.com/7.x/7.5ce-eol/cortex-xdr-agent-7.5-ce-release-information
 
   - releaseCycle: "7.6"
     releaseDate: 2021-12-05
@@ -245,7 +264,7 @@ releases:
     eol: 2024-06-01
     latest: "5.0.12"
     latestReleaseDate: 2021-06-07
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/5.0/Traps-Agent-Release-Notes/Traps-Agent-Release-Information
+    link: https://cortex-docs.paloaltonetworks.com/5.0/traps-agent-release
 
   - releaseCycle: "4.1"
     releaseDate: 2017-09-15
