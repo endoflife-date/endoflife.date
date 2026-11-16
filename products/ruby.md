@@ -131,10 +131,9 @@ releases:
   - releaseCycle: "1.8"
     releaseDate: 2003-08-04
     eol: 2013-06-30
-    # Keep this pinned
-    latest: "1.8.7p374"
+    latest: "1.8.7p374" # Keep this pinned
     latestReleaseDate: 2013-06-27
-    link: null
+    link: https://github.com/ruby/ruby/blob/v1_8_0/doc/ChangeLog-1.8.0
 
 ---
 
