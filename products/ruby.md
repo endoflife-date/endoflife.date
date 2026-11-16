@@ -115,7 +115,6 @@ releases:
   - releaseCycle: "2.0.0"
     releaseDate: 2013-02-24
     eol: 2016-02-24
-    # Keep this pinned
     latest: "2.0.0p648"
     latestReleaseDate: 2015-12-16
     link: null
@@ -123,9 +122,15 @@ releases:
   - releaseCycle: "1.9.3"
     releaseDate: 2011-10-30
     eol: 2015-02-23
-    # Keep this pinned
     latest: "1.9.3p551"
     latestReleaseDate: 2014-11-13
+    link: null
+
+  - releaseCycle: "1.8"
+    releaseDate: 2003-08-04
+    eol: 2013-06-30
+    latest: "1.8.7p374"
+    latestReleaseDate: 2013-06-27
     link: null
 
 ---
