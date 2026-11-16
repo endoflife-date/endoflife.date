@@ -8,7 +8,6 @@ permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;
 releasePolicyLink: https://support.oracle.com/knowledgefs?docId=742060
 LTSLabel: <abbr title="Long Term Release">LTR</abbr>
-latestColumn: false
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
@@ -32,13 +31,19 @@ releases:
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/index.html
+    latest: "23.26.4"
+    latestReleaseDate: 2026-10-20
+    # https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/index.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/26/nfcoa/ru23_26_4.html
 
   - releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
     eol: 2027-07-31
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
+    latest: "21.24"
+    latestReleaseDate: 2026-10-20
+    # https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/21/newft/new-features-21c-release-updates.html
 
   - releaseCycle: "19"
     releaseLabel: "19c"
@@ -46,18 +51,25 @@ releases:
     lts: true
     eol: 2029-12-31
     eoes: 2032-12-31
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
+    latest: "19.33"
+    latestReleaseDate: 2026-10-20
+    # https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/19/newft/ru-19-33.html
 
   - releaseCycle: "18"
     releaseLabel: "18c"
     releaseDate: 2018-07-23
     eol: 2021-06-30
+    latest: "18.14"
+    latestReleaseDate: 2021-04-20
     link: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
 
   - releaseCycle: "12.2"
     releaseLabel: "12c Release 2"
     releaseDate: 2017-03-01
     eol: 2022-03-31
+    latest: "12.2.0.1"
+    latestReleaseDate: 2017-03-01
     link: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
 
   - releaseCycle: "12.1"
@@ -66,6 +78,8 @@ releases:
     releaseDate: 2013-06-25
     eol: 2018-07-31
     eoes: 2022-07-31
+    latest: "12.1.0.2"
+    latestReleaseDate: 2014-07-22
     link: https://docs.oracle.com/database/121/index.htm
 
   - releaseCycle: "11.2"
@@ -75,6 +89,8 @@ releases:
     releaseDate: 2009-09-01
     eol: 2015-01-31
     eoes: 2020-12-31
+    latest: "11.2.0.4"
+    latestReleaseDate: 2013-08-27
     link: https://docs.oracle.com/cd/E11882_01/index.htm
 
   - releaseCycle: "11.1"
@@ -85,6 +101,8 @@ releases:
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html#foot1
     eol: 2012-08-31
     eoes: 2015-08-31
+    latest: "11.1.0.7"
+    latestReleaseDate: 2008-09-18
     link: https://docs.oracle.com/cd/B28359_01/index.htm
 
   - releaseCycle: "10.2"
@@ -95,6 +113,8 @@ releases:
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
     eol: 2010-07-31
     eoes: 2015-07-31
+    latest: "10.2.0.5"
+    latestReleaseDate: 2010-04-29
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
   - releaseCycle: "10.1"
@@ -105,6 +125,8 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_10g
     eol: 2009-01-31
     eoes: 2012-01-01
+    latest: "10.1.0.5"
+    latestReleaseDate: 2006-02-01
     link: https://www.oracle.com/database/technologies/database10g-doc.html
 
   - releaseCycle: "9.2"
@@ -114,6 +136,8 @@ releases:
     releaseDate: 2002-05-01
     eol: 2007-07-31
     eoes: 2010-07-31
+    latest: "9.2.0.8"
+    latestReleaseDate: 2006-08-21
     link: https://web.archive.org/web/20230921152724/https://www.oracle.com/database/technologies/oracle9i.html
 
   - releaseCycle: "9.0"
@@ -121,6 +145,8 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
     eol: 2003-12-31
+    latest: "9.0.1.4"
+    latestReleaseDate: 2002-11-01
 ---
 
 > Oracle Database is a commercial relational database management system (RDBMS) developed by Oracle
@@ -151,7 +177,6 @@ there are two types of Oracle Database releases:
 The version and patch policy is also complex and changing, but some guidance can be found on:
 
 - [Oracle Database - Wikipedia](https://wikipedia.org/wiki/Oracle_Database#Patch_updates_and_security_alerts),
-- [All You Need to Know about Oracle Database Patching — GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
 - [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) — support.oracle.com](https://web.archive.org/web/20230326170525/https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
 - [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledgefs?docId=161818)
   (requires an Oracle account with appropriate permissions).
