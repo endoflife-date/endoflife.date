@@ -50,7 +50,7 @@ releases:
     eol: 2027-12-15
     latest: "11.40.83"
     latestReleaseDate: 2026-11-03
-    link: https://documentation.commvault.com/11.40/essential/list_of_maintenance_releases_in_11_40.html
+    link: https://documentation.commvault.com/11.40/software/list_of_maintenance_releases_in_11_40.html
 
   - releaseCycle: "11.38"
     releaseDate: 2025-02-15
@@ -66,7 +66,7 @@ releases:
     eol: 2027-06-15
     latest: "11.36.130"
     latestReleaseDate: 2026-11-03
-    link: https://documentation.commvault.com/2024e/essential/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
+    link: https://documentation.commvault.com/2024e/software/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
 
   - releaseCycle: "11.32"
     lts: true
