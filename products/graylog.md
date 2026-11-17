@@ -27,7 +27,7 @@ auto:
       fields:
         releaseCycle: "Release"
         releaseDate: "Release Date"
-        eol: "EOL Release Support"
+        eol: "End of Release Support"
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
