@@ -167,7 +167,7 @@ releases:
     eoas: 2011-05-14
     eol: 2011-05-14
     latest: "5.10.1"
-    latestReleaseDate: 2009-08-22
+    latestReleaseDate: 2019-05-08
 
   # 5.8 predates perlpolicy; it ends with its last release, 5.8.9.
   - releaseCycle: "5.8"
