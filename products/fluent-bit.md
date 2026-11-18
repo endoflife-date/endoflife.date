@@ -27,7 +27,7 @@ auto:
 releases:
   - releaseCycle: "5.2"
     releaseDate: 2026-11-09
-    eol: false # releaseDate(5.3 + 3 months)
+    eol: false # releaseDate(5.3) + 3 months
     latest: "5.2.0"
     latestReleaseDate: 2026-11-09
 
