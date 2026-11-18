@@ -4,8 +4,6 @@ addedAt: 2022-07-05
 category: server-app
 tags: web-server
 permalink: /vinyl-cache
-alternate_urls:
-  - /varnish
 versionCommand: varnishd -V
 releasePolicyLink: https://vinyl-cache.org/releases/index.html
 changelogTemplate: https://vinyl-cache.org/releases/rel__LATEST__.html
