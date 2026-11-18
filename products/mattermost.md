@@ -30,6 +30,12 @@ identifiers:
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+  - releaseCycle: "12.1"
+    releaseDate: 2026-11-16
+    eol: 2027-02-15
+    latest: "12.1.0"
+    latestReleaseDate: 2026-11-05
+
   - releaseCycle: "12.0"
     releaseDate: 2026-10-16
     eol: 2027-01-15
