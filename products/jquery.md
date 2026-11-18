@@ -32,17 +32,17 @@ releases:
     releaseDate: 2026-01-17
     eoas: false
     eol: false
-    latest: "4.0.0"
-    latestReleaseDate: 2026-01-17
+    latest: "4.1.0"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "3"
     releaseDate: 2016-06-09
     eoas: 2026-01-17
     eol: false
     eoes: false
-    latest: "3.7.1"
+    latest: "3.8.0"
     staleReleaseThresholdDays: 1280 # still listed as supported on https://jquery.com/support/
-    latestReleaseDate: 2023-08-28
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "2"
     releaseDate: 2013-04-18
@@ -61,6 +61,7 @@ releases:
     latest: "1.12.4"
     latestReleaseDate: 2016-05-20
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
+
 ---
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.

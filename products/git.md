@@ -26,50 +26,50 @@ releases:
     releaseDate: 2026-09-28
     eoas: false
     eol: false
-    latest: "2.56.0"
-    latestReleaseDate: 2026-09-27
+    latest: "2.56.1"
+    latestReleaseDate: 2026-10-26
 
   - releaseCycle: "2.55"
     releaseDate: 2026-06-29
     eoas: 2026-09-28 # releaseDate(2.56)
     eol: false
-    latest: "2.55.0"
-    latestReleaseDate: 2026-06-29
+    latest: "2.55.1"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.54"
     releaseDate: 2026-04-20
     eoas: 2026-06-29 # releaseDate(2.55)
     eol: false
-    latest: "2.54.0"
-    latestReleaseDate: 2026-04-19
+    latest: "2.54.1"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.53"
     releaseDate: 2026-02-02
     eoas: 2026-04-20 # releaseDate(2.54)
     eol: false
-    latest: "2.53.0"
-    latestReleaseDate: 2026-02-01
+    latest: "2.53.1"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.52"
     releaseDate: 2025-11-17
     eoas: 2026-02-02 # releaseDate(2.53)
     eol: false
-    latest: "2.52.0"
-    latestReleaseDate: 2025-11-17
+    latest: "2.52.1"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.51"
     releaseDate: 2025-08-18
     eoas: 2025-11-17 # releaseDate(2.52)
     eol: false
-    latest: "2.51.2"
-    latestReleaseDate: 2025-10-26
+    latest: "2.51.3"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.50"
     releaseDate: 2025-06-16
     eoas: 2025-08-18 # releaseDate(2.51)
     eol: false
-    latest: "2.50.1"
-    latestReleaseDate: 2025-06-15
+    latest: "2.50.2"
+    latestReleaseDate: 2026-11-03
 
   - releaseCycle: "2.49"
     releaseDate: 2025-03-14

@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "160"
     releaseDate: 2026-11-10
     eol: 2026-11-24
-    latest: "160.0"
-    latestReleaseDate: 2026-11-10
+    latest: "160.0.1"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "159"
     releaseDate: 2026-10-27

@@ -82,8 +82,8 @@ releases:
   - releaseCycle: "27"
     releaseDate: 2026-09-17 # https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/
     eol: 2027-04-30
-    latest: "27.0.1.0.11"
-    latestReleaseDate: 2026-10-27
+    latest: "27.0.1.1.4"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "26"
     releaseDate: 2026-03-17 # https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
@@ -95,8 +95,8 @@ releases:
     lts: true
     releaseDate: 2025-09-17 # https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-corretto-25-generally-available/
     eol: 2032-10-31
-    latest: "25.0.5.0.10"
-    latestReleaseDate: 2026-10-27
+    latest: "25.0.5.1.2"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "24"
     releaseDate: 2025-03-24 # https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-corretto-24-available/
@@ -120,8 +120,8 @@ releases:
     lts: true
     releaseDate: 2023-08-21 # https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     eol: 2030-10-31
-    latest: "21.0.13.0.11"
-    latestReleaseDate: 2026-10-27
+    latest: "21.0.13.1.2"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "20"
     releaseDate: 2023-03-21 # https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
@@ -145,8 +145,8 @@ releases:
     lts: true
     releaseDate: 2021-08-24
     eol: 2029-10-31
-    latest: "17.0.21.0.11"
-    latestReleaseDate: 2026-10-27
+    latest: "17.0.21.1.2"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "16"
     releaseDate: 2021-03-16
