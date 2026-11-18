@@ -18,9 +18,9 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2025-12-04
     eol: false
-    latest: "1.0"
-    latestReleaseDate: 2025-12-04
-    link: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0
+    latest: "1.1"
+    latestReleaseDate: 2026-05-28
+    link: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-1
 
   - releaseCycle: "0"
     releaseDate: 2024-12-19
