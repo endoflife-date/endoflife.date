@@ -17,7 +17,7 @@ staleReleaseThresholdDays: 2920 # GPUs have a long support window, and https://e
 # Support can be found on Wikipedia.
 # Example of a documented deprecated architecture (support status): https://en.wikipedia.org/wiki/Pascal_(microarchitecture).
 releases:
-  - releaseCycle: "mobile-professional-ada-lovelace"
+  - releaseCycle: "mobile-professional-blackwell"
     releaseLabel: "Mobile Professional Blackwell (GB20x)"
     releaseDate: 2025-01-30
     eoas: false
@@ -41,6 +41,14 @@ releases:
   - releaseCycle: "consumer-blackwell"
     releaseLabel: "Consumer Blackwell (GB20x)"
     releaseDate: 2025-01-30
+    eoas: false
+    eol: false
+    discontinued: false
+
+  - releaseCycle: "mobile-professional-ada-lovelace"
+    releaseLabel: "Mobile Professional Ada Lovelace (AD10x)"
+    # https://nvidianews.nvidia.com/news/nvidia-redefines-workstations-to-power-new-era-of-ai-design-industrial-metaverse
+    releaseDate: 2023-03-21
     eoas: false
     eol: false
     discontinued: false
@@ -196,7 +204,7 @@ releases:
     releaseLabel: "Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2021-09-20
-    eol: 2024-09-01
+    eol: 2024-09-30 # https://nvidia.custhelp.com/app/answers/detail/a_id/5202
     discontinued: true
 
   - releaseCycle: "mobile-professional-kepler"
@@ -210,7 +218,7 @@ releases:
     releaseLabel: "Mobile Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2019-03-11
-    eol: 2019-04-11
+    eol: 2020-04-30 # https://nvidia.custhelp.com/app/answers/detail/a_id/4779
     discontinued: true
 
   - releaseCycle: "professional-fermi"
@@ -224,7 +232,7 @@ releases:
     releaseLabel: "Consumer Fermi (GF1xx)*"
     releaseDate: 2010-03-26
     eoas: 2018-03-10
-    eol: 2018-03-10
+    eol: 2019-01-31 # https://nvidia.custhelp.com/app/answers/detail/a_id/4654
     discontinued: true
 
   - releaseCycle: "consumer-tesla"
