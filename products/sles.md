@@ -45,6 +45,11 @@ auto:
         eoes: "LTS Ends"
 
 releases:
+  - releaseCycle: "16.1"
+    releaseDate: 2026-11-10
+    eol: 2028-11-30
+    eoes: 2031-11-30
+
   - releaseCycle: "16.0"
     releaseDate: 2025-11-04
     eol: 2027-11-30
