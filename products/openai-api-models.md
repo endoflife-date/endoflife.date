@@ -30,6 +30,51 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-6.2-astra"
+    releaseLabel: "GPT-6.2 Astra"
+    aliases:
+      - gpt-6.2-astra
+    releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+
+  - releaseCycle: "gpt-6.2-sol"
+    releaseLabel: "GPT-6.2 Sol"
+    aliases:
+      - gpt-6.2-sol
+    releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.2-sol"
+
+  - releaseCycle: "gpt-6-cyber"
+    releaseLabel: "GPT-6 Cyber"
+    aliases:
+      - gpt-6-cyber
+    releaseDate: 2026-11-05 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+
+  - releaseCycle: "gpt-image-2.6-sunburst"
+    releaseLabel: "GPT-Image-2.6 Sunburst"
+    aliases:
+      - gpt-image-2.6-sunburst
+    releaseDate: 2026-11-04 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst"
+
+  - releaseCycle: "gpt-image-2.6-flare"
+    releaseLabel: "GPT-Image-2.6 Flare"
+    aliases:
+      - gpt-image-2.6-flare
+    releaseDate: 2026-11-04 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare"
+
   - releaseCycle: "gpt-6.1-terra"
     releaseLabel: "GPT-6.1 Terra"
     aliases:
@@ -104,7 +149,7 @@ releases:
     releaseLabel: "GPT-5.6 Cyber"
     aliases:
       - gpt-5.6-cyber
-    releaseDate: 2026-08-10 # https://aireleasetracker.com/model/openai/gpt-5.6-cyber
+    releaseDate: 2026-08-07 # https://developers.openai.com/api/docs/changelog
     eoas: false
     eol: false
     link: "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
@@ -351,17 +396,6 @@ releases:
     link: "https://developers.openai.com/api/docs/models/gpt-audio"
     recommendedReplacement: gpt-audio-1.5
 
-  - releaseCycle: "gpt-audio-mini"
-    releaseLabel: "GPT-Audio mini"
-    aliases:
-      - gpt-audio-mini-2025-10-06
-      - gpt-audio-mini-2025-12-15
-    releaseDate: 2026-01-19 # https://openrouter.ai/openai/gpt-audio-mini
-    eoas: 2026-07-20
-    eol: 2027-01-20
-    link: "https://developers.openai.com/api/docs/models/gpt-audio-mini"
-    recommendedReplacement: gpt-audio-1.5
-
   - releaseCycle: "gpt-5.2-codex"
     releaseLabel: "GPT-5.2-Codex"
     aliases:
@@ -481,6 +515,17 @@ releases:
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
     recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
+
+  - releaseCycle: "gpt-audio-mini"
+    releaseLabel: "GPT-Audio mini"
+    aliases:
+      - gpt-audio-mini-2025-10-06
+      - gpt-audio-mini-2025-12-15
+    releaseDate: 2025-10-06 # https://developers.openai.com/api/docs/changelog
+    eoas: 2026-07-20
+    eol: 2027-01-20
+    link: "https://developers.openai.com/api/docs/models/gpt-audio-mini"
+    recommendedReplacement: gpt-audio-1.5
 
   - releaseCycle: "gpt-realtime-mini"
     releaseLabel: "GPT-Realtime mini"
