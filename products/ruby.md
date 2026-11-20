@@ -44,13 +44,13 @@ releases:
     releaseDate: 2024-12-24
     eol: 2028-03-31
     latest: "3.4.13"
-    latestReleaseDate: 2026-11-18
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
     latest: "3.3.14"
-    latestReleaseDate: 2026-11-18
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
