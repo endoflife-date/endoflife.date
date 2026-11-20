@@ -15,7 +15,8 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
 changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
-eolColumn: Support
+eolColumn: Full support
+eoesColumn: Extended lifecycle support
 releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 
 # Based on searching for "openjdk runtime environment" and
@@ -56,57 +57,73 @@ identifiers:
 auto:
   methods:
     - json_releases: "https://access.redhat.com/product-life-cycles/api/v1/products?name=Red%20Hat%20build%20of%20OpenJDK"
-      selector: '$.data[0].versions[*]'
+      selector: "$.data[0].versions[*]"
       fields:
         releaseCycle:
-          selector: '$.name'
+          selector: "$.name"
           regex: '^OpenJDK (?P<major>\d+).*$'
-          template: '{{major}}'
+          template: "{{major}}"
         releaseDate: "$.phases[?(@.name == 'General availability')].date"
         eol: "$.phases[?(@.name == 'Full support')].date"
+        eoes: "$.phases[?(@.name == 'Extended life cycle support (ELS) 1')].date"
+    # Versions are retrieved from the errata of the RPM packages. Release cycles 7 and 6 are
+    # not updated anymore.
+    - red-hat-build-of-openjdk: "https://access.redhat.com/hydra/rest/securitydata/csaf.json"
+      packages:
+        "25": java-25-openjdk
+        "21": java-21-openjdk
+        "17": java-17-openjdk
+        "11": java-11-openjdk
+        "8": java-1.8.0-openjdk
 
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:
   - releaseCycle: "25"
     releaseDate: 2025-11-13
     eol: 2030-12-31
+    eoes: 2033-09-30
     # https://access.redhat.com/downloads/content/java-25-openjdk/x86_64/package-latest
-    latest: "25"
-    latestReleaseDate: 2025-11-13
+    latest: "25.0.5.0.8-1.0"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "21"
     releaseDate: 2023-11-14
     eol: 2029-12-31
+    eoes: 2031-09-30
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
-    latest: "21.0.9.0.10-1"
-    latestReleaseDate: 2025-10-17
+    latest: "21.0.13.0.9-1.2"
+    latestReleaseDate: 2026-10-29
 
   - releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
     eol: 2027-12-31
+    eoes: 2029-01-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
-    latest: "17.0.17.0.10-1"
-    latestReleaseDate: 2025-10-16
+    latest: "17.0.21.0.9-2.2"
+    latestReleaseDate: 2026-10-31
 
   - releaseCycle: "11"
     releaseDate: 2018-10-01 # RHEL 7.6
     eol: 2024-10-31
+    eoes: 2032-01-31
     # https://access.redhat.com/downloads/content/java-11-openjdk/x86_64/package-latest
-    latest: "11.0.25.0.9-3"
-    latestReleaseDate: 2025-01-14
+    latest: "11.0.33.0.10-1"
+    latestReleaseDate: 2026-11-05
 
   - releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
     releaseDate: 2014-10-01 # RHEL 7.1
     eol: 2026-11-30
+    eoes: 2032-12-31
     # https://access.redhat.com/downloads/content/java-1.8.0-openjdk/x86_64/package-latest
-    latest: "1.8.0.472.b08-1"
-    latestReleaseDate: 2025-10-16
+    latest: "1.8.0.504.b01-1.2"
+    latestReleaseDate: 2026-08-20
 
   - releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
     releaseDate: 2007-03-15 # RHEL 5.9
     eol: 2020-06-30
+    eoes: false
     # https://access.redhat.com/downloads/content/java-1.7.0-openjdk/x86_64/package-latest
     latest: "1.7.0.261-2.6.22.2"
     latestReleaseDate: 2020-04-15
@@ -116,6 +133,7 @@ releases:
     releaseLabel: "OpenJDK 6 (1.6)"
     releaseDate: 2007-03-15 # RHEL 5.3
     eol: 2016-12-31
+    eoes: false
     # https://access.redhat.com/downloads/content/java-1.6.0-openjdk/x86_64/package-latest
     latest: "1.6.0.41-1.13.13.1"
     latestReleaseDate: 2017-01-04
@@ -147,9 +165,6 @@ Red Hat documents [the differences between Red Hat build of OpenJDK and Oracle J
 Red Hat build of OpenJDK versions can fall out of support on versions of
 RHEL if the retirement date of the underlying RHEL platform precedes the
 retirement date of the OpenJDK version.
-
-OpenJDK 11 will receive a review later in its lifecycle, and the lifetime may be extended beyond
-2024, if there is enough demand.
 
 OpenJDK 8 is [not supported on RHEL6](https://access.redhat.com/articles/4997301), even with
 Extended Life Cycle Support (ELS) Add-on for RHEL 6.
