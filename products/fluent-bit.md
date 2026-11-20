@@ -25,9 +25,15 @@ auto:
 # https://fluentbit.io/announcements/older-versions/: Security Policy: support for the current series ends three months after a new series is released.
 # eol(x) = releaseDate(x+1) + 3 months
 releases:
+  - releaseCycle: "5.2"
+    releaseDate: 2026-11-09
+    eol: false # releaseDate(5.3) + 3 months
+    latest: "5.2.0"
+    latestReleaseDate: 2026-11-09
+
   - releaseCycle: "5.1"
     releaseDate: 2026-08-06
-    eol: false # releaseDate(5.2 + 3 months)
+    eol: 2027-02-09 # releaseDate(5.2) + 3 months
     latest: "5.1.5"
     latestReleaseDate: 2026-10-21
 
