@@ -22,6 +22,13 @@ auto:
 
 # Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
+  - releaseCycle: "9.2"
+    releaseDate: 2026-11-19
+    eoas: 2029-11-19
+    eol: 2031-11-19
+    latest: "9.2.0"
+    latestReleaseDate: 2026-11-18
+
   - releaseCycle: "9.1"
     releaseDate: 2026-05-19
     eoas: 2029-05-19
