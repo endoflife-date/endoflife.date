@@ -75,7 +75,7 @@ releases:
     eol: 2020-10-18
 
   - releaseCycle: "6.5"
-    releaseDate: 2019-04-24
+    releaseDate: 2019-05-01
     eol: 2020-05-19
 
   - releaseCycle: "6.4"
@@ -83,8 +83,8 @@ releases:
     eol: 2019-10-17
 
   - releaseCycle: "6.3"
-    releaseDate: 2018-04-02
-    eol: 2019-05-03
+    releaseDate: 2018-04-15
+    eol: 2019-05-01
 
   - releaseCycle: "6.2"
     releaseDate: 2017-10-09
