@@ -72,22 +72,22 @@ releases:
     lts: true
     releaseDate: 2025-09-24 # The first official release is 25.0.0.0.1.
     eol: 2029-09-30 # expected, following Dragonwell's stated four-year minimum support window
-    latest: "25.0.5.0.5+8"
-    latestReleaseDate: 2026-11-15
+    latest: "25.0.5.1.6+2"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-11-24 # The first official release is 21.0.1.
     eol: 2029-11-30
-    latest: "21.0.13.0.13+9"
-    latestReleaseDate: 2026-11-13
+    latest: "21.0.13.1.14+2"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # The first official release is 17.0.1.
     eol: 2027-09-30
-    latest: "17.0.20.0.21+8"
-    latestReleaseDate: 2026-09-01
+    latest: "17.0.21.1.22+2"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "11"
     lts: true

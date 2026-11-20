@@ -62,8 +62,8 @@ releases:
     testedAndroidVersions: "9.0 - 9.4.0-alpha03"
     eoas: false
     eol: false
-    latest: "9.9.1"
-    latestReleaseDate: 2026-11-10
+    latest: "9.9.2"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8"
     releaseDate: 2023-02-10
@@ -75,8 +75,8 @@ releases:
     testedAndroidVersions: "7.3 - 8.9"
     eoas: 2025-07-31
     eol: false
-    latest: "8.14.7"
-    latestReleaseDate: 2026-11-10
+    latest: "8.14.8"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "7"
     releaseDate: 2021-04-09

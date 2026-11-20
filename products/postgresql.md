@@ -33,6 +33,12 @@ identifiers:
   - cpe: cpe:/a:postgresql:postgresql
 
 releases:
+  - releaseCycle: "19"
+    releaseDate: 2026-11-19
+    eol: 2031-11-19
+    latest: "19.0"
+    latestReleaseDate: 2026-11-16
+
   - releaseCycle: "18"
     releaseDate: 2025-09-25
     eol: 2030-11-14

@@ -248,5 +248,19 @@ cycle, but rather a snapshot of edge is taken every 6 months as a release. Stabl
 supported normally for 2 years. Security fixes beyond that are on request and when patches are
 available.
 
-Only the latest release gets bug fixes, prior supported releases only
-get security fixes.
+Only the latest release gets bug fixes, prior supported releases
+only get security fixes.
+
+Packages in `community` repository only get supported for 6 months after release, see:
+https://docs.alpinelinux.org/user-handbook/0.1a/Working/apk.html#_repositories_releases_and_mirrors
+> - stable (for example 3.16)
+>   Released every 6 months. Support entails security patches for the given feature versions.
+>   Each stable release has its own `main` and `community` repositories.
+>   The `main` repository is supported for 2 years.
+>   The `community` repository is only supported for 6 months of its respective release.
+>   A release is considered EOL (End Of Life) when support of its `main` repo expires.
+
+e.g. `3.24` was released on 2026-06-09 and packages in `main` repository are supported till 2028-06-01,
+but its `community` repository usually won't be supported after 2026-12-09 i.e. 6 months after release
+with some exception like updates for fixing [PHP2Shell](https://en.wikipedia.org/wiki/PHP2Shell)
+was backported to 3.24 through already unsupported 3.19: https://gitlab.alpinelinux.org/alpine/aports/-/work_items/18512#note_654291.

@@ -166,16 +166,16 @@ releases:
     lts: true
     releaseDate: 2019-02-18
     eol: 2032-01-31
-    latest: "11.0.33.0.10"
-    latestReleaseDate: 2026-10-26
+    latest: "11.0.33.1.1"
+    latestReleaseDate: 2026-11-18
 
   # Note that the first release was 8.202.08.2.
   - releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.512.09.1"
-    latestReleaseDate: 2026-10-26
+    latest: "8.514.01.1"
+    latestReleaseDate: 2026-11-18
 
 ---
 
