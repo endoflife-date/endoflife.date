@@ -24,6 +24,13 @@ auto:
     - php: https://www.php.net/releases/index.php?json&max=-1
 
 releases:
+  - releaseCycle: "8.6"
+    releaseDate: 2026-11-19
+    eoas: 2028-12-31
+    eol: 2030-12-31
+    latest: "8.6.0"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "8.5"
     releaseDate: 2025-11-20
     eoas: 2027-12-31
