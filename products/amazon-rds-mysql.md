@@ -26,6 +26,14 @@ auto:
         eoes: "RDS end of Extended Support date"
 
 releases:
+  - releaseCycle: "9.7"
+    releaseDate: 2026-11-18
+    eoas: 2031-07-31
+    eol: 2031-07-31
+    eoes: 2034-07-31
+    latest: "9.7.4"
+    latestReleaseDate: 2026-11-18
+
   - releaseCycle: "8.4.9"
     releaseDate: 2026-04-21
     eoas: 2027-05-08

@@ -34,6 +34,7 @@ auto:
     - release_table: https://www.mongodb.com/legal/support-policy/lifecycles
       render_javascript: true
       render_javascript_wait_for: "table"
+      selector: "table:not(#controllers-for-kubernetes ~ div:not(#controllers-for-kubernetes ~ h2 ~ div) table)"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
