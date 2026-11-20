@@ -304,7 +304,7 @@ releases:
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-20
-    eol: false # Temurin EOL date not yet announced
+    eol: 2029-12-31
     eoes: 2032-03-31
     latest: "21.0.13.1+6"
     latestReleaseDate: 2026-11-18
@@ -373,7 +373,7 @@ releases:
   - releaseCycle: "11"
     lts: true
     releaseDate: 2018-10-08
-    eol: 2024-10-31
+    eol: 2027-10-31
     eoes: 2032-03-31
     latest: "11.0.33.1+5"
     latestReleaseDate: 2026-11-18
@@ -391,7 +391,7 @@ releases:
   - releaseCycle: "8"
     lts: true
     releaseDate: 2014-03-18
-    eol: 2026-11-30
+    eol: 2030-12-31
     eoes: 2031-03-31
     latest: "8u514+5"
     latestReleaseDate: 2026-11-18
