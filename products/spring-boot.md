@@ -60,6 +60,14 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+  - releaseCycle: "4.2"
+    supportedJavaVersions: "17 - 27" # https://docs.spring.io/spring-boot/4.2/system-requirements.html
+    releaseDate: 2026-11-20
+    eol: 2027-12-31
+    eoes: 2028-12-31
+    latest: "4.2.0"
+    latestReleaseDate: 2026-11-20
+
   - releaseCycle: "4.1"
     supportedJavaVersions: "17 - 26" # https://docs.spring.io/spring-boot/4.1/system-requirements.html
     releaseDate: 2026-06-30
