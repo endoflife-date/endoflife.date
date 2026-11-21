@@ -20,21 +20,22 @@ auto:
   methods:
     - npm: next
 
+# eoas(x) = releaseDate(x) + 1y
 # eol(x) = releaseDate(x) + 2y
-# remember to correct releaseLabel when you add a new release
+
 releases:
   - releaseCycle: "16"
-    releaseLabel: "16 (Active LTS)"
     lts: true
     releaseDate: 2025-10-22
+    eoas: 2026-10-22
     eol: 2027-10-22
     latest: "16.4.6"
     latestReleaseDate: 2026-11-09
 
   - releaseCycle: "15"
-    releaseLabel: "15 (Maintenance LTS)"
     lts: true
     releaseDate: 2024-10-21
+    eoas: 2025-10-22
     eol: 2027-01-31
     latest: "15.5.29"
     latestReleaseDate: 2026-11-03
@@ -42,6 +43,7 @@ releases:
   - releaseCycle: "14"
     lts: true
     releaseDate: 2023-10-26
+    eoas: 2024-10-26
     eol: 2025-10-26
     latest: "14.2.35"
     latestReleaseDate: 2025-10-26
