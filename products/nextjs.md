@@ -20,16 +20,19 @@ auto:
   methods:
     - npm: next
 
-# eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
+# eol(x) = releaseDate(x) + 2y
+# remember to correct releaseLabel when you add a new release
 releases:
   - releaseCycle: "16"
+    releaseLabel: "16 (Active LTS)"
     lts: true
     releaseDate: 2025-10-22
-    eol: false
+    eol: 2026-10-22
     latest: "16.4.6"
     latestReleaseDate: 2026-11-09
 
   - releaseCycle: "15"
+    releaseLabel: "15 (Maintenance LTS)"
     lts: true
     releaseDate: 2024-10-21
     eol: 2027-01-31
@@ -76,12 +79,20 @@ releases:
 
 > [Next.js](https://nextjs.org/) is an open-source React framework developed by Vercel. It offers
 > server-side rendering, static site generation, and client-side rendering capabilities, enabling
-> developers to build performant and scalable web applications. The framework is designed to be
+> developers to build performant and scalable web applications. It is designed to be
 > developer-friendly, with a focus on fast refresh and an optimized production build.
 
-Next.js follows [semantic versioning](https://semver.org/). Major versions are released on average about twice per year,
-minor versions more frequently, and patch versions very frequently. Important patches are sometimes
-backported to past major versions, but it's not clear which past versions are supported.
+Releases are supported for 2 years: 
+- One year as "Active LTS", where they get new features alongside bug and security updates.
+- One more year as "Maintenance LTS", where they only receive critical bug fixes and essential security updates.
+  Updates land as semver-minor releases, even if they are breaking changes.
+
+{: .note }
+> To give teams more time to upgrade, Maintenance LTS for Next.js 15 was  extended from 
+> from Oct 2026 to January 31, 2027.
+
+In rare circumstances, depending on the severity of the underlying bug, fixes may be backported
+beyond the supported releases.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):
 stable and canary. Only stable releases are suitable for production.
