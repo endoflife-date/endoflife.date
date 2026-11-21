@@ -32,7 +32,7 @@ releases:
 
   - releaseCycle: "7.3"
     releaseDate: 2024-05-20 # with 7.3.43, https://forums.foundationdb.org/t/when-will-fdb-7-3-be-officially-released-as-a-production-version/4197/12
-    eoas: 2026-09-01
+    eoas: 2026-11-20 # "Bug Fixes" since https://github.com/apple/foundationdb/pull/14606
     eol: false
     latest: "7.3.77"
     latestReleaseDate: 2026-04-16
@@ -41,7 +41,7 @@ releases:
   - releaseCycle: "7.1"
     releaseDate: 2022-09-19 # with 7.1.22
     eoas: 2024-05-20
-    eol: 2024-05-15
+    eol: 2026-11-20 # "Unsupported" since https://github.com/apple/foundationdb/pull/14606
     latest: "7.1.61"
     latestReleaseDate: 2024-05-15
     link: https://apple.github.io/foundationdb/release-notes/release-notes-710.html
