@@ -22,19 +22,26 @@ auto:
 # eoas marks the point when a branch enters "Bug fixes" support (if unknown, eoas(x) = releaseDate(x+1)).
 # eol marks the point when a branch becomes "Unsupported" (if unknown, eol(x) = latestReleaseDate(x)).
 releases:
+  - releaseCycle: "7.4"
+    releaseDate: 2026-09-01 # with 7.4.7
+    eoas: false
+    eol: false
+    latest: "7.4.8"
+    latestReleaseDate: 2026-09-24
+    link: https://apple.github.io/foundationdb/release-notes/release-notes-740.html
+
   - releaseCycle: "7.3"
     releaseDate: 2024-05-20 # with 7.3.43, https://forums.foundationdb.org/t/when-will-fdb-7-3-be-officially-released-as-a-production-version/4197/12
-    eoas: false
+    eoas: 2026-09-01
     eol: false
     latest: "7.3.77"
     latestReleaseDate: 2026-04-16
     link: https://apple.github.io/foundationdb/release-notes/release-notes-730.html
 
   - releaseCycle: "7.1"
-    staleReleaseThresholdDays: 1095 # still "bug fixes" on https://github.com/apple/foundationdb#latest-stable-releases
     releaseDate: 2022-09-19 # with 7.1.22
     eoas: 2024-05-20
-    eol: false
+    eol: 2024-05-15
     latest: "7.1.61"
     latestReleaseDate: 2024-05-15
     link: https://apple.github.io/foundationdb/release-notes/release-notes-710.html
