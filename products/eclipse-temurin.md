@@ -151,8 +151,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
     eol: 2027-10-31
-    latest: "11.0.33+10"
-    latestReleaseDate: 2026-11-04
+    latest: "11.0.33.1+1"
+    latestReleaseDate: 2026-11-20
 
   # Note that the first and only 16 release is 16.0.2+7
   - releaseCycle: "16"

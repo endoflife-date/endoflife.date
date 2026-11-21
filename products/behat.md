@@ -29,15 +29,15 @@ releases:
     releaseDate: 2026-09-28
     eoas: false
     eol: false
-    latest: "4.0.0"
-    latestReleaseDate: 2026-09-28
+    latest: "4.1.0"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "3"
     releaseDate: 2014-04-20
     eoas: 2027-09-30
     eol: 2028-09-30
-    latest: "3.34.0"
-    latestReleaseDate: 2026-09-27
+    latest: "3.35.1"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "2"
     releaseDate: 2011-07-01

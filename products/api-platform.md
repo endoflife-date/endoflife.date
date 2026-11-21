@@ -26,15 +26,15 @@ releases:
     releaseDate: 2026-09-16
     eoas: false
     eol: false
-    latest: "5.0.8"
-    latestReleaseDate: 2026-11-16
+    latest: "5.0.9"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "4.4"
     releaseDate: 2026-09-16
     eoas: 2026-09-16
     eol: false
-    latest: "4.4.9"
-    latestReleaseDate: 2026-11-16
+    latest: "4.4.10"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "4.3"
     releaseDate: 2026-03-13
