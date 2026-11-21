@@ -10,6 +10,7 @@ alternate_urls:
   - /nextdotjs
 versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
+releasePolicyLink: https://nextjs.org/support-policy
 
 identifiers:
   - purl: pkg:npm/next
@@ -80,8 +81,7 @@ releases:
 
 Next.js follows [semantic versioning](https://semver.org/). Major versions are released on average about twice per year,
 minor versions more frequently, and patch versions very frequently. Important patches are sometimes
-backported to past major versions. The support status of past major versions is subject to the
-[official Next.js support policy](https://nextjs.org/support-policy).
+backported to past major versions, but it's not clear which past versions are supported.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):
 stable and canary. Only stable releases are suitable for production.
