@@ -27,7 +27,7 @@ releases:
     releaseLabel: "16 (Active LTS)"
     lts: true
     releaseDate: 2025-10-22
-    eol: 2026-10-22
+    eol: 2027-10-22
     latest: "16.4.6"
     latestReleaseDate: 2026-11-09
 
