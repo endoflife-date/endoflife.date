@@ -101,11 +101,15 @@ releases:
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
 > {: .warning }
+> The Deno team [announced a transition to runtime maintenance](https://deno.com/blog/cloudflare),
+> with monthly bug-fix and security releases for one year after the announcement,
+> followed by the planned end of runtime development by the Deno team. The runtime remains open source.
+
+> {: .warning }
 > [LTS support discontinued](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#long-term-support-(lts)) after April 30, 2026 (EOL for v2.5);
 > there will be no LTS releases or maintenance beyond that date.
 
 Deno follows [SemVer](https://semver.org/).
-New minor releases are made every 12 weeks and are supported with bug and security fixes until the next minor release.
 
 Deno [has release channels](https://docs.deno.com/runtime/fundamentals/stability_and_releases/#release-channels), such as `stable`, which can be used as version aliases.
 
