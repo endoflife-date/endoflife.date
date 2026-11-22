@@ -22,9 +22,15 @@ auto:
 #
 # Official releases dates and git tag dates always differ by a few days.
 releases:
+  - releaseCycle: "3.21"
+    releaseDate: 2026-11-20
+    eol: false
+    latest: "3.21.0"
+    latestReleaseDate: 2026-11-20
+
   - releaseCycle: "3.20"
     releaseDate: 2026-11-11
-    eol: false
+    eol: 2026-11-20
     latest: "3.20.0"
     latestReleaseDate: 2026-11-11
 
