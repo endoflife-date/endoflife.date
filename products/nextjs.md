@@ -11,6 +11,8 @@ alternate_urls:
 versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 releasePolicyLink: https://nextjs.org/support-policy
+eoasColumn: Active LTS
+eolColumn: Maintenance LTS
 
 identifiers:
   - purl: pkg:npm/next
@@ -50,30 +52,35 @@ releases:
 
   - releaseCycle: "13"
     releaseDate: 2022-10-25
+    eoas: 2023-10-25
     eol: 2024-12-21
     latest: "13.5.11"
     latestReleaseDate: 2025-03-27
 
   - releaseCycle: "12"
     releaseDate: 2021-10-26
+    eoas: 2022-10-26
     eol: 2022-11-21
     latest: "12.3.7"
     latestReleaseDate: 2025-03-28
 
   - releaseCycle: "11"
     releaseDate: 2021-06-15
+    eoas: 2022-06-15
     eol: 2022-01-27
     latest: "11.1.4"
     latestReleaseDate: 2022-01-27
 
   - releaseCycle: "10"
     releaseDate: 2020-10-27
+    eoas: 2021-10-27
     eol: 2021-06-15
     latest: "10.2.3"
     latestReleaseDate: 2021-05-24
 
   - releaseCycle: "9"
     releaseDate: 2019-07-08
+    eoas: 2027-07-08
     eol: 2020-10-27
     latest: "9.5.5"
     latestReleaseDate: 2020-10-10
