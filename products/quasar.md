@@ -23,8 +23,8 @@ releases:
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.35.5"
-    latestReleaseDate: 2026-11-17
+    latest: "2.35.6"
+    latestReleaseDate: 2026-11-21
 
   - releaseCycle: "1"
     releaseDate: 2019-03-07
