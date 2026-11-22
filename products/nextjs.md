@@ -2,7 +2,7 @@
 title: Next.js
 addedAt: 2023-08-27
 category: framework
-tags: javascript-runtime vercel
+tags: javascript-runtime
 iconSlug: nextdotjs
 permalink: /nextjs
 alternate_urls:
@@ -97,7 +97,7 @@ Releases are supported for 2 years:
   Updates land as semver-minor releases, even if they are breaking changes.
 
 {: .note }
-> To give teams more time to upgrade, Maintenance LTS for Next.js 15 was  extended from 
+> To give teams more time to upgrade, Maintenance LTS for Next.js 15 was extended from 
 > from Oct 2026 to January 31, 2027.
 
 In rare circumstances, depending on the severity of the underlying bug, fixes may be backported
