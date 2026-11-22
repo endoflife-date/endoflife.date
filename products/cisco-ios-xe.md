@@ -16,6 +16,13 @@ latestColumn: false
 # - LTS (17.x): eoas(x) = releaseDate(x) + 30 months, eol(x) = releaseDate(x) + 48 months
 # - 26.1 and later: no projection, as dates are relative to an end-of-sale date that is not yet announced
 releases:
+  - releaseCycle: "26.2"
+    lts: true
+    releaseDate: 2026-08-31
+    eoas: false
+    eol: false
+    link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-26-2-1/model.html
+
   - releaseCycle: "26.1"
     lts: true
     releaseDate: 2026-06-03
@@ -26,9 +33,9 @@ releases:
   - releaseCycle: "17.18"
     lts: true
     releaseDate: 2025-08-08
-    eoas: 2028-02-08
-    eol: 2029-08-08
-    link: https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-18-1/model.html
+    eoas: 2028-04-29
+    eol: 2029-09-30
+    link: https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-18-x-eol.html
 
   - releaseCycle: "17.17"
     releaseDate: 2025-03-31
