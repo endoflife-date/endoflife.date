@@ -82,6 +82,12 @@ releases:
     eoas: 2012-10-09
     eol: 2017-10-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2007
+
+  - releaseCycle: "2003"
+    releaseDate: 2003-11-17
+    eoas: 2009-04-14
+    eol: 2014-04-08
+    link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2003
 ---
 
 > Microsoft Office, or simply Office, is a family of client software, server software, and services
