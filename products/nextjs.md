@@ -66,21 +66,21 @@ releases:
 
   - releaseCycle: "11"
     releaseDate: 2021-06-15
-    eoas: 2022-06-15
+    eoas: 2022-01-27
     eol: 2022-01-27
     latest: "11.1.4"
     latestReleaseDate: 2022-01-27
 
   - releaseCycle: "10"
     releaseDate: 2020-10-27
-    eoas: 2021-10-27
+    eoas: 2021-06-15
     eol: 2021-06-15
     latest: "10.2.3"
     latestReleaseDate: 2021-05-24
 
   - releaseCycle: "9"
     releaseDate: 2019-07-08
-    eoas: 2027-07-08
+    eoas: 2020-10-27
     eol: 2020-10-27
     latest: "9.5.5"
     latestReleaseDate: 2020-10-10
