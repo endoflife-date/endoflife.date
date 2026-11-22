@@ -30,7 +30,7 @@ releases:
 
   - releaseCycle: "3.20"
     releaseDate: 2026-11-11
-    eol: false
+    eol: 2026-11-20
     latest: "3.20.0"
     latestReleaseDate: 2026-11-11
 
