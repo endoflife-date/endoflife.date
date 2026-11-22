@@ -7,7 +7,7 @@ iconSlug: vmware
 permalink: /vmware-srm
 alternate_urls:
   - /vmwaresrm
-releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
+releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
 eolColumn: General Support
 
 customFields:
@@ -22,9 +22,9 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     technicalGuidance: 2029-02-12
-    latest: "9.1.0.0"
-    latestReleaseDate: 2026-05-12
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/protection-and-recovery/9-1/release-notes/protection-and-recovery-91-release-notes.html
+    latest: "9.1.1.0"
+    latestReleaseDate: 2026-09-03
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/protection-and-recovery/9-1/release-notes/protection-and-recovery-9110-release-notes.html
   
   - releaseCycle: "9.0"
     releaseDate: 2024-03-19
@@ -64,7 +64,7 @@ releases:
     technicalGuidance: 2024-04-01
     latest: "8.5.0.8"
     latestReleaseDate: 2023-10-05
-    link: https://docs.vmware.com/en/Site-Recovery-Manager/8.5/rn/vmware-site-recovery-manager-8508-release-notes/index.html
+    link: https://web.archive.org/web/20231129155829/https://docs.vmware.com/en/Site-Recovery-Manager/8.5/rn/vmware-site-recovery-manager-8508-release-notes/index.html
 
   - releaseCycle: "8.4"
     releaseDate: 2021-03-09
@@ -144,7 +144,7 @@ releases:
 > availability of VMware hosted resources.
 
 Since Site Recovery Manager 8.3, the product has followed the [Application Platform lifecycle
-policy](https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML), providing support for 4
+policy](https://support.broadcom.com/group/ecx/productlifecycle), providing support for 4
 years with 3 years of general support and an additional 1 year of technical guidance during which
 bug fixes and security updates are no longer provided.
 
