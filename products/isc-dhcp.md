@@ -21,14 +21,14 @@ releases:
 
   - releaseCycle: "4.3"
     releaseDate: 2014-02-04
-    eol: 2018-02-28
+    eol: 2018-07-31 # https://kb.isc.org/v1/docs/isc-dhcp-eol-dates
     latest: "4.3.6-P1"
     latestReleaseDate: 2018-02-28
 
   - releaseCycle: "4.2"
     # https://dhcp-users.isc.narkive.com/41iloiKm/isc-dhcp-4-2-0-is-now-available
     releaseDate: 2010-07-15
-    eol: 2015-03-05
+    eol: 2015-08-31 # https://kb.isc.org/v1/docs/isc-dhcp-eol-dates
     latest: "4.2.8"
     latestReleaseDate: 2015-03-05
 
