@@ -32,8 +32,7 @@ auto:
 releases:
   - releaseCycle: "gpt-6.2-astra"
     releaseLabel: "GPT-6.2 Astra"
-    aliases:
-      - gpt-6.2-astra
+    aliases: []
     releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
     eoas: false
     eol: false
@@ -41,8 +40,7 @@ releases:
 
   - releaseCycle: "gpt-6.2-sol"
     releaseLabel: "GPT-6.2 Sol"
-    aliases:
-      - gpt-6.2-sol
+    aliases: []
     releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
     eoas: false
     eol: false
