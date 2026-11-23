@@ -168,11 +168,14 @@ releases:
 > [Apache Spark](https://spark.apache.org/) is a multi-language engine for executing data
 > engineering, data science, and machine learning on single-node machines or clusters.
 
-Apache Spark follows [semantic versioning](https://semver.org). Minor releases happen roughly every
-6 months and are maintained with bug and security fixes for a period of 18 months.
+Apache Spark follows [semantic versioning](https://semver.org). Up to 4.2, minor releases happened
+roughly every 6 months and were maintained with bug and security fixes for a period of 18 months.
+The last minor release within a major release was typically maintained for longer as an LTS release.
+For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
 
-The last minor release within a major release will typically be maintained for longer as an LTS
-release. For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
+Starting with 4.3, feature releases ship quarterly and a new major release ships every year. Major
+and feature releases are maintained for 6 months. The last feature release of each major line is
+the LTS release and is maintained for 18 months. For 4.x, the LTS release is 4.5 rather than 4.3.
 
 As an exception, 3.5.x has an extended LTS period (security fixes only) ending November 2027 to
 allow time for migrations. This extension does not apply to Spark sub-projects with separate
