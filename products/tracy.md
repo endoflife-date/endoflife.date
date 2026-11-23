@@ -17,8 +17,8 @@ auto:
   methods:
     - git: https://github.com/nette/tracy.git
 
-# eoas = release of the next series. A series ends with its last release, marked "(end of support)"
-# on GitHub; for the series ended so far the exact end date was not recorded, hence eol: true.
+# eoas = release of the next series. eol = the latest of: two years after the first release,
+# the release of the next series, the last release of the series.
 releases:
   - releaseCycle: "2.12"
     releaseDate: 2026-05-04
@@ -30,70 +30,70 @@ releases:
   - releaseCycle: "2.11"
     releaseDate: 2025-10-31
     eoas: 2026-05-04
-    eol: true
+    eol: 2026-11-17
     latest: "2.11.4"
     latestReleaseDate: 2026-04-22
 
   - releaseCycle: "2.10"
     releaseDate: 2023-03-09
     eoas: 2025-10-31
-    eol: true
+    eol: 2025-10-31
     latest: "2.10.10"
     latestReleaseDate: 2025-04-28
 
   - releaseCycle: "2.9"
     releaseDate: 2021-12-20
     eoas: 2023-03-09
-    eol: true
+    eol: 2023-12-20
     latest: "2.9.8"
     latestReleaseDate: 2023-09-25
 
   - releaseCycle: "2.8"
     releaseDate: 2020-12-16
     eoas: 2021-12-20
-    eol: true
+    eol: 2022-12-16
     latest: "2.8.10"
     latestReleaseDate: 2021-12-20
 
   - releaseCycle: "2.7"
     releaseDate: 2019-09-24
     eoas: 2020-12-16
-    eol: true
+    eol: 2021-12-10
     latest: "2.7.9"
     latestReleaseDate: 2021-12-10
 
   - releaseCycle: "2.6"
     releaseDate: 2019-02-20
     eoas: 2019-09-24
-    eol: true
+    eol: 2022-02-15
     latest: "2.6.8"
     latestReleaseDate: 2022-02-15
 
   - releaseCycle: "2.5"
     releaseDate: 2018-05-25
     eoas: 2019-02-20
-    eol: true
+    eol: 2022-02-15
     latest: "2.5.9"
     latestReleaseDate: 2022-02-15
 
   - releaseCycle: "2.4"
     releaseDate: 2016-06-17
     eoas: 2018-05-25
-    eol: true
+    eol: 2018-09-24
     latest: "2.4.18"
     latestReleaseDate: 2018-09-24
 
   - releaseCycle: "2.3"
     releaseDate: 2015-02-24
     eoas: 2016-06-17
-    eol: true
+    eol: 2017-02-24
     latest: "2.3.12"
     latestReleaseDate: 2017-01-18
 
   - releaseCycle: "2.2"
     releaseDate: 2014-05-12
     eoas: 2015-02-24
-    eol: true
+    eol: 2016-05-12
     latest: "2.2.9"
     latestReleaseDate: 2015-12-03
 
