@@ -12,7 +12,10 @@ releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 identifiers:
+  - purl: pkg:maven/org.jetbrains.kotlin/kotlin-stdlib
+  - purl: pkg:github/JetBrains/kotlin
   - repology: kotlin
+  - cpe: cpe:2.3:a:jetbrains:kotlin
 
 auto:
   methods:
@@ -23,8 +26,8 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2026-06-03
     eol: false # releaseDate ( 2.5 )
-    latest: "2.4.10"
-    latestReleaseDate: 2026-07-14
+    latest: "2.4.21"
+    latestReleaseDate: 2026-10-08
 
   - releaseCycle: "2.3"
     releaseDate: 2025-12-16

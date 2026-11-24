@@ -22,40 +22,47 @@ auto:
 
 # Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
+  - releaseCycle: "9.2"
+    releaseDate: 2026-11-19
+    eoas: 2029-11-19
+    eol: 2031-11-19
+    latest: "9.2.0"
+    latestReleaseDate: 2026-11-18
+
   - releaseCycle: "9.1"
     releaseDate: 2026-05-19
-    eoas: false # not announced yet on https://valkey.io/topics/releases/
-    eol: false # not announced yet on https://valkey.io/topics/releases/
-    latest: "9.1.1"
-    latestReleaseDate: 2026-07-21
+    eoas: 2029-05-19
+    eol: 2031-05-19
+    latest: "9.1.4"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "9.0"
     releaseDate: 2025-10-21
     eoas: 2028-10-21
     eol: 2028-10-21
-    latest: "9.0.5"
-    latestReleaseDate: 2026-07-21
+    latest: "9.0.8"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "8.1"
     releaseDate: 2025-03-31
     eoas: 2028-03-31
     eol: 2030-03-31
-    latest: "8.1.9"
-    latestReleaseDate: 2026-07-21
+    latest: "8.1.12"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "8.0"
     releaseDate: 2024-09-15
     eoas: 2027-09-15
     eol: 2027-09-15
-    latest: "8.0.10"
-    latestReleaseDate: 2026-07-21
+    latest: "8.0.13"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "7.2"
-    releaseDate: 2023-08-15 # inherit from redis
+    releaseDate: 2024-04-16
     eoas: 2027-04-16
     eol: 2029-04-16
-    latest: "7.2.14"
-    latestReleaseDate: 2026-07-21
+    latest: "7.2.16"
+    latestReleaseDate: 2026-11-18
 
 ---
 

@@ -36,21 +36,21 @@ releases:
   - releaseCycle: "4.0"
     releaseDate: 2025-12-25
     eol: 2029-03-31
-    latest: "4.0.6"
-    latestReleaseDate: 2026-07-13
+    latest: "4.0.10"
+    latestReleaseDate: 2026-11-18
     link: https://github.com/ruby/ruby/releases/tag/v__LATEST__
 
   - releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.10"
-    latestReleaseDate: 2026-06-30
+    latest: "3.4.13"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.12"
-    latestReleaseDate: 2026-07-16
+    latest: "3.3.14"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "3.2"
     releaseDate: 2022-12-25
@@ -115,7 +115,6 @@ releases:
   - releaseCycle: "2.0.0"
     releaseDate: 2013-02-24
     eol: 2016-02-24
-    # Keep this pinned
     latest: "2.0.0p648"
     latestReleaseDate: 2015-12-16
     link: null
@@ -123,9 +122,15 @@ releases:
   - releaseCycle: "1.9.3"
     releaseDate: 2011-10-30
     eol: 2015-02-23
-    # Keep this pinned
     latest: "1.9.3p551"
     latestReleaseDate: 2014-11-13
+    link: null
+
+  - releaseCycle: "1.8"
+    releaseDate: 2003-08-04
+    eol: 2013-06-30
+    latest: "1.8.7p374"
+    latestReleaseDate: 2013-06-27
     link: null
 
 ---

@@ -30,18 +30,25 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "1.27"
+    releaseDate: 2026-08-19
+    eol: false
+    latest: "1.27.4"
+    latestReleaseDate: 2026-11-10
+    link: https://go.dev/doc/go1.27
+
   - releaseCycle: "1.26"
     releaseDate: 2026-02-10
     eol: false
-    latest: "1.26.5"
-    latestReleaseDate: 2026-07-07
+    latest: "1.26.11"
+    latestReleaseDate: 2026-11-10
     link: https://go.dev/doc/go1.26
 
   - releaseCycle: "1.25"
     releaseDate: 2025-08-12
-    eol: false
-    latest: "1.25.12"
-    latestReleaseDate: 2026-07-07
+    eol: 2026-08-19
+    latest: "1.25.14"
+    latestReleaseDate: 2026-08-19
 
   - releaseCycle: "1.24"
     releaseDate: 2025-02-11
@@ -133,6 +140,54 @@ releases:
     latest: "1.10.8"
     latestReleaseDate: 2019-01-23
 
+  - releaseCycle: "1.9"
+    releaseDate: 2017-08-24
+    eol: 2018-08-24
+    latest: "1.9.7"
+    latestReleaseDate: 2018-06-06
+
+  - releaseCycle: "1.8"
+    releaseDate: 2017-02-16
+    eol: 2018-02-16
+    latest: "1.8.7"
+    latestReleaseDate: 2018-02-07
+
+  - releaseCycle: "1.7"
+    releaseDate: 2016-08-15
+    eol: 2017-08-24
+    latest: "1.7.6"
+    latestReleaseDate: 2017-05-23
+
+  - releaseCycle: "1.6"
+    releaseDate: 2016-02-17
+    eol: 2017-02-16
+    latest: "1.6.4"
+    latestReleaseDate: 2016-12-01
+
+  - releaseCycle: "1.5"
+    releaseDate: 2015-08-19
+    eol: 2016-08-15
+    latest: "1.5.4"
+    latestReleaseDate: 2016-04-11
+
+  - releaseCycle: "1.4"
+    releaseDate: 2014-12-10
+    eol: 2016-02-17
+    latest: "1.4.3"
+    latestReleaseDate: 2015-09-23
+
+  - releaseCycle: "1.3"
+    releaseDate: 2014-06-18
+    eol: 2015-08-19
+    latest: "1.3.3"
+    latestReleaseDate: 2014-10-01
+
+  - releaseCycle: "1.2"
+    releaseDate: 2013-12-01
+    eol: 2014-12-10
+    latest: "1.2.2"
+    latestReleaseDate: 2014-05-05
+
 ---
 
 > [Go](https://go.dev/) is an open source programming language that makes it easy to build simple,
@@ -142,4 +197,4 @@ Each major Go release is supported until there are two newer major releases. For
 supported until the Go 1.7 release, and Go 1.6 was supported until the Go 1.8 release. It fixes
 critical problems, including critical security problems, in supported releases as needed by issuing
 minor revisions (for example, Go 1.6.1, Go 1.6.2, and so on). The security policy can be found at
-<https://go.dev/security/>.
+<https://go.dev/doc/security/>.

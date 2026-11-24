@@ -24,33 +24,40 @@ auto:
     - php: https://www.php.net/releases/index.php?json&max=-1
 
 releases:
+  - releaseCycle: "8.6"
+    releaseDate: 2026-11-19
+    eoas: 2028-12-31
+    eol: 2030-12-31
+    latest: "8.6.0"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "8.5"
     releaseDate: 2025-11-20
     eoas: 2027-12-31
     eol: 2029-12-31
-    latest: "8.5.9"
-    latestReleaseDate: 2026-07-30
+    latest: "8.5.13"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
-    latest: "8.4.24"
-    latestReleaseDate: 2026-07-30
+    latest: "8.4.28"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.33"
-    latestReleaseDate: 2026-07-30
+    latest: "8.3.37"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
-    latest: "8.2.33"
-    latestReleaseDate: 2026-07-30
+    latest: "8.2.36"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8.1"
     releaseDate: 2021-11-25
@@ -143,12 +150,47 @@ releases:
     latest: "5.1.6"
     latestReleaseDate: 2006-08-24
 
+  - releaseCycle: "4.4"
+    releaseDate: 2005-07-11
+    eoas: 2007-12-31
+    eol: 2008-08-07
+    latest: "4.4.9"
+    latestReleaseDate: 2008-08-07
+
   - releaseCycle: "5.0"
     releaseDate: 2004-07-13
     eoas: 2005-09-05
     eol: 2005-09-05
     latest: "5.0.5"
     latestReleaseDate: 2005-09-05
+
+  - releaseCycle: "4.3"
+    releaseDate: 2002-12-27
+    eoas: 2005-03-31
+    eol: 2005-03-31
+    latest: "4.3.11"
+    latestReleaseDate: 2005-03-31
+
+  - releaseCycle: "4.2"
+    releaseDate: 2002-04-22
+    eoas: 2002-09-06
+    eol: 2002-09-06
+    latest: "4.2.3"
+    latestReleaseDate: 2002-09-06
+
+  - releaseCycle: "4.1"
+    releaseDate: 2001-12-10
+    eoas: 2002-03-12
+    eol: 2002-03-12
+    latest: "4.1.2"
+    latestReleaseDate: 2002-03-12
+
+  - releaseCycle: "4.0"
+    releaseDate: 2000-05-22
+    eoas: 2001-06-23
+    eol: 2001-06-23
+    latest: "4.0.6"
+    latestReleaseDate: 2001-06-23
 
 ---
 

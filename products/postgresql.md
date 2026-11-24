@@ -33,35 +33,41 @@ identifiers:
   - cpe: cpe:/a:postgresql:postgresql
 
 releases:
+  - releaseCycle: "19"
+    releaseDate: 2026-11-19
+    eol: 2031-11-19
+    latest: "19.0"
+    latestReleaseDate: 2026-11-16
+
   - releaseCycle: "18"
     releaseDate: 2025-09-25
     eol: 2030-11-14
-    latest: "18.4"
-    latestReleaseDate: 2026-05-11
+    latest: "18.7"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "17"
     releaseDate: 2024-09-26
     eol: 2029-11-08
-    latest: "17.10"
-    latestReleaseDate: 2026-05-11
+    latest: "17.12"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2028-11-09
-    latest: "16.14"
-    latestReleaseDate: 2026-05-11
+    latest: "16.16"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "15"
     releaseDate: 2022-10-13
     eol: 2027-11-11
-    latest: "15.18"
-    latestReleaseDate: 2026-05-11
+    latest: "15.20"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "14"
     releaseDate: 2021-09-30
     eol: 2026-11-12
-    latest: "14.23"
-    latestReleaseDate: 2026-05-11
+    latest: "14.25"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "13"
     releaseDate: 2020-09-24
@@ -206,6 +212,24 @@ releases:
     eol: 2003-03-01
     latest: "6.3.2"
     latestReleaseDate: 1998-04-18
+
+  - releaseCycle: "6.2"
+    releaseDate: 1997-10-02
+    eol: true
+    latest: "6.2.1"
+    latestReleaseDate: 1997-10-18
+
+  - releaseCycle: "6.1"
+    releaseDate: 1997-06-08
+    eol: true
+    latest: "6.1.1"
+    latestReleaseDate: 1997-07-21
+
+  - releaseCycle: "6.0"
+    releaseDate: 1997-01-29
+    eol: true
+    latest: "6.0"
+    latestReleaseDate: 1997-01-29
 
 ---
 

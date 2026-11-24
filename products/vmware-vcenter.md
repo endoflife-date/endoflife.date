@@ -25,10 +25,9 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     technicalGuidance: 2029-08-12
-    latest: "9.1.0.0300"
-    latestReleaseDate: 2026-07-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/patch-releases-9-1-0-x/vsphere/vcenter/vcenter-9-1-0-0300-release-notes.html
-    # No longer standalone release notes for vCenter as of this release.
+    latest: "9.1.1.0100"
+    latestReleaseDate: 2026-10-12
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/patch-releases-9-1-1-x/vsphere/vcenter/vcenter-9-1-1-0100-release-notes.html
     
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17

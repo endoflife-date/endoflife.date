@@ -17,11 +17,41 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "1.57"
+    releaseDate: 2026-11-16
+    eol: false
+    latest: "1.57.0"
+    latestReleaseDate: 2026-11-16
+
+  - releaseCycle: "1.56"
+    releaseDate: 2026-10-26
+    eol: 2026-11-16
+    latest: "1.56.2"
+    latestReleaseDate: 2026-11-09
+
+  - releaseCycle: "1.55"
+    releaseDate: 2026-10-12
+    eol: 2026-10-26
+    latest: "1.55.1"
+    latestReleaseDate: 2026-11-02
+
+  - releaseCycle: "1.54"
+    releaseDate: 2026-09-21
+    eol: 2026-10-12
+    latest: "1.54.3"
+    latestReleaseDate: 2026-10-01
+
+  - releaseCycle: "1.53"
+    releaseDate: 2026-08-10
+    eol: 2026-09-21
+    latest: "1.53.3"
+    latestReleaseDate: 2026-10-01
+
   - releaseCycle: "1.52"
     releaseDate: 2026-08-03
-    eol: false
-    latest: "1.52.0"
-    latestReleaseDate: 2026-08-03
+    eol: 2026-08-10
+    latest: "1.52.4"
+    latestReleaseDate: 2026-10-01
 
   - releaseCycle: "1.51"
     releaseDate: 2026-07-27

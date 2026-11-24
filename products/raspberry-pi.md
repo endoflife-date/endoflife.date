@@ -128,8 +128,8 @@ releases:
     releaseLabel: Compute Module 3
     # https://www.raspberrypi.com/news/compute-module-3-launch/
     releaseDate: 2017-01-16
-    # https://www.raspberrypi.com/products/compute-module-3/
-    eol: 2028-01-01
+    # https://pip.raspberrypi.com/documents/RP-009286-PC-cm3-eol.pdf (last time ship date)
+    eol: 2026-06-30
     link: https://www.raspberrypi.com/products/compute-module-3/
 
   - releaseCycle: "3-b"
@@ -170,9 +170,9 @@ releases:
 
   - releaseCycle: "cm1"
     releaseLabel: Compute Module 1
-    # https://www.raspberrypi.org/raspberry-pi-compute-module-new-product/
+    # https://www.raspberrypi.com/news/raspberry-pi-compute-module-new-product/
     releaseDate: 2014-04-07
-    eol: 2026-01-01
+    eol: 2028-01-01
     link: https://www.raspberrypi.com/products/compute-module-1/
 
   - releaseCycle: "1-a"

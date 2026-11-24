@@ -48,7 +48,7 @@ releases:
     eoas: 2026-08-24
     eol: 2026-11-23
     lowestSNSVersion: '4.3'
-    highestSNSVersion: '4.8'
+    highestSNSVersion: '5.0'
 
   - releaseCycle: "3.7"
     releaseDate: 2024-12-17
@@ -122,9 +122,10 @@ releases:
 
 
 
+
 ---
 
-> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/stormshield-management-center/)
+> [Stormshield Management Center (SMC)](https://www.stormshield.com/products-services/products/network-security/administration-tools-sns-firewalls/smc/)
 > provides centralized and secure administration of Stormshield Network Security firewalls.
 > It is compatible with hypervisors such as VMware ESXi, Microsoft Hyper-V or KVM,
 > as well as with cloud environments like Amazon Web Services (AWS) or 3DS OUTSCALE or Microsoft Azure.

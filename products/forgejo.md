@@ -28,18 +28,24 @@ identifiers:
 
 # eol dates: https://forgejo.org/releases/ or https://forgejo.org/docs/latest/admin/release-schedule/
 releases:
+  - releaseCycle: "17.0"
+    releaseDate: 2026-10-15
+    eol: 2027-01-28
+    latest: "17.0.2"
+    latestReleaseDate: 2026-11-18
+
   - releaseCycle: "16.0"
     releaseDate: 2026-07-16
     eol: 2026-10-29
-    latest: "16.0.2"
-    latestReleaseDate: 2026-07-30
+    latest: "16.0.7"
+    latestReleaseDate: 2026-10-26
 
   - releaseCycle: "15.0"
     lts: true
     releaseDate: 2026-04-16
     eol: 2027-07-15
-    latest: "15.0.6"
-    latestReleaseDate: 2026-07-30
+    latest: "15.0.12"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "14.0"
     releaseDate: 2026-01-15
@@ -98,3 +104,6 @@ releases:
 Stable releases are released every quarter and receive support for three months.
 Long-term support releases are published in the first quarter of every year
 and receive critical bugfixes and security support for one year and three months.
+
+The Forgejo security team publishes advance notice of upcoming security
+releases on the [security-announcements issue tracker](https://codeberg.org/forgejo/security-announcements/issues).

@@ -8,9 +8,12 @@ permalink: /nvidia
 alternate_urls:
   - /nvidia-driver
 versionCommand: nvidia-smi
-releasePolicyLink: https://www.nvidia.com/Download/index.aspx
+releasePolicyLink: https://www.nvidia.com/drivers/
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
+
+identifiers:
+  - cpe: cpe:2.3:a:nvidia:gpu_display_driver
 
 auto:
   methods:
@@ -40,6 +43,44 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+  - releaseCycle: "r620-linux"
+    releaseLabel: "R620-Linux"
+    lts: true
+    releaseDate: 2026-11-04
+    eoas: 2027-11-04
+    eol: 2029-11-04
+    latest: "620.70.06"
+    latestReleaseDate: 2026-11-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-620-70-06/index.html
+
+  - releaseCycle: "r620-windows"
+    releaseLabel: "R620-Windows"
+    lts: true
+    releaseDate: 2026-11-04
+    eoas: 2027-11-04
+    eol: 2029-11-04
+    latest: "621.14"
+    latestReleaseDate: 2026-11-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-620-70-06/index.html
+
+  - releaseCycle: "r615-windows"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "616.92"
+    latestReleaseDate: 2026-09-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-09/index.html
+
+  - releaseCycle: "r615-linux"
+    releaseLabel: "R615-Windows (NFB)"
+    releaseDate: 2026-09-09
+    eoas: true
+    eol: 2027-09-09
+    latest: "615.71.10"
+    latestReleaseDate: 2026-10-19
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-10/index.html
+
   - releaseCycle: "r610-windows"
     releaseLabel: "R610-Windows (NFB)"
     releaseDate: 2026-08-03
@@ -63,23 +104,23 @@ releases:
     releaseDate: 2026-03-24
     eoas: 2027-03-24
     eol: 2027-03-24
-    latest: "596.86"
-    latestReleaseDate: 2026-08-03
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
+    latest: "597.30"
+    latestReleaseDate: 2026-10-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-112-07/index.html
 
   - releaseCycle: "r595-linux"
     releaseLabel: "R595-Linux (PB)"
     releaseDate: 2026-03-24
     eoas: 2027-03-24
     eol: 2027-03-24
-    latest: "595.91.07"
-    latestReleaseDate: 2026-08-03
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-91-07/index.html
+    latest: "595.112.07"
+    latestReleaseDate: 2026-10-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-595-112-07/index.html
 
   - releaseCycle: "r590-windows"
     releaseLabel: "R590-Windows (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "591.59"
     latestReleaseDate: 2025-12-22
@@ -88,7 +129,7 @@ releases:
   - releaseCycle: "r590-linux"
     releaseLabel: "R590-Linux (NFB)"
     releaseDate: 2025-12-22
-    eoas: false
+    eoas: true
     eol: 2026-12-22
     latest: "590.48.01"
     latestReleaseDate: 2025-12-22
@@ -100,9 +141,9 @@ releases:
     releaseDate: 2025-08-04
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "580.178.04"
-    latestReleaseDate: 2026-08-03
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-178-04/index.html
+    latest: "580.196.07"
+    latestReleaseDate: 2026-10-21
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-196-07/index.html
 
   - releaseCycle: "r580-windows"
     releaseLabel: "R580-Windows"
@@ -110,9 +151,9 @@ releases:
     releaseDate: 2025-06-03
     eoas: 2026-08-04
     eol: 2028-08-04
-    latest: "582.78"
-    latestReleaseDate: 2026-08-03
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-178-04/index.html
+    latest: "582.99"
+    latestReleaseDate: 2026-10-21
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-580-196-07/index.html
 
   - releaseCycle: "r575-linux"
     releaseLabel: "R575-Linux (NFB)"
@@ -471,13 +512,13 @@ releases:
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well
 > as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks
 > Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows,
-> Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
+> Linux, Solaris, and FreeBSD](https://www.nvidia.com/drivers/).
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
 - 32-bit operating systems are [no longer supported.](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
   32-bit applications running on x86_64 are still supported.
-- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
+- There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
 Since LTSB branches are also production branches, it may be listed as a production branch in driver
@@ -501,7 +542,7 @@ GPUs supported by any given branch are dependent on the operating system.
 
 ## Cadence
 
-The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
+The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/latest/index.html#lifecycle):
 
 |                       | New Feature Branch (NFB)                         | Production Branch (PB)                               | Long Term Support Branch                                                                                  |
 | --------------------- | ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |

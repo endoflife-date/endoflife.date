@@ -7,11 +7,19 @@ versionCommand: idl -e 'print, !version.release'
 releasePolicyLink: https://www.nv5geospatialsoftware.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/nv5-geospatial-technical-support-supported-versions-1
 changelogTemplate: "https://www.nv5geospatialsoftware.com/docs/whatsnew_{{'__LATEST__'|drop_zero_patch|replace:'.','_'}}.html"
 
+# Released date documented on https://en.wikipedia.org/wiki/IDL_(programming_language)#Release_Dates_and_Platform_Support.
 # eol(x) = max(releaseDate(x+1), latestReleaseDate(x))
 releases:
+  - releaseCycle: "9.3"
+    releaseDate: 2026-08-13
+    eol: false
+    latest: "9.3.0"
+    latestReleaseDate: 2026-08-13
+    link: https://www.nv5geospatialsoftware.com/docs/WhatsNew.html
+
   - releaseCycle: "9.2"
     releaseDate: 2025-08-15
-    eol: false
+    eol: 2026-08-13
     latest: "9.2.0"
     latestReleaseDate: 2025-08-15
 

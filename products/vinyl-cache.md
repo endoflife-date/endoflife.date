@@ -33,11 +33,18 @@ auto:
       date_column: "Date"
 
 releases:
+  - releaseCycle: "9.1"
+    lts: 2026-10-29 # https://vinyl-cache.org/news/2026-10-29_new_lts.html#news-2026-10-new-lts
+    releaseDate: 2026-09-16
+    eol: false
+    latest: "9.1.0"
+    latestReleaseDate: 2026-09-16
+
   - releaseCycle: "9.0"
     releaseDate: 2026-03-16
     eol: 2027-03-16
-    latest: "9.0.1"
-    latestReleaseDate: 2026-05-18
+    latest: "9.0.2"
+    latestReleaseDate: 2026-09-16
 
   - releaseCycle: "8.0"
     releaseDate: 2025-09-15
@@ -96,7 +103,7 @@ releases:
   - releaseCycle: "6.0"
     lts: true
     releaseDate: 2018-03-15
-    eol: false
+    eol: 2027-04-15
     latest: "6.0.18"
     latestReleaseDate: 2026-05-18
 
@@ -106,6 +113,6 @@ releases:
 
 A new minor version is released every 6 months.
 
-A list of security vulnerabilities is [available here](https://varnish-cache.org/security/index.html).
-You can also subscribe to the [varnish-announce](https://varnish-cache.org/lists/mailman/listinfo/varnish-announce)
+A list of security vulnerabilities is [available here](https://vinyl-cache.org/security/index.html).
+You can also subscribe to the [vinyl-announce](https://vinyl-cache.org/lists/mailman/listinfo/vinyl-announce)
 mailing list.

@@ -9,6 +9,7 @@ changelogTemplate: "https://github.com/dropwizard/dropwizard/releases/tag/v__LAT
 eolColumn: Support
 
 identifiers:
+  - purl: pkg:maven/io.dropwizard/dropwizard-core
   - purl: pkg:github/dropwizard/dropwizard
 
 auto:

@@ -29,18 +29,19 @@ releases:
     eol: false # still listed on https://hbase.apache.org/downloads
     latestReleaseDate: 2026-08-05
     latest: "3.0.0"
+    link: https://github.com/apache/hbase/releases/tag/rel%2F3.0.0
 
   - releaseCycle: "2.6"
     releaseDate: 2024-05-17
     eol: false # still listed on https://hbase.apache.org/downloads
-    latestReleaseDate: 2026-06-09
-    latest: "2.6.6"
+    latestReleaseDate: 2026-10-01
+    latest: "2.6.7"
 
   - releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false # still listed on https://hbase.apache.org/downloads
-    latestReleaseDate: 2026-06-09
-    latest: "2.5.15"
+    latestReleaseDate: 2026-10-01
+    latest: "2.5.16"
 
   - releaseCycle: "2.4"
     releaseDate: 2020-12-15

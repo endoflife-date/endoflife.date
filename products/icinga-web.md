@@ -8,7 +8,7 @@ permalink: /icinga-web
 alternate_urls:
   - /icingaweb
 versionCommand: icingacli version
-releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
+releasePolicyLink: https://icinga.com/products/product-support-lifecycle/
 changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
 eoasColumn: true
 
@@ -31,15 +31,15 @@ releases:
     releaseDate: 2026-07-03
     eoas: false
     eol: false
-    latest: "2.14.0"
-    latestReleaseDate: 2026-07-03
+    latest: "2.14.1"
+    latestReleaseDate: 2026-10-28
 
   - releaseCycle: "2.13"
     releaseDate: 2026-03-27
     eoas: 2026-07-03
     eol: false
-    latest: "2.13.1"
-    latestReleaseDate: 2026-07-02
+    latest: "2.13.2"
+    latestReleaseDate: 2026-10-28
 
   - releaseCycle: "2.12"
     releaseDate: 2023-09-21

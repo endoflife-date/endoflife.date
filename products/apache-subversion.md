@@ -17,18 +17,31 @@ identifiers:
 
 auto:
   methods:
-    - apache-subversion: https://subversion.apache.org/docs/release-notes/release-history.html
-      regex: '^Subversion\s(?P<version>[1-9]\d*.\d+\.\d+)\s*\((?P<date>\w+, \d+ \w+ \d{4}).*$'
+    - xml_versions: https://subversion.apache.org/docs/release-notes/release-history.html
+      selector: li
+      name:
+        selector: b
+        regex: '^Subversion\s+(?P<value>[1-9]\d*\.\d+\.\d+)$'
+      date:
+        selector: ":scope"
+        regex: 'Subversion.+\((?P<value>\w+, \d+ \w+ \d{4}).*$'
 
 # Cycles documented in https://subversion.apache.org/docs/release-notes
 # EOL documented on https://subversion.apache.org/roadmap.html
 # > To date, every release since 1.0 has been LTS, except 1.11, 1.12, and 1.13 which were regular.
 # All releases are documented on https://subversion.apache.org/docs/release-notes/release-history.html
 releases:
+  - releaseCycle: "1.15"
+    lts: true
+    releaseDate: 2026-10-08
+    eol: false
+    latest: "1.15.0"
+    latestReleaseDate: 2026-10-08
+
   - releaseCycle: "1.14"
     lts: true
     releaseDate: 2020-05-27
-    eol: false
+    eol: true
     latest: "1.14.5"
     latestReleaseDate: 2024-12-08
 

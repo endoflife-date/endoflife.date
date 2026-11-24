@@ -4,7 +4,7 @@ addedAt: 2026-03-07
 category: framework
 iconSlug: freedesktopdotorg
 permalink: /freedesktop-sdk
-releasePolicyLink: https://freedesktop-sdk.gitlab.io/documentation/updating-sdk/release-notes/
+releasePolicyLink: https://freedesktop-sdk.gitlab.io/documentation/wiki/Releases.html
 changelogTemplate: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/releases/freedesktop-sdk-__LATEST__
 
 auto:
@@ -16,17 +16,23 @@ auto:
 
 # eol(r) = releaseDate(r) + 2 years
 releases:
+  - releaseCycle: "26.08"
+    releaseDate: 2026-09-01
+    eol: 2028-09-01
+    latest: "26.08.4"
+    latestReleaseDate: 2026-10-26
+
   - releaseCycle: "25.08"
     releaseDate: 2025-09-01
     eol: 2027-09-01
-    latest: "25.08.15"
-    latestReleaseDate: 2026-07-29
+    latest: "25.08.20"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "24.08"
     releaseDate: 2024-09-08
     eol: 2026-09-08
-    latest: "24.08.35"
-    latestReleaseDate: 2026-07-29
+    latest: "24.08.37"
+    latestReleaseDate: 2026-10-03
 
   - releaseCycle: "23.08"
     releaseDate: 2023-09-06

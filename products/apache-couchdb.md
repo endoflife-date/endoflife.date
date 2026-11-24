@@ -30,8 +30,8 @@ releases:
   - releaseCycle: "3.5"
     releaseDate: 2025-05-05
     eol: false
-    latest: "3.5.2"
-    latestReleaseDate: 2026-05-14
+    latest: "3.5.3"
+    latestReleaseDate: 2026-10-09
 
   - releaseCycle: "3.4"
     releaseDate: 2024-09-20
@@ -50,6 +50,48 @@ releases:
     eol: 2024-09-20
     latest: "3.2.3"
     latestReleaseDate: 2023-04-24
+
+  - releaseCycle: "3.1"
+    releaseDate: 2020-05-04
+    eol: 2022-12-28
+    latest: "3.1.2"
+    latestReleaseDate: 2021-09-30
+
+  - releaseCycle: "3.0"
+    releaseDate: 2020-02-24
+    eol: 2021-10-08
+    latest: "3.0.1"
+    latestReleaseDate: 2020-05-04
+
+  - releaseCycle: "2.3"
+    releaseDate: 2018-12-05
+    eol: 2020-05-04
+    latest: "2.3.1"
+    latestReleaseDate: 2019-07-26
+
+  - releaseCycle: "2.2"
+    releaseDate: 2018-08-07
+    eol: 2020-02-24
+    latest: "2.2.0"
+    latestReleaseDate: 2018-08-07
+
+  - releaseCycle: "2.1"
+    releaseDate: 2017-08-04
+    eol: 2018-12-05
+    latest: "2.1.2"
+    latestReleaseDate: 2018-07-11
+
+  - releaseCycle: "2.0"
+    releaseDate: 2016-09-19
+    eol: 2018-08-07
+    latest: "2.0.0"
+    latestReleaseDate: 2016-09-20
+
+  - releaseCycle: "1"
+    releaseDate: 2010-07-09
+    eol: 2018-08-07 # https://blog.couchdb.org/2018/08/08/2-2/
+    latest: "1.7.2"
+    latestReleaseDate: 2018-07-10
 
 ---
 

@@ -23,20 +23,31 @@ identifiers:
   - cpe: cpe:/a:plesk:plesk
   - cpe: cpe:2.3:a:plesk:plesk
 
-
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+  - releaseCycle: "18.0.82"
+    releaseDate: 2026-10-27
+    eol: 2027-01-19
+    latest: "18.0.82.4"
+    latestReleaseDate: 2026-11-19
+
+  - releaseCycle: "18.0.81"
+    releaseDate: 2026-09-15
+    eol: 2026-12-08
+    latest: "18.0.81.9"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "18.0.80"
     releaseDate: 2026-08-04
     eol: 2026-10-27
-    latest: "18.0.80.1"
-    latestReleaseDate: 2026-08-05
+    latest: "18.0.80.11"
+    latestReleaseDate: 2026-10-21
 
   - releaseCycle: "18.0.79"
     releaseDate: 2026-06-23
     eol: 2026-09-23
-    latest: "18.0.79.5"
-    latestReleaseDate: 2026-08-05
+    latest: "18.0.79.11"
+    latestReleaseDate: 2026-09-10
 
   - releaseCycle: "18.0.78"
     releaseDate: 2026-05-12

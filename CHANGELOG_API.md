@@ -24,8 +24,8 @@ API v1 is a major rework of the API v0 with a lot of breaking changes. Compared 
 v1:
 
 - feels more _Restful_ (#2431),
-- expose almost all products' data (#394, #759, #2062, #2595),
-- expose new metadata such as `schema version` (#2331), `total` (for lists), `generated_at` or
+- exposes almost all products' data (#394, #759, #2062, #2595),
+- exposes new metadata such as `schema version` (#2331), `total` (for lists), `generated_at` or
   `last modified` date,
 - is easier to consume thanks to:
   - new computed fields such as `is_maintained`,

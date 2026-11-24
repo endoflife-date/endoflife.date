@@ -19,7 +19,14 @@ identifiers:
 
 auto:
   methods:
-    - ibm-aix: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+    - version_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+      header_selector: "tbody tr:nth-of-type(1)"
+      name_column: "TL"
+      date_column: "Release date"
+      render_javascript: true
+      render_javascript_wait_for: "table"
+      regex: 'AIX (?P<major>\d+)\.(?P<minor>\d+) TL(?P<patch>\d+)'
+      template: "{{major}}.{{minor}}.{{patch}}"
     - release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
       header_selector: "tbody tr:nth-of-type(1)"
       fields:
@@ -64,7 +71,7 @@ releases:
     link: https://www.ibm.com/docs/aix/7.3?topic=notes-aix-73-release
 
   - releaseCycle: "7.2.5"
-    staleReleaseThresholdDays: 2000 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
+    staleReleaseThresholdDays: 2365 # see https://www.ibm.com/support/pages/aix-support-lifecycle-information
     releaseDate: 2020-11-30
     eol: false
     latest: "7.2.5"

@@ -6,8 +6,8 @@ tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
 versionCommand: firefox --version
-releasePolicyLink: https://www.mozilla.org/firefox/
-changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+releasePolicyLink: https://www.firefox.com/
+changelogTemplate: https://www.firefox.com/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 
 identifiers:
@@ -28,12 +28,60 @@ auto:
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # The next ESR / LTS is not yet planned.
 releases:
+  - releaseCycle: "161"
+    releaseDate: 2026-11-24
+    eol: 2026-12-08
+    latest: "161.0"
+    latestReleaseDate: 2026-11-24
+
+  - releaseCycle: "160"
+    releaseDate: 2026-11-10
+    eol: 2026-11-24
+    latest: "160.0.1"
+    latestReleaseDate: 2026-11-17
+
+  - releaseCycle: "159"
+    releaseDate: 2026-10-27
+    eol: 2026-11-10
+    latest: "159.0.1"
+    latestReleaseDate: 2026-11-03
+
+  - releaseCycle: "158"
+    releaseDate: 2026-10-13
+    eol: 2026-10-27
+    latest: "158.0.1"
+    latestReleaseDate: 2026-10-20
+
+  - releaseCycle: "157"
+    releaseDate: 2026-09-29
+    eol: 2026-10-13
+    latest: "157.0.1"
+    latestReleaseDate: 2026-10-06
+
+  - releaseCycle: "156"
+    releaseDate: 2026-09-15
+    eol: 2026-09-29
+    latest: "156.0.1"
+    latestReleaseDate: 2026-09-22
+
+  - releaseCycle: "155"
+    releaseDate: 2026-09-01
+    eol: 2026-09-15
+    latest: "155.0.1"
+    latestReleaseDate: 2026-09-04
+
+  - releaseCycle: "154"
+    releaseDate: 2026-08-18
+    eol: 2026-09-01
+    latest: "154.0.1"
+    latestReleaseDate: 2026-08-25
+
   - releaseCycle: "153"
     lts: true
     releaseDate: 2026-07-21
     eol: false
-    latest: "153.0.3"
-    latestReleaseDate: 2026-08-04
+    latest: "153.7.0"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "152"
     releaseDate: 2026-06-16
@@ -111,8 +159,8 @@ releases:
     lts: true
     releaseDate: 2025-06-24
     eol: 2026-09-29
-    latest: "140.13.0"
-    latestReleaseDate: 2026-07-21
+    latest: "140.17.0"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "139"
     releaseDate: 2025-05-27
@@ -263,8 +311,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2027-03-31 # https://whattrainisitnow.com/release/?version=esr
-    latest: "115.38.0"
-    latestReleaseDate: 2026-07-21
+    latest: "115.45.0"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "114"
     releaseDate: 2023-06-06
@@ -359,9 +407,72 @@ releases:
     latest: "78.15.0"
     latestReleaseDate: 2021-10-05
 
+  - releaseCycle: "68"
+    lts: true
+    releaseDate: 2019-07-09
+    eol: 2020-09-22
+    latest: "68.12.0"
+    latestReleaseDate: 2020-08-25
+
+  - releaseCycle: "60"
+    lts: true
+    releaseDate: 2018-05-09
+    eol: 2019-10-22
+    latest: "60.9.0"
+    latestReleaseDate: 2019-09-03
+
+  - releaseCycle: "52"
+    lts: true
+    releaseDate: 2017-03-07
+    eol: 2018-09-05
+    latest: "52.9.0"
+    latestReleaseDate: 2018-06-26
+
+  - releaseCycle: "45"
+    lts: true
+    releaseDate: 2016-03-08
+    eol: 2017-06-13
+    latest: "45.9.0"
+    latestReleaseDate: 2017-04-19
+
+  - releaseCycle: "38"
+    lts: true
+    releaseDate: 2015-05-12
+    eol: 2016-06-07
+    latest: "38.8.0"
+    latestReleaseDate: 2016-04-26
+
+  - releaseCycle: "31"
+    lts: true
+    releaseDate: 2014-07-22
+    eol: 2015-08-11
+    latest: "31.8.0"
+    latestReleaseDate: 2015-07-02
+
+  - releaseCycle: "24"
+    lts: true
+    releaseDate: 2013-09-17
+    eol: 2014-10-14
+    latest: "24.8.1"
+    latestReleaseDate: 2014-09-24
+
+  - releaseCycle: "17"
+    lts: true
+    releaseDate: 2012-11-20
+    eol: 2013-12-10
+    latest: "17.0.11"
+    latestReleaseDate: 2013-11-15
+
+  - releaseCycle: "10"
+    lts: true
+    releaseDate: 2012-01-31
+    eol: 2013-02-19
+    latest: "10.0.12"
+    latestReleaseDate: 2013-01-08
+
 ---
 
-> [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser
+> [Firefox](https://www.firefox.com/), is a free and open-source web browser
 > developed by the Mozilla. Firefox is available for
 > [Windows](https://support.mozilla.org/kb/how-install-firefox-windows),
 > [macOS](https://support.mozilla.org/kb/how-download-and-install-firefox-mac),
@@ -401,4 +512,4 @@ releases:
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports the last 3 macOS releases, [matching the Apple support cycle](https://support.mozilla.org/kb/firefox-mac-osx-users-esr).
-- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to March 2026, and this extension will be reconsidered in February 2026.
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to March 2027, and this extension will be reconsidered in February 2027.

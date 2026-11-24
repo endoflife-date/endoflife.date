@@ -17,36 +17,38 @@ auto:
 
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
+# Veeam lists months, and "the specified month is the last month when the relevant service is offered",
+# so dates use the last day of the month.
 # Latest versions can be found on https://www.veeam.com/kb2680.
 releases:
   - releaseCycle: "13"
     releaseDate: 2025-09-03
-    eoas: 2028-11-01
-    eol: 2028-11-01
+    eoas: 2028-11-30
+    eol: 2028-11-30
     link: https://www.veeam.com/kb4738
-    latest: "13.1.0.411"
-    latestReleaseDate: 2026-07-29
+    latest: "13.1.2.57"
+    latestReleaseDate: 2026-10-27
 
   - releaseCycle: "12"
     releaseDate: 2023-01-30
-    eoas: 2025-09-03
-    eol: 2027-02-01
+    eoas: 2025-11-30
+    eol: 2027-02-28
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.2.4854"
-    latestReleaseDate: 2026-06-09
+    latest: "12.3.2.4934"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "11"
     releaseDate: 2021-02-11
-    eoas: 2023-02-01
-    eol: 2024-02-01
+    eoas: 2023-02-28
+    eol: 2024-02-29
     link: "https://www.veeam.com/kb4126"
     latest: "11.0.1.1261-P20240304"
     latestReleaseDate: 2024-03-07
 
   - releaseCycle: "10"
     releaseDate: 2020-02-04
-    eoas: 2021-02-01
-    eol: 2023-02-01
+    eoas: 2021-02-28
+    eol: 2023-02-28 # https://web.archive.org/web/20230204220815/https://www.veeam.com/product-lifecycle.html
     link: "https://www.veeam.com/kb3161"
     latest: "10.0.1.4854-P20220304"
     latestReleaseDate: 2022-03-12

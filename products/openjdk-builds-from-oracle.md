@@ -20,9 +20,15 @@ identifiers:
 # Release dates can be found on https://wiki.openjdk.org/.
 # Usually only two patch versions are released during the support period.
 releases:
+  - releaseCycle: "27"
+    releaseDate: 2026-09-15
+    eol: 2027-03-23 # attempted EOL date as per JDK 28 release date on https://www.java.com/releases/
+    latest: "27"
+    latestReleaseDate: 2026-09-15
+
   - releaseCycle: "26"
     releaseDate: 2026-03-17
-    eol:  2026-09-18 # attempted EOL date as per https://www.java.com/releases/, update when 27 is released
+    eol: 2026-09-15
     latest: "26"
     latestReleaseDate: 2026-03-17
 

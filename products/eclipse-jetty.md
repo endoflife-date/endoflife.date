@@ -51,8 +51,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.1.12"
-    latestReleaseDate: 2026-08-04
+    latest: "12.1.15"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "12.0"
     releaseDate: 2023-08-07
@@ -62,8 +62,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.38"
-    latestReleaseDate: 2026-08-04
+    latest: "12.0.41"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "11"
     minJvmVersion: "11"

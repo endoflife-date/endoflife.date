@@ -9,7 +9,7 @@ alternate_urls:
   - /rocky
   - /rockylinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
+releasePolicyLink: https://docs.rockylinux.org/releases/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
 
@@ -18,11 +18,15 @@ identifiers:
   - cpe: cpe:2.3:o:rocky:rocky
 
 # distrowatch misses a few releases,
-# so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
+# so we track https://docs.rockylinux.org/releases/#current-supported-releases
 auto:
   methods:
-    - rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/refs/heads/main/include/releng/version_table.md
-    - release_table: https://wiki.rockylinux.org/rocky/version/
+    - version_table: https://docs.rockylinux.org/releases/
+      name_column: "Release Number"
+      date_column: "General Availability Date"
+      regex: '^(?P<version>\d+\.\d+)$'
+      template: "{{version}}"
+    - release_table: https://docs.rockylinux.org/releases/
       fields:
         releaseCycle:
           column: "Release"
@@ -36,15 +40,15 @@ releases:
     releaseDate: 2025-06-11
     eoas: 2030-05-31
     eol: 2035-05-31
-    latest: "10.2"
-    latestReleaseDate: 2026-05-29
+    latest: "10.3"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "9"
     releaseDate: 2022-07-14
     eoas: 2027-05-31
     eol: 2032-05-31
-    latest: "9.8"
-    latestReleaseDate: 2026-05-28
+    latest: "9.9"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "8"
     releaseDate: 2021-05-01
@@ -71,4 +75,4 @@ releases:
 - Rocky Linux doesn't support [Extended Life Cycle](https://www.redhat.com/en/resources/els-datasheet),
   resulting in a shorter support cycle compared to upstream RHEL.
 
-Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/).
+Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/support-providers).

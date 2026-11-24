@@ -33,29 +33,29 @@ releases:
   - releaseCycle: "3.24"
     releaseDate: 2026-06-09
     eol: 2028-06-01
-    latest: "3.24.1"
-    latestReleaseDate: 2026-06-13
+    latest: "3.24.4"
+    latestReleaseDate: 2026-11-05
     link: https://alpinelinux.org/posts/Alpine-3.24.0-released.html
 
   - releaseCycle: "3.23"
     releaseDate: 2025-12-04
     eol: 2027-11-01
-    latest: "3.23.5"
-    latestReleaseDate: 2026-06-21
+    latest: "3.23.8"
+    latestReleaseDate: 2026-11-05
     link: https://alpinelinux.org/posts/Alpine-3.23.0-released.html
 
   - releaseCycle: "3.22"
     releaseDate: 2025-05-30
     eol: 2027-05-01
-    latest: "3.22.5"
-    latestReleaseDate: 2026-06-21
+    latest: "3.22.8"
+    latestReleaseDate: 2026-11-05
     link: https://alpinelinux.org/posts/Alpine-3.22.0-released.html
 
   - releaseCycle: "3.21"
     releaseDate: 2024-12-05
     eol: 2026-11-01
-    latest: "3.21.7"
-    latestReleaseDate: 2026-04-15
+    latest: "3.21.10"
+    latestReleaseDate: 2026-11-05
     link: https://alpinelinux.org/posts/Alpine-3.21.0-released.html
 
   - releaseCycle: "3.20"
@@ -248,5 +248,19 @@ cycle, but rather a snapshot of edge is taken every 6 months as a release. Stabl
 supported normally for 2 years. Security fixes beyond that are on request and when patches are
 available.
 
-Only the latest release gets bug fixes, prior supported releases only
-get security fixes.
+Only the latest release gets bug fixes, prior supported releases
+only get security fixes.
+
+Packages in `community` repository only get supported for 6 months after release, see:
+https://docs.alpinelinux.org/user-handbook/0.1a/Working/apk.html#_repositories_releases_and_mirrors
+> - stable (for example 3.16)
+>   Released every 6 months. Support entails security patches for the given feature versions.
+>   Each stable release has its own `main` and `community` repositories.
+>   The `main` repository is supported for 2 years.
+>   The `community` repository is only supported for 6 months of its respective release.
+>   A release is considered EOL (End Of Life) when support of its `main` repo expires.
+
+e.g. `3.24` was released on 2026-06-09 and packages in `main` repository are supported till 2028-06-01,
+but its `community` repository usually won't be supported after 2026-12-09 i.e. 6 months after release
+with some exception like updates for fixing [PHP2Shell](https://en.wikipedia.org/wiki/PHP2Shell)
+was backported to 3.24 through already unsupported 3.19: https://gitlab.alpinelinux.org/alpine/aports/-/work_items/18512#note_654291.

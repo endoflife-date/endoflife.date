@@ -16,6 +16,11 @@ staleReleaseThresholdDays: 1000
 
 # EOL can be found on https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#end-of-support
 releases:
+  - releaseCycle: "3.7"
+    releaseDate: 2026-07-30 # https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/
+    eol: false
+    eoes: false
+
   - releaseCycle: "3.5"
     releaseDate: 2026-03-18 # https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/
     eol: false
@@ -33,69 +38,68 @@ releases:
 
   - releaseCycle: "2.19"
     releaseDate: 2025-04-30
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2030-11-07
 
   - releaseCycle: "2.17"
     releaseDate: 2024-11-13
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2028-11-07
 
   - releaseCycle: "2.15"
     releaseDate: 2024-10-11
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2028-11-07
 
   - releaseCycle: "2.13"
     releaseDate: 2024-05-21
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2028-11-07
 
   - releaseCycle: "2.11"
     releaseDate: 2023-11-17
-    eol: false
-    eoes: false
+    eol: 2027-11-07
+    eoes: 2028-11-07
 
   - releaseCycle: "2.9"
     releaseDate: 2023-10-02
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "2.7"
     releaseDate: 2023-07-10
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "2.5"
     releaseDate: 2023-03-13
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "2.3"
     releaseDate: 2022-11-15
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "1.3"
     releaseDate: 2022-08-16
-    eol: false
-    eoes: false
-    staleReleaseThresholdDays: 2000 # still not announced on https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html#end-of-support
+    eol: 2027-11-07
+    eoes: 2030-11-07
 
   - releaseCycle: "1.2"
     releaseDate: 2022-04-04
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "1.1"
     releaseDate: 2022-01-04
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
   - releaseCycle: "1.0"
     releaseDate: 2021-09-08
     eol: 2025-11-07
-    eoes: 2026-11-07
+    eoes: 2027-11-07
 
 ---
 
@@ -104,7 +108,10 @@ releases:
 
 {: .note }
 
-> This page tracks the AWS managed service. The upstream open-source project is tracked at [OpenSearch](/opensearch).
+> Amazon Elasticsearch Service was renamed to Amazon OpenSearch Service in September 2021.
+> This page only tracks OpenSearch engine releases.
+> Elasticsearch engine releases are tracked at [Amazon Elasticsearch](/amazon-elasticsearch).
+> The upstream project is tracked at [OpenSearch](/opensearch).
 
 New OpenSearch versions typically become available on the managed service within a few months of their open-source general availability.
 
@@ -115,3 +122,4 @@ See [Standard and extended support](https://docs.aws.amazon.com/opensearch-servi
 Domains running legacy Elasticsearch OSS engine versions (1.5 through 7.10) can be upgraded to OpenSearch.
 The upgrade from Elasticsearch 7.x to OpenSearch 1.x is supported as an in-place upgrade.
 See [Upgrading domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html) for the supported upgrade paths.
+

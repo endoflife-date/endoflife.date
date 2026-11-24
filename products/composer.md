@@ -22,11 +22,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+  - releaseCycle: "2.11"
+    releaseDate: 2026-10-29
+    eol: false
+    latest: "2.11.2"
+    latestReleaseDate: 2026-11-10
+
   - releaseCycle: "2.10"
     releaseDate: 2026-05-28
-    eol: false
-    latest: "2.10.2"
-    latestReleaseDate: 2026-07-01
+    eol: 2026-10-29
+    latest: "2.10.3"
+    latestReleaseDate: 2026-08-27
 
   - releaseCycle: "2.9"
     releaseDate: 2025-11-13
@@ -73,9 +79,9 @@ releases:
   - releaseCycle: "2.2"
     releaseDate: 2021-12-22
     lts: true
-    eol: false # seems still supported https://github.com/endoflife-date/endoflife.date/issues/5119
-    latest: "2.2.29"
-    latestReleaseDate: 2026-07-01
+    eol: 2026-12-31
+    latest: "2.2.32"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "2.1"
     releaseDate: 2021-06-03
@@ -91,7 +97,7 @@ releases:
 
   - releaseCycle: "1"
     releaseDate: 2016-04-05
-    eol: 2020-10-24
+    eol: 2026-05-30
     latest: "1.10.28"
     latestReleaseDate: 2026-05-13
 

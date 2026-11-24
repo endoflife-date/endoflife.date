@@ -32,33 +32,40 @@ auto:
 # In essence that means an LTS will be released every April in odd-numbered years
 # Non-LTS releases after 3.5 will be full supported for 13 months
 releases:
+  - releaseCycle: "4.1"
+    releaseDate: 2026-10-23
+    eol: 2027-11-23 # estimated date
+    latest: "4.1.0"
+    latestReleaseDate: 2026-10-23
+    link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-41
+
   - releaseCycle: "4.0"
     releaseDate: 2026-04-14
     eol: 2027-05-14
-    latest: "4.0.1"
-    latestReleaseDate: 2026-06-09
+    latest: "4.0.3"
+    latestReleaseDate: 2026-09-29
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-40
 
   - releaseCycle: "3.6"
     releaseDate: 2025-10-01
     eol: 2026-11-01
-    latest: "3.6.3"
-    latestReleaseDate: 2026-06-09
+    latest: "3.6.5"
+    latestReleaseDate: 2026-09-29
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-36
 
   - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
-    latest: "3.5.7"
-    latestReleaseDate: 2026-06-09
+    latest: "3.5.9"
+    latestReleaseDate: 2026-09-29
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
   - releaseCycle: "3.4"
     releaseDate: 2024-10-22
     eol: 2026-10-22
-    latest: "3.4.6"
-    latestReleaseDate: 2026-06-09
+    latest: "3.4.8"
+    latestReleaseDate: 2026-09-29
 
   - releaseCycle: "3.3"
     releaseDate: 2024-04-09
@@ -83,8 +90,8 @@ releases:
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.21"
-    latestReleaseDate: 2026-06-09
+    latest: "3.0.22"
+    latestReleaseDate: 2026-08-25
 
   - releaseCycle: "1.1.1"
     lts: true

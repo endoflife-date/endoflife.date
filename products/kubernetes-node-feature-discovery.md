@@ -26,6 +26,12 @@ identifiers:
 
 # eol(x) = releaseDate(x+2)
 releases:
+  - releaseCycle: "0.20"
+    releaseDate: 2026-10-16
+    eol: false
+    latest: "0.20.1"
+    latestReleaseDate: 2026-10-23
+
   - releaseCycle: "0.19"
     releaseDate: 2026-07-10
     eol: false
@@ -34,7 +40,7 @@ releases:
 
   - releaseCycle: "0.18"
     releaseDate: 2025-10-02
-    eol: false
+    eol: 2026-10-16
     latest: "0.18.3"
     latestReleaseDate: 2025-11-05
 
@@ -73,7 +79,6 @@ releases:
     eol: 2023-09-12
     latest: "0.12.5"
     latestReleaseDate: 2023-07-21
-
 ---
 
 > [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a Kubernetes add-on for

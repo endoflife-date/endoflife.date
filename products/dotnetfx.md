@@ -79,7 +79,7 @@ releases:
     releaseLabel: "3.5 SP1"
     releaseDate: 2007-11-19
     eol: 2029-01-09
-    link: https://support.microsoft.com/en-us/topic/list-of-changes-and-fixed-issues-in-the-net-framework-3-5-service-pack-1-7e580459-9f9a-3f0d-ecb3-ee3ea374044f
+    link: https://support.microsoft.com/en-us/servicing/dotnetframework/2018/09/list-of-changes-and-fixed-issues-in-the-net-framework-3-5-service-pack-1
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft

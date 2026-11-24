@@ -7,11 +7,14 @@ permalink: /nix
 alternate_urls:
   - /nixlang
 versionCommand: nix --version
-releasePolicyLink: https://nixos.org/blog/announcements.html
+releasePolicyLink: https://nixos.org/blog/announcements/
 changelogTemplate: https://nix.dev/manual/nix/latest/release-notes/rl-__RELEASE_CYCLE__
 
 identifiers:
+  - purl: pkg:docker/nixos/nix
+  - purl: pkg:github/NixOS/nix
   - repology: nix
+  - cpe: cpe:2.3:a:nixos:nix
 
 auto:
   methods:
@@ -22,17 +25,23 @@ auto:
 # equal to 2.4.2's release date instead of 2.5's release date
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+  - releaseCycle: "2.36"
+    releaseDate: 2026-11-19
+    eol: false # releaseDate(2.37)
+    latest: "2.36.0"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "2.35"
     releaseDate: 2026-07-13
-    eol: false # releaseDate(2.36)
-    latest: "2.35.1"
-    latestReleaseDate: 2026-07-14
-  
+    eol: 2026-11-19
+    latest: "2.35.6"
+    latestReleaseDate: 2026-11-10
+
   - releaseCycle: "2.34"
     releaseDate: 2026-02-27
     eol: 2026-07-13
-    latest: "2.34.8"
-    latestReleaseDate: 2026-07-06
+    latest: "2.34.9"
+    latestReleaseDate: 2026-10-13
 
   - releaseCycle: "2.33"
     releaseDate: 2025-12-10
@@ -49,14 +58,14 @@ releases:
   - releaseCycle: "2.31"
     releaseDate: 2025-08-25
     eol: 2025-10-07
-    latest: "2.31.5"
-    latestReleaseDate: 2026-05-04
+    latest: "2.31.6"
+    latestReleaseDate: 2026-10-13
 
   - releaseCycle: "2.30"
     releaseDate: 2025-07-07
     eol: 2025-08-25
-    latest: "2.30.5"
-    latestReleaseDate: 2026-05-04
+    latest: "2.30.6"
+    latestReleaseDate: 2026-10-13
 
   - releaseCycle: "2.29"
     releaseDate: 2025-05-14
@@ -67,8 +76,8 @@ releases:
   - releaseCycle: "2.28"
     releaseDate: 2025-04-04
     eol: 2025-05-14
-    latest: "2.28.7"
-    latestReleaseDate: 2026-05-04
+    latest: "2.28.8"
+    latestReleaseDate: 2026-10-13
 
   - releaseCycle: "2.27"
     releaseDate: 2025-03-21

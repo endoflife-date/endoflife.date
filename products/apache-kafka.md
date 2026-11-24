@@ -7,7 +7,7 @@ iconSlug: apachekafka
 permalink: /apache-kafka
 alternate_urls:
   - /kafka
-changelogTemplate: https://downloads.apache.org/kafka/__LATEST__/RELEASE_NOTES.html
+changelogTemplate: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
 eolColumn: Support
 eoesColumn: Confluent Community software End of Support
 # https://stackoverflow.com/a/51782038/374236
@@ -32,19 +32,26 @@ auto:
 
 # Supported releases are listed in the "Supported releases" on https://kafka.apache.org/community/downloads/
 releases:
+  - releaseCycle: "4.4"
+    releaseDate: 2026-10-13
+    eol: false
+    eoes: 2028-10-27
+    latest: "4.4.0"
+    latestReleaseDate: 2026-10-13
+
   - releaseCycle: "4.3"
     releaseDate: 2026-05-20
     eol: false
-    latest: "4.3.1"
-    latestReleaseDate: 2026-06-23
+    latest: "4.3.2"
+    latestReleaseDate: 2026-10-20
 
     eoes: 2028-06-17
   - releaseCycle: "4.2"
     releaseDate: 2026-02-17
     eol: false
     eoes: 2028-03-04
-    latest: "4.2.1"
-    latestReleaseDate: 2026-05-28
+    latest: "4.2.2"
+    latestReleaseDate: 2026-09-28
 
   - releaseCycle: "4.1"
     releaseDate: 2025-09-02
@@ -55,14 +62,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2025-03-18
-    eol: false
+    eol: 2026-07-03 # archive date from https://github.com/apache/kafka-site/commit/70507a161c9128ccaa54bdbe2e13e4de17aa8678
     eoes: 2027-06-11
     latest: "4.0.2"
     latestReleaseDate: 2026-03-18
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
-    eol: false
+    eol: 2026-07-03 # archive date from https://github.com/apache/kafka-site/commit/70507a161c9128ccaa54bdbe2e13e4de17aa8678
     eoes: 2027-02-19
     latest: "3.9.2"
     latestReleaseDate: 2026-02-21
@@ -73,7 +80,7 @@ releases:
     eoes: 2026-12-02
     latest: "3.8.1"
     latestReleaseDate: 2024-10-29
-    link: https://web.archive.org/web/20260216184820/https://downloads.apache.org/kafka/3.8.1/RELEASE_NOTES.html
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
 
   - releaseCycle: "3.7"
     releaseDate: 2024-02-26
@@ -81,7 +88,7 @@ releases:
     eoes: 2026-07-26
     latest: "3.7.2"
     latestReleaseDate: 2024-12-04
-    link: https://web.archive.org/web/20260216184827/https://downloads.apache.org/kafka/3.7.2/RELEASE_NOTES.html
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
 
   - releaseCycle: "3.6"
     releaseDate: 2023-10-03

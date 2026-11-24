@@ -36,24 +36,24 @@ releases:
     releaseDate: 2026-01-20
     eoas: false # releaseDate(10)
     eol: 2028-12-31
-    latest: "9.2.0"
-    latestReleaseDate: 2026-07-13
+    latest: "9.3.3"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2024-12-09
     eoas: 2026-01-20
     eol: 2027-12-31
-    latest: "8.7.0"
-    latestReleaseDate: 2026-05-06
+    latest: "8.9.0"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "7"
     lts: true
     releaseDate: 2023-12-11
     eoas: 2024-12-09
     eol: 2026-12-31
-    latest: "7.7.1"
-    latestReleaseDate: 2025-11-12
+    latest: "7.7.3"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "6"
     lts: true

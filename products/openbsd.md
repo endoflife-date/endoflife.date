@@ -14,13 +14,17 @@ identifiers:
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to the first of next month
 releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2026-10-20
+    eol: 2027-11-01 # estimated from releaseDate: 2026-10-20
+
   - releaseCycle: "7.9"
     releaseDate: 2026-05-19
     eol: 2027-06-01 # estimated from releaseDate: 2026-05-19
 
   - releaseCycle: "7.8"
     releaseDate: 2025-10-22
-    eol: 2026-11-01 # estimated from releaseDate: 2025-10-22
+    eol: 2026-10-20
 
   - releaseCycle: "7.7"
     releaseDate: 2025-04-28
@@ -71,7 +75,7 @@ releases:
     eol: 2020-10-18
 
   - releaseCycle: "6.5"
-    releaseDate: 2019-04-24
+    releaseDate: 2019-05-01
     eol: 2020-05-19
 
   - releaseCycle: "6.4"
@@ -79,8 +83,8 @@ releases:
     eol: 2019-10-17
 
   - releaseCycle: "6.3"
-    releaseDate: 2018-04-02
-    eol: 2019-05-03
+    releaseDate: 2018-04-15
+    eol: 2019-05-01
 
   - releaseCycle: "6.2"
     releaseDate: 2017-10-09
