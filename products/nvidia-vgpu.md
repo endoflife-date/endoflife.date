@@ -12,20 +12,29 @@ LTSLabel: "<abbr title='Long-Term Support'>LTS</abbr>"
 eolColumn: End Of Life
 latestColumn: Latest
 releases:
+  - releaseCycle: "21"
+    releaseLabel: "vGPU 21"
+    releaseDate: 2026-11-12
+    eol: 2029-11-30
+    latest: "21.0"
+    latestReleaseDate: 2026-11-12
+    lts: true
+    link: https://docs.nvidia.com/vgpu/21.0/
+
   - releaseCycle: "20"
     releaseLabel: "vGPU 20"
     releaseDate: 2026-03-24
     eol: 2027-03-31
-    latest: "20.2"
-    latestReleaseDate: 2026-08-01
+    latest: "20.4"
+    latestReleaseDate: 2026-11-18
     link: https://docs.nvidia.com/vgpu/20.0/index.html
 
   - releaseCycle: "19"
     releaseLabel: "vGPU 19"
     releaseDate: 2025-08-06
     eol: 2028-07-31
-    latest: "19.6"
-    latestReleaseDate: 2026-08-01
+    latest: "19.8"
+    latestReleaseDate: 2026-11-18
     lts: true
     link: https://docs.nvidia.com/vgpu/19.0/index.html
 
