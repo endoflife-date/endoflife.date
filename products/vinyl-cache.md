@@ -34,8 +34,9 @@ auto:
 
 releases:
   - releaseCycle: "9.1"
+    lts: 2026-10-29 # https://vinyl-cache.org/news/2026-10-29_new_lts.html#news-2026-10-new-lts
     releaseDate: 2026-09-16
-    eol: 2027-09-16
+    eol: false
     latest: "9.1.0"
     latestReleaseDate: 2026-09-16
 
