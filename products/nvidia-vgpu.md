@@ -182,3 +182,28 @@ releases:
 
 > [NVIDIA virtual GPU (vGPU) software](https://docs.nvidia.com/vgpu/index.html) enables multiple virtual machines (VMs) to have simultaneous, direct access
 > to a single physical GPU, using the same NVIDIA graphics drivers that are deployed on non-virtualized operating systems. It was previously named GRID.
+
+## [Driver Version Compatibility](https://docs.nvidia.com/vgpu/index.html#nvidiatab-driver-versions)
+
+| vGPU release | Linux vGPU Manager | Windows vGPU Manager | Linux Driver | Windows Driver |
+| ------------ | ------------------ | -------------------- | ------------ | -------------- |
+|  21.0        | 620.70.04          | 621.10               | 620.70.06    | 621.14         |
+|  20.4        | 595.112.08         | 597.26               | 595.112.13   | 597.30         |
+|  19.8        | 580.196.09         | 582.99               | 580.196.11   | 582.99         |
+|  18.6        | 570.211.01         | 573.96               | 570.211.01   | 573.96         |
+|  17.6        | 550.163.02         | 553.74               | 550.163.01   | 553.74         |
+|  16.14       | 535.309.01         | 539.72               | 535.309.01   | 539.72         |
+|  15.4        | 525.147.01         | 529.19               | 525.147.05   | 529.19         |
+|  14.4        | 510.108.03         |                      | 510.108.03   | 514.08         |
+|  13.12       | 470.256.02         |                      | 470.256.02   | 475.14         |
+|  12.4        | 460.107            |                      | 460.106.00   | 463.15         |
+|  11.13       | 450.248.03         |                      | 450.248.02   | 454.23         |
+|  10.4        | 440.121            |                      | 440.118.02   | 443.66         |
+|  9.4         | 430.99             |                      | 430.99       | 432.44         |
+|  8.10        | 418.240            |                      | 418.240      | 427.71         |
+|  7.5         | 410.137            |                      | 410.141      | 412.47         |
+|  6.4         | 390.113            |                      | 390.115      | 392.37         |
+|  5.4         | 384.155            |                      | 384.155      | 386.57         |
+|  4.10        | 367.134            |                      | 367.134      | 370.41         |
+|  3.4         | 361.45.48          |                      | 361.45.48    | 363.36         |
+|  2.5         | 352.103            |                      | 352.103      | 356.60         |
