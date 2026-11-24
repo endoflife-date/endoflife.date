@@ -46,8 +46,8 @@ releases:
   - releaseCycle: "26.10"
     codename: "Stonking Stingray"
     releaseDate: 2026-10-15
-    eoas: 2027-07-01
-    eol: 2027-07-01
+    eoas: 2027-07-15
+    eol: 2027-07-15
     latest: "26.10"
     latestReleaseDate: 2026-10-15
 
