@@ -40,6 +40,13 @@ auto:
 # EOL dates can be found on https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary#traps-esm-and-cortex
 # Latest can be found on https://cortex-docs.paloaltonetworks.com/agent-release-notes
 releases:
+  - releaseCycle: "9.4"
+    releaseDate: 2026-11-01
+    eol: 2027-08-22
+    latest: "9.4.0"
+    latestReleaseDate: 2026-11-01
+    link: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.4/release-information
+
   - releaseCycle: "9.3"
     releaseDate: 2026-07-26
     eol: 2027-05-16

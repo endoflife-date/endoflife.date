@@ -55,8 +55,8 @@ releases:
     lts: true
     releaseDate: 2023-09-09
     eol: 2027-11-30 # https://spark.apache.org/versioning-policy.html - extended LTS to allow migrations
-    latest: "3.5.9"
-    latestReleaseDate: 2026-07-12
+    latest: "3.5.10"
+    latestReleaseDate: 2026-11-13
 
   - releaseCycle: "3.4"
     releaseDate: 2023-04-07
