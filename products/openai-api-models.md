@@ -30,6 +30,16 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-live-1.1"
+    releaseLabel: "GPT-Live-1.1"
+    aliases:
+      - gpt-live-1.1
+    releaseDate: 2026-11-19 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-live-1.1"
+    recommendedReplacement: N/A
+
   - releaseCycle: "gpt-6.2-astra"
     releaseLabel: "GPT-6.2 Astra"
     aliases: []
