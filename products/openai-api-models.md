@@ -34,6 +34,7 @@ releases:
     releaseLabel: "GPT-Live-1.1"
     aliases:
       - gpt-live-1.1
+      - gpt-live-1.1
     releaseDate: 2026-11-19 # https://developers.openai.com/api/docs/changelog
     eoas: false
     eol: false

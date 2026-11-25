@@ -158,9 +158,9 @@ releases:
   - releaseCycle: "claude-opus-4-5-20251101"
     releaseLabel: Claude Opus 4.5
     releaseDate: 2025-11-24
-    eoas: false
-    eol: 2026-11-24
-    recommendedReplacement: "N/A"
+    eoas: 2026-11-23
+    eol: 2027-01-22
+    recommendedReplacement: "claude-opus-5-5"
     link: https://www.anthropic.com/news/claude-opus-4-5
 
   - releaseCycle: "claude-haiku-4-5-20251001"
