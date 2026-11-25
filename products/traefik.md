@@ -44,6 +44,14 @@ auto:
           regex: "^End(ed|s) (?P<value>.+)$"
 
 releases:
+  - releaseCycle: "3.8"
+    releaseDate: 2026-11-23
+    eoas: false
+    eol: false
+    latest: "3.8.0"
+    latestReleaseDate: 2026-11-23
+    link: https://traefik.io/blog/announcing-traefik-proxy-v3-8
+  
   - releaseCycle: "3.7"
     releaseDate: 2026-05-05
     eoas: 2026-11-23
