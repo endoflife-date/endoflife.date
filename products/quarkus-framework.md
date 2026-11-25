@@ -34,6 +34,14 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "4.01"
+    releaseDate: 2026-11-26
+    lts: false
+    eol: false
+    latest: "4.01"
+    latestReleaseDate: 2026-11-26
+    link: https://quarkus.io/blog/quarkus-4-0-released/
+    
   - releaseCycle: "3.40"
     releaseDate: 2026-09-30
     lts: true
