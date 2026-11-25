@@ -55,7 +55,7 @@ releases:
   - releaseCycle: "3.7"
     releaseDate: 2026-05-05
     eoas: 2026-11-23
-    eol: 2026-11-23
+    eol: false # https://doc.traefik.io/traefik/deprecation/releases/
     latest: "3.7.20"
     latestReleaseDate: 2026-11-23
 
