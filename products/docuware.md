@@ -1,8 +1,10 @@
 ---
 title: DocuWare
+addedAt: 2026-11-25
 category: server-app
 permalink: /docuware
 releasePolicyLink: https://support.docuware.com/en-US/support/docuware-support-lifecycle-policy/
+latestColumn: false
 
 releases:
 -   releaseCycle: "7.15"
