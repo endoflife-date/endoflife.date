@@ -31,8 +31,8 @@ releases:
     lts: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     eoas: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     eol: 2026-11-23 # https://roundcube.net/news/2026/11/23/security-updates-1.6.22-and-1.7.7
-    latest: "1.6.21"
-    latestReleaseDate: 2026-11-09
+    latest: "1.6.22"
+    latestReleaseDate: 2026-11-23
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
