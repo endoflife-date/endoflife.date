@@ -1,8 +1,10 @@
 ---
 title: Sage X3
+addedAt: 2026-11-25
 category: server-app
 permalink: /sage-x3
 releasePolicyLink: https://gb-kb.sage.com/portal/app/portlets/results/viewdocument.jsp?solutionid=230425080400010
+latestColumn: false
 
 releases:
 -   releaseCycle: "12.0.39"
