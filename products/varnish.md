@@ -1,6 +1,6 @@
 ---
 title: Varnish
-addedAt: 2026-11-06
+addedAt: 2026-11-26
 category: server-app
 tags: web-server
 permalink: /varnish
