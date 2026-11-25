@@ -14,6 +14,12 @@ latestColumn: false
 eolColumn: General Support
 
 releases:
+  - releaseCycle: "26.04"
+    releaseDate: 2026-11-24
+    lts: true
+    eol: 2031-05-29
+    link: https://system76.com/blog/post/pop_os-26-04-lts-has-landed
+
   - releaseCycle: "24.04"
     releaseDate: 2025-12-11
     lts: true
