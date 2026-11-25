@@ -37,8 +37,8 @@ releases:
     eol: false
     supportedPhpVersions: "8.1 - 8.5"
     supportedLaravelVersions: "10 - 13"
-    latest: "4.4.9"
-    latestReleaseDate: 2026-11-21
+    latest: "4.4.10"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "3"
     releaseDate: 2023-08-20

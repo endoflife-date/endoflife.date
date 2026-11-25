@@ -183,8 +183,8 @@ releases:
     releaseDate: 2024-12-06
     eol: 2028-06-06 # https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
     lts: true
-    latest: "5.26.33"
-    latestReleaseDate: 2026-11-04
+    latest: "5.26.34"
+    latestReleaseDate: 2026-11-23
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
   - releaseCycle: "5.25"

@@ -25,8 +25,8 @@ releases:
   - releaseCycle: "2.11"
     releaseDate: 2026-10-29
     eol: false
-    latest: "2.11.2"
-    latestReleaseDate: 2026-11-10
+    latest: "2.11.3"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "2.10"
     releaseDate: 2026-05-28
@@ -80,8 +80,8 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: 2026-12-31
-    latest: "2.2.32"
-    latestReleaseDate: 2026-11-10
+    latest: "2.2.33"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "2.1"
     releaseDate: 2021-06-03
