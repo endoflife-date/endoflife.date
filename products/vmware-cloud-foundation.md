@@ -20,8 +20,9 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     # technicalGuidance: ???
-    latest: "9.1.1.0"
-    latestReleaseDate: 2026-09-03
+    latest: "9.1.2.0"
+    latestReleaseDate: 2026-11-24
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-2-0-release-notes.html
 
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17

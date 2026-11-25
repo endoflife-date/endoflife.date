@@ -42,8 +42,8 @@ releases:
   - releaseCycle: "13.0"
     releaseDate: 2026-11-05
     eol: 2028-11-05 # not announced yet. Needs to revise later
-    latest: "13.0.1"
-    latestReleaseDate: 2026-11-05
+    latest: "13.0.2"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "12.1"
     lts: true
