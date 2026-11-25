@@ -50,6 +50,7 @@ releases:
     eol: false
     latest: "3.8.0"
     latestReleaseDate: 2026-11-23
+    link: https://traefik.io/blog/announcing-traefik-proxy-v3-8
   
   - releaseCycle: "3.7"
     releaseDate: 2026-05-05
