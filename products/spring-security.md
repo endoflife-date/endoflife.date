@@ -33,6 +33,13 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+  - releaseCycle: "7.2"
+    releaseDate: 2026-11-20
+    eol: 2027-12-31
+    eoes: 2028-12-31
+    latest: "7.2.0"
+    latestReleaseDate: 2026-11-20
+
   - releaseCycle: "7.1"
     releaseDate: 2026-06-09
     eol: 2027-07-31
