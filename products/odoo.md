@@ -25,6 +25,11 @@ identifiers:
 # releaseDate, the last day of the announced month for eol. Dates for the 8.0 to 13.0 cycles come from
 # earlier revisions of the same page, which are no longer online.
 releases:
+  - releaseCycle: "20.0"
+    releaseDate: 2026-09-01
+    eol: 2029-09-30
+    link: https://www.odoo.com/odoo-20-release-notes
+
   - releaseCycle: "19.0"
     releaseDate: 2025-09-01
     eol: 2028-09-30
