@@ -32,22 +32,22 @@ releases:
     releaseDate: 2026-07-01
     eoas: 2027-01-01 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2027-04-21 # 8 months of overlapping security coverage from 2027 (https://www.drupal.org/node/3633990, https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
-    latest: "11.4.13"
-    latestReleaseDate: 2026-11-18
+    latest: "11.4.14"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
     eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
     eol: 2026-12-09 # ends with the 12.0.0/11.5.0 release, planned for 2026-12-09 (https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
-    latest: "11.3.22"
-    latestReleaseDate: 2026-11-18
+    latest: "11.3.23"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "10.6"
     releaseDate: 2025-12-17
     eoas: 2026-06-16
     eol: 2026-12-09 # Drupal 10 end-of-life (https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
-    latest: "10.6.22"
-    latestReleaseDate: 2026-11-18
+    latest: "10.6.23"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18

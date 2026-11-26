@@ -21,8 +21,8 @@ releases:
   - releaseCycle: "4.100"
     releaseDate: 2026-08-20
     eol: false
-    latest: "4.100.1"
-    latestReleaseDate: 2026-09-14
+    latest: "4.100.2"
+    latestReleaseDate: 2026-11-19
     link: https://code.exim.org/exim/exim/releases/tag/exim-4.100.1
 
   - releaseCycle: "4.99"
