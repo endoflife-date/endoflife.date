@@ -24,12 +24,18 @@ auto:
 #   i.e. when it is replaced in the LTR repositories
 # Schedule: https://qgis.org/resources/roadmap/
 releases:
-  - releaseCycle: "4.2"
+  - releaseCycle: "4.4"
     lts: true
+    releaseDate: 2026-11-20
+    eol: 2027-11-19
+    latest: "4.4.0"
+    latestReleaseDate: 2026-11-20
+
+  - releaseCycle: "4.2"
     releaseDate: 2026-07-03
-    eol: 2027-10-29
-    latest: "4.2.2"
-    latestReleaseDate: 2026-08-28
+    eol: 2026-11-20
+    latest: "4.2.3"
+    latestReleaseDate: 2026-09-25
 
   - releaseCycle: "4.0"
     releaseDate: 2026-03-06
@@ -40,9 +46,9 @@ releases:
   - releaseCycle: "3.44"
     lts: true
     releaseDate: 2025-06-20
-    eol: 2026-10-30
-    latest: "3.44.14"
-    latestReleaseDate: 2026-08-28
+    eol: 2027-03-26
+    latest: "3.44.16"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "3.42"
     releaseDate: 2025-02-21
