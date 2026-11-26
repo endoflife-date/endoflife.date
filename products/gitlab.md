@@ -29,57 +29,57 @@ releases:
     releaseDate: 2026-11-19
     eoas: 2026-12-17 # releaseDate(19.7)
     eol: 2027-02-18 # releaseDate(19.9)
-    latest: "19.6.1"
-    latestReleaseDate: 2026-11-19
+    latest: "19.6.2"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.5"
     releaseDate: 2026-10-15
     eoas: 2026-11-19 # releaseDate(19.6)
     eol: 2027-01-21 # releaseDate(19.8)
-    latest: "19.5.8"
-    latestReleaseDate: 2026-11-19
+    latest: "19.5.9"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.4"
     releaseDate: 2026-09-17
     eoas: 2026-10-15 # releaseDate(19.5)
     eol: 2026-12-17 # releaseDate(19.7)
-    latest: "19.4.10"
-    latestReleaseDate: 2026-11-19
+    latest: "19.4.11"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.3"
     releaseDate: 2026-08-20
     eoas: 2026-09-17 # releaseDate(19.4)
     eol: 2026-11-19 # releaseDate(19.6)
-    latest: "19.3.9"
-    latestReleaseDate: 2026-11-16
+    latest: "19.3.10"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.2"
     releaseDate: 2026-07-16
     eoas: 2026-08-20 # releaseDate(19.3)
     eol: 2026-10-15 # releaseDate(19.5)
-    latest: "19.2.10"
-    latestReleaseDate: 2026-10-28
+    latest: "19.2.11"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.1"
     releaseDate: 2026-06-18
     eoas: 2026-07-16 # releaseDate(19.2)
     eol: 2026-09-17 # releaseDate(19.4)
-    latest: "19.1.10"
-    latestReleaseDate: 2026-10-28
+    latest: "19.1.11"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "19.0"
     releaseDate: 2026-05-21
     eoas: 2026-06-18 # releaseDate(19.1)
     eol: 2026-08-20 # releaseDate(19.3)
-    latest: "19.0.11"
-    latestReleaseDate: 2026-10-28
+    latest: "19.0.12"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "18.11"
     releaseDate: 2026-04-16
     eoas: 2026-05-21 # releaseDate(19.0)
     eol: 2026-07-16 # releaseDate(19.2)
-    latest: "18.11.14"
-    latestReleaseDate: 2026-10-27
+    latest: "18.11.15"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "18.10"
     releaseDate: 2026-03-19

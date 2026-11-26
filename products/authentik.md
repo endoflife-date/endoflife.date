@@ -26,14 +26,14 @@ releases:
   - releaseCycle: "2026.8"
     releaseDate: 2026-08-18
     eol: false
-    latest: "2026.8.6"
-    latestReleaseDate: 2026-11-20
+    latest: "2026.8.7"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2026.5"
     releaseDate: 2026-05-22
     eol: false
-    latest: "2026.5.8"
-    latestReleaseDate: 2026-10-21
+    latest: "2026.5.9"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2026.2"
     releaseDate: 2026-02-24

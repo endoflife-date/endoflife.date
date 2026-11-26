@@ -38,9 +38,9 @@ releases:
     releaseDate: 2026-11-26
     eol: 2027-01-01 # estimated ( releaseDate(4.1) )
     latest: "4.0.1"
-    latestReleaseDate: 2026-11-26
+    latestReleaseDate: 2026-11-25
     link: https://quarkus.io/blog/quarkus-4-0-released/
-    
+
   - releaseCycle: "3.40"
     releaseDate: 2026-09-30
     lts: true

@@ -28,8 +28,8 @@ releases:
   - releaseCycle: "5.2"
     releaseDate: 2026-11-09
     eol: false # releaseDate(5.3) + 3 months
-    latest: "5.2.0"
-    latestReleaseDate: 2026-11-09
+    latest: "5.2.1"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "5.1"
     releaseDate: 2026-08-06
