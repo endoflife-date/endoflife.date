@@ -40,6 +40,15 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+  - releaseCycle: "2026.0"
+    codename: Paddington
+    supportedSpringBootVersions: "4.2.x"
+    releaseDate: 2026-11-19
+    eol: 2027-12-31
+    eoes: 2028-12-31
+    latest: "2026.0.0"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "2025.1"
     codename: Oakwood
     supportedSpringBootVersions: "4.0.x"
