@@ -19,9 +19,9 @@ customFields:
   - name: ansibleCoreVersion
     display: api-only
     label: Ansible-Core version
-  - name: aapPLatformUIVersion
+  - name: platformGatewayVersion
     display: api-only
-    label: Ansible Automation Platform UI version
+    label: Platform Gateway version
   - name: automationControllerVersion
     display: api-only
     label: Automation Controller version
@@ -31,27 +31,45 @@ customFields:
   - name: eventDrivenAnsibleVersion
     display: api-only
     label: Event-Driven Ansible version
-  - name: platformGatewayVersion
+  - name: aapPlatformUIVersion
     display: api-only
-    label: Platform Gateway version
+    label: Ansible Automation Platform UI version
+  - name: automationPortalVersion
+    display: api-only
+    label: Automation Portal version
 
 identifiers:
     - cpe: cpe:/a:redhat:ansible_automation_platform
     - cpe: cpe:2.3:a:redhat:ansible_automation_platform
 
 releases:
+  - releaseCycle: "2.7"
+    releaseDate: 2026-06-02
+    eoas: 2027-06-02
+    eol: 2028-06-02
+    eoes: 2029-06-02
+    ansibleCoreVersion: "2.16"
+    platformGatewayVersion: "2.7.20260603"
+    automationControllerVersion: "4.8.12"
+    automationHubVersion: "4.12.10"
+    eventDrivenAnsibleVersion: "1.3.13"
+    automationPortalVersion: "2.3.0"
+    aapPlatformUIVersion: "2.7.0"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.7/whats_new-async_updates
+
   - releaseCycle: "2.6"
     releaseDate: 2025-10-01
     eoas: 2026-10-01
     eol: 2027-10-01
     eoes: 2028-10-01
     ansibleCoreVersion: "2.16"
-    aapPLatformUIVersion: "2.6.1"
-    automationControllerVersion: "4.7.10"
-    automationHubVersion: "4.11.7"
-    eventDrivenAnsibleVersion: "1.2.7"
     platformGatewayVersion: "2.6.20251001"
-    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/release_notes/patch_releases
+    automationControllerVersion: "4.7.18"
+    automationHubVersion: "4.11.15"
+    eventDrivenAnsibleVersion: "1.2.14"
+    automationPortalVersion: "N/A"
+    aapPlatformUIVersion: "2.6.1"
+    link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/whats_new-async_updates
 
   - releaseCycle: "2.5"
     releaseDate: 2024-09-30
@@ -59,11 +77,12 @@ releases:
     eol: 2026-10-02
     eoes: 2027-10-02
     ansibleCoreVersion: "2.16"
-    aapPLatformUIVersion: "1.1"
-    automationControllerVersion: "4.6.27"
-    automationHubVersion: "4.10.13"
-    eventDrivenAnsibleVersion: "1.1.17"
     platformGatewayVersion: "N/A"
+    automationControllerVersion: "4.6.33"
+    automationHubVersion: "4.10.19"
+    eventDrivenAnsibleVersion: "1.1.23"
+    automationPortalVersion: "N/A"
+    aapPlatformUIVersion: "1.1"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/release_notes/patch_releases
 
   - releaseCycle: "2.4"
@@ -72,11 +91,12 @@ releases:
     eol: 2025-10-01
     eoes: 2026-06-30
     ansibleCoreVersion: "2.15"
-    aapPLatformUIVersion: "N/A"
-    automationControllerVersion: "4.5.30"
-    automationHubVersion: "4.9.5"
-    eventDrivenAnsibleVersion: "1.0.8"
     platformGatewayVersion: "N/A"
+    automationControllerVersion: "4.5.37"
+    automationHubVersion: "4.9.8"
+    eventDrivenAnsibleVersion: "1.0.11"
+    automationPortalVersion: "N/A"
+    aapPlatformUIVersion: "N/A"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/red_hat_ansible_automation_platform_release_notes/asynchronous_updates
 
   - releaseCycle: "2.3"
@@ -85,11 +105,12 @@ releases:
     eol: 2023-11-29
     eoes: 2024-05-31
     ansibleCoreVersion: "2.14"
-    aapPLatformUIVersion: "N/A"
+    platformGatewayVersion: "N/A"
     automationControllerVersion: "4.3"
     automationHubVersion: "4.6"
     eventDrivenAnsibleVersion: "N/A"
-    platformGatewayVersion: "N/A"
+    automationPortalVersion: "N/A"
+    aapPlatformUIVersion: "N/A"
     link: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_release_notes/platform-introduction#whats-included
 
 ---
@@ -119,8 +140,8 @@ Bug fixes by severity or _Bug Fix Errata_ ([RHBAs][DEFINITION]) are not part of 
 The Ansible Automation Platform consists of multiple major services, each with their own versions.
 
 {% include table.html
-labels="Release,Ansible-Core version,AAP Platform UI version,Automation Controller version,Automation Hub version,Event-Driven Ansible version,Platform Gateway version"
-fields="releaseCycle,ansibleCoreVersion,aapPLatformUIVersion,automationControllerVersion,automationHubVersion,eventDrivenAnsibleVersion,platformGatewayVersion"
+labels="Release,Automation Controller version,Automation Hub version,Event-Driven Ansible version,Platform Gateway version,AAP Platform UI version,Automation Portal version,ansible-core version"
+fields="releaseCycle,automationControllerVersion,automationHubVersion,eventDrivenAnsibleVersion,platformGatewayVersion,aapPlatformUIVersion,automationPortalVersion,ansibleCoreVersion"
 types="string,string,string,string,string"
 rows=page.releases %}
 
