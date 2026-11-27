@@ -39,9 +39,9 @@ releases:
   - releaseCycle: "6.0"
     releaseDate: 2026-09-29
     eoas: false
-    eol: 2028-09-29
-    latest: "6.0.0"
-    latestReleaseDate: 2026-09-29
+    eol: 2028-11-24
+    latest: "6.0.3"
+    latestReleaseDate: 2026-11-24
 
   - releaseCycle: "5.2"
     releaseDate: 2026-06-09
@@ -98,6 +98,7 @@ releases:
     eol: 2026-10-16
     latest: "4.29.3"
     latestReleaseDate: 2024-10-16
+
 ---
 
 > [Liquibase Secure](https://www.liquibase.com/liquibase-secure) is the commercial edition of

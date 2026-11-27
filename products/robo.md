@@ -35,12 +35,12 @@ identifiers:
 # eol(x) = false if "Stable" or "Important fixes only", false otherwise
 releases:
   - releaseCycle: "5"
-    supportedPHPVersions: "8.2 - 8.3"
+    supportedPHPVersions: "8.2 - 8.5"
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "5.1.1"
-    latestReleaseDate: 2025-11-14
+    latest: "5.2.4"
+    latestReleaseDate: 2026-11-20
 
   - releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"

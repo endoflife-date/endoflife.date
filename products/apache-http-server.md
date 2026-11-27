@@ -38,8 +38,8 @@ releases:
   - releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.69"
-    latestReleaseDate: 2026-10-01
+    latest: "2.4.71"
+    latestReleaseDate: 2026-11-11
     link: https://downloads.apache.org/httpd/CHANGES_2.4
 
   - releaseCycle: "2.2"

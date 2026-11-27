@@ -56,25 +56,31 @@ auto:
         eol: "End of support"
 
 releases:
+  - releaseCycle: "11"
+    releaseDate: 2026-11-10
+    eol: 2028-11-14
+    latest: "11.0.0"
+    latestReleaseDate: 2026-11-10
+
   - releaseCycle: "10"
     releaseDate: 2025-11-11
     lts: true
     eol: 2028-11-14
-    latest: "10.0.13"
-    latestReleaseDate: 2026-10-13
+    latest: "10.0.15"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-11-10
-    latest: "9.0.21"
-    latestReleaseDate: 2026-10-13
+    latest: "9.0.23"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.32"
-    latestReleaseDate: 2026-10-13
+    latest: "8.0.34"
+    latestReleaseDate: 2026-11-10
 
   - releaseCycle: "7"
     releaseDate: 2022-11-08
@@ -146,13 +152,12 @@ releases:
     eol: 2019-06-27
     latest: "1.0.16"
     latestReleaseDate: 2019-05-15
-
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform
 > for building many types of applications.
 
-Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the
-community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will
-happen every November and every other release will be LTS. LTS releases are supported for three
-years after the initial release.
+Microsoft publishes a new major release of .NET every November. Even-numbered releases receive
+Long Term Support (LTS) for three years after the initial release. Odd-numbered releases receive
+Standard Term Support (STS) for two years after the initial release. The latest patch update must be
+installed to qualify for support.

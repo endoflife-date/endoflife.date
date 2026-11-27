@@ -34,12 +34,19 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
+  - releaseCycle: "4.0"
+    releaseDate: 2026-11-26
+    eol: 2027-01-01 # estimated ( releaseDate(4.1) )
+    latest: "4.0.1"
+    latestReleaseDate: 2026-11-25
+    link: https://quarkus.io/blog/quarkus-4-0-released/
+
   - releaseCycle: "3.40"
     releaseDate: 2026-09-30
     lts: true
     eol: 2027-09-30
-    latest: "3.40.1.1"
-    latestReleaseDate: 2026-10-19
+    latest: "3.40.1.2"
+    latestReleaseDate: 2026-11-09
     link: https://quarkus.io/blog/quarkus-3-40-released/
 
   - releaseCycle: "3.39"
@@ -89,8 +96,8 @@ releases:
     releaseDate: 2026-03-25
     eol: 2027-03-25
     eoes: false
-    latest: "3.33.4.1"
-    latestReleaseDate: 2026-10-19
+    latest: "3.33.4.2"
+    latestReleaseDate: 2026-11-09
     link: https://quarkus.io/blog/quarkus-3-33-released/
 
   - releaseCycle: "3.32"

@@ -11,6 +11,8 @@ eoasColumn: true
 staleReleaseThresholdDays: 1000 # expected given https://elixir.hexdocs.pm/compatibility-and-deprecations.html
 
 identifiers:
+  - purl: pkg:docker/library/elixir
+  - purl: pkg:github/elixir-lang/elixir
   - repology: elixir
 
 auto:

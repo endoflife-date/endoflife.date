@@ -18,17 +18,17 @@ eoesColumn: <abbr title="Long Term Support">LTS</abbr>
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
   - releaseCycle: "5.2"
-    releaseDate: 2026-07-07
+    releaseDate: 2026-07-14
     eol: 2029-07-31
-    latest: "5.2"
-    latestReleaseDate: 2026-07-07
+    latest: "5.2.1"
+    latestReleaseDate: 2026-10-08
     link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.1"
     releaseDate: 2025-07-31
     eol: 2027-07-31
-    latest: "5.1.4"
-    latestReleaseDate: 2026-07-01
+    latest: "5.1.5"
+    latestReleaseDate: 2026-08-24
     link: https://www.suse.com/releasenotes/x86_64/multi-linux-manager/__RELEASE_CYCLE__
 
   - releaseCycle: "5.0"

@@ -134,6 +134,14 @@ releases:
     link: https://support.apple.com/111896
     supportedIpadOsVersions: "16 - 27"
 
+  - releaseCycle: "pro-4-11"
+    releaseLabel: "iPad Pro 11-inch (4th generation)"
+    releaseDate: 2022-10-26
+    discontinued: 2024-05-07
+    eol: false
+    link: https://support.apple.com/111842
+    supportedIpadOsVersions: "16 - 27"
+
   - releaseCycle: "air-5"
     releaseLabel: "iPad Air (5th generation)"
     releaseDate: 2022-03-18
@@ -166,6 +174,14 @@ releases:
     link: https://support.apple.com/111896
     supportedIpadOsVersions: "14 - 27"
 
+  - releaseCycle: "pro-3-11"
+    releaseLabel: "iPad Pro 11-inch (3rd generation)"
+    releaseDate: 2021-05-21
+    discontinued: 2022-10-18
+    eol: false
+    link: https://support.apple.com/111897
+    supportedIpadOsVersions: "14 - 27"
+
   - releaseCycle: "air-4"
     releaseLabel: "iPad Air (4th generation)"
     releaseDate: 2020-10-23
@@ -190,21 +206,13 @@ releases:
     link: https://support.apple.com/111977
     supportedIpadOsVersions: "13 - 27"
 
-  - releaseCycle: "pro-4-11"
-    releaseLabel: "iPad Pro 11-inch (4th generation)"
+  - releaseCycle: "pro-2-11"
+    releaseLabel: "iPad Pro 11-inch (2nd generation)"
     releaseDate: 2020-03-25
     discontinued: 2021-04-20
     eol: false
-    link: https://support.apple.com/111842
-    supportedIpadOsVersions: "13 - 27"
-
-  - releaseCycle: "pro-2-11"
-    releaseLabel: "iPad Pro 11-inch (2nd generation)"
-    releaseDate: 2020-03-01
-    discontinued: 2021-04-01
-    eol: false
     link: https://support.apple.com/en-us/118452
-    supportedIpadOsVersions: "10 - 27"
+    supportedIpadOsVersions: "13 - 27"
 
   - releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
@@ -230,14 +238,6 @@ releases:
     link: https://support.apple.com/111939
     supportedIpadOsVersions: "12 - 26"
 
-  - releaseCycle: "pro-3-11"
-    releaseLabel: "iPad Pro 11-inch (3rd generation)"
-    releaseDate: 2018-11-07
-    discontinued: 2020-03-18
-    eol: false
-    link: https://support.apple.com/111897
-    supportedIpadOsVersions: "12 - 27"
-
   - releaseCycle: "pro-3-12"
     releaseLabel: "iPad Pro 12.9-inch (3rd generation)"
     releaseDate: 2018-11-07
@@ -248,11 +248,11 @@ releases:
 
   - releaseCycle: "pro-1-11"
     releaseLabel: "iPad Pro 11-inch (1st generation)"
-    releaseDate: 2018-11-01
-    discontinued: 2020-03-01
+    releaseDate: 2018-11-07
+    discontinued: 2020-03-18
     eol: false
     link: https://support.apple.com/en-us/111974
-    supportedIpadOsVersions: "9 - 26"
+    supportedIpadOsVersions: "12 - 26"
 
   - releaseCycle: "6"
     releaseLabel: "iPad (6th generation)"

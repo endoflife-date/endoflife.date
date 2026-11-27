@@ -25,15 +25,15 @@ releases:
   - releaseCycle: "3.12"
     releaseDate: 2026-10-02
     eol: false
-    latest: "3.12.2"
-    latestReleaseDate: 2026-10-29
+    latest: "3.12.3"
+    latestReleaseDate: 2026-11-20
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3120
 
   - releaseCycle: "3.11"
     releaseDate: 2026-07-30
     eol: false
-    latest: "3.11.8"
-    latestReleaseDate: 2026-10-29
+    latest: "3.11.10"
+    latestReleaseDate: 2026-11-20
     link: https://docs.influxdata.com/influxdb3/enterprise/release-notes/#v3110
 
   - releaseCycle: "3.10"
@@ -112,8 +112,8 @@ releases:
   - releaseCycle: "2"
     releaseDate: 2020-11-09
     eol: false # No current plans to EOL 2.x
-    latest: "2.10.0"
-    latestReleaseDate: 2026-10-15
+    latest: "2.10.1"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "1"
     releaseDate: 2016-09-07

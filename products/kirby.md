@@ -23,17 +23,25 @@ auto:
   methods:
     - git: https://github.com/getkirby/kirby.git
 
-# eol(x) = releaseDate(x+1) + 2 years - 1 day
+# eol(x) documented on https://getkirby.com/security
 # See also https://getkirby.com/docs/archive
 # supportedPhpVersions can be found on https://getkirby.com/docs/reference/system/requirements#php-version-support-history.
 releases:
+  - releaseCycle: "6"
+    codename: ""
+    releaseDate: 2026-11-24
+    eol: 2029-11-24
+    supportedPhpVersions: 8.3 - 8.6
+    latest: "6.0.0"
+    latestReleaseDate: 2026-11-24
+
   - releaseCycle: "5"
     codename: ""
     releaseDate: 2025-06-24
-    eol: false
+    eol: 2028-06-24
     supportedPhpVersions: 8.2 - 8.4
-    latest: "5.6.2"
-    latestReleaseDate: 2026-10-26
+    latest: "5.6.4"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
@@ -48,8 +56,8 @@ releases:
     releaseDate: 2023-11-28
     eol: 2026-11-28
     supportedPhpVersions: 8.1 - 8.4
-    latest: "4.9.6"
-    latestReleaseDate: 2026-09-16
+    latest: "4.9.8"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "3.9"
     codename: "Brookesia"

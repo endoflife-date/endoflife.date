@@ -11,6 +11,7 @@ identifiers:
   - cpe: cpe:2.3:a:commvault:commvault
 
 auto:
+  disabled: true # due to product is fetching versions from future, disable until 2026-12-01
   methods:
     - release_table: https://documentation.commvault.com/11.44/software/commvault_software_releases_release_types_and_release_tracks.html
       fields:
@@ -47,9 +48,9 @@ releases:
     lts: true
     releaseDate: 2025-06-15
     eol: 2027-12-15
-    latest: "11.40.78"
-    latestReleaseDate: 2026-10-06
-    link: https://documentation.commvault.com/11.40/essential/list_of_maintenance_releases_in_11_40.html
+    latest: "11.40.83"
+    latestReleaseDate: 2026-11-03
+    link: https://documentation.commvault.com/11.40/software/list_of_maintenance_releases_in_11_40.html
 
   - releaseCycle: "11.38"
     releaseDate: 2025-02-15
@@ -63,9 +64,9 @@ releases:
     releaseLabel: "2024E"
     releaseDate: 2024-08-15
     eol: 2027-06-15
-    latest: "11.36.127"
-    latestReleaseDate: 2026-10-06
-    link: https://documentation.commvault.com/2024e/essential/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
+    latest: "11.36.130"
+    latestReleaseDate: 2026-11-03
+    link: https://documentation.commvault.com/2024e/software/list_of_maintenance_releases_for_commvault_platform_release_2024e.html
 
   - releaseCycle: "11.32"
     lts: true

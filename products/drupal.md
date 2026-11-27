@@ -31,27 +31,27 @@ releases:
   - releaseCycle: "11.4"
     releaseDate: 2026-07-01
     eoas: 2027-01-01 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    eol: 2027-07-07 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.4.11"
-    latestReleaseDate: 2026-10-21
+    eol: 2027-04-21 # 8 months of overlapping security coverage from 2027 (https://www.drupal.org/node/3633990, https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
+    latest: "11.4.14"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "11.3"
     releaseDate: 2025-12-17
     eoas: 2026-06-16 # 6 months bug & security fixes (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    eol: 2026-12-16 # after 1 year (documented under https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-minor-versions)
-    latest: "11.3.20"
-    latestReleaseDate: 2026-10-21
+    eol: 2026-12-09 # ends with the 12.0.0/11.5.0 release, planned for 2026-12-09 (https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
+    latest: "11.3.23"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "10.6"
     releaseDate: 2025-12-17
     eoas: 2026-06-16
-    eol: 2026-12-16
-    latest: "10.6.20"
-    latestReleaseDate: 2026-10-21
+    eol: 2026-12-09 # Drupal 10 end-of-life (https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
+    latest: "10.6.23"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "11.2"
     releaseDate: 2025-06-18
-    eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eoas: 2025-12-17
     eol: 2026-07-01 # security support ended with the 11.4.0 release on 2026-07-01 (schedule: "Drupal 11.4.0 released. End of security support for 11.2.x and 10.5.x.")
     latest: "11.2.14"
     latestReleaseDate: 2026-06-17
@@ -66,14 +66,14 @@ releases:
   - releaseCycle: "10.4"
     releaseDate: 2024-12-17
     eoas: 2025-06-18 # releaseDate(10.5)
-    eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: 2025-12-17 # security support ended with the 11.3.0 release on 2025-12-17
     latest: "10.4.10"
     latestReleaseDate: 2026-05-20
 
   - releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: 2025-06-18 # releaseDate(11.2)
-    eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: 2025-12-17 # security support ended with the 11.3.0 release on 2025-12-17
     latest: "11.1.10"
     latestReleaseDate: 2026-05-20
 

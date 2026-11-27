@@ -9,7 +9,7 @@ alternate_urls:
   - /rocky
   - /rockylinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
+releasePolicyLink: https://docs.rockylinux.org/releases/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
 
@@ -18,7 +18,7 @@ identifiers:
   - cpe: cpe:2.3:o:rocky:rocky
 
 # distrowatch misses a few releases,
-# so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
+# so we track https://docs.rockylinux.org/releases/#current-supported-releases
 auto:
   methods:
     - version_table: https://docs.rockylinux.org/releases/
@@ -40,15 +40,15 @@ releases:
     releaseDate: 2025-06-11
     eoas: 2030-05-31
     eol: 2035-05-31
-    latest: "10.2"
-    latestReleaseDate: 2026-05-29
+    latest: "10.3"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "9"
     releaseDate: 2022-07-14
     eoas: 2027-05-31
     eol: 2032-05-31
-    latest: "9.8"
-    latestReleaseDate: 2026-05-28
+    latest: "9.9"
+    latestReleaseDate: 2026-11-16
 
   - releaseCycle: "8"
     releaseDate: 2021-05-01

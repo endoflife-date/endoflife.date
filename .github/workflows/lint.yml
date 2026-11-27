@@ -20,7 +20,7 @@ jobs:
           cache: "npm"
 
       - name: Setup ruby
-        uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1
+        uses: ruby/setup-ruby@20eb24b0d509e2b9ed9b6d42ddfeb992915e0564 # v1
         with:
           bundler-cache: true
 

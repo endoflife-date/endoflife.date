@@ -29,22 +29,22 @@ releases:
     codename: "Golden Gate"
     releaseDate: 2026-09-14
     eol: false
-    latest: "27.2"
-    latestReleaseDate: 2026-10-26
+    latest: "27.2.1"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "26"
     codename: "Tahoe"
     releaseDate: 2025-09-15
     eol: false
-    latest: "26.7.2"
-    latestReleaseDate: 2026-10-26
+    latest: "26.7.3"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "15"
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: "15.8.2"
-    latestReleaseDate: 2026-10-26
+    latest: "15.8.3"
+    latestReleaseDate: 2026-11-09
 
   - releaseCycle: "14"
     codename: "Sonoma"

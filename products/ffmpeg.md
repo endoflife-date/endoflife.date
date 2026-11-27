@@ -29,6 +29,13 @@ auto:
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 # LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
+  - releaseCycle: "9.1"
+    codename: Gauss
+    releaseDate: 2026-11-20
+    eol: false
+    latest: "9.1.0"
+    latestReleaseDate: 2026-11-20
+
   - releaseCycle: "9.0"
     codename: Lei
     releaseDate: 2026-08-04

@@ -4,9 +4,7 @@ addedAt: 2022-07-05
 category: server-app
 tags: web-server
 permalink: /vinyl-cache
-alternate_urls:
-  - /varnish
-versionCommand: varnishd -V
+versionCommand: vinyld -V
 releasePolicyLink: https://vinyl-cache.org/releases/index.html
 changelogTemplate: https://vinyl-cache.org/releases/rel__LATEST__.html
 
@@ -34,8 +32,9 @@ auto:
 
 releases:
   - releaseCycle: "9.1"
+    lts: 2026-10-29 # https://vinyl-cache.org/news/2026-10-29_new_lts.html#news-2026-10-new-lts
     releaseDate: 2026-09-16
-    eol: 2027-09-16
+    eol: false
     latest: "9.1.0"
     latestReleaseDate: 2026-09-16
 

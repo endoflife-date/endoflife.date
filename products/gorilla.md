@@ -49,8 +49,8 @@ releases:
   - releaseCycle: "1"
     releaseDate: 2016-04-28
     eol: true
-    latest: 1.5.0
-    latestReleaseDate: 2022-01-04
+    latest: 1.5.3
+    latestReleaseDate: 2024-06-14
     link: https://github.com/gorilla#gorilla-toolkit
 ---
 

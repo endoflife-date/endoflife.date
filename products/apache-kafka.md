@@ -62,14 +62,14 @@ releases:
 
   - releaseCycle: "4.0"
     releaseDate: 2025-03-18
-    eol: false
+    eol: 2026-07-03 # archive date from https://github.com/apache/kafka-site/commit/70507a161c9128ccaa54bdbe2e13e4de17aa8678
     eoes: 2027-06-11
     latest: "4.0.2"
     latestReleaseDate: 2026-03-18
 
   - releaseCycle: "3.9"
     releaseDate: 2024-11-06
-    eol: false
+    eol: 2026-07-03 # archive date from https://github.com/apache/kafka-site/commit/70507a161c9128ccaa54bdbe2e13e4de17aa8678
     eoes: 2027-02-19
     latest: "3.9.2"
     latestReleaseDate: 2026-02-21

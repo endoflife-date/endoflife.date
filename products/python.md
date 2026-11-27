@@ -255,6 +255,46 @@ releases:
     latestReleaseDate: 2013-10-29
     pep: PEP-0361
 
+  - releaseCycle: "2.5"
+    releaseDate: 2006-09-19
+    eoas: true
+    eol: 2011-05-26
+    latest: "2.5.6"
+    latestReleaseDate: 2011-05-28
+    pep: PEP-0356
+
+  - releaseCycle: "2.4"
+    releaseDate: 2004-11-30
+    eoas: true
+    eol: 2008-12-19
+    latest: "2.4.6"
+    latestReleaseDate: 2008-12-19
+    pep: PEP-0320
+
+  - releaseCycle: "2.3"
+    releaseDate: 2003-07-29
+    eoas: true
+    eol: 2008-03-11
+    latest: "2.3.7"
+    latestReleaseDate: 2008-03-11
+    pep: PEP-0283
+
+  - releaseCycle: "2.2"
+    releaseDate: 2001-12-21
+    eoas: true
+    eol: 2003-05-30
+    latest: "2.2.3"
+    latestReleaseDate: 2003-05-30
+    pep: PEP-0251
+
+  - releaseCycle: "2.1"
+    releaseDate: 2001-04-17
+    eoas: true
+    eol: 2002-04-09
+    latest: "2.1.3"
+    latestReleaseDate: 2002-04-09
+    pep: PEP-0226
+
 ---
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming

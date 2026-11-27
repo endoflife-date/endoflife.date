@@ -58,7 +58,7 @@ auto:
     - release_table: https://www.ibm.com/support/pages/node/6451203
       fields:
         releaseCycle: "IBM Semeru Runtimes version"
-        eol: "EoA3"
+        eol: "EoA2"
 
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
@@ -78,7 +78,7 @@ releases:
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-25
-    eol: 2031-09-30 # https://www.ibm.com/support/pages/node/6451203 - OpenJDK EOS
+    eol: 2033-09-30
     latest: "25.0.5.0"
     latestReleaseDate: 2026-10-28
 
@@ -103,14 +103,14 @@ releases:
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-22
-    eol: 2029-12-31
+    eol: 2031-09-30
     latest: "21.0.10+7.1"
     latestReleaseDate: 2026-02-26
 
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
-    eol: 2027-10-31
+    eol: 2029-01-31
     latest: "17.0.21.0"
     latestReleaseDate: 2026-10-28
 
@@ -118,15 +118,15 @@ releases:
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: "11.0.32.15"
-    latestReleaseDate: 2026-09-24
+    latest: "11.0.33.0"
+    latestReleaseDate: 2026-11-04
 
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2030-12-31
-    latest: "8.0.504.5"
-    latestReleaseDate: 2026-09-24
+    eol: 2032-12-31
+    latest: "8.0.512.0"
+    latestReleaseDate: 2026-11-04
 
 ---
 

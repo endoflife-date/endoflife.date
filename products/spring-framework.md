@@ -58,14 +58,23 @@ auto:
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
+  - releaseCycle: "7.1"
+    supportedJavaVersions: "17 - 27"
+    supportedJakartaEEVersions: "11 - 12"
+    releaseDate: 2026-11-20
+    eol: 2027-12-31
+    eoes: 2028-12-31
+    latest: "7.1.0"
+    latestReleaseDate: 2026-11-19
+
   - releaseCycle: "7.0"
     supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "11 - 12"
     releaseDate: 2025-11-30
     eol: 2027-07-31
     eoes: 2028-07-31
-    latest: "7.0.10"
-    latestReleaseDate: 2026-10-22
+    latest: "7.0.11"
+    latestReleaseDate: 2026-11-19
 
   - releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"

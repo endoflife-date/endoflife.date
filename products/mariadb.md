@@ -50,7 +50,7 @@ auto:
         - ^mariadb-10\.11\.[01]$
         - ^mariadb-11\.[0-8]\.[01]$
         - ^mariadb-12\.[0-3]\.[01]$
-        - ^mariadb-13\.0\.[01]$
+        - ^mariadb-13\.[0-1]\.[01]$
         # Any future major/minor cycle not yet listed above: assume the same threshold
         # (patch 0 and 1 are pre-GA) until the exact GA patch is confirmed and added above.
         - ^mariadb-(1[1-9]|[2-9]\d)\.\d+\.[01]$
@@ -65,6 +65,12 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # LTS/Rolling release details are available on https://mariadb.org/about/#maintenance-policy
 releases:
+  - releaseCycle: "13.1"
+    releaseDate: 2026-11-21 # github tag date, might need updating
+    eol: 2027-03-31
+    latest: "13.1.2"
+    latestReleaseDate: 2026-11-21 # github tag date, might need updating
+
   - releaseCycle: "13.0"
     releaseDate: 2026-09-15
     eol: 2026-12-31
@@ -75,9 +81,10 @@ releases:
     releaseDate: 2026-05-28
     lts: true
     eol: 2029-06-12
-    latest: "12.3.3"
-    latestReleaseDate: 2026-08-24
+    latest: "12.3.4"
+    latestReleaseDate: 2026-11-13
 
+    eoes: 2034-11-03
   - releaseCycle: "12.2"
     releaseDate: 2026-02-13
     eol: 2026-05-28
@@ -101,8 +108,8 @@ releases:
     releaseDate: 2025-06-04
     eol: 2028-06-04
     eoes: 2033-10-22
-    latest: "11.8.9"
-    latestReleaseDate: 2026-08-24
+    latest: "11.8.10"
+    latestReleaseDate: 2026-11-13
 
   - releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -130,8 +137,8 @@ releases:
     releaseDate: 2024-05-29
     eol: 2029-05-29
     eoes: 2033-01-16
-    latest: "11.4.13"
-    latestReleaseDate: 2026-08-24
+    latest: "11.4.14"
+    latestReleaseDate: 2026-11-13
 
   - releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -166,8 +173,8 @@ releases:
     releaseDate: 2023-02-16
     eol: 2028-02-16
     eoes: 2028-02-16
-    latest: "10.11.19"
-    latestReleaseDate: 2026-08-24
+    latest: "10.11.20"
+    latestReleaseDate: 2026-11-13
 
   - releaseCycle: "10.10"
     releaseDate: 2022-11-07

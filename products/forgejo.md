@@ -31,8 +31,8 @@ releases:
   - releaseCycle: "17.0"
     releaseDate: 2026-10-15
     eol: 2027-01-28
-    latest: "17.0.1"
-    latestReleaseDate: 2026-10-26
+    latest: "17.0.2"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "16.0"
     releaseDate: 2026-07-16
@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2026-04-16
     eol: 2027-07-15
-    latest: "15.0.11"
-    latestReleaseDate: 2026-10-26
+    latest: "15.0.12"
+    latestReleaseDate: 2026-11-18
 
   - releaseCycle: "14.0"
     releaseDate: 2026-01-15

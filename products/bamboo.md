@@ -39,12 +39,18 @@ auto:
 # Release dates from https://www.atlassian.com/software/bamboo/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+  - releaseCycle: "13.0"
+    releaseDate: 2026-11-05
+    eol: 2028-11-05 # not announced yet. Needs to revise later
+    latest: "13.0.2"
+    latestReleaseDate: 2026-11-24
+
   - releaseCycle: "12.1"
     lts: true
     releaseDate: 2025-12-16
     eol: 2027-12-17
-    latest: "12.1.12"
-    latestReleaseDate: 2026-10-05
+    latest: "12.1.14"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "12.0"
     releaseDate: 2025-11-20
@@ -62,8 +68,8 @@ releases:
     lts: true
     releaseDate: 2024-12-19
     eol: 2026-12-20
-    latest: "10.2.24"
-    latestReleaseDate: 2026-10-05
+    latest: "10.2.27"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "10.1"
     releaseDate: 2024-11-19
@@ -455,6 +461,10 @@ releases:
 
 > [Bamboo](https://www.atlassian.com/software/bamboo) is a continuous delivery pipeline developed by Atlassian. It is
 > used to build, test and deploy applications automatically as per requirements and helps speed up the release process.
+ 
+{: .note }
+
+> Starting from Bamboo 13, the minimum required Java version is 25. Support for Java 21 has been removed.
 
 {: .warning }
 

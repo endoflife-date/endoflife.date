@@ -23,16 +23,16 @@ releases:
     releaseDate: 2026-05-10
     eoas: false
     eol: false
-    latest: "1.7.5"
-    latestReleaseDate: 2026-10-19
+    latest: "1.7.7"
+    latestReleaseDate: 2026-11-23
 
   - releaseCycle: "1.6"
     releaseDate: 2022-07-25
     lts: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
     eoas: 2026-05-10 # https://github.com/roundcube/roundcubemail/releases/tag/1.7.0
-    eol: false
-    latest: "1.6.20"
-    latestReleaseDate: 2026-10-19
+    eol: 2026-11-23 # https://roundcube.net/news/2026/11/23/security-updates-1.6.22-and-1.7.7
+    latest: "1.6.22"
+    latestReleaseDate: 2026-11-23
 
   - releaseCycle: "1.5"
     releaseDate: 2021-10-18
@@ -95,6 +95,3 @@ releases:
 > 
 > Dropped support for MS SQL Server and Oracle.
 
-As of the last release, the project supports the last two release branches in an "LTS low-maintenance
-mode", which only includes important security updates only. Regular improvement updates are only
-available in the latest stable release.

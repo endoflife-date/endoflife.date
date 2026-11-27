@@ -27,7 +27,7 @@ auto:
       fields:
         releaseCycle: "Release"
         releaseDate: "Release Date"
-        eol: "EOL Release Support"
+        eol: "End of Release Support"
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
@@ -35,20 +35,20 @@ releases:
   - releaseCycle: "7.2"
     releaseDate: 2026-10-13
     eol: 2027-10-13
-    latest: "7.2.1"
-    latestReleaseDate: 2026-10-19
+    latest: "7.2.2"
+    latestReleaseDate: 2026-11-04
 
   - releaseCycle: "7.1"
     releaseDate: 2026-05-04
     eol: 2027-05-04 # releaseDate(7.3)
-    latest: "7.1.11"
-    latestReleaseDate: 2026-10-19
+    latest: "7.1.12"
+    latestReleaseDate: 2026-11-04
 
   - releaseCycle: "7.0"
     releaseDate: 2025-11-03
     eol: 2026-11-03
-    latest: "7.0.15"
-    latestReleaseDate: 2026-10-19
+    latest: "7.0.16"
+    latestReleaseDate: 2026-11-04
 
   - releaseCycle: "6.3"
     releaseDate: 2025-06-30
@@ -70,7 +70,7 @@ releases:
 
   - releaseCycle: "6.0"
     releaseDate: 2024-05-07
-    eol: 2025-05-08
+    eol: 2025-05-07
     latest: "6.0.14"
     latestReleaseDate: 2025-04-03
 

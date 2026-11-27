@@ -27,24 +27,31 @@ auto:
 # eol(x) = releaseDate(x+3)
 # lts just indicates a release will receive paid extended support, it does not extend the eol date
 releases:
+  - releaseCycle: "2.39"
+    releaseDate: 2026-11-03
+    eoas: false # releaseDate(2.41)
+    eol: false # releaseDate(2.42)
+    latest: "2.39.5"
+    latestReleaseDate: 2026-11-24
+
   - releaseCycle: "2.38"
     releaseDate: 2026-10-06
     eoas: false # releaseDate(2.40)
     eol: false # releaseDate(2.41)
-    latest: "2.38.6"
-    latestReleaseDate: 2026-11-03
+    latest: "2.38.11"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2.37"
     releaseDate: 2026-09-01
-    eoas: false # releaseDate(2.39)
+    eoas: 2026-11-03
     eol: false # releaseDate(2.40)
-    latest: "2.37.10"
-    latestReleaseDate: 2026-11-03
+    latest: "2.37.15"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2.36"
     releaseDate: 2026-08-04
     eoas: 2026-10-06
-    eol: false # releaseDate(2.39)
+    eol: 2026-11-03
     latest: "2.36.12"
     latestReleaseDate: 2026-10-30
 
@@ -61,8 +68,8 @@ releases:
     eoas: 2026-08-04
     eol: 2026-09-01
     eoes: 2027-06-02
-    latest: "2.34.18"
-    latestReleaseDate: 2026-11-03
+    latest: "2.34.22"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2.33"
     releaseDate: 2026-05-06
@@ -98,8 +105,8 @@ releases:
     eoas: 2026-02-23
     eol: 2026-04-14
     eoes: 2026-12-02
-    latest: "2.29.26"
-    latestReleaseDate: 2026-11-03
+    latest: "2.29.30"
+    latestReleaseDate: 2026-11-25
 
   - releaseCycle: "2.28"
     releaseDate: 2025-11-04

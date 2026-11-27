@@ -28,12 +28,19 @@ identifiers:
 # eol(x) documented on https://matomo.org/faq/on-premise/matomo-long-term-support-lts/
 # No release is marked LTS, as this phase is true for all releases and is considered here as the security support phase.
 releases:
-  - releaseCycle: "5"
-    releaseDate: 2023-12-18
+  - releaseCycle: "6"
+    releaseDate: 2026-11-23
     eoas: false
     eol: false
-    latest: "5.14.2"
-    latestReleaseDate: 2026-10-22
+    latest: "6.0.0"
+    latestReleaseDate: 2026-11-23
+
+  - releaseCycle: "5"
+    releaseDate: 2023-12-18
+    eoas: 2026-11-23
+    eol: 2027-11-23 # https://matomo.org/faq/on-premise/matomo-long-term-support-lts/
+    latest: "5.14.3"
+    latestReleaseDate: 2026-11-17
 
   - releaseCycle: "4"
     releaseDate: 2020-11-24

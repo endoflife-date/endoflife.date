@@ -30,6 +30,60 @@ auto:
     - openai_deprecations: https://developers.openai.com/api/docs/deprecations
 
 releases:
+  - releaseCycle: "gpt-live-1.1"
+    releaseLabel: "GPT-Live-1.1"
+    aliases:
+      - gpt-live-1.1
+      - gpt-live-1.1
+    releaseDate: 2026-11-19 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-live-1.1"
+    recommendedReplacement: N/A
+
+  - releaseCycle: "gpt-6.2-astra"
+    releaseLabel: "GPT-6.2 Astra"
+    aliases: []
+    releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+
+  - releaseCycle: "gpt-6.2-sol"
+    releaseLabel: "GPT-6.2 Sol"
+    aliases: []
+    releaseDate: 2026-11-17 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6.2-sol"
+
+  - releaseCycle: "gpt-6-cyber"
+    releaseLabel: "GPT-6 Cyber"
+    aliases:
+      - gpt-6-cyber
+    releaseDate: 2026-11-05 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+
+  - releaseCycle: "gpt-image-2.6-sunburst"
+    releaseLabel: "GPT-Image-2.6 Sunburst"
+    aliases:
+      - gpt-image-2.6-sunburst
+    releaseDate: 2026-11-04 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst"
+
+  - releaseCycle: "gpt-image-2.6-flare"
+    releaseLabel: "GPT-Image-2.6 Flare"
+    aliases:
+      - gpt-image-2.6-flare
+    releaseDate: 2026-11-04 # https://developers.openai.com/api/docs/changelog
+    eoas: false
+    eol: false
+    link: "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare"
+
   - releaseCycle: "gpt-6.1-terra"
     releaseLabel: "GPT-6.1 Terra"
     aliases:
@@ -104,7 +158,7 @@ releases:
     releaseLabel: "GPT-5.6 Cyber"
     aliases:
       - gpt-5.6-cyber
-    releaseDate: 2026-08-10 # https://aireleasetracker.com/model/openai/gpt-5.6-cyber
+    releaseDate: 2026-08-07 # https://developers.openai.com/api/docs/changelog
     eoas: false
     eol: false
     link: "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
@@ -161,7 +215,7 @@ releases:
     recommendedReplacement: N/A
 
   - releaseCycle: "gpt-live-1"
-    releaseLabel: "GPT-Live 1"
+    releaseLabel: "GPT-Live-1"
     aliases:
       - gpt-live-1
       - gpt-live-1
@@ -182,7 +236,7 @@ releases:
     recommendedReplacement: N/A
 
   - releaseCycle: "gpt-realtime-2.1-mini"
-    releaseLabel: "GPT-Realtime-2.1 Mini"
+    releaseLabel: "GPT-Realtime-2.1 mini"
     aliases:
       - gpt-realtime-2.1-mini
     releaseDate: 2026-07-06 # https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896
@@ -256,13 +310,13 @@ releases:
     aliases:
       - gpt-image-2-2026-04-21
     releaseDate: 2026-04-21 # https://openai.com/index/introducing-chatgpt-images-2-0/ (ChatGPT Images 2.0 launch; API model date inferred)
-    eoas: false
-    eol: false
+    eoas: 2026-11-10
+    eol: 2027-02-10
     link: "https://developers.openai.com/api/docs/models/gpt-image-2"
-    recommendedReplacement: N/A
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-5.4-mini"
-    releaseLabel: "GPT-5.4 Mini"
+    releaseLabel: "GPT-5.4 mini"
     aliases:
       - gpt-5.4-mini-2026-03-17
     releaseDate: 2026-03-17 # https://aireleasetracker.com/model/openai/gpt-5.4-mini
@@ -351,17 +405,6 @@ releases:
     link: "https://developers.openai.com/api/docs/models/gpt-audio"
     recommendedReplacement: gpt-audio-1.5
 
-  - releaseCycle: "gpt-audio-mini"
-    releaseLabel: "GPT-Audio Mini"
-    aliases:
-      - gpt-audio-mini-2025-10-06
-      - gpt-audio-mini-2025-12-15
-    releaseDate: 2026-01-19 # https://openrouter.ai/openai/gpt-audio-mini
-    eoas: 2026-07-20
-    eol: 2027-01-20
-    link: "https://developers.openai.com/api/docs/models/gpt-audio-mini"
-    recommendedReplacement: gpt-audio-1.5
-
   - releaseCycle: "gpt-5.2-codex"
     releaseLabel: "GPT-5.2-Codex"
     aliases:
@@ -373,14 +416,14 @@ releases:
     recommendedReplacement: gpt-5.6-sol
 
   - releaseCycle: "gpt-image-1.5"
-    releaseLabel: "GPT-Image-1.5"
+    releaseLabel: "GPT Image 1.5"
     aliases:
       - gpt-image-1.5-2025-12-16
     releaseDate: 2025-12-16 # https://openai.com/index/new-chatgpt-images-is-here/
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1.5"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-5.2"
     releaseLabel: "GPT-5.2"
@@ -433,7 +476,7 @@ releases:
     recommendedReplacement: gpt-5.6-sol
 
   - releaseCycle: "gpt-5.1-codex-mini"
-    releaseLabel: "GPT-5.1-Codex Mini"
+    releaseLabel: "GPT-5.1-Codex-Mini"
     aliases:
       - gpt-5.1-codex-mini
     releaseDate: 2025-11-13 # https://openrouter.ai/openai/gpt-5.1-codex-mini; https://github.blog/changelog/2025-11-13-openais-gpt-5-1-gpt-5-1-codex-and-gpt-5-1-codex-mini-are-now-in-public-preview-for-github-copilot/
@@ -473,17 +516,28 @@ releases:
     recommendedReplacement: gpt-live-transcribe or gpt-transcribe
 
   - releaseCycle: "gpt-image-1-mini"
-    releaseLabel: "GPT-Image-1 Mini"
+    releaseLabel: "GPT Image 1 mini"
     aliases:
       - gpt-image-1-mini
     releaseDate: 2025-10-06 # https://community.openai.com/t/devday-2025-apps-sdk-sora-2-gpt-5-pro-agentkit-new-image-generation-and-speech-to-speech-mini-models-and-more/1361279
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
+
+  - releaseCycle: "gpt-audio-mini"
+    releaseLabel: "GPT-Audio mini"
+    aliases:
+      - gpt-audio-mini-2025-10-06
+      - gpt-audio-mini-2025-12-15
+    releaseDate: 2025-10-06 # https://developers.openai.com/api/docs/changelog
+    eoas: 2026-07-20
+    eol: 2027-01-20
+    link: "https://developers.openai.com/api/docs/models/gpt-audio-mini"
+    recommendedReplacement: gpt-audio-1.5
 
   - releaseCycle: "gpt-realtime-mini"
-    releaseLabel: "GPT-Realtime Mini"
+    releaseLabel: "GPT-Realtime mini"
     aliases:
       - gpt-realtime-mini-2025-10-06
       - gpt-realtime-mini-2025-12-15
@@ -544,7 +598,7 @@ releases:
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/gpt-5"
-    recommendedReplacement: gpt-5.6-sol
+    recommendedReplacement: gpt-6.1-sol
 
   - releaseCycle: "gpt-5-chat-latest"
     releaseLabel: "GPT-5 Chat"
@@ -557,14 +611,14 @@ releases:
     recommendedReplacement: gpt-5.6-sol
 
   - releaseCycle: "gpt-5-mini"
-    releaseLabel: "GPT-5 Mini"
+    releaseLabel: "GPT-5 mini"
     aliases:
       - gpt-5-mini-2025-08-07
     releaseDate: 2025-08-07 # https://openai.com/index/introducing-gpt-5/
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/gpt-5-mini"
-    recommendedReplacement: gpt-5.6-terra
+    recommendedReplacement: gpt-6.1-terra
 
   - releaseCycle: "gpt-5-nano"
     releaseLabel: "GPT-5 nano"
@@ -574,17 +628,17 @@ releases:
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/gpt-5-nano"
-    recommendedReplacement: gpt-5.6-luna
+    recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-5-pro"
-    releaseLabel: "GPT-5 Pro"
+    releaseLabel: "GPT-5 pro"
     aliases:
       - gpt-5-pro-2025-10-06
     releaseDate: 2025-08-07 # https://openai.com/index/introducing-gpt-5/
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/gpt-5-pro"
-    recommendedReplacement: 'gpt-5.6-sol ( reasoning.mode: pro )'
+    recommendedReplacement: 'gpt-6.1-sol ( reasoning.mode: pro ) in the Responses API'
 
   - releaseCycle: "gpt-oss-120b"
     releaseLabel: "gpt-oss-120b"
@@ -624,7 +678,7 @@ releases:
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/o3"
-    recommendedReplacement: gpt-5.6-sol
+    recommendedReplacement: gpt-6.1-sol
 
   - releaseCycle: "o3-pro"
     releaseLabel: "o3-pro"
@@ -634,7 +688,7 @@ releases:
     eoas: 2026-06-11
     eol: 2026-12-11
     link: "https://developers.openai.com/api/docs/models/o3-pro"
-    recommendedReplacement: 'gpt-5.6-sol ( reasoning.mode: pro )'
+    recommendedReplacement: 'gpt-6.1-sol ( reasoning.mode: pro ) in the Responses API'
 
   - releaseCycle: "o4-mini"
     releaseLabel: "o4-mini"
@@ -657,7 +711,7 @@ releases:
     recommendedReplacement: gpt-6-luna
 
   - releaseCycle: "gpt-4.1-mini"
-    releaseLabel: "GPT-4.1 Mini"
+    releaseLabel: "GPT-4.1 mini"
     aliases:
       - gpt-4.1-mini-2025-04-14
     releaseDate: 2025-04-14 # https://openai.com/index/gpt-4-1/
@@ -684,10 +738,10 @@ releases:
     eoas: 2026-06-02
     eol: 2026-12-01
     link: "https://developers.openai.com/api/docs/models/chatgpt-image-latest"
-    recommendedReplacement: gpt-image-2.5-sunburst or gpt-image-2.5-flare
+    recommendedReplacement: gpt-image-2.6-sunburst or gpt-image-2.6-flare
 
   - releaseCycle: "gpt-image-1"
-    releaseLabel: "GPT-Image-1"
+    releaseLabel: "GPT Image 1"
     aliases:
       - gpt-image-1
     releaseDate: 2025-03-25 # https://openai.com/index/introducing-4o-image-generation/
@@ -702,13 +756,13 @@ releases:
       - gpt-4o-mini-transcribe-2025-03-20
       - gpt-4o-mini-transcribe-2025-12-15
     releaseDate: 2025-03-20 # https://openai.com/index/introducing-our-next-generation-audio-models/
-    eoas: 2026-08-26
-    eol: 2027-02-26
+    eoas: 2026-07-20
+    eol: 2027-01-20
     link: "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe"
-    recommendedReplacement: gpt-live-transcribe or gpt-transcribe
+    recommendedReplacement: gpt-4o-mini-transcribe-2025-12-15
 
   - releaseCycle: "gpt-4o-mini-tts"
-    releaseLabel: "GPT-4o Mini TTS"
+    releaseLabel: "GPT-4o mini TTS"
     aliases:
       - gpt-4o-mini-tts-2025-03-20
       - gpt-4o-mini-tts-2025-12-15
@@ -809,7 +863,7 @@ releases:
     recommendedReplacement: gpt-5.1-chat-latest
 
   - releaseCycle: "gpt-4o-mini"
-    releaseLabel: "GPT-4o Mini"
+    releaseLabel: "GPT-4o mini"
     aliases:
       - gpt-4o-mini-2024-07-18
     releaseDate: 2024-07-18 # https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/

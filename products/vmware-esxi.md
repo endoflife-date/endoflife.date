@@ -28,26 +28,25 @@ releases:
     releaseDate: 2026-05-12
     eol: 2028-08-12
     technicalGuidance: 2029-08-12
-    latest: "9.1.1.0"
-    latestReleaseDate: 2026-09-03
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-1-0-release-notes/esx-9-1-1-0-release-notes.html
-    # No longer standalone release notes for ESX as of this release.    
+    latest: "9.1.2.0"
+    latestReleaseDate: 2026-11-24
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1/release-notes/vmware-cloud-foundation-9-1-2-0-release-notes/esx-9-1-2-0-release-notes.html
     
   - releaseCycle: "9.0"
     releaseDate: 2025-06-17
     eol: 2027-09-17
     technicalGuidance: 2028-09-17
-    latest: "9.0.2.0100"
-    latestReleaseDate: 2026-07-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/patch-releases-9-0-0-x/vsphere/esx/esx-9-0-2-0100-release-notes.html
+    latest: "9.0.2.0200"
+    latestReleaseDate: 2026-11-24
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-0/release-notes/patch-releases-9-0-0-x/vsphere/esx/esx-9-0-2-0200-release-notes.html
 
   - releaseCycle: "8.0"
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3k"
-    latestReleaseDate: 2026-07-29
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3k-release-notes.html
+    latest: "8.0 Update 3m"
+    latestReleaseDate: 2026-11-19
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3m-release-notes.html
 
   - releaseCycle: "7.0"
     releaseDate: 2020-04-02
@@ -61,9 +60,9 @@ releases:
     releaseDate: 2018-04-17
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
-    latest: "6.7 Update 3w"
-    latestReleaseDate: 2024-10-28
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-7/release-notes/vcenter-server-update-and-patch-releases.html
+    latest: "6.7 ESXi670-202403001"
+    latestReleaseDate: 2024-03-05
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-7-Release-Notes/esxi670-202403001.pdf
 
   - releaseCycle: "6.5"
     releaseDate: 2016-11-15
@@ -71,7 +70,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.5 ESXi650-202403001"
     latestReleaseDate: 2024-03-05
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/6-5/release-notes.html
+    link: https://techdocs.broadcom.com/content/dam/broadcom/techdocs/us/en/pdf/vmware/vsphere/vsphere/vSphere-6-5-Release-Notes/esxi650-202403001.pdf
 
   - releaseCycle: "6.0"
     releaseDate: 2015-03-12
