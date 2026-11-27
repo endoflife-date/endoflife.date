@@ -25,16 +25,18 @@ auto:
 
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
+# From 4.3 on (https://spark.apache.org/versioning-policy.html): eol(x) = releaseDate(x) + 6 months,
+# except the last x.y.0 of a major (LTS, 4.5 for 4.x), which gets 18 months.
 releases:
   - releaseCycle: "4.3"
     releaseDate: 2026-10-30
-    eol: 2028-04-30 # estimated
+    eol: 2027-04-30 # estimated
     latest: "4.3.0"
     latestReleaseDate: 2026-10-27
 
   - releaseCycle: "4.2"
     releaseDate: 2026-07-14
-    eol: 2028-01-11 # estimated
+    eol: 2028-01-14 # estimated
     latest: "4.2.1"
     latestReleaseDate: 2026-10-21
 
@@ -166,11 +168,14 @@ releases:
 > [Apache Spark](https://spark.apache.org/) is a multi-language engine for executing data
 > engineering, data science, and machine learning on single-node machines or clusters.
 
-Apache Spark follows [semantic versioning](https://semver.org). Minor releases happen roughly every
-6 months and are maintained with bug and security fixes for a period of 18 months.
+Apache Spark follows [semantic versioning](https://semver.org). Up to 4.2, minor releases happened
+roughly every 6 months and were maintained with bug and security fixes for a period of 18 months.
+The last minor release within a major release was typically maintained for longer as an LTS release.
+For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
 
-The last minor release within a major release will typically be maintained for longer as an LTS
-release. For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
+Starting with 4.3, feature releases ship quarterly and a new major release ships every year. Major
+and feature releases are maintained for 6 months. The last feature release of each major line is
+the LTS release and is maintained for 18 months. For 4.x, the LTS release is 4.5 rather than 4.3.
 
 As an exception, 3.5.x has an extended LTS period (security fixes only) ending November 2027 to
 allow time for migrations. This extension does not apply to Spark sub-projects with separate
