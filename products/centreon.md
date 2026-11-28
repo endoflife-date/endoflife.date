@@ -48,8 +48,8 @@ releases:
     releaseDate: 2024-10-31
     eol: 2027-10-31
     eoes: 2027-10-31
-    latest: "24.10.32"
-    latestReleaseDate: 2026-11-20
+    latest: "24.10.33"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "24.04"
     releaseDate: 2024-04-22

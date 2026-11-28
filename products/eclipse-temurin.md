@@ -92,7 +92,7 @@ releases:
   - releaseCycle: "25"
     lts: true
     releaseDate: 2025-09-22
-    eol: 2031-09-30
+    eol: 2033-09-30
     latest: "25.0.5.1+2"
     latestReleaseDate: 2026-11-18
 
@@ -117,7 +117,7 @@ releases:
   - releaseCycle: "21"
     lts: true
     releaseDate: 2023-10-10
-    eol: 2029-12-31
+    eol: 2031-09-30
     latest: "21.0.13.1+2"
     latestReleaseDate: 2026-11-18
 
@@ -142,7 +142,7 @@ releases:
   - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-22
-    eol: 2027-10-31
+    eol: 2029-01-31
     latest: "17.0.21.1+2"
     latestReleaseDate: 2026-11-18
 
@@ -150,7 +150,7 @@ releases:
   - releaseCycle: "11"
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
-    eol: 2027-10-31
+    eol: 2032-01-31
     latest: "11.0.33.1+1"
     latestReleaseDate: 2026-11-20
 
@@ -165,7 +165,7 @@ releases:
   - releaseCycle: "8"
     lts: true
     releaseDate: 2021-07-29
-    eol: 2030-12-31
+    eol: 2032-12-31
     latest: "8u514-b01"
     latestReleaseDate: 2026-11-19
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
