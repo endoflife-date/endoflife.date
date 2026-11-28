@@ -38,7 +38,7 @@ releases:
     # technicalGuidance: ???
     latest: "5.2.5"
     latestReleaseDate: 2026-11-19
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-5-2-and-earlier/5-2/vcf-release-notes/vmware-cloud-foundation-524-release-notes.html
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-5-2-and-earlier/5-2/vcf-release-notes/vmware-cloud-foundation-525-release-notes.html
 
   - releaseCycle: "5.1"
     releaseDate: 2023-11-07
