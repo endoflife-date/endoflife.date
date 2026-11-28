@@ -60,9 +60,7 @@ releases:
     apiVersion: "32"
     codename: Snow Cone v2
     releaseLabel: 12.1 'Snow Cone v2' (aka 12L)
-    releaseDate: 2022-03-07
-    eol: 2025-03-03
-    link: https://developer.android.com/about/versions/12/12L
+    https://developer.android.com/about/versions/12/12L
 
   - releaseCycle: "12"
     apiVersion: "31"
