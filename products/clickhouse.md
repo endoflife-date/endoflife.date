@@ -25,27 +25,27 @@ releases:
   - releaseCycle: "26.11"
     releaseDate: 2026-11-24
     eol: false
-    latest: "26.11.3.10"
-    latestReleaseDate: 2026-11-26
+    latest: "26.11.4.11"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "26.10"
     releaseDate: 2026-10-24
     eol: false
-    latest: "26.10.14.14"
-    latestReleaseDate: 2026-11-26
+    latest: "26.10.15.10"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "26.9"
     releaseDate: 2026-09-21
     eol: false
-    latest: "26.9.40.9"
-    latestReleaseDate: 2026-11-26
+    latest: "26.9.41.4"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "26.8"
     lts: true
     releaseDate: 2026-08-27
     eol: 2027-08-27
-    latest: "26.8.48.11"
-    latestReleaseDate: 2026-11-26
+    latest: "26.8.49.6"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "26.7"
     releaseDate: 2026-07-22
@@ -75,8 +75,8 @@ releases:
     lts: true
     releaseDate: 2026-03-26
     eol: 2027-03-26
-    latest: "26.3.72.6"
-    latestReleaseDate: 2026-11-26
+    latest: "26.3.73.9"
+    latestReleaseDate: 2026-11-27
 
   - releaseCycle: "26.2"
     releaseDate: 2026-02-27
